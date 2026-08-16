@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816113703626_2cc386bab1",
+  "projectId": "proj-msptzqupkke",
+  "manuscriptVersionId": "mv_199accf53dc7fe4d",
+  "contentHash": "199accf53dc7fe4d693e64b48eacef463b28866211e599fc62ab49a667c62ed9",
+  "title": "电子游戏简史·卷五：无处不在",
+  "subtitle": "",
+  "authorDisplayName": "",
+  "description": "本书是《电子游戏简史》五卷本之卷五（终卷）《无处不在：服务纪元与玩的八十年》（2016-2025）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期——终卷要把这条论证收拢闭合。四个贯穿五卷的总纲概念在本卷的任务与终局：①「硬币契约」——本卷写拥有的终结：从买断到订阅（Game Pass）、从产品到服务（Fortnite 的赛季制）、从消费到投入（每日任务与战斗通行证把「玩」改写成「上班」）——八十年前投进街机的那枚硬币，如今变成了永不结账的订阅流水；②「客厅争夺战」——本卷写战场的消失即无处不在：云游戏、跨平台存档、Switch 与 Steam Deck 把客厅装进口袋又摊开在任何屏幕——当游戏无处不在，「争夺客厅」这场打了五十年的战争以战场蒸发告终；③「作者与流水…",
+  "category": "历史",
+  "tags": [],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 227828,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-16T11:36:59.273Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "泰坦的残骸",
+      "units": 11676
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "纸板里的宣言",
+      "units": 10485
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "荒岛上的百万囚徒",
+      "units": 9127
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "堡垒的转身",
+      "units": 7755
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "赛季的发明",
+      "units": 8024
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "直播之夜的炼金术",
+      "units": 9045
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "大逃杀军备竞赛",
+      "units": 7766
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "一人军队",
+      "units": 8492
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "订阅的信仰",
+      "units": 12754
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "璃月的全球征途",
+      "units": 10205
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "虚拟避难所",
+      "units": 7940
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "元宇宙的泡沫与残渣",
+      "units": 8377
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "上市钟声里的童工经济",
+      "units": 9295
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "冠军的流水线",
+      "units": 7897
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "并购桌上的终局",
+      "units": 10358
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "引擎的背叛",
+      "units": 7666
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "裁员信的季节",
+      "units": 8743
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "生成键上的赌注",
+      "units": 8374
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "幸存者的税单",
+      "units": 9844
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "一个人的上市",
+      "units": 8548
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "百分之三十的宪法",
+      "units": 7628
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "观众即作者",
+      "units": 8360
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "盒子的身份危机",
+      "units": 10466
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "玩的八十年",
+      "units": 10613
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "硬币的背面",
+      "units": 8390
+    }
+  ],
+  "publishedAt": "2026-08-16T11:37:03.628Z"
+}
