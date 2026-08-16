@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816030336755_f45d6f194f",
+  "projectId": "proj-msucvek2e0b",
+  "manuscriptVersionId": "mv_dcd6ec790c675ff8",
+  "contentHash": "dcd6ec790c675ff872d8876c65dacd9a1891254f409bd2e59d18aa00f592824d",
+  "title": "预警之后：全球城市防灾技术史",
+  "subtitle": "",
+  "authorDisplayName": "张青青",
+  "description": "核心问题：技术如何改变城市面对灾害的方式？核心论点：防灾技术不仅是工具，更是风险认知与社会信任的载体。范围：19世纪末至今全球主要城市。矛盾：技术乐观主义与社会接受度、标准化与地方适应性。重点：关键技术突破及其在城市落地时的争议与调适。",
+  "category": "技术史",
+  "tags": [],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 222277,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-16T02:53:28.836Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "19世纪最后三十年",
+      "units": 7774
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "管道与病菌：卫生工程重塑的城市身体",
+      "units": 7924
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "钢铁骨架：建筑规范中的安全博弈",
+      "units": 9364
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "风暴之眼：预警网络与时间争夺战",
+      "units": 7972
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "当单一技术各自为战",
+      "units": 9901
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "震动中的方程：地震工程学的诞生",
+      "units": 7730
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "震动转化为规范",
+      "units": 7744
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "数字之眼：气象雷达与可计算的风暴",
+      "units": 9470
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "火的科学：燃烧建模与城市火险重定义",
+      "units": 8376
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "灾害社会学：作为社会放大器的城市系统",
+      "units": 9407
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "全球扩散：抗震规范的政治经济学",
+      "units": 8450
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "预警的公共化：从国家机器到城市日常",
+      "units": 7425
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "洪泛区的算术",
+      "units": 7981
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "大地的神经末梢",
+      "units": 12598
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "系统间的韧带",
+      "units": 9547
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "灾难的模型生意",
+      "units": 7589
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "风险证券化",
+      "units": 11774
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "韧性度量学",
+      "units": 7379
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "灾备即服务",
+      "units": 9877
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "保险的退场与再入场",
+      "units": 9170
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "警报疲劳症",
+      "units": 7733
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "韧性鸿沟",
+      "units": 9820
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "记忆的数字化",
+      "units": 10067
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "不可投保的未来",
+      "units": 9200
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "安全之后：城市防灾的认知边界",
+      "units": 8005
+    }
+  ],
+  "publishedAt": "2026-08-16T03:03:36.758Z"
+}
