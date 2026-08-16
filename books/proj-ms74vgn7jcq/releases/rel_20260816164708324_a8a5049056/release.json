@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816164708324_a8a5049056",
+  "projectId": "proj-ms74vgn7jcq",
+  "manuscriptVersionId": "mv_737fc76049227d34",
+  "contentHash": "737fc76049227d341769eef8a37ca032ab1e18add44b5770bd25f1f81ab2a26a",
+  "title": "戊戌百日实录",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "以档案编年实录体重建 1898 年 6 月 11 日至 9 月 21 日的戊戌变法百日：逐日排比上谕、奏折、日记与电报，《杰士上书汇录》《翁同龢日记》《康南海自编年谱》互证，让文书自己讲出改革如何加速、失控与倾覆。克制评述，文献说话。",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 5,
+    "units": 41569,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "胶州湾危机与总署奏折",
+      "units": 9503
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "明定国是诏书与首辅之退",
+      "units": 8558
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "朱批汇编中的部院裁撤",
+      "units": 8325
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "廷寄电文里的八月初六",
+      "units": 7689
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "政变后军机处案卷之封存",
+      "units": 7494
+    }
+  ],
+  "publishedAt": "2026-08-16T16:47:08.324Z"
+}

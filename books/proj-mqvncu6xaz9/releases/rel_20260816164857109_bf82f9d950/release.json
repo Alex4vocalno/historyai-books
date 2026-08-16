@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816164857109_bf82f9d950",
+  "projectId": "proj-mqvncu6xaz9",
+  "manuscriptVersionId": "mv_48f0006913a035ef",
+  "contentHash": "48f0006913a035effcddce6af996786d62221c31c3e7d074c7cc46f3dc256dc5",
+  "title": "科举一千三百年：从605到1905",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "从隋大业元年（605）第一次以考试取士，到清光绪三十一年（1905）一纸诏书废止，科举的真正力量不在于它有多公平、选才有多准，而在于它把一个朴素而危险的信念铸进了中华文明的底层代码——上升是可能的，而且是凭本事。 正是这台希望机器，一手稳住了帝国的统治（让野心向考场而非战场流动），一手锁死了帝国的头脑（让最聪明的人把一生耗在一种文体上）。它既是中国社会千年超稳定的密码，也是中国近代转型迟滞的枷锁。本书要追问的，是同一套制度如何同时成就与拖垮了一个文明。 主线如何贯穿一千三百年 全书沿着这台机器\"被发明—被完善—被神化—被废弃\"的命运推进，而每一段都在回答同一个问题：它对谁开放了希望，又对谁关上了门？ 创制（隋唐）：门阀贵族垄断千年的入仕之路，第一次向寒门撕开一道缝。考试从权宜之计，变成皇权用来稀释世族的武器。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 50,
+    "units": 500133,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "门阀锁死的上升通道",
+      "units": 11432
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "皇权撕开的第一道裂缝",
+      "units": 9726
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "天下英雄入吾彀中",
+      "units": 9295
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "诗赋取士与审美转向",
+      "units": 10206
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "座主门生与权力重组",
+      "units": 10868
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "门阀覆灭与场域下沉",
+      "units": 10039
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "行卷与考场外的声誉",
+      "units": 9273
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "座主门生与恩庇网络",
+      "units": 10030
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "落第文人与边缘创造",
+      "units": 10063
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "地方学宫与教育空间",
+      "units": 9069
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "案头革命与备考物质",
+      "units": 9533
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "赶考之路与贡院生态",
+      "units": 10085
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "晨钟暮鼓里的光阴",
+      "units": 9551
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "被考试异化的书院",
+      "units": 10126
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "赶考路上的地理整合",
+      "units": 8966
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "号舍之内的肉体规训",
+      "units": 9923
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "放榜之日的社会狂欢",
+      "units": 10502
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "落第文人的边缘生存",
+      "units": 11917
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "赴考旅途与流动社会",
+      "units": 11096
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "落第士人的边缘生存",
+      "units": 9471
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "八股文法与思想牢笼",
+      "units": 9711
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "坊刻时文与科举出版",
+      "units": 11379
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "馆阁书法与视觉规训",
+      "units": 8446
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "世俗文学中的科举想象",
+      "units": 9505
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "行卷风尚与文学交际场",
+      "units": 8823
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "坊刻时文与知识传播网",
+      "units": 10218
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "八股文体与馆阁体书法",
+      "units": 11831
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "考篮器物与号舍身体史",
+      "units": 10951
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "朱卷齿录与官僚关系网",
+      "units": 9872
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "通俗文学中的科举想象",
+      "units": 7929
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "功名壁垒与士绅阶层的崛起",
+      "units": 9402
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "宗族投资与科举世家的结网",
+      "units": 12269
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "座主门生与官僚权力的私属",
+      "units": 6672
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "边缘士人与基层秩序的暗流",
+      "units": 9332
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "皇权与绅权的基层权力博弈",
+      "units": 9282
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "身份焦虑与单一权力标尺",
+      "units": 11164
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "功名特权与基层权力",
+      "units": 10160
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "落第士人与边缘网络",
+      "units": 11095
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "宗族投资与科举家族",
+      "units": 9967
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "功名贬值与劣绅化危机",
+      "units": 8509
+    },
+    {
+      "idx": 40,
+      "sourceIdx": 40,
+      "title": "制度拆除与身份重构",
+      "units": 9578
+    },
+    {
+      "idx": 41,
+      "sourceIdx": 41,
+      "title": "考试信仰与现代遗传",
+      "units": 11178
+    },
+    {
+      "idx": 42,
+      "sourceIdx": 42,
+      "title": "失去中枢的乡土社会",
+      "units": 10768
+    },
+    {
+      "idx": 43,
+      "sourceIdx": 43,
+      "title": "新式学堂与旧式书生",
+      "units": 12995
+    },
+    {
+      "idx": 44,
+      "sourceIdx": 44,
+      "title": "民国文官考试的挫折",
+      "units": 7456
+    },
+    {
+      "idx": 45,
+      "sourceIdx": 45,
+      "title": "现代高考与科举基因",
+      "units": 9828
+    },
+    {
+      "idx": 46,
+      "sourceIdx": 46,
+      "title": "学历崇拜与身份焦虑",
+      "units": 11131
+    },
+    {
+      "idx": 47,
+      "sourceIdx": 47,
+      "title": "走不出的考试文明",
+      "units": 9555
+    },
+    {
+      "idx": 48,
+      "sourceIdx": 48,
+      "title": "废科之后的制度还魂",
+      "units": 8851
+    },
+    {
+      "idx": 49,
+      "sourceIdx": 49,
+      "title": "考试信仰与文明底色",
+      "units": 11105
+    }
+  ],
+  "publishedAt": "2026-08-16T16:48:57.109Z"
+}

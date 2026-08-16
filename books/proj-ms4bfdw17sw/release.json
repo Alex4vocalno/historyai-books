@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816164708494_978b12395e",
+  "projectId": "proj-ms4bfdw17sw",
+  "manuscriptVersionId": "mv_70a4893b0a1c6bce",
+  "contentHash": "70a4893b0a1c6bcee276dd909595f3288bdc118370967a95132be1cb8396a192",
+  "title": "围城雪：靖康元年的汴京",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "历史小说：靖康元年冬，金军第二次围城至汴京陷落的四十日。以一位太学生、一名开封府小吏与一位内廷医官三条视线交错，写围城中的朝议、市井、粮价、雪与人心。史实骨架依《靖康纪闻》《三朝北盟会编》，对白与内心为合理虚构，重大史实、年代与关键事件不可改。",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 5,
+    "units": 56441,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "霜降汴京与未愈之疮",
+      "units": 12321
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "铁骑叩关与汴京闭城",
+      "units": 13672
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "斗米千钱与六甲神兵",
+      "units": 11051
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "城垣崩塌与青城泣血",
+      "units": 11087
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "北去车辙与故都余烬",
+      "units": 8310
+    }
+  ],
+  "publishedAt": "2026-08-16T16:47:08.494Z"
+}

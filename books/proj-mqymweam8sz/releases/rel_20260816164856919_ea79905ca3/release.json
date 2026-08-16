@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816164856919_ea79905ca3",
+  "projectId": "proj-mqymweam8sz",
+  "manuscriptVersionId": "mv_d86abd1ca5f850ef",
+  "contentHash": "d86abd1ca5f850ef0773c5ebf6aeaebd761449478a78ff6148bfaf8458190dff",
+  "title": "The Browser Wars: Netscape, Microsoft, and the Battle for the Web",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "A trade-history narrative of the browser wars from Mosaic and Netscape through Microsoft Internet Explorer, the antitrust battle, Mozilla, web standards, and the long aftermath that led to Chrome and the platform web.…",
+  "category": "战争史",
+  "tags": [
+    "战争史",
+    "History",
+    "Nonfiction"
+  ],
+  "language": "en",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 12,
+    "units": 44295,
+    "unitLabel": "words"
+  },
+  "editorialScore": null,
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "Architects of the Graphical Web Gateway",
+      "units": 3453
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "Forging the First Graphical Web Gateway",
+      "units": 4016
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Browser as a New Operating System",
+      "units": 3774
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Navigator Platform and the Emerging Web Gateway",
+      "units": 3740
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Tidal Wave and the Windows Fortress",
+      "units": 2638
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Structural Power of Windows Distribution",
+      "units": 4792
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Windows Integration and the Architecture of Control",
+      "units": 2624
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Integrating the Web into the Windows Shell",
+      "units": 3094
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Open Source Rebellion and Web Standards",
+      "units": 3949
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Developer Revolt and Web Standards",
+      "units": 4125
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Emergence of the Modern Platform Web",
+      "units": 3846
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Enduring Gateway and the Platform Web",
+      "units": 4244
+    }
+  ],
+  "publishedAt": "2026-08-16T16:48:56.920Z"
+}

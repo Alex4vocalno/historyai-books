@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816164605264_4ae9400a47",
+  "projectId": "proj-ms8745q6w7r",
+  "manuscriptVersionId": "mv_bbb0ccdb99600ffb",
+  "contentHash": "bbb0ccdb99600ffb2e5b11ea8d0374aaf7c9bbc60d25eabbe84da1bb98bce488",
+  "title": "笔墨的黄金四百年：从钟繇到颜真卿",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "以文化史随笔的笔调写汉字书写艺术的黄金四百年：钟繇的楷则、二王的风流、智永的传承、初唐四家的法度、颜真卿的筋骨。每篇从一件传世法帖进入，写字，也写字背后的人、时代与趣味的流变。",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 5,
+    "units": 42942,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "钟繇楷则与汉魏书写场域",
+      "units": 8344
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "兰亭序里的江左士人日常",
+      "units": 8705
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "智永千字文与南朝笔墨传承",
+      "units": 8512
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "九成宫碑背后的初唐权力",
+      "units": 8518
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "祭侄文稿与中唐筋骨重塑",
+      "units": 8863
+    }
+  ],
+  "publishedAt": "2026-08-16T16:46:05.264Z"
+}

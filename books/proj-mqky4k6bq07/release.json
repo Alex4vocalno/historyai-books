@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816164857353_9e82b139a4",
+  "projectId": "proj-mqky4k6bq07",
+  "manuscriptVersionId": "mv_509723cf7b6468bb",
+  "contentHash": "509723cf7b6468bb044e3e9e41c44e7b69b00f8bb5dd0a6aa1d35df070827011",
+  "title": "英伟达：一场赌了十年的并行计算豪赌",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "1993 年，黄仁勋和两名工程师在一张餐桌上下了一个赌注：个人电脑迟早要学会画图，而世上还没有一块芯片专门干这件事。公司从诞生那天起就是赌性的。第一代产品 NV1 押错了方向，几乎让它夭折；这场近死教会它一件事——押对底层架构，比押对某个产品重要得多。靠着 RIVA 系列翻身后，1999 年的 GeForce 256 索性把\"显卡\"重新定义成一个全新的产业类别\"GPU\"，在与 3dfx 的厮杀中胜出。到这里，它还只是一家做得不错的图形芯片公司。 真正的分叉发生在 2006 年。黄仁勋决定把 GPU 从\"画图的\"赌成\"通用算力的\"，为此推出 CUDA，并把整条产品线绑上这套软件生态。这个决定在当时近乎不可理喻：它压低毛利、华尔街看不懂、客户也用不上。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 18,
+    "units": 191254,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "餐桌赌注与首次濒死",
+      "units": 10254
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "架构觉醒与绝地反击",
+      "units": 9426
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "定义GPU与绞杀行业霸主",
+      "units": 10581
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "图形霸主的边界与隐患",
+      "units": 9587
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "算力豪赌与华尔街的盲区",
+      "units": 10553
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "荒野十年与生态锁定的雏形",
+      "units": 10556
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "图形霸主的脆弱边界",
+      "units": 11176
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "极客滥用与算力暗流",
+      "units": 9017
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "绑定生态的昂贵豪赌",
+      "units": 11506
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "荒野十年的财务绞杀",
+      "units": 11993
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "缺陷危机与破产边缘",
+      "units": 10772
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "结构重塑与意外破晓",
+      "units": 10412
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "矿机狂热与战略身份迷失",
+      "units": 10690
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "并购迈络思与网络拼图",
+      "units": 10387
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "收购流产与产业边界划定",
+      "units": 10154
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "算法引爆与算力需求失控",
+      "units": 10637
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "软件生态锁定与突围博弈",
+      "units": 12261
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "远见运气与算力终局",
+      "units": 11292
+    }
+  ],
+  "publishedAt": "2026-08-16T16:48:57.353Z"
+}

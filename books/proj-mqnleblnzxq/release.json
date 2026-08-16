@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260816164857197_e80d9726b0",
+  "projectId": "proj-mqnleblnzxq",
+  "manuscriptVersionId": "mv_6b9920683bd40c7f",
+  "contentHash": "6b9920683bd40c7f94f5f0b812cbb4cc95e085bede857820e9a20935af7f0e6a",
+  "title": "The Deep Learning Revolution： AlexNet to ChatGPT",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "Book Overview Between 2012 and 2023, a set of ideas that mainstream computer science had spent thirty years dismissing went from academic embarrassment to the most consequential technology of the century.…",
+  "category": "World History",
+  "tags": [
+    "World History",
+    "History",
+    "Nonfiction"
+  ],
+  "language": "en",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 55048,
+    "unitLabel": "words"
+  },
+  "editorialScore": null,
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Exiled Architects of the Connectionist Revival",
+      "units": 6723
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Exiled Architecture of Early Neural Networks",
+      "units": 1146
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Exiled Architecture of Connectionist Learning",
+      "units": 4042
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "Backpropagation and the Limits of Early Connectionism",
+      "units": 3808
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Early Architectures and the Limits of Depth",
+      "units": 1725
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Architecture of Brute Statistical Force",
+      "units": 6836
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Infrastructure of Silicon and Proprietary Data",
+      "units": 7142
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Industrial Consolidation of Compute and Data",
+      "units": 1550
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Architecture of Computational Monopoly",
+      "units": 2635
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Transformer Architecture and the Scaling Turn",
+      "units": 2340
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Scaling Laws and the Abandonment of Elegance",
+      "units": 3630
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Predictable Mechanics of Massive Scale",
+      "units": 2704
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Consolidation of Compute and Foundation Models",
+      "units": 2760
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Consolidation of Compute and Capital",
+      "units": 3271
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Triumph of Scale and the Unresolved Horizon",
+      "units": 4736
+    }
+  ],
+  "publishedAt": "2026-08-16T16:48:57.197Z"
+}
