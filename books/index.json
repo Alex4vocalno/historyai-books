@@ -1,5 +1,26 @@
 [
   {
+    "id": "proj-msucvek2e0b",
+    "projectId": "proj-msucvek2e0b",
+    "releaseId": "rel_20260816171056134_07a0fb8dbe",
+    "title": "预警之后：全球城市防灾技术史",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "技术史",
+    "tags": [
+      "技术史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "核心问题：技术如何改变城市面对灾害的方式？核心论点：防灾技术不仅是工具，更是风险认知与社会信任的载体。范围：19世纪末至今全球主要城市。矛盾：技术乐观主义与社会接受度、标准化与地方适应性。重点：关键技术突破及其在城市落地时的争议与调适。",
+    "chapterCount": 25,
+    "editorialScore": null,
+    "coverUrl": "books/proj-msucvek2e0b/releases/rel_20260816171056134_07a0fb8dbe/cover.jpg",
+    "url": "books/proj-msucvek2e0b/index.html",
+    "publishedAt": "2026-08-16T17:10:56.142Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msptzqupkke",
     "projectId": "proj-msptzqupkke",
     "releaseId": "rel_20260816170723393_a1ad927f6c",
@@ -767,21 +788,6 @@
     "coverUrl": "",
     "url": "books/proj-ms8luyjq3ey/index.html",
     "publishedAt": "2026-08-16T16:46:05.207Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msucvek2e0b",
-    "projectId": "proj-msucvek2e0b",
-    "releaseId": "rel_20260816033736764_4fd2c3e976",
-    "title": "预警之后：全球城市防灾技术史",
-    "subtitle": "",
-    "authorDisplayName": "张青青",
-    "category": "技术史",
-    "chapterCount": 25,
-    "editorialScore": null,
-    "coverUrl": "books/proj-msucvek2e0b/releases/rel_20260816033736764_4fd2c3e976/cover.jpg",
-    "url": "books/proj-msucvek2e0b/index.html",
-    "publishedAt": "2026-08-16T03:37:36.768Z",
     "visibility": "public"
   }
 ]
