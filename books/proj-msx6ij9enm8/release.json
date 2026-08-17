@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817115747557_abf529fc80",
+  "projectId": "proj-msx6ij9enm8",
+  "manuscriptVersionId": "mv_26a4eda616af8de8",
+  "contentHash": "26a4eda616af8de8177eb830ef972e9fb6f25a9dff3abf7bea3fa8cc01cea0ea",
+  "title": "雅达利大崩溃：电子游戏的第一次死亡",
+  "subtitle": "电子游戏的第一次死亡",
+  "authorDisplayName": "李思特Think",
+  "description": "1983年，北美电子游戏产业在短短数月内蒸发97%，史称“雅达利大崩溃”。本书以编年史手法全景还原这场灾难：从雅达利2600的开放架构催生第一批第三方开发者，到宠物食品公司也能生产游戏卡带；从1982年圣诞节的《吃豆人》移植灾难与《E.T.》五周开发，到次年春天的退货潮与库存雪崩。作者指出，崩溃并非单一公司的失败，而是人类第一次“内容无限供给遇上质量无门槛”的市场实验——当平台失去守门人，繁荣本身就是死亡螺旋的燃料。书中更追踪了崩溃的遗产：任天堂权利金制度如何重建品质门槛，以及此后四十年游戏产业的一切制度设计，如何刻在这场崩溃的墓碑上。本书结合供应链分析、神话学解读与考古现场记录，分离“崩溃的原因”与“崩溃的故事”，为理解现代游戏产业提供了一把钥匙。",
+  "category": "游戏史",
+  "tags": [
+    "电子游戏",
+    "商业史",
+    "雅达利",
+    "产业崩溃",
+    "任天堂"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 217782,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T11:57:47.275Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "车库里的示波器",
+      "units": 8380
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "家庭战争",
+      "units": 8670
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "西装与热浴缸",
+      "units": 9774
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "印钞机的秘密",
+      "units": 8386
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "四个名字",
+      "units": 9001
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "开闸",
+      "units": 7575
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "宠物食品与游戏卡带",
+      "units": 7506
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "吃豆人的圣诞节",
+      "units": 8579
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "五周",
+      "units": 7827
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "电话会",
+      "units": 8825
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "退货潮",
+      "units": 7730
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "午夜车队",
+      "units": 8601
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "折扣桶里的价格尸体",
+      "units": 8401
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "季报上的数字雪崩",
+      "units": 10397
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "雅达利的尸体解剖",
+      "units": 8262
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "真空",
+      "units": 8366
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "守门人的图纸",
+      "units": 8728
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "新世界的入场券",
+      "units": 8381
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "任天堂的律师信",
+      "units": 8394
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "红白机上的美国",
+      "units": 8400
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "幽灵的诉讼",
+      "units": 9826
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "阿拉莫戈多的挖掘机",
+      "units": 9097
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "守门人的黄昏",
+      "units": 8271
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "墓碑上的答案",
+      "units": 10234
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "锁芯里的幽灵",
+      "units": 10171
+    }
+  ],
+  "publishedAt": "2026-08-17T11:57:47.559Z"
+}
