@@ -20,7 +20,12 @@
     "units": 221495,
     "unitLabel": "字"
   },
-  "editorialScore": null,
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-2"
+  },
   "cover": {
     "file": "cover.jpg",
     "provider": "openrouter",
