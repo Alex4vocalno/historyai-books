@@ -1,5 +1,37 @@
 [
   {
+    "id": "proj-msls7w87u6c",
+    "projectId": "proj-msls7w87u6c",
+    "releaseId": "rel_20260817100140256_d9bb43b69c",
+    "title": "玩家造物主：从 MOD 到 UGC 经济",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏研究",
+      "数字文化",
+      "平台经济",
+      "用户生成内容",
+      "模组开发",
+      "创意产业"
+    ],
+    "description": "从《半条命》的MOD到《我的世界》的模组，从《反恐精英》的诞生到Roblox的虚拟经济，玩家早已不只是消费者。本书追溯了用户生成内容（UGC）如何从车库里的技术爱好，演变为驱动游戏产业乃至平台经济的核心力量。它讲述了玩家如何利用游戏提供的工具，像“造物主”一样重塑规则、创造玩法，并最终形成一个充满活力的创作者生态。书中不仅回顾了《DOTA》、Steam创意工坊等关键节点，也探讨了平台规则、版权争议与创作者经济等现实议题，是一部关于数字时代创造性劳动与所有权变迁的微观史。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 92,
+      "staleScore": 92,
+      "reportId": "1edf5addde34",
+      "createdAt": "2026-08-09T14:57:33.629Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "books/proj-msls7w87u6c/releases/rel_20260817100140256_d9bb43b69c/cover.jpg",
+    "url": "books/proj-msls7w87u6c/index.html",
+    "publishedAt": "2026-08-17T10:01:40.258Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msls7pjq7tw",
     "projectId": "proj-msls7pjq7tw",
     "releaseId": "rel_20260817100116070_4872706a5f",
@@ -204,35 +236,6 @@
     "coverUrl": "",
     "url": "books/proj-msls82n4tcr/index.html",
     "publishedAt": "2026-08-17T09:50:38.409Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msls7w87u6c",
-    "projectId": "proj-msls7w87u6c",
-    "releaseId": "rel_20260817094958629_57a86a1b9e",
-    "title": "玩家造物主：从 MOD 到 UGC 经济",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "中国史",
-    "tags": [
-      "中国史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "玩家改游戏改出一个产业：反恐精英、DOTA、创意工坊、Roblox——用户生成内容如何从车库爱好变成平台经济",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "rules",
-      "score": 92,
-      "staleScore": 92,
-      "reportId": "1edf5addde34",
-      "createdAt": "2026-08-09T14:57:33.629Z",
-      "manuscriptVersionId": ""
-    },
-    "coverUrl": "",
-    "url": "books/proj-msls7w87u6c/index.html",
-    "publishedAt": "2026-08-17T09:49:58.629Z",
     "visibility": "public"
   },
   {
