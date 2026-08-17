@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817131507186_bbf13f5afc",
+  "projectId": "proj-msx2pj20liu",
+  "manuscriptVersionId": "mv_1ec281b2b85edc47",
+  "contentHash": "1ec281b2b85edc47bc3930a2df3fe533ae7d3460dc732de3a16ea3c898fdb881",
+  "title": "历史的游乐场：刺客信条与育碧的十七年",
+  "subtitle": "当历史成为可攀爬的游乐场",
+  "authorDisplayName": "李思特Think",
+  "description": "这是一部关于《刺客信条》系列与其背后的育碧公司的深度剖析之作。本书以十七年的时间跨度为经，以“历史如何被转化为可消费的游乐场”这一核心张力为纬，追溯了育碧蒙特利尔工作室从《波斯王子》余烬中崛起的野心，以及年货化生产体制如何将创作推向极限。作者细致拆解了系列如何在考据复原与阴谋论缝合之间反复摇摆——巴黎圣母院的逐砖重建与圣殿骑士的科幻叙事并存，历史教具的美誉与将殖民、革命降格为关卡背景的批评共生。从《大革命》上线灾难暴露的产能危机，到《起源》《奥德赛》向RPG与服务化转型的策略调整，再到职场文化清算与家族控制权之争，本书揭示了生产体制、商业逻辑与创作野心如何共同塑造了我们所看到的“历史”。",
+  "category": "游戏史",
+  "tags": [
+    "刺客信条",
+    "育碧",
+    "游戏开发",
+    "历史再现",
+    "电子游戏产业",
+    "文化批评"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 213288,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-17T13:05:43.293Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T13:15:06.853Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "时之沙的余烬",
+      "units": 8375
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "攀爬的语法",
+      "units": 8233
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "历史顾问的入场",
+      "units": 9763
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "圣殿骑士的缝线",
+      "units": 8266
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "十字军东征的游乐场",
+      "units": 8391
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "第一部刺客的诞生",
+      "units": 9316
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "即兴续作",
+      "units": 8899
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "艾吉奥的工厂",
+      "units": 7803
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "兄弟会的代价",
+      "units": 8145
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "启示录的尽头",
+      "units": 8613
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "III号机",
+      "units": 8316
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "黑旗的意外",
+      "units": 8400
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "巴黎的断头台",
+      "units": 8357
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "无面之王",
+      "units": 8400
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "伦敦的钝器",
+      "units": 8399
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "无刺之年",
+      "units": 7936
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "起源的等级",
+      "units": 8370
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "奥德赛的选择",
+      "units": 7915
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "维京人的账簿",
+      "units": 9090
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "叙事部的退场",
+      "units": 8381
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "职场地震的余波",
+      "units": 8343
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "家族与控制权",
+      "units": 8080
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "无限：历史作为服务",
+      "units": 10733
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "游乐场的出口",
+      "units": 8531
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "未竟的缝合",
+      "units": 8233
+    }
+  ],
+  "publishedAt": "2026-08-17T13:15:07.188Z"
+}
