@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817120004351_06e5c3621a",
+  "projectId": "proj-msx6lhf46w7",
+  "manuscriptVersionId": "mv_44e456eaf0fcd59a",
+  "contentHash": "44e456eaf0fcd59a9c3a10b1cebff3f873264b3bcbadea3208f8da845bd22574",
+  "title": "蒸汽之国：Valve 与 PC 游戏的二十五年",
+  "subtitle": "创作自由与平台权力的悖论",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是一部关于 Valve 公司的非虚构商业史，时间跨度从 1996 年创立到 2025 年。作者以编年体方式，深入剖析这家游戏公司如何从《半条命》的开发商演变为 PC 游戏平台 Steam 的统治者。全书围绕四个核心概念展开：'阀门时间'（无截止日期的开发文化）、'扁平的代价'（无老板管理的真相）、'平台的引力'（从创作到收租的转变）和'社区的炼金术'（MOD 文化的制度化）。通过具体人物和事件，本书揭示了 Valve 如何在赢得创作自由的同时，构建了一个让其他开发者难以摆脱的引力场。书中对扁平化管理、30% 平台抽成、半条命3 的难产等争议话题给出了基于事实的判断。适合对游戏产业、平台经济和组织管理感兴趣的读者。",
+  "category": "游戏史",
+  "tags": [
+    "Valve",
+    "Steam",
+    "游戏产业",
+    "平台经济",
+    "组织管理",
+    "PC游戏"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 221775,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T12:00:04.287Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "微软来的百万富翁",
+      "units": 8337
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "雷神之锤上的房子",
+      "units": 9285
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "迟到的完美",
+      "units": 9001
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "反恐精英的意外血统",
+      "units": 10208
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "补丁工具里的特洛伊木马",
+      "units": 7820
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "强制激活之夜",
+      "units": 8007
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "章节式发行的实验室",
+      "units": 7955
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "橘盒里的意外之王",
+      "units": 8320
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "平台引力场的形成",
+      "units": 7897
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "免费浪潮与帽子经济",
+      "units": 8399
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "众筹奖金的发明",
+      "units": 11114
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "绿光的民主伪装",
+      "units": 8171
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "客厅里的溃败",
+      "units": 8541
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "付费的背叛",
+      "units": 8167
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "三之诅咒",
+      "units": 10184
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "引力场里的纸牌屋",
+      "units": 9407
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "扁平之下的暗流",
+      "units": 8282
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "虚拟现实里的自我证明",
+      "units": 8788
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "掌机上的第二次赌注",
+      "units": 10042
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "反垄断的引力场",
+      "units": 7692
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "两个Valve的战争",
+      "units": 8442
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "30%的松动与新时代",
+      "units": 8375
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "社区炼金术的极限",
+      "units": 8376
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "阀门里的引力",
+      "units": 11745
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "两个阀门",
+      "units": 9220
+    }
+  ],
+  "publishedAt": "2026-08-17T12:00:04.353Z"
+}
