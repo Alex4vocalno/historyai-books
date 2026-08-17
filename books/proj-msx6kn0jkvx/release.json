@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817115928062_87db39c0df",
+  "projectId": "proj-msx6kn0jkvx",
+  "manuscriptVersionId": "mv_a605f101594f08c8",
+  "contentHash": "a605f101594f08c83ae2bb393b2aa8c006e0a6c83cd5be1cb44fde8a33c1d42e",
+  "title": "渠道为王：游戏平台战争史",
+  "subtitle": "谁控制玩家与游戏之间的最后一米",
+  "authorDisplayName": "李思特Think",
+  "description": "从街机厅的投币孔到云端的订阅按钮，游戏产业五十年的权力更迭史，本质是一场「谁控制玩家与游戏之间最后一米」的战争。本书以编年体通史形式，梳理1972年至2025年游戏发行渠道的演变：任天堂如何用权利金体制定义主机商业模式，Steam如何从补丁工具成长为PC渠道垄断者，App Store如何将30%抽成全球化，Epic如何用分成挑战与诉讼松动铁律，订阅与云游戏又如何试图取消购买本身。作者提出「最后一米」「权利金体制」「三十抽的由来」「渠道的自噬」四个核心概念，逐章剖析街机厅、卡带、光盘、零售货架、数字商店、移动应用商店、中国式渠道、订阅服务等历代守门人的崛起与困境。本书严格非虚构，兼顾主机、PC、移动三线，并专章讨论中国渠道的独特性。渠道从不生产快乐，但渠道决定谁的快乐能被看见。",
+  "category": "游戏史",
+  "tags": [
+    "游戏产业",
+    "平台经济",
+    "商业史",
+    "数字分发",
+    "渠道权力"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 222365,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T11:59:27.981Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "投币孔后的帝国",
+      "units": 12060
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "卡带里的立法者",
+      "units": 8336
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "黄金锁链",
+      "units": 9705
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "光盘破门",
+      "units": 10694
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "货架上的守门人",
+      "units": 10762
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "补丁工具的反叛",
+      "units": 8362
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "蒸汽的围墙",
+      "units": 8362
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "三十抽的全球化",
+      "units": 8151
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "绕行的艺术",
+      "units": 8342
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "中国式渠道",
+      "units": 8404
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "堡垒之夜与断头台",
+      "units": 8283
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "订阅的终极形态",
+      "units": 8381
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "蒸汽王国的裂痕",
+      "units": 8358
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "苹果税与它的逃税者",
+      "units": 8969
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "中国式渠道的黄金枷锁",
+      "units": 8399
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "绿底黑字的宣战布告",
+      "units": 10915
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "证词里的守门人",
+      "units": 8394
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "布鲁塞尔的锤子",
+      "units": 8398
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "合规即控制",
+      "units": 8398
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "微软的收购与云端的赌局",
+      "units": 7825
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "三十抽的松动",
+      "units": 8416
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "独立开发者的双面困境",
+      "units": 8444
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "中国渠道的自我革命",
+      "units": 8354
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "最后一米的宿命",
+      "units": 8426
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "守门人的永恒复归",
+      "units": 9227
+    }
+  ],
+  "publishedAt": "2026-08-17T11:59:28.063Z"
+}

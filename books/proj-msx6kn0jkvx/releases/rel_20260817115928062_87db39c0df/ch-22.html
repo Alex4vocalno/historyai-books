@@ -1,0 +1,147 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>独立开发者的双面困境 · 渠道为王：游戏平台战争史</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>渠道为王：游戏平台战争史</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 22 章 · 独立开发者的双面困境</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 22 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>投币孔后的帝国</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>卡带里的立法者</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>黄金锁链</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>光盘破门</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>货架上的守门人</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>补丁工具的反叛</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>蒸汽的围墙</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>三十抽的全球化</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>绕行的艺术</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>中国式渠道</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>堡垒之夜与断头台</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>订阅的终极形态</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>蒸汽王国的裂痕</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>苹果税与它的逃税者</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>中国式渠道的黄金枷锁</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>绿底黑字的宣战布告</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>证词里的守门人</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>布鲁塞尔的锤子</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>合规即控制</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>微软的收购与云端的赌局</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>三十抽的松动</span></a><a class="chapter-link active" href="ch-22.html"><span>22</span><span>独立开发者的双面困境</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>中国渠道的自我革命</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>最后一米的宿命</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>守门人的永恒复归</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 22 章</p><h1>独立开发者的双面困境</h1><div class="reader-content"><p>第22章　独立开发者的双面困境</p>
+<p>当蒂姆·斯威尼把三十抽推上被告席、守门人的定价权被拖入公共议题的余波仍在扩散时，一张收入拆分表出现在墨尔本一间小型工作室的社交媒体账号上。发布者是独立游戏《咩咩启示录》的开发者Massive Monster。时间是2023年9月，游戏在Steam发售刚满一年。</p>
+<p>表格逐项列出收入的去向：Steam拿走30%，发行商Devolver Digital再取一份，落到工作室手中的最终比例是38%。文字平淡，几乎像会计凭证。没有感叹号，没有呼吁行动。</p>
+<p>但在独立开发者聚集的论坛和社交网络里，这张表被反复截图、引用、计算。一个销量过百万、获得多项年度独立游戏提名的作品，其开发团队实际拿到的每十美元收入中，不足四美元。余下的六美元多，被渠道和中间环节抽走。</p>
+<p>同一月，另一组数字在开发者圈子里悄悄流传。一家独立工作室通过Epic商城发售新作，享受12%的分成比例。渠道只收走了八分之一强，远低于Steam的三十抽。</p>
+<p>但这款游戏的首月销量，只有Steam同期同类作品的七分之一。两个数字并置，把独立开发者面对的现实切成两面。</p>
+<p>留在Steam，必须接受更高的抽成，但那里有最大的玩家群和最成熟的推荐系统。倒向Epic，少交渠道税，却可能根本没人看见你的游戏。</p>
+<p>这种两难，在2023年秋天重新变得锋利。上一章追踪了三十抽从任天堂权利金合同到美国最高法院的漫长旅程，结论是抽成比例的权威正在松动——它必须被证明，否则就可能被改写。证明的成本在上升，改写的成本在下降。</p>
+<p>但这一章要处理的问题更棘手：即使抽成比例真的被改写，独立开发者面前还有另一道闸门。那道闸门不写在合同里，不显示在账单上，却比30%更深刻地决定着谁的游戏能活下来。</p>
+<p>Massive Monster公布的数据首先说明了一件事：独立开发者在Steam上的真实收入，远比公众想象的更加微薄。Steam的标准抽成虽然从2018年起调整为阶梯费率——收入超过1000万美元的部分降至25%，超过5000万美元的部分降至20%——但对绝大多数独立作品而言，30%仍是第一道扣减。紧随其后的是发行商。</p>
+<p>许多独立团队没有市场营销能力，只能借助发行商换取曝光、本地化和平台关系。发行商拿走的部分，从10%到30%不等，取决于合同条款和项目规模。</p>
+<p>《咩咩启示录》并非无名之作。它由Devolver Digital发行，后者以品味独特、眼光毒辣著称，曾将《迈阿密热线》《塔罗斯的法则》等作品推向市场。游戏在发售首周即获得广泛报道，其邪教经营与地牢探险的混合玩法被多家媒体讨论。即便如此，开发团队到手仍不足四成。这意味着，一个独立开发者的成功，在会计意义上打了对折以上。</p>
+<p>而在成功者之前，还有成百上千个没有获得发行商青睐、没有冲进Steam新品榜的作品。那些游戏的开发成本，根本没有机会进入分成讨论的账簿。</p>
+<p>独立开发者游寅回忆起自己团队的选择时，语气里没有抱怨，只有计算。他们在2023年初决定把新作首发于Steam，而不是Epic。原因很简单：Epic商城的用户规模仍然有限，且其客户端被许多玩家视为启动特定免费游戏的工具，而非日常浏览商店的目的地。</p>
+<p>这不是秘密。Epic从2018年12月高调进入数字商店市场以来，靠每周免费游戏和独占协议积累了数亿注册账户。但活跃购买用户与账户总量之间存在巨大鸿沟。根据Epic自己在2023年公布的数据，商城第三方的全年消费额虽然持续增长，但其中相当比例来自《原神》等少数头部免费游戏的内部购买。独立付费作品能分到的注意力，远不及账户数字所暗示的规模。</p>
+<p>很多玩家领取免费游戏后，客户端继续沉睡在硬盘里。开发者可以拿到更少被抽走的钱，却找不到足够多愿意在Epic上掏钱的买家。</p>
+<p>一位匿名开发者在论坛里算了一笔账。假设一款独立游戏定价20美元，在Steam上卖出1000份，扣除30%抽成后收入14000美元。在Epic上，同样定价，同样希望卖出1000份，实际只卖出约143份，扣除12%抽成后收入约2517美元。两种选择之间的差距不是百分比，而是生存与沉默之间的鸿沟。这个计算令人不适，但逻辑无可回避。</p>
+<p>渠道提出的分成比例只有与渠道的注意力规模结合，才有实际意义。Steam的注意力规模并非抽象数字。它体现在每天数百万玩家打开客户端后看到的首页推荐、排行榜、鉴赏家评论和愿望单更新里。</p>
+<p>Valve很少公开推荐算法的具体权重，但开发者文档中有一个词被反复提及：可见性。Valve将可见性轮次视为平台运营的核心环节——游戏需要以某种方式被玩家看见，否则再好的作品也只是数据库里的一行记录。这种被看见的机会，Steam通过多种机制分配。新品与热销榜单、按标签和游戏偏好的个性化推荐、特别促销活动、鉴赏家和媒体评分汇总——没有一家商店能保证成功，但Steam能让一款作品有机会面对最大的PC玩家基数。</p>
+<p>2023年，Steam的月活跃用户已超过1.3亿。这个数字本身就是一种重力场。Epic商城的可见性机器远没有如此细密。它的商店页面长期以编辑推荐位、免费游戏轮换和少数独占大作为主。独立作品若没有获得首页推荐，几乎只能依靠外部渠道导流。</p>
+<p>开发者很快发现，在Epic上发行，销售数据的上限往往取决于自己能从社交网络、主播和媒体那里带来多少流量。商店本身不负责制造发现，它只是一个收银台。</p>
+<p>这正是被看见问题的核心。渠道早已不只是收银台，它控制着玩家的视线从何处进入商店。抽成比例是可见的税，注意力分配则是隐形的闸门。</p>
+<p>2023年9月，另一场风暴把这种焦虑推向顶点。Unity引擎公司宣布，从2024年1月起，将按游戏安装次数向开发者收取运行时费用。</p>
+<p>消息一出，独立开发者群体迅速炸开。Unity占据全球移动游戏市场超过70%的份额，在PC和主机独立游戏领域也有大量用户。它的引擎是成千上万款游戏的地基。一家底层工具商突然宣布要按安装次数收费，意味着开发者不仅要在销售端面对商店抽成，还要在生产端面对引擎商的新税。</p>
+<p>抗议在社交媒体上迅速蔓延。许多开发者使用带有“Unity”的话题标签，贴出自己工作室的规模和年收入，质问一家工具提供商如何能骤然变成按安装计费的收租者。</p>
+<p>一些团队表示，按照Unity最初公布的收费标准，如果他们的游戏被重复安装或恶意刷量，可能面临远超总收入的账单。另一些开发者翻出多年前的服务条款，指出这样的政策转向违背了长期以来的信任。Unity在此后数日内多次调整方案、道歉并部分撤回条款，但信任已经出现裂缝。</p>
+<p>开发者意识到，自己脚下的地层并不稳固。工具、引擎、商店、推荐算法，每一个环节都可能突然改变规则，而独立开发者几乎没有议价能力。</p>
+<p>这种无力感并非新事。2018年Steam对收入超过1000万美元的游戏调低抽成时，最大受益者其实是大型发行商，而非独立开发者。独立团队的收入本就难以触及1000万美元的门槛，阶梯费率反而让头部公司的渠道成本占比更低，小团队继续承担30%的全部重量。</p>
+<p>同一年，Epic商城以12%抽成向Steam发起挑战，并以独占协议拉拢多款独立游戏。策略一度奏效：一些开发者接受了Epic的独占预付，换取更有利的分成和保底收入。但玩家社区的态度迅速分裂。</p>
+<p>Steam用户对独占行为普遍持负面看法，许多人将其视为对消费者选择权的冒犯。部分接受独占的游戏在Epic上销量远逊于预期，而开发者回归Steam后，还要面对愿望单积累中断、社区热度冷却的现实。</p>
+<p>独立开发者由此进入一个三角困境。Steam提供流量但抽成高。Epic提供低抽成但流量薄。独占协议提供现金保底但可能灼伤长期口碑。三条路都不通向一个稳定的盟友关系。</p>
+<p>2023年Unity风波期间，一名开发者在行业论坛的发言被广泛转发。他指出，平台打仗时，独立开发者被放在谈判桌上，却从不被邀请进入谈判室。他们只是那张桌子上的筹码。</p>
+<p>这番话指向的，正是渠道战争中被宏大叙事遮蔽的结构性问题。Epic挑战Steam时，高呼要为开发者争取更公平的分成。DMA强令苹果开放侧载时，宣称要打破封闭生态。甚至Valve自身也在某些时候强调其对独立开发者的友好态度。但是，当守门人之间爆发战争，独立开发者获得的是更好的条件，还是更深的依赖？答案并不让人宽慰。</p>
+<p>Epic与Steam的分成战争，让开发者第一次有了比价空间，却未改变一个基本事实：玩家注意力的入口仍然掌握在少数商店手中。Epic可以通过降低抽成吸引开发者，但如果无法吸引足够的消费者进入商店，低抽成就是一场没有观众的优惠。DMA要求苹果在欧洲开放第三方商店和侧载，但独立开发者若在苹果生态之外另建渠道，就要自己解决获客、支付、信任和留存——这些都是平台时代以来他们从未真正拥有过的能力。</p>
+<p>独立游戏在两代守门人的交替之间，曾经有过一段黄金时期。那大约是2012年到2017年。2012年，Steam推出青睐之光，允许社区投票决定哪些游戏可以上架。这套机制取代了此前由Valve内部团队人工筛选的封闭审核制。门槛骤降。越来越多的小团队得以绕过传统发行商，直接把作品送到玩家面前。</p>
+<p>同年，纪录片《独立游戏大电影》上映，让开发者成为公众人物，媒体报道把独立游戏塑造成对抗商业大制作的文化力量。</p>
+<p>这一时期，《菲斯》《以撒的结合》《洞穴探险》《杀戮尖塔》等作品不仅在销量上屡创纪录，更在舆论场上占据了某种道德高点。</p>
+<p>但那场繁荣掩盖了一个正在积聚的变化。门槛在降低，供给在爆炸，注意力却仍然是稀缺品。2012年，Steam全年新上架的游戏数量有限，每一款作品都有机会获得首页曝光和媒体报道。</p>
+<p>到了2017年，青睐之光被Steam直接发行制度取代，上架门槛进一步降低，每年新增游戏数量突破数千款。被看见的机会被稀释成细流。发现能力成了独立开发者圈子里最常见的抱怨。游戏做完了，真正的难题刚刚开始：如何让任何人知道它存在。</p>
+<p>这个问题的答案，几乎必然回到平台。没有平台推荐，就只能依赖社交媒体、直播平台和幸运的病毒传播。而这些外部渠道同样被算法控制。</p>
+<p>Steam尝试用算法解决部分问题。个性化推荐、探索队列、标签系统、鉴赏家评分，都是对注意力稀缺的制度性回应。这些工具确实帮助了一些没有发行商背景的开发者。</p>
+<p>但算法不是透明的公共设施，它是Valve掌握的运营工具。推荐权重可以调整，促销位可以分配，商店首页的位置永远有限。</p>
+<p>这正是最后一米的现代形态。在街机时代，守门人控制的是机台摆在店里的什么位置——靠近门口还是塞在角落，决定了一台机器的投币量。在零售时代，守门人控制的是货架陈列的高度和面向——与视线平齐的那层货架，比蹲下才能看到的底层多卖出数倍的拷贝。在数字时代，守门人控制的是玩家打开商店后第一个看见什么。</p>
+<p>独立开发者的困境，在于他们比任何一代开发团队都更依赖这个最后一米。街机时代的开发商可以通过街机厅老板的试机决定命运，但开发商数量有限。零售时代的开发商至少还有杂志、电视广告和玩家口碑可以绕开部分货架限制。</p>
+<p>数字时代的独立开发者，面对的是几何级数增长的竞争对手和高度集中的注意力入口。Massive Monster公布的38%，因此具有标本意义。</p>
+<p>它展示的不是一家公司的遭遇，而是一种结构性分配的结果：渠道抽走一部分，发行商抽走一部分，支付工具和税费再取一部分，最终留给一家成功独立工作室的份额，远低于公众对开发者应得回报的想象。那些更不成功的开发者呢？他们的作品在Steam上架后，可能在头几天获得少量自然曝光，随后坠入算法无法触及的深渊。游戏没有进入热销榜，没有获得大量正面评价，没有触发推荐系统的进一步分发。它安静地挂在商店里，像一个没有人路过的货架。</p>
+<p>独立开发者并非没有尝试绕开这一切。一些团队开始建立自己的商店、自己的社区、自己的邮件列表，试图把玩家从平台引导到自己的官网直接购买。这种直达玩家的策略看起来很美，但执行起来困难重重。玩家早已习惯于在Steam上购买、管理、更新和分享自己的游戏。离开这个便利体系，开发者需要自己处理支付、下载、更新、退款、客服，以及最棘手的——如何让玩家在茫茫网海中找到你的官网。绕开所有渠道直面玩家，意味着在信息海洋中无声溺亡。</p>
+<p>这是独立开发者无法承受的风险，所以他们回到平台，接受抽成，接受推荐算法的裁决。Unity收费风波给这个困境添加了一层新维度。过去，渠道权力集中在下游——商店和发布平台。引擎纠纷则暴露出上游工具商的潜在权力。如果引擎商可以按安装次数收费，那么任何一家深度嵌入开发流程的工具提供者，都可能在未来某一天变成新的守门人。独立开发者对此毫无准备。他们没有议价能力，没有替代工具的可迁移性，也没有集体谈判的组织。</p>
+<p>事件之后，Unity的股价和声誉都受到了打击，首席执行官随后辞职，一些团队开始评估转向Godot或Unreal等其他引擎。但这种评估本身需要时间和成本，大多数团队最终仍留了下来。</p>
+<p>这是一个古老的逻辑：切换到另一个工具，意味着在已经拥挤的开发之路上增加更多不确定性。守门人的力量，很大程度上来自使用者的惯性。这种惯性，与30%抽成的路径依赖如出一辙。上一章的结论是，30%并非自然法则，它必须被证明。</p>
+<p>这一章的证据则表明，即使抽成比例被改写，独立开发者仍要面对另一个更难撼动的系统：注意力分配。抽成比例是显性的、可量化的、可以在合同里谈判的。注意力分配权是隐性的、动态的、几乎无法谈判的。开发者可以就收入分成起诉商店，却无法起诉一个算法没有推荐自己的游戏。</p>
+<p>这正是渠道战争的下一个前沿。Epic和苹果的诉讼解决不了这个问题。DMA的开放要求也解决不了这个问题。当商店被要求开放、侧载被允许、支付系统被松绑，开发者获得的是理论上的自由，却未必获得实际上的被看见。如果独立的第三方商店无法聚集足够的玩家，开发者的游戏依然要回到主流商店，依靠算法和推荐位的恩赐。</p>
+<p>2023年秋天的这组数字，揭示了这个前沿已经逼近。38%不是终点。真正的终点是，每一个开发者迟早都要面对一个问题：当渠道抽成可以被争论、被改写，剩下的是什么权力仍然牢牢握着谁能被看见？在墨尔本，Massive Monster的团队成员没有在发布收入拆分表后持续发声。</p>
+<p>那家选择Epic商城首发的工作室，在事后的一份内部复盘里写下了一句话：“12%的抽成让我们觉得终于有了议价权，但七分之一的销量让我们明白，议价权在没有观众的地方毫无意义。”这句话没有公开发表，但在几个封闭的开发者社群里被反复提及。</p>
+<p>工作室的创始人后来在GDC的一次非正式聚会上补充了更多细节。他们并非没有做市场准备。游戏上线前三个月，团队在Twitter、Reddit和Discord上持续发布开发日志，积累了一小批核心粉丝。他们联系了十几位中小型主播，获得了其中几位的试玩承诺。他们还申请了Epic商城的首页推荐位，并在发售首周成功获得了一个为期两天的轮换展示。</p>
+<p>所有这些努力加在一起，换来的是首月销量不及Steam同类作品七分之一的现实。</p>
+<p>问题出在哪里？复盘指向一个关键环节：Epic商城的用户浏览习惯。大多数Epic用户打开客户端的目的明确——领取免费游戏，或者启动《堡垒之夜》《原神》等少数几款头部作品。商城首页的推荐位虽然存在，但用户停留时间极短。Epic在2023年的一次公开访谈中承认，平台正在努力培养用户的“逛商店”习惯，但这需要时间。</p>
+<p>对于一家在2023年秋天发售新作的独立工作室来说，时间恰恰是它们没有的东西。游戏上架后的头两周是决定命运的窗口期。如果在这段时间内无法积累足够的销量和评价，算法和编辑推荐都不会再给第二次机会。</p>
+<p>Steam的算法至少会尝试将新游戏推送给可能感兴趣的玩家——通过标签匹配、愿望单关联和探索队列。Epic的商店系统当时还不具备同等精细的推荐能力。这意味着，在Epic上发行的独立游戏，几乎完全依赖外部流量。而外部流量的获取成本，正在逐年攀升。</p>
+<p>2023年，独立游戏在社交媒体上的获客成本已经比五年前高出数倍。Twitter的游戏社区在马斯克收购后经历了动荡，许多开发者发现自己的推文触达率骤降。Reddit的独立游戏板块虽然活跃，但帖子沉没的速度越来越快。TikTok和YouTube Shorts成为新的流量来源，但这些平台的算法偏好短平快的内容，对需要深度展示玩法机制的作品并不友好。</p>
+<p>一位专门研究独立游戏市场的分析师在2023年底发布了一份报告，其中引用了一组匿名数据：2023年通过Epic商城首发的独立游戏中，超过60%的开发者表示，如果重新选择，他们会优先考虑Steam——即使这意味着接受更高的抽成。这份报告在开发者圈子里几乎没有引起争议，因为结论太符合日常经验了。低抽成的诱惑是真实的，但销量的差距也是真实的。两者之间的权衡，最终不是一道数学题，而是一道生存题。</p>
+<p>Unity收费风波的爆发，让这道生存题变得更加复杂。2023年9月12日，Unity在其官方博客上发布了一篇题为《Unity运行时费用更新》的文章。文章宣布，从2024年1月1日起，所有使用Unity引擎开发的游戏，如果达到一定的收入和安装量门槛，将按每次新安装向开发者收取费用。收费标准根据Unity的订阅等级而有所不同：Personal和Plus用户每安装一次收费0.20美元，Pro用户收费0.15美元，Enterprise用户收费0.125美元。这一政策适用于已经发售的游戏，而不仅仅是新项目。</p>
+<p>消息发布后的几个小时内，独立开发者的社交媒体几乎被愤怒淹没。一个名为“#Unity”的话题标签迅速登上Twitter趋势榜，但内容不是技术讨论，而是铺天盖地的质问和讽刺。</p>
+<p>有开发者贴出自己的游戏定价——4.99美元，指出如果按Unity的标准计费，扣除Steam抽成和税费后，每次安装的运行时费用将吞噬掉几乎全部利润。另一位开发者指出，如果一款免费游戏的安装量达到数百万，开发团队可能面临数百万美元的账单，而收入为零。</p>
+<p>更令人不安的是，Unity最初没有明确说明如何统计“安装次数”。开发者们迅速推演出各种灾难性场景：如果一款游戏被恶意刷量安装怎么办？如果同一用户在不同设备上多次安装怎么办？如果游戏被包含在慈善捆绑包或免费赠送活动中怎么办？这些问题在Unity的公告中没有得到清晰回答。</p>
+<p>随后的四十八小时里，多家独立工作室发表公开声明，表示如果政策不改变，他们将停止使用Unity引擎开发新项目。一些已经进入开发中期的团队陷入两难：继续使用Unity意味着接受一个不确定的财务风险，切换引擎意味着延期和额外成本。</p>
+<p>这场风波的本质，不是一家公司的定价策略失误，而是一种权力关系的突然暴露。Unity长期以来被视为独立开发者的盟友。</p>
+<p>它的免费层级和相对低廉的订阅费用，让无数小团队能够以低成本进入游戏开发领域。这种关系建立在一种默契之上：Unity是工具提供商，开发者是工具使用者，双方的利益是一致的——开发者成功，Unity才能通过订阅和企业服务获利。</p>
+<p>但运行时费用的提出，打破了这种默契。Unity不再满足于做一家工具商，它试图将自己嵌入到每一款使用其引擎的游戏的整个生命周期中，从开发工具变成持续收租的守门人。这种转变的逻辑与商店抽成如出一辙：一旦用户被锁定在某个生态系统中，守门人就可以重新谈判分成条款。独立开发者对此毫无准备，因为他们从未将Unity视为守门人。在他们看来，Unity只是一个引擎，一个工具箱，一个中立的底层设施。</p>
+<p>那张表格只是被放在网上，供同行自行阅读和理解。在论坛讨论里，有人表示同情，有人表示惊讶，还有人计算如果发行商条款不同，开发团队能多拿多少。但这些计算都没有改变一个事实：游戏已经卖出了足够多的份数，工作室得以继续运转，甚至有余力规划后续内容。</p>
+<p>这张表之所以引起震动，恰恰因为它来自一个成功案例。一个成功案例如果只到手38%，那么沉默的大多数是什么处境？那些年销量几百份、几千份、无法获得推荐位、无法进入促销主版面的游戏，它们不仅拿不到38%，甚至可能连开发期间的餐费和外包费用都无法收回。独立开发者的双面困境，因此不只是分成30%还是12%的选择，而是被看见还是不被看见的分裂。</p>
+<p>在这个意义上，快乐不由渠道创造，但哪些快乐能进入大众的视线，全凭渠道裁定。这句话对独立开发者而言，是日常经营，是商业计划，是失败与成功的分界线。</p>
+<p>在数字货架无限扩张的时代，缺货问题早已消失，取而代之的是注意力匮乏。守门人不再需要垄断生产或运输，他们只需要控制屏幕上那第一眼的落点。</p>
+<p>一个开发者坐在后台前，看着统计页面上从未超过三位数的访问量。游戏上架两周，愿望单增长几乎停滞。他收到的最后一封邮件来自平台运营团队，礼貌地告知他的作品未入选本季促销。窗外是普通的城市夜色。没有新闻，没有诉讼，没有听证会。他刷新了一下页面，数字没有变化。这就是最后一米的真实距离。它不再是一张卡带的运输成本，也不再是一盘光盘的压制费用，更不是一格货架的租金。它就是此刻，玩家不会因为低头看手机而多看你一眼。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-21.html">上一章</a><a href="index.html">返回详情</a><a href="ch-23.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msx6kn0jkvx","chapter":21,"chapterTitle":"独立开发者的双面困境","href":"ch-22.html","prevHref":"ch-21.html","nextHref":"ch-23.html","locationLabel":"第 22 章 · 独立开发者的双面困境"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>
