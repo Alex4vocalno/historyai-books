@@ -1,5 +1,34 @@
 [
   {
+    "id": "proj-msn5za48rim",
+    "projectId": "proj-msn5za48rim",
+    "releaseId": "rel_20260817100230097_bdfeef9012",
+    "title": "暴雪：一家游戏公司的造神与祛魅",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏产业史",
+      "暴雪娱乐",
+      "企业文化",
+      "商业兴衰",
+      "电子游戏"
+    ],
+    "description": "本书追溯了暴雪娱乐从1991年由三位大学毕业生创立的小工作室“Silicon & Synapse”，到2023年被微软收购的完整历程。它深入剖析了《魔兽争霸》《星际争霸》《暗黑破坏神》三大系列如何构建起宏大的游戏宇宙，将暴雪推上“游戏品质保证”的神坛，并深刻影响了全球游戏文化。同时，本书也冷静记录了公司在经历维旺迪与动视的合并、核心团队流失、项目失败、内部文化危机及法律诉讼等一系列挑战后，如何逐渐陷入困境，最终完成所有权的历史性移交。这是一部关于创意、野心、成功与失落的完整企业史诗。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 81,
+      "method": "median-of-3",
+      "createdAt": "2026-08-12T13:23:02.288Z"
+    },
+    "coverUrl": "books/proj-msn5za48rim/releases/rel_20260817100230097_bdfeef9012/cover.jpg",
+    "url": "books/proj-msn5za48rim/index.html",
+    "publishedAt": "2026-08-17T10:02:30.100Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msls8a7hruq",
     "projectId": "proj-msls8a7hruq",
     "releaseId": "rel_20260817100213832_f3c44f288a",
@@ -215,33 +244,6 @@
     "coverUrl": "",
     "url": "books/proj-msn5zkn79oc/index.html",
     "publishedAt": "2026-08-17T09:49:58.311Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msn5za48rim",
-    "projectId": "proj-msn5za48rim",
-    "releaseId": "rel_20260817094958424_0a0a2a4160",
-    "title": "暴雪：一家游戏公司的造神与祛魅",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "游戏史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "1991 年三个加州大学毕业生的 Silicon & Synapse 到 2023 年微软收购动视暴雪：魔兽、星际、暗黑三大宇宙如何把一家小作坊造成玩家的神殿，而合并、诉讼与文化崩塌又如何将神拉下祭坛——一部完整的企业兴衰史诗",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 81,
-      "method": "median-of-3",
-      "createdAt": "2026-08-12T13:23:02.288Z"
-    },
-    "coverUrl": "",
-    "url": "books/proj-msn5za48rim/index.html",
-    "publishedAt": "2026-08-17T09:49:58.424Z",
     "visibility": "public"
   },
   {
