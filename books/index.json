@@ -1,8 +1,377 @@
 [
   {
+    "id": "proj-mqf7mzrmntl",
+    "projectId": "proj-mqf7mzrmntl",
+    "releaseId": "rel_20260817031512056_4ca9f96210",
+    "title": "淝水之战",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "淝水之战",
+    "chapterCount": 20,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mqf7mzrmntl/releases/rel_20260817031512056_4ca9f96210/cover.jpg",
+    "url": "books/proj-mqf7mzrmntl/index.html",
+    "publishedAt": "2026-08-17T03:15:12.058Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mqfzn47d25w",
+    "projectId": "proj-mqfzn47d25w",
+    "releaseId": "rel_20260817031511954_1f8a4c5be8",
+    "title": "武德九年",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "",
+    "chapterCount": 20,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mqfzn47d25w/releases/rel_20260817031511954_1f8a4c5be8/cover.jpg",
+    "url": "books/proj-mqfzn47d25w/index.html",
+    "publishedAt": "2026-08-17T03:15:11.956Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mqky4k6bq07",
+    "projectId": "proj-mqky4k6bq07",
+    "releaseId": "rel_20260817031511844_e605a497a9",
+    "title": "英伟达：一场赌了十年的并行计算豪赌",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "1993 年，黄仁勋和两名工程师在一张餐桌上下了一个赌注：个人电脑迟早要学会画图，而世上还没有一块芯片专门干这件事。公司从诞生那天起就是赌性的。第一代产品 NV1 押错了方向，几乎让它夭折；这场近死教会它一件事——押对底层架构，比押对某个产品重要得多。靠着 RIVA 系列翻身后，1999 年的 GeForce 256 索性把\"显卡\"重新定义成一个全新的产业类别\"GPU\"，在与 3dfx 的厮杀中胜出。到这里，它还只是一家做得不错的图形芯片公司。 真正的分叉发生在 2006 年。黄仁勋决定把 GPU 从\"画图的\"赌成\"通用算力的\"，为此推出 CUDA，并把整条产品线绑上这套软件生态。这个决定在当时近乎不可理喻：它压低毛利、华尔街看不懂、客户也用不上。…",
+    "chapterCount": 18,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mqky4k6bq07/releases/rel_20260817031511844_e605a497a9/cover.jpg",
+    "url": "books/proj-mqky4k6bq07/index.html",
+    "publishedAt": "2026-08-17T03:15:11.846Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mqm5vwh5ec8",
+    "projectId": "proj-mqm5vwh5ec8",
+    "releaseId": "rel_20260817031511749_5a0862ead4",
+    "title": "茶：一片叶子的全球史",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "全球史",
+    "tags": [
+      "全球史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "一片亚热带常绿乔木的叶子,在一千二百年里被反复重新发明。本书追的不是茶如何\"传播\",而是它每一次落脚时,如何被当地的权力、贸易与审美重新制造了一遍。 唐人把西南山间的野饮,用《茶经》变成有等级、有器物、有标准的贡品——茶第一次被制度化。马背上,它成了帝国的边防财政;渡海到日本,同一片叶子被重写成禅与修行;在广州十三行的茶箱里,它变成牵动全球白银的商品;在伦敦的下午茶里,消费制造出需求,需求又绑架了国家财政,最终把茶推到一场战争的导火索旁。当英国人潜入武夷山偷走种子与工艺,茶又在阿萨姆的种植园里被重写成殖民作物——规模化、契约劳工、标准化茶包,把\"风土\"抹平成可复制的商品。而到最后,曾被强加茶的殖民地,反过来把它认领为自己的国民饮料。 贯穿论点:茶没有一个单一的\"原产地神话\"式起点。…",
+    "chapterCount": 15,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mqm5vwh5ec8/releases/rel_20260817031511749_5a0862ead4/cover.jpg",
+    "url": "books/proj-mqm5vwh5ec8/index.html",
+    "publishedAt": "2026-08-17T03:15:11.752Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mqnleblnzxq",
+    "projectId": "proj-mqnleblnzxq",
+    "releaseId": "rel_20260817031511669_0128cc731f",
+    "title": "The Deep Learning Revolution： AlexNet to ChatGPT",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "World History",
+    "tags": [
+      "World History",
+      "History",
+      "Nonfiction"
+    ],
+    "description": "Book Overview Between 2012 and 2023, a set of ideas that mainstream computer science had spent thirty years dismissing went from academic embarrassment to the most consequential technology of the century.…",
+    "chapterCount": 15,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mqnleblnzxq/releases/rel_20260817031511669_0128cc731f/cover.jpg",
+    "url": "books/proj-mqnleblnzxq/index.html",
+    "publishedAt": "2026-08-17T03:15:11.671Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mqvncu6xaz9",
+    "projectId": "proj-mqvncu6xaz9",
+    "releaseId": "rel_20260817031511586_423b76b01e",
+    "title": "科举一千三百年：从605到1905",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "从隋大业元年（605）第一次以考试取士，到清光绪三十一年（1905）一纸诏书废止，科举的真正力量不在于它有多公平、选才有多准，而在于它把一个朴素而危险的信念铸进了中华文明的底层代码——上升是可能的，而且是凭本事。 正是这台希望机器，一手稳住了帝国的统治（让野心向考场而非战场流动），一手锁死了帝国的头脑（让最聪明的人把一生耗在一种文体上）。它既是中国社会千年超稳定的密码，也是中国近代转型迟滞的枷锁。本书要追问的，是同一套制度如何同时成就与拖垮了一个文明。 主线如何贯穿一千三百年 全书沿着这台机器\"被发明—被完善—被神化—被废弃\"的命运推进，而每一段都在回答同一个问题：它对谁开放了希望，又对谁关上了门？ 创制（隋唐）：门阀贵族垄断千年的入仕之路，第一次向寒门撕开一道缝。考试从权宜之计，变成皇权用来稀释世族的武器。…",
+    "chapterCount": 50,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mqvncu6xaz9/releases/rel_20260817031511586_423b76b01e/cover.jpg",
+    "url": "books/proj-mqvncu6xaz9/index.html",
+    "publishedAt": "2026-08-17T03:15:11.588Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mqymweam8sz",
+    "projectId": "proj-mqymweam8sz",
+    "releaseId": "rel_20260817031511319_e5acd4c6a4",
+    "title": "The Browser Wars: Netscape, Microsoft, and the Battle for the Web",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "战争史",
+    "tags": [
+      "战争史",
+      "History",
+      "Nonfiction"
+    ],
+    "description": "A trade-history narrative of the browser wars from Mosaic and Netscape through Microsoft Internet Explorer, the antitrust battle, Mozilla, web standards, and the long aftermath that led to Chrome and the platform web.…",
+    "chapterCount": 12,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mqymweam8sz/releases/rel_20260817031511319_e5acd4c6a4/cover.jpg",
+    "url": "books/proj-mqymweam8sz/index.html",
+    "publishedAt": "2026-08-17T03:15:11.321Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mr0ni7wh2rf",
+    "projectId": "proj-mr0ni7wh2rf",
+    "releaseId": "rel_20260817031511120_a0c4c1d911",
+    "title": "走马灯：五代十国的五十三年",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "皇帝像灯上的剪影一样轮替，灯还是那盏灯，转的人换了一茬又一茬。全书每一卷都让这盏灯多转一格，直到终卷有人伸手，第一次让它停下。 全书脉络（六卷） 卷 这一格转的是谁 它回答了什么 卷一 后梁 朱温与唐的终局 等式如何成立：篡位者也逃不过自己立下的规矩 卷二 后唐 李存勖的盛与亡 能打天下，未必守得住——军功换不来正当性 卷三 后晋 石敬瑭与燕云十六州 正当性的价码可以低到出卖国土 卷四 后汉 最短命的王朝 当猜忌取代规则，王朝撑不过一代人 卷五 后周 柴荣与未竟的统一 第一个想改写规则的人，却没来得及 终卷 陈桥 赵匡胤如何让走马灯停下 答案不在更强的刀，而在\"杯酒释兵权\"的那套新制度 中心张力 军权 vs 正当性。 谁都能靠兵权上位，可没人靠兵权坐稳——这是悬在五代每个皇帝头顶的同一把刀。…",
+    "chapterCount": 50,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mr0ni7wh2rf/releases/rel_20260817031511120_a0c4c1d911/cover.jpg",
+    "url": "books/proj-mr0ni7wh2rf/index.html",
+    "publishedAt": "2026-08-17T03:15:11.122Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mr3gsav8ys9",
+    "projectId": "proj-mr3gsav8ys9",
+    "releaseId": "rel_20260817031510863_4b46adcc58",
+    "title": "营造学社:梁思成与中国古建筑的抢救测绘",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "城市与建筑史",
+    "tags": [
+      "城市与建筑史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "这个写一个纲要 《测绘中国:营造学社与古建筑抢救十六年(1930–1946)》· 全书纲要 整书概要 1919 年,朱启钤在南京江南图书馆发现一部宋代天书——李诫《营造法式》,全中国没有一个人能读懂它。1930 年,他在北平创立中国营造学社;1931 年,宾夕法尼亚大学归来的梁思成加入。此后十六年,这群人背着测绘仪、经纬仪和玻璃底片,骑骡子、宿破庙,在军阀混战与日军炮火的间隙里丈量了两千余处古建筑——独乐寺、应县木塔、赵州桥,直到 1937 年 7 月在五台山找到唐代木构佛光寺东大殿:林徽因在大梁上认出\"女弟子宁公遇\"题记的那一刻,距卢沟桥事变只有几天。 随后是流亡:资料毁于天津水灾,学社迁长沙、昆明、终至四川李庄一个江边村庄。…",
+    "chapterCount": 25,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mr3gsav8ys9/releases/rel_20260817031510863_4b46adcc58/cover.jpg",
+    "url": "books/proj-mr3gsav8ys9/index.html",
+    "publishedAt": "2026-08-17T03:15:10.865Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mr6fl7gcu1s",
+    "projectId": "proj-mr6fl7gcu1s",
+    "releaseId": "rel_20260817031510731_1b74dd1742",
+    "title": "弦歌不辍:西南联大的八年",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "1937 年平津陷落,北大、清华、南开三所中国最好的大学被迫南迁,先合于长沙,再徒步跨越湘黔滇三千里抵达昆明,组成国立西南联合大学。此后八年,在日军轰炸的警报声、茅草顶的漏雨教室和通货膨胀的饥饿里,梅贻琦、闻一多、朱自清、华罗庚、陈寅恪们把一所临时大学办成了中国教育史的巅峰——走出两位诺奖得主、八位两弹一星元勋、一百七十余位院士。全书论证:西南联大证明了大学的本质不是校舍与经费,而是一群人对自由之思想与独立之精神的共同守护;它的\"不辍\",是一个民族在最黑暗时刻对文明未来的下注。 中心张力:在国破、贫穷、轰炸之下,学术的尊严与自由能否存续——以及必须付出什么代价。 核心反讽:物质上最匮乏的八年,却成了精神上最丰饶的八年;茅屋出大师。 叙事策略:群像结构,以\"校、师、生、时局\"四线交织,不设单一主角。…",
+    "chapterCount": 20,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mr6fl7gcu1s/releases/rel_20260817031510731_1b74dd1742/cover.jpg",
+    "url": "books/proj-mr6fl7gcu1s/index.html",
+    "publishedAt": "2026-08-17T03:15:10.733Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mr8vls3en9w",
+    "projectId": "proj-mr8vls3en9w",
+    "releaseId": "rel_20260817031510625_2fab6609d4",
+    "title": "敦煌藏经洞：从发现到守护的五十年",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "敦煌莫高窟藏经洞1900年发现后五十年间的流散、争夺与守护",
+    "chapterCount": 20,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mr8vls3en9w/releases/rel_20260817031510625_2fab6609d4/cover.jpg",
+    "url": "books/proj-mr8vls3en9w/index.html",
+    "publishedAt": "2026-08-17T03:15:10.627Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mr98x1wfc8x",
+    "projectId": "proj-mr98x1wfc8x",
+    "releaseId": "rel_20260817031510520_68ed7208cc",
+    "title": "Suez 1956: The Crisis That Ended an Empire",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "World History",
+    "tags": [
+      "World History",
+      "History",
+      "Nonfiction"
+    ],
+    "description": "The 1956 Suez Crisis: Nasser's nationalization of the canal, the secret Anglo-French-Israeli collusion at Sèvres, the invasion, and the diplomatic humiliation that redrew the map of global power",
+    "chapterCount": 12,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mr98x1wfc8x/releases/rel_20260817031510520_68ed7208cc/cover.jpg",
+    "url": "books/proj-mr98x1wfc8x/index.html",
+    "publishedAt": "2026-08-17T03:15:10.522Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mrei7vpyow3",
+    "projectId": "proj-mrei7vpyow3",
+    "releaseId": "rel_20260817031510442_1b620fb30b",
+    "title": "沧溟万里：郑和下西洋与明初的海上抱负",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "郑和七下西洋（1405-1433）：宝船舰队的建造与组织、永乐朝的政治动因、朝贡体系与海上贸易网络、航海技术与季风航线、船队在南洋与印度洋的交往冲突，以及下西洋的终结与明代海权的转向。",
+    "chapterCount": 15,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mrei7vpyow3/releases/rel_20260817031510442_1b620fb30b/cover.jpg",
+    "url": "books/proj-mrei7vpyow3/index.html",
+    "publishedAt": "2026-08-17T03:15:10.444Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mrn6wgiuwd9",
+    "projectId": "proj-mrn6wgiuwd9",
+    "releaseId": "rel_20260817031510367_8085538412",
+    "title": "拗相公：王安石与熙宁变法",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "历史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "王安石与熙宁变法（1069-1085）：从鄞县青苗实验到执政中枢的施政蓝图、宋神宗与王安石的君臣共谋、青苗法免役法市易法的制度设计与州县执行、新旧党争与司马光的对抗、市井与乡村的变法实感、吕惠卿与新党内部裂变、元祐更化与新法存废，兼及北宋财政国家转型的极限与代价。",
+    "chapterCount": 15,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mrn6wgiuwd9/releases/rel_20260817031510367_8085538412/cover.jpg",
+    "url": "books/proj-mrn6wgiuwd9/index.html",
+    "publishedAt": "2026-08-17T03:15:10.370Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mrobj0uho30",
+    "projectId": "proj-mrobj0uho30",
+    "releaseId": "rel_20260817031510291_ce404334f6",
+    "title": "Trinity: The Manhattan Project and the Birth of the Atomic Age",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "World History",
+    "tags": [
+      "World History",
+      "History",
+      "Nonfiction"
+    ],
+    "description": "The Manhattan Project (1939-1946): from the Einstein-Szilard letter and the MAUD Committee to the Met Lab, Oak Ridge, Hanford and Los Alamos; Groves and Oppenheimer's uneasy partnership; the science of fission turned into industrial engineering at unprecedented scale; compartmentalization, security and the spies inside; Trinity, Hiroshima and Nagasaki; and t…",
+    "chapterCount": 12,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mrobj0uho30/releases/rel_20260817031510291_ce404334f6/cover.jpg",
+    "url": "books/proj-mrobj0uho30/index.html",
+    "publishedAt": "2026-08-17T03:15:10.293Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mrrmzqa8zut",
+    "projectId": "proj-mrrmzqa8zut",
+    "releaseId": "rel_20260817031510211_2c37d3b505",
+    "title": "无水之庭：枯山水的发明、观看与世界传播",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "全球史",
+    "tags": [
+      "全球史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "核心命题： 枯山水并不是一种从古至今不变的“日本禅意”，而是一套在中世寺院、政治权力、造园工匠与观看方式共同作用下形成的视觉技术；到了近代，它又被重新解释为日本文化的象征，并传播到世界。 这个命题比“介绍枯山水之美”更有历史解释力，也能避免把日本文化神秘化。 全书可以回答四个问题 为什么一座庭园可以没有水，却仍然被称为“山水”？ 枯山水究竟是禅僧创造的，还是工匠、寺院和政治权力共同创造的？ 人们为什么相信几块石头和一片白砂可以代表山川、岛屿与宇宙？ 枯山水如何在近代被塑造成“日本精神”，并影响现代建筑和全球设计？",
+    "chapterCount": 20,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mrrmzqa8zut/releases/rel_20260817031510211_2c37d3b505/cover.jpg",
+    "url": "books/proj-mrrmzqa8zut/index.html",
+    "publishedAt": "2026-08-17T03:15:10.213Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-mrxoebnx0ge",
+    "projectId": "proj-mrxoebnx0ge",
+    "releaseId": "rel_20260817031510116_a465ec7da7",
+    "title": "钟声之前：标准时间如何重塑现代世界",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "全球史",
+    "tags": [
+      "全球史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "以1840年代至20世纪中叶为主要时间范围，追踪地方太阳时如何被铁路时刻表、电报网络、天文台、航海、战争动员与国家立法逐步改造成全球标准时间。全书的核心论点是：统一时间并非钟表技术自然进步的结果，而是一场围绕协调成本、商业效率、国家权力与日常生活展开的制度革命。写作应同时呈现格林尼治、铁路公司、工程师、天文学家、商人、军队和普通人的具体经历，解释时间标准化如何改变城市、劳动、旅行、新闻、金融和帝国治理，并讨论拒绝、迟疑、地方差异及其延续。避免写成发明史或制度条目汇编；每章必须推进一个不同的因果问题，并以可核查人物、文件、时刻表或事件为叙事支点。",
+    "chapterCount": 25,
+    "editorialScore": null,
+    "coverUrl": "books/proj-mrxoebnx0ge/releases/rel_20260817031510116_a465ec7da7/cover.jpg",
+    "url": "books/proj-mrxoebnx0ge/index.html",
+    "publishedAt": "2026-08-17T03:15:10.118Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-ms8luyjq3ey",
+    "projectId": "proj-ms8luyjq3ey",
+    "releaseId": "rel_20260817031510010_2442791a6b",
+    "title": "一臂之力：老虎机的世界史",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "全球史",
+    "tags": [
+      "全球史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "以老虎机这台机器为主角的全球史：1890年代旧金山酒馆里的机械赌具与查尔斯·菲的\"自由钟\"、禁赌时代的口香糖机伪装与水果图案的由来、Bally 机电革命与拉斯维加斯的崛起、可变比率强化的行为心理学与\"差一点就中\"的设计、日本柏青哥与帕琴斯洛的平行演化、视频老虎机与线上化。写清一台机器如何驯化概率、法律与人性，以及围绕它的监管、成瘾与产业博弈。",
+    "chapterCount": 13,
+    "editorialScore": null,
+    "coverUrl": "books/proj-ms8luyjq3ey/releases/rel_20260817031510010_2442791a6b/cover.jpg",
+    "url": "books/proj-ms8luyjq3ey/index.html",
+    "publishedAt": "2026-08-17T03:15:10.013Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msucvek2e0b",
     "projectId": "proj-msucvek2e0b",
-    "releaseId": "rel_20260816171056134_07a0fb8dbe",
+    "releaseId": "rel_20260817031508439_07a0fb8dbe",
     "title": "预警之后：全球城市防灾技术史",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
@@ -15,9 +384,9 @@
     "description": "核心问题：技术如何改变城市面对灾害的方式？核心论点：防灾技术不仅是工具，更是风险认知与社会信任的载体。范围：19世纪末至今全球主要城市。矛盾：技术乐观主义与社会接受度、标准化与地方适应性。重点：关键技术突破及其在城市落地时的争议与调适。",
     "chapterCount": 25,
     "editorialScore": null,
-    "coverUrl": "books/proj-msucvek2e0b/releases/rel_20260816171056134_07a0fb8dbe/cover.jpg",
+    "coverUrl": "books/proj-msucvek2e0b/releases/rel_20260817031508439_07a0fb8dbe/cover.jpg",
     "url": "books/proj-msucvek2e0b/index.html",
-    "publishedAt": "2026-08-16T17:10:56.142Z",
+    "publishedAt": "2026-08-17T03:15:09.933Z",
     "visibility": "public"
   },
   {
@@ -38,375 +407,6 @@
     "coverUrl": "books/proj-msptzqupkke/releases/rel_20260816170723393_a1ad927f6c/cover.jpg",
     "url": "books/proj-msptzqupkke/index.html",
     "publishedAt": "2026-08-16T17:07:23.397Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqf7mzrmntl",
-    "projectId": "proj-mqf7mzrmntl",
-    "releaseId": "rel_20260816164857970_4eef81d58f",
-    "title": "淝水之战",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "淝水之战",
-    "chapterCount": 20,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mqf7mzrmntl/index.html",
-    "publishedAt": "2026-08-16T16:48:57.970Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqfzn47d25w",
-    "projectId": "proj-mqfzn47d25w",
-    "releaseId": "rel_20260816164857676_19cf1b06ca",
-    "title": "武德九年",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "",
-    "chapterCount": 20,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mqfzn47d25w/index.html",
-    "publishedAt": "2026-08-16T16:48:57.677Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqky4k6bq07",
-    "projectId": "proj-mqky4k6bq07",
-    "releaseId": "rel_20260816164857353_9e82b139a4",
-    "title": "英伟达：一场赌了十年的并行计算豪赌",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "1993 年，黄仁勋和两名工程师在一张餐桌上下了一个赌注：个人电脑迟早要学会画图，而世上还没有一块芯片专门干这件事。公司从诞生那天起就是赌性的。第一代产品 NV1 押错了方向，几乎让它夭折；这场近死教会它一件事——押对底层架构，比押对某个产品重要得多。靠着 RIVA 系列翻身后，1999 年的 GeForce 256 索性把\"显卡\"重新定义成一个全新的产业类别\"GPU\"，在与 3dfx 的厮杀中胜出。到这里，它还只是一家做得不错的图形芯片公司。 真正的分叉发生在 2006 年。黄仁勋决定把 GPU 从\"画图的\"赌成\"通用算力的\"，为此推出 CUDA，并把整条产品线绑上这套软件生态。这个决定在当时近乎不可理喻：它压低毛利、华尔街看不懂、客户也用不上。…",
-    "chapterCount": 18,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mqky4k6bq07/index.html",
-    "publishedAt": "2026-08-16T16:48:57.353Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqm5vwh5ec8",
-    "projectId": "proj-mqm5vwh5ec8",
-    "releaseId": "rel_20260816164857270_96795194e1",
-    "title": "茶：一片叶子的全球史",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "全球史",
-    "tags": [
-      "全球史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "一片亚热带常绿乔木的叶子,在一千二百年里被反复重新发明。本书追的不是茶如何\"传播\",而是它每一次落脚时,如何被当地的权力、贸易与审美重新制造了一遍。 唐人把西南山间的野饮,用《茶经》变成有等级、有器物、有标准的贡品——茶第一次被制度化。马背上,它成了帝国的边防财政;渡海到日本,同一片叶子被重写成禅与修行;在广州十三行的茶箱里,它变成牵动全球白银的商品;在伦敦的下午茶里,消费制造出需求,需求又绑架了国家财政,最终把茶推到一场战争的导火索旁。当英国人潜入武夷山偷走种子与工艺,茶又在阿萨姆的种植园里被重写成殖民作物——规模化、契约劳工、标准化茶包,把\"风土\"抹平成可复制的商品。而到最后,曾被强加茶的殖民地,反过来把它认领为自己的国民饮料。 贯穿论点:茶没有一个单一的\"原产地神话\"式起点。…",
-    "chapterCount": 15,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mqm5vwh5ec8/index.html",
-    "publishedAt": "2026-08-16T16:48:57.270Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqnleblnzxq",
-    "projectId": "proj-mqnleblnzxq",
-    "releaseId": "rel_20260816164857197_e80d9726b0",
-    "title": "The Deep Learning Revolution： AlexNet to ChatGPT",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "World History",
-    "tags": [
-      "World History",
-      "History",
-      "Nonfiction"
-    ],
-    "description": "Book Overview Between 2012 and 2023, a set of ideas that mainstream computer science had spent thirty years dismissing went from academic embarrassment to the most consequential technology of the century.…",
-    "chapterCount": 15,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mqnleblnzxq/index.html",
-    "publishedAt": "2026-08-16T16:48:57.197Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqvncu6xaz9",
-    "projectId": "proj-mqvncu6xaz9",
-    "releaseId": "rel_20260816164857109_bf82f9d950",
-    "title": "科举一千三百年：从605到1905",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "从隋大业元年（605）第一次以考试取士，到清光绪三十一年（1905）一纸诏书废止，科举的真正力量不在于它有多公平、选才有多准，而在于它把一个朴素而危险的信念铸进了中华文明的底层代码——上升是可能的，而且是凭本事。 正是这台希望机器，一手稳住了帝国的统治（让野心向考场而非战场流动），一手锁死了帝国的头脑（让最聪明的人把一生耗在一种文体上）。它既是中国社会千年超稳定的密码，也是中国近代转型迟滞的枷锁。本书要追问的，是同一套制度如何同时成就与拖垮了一个文明。 主线如何贯穿一千三百年 全书沿着这台机器\"被发明—被完善—被神化—被废弃\"的命运推进，而每一段都在回答同一个问题：它对谁开放了希望，又对谁关上了门？ 创制（隋唐）：门阀贵族垄断千年的入仕之路，第一次向寒门撕开一道缝。考试从权宜之计，变成皇权用来稀释世族的武器。…",
-    "chapterCount": 50,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mqvncu6xaz9/index.html",
-    "publishedAt": "2026-08-16T16:48:57.109Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqymweam8sz",
-    "projectId": "proj-mqymweam8sz",
-    "releaseId": "rel_20260816164856919_ea79905ca3",
-    "title": "The Browser Wars: Netscape, Microsoft, and the Battle for the Web",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "战争史",
-    "tags": [
-      "战争史",
-      "History",
-      "Nonfiction"
-    ],
-    "description": "A trade-history narrative of the browser wars from Mosaic and Netscape through Microsoft Internet Explorer, the antitrust battle, Mozilla, web standards, and the long aftermath that led to Chrome and the platform web.…",
-    "chapterCount": 12,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mqymweam8sz/index.html",
-    "publishedAt": "2026-08-16T16:48:56.920Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mr0ni7wh2rf",
-    "projectId": "proj-mr0ni7wh2rf",
-    "releaseId": "rel_20260816164856845_9e85287d4b",
-    "title": "走马灯：五代十国的五十三年",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "皇帝像灯上的剪影一样轮替，灯还是那盏灯，转的人换了一茬又一茬。全书每一卷都让这盏灯多转一格，直到终卷有人伸手，第一次让它停下。 全书脉络（六卷） 卷 这一格转的是谁 它回答了什么 卷一 后梁 朱温与唐的终局 等式如何成立：篡位者也逃不过自己立下的规矩 卷二 后唐 李存勖的盛与亡 能打天下，未必守得住——军功换不来正当性 卷三 后晋 石敬瑭与燕云十六州 正当性的价码可以低到出卖国土 卷四 后汉 最短命的王朝 当猜忌取代规则，王朝撑不过一代人 卷五 后周 柴荣与未竟的统一 第一个想改写规则的人，却没来得及 终卷 陈桥 赵匡胤如何让走马灯停下 答案不在更强的刀，而在\"杯酒释兵权\"的那套新制度 中心张力 军权 vs 正当性。 谁都能靠兵权上位，可没人靠兵权坐稳——这是悬在五代每个皇帝头顶的同一把刀。…",
-    "chapterCount": 50,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mr0ni7wh2rf/index.html",
-    "publishedAt": "2026-08-16T16:48:56.845Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mr3gsav8ys9",
-    "projectId": "proj-mr3gsav8ys9",
-    "releaseId": "rel_20260816164856589_3e6e36cde6",
-    "title": "营造学社:梁思成与中国古建筑的抢救测绘",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "城市与建筑史",
-    "tags": [
-      "城市与建筑史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "这个写一个纲要 《测绘中国:营造学社与古建筑抢救十六年(1930–1946)》· 全书纲要 整书概要 1919 年,朱启钤在南京江南图书馆发现一部宋代天书——李诫《营造法式》,全中国没有一个人能读懂它。1930 年,他在北平创立中国营造学社;1931 年,宾夕法尼亚大学归来的梁思成加入。此后十六年,这群人背着测绘仪、经纬仪和玻璃底片,骑骡子、宿破庙,在军阀混战与日军炮火的间隙里丈量了两千余处古建筑——独乐寺、应县木塔、赵州桥,直到 1937 年 7 月在五台山找到唐代木构佛光寺东大殿:林徽因在大梁上认出\"女弟子宁公遇\"题记的那一刻,距卢沟桥事变只有几天。 随后是流亡:资料毁于天津水灾,学社迁长沙、昆明、终至四川李庄一个江边村庄。…",
-    "chapterCount": 25,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mr3gsav8ys9/index.html",
-    "publishedAt": "2026-08-16T16:48:56.589Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mr6fl7gcu1s",
-    "projectId": "proj-mr6fl7gcu1s",
-    "releaseId": "rel_20260816164856461_1d0819b81c",
-    "title": "弦歌不辍:西南联大的八年",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "1937 年平津陷落,北大、清华、南开三所中国最好的大学被迫南迁,先合于长沙,再徒步跨越湘黔滇三千里抵达昆明,组成国立西南联合大学。此后八年,在日军轰炸的警报声、茅草顶的漏雨教室和通货膨胀的饥饿里,梅贻琦、闻一多、朱自清、华罗庚、陈寅恪们把一所临时大学办成了中国教育史的巅峰——走出两位诺奖得主、八位两弹一星元勋、一百七十余位院士。全书论证:西南联大证明了大学的本质不是校舍与经费,而是一群人对自由之思想与独立之精神的共同守护;它的\"不辍\",是一个民族在最黑暗时刻对文明未来的下注。 中心张力:在国破、贫穷、轰炸之下,学术的尊严与自由能否存续——以及必须付出什么代价。 核心反讽:物质上最匮乏的八年,却成了精神上最丰饶的八年;茅屋出大师。 叙事策略:群像结构,以\"校、师、生、时局\"四线交织,不设单一主角。…",
-    "chapterCount": 20,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mr6fl7gcu1s/index.html",
-    "publishedAt": "2026-08-16T16:48:56.461Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mr8vls3en9w",
-    "projectId": "proj-mr8vls3en9w",
-    "releaseId": "rel_20260816164856356_1671e89cfd",
-    "title": "敦煌藏经洞：从发现到守护的五十年",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "敦煌莫高窟藏经洞1900年发现后五十年间的流散、争夺与守护",
-    "chapterCount": 20,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mr8vls3en9w/index.html",
-    "publishedAt": "2026-08-16T16:48:56.357Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mr98x1wfc8x",
-    "projectId": "proj-mr98x1wfc8x",
-    "releaseId": "rel_20260816164711390_b3c3429994",
-    "title": "Suez 1956: The Crisis That Ended an Empire",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "World History",
-    "tags": [
-      "World History",
-      "History",
-      "Nonfiction"
-    ],
-    "description": "The 1956 Suez Crisis: Nasser's nationalization of the canal, the secret Anglo-French-Israeli collusion at Sèvres, the invasion, and the diplomatic humiliation that redrew the map of global power",
-    "chapterCount": 12,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mr98x1wfc8x/index.html",
-    "publishedAt": "2026-08-16T16:47:11.390Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mrei7vpyow3",
-    "projectId": "proj-mrei7vpyow3",
-    "releaseId": "rel_20260816164711326_1f70ad0b30",
-    "title": "沧溟万里：郑和下西洋与明初的海上抱负",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "郑和七下西洋（1405-1433）：宝船舰队的建造与组织、永乐朝的政治动因、朝贡体系与海上贸易网络、航海技术与季风航线、船队在南洋与印度洋的交往冲突，以及下西洋的终结与明代海权的转向。",
-    "chapterCount": 15,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mrei7vpyow3/index.html",
-    "publishedAt": "2026-08-16T16:47:11.326Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mrn6wgiuwd9",
-    "projectId": "proj-mrn6wgiuwd9",
-    "releaseId": "rel_20260816164711248_7ea8980d23",
-    "title": "拗相公：王安石与熙宁变法",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "历史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "王安石与熙宁变法（1069-1085）：从鄞县青苗实验到执政中枢的施政蓝图、宋神宗与王安石的君臣共谋、青苗法免役法市易法的制度设计与州县执行、新旧党争与司马光的对抗、市井与乡村的变法实感、吕惠卿与新党内部裂变、元祐更化与新法存废，兼及北宋财政国家转型的极限与代价。",
-    "chapterCount": 15,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mrn6wgiuwd9/index.html",
-    "publishedAt": "2026-08-16T16:47:11.249Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mrobj0uho30",
-    "projectId": "proj-mrobj0uho30",
-    "releaseId": "rel_20260816164709015_b762c2946b",
-    "title": "Trinity: The Manhattan Project and the Birth of the Atomic Age",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "World History",
-    "tags": [
-      "World History",
-      "History",
-      "Nonfiction"
-    ],
-    "description": "The Manhattan Project (1939-1946): from the Einstein-Szilard letter and the MAUD Committee to the Met Lab, Oak Ridge, Hanford and Los Alamos; Groves and Oppenheimer's uneasy partnership; the science of fission turned into industrial engineering at unprecedented scale; compartmentalization, security and the spies inside; Trinity, Hiroshima and Nagasaki; and t…",
-    "chapterCount": 12,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mrobj0uho30/index.html",
-    "publishedAt": "2026-08-16T16:47:09.016Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mrrmzqa8zut",
-    "projectId": "proj-mrrmzqa8zut",
-    "releaseId": "rel_20260816164708934_3a2d502d24",
-    "title": "无水之庭：枯山水的发明、观看与世界传播",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "全球史",
-    "tags": [
-      "全球史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "核心命题： 枯山水并不是一种从古至今不变的“日本禅意”，而是一套在中世寺院、政治权力、造园工匠与观看方式共同作用下形成的视觉技术；到了近代，它又被重新解释为日本文化的象征，并传播到世界。 这个命题比“介绍枯山水之美”更有历史解释力，也能避免把日本文化神秘化。 全书可以回答四个问题 为什么一座庭园可以没有水，却仍然被称为“山水”？ 枯山水究竟是禅僧创造的，还是工匠、寺院和政治权力共同创造的？ 人们为什么相信几块石头和一片白砂可以代表山川、岛屿与宇宙？ 枯山水如何在近代被塑造成“日本精神”，并影响现代建筑和全球设计？",
-    "chapterCount": 20,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mrrmzqa8zut/index.html",
-    "publishedAt": "2026-08-16T16:47:08.935Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mrxoebnx0ge",
-    "projectId": "proj-mrxoebnx0ge",
-    "releaseId": "rel_20260816164708645_94bdd16288",
-    "title": "钟声之前：标准时间如何重塑现代世界",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "全球史",
-    "tags": [
-      "全球史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "以1840年代至20世纪中叶为主要时间范围，追踪地方太阳时如何被铁路时刻表、电报网络、天文台、航海、战争动员与国家立法逐步改造成全球标准时间。全书的核心论点是：统一时间并非钟表技术自然进步的结果，而是一场围绕协调成本、商业效率、国家权力与日常生活展开的制度革命。写作应同时呈现格林尼治、铁路公司、工程师、天文学家、商人、军队和普通人的具体经历，解释时间标准化如何改变城市、劳动、旅行、新闻、金融和帝国治理，并讨论拒绝、迟疑、地方差异及其延续。避免写成发明史或制度条目汇编；每章必须推进一个不同的因果问题，并以可核查人物、文件、时刻表或事件为叙事支点。",
-    "chapterCount": 25,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-mrxoebnx0ge/index.html",
-    "publishedAt": "2026-08-16T16:47:08.645Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-ms8luyjq3ey",
-    "projectId": "proj-ms8luyjq3ey",
-    "releaseId": "rel_20260816164605207_5e2f3c5d81",
-    "title": "一臂之力：老虎机的世界史",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "全球史",
-    "tags": [
-      "全球史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "以老虎机这台机器为主角的全球史：1890年代旧金山酒馆里的机械赌具与查尔斯·菲的\"自由钟\"、禁赌时代的口香糖机伪装与水果图案的由来、Bally 机电革命与拉斯维加斯的崛起、可变比率强化的行为心理学与\"差一点就中\"的设计、日本柏青哥与帕琴斯洛的平行演化、视频老虎机与线上化。写清一台机器如何驯化概率、法律与人性，以及围绕它的监管、成瘾与产业博弈。",
-    "chapterCount": 13,
-    "editorialScore": null,
-    "coverUrl": "",
-    "url": "books/proj-ms8luyjq3ey/index.html",
-    "publishedAt": "2026-08-16T16:46:05.207Z",
     "visibility": "public"
   }
 ]
