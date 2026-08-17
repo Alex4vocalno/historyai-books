@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817121824242_8fb3b844a1",
+  "projectId": "proj-msrheuqewc7",
+  "manuscriptVersionId": "mv_dffb8af2f8329066",
+  "contentHash": "dffb8af2f8329066efa4f42db9af17fd1533eff4d0b21cc07b83c0bc0b6d996b",
+  "title": "PlayStation 三十年：一个叛逆项目的帝国兴衰",
+  "subtitle": "一个叛逆项目的帝国兴衰",
+  "authorDisplayName": "李思特Think",
+  "description": "这不是一部关于游戏主机战争的书，而是一部关于组织如何孕育创新、又如何最终将其驯化的商业史诗。从任天堂毁约点燃的复仇之火，到久夛良木健以技术狂想劫持索尼战略，PlayStation 作为“公司内的公司”横空出世，凭借两代主机登顶帝国。然而，PS3时代Cell处理器的狂妄野心导致帝国折戟，创始人失势，东京总部逐步让位于加州。本书以久夛良木健的权力沉浮为主线，纵切索尼三十年的组织肌理，揭示一个叛逆项目如何被体制收编，最终在服务化浪潮中回归游戏本源。",
+  "category": "游戏史",
+  "tags": [
+    "索尼",
+    "PlayStation",
+    "组织变革",
+    "商业史",
+    "游戏产业",
+    "创新管理"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 38,
+    "units": 346163,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-17T11:55:43.340Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T12:17:22.305Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "毁约",
+      "units": 9804
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "技术狂人的赌注",
+      "units": 9348
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "大贺的赌桌",
+      "units": 9889
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "公司内的公司",
+      "units": 9656
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "反任天堂联盟",
+      "units": 9807
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "发售前夜",
+      "units": 8279
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "首发：制度武器的实弹检验",
+      "units": 9044
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "登陆美利坚：组织模式的跨洋移植",
+      "units": 8810
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "最终幻想：第三方权力的结构性转移",
+      "units": 9204
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "帝国初成：统治期的组织惯性",
+      "units": 8941
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "网络幽灵：被延迟的未来",
+      "units": 8912
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "千禧赌局：PS2的发布逻辑",
+      "units": 7771
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "产能地狱",
+      "units": 11449
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "微软入场",
+      "units": 12053
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "第三方之变",
+      "units": 8403
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "第一方军备",
+      "units": 8335
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "掌机赌局",
+      "units": 9521
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Cell妄想",
+      "units": 8395
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "赤字硬件",
+      "units": 8619
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "开发者的叛逃",
+      "units": 9923
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "第一方的孤军",
+      "units": 9077
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "降价的艺术",
+      "units": 10792
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "网络服务的补课",
+      "units": 10679
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "创始人的黄昏",
+      "units": 7897
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "平井体制的收编手术",
+      "units": 7449
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "掌机战线的战略撤退",
+      "units": 10842
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "PS4的路线清算",
+      "units": 8350
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "服务化转型的被动起步",
+      "units": 8371
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "中国市场的制度试炼",
+      "units": 8062
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "PS VR的技术保守主义",
+      "units": 8400
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "半代机拆解世代",
+      "units": 8511
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "东京让位于加州",
+      "units": 9566
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "架构路线的清算",
+      "units": 8406
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "缺货的次世代",
+      "units": 8217
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "独占高墙拆除",
+      "units": 9726
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "服务化的最终收编",
+      "units": 8089
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "CEO换任的收编信号",
+      "units": 9529
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "PS5 Pro上市与制度终局",
+      "units": 8037
+    }
+  ],
+  "publishedAt": "2026-08-17T12:18:24.244Z"
+}
