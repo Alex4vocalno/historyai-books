@@ -1,5 +1,238 @@
 [
   {
+    "id": "proj-mskayfixsqj",
+    "projectId": "proj-mskayfixsqj",
+    "releaseId": "rel_20260817100039202_38de92fe22",
+    "title": "枯萎技术的水平思考：横井军平传",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "横井军平",
+      "任天堂",
+      "游戏史",
+      "工业设计",
+      "创新思维",
+      "科技传记"
+    ],
+    "description": "本书追溯了横井军平——这位从京都花牌公司维修工成长为任天堂传奇工程师的非凡人生。他提出的“枯萎技术的水平思考”理念，即利用成熟、廉价的技术，通过巧思创造出划时代的娱乐产品，深刻定义了任天堂早期的创新路径。从奠定现代游戏操控基础的十字键，到开创便携游戏时代的Game Boy，横井军平一次次将看似过时的技术转化为乐趣的源泉。本书不仅记录了他的成功，也深入剖析了Virtual Boy的挫折、他在公司内部的独特位置，以及1997年那场车祸留下的、关于技术与娱乐未来的未竟思考。",
+    "chapterCount": 19,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 94,
+      "staleScore": 94,
+      "reportId": "br_0e14e8b1b781c53a",
+      "createdAt": "2026-08-09T04:57:16.862Z",
+      "manuscriptVersionId": "mv_181fd98c5426cbe5"
+    },
+    "coverUrl": "books/proj-mskayfixsqj/releases/rel_20260817100039202_38de92fe22/cover.jpg",
+    "url": "books/proj-mskayfixsqj/index.html",
+    "publishedAt": "2026-08-17T10:00:39.205Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-msn5zq604rm",
+    "projectId": "proj-msn5zq604rm",
+    "releaseId": "rel_20260817094958171_4aa7f3349d",
+    "title": "罪恶都市的缔造者：豪瑟兄弟与 Rockstar",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "中国史",
+    "tags": [
+      "中国史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "从伦敦 BMG 唱片部的两兄弟到自由城的隐形皇帝：山姆与丹·豪瑟如何把苏格兰邓迪小作坊的俯视角追车游戏铸成世界最大的娱乐产品——摇滚明星式经营、热咖啡风暴、与王牌制作人本齐斯的决裂、丹的出走，一场关于权力与创作的三十年心理剧",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 93,
+      "staleScore": 93,
+      "reportId": "962efed7e5c8",
+      "createdAt": "2026-08-10T13:27:26.302Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "",
+    "url": "books/proj-msn5zq604rm/index.html",
+    "publishedAt": "2026-08-17T09:49:58.172Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-msn5zkn79oc",
+    "projectId": "proj-msn5zkn79oc",
+    "releaseId": "rel_20260817094958311_cc7bee90ee",
+    "title": "街机厅之光",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "从 1978 年《太空侵略者》引发日本百元硬币短缺，到最后一批街机厅在流媒体时代熄灯：以厅为主角的场所史——游戏厅如何成为一代人的社交圣殿、道德恐慌的靶子、格斗黄金年代的竞技场，以及它的死亡与幽灵般的复活",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 92,
+      "staleScore": 92,
+      "reportId": "a638e49642dd",
+      "createdAt": "2026-08-10T13:30:52.295Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "",
+    "url": "books/proj-msn5zkn79oc/index.html",
+    "publishedAt": "2026-08-17T09:49:58.311Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-msn5za48rim",
+    "projectId": "proj-msn5za48rim",
+    "releaseId": "rel_20260817094958424_0a0a2a4160",
+    "title": "暴雪：一家游戏公司的造神与祛魅",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "1991 年三个加州大学毕业生的 Silicon & Synapse 到 2023 年微软收购动视暴雪：魔兽、星际、暗黑三大宇宙如何把一家小作坊造成玩家的神殿，而合并、诉讼与文化崩塌又如何将神拉下祭坛——一部完整的企业兴衰史诗",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 81,
+      "method": "median-of-3",
+      "createdAt": "2026-08-12T13:23:02.288Z"
+    },
+    "coverUrl": "",
+    "url": "books/proj-msn5za48rim/index.html",
+    "publishedAt": "2026-08-17T09:49:58.424Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-msls8a7hruq",
+    "projectId": "proj-msls8a7hruq",
+    "releaseId": "rel_20260817094958537_af91951841",
+    "title": "精简的胜利：ARM 与 RISC-V 时代",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "中国史",
+    "tags": [
+      "中国史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "从剑桥 Acorn 的绝境设计到苹果 M1 与开源指令集叛军：精简指令集如何用四十年时间两次改写计算机产业的权力结构",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 92,
+      "staleScore": 92,
+      "reportId": "4eac60271c9a",
+      "createdAt": "2026-08-10T14:01:24.445Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "",
+    "url": "books/proj-msls8a7hruq/index.html",
+    "publishedAt": "2026-08-17T09:49:58.537Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-msls82n4tcr",
+    "projectId": "proj-msls82n4tcr",
+    "releaseId": "rel_20260817095038409_fd6f11180e",
+    "title": "三音轨到交响厅：游戏音乐史",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "从红白机三音轨的物理限制到格莱美与世界巡回交响音乐会：游戏音乐如何在最苛刻的约束里长成一门被承认的艺术",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 92,
+      "staleScore": 92,
+      "reportId": "98176f83e5db",
+      "createdAt": "2026-08-10T14:01:57.991Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "",
+    "url": "books/proj-msls82n4tcr/index.html",
+    "publishedAt": "2026-08-17T09:50:38.409Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-msls7w87u6c",
+    "projectId": "proj-msls7w87u6c",
+    "releaseId": "rel_20260817094958629_57a86a1b9e",
+    "title": "玩家造物主：从 MOD 到 UGC 经济",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "中国史",
+    "tags": [
+      "中国史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "玩家改游戏改出一个产业：反恐精英、DOTA、创意工坊、Roblox——用户生成内容如何从车库爱好变成平台经济",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 92,
+      "staleScore": 92,
+      "reportId": "1edf5addde34",
+      "createdAt": "2026-08-09T14:57:33.629Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "",
+    "url": "books/proj-msls7w87u6c/index.html",
+    "publishedAt": "2026-08-17T09:49:58.629Z",
+    "visibility": "public"
+  },
+  {
+    "id": "proj-msls7pjq7tw",
+    "projectId": "proj-msls7pjq7tw",
+    "releaseId": "rel_20260817094958724_3312a82774",
+    "title": "玩法的谱系：电子游戏类型通识",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "从 1962 年《太空战争》到魂类与开放世界：每一种游戏类型从何而来、解决什么设计问题、如何变异繁衍——一部玩法的演化谱系",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 93,
+      "staleScore": 93,
+      "reportId": "f673fac54082",
+      "createdAt": "2026-08-10T13:59:26.923Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "",
+    "url": "books/proj-msls7pjq7tw/index.html",
+    "publishedAt": "2026-08-17T09:49:58.725Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mqf7mzrmntl",
     "projectId": "proj-mqf7mzrmntl",
     "releaseId": "rel_20260817034459903_843ffa9a52",
