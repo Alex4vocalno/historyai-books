@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817104645465_ba861718d2",
+  "projectId": "proj-msx3xq6kya3",
+  "manuscriptVersionId": "mv_f5f3fafb98085ef3",
+  "contentHash": "f5f3fafb98085ef3957dbed21081180acea0079d892b1f5a3c0b813b0c1ddb10",
+  "title": "玩家之心：岩田聪与任天堂的再发明",
+  "subtitle": "从程序员到社长，一种思维如何重塑任天堂",
+  "authorDisplayName": "李思特Think",
+  "description": "本书以岩田聪的人生轨迹为线索，追溯他从北海道少年程序员到任天堂第四任社长的完整历程。作者没有将岩田聪塑造为天才神话，而是细致分析他如何将程序员的拆解思维、对玩家体验的直觉以及克制的沟通方式，转化为独特的组织管理能力。从HAL研究所的破产危机到DS与Wii的蓝海战略，从《星之卡比》的代码救援到移动时代的战略迟疑，书中既呈现他解决问题的具体方法，也审视其共识驱动模式的局限。全书以官方讣告、投资者说明会、GDC演讲、Iwata Asks访谈等同期材料为优先依据，在技术洞察与管理哲学之间建立可信的叙事连接，为理解任天堂那段扩张与转型并存的二十年提供一种冷静而深入的视角。",
+  "category": "游戏史",
+  "tags": [
+    "岩田聪",
+    "任天堂",
+    "游戏产业",
+    "组织管理",
+    "程序员思维",
+    "蓝海战略"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 16,
+    "units": 147320,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T10:46:34.828Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "北海道风雪与政客之家",
+      "units": 7669
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "拆解玩具的机械启蒙",
+      "units": 11258
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "可编程计算器里的棒球",
+      "units": 7489
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "札幌南高中的代码实验",
+      "units": 11314
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "秋叶原街机与东工大岁月",
+      "units": 8861
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "HAL研究所的地下室初创",
+      "units": 7436
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "红白机底层的代码拓荒",
+      "units": 9410
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "黄金时代的团队编译器",
+      "units": 7110
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "拯救失控创意的清道夫",
+      "units": 8214
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "破产边缘的组织重构术",
+      "units": 11947
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "跨越边界的生态连接者",
+      "units": 9792
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "打破部门墙的沟通协议",
+      "units": 9101
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "逆向拆解的蓝海战略",
+      "units": 10701
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "破圈繁荣下的生态暗礁",
+      "units": 10382
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "智能浪潮中的共识局限",
+      "units": 8354
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "玩家之心与未竟的转型",
+      "units": 8282
+    }
+  ],
+  "publishedAt": "2026-08-17T10:46:45.468Z"
+}
