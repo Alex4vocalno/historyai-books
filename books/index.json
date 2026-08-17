@@ -1,5 +1,34 @@
 [
   {
+    "id": "proj-msx6himmon1",
+    "projectId": "proj-msx6himmon1",
+    "releaseId": "rel_20260817120405964_a62586d048",
+    "title": "小岛秀夫：作者的战场",
+    "subtitle": "一个名字如何成为游戏工业的战场",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏设计",
+      "作者论",
+      "小岛秀夫",
+      "媒介研究",
+      "日本文化产业"
+    ],
+    "description": "从兵库县的电影少年到独立工作室的旗帜，小岛秀夫用四十年把自己的名字变成了一款产品。本书追踪这场“作者制”在流水线体制内的极限实验：他如何把电影语法移植进互动媒介，如何用游戏机制本身表达立场，又如何在与Konami的决裂中为“A Hideo Kojima Game”付出代价。这不是一本游戏攻略，而是一部关于署名权、媒介边界与体制政治的深度评传——当作者的名字成为战场，赢家与输家往往同属一人。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "archive-ledger",
+      "createdAt": "2026-08-13T00:28:37.897Z"
+    },
+    "coverUrl": "books/proj-msx6himmon1/releases/rel_20260817120405964_a62586d048/cover.jpg",
+    "url": "books/proj-msx6himmon1/index.html",
+    "publishedAt": "2026-08-17T12:04:05.967Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msx6lhf46w7",
     "projectId": "proj-msx6lhf46w7",
     "releaseId": "rel_20260817120004351_06e5c3621a",
@@ -91,29 +120,6 @@
     "coverUrl": "books/proj-msx6ij9enm8/releases/rel_20260817115747557_abf529fc80/cover.jpg",
     "url": "books/proj-msx6ij9enm8/index.html",
     "publishedAt": "2026-08-17T11:57:47.559Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msx6himmon1",
-    "projectId": "proj-msx6himmon1",
-    "releaseId": "rel_20260817115657131_a62586d048",
-    "title": "小岛秀夫：作者的战场",
-    "subtitle": "一个名字如何成为游戏工业的战场",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "游戏设计",
-      "作者论",
-      "小岛秀夫",
-      "媒介研究",
-      "日本文化产业"
-    ],
-    "description": "从兵库县的电影少年到独立工作室的旗帜，小岛秀夫用四十年把自己的名字变成了一款产品。本书追踪这场“作者制”在流水线体制内的极限实验：他如何把电影语法移植进互动媒介，如何用游戏机制本身表达立场，又如何在与Konami的决裂中为“A Hideo Kojima Game”付出代价。这不是一本游戏攻略，而是一部关于署名权、媒介边界与体制政治的深度评传——当作者的名字成为战场，赢家与输家往往同属一人。",
-    "chapterCount": 25,
-    "editorialScore": null,
-    "coverUrl": "books/proj-msx6himmon1/releases/rel_20260817115657131_a62586d048/cover.jpg",
-    "url": "books/proj-msx6himmon1/index.html",
-    "publishedAt": "2026-08-17T11:56:57.133Z",
     "visibility": "public"
   },
   {
