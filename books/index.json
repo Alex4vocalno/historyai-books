@@ -1,5 +1,34 @@
 [
   {
+    "id": "proj-msx6kn0jkvx",
+    "projectId": "proj-msx6kn0jkvx",
+    "releaseId": "rel_20260817120511894_87db39c0df",
+    "title": "渠道为王：游戏平台战争史",
+    "subtitle": "谁控制玩家与游戏之间的最后一米",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏产业",
+      "平台经济",
+      "商业史",
+      "数字分发",
+      "渠道权力"
+    ],
+    "description": "从街机厅的投币孔到云端的订阅按钮，游戏产业五十年的权力更迭史，本质是一场「谁控制玩家与游戏之间最后一米」的战争。本书以编年体通史形式，梳理1972年至2025年游戏发行渠道的演变：任天堂如何用权利金体制定义主机商业模式，Steam如何从补丁工具成长为PC渠道垄断者，App Store如何将30%抽成全球化，Epic如何用分成挑战与诉讼松动铁律，订阅与云游戏又如何试图取消购买本身。作者提出「最后一米」「权利金体制」「三十抽的由来」「渠道的自噬」四个核心概念，逐章剖析街机厅、卡带、光盘、零售货架、数字商店、移动应用商店、中国式渠道、订阅服务等历代守门人的崛起与困境。本书严格非虚构，兼顾主机、PC、移动三线，并专章讨论中国渠道的独特性。渠道从不生产快乐，但渠道决定谁的快乐能被看见。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "archive-ledger",
+      "createdAt": "2026-08-13T06:34:18.248Z"
+    },
+    "coverUrl": "books/proj-msx6kn0jkvx/releases/rel_20260817120511894_87db39c0df/cover.jpg",
+    "url": "books/proj-msx6kn0jkvx/index.html",
+    "publishedAt": "2026-08-17T12:05:11.897Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msx6jn7ebd4",
     "projectId": "proj-msx6jn7ebd4",
     "releaseId": "rel_20260817120452986_482064f38a",
@@ -109,29 +138,6 @@
     "coverUrl": "books/proj-msx6lhf46w7/releases/rel_20260817120004351_06e5c3621a/cover.jpg",
     "url": "books/proj-msx6lhf46w7/index.html",
     "publishedAt": "2026-08-17T12:00:04.353Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msx6kn0jkvx",
-    "projectId": "proj-msx6kn0jkvx",
-    "releaseId": "rel_20260817115928062_87db39c0df",
-    "title": "渠道为王：游戏平台战争史",
-    "subtitle": "谁控制玩家与游戏之间的最后一米",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "游戏产业",
-      "平台经济",
-      "商业史",
-      "数字分发",
-      "渠道权力"
-    ],
-    "description": "从街机厅的投币孔到云端的订阅按钮，游戏产业五十年的权力更迭史，本质是一场「谁控制玩家与游戏之间最后一米」的战争。本书以编年体通史形式，梳理1972年至2025年游戏发行渠道的演变：任天堂如何用权利金体制定义主机商业模式，Steam如何从补丁工具成长为PC渠道垄断者，App Store如何将30%抽成全球化，Epic如何用分成挑战与诉讼松动铁律，订阅与云游戏又如何试图取消购买本身。作者提出「最后一米」「权利金体制」「三十抽的由来」「渠道的自噬」四个核心概念，逐章剖析街机厅、卡带、光盘、零售货架、数字商店、移动应用商店、中国式渠道、订阅服务等历代守门人的崛起与困境。本书严格非虚构，兼顾主机、PC、移动三线，并专章讨论中国渠道的独特性。渠道从不生产快乐，但渠道决定谁的快乐能被看见。",
-    "chapterCount": 25,
-    "editorialScore": null,
-    "coverUrl": "books/proj-msx6kn0jkvx/releases/rel_20260817115928062_87db39c0df/cover.jpg",
-    "url": "books/proj-msx6kn0jkvx/index.html",
-    "publishedAt": "2026-08-17T11:59:28.063Z",
     "visibility": "public"
   },
   {
