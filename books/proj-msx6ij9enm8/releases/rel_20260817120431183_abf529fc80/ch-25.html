@@ -1,0 +1,155 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>锁芯里的幽灵 · 雅达利大崩溃：电子游戏的第一次死亡</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>雅达利大崩溃：电子游戏的第一次死亡</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 25 章 · 锁芯里的幽灵</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 25 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>车库里的示波器</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>家庭战争</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>西装与热浴缸</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>印钞机的秘密</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>四个名字</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>开闸</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>宠物食品与游戏卡带</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>吃豆人的圣诞节</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>五周</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>电话会</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>退货潮</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>午夜车队</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>折扣桶里的价格尸体</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>季报上的数字雪崩</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>雅达利的尸体解剖</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>真空</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>守门人的图纸</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>新世界的入场券</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>任天堂的律师信</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>红白机上的美国</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>幽灵的诉讼</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>阿拉莫戈多的挖掘机</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>守门人的黄昏</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>墓碑上的答案</span></a><a class="chapter-link active" href="ch-25.html"><span>25</span><span>锁芯里的幽灵</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 25 章</p><h1>锁芯里的幽灵</h1><div class="reader-content"><p>第25章　锁芯里的幽灵</p>
+<p>2011年12月16日，北美东部时间上午九点整，任天堂3DS的eShop服务器向一批特定用户推送了下载通知。这批用户的设备序列号被标记为“大使计划”——一个在同年八月因3DS主机价格骤降而获得补偿的早期购买者群体。在他们可免费下载的二十款游戏中，有一款名为《火焰之纹章：圣魔之光石》的Game Boy Advance旧作。这款游戏最早于2005年5月在北美发售，六年后以模拟器形式重新出现在3DS屏幕上。</p>
+<p>下载过程安静而高效：用户点击确认，系统比对主机序列号与授权令牌，解锁下载通道，整个过程不到三十秒。这三十秒背后，是一套运转了近三十年的制度机器。</p>
+<p>《圣魔之光石》进入大使计划并非随意选择。这款游戏在2005年北美首发时，其内容已经过任天堂本地化部门的逐行审核——每一段对话、每一个角色立绘、每一处宗教符号的隐去，都必须符合任天堂北美分部的内容标准。</p>
+<p>2011年的免费分发没有绕过任何一道程序：游戏仍须通过3DS开发工具链重新封装，仍须嵌入任天堂的授权验证模块，仍须在eShop后台完成内容评级登记。即便是免费赠品，即便用户已经等待了四个月，即便这是对价格下调的补偿——任天堂没有放松任何一道关卡。</p>
+<p>同一年，苹果的App Store拥有超过五十万款应用，谷歌的Android Market突破四十万款。两家平台都以“开放”为旗帜吸引开发者。苹果的审核指南被开发者反复批评为专横且不可预测，谷歌的宽松审核则被指责为纵容垃圾应用泛滥。两个阵营的争论在科技博客上持续发酵，每一方都声称自己代表了平台的未来。</p>
+<p>任天堂没有参与这场争论。它只是继续做那件从1985年起就一直在做的事：每一款游戏，无论免费还是付费，无论出自顶级发行商还是独立开发者，都必须经过授权、审核、评级、封装——而那枚内置于每一台3DS主机中的安全芯片，在用户点击下载的瞬间，无声地完成了最后一次验证。</p>
+<p>这枚芯片的电路设计可以追溯到1990年的Super Famicom，其制度逻辑则要追溯到更早的废墟。</p>
+<p>1983年9月，新墨西哥州阿拉莫戈多。凌晨两点，一支由二十辆卡车组成的车队驶入城市边缘的垃圾填埋场。车灯划破沙漠的夜色，照在堆积如山的废弃物上。卡车停稳后，工人们开始卸货：一箱接一箱的雅达利2600游戏卡带，包装完好，有些甚至从未被零售店拆封。这些卡带上印着的名字包括《E.T.外星人》、《吃豆人》、《保卫者》——以及数十款几乎无人记得的第三方游戏，出自那些在1982年圣诞节前夕涌入游戏市场的公司，从宠物食品制造商到牙刷厂，从罐头食品公司到玩具反斗城的自有品牌。工人们将卡带箱堆放在填埋场的指定区域。</p>
+<p>一台推土机驶过，履带碾碎塑料外壳，硅片碎裂的声音在夜空中像干树枝折断。随后，混凝土搅拌车开始倾泻灰色浆液，一层一层覆盖在废墟上。天亮之前，填埋场恢复了它本来的面貌：一片被压实的垃圾层，等待下一批城市废弃物的到来。</p>
+<p>雅达利官方从未正式确认这次掩埋行动。当地报纸的报道语焉不详，目击者的说法相互矛盾，具体的掩埋数量和卡带清单从未被公开。在随后的三十年里，这次午夜行动逐渐演变成一个都市传说：有人声称掩埋了数百万盒卡带，有人说其中以《E.T.》为主，有人说那是雅达利试图销毁失败的证据。</p>
+<p>2014年4月，当挖掘机的铲斗从阿拉莫戈多垃圾填埋场中挖出第一盒《E.T.》卡带时，围观的人群爆发出欢呼。纪录片摄制组将镜头对准那个裹着泥土的灰色塑料盒，微软的Xbox娱乐工作室买下了拍摄权，全球媒体在头条中宣布游戏史上最大的都市传说被证实。</p>
+<p>但真相早在三十年前就已经写在华纳通讯的季报里，写在零售商的退货单上，写在任天堂的权利金合同中。阿拉莫戈多掩埋的不是秘密，而是数十万盒卖不出去的商品——在一个已经没有买家的市场中，过剩库存的唯一去处。被挖出来的也不是真相，而是一个神话的终结。《E.T.》不是崩溃的原因，它是崩溃的替罪羊。</p>
+<p>真正的罪魁祸首从未被掩埋，它们一直暴露在阳光下，只是行业花了四十年才学会直视。</p>
+<p>雅达利2600的开放架构，是这个故事真正的起点。1977年，当雅达利推出2600主机时，“开放”并非深思熟虑的战略选择，而是技术条件的偶然产物。2600的硬件架构基于MOS科技6507处理器，其核心设计文档在工程社群中广泛流传。任何具备汇编语言编程能力的工程师，只要愿意花时间逆向工程，就能理解2600的图形处理机制、内存映射和输入输出接口。雅达利最初没有意识到这意味着什么。</p>
+<p>在1977年至1979年间，2600的游戏库完全由雅达利内部程序员开发。这些程序员薪水不高，工作条件恶劣，他们的名字不会出现在产品包装上——“雅达利”三个字就是唯一的署名。</p>
+<p>1979年10月，四名程序员——大卫·克雷恩、拉里·卡普兰、艾伦·米勒、鲍勃·怀特黑德——在深夜离开了雅达利。他们在拉斯维加斯的消费电子展上遇到了吉姆·列维，一个愿意为他们提供资金的人。</p>
+<p>列维曾任华纳音乐集团高管，他不太明白游戏是怎么做出来的，但他明白一件事：如果雅达利的程序员可以做出卖几百万盒的游戏，却只拿到两万美元的年薪，那么这个产业的利润分配方式迟早会崩溃。列维投了十万美元。</p>
+<p>动视公司诞生了。这是电子游戏史上第一家第三方发行商。它的商业模式建立在一个简单的法律假设上：2600是一台通用计算机，任何人都可以为它编写软件，只要不使用雅达利的专利代码或商标。雅达利当然不这么认为。1980年，雅达利起诉动视，指控其侵犯专利、不正当竞争和商业秘密。这场诉讼持续了两年，最终在1982年以庭外和解告终。和解协议的具体条款从未公开，但它的结果改变了整个产业：法院没有裁定为2600开发游戏是非法行为。</p>
+<p>雅达利失去了对2600平台的排他性控制权。第三方游戏合法了。判决在1982年春天生效。到那年圣诞节，市面上出现了超过五十款新的2600第三方游戏。</p>
+<p>其中大多数来自正经的软件公司，比如Imagic、Parker Brothers和Coleco。但也有一些来自从未接触过游戏开发的公司：桂格燕麦公司发布了一款游戏，宠物食品公司普瑞纳也尝试进入这个市场。</p>
+<p>这些公司看到的不是游戏，而是印钞机——1981年动视的营收超过六千万美元，而它的起家资本只有十万美元。1982年的圣诞购物季，北美零售渠道订购了远超实际需求的游戏卡带。批发商按照上一个圣诞节的销售斜率下单，零售商按乐观预测备货，整个供应链建立在一个假设上：游戏市场会永远增长。没有人考虑过如果消费者买到了烂游戏会怎样。</p>
+<p>1982年秋天，雅达利自己给出了答案。公司花了超过两千万美元从环球影业手中买下《E.T.外星人》的游戏改编权，然后要求程序员霍华德·斯科特·华沙在五周内完成开发。华沙是一个有天赋的程序员，但五周时间——从概念设计到完成代码——只够做出一个勉强能运行的产品。</p>
+<p>《E.T.》在2600上的表现糟糕：玩家控制的外星人不断掉进坑里，难以爬出，图形粗糙，玩法重复。雅达利生产了四百万盒《E.T.》卡带。这是一个基于《吃豆人》2600移植版销售数据的乐观预测——《吃豆人》虽然质量糟糕，但在1982年初仍然卖出了七百万盒。雅达利的管理层相信，只要是大IP，只要摆在货架上，就会有人买。他们错了。</p>
+<p>1982年圣诞节后，退货潮开始。消费者发现货架上的游戏质量参差不齐，有些卡带甚至无法正常运行。零售商面对堆积如山的库存，开始打折清仓。五美元、三美元、一美元——曾经卖三十美元的卡带被扔进折扣桶，这个价格信号摧毁了整个市场的新品定价能力。为什么消费者要花三十美元买一款新游戏，如果上周那款看起来差不多的游戏现在只卖五美元？</p>
+<p>1983年春天，华纳通讯的季报暴雷。雅达利部门的亏损数字震惊了华尔街。股价在一天内暴跌。裁员、资产出售、拆分重组——雅达利在几个季度内从华纳的现金牛变成负资产。</p>
+<p>需要在此处停下来，检视那个最强反方解释：大崩溃的根本原因在于华纳通讯以僵化的公司治理压制了雅达利赖以成名的创新基因，导致一连串灾难性的产品决策，最终被消费者用脚投票。这个解释有它的正确部分。华纳的管理确实糟糕。它用西装革履的职业经理人替换了穿牛仔裤的工程师，用季度利润指标取代了产品品质追求，用预算审批制度扼杀了车库创新精神。《吃豆人》2600移植版的灾难源于管理层对上市时间的硬性要求，而非技术上的不可能。《E.T.》五周开发冲刺是华纳高层在谈判桌上对环球影业做出的承诺，不是程序员的选择。华纳的管理失误加速了崩溃，这一点毫无疑问。</p>
+<p>但这个解释漏掉了更大的结构。华纳的管理失误只能解释雅达利第一方游戏的失败——而雅达利第一方游戏在2600整个生命周期中只占卡带总发行量的不到三分之一。崩溃的真正引擎是那两千多款第三方游戏，其中绝大多数从未经过任何形式的品质审核。</p>
+<p>任何公司，只要有能力烧录ROM芯片并制造塑料外壳，就可以把自己的名字印在2600卡带上，放到玩具反斗城的货架上，以二十九点九五美元的价格卖给八岁的孩子。华纳没有审核这些游戏，不是因为它不想，而是因为2600的开放架构让它无法审核。</p>
+<p>这就是“无门槛的诅咒”：当平台失去守门人，当内容供给在零成本边际上爆炸，繁荣本身就成了死亡螺旋的燃料。每多一款烂游戏，就多一个消费者发誓再也不买任何游戏。每多一个折扣桶，新品价格的锚点就下沉一英寸。市场不会自我净化——它只会加速腐烂。</p>
+<p>1983年9月，当阿拉莫戈多的午夜车队碾过那些卖不出去的游戏卡带时，北美电子游戏市场已经蒸发了百分之九十七。从1982年的三十二亿美元，到1985年的不到一亿美元。零售渠道彻底放弃了游戏专柜。消费者用脚投票，零售商把货架转给了个人电脑和玩具。游戏已死——至少在北美，这是1984年至1985年零售业的共识。</p>
+<p>在这个共识之下，只有一家公司敢于在1985年重新进入北美市场，试图说服已经被伤害过的零售商和消费者，游戏还值得信任。任天堂。</p>
+<p>1985年10月，纽约。任天堂北美分公司在纽约市的一个贸易展上展示了任天堂娱乐系统（NES）。展台并不豪华，位置也不显眼。</p>
+<p>但每一个走近展台的零售商，都会注意到一个细节：NES主机的前面板上有一个显而易见的卡带插槽，插槽下方是一块金属铭牌，上面刻着“Nintendo Seal of Quality”。这不是装饰。每一盒NES卡带的正面上，都印有一个相同的金色圆形封印。这个封印意味着：任天堂已经审核过这款游戏，它不会死机，它包含适当的内容，它符合任天堂的技术标准。</p>
+<p>但封印的真正力量不在卡带标签上，而在主机内部。NES内部搭载了一枚被称为10NES的安全芯片。这枚芯片在每次开机时执行一个握手验证程序：主机内的10NES芯片向卡带中的对应芯片发送一个随机数，卡带芯片必须返回正确的计算结果，游戏才能运行。</p>
+<p>如果卡带中缺少这枚芯片——或者芯片被移除——NES将拒绝启动。这枚芯片不在任何专利文件中被描述为反竞争工具。任天堂的官方说法是质量控制措施。但它的实际功能非常明确：只有获得任天堂授权的公司，才能从任天堂控制的工厂购买搭载10NES芯片的卡带电路板。任何未经授权的第三方游戏——无论技术上多么成熟——在物理上都无法在NES上运行。</p>
+<p>这枚芯片，加上任天堂的权利金合同，构成了守门人2.0。任天堂的权利金协议包含几个核心条款。第一，每一家第三方开发商每年最多只能发行五款游戏。这不是生产能力限制——任天堂不在乎一家公司能不能做出更多游戏。它在乎的是：如果一家公司可以无限量发行游戏，它就没有动力确保每一款都达到品质标准。五款游戏的配额，强制开发商在提交项目时做出选择。第二，任天堂保留对每一款游戏的最终审核权。审核标准不仅包括技术稳定性——游戏会不会死机、画面会不会闪烁——还包括内容审查。</p>
+<p>在NES的北美版本中，任天堂删除了日本原版游戏中大量被认为不适合美国儿童的内容。《恶魔城》中的十字架被替换为回旋镖。《合金装备》中的枪战场面被修改。</p>
+<p>任天堂的内容审核指南——一本从未公开但在开发者圈子里广为人知的文件——列出了冗长的禁止事项：不得出现血腥、不得出现性暗示、不得出现宗教符号、不得出现粗俗语言。</p>
+<p>第三，任天堂垄断了卡带生产。所有NES游戏，无论出自哪家发行商，都必须由任天堂的工厂制造。开发商需要提前数月提交订单，预付全部生产成本，并接受任天堂对生产数量的最终决定权。如果一个开发商想要生产一百万盒卡带，但任天堂认为市场只能消化三十万盒，它有权削减订单。</p>
+<p>这是对1982年圣诞库存灾难的直接回应：任天堂不允许零售渠道再次被过剩库存淹没。</p>
+<p>第四，任天堂的独占条款要求第三方开发商在NES上发行的游戏，在两年内不得移植到其他平台。这个条款后来被美国联邦贸易委员会调查，并在1991年迫使任天堂修改了部分条款。</p>
+<p>但在1985年至1990年间，它有效地阻止了竞争对手获得NES游戏库。这些条款放在今天的反垄断法框架下，几乎每一个都会引发诉讼。</p>
+<p>但在1985年，当任天堂的销售代表走进玩具反斗城的采购办公室时，他们带来的不是一支笔和一份合同，而是一整套承诺：我们不会让1983年重演。我们会确保每一款NES游戏都值得买。我们会控制生产量，不会让折扣桶再次出现。我们会审核内容，不会让垃圾游戏出现在货架上。</p>
+<p>玩具反斗城签了。沃尔玛签了。西尔斯签了。每一个被1983年退货潮吓怕的零售商，都愿意接受一个重新建立守门人的平台，即使这个守门人拿走了大部分利润。</p>
+<p>利润如何分配？任天堂的权利金通常在每盒卡带十到十五美元之间，具体数字因合同而异。以建议零售价四十九点九九美元的NES游戏为例，任天堂拿走的部分超过终端零售价的三分之一。</p>
+<p>这不是公平的分配，但它是一个有效的分配。1983年证明了一个残酷的事实：在一个没有守门人的市场中，没有人能拿到钱。</p>
+<p>开发商拿不到，零售商拿不到，平台拿不到，消费者买到的只是垃圾。任天堂用权利金体制重建了利润分配的秩序——这种秩序的基础不是公平，而是生存。</p>
+<p>北美游戏市场在1985年几乎是零。NES进入两年后，1987年，市场规模恢复到十亿美元。1990年，超过三十亿美元。任天堂不仅重建了游戏产业，它重建了产业的基础设施：如何判断一个游戏值得投产，如何控制零售渠道的库存，如何让消费者重新相信游戏这个品类。</p>
+<p>但1983年的幽灵从未离开。1994年，索尼PlayStation发布。久夛良木健，PlayStation的缔造者，曾在任天堂的FC磁碟系统项目中亲眼目睹了权利金体制的运作。</p>
+<p>当他设计PlayStation的第三方授权体系时，他做出了一个关键性的修改：索尼降低了权利金费率，每盒光盘只收取七到九美元，远低于任天堂的卡带权利金。索尼还放松了独占条款，允许第三方开发商在更短的时间窗口后将游戏移植到其他平台。但索尼没有放弃守门人角色。</p>
+<p>PlayStation的授权协议仍然包含内容审核条款，仍然要求游戏通过索尼的认证流程，仍然在主机中嵌入了验证光盘真伪的安全机制。索尼的PlayStation质量认证手册比任天堂的更厚，测试项目更多，技术要求更复杂。久夛良木健不是要废除守门人，他只是要做一个比任天堂更温和、更愿意与第三方分享利润的守门人。</p>
+<p>第三方的反应是爆炸性的。KONAMI、CAPCOM、SQUARE、NAMCO——这些在任天堂权利金体制下积累了巨额利润但也积累了巨额不满的公司，纷纷转向PlayStation。1997年，SQUARE宣布《最终幻想VII》将在PlayStation上独占发行，这个决定被业界视为任天堂守门人统治的终结。</p>
+<p>但终结的只是任天堂的统治，而不是守门人体制本身。2001年，微软Xbox进入市场。Xbox的第三方授权协议几乎是一份翻版的任天堂权利金合同，只是用更现代的法律语言重新写了条款。</p>
+<p>微软的成就系统——2005年在Xbox 360上引入——增加了一个全新的守门人维度：不只是内容审核，而是行为引导。每一个在Xbox平台上发行的游戏，都必须实现特定的成就逻辑，必须符合微软制定的技术规范，必须通过微软的测试认证。成就系统看似是游戏功能，实际是平台控制：它让开发者与微软的平台基础设施深度绑定，提高迁移成本，强化守门人的话语权。</p>
+<p>2008年，苹果App Store上线。史蒂夫·乔布斯最初对App Store的构想是彻底开放的。开发者可以自由提交应用，用户自由下载，苹果只提供托管和分发服务。但这个构想在被提交给苹果董事会讨论时，遭到了包括菲尔·席勒在内的多位高管的反对。</p>
+<p>反对的理由不是技术上的，而是制度上的：如果苹果不审核应用，App Store就会变成垃圾场。消费者被劣质应用欺骗一次，就不会再信任这个平台。乔布斯被说服了。App Store的审核指南在2008年夏天正式生效。</p>
+<p>审核指南中的条款，与任天堂1985年那份从未公开的内容审核手册有着惊人的相似：禁止色情内容、禁止没有价值的应用、禁止欺骗性行为、禁止不稳定或崩溃的软件。苹果的审核团队——最初只有几十人，后来扩展到数百人——开始执行一项任天堂从未尝试过的任务：人工审核每一款提交到平台的软件。在App Store的巅峰时期，苹果每周审核超过十万款应用和更新。</p>
+<p>审核标准的不可预测性、审核员的审美差异、审核指南的模糊措辞——这些被开发者反复抱怨的问题，本质上是守门人体制的固有成本：当平台必须决定什么可以进入、什么不可以进入时，决策本身就不可能完全透明、完全一致。</p>
+<p>但App Store的围墙花园模式在商业上是成功的。到2020年，苹果从App Store抽取的佣金收入超过一百五十亿美元。消费者对App Store的信任——相信下载的应用不会窃取隐私、不会包含恶意代码、不会突然崩溃——建立在苹果的守门人角色之上。</p>
+<p>这个信任的价值，在苹果的定价体系中，体现在每一笔交易百分之三十的抽成里。</p>
+<p>2020年8月，Epic Games决定挑战这个体系。Epic在《堡垒之夜》的iOS版本中嵌入了自己的支付系统，绕过了苹果的百分之三十抽成。苹果在一小时内将《堡垒之夜》从App Store下架。Epic随即提起反垄断诉讼，并发布了一段模仿苹果1984年超级碗广告的讽刺视频，将苹果描绘为新的老大哥。</p>
+<p>案件在2021年5月开庭。在加州奥克兰的联邦法院里，Epic的律师和苹果的律师展开了三周的辩论。辩论的焦点表面上是反垄断法的适用性问题——苹果在移动游戏分发市场是否构成垄断、百分之三十的抽成是否合理、禁止第三方支付是否构成不正当竞争。但在这些法律术语之下，辩论的实质回到了一个更古老的问题：平台是否有权决定谁能进入、抽成比例是否合理、审核标准是否透明。</p>
+<p>在庭审的某一天，Epic的律师举起了一份文件。这是一份任天堂在1990年代与第三方开发商签订的权利金合同的影印本。</p>
+<p>文件中的条款——年度发行数量限制、独占条款、卡带生产垄断、内容审核权——被律师逐一标注，与苹果App Store的开发者协议进行并排对照。律师的陈述沿着一条清晰的逻辑线推进：苹果所谓的围墙花园，其制度原型可以追溯到1980年代的任天堂权利金体制。审核团队、抽成比例、独占条款——这些不是苹果的发明。它们是游戏产业从1983年大崩溃中学到的教训。但教训变成了制度，制度变成了垄断，垄断变成了拒绝竞争的理由。</p>
+<p>苹果的律师在交叉质询中反驳：Epic挑战的不是垄断，它挑战的是守门人制度本身。它想要一个没有守门人的平台，一个任何人都可以自由进入、自由定价、自由分发的游戏市场。但历史已经证明，那种市场是不可持续的。1983年的雅达利大崩溃——苹果方提交了当年的季报和零售商退货记录作为证据——不是因为一家公司做了一款糟糕的游戏，而是因为平台失去了守卫质量大门的能力。</p>
+<p>苹果没有发明守门人，任天堂也没有。守门人是市场崩溃后用废墟重建的秩序。</p>
+<p>法官在提问中插入了一个问题：如果苹果的守门人角色是合理的，那么谁来决定守门人的行为是否合理？这个问题，在1982年华纳诉动视的案卷中，在1985年任天堂的权利金合同中，在2021年的法庭上，都没有获得圆满的答案。</p>
+<p>1983年9月，阿拉莫戈多。那支午夜车队碾过卡带时的履带声，在1985年变成了任天堂权利金合同中的条款句号，在1994年变成了索尼PlayStation认证手册中的测试列表，在2008年变成了苹果App Store审核指南中的禁止事项，在2021年变成了Epic诉苹果案法庭上的法律论点。</p>
+<p>那些被压路机碾碎、被混凝土覆盖的塑料与硅片，最终变成了一种更顽固的东西：一个幽灵。这个幽灵不活在电路里，它活在每一代游戏平台的设计图纸上，活在每一份授权协议的条款缝隙里，活在每一次关于开放还是封闭的行业争论中。</p>
+<p>当游戏产业在2010年代迎来新一轮开放平台浪潮时——当Ouya在2013年以完全开放为卖点众筹八百五十万美元，当Steam在2012年推出青睐之光系统试图让用户投票决定哪些游戏可以上架——它们都在试图回答同一个问题：能不能在不要守门人的情况下，避免1983年再次发生。Ouya的答案是肯定的。它承诺任何开发者都可以为Ouya开发游戏，主机不收取权利金，所有游戏都有免费试玩版本。Ouya的创始人朱莉·乌尔曼在2013年接受采访时说，他们信任开发者，信任市场，守门人是旧时代的遗物。</p>
+<p>Ouya在2015年破产清算。它的仓库里堆满了未售出的主机和未开封的配件。圣莫尼卡仓库的卷帘门在那个下午落下时，阳光最后一次照在那些白色包装盒上。盒子上印着的Ouya标志——一个圆角立方体，简洁而现代——在清算清单上被标记为无回收价值。</p>
+<p>Steam的青睐之光系统在2017年被关闭。原因很简单：它被垃圾游戏和操纵投票的行为淹没了。</p>
+<p>Valve用Steam Direct取代了青睐之光，重新引入了审核机制——开发者必须支付一笔可返还的保证金，提交游戏通过Valve的审查，才能将游戏发布到Steam商店。守门人换了名字，但守门人回来了。</p>
+<p>2014年4月，阿拉莫戈多。当挖掘机的铲斗从垃圾填埋场中挖出第一盒《E.T.》卡带时，围观的人群爆发出欢呼。纪录片摄制组将镜头对准那个裹着泥土的灰色塑料盒。尘土被吹去，雅达利的标志——那个曾经代表游戏产业全部荣光的彩虹条纹——在三十一年后重见天日。</p>
+<p>但这一刻被挖出来的不是真相。真相早在1983年就已经写在华纳的季报里，写在零售商的退货单上，写在任天堂的权利金合同里。E.T.不是崩溃的原因，它是崩溃的替罪羊。</p>
+<p>真正的罪魁祸首——开放架构下的质量坍塌、供应链的库存幻觉、渠道的折扣桶陷阱——从未被掩埋。它们一直暴露在阳光下。只是在1983年，没有人愿意直视它们。在1985年，任天堂用权利金体制重建了遮蔽它们的墙壁。</p>
+<p>在1994年，索尼用更温和的守门人姿态让它们变得可以忍受。在2008年，苹果用App Store的围墙花园将它们包装成消费者保护。在2021年，Epic和苹果的律师在法庭上争论它们是否构成垄断。</p>
+<p>每一台游戏主机里都有一枚锁芯芯片。NES的10NES，PlayStation的授权验证模块，Xbox的成就系统绑定，App Store的审核机制——它们的形态不同，芯片制程从微米级进化到纳米级，但它们的核心功能完全一致：在内容无限供给的时代，必须有人为质量设立门槛。1983年证明了，没有守门人的市场不会自我净化，它只会加速腐烂。</p>
+<p>那枚芯片的真正设计者，不是任天堂的硬件工程师，不是索尼的系统架构师，不是苹果的软件开发者。它的真正设计者，是1983年秋天午夜车队碾过阿拉莫戈多垃圾场的履带。那些履带压碎的每一盒卡带，都变成了权利金合同中的一个条款。那些混凝土覆盖的每一片硅片，都变成了锁芯芯片中的一个逻辑门。</p>
+<p>那些被销毁的数十万盒游戏，它们的塑料外壳早已腐烂，但它们的制度基因在四十年后仍然活在每一台游戏主机、每一部智能手机、每一个数字发行平台中。1983年9月，新墨西哥州的沙漠里，太阳升起时，垃圾填埋场恢复了它本来的面貌。一层新的混凝土覆盖在废墟上，等待下一批城市废弃物的到来。但在那层混凝土之下，在那层混凝土的结构之中，一个幽灵已经诞生。它不会腐烂，不会过时，不会被任何挖掘机铲斗挖出。它只会在每一代新平台诞生时，在每一次关于开放还是封闭的争论中，在每一份授权协议的条款缝隙里，无声地显形。游戏产业此后四十年的一切制度设计——权利金、品质封印、认证流程、独占协议、内容审核、成就系统、围墙花园、保证金——都是刻在这座坟墓上的碑文。任天堂只是第一个读懂这些碑文的人。索尼、微软、苹果、Valve，每一个后来的守门人，都在用自己的方式重复同一个答案：1983年大崩溃不是一家公司的失败。它是人类第一次面对内容无限供给遇上质量无门槛的市场实验。</p>
+<p>实验的结果是毁灭性的，但毁灭的废墟中生长出了此后四十年平台经济学的全部制度基因。繁荣本身就是死亡螺旋的燃料——只有守门人能为这个燃料添加冷却剂。而守门人的代价，是永远无法回答那个问题：谁来监督守门人？这个问题，在阿拉莫戈多的履带碾过最后一盒卡带时，就被埋进了混凝土深处。它至今没有答案。它可能永远不会有答案。但每一次游戏产业面临开放还是封闭的选择时，每一次新平台诞生时，每一次反垄断诉讼开庭时，这个问题的回响，都会从那片沙漠下的混凝土层中传来。那是1983年秋天的幽灵，在锁芯里，永不腐烂。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-24.html">上一章</a><a href="index.html">返回详情</a><span></span></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msx6ij9enm8","chapter":24,"chapterTitle":"锁芯里的幽灵","href":"ch-25.html","prevHref":"ch-24.html","nextHref":"","locationLabel":"第 25 章 · 锁芯里的幽灵"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>
