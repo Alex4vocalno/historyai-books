@@ -1,5 +1,37 @@
 [
   {
+    "id": "proj-msn5zkn79oc",
+    "projectId": "proj-msn5zkn79oc",
+    "releaseId": "rel_20260817100250653_6950128909",
+    "title": "街机厅之光",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "街机文化",
+      "游戏史",
+      "怀旧",
+      "亚文化",
+      "场所记忆",
+      "数字考古"
+    ],
+    "description": "本书是一部以街机厅为主角的场所史。它从1978年《太空侵略者》引发的日本百元硬币短缺事件开始，追溯了街机厅如何从单纯的游戏场所，演变为一代人的社交圣殿、社会道德恐慌的靶子、格斗游戏黄金年代的竞技场。书中不仅记录了《吃豆人》等经典游戏带来的文化现象，也探讨了市政监管、玩家社群的形成与规矩、家庭游戏机的冲击，以及流媒体时代下街机文化的衰落与转变。最终，它跟随那些最后的“遗民”，见证了街机厅在物理空间熄灯后，其精神如何在网络直播、复古收藏与怀旧记忆中，以幽灵般的方式获得新生。这是一曲献给投币时代的挽歌与赞歌。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 92,
+      "staleScore": 92,
+      "reportId": "a638e49642dd",
+      "createdAt": "2026-08-10T13:30:52.295Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "books/proj-msn5zkn79oc/releases/rel_20260817100250653_6950128909/cover.jpg",
+    "url": "books/proj-msn5zkn79oc/index.html",
+    "publishedAt": "2026-08-17T10:02:50.655Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msn5za48rim",
     "projectId": "proj-msn5za48rim",
     "releaseId": "rel_20260817100230097_bdfeef9012",
@@ -215,35 +247,6 @@
     "coverUrl": "",
     "url": "books/proj-msn5zq604rm/index.html",
     "publishedAt": "2026-08-17T09:49:58.172Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msn5zkn79oc",
-    "projectId": "proj-msn5zkn79oc",
-    "releaseId": "rel_20260817094958311_cc7bee90ee",
-    "title": "街机厅之光",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "游戏史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "从 1978 年《太空侵略者》引发日本百元硬币短缺，到最后一批街机厅在流媒体时代熄灯：以厅为主角的场所史——游戏厅如何成为一代人的社交圣殿、道德恐慌的靶子、格斗黄金年代的竞技场，以及它的死亡与幽灵般的复活",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "rules",
-      "score": 92,
-      "staleScore": 92,
-      "reportId": "a638e49642dd",
-      "createdAt": "2026-08-10T13:30:52.295Z",
-      "manuscriptVersionId": ""
-    },
-    "coverUrl": "",
-    "url": "books/proj-msn5zkn79oc/index.html",
-    "publishedAt": "2026-08-17T09:49:58.311Z",
     "visibility": "public"
   },
   {
