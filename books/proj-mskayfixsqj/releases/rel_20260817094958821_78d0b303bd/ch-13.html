@@ -1,0 +1,154 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>开发一部里的旁系 · 枯萎技术的水平思考：横井军平传</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>枯萎技术的水平思考：横井军平传</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 13 章 · 开发一部里的旁系</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>19 章 · 当前第 13 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>纸牌厂的奇怪修理工</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>超级怪手与偶然的发明家</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>光线枪与电子部的雏形</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>开发一部里的孤立者</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>宫本茂与横井的沉默分工</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>街机基板上的水平思考</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>枯竭的乐趣</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>十字键的诞生</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>掌机与过时的先见</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>大金刚里的沉默设计</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>游戏男孩与积木的胜利</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>虚拟之前的转身</span></a><a class="chapter-link active" href="ch-13.html"><span>13</span><span>开发一部里的旁系</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>虚拟的诱惑</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>红色的紧急出口</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>一九九五年夏天</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>Koto 与那台小东西</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>石川县的车祸</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>未完成的答案</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 13 章</p><h1>开发一部里的旁系</h1><div class="reader-content"><p>那个小房间里的红色单色光还在安静地闪烁。它发出的不是答案，而是一个问题的形状——这个问题将在接下来的岁月里把他引向一场职业生涯中最大的豪赌。那场豪赌的名字后来所有人都知道了，但此刻它仍只是一道红色光芒，在满是拆解零件的房间里静候被赋予一个名字和相应的代价。</p>
+<p>但在抵达那个时刻之前，必须先理解另一件事。</p>
+<p>1970年代末，开发一部在任天堂内部的地位已不可同日而语。Game &amp; Watch系列自1980年问世以来，在全球售出超过四千万台。这个数字在当时意味着一个京都花牌公司突然拥有了足以与任何消费电子巨头抗衡的现金流。开发一部从旧仓库搬进了正经的办公楼，横井军平的团队扩充到了数十人。山内溥在董事会上提到这个部门时，语气里带着罕见的满意。Game &amp; Watch的大卖，不仅让任天堂度过了破产危机，更在两年内清还了八十亿日圆的银行负债，并使公司的资金暴增五十亿日圆。这笔资金，后来成为了研发红白机的主要财源。</p>
+<p>但成功本身筑起了一道无形的墙。</p>
+<p>开发一部的运作方式，从根子上就与任天堂其他部门不同。横井军平招进来的人多半是工程师出身，他们习惯拆东西，第一反应不是画图纸，而是打开外壳看里面有什么。他们相信成本控制不是财务部的任务，而是设计本身的一部分。他们谈论成熟技术时，不是在谈论落后，而是在谈论可靠性、可预测性、供应链的安全性。这些词汇在家用机部门的人听来，几乎是另一种语言。</p>
+<p>同一时期，任天堂正在经历另一场更剧烈的膨胀。1983年红白机上市，1985年《超级马力欧兄弟》发售，1990年超级任天堂登场。这些事件构成了一个连续的上升弧线，而这条弧线的圆心不在开发一部。</p>
+<p>宫本茂所在的信息开发部——后来改组为情报开发本部——正在形成一套完全不同的开发范式。他们从内容出发，先构想一个世界，再为这个世界搭建能够承载它的硬件平台。他们需要更强的图形处理能力、更大的内存、更快的读取速度，与半导体供应商讨论的是下一代制程工艺。他们看一块电路板时，看到的是可能性。横井军平看同一块电路板时，看到的是成本。</p>
+<p>这不是谁对谁错的问题。两种视角在各自的领域内都是有效的。问题在于，当一家公司同时拥有两条如此不同的产品线时，资源分配的逻辑就会变得微妙起来。</p>
+<p>山内溥的决策智慧在于他允许两者并存。他从不在公开场合贬低任何一方的哲学，甚至会在不同场合分别称赞两种路线的优点。但这种并存的代价是，两条线之间的交流越来越少。到八十年代后期，开发一部与家用机部门之间的项目会议已经变成了一种礼节性的过场。双方都知道对方在做什么，但双方都不认为对方的方法适用于自己的领域。横井军平会礼貌地听取家用机团队关于新图形芯片的汇报，然后回到自己的楼层继续研究如何用更便宜的液晶屏实现更好的显示效果。宫本茂偶尔会来开发一部看看横井在做什么，但他带走的通常不是技术方案，而是一些关于交互逻辑的抽象启发。</p>
+<p>这种分裂在人事层面上更加具体。开发一部的核心成员——出石武宏、田中宏和、坂本贺勇——他们的职业生涯轨迹与家用机部门的同代人几乎没有交集，在公司内部的晋升路径也不同。家用机部门的明星设计师会被派去参加国际游戏开发者大会，在杂志上接受长篇专访，成为行业偶像。开发一部的人很少出现在公众视野中，他们的名字偶尔会出现在产品说明书的角落里，仅此而已。</p>
+<p>这不是刻意打压的结果，而是两种工作性质的自然差异。家用机部门的产出是内容——角色、故事、画面、音乐，这些东西天然具有传播性。开发一部的产出是系统——十字键的原理、液晶屏的驱动电路、电源管理模块的功耗曲线，这些东西只有在拆解报告里才能被看到，而普通用户从不阅读拆解报告。</p>
+<p>横井军平本人对这种差异并不在意，至少表面上如此。他继续做他一直在做的事情。1989年的Game Boy是他设计哲学最彻底的实践：四色灰度屏幕、低功耗处理器、没有背光——每一个选择都在挑战当时消费电子行业对进步的定义。竞争对手在追逐彩色屏幕、更快的处理器、更炫目的视觉效果，横井军平选择了相反的方向。他选择了一个已经被夏普淘汰的液晶生产线能够轻松供应的屏幕规格，选择了在光线充足的环境下才能看清的反射式显示方式——这迫使玩家调整自己的使用习惯以适应设备，而不是让设备去满足每一个可能的使用场景。</p>
+<p>Game Boy成功了。巨大的成功。全球销量超过一亿台，《俄罗斯方块》同捆版的出货量单独拿出来都是一个天文数字，《宝可梦》后来为这台技术上已经过时的掌机注入了第二波生命。在任天堂的财务报告中，Game Boy的利润贡献一度超过了家用机部门的总和。</p>
+<p>但正是在这个巅峰时刻，结构性的裂痕开始显现出它的后果。</p>
+<p>1991年，任天堂开始规划下一代家用机——后来被称为N64的项目。这个项目的预算规模是空前的，公司从硅谷挖来了顶尖的图形芯片设计团队，山内溥亲自参与了与芯片供应商的谈判。整个公司的技术资源都在向这个方向倾斜。</p>
+<p>同一年，横井军平在开发一部内部成立了一个非正式的研究小组，开始探索三维立体显示技术。这个小组的预算少得几乎可以忽略不计，使用的设备大部分是从二手市场上淘来的。他们的实验室——如果那个堆满拆解零件的房间可以被称为实验室的话——位于开发一部楼层的最深处，远离公司的主走廊。</p>
+<p>这两个项目在同一家公司内部平行推进。一边是数百人的团队、数千万美元的预算、全球供应链的协调、与好莱坞电影公司的授权谈判、针对北美市场的大规模广告投放计划。另一边是几个工程师、几块从废旧摄像机上拆下来的取景器屏幕、一些红色LED阵列、一台老旧的示波器、以及横井军平从Game Boy利润中悄悄截留下来的一小笔经费。</p>
+<p>这不是山内溥偏心。山内溥的逻辑始终是一致的：他让每个部门去做它们最擅长的事。家用机部门擅长的是在技术竞赛中正面迎战世嘉和后来的索尼，开发一部擅长的是在主流视野之外找到那些被忽视的机会。从这个角度看，资源的分配是合理的。</p>
+<p>但合理不等于公平。当公司的主流叙事被家用机部门的每一次技术突破所定义时，开发一部的工作就变得越来越难以在公司内部获得话语权。一个工程师在会议上提出用四年前的液晶技术做新产品时，周围人看他的眼神是礼貌的——但那种礼貌本身就是距离。</p>
+<p>横井军平感觉到了这种距离。他没有公开抱怨过，他的性格不是那样的。但他开始更频繁地独自加班，那个堆满拆解零件的小房间里的灯光亮到深夜的次数越来越多。他在寻找什么——不是在寻找一个具体的技术方案，而是在寻找一个能让他彻底避开这场竞赛的出口。</p>
+<p>家用机部门的逻辑是：更快的处理器、更多的多边形、更高的分辨率、更逼真的纹理贴图。这是一条没有终点的赛道，每一年都有新的技术指标出现，每一年都有竞争对手推出更强的硬件，每一年都有分析师在杂志上比较各大厂商的性能参数。横井军平从一开始就拒绝进入这条赛道。他的拒绝不是基于哲学上的清高，而是基于一个非常实际的判断：任天堂不可能在纯技术竞赛中获胜。索尼和微软背后是整个消费电子和计算机工业的技术积累，任天堂是一家游戏公司，它的核心能力不在半导体工艺上。如果它被迫按照别人的规则玩游戏，它迟早会输。</p>
+<p>这个判断在八十年代是成立的。但到了九十年代初，它开始受到挑战——不是因为横井的判断错了，而是因为整个产业的规则变了。</p>
+<p>索尼PlayStation的研发团队在1993年已经完成了原型机的大部分设计工作。这台机器的硬件架构直接借用了索尼在CD-ROM和数字音频处理领域的技术积累，图形处理能力远超超级任天堂。当这个消息通过各种渠道传到任天堂内部时，家用机部门的反应是加速N64的开发进度，追加更多的技术投入。横井军平的反应是继续在那个小房间里调试红色LED阵列的闪烁频率。</p>
+<p>这两种反应的差异不仅仅是策略上的，它们是两种世界观的分歧。家用机部门相信技术本身可以创造市场——只要提供足够强的性能，开发者就会创造出前所未有的体验，消费者就会为这种体验买单。这是一个供给驱动的逻辑。横井军平相信需求本身才是起点，技术只是满足需求的手段之一——而且往往不是最好的手段。最好的手段是用最成熟、最可靠、最廉价的技术去满足一个已经被验证的需求。这是一个需求驱动的逻辑。</p>
+<p>在Game &amp; Watch时代，这两种逻辑还没有形成对立，因为那时候任天堂根本没有家用机业务。在红白机时代早期，两种逻辑甚至有过短暂的互补——红白机的硬件设计本身就体现了横井式的成本控制思维。但随着家用机业务的规模越来越大，随着宫本茂式的内容驱动范式越来越占据公司的话语权中心，横井的逻辑开始被边缘化。</p>
+<p>边缘化这个词需要小心使用。它不是指横井军平在公司内部受到了冷遇或排挤。恰恰相反，他在公司内部的地位始终很高：山内溥尊重他，宫本茂视他为导师，年轻工程师们私下里称他为“发明之神”。他的办公室面积不比任何同级高管小，工资和奖金没有任何削减的迹象。边缘化指的是他的方法论在公司决策中的权重在下降。当公司讨论下一代产品的方向时，最先被考虑的选项不再是他的那种提问方式——“有没有一种成熟技术可以用在这里”——而是最新的芯片能支持多少多边形。横井的声音仍然会被听到，但它不再像十年前那样能直接改变会议的走向。</p>
+<p>这是一种更难察觉的边缘化，因为它没有戏剧性的冲突场面——没有争吵，没有最后通牒，没有辞职威胁。它只是在一次次日常决策中缓慢地发生着：一个项目被批准了，不是因为它使用了成熟技术，而是因为它使用了新技术；另一个项目被搁置了，不是因为它的方案不好，而是因为它的方案不够有野心——这里的野心被定义为技术指标的提升幅度。</p>
+<p>横井军平看到了这一切。他继续做他该做的事。</p>
+<p>那个小房间里的红色单色光还在闪烁。它来自一块从废弃摄像机上拆下来的取景器屏幕，只有一英寸大小，分辨率低得可笑——在今天看来几乎不能用——但在完全黑暗的环境中，当红色LED阵列以特定频率闪烁时，人眼会产生一种奇特的深度错觉。横井军平第一次看到这个效果时，在笔记本上写下了一行字。那行字的内容后来被他的助手回忆起来，但从未被完整公开过。我们只知道它的大意：这条路不通往任何已知的目的地。</p>
+<p>这句话可以被解读为悲观——他在承认这个方向可能没有商业前景——也可以被解读为另一种东西：他在寻找一条不通往任何已知赛道的路，一条不与家用机部门正面竞争的路，一条不需要参与技术指标竞赛的路，一条能让他的方法论重新获得完整表达空间的路。</p>
+<p>在1991年的任天堂内部，这样的路几乎不存在了。公司的战略重心已经牢牢锁定在与索尼和世嘉的正面对抗上。N64项目消耗了巨大的管理注意力，北美市场的营销战需要投入天文数字的费用，《超级马力欧64》和《塞尔达传说：时之笛》的开发周期跨越数年，涉及数百人的协调工作。在这个庞大的机器面前，开发一部的新硬件提案看起来像是一个来自另一个时代的事物——不是因为它不好，而是因为它不符合当下的叙事。</p>
+<p>1992年春天，横井军平向山内溥提交了一份关于立体显示掌上设备的初步构想书。这份文件没有使用“虚拟现实”这个词——那个词在当时已经被美国公司炒作得过于浮夸——而是使用了“立体视觉显示系统”这个谨慎的技术描述。山内溥看了这份文件。他没有否决它，也没有批准它进入正式开发阶段。他只是说：继续研究。</p>
+<p>这是一个典型的山内溥式回应。他不关闭任何可能性，但他也不轻易承诺任何资源。他让横井军平继续在那个小房间里做他的实验，同时把公司的绝大部分资金和人力投入到N64和后续家用机项目的研发中。“继续研究”这四个字在任天堂内部意味着一种状态：你可以做，但不要指望公司把宝押在这上面。</p>
+<p>横井军平理解这个信号的含义。他没有争辩。他回到那个小房间，继续调整红色LED阵列的闪烁频率。</p>
+<p>在公司的另一侧，宫本茂正在带领一个团队反复测试《超级马力欧64》的早期原型版本——三维空间中的跳跃手感、摄像机视角的控制逻辑、马里奥在不同地形上的移动速度，每一个细节都被反复打磨。这项工作需要大量的硬件性能支持：N64的图形芯片必须能够实时渲染复杂的多边形场景，处理器必须能够即时计算物理碰撞和摄像机运动轨迹。</p>
+<p>宫本茂从不否认他从横井那里学到的东西。“一句话提问”的方法——用最简单的语言直指核心问题——是他从横井那里继承的最重要的工具之一。但在九十年代初的日常工作中，他和横井之间的交流已经变得稀少而简短。这不是个人关系的问题，而是两个部门之间结构性距离的自然结果。宫本茂的工作节奏不允许他经常走进开发一部的楼层去闲聊，横井军平的研究方向也不允许他在家用机部门的会议上提出具体的协作建议。他们各自在自己的轨道上运行着——这两条轨道曾经交汇过，在《大金刚》的开发过程中紧密交织过，但现在它们已经分开了足够远的距离，以至于从一条轨道上望向另一条时，只能看到一个模糊的轮廓。</p>
+<p>1993年，索尼PlayStation的技术规格开始通过各种渠道泄露到日本游戏业界。这些规格在当时看来是惊人的：32位处理器、CD-ROM驱动器、支持全动态视频播放、3D图形处理能力远超市场上的任何一台家用机。任天堂内部对此的反应是分裂的：家用机部门的人感到压力——N64的设计方案必须重新评估以应对这个威胁；开发一部的人则看到了另一种东西——索尼正在把整个行业拖入一场他们一直试图回避的技术竞赛。</p>
+<p>横井军平在那个小房间里继续调试他的红色LED阵列。他比任何人都清楚这场竞赛的危险性。他在1974年就经历过类似的事情——那时候任天堂刚刚进入街机市场，面对的是Taito和世嘉这些已经在街机硬件上积累了多年经验的公司。他的应对方式是用成熟元件组合出成本更低但玩法更有趣的系统，而不是追求最高的技术指标。</p>
+<p>但那是在街机市场。家用机市场是另一回事。在家用机市场里，技术指标本身就是营销工具。“32位”是一个可以在广告里反复强调的数字，“CD-ROM容量”是一个可以让消费者直观感受到差异的参数，“多边形处理能力”是一个可以被游戏杂志用来制作对比表格的项目。横井军平的“枯萎技术的水平思考”在这种环境中失去了大部分可见的传播价值。你怎么向消费者解释屏幕使用了四年前的液晶技术？你怎么在广告里宣传没有背光是为了让用户更专注于游戏本身？你怎么让零售商相信这台设备的处理器速度比竞品慢是一种深思熟虑的选择？</p>
+<p>这些都不是不可能做到的事——Game Boy的成功本身就证明了这一点——但它们需要一种不同的营销逻辑、一种不同的用户教育方式、一种不同的品牌叙事。而这种叙事在九十年代初的任天堂内部已经不再是主流。</p>
+<p>主流叙事是：任天堂定义了家庭娱乐的未来。《超级马力欧世界》的画面让玩家惊叹，《塞尔达传说》的冒险深度让评论家折服，《大金刚国度》的预渲染图形技术让竞争对手沉默。这些成就都与技术指标的提升密切相关——尽管宫本茂本人从不认为技术指标是决定性因素，但市场对任天堂的认知已经与“技术领先”这个标签绑定在了一起。</p>
+<p>横井军平的哲学在这种叙事中没有合适的位置。他不是“技术领先”的代表人物，他是“技术再利用”的代表人物。这两个标签之间的距离，就是开发一部在1990年代初的任天堂内部所处的结构性位置的精确写照。</p>
+<p>1994年夏天，那个小房间里的红色单色光终于达到了一个相对稳定的状态。横井军平和出石武宏已经能够用一组红色LED阵列和一套简单的光学透镜系统制造出具有深度感的立体图像。这不是真正的三维显示——它只能显示红色单色图像，分辨率极低，视角极窄——但它在原理上是成立的：左右眼分别接收略有视差的图像，大脑自动合成为立体感知。</p>
+<p>这是一个原型。一个极其粗糙的原型。但它证明了一件事：用成熟、廉价的技术实现立体视觉显示是可能的。</p>
+<p>横井军平在这个原型的基础上撰写了一份新的提案。这一次他使用了更具体的描述：头戴式显示装置、LED阵列作为光源、反射镜系统进行光学放大、可以连接到现有的Game Boy硬件上作为外设使用——或者更进一步，做成一个独立的便携设备。</p>
+<p>他把这份提案提交给了山内溥。</p>
+<p>山内溥看完之后沉默了一段时间——据在场的人回忆，大约有两三分钟——然后他说了一句后来被反复引用的话：“这东西会有人买吗？”</p>
+<p>山内溥的问题，与当年面对Game &amp; Watch提案时如出一辙。横井军平乘坐新干线时，注意到旁边的乘客闲极无聊，不停地反复摁压计算器按键，于是萌生了制作一款能够让人利用零碎时间娱乐的小型掌上游戏设备的想法。那时山内溥也曾质疑：&#39;谁会无聊到按计算器按钮打发时间？&#39;</p>
+<p>这不是否决。这是一个问题。山内溥的问题总是这样：他不告诉你答案是什么，他让你自己去找到答案。他对Game &amp; Watch说过类似的话——谁会无聊到按计算器按钮打发时间？他对Game Boy也说过类似的话——谁会愿意玩一个没有颜色的屏幕？每一次他都在质疑需求的存在性，每一次横井军平都用市场结果证明需求确实存在。</p>
+<p>但这一次不同。这一次山内溥的问题背后有一个更大的背景：任天堂正在全力备战与索尼PlayStation的正面对抗。N64项目已经进入了关键的硬件定型阶段，《超级马力欧64》的开发进度需要与硬件规格紧密配合，《塞尔达传说：时之笛》的概念设计已经启动——宫本茂需要N64的全部性能来实现他构想中的海拉尔平原和时空间交互机制。</p>
+<p>在这个背景下，“谁会买一个只能显示红色线条的立体眼镜？”这个问题听起来不像是一个需要认真回答的商业命题。它听起来更像是一个委婉的拒绝。</p>
+<p>横井军平听出了这层意思。他没有坚持要求公司提供更多资源。他回到开发一部，对出石武宏说：我们继续做我们的事。</p>
+<p>出石武宏是横井军平最信任的技术助手之一，在开发一部工作了十几年，参与了从Game &amp; Watch到Game Boy几乎所有重要产品的硬件设计工作。他理解横井的方法论不需要解释就能理解——这是一种长期共事形成的默契：他知道当横井说“我们继续做我们的事”时，意味着他们要在现有资源的极限内推进这个项目，不指望公司的战略重心向这个方向倾斜。</p>
+<p>他们做到了。</p>
+<p>那个小房间里的红色单色光继续闪烁了整整一年半的时间。在这段时间里，任天堂的其他部分在以完全不同的节奏运转着：N64项目在1995年完成了硬件定型，《超级马力欧64》在1996年6月随主机在日本首发，《塞尔达传说：时之笛》的开发进入最后冲刺阶段——这款游戏最终在1998年发售，被广泛认为是电子游戏史上最伟大的作品之一。</p>
+<p>《宝可梦 红·绿》在1996年2月发售于Game Boy平台——这台技术上早已过时的掌机因此迎来了第二次生命周期的高峰。《宝可梦》的成功让开发一部在公司内部的财务贡献再次变得不可忽视：一条已经被主流叙事边缘化的产品线突然又变成了利润中心。</p>
+<p>但这种成功并没有改变结构性的裂痕。它只是暂时掩盖了它。</p>
+<p>《宝可梦》的成功恰恰证明了横井军平的哲学的有效性：一款不需要最新硬件的游戏可以在技术上落后的平台上创造奇迹般的销量。《宝可梦》的核心吸引力不在画面效果上——Game Boy的四色灰度屏幕根本不可能提供令人惊艳的视觉体验——而在交换、收集和对战的社交机制上。《宝可梦》是一个系统驱动的游戏，不是一个视觉驱动的游戏。这正是横井军平一直试图证明的东西：系统比画面更重要。</p>
+<p>但《宝可梦》的成功被家用机部门的主流叙事以一种微妙的方式吸收了：它被视为一个例外——“是的，《宝可梦》在Game Boy上很成功，但这不影响我们对N64性能的投资方向。”没有人公开说这句话，但资源分配的决策逻辑清楚地反映了这种判断：N64项目继续获得公司绝大部分的技术投资，《宝可梦》的成功带来的额外利润被部分用于支持下一代家用机的研发预算，而不是用于扩大开发一部的硬件实验规模。</p>
+<p>横井军平看到了这一点。他在1995年年底的一份内部备忘录中写道：“成熟技术的价值不在于它能做什么，而在于它已经被足够多的人理解和使用。”这句话没有直接批评任何部门或任何人——横井军平从不那样做——但它清楚地表达了他的立场：他关心的不是技术的前沿在哪里，而是技术的边界在哪里可以被安全地拓展到新的应用领域中去。</p>
+<p>这份备忘录在公司内部几乎没有引起任何讨论。它被归档了。</p>
+<p>同一年冬天，索尼PlayStation在日本发售获得巨大成功。《铁拳》《山脊赛车》《生化危机》这些作品展示了32位主机在3D图形和全动态视频方面的潜力。《Fami通》杂志上刊登了PlayStation和世嘉土星的硬件对比表格，《日经产业新闻》开始报道“次世代游戏机战争”的最新动态，《日本经济新闻》在一篇分析文章中提到了任天堂N64的延迟发售问题——这款主机最终推迟到了1996年6月才在日本上市——并暗示任天堂可能在这场战争中处于被动位置。</p>
+<p>这些报道构成了九十年代中期日本游戏产业的主流叙事框架：这是一场技术竞赛；胜利取决于谁能在最短时间内提供最强的硬件性能；任天堂正在失去它在红白机时代建立起来的技术领先优势；索尼的消费电子工业背景给了它不可忽视的供应链优势；世嘉虽然在土星上犯了一些错误但仍然是一个有力的竞争者；微软可能在不久的将来加入这场战争；整个产业的未来属于那些能够持续推动技术指标上升的公司。</p>
+<p>在这个叙事框架里，“枯萎技术的水平思考”听起来像是一个不合时宜的古董概念。它属于八十年代，属于Game &amp; Watch的时代，属于Game Boy的时代——而Game Boy已经是1989年的事了。现在是九十年代中期了。世界变了。规则变了。</p>
+<p>横井军平在那个小房间里继续调试红色LED阵列的闪烁频率时，他知道这一切都在发生着变化——他读同样的报纸和杂志，参加同样的行业会议和内部战略讨论会——但他选择继续做他正在做的事：用成熟元件构建一个完全不同于主流家用机的交互系统；一个不依赖电视屏幕的系统；一个不依赖手柄的系统；一个不需要玩家坐在客厅沙发上的系统；一个可以戴在头上、将视觉完全包裹在立体图像中的系统；一个彻底避开所有已知赛道的系统；一个如果成功就能重新定义“游戏机是什么”的系统；一个如果失败就会成为他职业生涯中最大赌注的系统；一个后来所有人都知道名字的系统；一个此时还只是一团红光在一个堆满拆解零件的小房间里安静闪烁的系统。</p>
+<p>他知道一旦正式提案就会面临比上一次更难回答的问题——那些问题背后不再是山内溥的好奇心，而是整个公司战略重心转移所带来的结构性压力；那些压力的来源不是任何个人的敌意或偏见，而是数字娱乐产业技术竞赛逻辑重新抬头这一不可逆转的趋势；这种趋势正是他终其一生试图回避却始终未能真正回避的东西。</p>
+<p>他现在只能独自面对这个系统。那团红色单色光还在安静闪烁——它轻得几乎不存在，但它将在接下来的岁月里变得越来越重，直到所有人都不得不正视它的存在，直到那个名字被说出来，直到那个代价被支付完毕。</p>
+<p>1995年年初的一个深夜，横井军平在那个小房间里关掉了红色LED阵列的电源。他在笔记本上写下了那行字——“这条路不通往任何已知的目的地”——然后合上了笔记本，走出了那个堆满拆解零件的小房间。</p>
+<p>走廊里空无一人。京都夏夜的潮湿空气从半开的窗户渗进来。那个小房间里的红色单色光已经熄灭了，但它留下的残像还在他的视网膜上短暂停留着——像一个问题的形状，像一个尚未被赋予名字的东西，像一个等待支付的代价。</p>
+<p>他知道明天他会继续回到那个房间，打开那台设备，调试那些参数，写下那些笔记。他知道自己必须做一个决定——这个决定的后果将超出这个小房间、超出开发一部、超出任天堂、超出游戏产业、超出他迄今为止职业生涯中做过的任何一次判断：超出Game &amp; Watch、超出十字键、超出Game Boy、超出所有这些已经被历史证明为正确的选择。</p>
+<p>这个决定将把他带到一个未知的地带。在那里他的方法论将接受最极端的考验；在那里他将不得不面对这样一个事实：枯萎技术的水平思考这一次可能不再奏效——不是因为他的判断错了，而是因为整个世界的规则在他调试红色LED阵列闪烁频率的这些年来已经悄然改变了。</p>
+<p>他还不知道这种改变的程度究竟有多深。他还不知道那个即将到来的名字将给他带来什么。他还不知道那个代价最终将以何种方式被支付。他还不知道他将在三年后离开这家公司。他还不知道他将在四年后死于一场车祸。</p>
+<p>他还不知道这些后来所有人都知道的事情。</p>
+<p>此刻他只知道一件事：那团红光还在闪烁——即使在他闭上眼睛之后仍然安静地闪烁着——而它发出的不是答案，是一个问题的形状；是一个必须被回答的问题；是一个只有他能回答的问题；是一个他即将用接下来的人生去回答的问题。</p>
+<p>他睁开眼睛，望向走廊尽头窗外京都市区稀疏的灯火。那团红光的残像终于从他的视网膜上消失了。</p>
+<p>他走进了那个即将到来的1995年，走进了那场所有人都知道的豪赌，走进了那个名字和那个代价——Virtual Boy这个名字将在不久之后被写进一份正式的开发提案文件之中；那份文件的开头将是一个单词、四个字母、两个音节；它将改变一切；它将终结这个夜晚的沉默；它将把这团红光从一个小房间里的私人实验变成一个公司的公开赌注；它将让所有那些此刻还不知道这团红光存在的人突然之间全都知道了它的存在。</p>
+<p>它将引发一系列连锁反应——这些反应将在接下来的章节中被逐一记录。</p>
+<p>但此刻它们还没有发生。此刻只有红光只有沉默只有等待只有一个问题尚未被回答只有一个名字尚未被说出只有一个代价尚未被支付只有一个男人站在走廊里看着窗外夜色知道明天一切都会改变而今晚是，最后一个安静的夜晚，最后一个一切还只是可能性而非现实的夜晚，最后一个他还不需要面对那些即将到来的质问、质疑、辩护、误解、失败与沉默的夜晚，最后一个那团红光还只是一团红光而不是一个产品不是一个项目不是一个赌注不是一个失败不是一个遗产而只是一个问题的形状的夜晚，最后一个这个问题还属于他一个人而不属于整个公司整个产业整个历史整个未来的夜晚，最后一个他还能够独自面对这团红光而不需要向任何人解释它是什么它为什么存在它值不值得被做出来的夜晚，最后一个安静的在京都在1995年初在一个堆满拆解零件的小房间外面的走廊里在一个人的脚步声中在一个尚未被写进历史的时刻里在一个即将翻过去的章节的末尾处在这沉默在这等待在这红光残像终于消散在这深夜在这京都在这历史的缝隙之中的，最后一个瞬间。</p>
+<p>在这一章结束的地方那团红光熄灭了片刻——不是消失而是转入了一个更深的等待状态：等待一份正式提案、一个预算编号、一次山内溥最终的点头或摇头、以及一场将彻底改变开发一部在公司内部位置的风暴的前奏</p>
+<p>这些还没有发生的事件的阴影已经投射到了这个夜晚的尽头而横井军平走出走廊时感受到的不是解脱而是一种更沉重的确定性：他必须在越来越不属于他的主流竞赛逻辑中找到一个紧急出口——即使那个出口通往的方向无人知晓也无人认可——因为继续留在原地就意味着缓慢地消失</p>
+<p>他走进了明天，走进了那场豪赌，走进了那个名字和那个代价。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-12.html">上一章</a><a href="index.html">返回详情</a><a href="ch-14.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-mskayfixsqj","chapter":12,"chapterTitle":"开发一部里的旁系","href":"ch-13.html","prevHref":"ch-12.html","nextHref":"ch-14.html","locationLabel":"第 13 章 · 开发一部里的旁系"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>

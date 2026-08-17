@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817094958537_af91951841",
+  "projectId": "proj-msls8a7hruq",
+  "manuscriptVersionId": "mv_59f0f9f273fc2d3a",
+  "contentHash": "59f0f9f273fc2d3a1d8424548f3f29d29550a9e0b0aa054f6866ee15a84c8608",
+  "title": "精简的胜利：ARM 与 RISC-V 时代",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "从剑桥 Acorn 的绝境设计到苹果 M1 与开源指令集叛军：精简指令集如何用四十年时间两次改写计算机产业的权力结构",
+  "category": "中国史",
+  "tags": [
+    "中国史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 177680,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "rules",
+    "score": 92,
+    "staleScore": 92,
+    "reportId": "4eac60271c9a",
+    "createdAt": "2026-08-10T14:01:24.445Z",
+    "manuscriptVersionId": ""
+  },
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "不存在的第二条路",
+      "units": 8387
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "绝境作为设计条件",
+      "units": 8367
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "伯克利的纸与硅",
+      "units": 7458
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "沉默的许可证",
+      "units": 8450
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "嵌入式暗流",
+      "units": 10753
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "移动时代的预备役",
+      "units": 8349
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "代码密度的经济学",
+      "units": 8407
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "借来的高性能",
+      "units": 10459
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "授权机器的加速",
+      "units": 8508
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "移动心脏的标准化",
+      "units": 8157
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "架构升级与生态锁定",
+      "units": 8538
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "性能跳变与生态临界点",
+      "units": 7477
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "英特尔移动失位",
+      "units": 8483
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "苹果的架构叛逃",
+      "units": 8392
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "服务器边疆的试探",
+      "units": 7372
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "软银的长期赌注",
+      "units": 8382
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "开源指令集的叛军",
+      "units": 14427
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "英伟达收购案的失败",
+      "units": 9507
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "中立性的代价",
+      "units": 9965
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "双架构时代的权力拓扑",
+      "units": 7842
+    }
+  ],
+  "publishedAt": "2026-08-17T09:49:58.537Z"
+}
