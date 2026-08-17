@@ -4,14 +4,18 @@
     "projectId": "proj-mqf7mzrmntl",
     "releaseId": "rel_20260817034459903_843ffa9a52",
     "title": "淝水之战",
-    "subtitle": "",
+    "subtitle": "一场乏味决战与帝国结构的崩塌",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "淝水之战",
+      "魏晋南北朝",
+      "军事史",
+      "政治结构",
+      "前秦",
+      "东晋"
     ],
-    "description": "淝水之战",
+    "description": "本书聚焦淝水之战，超越传统以少胜多的传奇叙事，深入剖析前秦与东晋两大政权的结构性困境。从建康暗流到关中裂痕，从太极殿的决策到淝水畔的阵动，作者细致还原战役全程，并指出这场决战实则乏味，其真正意义在于战后帝国的迅速碎裂与北方再裂。全书以二十章篇幅，将军事行动置于政治与社会结构之中考察，揭示胜负背后的深层逻辑。适合对中国中古史、战争史及政治结构演变感兴趣的普通读者，提供理解乱世转折的全新视角。",
     "chapterCount": 20,
     "editorialScore": {
       "current": false,
@@ -28,14 +32,17 @@
     "projectId": "proj-mqfzn47d25w",
     "releaseId": "rel_20260817034459817_0f2fc57311",
     "title": "武德九年",
-    "subtitle": "",
+    "subtitle": "玄武门之变与贞观之治的权力重构",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "唐史",
+      "玄武门之变",
+      "政治制度",
+      "权力博弈",
+      "贞观之治"
     ],
-    "description": "",
+    "description": "本书聚焦唐初武德九年这一关键历史节点，深入剖析玄武门之变前后的政治博弈与制度变迁。作者跳出传统道德叙事，从军功集团、府兵制度、宫廷空间及资源分配等维度，还原李世民夺权与贞观班底重组的底层逻辑。全书细致梳理了从晋阳起兵到渭水之盟的权力演变脉络，揭示了皇权继承潜规则与帝国政治文化的定型过程。这不仅是一部关于政变与登基的历史复盘，更是一次对大唐盛世底色形成机制的深度解剖，帮助读者理解古代皇权政治运作的真实面貌与长时段历史回声。",
     "chapterCount": 20,
     "editorialScore": {
       "current": false,
@@ -52,14 +59,18 @@
     "projectId": "proj-mqky4k6bq07",
     "releaseId": "rel_20260817034459714_a84fba2d6e",
     "title": "英伟达：一场赌了十年的并行计算豪赌",
-    "subtitle": "",
+    "subtitle": "从餐桌赌注到万亿市值的算力进化史",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "商业科技",
     "tags": [
-      "历史",
-      "非虚构"
+      "英伟达",
+      "GPU",
+      "人工智能",
+      "芯片产业",
+      "商业史",
+      "CUDA"
     ],
-    "description": "1993 年，黄仁勋和两名工程师在一张餐桌上下了一个赌注：个人电脑迟早要学会画图，而世上还没有一块芯片专门干这件事。公司从诞生那天起就是赌性的。第一代产品 NV1 押错了方向，几乎让它夭折；这场近死教会它一件事——押对底层架构，比押对某个产品重要得多。靠着 RIVA 系列翻身后，1999 年的 GeForce 256 索性把\"显卡\"重新定义成一个全新的产业类别\"GPU\"，在与 3dfx 的厮杀中胜出。到这里，它还只是一家做得不错的图形芯片公司。 真正的分叉发生在 2006 年。黄仁勋决定把 GPU 从\"画图的\"赌成\"通用算力的\"，为此推出 CUDA，并把整条产品线绑上这套软件生态。这个决定在当时近乎不可理喻：它压低毛利、华尔街看不懂、客户也用不上。…",
+    "description": "本书深度复盘英伟达三十余年发展历程，揭示其从图形芯片厂商蜕变为AI算力霸主的底层逻辑。从1993年餐桌上的创业赌注，到2006年押注CUDA生态的“荒野十年”，再到2012年深度学习意外引爆算力需求，全书还原了公司在濒死危机、华尔街质疑与战略迷失中坚持架构优先的关键抉择。这不仅是一部企业传记，更是对“远见与运气”辩证关系的商业思考，探讨在无人相信的年代押注“算力无处不在”的真正价值，适合关注科技产业、芯片发展及AI浪潮的普通读者阅读。",
     "chapterCount": 18,
     "editorialScore": {
       "current": false,
@@ -76,15 +87,18 @@
     "projectId": "proj-mqm5vwh5ec8",
     "releaseId": "rel_20260817034459628_05bf332718",
     "title": "茶：一片叶子的全球史",
-    "subtitle": "",
+    "subtitle": "从唐贡品到殖民作物，一片叶子的十二次社会重写",
     "authorDisplayName": "李思特Think",
-    "category": "全球史",
+    "category": "历史/全球史",
     "tags": [
       "全球史",
-      "历史",
-      "非虚构"
+      "茶史",
+      "物质文化",
+      "贸易网络",
+      "殖民史",
+      "年鉴学派"
     ],
-    "description": "一片亚热带常绿乔木的叶子,在一千二百年里被反复重新发明。本书追的不是茶如何\"传播\",而是它每一次落脚时,如何被当地的权力、贸易与审美重新制造了一遍。 唐人把西南山间的野饮,用《茶经》变成有等级、有器物、有标准的贡品——茶第一次被制度化。马背上,它成了帝国的边防财政;渡海到日本,同一片叶子被重写成禅与修行;在广州十三行的茶箱里,它变成牵动全球白银的商品;在伦敦的下午茶里,消费制造出需求,需求又绑架了国家财政,最终把茶推到一场战争的导火索旁。当英国人潜入武夷山偷走种子与工艺,茶又在阿萨姆的种植园里被重写成殖民作物——规模化、契约劳工、标准化茶包,把\"风土\"抹平成可复制的商品。而到最后,曾被强加茶的殖民地,反过来把它认领为自己的国民饮料。 贯穿论点:茶没有一个单一的\"原产地神话\"式起点。…",
+    "description": "本书跳出“原产地神话”与英雄叙事，以年鉴学派长时段和全球史视角，追溯茶在一千二百年间如何被权力、贸易与审美反复重新发明。从陆羽《茶经》将野饮制度化，到马背上的边防财政；从广州十三行的白银漩涡，到阿萨姆种植园抹平风土的标准化生产。作者强调地理迁移与制度重构的互动，指出茶的每一次意义赋予——药、贡、商品或民族符号——都是社会制度的重写。全书严守非虚构边界，对争议性因果保持审慎，呈现一张由贸易之手串联、互不知情的再发明之网。",
     "chapterCount": 15,
     "editorialScore": {
       "current": false,
@@ -101,15 +115,17 @@
     "projectId": "proj-mqnleblnzxq",
     "releaseId": "rel_20260817034459558_89e39a2d74",
     "title": "The Deep Learning Revolution： AlexNet to ChatGPT",
-    "subtitle": "",
+    "subtitle": "AlexNet to ChatGPT",
     "authorDisplayName": "李思特Think",
-    "category": "World History",
+    "category": "Technology & Computer Science",
     "tags": [
-      "World History",
-      "History",
-      "Nonfiction"
+      "Artificial Intelligence",
+      "Deep Learning",
+      "Tech History",
+      "Neural Networks",
+      "Machine Learning"
     ],
-    "description": "Book Overview Between 2012 and 2023, a set of ideas that mainstream computer science had spent thirty years dismissing went from academic embarrassment to the most consequential technology of the century.…",
+    "description": "The Deep Learning Revolution traces the unlikely ascent of neural networks from academic exile to the defining technology of the twenty-first century. Challenging narratives of sudden genius, this history argues that deep learning’s dominance resulted not from discovering how minds work, but from the collision of 1980s ideas with massive data and computing power. Spanning the wilderness years of AI winter through the 2012 ImageNet shock, AlphaGo’s public spectacle, and the Transformer era, the book examines how scale repeatedly triumphed over algorithmic elegance. It chronicles the structural consolidation of talent and compute while honestly presenting unresolved debates regarding ingenuity versus brute force. From Geoffrey Hinton’s marginal research to ChatGPT’s mainstream arrival, this strict nonfiction account reveals how an old idea finally met its moment through engineering and infrastructure rather than theoretical breakthroughs alone.",
     "chapterCount": 15,
     "editorialScore": {
       "current": false,
@@ -126,14 +142,17 @@
     "projectId": "proj-mqvncu6xaz9",
     "releaseId": "rel_20260817034459474_66f9bf8b3d",
     "title": "科举一千三百年：从605到1905",
-    "subtitle": "",
+    "subtitle": "从605到1905：一台希望机器的诞生与终结",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "科举制度",
+      "社会流动",
+      "明清史",
+      "教育史",
+      "制度变迁"
     ],
-    "description": "从隋大业元年（605）第一次以考试取士，到清光绪三十一年（1905）一纸诏书废止，科举的真正力量不在于它有多公平、选才有多准，而在于它把一个朴素而危险的信念铸进了中华文明的底层代码——上升是可能的，而且是凭本事。 正是这台希望机器，一手稳住了帝国的统治（让野心向考场而非战场流动），一手锁死了帝国的头脑（让最聪明的人把一生耗在一种文体上）。它既是中国社会千年超稳定的密码，也是中国近代转型迟滞的枷锁。本书要追问的，是同一套制度如何同时成就与拖垮了一个文明。 主线如何贯穿一千三百年 全书沿着这台机器\"被发明—被完善—被神化—被废弃\"的命运推进，而每一段都在回答同一个问题：它对谁开放了希望，又对谁关上了门？ 创制（隋唐）：门阀贵族垄断千年的入仕之路，第一次向寒门撕开一道缝。考试从权宜之计，变成皇权用来稀释世族的武器。…",
+    "description": "本书全景式复盘科举制一千三百年的兴衰历程，揭示其作为中华文明底层代码的双重面相。从隋唐创制到晚清废止，科举既是打破门阀垄断、许诺“朝为田舍郎”的希望机器，也是以八股文锁死思想、制造极致内卷的精致牢笼。作者沿制度演变主线，剖析考场内外的个体命运与帝国结构的深层互动，探讨这套制度如何同时成就并拖垮了一个文明。全书最终落脚于现代，阐释科举虽废，但其对公平的执念与考试信仰仍深刻塑造着当代中国人的精神基因与社会焦虑。",
     "chapterCount": 50,
     "editorialScore": {
       "current": false,
@@ -150,15 +169,18 @@
     "projectId": "proj-mqymweam8sz",
     "releaseId": "rel_20260817034459246_3d88d17099",
     "title": "The Browser Wars: Netscape, Microsoft, and the Battle for the Web",
-    "subtitle": "",
+    "subtitle": "Netscape, Microsoft, and the Battle for the Web",
     "authorDisplayName": "李思特Think",
-    "category": "战争史",
+    "category": "Technology History",
     "tags": [
-      "战争史",
-      "History",
-      "Nonfiction"
+      "Browser Wars",
+      "Internet History",
+      "Microsoft",
+      "Netscape",
+      "Antitrust",
+      "Web Standards"
     ],
-    "description": "A trade-history narrative of the browser wars from Mosaic and Netscape through Microsoft Internet Explorer, the antitrust battle, Mozilla, web standards, and the long aftermath that led to Chrome and the platform web.…",
+    "description": "The browser wars were more than a software rivalry; they were a defining struggle over who would control the gateway to the internet. This trade history chronicles the epic clash between Netscape and Microsoft, revealing how Marc Andreessen’s vision of the browser as an operating system provoked Bill Gates to weaponize Windows distribution. Beyond corporate maneuvering, the narrative explores the antitrust battles, open-source rebellions, and standards fights that reshaped the digital landscape. From Mosaic and Internet Explorer to Mozilla and Chrome, this account examines the human drama of executives, engineers, regulators, and developers who determined the web's future. Blending technical insight with strategic analysis, it explains how early conflicts over platform control established the modern internet ecosystem. A rigorous examination of business strategy and technological evolution, this book illuminates the high-stakes decisions that transformed a simple viewing tool into the foundation of contemporary digital life.",
     "chapterCount": 12,
     "editorialScore": {
       "current": false,
@@ -175,14 +197,17 @@
     "projectId": "proj-mr0ni7wh2rf",
     "releaseId": "rel_20260817034459036_b456d87b30",
     "title": "走马灯：五代十国的五十三年",
-    "subtitle": "",
+    "subtitle": "五代十国的五十三年",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "五代十国",
+      "制度史",
+      "赵匡胤",
+      "政治博弈",
+      "唐宋变革"
     ],
-    "description": "皇帝像灯上的剪影一样轮替，灯还是那盏灯，转的人换了一茬又一茬。全书每一卷都让这盏灯多转一格，直到终卷有人伸手，第一次让它停下。 全书脉络（六卷） 卷 这一格转的是谁 它回答了什么 卷一 后梁 朱温与唐的终局 等式如何成立：篡位者也逃不过自己立下的规矩 卷二 后唐 李存勖的盛与亡 能打天下，未必守得住——军功换不来正当性 卷三 后晋 石敬瑭与燕云十六州 正当性的价码可以低到出卖国土 卷四 后汉 最短命的王朝 当猜忌取代规则，王朝撑不过一代人 卷五 后周 柴荣与未竟的统一 第一个想改写规则的人，却没来得及 终卷 陈桥 赵匡胤如何让走马灯停下 答案不在更强的刀，而在\"杯酒释兵权\"的那套新制度 中心张力 军权 vs 正当性。 谁都能靠兵权上位，可没人靠兵权坐稳——这是悬在五代每个皇帝头顶的同一把刀。…",
+    "description": "五代五十三年，皇帝如走马灯般轮替，灯还是那盏灯，转的人却换了一茬又一茬。本书以“军权与正当性”的博弈为线索，讲述从朱温篡唐到赵匡胤建宋的历史进程。全书不替古人编造内心戏，只剖析刀架在脖子上时的制度困境与抉择。看后梁、后唐、后晋、后汉如何在暴力循环中速亡，看柴荣如何试图改写规则却壮志未酬，最终见证赵匡胤以“杯酒释兵权”和新制度让走马灯彻底停转。这不仅是一部断代史，更是一次对权力规则重写与三百年文治基业奠基的深度复盘。",
     "chapterCount": 50,
     "editorialScore": {
       "current": false,
@@ -199,15 +224,17 @@
     "projectId": "proj-mr3gsav8ys9",
     "releaseId": "rel_20260817034458796_13cd5c4de7",
     "title": "营造学社:梁思成与中国古建筑的抢救测绘",
-    "subtitle": "",
+    "subtitle": "营造学社与古建筑抢救十六年(1930–1946)",
     "authorDisplayName": "李思特Think",
-    "category": "城市与建筑史",
+    "category": "历史/建筑文化",
     "tags": [
-      "城市与建筑史",
-      "历史",
-      "非虚构"
+      "梁思成",
+      "中国营造学社",
+      "古建筑测绘",
+      "中国建筑史",
+      "文化遗产保护"
     ],
-    "description": "这个写一个纲要 《测绘中国:营造学社与古建筑抢救十六年(1930–1946)》· 全书纲要 整书概要 1919 年,朱启钤在南京江南图书馆发现一部宋代天书——李诫《营造法式》,全中国没有一个人能读懂它。1930 年,他在北平创立中国营造学社;1931 年,宾夕法尼亚大学归来的梁思成加入。此后十六年,这群人背着测绘仪、经纬仪和玻璃底片,骑骡子、宿破庙,在军阀混战与日军炮火的间隙里丈量了两千余处古建筑——独乐寺、应县木塔、赵州桥,直到 1937 年 7 月在五台山找到唐代木构佛光寺东大殿:林徽因在大梁上认出\"女弟子宁公遇\"题记的那一刻,距卢沟桥事变只有几天。 随后是流亡:资料毁于天津水灾,学社迁长沙、昆明、终至四川李庄一个江边村庄。…",
+    "description": "1930至1946年间，中国营造学社在战火与动荡中展开了一场与时间的赛跑。梁思成、林徽因等学者背负测绘仪器，深入荒野古刹，丈量两千余处古建筑，成功破译宋代《营造法式》这部千年“天书”。从发现唐代佛光寺的学术巅峰，到流亡李庄病榻著史的艰难岁月，他们以现代科学方法重构了中国建筑史。本书重现这段抢救性测绘历程，揭示了一个核心反讽：许多建筑最终只活在图纸上，纸比木头活得久。这不仅是一部建筑学术史，更是一曲文明守护者在毁灭边缘存续文化记忆的悲壮史诗。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -224,14 +251,17 @@
     "projectId": "proj-mr6fl7gcu1s",
     "releaseId": "rel_20260817034458669_443ea35bcb",
     "title": "弦歌不辍:西南联大的八年",
-    "subtitle": "",
+    "subtitle": "西南联大的八年",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国近现代史",
     "tags": [
-      "历史",
-      "非虚构"
+      "西南联大",
+      "抗战教育",
+      "知识分子群像",
+      "民国学术",
+      "非虚构历史"
     ],
-    "description": "1937 年平津陷落,北大、清华、南开三所中国最好的大学被迫南迁,先合于长沙,再徒步跨越湘黔滇三千里抵达昆明,组成国立西南联合大学。此后八年,在日军轰炸的警报声、茅草顶的漏雨教室和通货膨胀的饥饿里,梅贻琦、闻一多、朱自清、华罗庚、陈寅恪们把一所临时大学办成了中国教育史的巅峰——走出两位诺奖得主、八位两弹一星元勋、一百七十余位院士。全书论证:西南联大证明了大学的本质不是校舍与经费,而是一群人对自由之思想与独立之精神的共同守护;它的\"不辍\",是一个民族在最黑暗时刻对文明未来的下注。 中心张力:在国破、贫穷、轰炸之下,学术的尊严与自由能否存续——以及必须付出什么代价。 核心反讽:物质上最匮乏的八年,却成了精神上最丰饶的八年;茅屋出大师。 叙事策略:群像结构,以\"校、师、生、时局\"四线交织,不设单一主角。…",
+    "description": "1937年平津陷落，北大、清华、南开三校南迁，历经长沙暂驻与湘黔滇三千里徒步，终在昆明组建国立西南联合大学。本书以“校、师、生、时局”四线交织的群像叙事，重现了这所临时大学在日军轰炸、茅屋漏雨与极度贫困中坚守学术尊严的八年历程。从梅贻琦、陈寅恪到汪曾祺、杨振宁，书中细致刻画了大师与学子在跑警报、刻印章、茶馆苦读中的精神淬炼。这不仅是一部战时教育史，更论证了大学的本质并非校舍经费，而是对自由思想与独立精神的共同守护，是一个民族在至暗时刻对文明未来的悲壮下注。",
     "chapterCount": 20,
     "editorialScore": {
       "current": false,
@@ -248,14 +278,17 @@
     "projectId": "proj-mr8vls3en9w",
     "releaseId": "rel_20260817034458571_fb388968e3",
     "title": "敦煌藏经洞：从发现到守护的五十年",
-    "subtitle": "",
+    "subtitle": "从发现到守护的五十年",
     "authorDisplayName": "李思特Think",
     "category": "历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "敦煌学",
+      "藏经洞",
+      "文物流散",
+      "近代史",
+      "文化遗产"
     ],
-    "description": "敦煌莫高窟藏经洞1900年发现后五十年间的流散、争夺与守护",
+    "description": "本书聚焦敦煌莫高窟藏经洞自1900年发现后五十年间的跌宕命运，系统梳理了这批珍贵文献从密室重光、官场流散到异国劫掠及本土守护的完整历程。全书以二十个关键节点为脉络，重现了王道士、边塞官僚与中外探险者在风沙中的博弈，揭示了中国学者从震惊觉醒到实地守护的艰难转型。这不仅是一部文物流散史，更是近代中国文化主权意识萌生与中古史观重塑的缩影，为理解敦煌学的诞生提供了深沉的历史注脚。",
     "chapterCount": 20,
     "editorialScore": {
       "current": false,
@@ -272,15 +305,18 @@
     "projectId": "proj-mr98x1wfc8x",
     "releaseId": "rel_20260817034458463_0fa0e9d79c",
     "title": "Suez 1956: The Crisis That Ended an Empire",
-    "subtitle": "",
+    "subtitle": "The Crisis That Ended an Empire",
     "authorDisplayName": "李思特Think",
-    "category": "World History",
+    "category": "Middle Eastern History",
     "tags": [
-      "World History",
-      "History",
-      "Nonfiction"
+      "Suez Crisis",
+      "Gamal Abdel Nasser",
+      "British Empire",
+      "Pan-Arabism",
+      "Cold War",
+      "Decolonization"
     ],
-    "description": "The 1956 Suez Crisis: Nasser's nationalization of the canal, the secret Anglo-French-Israeli collusion at Sèvres, the invasion, and the diplomatic humiliation that redrew the map of global power",
+    "description": "This definitive history examines the 1956 Suez Crisis as the pivotal moment that dismantled British imperial power and reshaped the modern Middle East. Tracing the arc from Gamal Abdel Nasser’s nationalization of the canal to the secret Anglo-French-Israeli collusion at Sèvres, the narrative details the military invasion and subsequent diplomatic humiliation that redrew the global balance of power. Beyond the immediate conflict, the book explores the broader trajectory of Pan-Arabism, analyzing the rise and fall of the United Arab Republic and Nasser’s enduring legacy through 1970. By connecting the tactical failures at Suez to long-term geopolitical shifts, this work illuminates how a regional dispute accelerated decolonization and established new paradigms in international relations. It is an essential account for understanding the transition from European hegemony to a multipolar world order and the complex roots of contemporary Middle Eastern politics.",
     "chapterCount": 12,
     "editorialScore": {
       "current": false,
@@ -297,14 +333,17 @@
     "projectId": "proj-mrei7vpyow3",
     "releaseId": "rel_20260817034458381_62dc6d69bf",
     "title": "沧溟万里：郑和下西洋与明初的海上抱负",
-    "subtitle": "",
+    "subtitle": "郑和下西洋与明初的海上抱负",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "郑和下西洋",
+      "明代海权",
+      "朝贡体系",
+      "航海史",
+      "宝船"
     ],
-    "description": "郑和七下西洋（1405-1433）：宝船舰队的建造与组织、永乐朝的政治动因、朝贡体系与海上贸易网络、航海技术与季风航线、船队在南洋与印度洋的交往冲突，以及下西洋的终结与明代海权的转向。",
+    "description": "本书全景式复盘郑和七下西洋的壮阔历程，深入剖析永乐朝经略海洋的政治动因与朝贡体系运作。从龙江船厂的巨舰营造到牵星过洋的导航技术，从季风航路的开辟到南洋印度洋的交往冲突，细致还原宝船舰队的组织后勤与海上秩序构建。同时探讨勘合贸易、宫廷消费与帝国财政的关联，揭示下西洋终结的深层原因及明代海权内收的历史转向。融汇造船、航海、外交与经济史视角，呈现明初海上抱负的辉煌与遗憾。",
     "chapterCount": 15,
     "editorialScore": {
       "current": false,
@@ -322,14 +361,17 @@
     "projectId": "proj-mrly24kwn12",
     "releaseId": "rel_20260817034458316_333abfbda7",
     "title": "柄国十年：张居正与万历新政",
-    "subtitle": "",
+    "subtitle": "万历新政的权力逻辑与帝国代价",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "张居正",
+      "万历新政",
+      "明代政治",
+      "一条鞭法",
+      "考成法"
     ],
-    "description": "张居正柄国十年（1572-1582）与万历新政：从裕邸讲官到内阁首辅的权力之路、隆庆政局与高拱的倾轧、考成法整肃官僚机器、一条鞭法与白银财政、清丈田亩与豪强博弈、蓟辽边防与戚继光李成梁、夺情之争与士林反弹、身后抄家与新政的存废，兼及明代中枢制度在张居正手中的极限与代价。",
+    "description": "本书聚焦张居正柄国十年（1572—1582），系统梳理万历新政的兴起与终结。从裕邸讲官到内阁首辅，作者细致还原张居正在隆庆政局倾轧中崛起的过程，深入剖析考成法对官僚机器的整肃、一条鞭法与白银财政的确立、清丈田亩背后的豪强博弈，以及蓟辽边防的军事实践。书中不仅呈现改革成效，更直面夺情之争、士林反弹及身后清算等政治反噬，揭示明代中枢制度在张居正手中运转的极限与代价。全书立足史料，兼顾制度运作与人事纠葛，为普通读者提供理解晚明政治转型与改革困境的清晰路径。",
     "chapterCount": 15,
     "editorialScore": {
       "current": false,
@@ -347,14 +389,17 @@
     "projectId": "proj-mrn6wgiuwd9",
     "releaseId": "rel_20260817034458237_6e26049808",
     "title": "拗相公：王安石与熙宁变法",
-    "subtitle": "",
+    "subtitle": "王安石与熙宁变法",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "王安石",
+      "熙宁变法",
+      "北宋政治",
+      "制度史",
+      "财政国家"
     ],
-    "description": "王安石与熙宁变法（1069-1085）：从鄞县青苗实验到执政中枢的施政蓝图、宋神宗与王安石的君臣共谋、青苗法免役法市易法的制度设计与州县执行、新旧党争与司马光的对抗、市井与乡村的变法实感、吕惠卿与新党内部裂变、元祐更化与新法存废，兼及北宋财政国家转型的极限与代价。",
+    "description": "本书聚焦1069至1085年熙宁变法全过程，以王安石政治生涯为线索，重构北宋财政国家转型的历史现场。从鄞县青苗实验到中枢施政蓝图，深入剖析青苗、免役、市易等核心制度的设计逻辑与州县执行实感。书中不仅呈现宋神宗与王安石的君臣共谋及新旧党争的极化过程，更关注变法对乡村秩序与市井生活的真实冲击。通过梳理新党内部裂变与元祐更化的制度反复，揭示北宋帝国在财政扩张中触及的体制极限与沉重代价，为理解中国传统国家治理困境提供深刻镜鉴。",
     "chapterCount": 15,
     "editorialScore": {
       "current": false,
@@ -371,15 +416,17 @@
     "projectId": "proj-mrobj0uho30",
     "releaseId": "rel_20260817034458160_75b50980ca",
     "title": "Trinity: The Manhattan Project and the Birth of the Atomic Age",
-    "subtitle": "",
+    "subtitle": "The Manhattan Project and the Birth of the Atomic Age",
     "authorDisplayName": "李思特Think",
-    "category": "World History",
+    "category": "History / Science & Technology",
     "tags": [
-      "World History",
-      "History",
-      "Nonfiction"
+      "Manhattan Project",
+      "Nuclear History",
+      "J. Robert Oppenheimer",
+      "Atomic Age",
+      "Military Science"
     ],
-    "description": "The Manhattan Project (1939-1946): from the Einstein-Szilard letter and the MAUD Committee to the Met Lab, Oak Ridge, Hanford and Los Alamos; Groves and Oppenheimer's uneasy partnership; the science of fission turned into industrial engineering at unprecedented scale; compartmentalization, security and the spies inside; Trinity, Hiroshima and Nagasaki; and t…",
+    "description": "Trinity offers a comprehensive history of the Manhattan Project, tracing its evolution from early scientific advocacy to unprecedented industrial engineering. Spanning 1939 to 1946, this narrative examines the uneasy partnership between General Leslie Groves and J. Robert Oppenheimer as they transformed theoretical fission into a functional weapon across secret sites like Los Alamos, Oak Ridge, and Hanford. Beyond the technical achievements and the Trinity test, the book explores the complex architecture of secrecy, internal security challenges, and the geopolitical realities surrounding Hiroshima and Nagasaki. Crucially, it extends the scope into the postwar era, analyzing the moral aftermath, institutional fractures, and security purges that defined the early atomic age. By connecting wartime logistics with peacetime authority and Oppenheimer’s eventual exile, this work illuminates how the project’s legacy shaped both modern science and enduring historical memory.",
     "chapterCount": 12,
     "editorialScore": {
       "current": false,
@@ -396,15 +443,17 @@
     "projectId": "proj-mrrmzqa8zut",
     "releaseId": "rel_20260817034458079_36a00e300c",
     "title": "无水之庭：枯山水的发明、观看与世界传播",
-    "subtitle": "",
+    "subtitle": "枯山水的发明、观看与世界传播",
     "authorDisplayName": "李思特Think",
-    "category": "全球史",
+    "category": "文化史/艺术史",
     "tags": [
-      "全球史",
-      "历史",
-      "非虚构"
+      "枯山水",
+      "日本文化",
+      "园林史",
+      "视觉文化",
+      "禅宗艺术"
     ],
-    "description": "核心命题： 枯山水并不是一种从古至今不变的“日本禅意”，而是一套在中世寺院、政治权力、造园工匠与观看方式共同作用下形成的视觉技术；到了近代，它又被重新解释为日本文化的象征，并传播到世界。 这个命题比“介绍枯山水之美”更有历史解释力，也能避免把日本文化神秘化。 全书可以回答四个问题 为什么一座庭园可以没有水，却仍然被称为“山水”？ 枯山水究竟是禅僧创造的，还是工匠、寺院和政治权力共同创造的？ 人们为什么相信几块石头和一片白砂可以代表山川、岛屿与宇宙？ 枯山水如何在近代被塑造成“日本精神”，并影响现代建筑和全球设计？",
+    "description": "枯山水并非亘古不变的禅意符号，而是中世权力、工匠技艺与观看方式共同塑造的视觉技术。本书跳出传统美学赏析，从历史深处还原无水之庭的真实生命史。全书深入探讨庭园如何在寺院、幕府政治与造园匠人的互动中诞生，解析白砂与石组背后的视线规训及阶层流动。同时追溯其在近代被重构为“日本精神”并影响全球现代设计的过程。这是一部祛除文化神秘化、兼具历史解释力与视觉分析的文化史著作，带领读者重新理解枯山水的生成逻辑与世界传播。",
     "chapterCount": 20,
     "editorialScore": {
       "current": false,
@@ -421,15 +470,17 @@
     "projectId": "proj-mrxoebnx0ge",
     "releaseId": "rel_20260817034457980_ac83691299",
     "title": "钟声之前：标准时间如何重塑现代世界",
-    "subtitle": "",
+    "subtitle": "标准时间如何重塑现代世界",
     "authorDisplayName": "李思特Think",
-    "category": "全球史",
+    "category": "历史/科技史",
     "tags": [
-      "全球史",
-      "历史",
-      "非虚构"
+      "时间史",
+      "铁路",
+      "全球化",
+      "制度变迁",
+      "现代性"
     ],
-    "description": "以1840年代至20世纪中叶为主要时间范围，追踪地方太阳时如何被铁路时刻表、电报网络、天文台、航海、战争动员与国家立法逐步改造成全球标准时间。全书的核心论点是：统一时间并非钟表技术自然进步的结果，而是一场围绕协调成本、商业效率、国家权力与日常生活展开的制度革命。写作应同时呈现格林尼治、铁路公司、工程师、天文学家、商人、军队和普通人的具体经历，解释时间标准化如何改变城市、劳动、旅行、新闻、金融和帝国治理，并讨论拒绝、迟疑、地方差异及其延续。避免写成发明史或制度条目汇编；每章必须推进一个不同的因果问题，并以可核查人物、文件、时刻表或事件为叙事支点。",
+    "description": "本书追溯1840年代至20世纪中叶标准时间的诞生历程，揭示统一时间并非钟表技术的自然演进，而是一场围绕商业效率、国家权力与日常生活展开的制度革命。从铁路时刻表、电报网络到战争动员与帝国治理，作者以具体人物、文件与事件为支点，呈现格林尼治、工程师、商人及普通人在时间标准化中的博弈与经历。全书探讨时间如何重塑城市、劳动、金融与旅行，并细致刻画了地方抵抗、迟疑与文化差异的延续。这不仅是一部技术史，更是一部关于现代性协调成本与社会秩序重构的深度叙事，帮助读者理解当下全球同步节律背后的历史代价与复杂成因。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -446,14 +497,17 @@
     "projectId": "proj-ms5ibeca4r6",
     "releaseId": "rel_20260817034457779_d08643c457",
     "title": "渔阳鼙鼓：安史之乱的八年",
-    "subtitle": "",
+    "subtitle": "安史之乱的八年",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "安史之乱",
+      "唐朝",
+      "军事史",
+      "政治兴衰",
+      "全景叙事"
     ],
-    "description": "以755-763年安史之乱全程为主轴的全景叙事史：从盛世假象与范阳起兵，到东都陷落、潼关失守与马嵬之变；从灵武即位、睢阳死守，到邺城溃败、史朝义之死与河朔藩镇的形成。以两《唐书》《资治通鉴》为骨架，杜甫等人的诗文为时代声音，写清一个极盛帝国如何在八年内折断，以及它为何再也回不去。玄宗、安禄山、哥舒翰、郭子仪、李泌、张巡等人物命运交错为叙事经线。",
+    "description": "本书以755至763年安史之乱全程为主轴，展开一幅极盛帝国骤然折断的全景历史画卷。从范阳起兵、潼关失守到马嵬惊变，再到灵武即位、睢阳死守与河朔割据定型，完整复盘八年战乱始末。作者以两《唐书》《资治通鉴》为骨架，辅以杜甫诗文为时代注脚，将玄宗、安禄山、郭子仪、张巡等人物命运交织于宏大叙事之中。这不仅是一部战争史，更是一次对盛世崩塌内在逻辑的深度剖析，写尽了一个伟大时代为何再也回不去的苍凉与必然。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -470,7 +524,7 @@
     "projectId": "proj-ms8bbiy71xl",
     "releaseId": "rel_20260817034457469_be5094a8a8",
     "title": "南明十八年：一六四四之后",
-    "subtitle": "",
+    "subtitle": "一六四四之后的",
     "authorDisplayName": "李思特Think",
     "category": "历史",
     "tags": [
@@ -494,15 +548,18 @@
     "projectId": "proj-ms8luyjq3ey",
     "releaseId": "rel_20260817034457345_09d732b14f",
     "title": "一臂之力：老虎机的世界史",
-    "subtitle": "",
+    "subtitle": "从机械赌具到算法牢笼的全球博弈史",
     "authorDisplayName": "李思特Think",
-    "category": "全球史",
+    "category": "历史/科技文化",
     "tags": [
-      "全球史",
-      "历史",
-      "非虚构"
+      "老虎机",
+      "赌博史",
+      "行为心理学",
+      "技术文化",
+      "拉斯维加斯",
+      "成瘾机制"
     ],
-    "description": "以老虎机这台机器为主角的全球史：1890年代旧金山酒馆里的机械赌具与查尔斯·菲的\"自由钟\"、禁赌时代的口香糖机伪装与水果图案的由来、Bally 机电革命与拉斯维加斯的崛起、可变比率强化的行为心理学与\"差一点就中\"的设计、日本柏青哥与帕琴斯洛的平行演化、视频老虎机与线上化。写清一台机器如何驯化概率、法律与人性，以及围绕它的监管、成瘾与产业博弈。",
+    "description": "本书以老虎机为核心主角，追溯其自1890年代旧金山“自由钟”诞生以来的全球演变史。从禁赌时期伪装成口香糖机的生存策略，到Bally机电革命重塑拉斯维加斯，再到行为心理学对“差一点就中”的精密设计，揭示了这台机器如何驯化概率、法律与人性。书中详述日本柏青哥的平行演化及视频老虎机的线上化进程，剖析围绕成瘾机制、产业博弈与监管体系的复杂互动。这不仅是一部技术迭代史，更是一场关于欲望、控制与全球概率殖民的深度反思，展现无形算法如何构建现代人的精神牢笼。",
     "chapterCount": 13,
     "editorialScore": {
       "current": false,
@@ -519,14 +576,17 @@
     "projectId": "proj-mscnczmp6kc",
     "releaseId": "rel_20260817034457274_3604976c91",
     "title": "中国算命史",
-    "subtitle": "",
+    "subtitle": "一部科技史视角下的术数演进编年",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "中国历史/科技史",
     "tags": [
-      "历史",
-      "非虚构"
+      "科技史",
+      "术数文化",
+      "社会史",
+      "知识考古",
+      "民俗学"
     ],
-    "description": "本书旨在作为一部科技史视角下的中国算命术发展编年，核心论点是：算命并非一成不变的迷信遗存，而是以一套可操作的数理模型与符号系统，在不同历史阶段吸收天文、历法、数学、医学及社会心理技术，不断自我修正与推广的实用知识体系。其演进动力来自两大矛盾——一是官方天文历禁与民间预测需求之间的控制与反控制，二是术士内部秘传与文本化、标准化之间的张力。 时间范围上起商周龟卜与筮法萌芽，下至民国时期星命术与报刊、广告等现代媒介结合，重点落在汉唐之间与宋明两代。关键人物包括商周贞人群体、汉代京房、魏伯阳、唐代李虚中、宋代徐子平、明代万民英等，他们既是术数规则的改造者，也是将算命术推入不同社会阶层的节点性人物。…",
+    "description": "本书跳出迷信批判或玄学猎奇的窠臼，以科技史视角重构中国算命术的发展脉络。全书上起商周龟卜，下至民国报刊广告与当代算法，将算命视为一套不断吸收天文、历法、数学及社会心理技术的实用知识体系。作者利用出土简帛、传世经典与官方禁令等多重史料，揭示了官方历禁与民间需求、秘传与标准化之间的博弈动力。从京房纳甲到子平八字，再到现代媒介转型，本书清晰呈现了术数模型如何在历史中自我修正与普及，帮助读者理解这一复杂文化现象背后的数理逻辑与社会生存智慧。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -543,15 +603,18 @@
     "projectId": "proj-msh7nypy94v",
     "releaseId": "rel_20260817034457138_bf902cb108",
     "title": "Endurance: Shackleton's Impossible Voyage Home",
-    "subtitle": "",
+    "subtitle": "Leadership at the Edge of the World",
     "authorDisplayName": "李思特Think",
-    "category": "World History",
+    "category": "History / Expeditions & Discoveries",
     "tags": [
-      "World History",
-      "History",
-      "Nonfiction"
+      "polar exploration",
+      "survival",
+      "leadership",
+      "Antarctica",
+      "Shackleton",
+      "organizational resilience"
     ],
-    "description": "A narrative history of the Imperial Trans-Antarctic Expedition (1914-1917), argued as the story of survival as an organizational achievement: when the ice destroyed every plan, what kept twenty-eight men alive was not heroic endurance alone but Shackleton's relentless management of morale, attention, and consent — leadership practiced as a daily craft agains…",
+    "description": "In 1914, Ernest Shackleton set out to cross Antarctica. By 1915, his ship was crushed in the ice, and his twenty-eight-man crew was stranded on the most inhospitable continent on Earth. This is not simply a story of survival against the elements—it is a study in the fierce, deliberate craft of leadership. Drawing directly from crew diaries and Captain Worsley’s log, the book reveals how Shackleton managed attention, morale, and consent through the slow disintegration of every plan. When the ice destroyed structure, he provided it. When despair crept in, he met it with routine, music, and relentless optimism. From the groaning death of the Endurance to the impossible open-boat voyage of the James Caird and the final mountain crossing of South Georgia, this account argues that the expedition’s greatest achievement was not heroic endurance, but the daily, practiced art of keeping men alive when there was nothing to fight but time.",
     "chapterCount": 16,
     "editorialScore": {
       "current": false,
@@ -570,13 +633,16 @@
     "title": "受苦的艺术：宫崎英高与魂系游戏的革命",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "人物传记/游戏文化",
     "tags": [
-      "科技史",
-      "历史",
-      "非虚构"
+      "宫崎英高",
+      "魂系游戏",
+      "游戏设计",
+      "FromSoftware",
+      "电子游戏史",
+      "文化现象"
     ],
-    "description": "本书是宫崎英高的传记，核心论点：他把「高难度」从商业毒药改写为尊重玩家的设计哲学——魂系游戏的成功不是受虐的流行，而是一场把死亡转化为学习机制与叙事装置、把挫败感重新定价为成就感的系统工程；这场革命出自一个二十九岁才入行、半路接手废案项目的迟到者，其方法论（碎片叙事、环境讲故事、不解释的世界）与其个人经历（贫穷童年读不起书、靠想象补全残缺故事）之间存在可考的因果线。矛盾线：商业安全与设计偏执的拉锯；日式开发体制与作者性的张力；隐晦叙事与大众市场的悖论式和解。反复出现的意象：篝火、YOU DIED、物品栏里碎片化的说明文本。边界：严格非虚构，在世人物只使用公开采访、官方资料与可靠报道，不臆测未公开的私人心理；叙事止于《艾尔登法环》及其历史地位的确立。读者：玩家与非玩家皆可读的大众读者。",
+    "description": "本书是宫崎英高的首部中文传记，深入剖析了这位游戏界传奇人物如何将“高难度”从商业毒药重塑为一种尊重玩家的设计哲学。通过梳理其从贫穷童年到二十九岁转行入局的个人经历，本书揭示了其标志性的“碎片化叙事”、“环境讲故事”等设计理念的源头。书中追踪了从《恶魔之魂》到《艾尔登法环》的创作历程，展现了宫崎英高如何在商业安全与设计偏执、隐晦叙事与大众市场之间取得悖论式的和解，最终引领了一场将死亡转化为学习机制、将挫败感重新定价为成就感的游戏革命。",
     "chapterCount": 19,
     "editorialScore": {
       "current": false,
@@ -595,12 +661,16 @@
     "title": "北洋水师：一支舰队的兴亡",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "历史/中国近代史",
     "tags": [
-      "历史",
-      "非虚构"
+      "北洋水师",
+      "晚清海军",
+      "甲午战争",
+      "近代军事史",
+      "洋务运动",
+      "舰船"
     ],
-    "description": "",
+    "description": "本书以晚清北洋水师的创建、发展与覆灭为主线，通过八个关键历史节点，勾勒出这支近代化海军从无到有、由盛转衰的完整轨迹。从海防危机催生的最初构想，到船政学生远赴重洋学习技术；从早期舰艇的采购与争议，到中法战争后的深刻反思；从长崎事件暴露的内部矛盾，到琅威理去职引发的管理危机；直至甲午战前最后的操演与威海卫全军覆没的悲壮终章。全书聚焦于舰队本身的技术、人事与制度层面，力图在具体的历史情境中，客观呈现一支舰队如何承载一个时代的雄心与局限。",
     "chapterCount": 8,
     "editorialScore": {
       "current": false,
@@ -619,12 +689,16 @@
     "title": "DOOM 双子星：卡马克与罗梅罗",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "人物传记 / 科技史",
     "tags": [
-      "历史",
-      "非虚构"
+      "游戏开发史",
+      "id Software",
+      "程序员文化",
+      "商业冲突",
+      "创意合伙",
+      "90年代科技"
     ],
-    "description": "",
+    "description": "本书聚焦于约翰·卡马克与约翰·罗梅罗这对游戏开发领域的传奇搭档，从他们早期的合作萌芽开始，一直讲述到两人在《DOOM》等标志性作品取得巨大成功后的分道扬镳。全书以时间为轴，深入剖析了两人截然不同的性格、技术理念与管理哲学——卡马克对纯粹技术引擎的执着追求，与罗梅罗对游戏设计、商业扩张和明星光环的渴望，如何在共同创造辉煌的同时，也埋下了最终决裂的种子。它不仅是一部关于电子游戏黄金时代的微观史，更是一则关于创造力、友谊、野心与商业现实如何激烈碰撞，并最终塑造一个产业面貌的深刻故事。",
     "chapterCount": 19,
     "editorialScore": {
       "current": false,
@@ -643,13 +717,16 @@
     "title": "世嘉：一个挑战者的三十年战争",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "战争史",
+    "category": "商业史 / 科技史",
     "tags": [
-      "战争史",
-      "历史",
-      "非虚构"
+      "世嘉",
+      "游戏史",
+      "商业竞争",
+      "电子游戏",
+      "企业兴衰",
+      "索尼"
     ],
-    "description": "本书是世嘉（SEGA）的兴亡史。核心论点：世嘉的三十年是「永远的挑战者」体质如何先成就一家公司、再反噬它的完整标本——街机基因（硬件激进、迭代快、赌性重）让它在客厅游戏机时代三度抢跑（Mega Drive 先发制人、土星仓促迎战、Dreamcast 悲壮一搏），也让它在与任天堂、索尼的消耗战里流尽现金；2001 年退出主机业不是故事的终点，而是身份的重构——从平台商退回内容商，靠索尼克 IP、街机遗产与第三方转型活成另一种世嘉。矛盾线：日本本社与美国世嘉（Sega of America）的路线内战贯穿始终——Genesis 的美式营销奇迹与32X/土星的仓促决策都出自这对矛盾；硬件激进与软件生态的失衡；街机现金流与主机业务烧钱的互搏。…",
+    "description": "本书是一部关于世嘉（SEGA）的完整商业兴衰史。它追溯了这家公司从战后日本的投币机生意起步，凭借街机基因崛起为全球游戏巨头的历程。全书核心揭示了世嘉作为“永远的挑战者”的内在矛盾：激进的硬件策略与快速的迭代能力，使其在十六位机时代一度领先，却也导致了土星和Dreamcast时代的仓促与消耗。书中细致呈现了日本本社与美国分部间的路线斗争、街机现金流与主机烧钱业务的互搏，以及最终退出主机硬件市场、转型为内容提供商的关键转折。叙事基于公开史料，贯穿了蓝色刺猬索尼克的诞生、标志性的营销战役、与任天堂和索尼的惨烈竞争，直至世嘉飒美时代的整合与IP在当代的复兴。",
     "chapterCount": 38,
     "editorialScore": {
       "current": false,
@@ -668,13 +745,16 @@
     "title": "像素里的中国：中国电子游戏三十年",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "社会科学/文化研究",
     "tags": [
+      "游戏史",
+      "文化产业",
+      "数字娱乐",
+      "社会变迁",
       "科技史",
-      "历史",
-      "非虚构"
+      "流行文化"
     ],
-    "description": "",
+    "description": "本书以1984年至2024年为时间跨度，系统梳理了中国电子游戏产业从萌芽到壮大的三十年历程。从早期走私红白机与街机暗流，到小霸王学习机游走于政策边缘；从国产单机游戏的悲情起跑与溃败，到网络游戏代理带来的点卡暴富时代；从“网瘾”舆论风暴与防沉迷令，到免费模式、页游崛起、手游爆发；再到二次元破壁、全球发行挑战与版号调控下的产业转型——本书通过关键产品、商业事件与社会思潮的交织，呈现了一个在盗版、禁令、资本与技术创新中不断突围的行业全景。它不仅是一部产业史，更是一代人的共同记忆与文化见证。",
     "chapterCount": 19,
     "editorialScore": {
       "current": false,
@@ -693,13 +773,16 @@
     "title": "机器人四十年：工业、服务与人形",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "科技史 / 工业技术",
     "tags": [
+      "机器人技术",
+      "工业自动化",
       "科技史",
-      "历史",
-      "非虚构"
+      "人工智能",
+      "智能制造",
+      "人形机器人"
     ],
-    "description": "",
+    "description": "本书是一部聚焦于工业与服务机器人技术演进的非虚构作品。它以1980年代为起点，系统梳理了机器人从早期自动化构想、机械臂的构型探索，到逐步具备视觉、力觉感知，并最终走向协作化、智能化与人形化的四十年历程。全书通过二十个关键的技术节点与产业论断，揭示了机器人如何从隔离的工厂设备，演变为融入人类生产与生活场景的复杂系统。本书不涉及虚构的奖项或评价，旨在为普通读者提供一幅清晰、客观的机器人技术发展路线图。",
     "chapterCount": 21,
     "editorialScore": {
       "current": false,
@@ -718,12 +801,16 @@
     "title": "自由城三十年：GTA 作品评传",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "游戏文化/数字人文",
     "tags": [
-      "历史",
-      "非虚构"
+      "侠盗猎车手",
+      "游戏研究",
+      "流行文化",
+      "媒介考古",
+      "开放世界",
+      "数字叙事"
     ],
-    "description": "",
+    "description": "本书是一部聚焦于《侠盗猎车手》（GTA）系列的文化评传。作者以系列核心作品为主线，从1997年初代《GTA》的像素自由城出发，穿越《罪恶都市》的霓虹幻梦、《圣安地列斯》的州际图景，抵达《GTA IV》的灰色现实与《GTA V》的当代讽喻。全书不仅梳理了游戏技术、叙事与开放世界设计的演变，更将其置于更广阔的社会文化语境中，探讨虚拟城市如何成为映照现实欲望、道德困境与媒介变革的独特棱镜。这是一段关于数字自由、文化争议与未完成叙事的二十年旅程。",
     "chapterCount": 20,
     "editorialScore": {
       "current": false,
@@ -742,12 +829,15 @@
     "title": "The Cathedral and the Commit: A History of Open Source",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "Technology / History",
     "tags": [
-      "历史",
-      "非虚构"
+      "Open Source",
+      "Software History",
+      "Digital Culture",
+      "Technology",
+      "Internet"
     ],
-    "description": "",
+    "description": "《The Cathedral and the Commit》是一部关于开源运动的历史叙事，从20世纪80年代初的萌芽，一路追踪到当下。本书以“大教堂”与“集市”的经典比喻为线索，揭示了开源从一场由黑客文化驱动的边缘运动，如何演变为塑造全球数字基础设施的核心力量。它讲述了打印机驱动、GNU宣言、Linux内核诞生、浏览器战争、开源倡议成立、互联网泡沫、云计算兴起、许可证争议、巨头收购等一系列关键事件。本书不仅记录了技术与法律框架的演进，更深入探讨了其中蕴含的合作、控制、商业与理想之间的永恒张力，为理解我们今日所处的数字世界提供了不可或缺的视角。",
     "chapterCount": 18,
     "editorialScore": {
       "current": false,
@@ -766,12 +856,16 @@
     "title": "The Space Race: From Sputnik to the Sea of Tranquility",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "历史 / 科技史",
     "tags": [
-      "历史",
-      "非虚构"
+      "太空竞赛",
+      "冷战史",
+      "航天史",
+      "阿波罗计划",
+      "NASA",
+      "苏联航天"
     ],
-    "description": "",
+    "description": "本书以编年史的方式，生动讲述了冷战时期美苏太空竞赛的完整历程。故事从1957年苏联发射第一颗人造卫星‘斯普特尼克’的震撼性‘哔哔’声开始，追溯了其技术根源——纳粹德国的V-2火箭遗产，并详细描绘了美国国家航空航天局（NASA）应运而生的过程。书中聚焦于关键人物，如苏联神秘的‘总设计师’科罗廖夫，以及美国‘水星计划’的七位首批宇航员，再现了‘东方号’与‘水星号’的早期载人飞行竞赛。核心叙事围绕肯尼迪总统登月承诺背后的政治危机、两国在60年代中期的技术博弈，以及‘阿波罗1号’火灾悲剧带来的系统重建。最终，本书引领读者见证‘阿波罗11号’在静海基地的历史性着陆，并探讨了登月之后美苏从竞争走向合作的遗产，以及太空探索对人类科学与社会的深远影响。",
     "chapterCount": 16,
     "editorialScore": {
       "current": false,
@@ -790,13 +884,16 @@
     "title": "昇龙拳：格斗游戏与街机厅的黄金时代",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "文化史 / 游戏研究",
     "tags": [
-      "科技史",
-      "历史",
-      "非虚构"
+      "格斗游戏",
+      "街机文化",
+      "游戏史",
+      "电子竞技",
+      "流行文化",
+      "技术与社会"
     ],
-    "description": "本书是格斗游戏与街机厅文化的通史。核心论点：格斗游戏是「街机厅社交契约」的最高形态——一枚硬币买到的不是游戏时间，而是向陌生人挑战的权利；街霸II 真正的发明不是六键搓招，而是「对面站着人」的仪式感。格斗游戏的兴衰史就是线下公共游戏空间的兴衰史：死于客厅化与网络化，又在电竞舞台与回滚网络代码里两次复活。骨架线：卡普空与 SNK 的双社争霸贯穿中段（街霸 vs 饿狼/侍魂/拳皇——拳皇97 在中国街机厅的国民记忆单独成章）。矛盾线：街机现金流与家用机移植的自我蚕食；操作深度（护城河）与大众化（增长天花板）的永恒拉锯；日本开发者与美国竞技社群的文化角力（EVO 从停车场野赛到拉斯维加斯主舞台）。…",
+    "description": "本书是一部关于格斗游戏与街机厅文化的通史。它追溯了从1984年《空手道》到2023年《街霸6》的历程，核心观点认为格斗游戏是“街机厅社交契约”的终极体现：一枚硬币购买的不仅是游戏时间，更是向陌生人发起挑战的权利。本书探讨了格斗游戏如何塑造线下公共空间，又如何在家用机、网络化和电竞浪潮中历经兴衰与重生。书中不仅回顾了卡普空与SNK的双雄争霸、中国街机厅的独特记忆，也剖析了暴力争议、技术演进与社群文化等关键议题，为玩家与文化史爱好者提供了一幅生动的时代画卷。",
     "chapterCount": 32,
     "editorialScore": {
       "current": false,
@@ -815,12 +912,16 @@
     "title": "1997：拳皇之夜",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "历史 / 社会史 / 流行文化史",
     "tags": [
-      "历史",
-      "非虚构"
+      "街机文化",
+      "拳皇97",
+      "90年代",
+      "场景叙事",
+      "社会变迁",
+      "青春记忆"
     ],
-    "description": "本书是一部单年深潜的场景叙事史：1997 年的中国街机厅与《拳皇97》。核心：以一座南方小城的街机厅为主舞台（复合虚构的典型空间，人物为基于时代典型的合成人物，需在后记声明），用一年四季的厅内浮沉写透一个时代——下岗潮里的父辈与逃课的少年、一币通关的江湖规矩、包机房老板的生意经、盗版基板的灰色供应链、八神庵与草薙京在烟雾缭绕里的每晚对决。叙事线：少年阿凯从被虐到称霸再到街机厅关门的一年；暗线：老板娘的账本（电费、基板租金、公安检查）写出一个微型经济体的生死。场景优先：霓虹灯管的嗡鸣、摇杆缝里的烟灰、冬天玻璃门上的雾气、暑假午后排成排的后脑勺。史实骨架：拳皇97 的版本传播时间线、SNK 的远东授权与盗版现实、1997 年的宏观背景（下岗、香港回归之夜街机厅的电视）全部可考；人物对白与内心为文学重构。…",
+    "description": "本书是一部聚焦于1997年的场景叙事史，以一座虚构的南方小城街机厅为舞台，深入描绘了《拳皇97》风靡中国街头的时代切片。通过少年阿凯从入门到称霸的历程，以及老板娘账本所记录的微观经济浮沉，本书串联起下岗潮的社会背景、盗版游戏基板的灰色流通、街机厅内独特的江湖规矩与青春记忆。书中交织着可考的宏观史实与文学化的人物故事，力图还原那个烟雾缭绕、摇杆声噼啪作响的特定时空，为所有曾在街机厅度过青春岁月的读者，唤起一枚游戏币在玻璃台面上滚动时的共同回响。",
     "chapterCount": 6,
     "editorialScore": {
       "current": false,
@@ -839,12 +940,16 @@
     "title": "勇者与史莱姆：JRPG 四十年",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "游戏文化 / 历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "游戏史",
+      "JRPG",
+      "文化研究",
+      "电子游戏",
+      "日本流行文化",
+      "叙事"
     ],
-    "description": "本书是 JRPG（日式角色扮演游戏）四十年通史。核心论点：JRPG 是一次伟大的「翻译」——把美式 CRPG 的自由翻译成叙事纪律。堀井雄二用亲切化让 RPG 全民化（勇者斗恶龙是国民节日），坂口博信用电影化让它青春化（FF7 让全世界落泪）；此后四十年，是「线性叙事在开放世界时代如何存亡」的一场完整实验，回合制的每一次被判死刑与还魂都是实验数据。双主角骨架：堀井雄二（国民的、保守的、不变应万变）与坂口博信（冒险的、激进的、每作自我推翻）的路线互搏贯穿全书。四条谱系线：DQ/FF 主线之外，女神转生→Persona 线（亚文化逆袭成新王）、任天堂线（Mother 的邪典、宝可梦作为最成功 JRPG 之辩、异度）、Falcom/轨迹与中坚生态。…",
+    "description": "本书是一部关于日式角色扮演游戏（JRPG）四十年的文化通史。它聚焦于JRPG如何将源自西方的CRPG进行“翻译”，从《勇者斗恶龙》的国民化亲切革命，到《最终幻想》的电影化青春冒险，形成两条贯穿始终的创作路线。书中不仅梳理了DQ与FF的主线脉络，也深入探讨了《女神转生》《宝可梦》《轨迹》等系列构成的多元生态，并专章剖析了音乐、汉化、术语演变等文化维度。全书以“线性叙事在开放世界时代的存亡实验”为核心视角，通过存档点、回合制、过场动画等经典意象，重现了四十年间技术变革与玩家情感交织的完整历程。",
     "chapterCount": 32,
     "editorialScore": {
       "current": false,
@@ -864,12 +969,16 @@
     "title": "牌的简史",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "历史/文化",
     "tags": [
-      "历史",
-      "非虚构"
+      "纸牌历史",
+      "麻将",
+      "博弈论",
+      "社会史",
+      "文化传播",
+      "游戏"
     ],
-    "description": "本书是牌类游戏的人类史（扑克、麻将、字牌，不涉棋类）。核心论点：牌的本质是两件事——随机性（洗切让弱者也有机会）与隐藏信息（牌背后面藏着人心）。这两个属性决定了牌的一切社会命运：比棋更平民、更社交、更易赌、也更难被机器攻克（德扑与麻将的 AI 陷落比围棋晚了二十年）。一部牌史就是随机性与隐藏信息组织人类社交的千年记录——而它起源于中国。五部结构：①起源部：唐宋叶子戏与马吊——牌的中国血统、牌面与钱币的血缘；②西游部：纸牌沿丝路西传→马穆鲁克牌→欧洲四花色定型→塔罗歧路→密西西比河船上的扑克美国化→德州的诞生；③东土部：马吊→默和牌→麻将成型与全球流散（1920年代纽约麻将狂热）、字牌谱系（跑胡子/川牌/六胡抢——每县一种牌的方言化中国牌桌）；④数字部：联众、QQ 游戏大厅、地方牌类平台的崛起与合规边界、德州线上…",
+    "description": "从唐宋叶子戏到现代麻将与扑克，牌类游戏贯穿了人类社交的千年历史。本书揭示牌的核心奥秘：随机性与隐藏信息。正是这两大特性，让牌桌成为比棋类更平民、更社交、也更易引发赌博争议的场域。作者追溯牌的中国起源，跟随纸牌沿丝路西传，见证四花色在欧洲定型，剖析德州扑克与麻将的全球流散。书中亦审视数字时代牌桌的迁徙，以及人工智能如何最终攻克德扑与麻将这两座“不完全信息博弈”的堡垒。这是一部关于洗牌声、牌背与人心的非虚构社会史。",
     "chapterCount": 32,
     "editorialScore": {
       "current": false,
@@ -886,15 +995,18 @@
     "projectId": "proj-msoeg7iltlt",
     "releaseId": "rel_20260817034455750_b4173ee80f",
     "title": "电子游戏简史·卷一：起源",
-    "subtitle": "",
+    "subtitle": "从示波器到雅达利帝国（1947-1983）",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "历史 / 科技史",
     "tags": [
+      "电子游戏史",
+      "雅达利",
+      "街机文化",
       "科技史",
-      "历史",
-      "非虚构"
+      "商业史",
+      "流行文化"
     ],
-    "description": "本书是《电子游戏简史》五卷本之卷一《起源：从示波器到雅达利帝国》（1947-1983）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期。四个贯穿五卷的总纲概念在本卷的任务：①「硬币契约」——本卷写它的诞生：从实验室免费玩具到投币街机，玩家与厂商第一份价值契约如何在酒吧与街机厅里成形，又如何在 1983 年被雅达利亲手撕毁；②「客厅争夺战」——本卷写序幕：Odyssey 与 Atari 2600 把游戏第一次带进客厅；③「作者与流水线」——本卷写起点：从 Spacewar 的黑客作者们到雅达利流水线上无署名的设计师（乔布斯与沃兹的打砖块、Warren Robinett 的第一个彩蛋）；④「玩家造物」——本卷写萌芽：机厅高分榜与攻略口传。…",
+    "description": "本书是五卷本《电子游戏简史》的开篇之作，聚焦于电子游戏从实验室诞生到行业首次大崩溃的三十余年历程。它追溯了游戏如何从科研人员的示波器玩具，演变为席卷全球街机厅的投币娱乐，并最终以雅达利2600叩开家庭客厅的大门。书中深入探讨了“硬币契约”的诞生与破裂、家用游戏机市场的初次争夺、游戏设计从黑客创作走向工业化生产的转变，以及玩家社群的早期萌芽。通过重现Spacewar!的诞生之夜、Pong样机被硬币塞满的瞬间、日本百元硬币短缺的狂热，以及掩埋了无数卡带的“雅达利垃圾填埋场”等关键历史场景，本书为读者勾勒出一段充满创新、竞争、辉煌与崩塌的产业史诗，并为后续家用机时代的全面到来埋下伏笔。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -911,15 +1023,18 @@
     "projectId": "proj-mspdgpvhr0b",
     "releaseId": "rel_20260817034455632_e5a34eefce",
     "title": "电子游戏简史·卷二：客厅争夺战",
-    "subtitle": "",
+    "subtitle": "任天堂帝国与十六位战争（1983-1994）",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "历史 / 科技史 / 大众文化",
     "tags": [
-      "科技史",
-      "历史",
-      "非虚构"
+      "电子游戏史",
+      "任天堂",
+      "世嘉",
+      "十六位战争",
+      "游戏产业",
+      "大众文化史"
     ],
-    "description": "本书是《电子游戏简史》五卷本之卷二《客厅争夺战：任天堂帝国与十六位战争》（1983-1994）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期。四个贯穿五卷的总纲概念在本卷的任务：①「硬币契约」——本卷写它的重签：1983 崩溃后，山内溥用权利金体制把玩家-厂商契约改写为玩家-平台-厂商三方契约（品质封印、卡带配额、独占条款），硬币契约从街机厅搬进客厅并第一次有了守门人；②「客厅争夺战」——本卷是主战场：FC/NES 收复北美废墟、世嘉 Genesis 以「Genesis does what Nintendon't」发起挑战、16 位战争把客厅变成两大帝国的前线，Game Boy 则把客厅装进口袋；③「作者与流水线」——本卷写署名的回归：宫本茂成为第一个玩家喊得出名…",
+    "description": "本书聚焦于电子游戏从街机厅走向家庭客厅的关键十年。1983年北美市场崩溃后，任天堂凭借FC/NES重建秩序，以“权利金体制”重塑了玩家、平台与厂商的三方契约，将客厅变为游戏帝国的核心战场。世嘉Genesis以“Genesis does what Nintendon't”发起挑战，引爆了激烈的十六位主机战争。与此同时，Game Boy将游戏装进口袋，玩家社群通过攻略、秘技和租赁网络首次组织化。本卷以具体场景深潜历史瞬间——从NES纽约试卖夜、莫斯科的俄罗斯方块版权谈判，到《真人快打》的国会听证会——追踪“硬币契约”的重签、“客厅争夺战”的白热化、“作者”的回归与“玩家造物”的兴起，直至1994年PlayStation暗流涌动，为下一个时代埋下伏笔。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -939,13 +1054,16 @@
     "title": "棋牌游戏简史",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "社会科学/商业经济",
     "tags": [
-      "科技史",
-      "历史",
-      "非虚构"
+      "游戏产业史",
+      "互联网商业",
+      "社会变迁",
+      "棋牌游戏",
+      "监管与创新",
+      "数字娱乐"
     ],
-    "description": "本书是中国棋牌电子游戏三十年产业史（1995-2025，中国主线＋全球视野），约25万字。核心论证：棋牌电子游戏是「最古老的玩法×最新的渠道」反复重演的三十年——玩法层面几乎零创新（斗地主还是斗地主，麻将还是麻将），却在每一代平台上都活成第一批到场者；真正演进的从来不是游戏本身，而是组局方式。棋牌是中国互联网的水电煤级流量底盘，也是娱乐与赌博一线之隔上的永恒试验场，监管与产品三十年互相塑形。四个总纲概念贯穿全书并逐章推进：①「组局革命」——每代平台真正卖的是「凑齐一桌人」的成本下降：茶馆→联众大厅→QQ大厅→房卡建房→小程序拉群，每次组局成本坍缩都重画行业版图；②「一线之隔」——娱乐与赌博的边界工程：积分、金币、房卡、道具的三十年合规变形史，边界每移动一寸都造就一批公司的生与死；③「地方棋牌」——最深的本地化护…",
+    "description": "本书是一部聚焦中国棋牌电子游戏产业三十年（1995-2025）的非虚构历史。它揭示了一个看似矛盾的核心事实：棋牌游戏玩法本身几乎从未改变，真正推动行业巨变的，是每一次技术浪潮带来的“组局革命”——从茶馆、联众大厅、QQ游戏大厅到房卡、小程序，凑齐一桌人的成本不断坍缩，重画着商业版图。全书以“组局革命”、“一线之隔”、“地方棋牌”、“常青玩法”四个核心概念为线索，深入剖析了娱乐与赌博的边界博弈、地方打法的社会学护城河、监管与产品的互相塑造，以及棋牌为何能穿越所有平台代际、成为互联网“水电煤”级流量底盘。这是一部关于游戏、更关于连接与社会的产业简史。",
     "chapterCount": 32,
     "editorialScore": {
       "current": false,
@@ -963,15 +1081,18 @@
     "projectId": "proj-mspjvhgkrpk",
     "releaseId": "rel_20260817034455360_7ea08bdefd",
     "title": "电子游戏简史·卷三：多边形革命",
-    "subtitle": "",
+    "subtitle": "PlayStation时代与作者的黄金年代（1994-2006）",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "科技史/大众文化",
     "tags": [
-      "科技史",
-      "历史",
-      "非虚构"
+      "游戏史",
+      "PlayStation",
+      "3D革命",
+      "网络游戏",
+      "游戏开发",
+      "玩家文化"
     ],
-    "description": "本书是《电子游戏简史》五卷本之卷三《多边形革命：PlayStation 时代与作者的黄金年代》（1994-2006）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期。四个贯穿五卷的总纲概念在本卷的任务：①「硬币契约」——本卷写它的第三次重签：光盘把卡带的高门槛权利金变成低成本抽成（索尼向第三方敞开大门的经济学），而网络游戏把契约按时间切片（月卡、点卡、网吧计时——玩家第一次为「在场时间」而非「拷贝」付费）；②「客厅争夺战」——本卷写它的三国化与出界：PS/N64/土星到 PS2/NGC/Xbox 的两轮主机战争，同时战场第一次溢出客厅——PC、网吧、机房成为新前线；③「作者与流水线」——本卷是主卷：作者的黄金年代（宫本茂的 3D 跳跃、小岛秀夫的电影语法、坂口博信的…",
+    "description": "本书是《电子游戏简史》五卷本之卷三，聚焦1994至2006年，这是电子游戏全面拥抱3D、网络化与全球化的关键时期。光盘取代卡带，索尼向第三方敞开大门，彻底改变了游戏发行的经济学。客厅里的主机战争演变为PS、N64与土星的三国演义，并溢出到PC与网吧。与此同时，宫本茂、小岛秀夫等明星设计师迎来黄金年代，而玩家社群则通过MOD、攻略网站和电竞，开始前所未有地参与游戏的创造与传播。本书将深入探讨从《最终幻想VII》的史诗叛逃，到《半条命》模组催生《反恐精英》；从韩国《星际争霸》电竞国家队，到中国《传奇》构建的点卡帝国。这是一段关于技术革命、商业博弈与文化爆发的多边形革命史。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -988,15 +1109,18 @@
     "projectId": "proj-msppnzio9t8",
     "releaseId": "rel_20260817034455250_cebc60a503",
     "title": "电子游戏简史·卷四：口袋与云端",
-    "subtitle": "",
+    "subtitle": "口袋与云端：客厅的溶解与免费的代价（2006-2016）",
     "authorDisplayName": "李思特Think",
-    "category": "科技史",
+    "category": "社会科学/文化研究",
     "tags": [
-      "科技史",
-      "历史",
-      "非虚构"
+      "电子游戏史",
+      "数字文化",
+      "移动游戏",
+      "独立游戏",
+      "平台经济",
+      "媒介变迁"
     ],
-    "description": "本书是《电子游戏简史》五卷本之卷四《口袋与云端：客厅的溶解与免费的代价》（2006-2016）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期。四个贯穿五卷的总纲概念在本卷的任务：①「硬币契约」——本卷写它的原子化：免费游戏把一次性买断拆成千万次微交易（F2P、内购、开箱），「免费」成为史上最昂贵的商业模式，契约从明码标价变成心理工程；②「客厅争夺战」——本卷写客厅的溶解：任天堂用 Wii 把非玩家请进客厅打赢最后一场经典客厅战役，但真正的胜负手在口袋里——iPhone 与 App Store 让游戏机的「专用硬件」逻辑第一次面对全民计算设备的降维；③「作者与流水线」——本卷写独立文艺复兴：Steam 与数字发行砍掉货架与发行商，个人作者带着 Braid、Fez、M…",
+    "description": "2006年，任天堂用Wii的体感手柄赢下了客厅争夺战的最后一场经典战役，但真正的颠覆却在口袋中悄然酝酿。两年后，iPhone与App Store的诞生，让游戏第一次挣脱了专用硬件的束缚。本书聚焦2006至2016这十年，描绘了电子游戏世界一次深刻的权力转移：客厅的中心地位在移动浪潮中溶解，免费游戏将“硬币契约”拆解为无数微交易，而数字发行则让独立开发者重返舞台。从《愤怒的小鸟》的全球风暴到《Minecraft》的方块帝国，从《英雄联盟》的电竞工业化到Twitch直播文化的兴起，玩家不再仅仅是消费者，更成为了内容本身。这是游戏从客厅走向口袋与云端的关键十年，也是“玩”这一古老行为被重新定义的十年。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1014,14 +1138,18 @@
     "projectId": "proj-mspskx2yu4f",
     "releaseId": "rel_20260817034455136_f51fb4ca2b",
     "title": "再来一回合：文明三十五年",
-    "subtitle": "",
+    "subtitle": "一个游戏对历史的三十五年论证",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "游戏文化 / 历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "文明系列",
+      "游戏史",
+      "历史哲学",
+      "游戏设计",
+      "玩家社群",
+      "数字文化"
     ],
-    "description": "本书是席德·梅尔《文明》（Sid Meier's Civilization）系列的三十五年全史（1991-2025，含前史），约25万字。核心论证：《文明》是电子游戏史上最大胆的工程——把全部人类历史论证成一个可玩的系统。它的每条规则都是一句历史哲学：科技树是进步史观的代码化，奇观与伟人是英雄史观的残留，文化胜利是软实力时代的表态，Civ6 的气候系统是人类世的自白。三十五年来这个系列每改版一次，就是对「历史是什么」重新立场表态一次——而三千万玩家在「再来一回合」里，不知不觉玩掉的是一整套史学。…",
+    "description": "本书是席德·梅尔《文明》系列三十五年的完整历史。它论证了一个核心观点：《文明》系列本质上是一套可操作的历史哲学系统。从科技树到奇观，从胜利条件到气候系统，游戏的每一条规则都在回答“历史是什么”。本书将追踪这个系列从1991年诞生到2025年的演变，剖析“再来一回合”如何成为时间吞噬的图腾，游戏机制如何承载并暴露历史观，以及“席德·梅尔”这一署名背后的品牌经济学。同时，它也深入玩家社群，探讨模组文化、社区术语与课堂应用，展现三千万玩家如何在不知不觉中，通过游戏接受了一整套关于人类历史的叙事与思考方式。",
     "chapterCount": 32,
     "editorialScore": {
       "current": false,
@@ -1041,12 +1169,16 @@
     "title": "小岛秀夫：作者的战场（重写版）",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "传记/游戏文化",
     "tags": [
-      "历史",
-      "非虚构"
+      "小岛秀夫",
+      "游戏设计",
+      "作者论",
+      "电子游戏史",
+      "互动叙事",
+      "产业研究"
     ],
-    "description": "本书是游戏设计师小岛秀夫的评传（1963-2025），约20万字。核心论证：小岛秀夫是「作者制」在工业游戏里的极限实验——四十年里他把自己的名字变成产品（A Hideo Kojima Game）、把电影语法搬进互动媒介、把机制本身变成作者表达，最终与流水线体制正面决裂。他的职业生涯是「作者与流水线」这对矛盾最完整的一次实弹演习：作者赢了名声，也付出了代价。四个总纲概念贯穿全书并逐章推进：①「作者的名字」——署名经济学：从 Konami 内部无名企划到包装盒上的「A Hideo Kojima Game」，一个雇员的名字如何变成品牌资产，公司为什么先纵容后忌惮；②「电影的债」——被电影耽误的导演？…",
+    "description": "本书是一部关于游戏设计师小岛秀夫的深度评传，聚焦其1963年至2025年的职业生涯。核心论点是：小岛秀夫是“作者制”在高度工业化游戏产业中的一次极限实验。全书通过“作者的名字”、“电影的债”、“机制即表达”和“决裂”四个核心概念，剖析他如何将自己的名字打造成品牌、将电影语法融入互动媒介、用游戏机制本身进行作者表达，并最终与流水线生产体制正面冲突。本书严格遵循编年叙事，结合具体历史场景与人物行动，探讨这位标志性创作者在赢得巨大声名的同时所付出的代价，及其对游戏行业“作者性”问题的深远影响。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1065,12 +1197,16 @@
     "title": "雅达利大崩溃（重写版）",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "历史 / 商业",
     "tags": [
-      "历史",
+      "商业史",
+      "电子游戏史",
+      "市场崩溃",
+      "平台经济",
+      "雅达利",
       "非虚构"
     ],
-    "description": "本书是 1983 年北美电子游戏大崩溃的全景史（1972-1985，含前史与余波），约20万字。核心论证：1983 年大崩溃不是一家公司的失败，而是人类第一次「内容无限供给遇上质量无门槛」的市场实验——当平台失去守门人，繁荣本身就是死亡螺旋的燃料。此后四十年游戏产业的一切制度设计（权利金、品质封印、认证流程、独占协议）都是刻在这场崩溃墓碑上的答案。四个总纲概念贯穿全书并逐章推进：①「无门槛的诅咒」——2600 的开放架构让任何人都能生产卡带：从动视的精英叛逃（第一家第三方的诞生是英雄史）到宠物食品公司做游戏（同一机制的堕落形态），开放如何从美德变成绝症；②「圣诞订单」——渠道的库存幻觉：批发商按上一个圣诞的斜率下单、无退货机制、折扣桶把新品价格锚死——崩溃首先是一场供应链事故，其次才是质量事故；③「E.T.…",
+    "description": "本书全景式还原了1983年北美电子游戏大崩溃的完整历史。通过详实的史料，本书论证这场危机并非雅达利一家的失败，而是人类首次面对“内容无限供给”与“质量无门槛”市场实验的必然崩塌。从Pong的诞生、动视的“叛逃”、E.T.游戏的仓促开发，到渠道库存雪崩、行业蒸发97%，本书揭示了繁荣如何成为死亡螺旋的燃料。最终，这场崩溃为游戏产业留下了深刻的制度遗产——任天堂的权利金体系、品质认证流程，乃至此后四十年平台与开发者关系的每一次博弈，都铭刻着1983年的教训。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1090,12 +1226,16 @@
     "title": "俄罗斯方块：一个方块的冷战旅行（重写版）",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "历史 / 大众文化",
     "tags": [
-      "历史",
+      "俄罗斯方块",
+      "冷战史",
+      "游戏史",
+      "知识产权",
+      "大众文化",
       "非虚构"
     ],
-    "description": "本书是《俄罗斯方块》的全史（1984-2025，含冷战版权战争主线），约20万字。核心论证：俄罗斯方块是游戏史上唯一一件同时属于数学、冷战和大众文化的作品——一个莫斯科计算中心的业余程序在没有专利、没有市场、没有作者权概念的计划经济里诞生，却在铁幕两侧引发了资本主义世界最激烈的版权争夺战；它的旅行路线就是1980年代末世界秩序变动的等高线。四个总纲概念贯穿全书并逐章推进：①「无主之作」——计划经济里的作者权真空：帕基特诺夫写出它却不拥有它，ELORG（苏联外贸机构）代表国家出售一件没人真正理解的商品，所有权的混沌正是后续一切争夺的火源；②「四方格的普遍性」——为什么是方块：完全抽象、零文化负载、零语言门槛的规则如何跨越铁幕与年龄——本书要拆解「普遍可玩性」的设计几何学；③「谈判桌上的冷战」——1988-1989…",
+    "description": "本书是一部关于《俄罗斯方块》的完整历史，追溯了这款游戏从1984年莫斯科计算中心的诞生，到席卷全球的版权争夺战，直至今日的文化影响。作者以编年史的方式，揭示了这款抽象游戏如何成为冷战末期商业、法律与文化的交汇点。书中探讨了计划经济下的“无主之作”如何引发资本主义世界最激烈的产权博弈，并剖析了其跨越文化与年龄的“普遍可玩性”设计奥秘。通过关键人物的具体行动与谈判桌上的激烈交锋，本书不仅讲述了一个游戏的故事，更描绘了世界秩序变动的一条独特等高线。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1112,14 +1252,18 @@
     "projectId": "proj-msquloghog1",
     "releaseId": "rel_20260817034454483_c8c4702121",
     "title": "大唐战神秦叔宝",
-    "subtitle": "",
+    "subtitle": "从凌烟阁末位到民间第一战神",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "历史/传记",
     "tags": [
-      "历史",
-      "非虚构"
+      "秦琼",
+      "隋唐史",
+      "军事传记",
+      "历史人物",
+      "民间信仰",
+      "门神"
     ],
-    "description": "本书是隋唐名将秦琼（字叔宝，?-638）的历史文学传记，约20万字。事实边界为历史文学档：史实骨架（战役、年代、官职、制度、真实引语）必须可信可核，允许合理拟写对白、动作与克制的内心活动，拟写必须与可核史实相容，不得伪装成史料原文，重大史实与年代不可改。核心论证：秦叔宝是中国军事史上「斗将」传统最完整的标本——一个以个人武勇为职业资本的武人，在隋末群雄的每一次崩塌中用战场表现重新定价自己，最终在凌烟阁功臣榜上排名末位；而正是这个末位者，在此后一千四百年里被说书场、演义和年画层层加冕为民间第一战神。他的一生是乱世武人职业生涯的极致样本，他的身后是中国人造神机制的极致样本。…",
+    "description": "本书是一部关于隋唐名将秦琼（字叔宝）的历史文学传记。作者以严谨的史实为骨架，聚焦于秦叔宝作为“斗将”的职业生涯，剖析他在隋末乱世中“五易其主”的抉择逻辑、以身体为账本的血战代价，以及从人到神的造神机制。全书按严格编年展开，从齐州历城的少年武人，到瓦岗骁将，再到秦王麾下的玄甲先锋，直至病榻十二年、陪葬昭陵。本书不仅还原了一位战神在历史现场的沉浮，更试图解答一个核心问题：为何这位在凌烟阁功臣榜上排名末位的将军，却在后世说书场、演义和年画中，被层层加冕为家喻户晓的民间第一门神与战神。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1139,12 +1283,16 @@
     "title": "渠道为王（重写版）",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "商业经济 / 科技史",
     "tags": [
-      "历史",
+      "游戏产业史",
+      "平台经济学",
+      "数字渠道",
+      "商业模式",
+      "权力博弈",
       "非虚构"
     ],
-    "description": "本书是电子游戏发行渠道与平台权力的通史（1972-2025），约20万字。核心论证：游戏产业五十年的权力更迭史，本质是一部「谁控制玩家与游戏之间的最后一米」的战争史——从街机厅老板到卡带权利金，从货架到光盘，从 Steam 到 App Store 再到订阅云端，每一次介质革命都重新洗牌一次守门人，而每一代新守门人都比上一代抽成更深、管辖更宽。渠道从不生产快乐，但渠道决定谁的快乐能被看见。四个总纲概念贯穿全书并逐章推进：①「最后一米」——渠道权力的物理基础：玩家接触游戏的物理/数字通路每收窄一次，守门人就多一分定价权（街机厅位、货架陈列、首页推荐位、搜索排序——同一逻辑的五代形态）；②「权利金体制」——任天堂 1983 年的制度发明如何定义此后四十年的主机商业模式：品质封印、卡带垄断、独占协议——守门人从收租者变…",
+    "description": "一部关于电子游戏产业权力变迁的深度通史。本书聚焦于连接玩家与游戏的“最后一米”——从街机厅的投币孔到手机应用商店的推荐位，揭示了过去五十年间，游戏发行渠道如何从简单的物理通路演变为掌控行业命脉的“守门人”。通过分析权利金体制的诞生、30%抽成的固化、以及数字平台与实体零售的博弈，本书系统性地展现了渠道权力的更迭逻辑：每一次技术介质革命都会重塑守门人，而新守门人往往比前任抽成更深、管辖更宽。全书以非虚构笔法，结合具体人物与事件，深入剖析了主机、PC、移动及中国市场的渠道生态，最终指向一个核心问题：当渠道决定谁的快乐能被看见时，权力的宿命将走向何方。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1164,12 +1312,16 @@
     "title": "蒸汽之国（重写版）",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "商业/科技史",
     "tags": [
-      "历史",
-      "非虚构"
+      "游戏产业史",
+      "Valve公司史",
+      "Steam平台",
+      "商业悖论",
+      "组织管理",
+      "数字文化"
     ],
-    "description": "本书是 Valve 公司史（1996-2025），约20万字。核心论证：Valve 是游戏产业最大的悖论标本——一家以「不发售的自由」著称的游戏公司，最终靠一个所有人都必须发售的平台统治了 PC 游戏；一家号称没有老板的扁平公司，建立了业内最深的收租结构。Valve 的二十五年是「创作自由」与「平台权力」这对矛盾在同一家公司体内的完整演化史：它先赢得了做游戏的自由，再用这份自由建造了让别人不自由的引力场。…",
+    "description": "本书是一部关于 Valve 公司（1996-2025）的非虚构历史，聚焦于这家游戏巨头如何从一家追求极致创作自由、宣称没有老板的公司，演变为通过 Steam 平台掌控 PC 游戏命脉的“收租者”。全书以编年体例，深入剖析“阀门时间”、扁平化管理、平台引力场和社区炼金术四大核心概念，揭示 Valve 内部“创作自由”与“平台权力”的深刻矛盾与演化轨迹。通过关键人物、事件与结构性分析，本书为大众读者与玩家呈现一部关于游戏产业悖论、组织形态与商业权力的演化史。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1191,10 +1343,14 @@
     "authorDisplayName": "李思特Think",
     "category": "历史",
     "tags": [
-      "历史",
-      "非虚构"
+      "美第奇家族",
+      "文艺复兴史",
+      "佛罗伦萨",
+      "欧洲历史",
+      "艺术赞助",
+      "权力史"
     ],
-    "description": "本书是佛罗伦萨美第奇家族的三个半世纪家族史（1397-1743），约20万字。核心论证：美第奇不是「赞助了文艺复兴的银行家」，而是一个用金钱系统性地购买不朽的家族——他们把高利贷的罪恶转化为祭坛画与穹顶，把账房的隐形权力转化为不加冕的统治，再把家族的血脉危机一次次转化为教皇冠冕与王后婚约；文艺复兴在相当程度上是这场家族自救工程的副产品。全书以代际为章眼（家族史范式：代际交替执章），每代人的章眼都落在家运与国运/教运的咬合点上。…",
+    "description": "本书以编年与代际为经纬，重构了佛罗伦萨美第奇家族三个半世纪的兴衰史。它挑战了“美第奇赞助了文艺复兴”的浪漫叙事，转而揭示一个更为冷酷而精密的家族自救工程：美第奇将高利贷的罪恶感转化为赎罪的艺术赞助，将银行的隐形权力锻造成不加冕的统治，再将家族的血脉危机一次次兑换为教皇冠冕与王后婚约。全书围绕“银行与祭坛”“隐形的权杖”“买来的不朽”“血脉的诅咒”四大核心概念展开，从乔凡尼创立银行到末代继承人签署家族协定，逐代剖析这个家族如何通过精确计算的赞助、债务网络与政治联姻，在赎罪与权力的钢丝上行走，最终在成为贵族的同时，也耗尽了最初使其崛起的商人血脉与金融活力。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1212,14 +1368,18 @@
     "projectId": "proj-msr9azx5al1",
     "releaseId": "rel_20260817034454017_c74d089243",
     "title": "佐尔格谍战纪实",
-    "subtitle": "",
+    "subtitle": "东京情报网与改变世界的两份电报",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "历史 / 纪实",
     "tags": [
-      "历史",
-      "非虚构"
+      "间谍史",
+      "二战情报",
+      "佐尔格",
+      "非虚构",
+      "解密档案",
+      "东京"
     ],
-    "description": "本书是理查德·佐尔格及其东京情报网的全史（1895-1964，主线 1930-1944），约20万字。核心论证：佐尔格网络是情报史上的完整悖论标本——它两次送出足以改变世界史的情报，一次被彻底无视（巴巴罗萨警告），一次改变了莫斯科会战（日本南进定论）；同一张网、同一批人、同样的手艺，结果的天壤之别证明情报的价值从来不在采集端而在接收端。本书以谍战情报纪实范式写作：紧贴解密档案推进（特高课审讯记录、佐尔格狱中手记、苏方解密电文、奥特使馆档案），信息差就是叙事引擎，行动线与破译线双时间锚交替，引语只用档案原文。…",
+    "description": "本书以解密档案为基础，完整呈现了理查德·佐尔格及其东京情报网（1930-1944）的传奇历史。核心揭示了情报史上一个深刻悖论：同一张网络，以同样的专业手法送出了两份足以改变世界史的情报——关于德国入侵苏联的“巴巴罗萨警告”被斯大林无视，而关于日本南进战略的定论则直接促成了莫斯科会战的关键兵力调动。本书紧贴特高课审讯记录、狱中手记、解密电文等原始档案，通过行动线与破获线双线交织的叙事，深入剖析了间谍的双重人生成本、情报从采集到被接收的价值链、高级渗透的社会学，以及反间谍的概率论。它不仅是一部惊心动魄的谍战纪实，更是一部关于情报、信任与决策的深刻反思。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1239,12 +1399,16 @@
     "title": "执缰·Harness史",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "科技 / 人工智能史",
     "tags": [
-      "历史",
+      "人工智能史",
+      "软件工程",
+      "平台经济学",
+      "技术标准",
+      "人机交互",
       "非虚构"
     ],
-    "description": "本书是 AI 智能体缰绳层（Agent Harness）的兴起史（前史 1966-2021，主线 2022-2026），约18万字。核心论证：大模型本身从来不是产品——真正把「会说话的模型」变成「会干活的劳动力」的，是围绕模型搭建的缰绳层：循环、工具、权限、协议。四年里这一层从提示词技巧长成软件业的新操作系统层；而它的每一次胜利都伴随同一个悖论——凡是缰绳层验证过的能力，最终都被吸收进模型本身，逼着缰绳向上再爬一层。本书以企业兴衰史范式写作：以做缰绳的公司、实验室与开源项目的沉浮为叙事主轴，商业决策置于清晰因果链中，胜局与败局同等诚实。…",
+    "description": "本书是一部关于AI智能体“缰绳层”的兴起史。它讲述了一个核心悖论：为了让大模型成为真正的“劳动力”，工程师们必须为其搭建名为“缰绳”的控制层——包括循环、工具、权限与协议。然而，缰绳层每一次成功验证的能力，最终都会被模型本身吸收，迫使缰绳向上攀升。本书以企业兴衰史为叙事主轴，追踪了从早期专家系统到2026年间，那些构建缰绳的公司、实验室与开源项目的沉浮。通过“地面真值定律”、“脚手架悖论”、“信任的计量”与“协议政治”四大概念，本书揭示了软件业如何围绕模型构建起新的操作系统层，以及这场技术革命背后的人、决策与代价。",
     "chapterCount": 23,
     "editorialScore": {
       "current": false,
@@ -1264,12 +1428,16 @@
     "title": "智力引擎：大型语言模型简史",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "科技 / 人工智能",
     "tags": [
-      "历史",
-      "非虚构"
+      "人工智能",
+      "大型语言模型",
+      "科技史",
+      "Transformer",
+      "产业变革",
+      "机器学习"
     ],
-    "description": "核心问题：大型语言模型如何从一项学术突破演变为重塑全球产业格局的核心技术？核心论点：大模型的历史是一部由论文、代码、算力竞赛和商业野心共同驱动的“智力引擎”进化史，其每一次跃迁都源于特定技术范式的确立与随之而来的产业生态重组。范围：以2017年Transformer架构的提出为起点，涵盖GPT系列、BERT、T5等关键模型，以及OpenAI、Google、Meta等主要参与者的竞争，截至2024年初。主要矛盾：开源与闭源的路线之争、模型规模扩张的收益递减与伦理风险、技术理想主义与商业现实之间的张力。写作重点：每章围绕一个标志性模型或事件展开，清晰拆解其技术原理、商业决策与产业影响，避免沦为纯技术手册或公司宣传稿。",
+    "description": "本书以2017年Transformer架构的提出为起点，系统梳理了大型语言模型从学术突破演变为全球产业核心的波澜壮阔历程。全书围绕GPT、BERT、T5等关键模型，以及OpenAI、Google、Meta等主要参与者的竞争，深入剖析了技术范式确立、算力竞赛、商业野心与产业生态重组之间的复杂互动。它不仅拆解了模型背后的技术原理与关键决策，更聚焦于开源与闭源的路线之争、规模扩张的伦理风险以及技术理想与商业现实之间的核心矛盾，为读者呈现一部由论文、代码与资本共同驱动的“智力引擎”进化史。",
     "chapterCount": 19,
     "editorialScore": {
       "current": false,
@@ -1287,15 +1455,17 @@
     "projectId": "proj-mstqvmwgqz0",
     "releaseId": "rel_20260817034453673_ce5d2ac2d4",
     "title": "世代之器：Xbox主机、游戏与商业的互动史",
-    "subtitle": "",
+    "subtitle": "Xbox主机、游戏与商业的互动史",
     "authorDisplayName": "李思特Think",
-    "category": "商业史",
+    "category": "电子游戏/商业史",
     "tags": [
-      "商业史",
-      "历史",
-      "非虚构"
+      "Xbox",
+      "游戏产业",
+      "硬件史",
+      "商业策略",
+      "主机战争"
     ],
-    "description": "核心问题：Xbox历代主机与其标志性游戏之间，如何形成技术、设计、商业与内容的复杂共生？核心论点：Xbox硬件史是性能为体验设界、内容反驱硬件设计的互动史，每代成功依赖硬软协同精密构建。范围：初代至Series X/S，以世代为章剖析芯片/散热/存储、外观/手柄/交互、定价/供应链/定位及与《光环》《战争机器》等关键游戏的相互塑造。主要矛盾：硬件前瞻投入与游戏开发成本匹配；标准化架构与定制体验的设计张力。写作重点：每章以发布为起点，解析技术突破如何服务标志游戏表现、设计哲学如何影响交互、商业策略如何塑造阵容，及市场反馈对协同有效性的评估。",
+    "description": "本书以初代Xbox至Series X/S世代为脉络，深度剖析硬件技术与标志性游戏间的复杂共生关系。作者跳出单纯参数罗列，揭示性能如何为体验设界、内容又如何反驱硬件设计。全书涵盖芯片架构、手柄交互、供应链博弈及《光环》《战争机器》等IP的相互塑造，直面“三红”危机、订阅制转型与天价收购等关键节点。这不仅是一部主机进化史，更是对技术、设计与商业策略如何在矛盾中构建生态闭环的冷静复盘，适合游戏从业者与硬核玩家阅读。",
     "chapterCount": 31,
     "editorialScore": {
       "current": false,
@@ -1313,15 +1483,17 @@
     "projectId": "proj-msucvek2e0b",
     "releaseId": "rel_20260817034453488_9bd3c96927",
     "title": "预警之后：全球城市防灾技术史",
-    "subtitle": "",
+    "subtitle": "全球城市防灾技术史",
     "authorDisplayName": "李思特Think",
-    "category": "技术史",
+    "category": "城市研究/科技史",
     "tags": [
-      "技术史",
-      "历史",
-      "非虚构"
+      "防灾技术",
+      "城市史",
+      "风险治理",
+      "韧性城市",
+      "科技与社会"
     ],
-    "description": "核心问题：技术如何改变城市面对灾害的方式？核心论点：防灾技术不仅是工具，更是风险认知与社会信任的载体。范围：19世纪末至今全球主要城市。矛盾：技术乐观主义与社会接受度、标准化与地方适应性。重点：关键技术突破及其在城市落地时的争议与调适。",
+    "description": "防灾技术不仅是抵御灾害的工具，更是风险认知与社会信任的载体。本书聚焦19世纪末至今的全球主要城市，探讨技术如何重塑人类面对灾害的方式。从卫生工程、建筑规范到气象雷达与风险证券化，作者深入剖析关键技术突破在城市落地时的争议与调适，揭示技术乐观主义与社会接受度、标准化与地方适应性之间的深层矛盾。全书跨越工程、社会学与政治经济学，展现城市防灾体系从单一技术应对走向复杂系统治理的演进历程，反思警报疲劳、韧性鸿沟及不可投保的未来等当代困境，为理解城市安全提供兼具历史纵深与现实关怀的认知框架。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
@@ -1340,12 +1512,16 @@
     "title": "电子游戏简史·卷五：无处不在",
     "subtitle": "",
     "authorDisplayName": "李思特Think",
-    "category": "历史",
+    "category": "社会科学/文化研究",
     "tags": [
-      "历史",
+      "电子游戏史",
+      "数字文化",
+      "平台经济",
+      "创意产业",
+      "科技与社会",
       "非虚构"
     ],
-    "description": "本书是《电子游戏简史》五卷本之卷五（终卷）《无处不在：服务纪元与玩的八十年》（2016-2025）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期——终卷要把这条论证收拢闭合。四个贯穿五卷的总纲概念在本卷的任务与终局：①「硬币契约」——本卷写拥有的终结：从买断到订阅（Game Pass）、从产品到服务（Fortnite 的赛季制）、从消费到投入（每日任务与战斗通行证把「玩」改写成「上班」）——八十年前投进街机的那枚硬币，如今变成了永不结账的订阅流水；②「客厅争夺战」——本卷写战场的消失即无处不在：云游戏、跨平台存档、Switch 与 Steam Deck 把客厅装进口袋又摊开在任何屏幕——当游戏无处不在，「争夺客厅」这场打了五十年的战争以战场蒸发告终；③「作者与流水…",
+    "description": "《电子游戏简史》终卷，聚焦2016至2025年。本书描绘电子游戏如何从“产品”变为“服务”，从“客厅”走向“无处不在”。从《堡垒之夜》的赛季革命、微软Game Pass引发的订阅信仰之争，到《原神》重塑全球品质标准；从千人3A团队的膨胀与崩塌，到独立开发者借助引擎成为“一人军队”；从Roblox构建的玩家经济体，到AI为创作带来的希望与恐慌。本书以严谨的编年与深刻的结构性分析，论证电子游戏八十年工业化、平台化、再民主化的完整周期，并以此收束五卷史诗。",
     "chapterCount": 25,
     "editorialScore": {
       "current": false,
