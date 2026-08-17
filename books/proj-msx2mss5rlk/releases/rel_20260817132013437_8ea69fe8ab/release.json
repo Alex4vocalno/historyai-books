@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817132013437_8ea69fe8ab",
+  "projectId": "proj-msx2mss5rlk",
+  "manuscriptVersionId": "mv_172f00579d0c0dd5",
+  "contentHash": "172f00579d0c0dd54ba5200011a04e012123b8d3581df43bffb7b803ce45ee53",
+  "title": "从网吧到体育场：电子竞技三十年",
+  "subtitle": "一场关于“谁拥有这项运动”的三十年博弈",
+  "authorDisplayName": "李思特Think",
+  "description": "电子竞技常被看作游戏的延伸，但这本书提出了一个更尖锐的视角：它本质上是一门用别人的知识产权办体育的生意。从九十年代街机厅的硬币与摇杆，到局域网派对里野蛮生长的对抗，再到韩国金融危机后网吧与电视台联手催生的职业联赛，本书追溯了选手、战队、赛事方和游戏厂商之间长达三十年的权力拉锯。暴雪试图用授权筑起高墙，拳头用特许经营重塑了联赛生态，Dota的众筹奖金池则走出另一条路——每一次产业跃升，背后都是一次所有权与分配权的重新谈判。当赛事登上鸟巢、进入亚运，当直播合同和沙特基金重新洗牌，那个根本问题依然悬在半空：一项依赖厂商IP的运动，究竟归谁所有？全书以选手短暂的黄金期对照制度漫长的寿命，在激情与规则的张力中，勾勒出电竞世界不为人知的底层逻辑。",
+  "category": "游戏史",
+  "tags": [
+    "电子竞技",
+    "体育产业",
+    "知识产权",
+    "商业史",
+    "游戏产业"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 27,
+    "units": 232909,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-17T13:17:00.890Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T13:20:13.210Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "硬币与摇杆",
+      "units": 7225
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "局域网的野火",
+      "units": 9400
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "排行榜上的幽灵资产",
+      "units": 7035
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "一是任天堂举办了“任天堂世界锦标赛”",
+      "units": 7472
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "第三方接管",
+      "units": 7875
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "这款游戏在韩国引发的连锁反应",
+      "units": 10532
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "有线电视里的兵工厂",
+      "units": 8609
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "合约的诞生",
+      "units": 7733
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "网吧里的国家",
+      "units": 9278
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "世界赛的发明",
+      "units": 7980
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "选手的箱子",
+      "units": 7219
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "暴雪的门禁",
+      "units": 9841
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "直播镜头下的新租约",
+      "units": 11687
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "特许经营的前夜",
+      "units": 7877
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "厂商的终极武器",
+      "units": 8626
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "分裂的遗产",
+      "units": 8233
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "制度竞赛的开端",
+      "units": 9930
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "一本虚拟的众筹书",
+      "units": 11887
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "直播合同的背面",
+      "units": 7047
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "世界赛的两种未来",
+      "units": 7893
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "特许经营权的代价",
+      "units": 7698
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "鸟巢的背面",
+      "units": 7881
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "入亚的资格赛",
+      "units": 7866
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "空场里的信号",
+      "units": 7601
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "直播合同到期之后",
+      "units": 8997
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "沙特基金的入场券",
+      "units": 10026
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "谁拥有这项运动",
+      "units": 9461
+    }
+  ],
+  "publishedAt": "2026-08-17T13:20:13.439Z"
+}
