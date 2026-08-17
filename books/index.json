@@ -1,5 +1,37 @@
 [
   {
+    "id": "proj-msls82n4tcr",
+    "projectId": "proj-msls82n4tcr",
+    "releaseId": "rel_20260817100159964_28817d96ef",
+    "title": "三音轨到交响厅：游戏音乐史",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏音乐史",
+      "声音设计",
+      "数字文化",
+      "媒体研究",
+      "流行音乐",
+      "科技与艺术"
+    ],
+    "description": "本书是一部关于游戏音乐发展的历史与文化研究。它从红白机时代仅有三条音轨的物理限制出发，追溯了游戏音乐如何从简单的电子脉冲，成长为能够承载复杂情感、塑造虚拟世界、并最终登上格莱美奖台与世界级交响音乐厅舞台的成熟艺术形式。书中探讨了技术革新（如卡带、光盘、流媒体）如何不断重塑作曲家的创作边界与玩家的聆听体验，并剖析了游戏音乐在独立游戏浪潮、文化认同建构以及当代数字聆听习惯中所扮演的关键角色。这是一段关于约束中诞生创造力，并在大众文化中获得庄严承认的动人旅程。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 92,
+      "staleScore": 92,
+      "reportId": "98176f83e5db",
+      "createdAt": "2026-08-10T14:01:57.991Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "books/proj-msls82n4tcr/releases/rel_20260817100159964_28817d96ef/cover.jpg",
+    "url": "books/proj-msls82n4tcr/index.html",
+    "publishedAt": "2026-08-17T10:01:59.967Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msls7w87u6c",
     "projectId": "proj-msls7w87u6c",
     "releaseId": "rel_20260817100140256_d9bb43b69c",
@@ -207,35 +239,6 @@
     "coverUrl": "",
     "url": "books/proj-msls8a7hruq/index.html",
     "publishedAt": "2026-08-17T09:49:58.537Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msls82n4tcr",
-    "projectId": "proj-msls82n4tcr",
-    "releaseId": "rel_20260817095038409_fd6f11180e",
-    "title": "三音轨到交响厅：游戏音乐史",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "游戏史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "从红白机三音轨的物理限制到格莱美与世界巡回交响音乐会：游戏音乐如何在最苛刻的约束里长成一门被承认的艺术",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "rules",
-      "score": 92,
-      "staleScore": 92,
-      "reportId": "98176f83e5db",
-      "createdAt": "2026-08-10T14:01:57.991Z",
-      "manuscriptVersionId": ""
-    },
-    "coverUrl": "",
-    "url": "books/proj-msls82n4tcr/index.html",
-    "publishedAt": "2026-08-17T09:50:38.409Z",
     "visibility": "public"
   },
   {
