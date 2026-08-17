@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817132103218_61fd0560d1",
+  "projectId": "proj-msx2osspz84",
+  "manuscriptVersionId": "mv_3f3bfb2cd8a7ab6e",
+  "contentHash": "3f3bfb2cd8a7ab6e04a75e3f0c16fbde068d48faff681eefd0f9fd3a10160e0e",
+  "title": "时间的建筑师：克里斯托弗·诺兰",
+  "subtitle": "一个好莱坞例外者的建造史",
+  "authorDisplayName": "李思特Think",
+  "description": "在续集与超级英雄吞噬好莱坞预算的年代，克里斯托弗·诺兰是一个不该存在的例外。他靠原创剧本连续拿到两亿美元级的制作费，把“看不懂但要去影院看第二遍”变成了一门稳定生意。本书追踪这个例外是如何被一步步建造出来的：从伦敦大学学院的电影社与六千美元的《追随》，到《记忆碎片》用倒叙结构把叙事缺陷变成卖点；从蝙蝠侠三部曲以现实主义为漫改片重新立法，到《盗梦空间》《星际穿越》《信条》将物理学执念与胶片偏执推向工业极限；再到《敦刻尔克》与《奥本海默》证明历史题材同样可以用时间结构讲述。全书的线索是控制——对胶片、对实拍、对上映窗口、对剧本保密的偏执控制，既塑造了他作品的形状，也塑造了他与制片厂关系的形状，直到华纳的流媒体决定让这段二十年的联盟破裂。",
+  "category": "人物传记",
+  "tags": [
+    "克里斯托弗·诺兰",
+    "电影导演",
+    "好莱坞",
+    "叙事结构",
+    "胶片",
+    "原创电影"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 217509,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-17T13:12:47.638Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T13:21:02.982Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "伦敦—芝加哥航班上的孩子",
+      "units": 9729
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "萨里郡的放映室",
+      "units": 9986
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "海利伯里学院的俱乐部",
+      "units": 8372
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "伦敦大学学院的暗房",
+      "units": 7613
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "徘徊在镜头中的追随者",
+      "units": 8600
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "记忆的倒叙与胶片的温度",
+      "units": 8369
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "这是诺兰第一次交出导演椅的主动权",
+      "units": 8387
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "这是一个双向选择的故事",
+      "units": 8838
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "《侠影之谜》的诞生过程",
+      "units": 8296
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "致命魔术与黑暗骑士的黎明前夜",
+      "units": 7648
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "黑暗骑士：小丑、混乱与叙事的极限",
+      "units": 10362
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "盗梦空间：梦境的结构与原创的赌注",
+      "units": 7725
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "黑暗骑士崛起：闭环的代价",
+      "units": 8786
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "星际穿越：物理学的边界与父亲的维度",
+      "units": 10246
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "敦刻尔克：时间的三种速度",
+      "units": 7451
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "流媒体的阴影：二十年联盟的裂痕",
+      "units": 7969
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "信条：极限实验与孤注一掷",
+      "units": 7951
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "出走：一个作者在流媒体时代的抉择",
+      "units": 12537
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "巨构的裂隙",
+      "units": 8048
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "从黑洞到书架",
+      "units": 8407
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "历史的三重时间",
+      "units": 7822
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "窗口的消亡",
+      "units": 8363
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "逆行的代价",
+      "units": 7421
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "建造者的原型",
+      "units": 10340
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "未完成的建造",
+      "units": 8243
+    }
+  ],
+  "publishedAt": "2026-08-17T13:21:03.220Z"
+}
