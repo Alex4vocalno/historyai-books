@@ -1,0 +1,153 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>引力场里的纸牌屋 · 蒸汽之国（重写版）</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>蒸汽之国（重写版）</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 16 章 · 引力场里的纸牌屋</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 16 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>微软来的百万富翁</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>雷神之锤上的房子</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>迟到的完美</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>反恐精英的意外血统</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>补丁工具里的特洛伊木马</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>强制激活之夜</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>章节式发行的实验室</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>橘盒里的意外之王</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>平台引力场的形成</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>免费浪潮与帽子经济</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>众筹奖金的发明</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>绿光的民主伪装</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>客厅里的溃败</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>付费的背叛</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>三之诅咒</span></a><a class="chapter-link active" href="ch-16.html"><span>16</span><span>引力场里的纸牌屋</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>扁平之下的暗流</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>虚拟现实里的自我证明</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>掌机上的第二次赌注</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>反垄断的引力场</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>两个Valve的战争</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>30%的松动与新时代</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>社区炼金术的极限</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>阀门里的引力</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>两个阀门</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 16 章</p><h1>引力场里的纸牌屋</h1><div class="reader-content"><p>《Artifact》的设计文档第七稿保存在Valve内部Wiki的一个角落里。文档最后编辑时间是2018年3月14日，编辑者是理查德·加菲尔德。在“经济模型”那一节下面，有一行被划掉的备注：“玩家会觉得我们在抢钱。”划掉它的不是加菲尔德，是一个ID显示为“工程部-货币化小组”的编辑者。替换上去的文字是：“经济模型旨在创造可持续的卡牌价值循环。”</p>
+<p>这行修改发生在游戏发售前八个月。那时候，《Artifact》已经开发了三年半。Valve上一次发布全新IP的游戏产品是2013年。DOTA 2正式上线那年。</p>
+<p>五年。在这五年里，公司员工从不到三百人增长到四百人以上，年收入从约二十亿美元翻到超过四十亿。Steam的月活跃用户突破了九千万。DOTA 2的国际邀请赛奖金池每年都在刷新世界纪录。CS:GO的皮肤交易市场在2017年产生了超过十亿美元的总交易额——Valve从每一笔交易中抽取15%。TF2的帽子经济已经运行了七年，创意工坊里每天都有新的道具被提交、投票、上架。</p>
+<p>这五年里，Valve没有发布过一款新游戏。不是没有尝试。内部立项过的项目至少有六个。一个代号“F-Stop”的解谜游戏在2014年被取消。一个基于《半条命》世界的RTS在2015年搁浅。一个VR格斗游戏的原型在2016年做了三个月后被放弃。纽维尔在2017年初的全体员工会议上提到过“三四个正在探索的方向”，但到了年底，没有一个方向变成了可发布的产品。</p>
+<p>上一章已经论证过这种沉默的结构性成因：当不做一件事的财务代价远低于做它的财务风险时，自由就变成了惰性。但纽维尔不想让Valve变成一家只收租的公司。他在2014年秋天邀请理查德·加菲尔德来西雅图时，说的第一句话是：“我们想做一款真正的卡牌游戏。”</p>
+<p>加菲尔德当时六十一岁。他的一生已经和卡牌游戏绑定了三十年。1993年，他设计的《万智牌》创造了集换式卡牌游戏这个品类。之后的二十年里，他做过《吸血鬼：永恒之争》《王权争夺》《兔子王国》，有些成功，有些失败。</p>
+<p>他见过足够多的游戏公司——从威世智到EA到独立工作室——但他没见过Valve这样的公司。没有截止日期。没有发行商压力。没有预算上限。四百个员工在轮子桌之间自由流动，选择自己想做的项目。加菲尔德后来在一次采访中说，他当时觉得这像是“游戏设计师的天堂”。</p>
+<p>两人在一场游戏设计会议上认识，聊了四个小时。话题从卡牌游戏的数学基础——概率分布、资源曲线、信息不对称——一直延伸到数字卡牌的可能性。加菲尔德认为暴雪的《炉石传说》太轻了。“它把卡牌游戏简化到了只剩核心乐趣，”他说，“但核心乐趣之外的那些东西——复杂度、策略深度、市场生态——被丢掉了。”纽维尔喜欢这个判断。他喜欢任何声称要做“真正的”什么东西的判断。</p>
+<p>2015年初，“Project A”在Valve内部正式立项。初始团队只有六个人：加菲尔德、两名系统设计师、一名UI设计师、一名工程师和一名制作人。按照Valve的扁平制度，任何人都可以把轮子桌滚到这个项目上。但在接下来的一年里，“Project A”几乎没有吸引到任何内部人才。</p>
+<p>原因很简单：它太小了。在Steam每年产生数十亿美元收入的引力场里，加入一个六人卡牌游戏团队意味着放弃参与DOTA 2的持续运营——那里有千万级别的玩家基数、每年数亿美元的内购收入、以及全公司最高的项目能见度。意味着放弃参与VR项目的探索——纽维尔本人对VR的热情让那个方向看起来更有未来。意味着放弃参与任何看起来“更大”的东西。</p>
+<p>扁平制度下的自选项目机制有一个隐含假设：当所有人都自由选择时，优秀项目会自然吸引人才。这个假设在公司规模小、项目数量少的时候是成立的。1999年，Valve只有几十个人，所有人都在做《半条命》的资料片或资料片的前身。</p>
+<p>2004年，《半条命2》发售后，公司同时推进的项目也不超过三个。但到了2015年，Steam的引力场已经大到足以扭曲任何自由选择的方向。人才流动的规律不再是“最好的项目吸引最多的人”，而是“最大的项目吸引最多的人”。</p>
+<p>大和好不是同义词。DOTA 2很大。它是不是Valve最好的项目——至少在创作意义上——是另一个问题。但它在组织内部的引力是最强的。</p>
+<p>加菲尔德不在乎这个。他不需要很多人才。他只需要足够的人来实现他的设计。</p>
+<p>他想做的是一款三线对战的卡牌游戏：三条兵线，五名英雄，每回合同时在三条线上行动。资源系统不是逐步增长的法力水晶——那是《炉石传说》的核心机制——而是每回合固定的三点法力。卡牌可以装备给英雄，英雄阵亡后下一回合复活。胜利条件是摧毁对方两条兵线上的防御塔，或者摧毁一条兵线上的防御塔和主基地。这个规则集的复杂度远超当时市场上任何一款数字卡牌游戏。《炉石传说》的单局时间平均是七分钟。</p>
+<p>《Artifact》的单局时间在内部测试中平均是四十五分钟。加菲尔德的逻辑是清晰的：深度带来策略空间，策略空间带来竞技性，竞技性带来长期留存。他在《万智牌》上验证过这个公式。《万智牌》比1993年市面上任何卡牌游戏都复杂，但它活过了三十年。</p>
+<p>但这个逻辑有一个隐含前提：玩家愿意为深度付费。2018年的数字卡牌市场已经和1993年完全不同了。《炉石传说》在2014年上线后，四年内积累了超过一亿玩家。它的核心收入来源是卡包——但玩家可以通过每日任务和竞技场奖励免费获取卡包。2015年上线的《巫师之昆特牌》走了同样的路线：免费下载，付费开包，免费玩家有稳定的资源获取路径。2016年的《影之诗》也是。</p>
+<p>到了2018年，数字卡牌游戏的默认经济模型已经固定下来：免费入口，付费加速，但零付费玩家永远有一条可玩的路径。这个模型不是玩家投票选出来的。它是市场演化出来的均衡。</p>
+<p>当足够多的竞品都提供免费入口时，任何试图收费的产品都必须提供足够强大的差异化价值——否则就会被替代。这是平台经济学的基本原理：在一个低边际成本的数字产品市场里，免费不是一种促销策略，而是一种竞争均衡。</p>
+<p>Valve知道这一点。加菲尔德也知道。但他们同时相信另一个事实：Steam社区市场可以创造一种全新的卡牌经济。在《Artifact》的设计文档里，经济系统被描述为“开放交易卡牌游戏”。</p>
+<p>这个模型有三个层次：第一层，玩家花二十美元购买游戏本体——这给了游戏一个准入门槛；第二层，玩家花两美元购买一包十二张随机卡牌——这和实体卡牌游戏的定价一致；第三层，玩家在Steam社区市场上自由买卖单张卡牌，Valve从每笔交易中抽取15%的手续费。加菲尔德的论证是：这个模型让卡牌有了真实的市场价值。在《炉石传说》里，你开到的卡牌不能交易——它们被绑定在你的账号上，只能分解成合成材料。</p>
+<p>在《Artifact》里，你可以把不用的卡卖掉换钱，稀有卡牌的价格由供需决定而非由官方定价。加菲尔德称之为“卡牌游戏的资本主义”——玩家不是消费者，是市场参与者。这个论证在Valve内部引起了共鸣。不是因为它对玩家更好——关于这一点的讨论很少——而是因为它和Steam已有的基础设施完美契合。</p>
+<p>社区市场已经存在了七年。交易手续费是Valve最稳定的收入来源之一。CS:GO皮肤交易市场的年交易额在2017年突破了十亿美元，Valve从中抽取了一亿五千万美元——这还只是一款游戏的一个系统。如果把同样的模型应用到卡牌游戏上，让每一张卡牌都成为可交易的资产，市场深度会更大。</p>
+<p>收租思维不是一种可选的商业模式。它是一种认知框架。当你在一个所有行为都能产生抽成的环境里工作了十年，你会开始相信任何不产生抽成的行为都是浪费。</p>
+<p>《Artifact》经济模型的每一层设计，在Valve内部都被论证为“创造市场深度”——游戏本体收费是为了过滤非核心玩家，保证进入市场的是认真对待游戏的参与者；卡包收费是为了维持卡牌稀缺性，让市场有定价的基础；门票收费是为了让竞技模式有赌注，让胜利有经济意义。每一条论证单独看都有道理。合在一起，它们构成了一堵墙。</p>
+<p>2018年11月28日，《Artifact》正式发售。纽维尔亲自站台宣传——这在Valve历史上是罕见的。他上一次亲自为一款游戏站台是《半条命2》。加菲尔德接受了多家游戏媒体的采访，解释三线对战机制的深度、经济模型的创新、以及为什么“开放交易”是卡牌游戏的未来。Valve的公关团队安排了密集的媒体预览，提前向Twitch主播发放了测试资格。</p>
+<p>发售首周，《Artifact》的同时在线人数突破了六万。这个数字不算差——但它远低于Valve内部的预期。DOTA 2的月活跃用户当时超过一千万。</p>
+<p>《Artifact》是基于DOTA 2世界观的游戏，英雄和技能都直接取自DOTA 2的角色池。Valve的市场分析团队在项目早期做过一个估算：哪怕只有5%的DOTA 2玩家尝试《Artifact》，同时在线也应该在五十万以上。实际转化率不到0.6%。DOTA 2的玩家群体——那些Valve认为理所当然会接住《Artifact》的人——用脚投票了。</p>
+<p>然后崩塌开始加速。第一周结束，同时在线跌到了三万。第二周，一万五。一个月内，玩家流失超过80%。Steam商店的好评率从发售日的62%——本身已经是一个危险的数字——跌到了33%。</p>
+<p>差评的内容从经济模型扩展到了游戏设计本身：三条兵线的机制太复杂、单局时间太长、随机性太大（卡牌攻击方向由系统随机决定）、没有天梯排名系统、没有社交功能、没有观战模式。这些问题如果单独出现，都可以通过更新修复。但它们同时出现在一个三重收费的游戏里，每一个问题都变成了退款的理由。</p>
+<p>Steam商店页面上的第一条差评出现在发售四十分钟后。发布者ID显示游戏时长三十六分钟——刚好够打完教程和一把对战。“别买，”标题只有两个字。正文更短：“三重收费。”这条评价在十小时内获得了两千三百个“有帮助”的投票。</p>
+<p>到2018年12月底，《Artifact》的同时在线人数跌到了三千人以下。社区市场的卡牌交易量开始萎缩。一张发售初期售价超过二十美元的稀有英雄卡“斧王”，在六周内跌到了不到五美元。市场深度——那个被加菲尔德称为“卡牌游戏的资本主义”的核心机制——在玩家流失面前变成了一纸空文。没有玩家，就没有市场。没有市场，卡牌就没有价值。卡牌没有价值，就更没有新玩家愿意付费。这是一个死亡螺旋。</p>
+<p>Valve的回应是沉默。这不是战术选择。这是制度惯性。在扁平结构里，没有人有明确的权限来宣布一款产品失败了。纽维尔没有——他从来不是CEO，至少名义上不是。</p>
+<p>加菲尔德没有——他是主设计师，但他不管理Valve的员工，他不能命令任何人留下来修复问题。那些加入“Project A”的工程师和设计师，在12月初开始悄悄地把自己的Steam状态从“正在玩Artifact”改成了别的。按照Valve的惯例，这意味着他们已经把轮子桌滚到了别的项目上。没有人需要提交转岗申请。没有人需要向主管解释为什么离开。</p>
+<p>扁平制度的核心原则是自由选择——你可以随时加入任何项目，也可以随时离开。这个原则在项目顺利时是创造力的源泉。在项目失败时，它变成了逃生通道。</p>
+<p>到2019年3月，《Artifact》的同时在线人数跌到了五百人以下。社区市场的卡牌交易量几乎归零。“斧王”的价格跌破了一美元。Steam商店的好评率停留在31%——这个数字后来被证明是永久性的。2019年4月，Valve发布了一篇博客文章，标题是《Artifact的未来》。正文只有四百字。</p>
+<p>核心信息有两句：Valve承认《Artifact》的经济模型和游戏设计存在深层问题；公司正在重新审视项目的方向，但这个过程需要时间。</p>
+<p>这篇博客被玩家社区解读为投降书。但真正它的发布时机：周四下午四点。这是周五新闻周期的最低点——公关团队的标准操作是选择这个时段发布负面消息，以最小化媒体覆盖。</p>
+<p>加菲尔德在2019年夏天离开了Valve。没有公开声明，没有告别邮件。他只是不再出现在公司的通讯录里。后来他在一次播客采访中提到，《Artifact》的设计决策是“集体共识”的产物——他没有具体说明哪些决策是集体共识的结果，但熟悉Valve决策流程的人可以还原出大致轮廓。</p>
+<p>在三重收费的问题上，设计团队的意见并不统一。有人主张免费下载加内购卡包的模式——也就是市场标准。有人主张买断制——一次性付费，卡牌全部免费获取。最终的方案是两者的叠加：买断加内购加门票。这不是任何一个人提出的完整方案。它是多个方案在扁平制度的“共识”过程中不断叠加的结果。</p>
+<p>每一次有人提出收费可能太高了，就有人回应市场可以解决这个问题——玩家可以把不用的卡卖掉回本。每一次有人提出市场手续费会不会影响流动性，就有人回应15%已经是行业最低了——eBay收10%，亚马逊收12%，Valve收15%不算多。每一个单独决策都有其合理性。</p>
+<p>串联起来，它们产出了一个没有人会主动设计的怪物。这是扁平制度在商业决策上的结构性缺陷。</p>
+<p>在没有明确决策者的系统里，责任被分摊到每一个参与讨论的人身上。分摊意味着没有人需要为最终结果负全部责任——不是因为人们逃避责任，而是因为制度本身没有为责任分配位置。同时，每一个人的建议都在增加方案的复杂度——因为增加复杂度是展示参与感的廉价方式。最终，产品变成了所有参与者偏好的叠加，而不是任何一个人真正想要的形状。</p>
+<p>《Artifact》的失败在Valve内部引发了一场没有公开声张的震荡。不是因为公司损失了多少钱。</p>
+<p>开发成本估计在两千万到三千万美元之间——在Steam年收入超过四十亿美元的背景下不值一提。DOTA 2国际邀请赛的一届奖金池就超过了这个数字的三倍。</p>
+<p>而是因为它证明了一个更残酷的命题：Valve已经失去了做游戏的能力。不是失去了技术能力。</p>
+<p>Source 2引擎在《Artifact》上的表现是稳定的——画面流畅，网络代码可靠，跨平台兼容性良好。不是失去了设计能力。三线对战机制虽然在市场上被批评为过于复杂，但在设计层面是有野心的——它试图解决数字卡牌游戏长期以来的一个问题：如何在不牺牲深度的前提下增加策略维度。</p>
+<p>Valve失去的是判断“什么是一个完整的游戏”的能力。当收租思维进入创作流程，它产出的不是游戏，而是一个伪装成游戏的收费结构。《Artifact》的每一层设计都在提醒玩家：你正在被收割。</p>
+<p>花二十美元进门。花两美元抽一包卡。花一美元打一把竞技模式。每笔交易还要被抽走15%。这不是游戏体验。这是收费体验。这个判断需要证据支撑。</p>
+<p>证据来自《Artifact》的Steam商店页面——那个在2019年夏天被差评淹没的页面。在三千多条差评中，出现频率最高的关键词不是“贵”，不是“复杂”，不是“随机”——而是“贪婪”。</p>
+<p>玩家不是用经济学术语在批评定价策略。他们是在用道德语言。他们感受到的不是一个定价过高的产品——定价过高是可以修正的，降价就是了。他们感受到的是一个试图从每一个接触点榨取利润的系统。</p>
+<p>这种感觉是准确的。因为《Artifact》的设计确实是从每一个接触点榨取利润——入门、获取、竞技、交易，每一个环节都被货币化了。</p>
+<p>Valve用了十五年时间建造了一个完美的收租机器。Steam的30%平台分成、社区市场的15%交易手续费、DOTA 2的众筹奖金池、TF2的帽子经济、CS:GO的皮肤交易——每一个系统都在训练Valve的设计师看到一个事实：交易比创造更赚钱。2017年，Steam的平台分成收入估计为四十三亿美元。</p>
+<p>Valve自己的游戏收入——包括DOTA 2和CS:GO的内购——估计为八亿美元。比例是五比一。在这个数字面前，任何关于“Valve仍然是一家游戏公司”的说法都变成了修辞。</p>
+<p>《Artifact》是这家收租公司试图重新学习做游戏的产品。它失败了。不是因为卡牌游戏市场已经饱和——2019年上线的《符文之地传奇》和2020年上线的《炉石传说》新模式都证明了市场仍然有空间。《符文之地传奇》采用了免费下载加外观内购的模式，上线首月就获得了超过一千万注册用户。</p>
+<p>《Artifact》失败是因为Valve的设计师已经无法从玩家的视角思考问题。他们只能从市场的视角思考。玩家不是用户，是交易者。游戏不是体验，是资产。乐趣不是目的，是交易行为的副产品。当这种思维方式渗透到设计流程的每一个环节时，产出的产品就会在每一个接触点上提醒玩家：你正在被收割。2019年7月，Valve在Steam.tv上直播了一场《Artifact》的社区锦标赛。参赛者只有十六人。</p>
+<p>观众峰值不到两千。同一周，DOTA 2的国际邀请赛奖金池突破了三千四百万美元。</p>
+<p>两个数字之间的差距不是商业差距。它是引力场差距。DOTA 2是Valve平台引力场中最重的天体。它吸走了所有注意力、所有资源、所有人才。《Artifact》试图在这个引力场中建立一个新天体——基于DOTA 2的世界观，面向DOTA 2的玩家群体，使用Steam社区市场作为经济基础设施——但它的质量太小了。它被潮汐力撕碎了。</p>
+<p>纽维尔在2019年底的一次内部会议上提到了《Artifact》。他没有用“失败”这个词。他说的是“我们学到了很多”。会议室里没有人回应。</p>
+<p>不是因为不同意。而是因为Valve的文化里没有“复盘失败”的机制。扁平制度意味着没有人被授权要求团队坐下来分析哪里出了问题。每个参与过《Artifact》的人都可以选择把它从个人履历里抹掉，把轮子桌滚到下一个项目上，假装这件事没有发生过。但它发生了。Steam商店页面上那三千条差评是永久的。</p>
+<p>“别买”那两个字和它下面的四千七百个“有帮助”投票是永久的。“斧王”从二十美元跌到不到一美元的曲线是永久的——社区市场的价格历史记录不会删除。加菲尔德离开时的沉默是永久的。</p>
+<p>而Valve作为一家“创作公司”的身份，在这个失败之后变得更加岌岌可危。不是因为失去了创作能力。《半条命》和《传送门》证明了Valve曾经拥有过那种能力——那种从零开始建造一个世界、定义一种体验、让玩家忘记时间流动的能力。那种能力可能还在公司的某个角落里，埋在DOTA 2的更新日志和Steam的季度收入报告下面。</p>
+<p>而是因为创作行为本身在收租逻辑面前已经失去了经济上的必要性——这是上一章论证过的命题——而现在连创作的质量也失去了保障。一家公司不可能在十五年内把绝大部分利润来源转向平台分成和交易手续费，同时保持创作判断力的敏锐。这两种能力使用的是完全不同的认知肌肉。收租需要的是稳定性、可预测性、对现有系统的精细优化。Steam的服务器不能宕机。</p>
+<p>社区市场的交易系统不能出错。DOTA 2的更新不能激怒核心玩家群体。这些是运营问题，不是创作问题。它们需要的是工程师思维——找到最优解，执行，监控，迭代。</p>
+<p>创作需要的是冒险、容错、对未验证假设的快速迭代。《半条命》在1998年发售前推倒重来过一次。《传送门》最初只是一个学生项目的概念演示。《DOTA 2》的第一届国际邀请赛是纽维尔拍脑袋决定的赌注——一百万美元奖金池，在那个时代是疯狂的。</p>
+<p>当一家公司同时拥有这两种能力时——就像Valve在2004年到2011年间所做的那样——它可以定义整个行业。《半条命2》定义了第一人称叙事的标准,Steam定义了数字发行的标准,DOTA 2定义了电子竞技的标准，帽子经济和创意工坊定义了用户生成内容货币化的标准。</p>
+<p>当收租能力完全压倒创作能力时——就像2015年之后的Valve——它产出的不是游戏，而是一个伪装成游戏的收费结构。《Artifact》就是这个命题的第一个公开证据。</p>
+<p>它证明了一家公司可以在财务上极其成功，同时在创作上彻底迷失方向。</p>
+<p>它证明了收租思维一旦进入设计流程，就会像入侵物种一样繁殖，直到挤走所有其他考虑——玩家的体验、游戏的节奏、学习的曲线、失败的宽容度，所有这些在《半条命》时代被反复打磨的东西，在收租逻辑面前都变成了次要变量。它证明了扁平制度在面对失败时缺乏问责机制——不是因为人们逃避责任，而是因为制度本身没有为责任分配位置。当一款产品失败时，没有人被要求解释为什么失败，没有人被要求提出修复方案，没有人被要求承担后果。每个人都可以离开，然后假装这件事没有发生过。</p>
+<p>而最致命的是，它证明了Valve已经无法从玩家的视角判断一个游戏是否值得存在。在《半条命》时代,Valve的设计师会坐在测试室里观察玩家卡关的位置，然后回去修改关卡设计。纽维尔本人会在测试室里待几个小时，看玩家在哪里停下来，在哪里反复死亡，在哪里露出困惑的表情。</p>
+<p>在《Artifact》时代,Valve的设计师坐在仪表盘前观察市场交易数据，然后回去修改手续费率。这是两种完全不同的公司。它们共享同一个名字，但不是同一个实体。</p>
+<p>2019年秋天,Valve悄悄组建了一个小团队来重新评估《Artifact》。团队规模不到十人，大部分是新人——那些在2018年离开的老团队成员没有一个回来。他们的任务不是修复经济模型，而是从头重新设计整个游戏。这个项目后来被命名为《Artifact 2.0》。</p>
+<p>在Valve历史上，这是罕见的公开承认失败的标志。《半条命2》的资料片被取消过，但那些消息从来没有被公开确认。《F-Stop》被取消过，但外界甚至不知道它是什么。《半条命3》被搁置了十年，但Valve从未正式承认它存在过，所以也无需承认它失败。</p>
+<p>《Artifact》不同。它已经公开发售了。它的失败是公开记录的一部分——Steam商店页面上的差评是公开的，社区市场的价格崩盘是公开的，同时在线人数的暴跌是公开的。</p>
+<p>Valve无法假装这件事没有发生过。所以它做了唯一能做的事：承认失败，然后承诺重做。</p>
+<p>但承诺重做本身就是一种逃避。《Artifact 2.0》给了所有人一个继续前进的理由——我们不是在放弃，我们是在迭代，我们在学习，我们会在下一个版本里做得更好。这些说辞在Valve内部被重复了太多次，以至于它们已经失去了意义。</p>
+<p>《Artifact》的Steam商店页面至今仍然在线。好评率定格在31%。首页的第一条评价还是那两个字:“别买。”下面有四千七百个“有帮助”的投票。</p>
+<p>这不是Valve历史上最惨重的失败。在财务上它甚至排不进前十——《Steam Machine》硬件的损失比这大得多,《半条命2》资料片取消的机会成本比这高得多,DOTA 2国际邀请赛一届的运营成本就超过了《Artifact》的全部开发预算。但它是最诚实的失败。它记录的不是一家公司如何搞砸了一款游戏，而是一家公司如何在成为收租机器的过程中，忘记了自己曾经是一家游戏公司。</p>
+<p>那个被划掉的设计文档备注——“玩家会觉得我们在抢钱”——是一个警告。它来自设计流程的某个时刻，可能是加菲尔德自己写的，也可能是某个设计师在看到三重收费模型时敲下的担忧。它被划掉了，被替换成了一行更专业、更中性、更符合收租公司声口的文字:“经济模型旨在创造可持续的卡牌价值循环。”</p>
+<p>可持续的价值循环没有出现。出现的是一个死亡螺旋：玩家流失导致市场萎缩，市场萎缩导致卡牌贬值，卡牌贬值导致更多玩家流失。而Valve,作为这个死亡螺旋的设计者和受益者——即使市场萎缩，每笔交易仍然产生15%的手续费收入——选择了沉默，然后离开，然后承诺重做，然后继续沉默。这是引力场里的纸牌屋：用收租逻辑搭建起来的创作，在第一次面对真实玩家的检验时，就塌了。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-15.html">上一章</a><a href="index.html">返回详情</a><a href="ch-17.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msr5a6g2oto","chapter":15,"chapterTitle":"引力场里的纸牌屋","href":"ch-16.html","prevHref":"ch-15.html","nextHref":"ch-17.html","locationLabel":"第 16 章 · 引力场里的纸牌屋"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>

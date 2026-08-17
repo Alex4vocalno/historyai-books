@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034457469_be5094a8a8",
+  "projectId": "proj-ms8bbiy71xl",
+  "manuscriptVersionId": "mv_9c2368be42a031af",
+  "contentHash": "9c2368be42a031af02d7d484a76092561bb6cfff48b884db961dbc9e73f58022",
+  "title": "南明十八年：一六四四之后",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "以1644年北京陷落到1662年永历帝之死的十八年为主轴的全景叙事史：弘光朝的一年崩塌、隆武与鲁监国的并立内耗、永历朝的漫长流亡；郑成功的海上抗清与收复台湾、李定国两蹶名王的回光、张煌言的孤悬浙海。以顾诚《南明史》、《明季南略》《小腆纪年》等为据，写清一个王朝的残余为何有三次翻盘的机会、又为何一次都没有抓住。",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 207262,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:42:13.944Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "甲申国难与南都草创",
+      "units": 8058
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "淮扬瓦解与南都倾覆",
+      "units": 9732
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "隆武建号与闽浙双悬",
+      "units": 8518
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "仙霞弃守与隆武殉国",
+      "units": 8107
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "肇庆建号与永历流亡",
+      "units": 8816
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "剃发激变与降将反正",
+      "units": 7952
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "洪都围城下的赣粤崩盘",
+      "units": 7155
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "从大同孤城到湘潭授首",
+      "units": 8891
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "广州血战与两广沦陷",
+      "units": 8048
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "舟山覆灭与浙海孤悬",
+      "units": 8434
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "孙李合流与西南回光",
+      "units": 8324
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "漳州围城与闽南拉锯",
+      "units": 7347
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "宝庆退师与将帅相疑",
+      "units": 10205
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "新会泣血与东西失期",
+      "units": 8195
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "安龙困局与六官建制",
+      "units": 7957
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "交水决裂与西南倾覆",
+      "units": 8075
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "滇黔门户与海疆北望",
+      "units": 9017
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "磨盘血战与大局底定",
+      "units": 8098
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "三路入滇与昆明弃守",
+      "units": 8371
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "法统放逐与滇缅边境残局",
+      "units": 7617
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "水师溯江与南京城下之败",
+      "units": 7802
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "金厦海战与沿海战略收缩",
+      "units": 7851
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "跨海东征与台湾异域重建",
+      "units": 9180
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "缅甸咒水之难与末路悲歌",
+      "units": 7643
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "南明遗响与鼎革定局",
+      "units": 7869
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:57.471Z"
+}

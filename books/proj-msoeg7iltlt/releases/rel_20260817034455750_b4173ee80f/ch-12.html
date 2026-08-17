@@ -1,0 +1,142 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>硬币契约的裂痕 · 电子游戏简史·卷一：起源</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>电子游戏简史·卷一：起源</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 12 章 · 硬币契约的裂痕</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 12 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>示波器上的火花</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>黑客与太空战争</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>客厅里的褐色盒子</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>硬币塞坏的那个夜晚</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>克隆战争与机厅诞生</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>从酒吧到客厅的跳跃</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>雅达利内部的战争</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>日本列岛的投币热潮</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>吃豆人与游戏面孔的诞生</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>雅达利帝国的巅峰时刻</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>设计师的反叛与第一个彩蛋</span></a><a class="chapter-link active" href="ch-12.html"><span>12</span><span>硬币契约的裂痕</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>第三方的野火</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>投币柜台的黄金血脉</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>红白机的前夜</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>雅达利的自杀契约</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>阿拉莫戈多的掩埋与一个行业的蒸发</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>废墟上的审判</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>街机王朝的更迭</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>山内溥的人才赌注</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>崩溃的遗产与工具箱</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>雅达利的反事实与日本暗流</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>硬币的最后回声</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>像素未死</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>硬币之后</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 12 章</p><h1>硬币契约的裂痕</h1><div class="reader-content"><p>华纳通讯公司1982年第四季度财务报告的第17页，夹在“消费电子分部”和“影视娱乐分部”的业绩综述之间，有一行不起眼的脚注。脚注的编号是37，正文对应的位置是雅达利部门的营收预测修正。脚注的措辞干涩而克制，完全是会计师的语言：“基于渠道反馈，家用游戏卡带在圣诞季的实际销量较管理层此前预测低约20%，相关库存调整将在下季度财务报表中体现。”</p>
+<p>20%。这个数字在当时没有引起华尔街分析师的足够重视。华纳的股价在报告发布当天只下跌了不到四个百分点，大多数投资者仍然相信雅达利的问题是暂时的——圣诞季销售不如预期，这种事情在消费品行业并不罕见。</p>
+<p>但脚注里的“20%”是一个被严重低估的数字。它不是一个简单的销售偏差，而是一个信用体系开始瓦解的第一个可量化的信号。在它背后，是零售商后仓里堆积如山的未售出卡带，是分销商账面上不断扩大的应收账款，是消费者在货架前伸出的手正在越来越频繁地缩回去。</p>
+<p>1982年圣诞季前夕，雅达利的管理层向董事会提交了一份销售预测报告。这份报告的完整版本没有公开，但后来在诉讼和行业调查中披露的部分显示，雅达利预测1982年第四季度家用游戏卡带的销售额将比1981年同期增长50%以上。这个预测的依据，是1980年和1981年连续两个圣诞季的销售数据——那两年，雅达利2600的卡带在圣诞节前两周就卖断了货，零售商哭着喊着要更多的库存。</p>
+<p>1981年12月，一些连锁商店甚至派卡车直接停在雅达利的仓库门口，等着生产线下来的卡带还没进库房就被拉走。这个记忆刻在雅达利管理层的决策基因里，让他们在制定1982年生产计划时无法想象另一种可能性：今年，卡车不会来了。</p>
+<p>但卡车确实没有来。1982年11月底，圣诞购物季正式开始，零售商发现货架上的卡带移动速度明显慢于往年。</p>
+<p>不是没有人买——雅达利2600的装机量在1982年已经超过了一千五百万台，用户基数比1981年扩大了将近一倍。问题在于，买的人多了，但每个人买的卡带数量少了。1981年，平均每个2600用户在圣诞季购买三到四盒新卡带。1982年，这个数字降到了两盒以下。</p>
+<p>原因不是用户没钱了——1982年美国经济虽然在衰退边缘徘徊，但消费品零售总额仍然在增长。</p>
+<p>原因在于，用户开始对“买卡带”这件事本身产生了犹豫。这种犹豫的根源，要追溯到1982年市场上发生的一件没有先例的事情：货架上的卡带数量，第一次远远超过了任何消费者的购买能力。</p>
+<p>1981年，雅达利2600的卡带目录上大约有一百款游戏。到1982年底，这个数字膨胀到了超过四百款。新增的三百多款游戏中，大约一半来自第三方开发商——动视、Imagic、Parker Brothers、Coleco，以及数十家规模更小的公司。另一半来自雅达利自己，包括大量的街机移植、体育游戏授权改编，以及原创作品。</p>
+<p>数量爆炸本身不是问题——如果这些游戏的质量能够维持消费者对“购买卡带”这件事的价值信任。但质量没有维持。它崩塌了。</p>
+<p>崩塌的机制不是某一个特别糟糕的游戏毁掉了整个市场——尽管《E.T.外星人》后来成了这场灾难的象征性替罪羊。崩塌的机制是系统性的：当一个市场在两年内涌入数百款新产品，而这些新产品的质量完全无法在购买前被消费者判断时，劣质产品就会系统性地驱逐优质产品。</p>
+<p>这是经济学家乔治·阿克洛夫在1970年提出的“柠檬市场”理论——当买方无法在交易前区分质量时，卖方就没有动力提供高质量产品，因为高质量产品的成本无法在价格上得到回报。最终，低质量产品充斥市场，买方对整体市场失去信任，交易萎缩。</p>
+<p>电子游戏卡带在1982年完美地符合了“柠檬市场”的所有条件。卡带包装盒上的图案通常由专业画师绘制，与实际游戏画面毫无关系。商店不允许拆封退货——一旦消费者撕开塑料包装，交易就不可逆。游戏杂志的评测体系还处于萌芽状态，大多数购买决策依赖于朋友推荐或者货架上的包装盒设计。</p>
+<p>一个十二岁的孩子攒了三个月的零花钱，花二十五美元买回一盒卡带，插进机器后发现画面粗糙、操作迟钝、十分钟就失去兴趣——这种体验在1982年重复了数百万次。每一次都是一次微型信任崩塌。这些孩子不会写信给报社投诉，不会在股东大会上发言，但他们会在下一次走向货架时犹豫，会减少购买频率，会告诉朋友们“等一等再看”。</p>
+<p>第三方劣质游戏是这场信任崩塌的重要推手，但不是唯一的推手。雅达利自己的产品在1982年同样出现了严重的质量问题，而这些问题不是偶然的失误，而是生产逻辑系统性地偏离了设计质量的必然结果。</p>
+<p>1982年3月，雅达利发售了《吃豆人》的2600移植版。这款游戏是当时全球最成功的街机游戏，岩谷彻创造的黄色圆球在1981年席卷了全美街机厅，成为流行文化现象。雅达利为此向Midway支付了超过两千万美元的授权费——这是当时电子游戏史上最大的一笔授权交易。</p>
+<p>为了收回这笔成本，雅达利做出了一个在商业逻辑上看似合理、但在实际执行中灾难性的决定：他们生产了一千二百万盒《吃豆人》卡带。这个数字超过了雅达利2600主机的总装机量。也就是说，雅达利假设每一个拥有2600的家庭都会购买《吃豆人》，甚至有些人会为了《吃豆人》而购买主机。这个假设的荒谬之处在于，它把“街机热门”和“家用机必买”之间画上了等号，而这两个市场之间的价值逻辑有着根本差异。</p>
+<p>街机玩家投币玩《吃豆人》，是花二十五美分换取三分钟的限时娱乐。如果游戏不好玩，损失是二十五美分。家用机玩家购买《吃豆人》卡带，是花二十五到三十美元买断一个永久娱乐产品。如果游戏不好玩，损失是二十五美元，是街机试错成本的一百倍。这个差异意味着，家用机市场的质量门槛远高于街机市场。一个在街机厅里被容忍的平庸游戏，在客厅里会被视为不可接受的浪费。</p>
+<p>但更大的问题不在于商业假设的荒谬，而在于游戏本身的质量。为了赶在1982年3月发售，雅达利指派程序员托德·弗莱耶在极短的时间内完成移植。2600的硬件性能远不如街机基板，弗莱耶不得不在画面、音效和操作上做出大量妥协。最终成品的画面闪烁严重，鬼怪的颜色被压缩到几乎无法分辨彼此，吃豆人本身的动画生硬，而最致命的是操作延迟——原版街机流畅的转向手感在移植版中变得迟钝，直接破坏了游戏的核心体验。</p>
+<p>消费者买回家后发现，这个他们期待了半年、花了三十美元购买的游戏，玩起来远不如街机厅里投币二十五美分获得的体验。而雅达利生产了一千二百万盒这样的卡带。实际销量大约在七百万盒左右——从任何其他行业的标准来看，这仍然是一个巨大的数字。但五百万盒未售出的卡带堆在仓库里，占用了数千万美元的库存成本。更糟糕的是，那些购买了《吃豆人》的七百万消费者中的相当一部分，在经历了这次失望之后，对雅达利品牌的信任度大幅下降。他们不一定会停止购买卡带，但他们下次掏钱之前会更谨慎，会等待更多评测，会更倾向于选择动视或者其他声誉更好的第三方品牌。</p>
+<p>《E.T.外星人》的故事在时间线上紧接着《吃豆人》移植版，发生在同一年，但它的失败机制有所不同。《吃豆人》的问题是质量辜负了期待，《E.T.》的问题则是从立项之初就注定了质量不可能达到期待。1982年7月，雅达利与环球影业达成协议，获得《E.T.外星人》的游戏改编权。</p>
+<p>这部电影在1982年6月上映后迅速成为全球现象，雅达利看到了一个巨大的商业机会。但问题在于时间：如果要赶上1982年圣诞季发售，游戏必须在9月1日之前完成开发，留给程序员的时间只有五周半。在正常的游戏开发周期中，一款2600游戏从概念到完成通常需要四到六个月。雅达利管理层决定把这个时间压缩到原来的四分之一，因为他们相信《E.T.》的品牌效应足以弥补任何质量上的不足。</p>
+<p>程序员霍华德·斯科特·沃肖被选中承担这个任务。沃肖是雅达利最优秀的程序员之一，他此前开发的《亚尔斯的复仇》是2600平台上最受好评的原创游戏之一。但即使是他，也无法在五周半内做出一款达到自己标准的游戏。沃肖后来在多次采访中描述过那段经历：他独自在雅达利的办公室里连续工作了超过一个月，每天只睡几个小时，最终交出了一个连他自己都不满意的产品。游戏的核心机制——E.T.在一个坑洞遍布的地图上寻找电话零件，同时躲避政府特工——在有限的测试中被反馈为“令人困惑”。</p>
+<p>玩家不断掉进坑里，爬出来需要消耗时间，而地图上的坑洞数量多到让移动变成了一种折磨。</p>
+<p>沃肖在游戏代码中尽了最大努力，在五周内完成了一个功能完整的游戏，这本身就是一个技术成就。但“功能完整”不等于“好玩”。</p>
+<p>雅达利管理层在测试阶段已经意识到了游戏的问题，但他们没有时间修改。与环球的授权协议锁定了圣诞季发售日期，任何延期都意味着违约赔偿。雅达利做出了一个决定性的选择：照常生产，照常发售，把希望寄托在《E.T.》的品牌效应和圣诞季的购买冲动上。</p>
+<p>四百万盒《E.T.》卡带被生产出来，运往全国各地的零售终端。雅达利在营销上投入了巨资，电视广告在11月和12月密集播放，包装盒上的E.T.形象在货架上格外醒目。消费者在圣诞季买走了其中的大约一百五十万盒。</p>
+<p>然后，退货开始了。退货的数量之巨大，超出了任何人的预期。消费者发现这款游戏不仅不好玩，甚至让人感到困惑和沮丧——对于一个以儿童和家庭为主要受众的IP来说，这几乎是不可原谅的。</p>
+<p>零售商面临一个困境：他们已经为这些卡带支付了货款，退货意味着他们需要从雅达利那里拿回钱。但雅达利在1982年底的现金流已经因为《吃豆人》的库存积压而紧张，无法同时应对大规模的退货请求。退货链条在零售商和分销商之间堵塞，分销商和雅达利之间堵塞，每一层都在试图把损失推给下一层。大量卡带最终被零售商以极低的价格清仓甩卖——曾经售价三十美元的游戏，在1983年春天出现在折扣货架上，标价五美元，甚至更低。</p>
+<p>《E.T.》和《吃豆人》移植版是雅达利自家产品质量失控的最著名案例，但它们不是孤例。1982年，雅达利在2600平台上发售了超过五十款新游戏，这个速度是1981年的两倍。质量控制在生产压力下被系统性地放松了。游戏在发售前只经过最基础的测试——确保程序不会崩溃，确保画面能够显示——而不是测试游戏是否好玩。好玩不好玩，在这个阶段已经不再是决策标准。决策标准是：能不能在预定日期之前完成生产，能不能填满零售商的货架订单。</p>
+<p>这种“填满货架”的逻辑，在街机市场同样存在，但表现形式不同。街机市场的崩溃不是通过劣质游戏摧毁信任，而是通过过度扩张摊薄单机收入，最终导致运营商的现金流断裂。1982年，全美街机厅的总投币收入达到了历史最高水平，超过八十亿美元。这个数字让所有行业观察者都相信街机市场仍然在高速增长。</p>
+<p>但总收入增长掩盖了一个关键的结构性问题：单机收入正在下降。街机运营商协会在1982年底发布的一份行业报告中，用谨慎的措辞提到了这个趋势。报告指出，虽然全美街机厅的总营收在1982年继续增长，但“每台机器每月的平均投币收入”在1982年下半年出现了轻微下滑。报告没有明确说下滑的原因，但行业内的运营商都清楚：机器太多了。</p>
+<p>1981年，一个典型的街机厅拥有大约二十台机器。到1982年底，这个数字翻了一倍，达到了四十台甚至更多。新增的机器不是放在原来的街机厅里——原来的街机厅已经没有空间了。</p>
+<p>新增的机器放在便利店的门口、加油站的休息区、保龄球馆的走廊、购物中心的每一条通道转角。每一个可以塞进一台街机机柜的空间都被填满了。街机厅的数量在1982年增长了超过30%，机器总数增长了更多。</p>
+<p>但玩家数量没有以同样的速度增长。1982年，街机厅的客流量仍然在增加，但增速已经放缓。新增的客源被新增的机台数量稀释了。</p>
+<p>一个在1981年拥有二十台机器的街机厅，每台机器每天平均接待二十个玩家。当这个街机厅在1982年扩张到四十台机器时，每天的客流量从四百人增长到了五百人——增长了25%。但机器数量增长了100%。结果就是，每台机器每天平均接待的玩家从二十人降到了十二三人。单机收入被摊薄，回本周期从六个月延长到一年以上。</p>
+<p>对于靠贷款扩张的小型运营商来说，回本周期的延长是致命的。他们在1981年和1982年初借了钱，买了机器，预计在半年到一年内用投币收入还清贷款。当回本周期拉长到一年以上时，现金流开始出现缺口。</p>
+<p>1982年第四季度，一些运营商开始拖欠贷款。1983年1月，订单停了。这个“停”字是字面意义上的。街机制造商——雅达利、Midway、世嘉、太东——在1983年1月收到的运营商新机订单量，比1982年同期暴跌了超过60%。不是放缓，是暴跌。</p>
+<p>运营商在圣诞季结束后清点账目，发现仓库里还有未拆封的新机器，账面现金不够支付下一批订单，而银行在催还贷款。整个1983年第一季度，街机新机市场几乎冻结了。</p>
+<p>街机制造商对这个信号毫无准备。他们在1982年底已经为1983年的生产计划预定了芯片、订购了机柜、安排了组装线。产能已经铺开，订单却消失了。</p>
+<p>芯片供应商发现来自游戏产业的订单在两个月内减少了超过一半，他们开始提高单价以弥补产能闲置的损失。这反过来推高了家用机卡带的生产成本，让本已利润微薄的第三方开发商进一步陷入困境。街机市场的崩溃和家用机市场的崩溃在1983年春天汇合，形成了一个相互强化的负反馈循环。</p>
+<p>这个循环的每一个环节都在加速另一个环节的恶化：街机厅不再采购新机，街机制造商削减芯片订单，芯片供应商提高单价，家用机卡带生产成本上升，小型第三方开发商资金链断裂，第三方公司倒闭，货架上的新游戏减少，零售商的家用机业务萎缩，零售商的现金流恶化，零售商削减所有游戏相关采购，包括街机运营商需要的配件和维护服务，街机厅的运营成本上升，更多街机厅倒闭。</p>
+<p>这个循环一旦启动，就不是任何一家公司能够单独阻止的。雅达利在1983年春天试图通过降价和促销来刺激销售，但降价本身就是一个信号——它告诉消费者，你之前花三十美元买的东西，现在只值十五美元。这个信号比任何广告都更有效地摧毁了剩余的价值信任。</p>
+<p>当消费者看到货架上的卡带从三十美元降到十五美元，再到十美元、五美元，他们的反应不是“便宜了，赶紧买”，而是“我之前买的那些，原来不值那个价”。这种被欺骗的感觉，比任何具体某款游戏的糟糕体验都更深刻地侵蚀了购买意愿。</p>
+<p>1983年4月，雅达利宣布了第一轮大规模裁员。超过一千七百名员工在一天内失去了工作，这个数字占雅达利总员工数的超过20%。</p>
+<p>被裁撤的岗位集中在生产线和质量控制部门。这意味着雅达利在收缩产能的同时，也在削弱自己本已脆弱的质量把关能力。</p>
+<p>留下来的设计师们看到同事的工位一个接一个地空出来，格子间里的气氛从1982年的狂热变成了1983年压抑的沉默。那些在1982年还相信自己在参与一场革命的人，在1983年春天开始更新简历，联系硅谷其他行业的猎头。</p>
+<p>到1983年夏天，美国电子游戏产业的零售总额从1982年第四季度的峰值暴跌了超过70%。这个数字在商业史上极为罕见。一个年营收超过三十亿美元的产业，在不到一年的时间里几乎蒸发殆尽。</p>
+<p>零售商的后仓堆满了未售出的卡带，分销商的仓库堆满了零售商退回的货物，制造商的仓库堆满了分销商拒收的产品。整个分销体系的每一个节点都被库存堵死了。1983年9月，雅达利做出了一个后来成为传奇的决定。</p>
+<p>他们雇佣卡车车队，从得克萨斯州埃尔帕索的仓库出发，将数百万份滞销卡带和主机运往新墨西哥州阿拉莫戈多的垃圾填埋场。现场工作记录显示，掩埋的物品包括《E.T.外星人》卡带、《吃豆人》移植版卡带、雅达利2600主机、以及其他未能售出的库存。在填埋之前，卡带被压路机碾碎，然后覆盖上混凝土层，以防止被拾荒者挖出来转卖。具体的掩埋数量在后来的调查中说法不一，但现场照片和参与者的证词一致指向了一个事实：雅达利在物理上销毁了足以装备数百万个家庭的游戏产品。</p>
+<p>阿拉莫戈多的掩埋不是崩溃的原因。它是崩溃的墓碑。那些被碾碎并封存在混凝土下的卡带，代表了电子游戏产业第一次完整经历“过度生产—渠道堵塞—信用崩塌—物理销毁”的资本主义经典危机。</p>
+<p>这个危机的每一个环节，都不是不可避免的自然灾难。它们是特定选择的累积后果。雅达利在1982年初可以选择生产更少的《吃豆人》卡带，但他们选择了生产一千二百万盒。</p>
+<p>1983年6月，玩具反斗城的一位区域采购经理在内部备忘录中写道：“雅达利2600卡带库存周转天数已从去年同期的二十三天延长至一百一十七天。目前本区域八个仓库中，有两万四千盒卡带已连续三个月未发生任何出库记录。”</p>
+<p>两万四千盒。这个数字需要放在具体的语境中理解。玩具反斗城是当时全美最大的游戏零售商之一，但即使在其销售最好的门店，一款卡带的月销量也通常在几十到几百盒之间。两万四千盒零出库意味着，这些卡带已经不是“销售缓慢”，而是从商品变成了占据仓库空间的物理负担。</p>
+<p>同一份备忘录还附有一份库存清单，列出了积压最严重的二十款游戏名称。排在榜首的正是《E.T.外星人》，其次是《吃豆人》移植版，但第三名往后，名单上出现了大量第三方厂商的产品——那些在1982年蜂拥入场的公司，他们的卡带同样被封存在仓库的纸箱里，包装盒上的彩色图案在黑暗中无人得见。</p>
+<p>这份备忘录不是孤立的。1983年春天，类似的文件在多家零售商的后台办公室之间流传。</p>
+<p>凯马特的采购部门在3月底向雅达利发出了一份措辞强硬的传真，要求雅达利“立即提供退货授权编号”，并警告说“本公司在贵方产品上的资金占用已达到不可接受的水平”。传真的附件是一份应收账款明细，显示凯马特在1982年第四季度向雅达利支付了超过四千万美元的游戏卡带货款，而截至1983年3月，这些卡带中仍有超过半数存放在凯马特的配送中心，尚未进入任何门店的货架。</p>
+<p>配送中心已经满了。新的货品没有空间存放，旧的货品无法退回，资金被锁死在从仓库到门店的每一个环节上。</p>
+<p>零售商开始拒绝接收新货——不是减少订单，而是完全拒绝。1983年4月，雅达利的销售代表在例行拜访中发现，一些连锁店的采购经理甚至不愿意见他们。某个销售代表在内部报告中写道：“客户说，除非我们先解决他们仓库里的库存问题，否则不会讨论任何新订单。”</p>
+<p>街机市场的崩溃在这个时间点上与家用机市场的崩溃呈现出镜像般的对称性。1983年第一季度，街机运营商协会对会员进行了一次紧急调查，结果在4月的内部通讯中公布。调查显示，受访运营商中，超过40%表示“无法在现有收入水平下继续采购新机”，另有25%表示“正在考虑减少现有机器数量以降低运营成本”。只有不到10%的运营商表示计划在1983年增加采购。这份通讯的措辞比1982年底的那份报告直白得多。它不再使用“轻微下滑”这样的谨慎表述，而是直接警告：“单机月收入已跌破维持运营的盈亏平衡点，部分地区的投币收入已无法覆盖场地租金和机器维护费用。</p>
+<p>雅达利在1982年夏天可以选择给《E.T.》更多开发时间，或者选择放弃圣诞季发售，但他们选择了五周半的工期和四百万盒的产量。雅达利在1982年底可以选择认真对待零售商的库存反馈，但他们选择了相信“渠道永远饥渴”的幻觉。街机制造商在1982年底可以选择关注运营商协会报告中的单机收入下滑趋势，但他们选择了忽视。第三方开发商可以选择花更多时间打磨游戏质量，但太多公司选择了用最快的速度把产品推向货架，在消费者发现质量之前赚到钱。</p>
+<p>这些选择在当时看起来都是理性的——每一个决策者都在追求自己的短期利益最大化。但它们叠加在一起，系统性地背叛了1972年安迪·卡普酒馆那个夜晚建立的硬币契约。</p>
+<p>那个契约很简单：玩家投下硬币，就能获得值得付出的娱乐体验；厂商收下硬币，证明游戏是独立商品。这个契约在十年里支撑了一个产业的诞生和繁荣。它被撕毁，不是因为玩家不再需要游戏了，而是因为玩家不再相信他们掏钱换来的东西值得那个价钱。</p>
+<p>1983年秋天，在纽约交易所，华纳通讯的股价从一年前的高点跌去了超过三分之二。在芝加哥，街机运营商在讨论如何用更少的机器维持利润。在硅谷，那些曾经为电子游戏产业贡献过才华的程序员正在寻找新的行业。</p>
+<p>在日本的京都，任天堂的工程师正在设计一款后来被称为“Family Computer”的家用游戏机。这款由时任任天堂开发第二部部长上村雅之领头开发、开发代号为“GameCom”的机器，其设计哲学直指雅达利的教训。</p>
+<p>任天堂的决策者从美国市场的崩溃中学到了一件事——他们后来建立了一套严格的制度：每一款在任天堂平台上发售的游戏，都必须经过任天堂的审核和授权，卡带的生产必须由任天堂控制，第三方开发商必须支付预付的授权费。这套制度后来被称为“质量封印”，它在商业上意味着任天堂对供应端施加了强制性的约束。</p>
+<p>这不是一个技术决定，这是一个商业制度设计。它的全部前提，就是雅达利在1982年到1983年间亲手证明的那个教训：如果不对供应端施加约束，市场会在繁荣中自我毁灭。</p>
+<p>硬币契约的裂痕，在1983年9月被封存在新墨西哥州的沙漠之下，但修复裂痕所需要的制度创新，才刚刚开始。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-11.html">上一章</a><a href="index.html">返回详情</a><a href="ch-13.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msoeg7iltlt","chapter":11,"chapterTitle":"硬币契约的裂痕","href":"ch-12.html","prevHref":"ch-11.html","nextHref":"ch-13.html","locationLabel":"第 12 章 · 硬币契约的裂痕"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>

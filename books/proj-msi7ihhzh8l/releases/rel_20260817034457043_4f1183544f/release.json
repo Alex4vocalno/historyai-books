@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034457043_4f1183544f",
+  "projectId": "proj-msi7ihhzh8l",
+  "manuscriptVersionId": "mv_6ed5f9751b145b20",
+  "contentHash": "6ed5f9751b145b2048dff5670ee0d3e83d5c2ec32dfa6504a3c7723ff8cec9e8",
+  "title": "受苦的艺术：宫崎英高与魂系游戏的革命",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是宫崎英高的传记，核心论点：他把「高难度」从商业毒药改写为尊重玩家的设计哲学——魂系游戏的成功不是受虐的流行，而是一场把死亡转化为学习机制与叙事装置、把挫败感重新定价为成就感的系统工程；这场革命出自一个二十九岁才入行、半路接手废案项目的迟到者，其方法论（碎片叙事、环境讲故事、不解释的世界）与其个人经历（贫穷童年读不起书、靠想象补全残缺故事）之间存在可考的因果线。矛盾线：商业安全与设计偏执的拉锯；日式开发体制与作者性的张力；隐晦叙事与大众市场的悖论式和解。反复出现的意象：篝火、YOU DIED、物品栏里碎片化的说明文本。边界：严格非虚构，在世人物只使用公开采访、官方资料与可靠报道，不臆测未公开的私人心理；叙事止于《艾尔登法环》及其历史地位的确立。读者：玩家与非玩家皆可读的大众读者。",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 168566,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:41:34.460Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "不完整的图书馆",
+      "units": 8399
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "廉价平装的秘密",
+      "units": 9329
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "没有说明书的游戏",
+      "units": 8089
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "键盘上的迷宫",
+      "units": 8410
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "迟到的入职者",
+      "units": 9172
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "国王密令的回声",
+      "units": 8520
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "迟到的转职",
+      "units": 7724
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "国王密令的回响",
+      "units": 8907
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "废案里的人性",
+      "units": 9916
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "隐形的主机战争",
+      "units": 8355
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "死亡作为货币",
+      "units": 9917
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "隐晦的美德",
+      "units": 8972
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "隐身社长",
+      "units": 9886
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "血之契约",
+      "units": 8870
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "薪火相传",
+      "units": 8471
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "宫崎会社",
+      "units": 8774
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "剑圣与义父",
+      "units": 8643
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "交界的王座",
+      "units": 8942
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "余烬不熄",
+      "units": 9270
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:57.044Z"
+}

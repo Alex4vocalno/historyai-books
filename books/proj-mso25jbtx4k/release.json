@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456566_3f90cb3e92",
+  "projectId": "proj-mso25jbtx4k",
+  "manuscriptVersionId": "mv_5adf1bdc5eb9f613",
+  "contentHash": "5adf1bdc5eb9f613d5a6aabf4cea8feb04238c7626c8bb190675ad1280c18716",
+  "title": "自由城三十年：GTA 作品评传",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 174108,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:40:45.733Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "第1章　像素里的自由城（约 1997 年）",
+      "units": 10012
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "第2章　伦敦1969与1961：英伦镜像（约 1998 年）",
+      "units": 8426
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "第3章　重回自由城：无名主角与道德真空（约 2000 年）",
+      "units": 9216
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "第4章　自由城的三次元降临（约 2001 年）",
+      "units": 10320
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "第5章　罪恶都市与八十年代皮肤（约 2003 年）",
+      "units": 7751
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "第6章　圣安地列斯与州级生活（约 2004 年）",
+      "units": 8570
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "第7章　掌中自由城：日常实践的压缩与变形（约 2006 年）",
+      "units": 8692
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "第8章　以2008年发行的《侠盗猎车手IV》为核心分析对（约 2007 年）",
+      "units": 8162
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "第9章　以2009年发行的《侠盗猎车手IV》首部资料片《（约 2009 年）",
+      "units": 8374
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "第10章　夜生活之曲：资本幻梦与媒介奇观（约 2010 年）",
+      "units": 9239
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "第11章　血战唐人街：俯视角的幽灵与媒介考古（约 2012 年）",
+      "units": 8928
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "第12章　以2013年发行的《侠盗猎车手V》为核心分析对象（约 2013 年）",
+      "units": 8530
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "第13章　洛圣都的持久战（约 2015 年）",
+      "units": 8483
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "第14章　角色扮演与身份展演（约 2016 年）",
+      "units": 7835
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "第15章　文化战争中的开放世界（约 2018 年）",
+      "units": 8347
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "第16章　沉默的舞台与等待的叙事（约 2019 年）",
+      "units": 8388
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "第17章　重制与重温：遗产的幽灵（约 2021 年）",
+      "units": 8923
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "第18章　终局之前：变形与未竟的追问（约 2022 年）",
+      "units": 10129
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "第19章　预告片与欲望考古学（约 2024 年）",
+      "units": 8004
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "第20章　自由城之终，或永远的未完成（约 2025 年）",
+      "units": 7779
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.567Z"
+}

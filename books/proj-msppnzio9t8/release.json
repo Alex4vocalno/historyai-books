@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034455250_cebc60a503",
+  "projectId": "proj-msppnzio9t8",
+  "manuscriptVersionId": "mv_3bce5b282ce772d5",
+  "contentHash": "3bce5b282ce772d54abdbf2f46de76e1f14b153cffd712055fd252796b1e87e4",
+  "title": "电子游戏简史·卷四：口袋与云端",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是《电子游戏简史》五卷本之卷四《口袋与云端：客厅的溶解与免费的代价》（2006-2016）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期。四个贯穿五卷的总纲概念在本卷的任务：①「硬币契约」——本卷写它的原子化：免费游戏把一次性买断拆成千万次微交易（F2P、内购、开箱），「免费」成为史上最昂贵的商业模式，契约从明码标价变成心理工程；②「客厅争夺战」——本卷写客厅的溶解：任天堂用 Wii 把非玩家请进客厅打赢最后一场经典客厅战役，但真正的胜负手在口袋里——iPhone 与 App Store 让游戏机的「专用硬件」逻辑第一次面对全民计算设备的降维；③「作者与流水线」——本卷写独立文艺复兴：Steam 与数字发行砍掉货架与发行商，个人作者带着 Braid、Fez、M…",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 216349,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:39:12.184Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "寂静的雪崩",
+      "units": 9226
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "横井的遗产",
+      "units": 11590
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "高清赌桌上的筹码",
+      "units": 8615
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "独立者的地窖",
+      "units": 10596
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "模组瘟疫",
+      "units": 8453
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "那个挥动白色手柄的夜晚",
+      "units": 7696
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "伺服器宕机之日",
+      "units": 8091
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "硬盘里的军队",
+      "units": 8820
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "愤怒的红色小鸟",
+      "units": 9014
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "免费的代价",
+      "units": 8091
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "方块帝国的诞生",
+      "units": 8085
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "召唤师峡谷的流水线",
+      "units": 8385
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "冰封王座的对峙",
+      "units": 8453
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "屏幕里的千万客厅",
+      "units": 7421
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "重启的代价",
+      "units": 9170
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "英雄的黄昏",
+      "units": 8398
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "口袋里的虫洞",
+      "units": 7416
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Wii的体感革命已经彻底冷却",
+      "units": 8427
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "客厅里的墓碑",
+      "units": 8687
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "免费帝国分崩离析",
+      "units": 8373
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "主播的军火库",
+      "units": 8425
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "电竞的国境线",
+      "units": 8618
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "独立者的黄昏与黎明",
+      "units": 9043
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "十年之镜",
+      "units": 7956
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "客厅已死，玩者永生",
+      "units": 9300
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:55.252Z"
+}

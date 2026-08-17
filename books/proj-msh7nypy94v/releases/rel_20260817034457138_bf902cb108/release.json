@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034457138_bf902cb108",
+  "projectId": "proj-msh7nypy94v",
+  "manuscriptVersionId": "mv_0faa5027527665e5",
+  "contentHash": "0faa5027527665e5bb9def29413554f97d3064bd55cd19642963f548b81c1884",
+  "title": "Endurance: Shackleton's Impossible Voyage Home",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "A narrative history of the Imperial Trans-Antarctic Expedition (1914-1917), argued as the story of survival as an organizational achievement: when the ice destroyed every plan, what kept twenty-eight men alive was not heroic endurance alone but Shackleton's relentless management of morale, attention, and consent — leadership practiced as a daily craft agains…",
+  "category": "World History",
+  "tags": [
+    "World History",
+    "History",
+    "Nonfiction"
+  ],
+  "language": "en",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 16,
+    "units": 52766,
+    "unitLabel": "words"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:41:33.989Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Unfinished Business",
+      "units": 3817
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "Selecting the Company (Spring–Summer 1914)",
+      "units": 4181
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Last Leave-Taking (August–December 1914)",
+      "units": 2507
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Weddell Sea Trap (December 1914–January 1915)",
+      "units": 2386
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Slow Death of Endurance (January–November 1915)",
+      "units": 2903
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The March of the Boats (November–December 1915)",
+      "units": 4039
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Patience Camp Arithmetic (December 1915 – April 1916)",
+      "units": 4205
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Open Boats (April 1916)",
+      "units": 2381
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "Elephant Island and the Ultimate Gamble (April 1916)",
+      "units": 3154
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The James Caird’s Crossing (April–May 1916)",
+      "units": 2380
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Across the Razorback (May–August 1916)",
+      "units": 4022
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Relentless Return (May–August 1916)",
+      "units": 3509
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Yelcho’s Return (30 August 1916)",
+      "units": 3718
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Long Return Home (1917–1922)",
+      "units": 4472
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Example of Endurance (1917–1922)",
+      "units": 2874
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Ice Waits for No Man (1917–1922)",
+      "units": 2218
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:57.140Z"
+}

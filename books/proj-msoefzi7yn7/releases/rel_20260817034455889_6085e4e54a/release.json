@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034455889_6085e4e54a",
+  "projectId": "proj-msoefzi7yn7",
+  "manuscriptVersionId": "mv_d0a1f637579a92f7",
+  "contentHash": "d0a1f637579a92f744bb53cfedfc0f272543e1f26d6f45a11fc340a719e8022d",
+  "title": "牌的简史",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是牌类游戏的人类史（扑克、麻将、字牌，不涉棋类）。核心论点：牌的本质是两件事——随机性（洗切让弱者也有机会）与隐藏信息（牌背后面藏着人心）。这两个属性决定了牌的一切社会命运：比棋更平民、更社交、更易赌、也更难被机器攻克（德扑与麻将的 AI 陷落比围棋晚了二十年）。一部牌史就是随机性与隐藏信息组织人类社交的千年记录——而它起源于中国。五部结构：①起源部：唐宋叶子戏与马吊——牌的中国血统、牌面与钱币的血缘；②西游部：纸牌沿丝路西传→马穆鲁克牌→欧洲四花色定型→塔罗歧路→密西西比河船上的扑克美国化→德州的诞生；③东土部：马吊→默和牌→麻将成型与全球流散（1920年代纽约麻将狂热）、字牌谱系（跑胡子/川牌/六胡抢——每县一种牌的方言化中国牌桌）；④数字部：联众、QQ 游戏大厅、地方牌类平台的崛起与合规边界、德州线上…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 271134,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:40:13.369Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "骰子之后，纸牌之前",
+      "units": 7735
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "纸的轻革命",
+      "units": 7433
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "叶子戏的唐人酒桌",
+      "units": 8686
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "马吊：金钱入牌",
+      "units": 7665
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "默和牌：麻将的史前骨架",
+      "units": 7967
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "纸牌过海",
+      "units": 8330
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "马穆鲁克宫廷的纸牌试验",
+      "units": 7399
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "四花色的欧洲转生",
+      "units": 10021
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "牌背的诞生与隐藏信息革命",
+      "units": 8748
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "西班牙牌、法国税与扑克的政治生命",
+      "units": 9335
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "密西西比河上的扑克美国化",
+      "units": 8215
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "德州扑克的诞生与尘封剧本",
+      "units": 10038
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "全求人：默和牌裂变与麻将雏形",
+      "units": 8336
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "水陆码头：麻将牌具的标准化之路",
+      "units": 8390
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "摩登麻将：1920年代纽约狂热",
+      "units": 8398
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "帝国牌桌：殖民语境下的麻将流散",
+      "units": 8369
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "论断：麻将是中国牌类标准化扩散的高峰",
+      "units": 8368
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "天牌、地牌、人牌：字牌的道德宇宙",
+      "units": 9008
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "联众：虚拟牌桌的拓荒",
+      "units": 8356
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "QQ游戏大厅：社交牌桌的帝国",
+      "units": 8379
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "地方棋牌的黄金航道",
+      "units": 7837
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "德州热潮：一场跨洋的规则旅行",
+      "units": 8369
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "线上牌桌的合规悬崖",
+      "units": 8400
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "直播、短视频与牌桌围观",
+      "units": 8356
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "售后革命：线上数据重构线下牌桌",
+      "units": 8359
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "技能重组：扑克训练工业的诞生",
+      "units": 8766
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "牌桌社会的温度计",
+      "units": 8835
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "不完全信息堡垒的陷落",
+      "units": 8316
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "从算牌到算人",
+      "units": 8543
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "永不停转的社交引擎",
+      "units": 8346
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "牌背之后的数据库",
+      "units": 8919
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "永恒洗牌",
+      "units": 8912
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:55.891Z"
+}

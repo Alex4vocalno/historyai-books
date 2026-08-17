@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456957_f747688c3d",
+  "projectId": "proj-msmj3mhw9c8",
+  "manuscriptVersionId": "mv_01b69dd1aafb6406",
+  "contentHash": "01b69dd1aafb64066088198def1c040e797386d19ebb0503931b11f023249f04",
+  "title": "北洋水师：一支舰队的兴亡",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 8,
+    "units": 66629,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:41:18.602Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "第1章　海防一纸疏（约 1874 年）",
+      "units": 7751
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "第2章　船政学生出洋（约 1877 年）",
+      "units": 7226
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "第3章　蚊子船到撞击舰（约 1880 年）",
+      "units": 7950
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "第4章　马尾沉舰之后（约 1883 年）",
+      "units": 9093
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "第5章　长崎港内的水兵（约 1886 年）",
+      "units": 9033
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "第6章　琅威理升旗之争（约 1889 年）",
+      "units": 7756
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "第7章　最后一次操演（约 1892 年）",
+      "units": 8844
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "第8章　威海卫的锚链（约 1895 年）",
+      "units": 8976
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.959Z"
+}

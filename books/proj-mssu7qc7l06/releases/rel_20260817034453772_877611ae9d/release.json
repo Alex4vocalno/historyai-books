@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034453772_877611ae9d",
+  "projectId": "proj-mssu7qc7l06",
+  "manuscriptVersionId": "mv_5f71fb5daa046d06",
+  "contentHash": "5f71fb5daa046d0644242766d5939ee349115a67377c56d647bfb65c9b2fdff2",
+  "title": "智力引擎：大型语言模型简史",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "核心问题：大型语言模型如何从一项学术突破演变为重塑全球产业格局的核心技术？核心论点：大模型的历史是一部由论文、代码、算力竞赛和商业野心共同驱动的“智力引擎”进化史，其每一次跃迁都源于特定技术范式的确立与随之而来的产业生态重组。范围：以2017年Transformer架构的提出为起点，涵盖GPT系列、BERT、T5等关键模型，以及OpenAI、Google、Meta等主要参与者的竞争，截至2024年初。主要矛盾：开源与闭源的路线之争、模型规模扩张的收益递减与伦理风险、技术理想主义与商业现实之间的张力。写作重点：每章围绕一个标志性模型或事件展开，清晰拆解其技术原理、商业决策与产业影响，避免沦为纯技术手册或公司宣传稿。",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 171813,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:37:14.240Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "翻译之困：循环网络的最后堡垒",
+      "units": 8176
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "八人小组：一篇论文的诞生",
+      "units": 10826
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "预训练密码：从ELMo到ULMFiT的暗流",
+      "units": 8171
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "算力即权力：GPU集群与隐性资本",
+      "units": 8817
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "论断：GPT系列的进化史",
+      "units": 10007
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "论断：BERT的诞生是Google对OpenAI",
+      "units": 8519
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "T5：统一范式的最后一块拼图",
+      "units": 8561
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "论断：GPT-3的发布是大模型历史上最具冲击力",
+      "units": 11635
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "指令的驯服：从提示工程到人类反馈",
+      "units": 7899
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "代码的觉醒：当模型学会编程",
+      "units": 10527
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "核爆与回响：ChatGPT的奇袭",
+      "units": 8048
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "论断：ChatGPT的奇袭",
+      "units": 11018
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "悬崖边的舞蹈：开源模型的绝地反击",
+      "units": 9879
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "论断：大模型产业的重组",
+      "units": 7977
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "幻觉的代价：当准确成为最后的壁垒",
+      "units": 9101
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "论断：在大模型竞赛的算力瓶颈被充分讨论后",
+      "units": 8341
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "劳动的潮汐：白领工作的重新定义",
+      "units": 8324
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "意识的回响：在通往通用智能的悬崖上",
+      "units": 8469
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "知识秩序的重构",
+      "units": 7518
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:53.774Z"
+}

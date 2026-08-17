@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456406_e0117b1955",
+  "projectId": "proj-mso7zqn9y46",
+  "manuscriptVersionId": "mv_65143d026a74385a",
+  "contentHash": "65143d026a74385a9d0183c3516d59656116635adcc364a497fd055f77d791f6",
+  "title": "昇龙拳：格斗游戏与街机厅的黄金时代",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是格斗游戏与街机厅文化的通史。核心论点：格斗游戏是「街机厅社交契约」的最高形态——一枚硬币买到的不是游戏时间，而是向陌生人挑战的权利；街霸II 真正的发明不是六键搓招，而是「对面站着人」的仪式感。格斗游戏的兴衰史就是线下公共游戏空间的兴衰史：死于客厅化与网络化，又在电竞舞台与回滚网络代码里两次复活。骨架线：卡普空与 SNK 的双社争霸贯穿中段（街霸 vs 饿狼/侍魂/拳皇——拳皇97 在中国街机厅的国民记忆单独成章）。矛盾线：街机现金流与家用机移植的自我蚕食；操作深度（护城河）与大众化（增长天花板）的永恒拉锯；日本开发者与美国竞技社群的文化角力（EVO 从停车场野赛到拉斯维加斯主舞台）。…",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 299733,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:40:58.849Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "硬币落入投币口的声音",
+      "units": 8023
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "一枚硬币的契约",
+      "units": 7890
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "空手道与对战的萌芽",
+      "units": 11727
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "摇杆与按键的语法",
+      "units": 12339
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "挑战者出现的闪屏",
+      "units": 7381
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "街机厅里的世界主义",
+      "units": 9590
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "街机厅的地方知识",
+      "units": 7881
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "排队的技艺",
+      "units": 8977
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "围观者的眼睛",
+      "units": 8314
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "机台边的女性",
+      "units": 8808
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "代币的暗流",
+      "units": 9088
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "盗版基板的江湖",
+      "units": 8863
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "老板的账本",
+      "units": 9241
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "像素里的身体",
+      "units": 9804
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "招式的语法",
+      "units": 8419
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "角色即命运",
+      "units": 10204
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "街机厅的听觉记忆",
+      "units": 10187
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "高手的神话",
+      "units": 13450
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "连招的考古学",
+      "units": 11107
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "屏幕深处的暴力",
+      "units": 9002
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "谁有资格站到对面",
+      "units": 8078
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "街机厅里的种族地理",
+      "units": 10063
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "竞技的幽灵",
+      "units": 8075
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "EVO的诞生",
+      "units": 9612
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "圈子的边界",
+      "units": 12476
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "屏幕内外的身体",
+      "units": 8242
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "街机厅的黄昏",
+      "units": 8356
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "网线那头的陌生人",
+      "units": 8627
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "回滚的奇迹",
+      "units": 8394
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "重返拉斯维加斯",
+      "units": 11020
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "街霸6的客厅",
+      "units": 8697
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "对面永远站着人",
+      "units": 7798
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.407Z"
+}

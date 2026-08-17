@@ -1,0 +1,133 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>收网的逻辑 · 佐尔格谍战纪实</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>佐尔格谍战纪实</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 12 章 · 收网的逻辑</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 12 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>巴库的混血儿</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>战壕里的转向</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>汉堡到莫斯科</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>上海站</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>记者、纳粹、间谍</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>尾崎秀实与近卫的客厅</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>克劳森的箱子</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>宫城与义勇</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>使馆里的影子</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>这些电报的精确程度在情报史上前所未有：进攻时间锁</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>南进的定论</span></a><a class="chapter-link active" href="ch-12.html"><span>12</span><span>收网的逻辑</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>十月十八日清晨</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>审讯室里的坦白</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>狱中手记的边界</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>绞架上的十月革命纪念日</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>二十年的沉默</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>佐尔格街的悖论</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>巢鸭的笔迹</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>石井花子的证词</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>东京审判中的缺席者</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>冷战档案里的幽灵</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>赫鲁晓夫的决定</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>情报史的位置</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>接收者的囚笼</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 12 章</p><h1>收网的逻辑</h1><div class="reader-content"><p>东京宪兵队通信班的档案里，有一份标注为“昭和十六年九月”的无线电监测日志。纸页边缘已经卷曲，表格用紫色油墨印制，填写者的笔迹是深蓝色的，在潮湿的东京夏末渗开细微的毛边。九月第二周的页面上，一个被标记为“未登记信号源C”的条目出现了三次：九月八日凌晨二时十五分，信号持续十一分钟，定位大致区域为东京西南郊；</p>
+<p>九月十日晚十一时四十分，信号持续九分钟，定位区域向西北偏移；九月十二日凌晨一时二十分，信号持续十四分钟，定位点再次移动，但仍在以品川区为圆心、半径约十五公里的范围内。</p>
+<p>这份枯燥的技术记录不讲述故事。它只列出发报时间、持续时长、信号强度和大致方位。</p>
+<p>但它在东京反谍档案中的位置，远比它的内容更为紧要。它是特高课对一张后来被称为“佐尔格事件”的间谍网络长达数年调查中，一个坐标系上的点。这个点本身不构成突破，也无法直接指向某个具体的人。</p>
+<p>它代表的是一种工作方式：不是靠一次戏剧性的破获，而是靠耐心的拼图，把无数个看似无意义的坐标点连接起来，直到它们开始勾勒出一个人的活动范围。1941年9月底，佐尔格网络的情报产出达到了八年来的顶点。</p>
+<p>就在这份测向日志被归档的同时，关于日本南进决策的关键判断正在从东京发往莫斯科。两条线索在时间上平行推进：一条从东京郊外的深夜电台通向红军四局的密码室，另一条从宪兵队的测向日志通向特高课的调查档案。它们在同一座城市的同一段时间里运行，却通向完全不同的终点。</p>
+<p>特高课对这张网络的系统性调查，起点远比1941年9月更早。它始于1939年，最初的目标不是理查德·佐尔格本人——特高课甚至不知道这个名字的存在——而是日本共产党地下网络中的外围成员。1930年代，日本共产党在警察国家的持续镇压下几乎被碾碎。从1928年的“三一五事件”开始，一波又一波的逮捕行动将日共的组织网络切割成碎片。</p>
+<p>到1930年代中期，日共中央实际上已经瘫痪，大量党员或被捕入狱，或转入更深的地下。每一次逮捕都伴随着审讯，每一次审讯都产生供词。这些供词被系统性地归档，按人名、地点、时间、关系分类，形成了一套庞大的索引系统。特高课的反谍工作，从根本上说，就是这套索引系统的运行。</p>
+<p>宫城与德的名字，最早出现在1939年的一份审讯记录中。一名被捕的日共基层联络人在持续审讯中供述，他曾通过一位“宫城先生”接收过来自海外的资金。这条信息最初几乎没有引起注意。日共的地下资金网络错综复杂，类似的供词在档案中数以百计。一名低层联络人提到一个模糊的姓氏，不足以启动任何行动。</p>
+<p>但特高课的档案系统有一个特点：它不丢弃任何信息。每一个名字都被归档，每一个细节都被保存，等待未来的某个时刻被重新调取。</p>
+<p>这个时刻在随后两年里逐步到来。1940年，一名在横滨被捕的日共外围成员在审讯中提到，宫城是一位“从美国回来的画家”，曾在美国加入共产党。</p>
+<p>1941年初，一名在京都被捕的共产党员承认，他通过宫城传递过文件和信件。每一次新的供述，都在档案中为宫城与德增加一条索引。</p>
+<p>这些索引开始连接起来，从一个模糊的背景角色，逐步变成一个具有清晰轮廓的调查目标。特高课的调查员后来在内部报告中将这一过程描述为“档案的自我生长”。他们并非主动追踪宫城——宫城只是一个名字，存在于数十份彼此独立的审讯记录中。但档案系统的逻辑是交叉比对：每当一个新的名字出现，调查员会将其与已有记录进行对照，寻找重合点。当宫城的名字在三个不同地区、三个不同案件中独立出现时，这个重合点就开始发出信号。</p>
+<p>特高课开始意识到，宫城不是普通的日共外围成员。他的国际背景、他的跨国旅行记录、他与不同地区日共成员的广泛联系，指向一种更大的可能性：他可能是某个国际网络在日本的联络节点。这个判断的形成，不是基于某个法庭上的决定性证据，而是基于概率的累积。</p>
+<p>每一次新的供述都增加了宫城是重要节点的概率，都使特高课的调查方向从模糊的背景转向具体的个人。</p>
+<p>与口供调查这条人力情报线并行的，是技术监听的压力线。这条线的运行方式完全不同，但同样遵循概率累积的逻辑。宪兵队通信部门装备的无线电测向车，在1930年代末至1940年代初持续在东京及周边区域进行扫描。这些测向车是日本当时最先进的反谍技术装备：装备环形天线和信号强度测量仪，通过多个观测点对同一信号源的信号强度进行比较，可以逐步缩小非法电台的位置范围。这个技术的原理简单，但执行起来需要耐心：测向车必须在信号发射期间同时处于多个位置，才能进行交叉定位。而间谍电台的发报时间通常很短——十几分钟甚至几分钟——发报者也会刻意选择难以进行三角测量的时段和地点。</p>
+<p>马克斯·克劳森，佐尔格网络的报务员，深刻理解这套技术对他的威胁。他采用移动发报的策略：每次选择不同的地点进行作业，有时在东京郊外的私人住宅，有时在沿海的渔村，有时在山区的小旅馆。</p>
+<p>发报时间刻意分散，没有固定规律。这一策略在初期有效地对抗了测向定位。宪兵队的测向车虽然捕捉到了信号的存在，但每次定位的结果都不同，无法锁定一个具体的地址。</p>
+<p>然而，每一次成功的发报，本身也是一次风险暴露。测向车通过多次捕捉同一信号源在不同时间的发射，可以逐步缩小其活动范围。克劳森的移动策略对抗了即时的精确定位，却无法对抗长期的统计学累积。每一次捕捉到的信号，都在测向地图上增加一个定位点。这些点逐渐连接起来，开始勾勒出一个大致的地理区域。宪兵队的测向日志显示，这个“未登记信号源C”的活动范围始终在东京周边，发报频率在1941年春夏显著增加，每次发报的时长和波长特征高度一致——这表明它来自同一台发报机、同一个操作者。</p>
+<p>1941年初，定位误差半径约为二十公里。到1941年夏，这个半径已经缩小到十公里以内。宪兵队通信班在内部报告中指出，这个信号源“极可能是一台移动式间谍电台”，操作者“具有相当的反侦测经验，但其活动范围正在被逐步压缩”。</p>
+<p>这份报告被转交给特高课，与人力情报线的调查结果进行交叉比对。技术线追踪的是一个无线电信号，人力线追踪的是一个名字。两条线在1941年秋天开始汇合。</p>
+<p>第三条压力线，来自佐尔格网络外围成员的疏漏。这条线最难以量化，但同样在累积中。宫城与德在联络外围成员时，遵循了基本的保密原则：使用化名、单线联系、定期更换接头地点。但这些措施在执行中不可能做到完美。一名外围成员在1940年的一次接头后，将写有宫城化名的纸条遗忘在咖啡馆的座位上。纸条被店员发现后交给了警方。化名提供了短暂的缓冲——警方无法立即将其与任何已知的嫌疑人对应起来——但纸条被归档在“可疑物品”卷宗中，等待日后被调取比对。</p>
+<p>另一名外围成员在1941年春天酒后失言，向朋友吹嘘自己“认识一个为外国工作的神秘画家”。这句话经过几层传播，最终落入特高课线人的耳中。线人将信息上报，特高课将其与已有的宫城档案进行比对。</p>
+<p>这些零星的信息单独来看都不足以启动逮捕，但它们像缓慢渗出的墨水，在档案系统中扩散、渗透，逐渐降低整个网络的安全边际。安全边际是一个容易被误读的概念。佐尔格网络的安全边际，不是某一次具体的漏洞，而是所有漏洞同时存在时，被发现的概率与时间的关系。外围成员的疏漏增加被发现的可能性，无线电测向缩小被定位的范围，口供链逐步咬合锁定目标——三条线各自独立运行，却在时间轴上产生了叠加效应。这个叠加效应，正是特高课最终能够结束调查的关键。</p>
+<p>1941年9月，特高课决定迈出收网的第一步。这个决定并非源于某个戏剧性的突破，而是基于一个冷静的判断：宫城与德的档案已经足够厚了。特高课内部会议评估认为，对宫城的调查已经积累了足够的间接证据——多名被捕日共党员的供述、无线电测向定位的大致区域、外围成员疏漏留下的线索——这些证据虽然还不足以在法庭上定罪，但已经足够启动逮捕和审讯。而一旦宫城开口，整个网络将被撕开。9月下旬，特高课逮捕了宫城的一名外围联络人。</p>
+<p>这名联络人的名字在档案中仅以“伊藤”出现。审讯中，伊藤在持续压力下供出了他与宫城的接头方式、时间和地点。这些信息直接指向宫城本人。</p>
+<p>特高课没有立即行动，而是用了近两周时间确认伊藤供述的准确性，并对宫城实施监视。这是特高课反谍工作的典型节奏：不急于收网，不依赖一次性的突破，用耐心和时间换取确定性。他们确认伊藤的供述可以被验证——接头地点与已知的宫城活动范围相符，接头时间与伊藤被捕前的时间线吻合——然后才将目标锁定。</p>
+<p>特高课的反谍哲学，与佐尔格网络的间谍哲学，在深层结构上是对称的。双方都在管理概率。佐尔格网络用八年的时间证明，谨慎和技巧可以将被发现的概率维持在可接受的水平。特高课用八年的时间证明，耐心和系统性可以逐步提高发现对手的概率。这场博弈的胜负，不取决于某一方的天才或英勇，而取决于哪一方的制度更能承受长期的时间压力。两种制度在时间轴上的表现截然不同。</p>
+<p>佐尔格网络的制度基础是莫斯科红军四局的长期部署：一个间谍网络被预期运作数年甚至数十年，其安全边际建立在身份掩护的深度、成员的忠诚度和通信技术的隐蔽性之上。这套制度高度依赖个人能力——佐尔格的判断力、克劳森的技术、宫城的谨慎、尾崎的覆盖深度。制度的优势在于灵活性，劣势在于脆弱性：任何一个人的失效都可能危及整个网络。</p>
+<p>特高课的制度基础是日本警察国家的档案传统：每一次审讯、每一份供词、每一个可疑信号都被记录、归档、交叉比对，形成一个不断自我丰富的信息库。这套制度高度依赖程序而非个人——调查员来了又走，但档案留在原地。制度的优势在于累积性，劣势在于缓慢：一个名字在档案中躺了两年才被重新调取，一条信号记录在日志中放了三个月才被交叉比对。</p>
+<p>但在长期博弈中，累积性压倒了灵活性。到1941年10月，这场长期博弈的天平开始倾斜。</p>
+<p>特高课的档案系统经受住了时间的考验：宫城与德的名字从数十份审讯记录中被提取出来，被反复比对，被逐步升级，最终从一个模糊的背景角色变成调查的核心目标。而佐尔格网络的安全边际，则在时间的侵蚀下出现了不可逆的裂缝。外围成员的疏漏、无线电信号的累积暴露、宫城本人日益疲惫的心理状态——这些裂缝单独来看都不致命，但它们在特高课的档案中被一一记录、归档、连接，最终编织成一张完整的网。</p>
+<p>10月10日，特高课的便衣警察在东京街头逮捕了宫城与德。逮捕经过经过精心设计：宫城在前往一次预定接头的途中，在一条僻静街道上被两名便衣拦住。他没有抵抗。特高课的审讯记录显示，宫城在被捕后的最初几个小时内保持了沉默。但到了第二天，他的抵抗开始瓦解。</p>
+<p>宫城崩溃的原因是多重的。特高课的审讯手段——持续盘问、睡眠剥夺、施加心理压力——无疑是重要因素。但更根本的原因在于，宫城不是职业情报人员，没有接受过系统的反审讯训练。他的动机是政治信念，而非职业纪律。</p>
+<p>当特高课的审讯官将他与其他日共成员的联系一一摆出，将他的活动细节逐一核对时，宫城意识到，他面对的不是一个可以靠沉默对抗的模糊指控，而是一套已经掌握了大量细节的档案系统。沉默的意义在这个时刻已经不大——特高课掌握的信息已经足够摧毁网络，宫城的供述只是加速这一过程。</p>
+<p>宫城的供述以简洁的条目形式进入审讯记录。他供出了“克劳森”——一个德国籍的无线电操作者，住在东京郊外。他供出了“佐尔格”——一个德国记者，纳粹党员，《法兰克福报》驻东京特派员，住在东京涩谷区。他还供出了尾崎秀实——近卫首相的顾问，日本政界有影响力的中国问题专家。这些名字在特高课审讯室里被第一次说出时，意味着他们面对的不再是一个日共地下网络，而是一个渗透到日本政治和外交核心的国际间谍网。</p>
+<p>尾崎秀实的名字尤其令人震动。他不是宫城式的外围联络人，而是直接参与日本最高决策过程的智囊团成员。如果宫城的供述属实，这意味着日本的国家机密在决策形成的过程中就已经开始外流。</p>
+<p>10月14日，特高课根据宫城的供述逮捕了克劳森。在克劳森的住所，搜查人员发现了短波电台的零件、密码材料和发报记录。这些物证与宫城的供述吻合，进一步证实了供述的可靠性。</p>
+<p>克劳森在审讯中最初试图否认与苏联情报机构的联系，但面对从住所搜出的物证，他的防线很快瓦解。他承认自己是佐尔格网络的报务员，负责将情报加密后发往莫斯科。克劳森的供述补充了技术细节：电台的型号、发报的频率和时间、加密方式、与莫斯科的通信协议。这些信息不仅证实了网络的存在，还为特高课提供了追溯网络活动的技术线索。</p>
+<p>特高课调查员将克劳森的发报记录与宪兵队的测向日志进行比对，发现两者在时间和地点上高度吻合。测向日志中那个“未登记信号源C”，正是克劳森的电台。</p>
+<p>同一天，尾崎秀实被捕。尾崎被捕后，佐尔格接到警告，日本特高课正在逼近他。</p>
+<p>尾崎的被捕在特高课内部引发了比宫城和克劳森更大的震动。特高课已经通过宫城的供述知道了尾崎的角色，但逮捕行动本身带来的政治后果超出了纯粹的刑事范畴。</p>
+<p>尾崎是近卫首相的顾问，他的暴露意味着日本政府最高层已经被外国间谍网络渗透。这个消息一旦公开，将动摇近卫内阁的合法性。</p>
+<p>由于尾崎秀实的身份及其与内阁和陆军参谋本部高层人物的交往所产生的冲击，第三次近卫文麿内阁于1941年10月16日总辞。近卫的辞职有多重原因：对美谈判陷入僵局、陆军强硬派的压力、天皇对其优柔寡断的不满。但尾崎事件提供了一个无法辩驳的失败例证：一个渗透到首相身边的间谍网络，证明了近卫政府在安全审查上的严重失职。</p>
+<p>原任近卫内阁陆军大臣的东条英机于10月18日出任首相组阁。特高课关心的不是政治后果。他们的目标始终是完成对佐尔格本人的逮捕。</p>
+<p>宫城、克劳森和尾崎的供述已经勾勒出佐尔格的核心角色：他是网络的领导者，是情报的主要采集者，是与莫斯科联络的决策者。宫城供述了佐尔格的住址和日常活动规律；克劳森供述了佐尔格如何将情报交给他加密发报；尾崎供述了佐尔格如何通过德国使馆获取情报，以及如何将近卫内阁的决策信息传递给莫斯科。特高课现在掌握了逮捕佐尔格所需的全部信息。</p>
+<p>但他们仍然等待了四天。这四天的等待，不是犹豫，而是准备。特高课需要确认三个被捕者的供述之间没有矛盾，需要确认从克劳森住所搜出的物证与佐尔格的联系，需要确认佐尔格在德国使馆的特殊地位是否会引发外交问题。</p>
+<p>最后一个问题尤其敏感。佐尔格是纳粹党员、《法兰克福报》记者，与德国大使奥特关系密切。如果逮捕他，可能引发德国的外交抗议。但特高课在评估后认为，佐尔格的身份是记者，而非外交官——他不享有外交豁免权，逮捕他不会违反国际法。而德国方面，一旦知道佐尔格的真实身份是苏联间谍，也不太可能为一个背叛者提供外交保护。</p>
+<p>10月18日清晨，特高课便衣警察在东京涩谷区佐尔格的住所前按响了门铃。佐尔格来开门时穿着睡衣，显然刚从睡梦中被惊醒。特高课的审讯记录记载了他被捕时的第一句话。他用日语说：“私はソ连市民です”——“我是苏联公民。”</p>
+<p>这句话是身份的最终坦白。八年来，佐尔格以纳粹党员、德国记者、日本通的身份在东京生活和工作。他出入德国使馆，与高级外交官和军官饮酒交谈，撰写关于日本政治的报道，参加纳粹党的集会。他的伪装如此成功，以至于德国大使奥特在得知他被捕的消息时，最初的反应是愤怒——他认为这是日本警方对德国公民的非法拘禁。但当特高课将证据摆在他面前时，奥特的愤怒转变为沉默。</p>
+<p>佐尔格说这句话时，语气平静。特高课的审讯官在记录中注明，被疑者“态度沉着，无抵抗之意”。这种沉着，不是伪装，而是解脱。</p>
+<p>八年的双重生活——白天是纳粹记者，夜晚是苏联间谍；公开场合与德国官员举杯，私下里将他们的谈话内容加密发往莫斯科——这一切在门铃响起的那一刻结束了。佐尔格后来在狱中手记中回顾被捕时刻时写道：“被捕的那一刻，我感到的不是恐惧，而是一种奇怪的空虚。就好像一个持续了八年的表演终于落幕，舞台上的灯光熄灭了，观众散去了，只剩下演员一个人站在空荡荡的剧场里。”</p>
+<p>他还写下另一段话：“我知道这一天迟早会来。在过去的几个月里，我能感觉到圈子在缩小。测向车出现在我住所附近的频率越来越高，一些外围联系人突然失联，宫城看起来越来越疲惫。但我不打算逃跑。我的任务已经完成了——南进的情报已经发出，莫斯科已经做出了反应。我的被捕只是这个任务的一个自然终点。”</p>
+<p>这段话揭示了佐尔格对自己命运的清醒认知。他不是被突然袭击击倒的——他看到了收网的征兆，选择了留在网中。这个选择的背后，是一个间谍对八年工作的最终评估：一张网络的价值不在于它存活多久，而在于它在存活期间产出了什么。</p>
+<p>佐尔格网络在1941年6月发出的巴巴罗萨警告被无视，在1941年9月发出的南进定论改变了莫斯科会战的结局。同一张网，同一批人，同样的手艺——结果的天壤之别，在比网络覆灭本身更值得深思。</p>
+<p>特高课花了八年时间才锁定这张网。八年中，他们的档案系统一刻不停地运转：每一次审讯都增加新的索引，每一个名字都被保存，每一条信号记录都被归档。这个过程没有戏剧性可言——没有隐藏在保险箱里的名单，没有叛徒在深夜敲响警局的门，没有一次性的重大突破。有的只是无数个坐标点的缓慢累积，直到它们连接起来，勾勒出一个人的活动范围，一个网络的结构，一个八年的伪装被揭开。这个过程的本质，是概率管理。</p>
+<p>佐尔格网络的安全边际是概率的产物：分散的发报地点降低了被定位的概率，外围成员的联系规则降低了暴露的概率，身份掩护的深度降低了被识破的概率。但这些概率措施都有一个共同的特征：它们将风险从确定变为不确定，从即时变为延迟，从单点变为分散。它们无法消除风险本身。只要网络继续运作，每一次发报、每一次接头、每一次情报传递都是一次概率事件。八年中，这些概率事件累计了足够的样本量，而大数定律不站在佐尔格那一边。</p>
+<p>特高课的胜利，在专业意义上是反谍制度的胜利。他们没有佐尔格的天才，没有尾崎的覆盖深度，没有克劳森的技术熟练。他们拥有的是一套不依赖个人的档案系统，一种允许时间慢慢流逝的耐心。这种制度性的耐心，最终压倒了个人性的才华。</p>
+<p>但特高课的胜利，在更重要的意义上也是佐尔格网络的胜利。佐尔格被捕时，他的任务已经完成。南进定论已经送达莫斯科，西伯利亚师团已经在调往西线的途中，莫斯科会战的天平已经开始倾斜。</p>
+<p>特高课花了八年时间收网，但网中的猎物在网收紧之前，已经完成了它最重要的使命。宫城的供述像第一块倒下的多米诺骨牌。它倒下后，克劳森、尾崎、佐尔格依次倒下，整个网络在十天内土崩瓦解。从宫城10月10日被捕到佐尔格10月18日被捕，中间只隔了八天。八年的建立，八天的瓦解——这个比例本身，就是“暴露的算术”最精确的注脚。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-11.html">上一章</a><a href="index.html">返回详情</a><a href="ch-13.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msr9azx5al1","chapter":11,"chapterTitle":"收网的逻辑","href":"ch-12.html","prevHref":"ch-11.html","nextHref":"ch-13.html","locationLabel":"第 12 章 · 收网的逻辑"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>

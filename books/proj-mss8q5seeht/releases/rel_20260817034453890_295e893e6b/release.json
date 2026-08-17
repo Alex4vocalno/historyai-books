@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034453890_295e893e6b",
+  "projectId": "proj-mss8q5seeht",
+  "manuscriptVersionId": "mv_a7e1accc002e50d4",
+  "contentHash": "a7e1accc002e50d4ae817743fdf3e6ce0a42e608df9be53b1397e6b5530bdcf6",
+  "title": "执缰·Harness史",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是 AI 智能体缰绳层（Agent Harness）的兴起史（前史 1966-2021，主线 2022-2026），约18万字。核心论证：大模型本身从来不是产品——真正把「会说话的模型」变成「会干活的劳动力」的，是围绕模型搭建的缰绳层：循环、工具、权限、协议。四年里这一层从提示词技巧长成软件业的新操作系统层；而它的每一次胜利都伴随同一个悖论——凡是缰绳层验证过的能力，最终都被吸收进模型本身，逼着缰绳向上再爬一层。本书以企业兴衰史范式写作：以做缰绳的公司、实验室与开源项目的沉浮为叙事主轴，商业决策置于清晰因果链中，胜局与败局同等诚实。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 23,
+    "units": 203841,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:37:44.576Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "脚本里的人",
+      "units": 8075
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "推理机的缰绳",
+      "units": 9047
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "冬天里的壳",
+      "units": 9021
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "神谕游乐场",
+      "units": 8216
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "循环高于模型",
+      "units": 8025
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "框架萌芽",
+      "units": 8400
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "狂潮九十天",
+      "units": 8390
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "框架赌局",
+      "units": 8380
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "模型吞下工具",
+      "units": 10245
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "代码即战场",
+      "units": 9393
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "演示与裂缝",
+      "units": 8066
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "像素与协议",
+      "units": 8384
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "一纸协议",
+      "units": 10429
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "以规束缰",
+      "units": 9042
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "深训之噬",
+      "units": 8334
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "组织之镜",
+      "units": 8393
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "信任的定价",
+      "units": 8481
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "地租之辩",
+      "units": 9130
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "制缰者的困境",
+      "units": 8400
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "工程师的新契约",
+      "units": 10384
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "中间层的幸存者",
+      "units": 8629
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "创新的路径选择",
+      "units": 8914
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "看不见的操作系统",
+      "units": 10063
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:53.892Z"
+}

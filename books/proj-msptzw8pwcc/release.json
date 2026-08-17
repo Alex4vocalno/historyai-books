@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034455001_3ea294bce1",
+  "projectId": "proj-msptzw8pwcc",
+  "manuscriptVersionId": "mv_c23b28a398cb5c14",
+  "contentHash": "c23b28a398cb5c1492f837ae33d59d9b8e6bff272ef68597a754496c7ccd8962",
+  "title": "小岛秀夫：作者的战场（重写版）",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是游戏设计师小岛秀夫的评传（1963-2025），约20万字。核心论证：小岛秀夫是「作者制」在工业游戏里的极限实验——四十年里他把自己的名字变成产品（A Hideo Kojima Game）、把电影语法搬进互动媒介、把机制本身变成作者表达，最终与流水线体制正面决裂。他的职业生涯是「作者与流水线」这对矛盾最完整的一次实弹演习：作者赢了名声，也付出了代价。四个总纲概念贯穿全书并逐章推进：①「作者的名字」——署名经济学：从 Konami 内部无名企划到包装盒上的「A Hideo Kojima Game」，一个雇员的名字如何变成品牌资产，公司为什么先纵容后忌惮；②「电影的债」——被电影耽误的导演？…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 208480,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:38:59.903Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "兵库县的电影院",
+      "units": 8652
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "失败的入场",
+      "units": 7864
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "纸箱里的战争",
+      "units": 10373
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "冒险游戏的歧路",
+      "units": 8398
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "名字上封面",
+      "units": 8384
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "三维空间里的导演",
+      "units": 7670
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "续作的重量",
+      "units": 8385
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "预告片战争",
+      "units": 8865
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "十一月十四日",
+      "units": 8377
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "冷战与丛林",
+      "units": 8374
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "老兵的葬礼",
+      "units": 8339
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "掌机上的和平",
+      "units": 8372
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "外包的歧路",
+      "units": 8395
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "引擎里的幽灵",
+      "units": 8575
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "九十分钟的裂痕",
+      "units": 8294
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "走廊尽头的鬼魂",
+      "units": 7812
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "名字被抹去的日子",
+      "units": 8386
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "空椅子与索尼支票",
+      "units": 7391
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "空楼里的新名字",
+      "units": 8453
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "快递员的诞生",
+      "units": 7375
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "分裂的掌声",
+      "units": 8382
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "预言与误读",
+      "units": 8283
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "续作的自由",
+      "units": 8547
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "名字的代价",
+      "units": 8312
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "作者制的遗产",
+      "units": 8222
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:55.003Z"
+}

@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034455632_e5a34eefce",
+  "projectId": "proj-mspdgpvhr0b",
+  "manuscriptVersionId": "mv_590d76ec2f7bfb22",
+  "contentHash": "590d76ec2f7bfb2281be521b775b78a4eedb514a7496ed5acaf7941f56055df5",
+  "title": "电子游戏简史·卷二：客厅争夺战",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是《电子游戏简史》五卷本之卷二《客厅争夺战：任天堂帝国与十六位战争》（1983-1994）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期。四个贯穿五卷的总纲概念在本卷的任务：①「硬币契约」——本卷写它的重签：1983 崩溃后，山内溥用权利金体制把玩家-厂商契约改写为玩家-平台-厂商三方契约（品质封印、卡带配额、独占条款），硬币契约从街机厅搬进客厅并第一次有了守门人；②「客厅争夺战」——本卷是主战场：FC/NES 收复北美废墟、世嘉 Genesis 以「Genesis does what Nintendon't」发起挑战、16 位战争把客厅变成两大帝国的前线，Game Boy 则把客厅装进口袋；③「作者与流水线」——本卷写署名的回归：宫本茂成为第一个玩家喊得出名…",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 240165,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:39:49.446Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "废墟上的纸牌",
+      "units": 7971
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "京都的守门人",
+      "units": 9768
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "木马与玩具店",
+      "units": 9800
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "契约的铁幕",
+      "units": 8370
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "叛逆者的基因",
+      "units": 9730
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "蓝色闪电与帝国反击",
+      "units": 9703
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "卡带上的署名",
+      "units": 7886
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "攻略的收编",
+      "units": 8260
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "莫斯科的方块",
+      "units": 7550
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "十六位元前夜",
+      "units": 8380
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "血与像素",
+      "units": 9911
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "街机逆袭",
+      "units": 10320
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "帝国的黄昏错觉",
+      "units": 12496
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "口袋里的帝国",
+      "units": 11336
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "第三方大逃亡",
+      "units": 8993
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "血与听证会",
+      "units": 11432
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "囚徒的握手",
+      "units": 12918
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "京都的背叛",
+      "units": 9343
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "守门人的盲区",
+      "units": 11078
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "索尼的复仇机器",
+      "units": 9506
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "十六位战争的遗产",
+      "units": 8543
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "卡带的最后尊严",
+      "units": 10051
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "口袋里的硬币契约",
+      "units": 7978
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "论断：1994年圣诞节前的全球游戏市场",
+      "units": 9358
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "废墟与新生",
+      "units": 9484
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:55.634Z"
+}

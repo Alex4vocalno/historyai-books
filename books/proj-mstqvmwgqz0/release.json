@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034453673_ce5d2ac2d4",
+  "projectId": "proj-mstqvmwgqz0",
+  "manuscriptVersionId": "mv_0721b7dc66d05f43",
+  "contentHash": "0721b7dc66d05f43e28613a782b1812d86746c8cf3e57fadecbc06d84b2eff35",
+  "title": "世代之器：Xbox主机、游戏与商业的互动史",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "核心问题：Xbox历代主机与其标志性游戏之间，如何形成技术、设计、商业与内容的复杂共生？核心论点：Xbox硬件史是性能为体验设界、内容反驱硬件设计的互动史，每代成功依赖硬软协同精密构建。范围：初代至Series X/S，以世代为章剖析芯片/散热/存储、外观/手柄/交互、定价/供应链/定位及与《光环》《战争机器》等关键游戏的相互塑造。主要矛盾：硬件前瞻投入与游戏开发成本匹配；标准化架构与定制体验的设计张力。写作重点：每章以发布为起点，解析技术突破如何服务标志游戏表现、设计哲学如何影响交互、商业策略如何塑造阵容，及市场反馈对协同有效性的评估。",
+  "category": "商业史",
+  "tags": [
+    "商业史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 31,
+    "units": 277767,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:37:16.187Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "绿意赌局",
+      "units": 8101
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "德雷克与他的黑箱",
+      "units": 10221
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "光环的降临与枪械的语法",
+      "units": 8587
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "赔本卖出的逻辑",
+      "units": 11717
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "客厅里的黑船",
+      "units": 8414
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Xbox Live的暗线",
+      "units": 8458
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "退场者的遗产",
+      "units": 8436
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "先手之重",
+      "units": 8625
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "三核时代的架构整合",
+      "units": 7604
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "战争机器的视觉政变",
+      "units": 8707
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "十一亿美元的红色警报",
+      "units": 8457
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "从废墟中重建护城河",
+      "units": 8423
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "生态闭环",
+      "units": 8466
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "八分钟的溃败",
+      "units": 10409
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "云端的幻象与现实",
+      "units": 8651
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "断臂求生与向下扎根",
+      "units": 8046
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "天蝎计划与性能赎罪",
+      "units": 7890
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "订阅制的降维打击",
+      "units": 11441
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "订阅帝国的硬件基石",
+      "units": 13091
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "光环的无限延期与创意枯竭",
+      "units": 7846
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "收购贝塞斯达的防御性豪赌",
+      "units": 8757
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "论断：XboxSeriesX/S世代主推的“快速",
+      "units": 9846
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "索尼的反击与独占的黄昏",
+      "units": 8872
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "动视暴雪的天价赌注与生态终局",
+      "units": 8448
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "监管长跑与交易闭环",
+      "units": 8433
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "云游戏：承诺的延宕与重燃",
+      "units": 10530
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "游戏Pass的内容饥渴与创意风险",
+      "units": 7534
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "掌机之梦与移动困局",
+      "units": 7716
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "索尼的镜像与主机战争终局",
+      "units": 8746
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "世代之器的遗产与未竟之问",
+      "units": 8456
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "世代之外",
+      "units": 8839
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:53.674Z"
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034457779_d08643c457",
+  "projectId": "proj-ms5ibeca4r6",
+  "manuscriptVersionId": "mv_09d99b408909d1cb",
+  "contentHash": "09d99b408909d1cb6ea6804fbde82bec179f0c496b8fd003a9969f5252892af5",
+  "title": "渔阳鼙鼓：安史之乱的八年",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "以755-763年安史之乱全程为主轴的全景叙事史：从盛世假象与范阳起兵，到东都陷落、潼关失守与马嵬之变；从灵武即位、睢阳死守，到邺城溃败、史朝义之死与河朔藩镇的形成。以两《唐书》《资治通鉴》为骨架，杜甫等人的诗文为时代声音，写清一个极盛帝国如何在八年内折断，以及它为何再也回不去。玄宗、安禄山、哥舒翰、郭子仪、李泌、张巡等人物命运交错为叙事经线。",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 230837,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:42:03.268Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "天宝初年的平卢军镇",
+      "units": 9103
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "广运潭前的江南漕船",
+      "units": 7819
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "范阳节度使的权力版图",
+      "units": 8730
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "长生殿外的相府独裁",
+      "units": 8376
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "葱岭冰雪中的帝国西极",
+      "units": 10617
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "石堡城下的将星陨落",
+      "units": 11142
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "贬谪路上的陇右边帅",
+      "units": 11745
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "范阳铁券掩西南烽烟",
+      "units": 8266
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "石堡城下的血色军功",
+      "units": 8259
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "东平郡王帐下私军成",
+      "units": 8860
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "天宝十载三线大溃败",
+      "units": 10744
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "相府易主引爆将相争",
+      "units": 9100
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "群牧使印下的战马北调",
+      "units": 11249
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "华清赐宴后的辞归范阳",
+      "units": 8388
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "幽州军帐内的胡将代汉",
+      "units": 7620
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "渔阳鼙鼓震碎东都洛阳",
+      "units": 11083
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "灵宝惨败引出马嵬惊变",
+      "units": 8661
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "燕帐弑父迎来两京光复",
+      "units": 8391
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "相州坚城下的九镇合围",
+      "units": 8016
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "狂风骤雨中的相州溃退",
+      "units": 10695
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "江淮烽烟里的财赋反噬",
+      "units": 7763
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "邙山血战后的燕帐再弑",
+      "units": 9201
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "大明宫深处的皇权更迭",
+      "units": 10810
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "河朔版图上的割据定型",
+      "units": 8507
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "渔阳鼓歇后的帝国重构",
+      "units": 7692
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:57.782Z"
+}

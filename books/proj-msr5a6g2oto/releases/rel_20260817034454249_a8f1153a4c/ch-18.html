@@ -1,0 +1,141 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>虚拟现实里的自我证明 · 蒸汽之国（重写版）</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>蒸汽之国（重写版）</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 18 章 · 虚拟现实里的自我证明</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 18 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>微软来的百万富翁</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>雷神之锤上的房子</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>迟到的完美</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>反恐精英的意外血统</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>补丁工具里的特洛伊木马</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>强制激活之夜</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>章节式发行的实验室</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>橘盒里的意外之王</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>平台引力场的形成</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>免费浪潮与帽子经济</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>众筹奖金的发明</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>绿光的民主伪装</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>客厅里的溃败</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>付费的背叛</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>三之诅咒</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>引力场里的纸牌屋</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>扁平之下的暗流</span></a><a class="chapter-link active" href="ch-18.html"><span>18</span><span>虚拟现实里的自我证明</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>掌机上的第二次赌注</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>反垄断的引力场</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>两个Valve的战争</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>30%的松动与新时代</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>社区炼金术的极限</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>阀门里的引力</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>两个阀门</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 18 章</p><h1>虚拟现实里的自我证明</h1><div class="reader-content"><p>贝尔维尤的办公室里，那些填满空座位的新人还在翻阅员工手册，定义行业标准的作品已经悄然进入了最终测试。四楼咖啡区的软木板上，钉着一份装订整齐的测试文档，封面是质量保证部门的标准模板，标题栏印着《半条命：Alyx——最终测试总结》，日期标注为2020年3月20日。文件末尾的签字栏里只有一行圆体字迹，墨水是蓝色的，下笔很重：&quot;我们做完了。&quot;</p>
+<p>这份文档在软木板上挂了三天。Valve的软木板是一种独特的信息生态系统——项目进度表、技术演示截图、离职告别信、生日派对邀请函、某人在午餐时画的一张讽刺漫画，这些内容混在一起，两周更换一次，没有人管理，但所有人都知道该往哪里看。</p>
+<p>然而这份测试报告打破了周期律。它一直钉在那里，直到3月23日清晨才被取下。取下它的人没有留下任何东西替代。软木板上出现了一个长方形的空白，像拔掉钉子后留下的洞。</p>
+<p>《半条命：Alyx》在这一天发售。距离Valve上一次发布《半条命》系列作品——2007年的《半条命2：第二章》——已经过去了十三年。十三年足够让一个游戏系列从行业标杆变成文化记忆，足够让一代玩家从学生变成中年人，也足够让“半条命3”这个短语从期待变成笑话，再变成某种心照不宣的创伤。但《Alyx》不是《半条命3》。</p>
+<p>它的官方定位是前传，故事发生在《半条命》与《半条命2》之间，主角是艾利克斯·凡斯——那个在《半条命2》里作为戈登·弗里曼的同伴出现的年轻女性，此时她十九岁，正在十七号城的废墟中学习生存。这一定位的叙事含义很明确：Valve在回归《半条命》宇宙，但不在回归《半条命》的续作压力。组织含义则需要更长时间来解读。</p>
+<p>《Alyx》只支持VR设备。2020年初，全球VR头显的活跃装机量在四百万到六百万套之间，取决于统计口径如何划分PC端、主机端和移动端设备。即便按最乐观的估计，这意味着九成以上的Steam活跃用户——当时月活跃用户数已超过九千万——无法在发售当天玩到这款游戏。</p>
+<p>Valve选择了一个小众平台来承载它最受期待的回归之作。这个决定如果放在任何一家上市公司的项目审批流程里，会被财务部门在第一个环节否决。但Valve没有项目审批流程。Valve没有财务部门对创作决策的一票否决权。</p>
+<p>Valve的决策机制——如果这个短语可以用在这里——是：一群人觉得这件事值得做，并且有足够多的人愿意把自己的轮子桌推到同一个方向，于是这件事就发生了。《Alyx》是这么发生的。</p>
+<p>2016年初，Valve内部形成了一个规模不大的VR研发小组。最初的核心成员约有十余人，其中包括几位参与过Steam Controller手柄和Steam Link串流盒开发的硬件工程师。这些硬件项目在商业上不算成功——Steam Controller在2019年停产清仓时单价降至五美元——但它们为Valve积累了宝贵的工程经验，也在公司内部培养了一批对物理交互有执念的技术人员。当VR作为一种新的交互范式出现时，这批人是最先被吸引过去的。</p>
+<p>这个小组在2016年至2017年间的主要精力放在与HTC合作开发Vive头显上。Valve提供Lighthouse激光定位系统——一项实现房间级追踪的核心技术——HTC负责制造和销售。</p>
+<p>这是一次典型的Valve式合作：核心技术创新由Valve完成，市场风险由合作伙伴承担。如果Vive失败，Valve可以退回自己的实验室继续迭代；如果Vive成功，每一台售出的设备都在为SteamVR生态增加装机量。</p>
+<p>Vive没有失败，但也没有大获成功。它卖了大约两百万台，在VR早期市场算是不错的成绩，但远不足以支撑一个健康的消费电子生态。</p>
+<p>到了2017年底，VR小组的工程师们开始面对一个具体的问题：硬件有了，平台有了，但没有任何一款软件能真正说服人们购买一台VR头显。SteamVR商店里充斥着短小的体验Demo和独立开发者的实验作品，其中不乏创意闪光，但缺少一个能定义这个媒介的核心体验。</p>
+<p>这个判断在小组内部引发了方向性争论。一部分人认为应该继续优化硬件，等待开发者社区追赶上来；</p>
+<p>另一部分人认为Valve必须自己下场做内容。争论持续了几个月，最终倾向于后者的原因并非商业分析，而是一个更简单的组织事实：小组里有足够多的人想做游戏。</p>
+<p>在Valve的扁平结构里，“想做”就是项目的种子。没有人分配任务，也没有人批准立项。你只需要说服足够多的人加入你的轮子桌，或者自己加入一个已有的轮子桌。</p>
+<p>VR小组里那些想做游戏的人——其中包括几位参与过《半条命2》开发的老兵——开始讨论一个具体的原型：用VR来重新诠释《半条命》的核心体验。这个选择不是偶然的。《半条命》系列一直是Valve组织身份的核心锚点。1998年，第一款《半条命》以迟到一年的完美定义了叙事驱动型第一人称射击游戏的标准。2004年，《半条命2》用物理引擎和面部动画系统再次刷新了行业对沉浸感的理解。</p>
+<p>之后是《第一章》《第二章》——然后，沉默。十三年的沉默。引力场吸走了人才，收租模式削弱了动机，扁平结构让“再做一款《半条命》”这个提议在无数次轮子桌讨论中被提起又被搁置。</p>
+<p>CS的持续运营需要人手，DOTA 2的赛季更新需要人手，Steam的界面改版需要人手，帽子经济需要人手——每一个持续产生收入的系统都在对公司的创作资源施加引力。</p>
+<p>但VR给了这个提议一个全新的论证框架。在VR里做《半条命》不只是在做一款续作——它是在用最经典的Valve IP来探索一个全新的媒介。这个论证框架在组织内部的修辞力量不容小觑。它同时满足了两种需求：对老兵的怀旧冲动和对新人的技术野心。它让那些在《半条命2》时代就加入公司的资深者感到自己在延续某种传统，也让那些2016年后入职的、对VR充满热情的新人感到自己在参与定义未来。</p>
+<p>在Valve，项目的说服力不仅取决于它能否做出来，还取决于它能否在组织内部形成一个足够有力的叙事。而“用VR重新发明《半条命》”是一个几乎完美的叙事。到了2018年初，这个项目已经有了一个代号“HLVR”，一个大约三十人的核心团队，以及一个可玩的早期原型。</p>
+<p>原型展示了用VR控制器进行物理交互的基本机制——抓取物体、装填弹药、操作机关。这些在当时看来已经足够令人兴奋，但距离一款完整的游戏还很远。团队需要更多人手，而在Valve，获得更多人手的方式不是申请预算，而是让自己的原型足够有说服力，以至于其他人自愿加入。2018年春天，HLVR团队在四楼的大会议室里做了一次内部演示。演示持续了四十分钟，内容包括一个可交互的城市场景、几个战斗遭遇和一个简单的解谜环节。演示结束后，加布·纽维尔坐在角落里，没有立刻说话。他等其他人问完技术问题，然后开口。他的问题不涉及技术细节，而是关于规模：“如果把这个做成一个完整的游戏，需要多少人？”</p>
+<p>这个问题本身就是一个信号。在Valve，纽维尔不会批准项目启动——他没有这个权力，也没有这个职位——但他对某个项目的兴趣会改变其他人对它的评估。他的注意力是一种稀缺资源，而当他开始关注HLVR时，这个项目的引力场随之增强。</p>
+<p>但隐性支持不等于资源承诺。团队需要继续证明这个原型能够扩展成一个完整的叙事体验，能够承载《半条命》这个名字所背负的期待，能够在VR这个限制重重的媒介里实现Valve级别的品质标准。</p>
+<p>接下来的两年，HLVR团队经历了一次Valve历史上罕见的聚焦式开发。说“罕见”，是因为在Valve的“阀门时间”传统里，项目延期、方向调整、团队解散都是常态——跳票不是管理失败，而是扁平制度的必然产物。没有截止日期意味着没有外部压力迫使团队在品质与时间之间做出取舍，但同时也意味着没有外部压力迫使团队在某个时刻停下来。项目可以无限期地迭代下去，直到团队内部的动力耗尽，或者更强大的引力场把参与者吸走。</p>
+<p>《半条命3》的多次启动与搁置，很大程度上就是因为这种制度性的漂移。但HLVR从2018年到2020年的开发周期相对稳定，方向也没有发生根本性漂移。这在Valve的项目史上是一个值得分析的例外。</p>
+<p>原因之一是VR的技术约束。在传统PC游戏开发中，可能性几乎是无限的——你可以做开放世界，可以做多人模式，可以加入程序生成，可以迭代到天荒地老。这种无限可能正是“阀门时间”拖延成诅咒的根源之一。</p>
+<p>但在VR里，你能做什么、不能做什么，从一开始就被头显的视场角、控制器的自由度、玩家的移动舒适度这些硬性约束所定义。玩家的移动速度不能太快，否则会引发眩晕；复杂的菜单界面在VR里行不通，必须用物理交互替代；战斗节奏不能像传统射击游戏那样密集，因为玩家需要时间处理空间信息。这些约束不是敌人，而是决策的边界。在边界内做创新，比在无限空间里做选择，要容易得多。原因之二是团队核心成员的构成。</p>
+<p>HLVR的几位关键人物——包括关卡设计师、叙事设计师和技术总监——都是合作超过十年的老搭档。他们在《半条命2》时代就建立了工作默契，在Valve的扁平体系里形成了一种非正式的协作惯性。这种惯性在平时可能被批评为“暗层级”的体现——资深者通过长期积累的信息优势和信任门槛占据了核心位置，新人难以进入——但在一个需要长期聚焦的复杂项目里，它为团队提供了扁平结构通常无法提供的连续性和决策效率。这正是Valve组织悖论的一个缩影：你批评暗层级的存在，但你需要它来完成困难的工作。</p>
+<p>但这并不意味着HLVR的开发一帆风顺。2019年初，团队面临一个艰难的叙事决策：游戏的主角是谁？最初的设想是让玩家扮演戈登·弗里曼——这是《半条命》系列的传统主角，一个沉默的科学家，玩家的直接化身。但VR的物理交互特性让这个选择变得复杂。戈登·弗里曼的沉默在传统屏幕上是一种巧妙的叙事装置——玩家通过他的眼睛看世界，但始终保持一定的距离感，可以投射自己的感受。</p>
+<p>但在VR里，这种距离感消失了。如果玩家可以用手抓取物体、操作机关、与角色互动，那么主角的沉默就不再是叙事选择，而是怪异的不在场证明。一个不说话的主角在VR里像是一个鬼魂，而不是一个人。</p>
+<p>讨论持续了几周。最终，团队决定让玩家扮演艾利克斯·凡斯。这个决定的叙事逻辑很清晰：艾利克斯在《半条命2》里就是一个有性格、有声音、有情感的角色，她更适合作为VR体验的锚点——玩家通过她的身体感知世界，但她的声音和反应为这种感知提供了情感框架。</p>
+<p>组织逻辑更值得玩味。选择艾利克斯意味着团队主动放弃了“做《半条命3》”的叙事包袱。如果主角是戈登·弗里曼，那么这款游戏无论怎么定位，都会被玩家和媒体视为“准《半条命3》”，背负起十三年积累的所有期待。选择艾利克斯允许团队在《半条命》宇宙里工作，但不必承担续作的压力。这是一种聪明的自保策略，也是一种诚实的自我认知：Valve还没准备好做《半条命3》，也许永远都不能准备好，但至少可以做一款好的VR游戏。</p>
+<p>2019年夏天，HLVR的规模扩大到了大约六十人。这在Valve的项目史上不算特别大——2013年《DOTA 2》上线时，运营团队就超过了一百人——但六十人全部聚焦于一个单一项目，在2018年《Artifact》失败后的Valve里，已经是最集中的资源投入了。</p>
+<p>纽维尔开始频繁出现在HLVR的工作区。他不是来检查工作的——Valve的扁平结构里没有这个职位——而是来玩最新版本的。他在VR头显里一待就是几个小时，摘下来后通常会跟设计师讨论具体细节：某个机关的物理反馈慢了半秒，某个敌人的AI在特定角度下会做出不合理反应，某个场景的灯光让左眼比右眼看到更多阴影。</p>
+<p>这种级别的细节关注是纽维尔在《半条命2》时代就建立的工作习惯，但在VR里，细节的放大效应让每一个微小的问题都变得不可忽视。在传统屏幕上，一个物体穿模可能只是瞬间的视觉瑕疵；在VR里，它直接破坏了物理存在感，玩家会本能地感到“这里不对”。</p>
+<p>2019年11月，Valve正式公布了《半条命：Alyx》，宣布将于2020年3月发售。预告片在YouTube上线的第一个小时内获得了超过一千万次播放。玩家社群的反应是复杂的：兴奋与质疑几乎等量。兴奋的是，《半条命》终于回来了。质疑的是，它只支持VR。在Reddit的半条命子版块，一篇被顶到最高的帖子表达了这种情绪：发帖者称自己从1998年就开始玩这个系列，等了十三年，然后发现自己买不起能玩新作的设备。Valve Index头显套装售价九百九十九美元。即便使用更便宜的兼容头显——Oculus Rift S售价三百九十九美元，HTC Vive Cosmos售价六百九十九美元——对大多数玩家来说，这仍然是一笔不小的额外支出，仅为了玩一款游戏。但Valve不需要《Alyx》赚钱。这是一个关键的组织事实，也是理解这款游戏所有设计决策的入口。</p>
+<p>Steam在2019年的收入约为三十五亿美元，按30%的抽成比例估算，Valve的平台收入远超任何单款游戏能带来的利润。Valve Index头显的销量在Alyx公布后确实出现了激增——在2019年第四季度，Index在北美和欧洲多个地区售罄——但这笔硬件收入对Valve的整体财务影响微乎其微。</p>
+<p>做《Alyx》不是为了卖头显，不是为了赚利润，甚至不是为了扩大SteamVR的市场份额。做《Alyx》是因为公司里有一群人想做，而Valve的财务结构允许他们做任何想做的事，不管商业上是否合理。</p>
+<p>这正是纽维尔在2020年3月初接受《卫报》采访时表达的核心意思。他说，《Alyx》不是对市场需求的回应，而是对Valve自身需求的回应——他们需要知道，自己还能不能做出一款伟大的游戏。</p>
+<p>这句话值得仔细拆解。主语是“他们自己”，不是Valve这家公司，而是做游戏的那群人。</p>
+<p>在《Artifact》的惨败和2018-2019年静默离职潮之后，Valve内部对自身创作能力的焦虑已经积累到了一个临界点。那个问题——“Valve还能做游戏吗？”——在扁平走廊里以沉默的方式流转，在离职面谈里以委婉的方式被提及，在每一次轮子桌讨论中被新项目的方向漂移所印证。引力场不仅吸走了公司的资源配置，更重要的是，它侵蚀了作为游戏开发者的自我认同。当你的主要收入来自别人在你平台上销售的游戏，当你的主要日常工作变成维护一个越来越复杂的数字市场，你还算一家游戏公司吗？还是你已经变成了一个收租机构，只不过碰巧由一群游戏开发者创建？</p>
+<p>《Alyx》要回答的，就是这个问题。不是对玩家回答，不是对媒体回答，而是对Valve自己回答。2020年3月23日，游戏发售。Metacritic的评分在发售后六小时内稳定在93分。</p>
+<p>主流游戏媒体给出了一致的正面评价，IGN的评测称其为VR游戏领域的一个里程碑，Polygon的分析聚焦于它如何用交互设计重新定义了VR叙事的可能性，Eurogamer的标题简洁到只有四个单词，大意是Valve回归了。</p>
+<p>评测中反复出现的赞誉集中在几个方面：物理交互的精确度——玩家可以用手抓起几乎任何物体，打开任何抽屉，在战斗中笨拙地摸索弹药时感受到真实的紧张，这种级别的交互密度的设计标准在VR游戏中前所未有；环境的沉浸感——十七号城的废墟在VR里具有一种传统屏幕无法传达的压迫性尺度，联合军士兵的身高比玩家高出半个头，构造体（Strider）从头顶经过时地面会震动，头蟹从黑暗中跳出的瞬间让人本能地后退；</p>
+<p>叙事的成熟——艾利克斯作为主角提供了情感锚点，她的声音和反应让玩家在孤独的VR体验中始终有一个同伴，而结局的叙事转折巧妙地将前传与《半条命2：第二章》的结尾连接起来，不仅没有破坏系列的时间线，反而为后续的可能性重新打开了大门。</p>
+<p>但最值得注意的评价来自一个非传统来源：VR开发者社区。在《Alyx》发售后的一周内，多位独立VR游戏开发者在社交媒体上表达了复杂的情感。</p>
+<p>一方面是钦佩——《Alyx》在技术执行上达到了VR游戏前所未有的高度，它所展示的交互设计理念，尤其是重力手套的远程抓取机制和物理空间的解谜设计，将成为未来VR游戏开发的参考标准。另一方面是焦虑——Valve用一款几乎不考虑商业回报的游戏，将VR游戏的品质门槛抬高到了一个独立开发者难以企及的位置。</p>
+<p>一位匿名的VR开发者在Reddit上发帖称，《Alyx》带来的是一种双重感受：它既是VR游戏的至高标准，也是VR游戏市场的一个棘手信号。独立开发者做不出这样的游戏，而玩家现在会期待每一款VR游戏都达到这个水平。</p>
+<p>这种焦虑不无道理。但更值得审视的是《Alyx》成功的条件本身。这款游戏之所以能达到这样的品质，恰恰是因为Valve不需要考虑商业回报。</p>
+<p>三年的开发周期，六十人的团队，无数次基于VR交互细节的迭代打磨——这些在传统游戏开发的经济模型里是不可持续的。一款只支持VR的游戏，在几百万的装机量里，即使卖出五百万份，每份售价五十九美元，总收入也不过三亿美元。扣除开发成本、营销费用和Steam平台本身的运营成本摊销，利润率远低于Valve从Steam抽成中获得的被动收入。</p>
+<p>换句话说，《Alyx》的成功不是对Valve收租模式的否定，而是收租模式的结果。创作自由——那种“我们不需要它赚钱”的自由——恰恰来自平台权力。Steam每个月从数以万计的第三方游戏销售中抽取30%的佣金，这笔钱让Valve有能力不计成本地做一款只有几百万人能玩的游戏。</p>
+<p>这不是悖论的解决，而是悖论的完美呈现。一家以“不发售的自由”著称的游戏公司，最终靠一个所有人都必须发售的平台获得了真正的自由——而这份自由催生的作品，恰恰证明了它已经不再是那家1998年靠一笔风险投资和一笔银行贷款做出《半条命》的公司。</p>
+<p>在《Alyx》发售后第二天，纽维尔在Reddit上参加了一个AMA问答。有人问他，《Alyx》的成功是否意味着Valve会做更多游戏。他的回答是，他希望如此。他说，Valve有很多想做的事情，而《Alyx》提醒了他们做游戏的快乐。</p>
+<p>这个回答的措辞值得注意。“提醒了他们做游戏的快乐”——这句话暗示在《Alyx》之前，Valve已经忘记了这种快乐，或者至少失去了感知它的能力。收租是一项利润丰厚的业务，但它不能提供创作的满足感。</p>
+<p>对于一个由游戏开发者创立的公司来说，收租永远不会是足够的。《Alyx》的价值不在于它赚了多少钱——它赚的钱对Valve的财务状况来说微不足道——而在于它重新证明了Valve还能做游戏。</p>
+<p>这个证明的代价是昂贵的，昂贵的不是金钱，而是它所依赖的结构性条件：只有在完全不受商业约束的情况下，创作自由才能真正实现；而这份不受商业约束的自由，恰恰来自对所有人施加的商业约束。</p>
+<p>2020年4月，游戏发售后一个月，Valve发布了《Alyx》的关卡编辑工具，允许玩家创建自定义内容。这延续了Valve自《半条命》时代以来的MOD传统——CS、TF、Portal都是从玩家创作中生长出来的，社区炼金术是Valve最独特的竞争力之一。</p>
+<p>但这一次，魔法在VR领域面临新的挑战。VR开发的技术门槛远高于平面游戏，自定义内容的创作需要更专业的技能和更昂贵的设备。创意工坊里出现了几十个玩家自制关卡，其中一些展示了令人印象深刻的创意，但质量与数量都无法与当年的《半条命2》MOD社区相比。收编玩家创造这条生产线，在VR时代可能需要重新设计。社区炼金术的配方依赖低门槛，而VR目前还做不到低门槛。</p>
+<p>Valve Index头显的供应链在疫情初期出现了严重中断。2020年第一季度，全球新冠疫情导致中国的电子制造工厂停工，Index的产量大幅下降。原本计划在《Alyx》发售前后铺货的库存，在预售阶段就基本售罄。</p>
+<p>Valve的硬件团队不得不在二月份紧急调整供应链，将部分生产转移到台湾和越南，但产能恢复需要时间。到《Alyx》发售日，等待Index发货的订单排到了八周以后。这意味着许多被《Alyx》激发的VR购买需求，最终流向了Valve的竞争对手——Oculus Rift S和Quest在2020年3月的销量出现了明显增长。</p>
+<p>这是Valve作为一个“不擅长做硬件”的公司的又一次确认。从Steam Machine到Steam Controller，再到Index的供应链管理，Valve在硬件领域的尝试总是伴随着某种程度的执行失误。但《Alyx》的成功掩盖了硬件的短板——玩家在社交媒体上抱怨买不到Index，但抱怨的焦点是好游戏配不上好硬件，而不是Valve做不好硬件。</p>
+<p>这反而强化了Valve作为游戏开发商的光环。光环是有用的，但光环不能解决供应链问题。光环之下，Valve的结构性矛盾并没有因为《Alyx》的成功而消解。</p>
+<p>正相反，《Alyx》的成功让这个矛盾变得更加清晰，也更加难以回避。一家靠收租获得创作自由的公司，在证明自己还能创作之后，接下来要做什么？</p>
+<p>继续做VR游戏，把《Alyx》的成功扩展成一个系列？回归传统PC游戏，尝试那个被搁置了十三年的“三”？还是回到收租的舒适区，让《Alyx》成为一次美好的例外，一个昂贵的自我证明，然后继续做一家平台公司？</p>
+<p>这些问题在2020年春天没有答案。Valve的扁平结构里，没有人在制定“下一步战略”。项目会自然生长，或者自然消亡。轮子桌会重新排列，引力场会重新分布。</p>
+<p>但《Alyx》留下的东西比一款游戏更多。它留下了一个事实：在2020年，Valve仍然有能力做出行业最高水准的单机游戏，但这份能力只能在收租结构的庇护下施展。它留下了一个问题：如果收租是创作自由的代价，那么这份自由本身是否已经被代价所定义？</p>
+<p>在《Alyx》发售后一周，四楼咖啡区的软木板上，有人在那块空白处贴了一张新的便签。便签上没有手写的情感，没有庆祝，没有感叹号。只有一行打印体，没有署名，措辞平淡得像一份备忘录的草稿，但每一个读到它的人都明白它在问什么。便签上写的是：“现在我们知道了。然后呢？”</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-17.html">上一章</a><a href="index.html">返回详情</a><a href="ch-19.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msr5a6g2oto","chapter":17,"chapterTitle":"虚拟现实里的自我证明","href":"ch-18.html","prevHref":"ch-17.html","nextHref":"ch-19.html","locationLabel":"第 18 章 · 虚拟现实里的自我证明"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>

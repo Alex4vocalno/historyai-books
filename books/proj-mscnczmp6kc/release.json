@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034457274_3604976c91",
+  "projectId": "proj-mscnczmp6kc",
+  "manuscriptVersionId": "mv_180146620f17d62a",
+  "contentHash": "180146620f17d62a2199ca389db927815f34706879e425855c5072b4823e6b4c",
+  "title": "中国算命史",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书旨在作为一部科技史视角下的中国算命术发展编年，核心论点是：算命并非一成不变的迷信遗存，而是以一套可操作的数理模型与符号系统，在不同历史阶段吸收天文、历法、数学、医学及社会心理技术，不断自我修正与推广的实用知识体系。其演进动力来自两大矛盾——一是官方天文历禁与民间预测需求之间的控制与反控制，二是术士内部秘传与文本化、标准化之间的张力。 时间范围上起商周龟卜与筮法萌芽，下至民国时期星命术与报刊、广告等现代媒介结合，重点落在汉唐之间与宋明两代。关键人物包括商周贞人群体、汉代京房、魏伯阳、唐代李虚中、宋代徐子平、明代万民英等，他们既是术数规则的改造者，也是将算命术推入不同社会阶层的节点性人物。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 219079,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:41:46.198Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "灼龟问兆与商周王权预测垄断",
+      "units": 8406
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "大衍之数：周易筮法的符号抽象",
+      "units": 9048
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "简帛日书驱动的数术知识下沉",
+      "units": 10024
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "京房纳甲与汉代天文历禁冲突",
+      "units": 7486
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "骨相星命及中古预测模型独立",
+      "units": 9432
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "敦煌写本所见唐代市井占卜",
+      "units": 8621
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "子平术确立与宋元算法革命",
+      "units": 8727
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "宋代士人命理书写与命运调适",
+      "units": 8486
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "瓦舍勾栏与宋元市井算命空间",
+      "units": 8041
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "医卜同构与宋元身体预测实践",
+      "units": 8004
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "明代坊刻命书与知识通俗传播",
+      "units": 8388
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "世俗文学中的算命叙事与审美",
+      "units": 8384
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "清代通书与日常时间秩序",
+      "units": 10299
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "清代相术图谱与身体视觉认知",
+      "units": 8301
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "报刊广告与命理现代媒介转型",
+      "units": 8711
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "盲派行会与底层术士身份建构",
+      "units": 8720
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "幕府相术与晚清政治权力",
+      "units": 9586
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "民国命理社团与反迷信抗争",
+      "units": 7590
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "女命算法与性别秩序规训",
+      "units": 8491
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "市政规训与近代算命空间重塑",
+      "units": 8385
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "代码编译与算法时代的命理黑箱",
+      "units": 11066
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "心理疗愈与当代命理的情感转向",
+      "units": 8836
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "跨文化消费与神秘主义的符号化",
+      "units": 8666
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "数术遗产与中国人的实用理性",
+      "units": 9050
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "命运编码与复杂人生的降维",
+      "units": 8331
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:57.276Z"
+}

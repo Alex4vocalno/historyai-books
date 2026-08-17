@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456090_23021d8801",
+  "projectId": "proj-msoagtbcrpb",
+  "manuscriptVersionId": "mv_8f897d51504a2389",
+  "contentHash": "8f897d51504a2389fd5e6fe93924df4f92ff3757c0cf09e278c6dea559b7595b",
+  "title": "1997：拳皇之夜",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是一部单年深潜的场景叙事史：1997 年的中国街机厅与《拳皇97》。核心：以一座南方小城的街机厅为主舞台（复合虚构的典型空间，人物为基于时代典型的合成人物，需在后记声明），用一年四季的厅内浮沉写透一个时代——下岗潮里的父辈与逃课的少年、一币通关的江湖规矩、包机房老板的生意经、盗版基板的灰色供应链、八神庵与草薙京在烟雾缭绕里的每晚对决。叙事线：少年阿凯从被虐到称霸再到街机厅关门的一年；暗线：老板娘的账本（电费、基板租金、公安检查）写出一个微型经济体的生死。场景优先：霓虹灯管的嗡鸣、摇杆缝里的烟灰、冬天玻璃门上的雾气、暑假午后排成排的后脑勺。史实骨架：拳皇97 的版本传播时间线、SNK 的远东授权与盗版现实、1997 年的宏观背景（下岗、香港回归之夜街机厅的电视）全部可考；人物对白与内心为文学重构。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 6,
+    "units": 74443,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:40:16.060Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "霓虹灯管下的新年",
+      "units": 9875
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "一币通关的规矩",
+      "units": 10666
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "番禺来的基板",
+      "units": 10974
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "回归之夜的雪花点",
+      "units": 10335
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "秋天的事故",
+      "units": 15421
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "卷帘门落下的下午",
+      "units": 17172
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.179Z"
+}

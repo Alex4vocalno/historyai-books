@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034454483_c8c4702121",
+  "projectId": "proj-msquloghog1",
+  "manuscriptVersionId": "mv_1c69d4c3a011f90f",
+  "contentHash": "1c69d4c3a011f90fe9852f9cc46c7cadc33d45131a1c641f4b5485c2c7e6217e",
+  "title": "大唐战神秦叔宝",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是隋唐名将秦琼（字叔宝，?-638）的历史文学传记，约20万字。事实边界为历史文学档：史实骨架（战役、年代、官职、制度、真实引语）必须可信可核，允许合理拟写对白、动作与克制的内心活动，拟写必须与可核史实相容，不得伪装成史料原文，重大史实与年代不可改。核心论证：秦叔宝是中国军事史上「斗将」传统最完整的标本——一个以个人武勇为职业资本的武人，在隋末群雄的每一次崩塌中用战场表现重新定价自己，最终在凌烟阁功臣榜上排名末位；而正是这个末位者，在此后一千四百年里被说书场、演义和年画层层加冕为民间第一战神。他的一生是乱世武人职业生涯的极致样本，他的身后是中国人造神机制的极致样本。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 235832,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:38:21.602Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "历城少年",
+      "units": 9876
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "来护儿的目光",
+      "units": 9109
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "先登",
+      "units": 8630
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "瓦岗的骠骑",
+      "units": 7397
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "百骑西驰",
+      "units": 10379
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "美良川",
+      "units": 9041
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "柏壁的雪",
+      "units": 11288
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "鼠谷",
+      "units": 7802
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "三千五百玄甲",
+      "units": 9383
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "洛阳的城门",
+      "units": 9472
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "洺水之血",
+      "units": 8098
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "六月四日",
+      "units": 9182
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "功与不功",
+      "units": 9719
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "左武卫大将军",
+      "units": 10045
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "出血数斛",
+      "units": 12008
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "坟前石人马",
+      "units": 11105
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "凌烟阁末位",
+      "units": 9926
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "门神的诞生",
+      "units": 14001
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "昭陵为邻",
+      "units": 8392
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "凌烟阁的逻辑",
+      "units": 8679
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "说书人的选择",
+      "units": 7523
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "门神的机制",
+      "units": 9729
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "卖马当锏的叙事",
+      "units": 8156
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "末位者的加冕",
+      "units": 8298
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "空白处的神",
+      "units": 8594
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:54.485Z"
+}

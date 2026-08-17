@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456831_30a914306c",
+  "projectId": "proj-msmo0oon6lx",
+  "manuscriptVersionId": "mv_f02faeed619e5d4f",
+  "contentHash": "f02faeed619e5d4f571fa1e7219dbb55d0aa9fac769f301229a897887cad059f",
+  "title": "世嘉：一个挑战者的三十年战争",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是世嘉（SEGA）的兴亡史。核心论点：世嘉的三十年是「永远的挑战者」体质如何先成就一家公司、再反噬它的完整标本——街机基因（硬件激进、迭代快、赌性重）让它在客厅游戏机时代三度抢跑（Mega Drive 先发制人、土星仓促迎战、Dreamcast 悲壮一搏），也让它在与任天堂、索尼的消耗战里流尽现金；2001 年退出主机业不是故事的终点，而是身份的重构——从平台商退回内容商，靠索尼克 IP、街机遗产与第三方转型活成另一种世嘉。矛盾线：日本本社与美国世嘉（Sega of America）的路线内战贯穿始终——Genesis 的美式营销奇迹与32X/土星的仓促决策都出自这对矛盾；硬件激进与软件生态的失衡；街机现金流与主机业务烧钱的互搏。…",
+  "category": "战争史",
+  "tags": [
+    "战争史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 38,
+    "units": 333665,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:41:06.413Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "投币机里的战后日本",
+      "units": 7734
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "街机基因的诞生",
+      "units": 11156
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "被收购的挑战者",
+      "units": 9894
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "从街机到客厅的跳跃",
+      "units": 8875
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "美国前哨的诞生",
+      "units": 8405
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "蓝色刺猬的史前史",
+      "units": 8403
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "速度的诞生",
+      "units": 8888
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "十六位机战争的前哨",
+      "units": 8348
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "美国阵线的咆哮",
+      "units": 8010
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "维珍的欧洲赌局",
+      "units": 10564
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "音速星期二的巅峰",
+      "units": 7523
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "本部的反制与32X的种子",
+      "units": 10107
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "32X：自噬的加速",
+      "units": 8432
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "土星：仓促的抢跑",
+      "units": 7599
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "论断：1995年5月11日",
+      "units": 8933
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "索尼的阴影与第三方的叛离",
+      "units": 8497
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "论断：Dreamcast的诞生是世嘉在土星惨败后",
+      "units": 10323
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "索尼克大冒险与创意复兴",
+      "units": 8359
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "最后的日本首发",
+      "units": 7677
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "9/9/99：一场预支的胜利",
+      "units": 9046
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "铃木裕的终极赌注",
+      "units": 8694
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "联网的孤岛",
+      "units": 9441
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "索尼的死亡行军",
+      "units": 8395
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "大川功的最后一课",
+      "units": 7993
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "裁撤与血偿",
+      "units": 8779
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "第三方之路的入口",
+      "units": 11634
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "街机余晖与家用机引力",
+      "units": 8029
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "飒美的合流",
+      "units": 8652
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "索尼克在异乡",
+      "units": 11119
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "旧部的新战场",
+      "units": 7650
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "世嘉飒美的整合阵痛",
+      "units": 8581
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "索尼克的重生悖论",
+      "units": 8600
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "收购者的收购与被收购",
+      "units": 7686
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "街机基因的最后迁徙",
+      "units": 7582
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "索尼克电影与IP的复活",
+      "units": 9506
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "永远的挑战者，永远的幸存者",
+      "units": 8229
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "战壕里的教科书",
+      "units": 8461
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "螺旋熄灭之后",
+      "units": 7861
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.833Z"
+}

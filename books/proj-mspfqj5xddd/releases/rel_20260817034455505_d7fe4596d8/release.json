@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034455505_d7fe4596d8",
+  "projectId": "proj-mspfqj5xddd",
+  "manuscriptVersionId": "mv_354169f8843528e1",
+  "contentHash": "354169f8843528e1cf91d4c9b14134c090a3ac5f66b01a83806f433e7277f79e",
+  "title": "棋牌游戏简史",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是中国棋牌电子游戏三十年产业史（1995-2025，中国主线＋全球视野），约25万字。核心论证：棋牌电子游戏是「最古老的玩法×最新的渠道」反复重演的三十年——玩法层面几乎零创新（斗地主还是斗地主，麻将还是麻将），却在每一代平台上都活成第一批到场者；真正演进的从来不是游戏本身，而是组局方式。棋牌是中国互联网的水电煤级流量底盘，也是娱乐与赌博一线之隔上的永恒试验场，监管与产品三十年互相塑形。四个总纲概念贯穿全书并逐章推进：①「组局革命」——每代平台真正卖的是「凑齐一桌人」的成本下降：茶馆→联众大厅→QQ大厅→房卡建房→小程序拉群，每次组局成本坍缩都重画行业版图；②「一线之隔」——娱乐与赌博的边界工程：积分、金币、房卡、道具的三十年合规变形史，边界每移动一寸都造就一批公司的生与死；③「地方棋牌」——最深的本地化护…",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 278649,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:39:37.633Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "茶馆里的比特前夜",
+      "units": 8141
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "光盘年代，小写的历史",
+      "units": 8133
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "局域网与拨号音，组局的第一次电子化",
+      "units": 8367
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "鲍岳桥与联众的赌注",
+      "units": 10356
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "一个大厅的物理极限",
+      "units": 8368
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "地方牌桌，那些联众未能攻占的城池",
+      "units": 8494
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "海虹控股，一张资本牌桌",
+      "units": 8170
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "看不见的对手，QQ的等待",
+      "units": 8365
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "大厅上线日，降维打击的解剖学",
+      "units": 8196
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "联众的黄昏，一个平台的临终病理",
+      "units": 12105
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "边锋与地方割据，另一种活法",
+      "units": 12351
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "当棋牌游戏以QQ大厅的胜利和边锋的地方稳固完成第",
+      "units": 8684
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "成长的代价，金币的诞生",
+      "units": 8330
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "JJ的第三条路",
+      "units": 8411
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "移动风暴前夜，流量底盘的最后一轮燃烧",
+      "units": 9238
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "全民斗地主，一个时代的情绪出口",
+      "units": 8567
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "房卡出世，一张卡片重画版图",
+      "units": 7566
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "德扑淘金热，华尔街狼与监管刀",
+      "units": 8423
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "闲徕互娱，二十亿的合规赌注",
+      "units": 8368
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "风暴眼，2018与版号之冬",
+      "units": 8367
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "德扑圈之死，一个赛道的集体安乐死",
+      "units": 8459
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "大逃杀，整治风暴下的行业变轨",
+      "units": 8356
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "是全书“危机/转折”阶段的分析性收官章",
+      "units": 8387
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "掼蛋，体制内的组局革命",
+      "units": 8385
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "棋牌出海，另一种逃离与重演",
+      "units": 8438
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "腾讯的棋牌帝国，流量底盘的最后收割",
+      "units": 8605
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "金币不死，合规变形的二十年",
+      "units": 8035
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "被监管塑造的棋牌焦虑，二十年审视",
+      "units": 8297
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "地方不投降，牌桌社会学的最终胜利",
+      "units": 7677
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "常青玩法，向内容范式的最后反驳",
+      "units": 8613
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "三十年牌桌，一部组局简史",
+      "units": 8284
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "常青的尽头，牌桌永不散",
+      "units": 10113
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:55.507Z"
+}

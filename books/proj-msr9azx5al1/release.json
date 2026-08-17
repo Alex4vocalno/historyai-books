@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034454017_c74d089243",
+  "projectId": "proj-msr9azx5al1",
+  "manuscriptVersionId": "mv_9f823805fca3a7ac",
+  "contentHash": "9f823805fca3a7ac1e104010f684eb8969e88e893de6f382b1682e1d18f78866",
+  "title": "佐尔格谍战纪实",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是理查德·佐尔格及其东京情报网的全史（1895-1964，主线 1930-1944），约20万字。核心论证：佐尔格网络是情报史上的完整悖论标本——它两次送出足以改变世界史的情报，一次被彻底无视（巴巴罗萨警告），一次改变了莫斯科会战（日本南进定论）；同一张网、同一批人、同样的手艺，结果的天壤之别证明情报的价值从来不在采集端而在接收端。本书以谍战情报纪实范式写作：紧贴解密档案推进（特高课审讯记录、佐尔格狱中手记、苏方解密电文、奥特使馆档案），信息差就是叙事引擎，行动线与破译线双时间锚交替，引语只用档案原文。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 214849,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:37:48.682Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "巴库的混血儿",
+      "units": 8268
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "战壕里的转向",
+      "units": 8172
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "汉堡到莫斯科",
+      "units": 8398
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "上海站",
+      "units": 8394
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "记者、纳粹、间谍",
+      "units": 8367
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "尾崎秀实与近卫的客厅",
+      "units": 8393
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "克劳森的箱子",
+      "units": 7670
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "宫城与义勇",
+      "units": 8388
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "使馆里的影子",
+      "units": 8515
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "这些电报的精确程度在情报史上前所未有：进攻时间锁",
+      "units": 8391
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "南进的定论",
+      "units": 10941
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "收网的逻辑",
+      "units": 7409
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "十月十八日清晨",
+      "units": 8073
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "审讯室里的坦白",
+      "units": 8422
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "狱中手记的边界",
+      "units": 7883
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "绞架上的十月革命纪念日",
+      "units": 8499
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "二十年的沉默",
+      "units": 9562
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "佐尔格街的悖论",
+      "units": 8422
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "巢鸭的笔迹",
+      "units": 8394
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "石井花子的证词",
+      "units": 8155
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "东京审判中的缺席者",
+      "units": 8373
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "冷战档案里的幽灵",
+      "units": 7776
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "赫鲁晓夫的决定",
+      "units": 13658
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "情报史的位置",
+      "units": 8392
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "接收者的囚笼",
+      "units": 7934
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:54.018Z"
+}

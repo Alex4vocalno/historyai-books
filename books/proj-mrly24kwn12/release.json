@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034458316_333abfbda7",
+  "projectId": "proj-mrly24kwn12",
+  "manuscriptVersionId": "mv_fe4a333115d66b9a",
+  "contentHash": "fe4a333115d66b9a5545ead5b72c895593a894b282505d8dc3068817b71c9340",
+  "title": "柄国十年：张居正与万历新政",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "张居正柄国十年（1572-1582）与万历新政：从裕邸讲官到内阁首辅的权力之路、隆庆政局与高拱的倾轧、考成法整肃官僚机器、一条鞭法与白银财政、清丈田亩与豪强博弈、蓟辽边防与戚继光李成梁、夺情之争与士林反弹、身后抄家与新政的存废，兼及明代中枢制度在张居正手中的极限与代价。",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 140293,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:42:50.805Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "裕邸岁月与政治学徒",
+      "units": 12424
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "隆庆内阁与高拱倾轧",
+      "units": 11104
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "隆庆末局与权力交接",
+      "units": 8843
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "万历初政与高拱倒台",
+      "units": 8724
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "考成法与官僚整肃",
+      "units": 11057
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "考成推行与中枢重塑",
+      "units": 9094
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "考成法与行政机器重塑",
+      "units": 8162
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "清丈田亩与底层数据重构",
+      "units": 8124
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "蓟辽防线与军事工程落地",
+      "units": 12187
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "一条鞭法与白银财政确立",
+      "units": 8496
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "豪强博弈与地方利益洗牌",
+      "units": 8728
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "中枢极限与官僚系统反噬",
+      "units": 9049
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "夺情风波与士林反弹",
+      "units": 8018
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "身死族灭与新政清算",
+      "units": 7911
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "中枢极限与帝国余波",
+      "units": 8372
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:58.318Z"
+}

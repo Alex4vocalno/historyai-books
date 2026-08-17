@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034454249_a8f1153a4c",
+  "projectId": "proj-msr5a6g2oto",
+  "manuscriptVersionId": "mv_ab1ceb4ab6eaad95",
+  "contentHash": "ab1ceb4ab6eaad95e010fce1a29521f5e84ac8dd5433bacf664f1c9d28b65cb4",
+  "title": "蒸汽之国（重写版）",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是 Valve 公司史（1996-2025），约20万字。核心论证：Valve 是游戏产业最大的悖论标本——一家以「不发售的自由」著称的游戏公司，最终靠一个所有人都必须发售的平台统治了 PC 游戏；一家号称没有老板的扁平公司，建立了业内最深的收租结构。Valve 的二十五年是「创作自由」与「平台权力」这对矛盾在同一家公司体内的完整演化史：它先赢得了做游戏的自由，再用这份自由建造了让别人不自由的引力场。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 221495,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:38:19.164Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "微软来的百万富翁",
+      "units": 8326
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "雷神之锤上的房子",
+      "units": 9274
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "迟到的完美",
+      "units": 8993
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "反恐精英的意外血统",
+      "units": 10196
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "补丁工具里的特洛伊木马",
+      "units": 7806
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "强制激活之夜",
+      "units": 7998
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "章节式发行的实验室",
+      "units": 7943
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "橘盒里的意外之王",
+      "units": 8309
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "平台引力场的形成",
+      "units": 7886
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "免费浪潮与帽子经济",
+      "units": 8386
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "众筹奖金的发明",
+      "units": 11103
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "绿光的民主伪装",
+      "units": 8160
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "客厅里的溃败",
+      "units": 8531
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "付费的背叛",
+      "units": 8158
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "三之诅咒",
+      "units": 10176
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "引力场里的纸牌屋",
+      "units": 9395
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "扁平之下的暗流",
+      "units": 8271
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "虚拟现实里的自我证明",
+      "units": 8774
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "掌机上的第二次赌注",
+      "units": 10029
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "反垄断的引力场",
+      "units": 7681
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "两个Valve的战争",
+      "units": 8428
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "30%的松动与新时代",
+      "units": 8361
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "社区炼金术的极限",
+      "units": 8364
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "阀门里的引力",
+      "units": 11735
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "两个阀门",
+      "units": 9212
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:54.250Z"
+}

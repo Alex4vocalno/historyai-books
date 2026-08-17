@@ -1,0 +1,140 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>四个名字 · 雅达利大崩溃（重写版）</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>雅达利大崩溃（重写版）</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 5 章 · 四个名字</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 5 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>车库里的示波器</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>家庭战争</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>西装与热浴缸</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>印钞机的秘密</span></a><a class="chapter-link active" href="ch-5.html"><span>05</span><span>四个名字</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>开闸</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>宠物食品与游戏卡带</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>吃豆人的圣诞节</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>五周</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>电话会</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>退货潮</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>午夜车队</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>折扣桶里的价格尸体</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>季报上的数字雪崩</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>雅达利的尸体解剖</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>真空</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>守门人的图纸</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>新世界的入场券</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>任天堂的律师信</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>红白机上的美国</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>幽灵的诉讼</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>阿拉莫戈多的挖掘机</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>守门人的黄昏</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>墓碑上的答案</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>锁芯里的幽灵</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 5 章</p><h1>四个名字</h1><div class="reader-content"><p>大卫·克雷恩把雅达利1978年的年度报告摊在厨房桌上时，手指停在了高管薪酬那一页。这份报告是他在公司档案室复印的，封面印着华纳通讯的标志性logo，内页用铜版纸印刷，高管照片排列整齐，每张照片下面标注着姓名、职务和薪酬区间。克雷恩认识其中几张面孔——雷·卡萨尔，总裁兼CEO，年薪加奖金超过四十万美元；吉恩·利普金，市场副总裁，超过二十万美元。其他名字他不认识，都是华纳派来的管理层，来自纺织业、食品业、唱片业，没有一个写过一行代码。</p>
+<p>他翻到“产品与研发”那一栏。那里没有照片，没有姓名，只有一个数字——研发部门总支出，包括所有工程师的薪资、设备采购和办公费用。克雷恩自己算了一下，他的年薪是两万七千美元，税前。他在1979年完成的《太空侵略者》2600移植版，在当年第三季度为华纳创造了超过一亿美元的零售额。</p>
+<p>他打开计算器，按下两个数字，看着屏幕上的比例——三百七十比一。他合上年报，放进抽屉。那是1979年10月初。</p>
+<p>一周后，克雷恩在午餐时向拉里·卡普兰提出了一个具体问题：如果他们离开雅达利，自己成立公司，专门为2600开发游戏，技术上可不可行。卡普兰的工位在克雷恩隔壁。他是四个人中最后加入雅达利的，之前在硅谷一家硬件公司做芯片测试。加入雅达利后，他被分配到2600的维护团队，任务是修复现有游戏中的bug。</p>
+<p>但卡普兰对修bug不感兴趣，他感兴趣的是TIA芯片本身——电视接口适配器，2600的心脏，所有图形和音效的源头。TIA是一颗奇怪的芯片。它没有帧缓冲器，没有标准图形处理器，不存储完整的画面数据。它要求程序员在每一帧扫描中精确控制电子束的行为——在电子束扫描屏幕的每一行时，CPU必须实时向TIA寄存器写入图形数据，时序偏差哪怕一微秒，画面就会撕裂。这意味着程序员不是在写“显示什么图形”，而是在写“如何显示图形”，二者之间的区别，就像写一本书和设计一台印刷机之间的区别。</p>
+<p>卡普兰花了六个月时间，用逻辑分析仪逐段追踪TIA的信号输出，画出了完整的时序图。这份图标注了TIA的每一个寄存器地址、每一个信号端口、每一条扫描线的精确时序参数。在雅达利内部，这份图没有正式文档编号，它只存在于卡普兰的笔记本里。</p>
+<p>当克雷恩问他技术上可不可行时，卡普兰的回答是：技术上完全可行，TIA没有任何加密机制，它只是一颗标准输出芯片，任何人都可以买一台2600拆开，用逻辑分析仪读出同样的时序，然后自己写代码。这个回答的技术含义，克雷恩当时没有完全理解。他后来才意识到，卡普兰说的“技术上完全可行”，等于说“雅达利对2600的内容控制权为零”。</p>
+<p>整个商业模式依赖一个前提：刀片必须由剃须刀厂商自己制造。但这个前提在2600的硬件上不存在——这台机器的设计者从未考虑过“防止第三方卡带运行”的问题，因为在1977年，这个概念本身就不存在。艾伦·米勒是四个人中最早看到法律含义的人。</p>
+<p>他的专业是图形渲染，1977年加入雅达利时，被分配的任务是开发内部游戏开发工具。2600的汇编语言编程极其繁琐，每一个图形对象都需要手动配置，反复编写相同的底层代码。米勒用两年时间开发了一套宏库和调试工具，把常用的图形函数封装成可复用的模块，让游戏开发周期从六个月缩短到三到四个月。这套工具没有正式名称，没有版本号，没有进入任何公司文档，它只是程序员之间共享的一套代码片段。</p>
+<p>当克雷恩把离开的想法告诉米勒时，米勒的第一个反应是产权问题。他说，如果他们在离开后继续使用这套工具，雅达利可以起诉他们侵犯商业秘密。但如果他们放弃这套工具，从零开始重写所有代码，那雅达利就只剩下一个武器——版权。</p>
+<p>而版权保护的是代码本身，不是代码实现的功能。如果动视的程序员用不同的算法、不同的数据结构、不同的汇编指令序列实现同样的游戏功能，版权法无法阻止他们。米勒拿出了一份他整理的备忘录，记录了他对相关判例法的研究。</p>
+<p>备忘录的结论是：雅达利能主张的商业秘密，仅限于内部文档——卡普兰的时序图如果用了内部测试数据，可能构成侵权；但如果卡普兰重新测试公开销售的2600主机，用公开来源的数据重画时序图，那就不是商业秘密。雅达利能主张的版权，仅限于他们自己写的代码——如果动视的代码没有一行与雅达利的代码相同，版权侵权就无法成立。卡普兰听完米勒的分析，说了一句话：“问题不是技术，问题不是法律，问题是他们要多少时间才能意识到这一点。”</p>
+<p>鲍勃·怀特海德是最后一个加入讨论的。四个人中最年轻的，1978年才从斯坦福毕业，在雅达利的工作是优化ROM使用效率。4KB——四千零九十六个字节——是2600卡带的标准ROM容量。在这四千个字节里，程序员需要塞进游戏逻辑、图形数据、音效序列、用户界面和所有必要的数学计算。怀特海德开发了一套压缩算法，可以把图形数据压缩到原来的百分之六十，让卡带在不增加ROM成本的情况下呈现更丰富的画面。这套算法同样没有正式文档，存在于怀特海德的笔记本里。</p>
+<p>当克雷恩告诉他计划时，怀特海德问的第一个问题是：我们需要多少启动资金。克雷恩算过。四台开发用的2600主机，一台逻辑分析仪，一台EPROM烧录器，几个月的房租和生活费——大约需要五万美元。四个人的年薪都在两万五到三万之间，但每人几乎都没有积蓄。</p>
+<p>找钱是第一步。但更关键的问题是：找到钱之后，他们要给投资人讲一个什么样的故事。这个故事需要一个类比。电子游戏业在1979年没有任何可参照的商业模式。</p>
+<p>它太新了，新到华尔街分析师不知道该把它归类为玩具业、娱乐业还是消费电子业。但硅谷不缺类比——音乐产业提供了一个现成的模板。唱片公司和唱片机的关系，和游戏卡带与游戏机的关系，在结构上完全一样：硬件是平台，内容是利润来源，创作者被雇佣，版权属于公司。但这个类比隐含着一个危险的推论：如果唱片业的创作者——歌手、词曲作者、乐队——能够从唱片公司独立出来，成立自己的厂牌，那游戏业的创作者为什么不能？</p>
+<p>这个推论的第一个提出者不是克雷恩，不是卡普兰，不是米勒，更不是怀特海德。提出它的人叫吉姆·莱维，一个前音乐行业高管，在1979年秋天正在寻找新的投资方向。</p>
+<p>莱维在唱片业干了二十年。他见过唱片业的权力结构运作：唱片公司控制录音室、发行渠道、电台推广、零售货架。创作者可以独立，但独立的代价是失去所有管道。</p>
+<p>莱维看电子游戏业时，看到的是完全相同的结构——雅达利控制开发工具、控制卡带生产线、控制批发渠道、控制零售货架——但有一个关键区别：电子游戏业的发行渠道，没有唱片业那么密集的守门人。一个独立游戏发行商不需要说服电台DJ播放自己的游戏，不需要跟唱片连锁店签订独家上架协议，不需要支付昂贵的录音室费用。他只需要一台EPROM烧录器、一片4KB的ROM芯片、一个塑料外壳，和一个愿意卖他卡带的零售商。</p>
+<p>莱维通过一个共同朋友听说了克雷恩四人的情况。1979年10月第三个星期，他在帕洛阿尔托一家咖啡店见了克雷恩和卡普兰。他带来了一份文件，这份文件后来被证明是电子游戏产业史上最重要的投资备忘录之一。</p>
+<p>莱维在备忘录里画了一个图。图的左边是雅达利的商业模式：一个公司垂直整合所有环节——硬件设计、游戏开发、卡带生产、批发分销。程序员是受薪雇员，没有署名，没有分成。图的右边是他设想的新模式：硬件平台所有者继续生产和销售主机，但卡带内容由独立的第三方公司完成。</p>
+<p>这些公司向平台所有者支付一笔授权费，自行承担开发成本和生产风险，利润由第三方公司和平台所有者分享。每卖出一张卡带，支付售价的百分之十到十五给雅达利——这就是莱维设想的权利金。</p>
+<p>克雷恩看到这个图时，第一个反应是警觉。他问莱维：雅达利为什么要同意。莱维的回答是：他们可能不会同意。但如果他们不同意，他们就必须在法庭上证明2600的硬件平台是他们的私有财产，任何人为2600开发游戏都需要他们的许可。这个论证在现有法律框架下非常脆弱——2600的硬件没有专利保护游戏兼容性，没有版权保护接口规范，没有加密芯片阻止未授权卡带运行。雅达利能主张的，只有商业秘密。</p>
+<p>莱维的律师已经研究过这个问题。结论是：如果动视的程序员不使用雅达利内部开发文档，而是从零开始，通过公开渠道购买2600主机，用逻辑分析仪反向工程硬件接口，那商业秘密的主张很难成立。反向工程在加州法律下是合法的，只要不涉及对加密措施的破解——而2600没有任何加密措施。</p>
+<p>这个法律判断，在1979年10月是纯理论的。没有法院判决过类似案件，没有先例可参考。莱维的律师只是给出了一个风险评估，不是确定的结论。但克雷恩四人需要做的，正是在这个不确定性中做出决定。</p>
+<p>他们用了几周时间反复讨论，在午餐时，在停车场里，在电话中。讨论的焦点逐渐从“要不要离开”变成“离开之后诉讼怎么办”，再变成“如何在诉讼期间生存下来”。</p>
+<p>克雷恩提出一个策略：如果雅达利想打法律战，他们就打市场战。法律战雅达利有钱，市场战他们有好产品。雅达利可以负担漫长的诉讼，但雅达利不能承受公开的市场竞争——如果动视的游戏质量明显高于雅达利的内部游戏，零售商就会进动视的货，消费者就会买动视的卡带。雅达利在法庭上每拖一个月，动视的市场份额就多一个月的增长空间。莱维的律师给出的时间表是：如果雅达利申请禁令，法院大概需要六个月到一年才能做出裁决。六个月到一年，足够动视推出两到三款游戏，建立品牌认知，在零售商那里站稳脚跟。</p>
+<p>一旦零售商和消费者习惯于动视的存在，雅达利再想用法律手段抹掉这个已经存在的市场，就会面临巨大的商业和政治阻力。这个策略的前提是：动视的游戏真的比雅达利的更好。</p>
+<p>这个前提的责任，落在了克雷恩身上。克雷恩在雅达利最著名的作品是《太空侵略者》的2600移植。这款移植的技术难度远比普通玩家想象的要大。街机版《太空侵略者》使用专用硬件，一个定制图形芯片可以同时显示五十五个外星人，每个都是独立动画帧，移动速度各不相同，碰撞检测需要在每一帧扫描中精确计算。2600的TIA芯片只能同时显示两个玩家对象、两个导弹对象和一个球对象——总共五个可移动图形元素。克雷恩需要在五个硬件对象上模拟五十五个外星人的视觉效果。他的方法是“复用”——在每一帧扫描中改变对象的位置和图形。电子束从屏幕顶部开始扫描时，TIA的对象显示为第一排外星人；当电子束移动到下一行时，同一个对象被重新配置为第二排外星人。这需要精确到微秒级的时序控制，任何一行时序偏差都会导致画面撕裂。</p>
+<p>克雷恩在六周内完成了全部代码。他先用三天在街机厅反复玩《太空侵略者》，记录下每一种外星人的移动模式、攻击频率、音效序列和关卡节奏。然后回到办公室，在没有开发文档的情况下，用6502汇编语言一行一行地写。4KB的ROM里，他塞进了整个游戏逻辑、五十五个外星人的状态机、音效生成器和得分系统，剩余空间不到一百个字节。六周后，他把EPROM芯片插入2600卡带槽，打开电源，屏幕上的外星人开始移动。他站起来，走出办公室，在停车场里抽了一根烟，然后回到工位上开始调试bug。</p>
+<p>这款游戏在1980年3月上市，为雅达利带来了超过一亿美元的营收。克雷恩的年薪是两万七千美元。没有分成，没有奖金，游戏包装盒上没有他的名字，公司内部邮件没有提到他，华纳年报里没有他的照片。他提过要求。1979年夏天，他直接向部门主管提出两件事：在游戏包装盒上标注程序员姓名，按销售额支付百分之一到百分之二的分成。</p>
+<p>他的理由是，程序员不是流水线工人，游戏不是标准零件，一款游戏的质量和销量直接取决于编写它的程序员的能力。如果雅达利想留住最好的程序员，它需要建立一个类似唱片业版税体系的激励机制。</p>
+<p>雅达利管理层的回复，是一句后来被反复引用的话。这句话的出处，在不同当事人的回忆中存在分歧。有人说是在一次部门会议上，有人说是在走廊里的非正式交谈，有人说是通过中间人传话。但四个人对这句话的内容记忆一致——“你们只是毛巾设计师。”意思是，程序员设计游戏，和美工设计包装盒上的毛巾图案，本质上是一回事。都是公司付钱雇人完成的工作，都不应该在工作完成后对公司主张任何额外权利。</p>
+<p>这句话在1979年秋天传遍了雅达利的工程部门。每一个程序员都听到了，每一个程序员都记住了。克雷恩四人后来在采访中的反应各有不同——克雷恩是平静的陈述，卡普兰是讽刺的冷笑，米勒是理性的分析，怀特海德是直接的愤怒。但四人的判断一致：这句话把他们推出了门。</p>
+<p>不是因为这句话侮辱了他们——虽然它确实侮辱了他们。而是因为这句话暴露了雅达利管理层对游戏开发的根本性误解。管理层认为游戏开发是一个可以标准化的流程，程序员是可以替换的零件，好的游戏和差的游戏之间的区别只是运气和营销预算。</p>
+<p>但克雷恩知道这不是真的。他知道《太空侵略者》的成功不是因为他运气好，而是因为他在六周内完成了一个几乎不可能实现的任务，公司里没有第二个人能做到。如果他走了，雅达利就失去了这个人，也失去了这个能力。</p>
+<p>管理层的错误不在于工资太低——两万七千美元在1979年的硅谷是合理的工程师薪资。错误在于他们拒绝承认程序员的个体差异对产品质量的决定性影响。</p>
+<p>1979年10月最后一个星期天晚上，四个人在克雷恩家的客厅里坐下，做最后的决定。咖啡桌上摊着几张纸——莱维的投资意向书，卡普兰的TIA时序图，米勒的版权法分析摘要，怀特海德的启动资金预算表。他们讨论的不是“要不要离开”，那个问题已经讨论过太多次了。</p>
+<p>他们讨论的是“离开之后，雅达利起诉我们，我们能不能赢”。卡普兰说：技术上，雅达利没有任何办法阻止我们。TIA芯片的秘密不在芯片里，在我们脑子里，但同样的东西也在任何一台公开销售的2600里。任何人只要买一台机器、接上逻辑分析仪，就能得出同样的结论。我们没有偷任何东西，我们只是用了我们自己的知识。</p>
+<p>米勒说：法律上，商业机密的主张需要证明我们用了雅达利内部信息。我们不需要用。我把开发工具全部扔掉，重写一套。卡普兰把时序图重新画一遍，基于公开渠道购买的机器。怀特海德把压缩算法用不同思路实现。代码完全不一样，但功能一样。版权法保护的是代码，不是功能。</p>
+<p>怀特海德说：钱的问题。莱维答应投十万，占股百分之二十。我们四个人每人百分之二十。十万块够我们租办公室、买设备、付六个月工资。六个月之后，我们需要有两张卡带在市场上，圣诞节前上市。如果卖得动，我们就活下去。如果卖不动，我们就回去找工作。克雷恩说：雅达利会起诉我们，不管我们有没有违法。</p>
+<p>诉讼本身的成本就是他们的武器。他们不需要赢，只需要拖——拖到我们的钱烧完，拖到零售商不敢进我们的货，拖到莱维撤资。我们必须在被拖垮之前让市场知道我们是谁。他停了一下，然后说了一句后来被反复引用的话：“如果雅达利想打法律战，我们就打市场战。法律战他们有钱，市场战我们有产品。”</p>
+<p>1980年1月，四个人分别递交了辞呈。没有同时交，间隔了大约一周，以免引起管理层警觉。雅达利的HR部门完全没有意识到这四份辞职之间的关系。他们被当作四份独立的离职申请处理，标准流程，标准表格，标准离职面谈。克雷恩在面谈中被问及离职原因，他回答“个人发展”。HR把这个回答记在表格上，放进档案，递给他最后一张工资支票。流程走完了。四个人走出雅达利大楼那天，卡普兰回头看了一眼那座低矮的灰色建筑，说了一句话:“他们还不知道发生了什么。”</p>
+<p>他们确实不知道。雅达利管理层在那一年的大部分时间里，都没有意识到这四份离职申请的真正意义。</p>
+<p>直到1980年7月，当动视的第一批卡带在夏季消费电子展上亮相时，雷·卡萨尔才第一次看到“动视”这个名字，才第一次意识到，有人在做一件他从没想过可能的事——在雅达利的平台上，卖不是雅达利生产的游戏。卡萨尔的第一反应是起诉。</p>
+<p>雅达利于1980年8月向联邦法院提起诉讼，指控动视侵犯版权、侵犯商业秘密、不正当竞争，索赔金额高达千万美元，并要求法院立即发布禁令，禁止动视卡带在市场上销售。诉讼状的核心指控是：动视的四名创始人在雅达利工作期间获取了2600硬件的专有技术信息，在离开后利用这些信息为雅达利的竞争对手开发产品，构成对商业秘密的侵犯。</p>
+<p>动视的回应策略，是莱维和律师团队在几个月前就设计好的。他们在法庭上提出：动视的程序员从未使用过雅达利内部开发文档，所有代码都是从零开始编写，基于对公开销售的2600主机的反向工程。</p>
+<p>他们提交了卡普兰重新绘制的TIA时序图——每一页都标注了“基于公开可获取的2600主机测试数据”，没有引用任何雅达利内部文件。他们提交了米勒重新编写的开发工具——完全用不同的算法和数据结构实现，功能相似，但代码没有一行与雅达利内部工具相同。他们提交了怀特海德重新设计的压缩算法——不同的实现路径，不同的数学原理，不同的汇编代码。</p>
+<p>法官在审查这些证据时，面临一个根本性的法律问题：2600的硬件平台，究竟是一种受法律保护的专有财产，还是一种任何人都可以兼容的公开标准。如果是前者，动视的行为就是侵权；如果是后者，雅达利无权阻止任何人开发兼容卡带。</p>
+<p>这个问题，在1980年的美国法律中没有现成答案。与硬件兼容性相关的判例法主要集中在计算机行业——IBM个人电脑兼容机诉讼——但电子游戏机在法律上既不是计算机，也不是传统消费电子产品，它处于灰色地带。法官需要做出一个决定，这个决定将不仅影响动视和雅达利，还将影响整个电子游戏产业的未来结构。</p>
+<p>1980年秋天，法官拒绝了雅达利提出的临时禁令申请。这意味着在正式判决出来之前，动视可以继续销售自己的卡带。</p>
+<p>莱维的律师团队判断，法官之所以拒绝临时禁令，是因为雅达利无法证明“不可挽回的损害”——如果动视的卡带确实侵犯了雅达利权利，雅达利可以在最终判决后获得经济赔偿，但如果禁令错误地阻止了合法的竞争，对动视造成的损害是无法用金钱弥补的。一个初创公司被错误地禁止销售产品，就会死掉；一个大公司被错误地允许了竞争者，它还可以通过市场竞争来应对。</p>
+<p>1980年12月，动视的两款游戏——克雷恩的《拖拽比赛》和怀特海德的《拳击》——正式上市。卡带包装盒的背面，印着程序员的姓名。这是电子游戏史上第一次，消费者在购买游戏时能看到是谁写了这款游戏。包装盒正面，动视的logo——一个风格化的字母A，用彩虹色条纹填充——印在雅达利2600的logo旁边，两个logo大小相当，地位平等。零售商注意到了这个变化。</p>
+<p>一个新的品牌，用新的包装，用新的营销方式——程序员署名、游戏截图占据包装盒正面、说明文字列出游戏技术特点——在卖比雅达利自己的游戏更贵的卡带。《拖拽比赛》定价二十九美元九十五美分，比雅达利第一方卡带贵了五美元。这个定价策略是莱维坚持的，他的理由是：如果动视的游戏更好，就应该卖得更贵，价格信号本身就是质量信号。如果动视以低价策略进入市场，等于在告诉消费者“我们的游戏不如雅达利的”，这会在品牌认知上造成永久性伤害。</p>
+<p>1980年圣诞节，两款游戏的销量超过了雅达利同期推出的几款第一方游戏。零售商开始追加订单，消费者开始在口口相传中提到“动视”这个名字，雅达利的法务部门在准备下一轮诉讼材料。</p>
+<p>1981年春天，联邦法院法官再次驳回雅达利的禁令申请。法官在裁定书中写了一段话：“原告指控被告侵犯了其商业秘密，但证据显示，被告所使用的技术信息可以通过对公开市场上销售的产品进行反向工程获得。反向工程，在缺乏合同约束或加密保护的情况下，是合法的竞争行为。”</p>
+<p>这段话确立了一个法律原则：如果硬件平台没有技术保护措施，任何人都可以合法地通过反向工程为其开发兼容软件。法官在写下这段话时，考虑的是动视这一个案例，考虑的是这四个程序员是否合法地使用了他们的知识。他没有考虑——也不可能考虑——这个判决对整个产业意味着什么。</p>
+<p>他没有想到，这个判决打开了一扇门，让任何人——不仅是像动视这样有技术实力的公司，也包括没有技术实力的公司，甚至包括没有任何游戏开发经验的食品公司、玩具公司、制药公司——都可以合法地生产2600卡带，只要他们能找到一个会写6502汇编代码的人。</p>
+<p>克雷恩四人也没有想到。1979年10月那个晚上，他们在克雷恩客厅里讨论的是如何离开雅达利、成立自己的公司、拿到应得的署名和分成。他们讨论的是个人权利，不是产业结构。他们想要的，是在游戏包装盒上印上自己的名字，是按销售额拿到百分之一到百分之二的分成，是在雅达利体系内获得作为创作者的基本尊重。他们没有得到这些，所以他们离开了。</p>
+<p>但当他们离开时，他们打开了一个比个人权利大得多的盒子——平台控制权的终结。在动视成立之前，游戏产业的权力结构是垂直整合的：硬件制造商控制所有内容，消费者只能买到硬件制造商生产的游戏，程序员是制造流程中的一环，没有独立声音。</p>
+<p>动视的诞生打破了这种垂直整合。它证明了内容生产者可以独立于硬件平台生存，证明了消费者会为第三方游戏付费，证明了零售商愿意销售不是硬件制造商生产的卡带。这三个证明，在商业上的意义是革命性的。它们创造了一个全新的市场——第三方游戏发行市场。</p>
+<p>这个市场在接下来的三年里会爆炸式增长，从1980年的一家动视，到1982年的数十家第三方发行商，到1983年数百家公司涌入，几千款游戏上市，质量无人把关，价格互相踩踏，最终把整个市场冲垮。这场崩溃的种子，在1979年10月那个晚上，当克雷恩把雅达利年报摊在厨房桌上、看到高管薪酬那一页时，就已经埋下了。</p>
+<p>不是因为他想要更多钱。是因为他想要一个名字，而雅达利告诉他，他不配有名字。克雷恩在1981年接受一家行业杂志采访时说了一句话：“我们证明了程序员不需要雅达利。”</p>
+<p>他说得对。但这句话的完整版本应该是：我们证明了程序员不需要雅达利，也证明了雅达利不需要任何守门人。而一个没有守门人的平台，最终会毁灭它自己。</p>
+<p>两万七千美元的年薪，十万的启动资金，千万美元的诉讼索赔。从这三个数字到1983年整个北美电子游戏市场的崩溃，之间还有三年时间。</p>
+<p>门已经打开，动视是第一个走进来的，也是最后一个带着合理的理由走进来的。后来者的理由不再是“署名和分成”，而是“赚钱”。二者在法律上同样合法，在后果上截然不同。当合法的事情大量地、同时地、无节制地发生，合法与合理之间的界限开始模糊，最终变成结构的灾难。</p>
+<p>这就是“无门槛的诅咒”的第一幕：当守门人失职时，最优秀的人会最先离开，因为他们的机会成本最高。他们的离开，不是因为他们在破坏规则，而是因为他们发现规则根本不存在。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-4.html">上一章</a><a href="index.html">返回详情</a><a href="ch-6.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-mspu01oun7d","chapter":4,"chapterTitle":"四个名字","href":"ch-5.html","prevHref":"ch-4.html","nextHref":"ch-6.html","locationLabel":"第 5 章 · 四个名字"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>

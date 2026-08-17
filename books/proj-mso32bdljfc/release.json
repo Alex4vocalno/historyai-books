@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456459_84eb973f9d",
+  "projectId": "proj-mso32bdljfc",
+  "manuscriptVersionId": "mv_a16bcacc997e4367",
+  "contentHash": "a16bcacc997e4367772deeb7de020d2d4cf97e82fa2e659fd6d943f853d31cf9",
+  "title": "The Space Race: From Sputnik to the Sea of Tranquility",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 16,
+    "units": 332066,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:40:29.276Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "Chapter 1 The Beep That Shook the West (October 1957)",
+      "units": 20853
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "Chapter 2 The Agency Born of Panic",
+      "units": 22617
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "Chapter 3 The Chief Designer’s Shadow (1959-1961)",
+      "units": 20948
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "Chapter 4 The V-2 Inheritance (1945-1957)",
+      "units": 16064
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Chapter 5 Seven Men, One Nation’s Gaze (1959-1960)",
+      "units": 21673
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Chapter 6 The First American Leap (1961–1962)",
+      "units": 20397
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Chapter 7 The Deadline Born of Crisis",
+      "units": 22070
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Chapter 8 The Last Mercury and the Vostok Triumph",
+      "units": 19847
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "Chapter 9 A Mirage of Parity (1963-1964)",
+      "units": 19926
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Chapter 10 The Kremlin’s Unwinnable War",
+      "units": 23975
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Chapter 11 The Chief Designer’s Final Autumn (1965–1966)",
+      "units": 20937
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "Chapter 12 The Inferno That Rebuilt a System (January 1967–December 1967)",
+      "units": 20505
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "Chapter 13 The Year of Two Orbits",
+      "units": 21096
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "Chapter 14 The Sea of Tranquility (July 1969)",
+      "units": 18303
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "Chapter 15 Legacy and Judgment (1969–1970)",
+      "units": 22262
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "Chapter 16 What the Moon Left Behind (1969–1972)",
+      "units": 20593
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.460Z"
+}

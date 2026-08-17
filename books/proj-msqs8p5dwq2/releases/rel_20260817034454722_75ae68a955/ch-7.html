@@ -1,0 +1,160 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>一张机票与三把钥匙 · 俄罗斯方块：一个方块的冷战旅行（重写版）</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>俄罗斯方块：一个方块的冷战旅行（重写版）</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 7 章 · 一张机票与三把钥匙</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 7 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>计算中心第六层的夜</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>四格骨牌的数学</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>莫斯科地下弧</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>布达佩斯橱窗</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>铁幕两侧的罗生门</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>任天堂的赌注</span></a><a class="chapter-link active" href="ch-7.html"><span>07</span><span>一张机票与三把钥匙</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>灰色大楼里的三方盲棋</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>合同上的国家签名</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>横井军平的灰色卡带</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>一亿份的全球化</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>Maxwell的复仇</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>法庭上的铁幕残片</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>国家瓦解时的无形财产</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>作者的名字重新出现</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>版税寄往何处</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>蓝色方块落进手游时代</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>大脑里的方块</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>克隆战争</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>屏幕的裂变</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>触屏上的幽灵</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>大逃杀与新生代</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>再拍一次冷战</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>一个方块的世界史</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>铁幕两侧的罗生门（25）</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 7 章</p><h1>一张机票与三把钥匙</h1><div class="reader-content"><p>别利科夫把文件夹合上，推到桌角。他不需要再看了。</p>
+<p>那份1986年6月6日签署的“计算机软件创作协议”只有三页纸，正文用打字机俄文敲成，第二页附有手写补充条款，第三页是签名栏。帕基特诺夫的名字签在栏底，墨迹深蓝，现在已经有些褪色。两年半来，这份文件躺在ELORG档案柜里，归类标签是“软件出口—其他”，夹在一份保加利亚磁盘驱动器出口合同和一份捷克印刷电路板报价单之间。没有人翻阅过它。没有人需要翻阅它。</p>
+<p>ELORG——全苏电子设备外贸联合体——不是一家游戏公司，甚至不是一家软件公司。它是苏联部长会议对外贸易部下属的进出口机构，负责将苏联电子工业产品销往西方市场：真空管、电阻器、计算机配件、偶尔的软件包。它的工作流程是：苏联工厂生产，ELORG标价，西方买家付款，外汇进账。ELORG不评估产品的商业价值，不分析市场竞争，不关心终端用户。它出售电子元件的方式，和一个鱼罐头厂出售鲱鱼罐头的方式没有本质区别。</p>
+<p>俄罗斯方块进入ELORG的档案柜，纯属偶然。1986年春天，苏联科学院计算中心的一位负责人向ELORG提交了一份“建议出口软件产品清单”，上面列着十几个程序的名字，其中一个叫“俄罗斯方块”。清单上的描述只有一行字：“逻辑游戏程序，Electronika 60平台，支持IBM PC移植。”没有人解释这个游戏怎么玩，没有人附上用户反馈，没有人提供市场分析。ELORG的工作人员按照标准流程，找到程序的作者，让他签一份标准格式的“计算机软件创作协议”，把程序的使用权转让给ELORG，然后归档，等待西方买家询价。</p>
+<p>帕基特诺夫签了。他当时月薪一百八十卢布。ELORG的工作人员没有向他解释协议条款的含义，他也没有问。在苏联体制里，一个科学院雇员写的程序天然属于国家——这件事不需要解释。协议只是给这个天然归属权补上一份书面记录，就像给一座已经盖好的房子补办一张房产证。</p>
+<p>帕基特诺夫在签名栏写下自己的名字时，唯一做的事情是在第二页加了一行手写补充条款：“创作者保留作为程序作者的署名权，并有权在苏联境内以非商业目的使用该程序。”这是他为自己争取到的全部。不是版税，不是分成，不是任何形式的金钱回报。只是署名权。只是承认这个程序是他写的。</p>
+<p>这份协议在苏联法律语境下是清晰的。它意味着ELORG代表国家拥有俄罗斯方块，有权在国际市场上出售它的使用权。帕基特诺夫留不下任何东西，除了他的名字。但在国际版权框架里，这份协议几乎无法对应任何标准权利类别。它没有界定“使用权”的范围——是独占许可还是非独占？是全部权利还是部分权利？是终身授权还是有期限？它没有定义“程序”的涵盖范围——是源代码本身还是包括任何形式的改编？是仅限PC平台还是覆盖所有计算设备？它没有规定ELORG的履约义务，没有约定争议解决机制——如果出现权利纠纷，应该在哪个司法管辖区、适用哪国法律、由哪个仲裁机构裁决？</p>
+<p>这些问题在1986年没有人问。因为没有人想到俄罗斯方块会有争议。没有人想到这个由字符块组成的逻辑游戏会走出苏联，走遍世界，走到三个不同国家的公司为之争夺、倾轧、对簿公堂的地步。没有人想到，这份三页纸的文件，会成为冷战末期最复杂的知识产权谈判的核心文件。而别利科夫，在1989年1月30日的早晨，坐在办公桌前，面对的正是这份文件，以及它制造出来的巨大解释真空。</p>
+<p>别利科夫接手ELORG主席职位才十四个月。他的前任在1987年秋天退休，留给他的档案柜里塞满了数百份类似1986年协议的授权文件。交接时，前任没有单独提到俄罗斯方块。没有理由提到它。它只是众多出口软件产品中的一项，迄今为止没有产生任何值得一提的外汇收入。</p>
+<p>别利科夫第一次注意到这个名字，是在1987年12月，他收到了一封来自Andromeda Software的英文信函。发信人叫罗伯特·斯坦因，一个英国商人，声称已经在布达佩斯从匈牙利科学院手中获得了俄罗斯方块的PC版发行权，希望与ELORG签署正式授权协议，以“规范双方的权利义务关系”。别利科夫让翻译把信译成俄文。他读了一遍，不太理解。Andromeda从匈牙利科学院获得授权？匈牙利科学院与俄罗斯方块有什么关系？</p>
+<p>他去查了档案，发现1986年夏天，ELORG曾经授权匈牙利科学院的一个下属机构在匈牙利境内推广几款苏联软件，其中包括俄罗斯方块。授权范围明确限定为“匈牙利人民共和国境内的PC平台推广”。怎么从“匈牙利境内推广”变成了“PC版发行权”？怎么从匈牙利科学院流到了英国公司手中？</p>
+<p>别利科夫在1988年1月安排了一次与斯坦因的会面。斯坦因飞到莫斯科，带着一份合同草案，用英语详细解释了他的商业模式：他获得俄罗斯方块的PC版发行权，然后通过转授权给美国和欧洲的软件公司，赚取版税差价。他会向ELORG支付版税分成。别利科夫听完翻译的转述，大致明白了这个英国人的意思。他说“可以”，但要求斯坦因先支付一笔预付款。斯坦因付了五千美元。</p>
+<p>五千美元。ELORG在1988年从俄罗斯方块上收到的全部收入，就是这笔五千美元预付款。</p>
+<p>斯坦因在随后的几个月里，把PC版权利转售给了美国的Spectrum HoloByte，把家用游戏机权利转售给了英国的Mirrorsoft，把街机权利转售给了日本的世嘉。每一笔转售都签了合同，每一笔转售都收了预付款和版税。没有人知道斯坦因从这些交易中赚了多少钱。但可以确定的是，ELORG没有收到一分钱版税分成。斯坦因没有向ELORG报告过他的转授权交易。ELORG不知道俄罗斯方块已经在西方卖出了数十万份。别利科夫不知道，他手里的这份三页纸协议，正在为别人创造数百万美元的收入。</p>
+<p>事情在1988年下半年变得复杂。Mirrorsoft的人找上门了。</p>
+<p>Mirrorsoft的母公司是Maxwell Communications Corporation，老板是罗伯特·麦克斯韦尔——英国报业大亨，工党议员，苏联政府的老朋友。麦克斯韦尔的出版社出版过勃列日涅夫的回忆录英译本，出版过戈尔巴乔夫的《改革与新思维》英译本，与苏联国家出版委员会保持着长期合作关系。1988年夏天，麦克斯韦尔的儿子凯文·麦克斯韦尔来到莫斯科，代表Mirrorsoft拜访ELORG。凯文告诉别利科夫，Mirrorsoft已经从Andromeda获得了俄罗斯方块的欧洲家用游戏机发行权，并希望与ELORG直接签署一份更全面的授权协议，覆盖所有平台、所有地区。</p>
+<p>别利科夫那时感到事情不对劲。两个不同的西方公司，都声称拥有俄罗斯方块的发行权，都声称权利来源于斯坦因，而斯坦因本人声称的权利来源——匈牙利科学院——与ELORG之间只有一份范围极为有限的授权协议。</p>
+<p>别利科夫翻出那份1986年协议，重新读了一遍，然后打电话给帕基特诺夫。帕基特诺夫在电话里告诉他，斯坦因在1986年布达佩斯的一次会议上找上门，说想把俄罗斯方块卖到西方，帕基特诺夫说“好”。斯坦因给了他一份英文合同，帕基特诺夫看不懂，找了一个懂英文的同事帮忙，同事说合同大意是“斯坦因的公司获得俄罗斯方块的西方发行权”。帕基特诺夫签了。他以为这是正式授权，以为这是ELORG流程的一部分。他不知道自己无权处置这个程序。他不知道自己的签字意味着什么。</p>
+<p>别利科夫放下电话，意识到问题比他想象的严重得多。斯坦因从帕基特诺夫手中获得的授权，在法律上很可能无效——帕基特诺夫不是程序的所有者。但斯坦因在不知情的情况下，已经把这份有瑕疵的授权层层转售，建立了复杂的商业契约链。如果ELORG现在否认斯坦因的权利，Mirrorsoft、Spectrum HoloByte和世嘉都将受到影响。这些公司会声称自己是善意第三方，会主张他们已经为权利支付了对价，会把ELORG拖入国际仲裁或诉讼。而ELORG——一个苏联外贸机构，在西方司法体系里几乎没有法律行动能力——将面临一场它无法打赢的战争。</p>
+<p>别利科夫把这些问题想了很久，但找不到答案。他不是知识产权律师。ELORG没有法务部门处理过类似的国际版权纠纷。苏联外贸体系里没有先例可循。</p>
+<p>然后，1989年1月26日，第三个买家出现了。一个叫亨克·罗杰斯的日荷混血商人，从东京打来电话，说他代表任天堂，想要购买俄罗斯方块的掌上游戏机权利。别利科夫让秘书安排了会面。他需要听听这个人说什么。他需要弄清楚，在三个都声称拥有某种权利的买家中，谁真正拥有什么，谁在撒谎，谁在利用苏联体制的漏洞牟利。他需要弄清楚，ELORG到底应该和谁谈判，以什么价格，出售什么权利。他需要弄清楚，他手里这份三页纸的协议，在国际商业法律体系里究竟值多少钱。</p>
+<p>他什么都不知道。他从未玩过俄罗斯方块。他办公室里的任何一个人都从未玩过俄罗斯方块。ELORG大楼里没有一台电脑安装了这款游戏。</p>
+<p>同一周的星期五，1989年1月27日，伦敦舰队街，镜报集团总部会议室。凯文·麦克斯韦尔面前摊着一张传真纸，来自莫斯科，发件人是ELORG。内容简短：ELORG同意在1989年2月第一周与镜报集团代表举行会谈，讨论俄罗斯方块的权利问题。</p>
+<p>凯文·麦克斯韦尔当时二十六岁。他是罗伯特·麦克斯韦尔八个子女中与父亲最相似的一个：精力充沛，野心旺盛，对商业谈判有天生的直觉。他刚刚接手Mirrorsoft的日常运营，俄罗斯方块是这家软件公司成立以来最成功的产品。在英国的Spectrum、Amiga和Atari ST平台上，Mirrorsoft发行的俄罗斯方块已经卖出了数十万份，销量还在攀升。凯文知道这些权利来自Andromeda，他知道斯坦因声称从苏联人手中获得了合法授权，他知道Mirrorsoft为这些权利支付了预付款和版税。但他没有亲自检查过斯坦因的原始合同。他没有问过斯坦因的授权链是否完整。他没有联系过ELORG确认对方是否承认Mirrorsoft的权利。</p>
+<p>他的父亲告诉他，Mirrorsoft的目标是获得俄罗斯方块的全球独家权利——所有平台，所有地区，所有语言。罗伯特·麦克斯韦尔认为，他有能力绕开斯坦因，直接从莫斯科手中拿到完整授权。他的信心建立在二十年积累的苏联人脉上。他认识苏联国家出版委员会的副主席，他认识戈尔巴乔夫的新闻秘书，他认识苏联驻英国大使。他的出版社为苏联领导人出版过书，在西方媒体上为苏联做过宣传。他相信，在苏联体制里，私人关系比合同条款更重要。他相信ELORG的官僚不会拒绝一个与克里姆林宫有直接联系的人。</p>
+<p>凯文拿起了电话，拨通了父亲的私人专线，告诉他莫斯科已经同意会面。罗伯特·麦克斯韦尔在电话里说，他会亲自去莫斯科。他要在苏联人面前坐下，用他的声望、人脉和商业实力，一次性解决所有权利问题。他认为这只是一场社交访问，加一点商业谈判。他不是去请求授权。他是去拿回他认为本该属于他的东西。</p>
+<p>同一周的星期六，1989年1月28日，东京千代田区，防弹软件办公室。亨克·罗杰斯把最后一件衬衫塞进旅行袋，拉上拉链。他的妻子明子在客厅里照顾两个孩子——大的四岁，小的两岁。她问丈夫什么时候回来，罗杰斯说一周，也许两周。他没说也许更久。他没说也许回不来。</p>
+<p>罗杰斯的旅行袋里装着三样东西。第一样：一份任天堂掌机权利的报价单，上面印着荒川实签字确认的授权金额上限。这个数字他连明子都没有告诉。第二样：一本英俄词典，封面破损，用胶带粘着，三天前在神保町旧书店花四百日元买的。第三样：一个判断，他尚未向任何人透露，包括荒川实。这个判断是：此前所有西方公司声称拥有的俄罗斯方块权利，都建立在虚假前提之上。</p>
+<p>罗杰斯是在过去三周的调查中逐步得出这个结论的。CES之后，他开始系统性地追查俄罗斯方块的授权链。他先联系了Spectrum HoloByte，询问对方是否拥有日本地区发行权。对方说权利情况“比较复杂”，权利来自一家英国公司，那家英国公司从一家匈牙利公司获得授权，匈牙利公司又从一个苏联程序员那里拿到了许可。罗杰斯在笔记本上写下：“授权链：苏→匈→英→美。每一层都可能有漏洞。”</p>
+<p>他接着联系了Mirrorsoft，询问对方的权利是否覆盖掌机平台和日本市场。Mirrorsoft的授权经理说，合同里写的是“家用游戏机系统”，他们没有专门讨论过掌机，也没有讨论过日本。罗杰斯追问“家用游戏机系统”是否包括掌机，对方迟疑了几秒钟，然后说“应该覆盖”。罗杰斯在笔记本上写下：“定义模糊。没有人真正读过合同。”</p>
+<p>他然后联系了世嘉日本，得知世嘉在1988年春天从斯坦因手中获得了街机版俄罗斯方块的权利，但街机版至今没有上市。世嘉的人说，他们不确定斯坦因是否有权出售街机权利，因为斯坦因的原始合同里写的似乎是“PC版权利”。世嘉正在等待斯坦因提供更清晰的权利证明。罗杰斯写下：“世嘉也不确定。”</p>
+<p>最后他联系了斯坦因本人。电话打到Andromeda的伦敦办公室，斯坦因接了。罗杰斯自我介绍，说想购买俄罗斯方块的日本掌机权利。斯坦因的回答非常直接：“日本掌机权利？我可以卖给你。但我需要先确认我还有哪些权利可以卖。”罗杰斯挂了电话，把这句话重复了几遍。斯坦因没有说“我有权利”，他说“我可以卖给你”。他没有说“ELORG授权我”，他说“我需要先确认”。罗杰斯在笔记本上写下第四行字：“斯坦因不确定自己拥有什么。他卖的是他认为自己可能拥有的权利。”</p>
+<p>三周的信息拼图，拼出了一个罗杰斯不敢对任何人明说的结论：整个西方世界的俄罗斯方块授权体系，是一座建立在流沙上的城堡。斯坦因从一个没有权利处置游戏的苏联程序员手中获得了一份合同，然后像切蛋糕一样把权利拆成PC版、家用机版、街机版，分别卖给不同的西方公司。每一块都有人付钱，每一块都有人相信是真货，但没有人验证过蛋糕的原始所有权。而真正拥有蛋糕的那个机构——ELORG——在莫斯科，从未被任何西方买家直接接触过。</p>
+<p>罗杰斯意识到，如果这个判断正确，他面前就出现了一个极其短暂的机会窗口。ELORG不知道自己手中的权利值多少钱，斯坦因不知道ELORG会否认他的授权，Mirrorsoft不知道斯坦因的权利存在瑕疵，世嘉不知道整个游戏规则即将被改写。所有人都蒙着眼睛在牌桌上出牌，而罗杰斯是唯一一个看到了牌面的人。他决定去莫斯科。他决定直接敲开ELORG的门。他决定在所有人意识到真相之前，签下那份决定性的合同。</p>
+<p>1月29日清晨，成田机场。罗杰斯在登机口排队时，从口袋里掏出任天堂的合同副本。合同第三页第七条写着：如果ELORG否认掌机权利的存在，或者掌机权利被证明属于其他人，任天堂有权终止合同，并要求乙方承担全部损失。这句话是荒川实的法律顾问霍华德·林肯加上去的。林肯在签字前对罗杰斯说：“亨克，如果你拿不到直接授权，我们不只不付钱，你还要赔我们。”罗杰斯把合同折好，放回口袋。</p>
+<p>他登上飞机，找到座位，系好安全带。飞机起飞后，他翻开英俄词典，开始背单词。他需要这些词在莫斯科活下去。合同、权利、独家、授权、版税、掌机、任天堂——这些词将构成他接下来一周的全部语言。他需要用这些词，让一群从未玩过俄罗斯方块的苏联官僚，把一款他们不理解的游戏的掌机权利，卖给一家与他们从未打过交道的日本公司。</p>
+<p>飞机在哥本哈根经停时，罗杰斯在机场候机室里看到了一台街机。屏幕上是俄罗斯方块。他投了一枚硬币，站在机器前玩了十分钟。旁边一个丹麦少年看着他飞速旋转方块、精准落位，说了一句“You&#39;re good”。罗杰斯笑了笑，没有回答。他心想，如果接下来一周的谈判也像这局游戏一样，他可以控制。</p>
+<p>飞机从哥本哈根起飞，进入东欧空域。罗杰斯透过舷窗往下看，下面是一片灰白色的平原，积雪覆盖，道路笔直，几乎看不到车辆。他第一次意识到，他正在进入一个与他所有商业经验完全不同的世界。他在日本学会了尊重等级和耐心，在夏威夷学会了冒险和直接，在荷兰学会了精打细算和读合同细节。但苏联——他不知道苏联会教给他什么。</p>
+<p>飞机降落在谢列梅捷沃国际机场时，莫斯科时间是1月29日傍晚。罗杰斯走出机舱，空气冷冽干燥，温度大约零下十五度。他跟着人流走过一条长长的走廊，走廊两侧的墙壁上没有任何广告，只有俄文指示牌。入境检查站的女军官穿着军装，面无表情地接过他的护照，盯着他看了大约十秒钟，然后低头盖章，挥手放行。</p>
+<p>罗杰斯取出行李，走出机场大楼，叫了一辆出租车。司机不会说英语，罗杰斯把酒店名字写在纸条上递给司机——乌克兰饭店，莫斯科河畔，斯大林时代建造的七座摩天大楼之一。司机点了点头，发动了车。</p>
+<p>出租车驶出机场，进入莫斯科市区。道路两旁是成排的预制板住宅楼，灰色外墙在积雪中显得更加单调。路上车辆稀少，大多是拉达和伏尔加轿车，偶尔有一辆黑色的海鸥牌公务车驶过。罗杰斯注意到，街上的行人走路时都不看彼此，男人们穿着厚重的呢子大衣，女人们裹着头巾。他想起自己读过的一本书里的一句话：“在莫斯科，冬天的太阳像一个忘记关掉的灯泡，亮着，但没温度。”</p>
+<p>出租车经过莫斯科河，河面结冰，冰面上有人凿了洞钓鱼。罗杰斯看着那些一动不动坐在寒风中的钓鱼人，心想，这大概就是苏联生活的某一种隐喻。</p>
+<p>他抵达乌克兰饭店时，天已经全黑了。饭店大堂空旷高大，水晶吊灯垂下来，地板上铺着磨损的红地毯。前台服务员看了他的护照，用生硬的英语说“Welcome to Moscow”，递给他一把沉重的铜制钥匙。房间在十二楼，窗户正对着莫斯科河。罗杰斯推开窗户，冷风灌进来，他看见河对岸的克里姆林宫塔楼亮着灯，红星在夜色中发出暗红色的光。</p>
+<p>他关上窗户，坐在床边，从旅行袋里取出那三样东西：报价单、词典、判断。他把它们并排放在床头柜上，然后拿起酒店电话，拨通了ELORG的号码。电话响了七声，接通了。那端是一个女声，用俄语说了一句什么。罗杰斯用他刚学会的俄语单词说：“我是亨克·罗杰斯。我明天早上九点来见别利科夫主席。”对方沉默了几秒钟，然后用英语回答：“Yes, Mr. Rogers. We expect you.”</p>
+<p>罗杰斯挂了电话。他躺下来，盯着天花板上的石膏雕花。他想起荒川实在他出发前说的话：“亨克，如果这件事做成了，它将是任天堂历史上最重要的第三方谈判。”他想起林肯的警告。他想起明子问他什么时候回来。他想起自己兜里只有一本四百日元的词典。他闭上眼睛，但睡不着。莫斯科的暖气片发出间歇性的金属敲击声，像某种不确定的节奏。</p>
+<p>第二天早上，1989年1月30日，星期一。罗杰斯在酒店餐厅吃了早餐——黑面包、黄油、奶酪和一杯很淡的茶。他穿上大衣，走出酒店，叫了一辆出租车，把ELORG的地址递给司机。车驶过莫斯科河上的桥，经过红场，经过列宁墓，经过一栋栋罗杰斯叫不出名字的政府大楼，最后停在一条安静的街道上，面对着一栋七层楼的灰色建筑。建筑正面没有任何标志，只有一扇深色的木门，门上方挂着一块金属牌，上面用俄文写着“全苏电子设备外贸联合体”。</p>
+<p>罗杰斯推开木门，走进去。门厅里很暗，一个穿制服的门卫坐在一张小桌子后面，面前放着一本登记簿。罗杰斯报了自己的名字，门卫翻开登记簿，找到预登记记录，然后指了指楼梯。</p>
+<p>罗杰斯走上楼梯，楼梯间里弥漫着消毒水和旧纸张的气味。每一层的走廊都铺着磨损的地毯，墙上的油漆已经开始剥落，露出下面更旧的一层油漆——深绿色，像是五十年代的风格。他走到第四层，推开一扇双开玻璃门，进入一个接待室。房间里有一张长条桌，几把椅子，靠墙的文件柜上放着一台老式打字机。一个中年女秘书坐在桌子后面，看见罗杰斯进来，站起来用俄语说了句什么，然后指了指走廊尽头的一扇门。</p>
+<p>罗杰斯走过去，门上半部分蒙着毛玻璃，玻璃上用金漆印着几个俄文字母：Н. Бе́ликов, Председатель（N. 别利科夫, 主席）。他敲了敲门。里面传来一声低沉的“Войдите”。罗杰斯推门进去。</p>
+<p>别利科夫的办公室比罗杰斯想象的要大，但同样陈旧。靠窗放着一张宽大的办公桌，桌面上铺着绿色呢绒桌布，桌布上压着一块玻璃板。办公桌后面坐着一个五十多岁的男人，头发灰白，穿着深灰色西装，领带系得一丝不苟。他面前摊开着一份文件夹，红色封面，薄薄三页纸。罗杰斯一眼就认出了那份文件的模样——他之前通过其他渠道听说过这份1986年协议的存在。</p>
+<p>别利科夫抬起头，用俄语说了句什么。他身边站着一个三十多岁的翻译，翻译用英语说：“别利科夫主席欢迎您来到莫斯科，罗杰斯先生。请坐。”</p>
+<p>罗杰斯坐下来，从公文包里取出任天堂的报价单，放在桌面上。报价单上用英文写着：任天堂愿意为俄罗斯方块的全球掌上游戏机独家权利支付一笔版税预付款，金额栏留空——这是荒川实给他的权限，他可以在谈判中根据情况填写具体数字。版税比例也留空，等待谈判确定。</p>
+<p>别利科夫看了一眼报价单，然后抬起头，用俄语说了一句话。翻译说：“别利科夫主席想问，您为什么认为这些权利属于ELORG？据我们所知，已经有一家英国公司购买了这些权利。”</p>
+<p>罗杰斯深吸一口气。他打开英俄词典，翻到“权利”这个词，确认了发音，然后说：“主席先生，那家英国公司——Andromeda——从一个没有权利出售游戏的人手中购买了授权。帕基特诺夫先生是创作者，但他不拥有这个程序。ELORG拥有。”</p>
+<p>翻译把这句话译成俄语。别利科夫的表情没有变化，但他把面前那份文件的封面翻开了。文件的第一页上，罗杰斯看到了帕基特诺夫的签名。别利科夫指着签名，用俄语说了一句话。翻译说：“这份协议确实将程序的使用权转让给了ELORG。但协议没有明确说明使用权是否包括掌上游戏机。掌上游戏机——这个概念在协议签署时并不存在。”</p>
+<p>罗杰斯明白了。这不是一个简单的商业谈判。别利科夫不是想把权利卖给出价最高的人。他是在试图理解，他手中这份三页纸的文件，在1989年的国际商业世界里，究竟意味着什么。他需要有人告诉他，他拥有什么。他需要有人帮他定义，那些模糊的俄语词汇——“使用权”“转让”“国际推广”——在英文合同里应该对应什么条款。</p>
+<p>而此刻，坐在他面前的三个人——罗杰斯、斯坦因、凯文·麦克斯韦尔——每一个人都会给出不同的定义。因为每一个人的利益都取决于如何定义。</p>
+<p>罗杰斯意识到，这场谈判的真正战场不是价格，不是版税比例，不是授权期限。是定义。谁能让别利科夫接受自己对游戏权利的定义，谁就能赢得全部。而别利科夫，一个从未玩过俄罗斯方块的苏联外贸官僚，将作为唯一的仲裁者，在三种互相矛盾的西方商业逻辑中做出选择。</p>
+<p>罗杰斯合上词典。他看着别利科夫的眼睛，用他最好的俄语说：“我可以解释。给我三个小时。”</p>
+<p>伦敦希思罗机场，罗伯特·斯坦因正在登上一架飞往莫斯科的航班。他随身携带的公文包里，放着他与帕基特诺夫在1986年签署的合同副本，与匈牙利科学院签署的转授权协议，与Mirrorsoft签署的欧洲权利转让书，与世嘉签署的街机权利合同，以及他过去两年里从这些交易中获得的全部版税报告。他准备向ELORG证明，他——罗伯特·斯坦因——才是俄罗斯方块在西方市场的真正开拓者。他第一个发现了这个游戏，第一个把它带出铁幕，第一个为它找到了愿意付钱的买家。如果ELORG现在要收回权利，重新谈判，那么至少应该补偿他的付出。</p>
+<p>斯坦因不知道的是，罗杰斯已经比他早了二十四小时坐在了别利科夫的办公室里。</p>
+<p>而罗伯特·麦克斯韦尔，在他位于伦敦舰队街的顶层办公室里，正在起草一封致苏联驻英国大使的信，请求对方“协助安排”他与ELORG的会面。麦克斯韦尔信中的措辞是“就双方共同关心的知识产权问题进行友好协商”。他没有提到任天堂。他可能根本不知道任天堂也在争夺同样的权利。他相信自己的政治人脉和商业声望足以让ELORG把权利交给他。他相信苏联人欠他一个人情——他出版过他们的书，为他们的领导人做过宣传，在西方媒体上为戈尔巴乔夫的改革辩护。他相信，在苏联体制里，人情比合同更重要。</p>
+<p>他错了。但他要到一周之后才会知道。</p>
+<p>莫斯科时间1月30日下午六点，罗杰斯走出别利科夫的办公室。他已经在里面待了将近七个小时，中间只吃了一顿秘书送来的午餐——黑面包、香肠和茶。他的英俄词典摊开在桌面上，页边被他用铅笔写满了注释。别利科夫面前的笔记本上写满了俄文记录，旁边是翻译在纸上画的时间线图——从1986年帕基特诺夫签署协议，到斯坦因在布达佩斯发现游戏，到Mirrorsoft和Spectrum HoloByte在西方市场发行，到世嘉在日本试图推出街机版，再到罗杰斯在CES上发现游戏，荒川实决定为Game Boy捆绑俄罗斯方块，罗杰斯飞到莫斯科。</p>
+<p>罗杰斯向别利科夫解释了三件事。</p>
+<p>第一件事：斯坦因的授权链存在根本性缺陷。帕基特诺夫没有权利出售游戏，因此斯坦因的任何转授权在法律上都站不住脚。如果ELORG选择否认斯坦因的合同，斯坦因将无法向他的下游买家履约。Mirrorsoft、Spectrum HoloByte、世嘉——这些公司以为自己拥有俄罗斯方块的权利，实际上他们拥有的只是斯坦因的承诺，而斯坦因的承诺建立在沙子上。</p>
+<p>第二件事：掌机权利是一个独立的市场，具有巨大的商业价值。罗杰斯向别利科夫展示了任天堂Game Boy的原型机，一台灰白色的掌上设备，屏幕只能显示黑白图像，但播放俄罗斯方块时流畅清晰。罗杰斯解释说，任天堂计划将俄罗斯方块作为Game Boy的首发捆绑游戏，这意味着这款游戏将随每一台售出的Game Boy一起送到消费者手中。任天堂预计Game Boy第一年销量可达数百万台。如果ELORG授予任天堂独家掌机权利，版税收入将远远超过此前所有俄罗斯方块授权交易的总和。</p>
+<p>第三件事：如果在座的谈判者不能达成协议，混乱将继续。斯坦因会继续出售他无权出售的权利。Mirrorsoft会继续相信自己拥有欧洲市场的独家权利。世嘉会继续推动街机版上市。麦克斯韦尔会动用政治关系施压。各种互相矛盾的合同将堆积如山，最终没有人知道谁拥有什么，而俄罗斯方块的商业价值将在无尽的法律纠纷中消散。ELORG需要做出一个清晰的选择，签一份清晰的合同，让全世界知道谁说了算。</p>
+<p>别利科夫听完翻译的转述，沉默了很久。然后他问了一个问题。这个问题后来被罗杰斯反复讲述，因为它是整个谈判中最具揭示性的时刻。</p>
+<p>“罗杰斯先生，”别利科夫说，“您能不能告诉我，为什么一款由苏联程序员在苏联计算机上开发的游戏，在苏联没有卖出一份拷贝，却在西方引发了如此激烈的争夺？”</p>
+<p>罗杰斯想了想，回答说：“因为在这个游戏里，没有语言，没有文化，没有意识形态。只有方块。方块不说话。”</p>
+<p>别利科夫点了点头。他没有再问问题。他站起来，和罗杰斯握了握手，说：“我们明天继续。”</p>
+<p>罗杰斯走出ELORG大楼时，天色已经暗了。莫斯科的夜晚来得早，下午四点多太阳就落山，到六点已经完全是黑夜。他站在大楼门口，冷风灌进领口，他扣紧大衣，看着街上稀稀落落的行人，突然意识到，他刚刚在别利科夫办公室里度过的那七个小时，可能是他职业生涯中最重要的七个小时。他解释清楚了斯坦因授权链的漏洞，解释清楚了掌机权利的价值，解释清楚了任天堂的报价逻辑。但他还没有拿到合同。他还没有赢。</p>
+<p>明天，斯坦因将出现在同一间办公室里，用不同的方式解释同样的事实。后天，凯文·麦克斯韦尔——或者罗伯特·麦克斯韦尔本人——将带着更强大的政治资源出现在同一张谈判桌前。别利科夫将听到三个互相矛盾的版本，然后做出选择。</p>
+<p>罗杰斯沿着积雪的街道慢慢走回酒店。他经过一家食品店，橱窗里空荡荡的，只有几罐罐头鱼和一瓶瓶腌黄瓜。他经过一个地铁站，入口处排着长队，人们在等待购买面包。他经过一面墙，墙上贴着宣传画，画上是列宁的侧脸和一句俄文标语，他看不懂。他想起自己在东京的办公室，想起明子和孩子们，想起荒川实在他出发前递给他那份合同时的表情——严肃、直接，没有废话。</p>
+<p>罗杰斯加快脚步，回到酒店。他走进房间，打开台灯，坐在桌前，翻开英俄词典，开始为明天的谈判做准备。</p>
+<p>他知道明天斯坦因会说什么。斯坦因会说，他是在1986年发现俄罗斯方块的，那时没有人知道这款游戏，没有人认为它有商业价值。他冒着风险，花费时间和金钱，把它带出布达佩斯，带到西方市场。他签了合同，付了预付款，建立了销售渠道。如果ELORG现在否认他的权利，就是过河拆桥。</p>
+<p>罗杰斯在笔记本上写下反驳：斯坦因的风险不是ELORG造成的。ELORG从未授权他，也从未收到过他的版税报告。他所谓的投入是建立在他无权出售的商品之上的商业投机。他的贡献不会让他的合同变合法。</p>
+<p>他又写下斯坦因可能说的第二个论点：帕基特诺夫作为创作者，有权授权他。他不知道ELORG的存在。反驳：即便帕基特诺夫有权授权斯坦因的合同覆盖了什么平台？原始合同里写的是PC版权利然后他又把家用机权利卖给Mirrorsoft把街机权利卖给世嘉他卖的是他不拥有的权利用的是他无权做出的解释</p>
+<p>莫斯科时间1月31日，星期二，上午九点。罗伯特·斯坦因走进ELORG大楼，带着他的公文包和一份他相信能够说服别利科夫的说辞。他不知道罗杰斯前一天已经在这间办公室里坐了七个小时。他不知道别利科夫已经知道了授权链的漏洞。他更不知道，在他身后，凯文·麦克斯韦尔已经抵达莫斯科，正在苏联国家出版委员会一位副职官员的陪同下，在一家涉外酒店的餐厅里吃早餐，等待下午与ELORG的会面。</p>
+<p>三个买家，同一栋灰色大楼，同一周内的三个时间窗口。他们彼此不知道对方的存在，但别利科夫知道。他坐在第四层那间办公室里，面前的文件夹仍然摊开着，三页纸仍然措辞模糊。他将在接下来的七十二小时内，逐一听取三个来自西方世界的解释，然后做出一个决定。这个决定将改变一款游戏的命运，改变一家公司的命运，改变一个行业的法律实践，并在冷战结束前的最后几个月里，成为两种制度在知识产权问题上正面碰撞的历史切片。</p>
+<p>而帕基特诺夫——那个在1984年深夜独自在计算中心第六层写下俄罗斯方块第一行代码的苏联程序员——此刻仍然在莫斯科，仍然月薪一百八十卢布，仍然不知道他的游戏已经在西方引发了一场他无法参与的商业战争。他将在几天后接到ELORG的电话，被告知自己被邀请参加一次会议，与几位“外国客人”见面。他将穿上自己最好的西装——一件在苏联百货商店买的深蓝色外套，袖口已经磨得发亮——坐着地铁来到那栋灰色大楼。他将第一次见到亨克·罗杰斯，第一次见到罗伯特·斯坦因，第一次见到凯文·麦克斯韦尔。他将第一次意识到，自己三年前在深夜写下的那个程序，已经变成了一个超出他想象力的巨大商业漩涡。</p>
+<p>而此刻，他还在计算中心里，坐在一台Electronika 60终端前编写一个新的程序。他完全不知道接下来会发生什么。</p>
+<p>莫斯科的雪继续下着，覆盖了街道，覆盖了屋顶，覆盖了那栋灰色大楼的门前台阶。罗杰斯在酒店房间里练习俄语单词。斯坦因在出租车上准备他的说辞。麦克斯韦尔在酒店餐厅里切着煎蛋。</p>
+<p>别利科夫在办公室里翻到文件夹的第二页，看着帕基特诺夫手写的那行字：“创作者保留作为程序作者的署名权。”他抬起头，对秘书说：“请罗杰斯先生十点钟来。”秘书点了点头，走出去。</p>
+<p>别利科夫合上文件夹，站起来走到窗前，看着楼下街道上驶过的黑色伏尔加轿车。他知道接下来的七十二小时将决定一切。他手里只有三页纸和三个互相矛盾的故事。他需要从这些混乱中找出一个清晰的答案——一个能在国际合同里站得住脚的答案，一个能让ELORG为苏联换来硬通货的答案。他需要做出判断。而他做出判断的依据不是商业经验、不是法律知识、不是对游戏市场的理解——他没有任何这些。他只有一份文件，和三个想要它的人。</p>
+<p>他转过身回到办公桌前，拉开抽屉把文件夹放进去，然后关上抽屉。金属滑轨发出一声轻响。他坐下来等待十点钟的敲门声。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-6.html">上一章</a><a href="index.html">返回详情</a><a href="ch-8.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msqs8p5dwq2","chapter":6,"chapterTitle":"一张机票与三把钥匙","href":"ch-7.html","prevHref":"ch-6.html","nextHref":"ch-8.html","locationLabel":"第 7 章 · 一张机票与三把钥匙"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>

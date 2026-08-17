@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034454144_744ae1aaf3",
+  "projectId": "proj-msr9aupz2rw",
+  "manuscriptVersionId": "mv_c528da7766134e41",
+  "contentHash": "c528da7766134e41d2bb23bfd4b4d21e55c15267de1932e7e1106eed8481d454",
+  "title": "美第奇家族史",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是佛罗伦萨美第奇家族的三个半世纪家族史（1397-1743），约20万字。核心论证：美第奇不是「赞助了文艺复兴的银行家」，而是一个用金钱系统性地购买不朽的家族——他们把高利贷的罪恶转化为祭坛画与穹顶，把账房的隐形权力转化为不加冕的统治，再把家族的血脉危机一次次转化为教皇冠冕与王后婚约；文艺复兴在相当程度上是这场家族自救工程的副产品。全书以代际为章眼（家族史范式：代际交替执章），每代人的章眼都落在家运与国运/教运的咬合点上。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 219166,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:37:46.974Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "高利贷者的忏悔簿",
+      "units": 9287
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "教廷的账房",
+      "units": 9516
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "羊毛工会里的陌生人",
+      "units": 9232
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "流放者的归来",
+      "units": 9585
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "穹顶下的账本",
+      "units": 8577
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "痛风者的遗产",
+      "units": 8658
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "少年与匕首",
+      "units": 10886
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "大教堂里的十九刀",
+      "units": 8323
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "和平的黄金与腐烂的账册",
+      "units": 7553
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "虚荣的火焰",
+      "units": 8149
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "教皇的账房",
+      "units": 8067
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "罗马的陷落",
+      "units": 10084
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "佛罗伦萨的新君主",
+      "units": 8664
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "托斯卡纳的加冕",
+      "units": 7939
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "炼金术士的宫廷",
+      "units": 8386
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "星空的债务",
+      "units": 10928
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "王太后的黑色传说",
+      "units": 8594
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "画像里的王权",
+      "units": 8381
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "宫廷的萎缩",
+      "units": 7852
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "末代的身体",
+      "units": 7642
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "无嗣者的统治",
+      "units": 8365
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "最后的协定",
+      "units": 9518
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "收藏的本身",
+      "units": 7980
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "不朽的账本",
+      "units": 8375
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "美第奇之后",
+      "units": 8625
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:54.146Z"
+}

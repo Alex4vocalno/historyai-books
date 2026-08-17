@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456917_7c03f96005",
+  "projectId": "proj-msmm8ntl6al",
+  "manuscriptVersionId": "mv_3144058a2fa719f5",
+  "contentHash": "3144058a2fa719f57308a50bf250be0523f084361309d5d0ce7cf2d765b604e1",
+  "title": "DOOM 双子星：卡马克与罗梅罗",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 190536,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:41:14.862Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "第1章　车库之前，河之前（约 1990 年）",
+      "units": 12863
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "第2章　雪泥与软盘（约 1991 年）",
+      "units": 10592
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "第3章　夜猫子与死线（约 1991 年）",
+      "units": 10345
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "第4章　狼穴与引擎（约 1992 年）",
+      "units": 8342
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "第5章　卡马克的虚空（约 1992 年）",
+      "units": 12227
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "第6章　罗梅罗的王国（约 1993 年）",
+      "units": 9322
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "第7章　缺席者的形状（约 1993 年）",
+      "units": 10300
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "第8章　商务层的不眠者（约 1994 年）",
+      "units": 10454
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "第9章　被入侵的城堡（约 1994 年）",
+      "units": 8818
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "第10章　全三维的代价（约 1995 年）",
+      "units": 9084
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "第11章　摇滚明星的失重（约 1996 年）",
+      "units": 13994
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "第12章　编译后的分离（约 1996 年）",
+      "units": 9684
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "第13章　达拉斯的新宫殿（约 1997 年）",
+      "units": 10533
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "第14章　引擎不会等你（约 1997 年）",
+      "units": 8892
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "第15章　婊子的代价（约 1998 年）",
+      "units": 8508
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "第16章　零度以下的分离（约 1998 年）",
+      "units": 12499
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "第17章　遗产的第一块墓碑（约 1999 年）",
+      "units": 8392
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "第18章　双子星的余晖（约 1999 年）",
+      "units": 7489
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "第19章　源代码与纸卡带（约 2000 年）",
+      "units": 8198
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.919Z"
+}

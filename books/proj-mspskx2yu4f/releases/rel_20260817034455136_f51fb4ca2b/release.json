@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034455136_f51fb4ca2b",
+  "projectId": "proj-mspskx2yu4f",
+  "manuscriptVersionId": "mv_26bac94d63cbbd05",
+  "contentHash": "26bac94d63cbbd058116494b478b0669ffcc1ce3909fc7864bf74a7f54bc3116",
+  "title": "再来一回合：文明三十五年",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是席德·梅尔《文明》（Sid Meier's Civilization）系列的三十五年全史（1991-2025，含前史），约25万字。核心论证：《文明》是电子游戏史上最大胆的工程——把全部人类历史论证成一个可玩的系统。它的每条规则都是一句历史哲学：科技树是进步史观的代码化，奇观与伟人是英雄史观的残留，文化胜利是软实力时代的表态，Civ6 的气候系统是人类世的自白。三十五年来这个系列每改版一次，就是对「历史是什么」重新立场表态一次——而三千万玩家在「再来一回合」里，不知不觉玩掉的是一整套史学。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 265919,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:39:04.381Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "棋盘上的世界史",
+      "units": 8381
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "铁路与原型方法论",
+      "units": 7477
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "即时制的废墟",
+      "units": 8386
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "软盘上的文明",
+      "units": 7777
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "署名权的经济学",
+      "units": 8025
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "崩塌与出走",
+      "units": 8350
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "名称的战争",
+      "units": 8251
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "半人马座的意识形态",
+      "units": 7746
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "回归与妥协",
+      "units": 8320
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "模组共和国",
+      "units": 8354
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "六角格的裂变",
+      "units": 8396
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "区域与人类世",
+      "units": 8374
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "气候代码里的忏悔",
+      "units": 10250
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "甘地核弹考",
+      "units": 8361
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "离开地球的失败",
+      "units": 7675
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "课堂里的帝国",
+      "units": 8365
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "中文社区的再翻译",
+      "units": 10380
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "模组的边界战争",
+      "units": 8405
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "重掷的形而上学",
+      "units": 7927
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "最优解的铁笼",
+      "units": 7530
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "名人堂的政治",
+      "units": 8438
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "课堂的边界",
+      "units": 7354
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "模组的经济学",
+      "units": 9237
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "手机上的世界史",
+      "units": 8018
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "算法玩史",
+      "units": 7672
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "时代的断裂",
+      "units": 7494
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "再来一回合的解剖",
+      "units": 8839
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "机制即史观的回响",
+      "units": 9234
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "署名权的遗产",
+      "units": 8358
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "三千万人的历史课",
+      "units": 8317
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "游戏史学的学术化",
+      "units": 7738
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "再来一回合的历史",
+      "units": 8490
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:55.138Z"
+}

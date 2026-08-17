@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456029_ea938e953e",
+  "projectId": "proj-msodo06ydhm",
+  "manuscriptVersionId": "mv_987b50b719f42b89",
+  "contentHash": "987b50b719f42b89a1af85558dee1ec0bb36bf4dde29786b7486456bb23f2f0a",
+  "title": "勇者与史莱姆：JRPG 四十年",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是 JRPG（日式角色扮演游戏）四十年通史。核心论点：JRPG 是一次伟大的「翻译」——把美式 CRPG 的自由翻译成叙事纪律。堀井雄二用亲切化让 RPG 全民化（勇者斗恶龙是国民节日），坂口博信用电影化让它青春化（FF7 让全世界落泪）；此后四十年，是「线性叙事在开放世界时代如何存亡」的一场完整实验，回合制的每一次被判死刑与还魂都是实验数据。双主角骨架：堀井雄二（国民的、保守的、不变应万变）与坂口博信（冒险的、激进的、每作自我推翻）的路线互搏贯穿全书。四条谱系线：DQ/FF 主线之外，女神转生→Persona 线（亚文化逆袭成新王）、任天堂线（Mother 的邪典、宝可梦作为最成功 JRPG 之辩、异度）、Falcom/轨迹与中坚生态。…",
+  "category": "历史",
+  "tags": [
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 281166,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:40:12.642Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "巫术东渡",
+      "units": 8368
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "堀井雄二的亲切革命",
+      "units": 10246
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "坂口博信的最后一搏",
+      "units": 8360
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "勇者与幻想的分野",
+      "units": 8369
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "国民节日的诞生",
+      "units": 8858
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "史莱姆的微笑与教堂钟声",
+      "units": 8399
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "第七封印的破除",
+      "units": 7519
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "攻略本的秘密结社",
+      "units": 8402
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "存档点前的犹豫",
+      "units": 8940
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "随身听里的水晶旋律",
+      "units": 9060
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "盗版卡带里的青春",
+      "units": 9609
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "论坛时代的集体叙事",
+      "units": 8720
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "排队者的身体记忆",
+      "units": 8263
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "鸟山明的龙",
+      "units": 10903
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "植松伸夫的耳朵",
+      "units": 8536
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "回合制的幽灵",
+      "units": 8638
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "预渲染的乡愁",
+      "units": 9376
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "过场动画的语法书",
+      "units": 9834
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "全3D时代的失语症",
+      "units": 10616
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "掌机上的庇护所",
+      "units": 7483
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "“JRPG”这个词",
+      "units": 7492
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "女神转生：亚文化的逆袭",
+      "units": 7868
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "宝可梦：最成功的JRPG之辩",
+      "units": 7919
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "异度：边缘上的哲学实验",
+      "units": 9522
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "西方之镜中的日本面孔",
+      "units": 10253
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "手游时代的沉默巨兽",
+      "units": 8368
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "史莱姆的变形记",
+      "units": 8317
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "存档点的考古学",
+      "units": 8932
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "回合制的最后一次还魂",
+      "units": 8785
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "那朵花还在开",
+      "units": 8534
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "翻译者的回信",
+      "units": 8355
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "线性叙事的遗嘱",
+      "units": 8322
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.031Z"
+}

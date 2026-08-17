@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456620_c1cae27999",
+  "projectId": "proj-mso1gnhfqwt",
+  "manuscriptVersionId": "mv_84834ab3bb29b19a",
+  "contentHash": "84834ab3bb29b19aa9ee05b60e01cd218827cf88ffe3c08002706a4388408ad2",
+  "title": "机器人四十年：工业、服务与人形",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 21,
+    "units": 184892,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:40:50.390Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "第1章　需求之形：自动化前夜的工厂与想象（约 1984 年）",
+      "units": 8357
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "第2章　构型之争：从假肢到手臂的形态学探索（约 1986 年）",
+      "units": 10050
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "第3章　论断：让一台关节式机械臂按照指令平稳地划过空间（约 1988 年）",
+      "units": 11048
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "第4章　论断：机器人从孤立的设备变成可集成的工作单元（约 1990 年）",
+      "units": 8667
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "第5章　论断：1992年前后（约 1992 年）",
+      "units": 11185
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "第6章　论断：1990年代中期（约 1995 年）",
+      "units": 9190
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "第7章　视觉闭环：让机器人在光流中定位自己（约 1997 年）",
+      "units": 8423
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "第8章　力觉觉醒：从刚性运动到柔顺操控（约 1999 年）",
+      "units": 8543
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "第9章　论断：2001年前后（约 2001 年）",
+      "units": 7537
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "第10章　论断：2003年前后（约 2003 年）",
+      "units": 9706
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "第11章　协作的诞生：从隔离到共融的安全架构（约 2005 年）",
+      "units": 10947
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "第12章　论断：2007年前后（约 2007 年）",
+      "units": 7713
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "第13章　旧王与新贵：金融危机后的产业洗牌（约 2009 年）",
+      "units": 10634
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "第14章　论断：2011年前后（约 2011 年）",
+      "units": 10283
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "第15章　论断：2013年（约 2013 年）",
+      "units": 10765
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "第16章　论断：2016年前后（约 2016 年）",
+      "units": 7884
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "第17章　论断：2018年前后（约 2018 年）",
+      "units": 8201
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "第18章　疫情加速器：从隔离到依赖的临界点（约 2020 年）",
+      "units": 8397
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "第19章　人形再临：大模型时代的具身竞赛（约 2022 年）",
+      "units": 9371
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "第20章　论断：2024年前后（约 2024 年）",
+      "units": 22
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "第20章 论断：2024年前后",
+      "units": 7969
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.621Z"
+}

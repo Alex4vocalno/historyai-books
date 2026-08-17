@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034455750_b4173ee80f",
+  "projectId": "proj-msoeg7iltlt",
+  "manuscriptVersionId": "mv_1c1d27e534aefb0f",
+  "contentHash": "1c1d27e534aefb0fbd8311d3e3a6f211fe53d39bd72c802bde3f92f3aeb35b81",
+  "title": "电子游戏简史·卷一：起源",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是《电子游戏简史》五卷本之卷一《起源：从示波器到雅达利帝国》（1947-1983）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期。四个贯穿五卷的总纲概念在本卷的任务：①「硬币契约」——本卷写它的诞生：从实验室免费玩具到投币街机，玩家与厂商第一份价值契约如何在酒吧与街机厅里成形，又如何在 1983 年被雅达利亲手撕毁；②「客厅争夺战」——本卷写序幕：Odyssey 与 Atari 2600 把游戏第一次带进客厅；③「作者与流水线」——本卷写起点：从 Spacewar 的黑客作者们到雅达利流水线上无署名的设计师（乔布斯与沃兹的打砖块、Warren Robinett 的第一个彩蛋）；④「玩家造物」——本卷写萌芽：机厅高分榜与攻略口传。…",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 224933,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:39:35.541Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "示波器上的火花",
+      "units": 9115
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "黑客与太空战争",
+      "units": 9179
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "客厅里的褐色盒子",
+      "units": 9264
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "硬币塞坏的那个夜晚",
+      "units": 8176
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "克隆战争与机厅诞生",
+      "units": 9940
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "从酒吧到客厅的跳跃",
+      "units": 7647
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "雅达利内部的战争",
+      "units": 10980
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "日本列岛的投币热潮",
+      "units": 9041
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "吃豆人与游戏面孔的诞生",
+      "units": 9692
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "雅达利帝国的巅峰时刻",
+      "units": 8578
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "设计师的反叛与第一个彩蛋",
+      "units": 8145
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "硬币契约的裂痕",
+      "units": 8409
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "第三方的野火",
+      "units": 8040
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "投币柜台的黄金血脉",
+      "units": 8317
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "红白机的前夜",
+      "units": 9864
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "雅达利的自杀契约",
+      "units": 7952
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "阿拉莫戈多的掩埋与一个行业的蒸发",
+      "units": 8009
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "废墟上的审判",
+      "units": 7654
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "街机王朝的更迭",
+      "units": 9424
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "山内溥的人才赌注",
+      "units": 10278
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "崩溃的遗产与工具箱",
+      "units": 8354
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "雅达利的反事实与日本暗流",
+      "units": 9909
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "硬币的最后回声",
+      "units": 8191
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "像素未死",
+      "units": 8378
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "硬币之后",
+      "units": 12397
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:55.752Z"
+}

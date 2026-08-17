@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034455360_7ea08bdefd",
+  "projectId": "proj-mspjvhgkrpk",
+  "manuscriptVersionId": "mv_76e4d7efc296d7a0",
+  "contentHash": "76e4d7efc296d7a0c136736b8d0e5963b37aab2348e0ff09f6c89b48481f7ad2",
+  "title": "电子游戏简史·卷三：多边形革命",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "本书是《电子游戏简史》五卷本之卷三《多边形革命：PlayStation 时代与作者的黄金年代》（1994-2006）。全书总论证：电子游戏的八十年是「玩」这种最古老的人类行为被工业化、平台化、再民主化的完整周期。四个贯穿五卷的总纲概念在本卷的任务：①「硬币契约」——本卷写它的第三次重签：光盘把卡带的高门槛权利金变成低成本抽成（索尼向第三方敞开大门的经济学），而网络游戏把契约按时间切片（月卡、点卡、网吧计时——玩家第一次为「在场时间」而非「拷贝」付费）；②「客厅争夺战」——本卷写它的三国化与出界：PS/N64/土星到 PS2/NGC/Xbox 的两轮主机战争，同时战场第一次溢出客厅——PC、网吧、机房成为新前线；③「作者与流水线」——本卷是主卷：作者的黄金年代（宫本茂的 3D 跳跃、小岛秀夫的电影语法、坂口博信的…",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 226114,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:39:16.328Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "秋叶原的灰箱子",
+      "units": 13559
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "任天堂的背叛与索尼的复仇",
+      "units": 8353
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "摄像机问题",
+      "units": 8658
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "卡带的代价",
+      "units": 9944
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "土星坠落",
+      "units": 8381
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "叛逃",
+      "units": 8373
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "光盘经济学",
+      "units": 8359
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "最终幻想与帝国斜阳",
+      "units": 7969
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "世嘉的最后一搏",
+      "units": 8389
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "微软的客厅焦虑",
+      "units": 8932
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "半条命与模组起义",
+      "units": 10416
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "艾泽拉斯的黎明",
+      "units": 7906
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "网吧共和国",
+      "units": 9102
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "反恐精英与模组幽灵",
+      "units": 8837
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "点卡帝国",
+      "units": 8366
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "绿盒子的入侵",
+      "units": 8350
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "虚拟世界的代价",
+      "units": 8361
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "岔路前夜",
+      "units": 10309
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "圣诞节的闪电战",
+      "units": 9913
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "索尼的泥潭",
+      "units": 8272
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "首尔的国家队",
+      "units": 8390
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "传奇的遗产",
+      "units": 8813
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "流水线的裂痕",
+      "units": 9028
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "任天堂的侧翼",
+      "units": 9658
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "岔路口的遗产",
+      "units": 9476
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:55.362Z"
+}

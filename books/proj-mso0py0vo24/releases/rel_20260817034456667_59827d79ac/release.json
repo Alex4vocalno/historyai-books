@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817034456667_59827d79ac",
+  "projectId": "proj-mso0py0vo24",
+  "manuscriptVersionId": "mv_812d2abc5eddc6f9",
+  "contentHash": "812d2abc5eddc6f90d62e2b5b6e2129dc6f4f8f27bbc49b38b4a8bad574d9e42",
+  "title": "像素里的中国：中国电子游戏三十年",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "",
+  "category": "科技史",
+  "tags": [
+    "科技史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 170770,
+    "unitLabel": "字"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T03:41:02.916Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "第1章　走私入关：1984年的电子浪花（约 1984 年）",
+      "units": 8564
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "第2章　仿制潮涌：红白机南下与卡带作坊（约 1986 年）",
+      "units": 10098
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "第3章　街机暗流：电子鸦片的舆论前夜（约 1988 年）",
+      "units": 10862
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "第4章　学习机之名：小霸王游走禁令边缘（约 1991 年）",
+      "units": 8469
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "第5章　盗版光盘潮：电脑房里的新大陆（约 1993 年）",
+      "units": 8564
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "第6章　仙剑出世：国产游戏的悲情起跑（约 1995 年）",
+      "units": 7586
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "第7章　血狮溃败：单机凋零（约 1997 年）",
+      "units": 11402
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "第8章　禁令催生网吧潮（约 2000 年）",
+      "units": 9481
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "第9章　传奇代理：点卡暴富（约 2002 年）",
+      "units": 7739
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "第10章　网瘾风暴：防沉迷令（约 2004 年）",
+      "units": 7753
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "第11章　征途：免费收割（约 2006 年）",
+      "units": 8753
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "第12章　页游时代：渠道为王（约 2008 年）",
+      "units": 7412
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "第13章　手机分裂游戏版图（约 2011 年）",
+      "units": 8464
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "第14章　渠道铁幕下的分发革命（约 2013 年）",
+      "units": 8418
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "第15章　二次元破壁与内容觉醒（约 2015 年）",
+      "units": 8636
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "第16章　吃鸡大战改写规则（约 2017 年）",
+      "units": 10426
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "第17章　原神叩关与全球发行（约 2020 年）",
+      "units": 12251
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "第18章　版号寒冬与AI工业化（约 2022 年）",
+      "units": 8162
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "第19章　三十年，长出一个产业（约 2024 年）",
+      "units": 7730
+    }
+  ],
+  "publishedAt": "2026-08-17T03:44:56.669Z"
+}
