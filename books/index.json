@@ -1,5 +1,35 @@
 [
   {
+    "id": "proj-msx6jn7ebd4",
+    "projectId": "proj-msx6jn7ebd4",
+    "releaseId": "rel_20260817120452986_482064f38a",
+    "title": "俄罗斯方块：一个方块的冷战旅行",
+    "subtitle": "一个方块的冷战旅行",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "俄罗斯方块",
+      "冷战",
+      "游戏史",
+      "版权战争",
+      "苏联",
+      "任天堂"
+    ],
+    "description": "1984年，莫斯科计算中心的一位程序员在业余时间编写了一个小游戏，它没有名字，没有版权，也没有商业计划。然而，这个由四个方块组成的简单拼图，却穿越铁幕，引发了资本主义世界最激烈的版权争夺战。本书完整讲述了《俄罗斯方块》从苏联科学院到全球屏幕的非凡旅程：它如何在计划经济的真空中诞生，如何被西方商人发现并卷入层层转授的罗生门，如何在任天堂与传媒大亨的博弈中成为Game Boy的杀手级应用，又如何随着苏联解体而完成权利的回归。作者通过大量档案与访谈，还原了这场横跨数学、冷战与大众文化的独特历史，揭示了一个抽象游戏如何成为世界秩序变动的见证者。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "archive-ledger",
+      "createdAt": "2026-08-13T03:21:28.331Z"
+    },
+    "coverUrl": "books/proj-msx6jn7ebd4/releases/rel_20260817120452986_482064f38a/cover.jpg",
+    "url": "books/proj-msx6jn7ebd4/index.html",
+    "publishedAt": "2026-08-17T12:04:52.988Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msx6ij9enm8",
     "projectId": "proj-msx6ij9enm8",
     "releaseId": "rel_20260817120431183_abf529fc80",
@@ -102,30 +132,6 @@
     "coverUrl": "books/proj-msx6kn0jkvx/releases/rel_20260817115928062_87db39c0df/cover.jpg",
     "url": "books/proj-msx6kn0jkvx/index.html",
     "publishedAt": "2026-08-17T11:59:28.063Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msx6jn7ebd4",
-    "projectId": "proj-msx6jn7ebd4",
-    "releaseId": "rel_20260817115842477_482064f38a",
-    "title": "俄罗斯方块：一个方块的冷战旅行",
-    "subtitle": "一个方块的冷战旅行",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "俄罗斯方块",
-      "冷战",
-      "游戏史",
-      "版权战争",
-      "苏联",
-      "任天堂"
-    ],
-    "description": "1984年，莫斯科计算中心的一位程序员在业余时间编写了一个小游戏，它没有名字，没有版权，也没有商业计划。然而，这个由四个方块组成的简单拼图，却穿越铁幕，引发了资本主义世界最激烈的版权争夺战。本书完整讲述了《俄罗斯方块》从苏联科学院到全球屏幕的非凡旅程：它如何在计划经济的真空中诞生，如何被西方商人发现并卷入层层转授的罗生门，如何在任天堂与传媒大亨的博弈中成为Game Boy的杀手级应用，又如何随着苏联解体而完成权利的回归。作者通过大量档案与访谈，还原了这场横跨数学、冷战与大众文化的独特历史，揭示了一个抽象游戏如何成为世界秩序变动的见证者。",
-    "chapterCount": 25,
-    "editorialScore": null,
-    "coverUrl": "books/proj-msx6jn7ebd4/releases/rel_20260817115842477_482064f38a/cover.jpg",
-    "url": "books/proj-msx6jn7ebd4/index.html",
-    "publishedAt": "2026-08-17T11:58:42.479Z",
     "visibility": "public"
   },
   {

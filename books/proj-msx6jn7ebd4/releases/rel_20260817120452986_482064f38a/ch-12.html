@@ -1,0 +1,144 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Maxwell的复仇 · 俄罗斯方块：一个方块的冷战旅行</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>俄罗斯方块：一个方块的冷战旅行</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 12 章 · Maxwell的复仇</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 12 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>计算中心第六层的夜</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>四格骨牌的数学</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>莫斯科地下弧</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>布达佩斯橱窗</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>铁幕两侧的罗生门</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>任天堂的赌注</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>一张机票与三把钥匙</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>灰色大楼里的三方盲棋</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>合同上的国家签名</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>横井军平的灰色卡带</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>一亿份的全球化</span></a><a class="chapter-link active" href="ch-12.html"><span>12</span><span>Maxwell的复仇</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>法庭上的铁幕残片</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>国家瓦解时的无形财产</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>作者的名字重新出现</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>版税寄往何处</span></a><a class="chapter-link" href="ch-17.html"><span>17</span><span>蓝色方块落进手游时代</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>大脑里的方块</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>克隆战争</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>屏幕的裂变</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>触屏上的幽灵</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>大逃杀与新生代</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>再拍一次冷战</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>一个方块的世界史</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>铁幕两侧的罗生门（25）</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 12 章</p><h1>Maxwell的复仇</h1><div class="reader-content"><p>第12章　Maxwell的复仇</p>
+<p>把时钟拨回1991年。法律简报的封面是镜报集团内部函件的标准格式——浅灰色硬纸夹，左上角印着&quot;机密&quot;字样，右下角标注日期：1991年4月17日。罗伯特·马克斯韦尔翻开封面。第一页是一份表格，三列数字。第一列是地区：北美、日本、欧洲、其他。第二列是Game Boy硬件销量，截至1991年3月31日，全球累计超过一千八百万台。第三列是俄罗斯方块捆绑版本的出货占比——北美市场百分之六十七，日本百分之五十四，欧洲百分之七十一。表格下方有一行手写注释，来自镜报集团的法律顾问：据估算，任天堂在1990财年向ELORG支付的俄罗斯方块版税超过一千二百万美元，1991财年预计超过两千万美元。</p>
+<p>马克斯韦尔把简报放在桌上。窗外是伦敦四月常见的灰色天空，霍尔本站方向的交通噪音从双层玻璃外隐隐透进来。</p>
+<p>他重新拿起那两页纸，这一次读得更慢。他的手指捏住纸张边缘，指节发白。这份简报本身并不复杂。</p>
+<p>它的核心判断只有一句话：俄罗斯方块正在成为全球最赚钱的电子游戏产品之一，而罗伯特·马克斯韦尔的企业集团从中获得的收入为零。对于镜报集团的员工来说，1991年春天的老板正处于一种他们熟悉的愤怒状态。</p>
+<p>但这次愤怒有一个具体的坐标：1989年2月，莫斯科。在那场决定俄罗斯方块掌机权利的谈判中，马克斯韦尔的儿子凯文——镜报集团旗下Mirrorsoft的负责人——输给了任天堂的代表亨克·罗杰斯。输掉的不是一个合同条款或一个百分点的版税分成，而是整个Game Boy平台的独占权。现在，十八个月过去了，Game Boy俄罗斯方块的销量数字把那次失败的代价换算成了明确的金额。</p>
+<p>马克斯韦尔拿起电话。他要求法律部门在四十八小时内准备一份完整的权利主张分析，重点审查一个核心问题：罗伯特·斯坦因最初从ELORG获得的协议，是否可以被解释为涵盖了掌机权利。这个问题在法律上并非毫无根据。</p>
+<p>斯坦因在1986年与ELORG签订的合同确实存在模糊之处——合同文本中对“计算机程序”的定义没有明确区分硬件平台类型。在1986年的苏联，掌上游戏机这个概念本身就不存在于法律和技术词汇中。ELORG的谈判代表尼古拉·别利科夫后来承认，他当时根本不理解斯坦因所说的“个人电脑”和“家用游戏机”之间有什么区别，更不用说一个尚未在日本以外市场普及的掌机概念。</p>
+<p>如果斯坦因的原始合同可以被解释为涵盖了所有电子游戏平台，那么Mirrorsoft从斯坦因那里获得的分授权就包括了掌机权利。这意味着任天堂与ELORG在1989年直接签订的掌机合同侵犯了Mirrorsoft的既有权利。这是马克斯韦尔法律攻势的理论基础。</p>
+<p>但它面临两个致命的问题。第一个问题是时间：斯坦因在1988年已经向ELORG支付了一笔追加费用，明确将权利范围限定在家用电脑和街机平台。</p>
+<p>第二个问题更具根本性：要主张这个权利，马克斯韦尔需要莫斯科的合作——而1991年的莫斯科正在迅速变成一个与1989年完全不同的世界。</p>
+<p>法律部门在四十八小时内完成了初步分析。这份分析报告比第一份简报更厚，但它确认了马克斯韦尔希望看到的核心结论：存在可争议的法律空间。报告同时指出，任何诉讼都需要同时在多个司法管辖区推进——英国、美国、日本，以及最关键的是，需要苏联方面的配合或至少不反对。</p>
+<p>马克斯韦尔决定同时开辟三条战线。第一条战线在伦敦。1991年5月，镜报集团的律师向英国高等法院提交了申请，要求冻结任天堂向ELORG支付的部分版税，等待权利归属的最终裁定。这份申请的法律逻辑是：如果Mirrorsoft对俄罗斯方块拥有部分权利，那么任天堂在未经Mirrorsoft许可的情况下使用该游戏盈利，所产生的收益中有一部分应属于Mirrorsoft。在权利归属明确之前，法院应当保全这部分资金。英国高等法院的商事庭安排了6月初的听证会。</p>
+<p>主审法官是商事庭的资深法官，以处理复杂的国际商事纠纷闻名。镜报集团的律师团队由一家伦敦金融城的老牌律所牵头，他们在提交的材料中强调了合同文本的模糊性和斯坦因原始授权的广泛性。</p>
+<p>第二条战线在莫斯科。马克斯韦尔亲自介入。1991年5月下旬，他以个人名义致信苏联政府高层。收信人包括苏联对外贸易部部长和苏联科学院的相关负责人——ELORG在行政序列上隶属于对外贸易部，而游戏的创作者阿列克谢·帕基特诺夫是科学院的雇员。</p>
+<p>这封信的抬头使用了马克斯韦尔的全部头衔——镜报集团董事长、英国议会议员、多个慈善基金会的主席。信的措辞经过精心设计：它没有直接指责ELORG或任天堂，而是表达了对苏联知识产权在海外受到充分保护的关切。马克斯韦尔在信中提议，由苏联政府重新审查ELORG与任天堂签订的合同，以确保苏联的国家利益得到了充分保障。</p>
+<p>苏联的国家利益——这是马克斯韦尔在莫斯科使用的语言。他知道如何与苏联官僚体系对话。</p>
+<p>这位捷克斯洛伐克出生的商人从1970年代起就在莫斯科建立了深厚的人脉网络。他曾多次访问苏联，与勃列日涅夫时代的官员建立过联系，在戈尔巴乔夫时期又拓展了新的关系。他在苏联出版过多部著作，包括他自己的传记。他被视为西方世界中少数真正理解苏联运作方式的商业领袖之一。</p>
+<p>在1989年，这种人脉可能足以影响ELORG的决策。但1991年的莫斯科已经不是1989年的莫斯科。</p>
+<p>第三条战线在纽约。1991年6月，镜报集团在美国的子公司对任天堂美国公司提起了侵权诉讼，主张Mirrorsoft对俄罗斯方块在北美的发行权涵盖了所有平台，包括掌机。诉讼请求包括损害赔偿和要求任天堂停止销售Game Boy俄罗斯方块。</p>
+<p>三线并进的法律攻势在1991年夏天同时推进。从表面上看，这是一场资源充足、逻辑清晰的商业反击。马克斯韦尔拥有媒体帝国——镜报集团旗下包括英国的《每日镜报》和多家报纸——他可以利用舆论施加压力。他拥有资金——镜报集团当时市值超过十亿英镑。</p>
+<p>他拥有政治人脉——从伦敦到莫斯科，他认识那些在权力走廊里行走的人。但每一道战线都在遭遇同一个根本性的阻力：世界正在变化，而变化的方向不利于马克斯韦尔的商业模式。</p>
+<p>伦敦法院的冻结令申请在7月初举行了听证会。法官在听取双方初步陈述后，没有立即做出裁决，而是要求进一步提交证据。</p>
+<p>法官特别关注一个事实问题：斯坦因在1988年向ELORG支付的追加费用，其合同条款是否明确排除了掌机权利。如果排除是明确的，那么Mirrorsoft从斯坦因那里获得的权利就不可能涵盖Game Boy。这个问题指向了马克斯韦尔法律主张中最薄弱的环节。</p>
+<p>斯坦因本人在1989年的莫斯科谈判中已经承认，他最初从ELORG获得的授权不包含掌机权利——这正是他当时愿意支付追加费用的原因。虽然斯坦因后来在各种法律程序中改变过说法，但他1988年签署的合同文本是客观存在的证据。任天堂的律师团队没有坐以待毙。</p>
+<p>他们在伦敦聘请了同一家金融城律所的另一组律师，提交了ELORG与斯坦因之间1988年补充协议的副本。这份协议以俄语和英语双语写成，其中的权利范围条款列出了具体的授权平台类型——个人电脑、街机游戏机、家用游戏机。没有掌上游戏机。</p>
+<p>法官在7月中旬做出了初步裁决：冻结令申请被驳回。法官在裁决理由中写道，Mirrorsoft的权利主张存在重大争议，但在现有证据下，任天堂与ELORG直接签订合同的行为不构成明显的侵权。法官同时指出，如果Mirrorsoft希望继续主张权利，应当通过完整的审判程序解决，而不是通过临时禁令。</p>
+<p>伦敦的第一道战线受挫。但真正决定这场法律攻势命运的战场不在伦敦，也不在纽约，而在莫斯科。</p>
+<p>1991年夏天的莫斯科是一个正在解体的帝国的首都。苏联的经济指标在1991年上半年持续恶化：通货膨胀率飙升，卢布在黑市上的汇率暴跌，基本消费品短缺成为日常现实。政治层面，戈尔巴乔夫的权威在左右两翼的夹击下日益萎缩。</p>
+<p>改革派指责他动作太慢，保守派指责他出卖社会主义。加盟共和国一个接一个地宣布主权——立陶宛已经在1990年3月迈出了第一步，格鲁吉亚、爱沙尼亚、拉脱维亚紧随其后。到1991年6月，连俄罗斯苏维埃联邦社会主义共和国——苏联最大的加盟共和国——也选出了自己的总统鲍里斯·叶利钦，开始建立独立于联盟中央的权力体系。</p>
+<p>ELORG就处在这个正在崩塌的体系中。作为一个隶属于苏联对外贸易部的机构，ELORG的法律地位完全依赖于苏联国家的存在。它的合同权利、它的银行账户、它的行政归属——所有这些在1991年夏天都开始变得不确定。</p>
+<p>马克斯韦尔致信苏联高官的时间是1991年5月。这些信件的副本被送到了对外贸易部和科学院的多个办公室。但那些办公室里的人正在面对比一份版权合同更紧迫的问题：他们的机构是否还能存在到年底，他们自己的职位是否还能保留，卢布在明天会贬值多少。</p>
+<p>对外贸易部的一位官员在收到马克斯韦尔的信后，按照程序将其转交给了ELORG的负责人别利科夫，同时附上了一张简短的便条：请酌情处理。</p>
+<p>酌情处理——这是1991年莫斯科官僚体系的标准回应。它意味着上级机构不会做出任何明确的指示，将决定权下放给下级，同时也将责任下放。在1989年，这种回应可能意味着拖延和不了了之。在1991年，它意味着ELORG实际上获得了更大的自主权——不是因为制度设计，而是因为上级机构正在自顾不暇。</p>
+<p>别利科夫把信收进了档案夹。他没有回复。他后来在接受采访时解释了自己的逻辑：ELORG与任天堂的合同是合法签订的，经过了对外贸易部的批准，合同条款清晰明确。重新审查这份合同不会给ELORG带来任何好处，只会制造不确定性——而不确定性在1991年的莫斯科是最危险的东西。</p>
+<p>马克斯韦尔在莫斯科的人脉网络也在1991年夏天出现了裂痕。他在苏联高层的关系主要集中在戈尔巴乔夫周围的改革派圈子和对外贸易系统。</p>
+<p>但1991年6月，叶利钦当选俄罗斯总统后，苏联的权力结构出现了双重化的趋势——联盟中央的机构和俄罗斯联邦的机构开始并立，各自的权限边界模糊不清。马克斯韦尔认识的那些官员发现自己的权力正在被架空，或者他们正在努力将自己的职位从联盟机构转移到俄罗斯联邦机构，以确保在苏联解体后不会失业。</p>
+<p>一个具体的例子明这种变化。马克斯韦尔在对外贸易部的一位长期联系人——一位副部长级别的官员——在1991年7月被调任到一个新成立的机构，这个机构由俄罗斯联邦政府设立，与联盟中央的对外贸易部形成了竞争关系。这位官员在新的岗位上需要重新建立自己的权力基础，他不再有精力——也没有意愿——去推动一个英国商人的版权主张。</p>
+<p>8月19日，莫斯科发生了政变。一群保守派领导人——包括克格勃主席、国防部长、内务部长和副总统——宣布成立国家紧急状态委员会，声称戈尔巴乔夫因健康原因不能履行总统职责，由委员会接管权力。坦克开进了莫斯科街头。</p>
+<p>叶利钦站在白宫前的一辆坦克上发表了抵抗演说。政变只持续了三天。8月21日，政变领导人被捕，戈尔巴乔夫回到莫斯科。</p>
+<p>但政变的失败并没有挽救苏联——它加速了苏联的瓦解。政变后，叶利钦的权力急剧上升，联盟中央的机构迅速丧失权威。加盟共和国纷纷宣布独立：乌克兰在8月24日，白俄罗斯在8月25日，摩尔多瓦在8月27日。</p>
+<p>在政变期间和政变之后，马克斯韦尔在莫斯科的联系渠道几乎完全中断。他试图联系对外贸易部的官员，但电话没有人接——那些办公室要么已经关闭，要么正在被重组。他的一位助手后来回忆，马克斯韦尔在8月下旬多次尝试通过苏联驻伦敦大使馆传递信息，但大使馆的工作人员自己也搞不清楚莫斯科到底是谁在掌权。</p>
+<p>莫斯科的第二道战线正在蒸发——不是因为法律论证的失败，而是因为法律赖以存在的国家正在消失。纽约的诉讼在1991年秋天继续推进，但进展缓慢。</p>
+<p>美国联邦法院在受理案件后，首先需要处理管辖权问题：一个英国公司主张对一款由苏联机构授权、日本公司发行的游戏拥有北美权利，这涉及到复杂的国际私法问题。任天堂的律师提交了驳回诉讼的动议，主张Mirrorsoft的权利主张没有法律依据，而且诉讼应当在与合同关系最密切的司法管辖区——英国或苏联——进行。</p>
+<p>法院在9月安排了初步听证会。法官在听证会上表现出对案件复杂性的明显关注，但同时也提出了一个关键问题：如果Mirrorsoft的权利来源于斯坦因，而斯坦因的权利来源于ELORG，那么ELORG作为权利的原始持有者，其与任天堂直接签订的合同是否应当被视为对斯坦因授权的有效变更？</p>
+<p>这个问题的答案取决于苏联法律——而1991年秋天的苏联法律正在经历一场存在危机。马克斯韦尔的法律团队试图从苏联获取官方声明，确认ELORG与任天堂的合同存在瑕疵。他们在9月和10月多次尝试联系莫斯科的相关机构。</p>
+<p>但每一次尝试都遇到同样的障碍：没有人能够——或者愿意——出具这样一份声明。</p>
+<p>ELORG的别利科夫在1991年秋天面临着自己的生存问题。苏联外贸体系正在瓦解，ELORG的上级机构对外贸易部在政变后实际上已经停止运作。别利科夫需要为ELORG找到一个在后苏联时代的法律地位。他开始与俄罗斯联邦的新机构接触，试图将ELORG注册为一个俄罗斯公司，以保留其持有的知识产权——包括俄罗斯方块的版权。</p>
+<p>在这个过程中，回应马克斯韦尔的版权主张不是别利科夫的优先事项。他后来回忆说，1991年秋天的每一天都在处理紧急事务：银行账户可能被冻结，员工工资需要用美元支付但外汇渠道正在关闭，合同的法律适用法从苏联法变成了某种不确定的过渡状态。一个英国商人的律师函在这种环境下很难得到及时回应。</p>
+<p>11月5日，罗伯特·马克斯韦尔登上了他的游艇，从加那利群岛出发。他当时正在面对多重压力。</p>
+<p>俄罗斯方块的诉讼进展缓慢，镜报集团的财务状况正在恶化——集团的债务在1991年已经超过了二十亿英镑，多家银行开始收紧信贷。他在1988年收购的美国出版公司麦克米伦也面临经营困难。多个法律诉讼同时进行，包括与英国税务局的纠纷。</p>
+<p>11月5日下午，马克斯韦尔在游艇上最后一次被人看到。当晚，他的遗体在加那利群岛附近的海域被发现。西班牙官方的死因裁定是心脏病发作后落水溺亡。</p>
+<p>后续调查发现，镜报集团存在大规模的财务违规行为——马克斯韦尔在去世前已经从集团的养老基金中挪用了超过四亿英镑，试图填补集团其他业务的资金缺口。他的死亡标志着一个商业帝国的终结。</p>
+<p>镜报集团在随后几个月内进入破产程序。集团的审计师发现，马克斯韦尔帝国的财务结构是一个精心设计的迷宫——数百个子公司和关联实体在多个司法管辖区之间转移资金，真实的资产负债状况从未在公开报表中得到准确反映。养老基金的亏空引发了英国议会调查和刑事调查。</p>
+<p>马克斯韦尔的儿子凯文和伊恩被指控参与财务违规行为，后来在1996年被判无罪，但他们的商业声誉已经不可挽回地受损。</p>
+<p>Mirrorsoft作为镜报集团的子公司，在集团破产后进入了清算程序。它在俄罗斯方块权利上的主张——无论其法律依据如何——随着母公司的崩塌而失去了推动力。</p>
+<p>清算人面对的是一个混乱的权利主张网络：Mirrorsoft声称拥有俄罗斯方块的部分权利，但这些权利来源于斯坦因，而斯坦因的权利本身存在争议。清算人没有资源也没有意愿去继续这场跨国诉讼。</p>
+<p>纽约的诉讼在1992年初被撤销。伦敦的冻结令申请已经在1991年7月被驳回，没有上诉。莫斯科的信件从未得到正式回复。马克斯韦尔的复仇失败了。</p>
+<p>但它失败的原因比一个简单的法律论证不足更为深刻。马克斯韦尔是一个特定时代的产物。他的商业模式建立在两个支柱之上：一是跨越冷战东西方的人脉网络，二是利用信息不对称和政治关系在多个市场上套利。</p>
+<p>他在1960年代和1970年代通过这种方式建立了一个媒体帝国——从捷克斯洛伐克的难民到英国议会议员，从学术出版商到跨国传媒大亨。他理解苏联官僚体系的运作方式，知道如何利用政治关系解决商业问题。</p>
+<p>在1989年，这种模式仍然可能奏效。如果马克斯韦尔在1989年2月亲自前往莫斯科——而不是派他的儿子凯文——俄罗斯方块的掌机权利可能以不同的方式分配。他在苏联的人脉在1989年仍然有效，ELORG的上级机构仍然存在，苏联的法律体系仍然是一个可以被政治压力影响的结构。</p>
+<p>但1991年不是1989年。苏联在1991年的解体不是一场突然的崩溃，而是一个逐层剥落的过程。每一层机构的失效都削弱了马克斯韦尔式商业操作的基础。</p>
+<p>对外贸易部的瘫痪意味着没有人能够对ELORG施加行政压力。戈尔巴乔夫权威的萎缩意味着马克斯韦尔在莫斯科高层的联系人失去了实际权力。苏联法律体系的瓦解意味着任何基于苏联法律的合同主张都变得不可执行。</p>
+<p>马克斯韦尔试图在一个正在消失的旧秩序中行使权力。他的信寄到了那些已经不再真正存在的机构。他的联系人接到了电话，但不再有能力提供帮助。他的法律主张建立在对合同文本的合理解读之上，但合同的执行需要一个仍然存在的签约方——而ELORG作为一个苏联机构的合法性正在随着苏联本身一起蒸发。</p>
+<p>这不是一场常规的版权诉讼。这是一场发生在两个时代交界处的冲突：一个依靠人脉、政治关系和旧秩序规则的商业模式，撞上了一个正在形成的新市场秩序——在这个新秩序中，合同文本的精确措辞比官员的电话号码更重要，法院的程序规则比部长的私人信函更有分量。</p>
+<p>马克斯韦尔在1991年11月的死亡为这场冲突画上了一个突然的句号。但他的失败在8月政变失败时已经注定。</p>
+<p>当莫斯科的坦克撤出街头，当叶利钦站在白宫前宣布胜利，当苏联的加盟共和国一个接一个宣布独立——在这些时刻，马克斯韦尔的复仇已经失去了它赖以运作的生态系统。俄罗斯方块的版权战争以任天堂的全面胜利告终。</p>
+<p>但这个胜利的真正含义需要放在更长的历史尺度上理解。任天堂在1989年与ELORG签订的合同经受住了1991年的冲击——苏联解体后，ELORG转型为俄罗斯的私人公司，合同在新的法律框架下继续有效。亨克·罗杰斯在莫斯科谈判中争取到的条款被证明具有惊人的预见性：合同明确规定了权利范围、版税计算方式和争议解决机制，这些条款在签约国消失后仍然可以被法院执行。</p>
+<p>马克斯韦尔的失败留下了一堆法律残骸。Mirrorsoft的清算程序产生了大量未解决的权利主张。斯坦因的Andromeda Software仍然声称拥有俄罗斯方块的部分权利——这些主张在1990年代继续在各种法律程序中浮现。镜报集团养老基金的受害者开始了漫长的索赔过程。</p>
+<p>而罗伯特·马克斯韦尔本人，这位曾经在冷战东西方之间游刃有余的商人，最终被记住的不是他的商业成就，而是他留下的财务黑洞和那艘在加那利群岛海域漂流的游艇。1991年12月25日，苏联国旗在克里姆林宫降下。</p>
+<p>俄罗斯方块的权利从此不再属于一个超级大国的外贸机构，而是属于一个正在被重新定义的商业实体。当Mirrorsoft的清算人开始整理公司档案时，他们发现了一份1989年的内部备忘录。备忘录的起草人是凯文·马克斯韦尔的手下，日期是1989年2月23日——就在莫斯科谈判结束后的第三天。备忘录的最后一句话是：我们仍然相信，通过适当的政治渠道，这个问题可以在未来得到纠正。这份备忘录被归档，从未被付诸行动。到清算人发现它时，苏联已经不复存在，纠正这个问题所需的“适当的政治渠道”也随之消失。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-11.html">上一章</a><a href="index.html">返回详情</a><a href="ch-13.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msx6jn7ebd4","chapter":11,"chapterTitle":"Maxwell的复仇","href":"ch-12.html","prevHref":"ch-11.html","nextHref":"ch-13.html","locationLabel":"第 12 章 · Maxwell的复仇"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>
