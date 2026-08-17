@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260817114613045_63f7c75407",
+  "projectId": "proj-msx62s8c3ay",
+  "manuscriptVersionId": "mv_168ad090371034cd",
+  "contentHash": "168ad090371034cded90f298434de9a99419017a51f041312d2293e2d734be39",
+  "title": "The Harness: How Software Taught AI to Work",
+  "subtitle": "How Software Taught AI to Work",
+  "authorDisplayName": "李思特Think",
+  "description": "A corporate history of the invisible layer that turned language models from oracles into workers. From ELIZA's script shell to the protocol wars of 2026, this book traces the engineers, startups, and open-source projects that built the loop, the tools, and the permissions around AI—only to watch model vendors absorb each breakthrough. The story moves through prompt engineering, the AutoGPT mania, the framework gold rush, and the standardization battles that reshaped the software industry. At its center is a paradox: every harness invention that proves essential eventually gets swallowed by the model itself, forcing builders to climb one level higher or vanish. Told in the register of a corporate saga, with defeats as honestly rendered as victories, this is the account of how autonomy was metered, trust was repriced, and programming became the proving ground where agents first learned to work.",
+  "category": "科技史",
+  "tags": [
+    "AI agents",
+    "software infrastructure",
+    "protocol wars",
+    "corporate history",
+    "autonomy"
+  ],
+  "language": "en",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 18,
+    "units": 69823,
+    "unitLabel": "words"
+  },
+  "editorialScore": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-17T11:46:12.918Z"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Long Prehistory of the Agent Loop (1966-2021)",
+      "units": 4718
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Prompt Engineers",
+      "units": 2879
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Autonomous Loop Takes Shape (March–June 2023)",
+      "units": 4731
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Framework Rush (Summer–Fall 2023)",
+      "units": 4167
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Protocol Turn (November 2023–March 2024)",
+      "units": 4282
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Great Unbundling (April–September 2024)",
+      "units": 3579
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Platform Consolidation (October 2024–March 2025)",
+      "units": 2221
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Suite Offensive (April–September 2025)",
+      "units": 4550
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Harness Ascendant (October 2025–January 2026)",
+      "units": 4530
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Autonomous Enterprise (February–June 2026)",
+      "units": 3270
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Empire of Protocols (July–December 2026)",
+      "units": 3335
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Unraveling of the Protocol Empire (January–March 2027)",
+      "units": 4456
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Edge Retreat (April–September 2027)",
+      "units": 3105
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Trust Bargain (October 2027–March 2028)",
+      "units": 3150
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Physical Frontier (April–December 2028)",
+      "units": 4281
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Shape of the Absorbed Layer (January 2029–December 2030)",
+      "units": 4391
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Afterlife of the Harness (2031–2035)",
+      "units": 3707
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Harness’s Permanent Architecture",
+      "units": 4471
+    }
+  ],
+  "publishedAt": "2026-08-17T11:46:13.048Z"
+}

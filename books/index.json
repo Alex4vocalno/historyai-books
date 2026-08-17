@@ -1,5 +1,28 @@
 [
   {
+    "id": "proj-msx62s8c3ay",
+    "projectId": "proj-msx62s8c3ay",
+    "releaseId": "rel_20260817114613045_63f7c75407",
+    "title": "The Harness: How Software Taught AI to Work",
+    "subtitle": "How Software Taught AI to Work",
+    "authorDisplayName": "李思特Think",
+    "category": "科技史",
+    "tags": [
+      "AI agents",
+      "software infrastructure",
+      "protocol wars",
+      "corporate history",
+      "autonomy"
+    ],
+    "description": "A corporate history of the invisible layer that turned language models from oracles into workers. From ELIZA's script shell to the protocol wars of 2026, this book traces the engineers, startups, and open-source projects that built the loop, the tools, and the permissions around AI—only to watch model vendors absorb each breakthrough. The story moves through prompt engineering, the AutoGPT mania, the framework gold rush, and the standardization battles that reshaped the software industry. At its center is a paradox: every harness invention that proves essential eventually gets swallowed by the model itself, forcing builders to climb one level higher or vanish. Told in the register of a corporate saga, with defeats as honestly rendered as victories, this is the account of how autonomy was metered, trust was repriced, and programming became the proving ground where agents first learned to work.",
+    "chapterCount": 18,
+    "editorialScore": null,
+    "coverUrl": "books/proj-msx62s8c3ay/releases/rel_20260817114613045_63f7c75407/cover.jpg",
+    "url": "books/proj-msx62s8c3ay/index.html",
+    "publishedAt": "2026-08-17T11:46:13.048Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msx3xq6kya3",
     "projectId": "proj-msx3xq6kya3",
     "releaseId": "rel_20260817104645465_ba861718d2",
