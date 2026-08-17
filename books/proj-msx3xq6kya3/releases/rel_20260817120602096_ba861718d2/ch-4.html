@@ -1,0 +1,169 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>札幌南高中的代码实验 · 玩家之心：岩田聪与任天堂的再发明</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>玩家之心：岩田聪与任天堂的再发明</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 4 章 · 札幌南高中的代码实验</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>16 章 · 当前第 4 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>北海道风雪与政客之家</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>拆解玩具的机械启蒙</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>可编程计算器里的棒球</span></a><a class="chapter-link active" href="ch-4.html"><span>04</span><span>札幌南高中的代码实验</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>秋叶原街机与东工大岁月</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>HAL研究所的地下室初创</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>红白机底层的代码拓荒</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>黄金时代的团队编译器</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>拯救失控创意的清道夫</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>破产边缘的组织重构术</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>跨越边界的生态连接者</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>打破部门墙的沟通协议</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>逆向拆解的蓝海战略</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>破圈繁荣下的生态暗礁</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>智能浪潮中的共识局限</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>玩家之心与未竟的转型</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 4 章</p><h1>札幌南高中的代码实验</h1><div class="reader-content"><p>第4章　札幌南高中的代码实验</p>
+<p>札幌南高等学校的主教学楼是一栋灰色钢筋混凝土建筑，在北海道短暂的夏季里吸收着宝贵的日照，在漫长的冬季里则与周围堆积的积雪融为一体。1975年春天，岩田聪穿着崭新的校服走进这所学校时，随身携带的物品里没有计算器。HP-65留在了室兰家中的书桌上。那不是放弃，而是一种判断。他在初中最后几个月里已经把那台机器的每一字节程序空间都榨干了，棒球游戏的代码经过反复优化，最终占用了一百步程序空间中的九十七步——剩下的三步无论如何也塞不进任何新功能。不是他不想继续改进，是硬件的天花板就顶在头顶上，他能摸到它冰凉的表面。那天晚上躺在被子里，他脑子里转着的念头不是做更复杂的棒球游戏，而是做更好玩的棒球游戏。这两者之间的差别，一个十五岁的少年未必能用语言精确表述，但他的直觉已经抓住了那个核心：复杂不等于好玩，技术指标不等于体验。</p>
+<p>而现在他站在札幌南高的校门口，面对的是一个全新的问题：没有设备。</p>
+<p>1975年的日本高中计算机教育处于一种奇特的状态。一方面，通产省在数年前已启动信息处理振兴的相关政策讨论，计算机被视为国家战略技术；另一方面，绝大多数高中连一台像样的计算机都没有。学校能提供的技术教育通常止于算盘和打字机。札幌南高作为北海道排名靠前的升学高中，其教学资源集中在帮助学生通过严苛的大学入学考试上——数学、英语、国语、理科、社会。计算机不在课表里，它甚至不在大多数老师的认知范围里。</p>
+<p>根据可查证的资料，岩田聪正是在这一时期，利用惠普的HP-65可编程计算器，制作出了一些简单的数字游戏并与同学分享。这构成了他‘在高中时就创作出了自己的第一款简单游戏’的起点。</p>
+<p>但札幌南高有一个数学研究部。说是研究部，实际上是一间放学后开放的教室，里面有十几张桌子、一块黑板，以及一群对数字和逻辑有超常兴趣的学生。顾问老师是一位年近五十的数学教师，专业领域是微积分和几何学，对计算机几乎一无所知。但他有一个特点——他不阻止学生探索他不知道的东西。在七十年代日本高中的教师文化里，这种克制本身就算得上一种开明。</p>
+<p>岩田聪加入数学研究部的方式没有任何戏剧性。他在入学第一周递交了入部申请，第二周开始参加活动。最初的几次活动是解题练习和数学竞赛准备，他表现得不错但不突出。真正让他在这个群体里找到位置的，是他在第三周做的一件事：他从书包里拿出了一沓手写的说明书。</p>
+<p>那是他自己翻译的HP-65英文操作手册。原文是他父亲通过北海道厅的关系辗转弄来的复印件，厚达一百多页，全部是英文。岩田聪在初三暑假里花了一个月时间，逐页逐段地翻译成了日文。他的英语成绩在班里只是中上水平，翻译技术文档远超出了课程要求的词汇量范围。他靠的是两样东西：一本英日辞典，和对弄懂这个东西的执念。</p>
+<p>他把翻译稿摊在数学研究部的桌子上时，并没有想要引起什么反响。他只是觉得这些资料可能对部活有用——如果将来部里能弄到可编程计算器的话。但顾问老师看到那沓稿纸后的反应改变了一些事情。老师没有表扬他的英语能力，他问的是：你能用它做什么？</p>
+<p>这是一个工程师才会问的问题。不是“这个是什么”，而是“你能用它做什么”。岩田聪抬起头，眼睛里有一种找到了同类的光——尽管老师本人并不是工程师，但他问对了问题。</p>
+<p>岩田聪告诉老师，他做了一个棒球游戏。数字棒球。没有画面，只有数字。老师让他演示，但HP-65留在室兰了。于是岩田聪做了一件更能说明他思维方式的事：他在黑板上把程序逻辑画了出来。投球、打击、跑垒、出局——每一步都分解成了条件判断和循环。他用了不到二十分钟就在黑板上画出了一套完整的程序流程图，标注了每个变量对应的寄存器地址和每个跳转指令的条件码。</p>
+<p>数学研究部的其他学生停下了手中的习题。他们看着黑板上那些方框和箭头，大多数人并不完全理解这些符号的含义，但他们理解了一件事：这个新来的同学在谈论一种他们从未接触过的东西，而他谈论它的方式带着一种理所当然的精确。</p>
+<p>有一个二年级学生凑近黑板看了很久。他没有问“这是什么意思”，而是指着流程图中表示投球结果判断的那个菱形框问：这里为什么分了三种情况而不是两种？</p>
+<p>岩田聪转过头看他，解释道：因为真实棒球里投球结果不是二元的。不是击中与未击中，还有犯规球。犯规球不增加好球数，但也不算出局。如果只分两种情况，犯规球的逻辑就塞不进来了。</p>
+<p>那个学生想了一下，又问：那如果投手投出死球呢？</p>
+<p>岩田聪愣了一下。然后他拿起粉笔，在流程图旁边加了一个分支。</p>
+<p>这个场景后来被那位同学在多年以后的一次同学聚会上提起过——不是因为它当时看起来有多么重要，而是因为那个画面留在了他的记忆里：一个高一新生站在黑板前，因为别人指出了他程序中的一个漏洞而露出了一种近似于高兴的表情。不是被批评后的尴尬，是真的高兴——好像有人帮他发现了一个他自己没找到的谜题。</p>
+<p>1975年秋天，岩田聪的父亲通过室兰市政府的渠道打听到一个消息：札幌市内有一家小型电子设备商社准备淘汰一批办公用的可编程计算器。这批设备的使用年限不到三年，但因为商社要升级到新的机型，旧机器以极低的价格处理。岩田弘志花了四万日元——大约相当于当时一个普通上班族半个月的薪水——买下了其中一台状态最好的机器。</p>
+<p>这台机器比HP-65大得多，重约三公斤，需要插电使用。它的程序容量是HP-65的三倍——大约三百步——并且支持条件跳转和子程序调用。以今天的标准来看它仍然是一台计算器而不是计算机，但在1975年的札幌，它是岩田聪能接触到的最接近真正的计算机的东西。</p>
+<p>他把机器带到了数学研究部。这个决定不是必然的。他完全可以把机器留在家里独自使用——就像初中时那样。把一台价值四万日元的设备放在学校教室里是有风险的：可能被损坏、可能被偷、可能被不懂操作的人弄乱程序。但岩田聪做出了另一个选择。他想和人分享。</p>
+<p>这不是一个经过深思熟虑的战略决策。一个十六岁的少年不太可能用“社交资本”或“非正式领导力”这样的概念来分析自己的行为。但驱动他做出这个选择的直觉是清晰的：一个人玩代码是有限的。他已经体验过那种极限了——在HP-65上独自死磕一百步程序空间，最终撞上硬件天花板。那种体验带来的满足感是真实的，但它也是封闭的。代码写出来只有自己看得到，游戏做出来只有自己玩得了。那不是完整的创造。完整的创造需要另一个人。</p>
+<p>机器到达数学研究部的那天下午，岩田聪花了将近一个小时才完成设置——插电、连接打印单元、装入程序磁卡、等待机器自检完成。周围围了五六个部员，有人帮忙搬桌子，有人帮忙找延长线。一个同学负责按住电源插头——教室后方的插座接触不良，需要保持一个特定角度才能通电。当那台机器发出低沉的嗡嗡声、LED显示屏亮起绿色数字时，围在桌边的所有人都安静了一瞬间。</p>
+<p>岩田聪加载了他在家里预先写好的一个程序：一个简单的猜数字游戏。机器随机生成一个一到一百之间的整数，玩家输入猜测值，机器回答“太大”或“太小”，直到猜中为止。程序大约占用了四十步空间，逻辑简单到任何一个学过编程的人都能在十分钟内写出来。但那是七十年代中期札幌一所高中教室里的下午。对于围在桌边的那些学生来说，一台机器能“想”出一个数字、然后根据他们的输入做出不同回应——这件事本身就是魔法。</p>
+<p>第一个上手试玩的是一个一年级学生。他输入了五十。打印单元咔嗒咔嗒地打出：太大了。那个学生瞪大了眼睛，问：它是怎么知道的？</p>
+<p>岩田聪开始解释条件判断的原理。他说了大概三十秒就停了下来——因为他注意到对方并不是真的想听原理解释。对方想要的是再试一次。于是他让出了键盘的位置。</p>
+<p>接下来一个小时里，数学研究部的十几个学生轮流试玩了那个猜数字游戏。有人试图找出规律，有人纯粹享受着和机器对话的新奇感，有两个人在比赛谁猜得更快。岩田聪站在旁边看着他们操作，偶尔在机器需要重置程序时上前处理一下。他没有打断任何人的体验来讲解代码逻辑，也没有因为别人玩得太慢或太笨而露出不耐烦的表情。他在观察。</p>
+<p>他注意到有人在每次输入数字前都会犹豫几秒，好像在脑子里进行某种计算；另一个人则完全凭直觉输入，经常重复已经排除的区间；还有一个同学最快找到了最优策略——每次取剩余区间的中点——但他玩了两轮就失去了兴趣，因为策略一旦确定就没有悬念了。</p>
+<p>这些观察后来变成了一次程序修改。当天晚上岩田聪把机器带回家——他没有把它留在学校过夜的习惯，至少一开始没有——然后花了将近三个小时重新写了一遍猜数字游戏。他没有增加任何新功能，他改的是提示信息。</p>
+<p>原来的提示只有三种：太大、太小、猜中了。修改后的版本增加了多种不同的回应方式：当差值很大时显示“差太多了”，差值中等时显示“还有点远”，差值较小时显示“接近了”，差值很小时显示“很接近”，连续几次接近后显示“马上就要猜中了”。他还加了一个计数器，在玩家猜中后显示尝试次数和一句评价——次数很少是“完美”，较少是“很好”，中等是“不错”，较多是“下次加油”。</p>
+<p>这些修改没有改变游戏的核心机制。猜数字还是猜数字。但玩家的体验变了：他们不再是在和一个冷冰冰的判断器对话，而是在和一个有情绪层次的反馈系统互动。“差太多了”和“还有点远”之间的区别不影响逻辑正确性，但它让操作者感觉到自己被理解了一部分——机器知道他们离目标有多远，并且用更细粒度的语言传达了这种认知。</p>
+<p>这就是“更好玩”和“更复杂”之间的差别。后者增加的是代码量；前者增加的是理解。</p>
+<p>第二天他把修改后的版本带到学校时，前一天玩过原版的人都注意到了差异。有人说“它现在会说更多话了”，然后又玩了几轮。这一次没有人问“它是怎么知道的”。他们问的是：你能让它做别的吗？</p>
+<p>这是一个转折点。不是技术上出现了什么突破——机器的性能从到达数学研究部的第一天起就是固定的——而是需求出现了。同学们不再只是好奇地看着一台机器运行程序；他们开始提出具体的请求。有人想要赛马游戏，有人想要将棋残局。顾问老师问的是能不能让它出数学题给他们练习。</p>
+<p>岩田聪的回答模式在这些请求中逐渐成型了。他不会立刻答应或拒绝任何一个请求，他会先问一个问题：你想要的体验是什么样的？</p>
+<p>对赛马游戏的提出者，他的回应是一连串追问：你希望玩家做什么？选择马匹还是预测结果？要不要下注系统？比赛结果是随机的还是应该有某种属性影响概率？那个同学被这些问题问得有些发愣——他只是觉得赛马游戏听起来很酷，并没有想过具体机制。于是岩田聪帮他想了。</p>
+<p>他用了几天时间写出了一个基于概率模型的赛马模拟程序：多匹马各有不同的速度和耐力参数，每场比赛的结果由随机数结合参数决定；玩家可以选择一匹马并下注虚拟点数；赔率根据马匹的历史胜率动态调整。整个程序使用了多个子程序模块来处理起跑、中途加速、最终冲刺、名次判定和赔率计算。</p>
+<p>这个赛马游戏在数学研究部引起了一次小小的热潮。一周之内几乎每个部员都试玩过至少一次，有人甚至用纸笔记录了每匹马的胜率试图找出下注策略。那位最初提出请求的同学自己玩了不下几十场，然后他提出了一个新要求：能不能两个人一起玩？</p>
+<p>岩田聪看着机器的键盘和那台慢吞吞的打印单元。两个人同时操作不太可能，他判断，但可以让两个人轮流下注，比较最后谁赚的点数多。他又花了好几天修改代码。</p>
+<p>这个不断修改的过程揭示了一种模式：岩田聪写的每一个程序都不是一次性完成的。他会先做出一个可运行的核心版本——通常只用较短的时间——然后把它交给同学试用。他会站在旁边看他们操作，记录下他们困惑的地方、重复犯错的地方、表现出兴奋的地方和失去兴趣的地方。然后他会根据这些观察重构代码。</p>
+<p>重构的幅度有时大得惊人。赛马游戏的第一个版本和第二个版本之间只隔了很短的时间，但底层逻辑几乎完全重写：参数的权重分配方式改了、随机数生成算法换了、连用户界面的提示语顺序都调整了多次。如果只看最终版本的代码结构，几乎看不出初始版本的痕迹。</p>
+<p>这不是完美主义。完美主义者会为了代码本身的优雅而反复修改——追求更简洁的算法、更少的内存占用、更漂亮的变量命名。岩田聪改代码的标准不是代码本身好不好看，他的标准是操作者脸上的表情。当有人在玩赛马游戏时眉头紧锁地盯着打印纸上的赔率表时，岩田聪在旁边注意到了那个表情。他后来调整了输出格式，把赔率数字从纯数字改成带简单文字说明的格式——“某号马赔率较高”，括号内标注倍数——以减少阅读负担。这个改动在代码层面只是加了几行打印格式命令；在体验层面它把一个需要心算的步骤变成了可以直接理解的信息。</p>
+<p>这种观察、反馈、修改的循环在1975年秋天到1976年春天之间重复了无数次。数学研究部的机器上逐渐积累了一批程序：猜数字、赛马、棒球模拟、将棋残局练习、数学测验生成器，还有一个基于随机数生成的地牢探索游戏——后者是岩田聪尝试过的第一个带叙事元素的程序，玩家扮演冒险者在随机生成的地下室中寻找宝藏并避开陷阱。</p>
+<p>地牢探索游戏占用了他整整两周的课余时间。不是因为程序逻辑复杂——核心机制就是随机地图生成加上几个条件判断——而是因为他在打磨文本描述的质量。“你进入了一间黑暗的房间”、“你听到前方有滴水声”、“你踩到了什么东西”——这些提示语每一个都是他用日文手写在稿纸上反复推敲过的。他的目标是让每次游戏生成的描述不完全相同：同一个事件有多个不同的文字表述版本，程序随机选择其中一个输出。</p>
+<p>这在当时是一个相当奢侈的做法。那台机器没有字符串变量功能——它本质上还是一台计算器——所以每一段文字都要占用独立的打印输出指令和宝贵的程序步数。为了实现文本的随机变化，岩田聪不得不牺牲了一部分游戏机制的复杂度来腾出空间。他愿意做这个交换。</p>
+<p>这个选择背后藏着一个判断：玩家记住的不是算法有多精妙，而是体验有多生动。一个只有几种房间类型但每种都有多种不同描述的地牢游戏，比一个有十几种房间但描述千篇一律的地牢游戏更好玩。“更好玩”再次压倒了“更复杂”。</p>
+<p>1976年春天，高二学年开始时，数学研究部迎来了新一批一年级生。其中有一个学弟对计算机表现出了特别的兴趣——不是对玩游戏感兴趣，而是对写代码感兴趣。这位学弟第一次来部活参观时，岩田聪正在调试地牢游戏的文本随机化模块。他让学弟试玩了最新版本，然后问他觉得哪里可以改进。学弟想了很久，说陷阱的种类可以再多一些，现在只有落穴和毒气两种。岩田聪点了点头，又问：还有呢？学弟说不知道了。</p>
+<p>岩田聪换了一种问法：那你玩的时候有没有哪个地方觉得不太对，哪怕是很小的地方？</p>
+<p>学弟又想了想，说宝藏的描述好像每次都一样。</p>
+<p>岩田聪看了一眼代码，肯定了他的观察——宝藏描述还没做随机化。然后他做了一件事：他把学弟拉到键盘前面，打开了宝藏描述的那段代码——大约十几行——然后逐行解释每个指令的作用。他指着其中一行说，这段控制的是宝藏名称的输出格式，如果想增加变化，需要在前面加一个随机数判断来决定使用哪个名称列表。学弟盯着那行代码看了大概半分钟，问：可以试试吗？</p>
+<p>岩田聪让出了座位。</p>
+<p>这不是一个简单的动作。机器上存着他花了几个月时间打磨的程序代码；让一个刚接触编程不久的高一新生直接上手修改其中的模块是有风险的——他可能不小心删掉关键指令、可能破坏变量寄存器的数值平衡、可能引入他自己都找不到的缺陷。但岩田聪让出了座位。他知道风险是什么，他也知道收益是什么：学弟如果只是在旁边看他写代码，永远学不会自己写代码；而如果他学会了写代码，以后部活里就不止一个人能维护这些程序了。</p>
+<p>学弟花了很长时间才完成修改——增加了一个包含多种宝藏描述的列表和一个简单的随机选择逻辑——期间问了岩田聪许多问题。代码最终运行时出现了一次错误：打印输出跳过了第一行文字直接显示了第二行。学弟的脸一下子红了。岩田聪凑过来看了看代码，指出了问题所在：跳转指令的条件写反了。学弟改了过来，程序正常运行了。</p>
+<p>那天下午放学前，学弟问岩田聪：前辈以后想做程序员吗？</p>
+<p>岩田聪的回答没有犹豫：他想做游戏。</p>
+<p>岩田聪的回答没有犹豫：他想做游戏。他说这句话的语气和平常讨论技术问题时一模一样——平稳、明确、不附加任何多余的情绪修饰。“我想做游戏”不是一个梦想宣言，它是一个已经做出的决定。就像他在初三那年决定报考札幌南高是因为这所学校的毕业生有更高概率考入好的工科大学一样，他的每一个选择都在为那个最终目标铺路。</p>
+<p>1976年夏天发生了一件事，它后来被岩田聪本人在多次访谈中轻描淡写地提及过——但他提及它的方式恰好说明了它的重要性。札幌市内一家电子产品经销商举办了一场小型的电子计算器应用竞赛，面向市内高中征集基于可编程计算器的原创程序作品。顾问老师得知这个消息后建议数学研究部提交作品参赛。</p>
+<p>岩田聪选择了地牢探索游戏作为参赛作品——不是因为它是技术上最复杂的程序，赛马游戏的算法逻辑实际上更精妙，而是因为它在用户体验上做得最完整。提交作品前一周，他几乎把所有的课余时间都花在了最后的打磨上：文本描述的措辞调整、游戏节奏的控制、错误输入的容错处理，以及一份手写的用户操作说明——不是技术文档，而是一份用玩家能看懂的语言写的游玩指南。</p>
+<p>竞赛结果公布那天下午，老师拿着一封信走进数学研究部的教室。“入围了，”他说，“最终评审在下一周。”</p>
+<p>岩田聪的反应是问了一个问题：评审标准是什么？</p>
+<p>老师看了看信：创新性、实用性、完成度。</p>
+<p>岩田聪点了点头。然后他打开机器开始检查代码——不是因为发现了什么错误，而是因为这是他面对不确定性的习惯反应：当外部评判即将来临时，回到系统本身去寻找可控变量。</p>
+<p>最终评审会在札幌市中心的经销商展厅举行。一共入围了六个学校的多件作品：几个数学计算工具、两个物理模拟程序，以及岩田聪的地牢探索游戏。评审委员包括经销商的技术人员、一位来自北海道大学的工程学教授和两位中学数学教师。</p>
+<p>岩田聪被安排在中间次序展示。他站在一张铺着白布的展示桌前，机器放在桌子中央连接着打印单元和一台小型外接显示器——那是经销商为了评审专门提供的设备，可以让观众看到计算器的输出内容而不必凑近LED屏幕。他开始演示时没有先解释程序的算法结构或代码规模。他做的事情很简单：请一位评审委员亲自操作键盘游玩地牢探索游戏的前几个房间。</p>
+<p>那位评审委员——北海道大学的教授——花了几分钟完成了三段探索：进入了一个黑暗房间、避开了一个落穴陷阱、找到了一个小型宝藏箱。打印单元咔嗒咔嗒地输出着文本描述，描述着玩家小心地绕过陷阱、发现木制箱子、里面有一些金币。教授放下键盘后问了一个问题：房间的布局是固定的吗？</p>
+<p>不是，岩田聪回答，每次开始新游戏时程序会重新生成地图。</p>
+<p>教授追问怎么生成的。</p>
+<p>使用伪随机数算法结合固定参数约束，岩田聪解释。他在黑板上画出了随机地图生成的基本逻辑：用一个种子数驱动随机数序列，然后通过模运算将随机数映射到房间类型和位置坐标上。“约束条件确保不会出现无法通过的陷阱布局，”他补充道，“比如连续多个房间都是即死陷阱的情况。”</p>
+<p>教授看了黑板几秒钟，问：你自己想的？</p>
+<p>参考了一些数学教材里的随机抽样方法。</p>
+<p>教授没有再问技术问题。他在评分表上写了些什么。</p>
+<p>竞赛最终结果公布时，地牢探索游戏获得了第二名——输给了一个用于物理课教学的单摆运动模拟程序。那个程序的作者是一个高三学生，其代码实现了一套基于微分方程近似解的数值计算方法来处理单摆周期的非线性特性。从技术难度和学术价值来看，那个作品确实更符合评审委员会的偏好。</p>
+<p>但在颁奖结束后发生的事情比名次本身更有意味。那位北海道大学的工程学教授主动走到岩田聪面前，对他说了一番话。大意是：你的程序和别人的不一样。别人的程序是做给懂的人看的；你的程序是做给不懂的人用的。</p>
+<p>这句话精确地概括了十六岁的岩田聪已经形成的设计哲学——尽管他自己可能还没有用如此清晰的语言总结过它。“做给不懂的人用的”意味着默认用户不具备专业知识、不会阅读说明书、可能犯各种操作错误但仍然应该获得完整的体验。这意味着写代码的人必须承担更多的责任：不是用户来适应程序，而是程序来适应用户。</p>
+<p>对于一个十六岁的程序员来说，这种自觉不是天生的。它是在过去一年多的反复实践中被反复强化的结果——每一次看到同学因为界面不清晰而困惑、每一次听到试玩者说“不知道接下来该做什么”、每一次注意到某个功能因为操作门槛太高而没人使用——这些反馈都在告诉他同一件事：技术能力的价值最终由使用者的体验来衡量。</p>
+<p>1976年秋天到1977年春天这段时间里，岩田聪在数学研究部的角色发生了一次微妙的变化。他不再只是那个写代码的人；他开始成为分配任务的人。</p>
+<p>变化是从地牢探索游戏的扩展开发开始的。竞赛结束后有几个部员提出想给游戏增加新的地图区域和怪物类型——内容创作型的工作比核心编程的门槛低得多，不需要理解随机数算法和寄存器管理原理就能参与进来。岩田聪把内容扩展的工作拆分成了几个独立模块：新陷阱设计、新宝藏描述、新房间文本——每个模块由不同的人负责撰写草稿交给他审核和录入代码。</p>
+<p>这个过程效率很低。一个部员花一下午写出来的几行陷阱描述文本到了岩田聪手里可能要改掉一半措辞以保持和已有内容的风格一致；录入代码后如果发现某个描述的长度超过了打印单元的列宽限制还要再退回去重写；有时候两个人写了内容互相矛盾的东西——一个人写“地下室很潮湿”，另一个人在同一层写“空气干燥得令人窒息”——需要协调统一。但这个过程建立了一种工作模式：有人负责系统架构，有人负责内容填充，最终产品需要经过测试验证才能定型。</p>
+<p>这种模式在1977年的文化祭上得到了最大规模的实践。札幌南高的文化祭每年秋天举行，各个社团在校园内设置展台和活动向全校开放参观体验。数学研究部决定做一个互动游戏展台：来访者可以在机器上试玩部活开发的一系列游戏程序并给出评分和反馈意见。</p>
+<p>为了准备文化祭展台，岩田聪提前一个月开始做准备工作：检查所有程序的稳定性以防止在展示期间崩溃、优化操作流程以减少等待时间、制作一份简洁的使用指南贴在机器旁边，用大号字体手写。他还专门写了一个投票统计程序用来收集来访者的评分数据——这个程序本身不提供任何娱乐功能，纯粹是为了服务展台运营而写的工具代码。</p>
+<p>文化祭当天数学研究部的教室被布置成了一个小型展厅：几张课桌拼成的展示台上放着机器及其外接设备；墙上贴着手绘的游戏介绍海报；入口处放着一个投票箱和一个计分板用来记录各游戏的受欢迎程度排名。从上午到下午，展台几乎没有空闲过片刻——来访者排着队等待试玩几分钟的游戏体验，然后在一张评分表上勾选自己的评价。岩田聪站在机器旁边负责操作指导和故障处理，其他部员则负责引导人流、收集评分表和维持秩序。</p>
+<p>有一位来访者让岩田聪印象深刻。那是一个戴着厚眼镜的二年级女生，她站在机器前犹豫了很久才伸出手按下第一个键。她操作的是一款逻辑解谜游戏——岩田聪专门为文化祭简化过的版本，把原本需要输入数字指令的操作改成了只需要按少数几个键就能完成的选择式交互。她花了将近五分钟才通过第一关，期间两次按错了键导致游戏返回了主菜单。岩田聪没有催促她，他只是在旁边轻声告诉她可以按哪个键重新开始。当她终于通关时，她转过头看了岩田聪一眼，脸上有一种完成了某件困难事情的满足感。她没有说什么，放下评分表就走了。</p>
+<p>岩田聪后来在整理评分表时找到了她填的那张——在“是否愿意再次游玩”那一栏，她勾选了“是”。他把那张评分表单独放在了一边。不是因为上面写了什么特别的内容，是因为那张表代表了一种验证：一个不常玩游戏的人、一个操作不熟练的人、一个差点被操作门槛挡在门外的人——她最终获得了完整的体验。程序的设计起到了它应该起的作用。</p>
+<p>文化祭结束后，岩田聪用那个投票统计程序处理了所有评分数据。地牢探索游戏在受欢迎程度排名中位列第一，赛马游戏第二，猜数字第三，数学测验生成器垫底。他对着打印出来的排名表看了一会儿，然后在数学测验生成器的条目旁边用铅笔写了一行小字：太像作业了。</p>
+<p>这不是自我批评，这是一个观察笔记。他在记录一个规律：玩家选择游戏时回避的东西，往往和他们在课堂上被迫面对的东西高度重叠。如果一个程序让用户联想到考试和分数，即使它的代码写得再精妙，也不会有人在下课后主动打开它。这个观察后来被吸收进了他的设计直觉里——不是作为一条明确写下来的原则，而是作为一种本能的反应：在构思任何一个新程序时，他首先问自己的不是“这个程序能做什么”，而是“玩这个程序的人会感觉到什么”。</p>
+<p>1977年秋天，岩田聪升入高三。升学考试的压力像北海道冬天的第一场雪一样准时降临——无声、持续、覆盖一切。数学研究部的活动时间被压缩到每周两次，每次不超过一小时。有些部员退出了社团专注于备考；有些虽然还挂着名但很少再出现在活动教室里。岩田聪没有退出，但他的时间分配发生了明显的变化：白天上课和自习，傍晚参加部活到五点半，晚上回家后复习到深夜。</p>
+<p>那台机器仍然放在数学研究部的教室里，但他已经不再每天把它带回家了。他信任留在部里的几个学弟能够正确操作和维护它——经过一年多的协作，他们已经掌握了基本的程序加载、运行和故障排除技能。这种信任不是凭空产生的，它是他花了两年时间培养出来的。从最初让学弟修改一行代码开始，到后来放手让他们独立负责文化祭展台的某个环节，再到最后把整套程序的维护文档交到他们手上——这个过程缓慢、重复、充满了小错误和小修正，但它最终产出了一个结果：数学研究部的程序开发能力不再依赖于岩田聪一个人的在场。</p>
+<p>他把程序代码整理成了一份手写的文档，按功能模块分类，每个模块附有简短的说明和注意事项。文档的最后一页是一段写给接手者的话，没有使用任何技术术语。大意是：这些程序是为那些不懂编程的人写的。如果你要修改它们，请先找一个人来试玩你的修改版本，然后看他的表情。如果他在玩的时候笑了，你的修改就是对的。如果他在玩的时候皱眉了，你就需要再想想。</p>
+<p>他把这份文档连同机器的操作手册一起放进了一个文件夹里，交给了当时最热心维护程序的学弟。交接发生在一个普通的放学后的下午。教室里没有其他人。冬天的光线从窗户斜射进来，在桌面上投下长长的影子。岩田聪把文件夹递给学弟，简单地说明了里面包含的内容。学弟接过去翻了翻，看到最后一页时停顿了一下。</p>
+<p>学弟问岩田聪，毕业之后还会继续做游戏吗。</p>
+<p>岩田聪的回答和一年半前一样：会的。</p>
+<p>他没有说更多的话。不是因为无话可说，而是因为该说的都已经写在那份文档里了。他知道自己即将前往东京参加大学入学考试，目标是东京工业大学的计算机科学系——这是他在研究了许多大学的课程设置后做出的选择，因为这所学校拥有当时日本大学中少有的计算机专业培养体系。</p>
+<p>札幌南高的两年半给他留下了什么，这个问题他可能自己也没有完整地梳理过。但那份文档的最后一页已经给出了答案：他留下了一套方法，一种标准，和一个问题。那个问题是：玩你程序的人，在玩的时候笑了吗？</p>
+<p>他走出数学研究部教室时，走廊里已经亮起了灯。北海道的冬天黑得很早，窗外的天空是一种介于深蓝和灰之间的颜色。他回头看了一眼那张曾经放过机器的课桌——现在它空着，机器已经被搬到了部室角落的专用储物柜里，由学弟们负责保管。他没有走过去打开柜子再看一眼机器。不是因为不留恋，是因为他知道那台机器已经不再是他需要的东西了。它的三百步程序空间已经被他榨取得差不多了，就像当年的HP-65一样。他需要更大的内存、更快的处理器、真正的图形显示能力——不是计算器能提供的任何东西，而是一台真正的计算机。</p>
+<p>东京有这些东西。东京工业大学有这些东西。但东京没有札幌南高数学研究部这样的环境——一个允许他犯错、允许他慢下来观察用户表情、允许他把同一段代码反复重写直到它让操作者露出笑容的环境。那个环境是他和那些同学一起搭建起来的，用两年多的时间、几百个小时的课后时光、以及一种共同的理解：技术存在的意义不是展示它本身，而是连接使用它的人。</p>
+<p>他走出校门时，札幌的街道已经被一层薄薄的积雪覆盖。空气冷而干燥，呼吸时能看到白色的雾气。他把围巾往上拉了拉，朝地铁站的方向走去。书包里装着今晚要复习的数学参考书和英语习题集，没有计算器，没有程序磁卡。但他脑子里已经在构思一个新的程序了——一个他还没有硬件能够运行的程序，一个需要几千字节内存而不是三百步空间的程序。不是更复杂的程序。是更好玩的程序。</p>
+<p>不是更复杂的程序。是更好玩的程序。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-3.html">上一章</a><a href="index.html">返回详情</a><a href="ch-5.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msx3xq6kya3","chapter":3,"chapterTitle":"札幌南高中的代码实验","href":"ch-4.html","prevHref":"ch-3.html","nextHref":"ch-5.html","locationLabel":"第 4 章 · 札幌南高中的代码实验"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>

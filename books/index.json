@@ -1,5 +1,35 @@
 [
   {
+    "id": "proj-msx3xq6kya3",
+    "projectId": "proj-msx3xq6kya3",
+    "releaseId": "rel_20260817120602096_ba861718d2",
+    "title": "玩家之心：岩田聪与任天堂的再发明",
+    "subtitle": "从程序员到社长，一种思维如何重塑任天堂",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "岩田聪",
+      "任天堂",
+      "游戏产业",
+      "组织管理",
+      "程序员思维",
+      "蓝海战略"
+    ],
+    "description": "本书以岩田聪的人生轨迹为线索，追溯他从北海道少年程序员到任天堂第四任社长的完整历程。作者没有将岩田聪塑造为天才神话，而是细致分析他如何将程序员的拆解思维、对玩家体验的直觉以及克制的沟通方式，转化为独特的组织管理能力。从HAL研究所的破产危机到DS与Wii的蓝海战略，从《星之卡比》的代码救援到移动时代的战略迟疑，书中既呈现他解决问题的具体方法，也审视其共识驱动模式的局限。全书以官方讣告、投资者说明会、GDC演讲、Iwata Asks访谈等同期材料为优先依据，在技术洞察与管理哲学之间建立可信的叙事连接，为理解任天堂那段扩张与转型并存的二十年提供一种冷静而深入的视角。",
+    "chapterCount": 16,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "hub-median-of-1",
+      "createdAt": "2026-08-11T01:08:36.289Z"
+    },
+    "coverUrl": "books/proj-msx3xq6kya3/releases/rel_20260817120602096_ba861718d2/cover.jpg",
+    "url": "books/proj-msx3xq6kya3/index.html",
+    "publishedAt": "2026-08-17T12:06:02.099Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msx6lhf46w7",
     "projectId": "proj-msx6lhf46w7",
     "releaseId": "rel_20260817120536113_06e5c3621a",
@@ -167,30 +197,6 @@
     "coverUrl": "books/proj-msx62s8c3ay/releases/rel_20260817114613045_63f7c75407/cover.jpg",
     "url": "books/proj-msx62s8c3ay/index.html",
     "publishedAt": "2026-08-17T11:46:13.048Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msx3xq6kya3",
-    "projectId": "proj-msx3xq6kya3",
-    "releaseId": "rel_20260817104645465_ba861718d2",
-    "title": "玩家之心：岩田聪与任天堂的再发明",
-    "subtitle": "从程序员到社长，一种思维如何重塑任天堂",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "岩田聪",
-      "任天堂",
-      "游戏产业",
-      "组织管理",
-      "程序员思维",
-      "蓝海战略"
-    ],
-    "description": "本书以岩田聪的人生轨迹为线索，追溯他从北海道少年程序员到任天堂第四任社长的完整历程。作者没有将岩田聪塑造为天才神话，而是细致分析他如何将程序员的拆解思维、对玩家体验的直觉以及克制的沟通方式，转化为独特的组织管理能力。从HAL研究所的破产危机到DS与Wii的蓝海战略，从《星之卡比》的代码救援到移动时代的战略迟疑，书中既呈现他解决问题的具体方法，也审视其共识驱动模式的局限。全书以官方讣告、投资者说明会、GDC演讲、Iwata Asks访谈等同期材料为优先依据，在技术洞察与管理哲学之间建立可信的叙事连接，为理解任天堂那段扩张与转型并存的二十年提供一种冷静而深入的视角。",
-    "chapterCount": 16,
-    "editorialScore": null,
-    "coverUrl": "books/proj-msx3xq6kya3/releases/rel_20260817104645465_ba861718d2/cover.jpg",
-    "url": "books/proj-msx3xq6kya3/index.html",
-    "publishedAt": "2026-08-17T10:46:45.468Z",
     "visibility": "public"
   },
   {
