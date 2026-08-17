@@ -1,5 +1,35 @@
 [
   {
+    "id": "proj-msx6lhf46w7",
+    "projectId": "proj-msx6lhf46w7",
+    "releaseId": "rel_20260817120536113_06e5c3621a",
+    "title": "蒸汽之国：Valve 与 PC 游戏的二十五年",
+    "subtitle": "创作自由与平台权力的悖论",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "Valve",
+      "Steam",
+      "游戏产业",
+      "平台经济",
+      "组织管理",
+      "PC游戏"
+    ],
+    "description": "本书是一部关于 Valve 公司的非虚构商业史，时间跨度从 1996 年创立到 2025 年。作者以编年体方式，深入剖析这家游戏公司如何从《半条命》的开发商演变为 PC 游戏平台 Steam 的统治者。全书围绕四个核心概念展开：'阀门时间'（无截止日期的开发文化）、'扁平的代价'（无老板管理的真相）、'平台的引力'（从创作到收租的转变）和'社区的炼金术'（MOD 文化的制度化）。通过具体人物和事件，本书揭示了 Valve 如何在赢得创作自由的同时，构建了一个让其他开发者难以摆脱的引力场。书中对扁平化管理、30% 平台抽成、半条命3 的难产等争议话题给出了基于事实的判断。适合对游戏产业、平台经济和组织管理感兴趣的读者。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "archive-ledger",
+      "createdAt": "2026-08-14T00:06:57.853Z"
+    },
+    "coverUrl": "books/proj-msx6lhf46w7/releases/rel_20260817120536113_06e5c3621a/cover.jpg",
+    "url": "books/proj-msx6lhf46w7/index.html",
+    "publishedAt": "2026-08-17T12:05:36.115Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msx6kn0jkvx",
     "projectId": "proj-msx6kn0jkvx",
     "releaseId": "rel_20260817120511894_87db39c0df",
@@ -114,30 +144,6 @@
     "coverUrl": "books/proj-msx6himmon1/releases/rel_20260817120405964_a62586d048/cover.jpg",
     "url": "books/proj-msx6himmon1/index.html",
     "publishedAt": "2026-08-17T12:04:05.967Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msx6lhf46w7",
-    "projectId": "proj-msx6lhf46w7",
-    "releaseId": "rel_20260817120004351_06e5c3621a",
-    "title": "蒸汽之国：Valve 与 PC 游戏的二十五年",
-    "subtitle": "创作自由与平台权力的悖论",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "Valve",
-      "Steam",
-      "游戏产业",
-      "平台经济",
-      "组织管理",
-      "PC游戏"
-    ],
-    "description": "本书是一部关于 Valve 公司的非虚构商业史，时间跨度从 1996 年创立到 2025 年。作者以编年体方式，深入剖析这家游戏公司如何从《半条命》的开发商演变为 PC 游戏平台 Steam 的统治者。全书围绕四个核心概念展开：'阀门时间'（无截止日期的开发文化）、'扁平的代价'（无老板管理的真相）、'平台的引力'（从创作到收租的转变）和'社区的炼金术'（MOD 文化的制度化）。通过具体人物和事件，本书揭示了 Valve 如何在赢得创作自由的同时，构建了一个让其他开发者难以摆脱的引力场。书中对扁平化管理、30% 平台抽成、半条命3 的难产等争议话题给出了基于事实的判断。适合对游戏产业、平台经济和组织管理感兴趣的读者。",
-    "chapterCount": 25,
-    "editorialScore": null,
-    "coverUrl": "books/proj-msx6lhf46w7/releases/rel_20260817120004351_06e5c3621a/cover.jpg",
-    "url": "books/proj-msx6lhf46w7/index.html",
-    "publishedAt": "2026-08-17T12:00:04.353Z",
     "visibility": "public"
   },
   {

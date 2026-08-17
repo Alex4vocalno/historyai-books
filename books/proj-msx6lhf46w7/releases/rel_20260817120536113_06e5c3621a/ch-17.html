@@ -1,0 +1,148 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>扁平之下的暗流 · 蒸汽之国：Valve 与 PC 游戏的二十五年</title><style>
+:root{--reader-bg:#f4f1e8;--reader-panel:#fbf8f0;--reader-ink:#282b2d;--reader-muted:#777a77;--reader-line:#ddd9cd;--reader-accent:#0a9b6d;--reader-font:18px;--reader-leading:2;--reader-width:760px;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}html[data-theme="white"]{--reader-bg:#f4f5f6;--reader-panel:#fff;--reader-ink:#202327;--reader-muted:#72777d;--reader-line:#e2e4e6}html[data-theme="night"]{--reader-bg:#171b1d;--reader-panel:#202527;--reader-ink:#c9cdca;--reader-muted:#89908d;--reader-line:#343a3d;--reader-accent:#41b98d}body{margin:0;min-height:100vh;background:var(--reader-bg);color:var(--reader-ink);font-family:var(--serif);transition:background .18s,color .18s}button,a{font:inherit}a{color:inherit;text-decoration:none}.read-progress{position:fixed;z-index:60;inset:0 0 auto;height:3px;background:transparent}.read-progress span{display:block;width:0;height:100%;background:var(--reader-accent)}.reader-bar{position:sticky;z-index:40;top:0;height:58px;border-bottom:1px solid var(--reader-line);background:color-mix(in srgb,var(--reader-panel) 94%,transparent);backdrop-filter:blur(14px)}.reader-bar-inner{height:100%;max-width:1320px;margin:auto;padding:0 22px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;font-family:var(--sans)}.reader-bar-left,.reader-tools{display:flex;align-items:center;gap:8px;min-width:0}.reader-tools{justify-content:flex-end}.reader-book{min-width:0}.reader-book strong,.reader-book small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reader-book strong{font-size:14px}.reader-book small{margin-top:2px;color:var(--reader-muted);font-size:11px}.reader-location{color:var(--reader-muted);font-size:12px}.icon-button{width:38px;height:38px;display:grid;place-items:center;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--reader-ink);cursor:pointer}.icon-button:hover{border-color:var(--reader-line);background:var(--reader-panel)}.icon-button.text{width:auto;padding:0 11px;font-family:var(--sans);font-size:12px}.reader-shell{max-width:1320px;margin:0 auto;padding:38px 24px 90px;display:grid;grid-template-columns:260px minmax(0,var(--reader-width));justify-content:center;gap:54px;align-items:start}.chapter-drawer{position:sticky;top:86px;max-height:calc(100vh - 112px);overflow:hidden;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);font-family:var(--sans)}.drawer-head{padding:18px;border-bottom:1px solid var(--reader-line)}.drawer-head strong{font-size:15px}.drawer-head span{display:block;margin-top:5px;color:var(--reader-muted);font-size:11px}.chapter-list{max-height:calc(100vh - 190px);overflow:auto;padding:8px}.chapter-link{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:10px;border-radius:5px;color:var(--reader-muted);font-size:12px;line-height:1.55}.chapter-link span:first-child{font-variant-numeric:tabular-nums}.chapter-link:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}.chapter-link.active{background:color-mix(in srgb,var(--reader-accent) 12%,transparent);color:var(--reader-accent);font-weight:700}.reader-paper{min-width:0;padding:58px 66px 72px;border:1px solid var(--reader-line);background:var(--reader-panel);box-shadow:0 14px 44px rgba(35,38,37,.06)}.chapter-no{margin:0 0 12px;color:var(--reader-accent);font-family:var(--sans);font-size:12px;font-weight:700;text-align:center}.reader-paper h1{margin:0 0 48px;font-size:30px;line-height:1.45;text-align:center;letter-spacing:0}.reader-content{font-size:var(--reader-font);line-height:var(--reader-leading)}.reader-content p{margin:0 0 .9em;text-align:justify;overflow-wrap:anywhere}.reader-content>p{text-indent:2em}.reader-content h2,.reader-content h3,.reader-content h4{margin:2.2em 0 1em;line-height:1.55;text-align:center}.reader-content h2{font-size:1.18em}.reader-content h3{font-size:1.08em}.reader-content blockquote{margin:1.6em 0;padding:.2em 0 .2em 1.2em;border-left:3px solid var(--reader-accent);color:var(--reader-muted)}.reader-content ul,.reader-content ol{padding-left:1.6em}.chapter-nav{margin-top:58px;padding-top:24px;border-top:1px solid var(--reader-line);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;font-family:var(--sans);font-size:13px}.chapter-nav a{color:var(--reader-muted)}.chapter-nav a:hover{color:var(--reader-accent)}.chapter-nav a:last-child{text-align:right}.settings{position:fixed;z-index:55;top:66px;right:22px;width:286px;padding:18px;border:1px solid var(--reader-line);border-radius:7px;background:var(--reader-panel);box-shadow:0 16px 42px rgba(17,22,20,.16);font-family:var(--sans)}.settings[hidden]{display:none}.setting-row{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:12px;margin:12px 0}.setting-row label{color:var(--reader-muted);font-size:12px}.segments{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden}.segments button,.stepper button{min-height:34px;border:0;border-right:1px solid var(--reader-line);background:transparent;color:var(--reader-ink);cursor:pointer;font-size:12px}.segments button:last-child{border-right:0}.segments button.active{background:var(--reader-accent);color:#fff}.stepper{display:grid;grid-template-columns:36px 1fr 36px;border:1px solid var(--reader-line);border-radius:5px;overflow:hidden;text-align:center}.stepper button{border-right:1px solid var(--reader-line)}.stepper button:last-child{border:0;border-left:1px solid var(--reader-line)}.stepper span{align-self:center;font-size:12px}.drawer-mask{display:none}
+@media(max-width:980px){.reader-shell{display:block;max-width:var(--reader-width);padding:28px 18px 70px}.chapter-drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(320px,86vw);max-height:none;border:0;border-radius:0;transform:translateX(-105%);transition:transform .2s;box-shadow:14px 0 42px rgba(0,0,0,.2)}body.drawer-open .chapter-drawer{transform:translateX(0)}.chapter-list{max-height:calc(100vh - 82px)}.drawer-mask{position:fixed;z-index:65;inset:0;background:rgba(0,0,0,.34)}body.drawer-open .drawer-mask{display:block}.reader-paper{padding:46px 8vw 60px}.reader-location{display:none}}
+@media(max-width:620px){.reader-bar-inner{grid-template-columns:minmax(0,1fr) auto;padding:0 10px}.reader-bar-center{display:none}.reader-book small{display:none}.reader-shell{padding:18px 0 54px}.reader-paper{border-left:0;border-right:0;padding:38px 22px 54px;box-shadow:none}.reader-paper h1{margin-bottom:36px;font-size:25px}.reader-content{font-size:calc(var(--reader-font) - 1px)}.settings{top:62px;right:10px;width:calc(100vw - 20px)}}
+@media print{.reader-bar,.chapter-drawer,.drawer-mask,.settings,.read-progress,.chapter-nav{display:none!important}.reader-shell{display:block;max-width:none;padding:0}.reader-paper{max-width:none;padding:0;border:0;box-shadow:none}.reader-content{font-size:11pt}}
+/* 翻页模式（微信读书式，默认；用户 8/17 定向：翻页而非滚动+手机适配） */
+html[data-rmode="page"]{height:100%}html[data-rmode="page"] body{height:100dvh;overflow:hidden;overscroll-behavior:none}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:20px 24px calc(16px + env(safe-area-inset-bottom));overflow:hidden;align-items:stretch}
+html[data-rmode="page"] .reader-paper{display:flex;flex-direction:column;height:100%;overflow:hidden;padding:30px 52px 26px}
+html[data-rmode="page"] .paper-flow{flex:1;min-height:0;overflow:hidden}
+html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:transform .25s ease;will-change:transform}
+html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
+html[data-rmode="page"] .chapter-nav{display:none}
+.page-indicator{display:none}
+html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:11px;text-align:center}
+html[data-rmode="page"] .chapter-drawer{max-height:100%}
+@media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
+</style></head><body><div class="read-progress"><span></span></div><header class="reader-bar"><div class="reader-bar-inner"><div class="reader-bar-left"><button class="icon-button text" type="button" data-toggle-drawer>目录</button><a class="reader-book" href="index.html"><strong>蒸汽之国：Valve 与 PC 游戏的二十五年</strong><small>李思特Think</small></a></div><div class="reader-bar-center"><span class="reader-location">第 17 章 · 扁平之下的暗流</span></div><div class="reader-tools"><button class="icon-button" type="button" data-toggle-settings title="阅读设置">Aa</button><a class="icon-button text" href="index.html">详情</a></div></div></header><main class="reader-shell"><aside class="chapter-drawer"><div class="drawer-head"><strong>目录</strong><span>25 章 · 当前第 17 章</span></div><nav class="chapter-list"><a class="chapter-link" href="ch-1.html"><span>01</span><span>微软来的百万富翁</span></a><a class="chapter-link" href="ch-2.html"><span>02</span><span>雷神之锤上的房子</span></a><a class="chapter-link" href="ch-3.html"><span>03</span><span>迟到的完美</span></a><a class="chapter-link" href="ch-4.html"><span>04</span><span>反恐精英的意外血统</span></a><a class="chapter-link" href="ch-5.html"><span>05</span><span>补丁工具里的特洛伊木马</span></a><a class="chapter-link" href="ch-6.html"><span>06</span><span>强制激活之夜</span></a><a class="chapter-link" href="ch-7.html"><span>07</span><span>章节式发行的实验室</span></a><a class="chapter-link" href="ch-8.html"><span>08</span><span>橘盒里的意外之王</span></a><a class="chapter-link" href="ch-9.html"><span>09</span><span>平台引力场的形成</span></a><a class="chapter-link" href="ch-10.html"><span>10</span><span>免费浪潮与帽子经济</span></a><a class="chapter-link" href="ch-11.html"><span>11</span><span>众筹奖金的发明</span></a><a class="chapter-link" href="ch-12.html"><span>12</span><span>绿光的民主伪装</span></a><a class="chapter-link" href="ch-13.html"><span>13</span><span>客厅里的溃败</span></a><a class="chapter-link" href="ch-14.html"><span>14</span><span>付费的背叛</span></a><a class="chapter-link" href="ch-15.html"><span>15</span><span>三之诅咒</span></a><a class="chapter-link" href="ch-16.html"><span>16</span><span>引力场里的纸牌屋</span></a><a class="chapter-link active" href="ch-17.html"><span>17</span><span>扁平之下的暗流</span></a><a class="chapter-link" href="ch-18.html"><span>18</span><span>虚拟现实里的自我证明</span></a><a class="chapter-link" href="ch-19.html"><span>19</span><span>掌机上的第二次赌注</span></a><a class="chapter-link" href="ch-20.html"><span>20</span><span>反垄断的引力场</span></a><a class="chapter-link" href="ch-21.html"><span>21</span><span>两个Valve的战争</span></a><a class="chapter-link" href="ch-22.html"><span>22</span><span>30%的松动与新时代</span></a><a class="chapter-link" href="ch-23.html"><span>23</span><span>社区炼金术的极限</span></a><a class="chapter-link" href="ch-24.html"><span>24</span><span>阀门里的引力</span></a><a class="chapter-link" href="ch-25.html"><span>25</span><span>两个阀门</span></a></nav></aside><article class="reader-paper"><div class="paper-flow"><div class="flow-inner"><p class="chapter-no">第 17 章</p><h1>扁平之下的暗流</h1><div class="reader-content"><p>第17章　扁平之下的暗流</p>
+<p>与Valve面对Artifact死亡螺旋时的沉默相比，好莱坞的续集机器至少推进得干脆利落。《摘金奇缘》续集确认开发的新闻稿只有三段。第一段宣布导演朱浩伟和编剧林黛兒、彼得·基雷利将回归，改编关凯文原著续作《中国富女友》。第二段列出回归演员名单——吴恬敏、亨利·戈尔丁、杨紫琼均在列，但部分关键演员档期排到了2020年。第三段是制片人妮娜·雅各布森的声明：续集与三部曲终章《遗产争夺战》将于2020年背靠背摄制，以缩减两部电影之间的等候时间。</p>
+<p>华纳兄弟于2018年8月22日通过官方渠道发布了这份新闻稿。措辞干净、信息完整、时间表明确。</p>
+<p>在好莱坞，续集确认是工业流程的标准节点：票房信号触发绿灯，制片厂分配预算，编剧进入剧本开发，选角导演开始协调档期。每一个步骤都有据可查，每一个决策都能追溯到具体的责任人。如果出了问题——比如一年后林黛兒因薪酬纠纷退出剧组——那个问题也会以同样的公开方式被报道、讨论和记录。</p>
+<p>同一个月，在华盛顿州贝尔维尤，另一家公司的内部变动没有留下任何可查的文件。</p>
+<p>Valve的美术总监莫比·弗兰克在2018年秋天更改了他的LinkedIn状态。他在Valve工作了十三年。他的作品定义了《军团要塞2》的视觉语言——夸张的角色剪影、饱和的色彩、介于卡通与讽刺之间的表情设计，后来成为整个行业模仿的范本。他还为《半条命2》的角色设计贡献了关键工作，参与了《传送门2》的美术开发。在Valve的扁平结构里，弗兰克属于那种不需要头衔也能让人知道他是谁的人：他的作品本身就是话语权。</p>
+<p>2018年，他的LinkedIn档案上，Valve那一栏的终止日期被填上了。没有离职声明。没有采访。没有社交媒体上的告别帖。他只是不再在那里工作了。</p>
+<p>差不多同一时期，编剧杰伊·平克顿离开了公司。平克顿在Valve待了超过十年，是《传送门2》编剧团队的核心成员，也参与了《求生之路》系列的叙事设计。他的幽默感——冷峻、精确、在荒诞中突然击中某种真相——是Valve游戏辨识度的一部分。他离开时同样没有公开声明。</p>
+<p>几个月后，资深工程师埃里克·沃尔帕的离职也被外界注意到。沃尔帕后来短暂回归，但在那个时间节点上，他的离开仍然属于同一波静默的人事震荡。</p>
+<p>通过LinkedIn档案的陆续更新、行业论坛的零星讨论和前员工在Glassdoor上的匿名评价，一个大致轮廓在2019年初变得清晰：在十二到十八个月的时间里，至少有六名在Valve工作超过十年的资深员工离开了公司。他们分布在美术、编剧、工程和制作等不同职能领域。没有公开冲突，没有集体辞职的宣言，没有像普通游戏公司那样的“离职潮”媒体报道。</p>
+<p>Valve从不公开讨论人事变动。这是它一贯的做法。但这次静默的代际更替，揭示了一个在员工手册的轮子桌插图里看不到的结构性现实。</p>
+<p>2012年那份闻名业界的新员工手册，至今仍是理解Valve组织理念最直观的入口。手册封面是一张俯拍的圆桌照片，桌面上画着轮子图案，不同方向的辐条指向不同的座位。</p>
+<p>内页的插图将公司描绘成一个没有层级节点的网络：每个人都可以自由选择项目，每个项目小组像细胞一样自然形成又自然解散，薪酬由同侪评议决定，没有经理指手画脚。“轮子桌”成为硅谷扁平化管理的图腾，Valve被写入商学院案例，被媒体反复引用为“未来公司”的样本。</p>
+<p>但插图不展示时间。它不展示在一个运行了二十年的系统里，那些早期加入的成员积累了什么。</p>
+<p>要理解2018-2019年离职潮的深层原因，需要回到Valve扁平制的实际运作机制。这套制度的核心承诺是：没有固定层级，任何人都可以发起项目，任何人都可以选择加入哪个项目。在理论上，一个刚入职三周的新人和一个在公司待了十五年的老员工拥有完全相同的项目选择权。</p>
+<p>但在实践中，项目选择不是一个简单的意愿表达。它需要信息、人脉和信誉。一个新员工进入Valve后的第一个挑战，是弄清楚哪些项目正在运行。Valve没有公开的项目清单，没有定期的全员通报，没有项目经理分配任务。</p>
+<p>项目信息通过非正式网络传播：走廊上的对话、午餐桌上的闲聊、某人发在内部邮件列表里的试探性提议。对于一个刚加入的人来说，这个信息网络是看不见的。老员工知道谁在做有趣的事，知道哪个项目正在获得内部支持，知道哪个方向是公司当前的关注焦点。新员工不知道。</p>
+<p>即使新员工获知了某个项目的存在，加入它还需要另一个条件：项目现有成员同意他加入。在Valve，项目小组的形成和扩张是一个基于共识的过程。没有人能单方面决定加入一个项目——现有成员会评估申请者的能力、风格和适配度。这个评估在理论上是基于专业判断的，但它不可避免地受到人际熟悉度的影响。一个与项目核心成员共事过十年的人，比一个从未在公司内部证明过自己的人更容易通过评估。</p>
+<p>这种倾向不是恶意的。它不是排外的阴谋。它只是人类组织的自然规律：信任需要时间积累，而时间在扁平结构里分布不均。</p>
+<p>这就是资深者引力场的第一个维度：信息不对称和信任门槛共同构成了一道隐形屏障，将资深员工自然吸引到最有吸引力的项目位置，而将新人推向维护性工作或边缘项目。</p>
+<p>2018年离开的莫比·弗兰克提供了一个清晰的例证。在《军团要塞2》美术风格确立后，他始终处于Valve视觉开发的核心位置。当《DOTA 2》需要建立全新的视觉体系时，他是自然的选择。当公司在2013年前后探索VR内容时，他的意见在美术方向上有决定性分量。这不是因为他有头衔——Valve没有人有头衔——而是因为他的过往作品在每次同侪评议中都转化为信誉，信誉又转化为下一轮项目选择中的话语权。十三年积累下来的引力场，让他在项目选择上拥有事实上的优先权。</p>
+<p>而一个2016年入职的美术新人，即使毕业于最好的艺术学院，拥有令人惊叹的作品集，进入Valve后很可能发现自己在做《DOTA 2》英雄饰品的迭代优化，或者在Steam界面改版中调整图标间距。</p>
+<p>这些工作不是没有价值——Valve的每一项业务都需要维护——但它们不在公司内部声誉经济的中心。在扁平结构里，“自由选择项目”的自由是真实的。但可供选择的项目范围和进入核心项目的机会，受到不可见的引力场强烈塑造。</p>
+<p>同侪评议是这套制度的另一根支柱，它在2018年前后的离职潮中扮演了同样关键的角色。Valve的薪酬体系完全建立在同事互评之上。每年末，每个员工会收到一份问卷，要求他们对所有共事过的同事进行评价，评价维度包括技术能力、生产力、团队贡献等。这些评价汇总后形成一个排名，排名直接决定每个人的薪酬等级——包括奖金和股票期权。公司没有HR部门制定薪酬标准，没有经理为下属争取加薪。一切由算法化的同侪评议决定。</p>
+<p>这套制度在理论上的优势显而易见：它消除了经理个人偏好对薪酬的影响，让薪酬更贴近实际贡献。但在运行二十年后，它的结构性偏向开始显现。同侪评议依赖于评议者的了解程度。</p>
+<p>一个与更多人共事过的老员工，在评议周期内有更多的评议者，评议样本更丰富，极端值更容易被稀释。而一个大部分时间在边缘项目独立工作的新人，评议者数量少，一两个不太满意的评价就可能显著拉低排名。这不是制度设计上的故意偏袒。这是统计效应在时间积累下的自然结果。</p>
+<p>更关键的是，同侪评议倾向于奖励“可见的贡献”——那些能被同事直接感知到的产出。在游戏开发中，概念美术、核心代码架构、关键设计决策是高度可见的。而工具链维护、技术债务清理、新人指导、文档编写这些工作的可见度要低得多。资深员工凭借经验和对项目方向的影响力，更容易占据高可见度的位置。新人——即使他们在这些高可见度岗位上——往往承担的是执行层面的工作，原创性贡献在评议中不如方向性贡献突出。</p>
+<p>Glassdoor上一条2018年的匿名评价捕捉到了一个在多个前员工叙述中反复出现的主题：在公司待得越久，排名就越高——不是因为变得更好，而是因为认识了更多人，更多人知道你的名字。</p>
+<p>这条评价的具体真实性无法验证。但它指向了一个可观察的组织现象：同侪评议在长期运行后会沉淀出一种“声誉惯性”——过去的成功持续为现在加分，而现在的贡献需要时间才能转化为声誉。时间本身是新人最缺乏的资源。</p>
+<p>2019年离开的另一位资深工程师——他的离职在行业报道中被提及，但本人从未公开发表评论——据称在内部会议上多次对同侪评议的公平性提出质疑。他的核心论点是：当公司规模在一百人以下时，每个人都大致了解其他人在做什么，同侪评议的信息基础是扎实的；但当公司扩张到三百人以上，跨项目、跨职能的了解变得不可能，评议退化为“你听说过谁”而不是“你知道谁做了什么”。Valve在2012年前后员工数突破三百人，到2018年已接近四百人。同侪评议的信息基础在规模扩张中被持续稀释。但制度本身没有做出相应调整。</p>
+<p>这就是暗层级的第二个维度：同侪评议在信息不对称的环境中，从民主化的薪酬工具演变为强化既有声誉等级的机制。</p>
+<p>它不是腐败的——没有证据表明任何人操纵评议结果——但它是路径依赖的。路径的起点是那些在公司待得最久的人。</p>
+<p>2013年被裁的硬件工程师杰里·埃尔斯沃思的案例，为理解暗层级的运作方式提供了一个更早但极具说明性的参照。埃尔斯沃思是增强现实领域的先驱，在加入Valve之前已经拥有令人瞩目的独立成就。她被纽维尔亲自招募，负责探索AR硬件方向。在Valve的扁平结构里，她组建了自己的小团队，推进了几个月的工作。然后在2013年2月的一次大规模裁员中，她和整个硬件团队被解雇。</p>
+<p>埃尔斯沃思后来在接受采访时提供了Valve扁平制最尖锐的外部批评之一。她描述了“无老板”结构中的实际决策过程：没有正式经理意味着没有正式的保护。在传统公司，经理有责任为下属争取资源、在高层面前辩护、在裁员时提供预警。在Valve，这些功能由谁来承担？理论上由项目团队集体承担。但集体责任在压力面前往往分解为个体自保。</p>
+<p>当公司决定砍掉某个方向时，没有人为被砍的团队说话——因为说话的人没有正式的辩护权，只有非正式的影响力。而非正式影响力在涉及公司资源分配的根本决策时，往往不够用。</p>
+<p>埃尔斯沃思的叙述中有一个细节值得注意。她说，在Valve，“真正做决定的人”不是那些在轮子桌上被拍到的人，而是那些在公司待了十年以上、和纽维尔一起经历过《半条命》时代的人。这个圈子没有正式名称，没有会议记录，没有决策备忘录。他们不在组织架构图上——因为Valve没有组织架构图——但他们的意见在关键方向上具有不成比例的分量。</p>
+<p>埃尔斯沃思的AR项目被终止，不是经过一个正式评审流程后的决定，而是一系列她没有被邀请参加的对话的结果。将埃尔斯沃思2013年的经历与2018-2019年离职潮联系起来看，一个模式开始浮现。</p>
+<p>Valve的扁平结构在运行第一个十年（1996-2006）时，公司规模小，成员背景相对同质——主要是从微软出来的游戏开发者，彼此之间有相似的技术文化和沟通语言。</p>
+<p>在这个阶段，扁平制确实接近于它承诺的理想：信息流动充分，同侪评议的信息基础扎实，非正式决策过程中的参与者大致代表了公司成员的共同意志。第二个十年（2006-2016），公司规模从不到百人扩张到三百人以上，业务从游戏开发扩展到平台运营、硬件探索、VR研发。成员背景变得高度异质：硬件工程师、经济学家、数据科学家、社区管理专家加入了一个原本以游戏开发者为主的组织。</p>
+<p>在这个阶段，扁平制的信息基础开始出现裂缝。不同背景的人对“好工作”的定义不同，对“贡献”的评价标准不同。但同侪评议的框架没有为这种异质性提供校准机制。早期加入的核心成员——他们经历了公司最成功的项目，在公司内部拥有最深厚的人脉——在非正式决策过程中的影响力变得越来越大。而这种影响力没有受到任何正式制衡。</p>
+<p>2018-2019年的离职潮，是这一长期趋势的结果，也是它的显性化。离开的人中有两类。</p>
+<p>第一类是像莫比·弗兰克和杰伊·平克顿这样的资深者——他们在公司待了十年以上，本身是引力场的组成部分。他们的离开可能有各自的具体原因：创作方向的分歧、对Steam收租模式下游戏开发边缘化的不满、或者仅仅是在同一个地方工作了太久之后的自然倦怠。但他们的离开也暗示了另一个问题：即使是引力场的受益者，也可能对这个引力场本身感到厌倦。</p>
+<p>当一个组织的核心位置被同一批人占据太久，创作上的新鲜感会递减。而扁平结构没有提供“向上移动”以外的出口——因为没有“上”可以移动。</p>
+<p>第二类离开者是那些没有被媒体报道的中层员工——在Valve工作了四到七年，从未进入核心项目圈，也从未在同侪评议中获得足以改变职业轨迹的排名。他们的离职更加安静。LinkedIn上的一条状态更新，Twitter上一句告别，然后消失。这类离职者的共同特征是：他们往往在离开后没有加入其他3A游戏公司，而是转向独立开发、自由职业或完全离开游戏行业。他们离开时带着一种特定的沉默。</p>
+<p>不是愤怒，不是被背叛感。而是一种“这里不需要我”的平静认知。一位2019年离开的前员工在社交媒体上描述了这种处境：在Valve有世界上最好的椅子、最好的电脑、最好的午餐，也有完全的自由去做想做的项目——但六个月后发现，想做的项目没有人加入，而别人想做的项目加入不了。自由是真的，孤独也是真的。</p>
+<p>这条帖子后来被删除，但在被删除前已经被多个行业论坛截图转发。它捕捉到了扁平制承诺与扁平制现实之间那道细微但真实的裂缝。</p>
+<p>暗层级不是阴谋。它不是一群人在秘密会议室里操纵公司方向。它是在一个声称没有层级的系统里，时间、信息和信誉自然沉淀出的非正式权力结构。</p>
+<p>这个结构有三个特征。第一，它没有正式边界，因此无法被正式挑战——你不能向HR投诉某个在公司待了十五年的人影响力太大，因为Valve没有HR部门来处理这种投诉。</p>
+<p>第二，它不是固定的——资深者的影响力在不同领域分布不均。一个在《DOTA 2》有巨大话语权的人可能在VR方向毫无分量。</p>
+<p>第三，它对组织效率的影响是复杂的。在某些情况下，资深者的经验帮助公司避免重复错误。在另一些情况下，他们的惯性抵制了必要的变革。</p>
+<p>2018-2019年的离职潮迫使Valve面对一个它在过去二十年里一直回避的问题：扁平制是否需要一个自我修正机制？在传统层级组织中，代际更替通过晋升和退休制度化地完成。一个经理在岗位上工作五年后可能晋升或转岗，为后来者腾出空间。在Valve，没有晋升，没有转岗，没有强制退休。一个人可以在同一个引力场中心待上二十年，只要他持续获得足够多的同侪评议支持。而这个“足够多”的门槛，在声誉惯性下对资深者比对新人低得多。</p>
+<p>这意味着Valve的扁平结构在长期运行中面临一个独特的组织风险：不是人才流失——公司仍然吸引着世界上最优秀的游戏开发者——而是人才循环的阻塞。新人进入公司，在引力场的外围运转一段时间，其中一部分人无法穿透暗层级进入核心项目，最终选择离开。</p>
+<p>离开的人往往不是最差的——最差的人会被同侪评议淘汰——而是那些无法或不愿在非正式权力结构中为自己争取位置的人。他们可能恰恰是公司最需要的新视角和新思维的携带者。</p>
+<p>《Artifact》的失败为这个判断提供了一个间接但有力的佐证。这款卡牌游戏的设计缺陷——复杂的三线对战机制、基于Steam市场交易的经济模型、二十美元买断加微交易的定价策略——每一个都可以追溯到收租逻辑对创作判断的渗透。</p>
+<p>但还有一个组织层面的问题值得追问：当《Artifact》的设计方向在内部受到质疑时，谁有能力说不？理查德·加菲尔德是《万智牌》的创造者，是卡牌游戏设计领域最受尊敬的名字之一。他在Valve内部推动《Artifact》的设计理念时，拥有专业声誉赋予的话语权。在扁平结构里，挑战一个像加菲尔德这样的外部权威，需要内部有人既有足够的专业信誉，又有足够的非正式影响力来组织反对意见。如果这个人存在，反对意见可能被听取；</p>
+<p>如果这个人不存在——或者存在但不在项目的核心圈子里——那么加菲尔德的设计方向就会在没有充分内部挑战的情况下推进。我们无法确切知道《Artifact》开发过程中发生了什么样的内部讨论。但我们可以观察到结果：一款在设计理念上存在明显问题的游戏，通过了Valve的内部评审流程，被推向市场，然后在一个月内崩溃。</p>
+<p>这个结果至少暗示，Valve的扁平决策机制在2018年没有有效运转。引力场不仅影响谁做什么项目，还影响什么意见在项目内部被认真对待。</p>
+<p>2019年9月，一则来自好莱坞的消息为Valve的处境提供了一个意外的参照。《摘金奇缘》续集的联合编剧林黛兒在与华纳兄弟影业陷入劳资纠纷后，决定离开续集剧组。事件的起因是薪酬差距：林黛兒作为联合编剧的报酬远低于她的白人男性合作者彼得·基雷利，尽管两人在剧本中的贡献相当。华纳兄弟最初提出的方案被林黛兒拒绝。协商破裂后她选择退出项目。这则新闻在游戏行业引发了零星讨论。</p>
+<p>人们注意到一个对比：好莱坞的劳资纠纷是公开的——编剧的诉求、制片厂的回应、协商的破裂、最终的结果，每一个环节都在行业媒体上被报道和分析。而在Valve，人事变动是沉默的。没有公开诉求，没有协商记录，没有破裂声明。离开的人只是不再出现在轮子桌上。</p>
+<p>这个对比当然不是完全公平的。Valve是一家私人公司，没有义务公开内部人事。好莱坞是一个高度工会化的行业，劳资谈判有制度化的公开渠道。</p>
+<p>但对比仍然揭示了一个实质差异：在层级明确的组织里，冲突有结构化的表达方式——你可以向经理投诉，可以向HR提交申诉，可以向工会寻求支持。在扁平组织里，当冲突涉及非正式权力结构本身时，没有对应的表达渠道。因为正式制度不承认这个结构的存在。</p>
+<p>2019年底，Valve的员工数稳定在三百六十人左右。离职潮的高峰已经过去。公司仍然没有公开评论任何人事变动。</p>
+<p>新员工手册的PDF文件仍然可以在官方网站下载。轮子桌插图仍然在手册首页。</p>
+<p>这幅插图描绘的组织，在2019年仍然存在——在某些方面，它比以往任何时候都更真实。Valve的员工确实拥有大多数游戏公司无法想象的自由：没有截止日期，没有强制项目分配，没有经理审批假期。</p>
+<p>这些不是谎言。但轮子桌插图没有画出的东西，在2018-2019年的静默震荡中变得清晰。</p>
+<p>它没有画出那些在走廊上交换项目信息的非正式对话。没有画出同侪评议表单上那些基于有限信息的仓促评分。没有画出那些在加入核心项目失败后独自调整图标间距的新人。没有画出那些更新了LinkedIn状态后安静地交还门卡的人。</p>
+<p>Valve的组织乌托邦不是谎言。但它是一个有准入门槛的乌托邦。门槛不是写在员工手册里的条款——手册里写的是任何人都可以——而是由时间、信任和声誉的积累构成的隐形结构。</p>
+<p>跨过门槛的人获得了一种在其他公司几乎不可能得到的创作自由。跨不过去的人发现，自由是真实的，但自由发挥作用的范围被限制在引力场的外围。</p>
+<p>2018年秋天，当莫比·弗兰克在LinkedIn上将Valve标记为“前雇主”时，他在公司的最后一项工作已经完成。《Artifact》的美术方向——那些精致的卡牌插画、界面设计和视觉特效——部分出自他和他的团队之手。游戏上线后，美术部分收到的评价是正面的。问题不在美术。</p>
+<p>问题在更深处，在设计理念，在经济模型，在那些比美术更早做出的决策里。弗兰克的离开和《Artifact》的失败发生在同一段时间窗口里。它们之间没有直接的因果关系——没有证据表明弗兰克是因为《Artifact》的失败而离开，或者他的离开导致了游戏的失败。</p>
+<p>但它们在更深层面共享同一个组织现实：在一个引力场持续强化的扁平结构里，创作判断的质量取决于谁在引力场的中心，以及中心的人是否还保有挑战自己的意愿和能力。</p>
+<p>到2019年底，Valve面临的问题已经不是扁平制是否有效。二十年的历史已经证明它在某些条件下极其有效。问题是扁平制在运行二十年后能否自我更新。</p>
+<p>暗层级的存在不是扁平制的失败，而是扁平制在时间中演化的自然产物。问题不在于它是否存在，而在于Valve是否愿意承认它存在，并为它建立某种修正机制。这个问题在2019年没有答案。公司没有公开回应离职潮，没有修改员工手册，没有调整同侪评议制度。轮子桌继续转动。</p>
+<p>但在贝尔维尤的办公室里，那些空出来的座位被新的人填满。新人们翻开员工手册，看到轮子桌插图，读到“Valve没有经理”的承诺。他们中的一些人会在接下来的两年里发现，自由选择和自由落体之间的距离，比手册上画出来的要远得多。</p>
+<p>而另一些人——那些恰好落在引力场中心的少数人——将有机会证明，这家公司仍然保有做出定义行业标准的作品的判断力。只是这个证明的机会本身，从来就不是均匀分配的。</p></div></div></div><p class="page-indicator"></p><nav class="chapter-nav"><a href="ch-16.html">上一章</a><a href="index.html">返回详情</a><a href="ch-18.html">下一章</a></nav></article></main><div class="drawer-mask"></div><section class="settings" hidden><strong>阅读设置</strong><div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div><div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div><div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div><div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div><div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div></section><script>(function(){
+const data={"bookId":"proj-msx6lhf46w7","chapter":16,"chapterTitle":"扁平之下的暗流","href":"ch-17.html","prevHref":"ch-16.html","nextHref":"ch-18.html","locationLabel":"第 17 章 · 扁平之下的暗流"};const key='historyai.reader.'+data.bookId;const root=document.documentElement;
+let state={theme:'paper',font:18,leading:2,width:760,mode:'page',chapter:0,page:0,href:''};try{state=Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch(e){}
+if(state.mode!=='scroll')state.mode='page';
+var flow=document.querySelector('.flow-inner');var paper=document.querySelector('.reader-paper');var flowBox=document.querySelector('.paper-flow');
+var page=0,total=1,step=1;
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+function bar(r){document.querySelector('.read-progress span').style.width=(Math.max(0,Math.min(1,r))*100)+'%'}
+function indicator(){var el=document.querySelector('.page-indicator');if(el)el.textContent=(page+1)+' / '+total+' 页';var loc=document.querySelector('.reader-location');if(loc&&state.mode==='page')loc.textContent=data.locationLabel+' · '+(page+1)+'/'+total+' 页'}
+function layout(keepRatio){
+  root.dataset.rmode=state.mode;
+  if(state.mode!=='page'){if(flow){flow.style.columnWidth='';flow.style.columnGap='';flow.style.transform=''}scrollProgress();return}
+  if(!flow||!flowBox)return;
+  var ratio=total>1?page/(total-1):0;
+  var cw=flowBox.clientWidth,gap=48;
+  flow.style.columnWidth=cw+'px';flow.style.columnGap=gap+'px';
+  step=cw+gap;
+  total=Math.max(1,Math.round((flow.scrollWidth+gap)/step));
+  go(keepRatio?Math.round(ratio*(total-1)):Math.min(page,total-1));
+}
+function go(n){page=Math.max(0,Math.min(total-1,n));if(flow)flow.style.transform='translate3d(-'+(page*step)+'px,0,0)';bar(total>1?page/(total-1):1);indicator();state.page=page;save()}
+function flip(dir){
+  if(state.mode!=='page'){scrollBy({top:dir*(innerHeight*0.88),behavior:'smooth'});return}
+  var n=page+dir;
+  if(n<0){if(data.prevHref)location.href=data.prevHref+'#last';return}
+  if(n>total-1){if(data.nextHref)location.href=data.nextHref;return}
+  go(n);
+}
+function apply(){root.dataset.theme=state.theme;root.style.setProperty('--reader-font',state.font+'px');root.style.setProperty('--reader-leading',state.leading);root.style.setProperty('--reader-width',state.width+'px');document.querySelectorAll('[data-setting]').forEach(function(button){button.classList.toggle('active',String(state[button.dataset.setting])===button.dataset.value)}) ;var f=document.querySelector('[data-font-value]');if(f)f.textContent=state.font+' px'}
+var sameChapter=Number(state.chapter)===Number(data.chapter);
+state.chapter=data.chapter;state.href=new URL(data.href,location.href).href;state.chapterTitle=data.chapterTitle;state.updatedAt=new Date().toISOString();save();apply();
+document.querySelectorAll('[data-setting]').forEach(function(button){button.addEventListener('click',function(){var name=button.dataset.setting;var value=button.dataset.value;state[name]=name==='width'||name==='leading'?Number(value):value;save();apply();layout(true)})});
+document.querySelectorAll('[data-font-step]').forEach(function(button){button.addEventListener('click',function(){state.font=Math.max(14,Math.min(26,state.font+Number(button.dataset.fontStep)));save();apply();layout(true)})});
+var settings=document.querySelector('.settings');document.querySelector('[data-toggle-settings]').addEventListener('click',function(){settings.hidden=!settings.hidden});
+document.querySelector('[data-toggle-drawer]').addEventListener('click',function(){document.body.classList.toggle('drawer-open')});document.querySelector('.drawer-mask').addEventListener('click',function(){document.body.classList.remove('drawer-open')});
+function scrollProgress(){if(state.mode==='page')return;var totalH=Math.max(1,document.documentElement.scrollHeight-innerHeight);bar(scrollY/totalH)}addEventListener('scroll',scrollProgress,{passive:true});
+if(paper){
+  paper.addEventListener('click',function(e){
+    if(state.mode!=='page')return;
+    if(e.target.closest&&e.target.closest('a,button'))return;
+    var x=e.clientX,w=innerWidth;
+    if(x<w*0.3)flip(-1);else if(x>w*0.7)flip(1);
+  });
+  var tx=null,ty=null;
+  paper.addEventListener('touchstart',function(e){if(e.touches.length===1){tx=e.touches[0].clientX;ty=e.touches[0].clientY}},{passive:true});
+  paper.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=null;if(state.mode==='page'&&Math.abs(dx)>46&&Math.abs(dx)>Math.abs(dy)*1.4)flip(dx<0?1:-1)},{passive:true});
+}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();flip(1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();flip(-1)}});
+var rsz=null;addEventListener('resize',function(){clearTimeout(rsz);rsz=setTimeout(function(){layout(true)},150)});
+layout(false);
+if(state.mode==='page'){
+  if(location.hash==='#last'){go(total-1)}
+  else if(sameChapter&&Number.isFinite(Number(state.page))){go(Math.min(Number(state.page),total-1))}
+}
+addEventListener('load',function(){setTimeout(function(){layout(true)},80)});
+})();</script></body></html>
