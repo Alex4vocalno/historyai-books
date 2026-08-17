@@ -1,5 +1,37 @@
 [
   {
+    "id": "proj-msls7pjq7tw",
+    "projectId": "proj-msls7pjq7tw",
+    "releaseId": "rel_20260817100116070_4872706a5f",
+    "title": "玩法的谱系：电子游戏类型通识",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏设计",
+      "游戏史",
+      "游戏类型",
+      "玩法演化",
+      "数字文化",
+      "媒介研究"
+    ],
+    "description": "本书以“玩法”为核心，系统梳理了电子游戏类型自1962年《太空战争》诞生至今的演化脉络。它并非简单的编年史，而是聚焦于每一种主流游戏类型（如动作、角色扮演、策略、模拟等）如何诞生于特定的技术与社会土壤，旨在解决何种核心的设计问题，以及如何在传播与竞争中不断变异、融合，最终形成我们今天所熟知的游戏景观。从早期实验室的示波器图形，到街机厅的乒乓撞击，从个人电脑上的虚拟世界构建，到当代开放世界的沉浸体验，本书试图构建一部“玩法的谱系”，揭示驱动电子游戏不断创新的内在逻辑与创造性张力。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 93,
+      "staleScore": 93,
+      "reportId": "f673fac54082",
+      "createdAt": "2026-08-10T13:59:26.923Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "books/proj-msls7pjq7tw/releases/rel_20260817100116070_4872706a5f/cover.jpg",
+    "url": "books/proj-msls7pjq7tw/index.html",
+    "publishedAt": "2026-08-17T10:01:16.073Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mskayfixsqj",
     "projectId": "proj-mskayfixsqj",
     "releaseId": "rel_20260817100039202_38de92fe22",
@@ -201,35 +233,6 @@
     "coverUrl": "",
     "url": "books/proj-msls7w87u6c/index.html",
     "publishedAt": "2026-08-17T09:49:58.629Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msls7pjq7tw",
-    "projectId": "proj-msls7pjq7tw",
-    "releaseId": "rel_20260817094958724_3312a82774",
-    "title": "玩法的谱系：电子游戏类型通识",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "游戏史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "从 1962 年《太空战争》到魂类与开放世界：每一种游戏类型从何而来、解决什么设计问题、如何变异繁衍——一部玩法的演化谱系",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "rules",
-      "score": 93,
-      "staleScore": 93,
-      "reportId": "f673fac54082",
-      "createdAt": "2026-08-10T13:59:26.923Z",
-      "manuscriptVersionId": ""
-    },
-    "coverUrl": "",
-    "url": "books/proj-msls7pjq7tw/index.html",
-    "publishedAt": "2026-08-17T09:49:58.725Z",
     "visibility": "public"
   },
   {
