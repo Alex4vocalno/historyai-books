@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260818060717492_31289da5c8",
+  "projectId": "proj-msxxzxendwi",
+  "manuscriptVersionId": "mv_9357e24dd508d316",
+  "contentHash": "9357e24dd508d316d077fee51dc74d5e0f6a81d0a8c130d260079ccaadbdd741",
+  "title": "最后的西部：荒野大镖客与一个神话的三次重写",
+  "subtitle": "荒野大镖客与一个神话的三次重写",
+  "authorDisplayName": "李思特Think",
+  "description": "美国西部史实仅存三十年，其神话却延续了一个半世纪。本书梳理西部神话从廉价小说、好莱坞电影到电子游戏的三次重写历程，聚焦《荒野大镖客》系列如何以开放世界让玩家从旁观者变为共谋者。全书交织西部史、影史与游戏开发史，深入剖析RAGE引擎技术演进、六千页剧本的工业化生产及叙事宿命与玩家自由的张力。这不仅是一部游戏文化史，更是对神话构建机制、数字时代叙事伦理及创意劳动困境的深度考察，揭示“人逃不出过去”这一母题如何在交互媒介中获得新生。",
+  "category": "游戏史",
+  "tags": [
+    "荒野大镖客",
+    "西部神话",
+    "游戏叙事",
+    "Rockstar",
+    "文化史",
+    "开放世界"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 23,
+    "units": 193146,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-1",
+    "createdAt": "2026-08-18T04:48:15.843Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-18T06:02:43.978Z",
+    "textless": true
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "三十年的边疆",
+      "units": 7805
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "铁路与野牛",
+      "units": 8368
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "一毛钱的神话",
+      "units": 8373
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "镜头的边界",
+      "units": 9260
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "意大利面与慢镜头",
+      "units": 8392
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "死后的语法",
+      "units": 8386
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "圣迭戈的弃子",
+      "units": 8372
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "会回应的世界",
+      "units": 7896
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "约翰·马斯顿的契约",
+      "units": 8362
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "涉水过河的时刻",
+      "units": 8385
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "空旷的设计",
+      "units": 8376
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "亡灵与配偶",
+      "units": 8351
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "马鞍与收缩的边疆",
+      "units": 8032
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "六千页剧本的重量",
+      "units": 8197
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "佩金帕的幽灵与亚瑟的咳嗽",
+      "units": 8375
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "一百小时的宣言与断裂的契约",
+      "units": 7868
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "慢的两种判决",
+      "units": 8352
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "错位的枪声与沉默的续章",
+      "units": 8396
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "金条的沉默",
+      "units": 8394
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "豪瑟的告别",
+      "units": 8377
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "没有豪瑟的Rockstar",
+      "units": 8370
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "荒野的扩散",
+      "units": 8392
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "第四次重写",
+      "units": 10067
+    }
+  ],
+  "publishedAt": "2026-08-18T06:07:17.494Z"
+}
