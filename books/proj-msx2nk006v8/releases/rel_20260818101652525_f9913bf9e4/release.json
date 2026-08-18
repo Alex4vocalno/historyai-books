@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260818101652525_f9913bf9e4",
+  "projectId": "proj-msx2nk006v8",
+  "manuscriptVersionId": "mv_7455972ca0a26b3a",
+  "contentHash": "7455972ca0a26b3a6a7a2ba6fe1ce8851ae0b65850431e89a34506c1f3be0a0c",
+  "title": "一个人的工作室：独立游戏二十年",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "独立游戏的二十年，是一场关于\"谁有资格做游戏\"的权力下放史。当发行商垄断了卡带产能与货架，做游戏就是一门必须先获批准的生意；而当引擎免费、分发平台开放、众筹绕过预算审批，一个人在卧室里也能把作品直接交到几百万人手上。本书追踪这条通路如何被一段段打通：Flash 与共享软件时代的野生繁殖，Braid 与 Xbox Live Arcade 让\"作者游戏\"第一次被市场承认，Minecraft 证明未完成的作品也能长成产业，Steam 开闸带来的自由与淹没，itch.io 与游戏 jam 供养的实验层。同时诚实记录代价：成功者叙事掩盖了大量的破产与倦怠，独立性本身也成了一种可被收购的美学。",
+  "category": "游戏史",
+  "tags": [
+    "游戏史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 27,
+    "units": 235159,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-08-17T13:34:23.190Z"
+  },
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "卧室里的编译器",
+      "units": 9219
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "千万个微小的展览",
+      "units": 7464
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "节日的发明",
+      "units": 12081
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "闪光的殖民地",
+      "units": 7921
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "主机的窄门",
+      "units": 8705
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "未完成的长成",
+      "units": 8433
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "独居与共处",
+      "units": 8460
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "工具箱的民主",
+      "units": 10533
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "金钱的临时语法",
+      "units": 9362
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "失败的技艺",
+      "units": 9231
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "身体与代码",
+      "units": 7223
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "像素的尊严",
+      "units": 7809
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "声景的织体",
+      "units": 11172
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "漫游的诗学",
+      "units": 7556
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "记忆的拼图",
+      "units": 7721
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "田埂与高墙",
+      "units": 7871
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "镜中的游戏",
+      "units": 9967
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "门槛上的声音",
+      "units": 9369
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "脆弱的庇护所",
+      "units": 7805
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "平台之重",
+      "units": 9249
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "收购的炼金术",
+      "units": 7363
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "隔离时期的创作",
+      "units": 9272
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "旧游戏的新衣裳",
+      "units": 9961
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "一个人的回声",
+      "units": 7788
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "塔尖的忧郁",
+      "units": 8038
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "灵韵的账本",
+      "units": 8209
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "未竟的完成",
+      "units": 7377
+    }
+  ],
+  "publishedAt": "2026-08-18T10:16:52.526Z"
+}
