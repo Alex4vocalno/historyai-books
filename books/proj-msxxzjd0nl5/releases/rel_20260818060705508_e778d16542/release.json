@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260818060705508_e778d16542",
+  "projectId": "proj-msxxzjd0nl5",
+  "manuscriptVersionId": "mv_8f77f24711e8ed10",
+  "contentHash": "8f77f24711e8ed1044415dc9360cd133154acaa38c6e8597965191cae171cb5b",
+  "title": "猎魔人的国度：巫师系列与波兰游戏三十年",
+  "subtitle": "巫师系列与波兰游戏三十年",
+  "authorDisplayName": "李思特Think",
+  "description": "本书追溯波兰CD Projekt从盗版发行商到全球IP缔造者的三十年历程。作者以《猎魔人》原著为起点，剖析巫师三部曲如何将斯拉夫奇幻转化为文化输出实验，并揭示无DRM等亲玩家策略背后的商业逻辑。书中详述2077发售灾难对品牌资产的反噬，探讨作者版权、国家叙事与公司扩张间的深层张力。这不仅是一部游戏产业史，更是东欧后转型社会文化突围与代价的深刻记录。",
+  "category": "游戏史",
+  "tags": [
+    "巫师系列",
+    "CD Projekt",
+    "波兰游戏",
+    "猎魔人",
+    "游戏产业史",
+    "文化输出"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 22,
+    "units": 184686,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-18T04:22:10.223Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-18T05:58:38.332Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "一篇参赛稿与一个虚构世界",
+      "units": 8433
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "经济转型前夜的文学市场",
+      "units": 8362
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "灰色货架上的自由市场",
+      "units": 8508
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "本地化作为一门生意",
+      "units": 8082
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "发行商的中年焦虑",
+      "units": 9323
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "一个引擎与一个世界",
+      "units": 8954
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "阁楼里的引擎",
+      "units": 8389
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "一纸合约与作者的轻蔑",
+      "units": 8383
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "推倒重来的勇气",
+      "units": 8379
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "道德选择的宣言",
+      "units": 8526
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "分裂的掌声",
+      "units": 8386
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "自研引擎的赌注",
+      "units": 8395
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "旧游戏的复活生意",
+      "units": 8183
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "红色引擎的成人礼",
+      "units": 8701
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "开放世界的狂猎",
+      "units": 8387
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "支线即主线的兑现",
+      "units": 8255
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "血与酒的告别宴",
+      "units": 8259
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "作者回来算旧账",
+      "units": 7760
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "道歉视频与信任赤字",
+      "units": 8155
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "告别红色引擎",
+      "units": 7480
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "白狼之后的世界",
+      "units": 8972
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "国家名片褪色后",
+      "units": 8414
+    }
+  ],
+  "publishedAt": "2026-08-18T06:07:05.511Z"
+}
