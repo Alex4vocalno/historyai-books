@@ -1,5 +1,37 @@
 [
   {
+    "id": "proj-msr9azx5al1",
+    "projectId": "proj-msr9azx5al1",
+    "releaseId": "rel_20260818072117175_75751c78ad",
+    "title": "佐尔格谍战纪实",
+    "subtitle": "东京情报网与改变世界的两份电报",
+    "authorDisplayName": "李思特Think",
+    "category": "人物传记",
+    "tags": [
+      "间谍史",
+      "二战情报",
+      "佐尔格",
+      "非虚构",
+      "解密档案",
+      "东京"
+    ],
+    "description": "本书以解密档案为基础，完整呈现了理查德·佐尔格及其东京情报网（1930-1944）的传奇历史。核心揭示了情报史上一个深刻悖论：同一张网络，以同样的专业手法送出了两份足以改变世界史的情报——关于德国入侵苏联的“巴巴罗萨警告”被斯大林无视，而关于日本南进战略的定论则直接促成了莫斯科会战的关键兵力调动。本书紧贴特高课审讯记录、狱中手记、解密电文等原始档案，通过行动线与破获线双线交织的叙事，深入剖析了间谍的双重人生成本、情报从采集到被接收的价值链、高级渗透的社会学，以及反间谍的概率论。它不仅是一部惊心动魄的谍战纪实，更是一部关于情报、信任与决策的深刻反思。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-1",
+      "createdAt": "2026-08-13T12:21:48.584Z"
+    },
+    "coverUrl": "books/proj-msr9azx5al1/releases/rel_20260818072117175_75751c78ad/cover.jpg",
+    "coverTextless": true,
+    "url": "books/proj-msr9azx5al1/index.html",
+    "publishedAt": "2026-08-18T07:21:17.177Z",
+    "firstPublishedAt": "2026-08-17T03:44:54.017Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-ms8bbiy71xl",
     "projectId": "proj-ms8bbiy71xl",
     "releaseId": "rel_20260818072111454_124296dffa",
@@ -1615,38 +1647,6 @@
     "url": "books/proj-msr9aupz2rw/index.html",
     "publishedAt": "2026-08-18T03:36:58.157Z",
     "firstPublishedAt": "2026-08-17T03:44:54.144Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msr9azx5al1",
-    "projectId": "proj-msr9azx5al1",
-    "releaseId": "rel_20260818033658033_a100b780fb",
-    "title": "佐尔格谍战纪实",
-    "subtitle": "东京情报网与改变世界的两份电报",
-    "authorDisplayName": "李思特Think",
-    "category": "人物传记",
-    "tags": [
-      "间谍史",
-      "二战情报",
-      "佐尔格",
-      "非虚构",
-      "解密档案",
-      "东京"
-    ],
-    "description": "本书以解密档案为基础，完整呈现了理查德·佐尔格及其东京情报网（1930-1944）的传奇历史。核心揭示了情报史上一个深刻悖论：同一张网络，以同样的专业手法送出了两份足以改变世界史的情报——关于德国入侵苏联的“巴巴罗萨警告”被斯大林无视，而关于日本南进战略的定论则直接促成了莫斯科会战的关键兵力调动。本书紧贴特高课审讯记录、狱中手记、解密电文等原始档案，通过行动线与破获线双线交织的叙事，深入剖析了间谍的双重人生成本、情报从采集到被接收的价值链、高级渗透的社会学，以及反间谍的概率论。它不仅是一部惊心动魄的谍战纪实，更是一部关于情报、信任与决策的深刻反思。",
-    "chapterCount": 25,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 88,
-      "method": "median-of-1",
-      "createdAt": "2026-08-13T12:21:48.584Z"
-    },
-    "coverUrl": "",
-    "coverTextless": false,
-    "url": "books/proj-msr9azx5al1/index.html",
-    "publishedAt": "2026-08-18T03:36:58.033Z",
-    "firstPublishedAt": "2026-08-17T03:44:54.017Z",
     "visibility": "public"
   },
   {
