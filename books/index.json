@@ -1,5 +1,37 @@
 [
   {
+    "id": "proj-mss8q5seeht",
+    "projectId": "proj-mss8q5seeht",
+    "releaseId": "rel_20260818072122738_6e26db0277",
+    "title": "执缰·Harness史",
+    "subtitle": "",
+    "authorDisplayName": "李思特Think",
+    "category": "科技史",
+    "tags": [
+      "人工智能史",
+      "软件工程",
+      "平台经济学",
+      "技术标准",
+      "人机交互",
+      "非虚构"
+    ],
+    "description": "本书是一部关于AI智能体“缰绳层”的兴起史。它讲述了一个核心悖论：为了让大模型成为真正的“劳动力”，工程师们必须为其搭建名为“缰绳”的控制层——包括循环、工具、权限与协议。然而，缰绳层每一次成功验证的能力，最终都会被模型本身吸收，迫使缰绳向上攀升。本书以企业兴衰史为叙事主轴，追踪了从早期专家系统到2026年间，那些构建缰绳的公司、实验室与开源项目的沉浮。通过“地面真值定律”、“脚手架悖论”、“信任的计量”与“协议政治”四大概念，本书揭示了软件业如何围绕模型构建起新的操作系统层，以及这场技术革命背后的人、决策与代价。",
+    "chapterCount": 23,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-2",
+      "createdAt": "2026-08-14T03:30:34.490Z"
+    },
+    "coverUrl": "books/proj-mss8q5seeht/releases/rel_20260818072122738_6e26db0277/cover.jpg",
+    "coverTextless": true,
+    "url": "books/proj-mss8q5seeht/index.html",
+    "publishedAt": "2026-08-18T07:21:22.739Z",
+    "firstPublishedAt": "2026-08-17T03:44:53.890Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msr9azx5al1",
     "projectId": "proj-msr9azx5al1",
     "releaseId": "rel_20260818072117175_75751c78ad",
@@ -1647,38 +1679,6 @@
     "url": "books/proj-msr9aupz2rw/index.html",
     "publishedAt": "2026-08-18T03:36:58.157Z",
     "firstPublishedAt": "2026-08-17T03:44:54.144Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mss8q5seeht",
-    "projectId": "proj-mss8q5seeht",
-    "releaseId": "rel_20260818033657918_9646e6e5f2",
-    "title": "执缰·Harness史",
-    "subtitle": "",
-    "authorDisplayName": "李思特Think",
-    "category": "科技史",
-    "tags": [
-      "人工智能史",
-      "软件工程",
-      "平台经济学",
-      "技术标准",
-      "人机交互",
-      "非虚构"
-    ],
-    "description": "本书是一部关于AI智能体“缰绳层”的兴起史。它讲述了一个核心悖论：为了让大模型成为真正的“劳动力”，工程师们必须为其搭建名为“缰绳”的控制层——包括循环、工具、权限与协议。然而，缰绳层每一次成功验证的能力，最终都会被模型本身吸收，迫使缰绳向上攀升。本书以企业兴衰史为叙事主轴，追踪了从早期专家系统到2026年间，那些构建缰绳的公司、实验室与开源项目的沉浮。通过“地面真值定律”、“脚手架悖论”、“信任的计量”与“协议政治”四大概念，本书揭示了软件业如何围绕模型构建起新的操作系统层，以及这场技术革命背后的人、决策与代价。",
-    "chapterCount": 23,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-2",
-      "createdAt": "2026-08-14T03:30:34.490Z"
-    },
-    "coverUrl": "",
-    "coverTextless": false,
-    "url": "books/proj-mss8q5seeht/index.html",
-    "publishedAt": "2026-08-18T03:36:57.918Z",
-    "firstPublishedAt": "2026-08-17T03:44:53.890Z",
     "visibility": "public"
   },
   {
