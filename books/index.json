@@ -1,5 +1,35 @@
 [
   {
+    "id": "proj-ms8bbiy71xl",
+    "projectId": "proj-ms8bbiy71xl",
+    "releaseId": "rel_20260818072111454_124296dffa",
+    "title": "南明十八年：一六四四之后",
+    "subtitle": "一六四四之后的",
+    "authorDisplayName": "李思特Think",
+    "category": "中国史",
+    "tags": [
+      "历史",
+      "非虚构"
+    ],
+    "description": "以1644年北京陷落到1662年永历帝之死的十八年为主轴的全景叙事史：弘光朝的一年崩塌、隆武与鲁监国的并立内耗、永历朝的漫长流亡；郑成功的海上抗清与收复台湾、李定国两蹶名王的回光、张煌言的孤悬浙海。以顾诚《南明史》、《明季南略》《小腆纪年》等为据，写清一个王朝的残余为何有三次翻盘的机会、又为何一次都没有抓住。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 94,
+      "staleScore": 94,
+      "reportId": "9c13b09e6901",
+      "createdAt": "2026-08-14T01:25:57.655Z",
+      "manuscriptVersionId": ""
+    },
+    "coverUrl": "books/proj-ms8bbiy71xl/releases/rel_20260818072111454_124296dffa/cover.jpg",
+    "coverTextless": true,
+    "url": "books/proj-ms8bbiy71xl/index.html",
+    "publishedAt": "2026-08-18T07:21:11.456Z",
+    "firstPublishedAt": "2026-08-17T03:44:57.469Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mqf7mzrmntl",
     "projectId": "proj-mqf7mzrmntl",
     "releaseId": "rel_20260818064755484_ba3511544f",
@@ -689,36 +719,6 @@
     "url": "books/proj-ms5ibeca4r6/index.html",
     "publishedAt": "2026-08-18T03:37:01.225Z",
     "firstPublishedAt": "2026-08-17T03:44:57.779Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-ms8bbiy71xl",
-    "projectId": "proj-ms8bbiy71xl",
-    "releaseId": "rel_20260818033701093_fdfb062b8a",
-    "title": "南明十八年：一六四四之后",
-    "subtitle": "一六四四之后的",
-    "authorDisplayName": "李思特Think",
-    "category": "中国史",
-    "tags": [
-      "历史",
-      "非虚构"
-    ],
-    "description": "以1644年北京陷落到1662年永历帝之死的十八年为主轴的全景叙事史：弘光朝的一年崩塌、隆武与鲁监国的并立内耗、永历朝的漫长流亡；郑成功的海上抗清与收复台湾、李定国两蹶名王的回光、张煌言的孤悬浙海。以顾诚《南明史》、《明季南略》《小腆纪年》等为据，写清一个王朝的残余为何有三次翻盘的机会、又为何一次都没有抓住。",
-    "chapterCount": 25,
-    "editorialScore": {
-      "current": false,
-      "source": "rules",
-      "score": 94,
-      "staleScore": 94,
-      "reportId": "9c13b09e6901",
-      "createdAt": "2026-08-14T01:25:57.655Z",
-      "manuscriptVersionId": ""
-    },
-    "coverUrl": "",
-    "coverTextless": false,
-    "url": "books/proj-ms8bbiy71xl/index.html",
-    "publishedAt": "2026-08-18T03:37:01.094Z",
-    "firstPublishedAt": "2026-08-17T03:44:57.469Z",
     "visibility": "public"
   },
   {
