@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mqm5vwh5ec8",
+    "projectId": "proj-mqm5vwh5ec8",
+    "releaseId": "rel_20260819052420069_df6ede8c7b",
+    "title": "茶：一片叶子的全球史",
+    "subtitle": "从唐贡品到殖民作物，一片叶子的十二次身份转变",
+    "authorDisplayName": "李思特Think",
+    "category": "文化史",
+    "tags": [
+      "全球史",
+      "茶史",
+      "物质文化",
+      "贸易网络",
+      "殖民史",
+      "年鉴学派"
+    ],
+    "description": "本书跳出“原产地神话”与英雄叙事，以年鉴学派长时段和全球史视角，追溯茶在一千二百年间如何被权力、贸易与审美反复重新发明。从陆羽《茶经》将野饮制度化，到马背上的边防财政；从广州十三行的白银漩涡，到阿萨姆种植园抹平风土的标准化生产。作者强调地理迁移与制度重构的互动，指出茶的每一次意义赋予——药、贡、商品或民族符号——都是社会制度的重写。全书严守非虚构边界，对争议性因果保持审慎，呈现一张由贸易之手串联、互不知情的再发明之网。",
+    "chapterCount": 15,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 88,
+      "staleScore": 88,
+      "reportId": "br_f60fd5cd5367879d",
+      "createdAt": "2026-07-27T02:00:42.298Z",
+      "manuscriptVersionId": "mv_5ca280d23d283f31"
+    },
+    "coverUrl": "books/proj-mqm5vwh5ec8/releases/rel_20260819052420069_df6ede8c7b/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mqm5vwh5ec8/index.html",
+    "publishedAt": "2026-08-19T05:24:20.071Z",
+    "firstPublishedAt": "2026-08-16T16:48:57.270Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-msxxzxendwi",
     "projectId": "proj-msxxzxendwi",
     "releaseId": "rel_20260819052405096_8573087ecc",
@@ -287,40 +321,6 @@
     "url": "books/proj-mqky4k6bq07/index.html",
     "publishedAt": "2026-08-18T03:37:03.000Z",
     "firstPublishedAt": "2026-08-16T16:48:57.353Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqm5vwh5ec8",
-    "projectId": "proj-mqm5vwh5ec8",
-    "releaseId": "rel_20260818033702910_b510ed6114",
-    "title": "茶：一片叶子的全球史",
-    "subtitle": "从唐贡品到殖民作物，一片叶子的十二次社会重写",
-    "authorDisplayName": "李思特Think",
-    "category": "文化史",
-    "tags": [
-      "全球史",
-      "茶史",
-      "物质文化",
-      "贸易网络",
-      "殖民史",
-      "年鉴学派"
-    ],
-    "description": "本书跳出“原产地神话”与英雄叙事，以年鉴学派长时段和全球史视角，追溯茶在一千二百年间如何被权力、贸易与审美反复重新发明。从陆羽《茶经》将野饮制度化，到马背上的边防财政；从广州十三行的白银漩涡，到阿萨姆种植园抹平风土的标准化生产。作者强调地理迁移与制度重构的互动，指出茶的每一次意义赋予——药、贡、商品或民族符号——都是社会制度的重写。全书严守非虚构边界，对争议性因果保持审慎，呈现一张由贸易之手串联、互不知情的再发明之网。",
-    "chapterCount": 15,
-    "editorialScore": {
-      "current": false,
-      "source": "rules",
-      "score": 88,
-      "staleScore": 88,
-      "reportId": "br_f60fd5cd5367879d",
-      "createdAt": "2026-07-27T02:00:42.298Z",
-      "manuscriptVersionId": "mv_5ca280d23d283f31"
-    },
-    "coverUrl": "books/proj-mqm5vwh5ec8/releases/rel_20260818033702910_b510ed6114/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mqm5vwh5ec8/index.html",
-    "publishedAt": "2026-08-18T03:37:02.912Z",
-    "firstPublishedAt": "2026-08-16T16:48:57.270Z",
     "visibility": "public"
   },
   {
