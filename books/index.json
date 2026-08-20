@@ -1,5 +1,35 @@
 [
   {
+    "id": "proj-mszulue3wxs",
+    "projectId": "proj-mszulue3wxs",
+    "releaseId": "rel_20260820114312394_239f36461c",
+    "title": "不可变的共识：Clojure社区如何塑造一门语言",
+    "subtitle": "",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "科技史",
+    "tags": [
+      "技术史",
+      "编程",
+      "Clojure",
+      "非虚构"
+    ],
+    "description": "核心问题：没有大厂背书，Clojure靠什么活过十五年？核心论点：其生命力不在语法而在共识机制——邮件列表、会议与库生态构成了隐形宪法。范围：2008年首个邮件列表至2024年Clojurists Together资助模式成熟。主要矛盾：精英治理与开放参与、稳定性与创新冲动。写作重点：以三次重大争议事件为锚点还原决策现场。",
+    "chapterCount": 19,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-08-20T10:38:39.903Z"
+    },
+    "coverUrl": "books/proj-mszulue3wxs/releases/rel_20260820114312394_239f36461c/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mszulue3wxs/index.html",
+    "publishedAt": "2026-08-20T11:43:12.481Z",
+    "firstPublishedAt": "2026-08-20T00:47:41.727Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mszoez41rzf",
     "projectId": "proj-mszoez41rzf",
     "releaseId": "rel_20260820114243025_cef49528ab",
@@ -154,36 +184,6 @@
     "url": "books/proj-mszom1b4zan/index.html",
     "publishedAt": "2026-08-20T02:21:37.639Z",
     "firstPublishedAt": "2026-08-20T02:21:37.639Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mszulue3wxs",
-    "projectId": "proj-mszulue3wxs",
-    "releaseId": "rel_20260820004741723_57121080a4",
-    "title": "不可变的共识：Clojure社区如何塑造一门语言",
-    "subtitle": "",
-    "authorDisplayName": "哈里·谢顿",
-    "category": "科技史",
-    "tags": [
-      "技术史",
-      "编程",
-      "Clojure",
-      "非虚构"
-    ],
-    "description": "核心问题：没有大厂背书，Clojure靠什么活过十五年？核心论点：其生命力不在语法而在共识机制——邮件列表、会议与库生态构成了隐形宪法。范围：2008年首个邮件列表至2024年Clojurists Together资助模式成熟。主要矛盾：精英治理与开放参与、稳定性与创新冲动。写作重点：以三次重大争议事件为锚点还原决策现场。",
-    "chapterCount": 19,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-2",
-      "createdAt": "2026-08-19T11:41:16.441Z"
-    },
-    "coverUrl": "books/proj-mszulue3wxs/releases/rel_20260820004741723_57121080a4/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mszulue3wxs/index.html",
-    "publishedAt": "2026-08-20T00:47:41.727Z",
-    "firstPublishedAt": "2026-08-20T00:47:41.727Z",
     "visibility": "public"
   },
   {
