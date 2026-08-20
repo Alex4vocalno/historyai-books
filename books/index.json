@@ -1,5 +1,37 @@
 [
   {
+    "id": "proj-mszoez41rzf",
+    "projectId": "proj-mszoez41rzf",
+    "releaseId": "rel_20260820114243025_cef49528ab",
+    "title": "SAP与Oracle的ERP争霸",
+    "subtitle": "欧洲工程理性与美国资本扩张的三十年软件战争",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "科技史",
+    "tags": [
+      "企业软件",
+      "ERP",
+      "SAP",
+      "甲骨文",
+      "商业竞争",
+      "并购史"
+    ],
+    "description": "这是一部跨越半个世纪的企业软件双雄对决。1972年，五名德国工程师离开IBM，在曼海姆创立SAP，以近乎偏执的标准化理念打造R/2与R/3系统，将欧洲的工程理性注入全球企业的管理血脉。同一时期，拉里·埃里森正将甲骨文从数据库公司锻造成一台并购机器，用美国式的资本扩张吞噬仁科、希柏等对手，试图以硬件与云的组合拳击穿对手的防线。本书以19个关键节点为切片，从产品发布、客户争夺到百亿级并购，拆解这场竞争底层的三组张力：标准化产品与定制化需求、有机增长与并购扩张、欧洲稳健治理与美国激进资本。当云ERP的格局在2023年基本定型，这场三十年的争霸留下的不仅是两家万亿级企业，更是两种企业软件范式的完整演化史。",
+    "chapterCount": 19,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-08-20T10:52:33.264Z"
+    },
+    "coverUrl": "books/proj-mszoez41rzf/releases/rel_20260820114243025_cef49528ab/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mszoez41rzf/index.html",
+    "publishedAt": "2026-08-20T11:42:43.084Z",
+    "firstPublishedAt": "2026-08-20T00:15:15.938Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mqf7mzrmntl",
     "projectId": "proj-mqf7mzrmntl",
     "releaseId": "rel_20260820085540302_ba3511544f",
@@ -152,38 +184,6 @@
     "url": "books/proj-mszulue3wxs/index.html",
     "publishedAt": "2026-08-20T00:47:41.727Z",
     "firstPublishedAt": "2026-08-20T00:47:41.727Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mszoez41rzf",
-    "projectId": "proj-mszoez41rzf",
-    "releaseId": "rel_20260820003900624_cef49528ab",
-    "title": "SAP与Oracle的ERP争霸",
-    "subtitle": "欧洲工程理性与美国资本扩张的三十年软件战争",
-    "authorDisplayName": "哈里·谢顿",
-    "category": "科技史",
-    "tags": [
-      "企业软件",
-      "ERP",
-      "SAP",
-      "甲骨文",
-      "商业竞争",
-      "并购史"
-    ],
-    "description": "这是一部跨越半个世纪的企业软件双雄对决。1972年，五名德国工程师离开IBM，在曼海姆创立SAP，以近乎偏执的标准化理念打造R/2与R/3系统，将欧洲的工程理性注入全球企业的管理血脉。同一时期，拉里·埃里森正将甲骨文从数据库公司锻造成一台并购机器，用美国式的资本扩张吞噬仁科、希柏等对手，试图以硬件与云的组合拳击穿对手的防线。本书以19个关键节点为切片，从产品发布、客户争夺到百亿级并购，拆解这场竞争底层的三组张力：标准化产品与定制化需求、有机增长与并购扩张、欧洲稳健治理与美国激进资本。当云ERP的格局在2023年基本定型，这场三十年的争霸留下的不仅是两家万亿级企业，更是两种企业软件范式的完整演化史。",
-    "chapterCount": 19,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 78,
-      "method": "median-of-3",
-      "createdAt": "2026-08-19T10:08:15.911Z"
-    },
-    "coverUrl": "books/proj-mszoez41rzf/releases/rel_20260820003900624_cef49528ab/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mszoez41rzf/index.html",
-    "publishedAt": "2026-08-20T00:39:00.626Z",
-    "firstPublishedAt": "2026-08-20T00:15:15.938Z",
     "visibility": "public"
   },
   {
