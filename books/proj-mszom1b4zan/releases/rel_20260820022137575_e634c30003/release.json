@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260820022137575_e634c30003",
+  "projectId": "proj-mszom1b4zan",
+  "manuscriptVersionId": "mv_a9c1cc3cf7c59966",
+  "contentHash": "a9c1cc3cf7c5996620ee5a610b0151205d323b6194b216bc705784fe75b61fe0",
+  "title": "银的重量：一两白银里的中国日常",
+  "subtitle": "一两白银里的中国日常",
+  "authorDisplayName": "半两先生",
+  "description": "一两银子有多重？在明清至民国的普通人手中，它可能是婚嫁时红纸包裹的一枚银锭，是粮柜前反复称量的碎银，是手腕上随身体劳作的银镯，也是契约上一笔永远算不清的账。本书从砝码、银锭、账本、银鞘等具体器物出发，每章以一个真实人物或家庭账本开场，还原白银如何嵌入赋税缴纳、婚姻缔结、债务清偿的日常肌理。作者聚焦官方计量与民间习惯的持久角力，揭示银钱比价波动如何直接转化为百姓的生存痛感。当废两改元试图终结称量货币时代，断裂的不只是货币制度，更是千年以来以银为媒的社会关系网络。这不是一部宏观货币史，而是一部从秤杆上读出的中国社会微观史。",
+  "category": "中国史",
+  "tags": [
+    "白银货币",
+    "明清社会",
+    "日常生活史",
+    "经济人类学",
+    "物质文化"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 10,
+    "units": 260180,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-20T02:10:11.781Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-20T02:18:57.252Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "砝码上的王朝",
+      "units": 17092
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "银锭的旅程",
+      "units": 27651
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "红纸包里的承诺",
+      "units": 25370
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "粮柜上的银钱",
+      "units": 24534
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "银镯里的身体",
+      "units": 24956
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "纸上的银两",
+      "units": 29851
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "柜台内外的秤",
+      "units": 24284
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "银鞘里的权力",
+      "units": 23646
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "废两改元的断裂",
+      "units": 29755
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "银子的余温",
+      "units": 33041
+    }
+  ],
+  "publishedAt": "2026-08-20T02:21:37.639Z"
+}
