@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260820053212669_2cf355fc7b",
+  "projectId": "proj-mt0tb2gw8dj",
+  "manuscriptVersionId": "mv_5d3f3bb9f5643cd1",
+  "contentHash": "5d3f3bb9f5643cd121f8eb44a4147b60e20f56c88cba3b428d182e866c838ad7",
+  "title": "谁买单，谁就拥有真相",
+  "subtitle": "审计独立性的三百年困局",
+  "authorDisplayName": "八月的风",
+  "description": "为什么审计报告总是由被审计方买单？从南海泡沫到瑞幸事件，本书追踪三百年间关键审计失败案例，揭示付费模式如何埋下利益冲突的种子。作者以原始文件还原决策现场，剖析市场自律的幻想与监管干预的现实，追问短期成本与长期信任之间的根本矛盾。每一桩丑闻都指向同一个问题：当买单者决定真相，审计还能否守护公众利益？",
+  "category": "中国史",
+  "tags": [
+    "审计",
+    "财务舞弊",
+    "公司治理",
+    "金融史",
+    "监管"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 13,
+    "units": 120496,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-20T03:21:44.616Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-20T05:29:51.439Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "账本里的血：南海泡沫前的审计基因",
+      "units": 7654
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "泡沫的解剖刀：1720年南海公司查账事件",
+      "units": 8386
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "论断：19世纪铁路狂潮及其后的公司立法",
+      "units": 11864
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "克拉伦斯·哈特里的拼图：麦克森-罗宾斯案引爆信任危机",
+      "units": 8450
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "论断：麦克森-罗宾斯案后",
+      "units": 10638
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "论断：1960年代末的大陆售货机公司丑闻",
+      "units": 9129
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "审计师的旋转门",
+      "units": 10222
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "废墟上的签字",
+      "units": 8877
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "国会山的囚徒困境",
+      "units": 8403
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "安达信的绞索",
+      "units": 8365
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "法案的边界",
+      "units": 10198
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "东方的回响",
+      "units": 9864
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "付费者的影子",
+      "units": 8446
+    }
+  ],
+  "publishedAt": "2026-08-20T05:32:12.677Z"
+}
