@@ -2432,24 +2432,45 @@ var qrcode = function() {
     // ── 金句（居中，自适应字号，保证完整） ──
     var bandTop = H - 262;
     var areaTop = y + 60, areaH = bandTop - 60 - areaTop;
-    var qText = String(currentQuote || '');
+    // v4.83 段落继承（用户反馈：选段被挤成一坨）：保留原文换行，段间留空
+    var paraTexts = String(currentQuote || '').split(/\n+/).map(function (t) { return t.trim(); }).filter(Boolean);
+    if (!paraTexts.length) paraTexts = [''];
     var sizes = [ [54, 94], [48, 84], [42, 74], [36, 64] ];
-    var lines = [], lh = 84, fs = 48;
+    var paraLines = [], lh = 84, fs = 48, gap = 0, totalH = 0;
     for (var si = 0; si < sizes.length; si++) {
-      fs = sizes[si][0]; lh = sizes[si][1];
+      fs = sizes[si][0]; lh = sizes[si][1]; gap = Math.round(lh * 0.55);
       ctx.font = fs + 'px ' + serif;
-      lines = wrapText(ctx, qText, W - 280);
-      if (lines.length * lh <= areaH - 90) break;
+      paraLines = paraTexts.map(function (t) { return wrapText(ctx, t, W - 280); });
+      var n = 0;
+      for (var pi = 0; pi < paraLines.length; pi++) n += paraLines[pi].length;
+      totalH = n * lh + (paraLines.length - 1) * gap;
+      if (totalH <= areaH - 90) break;
     }
-    var maxLines = Math.max(3, Math.floor((areaH - 90) / lh));
-    if (lines.length > maxLines) { lines = lines.slice(0, maxLines); lines[maxLines - 1] += '…'; }
-    var q0 = areaTop + Math.max(0, (areaH - lines.length * lh) / 2) + 50;
+    // 超限截断：从末段开始砍行
+    var budget = Math.max(3, Math.floor((areaH - 90 - (paraLines.length - 1) * gap) / lh));
+    var count = paraLines.reduce(function (a, l) { return a + l.length; }, 0);
+    while (count > budget && paraLines.length) {
+      var lastP = paraLines[paraLines.length - 1];
+      lastP.pop();
+      if (!lastP.length) { paraLines.pop(); }
+      count--;
+    }
+    if (paraLines.length) {
+      var lp = paraLines[paraLines.length - 1];
+      if (lp.length && count < paraTexts.join('').length / 8) lp[lp.length - 1] += '…';
+    }
+    totalH = count * lh + (paraLines.length - 1) * gap;
+    var q0 = areaTop + Math.max(0, (areaH - totalH) / 2) + 50;
     ctx.fillStyle = 'rgba(168,135,63,.85)';
     ctx.font = '700 120px ' + serif;
     ctx.fillText('\u201c', W / 2, q0 - 34);
     ctx.fillStyle = INK;
     ctx.font = fs + 'px ' + serif;
-    for (var i = 0; i < lines.length; i++) ctx.fillText(lines[i], W / 2, q0 + 60 + i * lh);
+    var qy0 = q0 + 60;
+    for (var p2 = 0; p2 < paraLines.length; p2++) {
+      for (var li = 0; li < paraLines[p2].length; li++) { ctx.fillText(paraLines[p2][li], W / 2, qy0); qy0 += lh; }
+      qy0 += gap;
+    }
     // ── 底部深色带：只留二维码与引导语，不放网址 ──
     ctx.fillStyle = DARK;
     ctx.fillRect(58, bandTop, W - 116, H - 58 - bandTop);
