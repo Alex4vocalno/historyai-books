@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260820001515937_48ced1e77b",
+  "projectId": "proj-mszoez41rzf",
+  "manuscriptVersionId": "mv_3b7682c37f9f1b9e",
+  "contentHash": "3b7682c37f9f1b9ee0d7a67ed1820dde0540dff285b047f8bc9337c423b1d32c",
+  "title": "SAP与Oracle的ERP争霸",
+  "subtitle": "",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "核心问题：SAP与Oracle如何在ERP领域展开长达三十年的双雄争霸？核心论点：这场竞争本质是欧洲工程理性与美国资本扩张两种企业软件范式的碰撞，其胜负手不在技术本身而在生态构建与并购整合能力。范围：1972年SAP创立至2023年云ERP格局定型。主要矛盾：标准化产品与定制化需求、有机增长与并购扩张、欧洲稳健治理与美国激进资本三组张力。写作重点：每章以一次关键产品发布、并购或客户争夺战开场，数据落到营收、市场份额与企业客户数上。",
+  "category": "中国史",
+  "tags": [
+    "中国史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 182654,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-3",
+    "createdAt": "2026-08-19T10:08:15.911Z"
+  },
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "五名工程师的告别",
+      "units": 8393
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "数据库的野心",
+      "units": 8737
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "R/2与标准化的代价",
+      "units": 9020
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "上市与并购开关",
+      "units": 10549
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "R/3与客户机浪潮",
+      "units": 8318
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "仁科与并购的诱惑",
+      "units": 8174
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "法兰克福上市与双重标准",
+      "units": 9590
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "埃里森的铁锤",
+      "units": 8230
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "R/3的全球征服",
+      "units": 8411
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "拉里的反击",
+      "units": 7785
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "哈索的平台",
+      "units": 14599
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "云时代的序曲",
+      "units": 13141
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "双头并购的岔路口",
+      "units": 7464
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "危机中的压力测试",
+      "units": 10215
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "甲骨文的硬件赌注",
+      "units": 10189
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "云转型的剑锋",
+      "units": 9863
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "三十年的遗产",
+      "units": 9686
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "未尽的终局",
+      "units": 8983
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "双轨的尽头",
+      "units": 11307
+    }
+  ],
+  "publishedAt": "2026-08-20T00:15:15.938Z"
+}
