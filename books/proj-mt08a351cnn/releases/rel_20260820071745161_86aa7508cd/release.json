@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260820071745161_86aa7508cd",
+  "projectId": "proj-mt08a351cnn",
+  "manuscriptVersionId": "mv_47ca320eed5047fb",
+  "contentHash": "47ca320eed5047fbbb5aab0bab151cfa20a671ccfa8307db2be35481e3ca3bb8",
+  "title": "万佛归宗：佛教流派的分化",
+  "subtitle": "",
+  "authorDisplayName": "心安处是故乡",
+  "description": "核心问题：佛教在传播中为何必然分化？各流派如何体现本地化逻辑？核心论点：流派分化不是教义堕落，而是佛教适应不同文明生态的制度创新；每个分支都是对'佛到底讲了什么'的一次在地回答。范围：从部派分裂到禅净密等宗派定型，兼及近现代转型。主要矛盾：正统与异端、文本权威与实践变通、中心与边缘。写作重点：以具体人物、译场、寺院或争议事件为单元，还原分化发生的现场条件与后世影响。",
+  "category": "中国史",
+  "tags": [
+    "中国史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 210973,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-08-20T06:42:54.170Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-20T04:56:18.029Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "王舍城外那声罄响",
+      "units": 8352
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "帝国的供养",
+      "units": 7865
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "石经未刻之前",
+      "units": 7485
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "格义者的困境",
+      "units": 10685
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "鸠摩罗什的苦",
+      "units": 7960
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "寺院里的账本",
+      "units": 8034
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "行脚僧的生存手册",
+      "units": 7424
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "木鱼声里的时间",
+      "units": 7521
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "斋堂里的身体",
+      "units": 8288
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "禅凳上的沉默",
+      "units": 10125
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "写经生的笔锋",
+      "units": 8060
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "变文声里的佛",
+      "units": 8997
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "入塔观像",
+      "units": 8916
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "梵呗入钟",
+      "units": 8368
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "塔的变形记",
+      "units": 8338
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "官寺里的人",
+      "units": 7820
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "袈裟里外",
+      "units": 8440
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "密教入唐",
+      "units": 8354
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "不立文字的文字",
+      "units": 9361
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "论断：唐宋之际佛教的最大焦虑",
+      "units": 8382
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "宝卷翻开的时候",
+      "units": 9495
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "庙产兴学的一声锣",
+      "units": 8339
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "太虚的“人间”实验",
+      "units": 7662
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "佛牙舍利巡礼",
+      "units": 8489
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "山门外，皆是道场",
+      "units": 8213
+    }
+  ],
+  "publishedAt": "2026-08-20T07:17:45.175Z"
+}
