@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mqf7mzrmntl",
+    "projectId": "proj-mqf7mzrmntl",
+    "releaseId": "rel_20260820005607819_ba3511544f",
+    "title": "淝水之战",
+    "subtitle": "一场乏味决战与帝国结构的崩塌",
+    "authorDisplayName": "李思特Think",
+    "category": "战争史",
+    "tags": [
+      "淝水之战",
+      "魏晋南北朝",
+      "军事史",
+      "政治结构",
+      "前秦",
+      "东晋"
+    ],
+    "description": "本书聚焦淝水之战，超越传统以少胜多的传奇叙事，深入剖析前秦与东晋两大政权的结构性困境。从建康暗流到关中裂痕，从太极殿的决策到淝水畔的阵动，作者细致还原战役全程，并指出这场决战实则乏味，其真正意义在于战后帝国的迅速碎裂与北方再裂。全书以二十章篇幅，将军事行动置于政治与社会结构之中考察，揭示胜负背后的深层逻辑。适合对中国中古史、战争史及政治结构演变感兴趣的普通读者，提供理解乱世转折的全新视角。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "rules",
+      "score": 91,
+      "staleScore": 91,
+      "reportId": "br_6517418fcc479fd9",
+      "createdAt": "2026-07-27T02:00:41.745Z",
+      "manuscriptVersionId": "mv_1da0e957c01393f3"
+    },
+    "coverUrl": "books/proj-mqf7mzrmntl/releases/rel_20260820005607819_ba3511544f/cover.jpg",
+    "coverTextless": true,
+    "url": "books/proj-mqf7mzrmntl/index.html",
+    "publishedAt": "2026-08-20T00:56:07.821Z",
+    "firstPublishedAt": "2026-08-16T16:48:57.970Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mszulue3wxs",
     "projectId": "proj-mszulue3wxs",
     "releaseId": "rel_20260820004741723_57121080a4",
@@ -88,40 +122,6 @@
     "url": "books/proj-msznq1r68ub/index.html",
     "publishedAt": "2026-08-20T00:36:18.837Z",
     "firstPublishedAt": "2026-08-20T00:36:18.837Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mqf7mzrmntl",
-    "projectId": "proj-mqf7mzrmntl",
-    "releaseId": "rel_20260820000625385_ba3511544f",
-    "title": "淝水之战",
-    "subtitle": "一场乏味决战与帝国结构的崩塌",
-    "authorDisplayName": "李思特Think",
-    "category": "战争史",
-    "tags": [
-      "淝水之战",
-      "魏晋南北朝",
-      "军事史",
-      "政治结构",
-      "前秦",
-      "东晋"
-    ],
-    "description": "本书聚焦淝水之战，超越传统以少胜多的传奇叙事，深入剖析前秦与东晋两大政权的结构性困境。从建康暗流到关中裂痕，从太极殿的决策到淝水畔的阵动，作者细致还原战役全程，并指出这场决战实则乏味，其真正意义在于战后帝国的迅速碎裂与北方再裂。全书以二十章篇幅，将军事行动置于政治与社会结构之中考察，揭示胜负背后的深层逻辑。适合对中国中古史、战争史及政治结构演变感兴趣的普通读者，提供理解乱世转折的全新视角。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "rules",
-      "score": 91,
-      "staleScore": 91,
-      "reportId": "br_6517418fcc479fd9",
-      "createdAt": "2026-07-27T02:00:41.745Z",
-      "manuscriptVersionId": "mv_1da0e957c01393f3"
-    },
-    "coverUrl": "books/proj-mqf7mzrmntl/releases/rel_20260820000625385_ba3511544f/cover.jpg",
-    "coverTextless": true,
-    "url": "books/proj-mqf7mzrmntl/index.html",
-    "publishedAt": "2026-08-20T00:06:25.388Z",
-    "firstPublishedAt": "2026-08-16T16:48:57.970Z",
     "visibility": "public"
   },
   {
