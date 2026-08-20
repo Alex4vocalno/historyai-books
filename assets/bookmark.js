@@ -2376,79 +2376,97 @@ var qrcode = function() {
     var ctx = c.getContext('2d');
     var serif = '"Songti SC","Noto Serif SC",Georgia,serif';
     var sans = '-apple-system,"PingFang SC",sans-serif';
-    var INK = '#242a26', MUTED = '#8b8578', ACCENT = '#0a9b6d', PAPER = '#f7f3e9';
-    // 纸面 + 顶部色带
+    var INK = '#2b2620', MUTED = '#8a8172', GOLD = '#a8873f', PAPER = '#f6efe2', DARK = '#152420';
+    // 纸面 + 晕影
     ctx.fillStyle = PAPER; ctx.fillRect(0, 0, W, H);
-    ctx.fillStyle = '#123a2e';
-    ctx.fillRect(0, 0, W, 148);
-    ctx.fillStyle = 'rgba(247,243,233,.92)';
-    ctx.font = '600 30px ' + sans;
+    var vg = ctx.createRadialGradient(W / 2, H / 2, H * 0.28, W / 2, H / 2, H * 0.75);
+    vg.addColorStop(0, 'rgba(60,45,20,0)');
+    vg.addColorStop(1, 'rgba(60,45,20,.10)');
+    ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
+    // 双细金框
+    ctx.strokeStyle = 'rgba(168,135,63,.75)'; ctx.lineWidth = 3;
+    ctx.strokeRect(42, 42, W - 84, H - 84);
+    ctx.strokeStyle = 'rgba(168,135,63,.35)'; ctx.lineWidth = 1.5;
+    ctx.strokeRect(58, 58, W - 116, H - 116);
+    // 品牌小字
     ctx.textAlign = 'center';
-    ctx.fillText('E V O R O N   A I   书 城', W / 2, 90);
-    // 细框
-    ctx.strokeStyle = 'rgba(120,104,70,.28)'; ctx.lineWidth = 2;
-    ctx.strokeRect(64, 212, W - 128, H - 420);
-    // ── 书头：小封面 + 书名/作者 ──
-    var headX = 128, headY = 300;
+    ctx.fillStyle = GOLD;
+    ctx.font = '600 27px ' + sans;
+    ctx.fillText('E V O R O N   A I   书 城', W / 2, 146);
+    // ── 封面（居中） ──
+    var y = 210;
     if (cover) {
-      var cw = 172, ch = 258;
+      var cw = 158, chh = 237, cx = (W - cw) / 2;
       ctx.save();
-      ctx.shadowColor = 'rgba(30,24,10,.35)'; ctx.shadowBlur = 26; ctx.shadowOffsetY = 10;
-      roundRect(ctx, headX, headY, cw, ch, 10); ctx.fillStyle = '#ddd'; ctx.fill();
+      ctx.shadowColor = 'rgba(40,28,8,.4)'; ctx.shadowBlur = 30; ctx.shadowOffsetY = 12;
+      roundRect(ctx, cx, y, cw, chh, 8); ctx.fillStyle = '#e4dccb'; ctx.fill();
       ctx.restore();
       ctx.save();
-      roundRect(ctx, headX, headY, cw, ch, 10); ctx.clip();
-      var scale = Math.max(cw / cover.width, ch / cover.height);
-      ctx.drawImage(cover, headX + (cw - cover.width * scale) / 2, headY + (ch - cover.height * scale) / 2, cover.width * scale, cover.height * scale);
+      roundRect(ctx, cx, y, cw, chh, 8); ctx.clip();
+      var sc = Math.max(cw / cover.width, chh / cover.height);
+      ctx.drawImage(cover, cx + (cw - cover.width * sc) / 2, y + (chh - cover.height * sc) / 2, cover.width * sc, cover.height * sc);
       ctx.restore();
+      ctx.strokeStyle = 'rgba(168,135,63,.5)'; ctx.lineWidth = 1.5;
+      roundRect(ctx, cx, y, cw, chh, 8); ctx.stroke();
+      y += chh + 78;
+    } else {
+      y += 60;
     }
-    var textX = cover ? headX + 172 + 44 : headX;
-    var textW = W - textX - 128;
-    ctx.textAlign = 'left';
+    // ── 书名 / 作者（居中） ──
     ctx.fillStyle = INK;
-    ctx.font = '700 52px ' + serif;
-    var tLines = wrapText(ctx, String(data.title || ''), textW);
-    var ty = headY + 74;
-    for (var t = 0; t < Math.min(3, tLines.length); t++) { ctx.fillText(tLines[t], textX, ty); ty += 70; }
+    ctx.font = '700 54px ' + serif;
+    var tLines = wrapText(ctx, String(data.title || ''), W - 260);
+    if (tLines.length > 2) { tLines = tLines.slice(0, 2); tLines[1] += '…'; }
+    for (var t = 0; t < tLines.length; t++) { ctx.fillText(tLines[t], W / 2, y); y += 72; }
     if (data.author) {
-      ctx.fillStyle = MUTED; ctx.font = '32px ' + sans;
-      ctx.fillText(String(data.author), textX, ty + 4); ty += 40;
+      ctx.fillStyle = MUTED; ctx.font = '30px ' + sans;
+      ctx.fillText(String(data.author) + ' 著', W / 2, y + 8); y += 52;
     }
-    ctx.fillStyle = ACCENT;
-    ctx.fillRect(textX, ty + 18, 64, 5);
-    // ── 金句区 ──
-    var quoteTop = Math.max(headY + 258, ty) + 120;
-    ctx.fillStyle = 'rgba(10,155,109,.9)';
-    ctx.font = '700 150px ' + serif;
-    ctx.fillText('“', headX - 14, quoteTop + 40);
+    // 装饰分隔：细线 ◆ 细线
+    y += 44;
+    ctx.strokeStyle = 'rgba(168,135,63,.6)'; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(W / 2 - 190, y); ctx.lineTo(W / 2 - 34, y); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(W / 2 + 34, y); ctx.lineTo(W / 2 + 190, y); ctx.stroke();
+    ctx.fillStyle = GOLD; ctx.font = '22px ' + sans;
+    ctx.fillText('\u25c6', W / 2, y + 8);
+    // ── 金句（居中，自适应字号，保证完整） ──
+    var bandTop = H - 262;
+    var areaTop = y + 60, areaH = bandTop - 60 - areaTop;
+    var qText = String(currentQuote || '');
+    var sizes = [ [54, 94], [48, 84], [42, 74], [36, 64] ];
+    var lines = [], lh = 84, fs = 48;
+    for (var si = 0; si < sizes.length; si++) {
+      fs = sizes[si][0]; lh = sizes[si][1];
+      ctx.font = fs + 'px ' + serif;
+      lines = wrapText(ctx, qText, W - 280);
+      if (lines.length * lh <= areaH - 90) break;
+    }
+    var maxLines = Math.max(3, Math.floor((areaH - 90) / lh));
+    if (lines.length > maxLines) { lines = lines.slice(0, maxLines); lines[maxLines - 1] += '…'; }
+    var q0 = areaTop + Math.max(0, (areaH - lines.length * lh) / 2) + 50;
+    ctx.fillStyle = 'rgba(168,135,63,.85)';
+    ctx.font = '700 120px ' + serif;
+    ctx.fillText('\u201c', W / 2, q0 - 34);
     ctx.fillStyle = INK;
-    ctx.font = '48px ' + serif;
-    var maxW = W - 256;
-    var lines = wrapText(ctx, currentQuote, maxW);
-    if (lines.length > 10) { lines = lines.slice(0, 10); lines[9] += '…'; }
-    var lh = 84, qy = quoteTop + 130;
-    for (var i = 0; i < lines.length; i++) ctx.fillText(lines[i], headX, qy + i * lh);
-    // ── 底部：落款 + 小二维码 ──
-    var footTop = H - 300;
-    ctx.strokeStyle = 'rgba(120,104,70,.28)'; ctx.lineWidth = 2;
-    ctx.beginPath(); ctx.moveTo(96, footTop); ctx.lineTo(W - 96, footTop); ctx.stroke();
+    ctx.font = fs + 'px ' + serif;
+    for (var i = 0; i < lines.length; i++) ctx.fillText(lines[i], W / 2, q0 + 60 + i * lh);
+    // ── 底部深色带：只留二维码与引导语，不放网址 ──
+    ctx.fillStyle = DARK;
+    ctx.fillRect(58, bandTop, W - 116, H - 58 - bandTop);
     var url = bookUrl();
     var q = qrcode(0, 'M'); q.addData(url); q.make();
     var n = q.getModuleCount();
-    var qsize = 148, cell = qsize / n;
-    var qx = W - 128 - qsize, qy2 = footTop + 52;
+    var qsize = 136, cell = qsize / n;
+    var qx = W - 150 - qsize, qy2 = bandTop + Math.round((H - 58 - bandTop - qsize) / 2);
     ctx.fillStyle = '#fff';
-    roundRect(ctx, qx - 14, qy2 - 14, qsize + 28, qsize + 28, 12); ctx.fill();
-    ctx.strokeStyle = 'rgba(120,104,70,.25)'; ctx.lineWidth = 1.5;
-    roundRect(ctx, qx - 14, qy2 - 14, qsize + 28, qsize + 28, 12); ctx.stroke();
-    ctx.fillStyle = '#1c2320';
+    roundRect(ctx, qx - 12, qy2 - 12, qsize + 24, qsize + 24, 10); ctx.fill();
+    ctx.fillStyle = '#111';
     for (var r = 0; r < n; r++) for (var col = 0; col < n; col++) if (q.isDark(r, col)) ctx.fillRect(qx + col * cell, qy2 + r * cell, Math.ceil(cell), Math.ceil(cell));
     ctx.textAlign = 'left';
-    ctx.fillStyle = INK; ctx.font = '600 34px ' + sans;
-    ctx.fillText('扫码继续阅读这本书', 128, footTop + 96);
-    ctx.fillStyle = MUTED; ctx.font = '26px ' + sans;
-    ctx.fillText(url.replace(/^https?:\/\//, '').slice(0, 40), 128, footTop + 148);
-    ctx.fillText('EVORON AI 书城 · 每一位读者也是作者', 128, footTop + 196);
+    ctx.fillStyle = '#f2ead8'; ctx.font = '600 36px ' + sans;
+    ctx.fillText('扫码继续阅读全书', 150, bandTop + 104);
+    ctx.fillStyle = 'rgba(242,234,216,.62)'; ctx.font = '26px ' + sans;
+    ctx.fillText('EVORON AI 书城 · 每一位读者也是作者', 150, bandTop + 158);
     return c;
   }
 
@@ -2456,7 +2474,7 @@ var qrcode = function() {
     loadCover().then(function (cover) {
       var canvas;
       try { canvas = renderBookmark(cover); } catch (e) { return; }
-      var dataUrl = canvas.toDataURL('image/png');
+      var dataUrl = canvas.toDataURL('image/jpeg', 0.9);
       var wrap = document.createElement('div');
       wrap.style.cssText = 'position:fixed;inset:0;z-index:120;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:rgba(14,17,15,.82);padding:20px';
       var img = document.createElement('img');
@@ -2477,7 +2495,7 @@ var qrcode = function() {
       var save = btn('保存图片', true);
       save.onclick = function () {
         var a = document.createElement('a');
-        a.href = dataUrl; a.download = (data.title || '书签') + '-书签.png';
+        a.href = dataUrl; a.download = (data.title || '书签') + '-书签.jpg';
         document.body.appendChild(a); a.click(); a.remove();
       };
       var share = btn('分享', false);
@@ -2485,9 +2503,9 @@ var qrcode = function() {
         share.onclick = function () {
           canvas.toBlob(function (blob) {
             if (!blob) return;
-            var file = new File([blob], '书签.png', { type: 'image/png' });
+            var file = new File([blob], '书签.jpg', { type: 'image/jpeg' });
             if (navigator.canShare({ files: [file] })) navigator.share({ files: [file], title: data.title || '书签' }).catch(function () {});
-          });
+          }, 'image/jpeg', 0.9);
         };
       } else { share.style.display = 'none'; }
       var close = btn('关闭', false);
