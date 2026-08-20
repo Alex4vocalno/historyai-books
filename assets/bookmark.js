@@ -2350,110 +2350,154 @@ var qrcode = function() {
     catch (e) { return location.href; }
   }
 
-  function renderBookmark() {
+  function loadCover() {
+    return new Promise(function (resolve) {
+      var img = new Image();
+      img.onload = function () { resolve(img); };
+      img.onerror = function () { resolve(null); };
+      img.src = 'cover.jpg'; // 章节页与封面同目录；无封面书自然落到 onerror
+    });
+  }
+
+  function roundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  function renderBookmark(cover) {
     var W = 1080, H = 1920;
     var c = document.createElement('canvas');
     c.width = W; c.height = H;
     var ctx = c.getContext('2d');
     var serif = '"Songti SC","Noto Serif SC",Georgia,serif';
     var sans = '-apple-system,"PingFang SC",sans-serif';
-    // 纸面 + 框线
-    ctx.fillStyle = '#f6f1e6'; ctx.fillRect(0, 0, W, H);
-    ctx.strokeStyle = 'rgba(120,100,60,.35)'; ctx.lineWidth = 3;
-    ctx.strokeRect(54, 54, W - 108, H - 108);
-    ctx.strokeStyle = 'rgba(120,100,60,.18)'; ctx.lineWidth = 1;
-    ctx.strokeRect(70, 70, W - 140, H - 140);
-    // 顶部品牌
-    ctx.fillStyle = '#8a6f3c';
-    ctx.font = '600 34px ' + sans;
+    var INK = '#242a26', MUTED = '#8b8578', ACCENT = '#0a9b6d', PAPER = '#f7f3e9';
+    // 纸面 + 顶部色带
+    ctx.fillStyle = PAPER; ctx.fillRect(0, 0, W, H);
+    ctx.fillStyle = '#123a2e';
+    ctx.fillRect(0, 0, W, 148);
+    ctx.fillStyle = 'rgba(247,243,233,.92)';
+    ctx.font = '600 30px ' + sans;
     ctx.textAlign = 'center';
-    ctx.fillText('EVORON AI 书城', W / 2, 158);
-    // 引号饰
-    ctx.fillStyle = 'rgba(10,155,109,.85)';
-    ctx.font = '700 170px ' + serif;
-    ctx.fillText('“', W / 2, 400);
-    // 金句
-    ctx.fillStyle = '#2b2e2b';
-    ctx.font = '54px ' + serif;
-    var maxW = W - 260;
+    ctx.fillText('E V O R O N   A I   书 城', W / 2, 90);
+    // 细框
+    ctx.strokeStyle = 'rgba(120,104,70,.28)'; ctx.lineWidth = 2;
+    ctx.strokeRect(64, 212, W - 128, H - 420);
+    // ── 书头：小封面 + 书名/作者 ──
+    var headX = 128, headY = 300;
+    if (cover) {
+      var cw = 172, ch = 258;
+      ctx.save();
+      ctx.shadowColor = 'rgba(30,24,10,.35)'; ctx.shadowBlur = 26; ctx.shadowOffsetY = 10;
+      roundRect(ctx, headX, headY, cw, ch, 10); ctx.fillStyle = '#ddd'; ctx.fill();
+      ctx.restore();
+      ctx.save();
+      roundRect(ctx, headX, headY, cw, ch, 10); ctx.clip();
+      var scale = Math.max(cw / cover.width, ch / cover.height);
+      ctx.drawImage(cover, headX + (cw - cover.width * scale) / 2, headY + (ch - cover.height * scale) / 2, cover.width * scale, cover.height * scale);
+      ctx.restore();
+    }
+    var textX = cover ? headX + 172 + 44 : headX;
+    var textW = W - textX - 128;
+    ctx.textAlign = 'left';
+    ctx.fillStyle = INK;
+    ctx.font = '700 52px ' + serif;
+    var tLines = wrapText(ctx, String(data.title || ''), textW);
+    var ty = headY + 74;
+    for (var t = 0; t < Math.min(3, tLines.length); t++) { ctx.fillText(tLines[t], textX, ty); ty += 70; }
+    if (data.author) {
+      ctx.fillStyle = MUTED; ctx.font = '32px ' + sans;
+      ctx.fillText(String(data.author), textX, ty + 4); ty += 40;
+    }
+    ctx.fillStyle = ACCENT;
+    ctx.fillRect(textX, ty + 18, 64, 5);
+    // ── 金句区 ──
+    var quoteTop = Math.max(headY + 258, ty) + 120;
+    ctx.fillStyle = 'rgba(10,155,109,.9)';
+    ctx.font = '700 150px ' + serif;
+    ctx.fillText('“', headX - 14, quoteTop + 40);
+    ctx.fillStyle = INK;
+    ctx.font = '48px ' + serif;
+    var maxW = W - 256;
     var lines = wrapText(ctx, currentQuote, maxW);
-    if (lines.length > 12) { lines = lines.slice(0, 12); lines[11] += '…'; }
-    var lh = 88;
-    var startY = 520;
-    for (var i = 0; i < lines.length; i++) ctx.fillText(lines[i], W / 2, startY + i * lh);
-    var afterQuote = startY + lines.length * lh;
-    // 分隔
-    ctx.strokeStyle = 'rgba(120,100,60,.4)'; ctx.lineWidth = 2;
-    ctx.beginPath(); ctx.moveTo(W / 2 - 60, afterQuote + 40); ctx.lineTo(W / 2 + 60, afterQuote + 40); ctx.stroke();
-    // 书名 + 章
-    ctx.fillStyle = '#1e211f';
-    ctx.font = '700 58px ' + serif;
-    var titleLines = wrapText(ctx, '《' + String(data.title || '') + '》', maxW);
-    for (var t = 0; t < Math.min(2, titleLines.length); t++) ctx.fillText(titleLines[t], W / 2, afterQuote + 150 + t * 80);
-    ctx.fillStyle = '#6d6a5f';
-    ctx.font = '36px ' + sans;
-    if (data.author) ctx.fillText(String(data.author), W / 2, afterQuote + 150 + Math.min(2, titleLines.length) * 80 + 20);
-    // 二维码（书籍详情页）
+    if (lines.length > 10) { lines = lines.slice(0, 10); lines[9] += '…'; }
+    var lh = 84, qy = quoteTop + 130;
+    for (var i = 0; i < lines.length; i++) ctx.fillText(lines[i], headX, qy + i * lh);
+    // ── 底部：落款 + 小二维码 ──
+    var footTop = H - 300;
+    ctx.strokeStyle = 'rgba(120,104,70,.28)'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(96, footTop); ctx.lineTo(W - 96, footTop); ctx.stroke();
     var url = bookUrl();
     var q = qrcode(0, 'M'); q.addData(url); q.make();
     var n = q.getModuleCount();
-    var qsize = 300, cell = qsize / n;
-    var qx = (W - qsize) / 2, qy = H - 470;
-    ctx.fillStyle = '#fff'; ctx.fillRect(qx - 18, qy - 18, qsize + 36, qsize + 36);
-    ctx.fillStyle = '#1e211f';
-    for (var r = 0; r < n; r++) for (var col = 0; col < n; col++) if (q.isDark(r, col)) ctx.fillRect(qx + col * cell, qy + r * cell, Math.ceil(cell), Math.ceil(cell));
-    ctx.fillStyle = '#8a8676';
-    ctx.font = '30px ' + sans;
-    ctx.fillText('长按识别 · 继续阅读这本书', W / 2, qy + qsize + 78);
-    ctx.font = '26px ' + sans;
-    ctx.fillText(url.replace(/^https?:\/\//, ''), W / 2, qy + qsize + 122);
+    var qsize = 148, cell = qsize / n;
+    var qx = W - 128 - qsize, qy2 = footTop + 52;
+    ctx.fillStyle = '#fff';
+    roundRect(ctx, qx - 14, qy2 - 14, qsize + 28, qsize + 28, 12); ctx.fill();
+    ctx.strokeStyle = 'rgba(120,104,70,.25)'; ctx.lineWidth = 1.5;
+    roundRect(ctx, qx - 14, qy2 - 14, qsize + 28, qsize + 28, 12); ctx.stroke();
+    ctx.fillStyle = '#1c2320';
+    for (var r = 0; r < n; r++) for (var col = 0; col < n; col++) if (q.isDark(r, col)) ctx.fillRect(qx + col * cell, qy2 + r * cell, Math.ceil(cell), Math.ceil(cell));
+    ctx.textAlign = 'left';
+    ctx.fillStyle = INK; ctx.font = '600 34px ' + sans;
+    ctx.fillText('扫码继续阅读这本书', 128, footTop + 96);
+    ctx.fillStyle = MUTED; ctx.font = '26px ' + sans;
+    ctx.fillText(url.replace(/^https?:\/\//, '').slice(0, 40), 128, footTop + 148);
+    ctx.fillText('EVORON AI 书城 · 每一位读者也是作者', 128, footTop + 196);
     return c;
   }
 
   function openOverlay() {
-    var canvas;
-    try { canvas = renderBookmark(); } catch (e) { return; }
-    var dataUrl = canvas.toDataURL('image/png');
-    var wrap = document.createElement('div');
-    wrap.style.cssText = 'position:fixed;inset:0;z-index:120;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:rgba(14,17,15,.82);padding:20px';
-    var img = document.createElement('img');
-    img.src = dataUrl;
-    img.alt = '书签';
-    img.style.cssText = 'max-height:70vh;max-width:88vw;border-radius:10px;box-shadow:0 24px 70px rgba(0,0,0,.5)';
-    var hint = document.createElement('p');
-    hint.textContent = '手机可长按图片保存到相册';
-    hint.style.cssText = 'margin:0;color:#cfd6d1;font:13px -apple-system,"PingFang SC",sans-serif';
-    var row = document.createElement('div');
-    row.style.cssText = 'display:flex;gap:12px';
-    function btn(label, primary) {
-      var b = document.createElement('button');
-      b.type = 'button'; b.textContent = label;
-      b.style.cssText = 'min-height:42px;padding:0 20px;border:0;border-radius:21px;font:14px -apple-system,"PingFang SC",sans-serif;font-weight:700;cursor:pointer;' + (primary ? 'background:#0a9b6d;color:#fff' : 'background:rgba(255,255,255,.14);color:#fff');
-      return b;
-    }
-    var save = btn('保存图片', true);
-    save.onclick = function () {
-      var a = document.createElement('a');
-      a.href = dataUrl; a.download = (data.title || '书签') + '-书签.png';
-      document.body.appendChild(a); a.click(); a.remove();
-    };
-    var share = btn('分享', false);
-    if (navigator.share && navigator.canShare) {
-      share.onclick = function () {
-        canvas.toBlob(function (blob) {
-          if (!blob) return;
-          var file = new File([blob], '书签.png', { type: 'image/png' });
-          if (navigator.canShare({ files: [file] })) navigator.share({ files: [file], title: data.title || '书签' }).catch(function () {});
-        });
+    loadCover().then(function (cover) {
+      var canvas;
+      try { canvas = renderBookmark(cover); } catch (e) { return; }
+      var dataUrl = canvas.toDataURL('image/png');
+      var wrap = document.createElement('div');
+      wrap.style.cssText = 'position:fixed;inset:0;z-index:120;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:rgba(14,17,15,.82);padding:20px';
+      var img = document.createElement('img');
+      img.src = dataUrl;
+      img.alt = '书签';
+      img.style.cssText = 'max-height:70vh;max-width:88vw;border-radius:10px;box-shadow:0 24px 70px rgba(0,0,0,.5)';
+      var hint = document.createElement('p');
+      hint.textContent = '手机可长按图片保存到相册';
+      hint.style.cssText = 'margin:0;color:#cfd6d1;font:13px -apple-system,"PingFang SC",sans-serif';
+      var row = document.createElement('div');
+      row.style.cssText = 'display:flex;gap:12px';
+      function btn(label, primary) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.textContent = label;
+        b.style.cssText = 'min-height:42px;padding:0 20px;border:0;border-radius:21px;font:14px -apple-system,"PingFang SC",sans-serif;font-weight:700;cursor:pointer;' + (primary ? 'background:#0a9b6d;color:#fff' : 'background:rgba(255,255,255,.14);color:#fff');
+        return b;
+      }
+      var save = btn('保存图片', true);
+      save.onclick = function () {
+        var a = document.createElement('a');
+        a.href = dataUrl; a.download = (data.title || '书签') + '-书签.png';
+        document.body.appendChild(a); a.click(); a.remove();
       };
-    } else { share.style.display = 'none'; }
-    var close = btn('关闭', false);
-    close.onclick = function () { wrap.remove(); };
-    wrap.addEventListener('click', function (e) { if (e.target === wrap) wrap.remove(); });
-    row.appendChild(save); row.appendChild(share); row.appendChild(close);
-    wrap.appendChild(img); wrap.appendChild(hint); wrap.appendChild(row);
-    document.body.appendChild(wrap);
-    fab.style.display = 'none';
+      var share = btn('分享', false);
+      if (navigator.share && navigator.canShare) {
+        share.onclick = function () {
+          canvas.toBlob(function (blob) {
+            if (!blob) return;
+            var file = new File([blob], '书签.png', { type: 'image/png' });
+            if (navigator.canShare({ files: [file] })) navigator.share({ files: [file], title: data.title || '书签' }).catch(function () {});
+          });
+        };
+      } else { share.style.display = 'none'; }
+      var close = btn('关闭', false);
+      close.onclick = function () { wrap.remove(); };
+      wrap.addEventListener('click', function (e) { if (e.target === wrap) wrap.remove(); });
+      row.appendChild(save); row.appendChild(share); row.appendChild(close);
+      wrap.appendChild(img); wrap.appendChild(hint); wrap.appendChild(row);
+      document.body.appendChild(wrap);
+      fab.style.display = 'none';
+    });
   }
   fab.addEventListener('click', openOverlay);
 })();
