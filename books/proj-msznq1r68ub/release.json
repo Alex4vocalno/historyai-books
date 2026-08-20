@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260820003618834_03ba4560ca",
+  "projectId": "proj-msznq1r68ub",
+  "manuscriptVersionId": "mv_dd2ce6abfe31a7ed",
+  "contentHash": "dd2ce6abfe31a7edc096644ed4fcf401402a41a6bc0df6e06dee8651278516c9",
+  "title": "西施秘史：一个符号的千年建构与解构",
+  "subtitle": "",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "核心问题：为何西施能从一位越女演变为承载道德、审美与政治隐喻的文化符号？核心论点：她的形象变迁映射了中国历代对女性、权力与亡国责任的认知重构。范围：从先秦史料到明清戏曲小说，重点分析唐宋转型期。主要矛盾：历史真实与文学想象、男性书写与女性失语的冲突。写作重点：每章选取一个典型文本（如《吴越春秋》《浣纱记》），剖析其如何重塑西施以回应当时代焦虑。",
+  "category": "中国史",
+  "tags": [
+    "中国史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 156420,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-19T09:14:41.429Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-20T00:34:40.858Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "溪边无此人",
+      "units": 10397
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "美人入计",
+      "units": 10106
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "沉江与泛舟",
+      "units": 10078
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "诗人们的镜与灯",
+      "units": 10936
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "士大夫的辩席",
+      "units": 10931
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "勾栏里的新声",
+      "units": 10225
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "戏台与市井：新声的温床",
+      "units": 10619
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "浣纱记：情的完成与枷锁",
+      "units": 10586
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "闺阁笔与市井弦：两歧的翻案",
+      "units": 11568
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "筑祠与寻迹：地方的神化",
+      "units": 10440
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "贞节与鉴戒：规范中的收编",
+      "units": 10211
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "旧影与新声：符号的现代漂流",
+      "units": 9382
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "消费主义中的美人图",
+      "units": 10720
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "解构之刃与沉默的她",
+      "units": 10206
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "溪边的重影",
+      "units": 10015
+    }
+  ],
+  "publishedAt": "2026-08-20T00:36:18.837Z"
+}
