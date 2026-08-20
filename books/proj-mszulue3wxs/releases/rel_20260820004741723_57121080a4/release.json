@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260820004741723_57121080a4",
+  "projectId": "proj-mszulue3wxs",
+  "manuscriptVersionId": "mv_b596ca7c372064c7",
+  "contentHash": "b596ca7c372064c744b9ad8ec63f0eb3c0562cd6615d02f3291d013f3841f49c",
+  "title": "不可变的共识：Clojure社区如何塑造一门语言",
+  "subtitle": "",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "核心问题：没有大厂背书，Clojure靠什么活过十五年？核心论点：其生命力不在语法而在共识机制——邮件列表、会议与库生态构成了隐形宪法。范围：2008年首个邮件列表至2024年Clojurists Together资助模式成熟。主要矛盾：精英治理与开放参与、稳定性与创新冲动。写作重点：以三次重大争议事件为锚点还原决策现场。",
+  "category": "科技史",
+  "tags": [
+    "技术史",
+    "编程",
+    "Clojure",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 177111,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-19T11:41:16.441Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-20T00:47:35.623Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "列表里的第一声",
+      "units": 8374
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "会议室的圆环",
+      "units": 7831
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "库的命名术",
+      "units": 9744
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "文档的褶皱",
+      "units": 9619
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "REPL里的手艺人",
+      "units": 8257
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "补丁的路径",
+      "units": 7698
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "红绿循环里的手气",
+      "units": 8748
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "项目文件的腔调",
+      "units": 8021
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "括号与空白的秩序",
+      "units": 8198
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "报错是一种修辞",
+      "units": 10936
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "会议视频的余温",
+      "units": 8123
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "语法高亮之后",
+      "units": 8549
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "裁定者的座椅",
+      "units": 10970
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "贡献者的门槛",
+      "units": 8718
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "分岔时刻的沉默",
+      "units": 12410
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "资助的伦理",
+      "units": 9534
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "教学者的转译",
+      "units": 9599
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "括号之外的遗产",
+      "units": 10889
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "宪法的余烬",
+      "units": 10893
+    }
+  ],
+  "publishedAt": "2026-08-20T00:47:41.727Z"
+}
