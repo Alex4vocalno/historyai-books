@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260821054121333_be64f07c44",
+  "projectId": "proj-mt0syidl9gp",
+  "manuscriptVersionId": "mv_3723f3f992ab9d97",
+  "contentHash": "3723f3f992ab9d97d3d95d61057c828bb18952d664293621376ebab955a94a5c",
+  "title": "如果古人也有朋友圈",
+  "subtitle": "一部解构中国式关系网络的制度史",
+  "authorDisplayName": "半两先生",
+  "description": "本书以“朋友圈”为喻，深入剖析传统中国社会运行的隐性逻辑。作者从宋代科举的座主门生庇护，到晚清湘淮军的私属效忠网络，系统揭示师承、同乡、姻亲等私人纽带如何嵌入并塑造正式制度。全书通过二十余个制度案例，如乡试的疆域、河工的共谋、幕权的膨胀，绘制出一幅幅权力关系图谱，论证了这些非正式网络并非制度的对立面，而是其实际运作的骨架。本书数据与叙事并重，拒绝戏说，为理解帝制晚期至民国政治社会的演变提供了深刻洞察。",
+  "category": "中国史",
+  "tags": [
+    "中国制度史",
+    "社会网络",
+    "科举",
+    "权力结构",
+    "晚清民国"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 218953,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-21T04:38:44.996Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-21T05:41:10.297Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "科举的隐性契约",
+      "units": 8422
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "座主门生：庇护的再生产",
+      "units": 9669
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "地缘的语法：同乡网络的形成",
+      "units": 8924
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "姻亲的棋局：婚姻策略与政治联盟",
+      "units": 10540
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "网络的叠合：党争中的关系动力学",
+      "units": 8753
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "网络的制度化：从私人纽带到组织雏形",
+      "units": 8372
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "荐举的暗流",
+      "units": 8201
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "乡试的疆域",
+      "units": 8773
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "讲学的谱系",
+      "units": 10244
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "盟社的边界",
+      "units": 8676
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "幕府的经纬",
+      "units": 9093
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "捐纳的定价",
+      "units": 8328
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "幕权的膨胀：督抚私幕与权力寄生",
+      "units": 8051
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "学额的交易：府县学网络与地方利益",
+      "units": 8093
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "河工的共谋：大工役中的利益输送网",
+      "units": 8481
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "团练的基因：地方武装的关系动员",
+      "units": 7908
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "湘淮的私属：勇营体制下的效忠网络",
+      "units": 9126
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "洋务的派系：新事业中的旧网络",
+      "units": 8294
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "科举废除后的网络真空",
+      "units": 8336
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "论断：民国初年军阀政治的兴起",
+      "units": 8360
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "党务的编织：国民党政权中的派系网络",
+      "units": 8208
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "市场的血缘：近代绅商网络与经济控制",
+      "units": 10541
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "论断：帝制晚期至民国时期的中国乡村社会",
+      "units": 7766
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "网络的韧性：关系结构的延续与变形",
+      "units": 8422
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "关系的现代性",
+      "units": 9372
+    }
+  ],
+  "publishedAt": "2026-08-21T05:41:21.335Z"
+}
