@@ -7,6 +7,47 @@
  * 现在外壳由本文件在运行时构建，全站共用一份；改外壳只需更新本文件。
  */
 (function () {
+  // v4.84 客户端段落精排（用户定调：精排放客户端而非服务器推送——共享资产
+  // 改一次即覆盖全部存量页面，含旧 release；服务器渲染层精排保留，双方算法
+  // 同口径且幂等，已精排的页面在这里自然无事可做）。规则与引擎侧一致：
+  // 纯文本长段按句贪心装包（zh>250字→~160字/段，en>150词→~100词/段），
+  // 拼接校验不过或含内联标签的段一律不动。须在分页 layout 之前执行。
+  (function reflowParagraphs() {
+    var root = document.querySelector('.reader-content');
+    if (!root) return;
+    function cjkLen(s) { return (s.match(/[一-鿿]/g) || []).length; }
+    function wordLen(s) { return (s.match(/[A-Za-z][A-Za-z'-]*/g) || []).length; }
+    var paras = Array.prototype.slice.call(root.querySelectorAll('p'));
+    for (var i = 0; i < paras.length; i++) {
+      var p = paras[i];
+      if (p.children.length) continue;
+      var t = p.textContent || '';
+      var en = wordLen(t) > cjkLen(t) * 2;
+      if (en ? wordLen(t) <= 150 : cjkLen(t) <= 250) continue;
+      var re = en
+        ? /[^.!?]*[.!?]+["')]]*s*|[^.!?]+$/g
+        : /[^。！？；…]*[。！？；…]+[」』”’】)]]*|[^。！？；…]+$/g;
+      var parts = t.match(re) || [];
+      if (parts.join('') !== t || parts.length < 2) continue;
+      var target = en ? 100 : 160;
+      var minC = en ? 15 : 30;
+      var len = en ? wordLen : cjkLen;
+      var chunks = [], cur = '';
+      for (var j = 0; j < parts.length; j++) {
+        if (cur && len(cur) + len(parts[j]) > target && len(cur) >= minC) { chunks.push(cur); cur = parts[j]; }
+        else cur += parts[j];
+      }
+      if (cur) { if (chunks.length && len(cur) < minC) chunks[chunks.length - 1] += cur; else chunks.push(cur); }
+      if (chunks.length < 2 || chunks.join('') !== t) continue;
+      var frag = document.createDocumentFragment();
+      for (var k = 0; k < chunks.length; k++) {
+        var np = document.createElement('p');
+        np.textContent = chunks[k];
+        frag.appendChild(np);
+      }
+      p.parentNode.replaceChild(frag, p);
+    }
+  })();
   var el = document.getElementById('reader-data');
   if (!el) return;
   var data = {};
