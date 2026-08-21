@@ -167,6 +167,25 @@
 
   if (!isChapter) return; // 起始页只要外壳，不跑分页逻辑
 
+  // v4.87 旧版本自动刷新（用户定调）：本页 release 与最新不一致时静默跳到
+  // 最新版同章（章号超界收到末章）。每书每会话只跳一次防环。
+  (function autoUpgradeRelease() {
+    try {
+      var segs0 = location.pathname.split('/');
+      var bi0 = segs0.indexOf('books');
+      if (bi0 < 0 || segs0[bi0 + 2] !== 'releases') return;
+      var curRel = segs0[bi0 + 3];
+      var guard = 'hai.upgraded.' + (data.bookId || segs0[bi0 + 1]);
+      if (sessionStorage.getItem(guard)) return;
+      fetch('../../release.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (rel) {
+        if (!rel || !rel.releaseId || rel.releaseId === curRel) return;
+        sessionStorage.setItem(guard, '1');
+        var chNo = Math.min(Number(data.chapter) + 1 || 1, Number(rel.chapterCount) || 1);
+        location.replace('../../releases/' + rel.releaseId + '/ch-' + chNo + '.html');
+      }).catch(function () { /* 网络失败按当前版本读 */ });
+    } catch (e6) { /* 环境不支持则跳过 */ }
+  })();
+
   // ---- 阅读行为：翻页排版 / 设置 / 进度记忆 ----
   var key = 'historyai.reader.' + data.bookId;
   var state = { theme: 'paper', font: 18, leading: 2, width: 760, mode: 'page', chapter: 0, page: 0, href: '' };
@@ -185,11 +204,46 @@
   var flow = document.querySelector('.flow-inner');
   var paper = document.querySelector('.reader-paper');
   var flowBox = document.querySelector('.paper-flow');
-  var page = 0, total = 1, step = 1;
+  var page = 0, total = 1, step = 1, prefetched = false;
   var prevHref = Number(data.chapter) > 0 ? chapterHref(Number(data.chapter) - 1) : '';
   var nextHref = Number(data.chapter) + 1 < titles.length ? chapterHref(Number(data.chapter) + 1) : '';
 
-  function save() { try { localStorage.setItem(key, JSON.stringify(state)); } catch (e) { /* 隐私模式 */ } }
+  function save() { try { localStorage.setItem(key, JSON.stringify(state)); } catch (e) { /* 隐私模式 */ } cloudPush(); }
+  // v4.87 进度云同步：登录读者换设备不丢书。探测一次身份，匿名整体跳过；
+  // 写云节流 5s；云端进度更新且指向别章时静默接续（每书每会话只跳一次）。
+  var cloudOn = false, cloudTimer = null;
+  function cloudPush() {
+    if (!cloudOn) return;
+    clearTimeout(cloudTimer);
+    cloudTimer = setTimeout(function () {
+      try {
+        fetch('/api/reader/progress', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'same-origin',
+          body: JSON.stringify({ bookId: data.bookId, releaseId: (location.pathname.split('/releases/')[1] || '').split('/')[0], chapter: Number(data.chapter) || 0, page: Number(state.page) || 0, title: data.title || '', chapterTitle: data.chapterTitle || '' }),
+        }).catch(function () {});
+      } catch (e7) {}
+    }, 5000);
+  }
+  try {
+    fetch('/api/auth/me', { credentials: 'same-origin' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+      if (!(me && me.ok && me.user)) return;
+      cloudOn = true;
+      return fetch('/api/reader/progress?bookId=' + encodeURIComponent(data.bookId), { credentials: 'same-origin' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d2) {
+          var row = d2 && d2.row;
+          if (!row) return;
+          var localAt = String(state.updatedAt || '');
+          var guard2 = 'hai.cloudjump.' + data.bookId;
+          if (String(row.updatedAt) > localAt && Number(row.chapter) !== Number(data.chapter) && !sessionStorage.getItem(guard2)) {
+            sessionStorage.setItem(guard2, '1');
+            location.replace(chapterHref(Number(row.chapter)));
+          }
+        });
+    }).catch(function () { /* 未登录/网络失败=本地模式 */ });
+  } catch (e8) {}
   // v4.86 阅读埋点（第一期用户拍板：埋点先行）：open/half/finish 三事件，
   // 匿名 tid、sendBeacon 零阻塞、失败无感。数据落写作台 output/telemetry/。
   function track(ev) {
@@ -209,10 +263,26 @@
   function setBar(r) {
     var s = document.querySelector('.read-progress span'); if (s) s.style.width = (Math.max(0, Math.min(1, r)) * 100) + '%';
     if (r >= 0.5) trackOnce('half');
+    if (r >= 0.9 && nextHref && !prefetched) {
+      prefetched = true;
+      var pl = document.createElement('link'); pl.rel = 'prefetch'; pl.href = nextHref; document.head.appendChild(pl);
+    }
     if (r >= 0.98) trackOnce('finish');
   }
+  var chapterChars = (function () {
+    var rc = document.querySelector('.reader-content');
+    var txt = rc ? (rc.textContent || '') : '';
+    var cjkN = (txt.match(/[一-鿿]/g) || []).length;
+    var wordsN = (txt.match(/[A-Za-z][A-Za-z'-]*/g) || []).length;
+    return cjkN > wordsN ? { n: cjkN, per: 500, en: false } : { n: wordsN, per: 220, en: true };
+  })();
+  function remainText(r) {
+    var mins = Math.ceil(chapterChars.n * (1 - Math.max(0, Math.min(1, r))) / chapterChars.per);
+    if (mins <= 0) return chapterChars.en ? 'chapter end' : '本章读完';
+    return chapterChars.en ? ('~' + mins + ' min left') : ('本章剩约 ' + mins + ' 分钟');
+  }
   function indicator() {
-    var el2 = document.querySelector('.page-indicator'); if (el2) el2.textContent = (page + 1) + ' / ' + total + ' 页';
+    var el2 = document.querySelector('.page-indicator'); if (el2) el2.textContent = (page + 1) + ' / ' + total + ' 页 · ' + remainText(total > 1 ? page / (total - 1) : 1);
     var loc = document.querySelector('.reader-location');
     if (loc && state.mode === 'page') loc.textContent = chapterLabel + ' · ' + (data.chapterTitle || '') + ' · ' + (page + 1) + '/' + total + ' 页';
   }
@@ -330,6 +400,16 @@
   }, { passive: true });
   var rsz = null;
   addEventListener('resize', function () { clearTimeout(rsz); rsz = setTimeout(function () { layout(true); }, 150); });
+  // v4.87 章末大按钮：正文末尾醒目「下一章」，末章给「全书完·返回书库」
+  (function bigNext() {
+    var content = document.querySelector('.reader-content');
+    if (!content) return;
+    var a = document.createElement('a');
+    a.className = 'big-next';
+    if (nextHref) { a.href = nextHref; a.textContent = (titles[Number(data.chapter) + 1] ? '下一章 · ' + titles[Number(data.chapter) + 1] : '下一章') + ' →'; }
+    else { a.href = '../../../../index.html'; a.textContent = '🎉 全书完 · 返回书库'; }
+    content.appendChild(a);
+  })();
   layout(false);
   if (state.mode === 'page') {
     if (location.hash === '#last') go(total - 1);
