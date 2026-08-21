@@ -2335,13 +2335,17 @@ var qrcode = function() {
   document.addEventListener('selectionchange', function () { setTimeout(onSelection, 60); });
 
   function wrapText(ctx, text, maxWidth) {
+    // v4.95：英文按单词断行（逐字符断会把单词拦腰截断），中文仍逐字
+    var enWrap = String(data.lang || '').indexOf('en') === 0 && / /.test(text);
+    var units = enWrap ? String(text).split(/(\s+)/) : String(text);
     var lines = [], line = '';
-    for (var i = 0; i < text.length; i++) {
-      var probe = line + text[i];
-      if (ctx.measureText(probe).width > maxWidth && line) { lines.push(line); line = text[i]; }
+    for (var i = 0; i < units.length; i++) {
+      var u = units[i];
+      var probe = line + u;
+      if (ctx.measureText(probe).width > maxWidth && line) { lines.push(line.replace(/\s+$/, '')); line = u === ' ' ? '' : u; }
       else line = probe;
     }
-    if (line) lines.push(line);
+    if (line) lines.push(line.replace(/\s+$/, ''));
     return lines;
   }
 
@@ -2374,7 +2378,7 @@ var qrcode = function() {
     var c = document.createElement('canvas');
     c.width = W; c.height = H;
     var ctx = c.getContext('2d');
-    var serif = '"Songti SC","Noto Serif SC",Georgia,serif';
+    var serif = String(data.lang || '').indexOf('en') === 0 ? 'Georgia,"Times New Roman",serif' : '"Songti SC","Noto Serif SC",Georgia,serif';
     var sans = '-apple-system,"PingFang SC",sans-serif';
     var INK = '#2b2620', MUTED = '#8a8172', GOLD = '#a8873f', PAPER = '#f6efe2', DARK = '#152420';
     // 纸面 + 晕影
