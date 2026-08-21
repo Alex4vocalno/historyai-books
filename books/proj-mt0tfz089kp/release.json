@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260821044940943_827383c784",
+  "projectId": "proj-mt0tfz089kp",
+  "manuscriptVersionId": "mv_4447f85822825b5c",
+  "contentHash": "4447f85822825b5cb34a5a7985a4fe461cee800229fd865c1c98ccf00eba5c6f",
+  "title": "灯火与炊烟：中国古代日常生活的城乡分野",
+  "subtitle": "从唐宋到明清，一碗夜宵里的城乡中国",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "古代城市入夜后，坊墙内外是两重天地：一边是灯火通明的夜市，馄饨、滴酥鲍螺与煎茶在叫卖声中流转；另一边，乡村灶膛的余烬映着最后一碗粟米粥，星月是唯一的照明。本书以夜宵与日常饮食为线索，穿梭于唐宋至明清的城乡之间，揭示城市夜间消费如何被商业逻辑驱动，而农村生活始终受制于自然节律。从暮鼓敲响的宵禁时刻，到深巷里挑担小贩的悠长吆喝；从闺阁中私藏的炭火小炉，到岁时节庆里城乡共享的灯火——每一章都以一件食物或一个时辰切入，将食谱与方志、笔记与案牍对读，还原古代普通人如何在时间秩序与社会结构的差异中，过着截然不同的夜晚。这不是一部泛谈饮食风物的随笔，而是一次对古代城乡分野的深层探问。",
+  "category": "中国史",
+  "tags": [
+    "中国古代社会生活",
+    "城乡差异",
+    "饮食史",
+    "唐宋明清",
+    "夜间经济"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 138200,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-1",
+    "createdAt": "2026-08-21T03:01:13.352Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-21T04:49:24.293Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "暮鼓之后",
+      "units": 8636
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "坊墙内外",
+      "units": 9616
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "星月为灯",
+      "units": 8648
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "夜市初开",
+      "units": 9298
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "灶火余温",
+      "units": 10073
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "一灯如豆",
+      "units": 8370
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "杯盘照夜",
+      "units": 12902
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "深巷叫卖",
+      "units": 10273
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "岁时灯火",
+      "units": 8112
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "守夜之人",
+      "units": 8292
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "闺阁夜炊",
+      "units": 8060
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "碗底余烬",
+      "units": 7862
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "电灯照破旧时月",
+      "units": 12825
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "食谱与方志之间",
+      "units": 7776
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "灶火不熄",
+      "units": 7457
+    }
+  ],
+  "publishedAt": "2026-08-21T04:49:40.947Z"
+}
