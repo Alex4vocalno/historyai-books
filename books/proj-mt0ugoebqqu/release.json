@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260821002438277_6ec35c6c5a",
+  "projectId": "proj-mt0ugoebqqu",
+  "manuscriptVersionId": "mv_f42d68f39b0e615c",
+  "contentHash": "f42d68f39b0e615cbc6f4985bb32e20c937f4ffa33e4b5f0e736c5df547925eb",
+  "title": "哔哩哔哩：理想主义的二次元",
+  "subtitle": "",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "核心问题：热爱如何从个体情感转化为可积累、可传承的意义空间？核心论点：哔哩哔哩的创新在于以热爱为材料、以制度为工法，建造出数字时代可供栖居的意义之境——它不是内容平台，而是意义生产的基础设施。范围：2009年创立至2024年战略转型。主要矛盾：热爱的自发性与意义空间所需的结构性之间的张力。写作重点：以陈睿的关键决策与热爱追求为人物主线，以弹幕礼仪、创作激励、社区公约等产品制度节点为锚，展现人物意志如何通过产品被编码为可栖居的意义环境。",
+  "category": "中国史",
+  "tags": [
+    "中国史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 220752,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-20T12:45:48.749Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-21T00:23:18.437Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "废土上的寄居蟹",
+      "units": 8167
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "入主与代码重构",
+      "units": 10970
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "弹幕礼仪的诞生",
+      "units": 8465
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "创作的引力井",
+      "units": 9951
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "公约与社会契约",
+      "units": 10871
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "登陆资本市场",
+      "units": 8220
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "破壁者与边界的代价",
+      "units": 10530
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "收入结构的艰难重塑",
+      "units": 7954
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "百万UP主的治理难题",
+      "units": 8512
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "知识区的结构化实验",
+      "units": 8927
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "《后浪》的宣言与反噬",
+      "units": 8522
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "增长的阴影与留存之战",
+      "units": 7682
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "跨年晚会：仪式的发明",
+      "units": 8620
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "直播的暗室与微光",
+      "units": 9863
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "游戏的执念与围城",
+      "units": 8358
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "降本增效与组织的阵痛",
+      "units": 7883
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "短视频的冲击与内容护城河",
+      "units": 8509
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "盈利的曙光与意义的代价",
+      "units": 8240
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "守望者的黄昏",
+      "units": 7694
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "算法与人心的补丁",
+      "units": 8607
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "文化褶皱里的新一代",
+      "units": 8431
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "内容产业的范式涟漪",
+      "units": 8423
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "理想主义公司的终局追问",
+      "units": 7440
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "栖居之境的建造图",
+      "units": 9522
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "未竟的栖居",
+      "units": 10391
+    }
+  ],
+  "publishedAt": "2026-08-21T00:24:38.280Z"
+}
