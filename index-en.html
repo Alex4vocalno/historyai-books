@@ -150,8 +150,27 @@ document.querySelectorAll('[data-sort]').forEach(function(button){button.addEven
 document.querySelectorAll('[data-author-link]').forEach(function(el){el.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();location.href=el.dataset.authorLink})});
 document.querySelectorAll('[data-read-link]').forEach(function(el){el.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();location.href=el.dataset.readLink})});
 var loginBtn=document.querySelector('[data-login]');var loginPop=document.querySelector('[data-login-pop]');
-if(loginBtn&&loginPop){loginBtn.addEventListener('click',function(e){e.stopPropagation();loginPop.hidden=!loginPop.hidden});loginPop.addEventListener('click',function(e){e.stopPropagation()});document.addEventListener('click',function(){if(!loginPop.hidden)loginPop.hidden=true});addEventListener('keydown',function(e){if(e.key==='Escape')loginPop.hidden=true})}
-function bkRefresh(){fetch('/api/auth/me',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){if(d&&d.ok&&d.user){loginBtn.textContent=d.user.name;loginBtn.dataset.logged='1'}}).catch(function(){})}
+var userPop=null;
+function buildUserPop(user){
+  if(userPop)userPop.remove();
+  userPop=document.createElement('div');
+  userPop.className='login-pop';userPop.hidden=true;
+  var who=document.createElement('strong');who.textContent=user.name+(user.role==='owner'?' · Owner':'');userPop.appendChild(who);
+  if(user.credits!=null&&user.role!=='owner'){var cr=document.createElement('p');cr.textContent='Credits: '+(user.credits);userPop.appendChild(cr);}
+  var go=document.createElement('button');go.type='button';go.className='login-go';go.textContent='Open the studio';
+  go.onclick=function(){location.href=document.querySelector('[data-write-entry]').getAttribute('href')};
+  userPop.appendChild(go);
+  var out=document.createElement('button');out.type='button';out.className='login-go';out.style.cssText='margin-top:8px;background:#eef0ef;color:#555';out.textContent='Sign out';
+  out.onclick=function(){fetch('/api/auth/logout',{method:'POST',credentials:'same-origin'}).then(function(){location.reload()}).catch(function(){location.reload()})};
+  userPop.appendChild(out);
+  userPop.addEventListener('click',function(e){e.stopPropagation()});
+  document.body.appendChild(userPop);
+}
+if(loginBtn&&loginPop){loginBtn.addEventListener('click',function(e){e.stopPropagation();
+  if(loginBtn.dataset.logged==='1'&&userPop){userPop.hidden=!userPop.hidden;loginPop.hidden=true}
+  else{loginPop.hidden=!loginPop.hidden}
+});loginPop.addEventListener('click',function(e){e.stopPropagation()});document.addEventListener('click',function(){if(!loginPop.hidden)loginPop.hidden=true;if(userPop&&!userPop.hidden)userPop.hidden=true});addEventListener('keydown',function(e){if(e.key==='Escape'){loginPop.hidden=true;if(userPop)userPop.hidden=true}})}
+function bkRefresh(){fetch('/api/auth/me',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){if(d&&d.ok&&d.user){loginBtn.textContent=d.user.name;loginBtn.dataset.logged='1';buildUserPop(d.user)}else{loginBtn.textContent=loginBtn.dataset.zh||'Sign in';loginBtn.dataset.logged=''}}).catch(function(){})}
 var goBtn=document.querySelector('[data-login-go]');
 if(goBtn){goBtn.addEventListener('click',function(){
   var u=document.getElementById('bkUser').value.trim(),p=document.getElementById('bkPass').value;
