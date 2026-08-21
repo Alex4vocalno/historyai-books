@@ -363,48 +363,40 @@
   mask.addEventListener('click', function () { document.body.classList.remove('drawer-open'); });
   addEventListener('scroll', scrollProgress, { passive: true });
 
+  // v4.98.1 点按翻页（Kindle 式）：左 1/3 上一页，其余下一页。轻点统一走 click
+  // 通道——触屏轻点有合成 click、滑动没有，天然分流；滑动归下方 touch 通道独管。
   if (paper) {
     paper.addEventListener('click', function (e) {
       if (state.mode !== 'page') return;
-      if (e.target.closest && e.target.closest('a,button')) return;
-      var x = e.clientX, w = innerWidth;
-      if (x < w * 0.3) flip(-1); else if (x > w * 0.7) flip(1);
+      if (!settings.hidden || document.body.classList.contains('drawer-open')) return;
+      var sheetEl = document.querySelector('.idea-sheet');
+      if (sheetEl) { sheetEl.remove(); return; } // 想法面板开着：点正文=收起，不翻页
+      if (e.target.closest && e.target.closest('a,button,input,textarea,label,.idea-dot,.review-box')) return;
+      try { if (window.getSelection && String(window.getSelection())) return; } catch (e9) {}
+      if (e.clientX < innerWidth / 3) flip(-1); else flip(1);
     });
-    var tx = null, ty = null;
-    paper.addEventListener('touchstart', function (e) { if (e.touches.length === 1) { tx = e.touches[0].clientX; ty = e.touches[0].clientY; } }, { passive: true });
-    paper.addEventListener('touchend', function (e) {
-      if (tx === null) return;
-      var dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty; tx = null;
-      if (state.mode === 'page' && Math.abs(dx) > 46 && Math.abs(dx) > Math.abs(dy) * 1.4) flip(dx < 0 ? 1 : -1);
-    }, { passive: true });
   }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); flip(1); }
     else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); flip(-1); }
   });
-  // v4.86 触摸翻页（第一期）：横滑 >56px 翻页；轻点屏幕左右 22% 区域翻页。
-  // 选中文字（书签流程）、点在链接/按钮上、滚动模式一律不劫持。
-  var tx = 0, ty = 0, tt = 0;
+  // v4.86 触摸翻页→v4.98.1 收束：本通道只管横滑（>56px），轻点已归 click 通道。
+  // 实弹教训：曾与 paper 触摸手势共用 var tx（函数级作用域相撞），先到的 touchend
+  // 把坐标置 null，后到的算出假位移——右侧轻点被一退一进抵消成「点了没反应」。
+  var swipeX = null, swipeY = 0, swipeT = 0;
   addEventListener('touchstart', function (e) {
-    if (!e.touches || e.touches.length !== 1) return;
-    tx = e.touches[0].clientX; ty = e.touches[0].clientY; tt = Date.now();
+    if (!e.touches || e.touches.length !== 1) { swipeX = null; return; }
+    swipeX = e.touches[0].clientX; swipeY = e.touches[0].clientY; swipeT = Date.now();
   }, { passive: true });
   addEventListener('touchend', function (e) {
-    if (state.mode !== 'page') return;
+    if (state.mode !== 'page' || swipeX === null) return;
     var c = e.changedTouches && e.changedTouches[0]; if (!c) return;
+    var dx = c.clientX - swipeX, dy = c.clientY - swipeY, dt = Date.now() - swipeT;
+    swipeX = null;
+    if (dt >= 600 || Math.abs(dx) <= 56 || Math.abs(dy) >= 48) return;
     try { if (window.getSelection && String(window.getSelection())) return; } catch (e4) {}
-    var el5 = e.target;
-    while (el5 && el5 !== document.body) {
-      if (el5.tagName === 'A' || el5.tagName === 'BUTTON' || el5.tagName === 'INPUT' || el5.tagName === 'LABEL') return;
-      el5 = el5.parentNode;
-    }
-    var dx = c.clientX - tx, dy = c.clientY - ty, dt = Date.now() - tt;
-    if (dt < 600 && Math.abs(dx) > 56 && Math.abs(dy) < 48) { flip(dx < 0 ? 1 : -1); return; }
-    if (dt < 350 && Math.abs(dx) < 8 && Math.abs(dy) < 8) {
-      var xr = c.clientX / innerWidth;
-      if (xr < 0.22) flip(-1);
-      else if (xr > 0.78) flip(1);
-    }
+    if (e.target.closest && e.target.closest('a,button,input,textarea,label,.settings,.chapter-drawer,.idea-sheet,.review-box')) return;
+    flip(dx < 0 ? 1 : -1);
   }, { passive: true });
   var rsz = null;
   addEventListener('resize', function () { clearTimeout(rsz); rsz = setTimeout(function () { layout(true); }, 150); });
