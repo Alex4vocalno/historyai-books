@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260821075228867_b372840d00",
+  "projectId": "proj-mt2i6vlcgnd",
+  "manuscriptVersionId": "mv_c2b27be7581300d9",
+  "contentHash": "c2b27be7581300d9b87d8753a65054790028e306c8995ecc914cdc9f09595b9f",
+  "title": "家国之间：大家族的千年建构史",
+  "subtitle": "一部重新定义中国家族的文化史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "本书从汉代礼经诠释到明清族谱编纂，跨越千年，揭示‘大家族’并非天然的血缘聚合，而是一种通过礼仪展演、文本教化和财产安排持续建构的文化装置。作者以家训、义庄账簿、祖先画像、寿序、诉讼文书等具体文献为切口，展现经典规范与地方变通、士人理想与庶民实践之间的张力。全书二十章，从闺阁内的情感织造到宗族械斗的法律身份，从园林空间到科举场中的家族脸谱，细致描摹家族观念如何落地生根，并在二十世纪的动荡中变形、重构，最终化为日常记忆中的幽灵。这是一部关于秩序、情感与权力的微观史，邀请读者重新审视那些看似理所当然的‘家’的叙事。",
+  "category": "人物传记",
+  "tags": [
+    "家族史",
+    "礼制",
+    "微观史",
+    "社会建构",
+    "明清社会",
+    "文化记忆"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 167003,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-21T07:46:01.316Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-21T07:51:49.097Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "礼经初铸：汉儒的家族理想型",
+      "units": 8785
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "门阀的仪轨：魏晋士族的展演性建构",
+      "units": 7788
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "家训传世：文本教化与家族观念的流动",
+      "units": 8410
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "祠产与谱系：唐宋之际的制度实验",
+      "units": 7493
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "义庄的日常：宋代家族共同体的实践",
+      "units": 9200
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "族谱千家：明清庶民的家族想象与书写",
+      "units": 7765
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "闺阁之内：家族情感的日常织造",
+      "units": 8377
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "账簿与灵魂：义庄的盈亏之道",
+      "units": 8357
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "祭坛之上：仪式展演的视觉力量",
+      "units": 7493
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "丹青传家：祖先画像的身份书写",
+      "units": 7462
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "寿序如碑：贺寿文章里的家族叙事",
+      "units": 8219
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "园林寄意：空间营造中的家族理想",
+      "units": 8359
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "谱系之外：科举场中的家族脸谱",
+      "units": 10196
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "词讼间的界碑：家族的法律身份与械斗",
+      "units": 8365
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "当一位地方士绅在为其节烈母嫂撰写的行状中",
+      "units": 8366
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "结社与引援：宗族网络与地方权力格局",
+      "units": 8606
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "残碑碎谱：十九世纪乱世中的家族韧性",
+      "units": 8479
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "旧邦新命：二十世纪家族的变形与回声",
+      "units": 10213
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "谱系的重构：二十世纪中叶的家族改造",
+      "units": 7453
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "余音绕梁：日常记忆中的家族幽灵",
+      "units": 7617
+    }
+  ],
+  "publishedAt": "2026-08-21T07:52:28.870Z"
+}
