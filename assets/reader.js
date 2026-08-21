@@ -418,6 +418,216 @@
     else { a.href = (L.home || '../../../../index.html'); a.textContent = data.lang === 'en' ? '🎉 The end · Back to library' : '🎉 全书完 · 返回书库'; }
     content.appendChild(a);
   })();
+  // ── v4.97 书的社交层（对标微信读书）：想法气泡/底部面板/末章打分书评 ──
+  (function socialLayer() {
+    var EN2 = data.lang === 'en';
+    function T(zh, en) { return EN2 ? en : zh; }
+    var myUid = null, loggedIn2 = false;
+    fetch('/api/auth/me', { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (d) {
+      if (d && d.ok && d.user) { loggedIn2 = true; myUid = d.user.id; }
+    }).catch(function () {});
+    function post2(path2, body2) {
+      return fetch(path2, { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify(body2) }).then(function (r) { return r.json(); });
+    }
+    function el2(tag, cls, text2) { var e = document.createElement(tag); if (cls) e.className = cls; if (text2 != null) e.textContent = text2; return e; }
+    function loginHint(box) {
+      var h = el2('p', 'idea-hint');
+      h.innerHTML = '';
+      var a = el2('a', '', T('登录后参与讨论', 'Sign in to join the discussion'));
+      a.href = 'https://write.evoronai.com/login.html';
+      h.appendChild(a);
+      box.appendChild(h);
+    }
+    var sheet = null;
+    function closeSheet() { if (sheet) { sheet.remove(); sheet = null; } }
+    function renderItem(box, item, kind, refresh) {
+      var it = el2('div', 'idea-item');
+      var who = el2('div', 'who');
+      var b = el2('b', '', item.name || T('读者', 'Reader'));
+      who.appendChild(b);
+      who.appendChild(document.createTextNode(' · ' + String(item.at || '').slice(0, 10) + (item.rating ? ' · ' + '★'.repeat(item.rating) : '')));
+      it.appendChild(who);
+      if (item.text) it.appendChild(el2('p', 'txt', item.text));
+      (item._replies || []).forEach(function (rp) {
+        var rr = el2('div', 'idea-reply');
+        var rw = el2('span', 'who');
+        rw.appendChild(el2('b', '', rp.name || T('读者', 'Reader')));
+        rr.appendChild(rw);
+        rr.appendChild(el2('p', 'txt', rp.text));
+        if (myUid && (rp.uid === myUid)) {
+          var dr = el2('div', 'idea-act');
+          var ds = el2('span', '', T('删除', 'Delete'));
+          ds.onclick = function () { post2('/api/book/delete', { bookId: data.bookId, kind: 'reply', id: rp.id }).then(refresh); };
+          dr.appendChild(ds);
+          rr.appendChild(dr);
+        }
+        it.appendChild(rr);
+      });
+      var act = el2('div', 'idea-act');
+      var rb = el2('span', '', T('回复', 'Reply'));
+      rb.onclick = function () {
+        if (!loggedIn2) { alert(T('登录后才能回复', 'Sign in to reply')); return; }
+        var old = it.querySelector('.idea-input');
+        if (old) { old.remove(); return; }
+        var row = el2('div', 'idea-input');
+        var ta = document.createElement('textarea');
+        ta.placeholder = T('写下你的回复…', 'Write a reply…');
+        var go = el2('button', '', T('发表', 'Post'));
+        go.onclick = function () {
+          var v = ta.value.trim();
+          if (!v) return;
+          post2('/api/book/replies', { bookId: data.bookId, kind: kind, targetId: item.id, text: v }).then(function (r2) {
+            if (r2 && r2.ok) refresh(); else alert((r2 && r2.error) || T('发表失败', 'Failed'));
+          });
+        };
+        row.appendChild(ta); row.appendChild(go);
+        it.appendChild(row);
+      };
+      act.appendChild(rb);
+      if (myUid && item.uid === myUid) {
+        var del = el2('span', '', T('删除', 'Delete'));
+        del.onclick = function () { post2('/api/book/delete', { bookId: data.bookId, kind: kind, id: item.id }).then(refresh); };
+        act.appendChild(del);
+      }
+      it.appendChild(act);
+      box.appendChild(it);
+    }
+    function attachReplies(items, replies) {
+      items.forEach(function (n) { n._replies = (replies || []).filter(function (r) { return r.targetId === n.id; }); });
+    }
+    // 想法气泡：按引文定位段落
+    var notesCache = [];
+    function refreshNotes() {
+      fetch('/api/book/notes?bookId=' + encodeURIComponent(data.bookId) + '&chapter=' + (Number(data.chapter) + 1))
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (!(d && d.ok)) return;
+          attachReplies(d.notes, d.replies);
+          notesCache = d.notes;
+          document.querySelectorAll('.idea-dot').forEach(function (x) { x.remove(); });
+          var ps = document.querySelectorAll('.reader-content p');
+          var byPara = {};
+          d.notes.forEach(function (n) {
+            var hit = -1;
+            for (var i = 0; i < ps.length; i++) {
+              if ((ps[i].textContent || '').indexOf(n.quote.slice(0, 60)) !== -1) { hit = i; break; }
+            }
+            n._para = hit;
+            (byPara[hit] = byPara[hit] || []).push(n);
+          });
+          Object.keys(byPara).forEach(function (k) {
+            var i2 = Number(k);
+            if (i2 < 0 || !ps[i2]) return;
+            var dot = el2('sup', 'idea-dot', '💬' + byPara[k].length);
+            dot.onclick = function (ev2) { ev2.stopPropagation(); openSheet(byPara[k], ps[i2]); };
+            ps[i2].appendChild(dot);
+          });
+          if (typeof layout === 'function') layout(true);
+        }).catch(function () {});
+    }
+    function openSheet(notes2, paraEl) {
+      closeSheet();
+      sheet = el2('div', 'idea-sheet');
+      sheet.appendChild(el2('h4', '', T('想法', 'Thoughts') + ' · ' + notes2.length));
+      sheet.appendChild(el2('p', 'idea-quote', notes2[0].quote));
+      notes2.forEach(function (n) { renderItem(sheet, n, 'note', refreshAll); });
+      if (!loggedIn2) loginHint(sheet);
+      var x = el2('div', 'idea-act');
+      var c = el2('span', '', T('关闭', 'Close'));
+      c.onclick = closeSheet;
+      x.appendChild(c);
+      sheet.appendChild(x);
+      document.body.appendChild(sheet);
+    }
+    function refreshAll() { closeSheet(); refreshNotes(); }
+    // 想法作曲器（选择浮钮的 💬 调用）
+    window.__haiIdeaCompose = function (quote, para) {
+      closeSheet();
+      sheet = el2('div', 'idea-sheet');
+      sheet.appendChild(el2('h4', '', T('写想法', 'Add a thought')));
+      sheet.appendChild(el2('p', 'idea-quote', quote));
+      if (!loggedIn2) { loginHint(sheet); document.body.appendChild(sheet); return; }
+      var row = el2('div', 'idea-input');
+      var ta = document.createElement('textarea');
+      ta.placeholder = T('这段文字让你想到什么…', 'What does this passage make you think…');
+      var go = el2('button', '', T('发表', 'Post'));
+      go.onclick = function () {
+        var v = ta.value.trim();
+        if (!v) return;
+        post2('/api/book/notes', { bookId: data.bookId, chapter: Number(data.chapter) + 1, para: para, quote: quote, text: v })
+          .then(function (r2) { if (r2 && r2.ok) refreshAll(); else alert((r2 && r2.error) || T('发表失败', 'Failed')); });
+      };
+      row.appendChild(ta); row.appendChild(go);
+      sheet.appendChild(row);
+      var x2 = el2('div', 'idea-act');
+      var c2 = el2('span', '', T('关闭', 'Close'));
+      c2.onclick = closeSheet;
+      x2.appendChild(c2);
+      sheet.appendChild(x2);
+      document.body.appendChild(sheet);
+      ta.focus();
+    };
+    refreshNotes();
+    // 末章：打分 + 书评
+    if (!nextHref) {
+      var content2 = document.querySelector('.reader-content');
+      if (content2) {
+        var box = el2('div', 'review-box');
+        box.appendChild(el2('h3', '', T('读完了？给这本书打个分', 'Finished? Rate this book')));
+        var agg = el2('p', 'review-agg', '');
+        box.appendChild(agg);
+        var stars = el2('div', 'stars');
+        var myRating = 0;
+        for (var si2 = 1; si2 <= 5; si2++) {
+          (function (v2) {
+            var sp = el2('span', '', '★');
+            sp.onclick = function () {
+              myRating = v2;
+              stars.querySelectorAll('span').forEach(function (x3, i3) { x3.className = i3 < v2 ? 'on' : ''; });
+            };
+            stars.appendChild(sp);
+          })(si2);
+        }
+        box.appendChild(stars);
+        var row2 = el2('div', 'idea-input');
+        var ta2 = document.createElement('textarea');
+        ta2.placeholder = T('写几句书评（可选）…', 'Write a short review (optional)…');
+        var go2 = el2('button', '', T('提交', 'Submit'));
+        go2.onclick = function () {
+          if (!loggedIn2) { alert(T('登录后才能评分', 'Sign in to rate')); return; }
+          if (!myRating) { alert(T('先点星星打个分', 'Pick a star rating first')); return; }
+          post2('/api/book/reviews', { bookId: data.bookId, rating: myRating, text: ta2.value.trim() })
+            .then(function (r2) { if (r2 && r2.ok) loadReviews(); else alert((r2 && r2.error) || T('提交失败', 'Failed')); });
+        };
+        row2.appendChild(ta2); row2.appendChild(go2);
+        box.appendChild(row2);
+        var listBox = el2('div', '');
+        box.appendChild(listBox);
+        function loadReviews() {
+          fetch('/api/book/reviews?bookId=' + encodeURIComponent(data.bookId))
+            .then(function (r) { return r.json(); })
+            .then(function (d) {
+              if (!(d && d.ok)) return;
+              agg.innerHTML = '';
+              if (d.count) {
+                var bb = el2('b', '', String(d.avg));
+                agg.appendChild(bb);
+                agg.appendChild(document.createTextNode(' · ' + d.count + T(' 人评分', ' ratings')));
+              } else {
+                agg.textContent = T('还没有人评分，做第一个', 'No ratings yet — be the first');
+              }
+              listBox.innerHTML = '';
+              attachReplies(d.reviews, d.replies);
+              d.reviews.forEach(function (rv) { renderItem(listBox, rv, 'review', loadReviews); });
+              if (typeof layout === 'function') layout(true);
+            }).catch(function () {});
+        }
+        loadReviews();
+        content2.appendChild(box);
+      }
+    }
+  })();
+
   layout(false);
   if (state.mode === 'page') {
     if (location.hash === '#last') go(total - 1);

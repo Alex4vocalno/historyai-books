@@ -2311,7 +2311,32 @@ var qrcode = function() {
 
   var fab = document.createElement('button');
   fab.type = 'button';
-  fab.textContent = String(data.lang || '').indexOf('en') === 0 ? '🔖 Make a bookmark' : '🔖 生成书签';
+  var SOCIAL_EN = String(data.lang || '').indexOf('en') === 0;
+  fab.textContent = SOCIAL_EN ? '🔖 Bookmark' : '🔖 书签';
+  // v4.97 想法按钮（对标微信读书划线想法）：与书签共用选择检测
+  var ideaBtn = document.createElement('button');
+  ideaBtn.type = 'button';
+  ideaBtn.textContent = SOCIAL_EN ? '💬 Thought' : '💬 想法';
+  ideaBtn.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(calc(-50% + 92px));z-index:80;display:none;min-height:44px;padding:0 18px;border:0;border-radius:22px;background:#3b6ea5;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(30,70,110,.4);cursor:pointer';
+  ideaBtn.onclick = function () {
+    var quote = currentQuote;
+    if (!quote) return;
+    var para = 0;
+    try {
+      var sel = window.getSelection();
+      var node = sel.rangeCount ? sel.getRangeAt(0).commonAncestorContainer : null;
+      var el = node && (node.nodeType === 1 ? node : node.parentNode);
+      while (el && el.tagName !== 'P') el = el.parentNode;
+      if (el) {
+        var ps = document.querySelectorAll('.reader-content p');
+        for (var i = 0; i < ps.length; i++) if (ps[i] === el) { para = i; break; }
+      }
+    } catch (e0) {}
+    if (window.__haiIdeaCompose) window.__haiIdeaCompose(quote, para);
+    fab.style.display = 'none';
+    ideaBtn.style.display = 'none';
+  };
+  document.body.appendChild(ideaBtn);
   fab.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(-50%);z-index:80;display:none;min-height:44px;padding:0 22px;border:0;border-radius:22px;background:#0a9b6d;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(7,120,85,.4);cursor:pointer';
   document.body.appendChild(fab);
 
@@ -2328,8 +2353,11 @@ var qrcode = function() {
     if (inside && text.length >= 4 && text.length <= 220) {
       currentQuote = text;
       fab.style.display = 'block';
+      ideaBtn.style.display = 'block';
+      fab.style.transform = 'translateX(calc(-50% - 62px))';
     } else if (!text) {
       fab.style.display = 'none';
+      ideaBtn.style.display = 'none';
     }
   }
   document.addEventListener('selectionchange', function () { setTimeout(onSelection, 60); });
@@ -2541,6 +2569,7 @@ var qrcode = function() {
       wrap.appendChild(img); wrap.appendChild(hint); wrap.appendChild(row);
       document.body.appendChild(wrap);
       fab.style.display = 'none';
+      ideaBtn.style.display = 'none';
     });
   }
   fab.addEventListener('click', openOverlay);
