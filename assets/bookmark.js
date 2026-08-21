@@ -2311,7 +2311,7 @@ var qrcode = function() {
 
   var fab = document.createElement('button');
   fab.type = 'button';
-  fab.textContent = '🔖 生成书签';
+  fab.textContent = String(data.lang || '').indexOf('en') === 0 ? '🔖 Make a bookmark' : '🔖 生成书签';
   fab.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(-50%);z-index:80;display:none;min-height:44px;padding:0 22px;border:0;border-radius:22px;background:#0a9b6d;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(7,120,85,.4);cursor:pointer';
   document.body.appendChild(fab);
 

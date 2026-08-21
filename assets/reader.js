@@ -112,7 +112,7 @@
   var titles = Array.isArray(data.chapterTitles) ? data.chapterTitles : [];
   var chapterLabel = data.lang === 'en' ? 'Chapter ' + (Number(data.chapter) + 1) : '第 ' + (Number(data.chapter) + 1) + ' 章';
   // v4.91 阅读器外壳英文（按书语言）：中文串零改动，EN 书渲染前过词表
-  var SHELL_EN = [['返回书库','Back to library'],['书库','Library'],['目录','Contents'],['阅读设置','Reading settings'],['翻页','Paging'],['滚动','Scroll'],['主题','Theme'],['纸张','Paper'],['白色','White'],['夜间','Night'],['字号','Font size'],['行距','Leading'],['紧凑','Tight'],['舒适','Cozy'],['宽松','Loose'],['版心','Width'],['窄','Narrow'],['中','Medium'],['宽','Wide'],['上一章','Previous'],['下一章','Next chapter'],[' 章',' chapters'],[' 页',' pages'],['设置','Settings']];
+  var SHELL_EN = [[' · 当前第 ',' · reading ch. '],['返回书库','Back to library'],['书库','Library'],['目录','Contents'],['阅读设置','Reading settings'],['翻页','Paging'],['滚动','Scroll'],['主题','Theme'],['纸张','Paper'],['白色','White'],['夜间','Night'],['字号','Font size'],['行距','Leading'],['紧凑','Tight'],['舒适','Cozy'],['宽松','Loose'],['版心','Width'],['窄','Narrow'],['中','Medium'],['宽','Wide'],['上一章','Previous'],['下一章','Next chapter'],[' 章',' chapters'],[' 页',' pages'],['设置','Settings']];
   function loc(html) {
     if (data.lang !== 'en') return html;
     var out = String(html);
@@ -415,7 +415,7 @@
     var a = document.createElement('a');
     a.className = 'big-next';
     if (nextHref) { a.href = nextHref; a.textContent = (titles[Number(data.chapter) + 1] ? '下一章 · ' + titles[Number(data.chapter) + 1] : '下一章') + ' →'; }
-    else { a.href = '../../../../index.html'; a.textContent = '🎉 全书完 · 返回书库'; }
+    else { a.href = (L.home || '../../../../index.html'); a.textContent = data.lang === 'en' ? '🎉 The end · Back to library' : '🎉 全书完 · 返回书库'; }
     content.appendChild(a);
   })();
   layout(false);
