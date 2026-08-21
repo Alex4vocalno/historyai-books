@@ -172,6 +172,16 @@
   var state = { theme: 'paper', font: 18, leading: 2, width: 760, mode: 'page', chapter: 0, page: 0, href: '' };
   try { state = Object.assign(state, JSON.parse(localStorage.getItem(key) || '{}')); } catch (e) { /* 首次阅读 */ }
   if (state.mode !== 'scroll') state.mode = 'page';
+  // v4.86 系统夜间模式：用户从未手选主题时跟随系统配色，且随系统切换实时变
+  var mqDark = window.matchMedia && matchMedia('(prefers-color-scheme: dark)');
+  if (!state.themeChosen && mqDark) {
+    state.theme = mqDark.matches ? 'night' : 'paper';
+    if (mqDark.addEventListener) mqDark.addEventListener('change', function (ev2) {
+      if (state.themeChosen) return;
+      state.theme = ev2.matches ? 'night' : 'paper';
+      apply();
+    });
+  }
   var flow = document.querySelector('.flow-inner');
   var paper = document.querySelector('.reader-paper');
   var flowBox = document.querySelector('.paper-flow');
@@ -180,7 +190,27 @@
   var nextHref = Number(data.chapter) + 1 < titles.length ? chapterHref(Number(data.chapter) + 1) : '';
 
   function save() { try { localStorage.setItem(key, JSON.stringify(state)); } catch (e) { /* 隐私模式 */ } }
-  function setBar(r) { var s = document.querySelector('.read-progress span'); if (s) s.style.width = (Math.max(0, Math.min(1, r)) * 100) + '%'; }
+  // v4.86 阅读埋点（第一期用户拍板：埋点先行）：open/half/finish 三事件，
+  // 匿名 tid、sendBeacon 零阻塞、失败无感。数据落写作台 output/telemetry/。
+  function track(ev) {
+    try {
+      var tid = localStorage.getItem('historyai.tid');
+      if (!tid) { tid = Math.random().toString(36).slice(2, 10) + Date.now().toString(36); localStorage.setItem('historyai.tid', tid); }
+      var segs = location.pathname.split('/');
+      var bIdx = segs.indexOf('books');
+      var mb = bIdx >= 0 ? segs[bIdx + 1] : '';
+      var mrel = (bIdx >= 0 && segs[bIdx + 2] === 'releases') ? segs[bIdx + 3] : '';
+      var payload = JSON.stringify({ e: ev, b: data.bookId || mb || '', rel: mrel || '', c: Number(data.chapter) || 0, n: (titles && titles.length) || 0, tid: tid });
+      if (navigator.sendBeacon) navigator.sendBeacon('/api/track', new Blob([payload], { type: 'application/json' }));
+    } catch (e3) { /* 打点失败无感 */ }
+  }
+  var trackSent = {};
+  function trackOnce(ev) { if (!trackSent[ev]) { trackSent[ev] = 1; track(ev); } }
+  function setBar(r) {
+    var s = document.querySelector('.read-progress span'); if (s) s.style.width = (Math.max(0, Math.min(1, r)) * 100) + '%';
+    if (r >= 0.5) trackOnce('half');
+    if (r >= 0.98) trackOnce('finish');
+  }
   function indicator() {
     var el2 = document.querySelector('.page-indicator'); if (el2) el2.textContent = (page + 1) + ' / ' + total + ' 页';
     var loc = document.querySelector('.reader-location');
@@ -229,11 +259,13 @@
   state.chapterTitle = data.chapterTitle;
   state.updatedAt = new Date().toISOString();
   save(); apply();
+  trackOnce('open');
 
   document.querySelectorAll('[data-setting]').forEach(function (b) {
     b.addEventListener('click', function () {
       var name = b.dataset.setting, value = b.dataset.value;
       state[name] = (name === 'width' || name === 'leading') ? Number(value) : value;
+      if (name === 'theme') state.themeChosen = true; // 手选后不再跟随系统
       save(); apply(); layout(true);
     });
   });
@@ -272,6 +304,30 @@
     if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); flip(1); }
     else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); flip(-1); }
   });
+  // v4.86 触摸翻页（第一期）：横滑 >56px 翻页；轻点屏幕左右 22% 区域翻页。
+  // 选中文字（书签流程）、点在链接/按钮上、滚动模式一律不劫持。
+  var tx = 0, ty = 0, tt = 0;
+  addEventListener('touchstart', function (e) {
+    if (!e.touches || e.touches.length !== 1) return;
+    tx = e.touches[0].clientX; ty = e.touches[0].clientY; tt = Date.now();
+  }, { passive: true });
+  addEventListener('touchend', function (e) {
+    if (state.mode !== 'page') return;
+    var c = e.changedTouches && e.changedTouches[0]; if (!c) return;
+    try { if (window.getSelection && String(window.getSelection())) return; } catch (e4) {}
+    var el5 = e.target;
+    while (el5 && el5 !== document.body) {
+      if (el5.tagName === 'A' || el5.tagName === 'BUTTON' || el5.tagName === 'INPUT' || el5.tagName === 'LABEL') return;
+      el5 = el5.parentNode;
+    }
+    var dx = c.clientX - tx, dy = c.clientY - ty, dt = Date.now() - tt;
+    if (dt < 600 && Math.abs(dx) > 56 && Math.abs(dy) < 48) { flip(dx < 0 ? 1 : -1); return; }
+    if (dt < 350 && Math.abs(dx) < 8 && Math.abs(dy) < 8) {
+      var xr = c.clientX / innerWidth;
+      if (xr < 0.22) flip(-1);
+      else if (xr > 0.78) flip(1);
+    }
+  }, { passive: true });
   var rsz = null;
   addEventListener('resize', function () { clearTimeout(rsz); rsz = setTimeout(function () { layout(true); }, 150); });
   layout(false);
