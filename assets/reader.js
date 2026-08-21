@@ -111,6 +111,14 @@
   // ---- 外壳：进度条 / 顶栏 / 目录抽屉 / 设置面板 ----
   var titles = Array.isArray(data.chapterTitles) ? data.chapterTitles : [];
   var chapterLabel = data.lang === 'en' ? 'Chapter ' + (Number(data.chapter) + 1) : '第 ' + (Number(data.chapter) + 1) + ' 章';
+  // v4.91 阅读器外壳英文（按书语言）：中文串零改动，EN 书渲染前过词表
+  var SHELL_EN = [['返回书库','Back to library'],['书库','Library'],['目录','Contents'],['阅读设置','Reading settings'],['翻页','Paging'],['滚动','Scroll'],['主题','Theme'],['纸张','Paper'],['白色','White'],['夜间','Night'],['字号','Font size'],['行距','Leading'],['紧凑','Tight'],['舒适','Cozy'],['宽松','Loose'],['版心','Width'],['窄','Narrow'],['中','Medium'],['宽','Wide'],['上一章','Previous'],['下一章','Next chapter'],[' 章',' chapters'],[' 页',' pages'],['设置','Settings']];
+  function loc(html) {
+    if (data.lang !== 'en') return html;
+    var out = String(html);
+    for (var li = 0; li < SHELL_EN.length; li++) out = out.split(SHELL_EN[li][0]).join(SHELL_EN[li][1]);
+    return out;
+  }
   var homeHref = L.home || '';
   var detailHref = L.detail || '';
 
@@ -118,10 +126,10 @@
   var tools = ''
     + '<button class="icon-button text" type="button" data-toggle-settings title="字体与排版">字体</button>'
     + (detailHref ? '<a class="icon-button text" href="' + esc(detailHref) + '" title="回到本书封面">封面</a>' : '')
-    + (homeHref ? '<a class="icon-button text" href="' + esc(homeHref) + '" title="返回书库">书库</a>' : '');
+    + (homeHref ? loc('<a class="icon-button text" href="' + esc(homeHref) + '" title="返回书库">书库</a>') : '');
   var bar = h('header', 'reader-bar', '<div class="reader-bar-inner">'
     + '<div class="reader-bar-left">'
-    + (titles.length ? '<button class="icon-button text" type="button" data-toggle-drawer>目录</button>' : '')
+    + (titles.length ? loc('<button class="icon-button text" type="button" data-toggle-drawer>目录</button>') : '')
     + '<a class="reader-book" href="' + esc(detailHref || homeHref || '#') + '"><strong>' + esc(data.title) + '</strong><small>' + esc(data.author || '未署名') + '</small></a>'
     + '</div>'
     + '<div class="reader-bar-center"><span class="reader-location">' + esc(isChapter ? chapterLabel + ' · ' + (data.chapterTitle || '') : '') + '</span></div>'
@@ -134,16 +142,16 @@
       return '<a class="chapter-link' + (i === Number(data.chapter) ? ' active' : '') + '" href="' + esc(chapterHref(i)) + '">'
         + '<span>' + String(i + 1).padStart(2, '0') + '</span><span>' + esc(t) + '</span></a>';
     }).join('');
-    drawer = h('aside', 'chapter-drawer', '<div class="drawer-head"><strong>目录</strong><span>' + titles.length + ' 章'
-      + (isChapter ? ' · 当前第 ' + (Number(data.chapter) + 1) + ' 章' : '') + '</span></div><nav class="chapter-list">' + rows + '</nav>');
+    drawer = h('aside', 'chapter-drawer', loc('<div class="drawer-head"><strong>目录</strong><span>' + titles.length + ' 章'
+      + (isChapter ? ' · 当前第 ' + (Number(data.chapter) + 1) + ' 章' : '') + '</span></div><nav class="chapter-list">' + rows + '</nav>'));
   }
 
-  var settings = h('section', 'settings', '<strong>阅读设置</strong>'
+  var settings = h('section', 'settings', loc('<strong>阅读设置</strong>'
     + '<div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div>'
     + '<div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div>'
     + '<div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div>'
     + '<div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div>'
-    + '<div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div>');
+    + '<div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div>'));
   settings.hidden = true;
   var mask = h('div', 'drawer-mask');
 
@@ -157,8 +165,8 @@
   // 底部章间导航（翻页模式下由 CSS 隐藏；滚动模式与无脚本回退时可用）
   var navHost = document.querySelector('[data-chapter-nav]');
   if (navHost && isChapter) {
-    var prev = Number(data.chapter) > 0 ? '<a href="' + esc(chapterHref(Number(data.chapter) - 1)) + '">上一章</a>' : '<span></span>';
-    var next = Number(data.chapter) + 1 < titles.length ? '<a href="' + esc(chapterHref(Number(data.chapter) + 1)) + '">下一章</a>' : '<span></span>';
+    var prev = Number(data.chapter) > 0 ? loc('<a href="' + esc(chapterHref(Number(data.chapter) - 1)) + '">上一章</a>') : '<span></span>';
+    var next = Number(data.chapter) + 1 < titles.length ? loc('<a href="' + esc(chapterHref(Number(data.chapter) + 1)) + '">下一章</a>') : '<span></span>';
     navHost.innerHTML = prev + '<span class="nav-home">'
       + (detailHref ? '<a href="' + esc(detailHref) + '">封面</a>' : '')
       + (homeHref ? '<a href="' + esc(homeHref) + '">书库</a>' : '')
@@ -282,9 +290,9 @@
     return chapterChars.en ? ('~' + mins + ' min left') : ('本章剩约 ' + mins + ' 分钟');
   }
   function indicator() {
-    var el2 = document.querySelector('.page-indicator'); if (el2) el2.textContent = (page + 1) + ' / ' + total + ' 页 · ' + remainText(total > 1 ? page / (total - 1) : 1);
+    var el2 = document.querySelector('.page-indicator'); if (el2) el2.textContent = (page + 1) + ' / ' + total + (data.lang === 'en' ? ' pages · ' : ' 页 · ') + remainText(total > 1 ? page / (total - 1) : 1);
     var loc = document.querySelector('.reader-location');
-    if (loc && state.mode === 'page') loc.textContent = chapterLabel + ' · ' + (data.chapterTitle || '') + ' · ' + (page + 1) + '/' + total + ' 页';
+    if (loc && state.mode === 'page') loc.textContent = chapterLabel + ' · ' + (data.chapterTitle || '') + ' · ' + (page + 1) + '/' + total + (data.lang === 'en' ? ' pages' : ' 页');
   }
   function layout(keepRatio) {
     root.dataset.rmode = state.mode;
