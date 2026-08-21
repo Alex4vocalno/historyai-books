@@ -7,19 +7,31 @@
  * 现在外壳由本文件在运行时构建，全站共用一份；改外壳只需更新本文件。
  */
 (function () {
-  // v4.84 客户端段落精排（用户定调：精排放客户端而非服务器推送——共享资产
-  // 改一次即覆盖全部存量页面，含旧 release；服务器渲染层精排保留，双方算法
-  // 同口径且幂等，已精排的页面在这里自然无事可做）。规则与引擎侧一致：
-  // 纯文本长段按句贪心装包（zh>250字→~160字/段，en>150词→~100词/段），
-  // 拼接校验不过或含内联标签的段一律不动。须在分页 layout 之前执行。
+  // v4.85 客户端段落精排 REFLOW_V2（与引擎 paragraph-reflow 同口径，改动须两侧同步）：
+  // DP+词汇衔接度断段——句首话语标记/对话起手强断，相邻句字符重叠度低宜断、
+  // 高不宜断；DP 全局求最优断点集。只动纯文本长段，句子切片重组必然无损。
   (function reflowParagraphs() {
     var root = document.querySelector('.reader-content');
     if (!root) return;
+    var DIS_ZH = /^(然而|但|不过|于是|因此|所以|此后|随后|同时|与此同时|次年|同年|数年后|多年以后|几天后|第二天|首先|其次|再次|最后|总之|换言之|事实上|此外|另一方面|回到|再看|值得注意|更重要|问题在于|「|“)/;
+    var DIS_EN = /^(However|But|Yet|Then|Moreover|Meanwhile|Later|Afterwards|First|Second|Finally|In fact|Instead|Nevertheless|On the other hand|")/i;
     function cjkLen(s) { return (s.match(/[一-鿿]/g) || []).length; }
     function wordLen(s) { return (s.match(/[A-Za-z][A-Za-z'-]*/g) || []).length; }
+    function tokenSet(s, en) {
+      var arr = en ? (s.toLowerCase().match(/[a-z]{3,}/g) || []) : (s.match(/[一-鿿]/g) || []);
+      var set = {}; var size = 0;
+      for (var i = 0; i < arr.length; i++) { if (!set[arr[i]]) { set[arr[i]] = 1; size++; } }
+      return { set: set, size: size };
+    }
+    function overlap(a, b) {
+      if (!a.size || !b.size) return 0;
+      var inter = 0;
+      for (var k in a.set) if (b.set[k]) inter++;
+      return inter / Math.min(a.size, b.size);
+    }
     var paras = Array.prototype.slice.call(root.querySelectorAll('p'));
-    for (var i = 0; i < paras.length; i++) {
-      var p = paras[i];
+    for (var pi = 0; pi < paras.length; pi++) {
+      var p = paras[pi];
       if (p.children.length) continue;
       var t = p.textContent || '';
       var en = wordLen(t) > cjkLen(t) * 2;
@@ -27,22 +39,51 @@
       var re = en
         ? /[^.!?]*[.!?]+["')]]*s*|[^.!?]+$/g
         : /[^。！？；…]*[。！？；…]+[」』”’】)]]*|[^。！？；…]+$/g;
-      var parts = t.match(re) || [];
-      if (parts.join('') !== t || parts.length < 2) continue;
-      var target = en ? 100 : 160;
-      var minC = en ? 15 : 30;
+      var sen = t.match(re) || [];
+      if (sen.join('') !== t || sen.length < 3) continue;
+      var n = sen.length;
       var len = en ? wordLen : cjkLen;
-      var chunks = [], cur = '';
-      for (var j = 0; j < parts.length; j++) {
-        if (cur && len(cur) + len(parts[j]) > target && len(cur) >= minC) { chunks.push(cur); cur = parts[j]; }
-        else cur += parts[j];
+      var L = [], sets = [];
+      for (var si = 0; si < n; si++) { L.push(len(sen[si])); sets.push(tokenSet(sen[si], en)); }
+      var target = en ? 90 : 140, minLen = en ? 25 : 50, hardMax = en ? 150 : 240;
+      var attract = [];
+      for (var ai = 0; ai < n; ai++) attract.push(0);
+      for (var bi = 0; bi < n - 1; bi++) {
+        if ((en ? DIS_EN : DIS_ZH).test(sen[bi + 1].replace(/^s+/, ''))) attract[bi] += 2.2;
+        var ov = overlap(sets[bi], sets[bi + 1]);
+        if (ov < 0.12) attract[bi] += 0.9;
+        else if (ov > 0.35) attract[bi] -= 1.4;
       }
-      if (cur) { if (chunks.length && len(cur) < minC) chunks[chunks.length - 1] += cur; else chunks.push(cur); }
-      if (chunks.length < 2 || chunks.join('') !== t) continue;
+      var dp = [0], back = [0];
+      for (var di = 1; di <= n; di++) { dp.push(Infinity); back.push(0); }
+      for (var i2 = 1; i2 <= n; i2++) {
+        var sum = 0;
+        for (var j2 = i2; j2 >= 1; j2--) {
+          sum += L[j2 - 1];
+          if (sum > hardMax * 1.7 && j2 < i2) break;
+          var cost = Math.pow((sum - target) / target, 2) * 2;
+          if (sum < minLen) cost += 3;
+          if (sum > hardMax) cost += 4 + (sum - hardMax) / target;
+          var bonus = i2 < n ? attract[i2 - 1] * 0.8 : 0;
+          var total = dp[j2 - 1] + cost - bonus;
+          if (total < dp[i2]) { dp[i2] = total; back[i2] = j2 - 1; }
+        }
+      }
+      var ends = [];
+      var cur = n;
+      while (cur > 0) { ends.push(cur); cur = back[cur]; }
+      ends.reverse();
+      if (ends.length < 2) continue;
+      var chunks = [], st = 0, ok = true, joined = '';
+      for (var ei = 0; ei < ends.length; ei++) {
+        var piece = sen.slice(st, ends[ei]).join('');
+        chunks.push(piece); joined += piece; st = ends[ei];
+      }
+      if (joined !== t) continue;
       var frag = document.createDocumentFragment();
-      for (var k = 0; k < chunks.length; k++) {
+      for (var ci = 0; ci < chunks.length; ci++) {
         var np = document.createElement('p');
-        np.textContent = chunks[k];
+        np.textContent = chunks[ci];
         frag.appendChild(np);
       }
       p.parentNode.replaceChild(frag, p);
