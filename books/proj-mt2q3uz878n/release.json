@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260822103357657_52ad1f417f",
+  "projectId": "proj-mt2q3uz878n",
+  "manuscriptVersionId": "mv_7fb1ec1d38b7743e",
+  "contentHash": "7fb1ec1d38b7743e0517fde9bc81fdee8fcd324e05ecfc3af563edc2c18b2acb",
+  "title": "灶台千年：中国古代日常饮食变迁史",
+  "subtitle": "从青铜鼎到随园食单，一饭一蔬里的中国社会史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "一只青铜鼎在柴火上咕嘟作响，里面煮的是小米和野菜——这是三千年前某个黄昏的晚餐。同一片天空下，长安西市的胡饼摊前挤满了刚下值的差役，汴梁的夜市里有人为一碗冷淘穿城而过，泉州的厨子正把刚靠岸的胡椒碾进肉羹。从先秦祭祀中一丝不苟的牺牲陈列，到《随园食单》里袁枚对一块东坡肉火候的斤斤计较，中国人把秩序、欲望、迁徙和乡愁，都炖进了锅里。这本书从灶台边写起，端上来的不是菜谱，而是一桌热气腾腾的文明史。",
+  "category": "中国史",
+  "tags": [
+    "饮食史",
+    "日常生活",
+    "社会变迁",
+    "物质文化",
+    "中国古代",
+    "古代生活"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 13,
+    "units": 119941,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-21T10:45:02.539Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-22T10:33:27.105Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "青铜鼎中的秩序",
+      "units": 8435
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "五味调和的天道",
+      "units": 8910
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "胡风入馔",
+      "units": 7638
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "长安的烟火气",
+      "units": 7920
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "汴梁滋味",
+      "units": 8470
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "海外来的灶神",
+      "units": 11384
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "纸上烟云录",
+      "units": 9425
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "随园食单的法则",
+      "units": 9564
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "一席之间的乾坤",
+      "units": 8435
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "一碗之间的故乡",
+      "units": 9913
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "庶民之味",
+      "units": 9572
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "灶神的黄昏",
+      "units": 9785
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "灶火的余温",
+      "units": 10490
+    }
+  ],
+  "publishedAt": "2026-08-22T10:33:57.661Z"
+}
