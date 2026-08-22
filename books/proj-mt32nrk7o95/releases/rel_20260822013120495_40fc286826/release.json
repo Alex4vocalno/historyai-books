@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260822013120495_40fc286826",
+  "projectId": "proj-mt32nrk7o95",
+  "manuscriptVersionId": "mv_cf5d9b2c8b1545a7",
+  "contentHash": "cf5d9b2c8b1545a786dcd2148fb10c0cfef86e4ddea7d68d2c5a512c1892b96a",
+  "title": "面具之下：女神异闻录的产品进化史",
+  "subtitle": "",
+  "authorDisplayName": "Sarah",
+  "description": "核心问题：女神异闻录如何从小众JRPG蜕变为全球文化符号？核心论点：产品迭代中的'日常与非日常'张力设计是其破圈关键。范围：P1至P5R的开发决策与市场反馈。主要矛盾：硬核粉丝诉求与大众化妥协、系列传统与创新风险。写作重点：每章聚焦一代产品的关键转折点，结合制作人访谈与销售数据还原决策现场。",
+  "category": "游戏史",
+  "tags": [
+    "游戏史",
+    "女神异闻录"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 221579,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-1",
+    "createdAt": "2026-08-22T01:30:43.680Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-22T01:30:36.250Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "旧约的余烬",
+      "units": 8376
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "面具的铸模",
+      "units": 8296
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "裂痕中的信徒",
+      "units": 7717
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "罪的流行代价",
+      "units": 8346
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "罚的成人回撤",
+      "units": 8964
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "向死而生的倒计时",
+      "units": 8084
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "日历上的革命",
+      "units": 8457
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "深夜电视的诞生",
+      "units": 8134
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "雾中的全球化预演",
+      "units": 8551
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "黄金的掌上延伸",
+      "units": 8649
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "心之怪盗的蛰伏",
+      "units": 8376
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "东京的征服与反噬",
+      "units": 10202
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "怪盗团的全球征服",
+      "units": 10497
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "衍生品的帝国版图",
+      "units": 11869
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "皇家版的加法哲学",
+      "units": 9694
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "沉默的本家危机",
+      "units": 8582
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "重置策略的攻防战",
+      "units": 8385
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "跨媒体的叙事失控",
+      "units": 8345
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "引擎的世代断崖",
+      "units": 7974
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "铁三角的离散",
+      "units": 8359
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "日常的引力场",
+      "units": 8059
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "东京的全球回响",
+      "units": 10044
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "怪盗团的余波",
+      "units": 8464
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "面具的未来",
+      "units": 11355
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "张力的遗产",
+      "units": 7800
+    }
+  ],
+  "publishedAt": "2026-08-22T01:31:20.541Z"
+}
