@@ -1,5 +1,36 @@
 [
   {
+    "id": "proj-mt2umnyxktw",
+    "projectId": "proj-mt2umnyxktw",
+    "releaseId": "rel_20260822030205181_65f1d7f79c",
+    "title": "New York Subway Nightmare",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "中国史",
+    "tags": [
+      "中国史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "核心问题：地铁涂鸦如何从破坏行为变为文化符号？核心论点：涂鸦是边缘青年对城市空间排斥的视觉反抗。范围：1970-1989年纽约地铁涂鸦运动。主要矛盾：艺术表达与公共秩序、亚文化认同与主流污名化。写作重点：以代表性涂鸦艺术家个案串联，还原创作现场与执法博弈细节。",
+    "chapterCount": 10,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-2",
+      "createdAt": "2026-08-21T12:54:57.585Z"
+    },
+    "coverUrl": "books/proj-mt2umnyxktw/releases/rel_20260822030205181_65f1d7f79c/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt2umnyxktw/index.html",
+    "publishedAt": "2026-08-22T03:02:05.193Z",
+    "firstPublishedAt": "2026-08-22T03:02:05.193Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt32nrk7o95",
     "projectId": "proj-mt32nrk7o95",
     "releaseId": "rel_20260822013120495_40fc286826",

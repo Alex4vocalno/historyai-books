@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260822030205181_65f1d7f79c",
+  "projectId": "proj-mt2umnyxktw",
+  "manuscriptVersionId": "mv_7dc476231c088dbd",
+  "contentHash": "7dc476231c088dbd4cee1b2b861ba626a8d47cd429f5eb87fb11691cffab140e",
+  "title": "New York Subway Nightmare",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "核心问题：地铁涂鸦如何从破坏行为变为文化符号？核心论点：涂鸦是边缘青年对城市空间排斥的视觉反抗。范围：1970-1989年纽约地铁涂鸦运动。主要矛盾：艺术表达与公共秩序、亚文化认同与主流污名化。写作重点：以代表性涂鸦艺术家个案串联，还原创作现场与执法博弈细节。",
+  "category": "中国史",
+  "tags": [
+    "中国史",
+    "历史",
+    "非虚构"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 10,
+    "units": 106203,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-2",
+    "createdAt": "2026-08-21T12:54:57.585Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-22T03:01:49.643Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "车厢内壁的签名",
+      "units": 9057
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "车场围栏上的缺口",
+      "units": 9319
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "喷漆罐里的字母战争",
+      "units": 8863
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "整车厢的夜间作业",
+      "units": 10230
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "车站与画廊之间的目光",
+      "units": 13927
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "酸浴池与铁丝网",
+      "units": 13557
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "围栏内外的博弈",
+      "units": 12054
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "最后一列涂鸦列车",
+      "units": 10792
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "白墙上的喷漆痕迹",
+      "units": 9681
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "列车驶过之后的城市",
+      "units": 8723
+    }
+  ],
+  "publishedAt": "2026-08-22T03:02:05.193Z"
+}
