@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt3r3n7tbl1",
+    "projectId": "proj-mt3r3n7tbl1",
+    "releaseId": "rel_20260822102415515_70376e8a16",
+    "title": "引擎纪元：Unreal、Unity与id Tech的三代范式革命",
+    "subtitle": "一部游戏引擎的断代史，三代技术范式的隐秘战争",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "游戏史",
+    "tags": [
+      "游戏引擎",
+      "计算机图形学",
+      "技术史",
+      "游戏产业",
+      "实时渲染",
+      "科技史"
+    ],
+    "description": "1996年，约翰·卡马克在Quake引擎里埋下第一块基石时，没人能预见这将开启一场持续三十年的范式革命。从id Tech的渲染圣杯到Unreal的通用化野心，从Unity的民主化宣言到移动时代的熔炉重铸——每一次引擎代际更替，都是一次渲染哲学、工具逻辑与硬件契约的集体断裂。本书以标志性技术发布为锚点，潜入GDC演讲现场、源码注释深处与开发者闭门会议，还原那些决定了亿万人屏幕体验的关键决策。当光追圣杯终于落地，当人工智能的阴影爬上管线，当引擎税与平台之矛重塑产业地貌——我们才惊觉，定义“下一代”的从来不是代码本身，而是技术理想主义与商业现实之间永恒的角力。",
+    "chapterCount": 38,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-08-22T08:02:47.332Z"
+    },
+    "coverUrl": "books/proj-mt3r3n7tbl1/releases/rel_20260822102415515_70376e8a16/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt3r3n7tbl1/index.html",
+    "publishedAt": "2026-08-22T10:24:15.520Z",
+    "firstPublishedAt": "2026-08-22T10:24:15.520Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt2umnyxktw",
     "projectId": "proj-mt2umnyxktw",
     "releaseId": "rel_20260822031337586_6c358eb953",

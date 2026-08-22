@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260822102415515_70376e8a16",
+  "projectId": "proj-mt3r3n7tbl1",
+  "manuscriptVersionId": "mv_c6efd4acbd4a1b69",
+  "contentHash": "c6efd4acbd4a1b69530e03e315ff05254aea8f07c9e9f3225cabe6d8ba3b4584",
+  "title": "引擎纪元：Unreal、Unity与id Tech的三代范式革命",
+  "subtitle": "一部游戏引擎的断代史，三代技术范式的隐秘战争",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1996年，约翰·卡马克在Quake引擎里埋下第一块基石时，没人能预见这将开启一场持续三十年的范式革命。从id Tech的渲染圣杯到Unreal的通用化野心，从Unity的民主化宣言到移动时代的熔炉重铸——每一次引擎代际更替，都是一次渲染哲学、工具逻辑与硬件契约的集体断裂。本书以标志性技术发布为锚点，潜入GDC演讲现场、源码注释深处与开发者闭门会议，还原那些决定了亿万人屏幕体验的关键决策。当光追圣杯终于落地，当人工智能的阴影爬上管线，当引擎税与平台之矛重塑产业地貌——我们才惊觉，定义“下一代”的从来不是代码本身，而是技术理想主义与商业现实之间永恒的角力。",
+  "category": "游戏史",
+  "tags": [
+    "游戏引擎",
+    "计算机图形学",
+    "技术史",
+    "游戏产业",
+    "实时渲染",
+    "科技史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 38,
+    "units": 353527,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-08-22T08:02:47.332Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-22T10:16:29.945Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "屏幕之前的战争",
+      "units": 8054
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "共享的幻觉",
+      "units": 8615
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "深渊中的坐标系",
+      "units": 10218
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "光与表面的契约",
+      "units": 8710
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "可编程性的裂缝",
+      "units": 10337
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "工具的重量",
+      "units": 9894
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "通用模拟的胎动",
+      "units": 9203
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "授权的边界",
+      "units": 10904
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "民主化的宣言",
+      "units": 10097
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "第七世代的熔炉",
+      "units": 8651
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "多核的诅咒",
+      "units": 7551
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "失败的圣杯",
+      "units": 8395
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "移动熔炉",
+      "units": 10051
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "延迟的征服",
+      "units": 7719
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "实时光照的圣杯",
+      "units": 7870
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "数据导向的逆流",
+      "units": 8048
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "程序化星火",
+      "units": 14159
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "通用化的引力场",
+      "units": 10966
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "管线即疆域",
+      "units": 12183
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "编辑器里的议会",
+      "units": 9634
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "着色器的巴别塔",
+      "units": 10021
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "物理的虚构边界",
+      "units": 8610
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "网络的影子世界",
+      "units": 8193
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "订阅制与引擎税",
+      "units": 8393
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "平台之矛",
+      "units": 8036
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "上市与异化",
+      "units": 8423
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "建筑师的迁徙",
+      "units": 7358
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "开源的逆袭",
+      "units": 7959
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "云端的幻象",
+      "units": 7649
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "人工智能的阴影",
+      "units": 8397
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "产业重组（八）：新基建的暗面",
+      "units": 9059
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "社会后果（一）：教室里的引擎",
+      "units": 11278
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "论断是：2020至2024年间",
+      "units": 7872
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "社会后果（三）：数字孪生的政治",
+      "units": 8577
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "社会后果（四）：资产市场与劳动异化",
+      "units": 8820
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "社会后果（五）：认知的边疆",
+      "units": 10727
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "地缘技术的暗流",
+      "units": 13192
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "永恒的中间件",
+      "units": 9704
+    }
+  ],
+  "publishedAt": "2026-08-22T10:24:15.520Z"
+}
