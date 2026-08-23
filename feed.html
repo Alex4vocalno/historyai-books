@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>社区动态 · EVORON AI电子书城</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+:root{--bg:#f4f1e8;--panel:#fbf8f0;--ink:#282b2d;--muted:#777a77;--line:#ddd9cd;--accent:#0a9b6d;--gold:#e8a33d;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);min-height:100vh}
+.wrap{max-width:860px;margin:0 auto;padding:34px 20px 80px}
+.top{display:flex;align-items:center;gap:16px;margin-bottom:22px}
+.top h1{margin:0;font-size:24px}
+.top a{color:var(--accent);font-size:14px;text-decoration:none}
+.top a.right{margin-left:auto}
+.sect{margin:26px 0 10px;font-size:15px;font-weight:700}
+.frow{padding:13px 16px;margin-bottom:10px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.frow .who{font-size:13px;color:var(--muted)}
+.frow .who b{color:var(--ink)}
+.frow .who .stars{color:var(--gold)}
+.frow .quote{margin:7px 0 0;padding:6px 12px;border-left:3px solid var(--accent);color:var(--muted);font-size:13px;line-height:1.7}
+.frow .txt{margin:7px 0 0;font-size:14.5px;line-height:1.75}
+.frow a.bk{color:var(--accent);text-decoration:none}
+.board{margin-top:8px;border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden}
+.brow{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:14px}
+.brow:last-child{border-bottom:0}
+.brow .rank{width:26px;color:var(--muted);font-variant-numeric:tabular-nums}
+.brow .rank.hot{color:var(--gold);font-weight:800}
+.brow .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.brow small{color:var(--muted)}
+.empty{padding:36px 0;color:var(--muted);text-align:center;font-size:14.5px}
+@media(max-width:620px){.wrap{padding:22px 14px 60px}}
+</style></head><body>
+<div class="wrap">
+  <div class="top"><h1>社区动态</h1><a href="/index.html">书库</a><a href="/shelf.html">我的书架</a><a class="right" href="#board">读书周榜 ↓</a></div>
+  <div id="feed"><div class="empty">正在加载动态…</div></div>
+  <div class="sect" id="board">本周读书榜</div>
+  <div id="boardBox" class="board"><div class="empty">加载中…</div></div>
+</div>
+<script>
+(function(){
+  function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
+  function bookLink(r){var a=el('a','bk','《'+(r.bookTitle||r.bookId)+'》');a.href='/books/'+encodeURIComponent(r.bookId)+'/';return a;}
+  fetch('/api/reader/feed').then(function(r){return r.json();}).then(function(d){
+    var box=document.getElementById('feed');box.innerHTML='';
+    var rows=(d&&d.rows)||[];
+    if(!rows.length){box.appendChild(el('div','empty','还没有动态。去读一本书，划下第一条想法。'));return;}
+    rows.forEach(function(r){
+      var c=el('div','frow');
+      var who=el('div','who');
+      var b=el('b','',r.name||'读者');who.appendChild(b);
+      var verb=r.type==='review'?' 点评了 ':(r.type==='finished'?' 读完了 ':' 在 ');
+      who.appendChild(document.createTextNode(verb));
+      who.appendChild(bookLink(r));
+      if(r.type==='note')who.appendChild(document.createTextNode(' 留下想法'));
+      if(r.type==='review'&&r.rating){var st=el('span','stars',' '+'★'.repeat(r.rating));who.appendChild(st);}
+      who.appendChild(document.createTextNode(' · '+String(r.at||'').slice(0,10)));
+      c.appendChild(who);
+      if(r.quote)c.appendChild(el('div','quote',r.quote));
+      if(r.text)c.appendChild(el('div','txt',r.text));
+      box.appendChild(c);
+    });
+  }).catch(function(){document.getElementById('feed').innerHTML='<div class="empty">动态暂时打不开。</div>';});
+  fetch('/api/reader/leaderboard').then(function(r){return r.json();}).then(function(d){
+    var box=document.getElementById('boardBox');box.innerHTML='';
+    var rows=(d&&d.rows)||[];
+    if(!rows.length){box.appendChild(el('div','empty','本周还没有登录阅读记录，读起来就能上榜。'));return;}
+    rows.forEach(function(r,i){
+      var c=el('div','brow');
+      c.appendChild(el('span','rank'+(i<3?' hot':''),String(i+1)));
+      c.appendChild(el('span','nm',r.name));
+      var s=el('small','',(r.finishes?('完读 '+r.finishes+' 章 · '):'')+'读 '+r.chapters+' 章次');
+      c.appendChild(s);
+      box.appendChild(c);
+    });
+  }).catch(function(){});
+})();
+</script></body></html>
