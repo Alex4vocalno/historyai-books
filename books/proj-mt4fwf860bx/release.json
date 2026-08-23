@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260823034818696_ab39676716",
+  "projectId": "proj-mt4fwf860bx",
+  "manuscriptVersionId": "mv_aebaf7103c32ccf1",
+  "contentHash": "aebaf7103c32ccf15f97cedf1c1ddaf4b843158d2a1aec236cd89a32da202ab9",
+  "title": "左宗棠西征：收复帝国的边疆",
+  "subtitle": "一场被财政与海防争论包围的远征，一次帝国边疆的最后重构",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1875年，当朝廷为海防与塞防争执不休时，左宗棠已抬棺出关，身后是捉襟见肘的国库和列强环伺的海疆。从兰州到伊犁，他靠借洋债、办屯田、修粮道，把一支缺饷少械的军队推进到天山南北。达坂城下炮声未歇，阿古柏政权土崩瓦解；伊犁河畔谈判桌前，曾纪泽据理力争。这场西征不只是收复失地，更是晚清在极限压力下最后一次有效的国家动员。左宗棠在奏折里写下的每一个字，都关乎前线数万人的生死与帝国版图的存续。",
+  "category": "中国史",
+  "tags": [
+    "左宗棠",
+    "晚清军事",
+    "新疆建省",
+    "塞防海防之争",
+    "收复伊犁",
+    "世界史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 312714,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-22T17:13:36.564Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-23T03:47:55.767Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "湘阴农书",
+      "units": 10323
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "湖南幕府经世",
+      "units": 10479
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "楚军别帜",
+      "units": 9997
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "东南底定",
+      "units": 10441
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "船政始末",
+      "units": 10484
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "移督陕甘",
+      "units": 10425
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "塞防不可弃",
+      "units": 11163
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "饷从海上来",
+      "units": 10183
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "粮道出关",
+      "units": 10492
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "北疆破竹",
+      "units": 10472
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "达坂城下",
+      "units": 10481
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "阿古柏败亡",
+      "units": 10512
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "南疆门户",
+      "units": 10545
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "八城归籍",
+      "units": 13846
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "伊犁阴云",
+      "units": 10476
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "舆榇出关",
+      "units": 9933
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "杨柳三千里",
+      "units": 10514
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "孤臣落日",
+      "units": 10464
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "军机处里的陌生人",
+      "units": 9789
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "孤拔海上",
+      "units": 10052
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "星陨福州",
+      "units": 9879
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "遗疏入京",
+      "units": 10475
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "十年后的新疆",
+      "units": 10481
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "最后的塞防论",
+      "units": 9345
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "史馆中的西征",
+      "units": 9447
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "教科书里的边疆",
+      "units": 10882
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "民国边政学中的左氏遗产",
+      "units": 10458
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "共和国史学中的收复叙事",
+      "units": 10036
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "伊犁河对岸的记忆",
+      "units": 10311
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "左文襄公的两种遗产",
+      "units": 10329
+    }
+  ],
+  "publishedAt": "2026-08-23T03:48:18.702Z"
+}
