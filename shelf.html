@@ -21,11 +21,17 @@
 .card button.rm{flex:none;border:0;background:none;color:var(--muted);font-size:13px;cursor:pointer}
 .empty{padding:40px 0;color:var(--muted);text-align:center;font-size:14.5px;line-height:2}
 .empty a{color:var(--accent)}
+.nrow{display:flex;gap:10px;align-items:baseline;padding:9px 14px;margin-bottom:6px;border:1px solid var(--line);border-radius:9px;background:var(--panel);font-size:13.5px}
+.nrow.unread{border-color:color-mix(in srgb,var(--accent) 40%,var(--line))}
+.nrow .nt{color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nrow .nt b{color:var(--ink)}
+.nrow a{flex:none;color:var(--accent);text-decoration:none;font-size:13px}
 @media(max-width:620px){.wrap{padding:22px 14px 60px}.card{padding:12px}}
 </style></head><body>
 <div class="wrap">
   <div class="top"><h1>我的书架</h1><a href="/index.html">← 返回书库</a></div>
   <p class="me" id="me"></p>
+  <div id="noti"></div>
   <div id="main"><div class="empty">正在打开书架…</div></div>
 </div>
 <script>
@@ -71,6 +77,26 @@
     });
     fetch('/api/reader/profile',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null;}).then(function(p){
       if(p&&p.ok)document.getElementById('me').textContent=p.profile.name+' · 读完 '+p.profile.shelf.finished+' 本 · 想法 '+p.profile.notes+' 条 · 书评 '+p.profile.reviews+' 条';
+    }).catch(function(){});
+    // v5.8 通知箱：被回复/被赞；打开书架即视为已读（小红点熄灭）
+    fetch('/api/reader/notifications',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null;}).then(function(n){
+      if(!(n&&n.ok&&n.rows&&n.rows.length))return;
+      var box=document.getElementById('noti');
+      box.appendChild(el('div','sect','通知'));
+      n.rows.slice(0,20).forEach(function(row){
+        var c=el('div','nrow'+(row.read?'':' unread'));
+        var t=el('span','nt');
+        var verb=row.type==='like'?'赞了你的':'回复了你的';
+        var what=row.kind==='review'?'书评':(row.kind==='reply'?'回复':'想法');
+        t.innerHTML='<b></b> '+verb+what+(row.text?'：'+row.text.replace(/</g,'&lt;').slice(0,60):'');
+        t.querySelector('b').textContent=row.fromName||'读者';
+        c.appendChild(t);
+        var a=el('a','', row.bookTitle||'去看看');
+        a.href='/books/'+encodeURIComponent(row.bookId)+'/';
+        c.appendChild(a);
+        box.appendChild(c);
+      });
+      if(n.unread>0)fetch('/api/reader/notifications',{method:'POST',credentials:'same-origin'}).catch(function(){});
     }).catch(function(){});
   }).catch(function(){main.innerHTML='';main.appendChild(el('div','empty','书架暂时打不开，稍后再试。'));});
 })();

@@ -417,7 +417,22 @@
     function T(zh, en) { return EN2 ? en : zh; }
     var myUid = null, loggedIn2 = false;
     fetch('/api/auth/me', { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (d) {
-      if (d && d.ok && d.user) { loggedIn2 = true; myUid = d.user.id; }
+      if (d && d.ok && d.user) {
+        loggedIn2 = true; myUid = d.user.id;
+        // v5.8 通知小红点（P2）：有未读时点亮顶栏「书架」，进书架页即清
+        fetch('/api/reader/notifications?countOnly=1', { credentials: 'same-origin' })
+          .then(function (r5) { return r5.ok ? r5.json() : null; })
+          .then(function (n5) {
+            if (n5 && n5.ok && n5.unread > 0) {
+              var sl = document.querySelector('a.icon-button[href="/shelf.html"]');
+              if (sl) {
+                var dot = document.createElement('i');
+                dot.style.cssText = 'display:inline-block;width:7px;height:7px;margin-left:4px;border-radius:50%;background:#e2574f;vertical-align:super';
+                sl.appendChild(dot);
+              }
+            }
+          }).catch(function () {});
+      }
     }).catch(function () {});
     function post2(path2, body2) {
       return fetch(path2, { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify(body2) }).then(function (r) { return r.json(); });
@@ -457,6 +472,19 @@
         it.appendChild(rr);
       });
       var act = el2('div', 'idea-act');
+      // v5.8 点赞（P2）：♥ 幂等 toggle，点亮通知作者
+      var lk = el2('span', '', (item.likedByMe ? '♥ ' : '♡ ') + (Number(item.likeCount) || T('赞', 'Like')));
+      if (item.likedByMe) lk.style.color = 'var(--reader-accent)';
+      lk.onclick = function () {
+        if (!loggedIn2) { alert(T('登录后才能点赞', 'Sign in to like')); return; }
+        post2('/api/book/like', { bookId: data.bookId, kind: kind, id: item.id, bookTitle: data.title || '' }).then(function (r4) {
+          if (r4 && r4.ok) {
+            lk.textContent = (r4.liked ? '♥ ' : '♡ ') + (r4.count || T('赞', 'Like'));
+            lk.style.color = r4.liked ? 'var(--reader-accent)' : '';
+          }
+        });
+      };
+      act.appendChild(lk);
       var rb = el2('span', '', T('回复', 'Reply'));
       rb.onclick = function () {
         if (!loggedIn2) { alert(T('登录后才能回复', 'Sign in to reply')); return; }
@@ -615,8 +643,10 @@
         box.appendChild(finBtn);
         var listBox = el2('div', '');
         box.appendChild(listBox);
+        // v5.8 书评双排序（P2）：最新（默认）/ 最热（点赞数优先）
+        var reviewSort = 'new';
         function loadReviews() {
-          fetch('/api/book/reviews?bookId=' + encodeURIComponent(data.bookId))
+          fetch('/api/book/reviews?bookId=' + encodeURIComponent(data.bookId), { credentials: 'same-origin' })
             .then(function (r) { return r.json(); })
             .then(function (d) {
               if (!(d && d.ok)) return;
@@ -625,12 +655,18 @@
                 var bb = el2('b', '', String(d.avg));
                 agg.appendChild(bb);
                 agg.appendChild(document.createTextNode(' · ' + d.count + T(' 人评分', ' ratings')));
+                var st = el2('span', '', reviewSort === 'hot' ? T(' · 按最热 ↺', ' · by top ↺') : T(' · 按最新 ↺', ' · by newest ↺'));
+                st.style.cursor = 'pointer';
+                st.onclick = function () { reviewSort = reviewSort === 'hot' ? 'new' : 'hot'; loadReviews(); };
+                agg.appendChild(st);
               } else {
                 agg.textContent = T('还没有人评分，做第一个', 'No ratings yet — be the first');
               }
               listBox.innerHTML = '';
               attachReplies(d.reviews, d.replies);
-              d.reviews.forEach(function (rv) { renderItem(listBox, rv, 'review', loadReviews); });
+              var rows3 = d.reviews.slice();
+              if (reviewSort === 'hot') rows3.sort(function (a3, b3) { return (Number(b3.likeCount) || 0) - (Number(a3.likeCount) || 0); });
+              rows3.forEach(function (rv) { renderItem(listBox, rv, 'review', loadReviews); });
               if (typeof layout === 'function') layout(true);
             }).catch(function () {});
         }
