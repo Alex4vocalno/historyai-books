@@ -126,6 +126,7 @@
   var tools = ''
     + '<button class="icon-button text" type="button" data-toggle-settings title="字体与排版">字体</button>'
     + (detailHref ? '<a class="icon-button text" href="' + esc(detailHref) + '" title="回到本书封面">封面</a>' : '')
+    + loc('<a class="icon-button text" href="/shelf.html" title="我的书架">书架</a>')
     + (homeHref ? loc('<a class="icon-button text" href="' + esc(homeHref) + '" title="返回书库">书库</a>') : '');
   var bar = h('header', 'reader-bar', '<div class="reader-bar-inner">'
     + '<div class="reader-bar-left">'
@@ -589,10 +590,29 @@
           if (!loggedIn2) { alert(T('登录后才能评分', 'Sign in to rate')); return; }
           if (!myRating) { alert(T('先点星星打个分', 'Pick a star rating first')); return; }
           post2('/api/book/reviews', { bookId: data.bookId, rating: myRating, text: ta2.value.trim() })
-            .then(function (r2) { if (r2 && r2.ok) loadReviews(); else alert((r2 && r2.error) || T('提交失败', 'Failed')); });
+            .then(function (r2) {
+              if (r2 && r2.ok) {
+                loadReviews();
+                // v5.7 打完分=读完：书架状态顺手置位，不打扰
+                post2('/api/reader/shelf', { bookId: data.bookId, status: 'finished', title: data.title || '' }).catch(function () {});
+                if (finBtn) { finBtn.textContent = T('✓ 已读完', '✓ Finished'); finBtn.disabled = true; }
+              } else alert((r2 && r2.error) || T('提交失败', 'Failed'));
+            });
         };
         row2.appendChild(ta2); row2.appendChild(go2);
         box.appendChild(row2);
+        // v5.7 书架三态（P1）：末章明示「标记读完」，不评分也能收进书架
+        var finBtn = el2('button', 'icon-button text', T('✓ 标记读完（收进我的书架）', '✓ Mark as finished'));
+        finBtn.style.cssText = 'margin-top:10px;border:1px solid var(--reader-line);border-radius:8px';
+        finBtn.onclick = function () {
+          if (!loggedIn2) { alert(T('登录后才能使用书架', 'Sign in to use your shelf')); return; }
+          post2('/api/reader/shelf', { bookId: data.bookId, status: 'finished', title: data.title || '' })
+            .then(function (r3) {
+              if (r3 && r3.ok) { finBtn.textContent = T('✓ 已读完', '✓ Finished'); finBtn.disabled = true; }
+              else alert((r3 && r3.error) || T('操作失败', 'Failed'));
+            });
+        };
+        box.appendChild(finBtn);
         var listBox = el2('div', '');
         box.appendChild(listBox);
         function loadReviews() {

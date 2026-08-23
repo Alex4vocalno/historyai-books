@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的书架 · EVORON AI电子书城</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+:root{--bg:#f4f1e8;--panel:#fbf8f0;--ink:#282b2d;--muted:#777a77;--line:#ddd9cd;--accent:#0a9b6d;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);min-height:100vh}
+.wrap{max-width:860px;margin:0 auto;padding:34px 20px 80px}
+.top{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.top h1{margin:0;font-size:24px}
+.top a{margin-left:auto;color:var(--accent);font-size:14px;text-decoration:none}
+.me{color:var(--muted);font-size:13.5px;margin:0 0 24px}
+.sect{margin:26px 0 10px;font-size:15px;font-weight:700}
+.sect small{color:var(--muted);font-weight:400;margin-left:8px}
+.card{display:flex;align-items:center;gap:14px;padding:14px 16px;margin-bottom:10px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.card .info{min-width:0;flex:1}
+.card .t{font-size:15.5px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .s{margin-top:4px;color:var(--muted);font-size:13px}
+.card a.go{flex:none;padding:7px 14px;border:1px solid var(--line);border-radius:7px;color:var(--accent);font-size:13.5px;text-decoration:none}
+.card button.rm{flex:none;border:0;background:none;color:var(--muted);font-size:13px;cursor:pointer}
+.empty{padding:40px 0;color:var(--muted);text-align:center;font-size:14.5px;line-height:2}
+.empty a{color:var(--accent)}
+@media(max-width:620px){.wrap{padding:22px 14px 60px}.card{padding:12px}}
+</style></head><body>
+<div class="wrap">
+  <div class="top"><h1>我的书架</h1><a href="/index.html">← 返回书库</a></div>
+  <p class="me" id="me"></p>
+  <div id="main"><div class="empty">正在打开书架…</div></div>
+</div>
+<script>
+(function(){
+  var main=document.getElementById('me').parentNode.querySelector('#main');
+  function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
+  function readHref(r){
+    if(r.releaseId&&Number(r.chapter)>=0)return '/books/'+encodeURIComponent(r.bookId)+'/releases/'+encodeURIComponent(r.releaseId)+'/ch-'+(Number(r.chapter)+1)+'.html';
+    return '/books/'+encodeURIComponent(r.bookId)+'/';
+  }
+  function card(r){
+    var c=el('div','card');
+    var info=el('div','info');
+    info.appendChild(el('div','t',r.title||r.bookId));
+    var sub=r.status==='finished'?'已读完':(r.status==='wishlist'?'想读':('读到 '+(r.chapterTitle||('第'+(Number(r.chapter)+1)+'章'))));
+    info.appendChild(el('div','s',sub+(r.updatedAt?' · '+String(r.updatedAt).slice(0,10):'')));
+    c.appendChild(info);
+    var go=el('a','go',r.status==='wishlist'?'开始读':(r.status==='finished'?'再读':'继续读'));
+    go.href=readHref(r);c.appendChild(go);
+    var rm=el('button','rm','移出');
+    rm.onclick=function(){
+      fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:r.bookId,status:'remove'})})
+        .then(function(x){return x.json();}).then(function(d){if(d&&d.ok)c.remove();});
+    };
+    c.appendChild(rm);
+    return c;
+  }
+  fetch('/api/reader/shelf',{credentials:'same-origin'}).then(function(r){
+    if(r.status===401){main.innerHTML='';var e=el('div','empty');e.innerHTML='登录后即可使用书架，跨设备同步阅读进度。<br><a href="/index.html">回书库登录</a>';main.appendChild(e);return null;}
+    return r.json();
+  }).then(function(d){
+    if(!d)return;
+    main.innerHTML='';
+    var rows=(d.rows||[]);
+    if(!rows.length){var e2=el('div','empty');e2.innerHTML='书架还空着。去<a href="/index.html">书库</a>翻开一本书，读过的都会自动出现在这里。';main.appendChild(e2);return;}
+    var groups=[['reading','在读'],['wishlist','想读'],['finished','读完']];
+    groups.forEach(function(g){
+      var list=rows.filter(function(r){return r.status===g[0];});
+      if(!list.length)return;
+      var h=el('div','sect',g[1]);h.appendChild(el('small','',String(list.length)+' 本'));
+      main.appendChild(h);
+      list.forEach(function(r){main.appendChild(card(r));});
+    });
+    fetch('/api/reader/profile',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null;}).then(function(p){
+      if(p&&p.ok)document.getElementById('me').textContent=p.profile.name+' · 读完 '+p.profile.shelf.finished+' 本 · 想法 '+p.profile.notes+' 条 · 书评 '+p.profile.reviews+' 条';
+    }).catch(function(){});
+  }).catch(function(){main.innerHTML='';main.appendChild(el('div','empty','书架暂时打不开，稍后再试。'));});
+})();
+</script></body></html>
