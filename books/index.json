@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt5nkm3ugim",
+    "projectId": "proj-mt5nkm3ugim",
+    "releaseId": "rel_20260824114235362_8f3cbda475",
+    "title": "补天裂",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "小说",
+    "tags": [
+      "民国悬疑",
+      "古董江湖",
+      "器物修复",
+      "历史秘辛",
+      "真伪博弈",
+      "文化传承"
+    ],
+    "description": "苏州古物修复师李九变，祖传三代的手艺，是荣耀也是枷锁。一件清宫流散的铜器，修补痕迹竟成了祖上掩盖宫廷造假的沉默签名，也成了各方势力争夺的秘档钥匙。他越是精准还原器物原貌，便越坐实家族作为历史共谋的罪证；他越想守护技艺的纯粹，就越深陷新旧世界权力暗战的棋局。在真伪难辨的古董江湖里，修复即是解密，传承即是反抗。",
+    "chapterCount": 100,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-1",
+      "createdAt": "2026-08-24T10:21:40.770Z"
+    },
+    "coverUrl": "books/proj-mt5nkm3ugim/releases/rel_20260824114235362_8f3cbda475/cover.jpg",
+    "coverTextless": true,
+    "url": "books/proj-mt5nkm3ugim/index.html",
+    "publishedAt": "2026-08-24T11:42:35.364Z",
+    "firstPublishedAt": "2026-08-24T08:07:42.469Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt5hozrmxtz",
     "projectId": "proj-mt5hozrmxtz",
     "releaseId": "rel_20260824114201562_2f9a5e5b2a",
@@ -66,42 +100,6 @@
     "publishedAt": "2026-08-24T10:40:31.141Z",
     "firstPublishedAt": "2026-08-24T08:37:36.054Z",
     "visibility": "public"
-  },
-  {
-    "id": "proj-mt5nkm3ugim",
-    "projectId": "proj-mt5nkm3ugim",
-    "releaseId": "rel_20260824080742466_8cfa0bd4a1",
-    "title": "补天裂",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "fiction",
-    "authorDisplayName": "哈里·谢顿",
-    "category": "小说",
-    "tags": [
-      "民国悬疑",
-      "古董江湖",
-      "器物修复",
-      "历史秘辛",
-      "真伪博弈",
-      "文化传承"
-    ],
-    "description": "苏州古物修复师李九变，祖传三代的手艺，是荣耀也是枷锁。一件清宫流散的铜器，修补痕迹竟成了祖上掩盖宫廷造假的沉默签名，也成了各方势力争夺的秘档钥匙。他越是精准还原器物原貌，便越坐实家族作为历史共谋的罪证；他越想守护技艺的纯粹，就越深陷新旧世界权力暗战的棋局。在真伪难辨的古董江湖里，修复即是解密，传承即是反抗。",
-    "chapterCount": 100,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-1",
-      "createdAt": "2026-08-24T07:44:39.386Z"
-    },
-    "coverUrl": "",
-    "coverTextless": false,
-    "url": "books/proj-mt5nkm3ugim/index.html",
-    "publishedAt": "2026-08-24T08:07:42.469Z",
-    "firstPublishedAt": "2026-08-24T08:07:42.469Z",
-    "visibility": "public",
-    "coverHiddenAt": "2026-08-24T08:16:14.854Z",
-    "coverHiddenReason": "bad_generated_text"
   },
   {
     "id": "proj-mt5wyuzx9sk",
