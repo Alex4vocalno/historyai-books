@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260824083736052_c585186aeb",
+  "projectId": "proj-mt6pirzktd9",
+  "manuscriptVersionId": "mv_a1a26b666d7e0687",
+  "contentHash": "a1a26b666d7e06872996d73485a23f70050a7f7a1207149a7f3e7c099aec9416",
+  "title": "禅：顿悟的边界",
+  "subtitle": "一部禅宗核心概念的漂移史",
+  "authorDisplayName": "心安处是故乡",
+  "description": "六祖慧能临终前，弟子们围着他哭泣。老人说：我知道自己的去处。这句话被记入《坛经》，成为禅宗最著名的告别。但很少有人追问：慧能之后，那个“顿悟”还在吗？神会北上设下赌局，用袈裟换取朝廷认证；马祖道一转身下山，把“平常心”装进日常劳作；百丈怀海立下清规，让反权威的禅者学会服从钟板。每一次壮大，都意味着顿悟被稀释一层。棒喝成了仪轨，公案变成考题，不立文字的反叛最终被装订成语录。从山林到祠堂，从心性解放到宗族规训，禅宗用一千年完成了与中原文化的深度嵌合，也在嵌合中耗尽了自己的内核。这本书追踪的，正是那些被重新诠释的关键概念——在语义漂移的背后，是权力博弈、制度妥协与文化适应的完整图景。",
+  "category": "中国史",
+  "tags": [
+    "禅宗史",
+    "顿悟与制度",
+    "佛教中国化",
+    "文化适应",
+    "语义漂移",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 252311,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-24T07:24:08.271Z"
+  },
+  "cover": null,
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "临终一问",
+      "units": 8550
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "坛经的诞生",
+      "units": 8517
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "神会的赌局",
+      "units": 8390
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "马祖的转身",
+      "units": 8936
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "百丈立绳墨",
+      "units": 8105
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "棒喝成仪轨",
+      "units": 8367
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "不立文字的裂缝",
+      "units": 8110
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "祖堂里的谱系",
+      "units": 8358
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "五家分灯",
+      "units": 8379
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "公案机器的诞生",
+      "units": 8346
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "默照与看话之争",
+      "units": 7888
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "士大夫的禅房",
+      "units": 8740
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "禅茶去滋味",
+      "units": 8390
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "拈古颂古评唱",
+      "units": 8389
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "渡海与还乡",
+      "units": 7675
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "心灯照儒门",
+      "units": 8416
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "香火里的禅",
+      "units": 7991
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "狂禅出笼记",
+      "units": 9384
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "易代丛林考",
+      "units": 8209
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "御选语录的刀",
+      "units": 7554
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "念佛者是谁",
+      "units": 8391
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "祠堂里的清规",
+      "units": 9262
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "庵堂经济圈",
+      "units": 9711
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "兵燹过后的空门",
+      "units": 8383
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "经卷对撞机",
+      "units": 7475
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "人间佛教的转身",
+      "units": 7706
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "禅堂里的革命",
+      "units": 8107
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "铃木禅的全球旅行",
+      "units": 8359
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "枯木龙吟录",
+      "units": 8707
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "问处即悟处",
+      "units": 9516
+    }
+  ],
+  "publishedAt": "2026-08-24T08:37:36.054Z"
+}
