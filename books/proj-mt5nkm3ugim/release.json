@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260824080742466_8cfa0bd4a1",
+  "projectId": "proj-mt5nkm3ugim",
+  "manuscriptVersionId": "mv_6c0b09c371ae3587",
+  "contentHash": "6c0b09c371ae3587fe0be7491077870af3995c2c977ee6d999d7c8e331924f42",
+  "title": "补天裂",
+  "subtitle": "",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "苏州古物修复师李九变，祖传三代的手艺，是荣耀也是枷锁。一件清宫流散的铜器，修补痕迹竟成了祖上掩盖宫廷造假的沉默签名，也成了各方势力争夺的秘档钥匙。他越是精准还原器物原貌，便越坐实家族作为历史共谋的罪证；他越想守护技艺的纯粹，就越深陷新旧世界权力暗战的棋局。在真伪难辨的古董江湖里，修复即是解密，传承即是反抗。",
+  "category": "小说",
+  "tags": [
+    "民国悬疑",
+    "古董江湖",
+    "器物修复",
+    "历史秘辛",
+    "真伪博弈",
+    "文化传承"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 100,
+    "units": 819956,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-24T07:44:39.386Z"
+  },
+  "cover": {
+    "file": "cover.png",
+    "provider": "openrouter",
+    "model": "black-forest-labs/flux.2-klein-4b",
+    "generatedAt": "2026-08-24T08:06:35.571Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "炉中蹊跷",
+      "units": 5253
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "青梧来访",
+      "units": 8348
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "夜访听桐斋",
+      "units": 11180
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "炉中玄机",
+      "units": 6184
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "酬谢与试探",
+      "units": 8536
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "余烬新火",
+      "units": 9266
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "夜访惊魂",
+      "units": 5829
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "暗流涌动",
+      "units": 7379
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "夜访警告",
+      "units": 6999
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "技艺即罪证",
+      "units": 9781
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "暗室推演",
+      "units": 7106
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "破译沉默",
+      "units": 13563
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "破译余波",
+      "units": 7147
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "线索浮显",
+      "units": 5935
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "南档探踪",
+      "units": 6764
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "循迹初探",
+      "units": 4803
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "江湖无眼",
+      "units": 9067
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "书商冷遇",
+      "units": 7780
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "九变初施",
+      "units": 9429
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "信任危机",
+      "units": 9910
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "书局暗影",
+      "units": 7664
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "夜谈提点",
+      "units": 6712
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "图纸疑云",
+      "units": 13898
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "图纸显形",
+      "units": 6345
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "玉器试炼",
+      "units": 7698
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "玉碎疑云",
+      "units": 6012
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "图穷匕见",
+      "units": 11608
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "图破天机",
+      "units": 12182
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "棋盘复盘",
+      "units": 14533
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "三方围猎",
+      "units": 8369
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "李沈夜谋",
+      "units": 5775
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "暗格密谋",
+      "units": 6169
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "暗流涌动",
+      "units": 7661
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "彻夜布局",
+      "units": 5291
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "暗格留痕",
+      "units": 5484
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "血夜余烬",
+      "units": 7521
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "夜探前夕",
+      "units": 6105
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "夜探前夕",
+      "units": 6891
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "夜探紫金庵",
+      "units": 9426
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "玉扳指痕",
+      "units": 6684
+    },
+    {
+      "idx": 40,
+      "sourceIdx": 40,
+      "title": "暗格后手",
+      "units": 5958
+    },
+    {
+      "idx": 41,
+      "sourceIdx": 41,
+      "title": "夜探前夕",
+      "units": 7077
+    },
+    {
+      "idx": 42,
+      "sourceIdx": 42,
+      "title": "血夜抉择",
+      "units": 8060
+    },
+    {
+      "idx": 43,
+      "sourceIdx": 43,
+      "title": "紫金庵血夜",
+      "units": 6129
+    },
+    {
+      "idx": 44,
+      "sourceIdx": 44,
+      "title": "紫金庵血夜",
+      "units": 12777
+    },
+    {
+      "idx": 45,
+      "sourceIdx": 45,
+      "title": "暗室对峙",
+      "units": 11068
+    },
+    {
+      "idx": 46,
+      "sourceIdx": 46,
+      "title": "青梧疗伤",
+      "units": 5670
+    },
+    {
+      "idx": 47,
+      "sourceIdx": 47,
+      "title": "梅园夜宴",
+      "units": 6166
+    },
+    {
+      "idx": 48,
+      "sourceIdx": 48,
+      "title": "旧案浮现",
+      "units": 9142
+    },
+    {
+      "idx": 49,
+      "sourceIdx": 49,
+      "title": "顺公绝笔",
+      "units": 10495
+    },
+    {
+      "idx": 50,
+      "sourceIdx": 50,
+      "title": "暗格玄机",
+      "units": 7886
+    },
+    {
+      "idx": 51,
+      "sourceIdx": 51,
+      "title": "紫金庵遗物",
+      "units": 8482
+    },
+    {
+      "idx": 52,
+      "sourceIdx": 52,
+      "title": "暗格玄机",
+      "units": 8141
+    },
+    {
+      "idx": 53,
+      "sourceIdx": 53,
+      "title": "暗格玄机",
+      "units": 7545
+    },
+    {
+      "idx": 54,
+      "sourceIdx": 54,
+      "title": "血火余烬",
+      "units": 6694
+    },
+    {
+      "idx": 55,
+      "sourceIdx": 55,
+      "title": "囚笼初现",
+      "units": 8181
+    },
+    {
+      "idx": 56,
+      "sourceIdx": 56,
+      "title": "梅园囚笼",
+      "units": 7131
+    },
+    {
+      "idx": 57,
+      "sourceIdx": 57,
+      "title": "身陷囚笼",
+      "units": 10651
+    },
+    {
+      "idx": 58,
+      "sourceIdx": 58,
+      "title": "梅园囚笼",
+      "units": 5732
+    },
+    {
+      "idx": 59,
+      "sourceIdx": 59,
+      "title": "梅园囚笼",
+      "units": 10862
+    },
+    {
+      "idx": 60,
+      "sourceIdx": 60,
+      "title": "梅园囚笼",
+      "units": 6414
+    },
+    {
+      "idx": 61,
+      "sourceIdx": 61,
+      "title": "暗流淬心",
+      "units": 7879
+    },
+    {
+      "idx": 62,
+      "sourceIdx": 62,
+      "title": "囚笼余烬",
+      "units": 9192
+    },
+    {
+      "idx": 63,
+      "sourceIdx": 63,
+      "title": "铜锈凝霜",
+      "units": 6311
+    },
+    {
+      "idx": 64,
+      "sourceIdx": 64,
+      "title": "紫金庵遗物",
+      "units": 7586
+    },
+    {
+      "idx": 65,
+      "sourceIdx": 65,
+      "title": "暗流夺信",
+      "units": 5735
+    },
+    {
+      "idx": 66,
+      "sourceIdx": 66,
+      "title": "梅园碎光",
+      "units": 5997
+    },
+    {
+      "idx": 67,
+      "sourceIdx": 67,
+      "title": "赝品重现",
+      "units": 6586
+    },
+    {
+      "idx": 68,
+      "sourceIdx": 68,
+      "title": "绝境反制",
+      "units": 5411
+    },
+    {
+      "idx": 69,
+      "sourceIdx": 69,
+      "title": "抉择之刻",
+      "units": 10367
+    },
+    {
+      "idx": 70,
+      "sourceIdx": 70,
+      "title": "账目拼合",
+      "units": 8911
+    },
+    {
+      "idx": 71,
+      "sourceIdx": 71,
+      "title": "证真",
+      "units": 13603
+    },
+    {
+      "idx": 72,
+      "sourceIdx": 72,
+      "title": "残纸惊心",
+      "units": 6500
+    },
+    {
+      "idx": 73,
+      "sourceIdx": 73,
+      "title": "证真之刻",
+      "units": 6287
+    },
+    {
+      "idx": 74,
+      "sourceIdx": 74,
+      "title": "听桐斋暗格",
+      "units": 7818
+    },
+    {
+      "idx": 75,
+      "sourceIdx": 75,
+      "title": "夜访梅园",
+      "units": 8928
+    },
+    {
+      "idx": 76,
+      "sourceIdx": 76,
+      "title": "囚徒博弈",
+      "units": 6092
+    },
+    {
+      "idx": 77,
+      "sourceIdx": 77,
+      "title": "密信传讯",
+      "units": 8502
+    },
+    {
+      "idx": 78,
+      "sourceIdx": 78,
+      "title": "庵中暗影",
+      "units": 8581
+    },
+    {
+      "idx": 79,
+      "sourceIdx": 79,
+      "title": "伤讯与疑云",
+      "units": 7395
+    },
+    {
+      "idx": 80,
+      "sourceIdx": 80,
+      "title": "合纵连横",
+      "units": 13066
+    },
+    {
+      "idx": 81,
+      "sourceIdx": 81,
+      "title": "暗流再涌",
+      "units": 5804
+    },
+    {
+      "idx": 82,
+      "sourceIdx": 82,
+      "title": "总账现形",
+      "units": 9115
+    },
+    {
+      "idx": 83,
+      "sourceIdx": 83,
+      "title": "拼合所有线索",
+      "units": 8640
+    },
+    {
+      "idx": 84,
+      "sourceIdx": 84,
+      "title": "破局诱饵",
+      "units": 8306
+    },
+    {
+      "idx": 85,
+      "sourceIdx": 85,
+      "title": "抉择之刃",
+      "units": 5714
+    },
+    {
+      "idx": 86,
+      "sourceIdx": 86,
+      "title": "补天裂",
+      "units": 12558
+    },
+    {
+      "idx": 87,
+      "sourceIdx": 87,
+      "title": "公之于众",
+      "units": 7804
+    },
+    {
+      "idx": 88,
+      "sourceIdx": 88,
+      "title": "帷幕落下",
+      "units": 8641
+    },
+    {
+      "idx": 89,
+      "sourceIdx": 89,
+      "title": "证道",
+      "units": 7584
+    },
+    {
+      "idx": 90,
+      "sourceIdx": 90,
+      "title": "炉心初探",
+      "units": 12038
+    },
+    {
+      "idx": 91,
+      "sourceIdx": 91,
+      "title": "积沙成账",
+      "units": 8311
+    },
+    {
+      "idx": 92,
+      "sourceIdx": 92,
+      "title": "宣德炉现",
+      "units": 8467
+    },
+    {
+      "idx": 93,
+      "sourceIdx": 93,
+      "title": "溯源断代",
+      "units": 5562
+    },
+    {
+      "idx": 94,
+      "sourceIdx": 94,
+      "title": "余烬与新火",
+      "units": 9357
+    },
+    {
+      "idx": 95,
+      "sourceIdx": 95,
+      "title": "识破骗局",
+      "units": 9630
+    },
+    {
+      "idx": 96,
+      "sourceIdx": 96,
+      "title": "沉默签名",
+      "units": 11562
+    },
+    {
+      "idx": 97,
+      "sourceIdx": 97,
+      "title": "炉中密钥",
+      "units": 13253
+    },
+    {
+      "idx": 98,
+      "sourceIdx": 98,
+      "title": "余烬新火",
+      "units": 9207
+    },
+    {
+      "idx": 99,
+      "sourceIdx": 99,
+      "title": "澄明",
+      "units": 5108
+    }
+  ],
+  "publishedAt": "2026-08-24T08:07:42.469Z"
+}
