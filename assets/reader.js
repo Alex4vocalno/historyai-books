@@ -230,7 +230,7 @@
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           credentials: 'same-origin',
-          body: JSON.stringify({ bookId: data.bookId, releaseId: (location.pathname.split('/releases/')[1] || '').split('/')[0], chapter: Number(data.chapter) || 0, page: Number(state.page) || 0, title: data.title || '', chapterTitle: data.chapterTitle || '' }),
+          body: JSON.stringify({ bookId: data.bookId, releaseId: (location.pathname.split('/releases/')[1] || '').split('/')[0], chapter: Number(data.chapter) || 0, n: (titles && titles.length) || 0, page: Number(state.page) || 0, title: data.title || '', chapterTitle: data.chapterTitle || '' }),
         }).catch(function () {});
       } catch (e7) {}
     }, 5000);
@@ -276,7 +276,17 @@
       prefetched = true;
       var pl = document.createElement('link'); pl.rel = 'prefetch'; pl.href = nextHref; document.head.appendChild(pl);
     }
-    if (r >= 0.98) trackOnce('finish');
+    if (r >= 0.98) {
+      trackOnce('finish');
+      // v5.12 读完自动标记（用户定调对齐微信读书）：末章读完即记书架「读完」
+      if (!nextHref && cloudOn && !window.__haiMarkedFinished) {
+        window.__haiMarkedFinished = true;
+        fetch('/api/reader/shelf', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ bookId: data.bookId, title: data.title || '', status: 'finished' }) }).then(function () {
+          var mk = document.querySelector('[data-mark-finished]');
+          if (mk) { mk.textContent = data.lang === 'en' ? '✓ Finished' : '✓ 已读完'; mk.disabled = true; }
+        }).catch(function () {});
+      }
+    }
   }
   var chapterChars = (function () {
     var rc = document.querySelector('.reader-content');
@@ -594,6 +604,25 @@
       var content2 = document.querySelector('.reader-content');
       if (content2) {
         var box = el2('div', 'review-box');
+        var mkRow = el2('div', '');
+        var mkBtn = document.createElement('button');
+        mkBtn.type = 'button';
+        mkBtn.setAttribute('data-mark-finished', '1');
+        mkBtn.style.cssText = 'min-height:36px;padding:0 18px;border:1px solid var(--reader-line);border-radius:18px;background:var(--reader-panel);color:var(--reader-accent);font-weight:700;cursor:pointer;margin-bottom:12px';
+        mkBtn.textContent = T('✓ 标记读完', '✓ Mark as finished');
+        mkBtn.onclick = function () {
+          if (!loggedIn2) { alert(T('登录后即可标记读完', 'Sign in to mark as finished')); return; }
+          post2('/api/reader/shelf', { bookId: data.bookId, title: data.title || '', status: 'finished' }).then(function (r2) {
+            if (r2 && r2.ok) { mkBtn.textContent = T('✓ 已读完', '✓ Finished'); mkBtn.disabled = true; }
+          });
+        };
+        mkRow.appendChild(mkBtn);
+        box.appendChild(mkRow);
+        fetch('/api/reader/shelf', { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (d) {
+          if (d && d.ok && (d.rows || []).some(function (x) { return x.bookId === data.bookId && x.status === 'finished'; })) {
+            mkBtn.textContent = T('✓ 已读完', '✓ Finished'); mkBtn.disabled = true;
+          }
+        }).catch(function () {});
         box.appendChild(el2('h3', '', T('读完了？给这本书打个分', 'Finished? Rate this book')));
         var agg = el2('p', 'review-agg', '');
         box.appendChild(agg);

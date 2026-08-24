@@ -46,11 +46,18 @@
     var c=el('div','card');
     var info=el('div','info');
     info.appendChild(el('div','t',r.title||r.bookId));
-    var sub=r.status==='finished'?'已读完':(r.status==='wishlist'?'想读':('读到 '+(r.chapterTitle||('第'+(Number(r.chapter)+1)+'章'))));
+    var pct=(r.n&&Number(r.chapter)>=0)?Math.min(100,Math.round((Number(r.chapter)+1)/r.n*100)):null;
+    var sub=r.status==='finished'?'已读完 ✓':(r.status==='wishlist'?'想读':('读到 '+(r.chapterTitle||('第'+(Number(r.chapter)+1)+'章'))+(pct!=null?' · '+pct+'%':'')));
     info.appendChild(el('div','s',sub+(r.updatedAt?' · '+String(r.updatedAt).slice(0,10):'')));
     c.appendChild(info);
     var go=el('a','go',r.status==='wishlist'?'开始读':(r.status==='finished'?'再读':'继续读'));
+    var fin=null;
+    if(r.status==='reading'){fin=el('button','rm','标记读完');fin.style.color='var(--accent)';
+      fin.addEventListener('click',function(ev){ev.preventDefault();ev.stopPropagation();
+        fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:r.bookId,title:r.title||'',status:'finished'})}).then(function(){location.reload()});
+      });}
     go.href=readHref(r);c.appendChild(go);
+    if(fin)c.appendChild(fin);
     var rm=el('button','rm','移出');
     rm.onclick=function(){
       fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:r.bookId,status:'remove'})})

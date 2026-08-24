@@ -80,6 +80,12 @@
   .ms-group{margin-bottom:26px}
   .ms-group h3{margin:0 0 12px;font-size:17px}
   .ms-group h3 em{font-style:normal;color:var(--muted);font-size:13.5px;margin-left:8px}
+  .ms-card{position:relative;display:flex;flex-direction:column}
+  .ms-progress{display:block;height:4px;margin-top:8px;border-radius:2px;background:#e8eae8;overflow:hidden}
+  .ms-progress i{display:block;height:100%;background:var(--green);border-radius:2px}
+  .ms-sub{margin-top:6px;color:var(--muted);font-size:13px}
+  .ms-fin{margin-top:8px;align-self:flex-start;min-height:30px;padding:0 14px;border:1px solid var(--line);border-radius:15px;background:#fff;color:var(--green-dark);font-size:13px;font-weight:700;cursor:pointer}
+  .ms-fin:hover{border-color:var(--green)}
   .ms-empty{padding:44px 0;color:var(--muted);text-align:center;font-size:14.5px;line-height:2}
   .ms-empty a,.ms-empty button{color:var(--green-dark);background:none;border:0;font-size:14.5px;cursor:pointer}
   .continue-box{margin-bottom:30px}.continue-box[hidden]{display:none}
@@ -253,12 +259,22 @@ function renderMyShelf(){
       html+='<div class="ms-group"><h3>'+g[1]+'<em>'+rows2.length+'</em></h3><div class="rail">';
       rows2.forEach(function(r2){
         var b=null;for(var j=0;j<POOL.length;j++)if(POOL[j].p===r2.bookId){b=POOL[j];break}
-        if(b)html+=railCard(b);
-        else html+='<a class="rail-card" href="books/'+esc(r2.bookId)+'/index.html"><div class="cover-art"><div class="cover-copy"><h2>'+esc(r2.title||r2.bookId)+'</h2></div></div><strong>'+esc(r2.title||r2.bookId)+'</strong></a>';
+        var total=(r2.n||(b&&b.n)||0);
+        var pct=(g[0]!=='wishlist'&&total&&Number(r2.chapter)>=0)?Math.min(100,Math.round((Number(r2.chapter)+1)/total*100)):null;
+        var extra='';
+        if(g[0]==='reading')extra='<span class="ms-progress"><i style="width:'+(pct||0)+'%"></i></span><small class="ms-sub">'+(pct!=null?('At ch. '+(Number(r2.chapter)+1)+' chapters · '+pct+'%'):'Just started')+'</small><button type="button" class="ms-fin" data-ms-finish="'+esc(r2.bookId)+'" data-ms-title="'+esc(r2.title||'')+'">✓ Mark finished</button>';
+        if(g[0]==='finished')extra='<small class="ms-sub">Finished ✓</small>';
+        var core=b?railCard(b):'<a class="rail-card" href="books/'+esc(r2.bookId)+'/index.html"><div class="cover-art"><div class="cover-copy"><h2>'+esc(r2.title||r2.bookId)+'</h2></div></div><strong>'+esc(r2.title||r2.bookId)+'</strong></a>';
+        html+='<div class="ms-card">'+core+extra+'</div>';
       });
       html+='</div></div>';
     });
     shelfPane.innerHTML=html||'<div class="ms-empty">Your shelf is empty — add books from the library (use “Want to read” on a cover page).</div>';
+    shelfPane.querySelectorAll('[data-ms-finish]').forEach(function(fb){
+      fb.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();
+        fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:fb.dataset.msFinish,title:fb.dataset.msTitle||'',status:'finished'})}).then(function(){renderMyShelf()});
+      });
+    });
   }).catch(function(){shelfPane.innerHTML='<div class="ms-empty">Shelf temporarily unavailable.</div>'});
 }
 document.querySelectorAll('[data-home-tab]').forEach(function(tb){
