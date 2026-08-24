@@ -29,7 +29,13 @@
     "method": "median-of-2",
     "createdAt": "2026-08-18T08:50:40.537Z"
   },
-  "cover": null,
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-24T02:50:47.643Z",
+    "textless": true
+  },
   "chapters": [
     {
       "idx": 0,
@@ -164,5 +170,6 @@
       "units": 8647
     }
   ],
-  "publishedAt": "2026-08-24T00:32:15.774Z"
+  "publishedAt": "2026-08-24T00:32:15.774Z",
+  "rerenderedAt": "2026-08-24T02:51:07.148Z"
 }

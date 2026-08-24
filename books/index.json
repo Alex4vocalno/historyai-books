@@ -1,5 +1,36 @@
 [
   {
+    "id": "proj-msxy2q77ygz",
+    "projectId": "proj-msxy2q77ygz",
+    "releaseId": "rel_20260824003215773_6f92a4889f",
+    "title": "取经路：黑神话·悟空与中国单机游戏的三十年等待",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏史",
+      "历史",
+      "非虚构"
+    ],
+    "description": "核心问题：中国有全世界最大的玩家群体、最成熟的美术产能和最多的游戏资本，为什么第一部被广泛承认的国产单机大作要等到 2024 年？核心论点：《黑神话·悟空》不是横空出世，而是三条长期伏线的汇流——二十年美术外包积累的技术工人、被手游与页游挤压出去的单机人才、以及虚幻引擎与 Steam 中国购买力共同压低的门槛；它的意义与其说在于作品本身的完成度，不如说在于它证明了这条路可以走通。范围：1994 年至 2026 年，三卷推进。…",
+    "chapterCount": 22,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 87,
+      "method": "median-of-2",
+      "createdAt": "2026-08-18T08:50:40.537Z"
+    },
+    "coverUrl": "books/proj-msxy2q77ygz/releases/rel_20260824003215773_6f92a4889f/cover.jpg",
+    "coverTextless": true,
+    "url": "books/proj-msxy2q77ygz/index.html",
+    "publishedAt": "2026-08-24T00:32:15.774Z",
+    "firstPublishedAt": "2026-08-20T11:54:43.805Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mqf7mzrmntl",
     "projectId": "proj-mqf7mzrmntl",
     "releaseId": "rel_20260824012749208_ba3511544f",
@@ -1711,37 +1742,6 @@
     "url": "books/proj-msxxzxendwi/index.html",
     "publishedAt": "2026-08-24T00:32:16.033Z",
     "firstPublishedAt": "2026-08-18T06:07:17.494Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-msxy2q77ygz",
-    "projectId": "proj-msxy2q77ygz",
-    "releaseId": "rel_20260824003215773_6f92a4889f",
-    "title": "取经路：黑神话·悟空与中国单机游戏的三十年等待",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "游戏史",
-      "历史",
-      "非虚构"
-    ],
-    "description": "核心问题：中国有全世界最大的玩家群体、最成熟的美术产能和最多的游戏资本，为什么第一部被广泛承认的国产单机大作要等到 2024 年？核心论点：《黑神话·悟空》不是横空出世，而是三条长期伏线的汇流——二十年美术外包积累的技术工人、被手游与页游挤压出去的单机人才、以及虚幻引擎与 Steam 中国购买力共同压低的门槛；它的意义与其说在于作品本身的完成度，不如说在于它证明了这条路可以走通。范围：1994 年至 2026 年，三卷推进。…",
-    "chapterCount": 22,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 87,
-      "method": "median-of-2",
-      "createdAt": "2026-08-18T08:50:40.537Z"
-    },
-    "coverUrl": "",
-    "coverTextless": false,
-    "url": "books/proj-msxy2q77ygz/index.html",
-    "publishedAt": "2026-08-24T00:32:15.774Z",
-    "firstPublishedAt": "2026-08-20T11:54:43.805Z",
     "visibility": "public"
   },
   {
