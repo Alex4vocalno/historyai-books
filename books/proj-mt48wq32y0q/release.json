@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260824071528683_497be29319",
+  "projectId": "proj-mt48wq32y0q",
+  "manuscriptVersionId": "mv_779b21a84c5ba71e",
+  "contentHash": "779b21a84c5ba71ef66c061112dc1fd2d777c845d5080cd8d6700b922f3b11e3",
+  "title": "闺阁之内：明清江南女子的衣食住行",
+  "subtitle": "礼教之下，她们如何穿衣、吃饭、绣花、管钱、生病、信佛、守寡、识字",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "一匹布要织多少日，一件衫要绣几重花，一盒点心该分几层装，一帖药方里藏着多少不能说出口的苦。明清江南的闺秀们，在围墙之内度过一生，却用最日常的物件，悄悄改写着自己的命运。她们在绣绷前计算时辰，在奁产里争夺话语，在佛堂前施舍银钱，在账簿中记下寡居的每一笔开销。这本书从衣裳、食盒、针线、药方、嫁妆、礼单这些具体而微的细节入手，还原她们如何在礼教的缝隙中，活出自己的章法。不写传奇，只写真实：那些被忽略的日常，正是她们最有力的生存证据。",
+  "category": "中国史",
+  "tags": [
+    "明清女性史",
+    "物质文化",
+    "江南闺秀",
+    "日常生活史",
+    "性别与礼教",
+    "明清社会史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 142844,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-24T06:40:45.029Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-23T02:20:44.139Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "闺阁的围墙",
+      "units": 9659
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "衣裳里的规矩",
+      "units": 9519
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "灶下与食盒",
+      "units": 10709
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "绣绷前的世界",
+      "units": 10301
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "奁产与秤杆",
+      "units": 8835
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "药方与香灰",
+      "units": 9377
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "砚池边的另一重天地",
+      "units": 9980
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "丹青里的自我摹写",
+      "units": 11113
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "隔帘听曲与园中借景",
+      "units": 8661
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "礼单上的闺阁权力",
+      "units": 8445
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "佛堂前的施与受",
+      "units": 7654
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "寡居者的账簿",
+      "units": 12759
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "旧针黹与新学堂",
+      "units": 7924
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "箱奁里的故纸",
+      "units": 7727
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "日常的碑铭",
+      "units": 10181
+    }
+  ],
+  "publishedAt": "2026-08-24T07:15:28.687Z"
+}
