@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260824160220151_3a8c93fb61",
+  "projectId": "proj-mt5tl89hg36",
+  "manuscriptVersionId": "mv_be289c015ee9afc3",
+  "contentHash": "be289c015ee9afc3d88e833166750022a79169fd1fe709deeaeefb7808daebc6",
+  "title": "汴京尘吏",
+  "subtitle": "北宋县衙里，没有名字的治理者",
+  "authorDisplayName": "芝芝为荔枝",
+  "description": "汴京的繁华在《清明上河图》里不朽，但撑起这张盛世图景的，是无数在县衙廊庑间伏案疾书的无名小吏。他们不是官，却要替官催税、断狱、摊派差役；他们不是民，却比民更懂乡绅的算盘、仓廪的鼠迹、桥头的眼睛。本书从一桩桩具体的公务切入：一册田亩簿上的涂改，一场差役轮盘上的博弈，一封酒席间递出的尺牍，一道粉壁上被抹去的吏名。在制度刚性与资源匮乏的夹缝里，这些“尘吏”以文书为盾、以人情为刃，在考课纸上的生路与公服下的债务之间，维系着帝国末梢的运转。他们的生存策略，是宋代国家能力在基层最真实的损耗与弹性。",
+  "category": "中国史",
+  "tags": [
+    "宋代基层",
+    "胥吏生态",
+    "县衙日常",
+    "制度史",
+    "微观历史",
+    "北宋"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 269212,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-1",
+    "createdAt": "2026-08-24T16:00:40.516Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-24T16:00:06.114Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "衙前灯火",
+      "units": 8395
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "纸上的田亩",
+      "units": 10381
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "街巷间的秤锤",
+      "units": 8713
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "狱窗内外",
+      "units": 8423
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "差役的轮盘",
+      "units": 10193
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "乡绅的算盘",
+      "units": 8901
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "仓廪鼠迹",
+      "units": 10636
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "水上的关节",
+      "units": 9881
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "医者与文牒",
+      "units": 8603
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "桥头的眼睛",
+      "units": 10447
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "香火与账本",
+      "units": 8266
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "考课纸上的生路",
+      "units": 9469
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "告身之外",
+      "units": 8390
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "笔迹的城府",
+      "units": 8094
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "衙门的喉舌",
+      "units": 9008
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "酒席间的尺牍",
+      "units": 11643
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "谣言的纹理",
+      "units": 8687
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "粉壁上的吏名",
+      "units": 8226
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "吏的身价",
+      "units": 8115
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "公服下的债",
+      "units": 8396
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "砚台与秤杆",
+      "units": 8380
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "妇人之手",
+      "units": 8007
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "老吏的黄昏",
+      "units": 7800
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "衙神不渡",
+      "units": 8276
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "衙署的余烬",
+      "units": 10179
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "故吏的私谱",
+      "units": 9113
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "乡约里的旧影",
+      "units": 8884
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "革吏之困",
+      "units": 8154
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "无吏之县",
+      "units": 8934
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "尘吏不灭",
+      "units": 8618
+    }
+  ],
+  "publishedAt": "2026-08-24T16:02:20.155Z"
+}
