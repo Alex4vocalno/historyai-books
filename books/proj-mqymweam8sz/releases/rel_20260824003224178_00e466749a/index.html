@@ -1,0 +1,79 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Browser Wars: Netscape, Microsoft, and the Battle for the Web</title><style>
+:root{--bg:#f4f5f4;--surface:#fff;--ink:#202524;--muted:#747b79;--line:#e2e5e3;--green:#079b6b;--green-dark:#087a58;--gold:#b27a22;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:var(--sans)}a{color:inherit;text-decoration:none}.sitebar{height:66px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.96)}.sitebar-inner{max-width:1180px;height:100%;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:28px}.brand{font-size:22px;font-weight:800}.brand i{display:inline-block;width:9px;height:9px;margin-right:9px;border-radius:50%;background:var(--green)}.sitebar nav{display:flex;gap:22px;color:var(--muted);font-size:14.5px}.sitebar nav a:hover{color:var(--green)}.page{max-width:1180px;margin:0 auto;padding:44px 24px 84px}.cover-art{position:relative;aspect-ratio:2/3;overflow:hidden;background:#23302d;color:#fff;box-shadow:0 16px 36px rgba(28,38,34,.18)}.cover-art img{width:100%;height:100%;object-fit:cover;display:block}.cover-copy{position:absolute;inset:auto 0 0;padding:76px 26px 26px;background:linear-gradient(transparent,rgba(10,17,15,.9));text-shadow:0 2px 12px rgba(0,0,0,.32)}.cover-copy h2{margin:0;font-family:var(--serif);font-size:27px;line-height:1.35;letter-spacing:0}.cover-copy p{margin:10px 0 0;font-size:12px}.cover-copy small{display:block;margin-top:18px;color:rgba(255,255,255,.84)}.cover-fallback{position:absolute;inset:0;display:grid;place-items:center;padding:34px;text-align:center;font-family:var(--serif);font-size:13px;line-height:2;border:1px solid rgba(255,255,255,.22)}.cover-typeset{container-type:inline-size}.cover-type{position:absolute;inset:0 0 auto;padding:7.5% 8% 9%;background:linear-gradient(rgba(10,14,12,.44) 0%,rgba(10,14,12,.2) 62%,transparent 100%);color:#fff;text-align:center;font-size:16px}.cover-type h2{margin:0;font-family:var(--serif);font-weight:700;font-size:1.66em;line-height:1.24;letter-spacing:.04em;text-shadow:0 1px 10px rgba(0,0,0,.55)}.cover-type p{margin:.6em auto 0;max-width:88%;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;font-size:.6em;line-height:1.5;opacity:.92;text-shadow:0 1px 8px rgba(0,0,0,.6)}.cover-type i{display:block;width:34px;height:1px;margin:.75em auto 0;background:rgba(255,255,255,.55)}.cover-type small{display:block;margin-top:.85em;font-size:.56em;letter-spacing:.14em;opacity:.88;text-shadow:0 1px 8px rgba(0,0,0,.6)}@supports (font-size:1cqw){.cover-type{font-size:8.4cqw}}.pill{display:inline-flex;align-items:center;min-height:31px;padding:5px 11px;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:var(--surface);font-size:13px}.score{color:var(--gold);font-weight:800}.primary,.secondary{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:5px;font-weight:700}.primary{background:var(--green);color:#fff}.primary:hover{background:var(--green-dark)}.secondary{border:1px solid var(--line);background:#fff}.muted{color:var(--muted)}
+.author-link{color:var(--green-dark);border-bottom:1px solid transparent}.author-link:hover{border-bottom-color:var(--green-dark)}.card-author{cursor:pointer}.card-author:hover{color:var(--green);text-decoration:underline}
+@media(max-width:720px){.sitebar-inner{padding:0 16px}.sitebar nav{margin-left:auto}.page{padding:28px 17px 60px}}
+
+  .book-hero{display:grid;grid-template-columns:minmax(220px,270px) minmax(0,1fr);gap:54px;align-items:start}.book-main{padding-top:6px}.eyebrow{margin:0 0 14px;color:var(--green);font-size:13.5px;font-weight:800}.book-main h1{margin:0;font-family:var(--serif);font-size:39px;line-height:1.35;letter-spacing:0}.subtitle{margin:11px 0 0;color:var(--muted);font-family:var(--serif);font-size:21px}.author{margin:22px 0 0;font-size:15.5px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.rating{display:flex;align-items:center;gap:14px;margin-top:26px}.rating strong{color:var(--gold);font-family:Georgia,serif;font-size:36px}.rating span,.rating-empty{color:var(--muted);font-size:13.5px}.rating-empty{margin-top:24px}
+  .reader-rating{margin-top:22px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:430px}
+  .reader-rating[hidden],.reader-rating-empty[hidden]{display:none}
+  .rr-head{display:flex;align-items:center;gap:12px}
+  .rr-avg{color:var(--gold);font-family:Georgia,serif;font-size:32px}
+  .rr-stars{color:var(--gold);font-size:15px;letter-spacing:2px}
+  .rr-count{color:var(--muted);font-size:13px}
+  .rr-bars{margin-top:10px;display:grid;gap:4px}
+  .rr-row{display:grid;grid-template-columns:30px 1fr 34px;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+  .rr-row i{display:block;height:6px;border-radius:3px;background:#eceeec;overflow:hidden}
+  .rr-row b{display:block;height:100%;background:var(--gold);border-radius:3px}
+  .rr-row em{font-style:normal;text-align:right;font-variant-numeric:tabular-nums}
+  .reader-rating-empty{margin-top:18px;color:var(--muted);font-size:13.5px}
+  .shelf-acts{display:flex;gap:8px;margin-left:12px}
+  .shelf-acts button{min-height:50px;padding:0 16px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--muted);font-size:13.5px;font-weight:700;cursor:pointer}
+  .shelf-acts button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 7%,#fff)}
+  @media(max-width:720px){.shelf-acts{margin-left:0;margin-top:10px;flex-basis:100%}}.rating-bar{width:112px;height:4px;margin-top:7px;border-radius:3px;background:#e8e9e7;overflow:hidden}.rating-bar i{display:block;height:100%;background:var(--gold)}.actions{display:flex;gap:10px;margin-top:30px}.description{grid-column:2;margin-top:35px;padding-top:27px;border-top:1px solid var(--line);font-family:var(--serif)}.description h2,.catalog h2{margin:0 0 15px;font-family:var(--sans);font-size:20px}.description p{max-width:760px;margin:0;color:#39403e;font-size:17.5px;line-height:2}.catalog{margin-top:52px;padding-top:28px;border-top:1px solid var(--line)}.catalog-head{display:flex;align-items:baseline;justify-content:space-between}.catalog-head span{color:var(--muted);font-size:13.5px}.chapter-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:38px}.chapter-row{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:13px 2px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px}.chapter-row span:first-child{color:var(--muted);font-family:var(--sans);font-size:13px}.chapter-row:hover{color:var(--green)}
+  @media(max-width:720px){.book-hero{grid-template-columns:118px minmax(0,1fr);gap:20px}.book-main h1{font-size:25px}.subtitle{font-size:15.5px}.cover-copy{padding:42px 10px 12px}.cover-copy h2{font-size:16px}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:9px}.author{margin-top:13px}.meta{margin-top:13px}.rating{margin-top:16px}.actions{grid-column:1/-1}.description{grid-column:1/-1;margin-top:26px}.chapter-grid{grid-template-columns:1fr}}
+  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index-en.html"><i></i>EVORON AI Bookstore</a><nav><a href="../../../../index-en.html">Library</a></nav></div></header><main class="page"><section class="book-hero"><div class="cover-art" style="--cover-tone:hsl(28 28% 24%)"><img src="cover.jpg" alt="《The Browser Wars: Netscape, Microsoft, and the Battle for the Web》封面"></div><div class="book-main"><p class="eyebrow">Technology · English</p><h1>The Browser Wars: Netscape, Microsoft, and the Battle for the Web</h1><p class="subtitle">Netscape, Microsoft, and the Battle for the Web</p><p class="author"><a class="author-link" href="../../../../index-en.html">李思特Think</a></p><div class="meta"><span class="pill">Browser Wars</span><span class="pill">Internet History</span><span class="pill">Microsoft</span><span class="pill">Netscape</span><span class="pill">Antitrust</span><span class="pill">Web Standards</span><span class="pill">12 chapters</span><span class="pill">44,295 words</span></div><div class="rating"><strong>7.8</strong><div><span>Editorial score</span><div class="rating-bar"><i style="width:78%"></i></div></div></div><div class="reader-rating" data-reader-rating hidden>
+    <div class="rr-head"><strong class="rr-avg" data-rr-avg></strong><div><span class="rr-stars" data-rr-stars></span><span class="rr-count" data-rr-count></span></div></div>
+    <div class="rr-bars" data-rr-bars></div>
+    <p class="rr-notes" data-rr-notes></p>
+  </div>
+  <p class="reader-rating-empty" data-reader-rating-empty hidden>No reader ratings yet — finish the book to be the first.</p>
+  <script>(function(){
+    var bid="proj-mqymweam8sz";
+    if(!bid)return;
+    fetch('/api/book/stats?bookId='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+      if(!(d&&d.ok))return;
+      var box=document.querySelector('[data-reader-rating]');
+      var empty=document.querySelector('[data-reader-rating-empty]');
+      if(!d.count){if(empty)empty.hidden=false;return}
+      box.hidden=false;
+      box.querySelector('[data-rr-avg]').textContent=d.avg;
+      var full=Math.round(d.avg);
+      box.querySelector('[data-rr-stars]').textContent='★★★★★'.slice(0,full)+'☆☆☆☆☆'.slice(0,5-full);
+      box.querySelector('[data-rr-count]').textContent=' · '+d.count+" ratings";
+      var bars=box.querySelector('[data-rr-bars]');
+      var max=Math.max.apply(null,d.dist.concat([1]));
+      for(var i=4;i>=0;i--){
+        var row=document.createElement('div');row.className='rr-row';
+        var lab=document.createElement('span');lab.textContent=(i+1)+'★';
+        var bar=document.createElement('i');var fill=document.createElement('b');
+        fill.style.width=Math.round(d.dist[i]/max*100)+'%';
+        bar.appendChild(fill);
+        var num=document.createElement('em');num.textContent=d.dist[i];
+        row.appendChild(lab);row.appendChild(bar);row.appendChild(num);
+        bars.appendChild(row);
+      }
+      if(d.notes){document.querySelector('[data-rr-notes]').textContent="Reader thoughts: "+d.notes+""}
+    }).catch(function(){});
+  })();</script><div class="actions"><a class="primary" data-continue-reading href="ch-1.html">Start reading</a><div class="shelf-acts" data-shelf-acts><button type="button" data-shelf-status="wishlist">+ Want to read</button><button type="button" data-shelf-status="reading">Reading</button><button type="button" data-shelf-status="finished">Finished</button></div></div>
+<script>(function(){
+  var EN=true;
+  var bid="proj-mqymweam8sz";
+  var title="The Browser Wars: Netscape, Microsoft, and the Battle for the Web";
+  var btns=[].slice.call(document.querySelectorAll('[data-shelf-status]'));
+  function paint(cur){btns.forEach(function(b){b.classList.toggle('on',b.dataset.shelfStatus===cur)})}
+  fetch('/api/reader/shelf',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok))return;
+    var row=(d.rows||[]).find(function(x){return x.bookId===bid});
+    if(row)paint(row.status);
+  }).catch(function(){});
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    var st=b.dataset.shelfStatus;
+    var already=b.classList.contains('on');
+    fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:bid,title:title,status:already?'remove':st})})
+      .then(function(r){return r.json()}).then(function(d){
+        if(d&&d.ok){paint(already?'':st)}
+        else if(d&&d.code==='AUTH_REQUIRED'){alert(EN?'Sign in from the library to use your shelf':'回书库Sign in后即可使用书架')}
+      }).catch(function(){});
+  })});
+})();</script></div><section class="description"><h2>About this book</h2><p>The browser wars were more than a software rivalry; they were a defining struggle over who would control the gateway to the internet. This trade history chronicles the epic clash between Netscape and Microsoft, revealing how Marc Andreessen’s vision of the browser as an operating system provoked Bill Gates to weaponize Windows distribution. Beyond corporate maneuvering, the narrative explores the antitrust battles, open-source rebellions, and standards fights that reshaped the digital landscape. From Mosaic and Internet Explorer to Mozilla and Chrome, this account examines the human drama of executives, engineers, regulators, and developers who determined the web&#39;s future. Blending technical insight with strategic analysis, it explains how early conflicts over platform control established the modern internet ecosystem. A rigorous examination of business strategy and technological evolution, this book illuminates the high-stakes decisions that transformed a simple viewing tool into the foundation of contemporary digital life.</p></section></section><section class="catalog"><div class="catalog-head"><h2>Contents</h2><span>12 chapters</span></div><div class="chapter-grid"><a class="chapter-row" href="ch-1.html"><span>Ch. 01</span><span>Architects of the Graphical Web Gateway</span></a><a class="chapter-row" href="ch-2.html"><span>Ch. 02</span><span>Forging the First Graphical Web Gateway</span></a><a class="chapter-row" href="ch-3.html"><span>Ch. 03</span><span>The Browser as a New Operating System</span></a><a class="chapter-row" href="ch-4.html"><span>Ch. 04</span><span>The Navigator Platform and the Emerging Web Gateway</span></a><a class="chapter-row" href="ch-5.html"><span>Ch. 05</span><span>The Tidal Wave and the Windows Fortress</span></a><a class="chapter-row" href="ch-6.html"><span>Ch. 06</span><span>The Structural Power of Windows Distribution</span></a><a class="chapter-row" href="ch-7.html"><span>Ch. 07</span><span>Windows Integration and the Architecture of Control</span></a><a class="chapter-row" href="ch-8.html"><span>Ch. 08</span><span>Integrating the Web into the Windows Shell</span></a><a class="chapter-row" href="ch-9.html"><span>Ch. 09</span><span>The Open Source Rebellion and Web Standards</span></a><a class="chapter-row" href="ch-10.html"><span>Ch. 10</span><span>The Developer Revolt and Web Standards</span></a><a class="chapter-row" href="ch-11.html"><span>Ch. 11</span><span>The Emergence of the Modern Platform Web</span></a><a class="chapter-row" href="ch-12.html"><span>Ch. 12</span><span>The Enduring Gateway and the Platform Web</span></a></div></section></main><script>(function(){var button=document.querySelector('[data-continue-reading]');if(!button)return;try{var state=JSON.parse(localStorage.getItem("historyai.reader.proj-mqymweam8sz")||'{}');if(state&&state.href){button.href=state.href;button.textContent='Continue · Ch. '+(Number(state.chapter)+1)+' chapters'}}catch(e){}})();</script></body></html>

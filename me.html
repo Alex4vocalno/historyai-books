@@ -1,0 +1,128 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>我的主页 · EVORON AI</title>
+<style>
+:root{--bg:#f4f5f4;--panel:#fff;--ink:#202524;--muted:#747b79;--line:#e2e5e3;--accent:#079b6b;--gold:#b27a22}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:760px;margin:0 auto;padding:30px 18px 70px}
+.top{display:flex;align-items:baseline;gap:16px;margin-bottom:20px}
+.top h1{margin:0;font-size:22px}
+.top a{color:var(--muted);font-size:13.5px}
+.top a:hover{color:var(--accent)}
+.idcard{display:flex;align-items:center;gap:14px;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.avatar{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-size:22px;font-weight:800;flex:none}
+.idcard .nm{font-size:18px;font-weight:800}
+.idcard .role{margin-top:3px;color:var(--muted);font-size:13px}
+.idcard .go{margin-left:auto;display:flex;flex-direction:column;gap:8px}
+.idcard .go a,.idcard .go button{min-height:34px;padding:0 16px;border:1px solid var(--line);border-radius:17px;background:#fff;color:var(--ink);font-size:13px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+.idcard .go a{background:var(--accent);color:#fff;border:0}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:16px 0}
+.stat{padding:14px 8px;border:1px solid var(--line);border-radius:10px;background:var(--panel);text-align:center}
+.stat b{display:block;font-size:22px;font-family:Georgia,serif}
+.stat span{display:block;margin-top:4px;color:var(--muted);font-size:13px}
+.stat a{display:contents}
+.sec{margin-top:22px}
+.sec h2{margin:0 0 10px;font-size:16px;display:flex;align-items:baseline;gap:10px}
+.sec h2 .n{color:var(--muted);font-size:13px}
+.sec h2 button{margin-left:auto;border:0;background:none;color:var(--accent);font-size:13px;cursor:pointer}
+.nrow{display:flex;gap:10px;align-items:baseline;padding:10px 14px;margin-bottom:6px;border:1px solid var(--line);border-radius:9px;background:var(--panel);font-size:13.5px}
+.nrow.unread{border-color:color-mix(in srgb,var(--accent) 45%,var(--line));background:color-mix(in srgb,var(--accent) 4%,var(--panel))}
+.nrow .nt{color:var(--muted);flex:1;min-width:0}
+.nrow .nt b{color:var(--ink)}
+.nrow a{flex:none;color:var(--accent);font-size:13px}
+.rv{padding:12px 14px;margin-bottom:8px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.rv .bk{font-size:13px;color:var(--muted)}
+.rv .st{color:var(--gold);letter-spacing:2px;font-size:13px}
+.rv p{margin:6px 0 0;font-size:14px;line-height:1.65}
+.empty{padding:36px 0;color:var(--muted);text-align:center;font-size:14.5px;line-height:2}
+.empty a{color:var(--accent)}
+@media(max-width:620px){.stats{grid-template-columns:repeat(3,1fr)}.idcard .go{flex-direction:row}}
+</style></head><body>
+<div class="wrap">
+  <div class="top"><h1 data-t="title">我的主页</h1><a href="/index.html" data-t="back">← 返回书库</a><a href="/shelf.html" data-t="shelf">我的书架</a><a href="/feed.html" data-t="feed">社区动态</a></div>
+  <div id="main"><div class="empty" data-t="loading">正在打开…</div></div>
+</div>
+<script>
+(function(){
+  var EN=(localStorage.getItem('hai.shelfLang')||((navigator.language||'').toLowerCase().indexOf('zh')===0?'zh':'en'))==='en';
+  var T=function(zh,en){return EN?en:zh};
+  document.title=T('我的主页 · EVORON AI','My Page · EVORON AI');
+  var tmap={title:['我的主页','My page'],back:['← 返回书库','← Library'],shelf:['我的书架','My shelf'],feed:['社区动态','Community'],loading:['正在打开…','Loading…']};
+  Object.keys(tmap).forEach(function(k){var el=document.querySelector('[data-t="'+k+'"]');if(el&&EN)el.textContent=tmap[k][1]});
+  var main=document.getElementById('main');
+  function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+  function j(u,opt){return fetch(u,Object.assign({credentials:'same-origin'},opt||{})).then(function(r){return r.json()})}
+  j('/api/auth/me').then(function(me){
+    if(!(me&&me.ok&&me.user)){
+      main.innerHTML='';
+      var em=el('div','empty');
+      em.appendChild(document.createTextNode(T('登录后即可看到你的书架、想法与通知。','Sign in to see your shelf, thoughts and notifications.')));
+      em.appendChild(document.createElement('br'));
+      var a=el('a','',T('回书库登录','Sign in from the library'));a.href='/index.html';
+      em.appendChild(a);
+      main.appendChild(em);
+      return;
+    }
+    var u=me.user;
+    main.innerHTML='';
+    var card=el('div','idcard');
+    var av=el('div','avatar',(u.penName||u.name||'?').slice(0,1).toUpperCase());
+    card.appendChild(av);
+    var mid=el('div','');
+    mid.appendChild(el('div','nm',u.penName||u.name));
+    mid.appendChild(el('div','role',(u.role==='owner'?T('超级用户','Owner'):T('读者 · 作者','Reader · Writer'))+(u.credits!=null&&u.role!=='owner'?(' · '+T('积分 ','Credits ')+u.credits):'')));
+    card.appendChild(mid);
+    var go=el('div','go');
+    var st=el('a','',T('✍︎ 进入写作台','✍︎ Open the studio'));st.href='https://write.evoronai.com/';go.appendChild(st);
+    var out=el('button','',T('登出','Sign out'));
+    out.onclick=function(){j('/api/auth/logout',{method:'POST'}).then(function(){location.reload()})};
+    go.appendChild(out);
+    card.appendChild(go);
+    main.appendChild(card);
+    var stats=el('div','stats');main.appendChild(stats);
+    function stat(n,label,href){var s2=el('div','stat');var inner=href?el('a',''):s2;var b=el('b','',String(n));var sp=el('span','',label);if(href){inner.href=href;inner.appendChild(b);inner.appendChild(sp);s2.appendChild(inner)}else{s2.appendChild(b);s2.appendChild(sp)}stats.appendChild(s2)}
+    Promise.all([j('/api/reader/shelf').catch(function(){return null}),j('/api/reader/profile').catch(function(){return null}),j('/api/reader/notifications').catch(function(){return null})]).then(function(rs){
+      var shelf=rs[0]&&rs[0].ok?rs[0]:{counts:{wishlist:0,reading:0,finished:0}};
+      var prof=(rs[1]&&rs[1].ok&&rs[1].profile)||{};
+      var noti=rs[2]&&rs[2].ok?rs[2]:{items:[],unread:0};
+      stat(shelf.counts.wishlist,T('想读','Want'), '/shelf.html');
+      stat(shelf.counts.reading,T('在读','Reading'),'/shelf.html');
+      stat(shelf.counts.finished,T('读完','Finished'),'/shelf.html');
+      stat(prof.notes||0,T('想法','Thoughts'));
+      stat(prof.reviews||0,T('书评','Reviews'));
+      var items=noti.rows||[];
+      var sec=el('div','sec');
+      var h=el('h2','',T('通知','Notifications'));
+      var n2=el('span','n',(noti.unread||0)+T(' 未读',' unread'));h.appendChild(n2);
+      if(items.length){var rd=el('button','',T('全部已读','Mark all read'));rd.onclick=function(){j('/api/reader/notifications',{method:'POST'}).then(function(){location.reload()})};h.appendChild(rd)}
+      sec.appendChild(h);
+      if(!items.length)sec.appendChild(el('div','empty',T('暂无通知','No notifications yet')));
+      items.slice(0,20).forEach(function(it){
+        var r=el('div','nrow'+(it.read?'':' unread'));
+        var t2=el('span','nt');t2.innerHTML='';
+        var b2=el('b','',it.fromName||'');t2.appendChild(b2);
+        var verb=it.type==='like'?T(' 赞了你',' liked your '):T(' 回复了你',' replied to your ');
+        t2.appendChild(document.createTextNode(verb+(EN?({note:'thought',review:'review',reply:'reply'})[it.kind]||'':({note:'的想法',review:'的书评',reply:'的回复'})[it.kind]||'')+(it.bookTitle?' · '+it.bookTitle:'')+(it.text?'：'+it.text:'')));
+        r.appendChild(t2);
+        if(it.bookId){var g=el('a','',T('去看看','View'));g.href='/books/'+it.bookId+'/index.html';r.appendChild(g)}
+        sec.appendChild(r);
+      });
+      main.appendChild(sec);
+      var recent=(prof.recentReviews||[]);
+      var sec2=el('div','sec');
+      sec2.appendChild(el('h2','',T('我的最近书评','My recent reviews')));
+      if(!recent.length)sec2.appendChild(el('div','empty',T('还没写过书评——读完一本书去末章打分吧。','No reviews yet — finish a book and rate it.')));
+      recent.slice(0,5).forEach(function(rv){
+        var d=el('div','rv');
+        var bk=el('div','bk',rv.bookTitle||rv.bookId||'');
+        var st2=el('span','st','★★★★★'.slice(0,rv.rating||0));
+        d.appendChild(bk);d.appendChild(st2);
+        if(rv.text)d.appendChild(el('p','',rv.text));
+        d.onclick=function(){if(rv.bookId)location.href='/books/'+rv.bookId+'/index.html'};
+        sec2.appendChild(d);
+      });
+      main.appendChild(sec2);
+    });
+  }).catch(function(){main.innerHTML='<div class="empty">'+T('页面暂时打不开。','Temporarily unavailable.')+'</div>'});
+})();
+</script></body></html>
