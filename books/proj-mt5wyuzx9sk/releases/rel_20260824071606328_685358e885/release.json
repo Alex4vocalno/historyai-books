@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260824071606328_685358e885",
+  "projectId": "proj-mt5wyuzx9sk",
+  "manuscriptVersionId": "mv_2040d9cfdec93acc",
+  "contentHash": "2040d9cfdec93acc839df7a4f16b08d71c84d241879101bd6d0e7b6f214dd060",
+  "title": "黄金的权力：金属如何铸造世界秩序",
+  "subtitle": "从吕底亚铸币到央行购金潮，一部货币制度的权力史",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "公元前7世纪，吕底亚王国用琥珀金铸造了第一批硬币，无意间开启了一场延续两千七百年的制度实验。黄金从未天然是货币——它是帝国征税的利器、战争融资的引擎、国际贸易的终极结算工具。1816年，英国以一纸《金本位法》将英镑锚定于黄金，大英帝国的税收机器与全球贸易网络从此运转在同一金属标准之上。1971年8月15日，尼克松关闭黄金窗口，布雷顿森林体系一夜崩塌，世界进入浮动汇率时代。但黄金并未退场。2022年俄乌冲突后，全球央行以冷战以来未见的速度增持黄金储备，上海金定价权悄然位移，数字货币的承诺与悖论同时浮现。每一次黄金的“回归”，都暴露了信用体系的脆弱性。这不是一部炼金术或淘金热的故事，而是一部关于国家如何用金属铸造秩序、市场如何反复挣脱锚定的制度史诗。",
+  "category": "世界史",
+  "tags": [
+    "货币史",
+    "金本位",
+    "央行储备",
+    "国际金融秩序",
+    "制度经济学",
+    "世界史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 38,
+    "units": 328652,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-24T04:02:10.170Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-24T07:15:42.639Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "铸币的财政基因",
+      "units": 8677
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "帝国税收与货币扩张",
+      "units": 8498
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "主权真空期的货币竞争",
+      "units": 8049
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "复本位制的政治算术",
+      "units": 8388
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "战争熔炉中的信用实验",
+      "units": 8668
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "金本位制的立法时刻",
+      "units": 9236
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "金本位制的帝国扩散",
+      "units": 8465
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "黄金边疆：殖民掠夺与货币征服",
+      "units": 8280
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "复辟之争：19世纪末的货币政治",
+      "units": 8363
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "古典金本位的运行密码",
+      "units": 8200
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "战争熔炉：金本位的第一次崩溃",
+      "units": 8396
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "重建幻象：金汇兑本位制的内在矛盾",
+      "units": 9174
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "大萧条中的黄金绞索",
+      "units": 8333
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "战争黄金：掠夺、封锁与生存支付",
+      "units": 7536
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "论断：1944年布雷顿森林体系并非金本位的恢复",
+      "units": 7927
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "黄金池与美元防线的消耗战",
+      "units": 8311
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "尼克松冲击：黄金窗口的关闭",
+      "units": 8358
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "浮动时代的黄金再定价：从商品泡沫到央行储备",
+      "units": 7637
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "央行黄金的静默回流",
+      "units": 8629
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "金价长牛的解剖",
+      "units": 7671
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "主权基金与石油美元的黄金转向",
+      "units": 7575
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "欧元危机中的黄金沉默",
+      "units": 8411
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "负利率时代的零收益优势",
+      "units": 8363
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "制裁阴影下的储备重构",
+      "units": 8154
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "央行购金潮的制度逻辑",
+      "units": 10896
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "数字黄金的承诺与悖论",
+      "units": 8379
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "去美元化叙事的黄金内核",
+      "units": 8323
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "金砖货币的黄金难题",
+      "units": 10950
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "上海金的定价权位移",
+      "units": 9624
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "终极锚点的制度韧性",
+      "units": 8217
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "央行购金的逻辑逆转",
+      "units": 7607
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "负利率时代的黄金定价",
+      "units": 7728
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "巴塞尔III的黄金重定义",
+      "units": 10512
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "制裁武器化与储备资产的政治化",
+      "units": 11640
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "东方金市的定价权重构",
+      "units": 9638
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "数字时代的锚定之争",
+      "units": 7724
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "央行购金潮与储备再锚定",
+      "units": 8355
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "锚的悖论",
+      "units": 9760
+    }
+  ],
+  "publishedAt": "2026-08-24T07:16:06.338Z"
+}
