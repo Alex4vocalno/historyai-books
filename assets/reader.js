@@ -163,6 +163,37 @@
   document.body.appendChild(mask);
   document.body.appendChild(settings);
 
+  var tocList = drawer ? drawer.querySelector('.chapter-list') : null;
+  var tocKey = 'historyai.reader.toc.' + (data.bookId || data.title || 'book');
+  function defer(fn) { if (window.requestAnimationFrame) requestAnimationFrame(fn); else setTimeout(fn, 0); }
+  function saveTocScroll() {
+    if (!tocList) return;
+    try { sessionStorage.setItem(tocKey, JSON.stringify({ top: tocList.scrollTop, chapter: Number(data.chapter) || 0, at: Date.now() })); } catch (e) {}
+  }
+  function restoreTocScroll() {
+    if (!tocList) return;
+    var restored = false;
+    try {
+      var saved = JSON.parse(sessionStorage.getItem(tocKey) || 'null');
+      if (saved && Date.now() - Number(saved.at || 0) < 30 * 60 * 1000 && Number.isFinite(Number(saved.top))) {
+        tocList.scrollTop = Math.max(0, Number(saved.top) || 0);
+        restored = true;
+      }
+    } catch (e) {}
+    if (!restored) {
+      var active = tocList.querySelector('.chapter-link.active');
+      if (active) tocList.scrollTop = Math.max(0, active.offsetTop - Math.round(tocList.clientHeight * 0.42));
+    }
+  }
+  if (tocList) {
+    tocList.addEventListener('scroll', saveTocScroll, { passive: true });
+    tocList.addEventListener('click', function (e) {
+      var link = e.target.closest && e.target.closest('a.chapter-link');
+      if (link) saveTocScroll();
+    });
+    defer(restoreTocScroll);
+  }
+
   // 底部章间导航（翻页模式下由 CSS 隐藏；滚动模式与无脚本回退时可用）
   var navHost = document.querySelector('[data-chapter-nav]');
   if (navHost && isChapter) {
@@ -380,7 +411,7 @@
   document.addEventListener('click', function () { if (!settings.hidden) settings.hidden = true; });
   addEventListener('keydown', function (e) { if (e.key === 'Escape' && !settings.hidden) settings.hidden = true; });
   var drawerToggle = document.querySelector('[data-toggle-drawer]');
-  if (drawerToggle) drawerToggle.addEventListener('click', function () { document.body.classList.toggle('drawer-open'); });
+  if (drawerToggle) drawerToggle.addEventListener('click', function () { document.body.classList.toggle('drawer-open'); if (document.body.classList.contains('drawer-open')) defer(restoreTocScroll); });
   mask.addEventListener('click', function () { document.body.classList.remove('drawer-open'); });
   addEventListener('scroll', scrollProgress, { passive: true });
 
