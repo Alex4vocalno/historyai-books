@@ -1,0 +1,849 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260824083636464_f177baebfe",
+  "projectId": "proj-mt5hozrmxtz",
+  "manuscriptVersionId": "mv_811c3c522ee37b16",
+  "contentHash": "811c3c522ee37b16f1b1fbd7e9fae6f7847a670d11c0193afbe6aeb77e8950d3",
+  "title": "李建成必须死",
+  "subtitle": "",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "武德九年，长安暗流汹涌。太子李建成端坐东宫，却已身处绝境。父皇的猜忌如影随形，秦王李世民的刀锋步步紧逼。他凭借对帝国政务流程的洞悉，在官僚制度的缝隙间周旋，于人心博弈的棋局中落子。敕书的留白，马疾的疑云，洛阳的分割案……每一道文书都是生死博弈。他能否在玄武门之变的前夜，于必死的命运中，为大唐的储君之位，寻得一线生机？",
+  "category": "小说",
+  "tags": [
+    "历史小说",
+    "权谋",
+    "唐朝",
+    "玄武门之变",
+    "政治博弈",
+    "太子视角"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 134,
+    "units": 537019,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-24T08:09:06.688Z"
+  },
+  "cover": {
+    "file": "cover.png",
+    "provider": "openrouter",
+    "model": "qwen/qwen-image-3",
+    "generatedAt": "2026-08-24T08:34:25.712Z",
+    "textless": true
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "东宫夜议",
+      "units": 3176
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "玉螭裂纹",
+      "units": 3657
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "太极暗流",
+      "units": 3573
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "马疾疑云",
+      "units": 4079
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "裂痕加深",
+      "units": 3535
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "后宫密语",
+      "units": 4119
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "廷争敕书",
+      "units": 6170
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "封驳权争",
+      "units": 3927
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "马病溯源",
+      "units": 4404
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "洛阳之请",
+      "units": 5080
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "余波隐忧",
+      "units": 3329
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "朝堂交锋",
+      "units": 3829
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "尚书省文书战",
+      "units": 4442
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "崔氏回信",
+      "units": 4621
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "齐王献计",
+      "units": 3659
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "马疾暗流",
+      "units": 4466
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "婕妤传话",
+      "units": 4464
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "暗流",
+      "units": 3895
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "敕书留白",
+      "units": 2700
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "洛阳分割案",
+      "units": 3225
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "崔氏回音",
+      "units": 4598
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "封驳之败",
+      "units": 3426
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "洛阳争权",
+      "units": 3685
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "封驳之挫",
+      "units": 3077
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "分化关陇",
+      "units": 4242
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "敕书留白",
+      "units": 3651
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "婕妤之语",
+      "units": 4449
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "玉螭裂痕",
+      "units": 2572
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "崔氏回音",
+      "units": 6301
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "玉螭裂纹",
+      "units": 4314
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "元吉密谋",
+      "units": 3660
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "刺杀败露",
+      "units": 6429
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "敕书玄机",
+      "units": 5077
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "余波定势",
+      "units": 3358
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "毒计败露",
+      "units": 3260
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "暗流涌动",
+      "units": 4828
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "常何之约",
+      "units": 3418
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "暗流涌动",
+      "units": 4318
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "玉碎",
+      "units": 4351
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "暗流涌动",
+      "units": 3870
+    },
+    {
+      "idx": 40,
+      "sourceIdx": 40,
+      "title": "崔氏回信",
+      "units": 3501
+    },
+    {
+      "idx": 41,
+      "sourceIdx": 41,
+      "title": "暗流涌动",
+      "units": 5370
+    },
+    {
+      "idx": 42,
+      "sourceIdx": 42,
+      "title": "玄武门变",
+      "units": 3768
+    },
+    {
+      "idx": 43,
+      "sourceIdx": 43,
+      "title": "困兽之斗",
+      "units": 2619
+    },
+    {
+      "idx": 44,
+      "sourceIdx": 44,
+      "title": "律令之重",
+      "units": 9373
+    },
+    {
+      "idx": 45,
+      "sourceIdx": 45,
+      "title": "遗物惊心",
+      "units": 3901
+    },
+    {
+      "idx": 46,
+      "sourceIdx": 46,
+      "title": "洛阳之争",
+      "units": 3715
+    },
+    {
+      "idx": 47,
+      "sourceIdx": 47,
+      "title": "元吉献计",
+      "units": 3187
+    },
+    {
+      "idx": 48,
+      "sourceIdx": 48,
+      "title": "封驳敕书",
+      "units": 4587
+    },
+    {
+      "idx": 49,
+      "sourceIdx": 49,
+      "title": "举荐被驳",
+      "units": 3269
+    },
+    {
+      "idx": 50,
+      "sourceIdx": 50,
+      "title": "马病真相",
+      "units": 3867
+    },
+    {
+      "idx": 51,
+      "sourceIdx": 51,
+      "title": "盟友离心",
+      "units": 3311
+    },
+    {
+      "idx": 52,
+      "sourceIdx": 52,
+      "title": "元吉躁进",
+      "units": 4184
+    },
+    {
+      "idx": 53,
+      "sourceIdx": 53,
+      "title": "御前抉择",
+      "units": 3681
+    },
+    {
+      "idx": 54,
+      "sourceIdx": 54,
+      "title": "元吉密会",
+      "units": 4513
+    },
+    {
+      "idx": 55,
+      "sourceIdx": 55,
+      "title": "魏征谏言",
+      "units": 4601
+    },
+    {
+      "idx": 56,
+      "sourceIdx": 56,
+      "title": "文书拖延",
+      "units": 3813
+    },
+    {
+      "idx": 57,
+      "sourceIdx": 57,
+      "title": "分割草案",
+      "units": 4212
+    },
+    {
+      "idx": 58,
+      "sourceIdx": 58,
+      "title": "封驳反击",
+      "units": 4190
+    },
+    {
+      "idx": 59,
+      "sourceIdx": 59,
+      "title": "元吉逼宫",
+      "units": 3050
+    },
+    {
+      "idx": 60,
+      "sourceIdx": 60,
+      "title": "秦王回京",
+      "units": 3462
+    },
+    {
+      "idx": 61,
+      "sourceIdx": 61,
+      "title": "最后的游说",
+      "units": 3489
+    },
+    {
+      "idx": 62,
+      "sourceIdx": 62,
+      "title": "风暴前夕",
+      "units": 3899
+    },
+    {
+      "idx": 63,
+      "sourceIdx": 63,
+      "title": "洛阳高潮",
+      "units": 4700
+    },
+    {
+      "idx": 64,
+      "sourceIdx": 64,
+      "title": "举荐被驳",
+      "units": 4198
+    },
+    {
+      "idx": 65,
+      "sourceIdx": 65,
+      "title": "元吉献计",
+      "units": 4198
+    },
+    {
+      "idx": 66,
+      "sourceIdx": 66,
+      "title": "魏征谏言",
+      "units": 4086
+    },
+    {
+      "idx": 67,
+      "sourceIdx": 67,
+      "title": "余波收束",
+      "units": 3605
+    },
+    {
+      "idx": 68,
+      "sourceIdx": 68,
+      "title": "元吉逼宫",
+      "units": 3341
+    },
+    {
+      "idx": 69,
+      "sourceIdx": 69,
+      "title": "魏征再谏",
+      "units": 3240
+    },
+    {
+      "idx": 70,
+      "sourceIdx": 70,
+      "title": "禁军暗流",
+      "units": 4845
+    },
+    {
+      "idx": 71,
+      "sourceIdx": 71,
+      "title": "分化常何",
+      "units": 3515
+    },
+    {
+      "idx": 72,
+      "sourceIdx": 72,
+      "title": "元吉失控",
+      "units": 4088
+    },
+    {
+      "idx": 73,
+      "sourceIdx": 73,
+      "title": "常何回应",
+      "units": 4183
+    },
+    {
+      "idx": 74,
+      "sourceIdx": 74,
+      "title": "秦王反制",
+      "units": 4246
+    },
+    {
+      "idx": 75,
+      "sourceIdx": 75,
+      "title": "绝境微操",
+      "units": 2936
+    },
+    {
+      "idx": 76,
+      "sourceIdx": 76,
+      "title": "元吉异动",
+      "units": 5763
+    },
+    {
+      "idx": 77,
+      "sourceIdx": 77,
+      "title": "风暴前夜",
+      "units": 3398
+    },
+    {
+      "idx": 78,
+      "sourceIdx": 78,
+      "title": "元吉密谋",
+      "units": 3270
+    },
+    {
+      "idx": 79,
+      "sourceIdx": 79,
+      "title": "魏征谏言",
+      "units": 2778
+    },
+    {
+      "idx": 80,
+      "sourceIdx": 80,
+      "title": "禁军失控",
+      "units": 4109
+    },
+    {
+      "idx": 81,
+      "sourceIdx": 81,
+      "title": "元吉逼宫",
+      "units": 3428
+    },
+    {
+      "idx": 82,
+      "sourceIdx": 82,
+      "title": "文官动摇",
+      "units": 3141
+    },
+    {
+      "idx": 83,
+      "sourceIdx": 83,
+      "title": "绝境微操",
+      "units": 3372
+    },
+    {
+      "idx": 84,
+      "sourceIdx": 84,
+      "title": "秦王应对",
+      "units": 3340
+    },
+    {
+      "idx": 85,
+      "sourceIdx": 85,
+      "title": "渊帝召见",
+      "units": 4601
+    },
+    {
+      "idx": 86,
+      "sourceIdx": 86,
+      "title": "元吉独走",
+      "units": 3659
+    },
+    {
+      "idx": 87,
+      "sourceIdx": 87,
+      "title": "建成抉择",
+      "units": 3684
+    },
+    {
+      "idx": 88,
+      "sourceIdx": 88,
+      "title": "密奏惊澜",
+      "units": 4215
+    },
+    {
+      "idx": 89,
+      "sourceIdx": 89,
+      "title": "元吉被囚",
+      "units": 3409
+    },
+    {
+      "idx": 90,
+      "sourceIdx": 90,
+      "title": "宫闱对质",
+      "units": 3310
+    },
+    {
+      "idx": 91,
+      "sourceIdx": 91,
+      "title": "魏征谏言",
+      "units": 3419
+    },
+    {
+      "idx": 92,
+      "sourceIdx": 92,
+      "title": "孤注一掷",
+      "units": 4330
+    },
+    {
+      "idx": 93,
+      "sourceIdx": 93,
+      "title": "朝议风波",
+      "units": 3667
+    },
+    {
+      "idx": 94,
+      "sourceIdx": 94,
+      "title": "秦王密会",
+      "units": 2700
+    },
+    {
+      "idx": 95,
+      "sourceIdx": 95,
+      "title": "山雨欲来",
+      "units": 4185
+    },
+    {
+      "idx": 96,
+      "sourceIdx": 96,
+      "title": "玄武前夕",
+      "units": 4763
+    },
+    {
+      "idx": 97,
+      "sourceIdx": 97,
+      "title": "血色黎明",
+      "units": 3875
+    },
+    {
+      "idx": 98,
+      "sourceIdx": 98,
+      "title": "余波初定",
+      "units": 4593
+    },
+    {
+      "idx": 99,
+      "sourceIdx": 99,
+      "title": "清算与安抚",
+      "units": 3486
+    },
+    {
+      "idx": 100,
+      "sourceIdx": 100,
+      "title": "新秩序",
+      "units": 4387
+    },
+    {
+      "idx": 101,
+      "sourceIdx": 101,
+      "title": "囚笼初醒",
+      "units": 2536
+    },
+    {
+      "idx": 102,
+      "sourceIdx": 102,
+      "title": "魏征探监",
+      "units": 3392
+    },
+    {
+      "idx": 103,
+      "sourceIdx": 103,
+      "title": "诀别",
+      "units": 4163
+    },
+    {
+      "idx": 104,
+      "sourceIdx": 104,
+      "title": "囚徒抉择",
+      "units": 4210
+    },
+    {
+      "idx": 105,
+      "sourceIdx": 105,
+      "title": "新皇召见",
+      "units": 4449
+    },
+    {
+      "idx": 106,
+      "sourceIdx": 106,
+      "title": "蜀道难行",
+      "units": 4038
+    },
+    {
+      "idx": 107,
+      "sourceIdx": 107,
+      "title": "元吉之死",
+      "units": 3843
+    },
+    {
+      "idx": 108,
+      "sourceIdx": 108,
+      "title": "绝笔家书",
+      "units": 3366
+    },
+    {
+      "idx": 109,
+      "sourceIdx": 109,
+      "title": "最后的制度",
+      "units": 5844
+    },
+    {
+      "idx": 110,
+      "sourceIdx": 110,
+      "title": "余烬未冷",
+      "units": 3675
+    },
+    {
+      "idx": 111,
+      "sourceIdx": 111,
+      "title": "史笔如刀",
+      "units": 2729
+    },
+    {
+      "idx": 112,
+      "sourceIdx": 112,
+      "title": "余脉暗涌",
+      "units": 5382
+    },
+    {
+      "idx": 113,
+      "sourceIdx": 113,
+      "title": "新朝气象",
+      "units": 3158
+    },
+    {
+      "idx": 114,
+      "sourceIdx": 114,
+      "title": "魏征归心",
+      "units": 3576
+    },
+    {
+      "idx": 115,
+      "sourceIdx": 115,
+      "title": "北门之变",
+      "units": 4064
+    },
+    {
+      "idx": 116,
+      "sourceIdx": 116,
+      "title": "父退子进",
+      "units": 4598
+    },
+    {
+      "idx": 117,
+      "sourceIdx": 117,
+      "title": "登基大典",
+      "units": 5153
+    },
+    {
+      "idx": 118,
+      "sourceIdx": 118,
+      "title": "洛阳暗流",
+      "units": 4835
+    },
+    {
+      "idx": 119,
+      "sourceIdx": 119,
+      "title": "律法新章",
+      "units": 4026
+    },
+    {
+      "idx": 120,
+      "sourceIdx": 120,
+      "title": "渭水之盟",
+      "units": 4428
+    },
+    {
+      "idx": 121,
+      "sourceIdx": 121,
+      "title": "东宫密议",
+      "units": 3694
+    },
+    {
+      "idx": 122,
+      "sourceIdx": 122,
+      "title": "崔府夜谈",
+      "units": 3361
+    },
+    {
+      "idx": 123,
+      "sourceIdx": 123,
+      "title": "代价抉择",
+      "units": 3796
+    },
+    {
+      "idx": 124,
+      "sourceIdx": 124,
+      "title": "洛阳惊变",
+      "units": 3116
+    },
+    {
+      "idx": 125,
+      "sourceIdx": 125,
+      "title": "律令初稿",
+      "units": 3876
+    },
+    {
+      "idx": 126,
+      "sourceIdx": 126,
+      "title": "暗线暴露",
+      "units": 4220
+    },
+    {
+      "idx": 127,
+      "sourceIdx": 127,
+      "title": "魏征谏言",
+      "units": 4135
+    },
+    {
+      "idx": 128,
+      "sourceIdx": 128,
+      "title": "诀别",
+      "units": 4052
+    },
+    {
+      "idx": 129,
+      "sourceIdx": 129,
+      "title": "最后布局",
+      "units": 4524
+    },
+    {
+      "idx": 130,
+      "sourceIdx": 130,
+      "title": "朝会风暴",
+      "units": 3146
+    },
+    {
+      "idx": 131,
+      "sourceIdx": 131,
+      "title": "深夜密诏",
+      "units": 5415
+    },
+    {
+      "idx": 132,
+      "sourceIdx": 132,
+      "title": "玄武门定局",
+      "units": 6066
+    },
+    {
+      "idx": 133,
+      "sourceIdx": 133,
+      "title": "新朝余波",
+      "units": 3294
+    }
+  ],
+  "publishedAt": "2026-08-24T08:36:36.467Z"
+}
