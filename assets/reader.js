@@ -271,6 +271,8 @@
   function trackOnce(ev) { if (!trackSent[ev]) { trackSent[ev] = 1; track(ev); } }
   function setBar(r) {
     var s = document.querySelector('.read-progress span'); if (s) s.style.width = (Math.max(0, Math.min(1, r)) * 100) + '%';
+    var pctNode = document.querySelector('[data-reader-pct]');
+    if (pctNode) pctNode.textContent = Math.round(Math.max(0, Math.min(1, r)) * 100) + '%';
     if (r >= 0.5) trackOnce('half');
     if (r >= 0.9 && nextHref && !prefetched) {
       prefetched = true;
@@ -328,6 +330,14 @@
     if (n > total - 1) { if (nextHref) location.href = nextHref; return; }
     go(n);
   }
+  (function floatingReaderDock() {
+    var prevText = data.lang === 'en' ? 'Prev' : '上一页';
+    var nextText = data.lang === 'en' ? 'Next' : '下一页';
+    var dock = h('div', 'reader-floating', '<button type="button" data-reader-prev>' + prevText + '</button><span data-reader-pct>0%</span><button type="button" data-reader-next>' + nextText + '</button>');
+    document.body.appendChild(dock);
+    dock.querySelector('[data-reader-prev]').addEventListener('click', function (e) { e.stopPropagation(); flip(-1); });
+    dock.querySelector('[data-reader-next]').addEventListener('click', function (e) { e.stopPropagation(); flip(1); });
+  })();
   function apply() {
     root.dataset.theme = state.theme;
     root.style.setProperty('--reader-font', state.font + 'px');
