@@ -549,7 +549,8 @@
           Object.keys(byPara).forEach(function (k) {
             var i2 = Number(k);
             if (i2 < 0 || !ps[i2]) return;
-            var dot = el2('sup', 'idea-dot', '💬' + byPara[k].length);
+            var dot = el2('sup', 'idea-dot', '');
+            dot.innerHTML = '<img class="idea-dot-ico" src="../../assets/icons/speech.png" alt="">' + byPara[k].length;
             dot.onclick = function (ev2) { ev2.stopPropagation(); openSheet(byPara[k], ps[i2]); };
             ps[i2].appendChild(dot);
           });
