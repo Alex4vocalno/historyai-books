@@ -49,7 +49,7 @@ a{color:inherit;text-decoration:none}
 @media(max-width:620px){.stats{grid-template-columns:repeat(3,1fr)}.idcard .go{flex-direction:row}.works{grid-template-columns:repeat(3,1fr)}}
 </style></head><body>
 <div class="wrap">
-  <div class="top"><h1 data-t="title">我的主页</h1><a href="/index.html" data-t="back">← 返回书库</a><a href="/shelf.html" data-t="shelf">我的书架</a><a href="/feed.html" data-t="feed">社区动态</a></div>
+  <div class="top"><h1 data-t="title">我的主页</h1><a href="/index.html" data-t="back">← 返回书库</a><a href="/index.html#myshelf" data-t="shelf">我的书架</a><a href="/feed.html" data-t="feed">社区动态</a></div>
   <div id="main"><div class="empty" data-t="loading">正在打开…</div></div>
 </div>
 <script>
@@ -80,7 +80,9 @@ a{color:inherit;text-decoration:none}
     card.appendChild(av);
     var mid=el('div','');
     mid.appendChild(el('div','nm',u.penName||u.name));
-    mid.appendChild(el('div','role',(u.role==='owner'?T('超级用户','Owner'):T('读者 · 作者','Reader · Writer'))+(u.credits!=null&&u.role!=='owner'?(' · '+T('积分 ','Credits ')+u.credits):'')));
+    function remainingCredits(user){if(!user||user.role==='owner')return null;if(user.balance&&user.balance.unlimited)return null;if(user.balance&&user.balance.remaining!=null)return user.balance.remaining;if(user.credits!=null)return user.credits;return null}
+    var rem=remainingCredits(u);
+    mid.appendChild(el('div','role',(u.role==='owner'?T('超级用户','Owner'):T('读者 · 作者','Reader · Writer'))+(rem!=null&&u.role!=='owner'?(' · '+T('剩余积分 ','Remaining credits ')+rem):'')));
     card.appendChild(mid);
     var go=el('div','go');
     var st=el('a','');st.innerHTML='<img class="ico" src="assets/icons/write-inv.png" alt=""> '+T('进入写作台','Open the studio');st.href='https://write.evoronai.com/';go.appendChild(st);
@@ -96,9 +98,9 @@ a{color:inherit;text-decoration:none}
       var prof=(rs[1]&&rs[1].ok&&rs[1].profile)||{};
       var noti=rs[2]&&rs[2].ok?rs[2]:{items:[],unread:0};
       var works=(prof.works||[]);
-      stat('bookmark',shelf.counts.wishlist,T('想读','Want'), '/shelf.html');
-      stat('book',shelf.counts.reading,T('在读','Reading'),'/shelf.html');
-      stat('check',shelf.counts.finished,T('读完','Finished'),'/shelf.html');
+      stat('bookmark',shelf.counts.wishlist,T('想读','Want'), '/index.html#myshelf-wishlist');
+      stat('book',shelf.counts.reading,T('在读','Reading'),'/index.html#myshelf-reading');
+      stat('check',shelf.counts.finished,T('读完','Finished'),'/index.html#myshelf-finished');
       stat('speech',prof.notes||0,T('想法','Thoughts'));
       stat('star',prof.reviews||0,T('书评','Reviews'));
       stat('note',works.length,T('作品','Works'),works.length?'#works':'https://write.evoronai.com/');
