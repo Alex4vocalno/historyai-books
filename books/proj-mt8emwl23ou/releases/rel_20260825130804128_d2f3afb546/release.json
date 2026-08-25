@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260825130804128_d2f3afb546",
+  "projectId": "proj-mt8emwl23ou",
+  "manuscriptVersionId": "mv_169b433a21010ab9",
+  "contentHash": "169b433a21010ab92136a42ebbc994db439d8c4d408dfa4757061c89f5d93167",
+  "title": "The Cathedral and the Commit: A History of Open Source",
+  "subtitle": "How Idealism, Commerce, and Law Built the Digital Commons",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "Open source was never a technological inevitability. It emerged from decades of friction between hacker idealism, corporate strategy, and legal innovation. From the GNU Manifesto’s radical declaration to cloud giants weaponizing licenses against their own foundations, this history traces how collaboration became infrastructure. Through pivotal moments—a disputed printer driver, Netscape’s desperate source release, the dot-com crash’s survival test—we see how every paradigm shift redefined what “open” actually costs. The story moves beyond mythology to examine the concrete tensions: community autonomy versus capital logic, technical freedom versus commercial control. Today’s digital commons rests not on pure altruism but on negotiated compromises etched into code and contract. This is the definitive account of how a fringe practice became the bedrock of modern computing, revealing the human stakes behind every commit.",
+  "category": "科技史",
+  "tags": [
+    "Open Source History",
+    "Software Culture",
+    "Technology Business",
+    "Digital Infrastructure",
+    "Hacker Ethics"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 29,
+    "units": 74456,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-3",
+    "createdAt": "2026-08-25T12:44:05.426Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-25T13:07:10.806Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Cathedral Before the Bazaar (1970s–1983)",
+      "units": 2694
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Emancipation Proclamation for Code (1984–1985)",
+      "units": 2669
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Kernel and the Compromise (1986–1991)",
+      "units": 2651
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "This Chapter Documents the Crucial",
+      "units": 2486
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The First Congregations (1992–1994)",
+      "units": 2473
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Bazaar Finds Its Voice (1994–1995)",
+      "units": 2622
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Cathedral Confronts the Bazaar (1995–1996)",
+      "units": 2240
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Pragmatic Turn (1997–1998)",
+      "units": 2656
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Netscape Gambit and the Corporate Embrace (1998–1999)",
+      "units": 2461
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Apache Web Server and the Infrastructure Commons (1998–1999)",
+      "units": 2419
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Corporate Fork and the Community Schism (1999–2000)",
+      "units": 2300
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Dot-Com Crash and the Crucible of Viability (2000–2002)",
+      "units": 2503
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Rise of the LAMP Stack (2002–2004)",
+      "units": 2662
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Server Room Triumphs",
+      "units": 2670
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Eclipse Foundation and the Corporate Consortium (2004–2005)",
+      "units": 3011
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Patent Wars and the Defensive License (2005–2007)",
+      "units": 2627
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Virtualization Layer and the Commodity Cloud (2006–2008)",
+      "units": 2602
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The App Store and the Walled Garden (2008–2010)",
+      "units": 2623
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Pivotal Shift in the Industrial",
+      "units": 2302
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Platform and the Prison (2009–2011)",
+      "units": 2298
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Container and the Commoditized Stack (2013–2015)",
+      "units": 2686
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Pivotal Moment When the Commercial",
+      "units": 2637
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Cloud’s Embrace and the Open-Source Squeeze (2015–2018)",
+      "units": 2547
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The License as a Strategic Weapon (2018–2020)",
+      "units": 2477
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Developer in the Machine (2020–2023)",
+      "units": 2656
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Maintainer’s Burden (2020–2023)",
+      "units": 2800
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The End of the Beginning (2023–Present)",
+      "units": 2613
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Cathedral Reforged (2023–Present)",
+      "units": 2784
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Cathedral and the Commit (2024–Present)",
+      "units": 2287
+    }
+  ],
+  "publishedAt": "2026-08-25T13:08:04.539Z"
+}
