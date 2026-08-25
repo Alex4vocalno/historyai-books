@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260825130851868_5a22f7a7c8",
+  "projectId": "proj-mt8c40a5yey",
+  "manuscriptVersionId": "mv_3ca61f5eb6511c59",
+  "contentHash": "3ca61f5eb6511c5901636cf116517cd6785d8792004fdd58513d882b4f32daae",
+  "title": "曾侯乙墓：一座战国大墓里的礼乐与权力",
+  "subtitle": "一座战国大墓里的礼乐与权力",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1978年，湖北随州擂鼓墩，一座沉睡两千四百年的曾国大墓重见天日。九鼎八簋、六十五件编钟、成组漆木器与大量铭文，将战国早期的礼乐秩序与权力博弈凝固在泥土之下。编钟音律精确，青铜纹饰繁复，漆器却暗含楚风——曾国在强楚之侧，用最精密的工艺与最郑重的仪典，筑起一道文化防线。本书从墓葬空间、器物组合与铭文细节入手，还原一场以青铜、丝竹与漆彩写就的政治宣言。",
+  "category": "中国史",
+  "tags": [
+    "考古",
+    "战国",
+    "礼乐制度",
+    "曾国",
+    "青铜器",
+    "楚文化"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 249299,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 87,
+    "method": "median-of-3",
+    "createdAt": "2026-08-25T12:46:06.997Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-25T12:28:42.531Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "随枣走廊的十字路口",
+      "units": 8283
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "擂鼓墩的偶然与必然",
+      "units": 8665
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "椁室里的空间政治",
+      "units": 8011
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "钟架上的礼乐密码",
+      "units": 8859
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "铭文里的双重效忠",
+      "units": 8376
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "漆木之下的楚风暗涌",
+      "units": 8400
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "铜灶里的火候",
+      "units": 7692
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "一坑牛骨的政治账",
+      "units": 7553
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "衣箱里的天象",
+      "units": 8445
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "戈戟丛中的技术选择",
+      "units": 8399
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "车马坑里的仪仗逻辑",
+      "units": 7633
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "水器里的宴饮政治",
+      "units": 8388
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "纹饰的语法",
+      "units": 8891
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "铭文书风里的正统焦虑",
+      "units": 8839
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "漆画里的另一个曾国",
+      "units": 7832
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "玉器里的减法美学",
+      "units": 9497
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "丝织纹样的消逝与重现",
+      "units": 8788
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "审美体系的裂缝",
+      "units": 9380
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "鼎簋之间的名分",
+      "units": 7634
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "一镈之赠的邦交术",
+      "units": 9594
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "模范背后的工官",
+      "units": 8596
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "陪葬席上的少女",
+      "units": 8366
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "口琀握玉的丧仪",
+      "units": 8481
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "曾国权力的退场",
+      "units": 7723
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "无名古冢的两千年",
+      "units": 7699
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "从泥土到编号的旅途",
+      "units": 8086
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "编钟重新发声",
+      "units": 7516
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "展柜中的外交叙事",
+      "units": 7453
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "考古场上的解释拉锯",
+      "units": 8388
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "擂鼓墩的回声",
+      "units": 7832
+    }
+  ],
+  "publishedAt": "2026-08-25T13:08:51.874Z"
+}
