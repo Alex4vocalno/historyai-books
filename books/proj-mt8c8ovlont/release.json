@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260825123509097_9f7b437021",
+  "projectId": "proj-mt8c8ovlont",
+  "manuscriptVersionId": "mv_0548ae590d66ddfe",
+  "contentHash": "0548ae590d66ddfe0c3d2ca83c4df49cd8b9d8215489f9614e67ea62cb9a7cfd",
+  "title": "沙与誓：殷玉珍与毛乌素的四十年",
+  "subtitle": "一个农妇与一片沙地的四十年",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1985年，殷玉珍嫁到毛乌素沙地深处。新房是一间半埋沙里的地窨子，风沙一夜就能埋掉门。她开始种树，没有钱买树苗，就掏空家底、借遍亲戚，第一年种下的600棵树苗，只活了不到10棵。四十年后，7万亩沙地变成绿洲。这不是一个简单的励志故事：账本上记着每一笔买树苗的借款，承包书里写着荒沙地的四至边界，补贴款迟迟不到账，林权证一拖再拖。美国捐助者赛考斯带着国际环保项目的表格来到沙梁上，翻译站在中间，两边的话都要重新说一遍。风沙、债务、政策、荣誉，都写在这片沙地上。殷玉珍用一生在沙里种下誓言，也种下中国基层生态治理最真实的摩擦与接合。",
+  "category": "中国史",
+  "tags": [
+    "毛乌素沙地",
+    "治沙",
+    "生态治理",
+    "个人史",
+    "国际援助",
+    "基层中国"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 224944,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-2",
+    "createdAt": "2026-08-25T12:34:43.659Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-25T12:34:52.479Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "嫁到毛乌素的路",
+      "units": 7881
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "风沙吞下头茬树",
+      "units": 9490
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "树苗写进账本",
+      "units": 8396
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "承包书里的沙地",
+      "units": 9716
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "从一棵到一行",
+      "units": 10371
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "补贴划入老账本",
+      "units": 7794
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "别人家的沙梁",
+      "units": 8236
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "写入汇报材料",
+      "units": 8584
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "沙梁下的家庭分工",
+      "units": 8331
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "绿洲长成之后",
+      "units": 8126
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "赛考斯来到毛乌素",
+      "units": 8235
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "被表彰的沙地",
+      "units": 7734
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "奖状挂上土墙",
+      "units": 11524
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "赛考斯的项目书",
+      "units": 12553
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "翻译站在沙梁上",
+      "units": 7544
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "项目到期那年",
+      "units": 9656
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "林权证迟迟不来",
+      "units": 8626
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "坐在调解桌两边",
+      "units": 13508
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "沙地账本合上之后",
+      "units": 8384
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "补偿款打进卡里",
+      "units": 9376
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "绿洲开始自己呼吸",
+      "units": 9175
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "赛考斯再来时",
+      "units": 7645
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "沙地有了新主人",
+      "units": 7925
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "沙与誓的余响",
+      "units": 7750
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "命名沙地的人",
+      "units": 8384
+    }
+  ],
+  "publishedAt": "2026-08-25T12:35:09.148Z"
+}
