@@ -112,7 +112,7 @@
   .continue-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
   .cont-card{position:relative}
   .cont-card small{color:var(--green-dark);font-weight:700}
-  .cont-card .cont-bar{display:block;width:74%;height:3px;margin:10px auto 0;border-radius:2px;background:#edefee;overflow:hidden}
+  .cont-card .cont-bar{display:block;width:100%;height:3px;margin:6px 0 0;border-radius:2px;background:#edefee;overflow:hidden}
   .cont-bar i{display:block;height:3px;border-radius:2px;background:var(--green)}
   body.searching .sec-discover{display:none}
   body.searching .continue-box{display:none}
@@ -249,13 +249,21 @@ function railCard(b){
   return '<a class="rail-card" href="'+esc(b.u)+'">'+coverHtml(b)+'<strong>'+esc(b.t)+'</strong><small>'+esc(b.a)+'</small><span class="tag">'+esc(b.g)+' · '+b.n+' 章</span></a>';
 }
 // v5.14 rec card, horizontal per design mock: cover left, category chip, serif title, author
-function recCard(b){
+function recArt(b){
   var art=(b.c&&b.x)
     ?'<div class="rec-cover cover-typeset"><img src="'+esc(b.c)+'" alt="">'+coverTypeHtml(b)+'</div>'
     :(b.c
       ?'<div class="rec-cover cover-thumb"><img src="'+esc(b.c)+'" alt=""></div>'
       :'<div class="rec-cover"><div class="cover-copy"><h2>'+esc(b.t)+'</h2></div></div>');
+  return art;
+}
+function recCard(b){
+  var art=recArt(b);
   return '<a class="rec-card" href="'+esc(b.u)+'">'+art+'<span class="rec-body"><em class="rec-cat">'+esc(b.g)+'</em><strong>'+esc(b.t)+'</strong><small>'+esc(b.a)+'</small></span></a>';
+}
+function continueCard(r){
+  var pct=r.b.n?Math.min(100,Math.round((r.ch+1)/r.b.n*100)):0;
+  return '<a class="rec-card cont-card" href="'+esc(r.href||r.b.r)+'">'+recArt(r.b)+'<span class="rec-body"><em class="rec-cat">继续阅读</em><strong>'+esc(r.b.t)+'</strong><small>读到第 '+(r.ch+1)+' 章 · '+pct+'%</small><span class="cont-bar"><i style="width:'+pct+'%"></i></span></span></a>';
 }
 // v5.12 For-you picks: signals = local reading traces + signed-in shelf;
 // category affinity x3 + editorial score + jitter; read/shelved books excluded.
@@ -341,7 +349,7 @@ try{
   for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!k||k.indexOf('historyai.reader.')!==0)continue;var pid=k.slice('historyai.reader.'.length);var b=BOOKS[pid];if(!b)continue;var st={};try{st=JSON.parse(localStorage.getItem(k)||'{}')}catch(e){}var ch=Number(st.chapter);if(!isFinite(ch))continue;recent.push({pid:pid,b:b,ch:ch,at:Date.parse(st.updatedAt||0)||0,href:st.href||''})}
   recent.sort(function(a,b){return b.at-a.at});recent=recent.slice(0,6);
   if(recent.length){var box=document.querySelector('.continue-box');box.hidden=false;var strip=box.querySelector('.continue-strip');
-    strip.innerHTML=recent.slice(0,4).map(function(r){var pct=r.b.n?Math.min(100,Math.round((r.ch+1)/r.b.n*100)):0;return '<a class="rail-card cont-card" href="'+esc(r.href||r.b.r)+'">'+coverHtml(r.b)+'<strong>'+esc(r.b.t)+'</strong><small>读到第 '+(r.ch+1)+' 章 · '+pct+'%</small><span class="cont-bar"><i style="width:'+pct+'%"></i></span></a>'}).join('')}
+    strip.innerHTML=recent.slice(0,4).map(continueCard).join('')}
 }catch(e){}
 applyFilter();
 })();</script></body></html>
