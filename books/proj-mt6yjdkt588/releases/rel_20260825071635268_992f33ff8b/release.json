@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260825071635268_992f33ff8b",
+  "projectId": "proj-mt6yjdkt588",
+  "manuscriptVersionId": "mv_f42ffd4be76ba145",
+  "contentHash": "f42ffd4be76ba1451e91ae4edff2e1f9cf27db95f4921e41a2432b323f6aabb9",
+  "title": "杯中乾坤：中国古代酒文化的生成与流变",
+  "subtitle": "从祭祀礼器到市井酒钱，一部酒里的中国社会史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "新石器时代的谷物在陶瓮中发酵，商周青铜爵盛满通神的醴酒；汉代画像石上，宾客举杯喧哗，酒令与诗赋在席间流转；唐代胡姬酒肆里，诗人掂量着铜钱，买一场微醺；宋代官酿与家酿争香，东坡在贬谪路上滤一巾浊酒；明清酒牌翻飞，绍兴黄酒随运河漕船浸透帝国的余味。酒，从来不只是饮品。它是祭祀的媒介、权力的筹码、市井的欢愉、文人的逃遁。每一次举杯方式的改变，背后都是礼仪、市场与权力对同一杯液体的重新定义。本书从一件件酒器、一张张酒价单、一条条酒令切入，在谷物发酵的气味里，勾勒出中国社会三千年的结构与变迁。",
+  "category": "文化史",
+  "tags": [
+    "酒文化",
+    "社会史",
+    "物质文化",
+    "礼仪与权力",
+    "市井生活",
+    "日常生活史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 247499,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-2",
+    "createdAt": "2026-08-25T07:07:46.006Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-25T07:16:09.796Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "谷物之灵",
+      "units": 8388
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "青铜铸就的仪式",
+      "units": 8332
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "周礼的节制",
+      "units": 8607
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "南土的歌谣",
+      "units": 8495
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "帝国的计量",
+      "units": 8267
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "汉墓里的微醺",
+      "units": 7777
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "画像石中的宴饮百态",
+      "units": 9417
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "铜镜与酒樽旁的建安风骨",
+      "units": 8383
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "竹林里的酣醉与清醒",
+      "units": 8433
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "曲蘖酿成的乡野秩序",
+      "units": 8430
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "豪强庄园里的酒藏",
+      "units": 8518
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "从酒肆到酒舍的市井新声",
+      "units": 7674
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "兰亭序上的酒痕",
+      "units": 9159
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "陶潜的漉酒巾",
+      "units": 8376
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "醉僧的墨迹",
+      "units": 9812
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "丝路上的胡姬酒肆",
+      "units": 8760
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "诗人的酒价单",
+      "units": 8390
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "酒令里的风雅与机锋",
+      "units": 8250
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "官酿的身份烙印",
+      "units": 7776
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "内酒法的宫廷秘酿",
+      "units": 8162
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "士大夫的家酿风潮",
+      "units": 8349
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "东坡的浊酒与归途",
+      "units": 970
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "酒醋面局与帝国的味蕾",
+      "units": 8482
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "水浒世界的豪饮伦理",
+      "units": 8921
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "烧春与糟坊",
+      "units": 8594
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "酒牌上的社会",
+      "units": 9148
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "将叙事战场从生产端全面转向消费端",
+      "units": 9027
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "绍兴酒与帝国的余味",
+      "units": 8039
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "酒瓶里的现代国家",
+      "units": 8153
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "杯中故国",
+      "units": 8410
+    }
+  ],
+  "publishedAt": "2026-08-25T07:16:35.271Z"
+}
