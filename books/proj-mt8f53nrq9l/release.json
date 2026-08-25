@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260825131335582_fd79dbf698",
+  "projectId": "proj-mt8f53nrq9l",
+  "manuscriptVersionId": "mv_fe660a7feb8b7682",
+  "contentHash": "fe660a7feb8b768298a8942ee048c0100a2b5beccb8f5f09b4067cc60e75e7f9",
+  "title": "体感纪元：游戏控制器的百年进化",
+  "subtitle": "从光枪到手势识别的交互博弈史",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1972年，一把塑料光枪叩开了家庭娱乐的大门；半个世纪后，指尖的微小颤动已能精准映射于虚拟空间。这段历程并非单纯的技术凯歌，而是精度、成本与内容生态在失衡中反复重构的博弈。从任天堂Wii引爆客厅革命，到Kinect在摄像头前构筑的手势乌托邦，再到Quest 3确立的空间计算新共识，每一次范式转移都伴随着工程取舍的阵痛与商业赌注。本书透过专利图纸与销售数据，还原那些被遗忘的开发决策现场，讲述体感控制器如何挣脱边缘玩具的标签，在生理极限与市场现实的夹缝中，重塑人与数字世界的连接方式。",
+  "category": "游戏史",
+  "tags": [
+    "游戏史",
+    "交互设计",
+    "硬件进化",
+    "虚拟现实",
+    "科技商业",
+    "历史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 256354,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-1",
+    "createdAt": "2026-08-25T12:49:54.706Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-25T13:12:09.548Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "家用游戏的第一声枪响",
+      "units": 8351
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "消失的球拍，永存的逻辑",
+      "units": 7694
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "手套与地板上的线",
+      "units": 8399
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "虚拟现实的首场葬礼",
+      "units": 8297
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "弹道的遗产与陀螺仪的生意",
+      "units": 8447
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "岩田聪的赌博与竹田的扳机",
+      "units": 8200
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "展厅里的第三次握手",
+      "units": 9716
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "玩具店里的成人革命",
+      "units": 8047
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "索尼的精密追赶",
+      "units": 7639
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "摄像头前的手势乌托邦",
+      "units": 13945
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Wii之后的后坐力",
+      "units": 8304
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "从客厅撤退到卧室",
+      "units": 9600
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "追踪的代价",
+      "units": 10276
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "手指的复权",
+      "units": 9972
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "索尼的第二次入场",
+      "units": 7674
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "微软的静默重构",
+      "units": 7529
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "扳机、摇杆与触控板的三角战争",
+      "units": 8386
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "指节之上的新共识",
+      "units": 8361
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "一体机的破局",
+      "units": 7424
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "节奏光剑与生态验证",
+      "units": 7723
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "Quest 2的定价革命",
+      "units": 8857
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "高端的坚守与分化",
+      "units": 8441
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "混合现实的产业接口",
+      "units": 7386
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "空间计算的新棋局",
+      "units": 8382
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "客厅的重新划分",
+      "units": 8196
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "身体数据的商品化",
+      "units": 8332
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "无障碍与新的排斥",
+      "units": 8399
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "虚拟健身的经济账",
+      "units": 8688
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "手势的语法",
+      "units": 8163
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "身体之后",
+      "units": 7526
+    }
+  ],
+  "publishedAt": "2026-08-25T13:13:35.589Z"
+}

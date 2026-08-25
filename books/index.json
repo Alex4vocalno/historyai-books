@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt8f53nrq9l",
+    "projectId": "proj-mt8f53nrq9l",
+    "releaseId": "rel_20260825131335582_fd79dbf698",
+    "title": "体感纪元：游戏控制器的百年进化",
+    "subtitle": "从光枪到手势识别的交互博弈史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "游戏史",
+    "tags": [
+      "游戏史",
+      "交互设计",
+      "硬件进化",
+      "虚拟现实",
+      "科技商业",
+      "历史"
+    ],
+    "description": "1972年，一把塑料光枪叩开了家庭娱乐的大门；半个世纪后，指尖的微小颤动已能精准映射于虚拟空间。这段历程并非单纯的技术凯歌，而是精度、成本与内容生态在失衡中反复重构的博弈。从任天堂Wii引爆客厅革命，到Kinect在摄像头前构筑的手势乌托邦，再到Quest 3确立的空间计算新共识，每一次范式转移都伴随着工程取舍的阵痛与商业赌注。本书透过专利图纸与销售数据，还原那些被遗忘的开发决策现场，讲述体感控制器如何挣脱边缘玩具的标签，在生理极限与市场现实的夹缝中，重塑人与数字世界的连接方式。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-1",
+      "createdAt": "2026-08-25T12:49:54.706Z"
+    },
+    "coverUrl": "books/proj-mt8f53nrq9l/releases/rel_20260825131335582_fd79dbf698/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt8f53nrq9l/index.html",
+    "publishedAt": "2026-08-25T13:13:35.589Z",
+    "firstPublishedAt": "2026-08-25T13:13:35.589Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt8c40a5yey",
     "projectId": "proj-mt8c40a5yey",
     "releaseId": "rel_20260825130851868_5a22f7a7c8",
