@@ -153,6 +153,11 @@ var BOOKS={"proj-mqnleblnzxq":{"t":"The Deep Learning Revolution： AlexNet to C
 var POOL=[{"p":"proj-mqnleblnzxq","t":"The Deep Learning Revolution： AlexNet to ChatGPT","a":"李思特Think","c":"books/proj-mqnleblnzxq/releases/rel_20260824003224741_ae8ab394e5/cover.jpg","g":"Technology","n":15,"u":"books/proj-mqnleblnzxq/index.html","x":false,"s":72},{"p":"proj-mqymweam8sz","t":"The Browser Wars: Netscape, Microsoft, and the Battle for the Web","a":"李思特Think","c":"books/proj-mqymweam8sz/releases/rel_20260824003224178_00e466749a/cover.jpg","g":"Technology","n":12,"u":"books/proj-mqymweam8sz/index.html","x":false,"s":78},{"p":"proj-mr98x1wfc8x","t":"Suez 1956: The Crisis That Ended an Empire","a":"李思特Think","c":"books/proj-mr98x1wfc8x/releases/rel_20260824003222873_5e1ed82d7a/cover.jpg","g":"World History","n":12,"u":"books/proj-mr98x1wfc8x/index.html","x":false,"s":93},{"p":"proj-mrobj0uho30","t":"Trinity: The Manhattan Project and the Birth of the Atomic Age","a":"李思特Think","c":"books/proj-mrobj0uho30/releases/rel_20260824003222223_56a7371258/cover.jpg","g":"Technology","n":12,"u":"books/proj-mrobj0uho30/index.html","x":false,"s":83},{"p":"proj-msh7nypy94v","t":"Endurance: Shackleton's Impossible Voyage Home","a":"李思特Think","c":"books/proj-msh7nypy94v/releases/rel_20260824003220937_2afe1c055f/cover.jpg","g":"World History","n":16,"u":"books/proj-msh7nypy94v/index.html","x":false,"s":82},{"p":"proj-msx62s8c3ay","t":"The Harness: How Software Taught AI to Work","a":"李思特Think","c":"books/proj-msx62s8c3ay/releases/rel_20260817120621239_63f7c75407/cover.jpg","g":"Technology","n":18,"u":"books/proj-msx62s8c3ay/index.html","x":false,"s":82}];
 var input=document.querySelector('[data-shelf-search]');var active='All';var sortMode='default';
 var grid=document.querySelector('.shelf');
+function coverHtml(b){
+  if(b.c&&b.x)return '<div class="cover-art cover-thumb cover-typeset"><img src="'+esc(b.c)+'" alt=""><div class="cover-type"><h2>'+esc(b.t)+'</h2><i></i><small>'+esc(b.a||'')+'</small></div></div>';
+  if(b.c)return '<div class="cover-art cover-thumb"><img src="'+esc(b.c)+'" alt=""></div>';
+  return '<div class="cover-art"><div class="cover-copy"><h2>'+esc(b.t)+'</h2><small>'+esc(b.a||'')+'</small></div></div>';
+}
 function applyFilter(){var q=(input&&input.value||'').trim().toLowerCase();var shown=0;document.querySelectorAll('[data-book-card]').forEach(function(card){var hide=!!((q&&!card.dataset.search.includes(q))||(active!=='All'&&card.dataset.category!==active));card.hidden=hide;if(!hide)shown++});var meta=document.querySelector('[data-result-meta]');if(meta)meta.textContent=shown+' books'+(active!=='All'?' · '+active:'');
 // 搜索态（v4.71.1 用户实弹：输入后结果区在首屏之下，看起来毫无反应）：
 // 有词=只留结果区并显示计数；回车/输入即滚到结果；清除一键还原
@@ -222,16 +227,15 @@ bkRefresh();
 var railBox=document.querySelector('[data-rail]');
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 function railCard(b){
-  var art=b.c
-    ?'<div class="cover-art cover-thumb"><img src="'+esc(b.c)+'" alt=""></div>'
-    :'<div class="cover-art"><div class="cover-copy"><h2>'+esc(b.t)+'</h2><small>'+esc(b.a)+'</small></div></div>';
-  return '<a class="rail-card" href="'+esc(b.u)+'">'+art+'<strong>'+esc(b.t)+'</strong><small>'+esc(b.a)+'</small><span class="tag">'+esc(b.g)+' · '+b.n+' chapters</span></a>';
+  return '<a class="rail-card" href="'+esc(b.u)+'">'+coverHtml(b)+'<strong>'+esc(b.t)+'</strong><small>'+esc(b.a)+'</small><span class="tag">'+esc(b.g)+' · '+b.n+' chapters</span></a>';
 }
 // v5.14 rec card, horizontal per design mock: cover left, category chip, serif title, author
 function recCard(b){
-  var art=b.c
-    ?'<span class="rec-cover cover-thumb"><img src="'+esc(b.c)+'" alt=""></span>'
-    :'<span class="rec-cover"><span class="cover-copy"><h2>'+esc(b.t)+'</h2></span></span>';
+  var art=(b.c&&b.x)
+    ?'<div class="rec-cover cover-typeset"><img src="'+esc(b.c)+'" alt=""><div class="cover-type"><h2>'+esc(b.t)+'</h2><i></i><small>'+esc(b.a||'')+'</small></div></div>'
+    :(b.c
+      ?'<div class="rec-cover cover-thumb"><img src="'+esc(b.c)+'" alt=""></div>'
+      :'<div class="rec-cover"><div class="cover-copy"><h2>'+esc(b.t)+'</h2></div></div>');
   return '<a class="rec-card" href="'+esc(b.u)+'">'+art+'<span class="rec-body"><em class="rec-cat">'+esc(b.g)+'</em><strong>'+esc(b.t)+'</strong><small>'+esc(b.a)+'</small></span></a>';
 }
 // v5.12 For-you picks: signals = local reading traces + signed-in shelf;
@@ -318,7 +322,7 @@ try{
   for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!k||k.indexOf('historyai.reader.')!==0)continue;var pid=k.slice('historyai.reader.'.length);var b=BOOKS[pid];if(!b)continue;var st={};try{st=JSON.parse(localStorage.getItem(k)||'{}')}catch(e){}var ch=Number(st.chapter);if(!isFinite(ch))continue;recent.push({pid:pid,b:b,ch:ch,at:Date.parse(st.updatedAt||0)||0,href:st.href||''})}
   recent.sort(function(a,b){return b.at-a.at});recent=recent.slice(0,6);
   if(recent.length){var box=document.querySelector('.continue-box');box.hidden=false;var strip=box.querySelector('.continue-strip');
-    strip.innerHTML=recent.slice(0,4).map(function(r){var pct=r.b.n?Math.min(100,Math.round((r.ch+1)/r.b.n*100)):0;var art=r.b.c?'<div class="cover-art cover-thumb"><img src="'+esc(r.b.c)+'" alt=""></div>':'<div class="cover-art"><div class="cover-copy"><h2>'+esc(r.b.t)+'</h2><small>'+esc(r.b.a||'')+'</small></div></div>';return '<a class="rail-card cont-card" href="'+esc(r.href||r.b.r)+'">'+art+'<strong>'+esc(r.b.t)+'</strong><small>At ch. '+(r.ch+1)+' · '+pct+'%</small><span class="cont-bar"><i style="width:'+pct+'%"></i></span></a>'}).join('')}
+    strip.innerHTML=recent.slice(0,4).map(function(r){var pct=r.b.n?Math.min(100,Math.round((r.ch+1)/r.b.n*100)):0;return '<a class="rail-card cont-card" href="'+esc(r.href||r.b.r)+'">'+coverHtml(r.b)+'<strong>'+esc(r.b.t)+'</strong><small>At ch. '+(r.ch+1)+' · '+pct+'%</small><span class="cont-bar"><i style="width:'+pct+'%"></i></span></a>'}).join('')}
 }catch(e){}
 applyFilter();
 })();</script></body></html>
