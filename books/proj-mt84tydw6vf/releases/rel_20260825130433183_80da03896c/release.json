@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260825130433183_80da03896c",
+  "projectId": "proj-mt84tydw6vf",
+  "manuscriptVersionId": "mv_a387298ce4c3dad0",
+  "contentHash": "a387298ce4c3dad0daed9a8108ed967dd204b3cffe819440c9b404a5da2607ac",
+  "title": "无贵之族：中国贵族制度的诞生与消亡",
+  "subtitle": "从西周封建到科举社会，一部贵族制度消亡的结构史",
+  "authorDisplayName": "心安处是故乡",
+  "description": "为什么中国成了世界上唯一彻底告别贵族阶层的主要文明？欧洲的旧贵族至今仍活跃于金融与议会，日本武家身份绵延千年，印度种姓与选票政治深度嵌合——唯独中国，在唐宋之际完成了对血缘特权的总清算。本书以商鞅军功爵、九品中正、科举初立、两税法、黄巢之乱等关键节点为锚，揭示皇权集权、战争动员、土地赋税与选官机制四重力量如何层层剥离贵族的生存根基。当洛阳的谱牒化为灰烬，当杯酒释兵权终结最后一批封建残余，一个以科层制与绩效合法性为底色的社会形态就此奠定。这不是一部精英博弈的简史，更是一部关于制度如何驯化血缘、重塑身份与分配权力的深层叙事。",
+  "category": "中国史",
+  "tags": [
+    "中国制度史",
+    "贵族制度",
+    "科举",
+    "皇权集权",
+    "比较历史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 244211,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-08-25T11:31:26.958Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-25T11:06:23.688Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "血缘入国家：周人封建的诞生",
+      "units": 7996
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "推进的核心判断是：礼制是贵族制度最复杂的自我再生",
+      "units": 7736
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "王权困局：旧贵族的反制回路",
+      "units": 8148
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "王权贬值与诸侯贵族化",
+      "units": 8371
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "判断战争动员体制是四组结构性力量中最先形成闭环压",
+      "units": 7698
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "税亩与任官：剥离贵族资源",
+      "units": 8010
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "郡县初置：领土国家的行政替代",
+      "units": 7643
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "军功授爵：身份的重定价",
+      "units": 9826
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "编户齐民：穿透封地的赋役网格",
+      "units": 7616
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "客卿入秦：选官机制的绩效转向",
+      "units": 7764
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "封君之变：食邑与治权的分离",
+      "units": 7981
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "秦并天下：贵族制度的第一次总清算",
+      "units": 8616
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "郡国并行：皇权集权的妥协与控制",
+      "units": 8958
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "察举取士：经术资格对军功的替代",
+      "units": 8672
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "豪强庄园：编户体系下的资源再集中",
+      "units": 7662
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "九品中正：选官机制被门第俘获",
+      "units": 7871
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "科举初立：考试与绩效定价权回归",
+      "units": 8072
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "两税法：按资产征税的穿透逻辑",
+      "units": 7399
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "牛李分野：科举与门荫的路线决战",
+      "units": 8127
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "藩镇武人：军功回潮与贵族退场",
+      "units": 8402
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "洛阳劫烬：物理消灭与制度空心化",
+      "units": 8365
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "五代更迭：身份标识的最终清算",
+      "units": 8383
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "杯酒释兵权：科层制对一切封建残余的胜利",
+      "units": 8035
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "拓跋遗响：北族贵族的汉制驯化与消融",
+      "units": 7847
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "科层制惯性：无贵社会的国家形态",
+      "units": 8399
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "欧洲贵族金融化与议会存续",
+      "units": 7818
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "日本武家身份制的长尾",
+      "units": 7719
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "印度种姓与选票政治嵌合",
+      "units": 8761
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "科举出口的驯化与变异",
+      "units": 7970
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "无贵之族：精英再生产的非世袭秩序",
+      "units": 8346
+    }
+  ],
+  "publishedAt": "2026-08-25T13:04:33.189Z"
+}
