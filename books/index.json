@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9g9yuvk4d",
+    "projectId": "proj-mt9g9yuvk4d",
+    "releaseId": "rel_20260826042846817_2a3181f8e7",
+    "title": "停不下来：上瘾行为的科学",
+    "subtitle": "从斯金纳箱到算法时代的神经突围",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "心理认知",
+    "tags": [
+      "行为科学",
+      "神经科学",
+      "成瘾机制",
+      "数字时代",
+      "认知防御",
+      "多巴胺"
+    ],
+    "description": "明知该停下，手指却还在滑动屏幕；老虎机吞掉硬币，大脑却比中奖时更兴奋。这并非意志力破产，而是奖励系统被精密工程劫持的现场。从斯金纳箱里疯狂啄键的鸽子，到植入电极自我刺激的小鼠，经典实验早已揭示可变奖励与多巴胺预测误差的运作逻辑。当短视频与购物应用将这套机制内化为产品本能，上瘾便不再是道德瑕疵，而是一场针对神经回路的精确计算。本书不带戒断承诺，只呈现行为科学与神经科学的实证边界：看清触发器、耐受阈值与自动化工厂的真实构造，在算法围猎中重建属于个体的清醒防线。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-2",
+      "createdAt": "2026-08-26T04:20:02.966Z"
+    },
+    "coverUrl": "books/proj-mt9g9yuvk4d/releases/rel_20260826042846817_2a3181f8e7/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9g9yuvk4d/index.html",
+    "publishedAt": "2026-08-26T04:28:46.827Z",
+    "firstPublishedAt": "2026-08-26T04:28:46.827Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9ga3z16r8",
     "projectId": "proj-mt9ga3z16r8",
     "releaseId": "rel_20260826053726478_54c1f1b7a1",
@@ -235,40 +269,6 @@
     "url": "books/proj-mt8fald2hj4/index.html",
     "publishedAt": "2026-08-26T06:50:18.501Z",
     "firstPublishedAt": "2026-08-26T06:50:18.501Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9g9yuvk4d",
-    "projectId": "proj-mt9g9yuvk4d",
-    "releaseId": "rel_20260826042846817_2a3181f8e7",
-    "title": "停不下来：上瘾行为的科学",
-    "subtitle": "从斯金纳箱到算法时代的神经突围",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "心理认知",
-    "tags": [
-      "行为科学",
-      "神经科学",
-      "成瘾机制",
-      "数字时代",
-      "认知防御",
-      "多巴胺"
-    ],
-    "description": "明知该停下，手指却还在滑动屏幕；老虎机吞掉硬币，大脑却比中奖时更兴奋。这并非意志力破产，而是奖励系统被精密工程劫持的现场。从斯金纳箱里疯狂啄键的鸽子，到植入电极自我刺激的小鼠，经典实验早已揭示可变奖励与多巴胺预测误差的运作逻辑。当短视频与购物应用将这套机制内化为产品本能，上瘾便不再是道德瑕疵，而是一场针对神经回路的精确计算。本书不带戒断承诺，只呈现行为科学与神经科学的实证边界：看清触发器、耐受阈值与自动化工厂的真实构造，在算法围猎中重建属于个体的清醒防线。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-2",
-      "createdAt": "2026-08-26T04:20:02.966Z"
-    },
-    "coverUrl": "books/proj-mt9g9yuvk4d/releases/rel_20260826042846817_2a3181f8e7/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt9g9yuvk4d/index.html",
-    "publishedAt": "2026-08-26T04:28:46.827Z",
-    "firstPublishedAt": "2026-08-26T04:28:46.827Z",
     "visibility": "public"
   },
   {
