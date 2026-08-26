@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826053139564_aa9f08858e",
+  "projectId": "proj-mt9ga3z16r8",
+  "manuscriptVersionId": "mv_687861f72aefcf69",
+  "contentHash": "687861f72aefcf69d74b636a149dd54c8d8857775dda973a651997306f8187fd",
+  "title": "电池里的战争：动力电池的产业地图",
+  "subtitle": "锂钴镍争夺战与大国工业权力的重构",
+  "authorDisplayName": "李思特Think",
+  "description": "从索尼1991年商业化量产的起点，到2025年全球产能过剩的利润绞杀，动力电池早已超越零部件范畴，成为大国工业竞争的心脏。这条产业链的权力不藏在整车品牌的光环里，而是深埋于正极材料的配方、隔膜的拉伸工艺与南美盐湖的开采权中。本书沿价值链逐环节展开，还原宁德时代、比亚迪、LG新能源与松下在十年爆发期内的绑定博弈与路线抉择。当印尼镍矿禁运令与美国《通胀削减法案》相继落地，技术路线之争已演变为资源地缘与制造能力的正面碰撞。这是一份关于化学环节、产能数字与工艺门槛的产业实录，记录水面浪花之下，决定未来格局的暗流涌动。",
+  "category": "商业管理",
+  "tags": [
+    "动力电池",
+    "产业史",
+    "新能源",
+    "地缘政治",
+    "制造业",
+    "商业管理"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 172121,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T05:29:12.146Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T05:31:39.115Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "赌注下在正极上",
+      "units": 8396
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "盐湖与矿石的两条腿",
+      "units": 9559
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "正极材料的配方战争",
+      "units": 9562
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "隔膜与电解液：看不见的工艺壁垒",
+      "units": 9161
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "索尼的遗产与松下的赌注",
+      "units": 7638
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "比亚迪的垂直整合实验",
+      "units": 7583
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "财阀的电池赌局",
+      "units": 10180
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "白名单的全球涟漪",
+      "units": 7491
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "宁德时代的成本机器",
+      "units": 8235
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "整车厂的反向渗透",
+      "units": 9637
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "磷酸铁锂的逆袭",
+      "units": 9113
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "固态电池的钟摆",
+      "units": 8301
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "印尼镍矿的禁运令",
+      "units": 8116
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "负极的石墨焦虑",
+      "units": 7619
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "回收的账本",
+      "units": 8143
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "欧洲的电池梦",
+      "units": 10886
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "美国《通胀削减法案》的引力场",
+      "units": 8373
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "车厂自研电池的最后赌局",
+      "units": 8043
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "产能过剩的利润绞杀",
+      "units": 7799
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "地图的尽头与战争的延续",
+      "units": 8286
+    }
+  ],
+  "publishedAt": "2026-08-26T05:31:39.567Z"
+}
