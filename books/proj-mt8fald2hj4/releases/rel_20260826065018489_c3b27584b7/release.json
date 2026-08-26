@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826065018489_c3b27584b7",
+  "projectId": "proj-mt8fald2hj4",
+  "manuscriptVersionId": "mv_cb86c961204d7f5e",
+  "contentHash": "cb86c961204d7f5e272dba1efc492d8bf2c85d00a7ef2a90ccccc60a0739c7be",
+  "title": "毒药：一部物质与权力的暗面史",
+  "subtitle": "从先秦鸩酒到近代实验室的物质文化史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "鸩羽浸酒、丹砂入炉、银针试毒，这些符号背后不仅是宫廷秘辛或市井奇案，更是中国人理解权力与信任的独特方式。从先秦至民国，毒物始终游走于药石与凶器、禁忌与迷恋之间。它被写入律简、绘入丹青、编入类书，最终走进近代实验室，成为检验国家治理与科学理性的标尺。三十个档案支撑的历史切片，还原毒物在东亚大地上的流通路径与社会反应。当不可见的力量被反复命名、规训与想象，一部关于控制、恐惧与认知边界的暗面史便浮现于纸背。",
+  "category": "文化史",
+  "tags": [
+    "物质文化史",
+    "中国历史",
+    "毒物史",
+    "社会史",
+    "医疗史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 252004,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T04:25:41.738Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T06:50:02.157Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "鸩羽沉浮",
+      "units": 7936
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "药毒同釜",
+      "units": 8670
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "律简上的毒",
+      "units": 8561
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "丹砂的两种面孔",
+      "units": 8437
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "鸩酒入宫",
+      "units": 9081
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "银针的幻觉",
+      "units": 7931
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "灶下藏毒",
+      "units": 8385
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "解药在民间",
+      "units": 8261
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "市井毒物考",
+      "units": 7850
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "官禁与民需",
+      "units": 9071
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "银钗沉浮录",
+      "units": 8762
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "毒与忌",
+      "units": 7550
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "毒入稗官",
+      "units": 9877
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "公案里的毒",
+      "units": 8039
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "粉墨登场的毒",
+      "units": 7954
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "毒入丹青",
+      "units": 7488
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "毒入诗肠",
+      "units": 7806
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "毒入类书",
+      "units": 8348
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "毒与士人身份",
+      "units": 9212
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "宫闱毒影",
+      "units": 8764
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "毒与皇权仪式",
+      "units": 7495
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "毒与巫术指控",
+      "units": 9384
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "毒与民族边界",
+      "units": 8056
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "毒与近代国家",
+      "units": 9168
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "毒入实验室",
+      "units": 9738
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "砒霜有痕",
+      "units": 7594
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "毒与记忆之场",
+      "units": 7914
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "毒之现代性焦虑",
+      "units": 8654
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "无国界的毒",
+      "units": 8023
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "毒之回响",
+      "units": 7995
+    }
+  ],
+  "publishedAt": "2026-08-26T06:50:18.501Z"
+}
