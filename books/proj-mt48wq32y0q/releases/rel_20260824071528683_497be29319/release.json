@@ -32,14 +32,22 @@
     "method": "median-of-2",
     "createdAt": "2026-08-24T06:40:45.029Z"
   },
+  "editorReview": {
+    "text": "一部把“日常”真正当回事的明清女性史。好在不靠传奇撑场，而是从衣裳织造、食盒分层、嫁妆账册这些具体物件入手，让礼教的缝隙与闺秀的章法自己浮现。第14章以彭启明开箱为线索，情感克制却细节扎实，读来有静水深流的力量；第2章对服饰微调的经济逻辑分析，把绣花针下的权力结构讲得通透，是全书的洞见高光。稍觉可惜的是，部分章节论证密度不均，比如第7章对闺秀书写共同体的讨论偏重铺陈，批判锋芒略收，若能再深一层，整体骨架会更硬朗。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
   "cover": {
-    "file": "cover-bd4d38ea63e7.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:42:48.785Z",
     "textless": false,
+    "profileId": "epigraphy-rubbing",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "epigraphy-rubbing"
   },
   "chapters": [
     {
@@ -133,6 +141,7 @@
       "units": 10181
     }
   ],
+  "illustrations": 4,
   "publishedAt": "2026-08-24T07:15:28.687Z",
-  "rerenderedAt": "2026-08-26T08:42:48.824Z"
+  "rerenderedAt": "2026-08-26T08:50:04.831Z"
 }
