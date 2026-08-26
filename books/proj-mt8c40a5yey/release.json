@@ -30,16 +30,24 @@
     "source": "editorial-hub",
     "score": 82,
     "method": "median-of-3",
-    "createdAt": "2026-08-26T04:15:55.444Z"
+    "createdAt": "2026-08-26T07:35:45.756Z"
+  },
+  "editorReview": {
+    "text": "把考古报告写成文化史随笔，很容易两头不靠，这本书却做到了扎实与好读的平衡。最难得的是它拎出了一条贯穿性的解读框架——“文化防御工事”，把曾侯乙墓里看似混杂的楚风漆器、精密编钟与九鼎八簋，读成曾国在强楚身侧自觉的政治编码，而非被动的文化模仿，这个洞见让整本书立了起来。叙事上，第二章“泥水里浮出编钟”那种现场感，直接把读者拽进1978年的发掘坑，是极好的历史非虚构笔法。保留意见在于部分章节节奏前松后紧，尤其第十五章对漆画的铺陈稍显冗长，拖慢了进入核心论证的步调，个别章节之间的悬念钩子也没有完全收束，读到时会有轻微的断线感。整体而言，这是一部有原创骨架、能让人一口气读完的考古文化解读，值得推荐给对先秦礼乐与权力博弈感兴趣的读者。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-f7f63fddba28.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:19:25.832Z",
     "textless": false,
+    "profileId": "epigraphy-rubbing",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v2"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "epigraphy-rubbing"
   },
   "chapters": [
     {
@@ -225,6 +233,6 @@
   ],
   "illustrations": 8,
   "publishedAt": "2026-08-26T06:57:45.567Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-08-26T08:19:25.871Z"
+  "rerenderedAt": "2026-08-26T08:48:00.057Z",
+  "formFamily": "narrative"
 }
