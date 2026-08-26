@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260824071606328_685358e885",
   "projectId": "proj-mt5wyuzx9sk",
-  "manuscriptVersionId": "mv_2040d9cfdec93acc",
-  "contentHash": "2040d9cfdec93acc839df7a4f16b08d71c84d241879101bd6d0e7b6f214dd060",
+  "manuscriptVersionId": "mv_abca801c013e419e",
+  "contentHash": "abca801c013e419eabc92b5df34938b668ed1c509638bc66fd1258e612245ed0",
   "title": "黄金的权力：金属如何铸造世界秩序",
   "subtitle": "从吕底亚铸币到央行购金潮，一部货币制度的权力史",
   "authorDisplayName": "哈里·谢顿",
@@ -22,7 +22,7 @@
   "visibility": "public",
   "stats": {
     "chapterCount": 38,
-    "units": 328652,
+    "units": 328639,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -32,14 +32,22 @@
     "method": "median-of-2",
     "createdAt": "2026-08-24T04:02:10.170Z"
   },
+  "editorReview": {
+    "text": "这本书最扎实的地方，是它把“黄金天然是货币”这句老话翻了个面——从吕底亚铸币到奥鲁斯金币的税收回路，作者反复证明黄金的货币角色是一套刻意搭建的制度装置，而非市场自发拥抱的结果。“税收回赎机制”“休眠锚”这几个概念贯穿全书，理论骨架立得住。但读到中后段，论证节奏开始出现模式化：提出反方观点、历史反驳、制度提炼的三段式反复出现，洞见密度有所稀释，部分章节更像事件编年而非制度剖析。整体是一部学术完成度很高的专题史，适合带着耐心去读，后半程的叙事张力若能再破一破同质化的局，力道会更强。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
   "cover": {
-    "file": "cover-3e2ee7af764f.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:41:36.244Z",
     "textless": false,
+    "profileId": "archival-deep",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "archival-deep"
   },
   "chapters": [
     {
@@ -208,7 +216,7 @@
       "idx": 27,
       "sourceIdx": 27,
       "title": "金砖货币的黄金难题",
-      "units": 10950
+      "units": 10937
     },
     {
       "idx": 28,
@@ -272,5 +280,5 @@
     }
   ],
   "publishedAt": "2026-08-24T07:16:06.338Z",
-  "rerenderedAt": "2026-08-26T08:41:36.308Z"
+  "rerenderedAt": "2026-08-26T08:49:57.803Z"
 }
