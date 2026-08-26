@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9ga9xxm44",
+    "projectId": "proj-mt9ga9xxm44",
+    "releaseId": "rel_20260826055341727_6b0a75462a",
+    "title": "窗外有鸟：城市鸟类的隐秘生活",
+    "subtitle": "中国城市鸟类的生存策略与演化现场",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "自然博物",
+    "tags": [
+      "城市生态",
+      "鸟类观察",
+      "自然演化",
+      "非虚构写作",
+      "博物学",
+      "自然博物"
+    ],
+    "description": "麻雀在空调外机筑巢，红隼把摩天大楼当作悬崖，乌鸦在午夜翻找厨余垃圾。这些窗外邻居并非被动幸存，而是正在经历一场激烈的快速演化。噪音、玻璃幕墙、光污染与流浪猫构成了严苛的筛选机制，每一种留存的鸟类都以独特的行为策略交出了答卷。从珠颈斑鸠的低语到八哥的混音，从喂食者的悖论到变暖的翅膀，十八种常见鸟类串联起一部鲜活的城市生态史。这不是田园牧歌式的自然观察，而是水泥森林中生命适应与重塑的真实记录。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T05:08:15.050Z"
+    },
+    "coverUrl": "books/proj-mt9ga9xxm44/releases/rel_20260826055341727_6b0a75462a/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9ga9xxm44/index.html",
+    "publishedAt": "2026-08-26T05:53:41.943Z",
+    "firstPublishedAt": "2026-08-26T05:14:00.544Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt5tl89hg36",
     "projectId": "proj-mt5tl89hg36",
     "releaseId": "rel_20260826081817022_c3b7828376",
@@ -99,40 +133,6 @@
     "url": "books/proj-mt9ga3z16r8/index.html",
     "publishedAt": "2026-08-26T05:37:26.483Z",
     "firstPublishedAt": "2026-08-26T05:31:39.567Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9ga9xxm44",
-    "projectId": "proj-mt9ga9xxm44",
-    "releaseId": "rel_20260826055341727_6b0a75462a",
-    "title": "窗外有鸟：城市鸟类的隐秘生活",
-    "subtitle": "中国城市鸟类的生存策略与演化现场",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "自然博物",
-    "tags": [
-      "城市生态",
-      "鸟类观察",
-      "自然演化",
-      "非虚构写作",
-      "博物学",
-      "自然博物"
-    ],
-    "description": "麻雀在空调外机筑巢，红隼把摩天大楼当作悬崖，乌鸦在午夜翻找厨余垃圾。这些窗外邻居并非被动幸存，而是正在经历一场激烈的快速演化。噪音、玻璃幕墙、光污染与流浪猫构成了严苛的筛选机制，每一种留存的鸟类都以独特的行为策略交出了答卷。从珠颈斑鸠的低语到八哥的混音，从喂食者的悖论到变暖的翅膀，十八种常见鸟类串联起一部鲜活的城市生态史。这不是田园牧歌式的自然观察，而是水泥森林中生命适应与重塑的真实记录。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 88,
-      "method": "median-of-1",
-      "createdAt": "2026-08-26T05:08:15.050Z"
-    },
-    "coverUrl": "books/proj-mt9ga9xxm44/releases/rel_20260826055341727_6b0a75462a/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt9ga9xxm44/index.html",
-    "publishedAt": "2026-08-26T05:53:41.943Z",
-    "firstPublishedAt": "2026-08-26T05:14:00.544Z",
     "visibility": "public"
   },
   {
