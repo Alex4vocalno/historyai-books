@@ -31,14 +31,22 @@
     "method": "median-of-3",
     "createdAt": "2026-08-26T01:14:50.760Z"
   },
+  "editorReview": {
+    "text": "This history of open source distinguishes itself through its rigorous causal framework, tracing the movement's evolution from MIT's printer conflicts to its current institutionalized form. The book's strength lies in its analytical depth, particularly in chapters like the economic dissection of the XFree86 fork and its clear-eyed view of corporate strategies within foundations. However, the reading experience is marred by noticeable narrative stutters, including redundant recounts of key events in the opening chapters and occasional stylistic flatness that dulls the vibrancy of its subject. Th",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
   "cover": {
-    "file": "cover-e68568c0649a.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:24:38.355Z",
     "textless": false,
+    "profileId": "serious-history-editorial",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -217,5 +225,5 @@
     }
   ],
   "publishedAt": "2026-08-26T01:15:01.723Z",
-  "rerenderedAt": "2026-08-26T08:24:38.401Z"
+  "rerenderedAt": "2026-08-26T08:48:42.851Z"
 }
