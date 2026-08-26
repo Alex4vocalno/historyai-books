@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826042846817_2a3181f8e7",
+  "projectId": "proj-mt9g9yuvk4d",
+  "manuscriptVersionId": "mv_0d7d7aee06d77c4b",
+  "contentHash": "0d7d7aee06d77c4bbf20998846a610ae9596ead4fc2cac6064e55ec18658bd08",
+  "title": "停不下来：上瘾行为的科学",
+  "subtitle": "从斯金纳箱到算法时代的神经突围",
+  "authorDisplayName": "李思特Think",
+  "description": "明知该停下，手指却还在滑动屏幕；老虎机吞掉硬币，大脑却比中奖时更兴奋。这并非意志力破产，而是奖励系统被精密工程劫持的现场。从斯金纳箱里疯狂啄键的鸽子，到植入电极自我刺激的小鼠，经典实验早已揭示可变奖励与多巴胺预测误差的运作逻辑。当短视频与购物应用将这套机制内化为产品本能，上瘾便不再是道德瑕疵，而是一场针对神经回路的精确计算。本书不带戒断承诺，只呈现行为科学与神经科学的实证边界：看清触发器、耐受阈值与自动化工厂的真实构造，在算法围猎中重建属于个体的清醒防线。",
+  "category": "心理认知",
+  "tags": [
+    "行为科学",
+    "神经科学",
+    "成瘾机制",
+    "数字时代",
+    "认知防御",
+    "多巴胺"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 136642,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-26T04:20:02.966Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T04:27:54.712Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "停不下来的手",
+      "units": 6110
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "鸽子与按钮",
+      "units": 6287
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "电极上的快感",
+      "units": 7989
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "多巴胺不是快乐分子",
+      "units": 9645
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "铃声响起之前",
+      "units": 6600
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "阈值在移动",
+      "units": 6033
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "习惯的自动化工厂",
+      "units": 6253
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "被设计的触发世界",
+      "units": 5783
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "即时性的暴政",
+      "units": 6939
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "骰子在手中转动",
+      "units": 7061
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "差一点就赢的陷阱",
+      "units": 7082
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "他人的眼睛",
+      "units": 7693
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "习惯养成的暗面",
+      "units": 7848
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "疾病还是学习",
+      "units": 6212
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "意志力的神话",
+      "units": 7714
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "戒断的幻象",
+      "units": 6285
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "易感者的画像",
+      "units": 5553
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "诊断的边界",
+      "units": 6626
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "自由意志的实验室",
+      "units": 5921
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "清醒的防御",
+      "units": 7008
+    }
+  ],
+  "publishedAt": "2026-08-26T04:28:46.827Z"
+}
