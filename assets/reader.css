@@ -37,6 +37,15 @@
 /* v4.95 EN-native typography: latin serif, no indent, left align + hyphens */
 html[lang="en"] .reader-content{font-family:Georgia,'Iowan Old Style','Times New Roman',serif;text-align:left}
 html[lang="en"] .reader-content p{text-align:left;hyphens:auto;overflow-wrap:break-word}
+/* v5.25 阅读体验深化：字体切换（黑体档覆盖 zh 衬线与 en Georgia） */
+html[data-face="sans"] .reader-content{font-family:var(--sans)}
+html[data-face="sans"] .reader-paper h1,html[data-face="sans"] .reader-content h2,html[data-face="sans"] .reader-content h3{font-family:var(--sans)}
+/* v5.25 插图 lightbox */
+.ill-lightbox{position:fixed;inset:0;z-index:90;background:rgba(12,14,15,.9);display:grid;place-items:center;padding:4vh 4vw;cursor:zoom-out;backdrop-filter:blur(6px)}
+.ill-lightbox figure{margin:0;max-width:min(1200px,94vw);text-align:center}
+.ill-lightbox img{max-width:100%;max-height:78vh;border-radius:8px;box-shadow:0 24px 80px rgba(0,0,0,.5)}
+.ill-lightbox figcaption{margin-top:14px;color:#e8e6e1;font-family:var(--sans);font-size:14.5px;line-height:1.7}
+.ill-lightbox figcaption small{display:block;margin-top:4px;color:#9a978f;font-size:13px}
 /* ── v5.23 排版类型化：排版族与篇幅族同构，narrative=基线不加选择器 ──
    explainer 讲解族：小标题左对齐带 accent 竖线（讲义感），要点引文变浅底要点框
    survey   图鉴族：章题下双细线（图鉴卡），出处/观察引文带自然绿系边
