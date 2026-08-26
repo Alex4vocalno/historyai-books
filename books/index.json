@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt8cj5sxk2n",
+    "projectId": "proj-mt8cj5sxk2n",
+    "releaseId": "rel_20260826003455802_7f6d7f1e79",
+    "title": "天才的错觉：智商神话如何塑造了我们的命运",
+    "subtitle": "一部关于智商测试的全球文化史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "中国史",
+    "tags": [
+      "智商测试",
+      "教育公平",
+      "社会史",
+      "心理测量",
+      "文化批判",
+      "科学史"
+    ],
+    "description": "1905年，巴黎心理学家比奈设计了一套量表，只为找出需要帮助的学童。一个世纪后，这套量表演变成决定升学、就业、移民乃至生育权的命运判决书。从美国军营的万人测试，到上海家长彻夜排队的小升初考场；从纳粹德国的绝育手术刀，到硅谷招聘算法里的隐形门槛——智商测试如何从边缘工具变成现代社会的世俗神谕？本书追踪那些被一个数字改写命运的真实人物：被神童标签囚禁的天才少年、因分数被分流进慢班的移民孩子、在法庭上挑战测试偏见的律师。它揭示了一个惊人的事实：智商并非天赋的客观刻度，而是国家治理、教育筛选与商业利益共同塑造的文化符号。我们对它的信仰本身，比分数更深刻地塑造了现代人的自我认知与机会结构。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-2",
+      "createdAt": "2026-08-25T12:48:32.085Z"
+    },
+    "coverUrl": "books/proj-mt8cj5sxk2n/releases/rel_20260826003455802_7f6d7f1e79/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt8cj5sxk2n/index.html",
+    "publishedAt": "2026-08-26T00:34:55.804Z",
+    "firstPublishedAt": "2026-08-26T00:32:38.708Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt8emwl23ou",
     "projectId": "proj-mt8emwl23ou",
     "releaseId": "rel_20260826011501708_6df1f74930",
@@ -370,40 +404,6 @@
     "url": "books/proj-mt5tl89hg36/index.html",
     "publishedAt": "2026-08-26T08:18:17.096Z",
     "firstPublishedAt": "2026-08-24T16:02:20.155Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt8cj5sxk2n",
-    "projectId": "proj-mt8cj5sxk2n",
-    "releaseId": "rel_20260826003455802_7f6d7f1e79",
-    "title": "天才的错觉：智商神话如何塑造了我们的命运",
-    "subtitle": "一部关于智商测试的全球文化史",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李德诺富特斯基",
-    "category": "中国史",
-    "tags": [
-      "智商测试",
-      "教育公平",
-      "社会史",
-      "心理测量",
-      "文化批判",
-      "科学史"
-    ],
-    "description": "1905年，巴黎心理学家比奈设计了一套量表，只为找出需要帮助的学童。一个世纪后，这套量表演变成决定升学、就业、移民乃至生育权的命运判决书。从美国军营的万人测试，到上海家长彻夜排队的小升初考场；从纳粹德国的绝育手术刀，到硅谷招聘算法里的隐形门槛——智商测试如何从边缘工具变成现代社会的世俗神谕？本书追踪那些被一个数字改写命运的真实人物：被神童标签囚禁的天才少年、因分数被分流进慢班的移民孩子、在法庭上挑战测试偏见的律师。它揭示了一个惊人的事实：智商并非天赋的客观刻度，而是国家治理、教育筛选与商业利益共同塑造的文化符号。我们对它的信仰本身，比分数更深刻地塑造了现代人的自我认知与机会结构。",
-    "chapterCount": 30,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 84,
-      "method": "median-of-2",
-      "createdAt": "2026-08-25T12:48:32.085Z"
-    },
-    "coverUrl": "books/proj-mt8cj5sxk2n/releases/rel_20260826003455802_7f6d7f1e79/cover-b9c8b8d41727.svg",
-    "coverTextless": false,
-    "url": "books/proj-mt8cj5sxk2n/index.html",
-    "publishedAt": "2026-08-26T00:34:55.804Z",
-    "firstPublishedAt": "2026-08-26T00:32:38.708Z",
     "visibility": "public"
   },
   {
