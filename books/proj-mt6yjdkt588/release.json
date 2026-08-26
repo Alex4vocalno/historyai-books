@@ -32,14 +32,22 @@
     "method": "median-of-2",
     "createdAt": "2026-08-25T07:07:46.006Z"
   },
+  "editorReview": {
+    "text": "把酒放回权力与日常的交叉点上，这本书做到了。它没有沿着酒史的老路去罗列名物典故，而是用“定义权争夺”这条主线，从新石器时代的萨满一直拉到现代标准化的酒厂，把祭祀、市场、文人趣味和市井消费串成一条清晰的论证弧线。贾湖骨笛声里的仪式场景、胡姬酒肆中的铜钱掂量，这些细节让论证不干涩，能唤起很强的历史在场感。不过读到后半程，偶尔会碰到章节之间接缝没对上——前一章结尾抛出的问句，翻页后没有承接，叙事会短暂地断一口气。整体来看，这是一部有骨架、有洞察的日常史写作，值得细读。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
   "cover": {
-    "file": "cover-28ff36544799.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:36:24.599Z",
     "textless": false,
+    "profileId": "serious-history-editorial",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -224,5 +232,6 @@
     }
   ],
   "publishedAt": "2026-08-25T07:17:16.062Z",
-  "rerenderedAt": "2026-08-26T08:36:24.646Z"
+  "rerenderedAt": "2026-08-26T08:49:28.589Z",
+  "formFamily": "narrative"
 }
