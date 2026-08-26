@@ -32,14 +32,22 @@
     "method": "median-of-1",
     "createdAt": "2026-08-26T05:11:05.636Z"
   },
+  "editorReview": {
+    "text": "本书以「鼓声-坊门-中门」三重结构开篇，将宵禁制度从律令条文还原为声音、空间与身体经验的交织体，论证层次分明且具象可感。「缝隙实践」概念贯穿全书，从上元弛禁到戏台夜奔再到当代网约车，形成一条从制度特许到日常微越界的完整分析链，理论自觉度高。第15章将戏曲文本与女性观剧实践并置分析，揭示「被看的人也在看」的双向结构，在体裁内实现了文学批评与社会史的有效融合。不过，章际衔接存在系统性疏漏，如第6→7章、第15→16章接缝处埋下的问句钩子未在下一章开头回应，导致叙事推进出现断裂。此外，正文使用「某档案/一份契约/零散家书」等模糊来源冒充实证，在日常生活史体裁中削弱了论证可信度。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
   "cover": {
-    "file": "cover-cbc8ebcba4a3.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:11:41.077Z",
     "textless": false,
+    "profileId": "serious-history-editorial",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v2"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -224,6 +232,6 @@
     }
   ],
   "publishedAt": "2026-08-26T06:52:02.162Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-08-26T08:11:41.099Z"
+  "rerenderedAt": "2026-08-26T08:48:10.136Z",
+  "formFamily": "narrative"
 }
