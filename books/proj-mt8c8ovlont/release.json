@@ -32,14 +32,22 @@
     "method": "median-of-2",
     "createdAt": "2026-08-25T12:34:43.659Z"
   },
+  "editorReview": {
+    "text": "这本书最锋利的地方，是把“治沙”从励志叙事里拽出来，放回制度与个体摩擦的现场。作者用“沙账”贯穿全书，不是隐喻，是账本上真实的借款条目、迟迟不到账的补贴款、一拖再拖的林权证——第12章那句“证书只证明国家知道她种树了，不证明这些树在法律上属于她”，比任何抒情都更有力。第24章将账本、铁锹、奖状三件实物并置，让抽象的制度分析有了可触摸的物质锚点，这是扎实的写法。保留意见在于叙事节奏：第1章中段大段背景说明打断故事推进，档案体堆砌感明显；第24章后半部分议论密度过高，连续抽象总结让阅读体验下降。整体是一部有骨架的作品，但文风统一和叙事接缝还需打磨。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
   "cover": {
-    "file": "cover-71c054061902.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:34:52.761Z",
     "textless": false,
+    "profileId": "silk-mineral-pigment",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "silk-mineral-pigment"
   },
   "chapters": [
     {
@@ -194,5 +202,6 @@
     }
   ],
   "publishedAt": "2026-08-25T12:35:09.148Z",
-  "rerenderedAt": "2026-08-26T08:34:52.774Z"
+  "rerenderedAt": "2026-08-26T08:49:18.513Z",
+  "formFamily": "narrative"
 }

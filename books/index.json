@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt8c8ovlont",
+    "projectId": "proj-mt8c8ovlont",
+    "releaseId": "rel_20260825123509097_9f7b437021",
+    "title": "沙与誓：殷玉珍与毛乌素的四十年",
+    "subtitle": "一个农妇与一片沙地的四十年",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "中国史",
+    "tags": [
+      "毛乌素沙地",
+      "治沙",
+      "生态治理",
+      "个人史",
+      "国际援助",
+      "基层中国"
+    ],
+    "description": "1985年，殷玉珍嫁到毛乌素沙地深处。新房是一间半埋沙里的地窨子，风沙一夜就能埋掉门。她开始种树，没有钱买树苗，就掏空家底、借遍亲戚，第一年种下的600棵树苗，只活了不到10棵。四十年后，7万亩沙地变成绿洲。这不是一个简单的励志故事：账本上记着每一笔买树苗的借款，承包书里写着荒沙地的四至边界，补贴款迟迟不到账，林权证一拖再拖。美国捐助者赛考斯带着国际环保项目的表格来到沙梁上，翻译站在中间，两边的话都要重新说一遍。风沙、债务、政策、荣誉，都写在这片沙地上。殷玉珍用一生在沙里种下誓言，也种下中国基层生态治理最真实的摩擦与接合。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-2",
+      "createdAt": "2026-08-25T12:34:43.659Z"
+    },
+    "coverUrl": "books/proj-mt8c8ovlont/releases/rel_20260825123509097_9f7b437021/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt8c8ovlont/index.html",
+    "publishedAt": "2026-08-25T12:35:09.148Z",
+    "firstPublishedAt": "2026-08-25T12:35:09.148Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt84tydw6vf",
     "projectId": "proj-mt84tydw6vf",
     "releaseId": "rel_20260825130433183_80da03896c",
@@ -506,40 +540,6 @@
     "url": "books/proj-mt5tl89hg36/index.html",
     "publishedAt": "2026-08-26T08:18:17.096Z",
     "firstPublishedAt": "2026-08-24T16:02:20.155Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt8c8ovlont",
-    "projectId": "proj-mt8c8ovlont",
-    "releaseId": "rel_20260825123509097_9f7b437021",
-    "title": "沙与誓：殷玉珍与毛乌素的四十年",
-    "subtitle": "一个农妇与一片沙地的四十年",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "哈里·谢顿",
-    "category": "中国史",
-    "tags": [
-      "毛乌素沙地",
-      "治沙",
-      "生态治理",
-      "个人史",
-      "国际援助",
-      "基层中国"
-    ],
-    "description": "1985年，殷玉珍嫁到毛乌素沙地深处。新房是一间半埋沙里的地窨子，风沙一夜就能埋掉门。她开始种树，没有钱买树苗，就掏空家底、借遍亲戚，第一年种下的600棵树苗，只活了不到10棵。四十年后，7万亩沙地变成绿洲。这不是一个简单的励志故事：账本上记着每一笔买树苗的借款，承包书里写着荒沙地的四至边界，补贴款迟迟不到账，林权证一拖再拖。美国捐助者赛考斯带着国际环保项目的表格来到沙梁上，翻译站在中间，两边的话都要重新说一遍。风沙、债务、政策、荣誉，都写在这片沙地上。殷玉珍用一生在沙里种下誓言，也种下中国基层生态治理最真实的摩擦与接合。",
-    "chapterCount": 25,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 85,
-      "method": "median-of-2",
-      "createdAt": "2026-08-25T12:34:43.659Z"
-    },
-    "coverUrl": "books/proj-mt8c8ovlont/releases/rel_20260825123509097_9f7b437021/cover-71c054061902.svg",
-    "coverTextless": false,
-    "url": "books/proj-mt8c8ovlont/index.html",
-    "publishedAt": "2026-08-25T12:35:09.148Z",
-    "firstPublishedAt": "2026-08-25T12:35:09.148Z",
     "visibility": "public"
   },
   {
