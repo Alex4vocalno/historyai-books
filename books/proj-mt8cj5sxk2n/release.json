@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826003238706_7f6d7f1e79",
+  "projectId": "proj-mt8cj5sxk2n",
+  "manuscriptVersionId": "mv_e6dd7277d9db2510",
+  "contentHash": "e6dd7277d9db2510a3bf4364e345d8aa40aa13f08eeb9a489f9659f820787c39",
+  "title": "天才的错觉：智商神话如何塑造了我们的命运",
+  "subtitle": "一部关于智商测试的全球文化史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "1905年，巴黎心理学家比奈设计了一套量表，只为找出需要帮助的学童。一个世纪后，这套量表演变成决定升学、就业、移民乃至生育权的命运判决书。从美国军营的万人测试，到上海家长彻夜排队的小升初考场；从纳粹德国的绝育手术刀，到硅谷招聘算法里的隐形门槛——智商测试如何从边缘工具变成现代社会的世俗神谕？本书追踪那些被一个数字改写命运的真实人物：被神童标签囚禁的天才少年、因分数被分流进慢班的移民孩子、在法庭上挑战测试偏见的律师。它揭示了一个惊人的事实：智商并非天赋的客观刻度，而是国家治理、教育筛选与商业利益共同塑造的文化符号。我们对它的信仰本身，比分数更深刻地塑造了现代人的自我认知与机会结构。",
+  "category": "中国史",
+  "tags": [
+    "智商测试",
+    "教育公平",
+    "社会史",
+    "心理测量",
+    "文化批判",
+    "科学史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 252301,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-2",
+    "createdAt": "2026-08-25T12:48:32.085Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T00:32:03.168Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "巴黎的刻度",
+      "units": 7464
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "飘洋过海的数字",
+      "units": 8082
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "军营里的实验室",
+      "units": 8902
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "神童的囚笼",
+      "units": 7721
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "绝育手术刀下的正义",
+      "units": 8142
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "战后废墟上的新神像",
+      "units": 11188
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "十一岁定终身",
+      "units": 8365
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "冷战的量尺",
+      "units": 8356
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "种族与基因的战场",
+      "units": 8037
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "钟形曲线与白宫",
+      "units": 8250
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "上海的分数",
+      "units": 9094
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "算法继承的偏见",
+      "units": 8372
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "量尺越洋记",
+      "units": 8256
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "被禁的儿童学",
+      "units": 8741
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "柏林的测量房",
+      "units": 8366
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "法庭扳倒的智商",
+      "units": 8396
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "变聪明的悖论",
+      "units": 9182
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "榜单上的国家智商",
+      "units": 9570
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "天才的生意",
+      "units": 8070
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "慢班里的孩子",
+      "units": 7646
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "雇主的量尺",
+      "units": 7915
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "法庭上的分数",
+      "units": 8384
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "特殊教育的门槛",
+      "units": 8385
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "全球治理的分数",
+      "units": 7893
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "基因的幽灵",
+      "units": 7727
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "脑成像的承诺",
+      "units": 8399
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "屏幕上的量尺",
+      "units": 8386
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "科举的远亲",
+      "units": 8117
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "拒绝被定义",
+      "units": 8924
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "量尺之外",
+      "units": 7971
+    }
+  ],
+  "publishedAt": "2026-08-26T00:32:38.708Z"
+}
