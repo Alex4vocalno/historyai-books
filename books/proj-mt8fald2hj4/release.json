@@ -32,14 +32,17 @@
     "method": "median-of-1",
     "createdAt": "2026-08-26T04:25:41.738Z"
   },
+  "editorReview": null,
   "cover": {
-    "file": "cover-53b26274c49f.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:21:23.804Z",
     "textless": false,
+    "profileId": "silk-mineral-pigment",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "silk-mineral-pigment"
   },
   "chapters": [
     {
@@ -224,6 +227,6 @@
     }
   ],
   "publishedAt": "2026-08-26T06:50:18.501Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-08-26T08:21:23.823Z"
+  "rerenderedAt": "2026-08-26T08:48:15.386Z",
+  "formFamily": "narrative"
 }
