@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826002927955_ee792515ae",
+  "projectId": "proj-mt8eixla8eh",
+  "manuscriptVersionId": "mv_ca9f896700215b4b",
+  "contentHash": "ca9f896700215b4bd4d0d71d4f4c39f2dd6ef41f1a178e91a9c9b84d109682cd",
+  "title": "云端惊雷：百年空难小史",
+  "subtitle": "30起改变规则的空难与航空安全进化史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "从1908年飞翼初展的裂痕到2024年锂电池的隐忧，三十起惨烈空难构成了现代航空安全的基石。特内里费的迷雾、苏城失去液压的绝境、御巢鹰山断裂的尾翼，每一处现场细节背后都是技术局限与商业压力的剧烈碰撞。这些悲剧并非单纯的灾难记录，而是驱动制度进化的残酷补丁：从驾驶舱权力革命到全球统一语言，从独立调查权确立到黑匣子记忆争夺。当鲜血换来规章，当个体命运推动系统迭代，人类才真正学会如何在万米高空敬畏规则。这是一部由事故书写的安全史，也是对每一次起飞最沉重的致敬。",
+  "category": "科技史",
+  "tags": [
+    "航空史",
+    "空难调查",
+    "安全制度",
+    "非虚构",
+    "技术史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 248256,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-25T13:36:26.238Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T00:29:11.640Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "飞翼初展与首道裂痕",
+      "units": 7769
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "战争的熔炉与盲区",
+      "units": 8505
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "黄金时代的神话与裂缝",
+      "units": 8373
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "规章的萌芽与血的代价",
+      "units": 8787
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "活塞巅峰与技术债",
+      "units": 8365
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "喷气黎明与看不见的杀手",
+      "units": 7400
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "天空没有红绿灯",
+      "units": 7667
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "雷达网下的盲点",
+      "units": 8800
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "灯泡劫持驾驶舱",
+      "units": 8812
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "货舱门的死亡链条",
+      "units": 10245
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "迷雾中的特内里费",
+      "units": 8921
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "波特兰最后的通话",
+      "units": 8294
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "冰上的波托马克",
+      "units": 7728
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "达拉斯的隐形墙",
+      "units": 8068
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "御巢鹰山断裂",
+      "units": 7770
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "苏城无液压着陆",
+      "units": 9356
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "长岛上空的油箱",
+      "units": 7680
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "哈利法克斯的暗火",
+      "units": 8191
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "自动化深渊",
+      "units": 7553
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "跑道上的幽灵",
+      "units": 8389
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "碳纤维的谎言",
+      "units": 8762
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "冰霜杀机",
+      "units": 8505
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "电池之火",
+      "units": 8283
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "消失的边界",
+      "units": 8078
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "独立调查权的诞生",
+      "units": 7455
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "驾驶舱里的权力革命",
+      "units": 7908
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "全球天空的统一语言",
+      "units": 7884
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "黑匣子里的记忆战争",
+      "units": 8448
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "看不见的敌人：锂电池与货舱火患",
+      "units": 7870
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "永不到达的零事故",
+      "units": 8390
+    }
+  ],
+  "publishedAt": "2026-08-26T00:29:27.958Z"
+}
