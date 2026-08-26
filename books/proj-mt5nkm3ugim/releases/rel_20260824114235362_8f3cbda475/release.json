@@ -32,14 +32,22 @@
     "method": "median-of-1",
     "createdAt": "2026-08-24T10:21:40.770Z"
   },
+  "editorReview": {
+    "text": "这本书最动人的地方在于，它把一门冷僻的手艺变成了一个滚烫的悬疑内核。开篇对宣德炉修复的描写，从指尖触感到舌尖试味，技艺的细节本身就充满了张力。‘沉默签名’与‘活体档案’这两个核心概念的碰撞也极具巧思，让修补器物这个动作，变成了与历史、与权力无声的角力。李九变与沈青梧的几场对话，表面谈古论今，实则机锋暗藏，写得克制又有力。不过，阅读中也确实能感觉到一些节奏上的滞涩，中段连续几个‘夜探前夕’的章节，信息增量有限，稍显拖沓，部分章节间的悬念钩子也未能完全接上，让阅读的流畅感打了折扣。瑕不掩瑜，结尾李九变匿名捐赠后汇入人潮的留白，沈青梧选择‘守着自己这一小片清净地’的弧光，都让这个关于真伪、技艺与传承的故事，有了沉静而悠长的余韵。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
   "cover": {
-    "file": "cover-cea5ab46daad.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:38:01.031Z",
     "textless": false,
+    "profileId": "serious-history-editorial",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -644,5 +652,5 @@
     }
   ],
   "publishedAt": "2026-08-24T11:42:35.364Z",
-  "rerenderedAt": "2026-08-26T08:38:01.045Z"
+  "rerenderedAt": "2026-08-26T08:49:36.613Z"
 }
