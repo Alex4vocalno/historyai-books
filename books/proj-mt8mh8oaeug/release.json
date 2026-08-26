@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826092219340_f623a1749b",
+  "projectId": "proj-mt8mh8oaeug",
+  "manuscriptVersionId": "mv_909a3b7b71c3eace",
+  "contentHash": "909a3b7b71c3eace7bebab822d22f3f017930db314d53e249d9c0c8f09208bcd",
+  "title": "造梦者列传：全球50位游戏制作人如何重塑娱乐",
+  "subtitle": "全球50位游戏制作人如何重塑娱乐",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "电子游戏从技术玩具蜕变为第九艺术，并非硬件迭代的自然结果，而是五十位关键制作人将个人执念转化为交互规则的竞争史。从《乓》的投币声到独立游戏的复兴，本书以代表作的设计抉择为切口，还原那些定义“好游戏”标准的决定性瞬间。在商业规模与作者表达、技术限制与设计野心的张力中，看见分歧如何塑造了今天的娱乐语法。这不是编年流水账，而是一部关于创造者如何在限制中立法、在废墟上重建观念的列传。",
+  "category": "游戏史",
+  "tags": [
+    "游戏史",
+    "人物传记",
+    "交互设计",
+    "流行文化",
+    "创意产业",
+    "历史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 50,
+    "units": 524818,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-3",
+    "createdAt": "2026-08-26T07:56:26.450Z"
+  },
+  "editorReview": {
+    "text": "本书以“设计语法”为经，五十位制作人的执念为纬，织就了一部游戏史的观念竞争图。其扎实处在于，将布什内尔的投币逻辑、波普的盖章节奏等具体动作，层层递进至福克斯的信任变量，最终在终章将语法定义权移交玩家社群——这条论证线清晰且具原创穿透力。人物刻画亦见功力，罗森塔尔确认矢量线条的指尖、波普调试盖章音效的执拗，皆以感官细节避免了群像的扁平化。然全书在章节接缝处偶有钩子悬置，时间回溯亦缺明确标记，加之部分中后段章节存在句式重复与理论密度偏高的问题，阅读节奏稍显滞涩。整体而言，这是一部骨骼清奇、血肉尚需精修的扎实之作。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T09:18:52.259Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "硬币落入投币口",
+      "units": 10470
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "雅达利在《乓》成功后迅速膨胀",
+      "units": 10500
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "黄色圆脸的捕食本能",
+      "units": 10039
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "方块落下的不可逆性",
+      "units": 10522
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "不被允许拯救的公主",
+      "units": 9605
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "两只手同时画出的世界",
+      "units": 9620
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "被放逐者的语法课",
+      "units": 9985
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "地牢里的会计学",
+      "units": 10589
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "十六位元的两种乡愁",
+      "units": 9233
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "从街机厅偷来的夜晚",
+      "units": 9539
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "一个人与一座城的对赌",
+      "units": 10809
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "地牢深处的作者签名",
+      "units": 9352
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "像素引擎的立法者",
+      "units": 12830
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "被引擎抛弃的梦想家",
+      "units": 10281
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "纸箱与摄影机",
+      "units": 10269
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "恐惧的复制作家",
+      "units": 9698
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "水晶的全球化",
+      "units": 11353
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "死亡成为语法",
+      "units": 10315
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "被放大的孤独",
+      "units": 10311
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "沙盒里的立法者",
+      "units": 9446
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "两个引擎之间的信使",
+      "units": 10328
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "像素里的合作社",
+      "units": 9695
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "跨越太平洋的调试",
+      "units": 9570
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "众筹时代的作者群像",
+      "units": 11001
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "印泥里的道德课",
+      "units": 9575
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "地底传来的和解信号",
+      "units": 10517
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "山的辅助线",
+      "units": 11060
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "失败变成思想",
+      "units": 10036
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "时间环里的语法",
+      "units": 11448
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "鹅步踏入主流",
+      "units": 9304
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "众筹圣殿的柱石裂痕",
+      "units": 10392
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "一人公司的破产神话",
+      "units": 9453
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "引擎神殿里的教义分裂",
+      "units": 9805
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "平台橱窗里的作者性失明",
+      "units": 10404
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "订阅迷雾中的面包路",
+      "units": 10497
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "临界点上的召回信",
+      "units": 10189
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "引擎废墟上的手工作坊",
+      "units": 10476
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "小规模可持续性的算术",
+      "units": 10016
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "作者性进入课堂之后",
+      "units": 9263
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "玻璃柜里的交互残片",
+      "units": 9535
+    },
+    {
+      "idx": 40,
+      "sourceIdx": 40,
+      "title": "遗产的重新接线",
+      "units": 11195
+    },
+    {
+      "idx": 41,
+      "sourceIdx": 41,
+      "title": "语法未完成",
+      "units": 13225
+    },
+    {
+      "idx": 42,
+      "sourceIdx": 42,
+      "title": "名字与作品分居",
+      "units": 10498
+    },
+    {
+      "idx": 43,
+      "sourceIdx": 43,
+      "title": "母盘腐烂的时刻",
+      "units": 13712
+    },
+    {
+      "idx": 44,
+      "sourceIdx": 44,
+      "title": "批评家立法的代价",
+      "units": 11858
+    },
+    {
+      "idx": 45,
+      "sourceIdx": 45,
+      "title": "改编屏上的语法漂移",
+      "units": 10365
+    },
+    {
+      "idx": 46,
+      "sourceIdx": 46,
+      "title": "私服里的守夜人",
+      "units": 10486
+    },
+    {
+      "idx": 47,
+      "sourceIdx": 47,
+      "title": "算法继承者的语法",
+      "units": 12591
+    },
+    {
+      "idx": 48,
+      "sourceIdx": 48,
+      "title": "无需代码的传承",
+      "units": 11375
+    },
+    {
+      "idx": 49,
+      "sourceIdx": 49,
+      "title": "无人签名的语法",
+      "units": 12183
+    }
+  ],
+  "publishedAt": "2026-08-26T09:22:19.343Z",
+  "formFamily": "narrative"
+}
