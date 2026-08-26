@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826095537973_1abf362db8",
+  "projectId": "proj-mt9pf1m91yp",
+  "manuscriptVersionId": "mv_c3275ceebc7ed56d",
+  "contentHash": "c3275ceebc7ed56dcde441e2686addb43eda757f6209f7e5a7a94aeb2fc3047e",
+  "title": "排队的秘密",
+  "subtitle": "用机制之眼重看习以为常的生活",
+  "authorDisplayName": "李思特Think",
+  "description": "奶茶店为何总爱扎堆？演唱会门票明知被黄牛扫光也不涨价？便利店深夜亮灯真的只为便利？这些看似反常的日常切片，实则是经济激励的显影液。本书以十八个生活谜题为切口，将价格、排队与选址还原为可拆解的机制链条。没有枯燥公式，只有数据作侦探线索、推理环环可查的解谜现场。在直觉与机制的反差中，看清效率与公平的拉锯，把习以为常的怪现象变成普通人理解世界的经济学入门课。",
+  "category": "经济理财",
+  "tags": [
+    "行为经济学",
+    "日常生活",
+    "机制设计",
+    "消费心理",
+    "社会观察",
+    "经济理财"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 137098,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-26T09:49:35.113Z"
+  },
+  "editorReview": {
+    "text": "这本书最打动我的，是它把排队、奶茶店扎堆这些日常切片，真的拆成了可验证的机制链条——比如将排队重新定义为「隐性价格」，区分其筛选与信号功能，这种分析有原创穿透力，不是简单套用理论。跨领域类比也做得扎实，从霍特林模型解释选址到分析免费游戏，链条连贯不牵强。不过，中后段部分章节（如第18章）文风明显机械，存在重复句式和公式化开头，阅读体验打了折扣；另外，周杰伦餐厅案例在不同章节重复出现，削弱了新鲜感。整体是一本诚意之作，但若能在精修中打磨文风、优化案例密度，会更接近它想成为的「经济侦探体」标杆。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T09:55:24.955Z",
+    "textless": false,
+    "profileId": "ledger-tape-archive",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "ledger-tape-archive"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "扎堆的奶茶店",
+      "units": 5953
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "排队的代价",
+      "units": 5763
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "免费的代价",
+      "units": 6323
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "不涨价的演唱会",
+      "units": 6263
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "价格是一根指挥棒",
+      "units": 6907
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "排队是隐形的价格",
+      "units": 6324
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "信息藏在价格之外",
+      "units": 5816
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "文凭的信号",
+      "units": 6203
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "拼团砍价里的社交货币",
+      "units": 7730
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "外卖补贴战烧出了什么",
+      "units": 5683
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "买来的自律",
+      "units": 7193
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "免费背后的双边市场",
+      "units": 6564
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "旧货市场的诅咒",
+      "units": 6072
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "金融市场的柠檬",
+      "units": 6580
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "拍卖的脑内剧场",
+      "units": 8808
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "最低工资的悖论",
+      "units": 5751
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "理性的补丁",
+      "units": 8098
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "机制之眼的盲区",
+      "units": 6242
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "机制之外",
+      "units": 9182
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "做一个清醒的局内人",
+      "units": 9643
+    }
+  ],
+  "publishedAt": "2026-08-26T09:55:37.981Z",
+  "formFamily": "explainer"
+}
