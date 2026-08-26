@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-a273913ceca5.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-26T05:13:49.243Z",
+    "generatedAt": "2026-08-26T12:37:35.672Z",
     "textless": false,
-    "profileId": "eco-panorama-wash"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -170,6 +170,6 @@
   ],
   "illustrations": 15,
   "publishedAt": "2026-08-26T05:53:41.943Z",
-  "rerenderedAt": "2026-08-26T08:48:20.403Z",
+  "rerenderedAt": "2026-08-26T12:37:35.836Z",
   "formFamily": "survey"
 }
