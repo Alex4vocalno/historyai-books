@@ -1,5 +1,38 @@
 [
   {
+    "id": "proj-mt8emwl23ou",
+    "projectId": "proj-mt8emwl23ou",
+    "releaseId": "rel_20260826011501708_6df1f74930",
+    "title": "The Cathedral and the Commit: A History of Open Source",
+    "subtitle": "How Idealism, Commerce, and Law Built the Digital Commons",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "科技史",
+    "tags": [
+      "Open Source History",
+      "Software Culture",
+      "Technology Business",
+      "Digital Infrastructure",
+      "Hacker Ethics"
+    ],
+    "description": "Open source was never a technological inevitability. It emerged from decades of friction between hacker idealism, corporate strategy, and legal innovation. From the GNU Manifesto’s radical declaration to cloud giants weaponizing licenses against their own foundations, this history traces how collaboration became infrastructure. Through pivotal moments—a disputed printer driver, Netscape’s desperate source release, the dot-com crash’s survival test—we see how every paradigm shift redefined what “open” actually costs. The story moves beyond mythology to examine the concrete tensions: community autonomy versus capital logic, technical freedom versus commercial control. Today’s digital commons rests not on pure altruism but on negotiated compromises etched into code and contract. This is the definitive account of how a fringe practice became the bedrock of modern computing, revealing the human stakes behind every commit.",
+    "chapterCount": 29,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 79,
+      "method": "median-of-3",
+      "createdAt": "2026-08-26T01:14:50.760Z"
+    },
+    "coverUrl": "books/proj-mt8emwl23ou/releases/rel_20260826011501708_6df1f74930/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt8emwl23ou/index.html",
+    "publishedAt": "2026-08-26T01:15:01.723Z",
+    "firstPublishedAt": "2026-08-25T13:08:04.539Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt8cj5sxk2n",
     "projectId": "proj-mt8cj5sxk2n",
     "releaseId": "rel_20260826003455802_7f6d7f1e79",
@@ -133,39 +166,6 @@
     "url": "books/proj-mt8c40a5yey/index.html",
     "publishedAt": "2026-08-25T13:08:51.874Z",
     "firstPublishedAt": "2026-08-25T13:08:51.874Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt8emwl23ou",
-    "projectId": "proj-mt8emwl23ou",
-    "releaseId": "rel_20260825130804128_d2f3afb546",
-    "title": "The Cathedral and the Commit: A History of Open Source",
-    "subtitle": "How Idealism, Commerce, and Law Built the Digital Commons",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "哈里·谢顿",
-    "category": "科技史",
-    "tags": [
-      "Open Source History",
-      "Software Culture",
-      "Technology Business",
-      "Digital Infrastructure",
-      "Hacker Ethics"
-    ],
-    "description": "Open source was never a technological inevitability. It emerged from decades of friction between hacker idealism, corporate strategy, and legal innovation. From the GNU Manifesto’s radical declaration to cloud giants weaponizing licenses against their own foundations, this history traces how collaboration became infrastructure. Through pivotal moments—a disputed printer driver, Netscape’s desperate source release, the dot-com crash’s survival test—we see how every paradigm shift redefined what “open” actually costs. The story moves beyond mythology to examine the concrete tensions: community autonomy versus capital logic, technical freedom versus commercial control. Today’s digital commons rests not on pure altruism but on negotiated compromises etched into code and contract. This is the definitive account of how a fringe practice became the bedrock of modern computing, revealing the human stakes behind every commit.",
-    "chapterCount": 29,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 78,
-      "method": "median-of-3",
-      "createdAt": "2026-08-25T12:44:05.426Z"
-    },
-    "coverUrl": "books/proj-mt8emwl23ou/releases/rel_20260825130804128_d2f3afb546/cover-d98c50045f06.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt8emwl23ou/index.html",
-    "publishedAt": "2026-08-25T13:08:04.539Z",
-    "firstPublishedAt": "2026-08-25T13:08:04.539Z",
     "visibility": "public"
   },
   {
