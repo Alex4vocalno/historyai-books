@@ -1509,39 +1509,6 @@
     "visibility": "public"
   },
   {
-    "id": "proj-mso2of3iks1",
-    "projectId": "proj-mso2of3iks1",
-    "releaseId": "rel_20260824003219826_e25ed90e9e",
-    "title": "The Cathedral and the Commit: A History of Open Source",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "科技史",
-    "tags": [
-      "Open Source",
-      "Software History",
-      "Digital Culture",
-      "Technology",
-      "Internet"
-    ],
-    "description": "《The Cathedral and the Commit》是一部关于开源运动的历史叙事，从20世纪80年代初的萌芽，一路追踪到当下。本书以“大教堂”与“集市”的经典比喻为线索，揭示了开源从一场由黑客文化驱动的边缘运动，如何演变为塑造全球数字基础设施的核心力量。它讲述了打印机驱动、GNU宣言、Linux内核诞生、浏览器战争、开源倡议成立、互联网泡沫、云计算兴起、许可证争议、巨头收购等一系列关键事件。本书不仅记录了技术与法律框架的演进，更深入探讨了其中蕴含的合作、控制、商业与理想之间的永恒张力，为理解我们今日所处的数字世界提供了不可或缺的视角。",
-    "chapterCount": 18,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-08-11T03:12:02.333Z"
-    },
-    "coverUrl": "books/proj-mso2of3iks1/releases/rel_20260824003219826_e25ed90e9e/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mso2of3iks1/index.html",
-    "publishedAt": "2026-08-24T00:32:19.832Z",
-    "firstPublishedAt": "2026-08-17T03:44:56.508Z",
-    "visibility": "public"
-  },
-  {
     "id": "proj-mso32bdljfc",
     "projectId": "proj-mso32bdljfc",
     "releaseId": "rel_20260824003219707_a143d0516b",
