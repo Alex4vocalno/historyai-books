@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt6w5qxs8wq",
+    "projectId": "proj-mt6w5qxs8wq",
+    "releaseId": "rel_20260826031602558_7626b6747d",
+    "title": "人类生育史",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "半两先生",
+    "category": "中国史",
+    "tags": [
+      "生育史",
+      "避孕技术",
+      "性别权力",
+      "人口政治",
+      "医学社会史",
+      "中国史"
+    ],
+    "description": "在避孕药问世之前，女性用鳄鱼粪、蜂蜜和橄榄油调配栓剂，古埃及人相信这能阻挡精子。同一时期，中国宫廷医案里记载着水银避孕的致命配方。这些身体实验横跨数千年，背后是一场无声的战争：谁来决定生育，谁就控制了人口、劳动力和继承权。从口传秘方到橡胶工业的意外突破，从国家禁书到激素合成，避孕技术每一次跃进都踩在社会禁忌与个体自主的断裂带上。这本书追踪的不是器具进化史，而是人类如何在繁衍本能与生存焦虑之间，一步步把生育变成可以谈判的选项。",
+    "chapterCount": 13,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-08-25T00:58:13.398Z"
+    },
+    "coverUrl": "books/proj-mt6w5qxs8wq/releases/rel_20260826031602558_7626b6747d/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt6w5qxs8wq/index.html",
+    "publishedAt": "2026-08-26T03:16:02.640Z",
+    "firstPublishedAt": "2026-08-26T03:16:02.640Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9g9yuvk4d",
     "projectId": "proj-mt9g9yuvk4d",
     "releaseId": "rel_20260826042846817_2a3181f8e7",
@@ -303,40 +337,6 @@
     "url": "books/proj-mt5tl89hg36/index.html",
     "publishedAt": "2026-08-26T08:18:17.096Z",
     "firstPublishedAt": "2026-08-24T16:02:20.155Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt6w5qxs8wq",
-    "projectId": "proj-mt6w5qxs8wq",
-    "releaseId": "rel_20260826031602558_7626b6747d",
-    "title": "人类生育史",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "半两先生",
-    "category": "中国史",
-    "tags": [
-      "生育史",
-      "避孕技术",
-      "性别权力",
-      "人口政治",
-      "医学社会史",
-      "中国史"
-    ],
-    "description": "在避孕药问世之前，女性用鳄鱼粪、蜂蜜和橄榄油调配栓剂，古埃及人相信这能阻挡精子。同一时期，中国宫廷医案里记载着水银避孕的致命配方。这些身体实验横跨数千年，背后是一场无声的战争：谁来决定生育，谁就控制了人口、劳动力和继承权。从口传秘方到橡胶工业的意外突破，从国家禁书到激素合成，避孕技术每一次跃进都踩在社会禁忌与个体自主的断裂带上。这本书追踪的不是器具进化史，而是人类如何在繁衍本能与生存焦虑之间，一步步把生育变成可以谈判的选项。",
-    "chapterCount": 13,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-08-25T00:58:13.398Z"
-    },
-    "coverUrl": "books/proj-mt6w5qxs8wq/releases/rel_20260826031602558_7626b6747d/cover-fd8d64d6bb9c.svg",
-    "coverTextless": false,
-    "url": "books/proj-mt6w5qxs8wq/index.html",
-    "publishedAt": "2026-08-26T03:16:02.640Z",
-    "firstPublishedAt": "2026-08-26T03:16:02.640Z",
     "visibility": "public"
   },
   {

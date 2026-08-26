@@ -32,14 +32,22 @@
     "method": "median-of-3",
     "createdAt": "2026-08-25T00:58:13.398Z"
   },
+  "editorReview": {
+    "text": "这本书真正厉害的地方，是把避孕史从器具进化史里拽出来，放回权力关系的脉络中讲。第1章从尼尼微泥板切入，一步步展开身体管理权的制度史，逻辑链条扎实；第12章对避孕药如何撬动教育、婚姻与国家政策的多米诺分析，洞见密度很高，看得出作者在技术与社会结构的互动上下了真功夫。第6章用白教堂路药房场景具象化技术转向，代入感强，是全书叙事节奏的一个亮点。保留意见在于，部分章节抽象术语堆叠偏密，比如第1章中段连续出现“身体管理权”“代际经济”等概念而缺少具象落点，读起来容易疲劳；第6、7章大量“年份+事件”的推进方式也让节奏略显重复。整体是部完成度很高的全球史作品，但局部需要读者多一点耐心。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
   "cover": {
-    "file": "cover-fd8d64d6bb9c.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:23:24.494Z",
     "textless": false,
+    "profileId": "sci-instrument-vintage",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "sci-instrument-vintage"
   },
   "chapters": [
     {
@@ -123,6 +131,6 @@
   ],
   "illustrations": 13,
   "publishedAt": "2026-08-26T03:16:02.640Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-08-26T08:23:24.566Z"
+  "rerenderedAt": "2026-08-26T08:48:35.247Z",
+  "formFamily": "narrative"
 }
