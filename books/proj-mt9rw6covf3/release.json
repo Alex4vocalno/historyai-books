@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826133551704_67ed7de6c5",
+  "projectId": "proj-mt9rw6covf3",
+  "manuscriptVersionId": "mv_548f174a57ebaabb",
+  "contentHash": "548f174a57ebaabb8941e8b4944569575af4dee3d80afc0e94cd22ae3df7be76",
+  "title": "养育的算法",
+  "subtitle": "AI时代，如何培养不被算法替代的孩子",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "当优等生在标准答案之外寸步难行，当屏幕夺走专注力，当全A生面对挫折即刻崩溃，精心规划的养育路径为何频频失效？AI重塑了知识获取的方式，却也让记忆与服从变得廉价。真正的危机并非技术本身，而是我们仍在用确定性的旧尺规，丈量一个充满不确定性的新世界。从注意力争夺到情绪风暴，从动机枯竭到社交失能，二十个真实家庭困境折射出认知科学与教育现场的剧烈摩擦。放下教练的哨子，成为孩子思维生长的脚手架，在评价体系的缝隙中，重建自主建构意义的能力。这不是承诺成功的说明书，而是一份帮助父母穿越焦虑、理解大脑运作机制的认知地图。",
+  "category": "心理认知",
+  "tags": [
+    "认知科学",
+    "AI教育",
+    "家庭教育",
+    "元认知",
+    "青少年心理",
+    "心理认知"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 149474,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-26T12:07:27.486Z"
+  },
+  "editorReview": {
+    "text": "这本书最打动我的，是它用认知实验的框架，把育儿焦虑从‘我该怎么办’的慌乱，拉回到‘大脑在发生什么’的冷静观察。比如第2章把‘注意残留’实验和孩子写作业看手机的场景无缝对接，让科学原理自己说话，而不是空喊口号。但我也必须指出，它在论证的完整性上存在遗憾——有些章节从实验到家庭案例的跳跃，中间缺了关键的桥梁（如第1章末尾），让说服力打了折扣。更可惜的是，全书在讨论内在动机的关键处戛然而止，像一篇没写完的论文，缺乏一个有力的收束。它是一份真诚的认知地图，但有些路段，路标还没立稳。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T13:35:15.716Z",
+    "textless": false,
+    "profileId": "popsci-luminous"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "优等生的困境",
+      "units": 6703
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "屏幕前的分心一代",
+      "units": 10469
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "推不动的孩子",
+      "units": 7416
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "脆弱的全A生",
+      "units": 7559
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "从教练到脚手架",
+      "units": 8124
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "大脑里的导演",
+      "units": 11240
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "脚手架的第一块木板",
+      "units": 9241
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "这听起来像一句漂亮话",
+      "units": 7611
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "注意力的真实战场",
+      "units": 5967
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "情绪不是学习的敌人",
+      "units": 5588
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "社交脑的隐秘训练场",
+      "units": 8323
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "元认知的日常形态",
+      "units": 9375
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "放手，不是撒手",
+      "units": 6836
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "会以一个家庭的真实困境开场：父母为孩子精心挑选了",
+      "units": 6153
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "评价的陷阱",
+      "units": 7338
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "焦虑的传导链",
+      "units": 6407
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "我们其实还不懂的事",
+      "units": 6200
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "算法不能替你回答的问题",
+      "units": 6139
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "可证伪的边界",
+      "units": 6280
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "是全书的收束章节",
+      "units": 6505
+    }
+  ],
+  "publishedAt": "2026-08-26T13:35:51.712Z",
+  "formFamily": "explainer"
+}
