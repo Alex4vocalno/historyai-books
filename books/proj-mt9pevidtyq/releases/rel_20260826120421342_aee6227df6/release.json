@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826120421342_aee6227df6",
+  "projectId": "proj-mt9pevidtyq",
+  "manuscriptVersionId": "mv_76a490a95d249cd6",
+  "contentHash": "76a490a95d249cd61583ff99fdcd5084606df450c22f2f97413e1422033299ef",
+  "title": "慢决定",
+  "subtitle": "为什么致命错误总来自决策太快",
+  "authorDisplayName": "李思特Think",
+  "description": "商业世界崇拜果断，但复盘那些灾难性的并购、产品溃败与战略误判，罪魁祸首往往不是犹豫，而是过快的拍板。直觉的暗账与群体的加速机制，常让组织在欢呼中滑向深渊。真正的决策质量不靠天赋，而是一套可训练的减速框架：识别可逆性、拉开选项、前置异议、写下预判再回看。慢并非低效，而是把速度精准分配给对的层级。从企业战略到日常取舍，这套方法用真实失败案例验证了结构化流程如何挡住大多数本可避免的错误，让组织在喧嚣中重获清醒的判断力。",
+  "category": "商业管理",
+  "tags": [
+    "组织决策",
+    "商业史",
+    "管理科学",
+    "决策框架",
+    "企业战略",
+    "商业管理"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 17,
+    "units": 130522,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T12:01:42.309Z"
+  },
+  "editorReview": {
+    "text": "这本书值得花时间，尤其对那些在快速决策中吃过亏的管理者。它最硬的价值在于给出了一个可操作的“减速框架”——特别是那个“可逆性三级分类”和配套的刻度秤，把抽象的决策质量变成了可衡量的步骤，用亚马逊、强生等正反案例验证过，不是空谈。但保留意见是：部分章节（比如第6、16章）写得过于干涩，抽象概念堆砌，读起来像技术文档，会劝退非专业读者；另外，章末的钩子有时悬空不接，破坏了阅读的连贯性。整体是本扎实的工具书，但需要你耐着性子啃过那些硬核部分。",
+    "penName": "半山",
+    "title": "商业财经编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T12:04:18.335Z",
+    "textless": false,
+    "profileId": "business-structural",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "business-structural"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "果断之名的膨胀",
+      "units": 6738
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "直觉的暗账",
+      "units": 5658
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "群体的加速机制",
+      "units": 9127
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "慢的坏名声",
+      "units": 8634
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "四个减速器",
+      "units": 6961
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "速度的层级分配",
+      "units": 8477
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "四个减速器的次序",
+      "units": 8336
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "可逆性的称重",
+      "units": 8594
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "强制生成替代方案",
+      "units": 9534
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "红队的提前入席",
+      "units": 8999
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "把预判写成抵押",
+      "units": 7851
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "工具失灵的总账",
+      "units": 5532
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "并购的慢镜回放",
+      "units": 6083
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "产品的沉默死亡",
+      "units": 7024
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "减速的日常化",
+      "units": 7181
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "减速的组织设计",
+      "units": 10025
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "慢的边界",
+      "units": 5768
+    }
+  ],
+  "publishedAt": "2026-08-26T12:04:21.350Z"
+}
