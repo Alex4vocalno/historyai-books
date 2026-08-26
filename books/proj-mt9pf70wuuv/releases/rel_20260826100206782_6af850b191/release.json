@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826100206782_6af850b191",
+  "projectId": "proj-mt9pf70wuuv",
+  "manuscriptVersionId": "mv_40a2507cafec08c7",
+  "contentHash": "40a2507cafec08c76b0f8a2a24dc2821880a23a9db26d576b9e1746f6363c47b",
+  "title": "当世界失焦",
+  "subtitle": "近视如何重塑现代身体与童年",
+  "authorDisplayName": "李思特Think",
+  "description": "一个世纪前，近视还是少数人的缺陷；如今，它已成为东亚半数人口的常态。这场安静的流行病并非基因突变，而是现代生活刻在眼球上的历史印记。从新加坡教室的灯光到视网膜边缘的多巴胺，从角膜塑形镜的工艺演进到操场上的随机试验，本书追踪近视作为“传主”的生命史。当教育竞争、商业矫正与公共卫生在方寸眼球间角力，看清模糊背后的结构性成因，比寻找某种神奇疗法更为紧迫。这是一部关于身体如何被环境重塑的非虚构记录，在清晰与模糊之间，重新审视我们习以为常的观看方式。",
+  "category": "医学健康",
+  "tags": [
+    "医疗社会史",
+    "近视",
+    "公共卫生",
+    "身体史",
+    "东亚教育",
+    "医学健康"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 136949,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T09:56:25.975Z"
+  },
+  "editorReview": {
+    "text": "这本书最让我欣赏的，是它把近视当作一个真正的‘传主’来写——从开普勒的光学原理到广州操场上的随机对照试验，证据阶梯层层递进，论证自觉性很高。尤其第19章对‘远视储备’概念医疗化的分析，把筛查数据如何将健康儿童重新定义为‘潜在患者’的过程写得既具体又深刻，这种批判性反思在同类科普中确实罕见。不过，中段部分章节（如第6章讲光与多巴胺）抽象密度偏高，生化机制缺乏足够的叙事场景支撑，读起来有些机械；几处章节接缝的问句钩子也未得到回应，打断了双线交织应有的推进节奏。整体而言，它成功将近视从单纯的屈光不正提升为现代性的身体签名，收束方式既不煽情也不空洞。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T10:02:02.537Z",
+    "textless": false,
+    "profileId": "popsci-luminous",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "popsci-luminous"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "失焦的童年",
+      "units": 7084
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "镜片里的历史",
+      "units": 7211
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "新加坡的教室",
+      "units": 7305
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "户外的消失",
+      "units": 6402
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "眼球的长轴",
+      "units": 6064
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "光与多巴胺",
+      "units": 6537
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "近距的代价",
+      "units": 6159
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "视网膜的边缘",
+      "units": 7876
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "笼中的眼睛",
+      "units": 6446
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "操场上的随机试验",
+      "units": 6417
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "控制近视的工艺",
+      "units": 7033
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "课表上的视力",
+      "units": 6857
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "矫正的生意",
+      "units": 5590
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "手术刀下的承诺",
+      "units": 8220
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "阿托品的旅程",
+      "units": 7718
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "屏幕时代的童年",
+      "units": 6788
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "基因的沉默与低语",
+      "units": 8125
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "重塑眼睛的蓝图",
+      "units": 7006
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "被筛查的童年",
+      "units": 5697
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "清晰与模糊之间",
+      "units": 6414
+    }
+  ],
+  "publishedAt": "2026-08-26T10:02:06.796Z"
+}
