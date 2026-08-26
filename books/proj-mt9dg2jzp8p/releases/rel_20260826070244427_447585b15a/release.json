@@ -32,14 +32,22 @@
     "method": "median-of-1",
     "createdAt": "2026-08-26T05:06:15.610Z"
   },
+  "editorReview": {
+    "text": "本书以“养护即分配”为核心论点，将洗沐、导引、食疗等日常实践置于资源不平等的透镜下审视，选题锐利且贯穿始终。作者对青铜匜、暖足炉等器物的描写兼具博物馆级的精确与文学质感，成功将物质细节转化为历史论据，让沉默大多数的身体经验获得了可辨识的历史轮廓。然而，书中多处使用“地方档案中偶有记载”等模糊表述冒充实证，在一部强调实证性的著作中构成内在矛盾，削弱了论证的可信度。此外，章际接缝处的问句钩子未被回应，以及第16章、第29章以当代流行文化事件开篇与全书前半段沉稳的物质史叙事风格存在明显体感落差，影响了阅读的连贯性。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
   "cover": {
-    "file": "cover-b90dd144ad64.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:16:21.231Z",
     "textless": false,
+    "profileId": "warm-humanist",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v2"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "warm-humanist"
   },
   "chapters": [
     {
@@ -224,5 +232,5 @@
     }
   ],
   "publishedAt": "2026-08-26T07:02:44.437Z",
-  "rerenderedAt": "2026-08-26T08:16:21.259Z"
+  "rerenderedAt": "2026-08-26T08:47:29.097Z"
 }

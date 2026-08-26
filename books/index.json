@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9dg2jzp8p",
+    "projectId": "proj-mt9dg2jzp8p",
+    "releaseId": "rel_20260826070244427_447585b15a",
+    "title": "养身千年：中国古代身体养护的日常实践",
+    "subtitle": "从沐发导引到园林雅集的身体文化史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "中国史",
+    "tags": [
+      "身体史",
+      "日常生活史",
+      "养生文化",
+      "物质文化",
+      "中国古代史",
+      "中国史"
+    ],
+    "description": "古人如何安顿肉身？答案不在玄虚的养生口诀里，而在梳头、呼吸、进食与睡眠的琐碎日常中。本书重返先秦至清末的历史现场，以沐发、导引、食疗等具体实践为切口，还原身体养护的操作细节与社会语境。从礼制规训到闺阁秘术，从文房器具到市肆商品，揭示保养行为背后阶层、性别与技术条件的复杂互动。这不仅是一部身体技术史，更是一幅嵌入饮食起居与礼仪规范中的千年生活图景，呈现理想话语与物质实况之间的真实张力。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T05:06:15.610Z"
+    },
+    "coverUrl": "books/proj-mt9dg2jzp8p/releases/rel_20260826070244427_447585b15a/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt9dg2jzp8p/index.html",
+    "publishedAt": "2026-08-26T07:02:44.437Z",
+    "firstPublishedAt": "2026-08-26T07:02:44.437Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt5tl89hg36",
     "projectId": "proj-mt5tl89hg36",
     "releaseId": "rel_20260826081817022_c3b7828376",
@@ -133,40 +167,6 @@
     "url": "books/proj-mt9ga9xxm44/index.html",
     "publishedAt": "2026-08-26T05:53:41.943Z",
     "firstPublishedAt": "2026-08-26T05:14:00.544Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9dg2jzp8p",
-    "projectId": "proj-mt9dg2jzp8p",
-    "releaseId": "rel_20260826070244427_447585b15a",
-    "title": "养身千年：中国古代身体养护的日常实践",
-    "subtitle": "从沐发导引到园林雅集的身体文化史",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李德诺富特斯基",
-    "category": "中国史",
-    "tags": [
-      "身体史",
-      "日常生活史",
-      "养生文化",
-      "物质文化",
-      "中国古代史",
-      "中国史"
-    ],
-    "description": "古人如何安顿肉身？答案不在玄虚的养生口诀里，而在梳头、呼吸、进食与睡眠的琐碎日常中。本书重返先秦至清末的历史现场，以沐发、导引、食疗等具体实践为切口，还原身体养护的操作细节与社会语境。从礼制规训到闺阁秘术，从文房器具到市肆商品，揭示保养行为背后阶层、性别与技术条件的复杂互动。这不仅是一部身体技术史，更是一幅嵌入饮食起居与礼仪规范中的千年生活图景，呈现理想话语与物质实况之间的真实张力。",
-    "chapterCount": 30,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-1",
-      "createdAt": "2026-08-26T05:06:15.610Z"
-    },
-    "coverUrl": "books/proj-mt9dg2jzp8p/releases/rel_20260826070244427_447585b15a/cover-b90dd144ad64.svg",
-    "coverTextless": false,
-    "url": "books/proj-mt9dg2jzp8p/index.html",
-    "publishedAt": "2026-08-26T07:02:44.437Z",
-    "firstPublishedAt": "2026-08-26T07:02:44.437Z",
     "visibility": "public"
   },
   {
