@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt5tl89hg36",
+    "projectId": "proj-mt5tl89hg36",
+    "releaseId": "rel_20260826081817022_c3b7828376",
+    "title": "汴京尘吏",
+    "subtitle": "北宋县衙里，没有名字的治理者",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "芝芝为荔枝",
+    "category": "中国史",
+    "tags": [
+      "宋代基层",
+      "胥吏生态",
+      "县衙日常",
+      "制度史",
+      "微观历史",
+      "北宋"
+    ],
+    "description": "汴京的繁华在《清明上河图》里不朽，但撑起这张盛世图景的，是无数在县衙廊庑间伏案疾书的无名小吏。他们不是官，却要替官催税、断狱、摊派差役；他们不是民，却比民更懂乡绅的算盘、仓廪的鼠迹、桥头的眼睛。本书从一桩桩具体的公务切入：一册田亩簿上的涂改，一场差役轮盘上的博弈，一封酒席间递出的尺牍，一道粉壁上被抹去的吏名。在制度刚性与资源匮乏的夹缝里，这些“尘吏”以文书为盾、以人情为刃，在考课纸上的生路与公服下的债务之间，维系着帝国末梢的运转。他们的生存策略，是宋代国家能力在基层最真实的损耗与弹性。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-2",
+      "createdAt": "2026-08-24T16:11:24.261Z"
+    },
+    "coverUrl": "books/proj-mt5tl89hg36/releases/rel_20260826081817022_c3b7828376/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt5tl89hg36/index.html",
+    "publishedAt": "2026-08-26T08:18:17.096Z",
+    "firstPublishedAt": "2026-08-24T16:02:20.155Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9g9yuvk4d",
     "projectId": "proj-mt9g9yuvk4d",
     "releaseId": "rel_20260826042846817_2a3181f8e7",
@@ -540,40 +574,6 @@
     "url": "books/proj-mt6yjdkt588/index.html",
     "publishedAt": "2026-08-25T07:17:16.062Z",
     "firstPublishedAt": "2026-08-25T07:16:35.271Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt5tl89hg36",
-    "projectId": "proj-mt5tl89hg36",
-    "releaseId": "rel_20260824160220151_3a8c93fb61",
-    "title": "汴京尘吏",
-    "subtitle": "北宋县衙里，没有名字的治理者",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "芝芝为荔枝",
-    "category": "中国史",
-    "tags": [
-      "宋代基层",
-      "胥吏生态",
-      "县衙日常",
-      "制度史",
-      "微观历史",
-      "北宋"
-    ],
-    "description": "汴京的繁华在《清明上河图》里不朽，但撑起这张盛世图景的，是无数在县衙廊庑间伏案疾书的无名小吏。他们不是官，却要替官催税、断狱、摊派差役；他们不是民，却比民更懂乡绅的算盘、仓廪的鼠迹、桥头的眼睛。本书从一桩桩具体的公务切入：一册田亩簿上的涂改，一场差役轮盘上的博弈，一封酒席间递出的尺牍，一道粉壁上被抹去的吏名。在制度刚性与资源匮乏的夹缝里，这些“尘吏”以文书为盾、以人情为刃，在考课纸上的生路与公服下的债务之间，维系着帝国末梢的运转。他们的生存策略，是宋代国家能力在基层最真实的损耗与弹性。",
-    "chapterCount": 30,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 88,
-      "method": "median-of-1",
-      "createdAt": "2026-08-24T16:00:40.516Z"
-    },
-    "coverUrl": "books/proj-mt5tl89hg36/releases/rel_20260824160220151_3a8c93fb61/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt5tl89hg36/index.html",
-    "publishedAt": "2026-08-24T16:02:20.155Z",
-    "firstPublishedAt": "2026-08-24T16:02:20.155Z",
     "visibility": "public"
   },
   {
