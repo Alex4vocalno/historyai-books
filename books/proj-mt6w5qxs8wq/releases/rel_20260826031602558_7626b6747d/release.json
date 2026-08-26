@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826031602558_7626b6747d",
+  "projectId": "proj-mt6w5qxs8wq",
+  "manuscriptVersionId": "mv_c0e9686bbad2feb2",
+  "contentHash": "c0e9686bbad2feb25a81b032a9765aca76d1587a54cc9f8a8b09dccf17eb7d80",
+  "title": "人类生育史",
+  "subtitle": "",
+  "authorDisplayName": "半两先生",
+  "description": "在避孕药问世之前，女性用鳄鱼粪、蜂蜜和橄榄油调配栓剂，古埃及人相信这能阻挡精子。同一时期，中国宫廷医案里记载着水银避孕的致命配方。这些身体实验横跨数千年，背后是一场无声的战争：谁来决定生育，谁就控制了人口、劳动力和继承权。从口传秘方到橡胶工业的意外突破，从国家禁书到激素合成，避孕技术每一次跃进都踩在社会禁忌与个体自主的断裂带上。这本书追踪的不是器具进化史，而是人类如何在繁衍本能与生存焦虑之间，一步步把生育变成可以谈判的选项。",
+  "category": "中国史",
+  "tags": [
+    "生育史",
+    "避孕技术",
+    "性别权力",
+    "人口政治",
+    "医学社会史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 13,
+    "units": 111786,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-08-25T00:58:13.398Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T03:11:36.682Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "身体先于器物",
+      "units": 8203
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "草叶与矿物的经验药典",
+      "units": 8864
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "口传的暗河",
+      "units": 7868
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "橡胶变形记",
+      "units": 8239
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "印刷品上的生育战争",
+      "units": 8225
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "女性手中的化学",
+      "units": 8898
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "从作坊到无菌室",
+      "units": 10279
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "激素的合成拐点",
+      "units": 10152
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "药丸上架之后",
+      "units": 8152
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "南方的第一粒药",
+      "units": 8854
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "长效装置的回潮",
+      "units": 8083
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "性与繁殖的松绑",
+      "units": 8321
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "人口账本的翻转",
+      "units": 7648
+    }
+  ],
+  "illustrations": 13,
+  "publishedAt": "2026-08-26T03:16:02.640Z"
+}
