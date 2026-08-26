@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826051400542_6b0a75462a",
+  "projectId": "proj-mt9ga9xxm44",
+  "manuscriptVersionId": "mv_73bb44b1ea5afbf9",
+  "contentHash": "73bb44b1ea5afbf9cc14efecd123eed60a069eb8ada8cbe5a2e11fcd63d92dca",
+  "title": "窗外有鸟：城市鸟类的隐秘生活",
+  "subtitle": "中国城市鸟类的生存策略与演化现场",
+  "authorDisplayName": "李思特Think",
+  "description": "麻雀在空调外机筑巢，红隼把摩天大楼当作悬崖，乌鸦在午夜翻找厨余垃圾。这些窗外邻居并非被动幸存，而是正在经历一场激烈的快速演化。噪音、玻璃幕墙、光污染与流浪猫构成了严苛的筛选机制，每一种留存的鸟类都以独特的行为策略交出了答卷。从珠颈斑鸠的低语到八哥的混音，从喂食者的悖论到变暖的翅膀，十八种常见鸟类串联起一部鲜活的城市生态史。这不是田园牧歌式的自然观察，而是水泥森林中生命适应与重塑的真实记录。",
+  "category": "自然博物",
+  "tags": [
+    "城市生态",
+    "鸟类观察",
+    "自然演化",
+    "非虚构写作",
+    "博物学",
+    "自然博物"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 139857,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T05:08:15.050Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T05:13:49.243Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "水泥地上的麻雀",
+      "units": 6689
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "玻璃里的歌声",
+      "units": 8046
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "黄昏的捕食者",
+      "units": 5687
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "楼燕之年",
+      "units": 5650
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "檐下春秋",
+      "units": 6486
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "斑鸠的低语",
+      "units": 6703
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "喜鹊的都市兵法",
+      "units": 8661
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "伯劳的晾肉架",
+      "units": 7198
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "乌鸦的午夜食堂",
+      "units": 7976
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "八哥的混音带",
+      "units": 6357
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "红隼的悬崖代偿",
+      "units": 6409
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "喂食者的悖论",
+      "units": 9163
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "绿篱与围墙",
+      "units": 8022
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "不夜城的时钟",
+      "units": 8294
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "透明的墙",
+      "units": 6144
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "猫的阴影",
+      "units": 7724
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "干预的悖论",
+      "units": 5976
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "网中的邻居",
+      "units": 6468
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "变暖的翅膀",
+      "units": 6069
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "窗外",
+      "units": 6135
+    }
+  ],
+  "publishedAt": "2026-08-26T05:14:00.544Z"
+}
