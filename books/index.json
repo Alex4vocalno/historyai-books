@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt8eixla8eh",
+    "projectId": "proj-mt8eixla8eh",
+    "releaseId": "rel_20260826002927955_ee792515ae",
+    "title": "云端惊雷：百年空难小史",
+    "subtitle": "30起改变规则的空难与航空安全进化史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "科技史",
+    "tags": [
+      "航空史",
+      "空难调查",
+      "安全制度",
+      "非虚构",
+      "技术史",
+      "中国史"
+    ],
+    "description": "从1908年飞翼初展的裂痕到2024年锂电池的隐忧，三十起惨烈空难构成了现代航空安全的基石。特内里费的迷雾、苏城失去液压的绝境、御巢鹰山断裂的尾翼，每一处现场细节背后都是技术局限与商业压力的剧烈碰撞。这些悲剧并非单纯的灾难记录，而是驱动制度进化的残酷补丁：从驾驶舱权力革命到全球统一语言，从独立调查权确立到黑匣子记忆争夺。当鲜血换来规章，当个体命运推动系统迭代，人类才真正学会如何在万米高空敬畏规则。这是一部由事故书写的安全史，也是对每一次起飞最沉重的致敬。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-08-25T13:36:26.238Z"
+    },
+    "coverUrl": "books/proj-mt8eixla8eh/releases/rel_20260826002927955_ee792515ae/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt8eixla8eh/index.html",
+    "publishedAt": "2026-08-26T00:29:27.958Z",
+    "firstPublishedAt": "2026-08-26T00:29:27.958Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt8cj5sxk2n",
     "projectId": "proj-mt8cj5sxk2n",
     "releaseId": "rel_20260826003455802_7f6d7f1e79",
@@ -404,40 +438,6 @@
     "url": "books/proj-mt5tl89hg36/index.html",
     "publishedAt": "2026-08-26T08:18:17.096Z",
     "firstPublishedAt": "2026-08-24T16:02:20.155Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt8eixla8eh",
-    "projectId": "proj-mt8eixla8eh",
-    "releaseId": "rel_20260826002927955_ee792515ae",
-    "title": "云端惊雷：百年空难小史",
-    "subtitle": "30起改变规则的空难与航空安全进化史",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李德诺富特斯基",
-    "category": "科技史",
-    "tags": [
-      "航空史",
-      "空难调查",
-      "安全制度",
-      "非虚构",
-      "技术史",
-      "中国史"
-    ],
-    "description": "从1908年飞翼初展的裂痕到2024年锂电池的隐忧，三十起惨烈空难构成了现代航空安全的基石。特内里费的迷雾、苏城失去液压的绝境、御巢鹰山断裂的尾翼，每一处现场细节背后都是技术局限与商业压力的剧烈碰撞。这些悲剧并非单纯的灾难记录，而是驱动制度进化的残酷补丁：从驾驶舱权力革命到全球统一语言，从独立调查权确立到黑匣子记忆争夺。当鲜血换来规章，当个体命运推动系统迭代，人类才真正学会如何在万米高空敬畏规则。这是一部由事故书写的安全史，也是对每一次起飞最沉重的致敬。",
-    "chapterCount": 30,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 85,
-      "method": "median-of-1",
-      "createdAt": "2026-08-25T13:36:26.238Z"
-    },
-    "coverUrl": "books/proj-mt8eixla8eh/releases/rel_20260826002927955_ee792515ae/cover-8da9f7c94c64.svg",
-    "coverTextless": false,
-    "url": "books/proj-mt8eixla8eh/index.html",
-    "publishedAt": "2026-08-26T00:29:27.958Z",
-    "firstPublishedAt": "2026-08-26T00:29:27.958Z",
     "visibility": "public"
   },
   {

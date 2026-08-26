@@ -32,14 +32,22 @@
     "method": "median-of-1",
     "createdAt": "2026-08-25T13:36:26.238Z"
   },
+  "editorReview": {
+    "text": "本书以扎实的档案功底，将百余年空难史编织成一部制度演进的残酷注脚。其最大亮点在于核心命题的穿透力——“制度不主动进化，只对惨剧做出反应”，从第1章的“安全半衰期”雏形到终章的三条规律总结，论证链条完整且有历史纵深。尤为难得的是，对日航123空难中“责任沉降”概念的提炼，揭示了制度问责中的结构性偏移，展现了超越事件本身的洞察力。然而，作为一部编年体实录，其跨章衔接存在明显瑕疵：多处设置的问句钩子（如“责任人是谁？”）在后续章节未获回应，造成论证推进的断裂感；两处时间线回溯（如从2005跳回1971年）缺乏明确标记，在严格的时间框架下易干扰阅读节奏。这些结构性问题，使得一部本可更流畅的史诗叙事，在精修前略显滞涩。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
   "cover": {
-    "file": "cover-8da9f7c94c64.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:31:38.975Z",
     "textless": false,
+    "profileId": "woodblock-print",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "woodblock-print"
   },
   "chapters": [
     {
@@ -224,5 +232,5 @@
     }
   ],
   "publishedAt": "2026-08-26T00:29:27.958Z",
-  "rerenderedAt": "2026-08-26T08:31:38.997Z"
+  "rerenderedAt": "2026-08-26T08:49:00.556Z"
 }
