@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt84tydw6vf",
+    "projectId": "proj-mt84tydw6vf",
+    "releaseId": "rel_20260825130433183_80da03896c",
+    "title": "无贵之族：中国贵族制度的诞生与消亡",
+    "subtitle": "从西周封建到科举社会，一部贵族制度消亡的结构史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "心安处是故乡",
+    "category": "中国史",
+    "tags": [
+      "中国制度史",
+      "贵族制度",
+      "科举",
+      "皇权集权",
+      "比较历史",
+      "中国史"
+    ],
+    "description": "为什么中国成了世界上唯一彻底告别贵族阶层的主要文明？欧洲的旧贵族至今仍活跃于金融与议会，日本武家身份绵延千年，印度种姓与选票政治深度嵌合——唯独中国，在唐宋之际完成了对血缘特权的总清算。本书以商鞅军功爵、九品中正、科举初立、两税法、黄巢之乱等关键节点为锚，揭示皇权集权、战争动员、土地赋税与选官机制四重力量如何层层剥离贵族的生存根基。当洛阳的谱牒化为灰烬，当杯酒释兵权终结最后一批封建残余，一个以科层制与绩效合法性为底色的社会形态就此奠定。这不是一部精英博弈的简史，更是一部关于制度如何驯化血缘、重塑身份与分配权力的深层叙事。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-08-25T11:31:26.958Z"
+    },
+    "coverUrl": "books/proj-mt84tydw6vf/releases/rel_20260825130433183_80da03896c/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt84tydw6vf/index.html",
+    "publishedAt": "2026-08-25T13:04:33.189Z",
+    "firstPublishedAt": "2026-08-25T13:04:33.189Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt8f53nrq9l",
     "projectId": "proj-mt8f53nrq9l",
     "releaseId": "rel_20260825131335582_fd79dbf698",
@@ -472,40 +506,6 @@
     "url": "books/proj-mt5tl89hg36/index.html",
     "publishedAt": "2026-08-26T08:18:17.096Z",
     "firstPublishedAt": "2026-08-24T16:02:20.155Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt84tydw6vf",
-    "projectId": "proj-mt84tydw6vf",
-    "releaseId": "rel_20260825130433183_80da03896c",
-    "title": "无贵之族：中国贵族制度的诞生与消亡",
-    "subtitle": "从西周封建到科举社会，一部贵族制度消亡的结构史",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "心安处是故乡",
-    "category": "中国史",
-    "tags": [
-      "中国制度史",
-      "贵族制度",
-      "科举",
-      "皇权集权",
-      "比较历史",
-      "中国史"
-    ],
-    "description": "为什么中国成了世界上唯一彻底告别贵族阶层的主要文明？欧洲的旧贵族至今仍活跃于金融与议会，日本武家身份绵延千年，印度种姓与选票政治深度嵌合——唯独中国，在唐宋之际完成了对血缘特权的总清算。本书以商鞅军功爵、九品中正、科举初立、两税法、黄巢之乱等关键节点为锚，揭示皇权集权、战争动员、土地赋税与选官机制四重力量如何层层剥离贵族的生存根基。当洛阳的谱牒化为灰烬，当杯酒释兵权终结最后一批封建残余，一个以科层制与绩效合法性为底色的社会形态就此奠定。这不是一部精英博弈的简史，更是一部关于制度如何驯化血缘、重塑身份与分配权力的深层叙事。",
-    "chapterCount": 30,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-08-25T11:31:26.958Z"
-    },
-    "coverUrl": "books/proj-mt84tydw6vf/releases/rel_20260825130433183_80da03896c/cover-be6d635409e5.svg",
-    "coverTextless": false,
-    "url": "books/proj-mt84tydw6vf/index.html",
-    "publishedAt": "2026-08-25T13:04:33.189Z",
-    "firstPublishedAt": "2026-08-25T13:04:33.189Z",
     "visibility": "public"
   },
   {

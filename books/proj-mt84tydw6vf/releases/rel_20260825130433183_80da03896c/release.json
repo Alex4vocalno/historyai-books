@@ -32,14 +32,22 @@
     "method": "median-of-3",
     "createdAt": "2026-08-25T11:31:26.958Z"
   },
+  "editorReview": {
+    "text": "一部论证密度很高的制度史著作，最难得的是把“中国为何彻底告别贵族”这个老问题讲出了新骨架。作者没有停留在人事兴替的层面，而是从商鞅军功爵对血缘身份的拆解、九品中正制被皇权收编的内在逻辑，一路推到唐宋之际土地赋税与选官机制如何合力绞杀世族再生产的空间，主线清晰，层层咬合。比较视野尤其出彩，与欧洲封建契约、日本庄园制的对照让中国路径的特殊性真正立了起来。稍显不足的是，部分章节抽象术语堆叠偏密，像“法权”“身份再生产”反复出现却缺少具体例证缓冲，读到中段容易疲劳；个别论证衔接也有跳跃，比如从豪强庄园直接跨到九品中正制，中间缺了一段过渡性的制度逻辑说明。整体是扎实的专题史写法，适合愿意跟着作者啃制度逻辑的读者。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
   "cover": {
-    "file": "cover-be6d635409e5.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:33:28.988Z",
     "textless": false,
+    "profileId": "epigraphy-rubbing",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "epigraphy-rubbing"
   },
   "chapters": [
     {
@@ -224,5 +232,5 @@
     }
   ],
   "publishedAt": "2026-08-25T13:04:33.189Z",
-  "rerenderedAt": "2026-08-26T08:33:29.000Z"
+  "rerenderedAt": "2026-08-26T08:49:12.071Z"
 }
