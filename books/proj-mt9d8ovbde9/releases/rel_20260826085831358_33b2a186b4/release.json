@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826085831358_33b2a186b4",
+  "projectId": "proj-mt9d8ovbde9",
+  "manuscriptVersionId": "mv_c29a66a6fcfd36d4",
+  "contentHash": "c29a66a6fcfd36d4c44ff9ef22a6cdfeb36377c8aa854add0c6b6ec9deaa76b0",
+  "title": "陇西李氏：一个望族的千年人设与故事",
+  "subtitle": "从边郡豪强到文化符号的建构史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "飞将军李广的悲情、唐皇室的追认、明清谱匠的生意，乃至今日屏幕前的基因寻根，共同编织了“陇西李氏”的千年传奇。这并非一部单纯的血缘繁衍史，而是一场跨越朝代的身份塑造工程。从汉魏边郡的尚武底色，到科举场中的门第博弈，再到祠堂剧场里的秩序展演，姓氏在正史与民间记忆的张力中不断被重写。当血缘真实性让位于文化功能性，望族便超越了生物学意义，成为传统社会精英身份生产机制的鲜活标本。剥开层层叠加的历史滤镜，看见一个家族如何在制度变迁中被反复发明与定义。",
+  "category": "人物传记",
+  "tags": [
+    "家族史",
+    "社会史",
+    "郡望制度",
+    "身份建构",
+    "谱牒文化",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 249104,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T08:52:06.622Z"
+  },
+  "editorReview": {
+    "text": "这部文化史随笔以“陇西李氏”为线索，将郡望身份视为一套跨越两千年的“文化信用体系”来审视，论证链条完整，从汉代军功爵制一直延伸到当代基因检测，视野宏阔。尤为精彩的是第二章对李广“难封”的制度史分析，将文学典故还原为制度与文化的双重命题，洞见密度很高；第十六章论戏曲如何将郡望符号下沉为公共文化消费品，结构清晰，推进流畅。全书随笔笔调与学养底色搭配得当，可读性强。不过，中后段章节存在较为明显的跨章重复，部分接缝处的问句钩子未能妥善回收，且有数处史料来源表述模糊，削弱了论证的可核性；第二十二章文风也与全书整体水准存在落差。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T08:57:53.890Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "陇西的边郡底色",
+      "units": 8212
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "飞将军难封的背后",
+      "units": 8876
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "追认出来的始祖",
+      "units": 8066
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "西凉残照与攀附",
+      "units": 7828
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "被门阀称量的姓氏",
+      "units": 9147
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "隋末流传民间的“李氏当兴”谶语",
+      "units": 8389
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "郡望的日常经营",
+      "units": 8388
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "科举场中的身份博弈",
+      "units": 7874
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "乱世中的谱牒抢救",
+      "units": 8636
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "祠堂里的新秩序",
+      "units": 8676
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "祖像的凝视与传奇",
+      "units": 7849
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "从郡望到文化符号",
+      "units": 8443
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "诗笔下的郡望乡愁",
+      "units": 8615
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "碑石上的家族面容",
+      "units": 7622
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "丹青里的世系想象",
+      "units": 8426
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "戏台上的家国往事",
+      "units": 7732
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "报章上的旧族新声",
+      "units": 8032
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "屏幕上的血脉迷思",
+      "units": 9432
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "婚姻的棋局",
+      "units": 8394
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "科举的窄门",
+      "units": 8298
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "谱牒的炼金术",
+      "units": 7577
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "祠堂的剧场",
+      "units": 8370
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "族长的算盘",
+      "units": 8215
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "符号的漂流",
+      "units": 8126
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "谱匠的生意",
+      "units": 8452
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "土改的火与灰",
+      "units": 8396
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "海外的香火",
+      "units": 8212
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "网页上的祠堂",
+      "units": 7806
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "基因里的谎言",
+      "units": 8383
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "人设的胜利",
+      "units": 8632
+    }
+  ],
+  "publishedAt": "2026-08-26T08:58:31.364Z"
+}
