@@ -39,12 +39,13 @@
     "rating": "编辑意见"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-749b713b3ebe.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-25T05:09:56.280Z",
+    "generatedAt": "2026-08-26T08:52:14.869Z",
     "textless": false,
-    "profileId": "tang-palace-intrigue"
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -853,5 +854,5 @@
     }
   ],
   "publishedAt": "2026-08-24T11:42:01.564Z",
-  "rerenderedAt": "2026-08-26T08:49:45.922Z"
+  "rerenderedAt": "2026-08-26T08:52:14.889Z"
 }
