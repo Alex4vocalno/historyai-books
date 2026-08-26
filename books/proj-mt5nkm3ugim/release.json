@@ -39,15 +39,13 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-90f5ef903ae6.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-26T08:38:01.031Z",
+    "generatedAt": "2026-08-26T08:53:27.282Z",
     "textless": false,
-    "profileId": "serious-history-editorial",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "serious-history-editorial"
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -652,6 +650,6 @@
     }
   ],
   "publishedAt": "2026-08-24T11:42:35.364Z",
-  "rerenderedAt": "2026-08-26T08:49:36.613Z",
+  "rerenderedAt": "2026-08-26T08:53:27.307Z",
   "formFamily": "narrative"
 }
