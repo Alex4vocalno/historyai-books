@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826065202157_96fe6ac507",
+  "projectId": "proj-mt9dhy8m3zm",
+  "manuscriptVersionId": "mv_970b6bc851ad58f7",
+  "contentHash": "970b6bc851ad58f7c1dde55d561b8bdd72f6e00ebe1073743c51a0d6f9467788",
+  "title": "夜未央：被宵禁锁住的古代女子与不眠城",
+  "subtitle": "从长安宵禁到租界霓虹的女性夜间史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "暮鼓声沉，坊门紧闭，古代女子的夜晚是否只剩闺阁孤灯？在上元灯市的如昼流光里，在尼庵夜课的梵音中，在桥市摊贩的烟火间，她们从未真正被黑暗吞没。从唐长安到清末上海，夜生活的丰俭并非线性进化，而是在律令、城市与性别规范的缝隙中曲折生长。本书以三十个具体夜间场景为棱镜，透过律令条文与笔记小说的互证，还原那些被规训却又持续突破边界的身影。这不是关于禁锢的悲情叙事，而是一部女性在时间夹缝中争夺空间、重塑日常的生活实录。当电灯照亮租界夜市，旧禁新解之间，一座不眠之城与无数个体的命运悄然交汇。",
+  "category": "中国史",
+  "tags": [
+    "女性史",
+    "城市生活",
+    "宵禁制度",
+    "夜间经济",
+    "社会风俗",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 278453,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T05:11:05.636Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T06:51:56.081Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "鼓声落时",
+      "units": 8069
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "上元三夜",
+      "units": 8393
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "坊门之外",
+      "units": 7535
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "桥市灯影",
+      "units": 8271
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "不夜州桥",
+      "units": 10100
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "深巷更声",
+      "units": 8689
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "夜织天光",
+      "units": 11038
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "尼庵夜课",
+      "units": 12343
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "夜市女商",
+      "units": 8362
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "勾栏夜宴",
+      "units": 9159
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "赛神之夜",
+      "units": 8072
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "租界电光",
+      "units": 8764
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "诗笔窥夜",
+      "units": 12034
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "丹青夜影",
+      "units": 7493
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "粉墨夜奔",
+      "units": 8389
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "小说夜谭",
+      "units": 10056
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "报刊夜闻",
+      "units": 11998
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "镜中夜痕",
+      "units": 13819
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "闺门内外",
+      "units": 7581
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "律令之眼",
+      "units": 7819
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "街巷之眼",
+      "units": 7387
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "阶层夜界",
+      "units": 8182
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "身体之界",
+      "units": 8851
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "声名之累",
+      "units": 10683
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "旧禁新解",
+      "units": 8092
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "战火夜行",
+      "units": 13344
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "夜班之光",
+      "units": 7853
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "夜市重生",
+      "units": 9966
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "不眠之城",
+      "units": 8473
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "夜之回响",
+      "units": 7638
+    }
+  ],
+  "publishedAt": "2026-08-26T06:52:02.162Z",
+  "formFamily": "narrative"
+}
