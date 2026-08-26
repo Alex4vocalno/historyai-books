@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826070029891_4c257ed6d5",
+  "projectId": "proj-mt9dpp47ual",
+  "manuscriptVersionId": "mv_073d8f1044583790",
+  "contentHash": "073d8f104458379028e35ee62257103f9e0cd6c48fbbddb078d740e76fd9bd7f",
+  "title": "古人的高级娱乐：一部消遣里的中国史",
+  "subtitle": "一部消遣里的中国史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "投壶不仅是宴饮助兴，更是射礼在室内的微缩演练；六博棋盘上的进退，暗合古人对宇宙秩序与个人命运的想象。从曲水流觞的雅集到闺阁藏钩的暗战，从北朝军帐中的握槊到晚明纸牌上的江湖，古人的消遣从未脱离时代的引力。本书以三十种具体游戏为切口，透过器物形制与规则文本，还原被礼法、阶层与性别张力包裹的娱乐现场。当骰子掷出乱世狂欢，当草虫罐里装下帝国缩影，游戏便成为窥探中国传统社会运行逻辑的隐秘窗口。在规则与自由的博弈中，看见古人如何在方寸之间安顿身心、确认身份，又如何在时代剧变中重塑娱乐的边界。",
+  "category": "游戏史",
+  "tags": [
+    "中国古代娱乐",
+    "社会文化史",
+    "物质文化",
+    "游戏史",
+    "礼制与日常",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 252623,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T06:12:18.856Z"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T06:53:48.837Z",
+    "textless": false
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "投壶：射礼的余响",
+      "units": 7730
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "六博：棋盘上的宇宙与命运",
+      "units": 7509
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "弹棋：士大夫的手指政治",
+      "units": 8520
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "樗蒲：骰子掷出的乱世狂欢",
+      "units": 7777
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "藏钩与射覆：闺阁里的暗战",
+      "units": 8166
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "曲水流觞：山水之间的秩序展演",
+      "units": 8382
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "双陆：棋盘上的胡汉对弈",
+      "units": 8156
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "握槊：北朝军帐里的生死局",
+      "units": 8813
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "彩选：掷骰升官的纸上宦海",
+      "units": 8732
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "选仙图：市井里的仙界阶梯",
+      "units": 8376
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "马吊：纸牌上的晚明江湖",
+      "units": 8020
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "斗促织：草虫罐里的帝国缩影",
+      "units": 7970
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "棋经十三篇",
+      "units": 10048
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "打马格钱",
+      "units": 7690
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "叶子戏",
+      "units": 9184
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "升官图",
+      "units": 8407
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "诗牌与诗钟",
+      "units": 8283
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "麻将",
+      "units": 9270
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "闺塾师与女校书",
+      "units": 8371
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "赌坊里的帝国",
+      "units": 8152
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "棋客",
+      "units": 9127
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "斗鹌鹑",
+      "units": 10806
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "灯谜",
+      "units": 8388
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "游戏与禁忌",
+      "units": 8205
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "残局：礼法退场后的游戏真空",
+      "units": 8062
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "以1900年至1930年代为时段",
+      "units": 7706
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "麻将的现代命运：从市井博戏到国民娱乐",
+      "units": 7572
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "被遗忘的谱系：那些没能活下来的游戏",
+      "units": 8212
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "博物馆里的投壶：物质遗存与意义剥离",
+      "units": 7703
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "是全书的收束章",
+      "units": 9286
+    }
+  ],
+  "publishedAt": "2026-08-26T07:00:30.098Z",
+  "formFamily": "narrative"
+}
