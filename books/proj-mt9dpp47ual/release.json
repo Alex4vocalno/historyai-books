@@ -32,14 +32,22 @@
     "method": "median-of-1",
     "createdAt": "2026-08-26T06:12:18.856Z"
   },
+  "editorReview": {
+    "text": "本书以三十种古代游戏为切口，论证“游戏是社会关系的微缩模型”这一核心命题，史料运用扎实，从居延汉简的财产登记到满城汉墓的出土棋具，均服务于论点而非堆砌。第29章对游戏博物馆化的三重剥离分析尤为精彩，堪称全书高光。体裁上，说书人语态与学术分析切换自然，不因口语化降低论证密度。但部分章节存在结构性问题，如第7章末的悬念在下一章未得回应，削弱了叙事张力链；叶子戏一章中段的产业分析枚举过密，节奏略显拖沓。收束章引入当代艺术展案例，与全书古代考古学主线存在主题漂移之嫌，说服力稍显不足。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
   "cover": {
-    "file": "cover-689d11fafef0.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:17:52.504Z",
     "textless": false,
+    "profileId": "silk-mineral-pigment",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v2"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "silk-mineral-pigment"
   },
   "chapters": [
     {
@@ -224,6 +232,6 @@
     }
   ],
   "publishedAt": "2026-08-26T07:00:30.098Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-08-26T08:17:52.535Z"
+  "rerenderedAt": "2026-08-26T08:47:46.062Z",
+  "formFamily": "narrative"
 }
