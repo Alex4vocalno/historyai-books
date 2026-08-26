@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260826143210007_2387835535",
+  "projectId": "proj-mt9u3qgb1vg",
+  "manuscriptVersionId": "mv_fbca56aaafbc3d28",
+  "contentHash": "fbca56aaafbc3d28035ea547c87054c612335c1055b83be24421c5a06d6c90f0",
+  "title": "支付的尊严",
+  "subtitle": "从福特制到算法时代的家庭账本",
+  "authorDisplayName": "芝芝为荔枝",
+  "description": "当收银机吐出小票，当学区房与药价单成为家庭账本上最沉重的条目，消费便不再仅仅是欲望的投射，而是获取教育、医疗等生存资源的支付接口。从二十世纪初福特制流水线下的工资袋，到当代中国家庭在算法推荐与分期付款间的精密算计，支付能力早已异化为社会尊严的显影液。这并非对消费主义的简单批判，而是一部关于必需品如何被历史定义、刚需如何被系统制造的微观经济史。在物价与收入的真实比率中，看见个体理性与资源分配之间的漫长拉锯，以及将支付与尊严重新解绑的可能。",
+  "category": "经济理财",
+  "tags": [
+    "消费史",
+    "家庭经济",
+    "社会分层",
+    "支付文化",
+    "民生账本",
+    "经济理财"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 133486,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T13:04:01.814Z"
+  },
+  "editorReview": {
+    "text": "这本书最锋利的地方，在于它用“经济侦探”的笔法，把“支付能力从生产的结果变成生产的前提”这个核心颠倒逻辑讲透了。从福特五美元日薪到学区房溢价，每个数据都像线索一样精准地指向机制转折，论证链条扎实，理论工具也用得不露痕迹。不过，阅读体验上有些小磕绊：几处章节衔接的钩子断了，翻页时叙事推进会卡一下；另外，有几章的抽象密度突然拉高，隐喻堆叠，读起来更像论文而非侦探故事，节奏有点涩。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T14:22:46.944Z",
+    "textless": false,
+    "profileId": "popsci-luminous"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "收银机前的尊严",
+      "units": 6259
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "学区房里的算术",
+      "units": 6262
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "药价单上的两难",
+      "units": 6302
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "账本里的通货膨胀",
+      "units": 5550
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "支付接口",
+      "units": 6279
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "刚需的制造",
+      "units": 5612
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "必需品的历史定义",
+      "units": 6411
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "消费的符号语法",
+      "units": 10115
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "未来的钱",
+      "units": 6713
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "消费的阶梯",
+      "units": 6884
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "身份账单",
+      "units": 7623
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "排序机器",
+      "units": 6001
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "广告的承诺溢价",
+      "units": 7159
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "下沉市场的神话",
+      "units": 6367
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "分期付款的代价",
+      "units": 7179
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "反消费主义的陷阱",
+      "units": 6408
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "基本收入的实验",
+      "units": 6191
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "平台的支付重构",
+      "units": 6369
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "算法的价签",
+      "units": 7299
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "解绑的可能",
+      "units": 6503
+    }
+  ],
+  "illustrations": 10,
+  "publishedAt": "2026-08-26T14:32:10.242Z"
+}
