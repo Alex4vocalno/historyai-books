@@ -32,14 +32,17 @@
     "method": "median-of-1",
     "createdAt": "2026-08-24T07:24:08.271Z"
   },
+  "editorReview": null,
   "cover": {
-    "file": "cover-2b0b2d2aeddf.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-26T08:40:00.374Z",
     "textless": false,
+    "profileId": "sci-instrument-vintage",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "sci-instrument-vintage"
   },
   "chapters": [
     {
@@ -224,5 +227,5 @@
     }
   ],
   "publishedAt": "2026-08-24T10:40:31.141Z",
-  "rerenderedAt": "2026-08-26T08:40:00.403Z"
+  "rerenderedAt": "2026-08-26T08:49:51.086Z"
 }
