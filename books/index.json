@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9ga3z16r8",
+    "projectId": "proj-mt9ga3z16r8",
+    "releaseId": "rel_20260826053726478_54c1f1b7a1",
+    "title": "电池里的战争：动力电池的产业地图",
+    "subtitle": "锂钴镍争夺战与大国工业权力的重构",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "商业管理",
+    "tags": [
+      "动力电池",
+      "产业史",
+      "新能源",
+      "地缘政治",
+      "制造业",
+      "商业管理"
+    ],
+    "description": "从索尼1991年商业化量产的起点，到2025年全球产能过剩的利润绞杀，动力电池早已超越零部件范畴，成为大国工业竞争的心脏。这条产业链的权力不藏在整车品牌的光环里，而是深埋于正极材料的配方、隔膜的拉伸工艺与南美盐湖的开采权中。本书沿价值链逐环节展开，还原宁德时代、比亚迪、LG新能源与松下在十年爆发期内的绑定博弈与路线抉择。当印尼镍矿禁运令与美国《通胀削减法案》相继落地，技术路线之争已演变为资源地缘与制造能力的正面碰撞。这是一份关于化学环节、产能数字与工艺门槛的产业实录，记录水面浪花之下，决定未来格局的暗流涌动。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T05:29:12.146Z"
+    },
+    "coverUrl": "books/proj-mt9ga3z16r8/releases/rel_20260826053726478_54c1f1b7a1/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt9ga3z16r8/index.html",
+    "publishedAt": "2026-08-26T05:37:26.483Z",
+    "firstPublishedAt": "2026-08-26T05:31:39.567Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9ga9xxm44",
     "projectId": "proj-mt9ga9xxm44",
     "releaseId": "rel_20260826055341727_6b0a75462a",
@@ -201,40 +235,6 @@
     "url": "books/proj-mt8fald2hj4/index.html",
     "publishedAt": "2026-08-26T06:50:18.501Z",
     "firstPublishedAt": "2026-08-26T06:50:18.501Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9ga3z16r8",
-    "projectId": "proj-mt9ga3z16r8",
-    "releaseId": "rel_20260826053726478_54c1f1b7a1",
-    "title": "电池里的战争：动力电池的产业地图",
-    "subtitle": "锂钴镍争夺战与大国工业权力的重构",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "商业管理",
-    "tags": [
-      "动力电池",
-      "产业史",
-      "新能源",
-      "地缘政治",
-      "制造业",
-      "商业管理"
-    ],
-    "description": "从索尼1991年商业化量产的起点，到2025年全球产能过剩的利润绞杀，动力电池早已超越零部件范畴，成为大国工业竞争的心脏。这条产业链的权力不藏在整车品牌的光环里，而是深埋于正极材料的配方、隔膜的拉伸工艺与南美盐湖的开采权中。本书沿价值链逐环节展开，还原宁德时代、比亚迪、LG新能源与松下在十年爆发期内的绑定博弈与路线抉择。当印尼镍矿禁运令与美国《通胀削减法案》相继落地，技术路线之争已演变为资源地缘与制造能力的正面碰撞。这是一份关于化学环节、产能数字与工艺门槛的产业实录，记录水面浪花之下，决定未来格局的暗流涌动。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 85,
-      "method": "median-of-1",
-      "createdAt": "2026-08-26T05:29:12.146Z"
-    },
-    "coverUrl": "books/proj-mt9ga3z16r8/releases/rel_20260826053726478_54c1f1b7a1/cover.svg",
-    "coverTextless": false,
-    "url": "books/proj-mt9ga3z16r8/index.html",
-    "publishedAt": "2026-08-26T05:37:26.483Z",
-    "firstPublishedAt": "2026-08-26T05:31:39.567Z",
     "visibility": "public"
   },
   {
