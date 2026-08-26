@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt5hozrmxtz",
+    "projectId": "proj-mt5hozrmxtz",
+    "releaseId": "rel_20260824114201562_2f9a5e5b2a",
+    "title": "李建成必须死",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "小说",
+    "tags": [
+      "历史小说",
+      "权谋",
+      "唐朝",
+      "玄武门之变",
+      "政治博弈",
+      "太子视角"
+    ],
+    "description": "武德九年，长安暗流汹涌。太子李建成端坐东宫，却已身处绝境。父皇的猜忌如影随形，秦王李世民的刀锋步步紧逼。他凭借对帝国政务流程的洞悉，在官僚制度的缝隙间周旋，于人心博弈的棋局中落子。敕书的留白，马疾的疑云，洛阳的分割案……每一道文书都是生死博弈。他能否在玄武门之变的前夜，于必死的命运中，为大唐的储君之位，寻得一线生机？",
+    "chapterCount": 134,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 76,
+      "method": "median-of-1",
+      "createdAt": "2026-08-24T10:21:38.125Z"
+    },
+    "coverUrl": "books/proj-mt5hozrmxtz/releases/rel_20260824114201562_2f9a5e5b2a/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt5hozrmxtz/index.html",
+    "publishedAt": "2026-08-24T11:42:01.564Z",
+    "firstPublishedAt": "2026-08-24T08:36:36.467Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt5nkm3ugim",
     "projectId": "proj-mt5nkm3ugim",
     "releaseId": "rel_20260824114235362_8f3cbda475",
@@ -608,40 +642,6 @@
     "url": "books/proj-mt5tl89hg36/index.html",
     "publishedAt": "2026-08-26T08:18:17.096Z",
     "firstPublishedAt": "2026-08-24T16:02:20.155Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt5hozrmxtz",
-    "projectId": "proj-mt5hozrmxtz",
-    "releaseId": "rel_20260824114201562_2f9a5e5b2a",
-    "title": "李建成必须死",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "fiction",
-    "authorDisplayName": "哈里·谢顿",
-    "category": "小说",
-    "tags": [
-      "历史小说",
-      "权谋",
-      "唐朝",
-      "玄武门之变",
-      "政治博弈",
-      "太子视角"
-    ],
-    "description": "武德九年，长安暗流汹涌。太子李建成端坐东宫，却已身处绝境。父皇的猜忌如影随形，秦王李世民的刀锋步步紧逼。他凭借对帝国政务流程的洞悉，在官僚制度的缝隙间周旋，于人心博弈的棋局中落子。敕书的留白，马疾的疑云，洛阳的分割案……每一道文书都是生死博弈。他能否在玄武门之变的前夜，于必死的命运中，为大唐的储君之位，寻得一线生机？",
-    "chapterCount": 134,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 76,
-      "method": "median-of-1",
-      "createdAt": "2026-08-24T10:21:38.125Z"
-    },
-    "coverUrl": "books/proj-mt5hozrmxtz/releases/rel_20260824114201562_2f9a5e5b2a/cover-eecb6ca37ec1.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt5hozrmxtz/index.html",
-    "publishedAt": "2026-08-24T11:42:01.564Z",
-    "firstPublishedAt": "2026-08-24T08:36:36.467Z",
     "visibility": "public"
   },
   {

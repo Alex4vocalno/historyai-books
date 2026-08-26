@@ -32,13 +32,19 @@
     "method": "median-of-1",
     "createdAt": "2026-08-24T10:21:38.125Z"
   },
+  "editorReview": {
+    "text": "这本书最动人的是那些具体的瞬间：李建成在深夜焚烧举荐草稿时指尖的颤抖，玉佩裂纹映出的惶惑，魏征最终‘接住那缕烟’时完成的道德抉择——这些细腻的心理刻画，让历史人物从纸面真正站了起来。作者对唐代政治运作的细节也下足了功夫，封驳制度、敕书流程都自然地融进了叙事里，为‘以制度对抗暴力’的核心冲突提供了扎实的舞台。不过，阅读体验上确实有明显的割裂感，章节之间常常缺少必要的过渡，有时一个悬念刚被勾起，下一章开头却仿佛换了天地，需要读者自己费力去拼凑线索；更让人出戏的是，不少章节结尾得极为突兀，像被硬生生切断，破坏了本该有的叙事节奏。如果这些结构上的接缝能被仔细打磨，这本书的质感会更上一层楼。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "编辑意见"
+  },
   "cover": {
-    "file": "cover-eecb6ca37ec1.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-25T05:09:56.280Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "tang-palace-intrigue"
   },
   "chapters": [
     {
@@ -847,5 +853,5 @@
     }
   ],
   "publishedAt": "2026-08-24T11:42:01.564Z",
-  "rerenderedAt": "2026-08-25T05:09:56.285Z"
+  "rerenderedAt": "2026-08-26T08:49:45.922Z"
 }
