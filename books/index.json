@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9uh811bqo",
+    "projectId": "proj-mt9uh811bqo",
+    "releaseId": "rel_20260827004615162_70faf92128",
+    "title": "氧气革命",
+    "subtitle": "一种剧毒废气如何三次重塑地球与生命",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "科普",
+    "tags": [
+      "地球史",
+      "大氧化事件",
+      "古生物学",
+      "演化生物学",
+      "地质学",
+      "科普"
+    ],
+    "description": "氧气曾是地球上最致命的污染物。二十多亿年前，蓝藻释放的这种剧毒废气引发了行星级的环境灾难，几乎抹杀了当时所有的生命。然而，正是这场大氧化事件为复杂生命的诞生点燃了能量引擎。从条带状铁建造到寒武纪的物种爆发，从石炭纪的巨型昆虫到二叠纪末的窒息灭绝，氧气的每一次涨落都精准对应着生物演化的关键转折。这是一部以氧气曲线为轴心的地球传记，在毒物与燃料的一体两面中，呈现生命改造环境、环境筛选生命的壮阔互构。读懂这条曲线，便读懂了我们呼吸的每一口空气背后，长达数十亿年的生死博弈。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T11:58:26.523Z"
+    },
+    "coverUrl": "books/proj-mt9uh811bqo/releases/rel_20260827004615162_70faf92128/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt9uh811bqo/index.html",
+    "publishedAt": "2026-08-27T00:46:17.411Z",
+    "firstPublishedAt": "2026-08-27T00:46:17.411Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9zjh6gqk6",
     "projectId": "proj-mt9zjh6gqk6",
     "releaseId": "rel_20260827004522308_441eaa3999",

@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827004615162_70faf92128",
+  "projectId": "proj-mt9uh811bqo",
+  "manuscriptVersionId": "mv_103ac5e690d2ff6b",
+  "contentHash": "103ac5e690d2ff6bd81166c3d3550a135deb48541d8fff7eb4ddb6cc6b1bb1d2",
+  "title": "氧气革命",
+  "subtitle": "一种剧毒废气如何三次重塑地球与生命",
+  "authorDisplayName": "李思特Think",
+  "description": "氧气曾是地球上最致命的污染物。二十多亿年前，蓝藻释放的这种剧毒废气引发了行星级的环境灾难，几乎抹杀了当时所有的生命。然而，正是这场大氧化事件为复杂生命的诞生点燃了能量引擎。从条带状铁建造到寒武纪的物种爆发，从石炭纪的巨型昆虫到二叠纪末的窒息灭绝，氧气的每一次涨落都精准对应着生物演化的关键转折。这是一部以氧气曲线为轴心的地球传记，在毒物与燃料的一体两面中，呈现生命改造环境、环境筛选生命的壮阔互构。读懂这条曲线，便读懂了我们呼吸的每一口空气背后，长达数十亿年的生死博弈。",
+  "category": "科普",
+  "tags": [
+    "地球史",
+    "大氧化事件",
+    "古生物学",
+    "演化生物学",
+    "地质学",
+    "科普"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 127531,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T11:58:26.523Z"
+  },
+  "editorReview": {
+    "text": "这本书最让我眼前一亮的，是它对氧气‘毒物与燃料’一体两面的论证，逻辑链条从分子到行星尺度层层推进，始终紧扣‘为什么’，让读者跟着作者的思路走，而不是被信息淹没。特别是对‘氧气允许条件而非直接原因’这类认知框架的提炼，以及用‘憋住呼吸’的体感实验切入，都做到了科学传播中难得的‘先惊讶，再理解’。不过，书中部分章节存在论证段落机械重复的问题，比如第1章关于抗氧化酶基因的论述几乎原文复现，读起来有些出戏。此外，中段一些章节（如第10章植物登陆）信息密度虽高，但叙事张力回落，缺乏一个戏剧性锚点来维持注意力，让阅读体验略有平坡期。整体而言，这是一部洞见密度高、完成度很好的科普作品，若能对重复和节奏进行一轮精修，会更上一层楼。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T00:46:03.920Z",
+    "textless": false,
+    "profileId": "popsci-luminous",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "popsci-luminous"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "一口毒气",
+      "units": 6277
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "铁锈为证",
+      "units": 6822
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "天空的叹息",
+      "units": 6293
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "幸存者的微光",
+      "units": 6868
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "内燃机的诞生",
+      "units": 5925
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "等待多细胞",
+      "units": 6072
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "冰封的地球",
+      "units": 6275
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "深海氧气红线",
+      "units": 6219
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "寒武纪的军备竞赛",
+      "units": 7481
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "绿色登陆之后",
+      "units": 6501
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "石炭纪的巨虫",
+      "units": 6477
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "二叠纪的窒息",
+      "units": 6540
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "行走的低氧陆地",
+      "units": 5655
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "热血的代价",
+      "units": 6298
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "深海记忆库",
+      "units": 5883
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "缺氧的尸体",
+      "units": 6378
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "干预的选择",
+      "units": 5653
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "携氧而行",
+      "units": 6469
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "铁肥的诱惑",
+      "units": 6405
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "氧气的遗嘱",
+      "units": 7040
+    }
+  ],
+  "illustrations": 9,
+  "publishedAt": "2026-08-27T00:46:17.411Z",
+  "formFamily": "explainer"
+}
