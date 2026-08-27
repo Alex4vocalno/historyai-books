@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827062806786_96fdc92178",
+  "projectId": "proj-mtazfxjkqhw",
+  "manuscriptVersionId": "mv_d98bda5c032faab7",
+  "contentHash": "d98bda5c032faab70ceb6e843fb3d5971a57412178a776b0a063dcb7003bda01",
+  "title": "算力如何思考",
+  "subtitle": "芯片、云服务与开源模型重塑世界的四层逻辑",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "当ChatGPT引爆全球惊叹时，一场关于算力的权力重组已在硅片与数据中心间悄然完成。人工智能并非横空出世的黑魔法，而是由芯片底座、云端水电、开源模型与终端应用咬合而成的精密系统。从一张显卡跨越重洋的旅程，到亚马逊AWS按秒计费的超级计算机；从Meta开源模型引发的社区震荡，到沃尔玛等传统巨头在算力账单前的抉择，技术演进的背后是垄断与普惠、黑箱与透明、商业闭环与安全伦理的持续拉锯。拨开代码与参数的迷雾，看清这套协作系统如何定义当下的竞争格局与未来的生存语法。",
+  "category": "科普",
+  "tags": [
+    "人工智能",
+    "算力经济",
+    "芯片产业",
+    "开源生态",
+    "科技商业史",
+    "科普"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 129600,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-27T05:56:01.487Z"
+  },
+  "editorReview": {
+    "text": "这本书最让人眼前一亮的，是它用'算力税'这个核心概念，像剥洋葱一样把AI产业链从芯片、云、开源到应用的四层结构讲得清清楚楚，形成了一个非常扎实的认知骨架。特别是第2章追踪一张显卡的全球旅行，把复杂的供应链讲得像物流故事一样具体可感，是全书叙事最流畅的段落。不过，它也有明显的节奏问题：好几章开头用年份公式冷启动，读起来有点机械；更麻烦的是，有几处章节末尾抛出的问题，下一章开头并没有接上，破坏了阅读的连贯感。另外，最后几章讲量子计算时，技术细节堆得太密，类比链也断了，和前面那种直觉讲解的风格有些脱节。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T06:25:19.260Z",
+    "textless": false,
+    "profileId": "sci-instrument-vintage"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "从ChatGPT在2022年底的爆发切入",
+      "units": 5857
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "一张显卡的全球旅行",
+      "units": 6226
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "以亚马逊AWS的SageMaker服务为入口",
+      "units": 5955
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "以Meta开源LLaMA系列模型为叙事主线",
+      "units": 6261
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "四层结构：一个协作系统的解剖",
+      "units": 6260
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "芯片层的权力游戏",
+      "units": 5961
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "云服务的计费表：按秒租赁超级计算机",
+      "units": 6807
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "以沃尔玛、摩根大通等传统巨头在2022至2024",
+      "units": 6463
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "开源模型的岔路口：从社区玩具到商业武器",
+      "units": 6714
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "协作的代价：开源社区里的隐形等级",
+      "units": 6400
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "开源模型的黑暗面：当任何人都能造出超级工具",
+      "units": 6188
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "是全书的第二个理论收束点",
+      "units": 8490
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "翻译的价值",
+      "units": 6394
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "提示词不是咒语",
+      "units": 5721
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "同质化的陷阱",
+      "units": 5617
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "以2023年发生在美国的两起标志性事件为叙事主线",
+      "units": 7552
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "晶体管的叹息",
+      "units": 6267
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "被忽视的账单",
+      "units": 6218
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "量子悬崖",
+      "units": 6962
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "算力的语法",
+      "units": 7287
+    }
+  ],
+  "publishedAt": "2026-08-27T06:28:06.802Z"
+}
