@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-61c79758933d.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T00:37:55.644Z",
+    "generatedAt": "2026-08-27T07:50:12.147Z",
     "textless": false,
-    "profileId": "bold-symbol-poster",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "bold-symbol-poster"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -173,5 +170,6 @@
   ],
   "illustrations": 10,
   "publishedAt": "2026-08-27T00:38:02.855Z",
-  "formFamily": "explainer"
+  "formFamily": "explainer",
+  "rerenderedAt": "2026-08-27T07:50:12.313Z"
 }
