@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827002742213_80598e3c6b",
+  "projectId": "proj-mta59fex527",
+  "manuscriptVersionId": "mv_08125b3031df93d2",
+  "contentHash": "08125b3031df93d24ff7e1364d3e4683ff5d0e6347aa388b36b893e488de21d9",
+  "title": "龙袍之下：皇帝日常的身体、仪式与野史",
+  "subtitle": "皇帝日常的身体、仪式与野史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "龙袍加身，究竟是至高荣耀还是沉重枷锁？从漏尽更残的早朝到太医院冰冷的脉枕，从御膳房繁琐的规矩到寝宫里难熬的长夜，皇权并非抽象符号，而是由无数具体而微的身体经验堆叠而成。正史档案勾勒出制度规训下的帝王躯壳，野史笔记则填补了那些被刻意抹去的私密碎片与脆弱瞬间。三十个日常切片，以说书人的声口，带人穿过重重宫门，触摸历史褶皱里真实的体温。当仪式褪去光环，龙袍之下，终究是一具会痛、会病、会疲惫的肉身。",
+  "category": "中国史",
+  "tags": [
+    "宫廷生活",
+    "身体史",
+    "物质文化",
+    "野史笔记",
+    "明清史",
+    "历史非虚构"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 252205,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T17:41:10.985Z"
+  },
+  "editorReview": {
+    "text": "本书以「龙体规训」与「野史补身」为双核，将帝王身体从符号还原为肉身，视角颇具原创性。作者在空间、时间、声音等维度展开的论证骨架清晰，尤其第29章对民间视觉生产流程的剖析，将年画作坊的「粉本—套用—微调」与当代表情包文化类比，既有物质文化史的扎实感，又有媒介理论的穿透力。身体细节描写极具感染力，如开篇四岁载湉午门步行的感官刻画，让制度批判获得了肉身化的说服力。不过，章间接缝处存在多处问句钩子未回应，部分章节中段论证密度下降，出现同质化案例铺排而未递进，影响了论证的连续性与阅读节奏。整体而言，这是一部完成度高、叙事流畅的非虚构作品，若经一轮精修，当能更臻完善。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T00:27:02.752Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "宫门一入深似海",
+      "units": 8616
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "漏尽更残说早朝",
+      "units": 7580
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "龙袍的重量",
+      "units": 7373
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "御膳房的秘密",
+      "units": 8213
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "太医院的脉枕",
+      "units": 8502
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "奏折堆里的孤家寡人",
+      "units": 8862
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "寝宫无眠夜",
+      "units": 8180
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "沐浴更衣皆礼法",
+      "units": 9177
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "御马监的缰绳",
+      "units": 9051
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "经筵上的哈欠",
+      "units": 8497
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "宫墙内的病榻",
+      "units": 8063
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "宦官手里的秘密",
+      "units": 8400
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "史官刀下无小事",
+      "units": 8622
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "画中帝王不写真",
+      "units": 7629
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "礼乐声里见皇权",
+      "units": 8089
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "天子案头钤宝印",
+      "units": 8435
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "御制诗里露真身",
+      "units": 8380
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "野史补写的龙身",
+      "units": 8042
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "巡幸天下示君身",
+      "units": 7785
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "老龙难卧御榻寒",
+      "units": 8520
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "龙种落地非等闲",
+      "units": 8192
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "宫娥鬓边藏风云",
+      "units": 8469
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "龙驭上宾终有时",
+      "units": 7446
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "衣冠冢里葬龙魂",
+      "units": 8123
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "制度不死的身体",
+      "units": 8398
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "御物流散百姓家",
+      "units": 8369
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "野火春风说龙事",
+      "units": 9749
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "戏台上的龙袍",
+      "units": 9779
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "纸上龙颜百姓描",
+      "units": 9306
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "龙袍之下是人身",
+      "units": 8358
+    }
+  ],
+  "publishedAt": "2026-08-27T00:27:42.215Z"
+}
