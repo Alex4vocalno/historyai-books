@@ -48,7 +48,7 @@
   function card(r){
     var c=el('div','card');
     var info=el('div','info');
-    info.appendChild(el('div','t',r.title||r.bookId));
+    info.appendChild(el('div','t',r.title||'（书目已下架）'));
     var pct=(r.n&&Number(r.chapter)>=0)?Math.min(100,Math.round((Number(r.chapter)+1)/r.n*100)):null;
     var sub=r.status==='finished'?'已读完 ✓':(r.status==='wishlist'?'想读':('读到 '+(r.chapterTitle||('第'+(Number(r.chapter)+1)+'章'))+(pct!=null?' · '+pct+'%':'')));
     info.appendChild(el('div','s',sub+(r.updatedAt?' · '+String(r.updatedAt).slice(0,10):'')));
