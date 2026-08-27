@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260826133551704_67ed7de6c5",
   "projectId": "proj-mt9rw6covf3",
-  "manuscriptVersionId": "mv_548f174a57ebaabb",
-  "contentHash": "548f174a57ebaabb8941e8b4944569575af4dee3d80afc0e94cd22ae3df7be76",
+  "manuscriptVersionId": "mv_b409dd034f6f5e1d",
+  "contentHash": "b409dd034f6f5e1db8543338cea8c9c8515521f1882e090f9977f24f6cdf43d5",
   "title": "养育的算法",
   "subtitle": "AI时代，如何培养不被算法替代的孩子",
   "authorDisplayName": "李德诺富特斯基",
@@ -33,19 +33,21 @@
     "createdAt": "2026-08-26T12:07:27.486Z"
   },
   "editorReview": {
-    "text": "这本书最打动我的，是它用认知实验的框架，把育儿焦虑从‘我该怎么办’的慌乱，拉回到‘大脑在发生什么’的冷静观察。比如第2章把‘注意残留’实验和孩子写作业看手机的场景无缝对接，让科学原理自己说话，而不是空喊口号。但我也必须指出，它在论证的完整性上存在遗憾——有些章节从实验到家庭案例的跳跃，中间缺了关键的桥梁（如第1章末尾），让说服力打了折扣。更可惜的是，全书在讨论内在动机的关键处戛然而止，像一篇没写完的论文，缺乏一个有力的收束。它是一份真诚的认知地图，但有些路段，路标还没立稳。",
+    "text": "这本书最动人的地方，是它用林知远搭纸桥的困境开篇，把‘高学历低适应’这个抽象概念，瞬间钉进了每个父母的心里。它像一位严谨的向导，将‘注意残留’、‘杏仁核机制’这些认知科学实验，无缝编织进写作业看手机、情绪崩溃的真实育儿现场，做到了真正的‘机制解释’而非简单归因。但这份地图的绘制有些仓促：部分章节的论证链条存在令人遗憾的跳跃，比如从经典实验直接推论到具体案例时，中间的桥梁搭建得不够稳固；而全书在讨论内在动机的关键处戛然而止，缺乏一个有力的收束，让这场‘认知之旅’的终点显得有些模糊。它提供了宝贵的脚手架思路，但读者需要自己补全一些连接的榫卯。",
     "penName": "观澜",
     "title": "科学编辑",
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-f1b51703b26d.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-27T08:04:22.392Z",
     "textless": false,
+    "profileId": "psychology-inner-space",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "psychology-inner-space"
   },
   "chapters": [
     {
@@ -129,7 +131,7 @@
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "会以一个家庭的真实困境开场：父母为孩子精心挑选了",
+      "title": "伪客观的陷阱",
       "units": 6153
     },
     {
@@ -170,6 +172,6 @@
     }
   ],
   "publishedAt": "2026-08-26T13:35:51.712Z",
-  "formFamily": "explainer",
-  "rerenderedAt": "2026-08-27T08:04:22.590Z"
+  "rerenderedAt": "2026-08-27T11:39:37.264Z",
+  "formFamily": "explainer"
 }
