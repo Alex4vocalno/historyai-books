@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827034602359_9a287497d8",
+  "projectId": "proj-mtav0l5x41e",
+  "manuscriptVersionId": "mv_c1ab000da92f027a",
+  "contentHash": "c1ab000da92f027a639a0db5556ded74cde64413a12332779dad52839286ae54",
+  "title": "界面之下",
+  "subtitle": "游戏交互设计的隐秘进化史",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "当血条隐入视野边缘，当震动反馈替代了文字警告，界面便不再是信息的附庸，而是通往虚拟世界的感官义肢。从街机厅里硬币落下的清脆声响，到VR头显中无处安放的视觉锚点，每一次交互方式的更迭，都是技术枷锁与设计野心在方寸屏幕间的无声博弈。本书重返八个关键历史现场，还原设计师在像素、摇杆与触控板之间的艰难取舍。这不仅是一部人机交互的观念微观史，更是对玩家认知与情感如何被精密塑造的深度解剖。在界面之下，看见那些被遗忘的、定义了我们如何“看见”游戏的决定性瞬间。",
+  "category": "游戏史",
+  "tags": [
+    "游戏设计",
+    "交互设计史",
+    "人机交互",
+    "媒介研究",
+    "数字文化",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 130821,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-27T03:44:28.069Z"
+  },
+  "editorReview": {
+    "text": "本书以游戏界面史为线索，串联起从SAGE雷达系统到MMO插件帝国的八个关键现场，论证脉络清晰，对“信息密度与认知契约”这一母题的贯穿尤为扎实。其突出价值在于原创洞见：如将SAGE的视觉搜索与街机UI设计关联，或提出“面罩界面重签认知契约”，均非教科书式综述，而是有独立判断力的分析。多数章节叙事节奏控制得当，能以具体场景锚定抽象论点。不过，书中部分段落存在论证趋平的问题，例如第8章对插件生态的演进，连续数页以相似模式罗列案例，缺少更深入的分析框架来区分其意义层级。此外，个别历史细节的精确断言（如《太空侵略者》分数显示的具体尺寸）若缺乏明确出处，在严谨性上或可商榷。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T03:45:51.976Z",
+    "textless": false,
+    "profileId": "sci-instrument-vintage",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "sci-instrument-vintage"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "屏幕之前的屏幕",
+      "units": 8454
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "硬币落下之后",
+      "units": 8184
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "客厅里的控制台",
+      "units": 9538
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "鼠标带来的新手指",
+      "units": 8702
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "如果一个游戏的目标是让玩家相信自己正站在一个真实",
+      "units": 9038
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "掌中之屏",
+      "units": 8111
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "面罩之下的世界",
+      "units": 10251
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "动作条上的帝国",
+      "units": 7696
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "将这款作品作为高峰阶段的收束案例",
+      "units": 7850
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "手指遮蔽的战场",
+      "units": 8372
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "被设计的欲望",
+      "units": 8625
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "无处安放的HUD",
+      "units": 8330
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "溢出屏幕的语法",
+      "units": 9642
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "身体记得的界面",
+      "units": 9413
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "博弈之后的尺度",
+      "units": 8615
+    }
+  ],
+  "publishedAt": "2026-08-27T03:46:02.377Z",
+  "formFamily": "narrative"
+}
