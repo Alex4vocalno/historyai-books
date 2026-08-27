@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9zjh6gqk6",
+    "projectId": "proj-mt9zjh6gqk6",
+    "releaseId": "rel_20260827004522308_441eaa3999",
+    "title": "证道",
+    "subtitle": "王阳明思想生成的生命现场",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "中国史",
+    "tags": [
+      "王阳明",
+      "阳明心学",
+      "明代思想史",
+      "传习录",
+      "知行合一",
+      "中国史"
+    ],
+    "description": "龙场石椁中的生死彻悟，南赣剿匪时的血火淬炼，鄱阳湖上的运筹帷幄，天泉桥畔的深夜辩难。阳明心学并非书斋里推演出的先验体系，而是王阳明在贬谪、战乱与政治倾轧中应对现实危机的行动产物。本书重返十四个关键历史现场，将《传习录》等文本还原为具体时空下的生命记录。剥离后世叠加的圣贤光环与教条阐释，在言说与身体经验的错位中，呈现一套学说如何在绝境中被锻造、修正乃至自我颠覆的真实历程。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-08-27T00:40:06.500Z"
+    },
+    "coverUrl": "books/proj-mt9zjh6gqk6/releases/rel_20260827004522308_441eaa3999/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9zjh6gqk6/index.html",
+    "publishedAt": "2026-08-27T00:45:22.312Z",
+    "firstPublishedAt": "2026-08-27T00:45:22.312Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9uh2v1kf0",
     "projectId": "proj-mt9uh2v1kf0",
     "releaseId": "rel_20260827004450231_999b2f7f4d",

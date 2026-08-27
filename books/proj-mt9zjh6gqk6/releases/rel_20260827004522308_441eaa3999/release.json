@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827004522308_441eaa3999",
+  "projectId": "proj-mt9zjh6gqk6",
+  "manuscriptVersionId": "mv_dbfd2e7799ae8f28",
+  "contentHash": "dbfd2e7799ae8f285f2a9b6ad9eeea1338d8c960e72972496a5e3f50187528f9",
+  "title": "证道",
+  "subtitle": "王阳明思想生成的生命现场",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "龙场石椁中的生死彻悟，南赣剿匪时的血火淬炼，鄱阳湖上的运筹帷幄，天泉桥畔的深夜辩难。阳明心学并非书斋里推演出的先验体系，而是王阳明在贬谪、战乱与政治倾轧中应对现实危机的行动产物。本书重返十四个关键历史现场，将《传习录》等文本还原为具体时空下的生命记录。剥离后世叠加的圣贤光环与教条阐释，在言说与身体经验的错位中，呈现一套学说如何在绝境中被锻造、修正乃至自我颠覆的真实历程。",
+  "category": "中国史",
+  "tags": [
+    "王阳明",
+    "阳明心学",
+    "明代思想史",
+    "传习录",
+    "知行合一",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 252807,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-08-27T00:40:06.500Z"
+  },
+  "editorReview": {
+    "text": "本书最见功力处，在于将王阳明心学从哲学概念还原为历史行动。作者以十四个关键现场为锚点，论证了格竹的身体验证、龙场的绝境断裂、致良知的政治压力测试如何层层锻造出一套学说，尤其第15章对《传习录》从口传到书传中语境剥离的剖析，以及第29章将幕末日本对阳明学的政治挪用与梁启超回传编织成的跨文化叙事，都展现了将观念嵌入具体处境生成的罕见洞察力。全书结构清晰，主动设置并拆解‘心学具先验一致性’这一反方立场，论证扎实。略有遗憾的是，部分章节衔接处存在叙事流断裂（如第3至4章、第8至9章的实体零回指），以及若干模糊史料表述（如‘地方志记载’‘零散家书’）未绑定可核出处，在学术评传体裁中稍损论证链条的严密性。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T00:40:50.979Z",
+    "textless": false,
+    "profileId": "sci-instrument-vintage"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "何谓第一等事",
+      "units": 8232
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "庭前格竹",
+      "units": 8400
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "词章场中误",
+      "units": 9409
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "阳明洞中别二氏",
+      "units": 7613
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "诏狱折腰处",
+      "units": 8394
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "投荒涉险路",
+      "units": 8280
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "龙场石椁悟死生",
+      "units": 8370
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "王阳明在贵阳文明书院始论“知行合一”的记载论断这",
+      "units": 9652
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "事上磨练非空谈",
+      "units": 8127
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "南赣破山中贼",
+      "units": 8607
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "鄱阳湖上擒叛藩",
+      "units": 7885
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "忠泰之变见良知",
+      "units": 8923
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "刻书留与后人看",
+      "units": 7901
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "徐爱录中存真义",
+      "units": 11439
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "语录成经即为难",
+      "units": 8397
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "大礼议起道与政",
+      "units": 8362
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "稽山书院聚千徒",
+      "units": 8366
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "天泉桥上分两脉",
+      "units": 8399
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "书院连缀成江山",
+      "units": 8390
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "乡约落地皆心印",
+      "units": 8144
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "商贾座中问良知",
+      "units": 7547
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "一纸告谕定人心",
+      "units": 8280
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "庙堂欲收亦欲毁",
+      "units": 8397
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "歌谣深处道已成",
+      "units": 8229
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "死后的第一场争辩",
+      "units": 8364
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "禁学令下的变形记",
+      "units": 7859
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "泰州门下起狂澜",
+      "units": 8028
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "晚明清流与狂禅之辨",
+      "units": 8323
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "幕末志士手中刀",
+      "units": 8132
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "断流处的现代回响",
+      "units": 8358
+    }
+  ],
+  "publishedAt": "2026-08-27T00:45:22.312Z"
+}
