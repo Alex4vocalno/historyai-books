@@ -39,15 +39,13 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-d0947c89450a.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T00:46:03.920Z",
+    "generatedAt": "2026-08-27T02:19:58.561Z",
     "textless": false,
-    "profileId": "popsci-luminous",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "popsci-luminous"
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -173,5 +171,6 @@
   ],
   "illustrations": 9,
   "publishedAt": "2026-08-27T00:46:17.411Z",
-  "formFamily": "explainer"
+  "formFamily": "explainer",
+  "rerenderedAt": "2026-08-27T02:19:58.707Z"
 }
