@@ -39,15 +39,13 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-f33039edab16.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-26T08:34:52.761Z",
+    "generatedAt": "2026-08-27T08:31:24.357Z",
     "textless": false,
-    "profileId": "silk-mineral-pigment",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "silk-mineral-pigment"
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -202,5 +200,5 @@
     }
   ],
   "publishedAt": "2026-08-25T12:35:09.148Z",
-  "rerenderedAt": "2026-08-26T08:49:18.513Z"
+  "rerenderedAt": "2026-08-27T08:31:24.597Z"
 }
