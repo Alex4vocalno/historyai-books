@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-3b50f7bc1fd3.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-27T07:39:49.275Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "method-clean-grid"
   },
   "chapters": [
     {
@@ -151,5 +151,5 @@
     }
   ],
   "publishedAt": "2026-08-26T12:04:21.350Z",
-  "rerenderedAt": "2026-08-27T07:39:49.419Z"
+  "rerenderedAt": "2026-08-27T08:45:12.050Z"
 }

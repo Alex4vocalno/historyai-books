@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9pevidtyq",
+    "projectId": "proj-mt9pevidtyq",
+    "releaseId": "rel_20260826120421342_aee6227df6",
+    "title": "慢决定",
+    "subtitle": "为什么致命错误总来自决策太快",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "商业管理",
+    "tags": [
+      "组织决策",
+      "商业史",
+      "管理科学",
+      "决策框架",
+      "企业战略",
+      "商业管理"
+    ],
+    "description": "商业世界崇拜果断，但复盘那些灾难性的并购、产品溃败与战略误判，罪魁祸首往往不是犹豫，而是过快的拍板。直觉的暗账与群体的加速机制，常让组织在欢呼中滑向深渊。真正的决策质量不靠天赋，而是一套可训练的减速框架：识别可逆性、拉开选项、前置异议、写下预判再回看。慢并非低效，而是把速度精准分配给对的层级。从企业战略到日常取舍，这套方法用真实失败案例验证了结构化流程如何挡住大多数本可避免的错误，让组织在喧嚣中重获清醒的判断力。",
+    "chapterCount": 17,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T12:01:42.309Z"
+    },
+    "coverUrl": "books/proj-mt9pevidtyq/releases/rel_20260826120421342_aee6227df6/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9pevidtyq/index.html",
+    "publishedAt": "2026-08-26T12:04:21.350Z",
+    "firstPublishedAt": "2026-08-26T12:04:21.350Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtayk3u6ky5",
     "projectId": "proj-mtayk3u6ky5",
     "releaseId": "rel_20260827084017896_34d5b97fe6",
@@ -303,40 +337,6 @@
     "url": "books/proj-mt88alit2bj/index.html",
     "publishedAt": "2026-08-27T02:16:54.366Z",
     "firstPublishedAt": "2026-08-27T02:16:38.870Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9pevidtyq",
-    "projectId": "proj-mt9pevidtyq",
-    "releaseId": "rel_20260826120421342_aee6227df6",
-    "title": "慢决定",
-    "subtitle": "为什么致命错误总来自决策太快",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "商业管理",
-    "tags": [
-      "组织决策",
-      "商业史",
-      "管理科学",
-      "决策框架",
-      "企业战略",
-      "商业管理"
-    ],
-    "description": "商业世界崇拜果断，但复盘那些灾难性的并购、产品溃败与战略误判，罪魁祸首往往不是犹豫，而是过快的拍板。直觉的暗账与群体的加速机制，常让组织在欢呼中滑向深渊。真正的决策质量不靠天赋，而是一套可训练的减速框架：识别可逆性、拉开选项、前置异议、写下预判再回看。慢并非低效，而是把速度精准分配给对的层级。从企业战略到日常取舍，这套方法用真实失败案例验证了结构化流程如何挡住大多数本可避免的错误，让组织在喧嚣中重获清醒的判断力。",
-    "chapterCount": 17,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 85,
-      "method": "median-of-1",
-      "createdAt": "2026-08-26T12:01:42.309Z"
-    },
-    "coverUrl": "books/proj-mt9pevidtyq/releases/rel_20260826120421342_aee6227df6/cover-3b50f7bc1fd3.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt9pevidtyq/index.html",
-    "publishedAt": "2026-08-26T12:04:21.350Z",
-    "firstPublishedAt": "2026-08-26T12:04:21.350Z",
     "visibility": "public"
   },
   {
