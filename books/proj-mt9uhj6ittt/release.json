@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827005250710_c064223258",
+  "projectId": "proj-mt9uhj6ittt",
+  "manuscriptVersionId": "mv_2a579ef2a449b444",
+  "contentHash": "2a579ef2a449b4443e2a079f33dcae8def95af3dbdb4c200e2efbbe20e095015",
+  "title": "谁替糖说了话",
+  "subtitle": "糖业资助、科学共识与半个世纪的膳食迷局",
+  "authorDisplayName": "李思特Think",
+  "description": "当心脏病成为世纪杀手，营养科学的聚光灯为何死死锁定脂肪，却让糖在阴影中安然度过半个世纪？这并非单纯的数据造假，而是一场精密的议程设置。从1967年哈佛综述背后的资金往来，到膳食指南听证会上的缺席者，解密档案还原了产业资助如何挑选研究者、塑造审稿标准并引导媒体叙事。这不是关于个人饮食的处方，而是一份基于确凿证据的调查实录，呈现科学不确定性与公共政策拍板之间的结构性张力，以及注意力转移留给当代的沉重遗产。",
+  "category": "中国史",
+  "tags": [
+    "营养科学史",
+    "调查纪实",
+    "公共卫生政策",
+    "糖业档案",
+    "科学社会学",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 17,
+    "units": 115579,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 87,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T11:44:57.773Z"
+  },
+  "editorReview": {
+    "text": "这部调查纪实最令人信服的，是它如何将糖业史从一个孤立的食品丑闻，锻造成一套可被清晰辨识的产业影响范式。书中对1967年哈佛综述背后资金链的还原，以及第8章通过听证会‘问题提纲’这一微观制度设计，揭示糖假说被系统性排除并非阴谋而是机制运作的结果，论证技巧堪称典范。作者在尾章将‘议程捕获闭环’迁移到抗衰老与气候变化议题的尝试，也赋予了全书超越个案的理论视野。不过，部分章节存在以年份起笔的模式化开头，以及后半程若干段落偏向框架性概述，使得叙事密度与前半部档案级的细密考证相比略有落差，阅读节奏因此偶有割裂。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T00:51:05.481Z",
+    "textless": false,
+    "profileId": "serious-history-editorial",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "糖的世纪黎明",
+      "units": 6687
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "心脏病的谜面",
+      "units": 6904
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "脂肪假说的上升",
+      "units": 5864
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "另一种声音",
+      "units": 5947
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "糖业研究基金会的算盘",
+      "units": 10216
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "哈佛综述的诞生",
+      "units": 6472
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "综述的旅行",
+      "units": 6292
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "听证会上的缺席者",
+      "units": 5652
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "目标之争",
+      "units": 7211
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "指南的妥协",
+      "units": 7118
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "低脂时代的代价",
+      "units": 7512
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "被推迟的清算",
+      "units": 6187
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "糖业的反击",
+      "units": 6292
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "糖假说的合法化困境",
+      "units": 8393
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "标签战争",
+      "units": 6267
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "糖税的政治解剖",
+      "units": 5771
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "注意力转移的遗产",
+      "units": 6794
+    }
+  ],
+  "illustrations": 5,
+  "publishedAt": "2026-08-27T00:52:50.730Z",
+  "formFamily": "narrative"
+}
