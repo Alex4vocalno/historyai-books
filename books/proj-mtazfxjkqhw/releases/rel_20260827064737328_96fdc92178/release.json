@@ -39,12 +39,13 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-06f6868719b8.jpg",
+    "file": "cover-07ca81058703.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T07:06:03.001Z",
-    "textless": true,
-    "sourceTextless": false
+    "generatedAt": "2026-08-27T07:23:15.590Z",
+    "textless": false,
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -169,5 +170,5 @@
     }
   ],
   "publishedAt": "2026-08-27T06:47:37.363Z",
-  "rerenderedAt": "2026-08-27T07:06:03.155Z"
+  "rerenderedAt": "2026-08-27T07:23:15.748Z"
 }
