@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtazfxjkqhw",
+    "projectId": "proj-mtazfxjkqhw",
+    "releaseId": "rel_20260827114948552_7e03f33ddc",
+    "title": "算力如何思考",
+    "subtitle": "芯片、云服务与开源模型重塑世界的四层逻辑",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "科普",
+    "tags": [
+      "人工智能",
+      "算力经济",
+      "芯片产业",
+      "开源生态",
+      "科技商业史",
+      "科普"
+    ],
+    "description": "当ChatGPT引爆全球惊叹时，一场关于算力的权力重组已在硅片与数据中心间悄然完成。人工智能并非横空出世的黑魔法，而是由芯片底座、云端水电、开源模型与终端应用咬合而成的精密系统。从一张显卡跨越重洋的旅程，到亚马逊AWS按秒计费的超级计算机；从Meta开源模型引发的社区震荡，到沃尔玛等传统巨头在算力账单前的抉择，技术演进的背后是垄断与普惠、黑箱与透明、商业闭环与安全伦理的持续拉锯。拨开代码与参数的迷雾，看清这套协作系统如何定义当下的竞争格局与未来的生存语法。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-1",
+      "createdAt": "2026-08-27T05:56:01.487Z"
+    },
+    "coverUrl": "books/proj-mtazfxjkqhw/releases/rel_20260827114948552_7e03f33ddc/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtazfxjkqhw/index.html",
+    "publishedAt": "2026-08-27T11:49:48.558Z",
+    "firstPublishedAt": "2026-08-27T06:28:06.802Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt0syidl9gp",
     "projectId": "proj-mt0syidl9gp",
     "releaseId": "rel_20260821054121333_be64f07c44",
@@ -302,40 +336,6 @@
     "url": "books/proj-mtax487mv1x/index.html",
     "publishedAt": "2026-08-27T06:52:15.307Z",
     "firstPublishedAt": "2026-08-27T06:52:15.307Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtazfxjkqhw",
-    "projectId": "proj-mtazfxjkqhw",
-    "releaseId": "rel_20260827064737328_96fdc92178",
-    "title": "算力如何思考",
-    "subtitle": "芯片、云服务与开源模型重塑世界的四层逻辑",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李德诺富特斯基",
-    "category": "科普",
-    "tags": [
-      "人工智能",
-      "算力经济",
-      "芯片产业",
-      "开源生态",
-      "科技商业史",
-      "科普"
-    ],
-    "description": "当ChatGPT引爆全球惊叹时，一场关于算力的权力重组已在硅片与数据中心间悄然完成。人工智能并非横空出世的黑魔法，而是由芯片底座、云端水电、开源模型与终端应用咬合而成的精密系统。从一张显卡跨越重洋的旅程，到亚马逊AWS按秒计费的超级计算机；从Meta开源模型引发的社区震荡，到沃尔玛等传统巨头在算力账单前的抉择，技术演进的背后是垄断与普惠、黑箱与透明、商业闭环与安全伦理的持续拉锯。拨开代码与参数的迷雾，看清这套协作系统如何定义当下的竞争格局与未来的生存语法。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-1",
-      "createdAt": "2026-08-27T05:56:01.487Z"
-    },
-    "coverUrl": "books/proj-mtazfxjkqhw/releases/rel_20260827064737328_96fdc92178/cover-07ca81058703.svg",
-    "coverTextless": false,
-    "url": "books/proj-mtazfxjkqhw/index.html",
-    "publishedAt": "2026-08-27T06:47:37.363Z",
-    "firstPublishedAt": "2026-08-27T06:28:06.802Z",
     "visibility": "public"
   },
   {
