@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827021638861_d3d8b50ab6",
+  "projectId": "proj-mt88alit2bj",
+  "manuscriptVersionId": "mv_3de930bc32be5dc8",
+  "contentHash": "3de930bc32be5dc821e03e4a06bd5ac13dd037a538f8631f000f661d3aed99a8",
+  "title": "暗线：隐蔽战线的百年演进",
+  "subtitle": "",
+  "authorDisplayName": "半两先生",
+  "description": "1927年清党之夜，中共地下组织被推入绝境。顾顺章叛变几乎摧毁整个中央特科，却意外催生出单线联系的铁律——从此，一个情报员只认识自己的上下线，酷刑之下也供不出第二个人。钱壮飞在徐恩曾的机要台前截获六封密电，李克农坐镇上海无线电管理局，胡底潜入天津情报站，三人构成嵌入国民党神经中枢的“龙潭三杰”。他们传递的不是情报，是时间差。但秘密工作的逻辑一旦进入明面统治，便成了反噬自身的刀刃。潘汉年案牵连千人，十六字方针将刺探方向从外向内翻转，直到俞强声叛逃华盛顿，整个系统才被迫直面一个根本困境：一个为革命而生的隐蔽机器，如何在革命胜利后不被自己的逻辑吞噬？本书以六重史料互证——中共内部文献、苏联解密档案、军统亲历者回忆、中统头目自述、CIA分析报告——还原一条跨越百年的暗线，不写传奇，只写制度如何在血泊中迭代。",
+  "category": "中国史",
+  "tags": [
+    "隐蔽战线",
+    "中央特科",
+    "龙潭三杰",
+    "潘汉年案",
+    "情报制度",
+    "国安部"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 161579,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T07:56:34.596Z"
+  },
+  "editorReview": {
+    "text": "这本书最难得的地方，是它没有把隐蔽战线写成一部传奇英雄谱，而是始终追问一个制度性问题：秘密工作的逻辑一旦进入明面统治，会怎样反噬自身？从单线联系的双重功能——既防叛徒，又便于嵌入——到技术监控作为“第三种方案”的提出，论证骨架立得很稳。作者善于从交通员老周这类具体案例切入，再自然上升到制度分析，史料运用克制，不靠猎奇撑场面。保留意见在于部分章节文风问题明显，抽象密度偏高，句式重复处读起来有滞涩感；个别章节接缝处时间回溯缺少标记，叙事连贯性打了折扣。但整体上，这是一部有史学问题意识的专题史，值得认真对待。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-26T07:07:14.778Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "清党逼出的地下状态",
+      "units": 8356
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "中央特科的制度创生",
+      "units": 8375
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "叛变压力下的单线化",
+      "units": 9297
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "城市退却与重心转移",
+      "units": 8684
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "白区工作的本地化改造",
+      "units": 8364
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "抗日统一战线中的双重身份",
+      "units": 8361
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "整风审查下的秘密干部",
+      "units": 11393
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "锄奸保卫与战略情报",
+      "units": 8186
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "情报优势的制度底座",
+      "units": 8148
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "城市地下党的第二条战线",
+      "units": 7793
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "秘密机构的国家化转型",
+      "units": 8304
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "秘密逻辑撞上明面统治",
+      "units": 8619
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "潘汉年案的制度回响",
+      "units": 8139
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "十六字方针下的对外转向",
+      "units": 8060
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "运动吞噬的秘密机器",
+      "units": 8181
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "重建窗口中的技术路线",
+      "units": 7797
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "国安部的整合时刻",
+      "units": 9434
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "叛逃冲击与未竟转型",
+      "units": 8735
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "技术监控下的体制闭环",
+      "units": 7353
+    }
+  ],
+  "illustrations": 8,
+  "publishedAt": "2026-08-27T02:16:38.870Z",
+  "formFamily": "narrative"
+}
