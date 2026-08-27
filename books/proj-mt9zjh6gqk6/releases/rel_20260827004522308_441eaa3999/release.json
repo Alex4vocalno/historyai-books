@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-b4451fbdb54e.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T00:40:50.979Z",
+    "generatedAt": "2026-08-27T04:09:25.283Z",
     "textless": false,
-    "profileId": "sci-instrument-vintage"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -228,5 +228,6 @@
       "units": 8358
     }
   ],
-  "publishedAt": "2026-08-27T00:45:22.312Z"
+  "publishedAt": "2026-08-27T00:45:22.312Z",
+  "rerenderedAt": "2026-08-27T04:09:27.341Z"
 }
