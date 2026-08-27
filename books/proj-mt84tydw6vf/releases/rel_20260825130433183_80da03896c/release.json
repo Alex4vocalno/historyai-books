@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260825130433183_80da03896c",
   "projectId": "proj-mt84tydw6vf",
-  "manuscriptVersionId": "mv_a387298ce4c3dad0",
-  "contentHash": "a387298ce4c3dad0daed9a8108ed967dd204b3cffe819440c9b404a5da2607ac",
+  "manuscriptVersionId": "mv_df5cbe189d173247",
+  "contentHash": "df5cbe189d1732478a967ba230d90994ad96a7b35c7bcc37bf805c800252577d",
   "title": "无贵之族：中国贵族制度的诞生与消亡",
   "subtitle": "从西周封建到科举社会，一部贵族制度消亡的结构史",
   "authorDisplayName": "心安处是故乡",
@@ -33,19 +33,21 @@
     "createdAt": "2026-08-25T11:31:26.958Z"
   },
   "editorReview": {
-    "text": "一部论证密度很高的制度史著作，最难得的是把“中国为何彻底告别贵族”这个老问题讲出了新骨架。作者没有停留在人事兴替的层面，而是从商鞅军功爵对血缘身份的拆解、九品中正制被皇权收编的内在逻辑，一路推到唐宋之际土地赋税与选官机制如何合力绞杀世族再生产的空间，主线清晰，层层咬合。比较视野尤其出彩，与欧洲封建契约、日本庄园制的对照让中国路径的特殊性真正立了起来。稍显不足的是，部分章节抽象术语堆叠偏密，像“法权”“身份再生产”反复出现却缺少具体例证缓冲，读到中段容易疲劳；个别论证衔接也有跳跃，比如从豪强庄园直接跨到九品中正制，中间缺了一段过渡性的制度逻辑说明。整体是扎实的专题史写法，适合愿意跟着作者啃制度逻辑的读者。",
+    "text": "本书最难得处，是始终咬住一条主线不放：从周初封建的“可收编性”开始，到皇权、战争、赋税与选官四重力量如何层层绞杀血缘特权，论证骨架从头贯穿到尾，逻辑自洽。比较视野尤其有解释力，与欧洲封建契约、日本庄园制、朝鲜两班的对照，让中国路径的特殊性真正落地，避免了单一文明叙事的空泛。第1章对“封建”本义的辨析、第2章从“爵”的器物化切入制度逻辑，都是史料与概念提炼结合得漂亮的例子。需要提醒读者的是，部分章节抽象术语密度偏高，“法权”“身份再生产”等词汇反复出现，缺乏具体例证缓冲，读起来会有疲劳感；个别地方从豪强庄园直接跳至九品中正制，中间缺少对东汉选官危机与庄园经济关系的过渡性交代，逻辑链需要读者自行补足。整体是一部论证密度与洞见都够硬的专题史，适合愿意沉下心啃制度逻辑的读者。",
     "penName": "砚北",
     "title": "历史社科编辑",
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-94f19a202208.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-27T08:35:06.528Z",
     "textless": false,
+    "profileId": "serious-history-editorial",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -57,7 +59,7 @@
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "推进的核心判断是：礼制是贵族制度最复杂的自我再生",
+      "title": "礼制铠甲：贵族等级的物质化自我再生",
       "units": 7736
     },
     {
@@ -230,5 +232,5 @@
     }
   ],
   "publishedAt": "2026-08-25T13:04:33.189Z",
-  "rerenderedAt": "2026-08-27T08:35:06.801Z"
+  "rerenderedAt": "2026-08-27T11:40:19.049Z"
 }
