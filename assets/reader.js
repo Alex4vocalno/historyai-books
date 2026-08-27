@@ -112,7 +112,7 @@
   var titles = Array.isArray(data.chapterTitles) ? data.chapterTitles : [];
   var chapterLabel = data.lang === 'en' ? 'Chapter ' + (Number(data.chapter) + 1) : '第 ' + (Number(data.chapter) + 1) + ' 章';
   // v4.91 阅读器外壳英文（按书语言）：中文串零改动，EN 书渲染前过词表
-  var SHELL_EN = [[' · 当前第 ',' · reading ch. '],['返回书库','Back to library'],['书库','Library'],['目录','Contents'],['阅读设置','Reading settings'],['翻页','Paging'],['滚动','Scroll'],['主题','Theme'],['纸张','Paper'],['白色','White'],['夜间','Night'],['字号','Font size'],['字体','Typeface'],['衬线','Serif'],['黑体','Sans'],['行距','Leading'],['紧凑','Tight'],['舒适','Cozy'],['宽松','Loose'],['版心','Width'],['窄','Narrow'],['中','Medium'],['宽','Wide'],['上一章','Previous'],['下一章','Next chapter'],[' 章',' chapters'],[' 页',' pages'],['设置','Settings']];
+  var SHELL_EN = [[' · 当前第 ',' · reading ch. '],['返回书库','Back to library'],['书库','Library'],['目录','Contents'],['阅读设置','Reading settings'],['翻页','Paging'],['滚动','Scroll'],['主题','Theme'],['纸色','Paper color'],['纸张','Paper'],['白色','White'],['羊皮纸','Sepia'],['护眼绿','Green'],['夜间','Night'],['字号','Font size'],['字体','Typeface'],['衬线','Serif'],['宋体','Serif'],['楷体','Kai'],['黑体','Sans'],['行距','Leading'],['紧凑','Tight'],['舒适','Cozy'],['宽松','Loose'],['版心','Width'],['窄','Narrow'],['中','Medium'],['宽','Wide'],['上一章','Previous'],['下一章','Next chapter'],[' 章',' chapters'],[' 页',' pages'],['设置','Settings']];
   function loc(html) {
     if (data.lang !== 'en') return html;
     var out = String(html);
@@ -149,9 +149,15 @@
 
   var settings = h('section', 'settings', loc('<strong>阅读设置</strong>'
     + '<div class="setting-row"><label>翻页</label><div class="segments"><button type="button" data-setting="mode" data-value="page">翻页</button><button type="button" data-setting="mode" data-value="scroll">滚动</button></div></div>'
-    + '<div class="setting-row"><label>主题</label><div class="segments"><button type="button" data-setting="theme" data-value="paper">纸张</button><button type="button" data-setting="theme" data-value="white">白色</button><button type="button" data-setting="theme" data-value="night">夜间</button></div></div>'
+    + '<div class="setting-row"><label>纸色</label><div class="swatches">'
+    + '<button type="button" class="swatch" data-setting="theme" data-value="paper" title="纸张" aria-label="纸张" style="background:#f4f1e8"></button>'
+    + '<button type="button" class="swatch" data-setting="theme" data-value="white" title="白色" aria-label="白色" style="background:#ffffff"></button>'
+    + '<button type="button" class="swatch" data-setting="theme" data-value="sepia" title="羊皮纸" aria-label="羊皮纸" style="background:#eee1c6"></button>'
+    + '<button type="button" class="swatch" data-setting="theme" data-value="green" title="护眼绿" aria-label="护眼绿" style="background:#d6e4d6"></button>'
+    + '<button type="button" class="swatch" data-setting="theme" data-value="night" title="夜间" aria-label="夜间" style="background:#202527"></button>'
+    + '</div></div>'
     + '<div class="setting-row"><label>字号</label><div class="stepper"><button type="button" data-font-step="-1">−</button><span data-font-value>18 px</span><button type="button" data-font-step="1">＋</button></div></div>'
-    + '<div class="setting-row"><label>字体</label><div class="segments"><button type="button" data-setting="face" data-value="serif">衬线</button><button type="button" data-setting="face" data-value="sans">黑体</button></div></div>'
+    + '<div class="setting-row"><label>字体</label><div class="segments"><button type="button" data-setting="face" data-value="serif">宋体</button><button type="button" data-setting="face" data-value="kai">楷体</button><button type="button" data-setting="face" data-value="sans">黑体</button></div></div>'
     + '<div class="setting-row"><label>行距</label><div class="segments"><button type="button" data-setting="leading" data-value="1.75">紧凑</button><button type="button" data-setting="leading" data-value="2">舒适</button><button type="button" data-setting="leading" data-value="2.2">宽松</button></div></div>'
     + '<div class="setting-row"><label>版心</label><div class="segments"><button type="button" data-setting="width" data-value="680">窄</button><button type="button" data-setting="width" data-value="760">中</button><button type="button" data-setting="width" data-value="860">宽</button></div></div>'));
   settings.hidden = true;
@@ -229,19 +235,21 @@
 
   // ---- 阅读行为：翻页排版 / 设置 / 进度记忆 ----
   var key = 'historyai.reader.' + data.bookId;
-  var state = { theme: 'paper', font: 18, leading: 2, width: 760, mode: 'page', chapter: 0, page: 0, href: '' };
-  try { state = Object.assign(state, JSON.parse(localStorage.getItem(key) || '{}')); } catch (e) { /* 首次阅读 */ }
+  var PREF_KEY = 'historyai.reader.settings';
+  // v5.40 外观全局化（用户实弹：每次点阅读默认夜间）：外观（纸色/字体/字号/
+  // 行距/版心/翻页）存全站 key，一次设定所有书生效；书级 key 只存进度。
+  // 缺省一律纸张——不再跟随系统深色模式（v4.86 跟随逻辑就是夜间病灶）。
+  var state = { theme: 'paper', face: 'serif', font: 18, leading: 2, width: 760, mode: 'page', chapter: 0, page: 0, href: '' };
+  try { state = Object.assign(state, JSON.parse(localStorage.getItem(PREF_KEY) || '{}')); } catch (e) { /* 首次阅读 */ }
+  try {
+    var prog0 = JSON.parse(localStorage.getItem(key) || '{}');
+    // 老账迁移：手选过主题的读者把书级外观带进全站偏好（仅当全站偏好还没建立）
+    if (prog0.themeChosen && !localStorage.getItem(PREF_KEY)) {
+      ['theme', 'face', 'font', 'leading', 'width', 'mode'].forEach(function (k0) { if (prog0[k0] !== undefined) state[k0] = prog0[k0]; });
+    }
+    state.chapter = prog0.chapter || 0; state.page = prog0.page || 0; state.href = prog0.href || '';
+  } catch (e) { /* 首次阅读 */ }
   if (state.mode !== 'scroll') state.mode = 'page';
-  // v4.86 系统夜间模式：用户从未手选主题时跟随系统配色，且随系统切换实时变
-  var mqDark = window.matchMedia && matchMedia('(prefers-color-scheme: dark)');
-  if (!state.themeChosen && mqDark) {
-    state.theme = mqDark.matches ? 'night' : 'paper';
-    if (mqDark.addEventListener) mqDark.addEventListener('change', function (ev2) {
-      if (state.themeChosen) return;
-      state.theme = ev2.matches ? 'night' : 'paper';
-      apply();
-    });
-  }
   var flow = document.querySelector('.flow-inner');
   var paper = document.querySelector('.reader-paper');
   var flowBox = document.querySelector('.paper-flow');
@@ -249,7 +257,11 @@
   var prevHref = Number(data.chapter) > 0 ? chapterHref(Number(data.chapter) - 1) : '';
   var nextHref = Number(data.chapter) + 1 < titles.length ? chapterHref(Number(data.chapter) + 1) : '';
 
-  function save() { try { localStorage.setItem(key, JSON.stringify(state)); } catch (e) { /* 隐私模式 */ } cloudPush(); }
+  function save() {
+    try { localStorage.setItem(PREF_KEY, JSON.stringify({ theme: state.theme, face: state.face, font: state.font, leading: state.leading, width: state.width, mode: state.mode })); } catch (e) { /* 隐私模式 */ }
+    try { localStorage.setItem(key, JSON.stringify({ chapter: state.chapter, page: state.page, href: state.href, chapterTitle: state.chapterTitle, updatedAt: state.updatedAt })); } catch (e) { /* 隐私模式 */ }
+    cloudPush();
+  }
   // v4.87 进度云同步：登录读者换设备不丢书。探测一次身份，匿名整体跳过；
   // 写云节流 5s；云端进度更新且指向别章时静默接续（每书每会话只跳一次）。
   var cloudOn = false, cloudTimer = null;
@@ -372,7 +384,7 @@
   })();
   function apply() {
     root.dataset.theme = state.theme;
-    root.dataset.face = state.face === 'sans' ? 'sans' : 'serif';
+    root.dataset.face = state.face === 'sans' ? 'sans' : state.face === 'kai' ? 'kai' : 'serif';
     root.style.setProperty('--reader-font', state.font + 'px');
     root.style.setProperty('--reader-leading', state.leading);
     root.style.setProperty('--reader-width', state.width + 'px');
@@ -427,7 +439,6 @@
     b.addEventListener('click', function () {
       var name = b.dataset.setting, value = b.dataset.value;
       state[name] = (name === 'width' || name === 'leading') ? Number(value) : value;
-      if (name === 'theme') state.themeChosen = true; // 手选后不再跟随系统
       save(); apply(); layout(true);
     });
   });
