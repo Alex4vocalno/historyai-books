@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827084017896_34d5b97fe6",
+  "projectId": "proj-mtayk3u6ky5",
+  "manuscriptVersionId": "mv_c740b196f9a91556",
+  "contentHash": "c740b196f9a91556e38aebbf91720f085af212967960eb981006647ac4e22dc9",
+  "title": "认知的茧",
+  "subtitle": "理解那些无法被说服的人生",
+  "authorDisplayName": "心安处是故乡",
+  "description": "面对至亲的善意与更优解，为何有人仍固守在外人看来荒诞甚至自毁的认知模式？这并非单纯的固执或非理性，而是早年生存环境刻下的适应性图式。那些曾护佑个体度过匮乏与创伤的心理机制，在环境变迁后化作坚硬的茧房。本书深入中国本土真实案例，从底层劳工到老年信徒，追溯认知形成的源头。不提供沟通技巧或道德评判，而是以发展心理学与认知科学为镜，照见信念系统如何过滤证据、代际苦难如何传递。理解“为什么”，是松动认知壁垒、与差异共存的起点。",
+  "category": "心理认知",
+  "tags": [
+    "认知科学",
+    "发展心理学",
+    "代际关系",
+    "本土案例",
+    "心理科普",
+    "心理认知"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 130547,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-08-27T08:40:03.152Z"
+  },
+  "editorReview": {
+    "text": "这本书最打动我的，是它真正做到了'机制解释'而非'道德评判'——它没有停留在'人为什么会固执'的表面，而是深入追问'这种固执曾经如何保护过他'。老周的工地经验、陈阿姨的保健品困境，都不是概念的插图，而是认知失调、信念免疫这些抽象理论在真实生活中的'复现场景'，读者能从具体细节中自行体会机制运作，这种写法在通俗心理学里相当难得。终章从'打破茧房'转向'与茧共存'的伦理立场转换，有真诚的思辨重量，避免了常见的方法论清单陷阱。不过，全书在核心概念的厘清上略显犹豫：'认知茧房'与后半部分出现的'信息茧房''信念免疫系统''生存算法'等近义术语，究竟是同一机制的不同面向，还是层级不同的独立概念？这种模糊在反复阅读时会造成困惑，削弱了论证的清晰度。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T05:19:01.021Z",
+    "textless": true,
+    "profileId": "bold-symbol-poster"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "第一根丝",
+      "units": 7801
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "信以为真的世界",
+      "units": 7555
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "疼痛的遗产",
+      "units": 12420
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "心灵的蓝图",
+      "units": 10441
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "生存的算法",
+      "units": 7404
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "二十世纪五十年代",
+      "units": 8368
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "信念的免疫系统",
+      "units": 9562
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "认知茧房在代际关系中的爆发形态",
+      "units": 8246
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "共识的代价",
+      "units": 8832
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "撬动茧房的错觉",
+      "units": 8659
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "松动从理解开始",
+      "units": 8413
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "茧房之外",
+      "units": 9231
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "可塑性的边界",
+      "units": 7799
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "环境的力量",
+      "units": 7968
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "与茧共存",
+      "units": 7848
+    }
+  ],
+  "publishedAt": "2026-08-27T08:40:17.912Z",
+  "formFamily": "explainer"
+}
