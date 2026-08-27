@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827063023330_41153c4404",
+  "projectId": "proj-mtaut39rnwi",
+  "manuscriptVersionId": "mv_0e47dee6b998bcb7",
+  "contentHash": "0e47dee6b998bcb720f4e1c03e2365056c8a0dbf55cfd005ca0a57020cc3c21b",
+  "title": "保路运动：一场引爆辛亥革命导火索",
+  "subtitle": "从租股票据到辛亥枪声的连锁反应",
+  "authorDisplayName": "半两先生",
+  "description": "1911年夏，四川中等农户每亩田赋被强制抽缴三至五钱银子入股铁路，这张租股票据最终将晚清推向深渊。当邮传部试图收回路权，成都茶馆里的说书声化作罢市静默，督署电报与血书请愿在绝望中交织。这并非单纯的爱国抗争，而是中央财政汲取与地方绅商自治网络的结构性断裂。从股东特别大会的裂帛之声到九月七日的枪响，再到同志军围攻新津、端方命丧资州，一条由账本、契约与鲜血铺就的因果链清晰浮现。本书以微观史料还原这场博弈，呈现帝国崩塌前夜，普通人的生计如何引爆了改朝换代的导火索。",
+  "category": "中国史",
+  "tags": [
+    "保路运动",
+    "辛亥革命",
+    "晚清财政",
+    "川汉铁路",
+    "微观史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 23,
+    "units": 208858,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 87,
+    "method": "median-of-1",
+    "createdAt": "2026-08-27T05:17:13.504Z"
+  },
+  "editorReview": {
+    "text": "本书以一张川汉铁路租股票据的物理旅程为线索，将制度史、财政史与社会动员史编织成一条扎实的因果链，微观史方法运用纯熟。尤其精彩的是第12章对武昌起义“偶然论”的反驳，从湖北新军兵力分布图入手，严密论证了调兵入川造成的防务真空才是起义成功的关键条件，档案支撑有力。不过，全书在论证节奏上存在明显起伏：开篇与结尾章节论证密度高、推进有力，但中段若干章节（如第13、17、19章）叙事略显平铺，且部分章节存在论证重复（如第1章中段与后段对“租股即税”的论述近乎原样重述），章节接缝处实体回指断裂也影响了阅读的连贯性。尽管如此，其对“制度设计内在矛盾”和“偶然论背后的结构性逻辑”的揭示，仍具出版级深度。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T06:29:14.114Z",
+    "textless": false,
+    "profileId": "serious-history-editorial",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "一张租股票据的旅程",
+      "units": 8434
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "川汉铁路公司的账簿",
+      "units": 8304
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "北京：邮传部的算盘",
+      "units": 8046
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "成都：股东特别大会上的裂帛之声",
+      "units": 12145
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "罢市：一座城市的静默抗议",
+      "units": 9531
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "督署电报：赵尔丰的困局",
+      "units": 8439
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "请愿书的血痕",
+      "units": 9820
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "茶馆里的演说家",
+      "units": 11120
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "督署电报：最后通牒",
+      "units": 8359
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "九月七日：枪声与血泊",
+      "units": 8484
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "同志军的旗帜",
+      "units": 10258
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "武昌的枪声：导火索的尽头",
+      "units": 8805
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "同志军围城：新津攻防战",
+      "units": 12765
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "端方入川：一支孤军的行军日志",
+      "units": 7472
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "荣县独立：第一个县级政权的诞生",
+      "units": 8459
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "成都解围：赵尔丰的末路",
+      "units": 9856
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "资州兵变：端方之死",
+      "units": 7384
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "四川军政府的诞生：从保路到光复",
+      "units": 8676
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "成都兵变与赵尔丰之死",
+      "units": 7976
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "租股清算的无声账册",
+      "units": 8596
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "袍哥公口里的新政权",
+      "units": 8303
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "川汉铁路的漫长终局",
+      "units": 8347
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "少城公园的石碑",
+      "units": 9279
+    }
+  ],
+  "illustrations": 14,
+  "publishedAt": "2026-08-27T06:30:23.350Z",
+  "formFamily": "narrative"
+}
