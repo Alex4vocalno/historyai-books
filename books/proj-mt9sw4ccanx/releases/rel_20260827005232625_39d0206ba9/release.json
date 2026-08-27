@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827005232625_39d0206ba9",
+  "projectId": "proj-mt9sw4ccanx",
+  "manuscriptVersionId": "mv_e72c8d6c41d8ebdb",
+  "contentHash": "e72c8d6c41d8ebdba01c9981ac954fb95362e60d6ae815e4904efc18307ecf4d",
+  "title": "习惯的复利：微小改变如何滚成大不同",
+  "subtitle": "从行为科学到身份重塑的实操指南",
+  "authorDisplayName": "李思特Think",
+  "description": "新年决心总在二月沦为废墟，并非因为你缺乏毅力，而是改变的策略违背了大脑的运作机制。意志力是一笔有限的账单，真正的杠杆藏在环境设计与神经回路之中。本书剥离励志说教，以行为科学实验为地基，拆解习惯叠加、执行意图与摩擦算术等具体工具。从微小的触发器到身份认同的重塑，每一步改变都有清晰的效应量边界与失灵预警。这不是一碗鸡汤，而是一套尊重个体差异、今天就能启动的行为工程学手册，让复利在真实的生活中发生。",
+  "category": "个人成长",
+  "tags": [
+    "行为科学",
+    "习惯养成",
+    "认知心理学",
+    "自我管理",
+    "环境设计",
+    "个人成长"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 17,
+    "units": 108999,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T11:07:22.433Z"
+  },
+  "editorReview": {
+    "text": "这本书最大的价值在于它把行为科学的研究证据落到了可操作的工具层面，尤其是执行意图章节（第8章）对“两端必须具体”的格式要求、错误与正确示范的对比，以及诚实标注高效应与低效应场景，这种精度在同类书中少见，让你知道方法不是万能的，但用对了地方确实有效。它适合那些受够了“只要坚持就行”的鸡汤、想了解改变背后真实机制的读者，特别是愿意花时间设计环境而非单纯靠意志力硬撑的人。不过，书中段对“意志力有限→环境设计更优”这一核心论点的反复论证可能让部分读者感到重复，且个别章节的抽象术语偏多，削弱了实操感；第16章将历史暴力事件与伴侣日常协商类比，尺度跳跃较大，可能引发不适。整体是一本扎实的行为工程手册，但需要你带着耐心去筛选适合自己的工具。",
+    "penName": "一苇",
+    "title": "生活成长编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T00:43:28.613Z",
+    "textless": false,
+    "profileId": "method-clean-grid",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "method-clean-grid"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "二月的废墟",
+      "units": 6501
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "意志力的真实账单",
+      "units": 6294
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "被设计的环境",
+      "units": 7046
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "微小的定义",
+      "units": 6295
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "习惯的神经回路",
+      "units": 6162
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "复利公式",
+      "units": 6823
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "设计与决心",
+      "units": 6254
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "执行意图",
+      "units": 7455
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "习惯叠加",
+      "units": 6968
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "摩擦的算术",
+      "units": 5711
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "反馈的节奏",
+      "units": 6982
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "失灵手册",
+      "units": 6236
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "旧习的税单",
+      "units": 6420
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "地板的裂缝",
+      "units": 5797
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "配方的分寸",
+      "units": 5506
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "关系的惯性",
+      "units": 5764
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "余波的形状",
+      "units": 6785
+    }
+  ],
+  "publishedAt": "2026-08-27T00:52:32.633Z"
+}
