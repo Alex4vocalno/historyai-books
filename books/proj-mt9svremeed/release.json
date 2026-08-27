@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827003802818_1527406eb5",
+  "projectId": "proj-mt9svremeed",
+  "manuscriptVersionId": "mv_03fc8326736f2e68",
+  "contentHash": "03fc8326736f2e68fa631fef86d6853c7c29935a0360565d08e4a4eecc1db6c6",
+  "title": "看不见的引擎",
+  "subtitle": "驱动演化与文明的隐形力量",
+  "authorDisplayName": "李思特Think",
+  "description": "一升海水中的病毒数量堪比银河系恒星，它们并非仅是致病的梦魇，更是地球运转四十亿年的隐秘引擎。从驱动海洋碳循环的噬菌体，到嵌入人类基因组、促成胎盘形成的古老残骸，病毒以破坏者的面目行使着建设者的职能。它参与物种演化，重塑生态系统，甚至在基因治疗与噬菌体疗法中成为改写未来的工具。跳出人类中心的恐惧视角，重新审视这些没有细胞、无法独立代谢的实体，你会发现生命史本身就是一部与病毒共生、博弈乃至相互成就的宏大叙事。",
+  "category": "科普",
+  "tags": [
+    "病毒学",
+    "演化生物学",
+    "海洋生态",
+    "科学史",
+    "基因演化",
+    "科普"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 135821,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T12:37:50.240Z"
+  },
+  "editorReview": {
+    "text": "这本书最让人兴奋的，是它用一连串精巧的尺度拉伸类比，把“病毒是生命引擎”这个反直觉的核心洞见讲得透彻又震撼——从一捧海水里的病毒数量，一路拉伸到银河系的恒星，这种将抽象数字转化为可感知物理存在的能力，正是科学传播的典范。作者构建的从海洋碳循环到人类基因组的宏大论证链逻辑严密，叙事生动，成功重塑了我们对病毒的认知框架。不过，部分章节的论证存在重复，个别段落术语过于密集，对普通读者的阅读流畅度构成了一定挑战，若能精简打磨，阅读体验会更上一层楼。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T00:37:55.644Z",
+    "textless": false,
+    "profileId": "bold-symbol-poster",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "bold-symbol-poster"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "一捧海水里的宇宙",
+      "units": 7626
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "看不见的碳泵",
+      "units": 6227
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "基因组里的化石",
+      "units": 7757
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "偷来的胎盘",
+      "units": 7546
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "边界上的实体",
+      "units": 8018
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "劫持的艺术",
+      "units": 6697
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "永不停歇的军备竞赛",
+      "units": 7150
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "免疫系统的记忆工程师",
+      "units": 6734
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "噬菌体的复仇与救赎",
+      "units": 6257
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "病毒风暴的生态学根源",
+      "units": 6838
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "改写人类历史的隐形手",
+      "units": 6163
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "与病毒共存",
+      "units": 7731
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "基因快递员的承诺",
+      "units": 6830
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "以毒攻毒的百年迂回",
+      "units": 6456
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "恐惧的进化",
+      "units": 6295
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "重塑生态的隐形工具",
+      "units": 6215
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "巨人的发现",
+      "units": 7194
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "作为全书的收束章节",
+      "units": 6147
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "病毒圈的最后边疆",
+      "units": 5539
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "看不见的引擎仍在运转",
+      "units": 6401
+    }
+  ],
+  "illustrations": 10,
+  "publishedAt": "2026-08-27T00:38:02.855Z",
+  "formFamily": "explainer"
+}

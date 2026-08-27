@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9svremeed",
+    "projectId": "proj-mt9svremeed",
+    "releaseId": "rel_20260827003802818_1527406eb5",
+    "title": "看不见的引擎",
+    "subtitle": "驱动演化与文明的隐形力量",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "科普",
+    "tags": [
+      "病毒学",
+      "演化生物学",
+      "海洋生态",
+      "科学史",
+      "基因演化",
+      "科普"
+    ],
+    "description": "一升海水中的病毒数量堪比银河系恒星，它们并非仅是致病的梦魇，更是地球运转四十亿年的隐秘引擎。从驱动海洋碳循环的噬菌体，到嵌入人类基因组、促成胎盘形成的古老残骸，病毒以破坏者的面目行使着建设者的职能。它参与物种演化，重塑生态系统，甚至在基因治疗与噬菌体疗法中成为改写未来的工具。跳出人类中心的恐惧视角，重新审视这些没有细胞、无法独立代谢的实体，你会发现生命史本身就是一部与病毒共生、博弈乃至相互成就的宏大叙事。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T12:37:50.240Z"
+    },
+    "coverUrl": "books/proj-mt9svremeed/releases/rel_20260827003802818_1527406eb5/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt9svremeed/index.html",
+    "publishedAt": "2026-08-27T00:38:02.855Z",
+    "firstPublishedAt": "2026-08-27T00:38:02.855Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt8c40a5yey",
     "projectId": "proj-mt8c40a5yey",
     "releaseId": "rel_20260826065745555_b1b9dba415",
