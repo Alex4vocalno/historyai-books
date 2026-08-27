@@ -39,15 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-43bd95c0fea0.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T00:39:15.560Z",
+    "generatedAt": "2026-08-27T07:42:22.052Z",
     "textless": false,
-    "profileId": "sci-instrument-vintage",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "sci-instrument-vintage"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -167,5 +164,6 @@
   ],
   "illustrations": 7,
   "publishedAt": "2026-08-27T00:52:09.945Z",
-  "formFamily": "explainer"
+  "formFamily": "explainer",
+  "rerenderedAt": "2026-08-27T07:42:22.208Z"
 }
