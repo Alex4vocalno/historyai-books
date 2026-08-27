@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827030125622_1b4aea5267",
+  "projectId": "proj-mta7reuj3kk",
+  "manuscriptVersionId": "mv_fcfca9ef8ed536fa",
+  "contentHash": "fcfca9ef8ed536fa1909846e3aad1e5806f0368771be5f1f6b669d5bd403cb94",
+  "title": "身体密令",
+  "subtitle": "进化史里的生存指令与现代误读",
+  "authorDisplayName": "芝芝为荔枝",
+  "description": "疼痛并非背叛，发烧不是故障，疲劳亦非软弱。这些令人不适的身体信号，实则是百万年进化刻入基因的生存密令。当远古的防御机制遭遇过剩时代的糖盐、恒温与久坐，保护性指令便沦为慢性病的源头。从恶心到过敏，从心慌到饥饿，每一次症状都是身体在喧嚣市场中发出的紧急电报。放下对抗的执念，穿越生理机制的迷雾，重新辨认那些被现代生活扭曲的古老语法。这不是诊疗指南，而是一场关于身体智慧的认知校准，助你在失配的时代听懂自己。",
+  "category": "医学健康",
+  "tags": [
+    "进化医学",
+    "身体史",
+    "人类学",
+    "健康科普",
+    "生理机制",
+    "医学健康"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 131265,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-1",
+    "createdAt": "2026-08-27T02:58:53.821Z"
+  },
+  "editorReview": {
+    "text": "这本书最打动我的，是它把进化生物学那套冷冰冰的机制，用‘身体密令’这个比喻讲得既透彻又亲切——疼痛是警报，发烧是消毒，疲劳是节能，这些都不是故障，而是刻在基因里的生存智慧。作者挑战‘压制症状’的现代医学思维，提出‘身体素养’的概念，尤其是第20章总结的三层指令框架，确实让人有豁然开朗之感。不过，作为一本强调叙事流畅的直觉讲解体，部分章节之间的衔接钩子（比如第4章末尾抛出的问题）没有在下一章开头及时回应，读起来偶尔会‘断线’；此外，某些段落的句式开头重复较多，节奏上稍显机械，如果能再打磨一下语言的节奏感，阅读体验会更上一层楼。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T02:59:36.964Z",
+    "textless": false,
+    "profileId": "clinical-elegant"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "疼痛是个叛徒吗",
+      "units": 6344
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "发烧是在帮倒忙吗",
+      "units": 5637
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "疲劳的古老语法",
+      "units": 6246
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "恶心的智慧",
+      "units": 6620
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "指令的源头",
+      "units": 6399
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "上一章建立了“身体是喧闹市场”的类比",
+      "units": 6826
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "越抓越痒的守卫",
+      "units": 6265
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "渴在缺水之前",
+      "units": 8236
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "过敏的旧靶与新敌",
+      "units": 5871
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "心慌的常备战",
+      "units": 7095
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "腹部的第二条电报线",
+      "units": 6217
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "过剩时代的饥饿",
+      "units": 7838
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "误读的代价",
+      "units": 6273
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "退烧药的诱惑",
+      "units": 6629
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "提神的陷阱",
+      "units": 6529
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "节食的悖论",
+      "units": 6120
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "重新校准的可能",
+      "units": 6112
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "古老身体的未来",
+      "units": 7102
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "无声的燃烧",
+      "units": 6398
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "听懂密令",
+      "units": 6508
+    }
+  ],
+  "illustrations": 20,
+  "publishedAt": "2026-08-27T03:01:25.777Z"
+}
