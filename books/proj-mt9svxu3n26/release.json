@@ -39,15 +39,13 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-dcb3ab7077be.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T00:40:31.136Z",
+    "generatedAt": "2026-08-27T07:48:47.406Z",
     "textless": false,
-    "profileId": "ledger-tape-archive",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "ledger-tape-archive"
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -154,5 +152,6 @@
     }
   ],
   "publishedAt": "2026-08-27T00:40:42.120Z",
-  "formFamily": "method"
+  "formFamily": "method",
+  "rerenderedAt": "2026-08-27T07:48:47.570Z"
 }
