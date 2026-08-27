@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9uhf746ud",
+    "projectId": "proj-mt9uhf746ud",
+    "releaseId": "rel_20260827004953214_b4c8843543",
+    "title": "看不见的锋线",
+    "subtitle": "雷达、制度与二战电磁战的胜负手",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "中国史",
+    "tags": [
+      "二战史",
+      "军事技术",
+      "雷达战",
+      "制度史",
+      "电子对抗",
+      "中国史"
+    ],
+    "description": "不列颠上空的胜利，并非仅靠飞行员的勇气，更源于一种将简陋雷达嵌入指挥链的制度能力。当德国拥有精密硬件却受困于割裂体制时，英国已用“道丁系统”把电磁波转化为防空战力。从本土链预警到大西洋猎潜，从磁控管革命到诺曼底电子欺骗，这场看不见的战争重塑了现代冲突的底层逻辑。技术优势从不自动兑换为胜势，唯有当探测器与组织神经同步进化，实验室的涟漪才能化作改写战局的锋线。一段关于电磁波、工业量产与制度整合的二战技术史，揭示战争胜负在频谱之外的真正维度。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T12:42:38.946Z"
+    },
+    "coverUrl": "books/proj-mt9uhf746ud/releases/rel_20260827004953214_b4c8843543/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt9uhf746ud/index.html",
+    "publishedAt": "2026-08-27T00:49:53.367Z",
+    "firstPublishedAt": "2026-08-27T00:49:53.367Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9uhaxerme",
     "projectId": "proj-mt9uhaxerme",
     "releaseId": "rel_20260827004752130_e257c9e934",

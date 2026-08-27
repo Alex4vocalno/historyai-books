@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827004953214_b4c8843543",
+  "projectId": "proj-mt9uhf746ud",
+  "manuscriptVersionId": "mv_a7b95b9dadf20434",
+  "contentHash": "a7b95b9dadf2043406cb37ca5ce60f5bc41501d10fc63cf159a8bd88bc38de8a",
+  "title": "看不见的锋线",
+  "subtitle": "雷达、制度与二战电磁战的胜负手",
+  "authorDisplayName": "李思特Think",
+  "description": "不列颠上空的胜利，并非仅靠飞行员的勇气，更源于一种将简陋雷达嵌入指挥链的制度能力。当德国拥有精密硬件却受困于割裂体制时，英国已用“道丁系统”把电磁波转化为防空战力。从本土链预警到大西洋猎潜，从磁控管革命到诺曼底电子欺骗，这场看不见的战争重塑了现代冲突的底层逻辑。技术优势从不自动兑换为胜势，唯有当探测器与组织神经同步进化，实验室的涟漪才能化作改写战局的锋线。一段关于电磁波、工业量产与制度整合的二战技术史，揭示战争胜负在频谱之外的真正维度。",
+  "category": "中国史",
+  "tags": [
+    "二战史",
+    "军事技术",
+    "雷达战",
+    "制度史",
+    "电子对抗",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 137893,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T12:42:38.946Z"
+  },
+  "editorReview": {
+    "text": "本书最扎实之处，在于用一条清晰的论证弧线贯穿始终：从许尔斯迈尔的制度真空、阿普尔顿的科学孵化环境，到道丁系统的指挥链整合，最终收束于巴格达的制度割裂，将“技术效能等于硬件性能乘以制度整合速度”这一核心论点演绎得自洽而有力。技术细节的呈现亦见功力，如箔条半波振子的谐振原理、多普勒频移的速度偶极子，均以具体物理机制支撑制度分析，避免了参数堆砌。不过，中段部分章节的叙事推进略显平铺，句式模板化问题（如多章以年份开头）削弱了节奏变化，个别制度分析段落也因缺乏具体人物事件的锚定而稍显抽象。整体是一部完成度很高的军事技术制度史佳作，精修后值得细读。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T00:49:16.286Z",
+    "textless": false,
+    "profileId": "sci-instrument-vintage",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "sci-instrument-vintage"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "赫兹的涟漪",
+      "units": 6294
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "电离层的回响",
+      "units": 6355
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "钢铁与真空管的赛跑",
+      "units": 6565
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "本土链的诞生",
+      "units": 6980
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "道丁系统",
+      "units": 10672
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "厘米波之门",
+      "units": 6917
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "磁控管渡海",
+      "units": 6481
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "幽暗中的轰炸机",
+      "units": 6987
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "大西洋上的猫鼠",
+      "units": 7852
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "梅托克斯的陷阱",
+      "units": 6443
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "铝箔之幕",
+      "units": 6837
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "幽灵军团",
+      "units": 6001
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "量产即战略",
+      "units": 6993
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "供应链的隐性战场",
+      "units": 6546
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "美国式矩阵的诞生",
+      "units": 6748
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "竞品矩列：德国与日本的雷达工业解剖",
+      "units": 6645
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "从战机到客机",
+      "units": 6109
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "空域的可视化与现代世界",
+      "units": 7378
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "气象之眼",
+      "units": 6673
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "回望锋线",
+      "units": 6417
+    }
+  ],
+  "illustrations": 12,
+  "publishedAt": "2026-08-27T00:49:53.367Z"
+}
