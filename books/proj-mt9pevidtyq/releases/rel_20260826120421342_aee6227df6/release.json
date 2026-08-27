@@ -39,10 +39,10 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-0840b3e67ede.svg",
+    "file": "cover-45ab420820f1.svg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-27T13:27:33.425Z",
+    "model": "qwen/qwen-image-3-pro",
+    "generatedAt": "2026-08-27T13:54:12.691Z",
     "textless": false,
     "sourceTextless": true,
     "composerVersion": "cover-composer.v3"
@@ -152,5 +152,5 @@
     }
   ],
   "publishedAt": "2026-08-26T12:04:21.350Z",
-  "rerenderedAt": "2026-08-27T13:27:33.723Z"
+  "rerenderedAt": "2026-08-27T13:54:12.841Z"
 }
