@@ -34,15 +34,12 @@
   },
   "editorReview": null,
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-af778b5fa868.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-26T08:40:00.374Z",
+    "generatedAt": "2026-08-27T08:20:11.382Z",
     "textless": false,
-    "profileId": "sci-instrument-vintage",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "sci-instrument-vintage"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -227,5 +224,5 @@
     }
   ],
   "publishedAt": "2026-08-24T10:40:31.141Z",
-  "rerenderedAt": "2026-08-26T08:49:51.086Z"
+  "rerenderedAt": "2026-08-27T08:20:11.682Z"
 }
