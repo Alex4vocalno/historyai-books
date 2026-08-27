@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-65fcef3459a4.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-26T08:36:24.599Z",
+    "generatedAt": "2026-08-27T08:27:18.731Z",
     "textless": false,
-    "profileId": "serious-history-editorial",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "serious-history-editorial"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -232,5 +229,5 @@
     }
   ],
   "publishedAt": "2026-08-25T07:17:16.062Z",
-  "rerenderedAt": "2026-08-26T08:49:28.589Z"
+  "rerenderedAt": "2026-08-27T08:27:19.026Z"
 }
