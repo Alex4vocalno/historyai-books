@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827004042115_d7b123dbca",
+  "projectId": "proj-mt9svxu3n26",
+  "manuscriptVersionId": "mv_a46e40577260749b",
+  "contentHash": "a46e40577260749bdeaaed0b000171c905b4c1e9d042ff4a1bf6bdb899b8f76f",
+  "title": "先别亏钱",
+  "subtitle": "普通投资者的风险纪律与行为陷阱",
+  "authorDisplayName": "李思特Think",
+  "description": "亏损50%需要翻倍才能回本，这道残酷的数学题揭示了投资的第一课并非获利，而是生存。聪明人之所以在市场中折戟，往往不是因为无知，而是陷入了损失厌恶、过度交易与杠杆滥用等可识别的行为陷阱。本书剥离收益叙事，以历次泡沫中的真实亏损档案为镜，拆解那些被忽视的风险机制与隐性成本。这里没有致富代码，也不推荐任何标的，只提供一套可自查的行为清单与风险纪律。在追逐利润之前，先学会识别并避开那些注定导致毁灭的结构性深渊，守住本金，才是穿越周期的唯一路径。",
+  "category": "经济理财",
+  "tags": [
+    "行为金融",
+    "投资纪律",
+    "风险管理",
+    "散户心理",
+    "金融史",
+    "经济理财"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 17,
+    "units": 131448,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-26T11:49:26.440Z"
+  },
+  "editorReview": {
+    "text": "这本书值不值得读？值得，尤其适合那些在市场里交过学费、开始怀疑自己“聪明”的投资者。它最大的好，是把“不亏钱”这个朴素目标，用扎实的历史案例和行为金融学研究给论证透了——从南海泡沫到A股停牌潮，它不给你代码，只给你一面镜子，让你看清自己是怎么一步步掉进处置效应、伪分散、杠杆这些坑里的。它提供的不是答案，而是一套可自查的行为清单和风险纪律，这种“投资纪律体”的定位非常清晰。不过，书的阅读体验并不完美。部分章节（比如第5章）文笔明显粗糙，段落重复，像没打磨好的初稿；章节之间的衔接有时生硬，比如第12到13章，上一章抛出的问题下一章没接住，读着会卡壳。另外，有几处（如第4、17章）道理讲得太抽象，缺了具体案例的支撑，节奏就拖了。总的来说，这是一本内核扎实、但需要读者耐心穿过一些写作瑕疵的风险教育手册。",
+    "penName": "半山",
+    "title": "商业财经编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T00:40:31.136Z",
+    "textless": false,
+    "profileId": "ledger-tape-archive",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "ledger-tape-archive"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "账簿不撒谎",
+      "units": 6371
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "斩花与留草",
+      "units": 5802
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "交易的隐性课税",
+      "units": 6949
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "时机的刻舟术",
+      "units": 6499
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "风险的第一性原理",
+      "units": 10185
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "杠杆的算术黑箱",
+      "units": 10728
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "账簿的边界",
+      "units": 7387
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "集中与深渊",
+      "units": 6856
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "尾部的幽灵",
+      "units": 8232
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "费用的复利暗流",
+      "units": 6479
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "能力边界的内视",
+      "units": 8957
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "他人亏损的镜子",
+      "units": 6089
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "泡沫的集体语法",
+      "units": 7750
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "纪律的考古学",
+      "units": 11583
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "账簿的日常语法",
+      "units": 9615
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "压力测试的诚实",
+      "units": 5590
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "不亏钱的终局",
+      "units": 6376
+    }
+  ],
+  "publishedAt": "2026-08-27T00:40:42.120Z"
+}
