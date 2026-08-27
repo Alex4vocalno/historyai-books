@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260827061844356_0ef9ea8558",
+  "projectId": "proj-mtatymr3jo1",
+  "manuscriptVersionId": "mv_65105584da9b7fcf",
+  "contentHash": "65105584da9b7fcf7a79416bae2cf0851258d93b0c6b5f46a6b9a769cf557b4c",
+  "title": "纸骨",
+  "subtitle": "蔡伦与造纸术的权力锻造",
+  "authorDisplayName": "半两先生",
+  "description": "造纸术为何偏偏诞生于蔡伦之手？这并非孤立的天才灵光，而是冶铸工艺、皇家工坊资源与宦官身份三重结构叠加的必然。从耒阳铁官家庭的捶打技艺，到尚方令任上的废料实验，再到宫廷倾轧中的自证焦虑，技术突破实为制度位置的副产品。本书以“为何是他”为轴，还原东汉作坊与朝堂的双重现场，在铁砧与石臼之间、账册与秘剑之下，重审一项伟大发明背后具体的工艺迁移与残酷的政治博弈。当墨迹初干，纸骨已成，承载文明的轻薄载体，实则由权力与血泪锻造而成。",
+  "category": "科技史",
+  "tags": [
+    "东汉史",
+    "技术史",
+    "蔡伦",
+    "造纸术",
+    "宫廷政治",
+    "物质文化"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 276729,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-27T06:09:18.804Z"
+  },
+  "editorReview": {
+    "text": "本书最扎实处在于将技术史与权力史真正焊合为一：从铁官作坊的捶打记忆到尚方令的制度位置，造纸术被还原为冶铸工艺、宫廷资源与宦官身份三重结构叠加的必然产物，而非天才灵光。工艺细节如锻铁火候、纤维处理与秘剑监作的制度逻辑形成精妙同构，论证骨架立得住。第29-30章以谢峻视角收束纸的时代全景，从私人藏书到行政档案，层层展示文明级影响，视野开阔。但跨章存在多处重复片段（如第1、4、10章约51字重复），章节接缝处实体回指断裂明显（如第7→8章钩子未回应），影响叙事连贯；第15章封侯后的政治分析虽详尽，节奏却显平铺。整体完成度高，经一轮精修可臻完善。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T06:17:47.973Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "铁官之子的双手",
+      "units": 8834
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "蚕室之后",
+      "units": 9104
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "宫墙内的学徒期",
+      "units": 8603
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "尚方令的工坊",
+      "units": 8715
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "简与帛的困局",
+      "units": 8387
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "对手的影子",
+      "units": 7947
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "废料堆里的纤维",
+      "units": 8445
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "铁砧与石臼之间",
+      "units": 9928
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "竹帘上的厚度",
+      "units": 8422
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "账册外的交锋",
+      "units": 10238
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "垂帘下的尚方",
+      "units": 12545
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "那一卷奏上之纸",
+      "units": 16389
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "尚方纸入东观",
+      "units": 8147
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "墨迹初干时",
+      "units": 8277
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "龙亭侯的印",
+      "units": 13152
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "秘剑之光",
+      "units": 8398
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "邓氏帘后的手",
+      "units": 9872
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "纸上的血",
+      "units": 8024
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "新帝的账册",
+      "units": 8906
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "廷尉府的旧卷",
+      "units": 8357
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "尚方炉火冷",
+      "units": 8329
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "旧属的沉默",
+      "units": 8822
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "纸诏将至",
+      "units": 7870
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "毒入喉时",
+      "units": 8562
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "纸的远征",
+      "units": 8424
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "东观之后的东观",
+      "units": 8158
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "碑林与纸卷",
+      "units": 9039
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "蔡侯纸的三个名字",
+      "units": 8476
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "纸的时代",
+      "units": 9074
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "纸骨不朽",
+      "units": 9285
+    }
+  ],
+  "illustrations": 30,
+  "publishedAt": "2026-08-27T06:18:44.970Z",
+  "formFamily": "narrative"
+}
