@@ -39,15 +39,13 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-d20e7b419962.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-26T08:16:21.231Z",
+    "generatedAt": "2026-08-27T09:10:06.922Z",
     "textless": false,
-    "profileId": "warm-humanist",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "warm-humanist"
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -232,5 +230,5 @@
     }
   ],
   "publishedAt": "2026-08-26T07:02:44.437Z",
-  "rerenderedAt": "2026-08-26T08:47:29.097Z"
+  "rerenderedAt": "2026-08-27T09:10:07.181Z"
 }
