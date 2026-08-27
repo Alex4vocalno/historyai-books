@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260821054121333_be64f07c44",
   "projectId": "proj-mt0syidl9gp",
-  "manuscriptVersionId": "mv_3723f3f992ab9d97",
-  "contentHash": "3723f3f992ab9d97d3d95d61057c828bb18952d664293621376ebab955a94a5c",
+  "manuscriptVersionId": "mv_611c5ada337ee94d",
+  "contentHash": "611c5ada337ee94d6d03436f8b7d974183195fa495dd37fc890386b1f43115be",
   "title": "如果古人也有朋友圈",
   "subtitle": "一部解构中国式关系网络的制度史",
   "authorDisplayName": "半两先生",
@@ -31,13 +31,19 @@
     "method": "median-of-1",
     "createdAt": "2026-08-21T04:38:44.996Z"
   },
+  "editorReview": {
+    "text": "这本书最硬气的地方，是它真把“关系”讲成了可分析的结构，而不是又一本厚黑段子集。作者用“关系语法”和“私属化锁定”两条概念线，从宋代座主门生一直拉到晚清湘淮军，案例不是堆砌，是层层咬合着推进的——比如对王钦若、刘筠、欧阳修三种网络模式的类型学拆解，把抽象命题落到了具体运作机制上，扎实且有层次。唯一需要提醒读者的是，部分章节论证密度极高，像第二章、第十三章，分析压得很紧，叙事节奏缺少换气的口子，读起来比较耗神。如果你愿意忍受这种智识上的负重感，它提供的洞察是穿透性的。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
   "cover": {
-    "file": "cover-f019c703759f.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-08-27T09:32:18.361Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "tang-palace-intrigue"
   },
   "chapters": [
     {
@@ -157,7 +163,7 @@
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "论断：民国初年军阀政治的兴起",
+      "title": "私属的暴力：从湘淮到北洋的效忠链",
       "units": 8360
     },
     {
@@ -175,7 +181,7 @@
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "论断：帝制晚期至民国时期的中国乡村社会",
+      "title": "保甲的背后：宗族网络的代理机制",
       "units": 7766
     },
     {
@@ -192,5 +198,6 @@
     }
   ],
   "publishedAt": "2026-08-21T05:41:21.335Z",
-  "rerenderedAt": "2026-08-27T09:32:18.569Z"
+  "rerenderedAt": "2026-08-27T11:40:59.912Z",
+  "formFamily": "narrative"
 }

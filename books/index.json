@@ -1,5 +1,38 @@
 [
   {
+    "id": "proj-mt0syidl9gp",
+    "projectId": "proj-mt0syidl9gp",
+    "releaseId": "rel_20260821054121333_be64f07c44",
+    "title": "如果古人也有朋友圈",
+    "subtitle": "一部解构中国式关系网络的制度史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "半两先生",
+    "category": "中国史",
+    "tags": [
+      "中国制度史",
+      "社会网络",
+      "科举",
+      "权力结构",
+      "晚清民国"
+    ],
+    "description": "本书以“朋友圈”为喻，深入剖析传统中国社会运行的隐性逻辑。作者从宋代科举的座主门生庇护，到晚清湘淮军的私属效忠网络，系统揭示师承、同乡、姻亲等私人纽带如何嵌入并塑造正式制度。全书通过二十余个制度案例，如乡试的疆域、河工的共谋、幕权的膨胀，绘制出一幅幅权力关系图谱，论证了这些非正式网络并非制度的对立面，而是其实际运作的骨架。本书数据与叙事并重，拒绝戏说，为理解帝制晚期至民国政治社会的演变提供了深刻洞察。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-1",
+      "createdAt": "2026-08-21T04:38:44.996Z"
+    },
+    "coverUrl": "books/proj-mt0syidl9gp/releases/rel_20260821054121333_be64f07c44/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt0syidl9gp/index.html",
+    "publishedAt": "2026-08-21T05:41:21.335Z",
+    "firstPublishedAt": "2026-08-21T05:41:21.335Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt84tydw6vf",
     "projectId": "proj-mt84tydw6vf",
     "releaseId": "rel_20260825130433183_80da03896c",
@@ -3571,39 +3604,6 @@
     "url": "books/proj-mt2i6vlcgnd/index.html",
     "publishedAt": "2026-08-21T07:52:28.870Z",
     "firstPublishedAt": "2026-08-21T07:52:28.870Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt0syidl9gp",
-    "projectId": "proj-mt0syidl9gp",
-    "releaseId": "rel_20260821054121333_be64f07c44",
-    "title": "如果古人也有朋友圈",
-    "subtitle": "一部解构中国式关系网络的制度史",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "半两先生",
-    "category": "中国史",
-    "tags": [
-      "中国制度史",
-      "社会网络",
-      "科举",
-      "权力结构",
-      "晚清民国"
-    ],
-    "description": "本书以“朋友圈”为喻，深入剖析传统中国社会运行的隐性逻辑。作者从宋代科举的座主门生庇护，到晚清湘淮军的私属效忠网络，系统揭示师承、同乡、姻亲等私人纽带如何嵌入并塑造正式制度。全书通过二十余个制度案例，如乡试的疆域、河工的共谋、幕权的膨胀，绘制出一幅幅权力关系图谱，论证了这些非正式网络并非制度的对立面，而是其实际运作的骨架。本书数据与叙事并重，拒绝戏说，为理解帝制晚期至民国政治社会的演变提供了深刻洞察。",
-    "chapterCount": 25,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-1",
-      "createdAt": "2026-08-21T04:38:44.996Z"
-    },
-    "coverUrl": "books/proj-mt0syidl9gp/releases/rel_20260821054121333_be64f07c44/cover-f019c703759f.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt0syidl9gp/index.html",
-    "publishedAt": "2026-08-21T05:41:21.335Z",
-    "firstPublishedAt": "2026-08-21T05:41:21.335Z",
     "visibility": "public"
   },
   {
