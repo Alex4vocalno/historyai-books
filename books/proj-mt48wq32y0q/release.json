@@ -39,10 +39,10 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-665f91d7a61f.svg",
+    "file": "cover-53d53f75e609.svg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T08:17:21.365Z",
+    "model": "qwen/qwen-image-3-pro",
+    "generatedAt": "2026-08-28T05:21:38.162Z",
     "textless": false,
     "sourceTextless": true,
     "composerVersion": "cover-composer.v3"
@@ -141,6 +141,6 @@
   ],
   "illustrations": 4,
   "publishedAt": "2026-08-24T07:15:28.687Z",
-  "rerenderedAt": "2026-08-27T08:17:21.523Z",
+  "rerenderedAt": "2026-08-28T05:21:38.227Z",
   "formFamily": "narrative"
 }
