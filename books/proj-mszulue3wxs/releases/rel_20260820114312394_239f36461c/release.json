@@ -30,13 +30,12 @@
     "createdAt": "2026-08-20T10:38:39.903Z"
   },
   "cover": {
-    "file": "cover-7146ba7261c0.svg",
+    "file": "cover-7e8730fcd852.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T09:46:37.150Z",
+    "generatedAt": "2026-08-28T08:12:38.427Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -155,5 +154,5 @@
     }
   ],
   "publishedAt": "2026-08-20T11:43:12.481Z",
-  "rerenderedAt": "2026-08-27T09:46:37.324Z"
+  "rerenderedAt": "2026-08-28T08:12:38.451Z"
 }
