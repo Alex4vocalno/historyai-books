@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260828030738323_d15b17a5bb",
+  "projectId": "proj-mtaw1np6a98",
+  "manuscriptVersionId": "mv_b752d5db39f08f0a",
+  "contentHash": "b752d5db39f08f0a44696789ec2c0096c06a303c938b1abfd0a942433adeda74",
+  "title": "归途无岸",
+  "subtitle": "中国远征军的荣耀、代价与无声归途",
+  "authorDisplayName": "半两先生",
+  "description": "他们是盟军公认的卓越步兵，却也是大国博弈中被精密计算的消耗品。从滇缅公路的烽火到野人山的白骨，从兰姆伽的钢铁洪流到富国岛的漫长滞留，中国远征军的战史不仅是一部战场胜负录，更是一场以血肉换取国际地位的残酷交易。本书穿透宏大的胜利叙事，以三方一手档案互证，将镜头对准士兵的口粮、弹药与抚恤金。当指挥权让渡于盟友、后勤依附于外援，个体的英勇便成了体系缺失最尖锐的注脚。这不仅是对两次入缅作战的微观复盘，更是对数十万归途无岸者的迟来证词，揭示被胜利掩盖的结构性代价与战后遗忘。",
+  "category": "战争史",
+  "tags": [
+    "中国远征军",
+    "二战史",
+    "军事史",
+    "口述历史",
+    "滇缅战场",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 262042,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-27T06:53:59.075Z"
+  },
+  "editorReview": {
+    "text": "本书以‘以人力换取国际地位’这一核心命题贯穿始终，论证骨架清晰有力。尤其值得称道的是其对档案细节的运用：仰光港中方卸货周期12天与英军4天的对比、民工登记册上‘失踪’二字的无备注状态，这些微观证据使制度性压迫的判断不流于抽象。第29章将政策松动、学术推动与幸存者生命倒计时三股力量并置，分析记忆浮出的条件，展现了超越战役史的社会史视野。不过，全书在结构上存在可优化的空间：第1章与第2章关于滇缅公路封锁的材料高度重叠，造成约一万五千字的冗余；中段战斗章节（如第15-16章）战术描写密度虽高，但对‘为何同样缺陷反复出现’的追问稍显不足，分析层略薄。此外，终章试图同时完成历史回望、理论总结与记忆政治回应，功能过于集中，篇幅膨胀，若能拆分或可使论述更为精炼。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-28T03:05:26.275Z",
+    "textless": false,
+    "profileId": "archival-deep"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "生命线起于滇缅",
+      "units": 8662
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "南进阴影下的缅甸",
+      "units": 8364
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "英帝国防线之虚",
+      "units": 8368
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "重庆的出兵算盘",
+      "units": 7723
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "士兵底色与体系缺口",
+      "units": 8045
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "盟军初逢的裂缝",
+      "units": 7690
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "东京的南下按钮",
+      "units": 8817
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "仰光的陷落",
+      "units": 8390
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "同古：第一滴血",
+      "units": 8508
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "仁安羌：解围的代价",
+      "units": 7522
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "曼德勒：计划沦为废纸",
+      "units": 8430
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "败退的分水岭",
+      "units": 8008
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "野人山：白骨铺成的归途",
+      "units": 8117
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "钢铁开始流入兰姆伽",
+      "units": 9407
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "胡康河谷：反攻的逻辑",
+      "units": 10831
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "密支那：血肉堆出的跑道",
+      "units": 7905
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "滇西会师：两线夹击的叙事",
+      "units": 8153
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "胜利的暗面",
+      "units": 9195
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "战火熄灭时的离散者",
+      "units": 10590
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "归国者与不归者的分岔",
+      "units": 8228
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "富国岛的滞留之岸",
+      "units": 7519
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "遗忘从幸存者开始",
+      "units": 8033
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "泰缅边境的无岸岁月",
+      "units": 9102
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "归途尽头无岸无声",
+      "units": 9889
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "胜利叙事的分娩阵痛",
+      "units": 9149
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "内战熔炉中的番号消解",
+      "units": 9047
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "冷战铁幕下的记忆分流",
+      "units": 8691
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "幸存者的沉默契约",
+      "units": 8399
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "迟来的证词与历史的回响",
+      "units": 11519
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "归途无岸的历史回望",
+      "units": 9741
+    }
+  ],
+  "illustrations": 25,
+  "publishedAt": "2026-08-28T03:07:38.344Z"
+}
