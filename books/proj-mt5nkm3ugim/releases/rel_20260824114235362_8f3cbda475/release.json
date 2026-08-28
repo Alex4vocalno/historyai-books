@@ -39,10 +39,10 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-2a0e8f052926.jpg",
+    "file": "cover-fe633dba3356.png",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T08:24:22.672Z",
+    "model": "qwen/qwen-image-3",
+    "generatedAt": "2026-08-28T03:56:39.239Z",
     "textless": false,
     "sourceTextless": false
   },
@@ -649,5 +649,5 @@
     }
   ],
   "publishedAt": "2026-08-24T11:42:35.364Z",
-  "rerenderedAt": "2026-08-27T08:24:23.360Z"
+  "rerenderedAt": "2026-08-28T03:56:39.259Z"
 }
