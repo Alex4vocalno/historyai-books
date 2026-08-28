@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260828092048991_e9623ff4e7",
+  "projectId": "proj-mt8u9cftm0k",
+  "manuscriptVersionId": "mv_67d60737817d1239",
+  "contentHash": "67d60737817d12392bd8ab9a7a6eee94711f01b15d8910f7e098439b643f974c",
+  "title": "灵山局：取经办差实录",
+  "subtitle": "",
+  "authorDisplayName": "芝芝为荔枝",
+  "description": "天庭一纸诏书，西行取经的锦绣前程，实则是甩不掉的烫手黑锅。我，唐三藏，成了取经办主任，手下没一个省油的灯：刺头要哄，关系户得防，脏活累活总得有人干。这一路，降妖不靠法力，全靠人情世故——给土地爷递烟，跟龙王攀旧交，替菩萨背黑账，与妖王做利益交换。灵山脚下，每一步都是权责的迷宫，每一次劫难都是体制内的生存教学。当神话符号都转译成体制黑话，这场西行，究竟是功德圆满，还是另一场博弈的开始？",
+  "category": "小说",
+  "tags": [
+    "体制内生存",
+    "权谋博弈",
+    "职场神话",
+    "黑色幽默",
+    "官场现形记",
+    "西游新解"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 377415,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 83,
+    "method": "median-of-1",
+    "createdAt": "2026-08-28T09:12:53.379Z"
+  },
+  "editorReview": {
+    "text": "这本书最迷人的地方在于，它将神话彻底‘翻译’成了我们熟悉的现实肌理：紧箍咒是绩效文书，编制是终极追求，而取经路上的每一步，都成了体制内精妙的权力舞蹈。作者构建的这个官僚化西游世界极具说服力，唐三藏那套滴水不漏的官腔对白（‘按规程，我们需要先核对你的路引’）和白骨精对编制的卑微渴望（‘我只想不再当野妖了’），构成了全书最坚实、也最动人的声口。尤其是白骨精这条副线，从枯骨求道到面试被拒，情感真挚，细节扎实。不过，阅读中也确实能感觉到一些节奏上的滞涩，比如白骨精劝降的关键情节，从两个视角近乎重复地演绎了一遍，不免让中段的叙事效率打了折扣。瑕不掩瑜，这仍是一场别开生面、讽刺入骨的‘体制内’西行，灵山脚下，每一步都是人情世故的修罗场。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-28T09:20:14.968Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "诏书与黑锅",
+      "units": 10811
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "案牍如山",
+      "units": 10820
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "旧案疑云",
+      "units": 13091
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "五行山下",
+      "units": 13582
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "绩效整改",
+      "units": 11950
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "通天河畔",
+      "units": 6941
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "强闯龙宫",
+      "units": 14273
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "高老庄宴",
+      "units": 11562
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "龙王问责",
+      "units": 15968
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "私下协议",
+      "units": 13198
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "流沙界碑",
+      "units": 11055
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "沉默的河神",
+      "units": 9135
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "权责迷宫",
+      "units": 8651
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "白骨岭疑踪",
+      "units": 8274
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "编制执念",
+      "units": 9808
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "编制交易",
+      "units": 13785
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "玉盏旧痕",
+      "units": 8125
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "平顶山账目",
+      "units": 12360
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "兜率宫的压力",
+      "units": 11878
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "歧路抉择",
+      "units": 16063
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "技术性瑕疵",
+      "units": 10466
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "平流余波",
+      "units": 11702
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "狮驼岭风声",
+      "units": 12143
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "深夜推心",
+      "units": 10808
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "紧箍咒本质",
+      "units": 11486
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "火焰山问责",
+      "units": 12655
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "牛魔王的交易",
+      "units": 17061
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "承重",
+      "units": 14753
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "火海孤注",
+      "units": 13169
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "新秩序诞生",
+      "units": 11062
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "最后的博弈",
+      "units": 11023
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "定局之后",
+      "units": 9757
+    }
+  ],
+  "publishedAt": "2026-08-28T09:20:48.997Z",
+  "formFamily": "narrative"
+}

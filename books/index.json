@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt8u9cftm0k",
+    "projectId": "proj-mt8u9cftm0k",
+    "releaseId": "rel_20260828092048991_e9623ff4e7",
+    "title": "灵山局：取经办差实录",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "芝芝为荔枝",
+    "category": "小说",
+    "tags": [
+      "体制内生存",
+      "权谋博弈",
+      "职场神话",
+      "黑色幽默",
+      "官场现形记",
+      "西游新解"
+    ],
+    "description": "天庭一纸诏书，西行取经的锦绣前程，实则是甩不掉的烫手黑锅。我，唐三藏，成了取经办主任，手下没一个省油的灯：刺头要哄，关系户得防，脏活累活总得有人干。这一路，降妖不靠法力，全靠人情世故——给土地爷递烟，跟龙王攀旧交，替菩萨背黑账，与妖王做利益交换。灵山脚下，每一步都是权责的迷宫，每一次劫难都是体制内的生存教学。当神话符号都转译成体制黑话，这场西行，究竟是功德圆满，还是另一场博弈的开始？",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 83,
+      "method": "median-of-1",
+      "createdAt": "2026-08-28T09:12:53.379Z"
+    },
+    "coverUrl": "books/proj-mt8u9cftm0k/releases/rel_20260828092048991_e9623ff4e7/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mt8u9cftm0k/index.html",
+    "publishedAt": "2026-08-28T09:20:48.997Z",
+    "firstPublishedAt": "2026-08-28T09:20:48.997Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtccaizxxl7",
     "projectId": "proj-mtccaizxxl7",
     "releaseId": "rel_20260828070518777_151703826d",
