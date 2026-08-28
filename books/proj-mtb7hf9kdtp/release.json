@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260828024420380_fd446bcedb",
+  "projectId": "proj-mtb7hf9kdtp",
+  "manuscriptVersionId": "mv_a46872f5b2a9f8fe",
+  "contentHash": "a46872f5b2a9f8fe2d2ee3891a06769d591881ed580dcec560f7f8a707573223",
+  "title": "AI时代的学习重构",
+  "subtitle": "在算法舒适区外重建深度学习回路",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "当AI让英语学习变得异常省力，我们是否正陷入一种被外包的记忆幻觉？工具越便利，认知越容易在碎片流中产生熟练假象，被推荐算法圈养在舒适区内。真正的学习重构，不是寻找更高效的捷径，而是将AI作为放大元认知的外挂。从输入、输出到反馈，通过可验证的实验制造“必要难度”，把提问变成回路，用引导替代纠错。当工具相同而终点分岔，唯有守住不可外包的核心能力，才能在注意力预算的隐性成本中，设计出属于自己的深度学习闭环。",
+  "category": "个人成长",
+  "tags": [
+    "深度学习",
+    "元认知",
+    "AI教育",
+    "学习方法",
+    "认知科学",
+    "个人成长"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 17,
+    "units": 117156,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-28T01:51:18.558Z"
+  },
+  "editorReview": {
+    "text": "这本书最扎实的地方，是它用具体实验把“必要困难”这个认知概念做成了可操作的AI使用策略，比如第8章的线索模式实验，用数据清晰地展示了传统学习与AI辅助下的记忆效果差异，让读者能立刻理解并验证。它适合那些已经感受到AI学习工具便利性、但隐约担心自己思考能力被“外包”的读者，书中提供的自测和闭环设计方法，能帮你建立自己的深度学习回路。不过，书的中后段论证结构有些重复，几个章节的实验设计思路高度相似，读到后面可能会产生“框架疲劳”；此外，部分章节的文风不够稳定，句式和抽象度的波动会影响阅读节奏。如果你不介意这些结构上的小瑕疵，并且愿意动手验证书中的方法，它会是一本很有启发的指南。",
+    "penName": "一苇",
+    "title": "生活成长编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-27T14:26:15.943Z",
+    "textless": false,
+    "profileId": "dawn-object-warm",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "dawn-object-warm"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "从AI让英语学习变得异常省力的现场切入：一个学习",
+      "units": 6130
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "被外包的记忆幻觉",
+      "units": 6415
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "碎片流里的熟练假象",
+      "units": 8116
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "推荐算法圈出的舒适区",
+      "units": 6510
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "学习回路的四步闭环",
+      "units": 8730
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "外挂要装在元认知上",
+      "units": 5566
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "提问即回路",
+      "units": 6722
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "不要翻译，要线索",
+      "units": 7082
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "必要难度的制造机",
+      "units": 7840
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "假装你要教会它",
+      "units": 6311
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "纠错不如引导",
+      "units": 6076
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "同一本教材，两种回路",
+      "units": 6699
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "工具相同，终点分岔",
+      "units": 6831
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "社会压力下的回路变形",
+      "units": 9155
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "把实验变成日常回路",
+      "units": 7370
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "注意力预算里的隐性成本",
+      "units": 5484
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "不可外包的三种能力",
+      "units": 6119
+    }
+  ],
+  "illustrations": 5,
+  "publishedAt": "2026-08-28T02:44:20.428Z",
+  "formFamily": "method"
+}
