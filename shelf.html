@@ -48,7 +48,8 @@
 </div>
 <script>
 (function(){
-  var main=document.getElementById('me').parentNode.querySelector('#main');
+  // v5.59.1 直取 #main（v5.59 外壳把 #me 移进 page-head，parentNode 同级假设失效=书架卡死实弹）
+  var main=document.getElementById('main');
   function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
   function readHref(r){
     if(r.releaseId&&Number(r.chapter)>=0)return '/books/'+encodeURIComponent(r.bookId)+'/releases/'+encodeURIComponent(r.releaseId)+'/ch-'+(Number(r.chapter)+1)+'.html';

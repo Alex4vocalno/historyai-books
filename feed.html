@@ -22,13 +22,22 @@
 @media(max-width:720px){.topbar-inner{padding:0 14px}.topbar .brand-cn{display:none}.topbar-link{padding:0 9px}.page-head{padding:24px 16px 0}.page-head h1{font-size:25px}}
 .wrap{max-width:860px;margin:0 auto;padding:22px 20px 84px}
 .sect{margin:30px 0 12px;font-family:var(--serif);font-size:19px;font-weight:800}
-.frow{padding:13px 16px;margin-bottom:10px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
-.frow .who{font-size:13px;color:var(--muted)}
-.frow .who b{color:var(--ink)}
+.frow{display:flex;gap:14px;padding:16px 18px;margin-bottom:12px;border:1px solid var(--line);border-radius:12px;background:var(--panel);box-shadow:0 1px 3px rgba(24,32,29,.05);transition:transform .16s,box-shadow .16s,border-color .16s}
+.frow:hover{transform:translateY(-2px);border-color:#b9d9cc;box-shadow:0 10px 24px rgba(24,32,29,.09)}
+.frow .cv{flex:none;display:block;width:52px;aspect-ratio:2/3;border-radius:4px;overflow:hidden;background:#23302d;box-shadow:0 3px 9px rgba(0,0,0,.16)}
+.frow .cv img{width:100%;height:100%;object-fit:cover;display:block}
+.frow .bd{min-width:0;flex:1}
+.frow .who{font-size:14px;color:var(--muted)}
+.frow .who b{color:var(--ink);font-size:15px}
 .frow .who .stars{color:var(--gold)}
-.frow .quote{margin:7px 0 0;padding:6px 12px;border-left:3px solid var(--accent);color:var(--muted);font-size:13px;line-height:1.7}
-.frow .txt{margin:7px 0 0;font-size:14.5px;line-height:1.75}
-.frow a.bk{color:var(--accent);text-decoration:none}
+.frow .quote{margin:9px 0 0;padding:7px 13px;border-left:3px solid var(--accent);color:var(--muted);font-size:14px;line-height:1.8;font-family:var(--serif)}
+.frow .txt{margin:9px 0 0;font-size:15.5px;line-height:1.85}
+.frow a.bk{color:var(--green-dark);text-decoration:none;font-weight:700}
+.latest-strip{display:grid;grid-auto-flow:column;grid-auto-columns:96px;gap:16px;overflow-x:auto;padding:6px 2px 14px}
+.latest-strip a{display:block;width:96px}
+.latest-strip .lc{aspect-ratio:2/3;border-radius:5px;overflow:hidden;background:#23302d;box-shadow:0 6px 16px rgba(0,0,0,.16)}
+.latest-strip .lc img{width:100%;height:100%;object-fit:cover;display:block}
+.latest-strip .lt{margin-top:8px;font-size:12.5px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .board{margin-top:8px;border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden}
 .brow{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:14px}
 .brow:last-child{border-bottom:0}
@@ -42,6 +51,9 @@
 <header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link" href="/shelf.html">我的书架</a><a class="topbar-link active" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a></span></div></header>
 <div class="page-head"><h1>社区动态</h1><p class="lede">全站读者的想法、书评与阅读足迹 · <a href="#board" style="color:var(--green-dark)">读书周榜 ↓</a></p></div>
 <div class="wrap">
+  <div id="latestSect" class="sect" hidden>新上架</div>
+  <div id="latest" class="latest-strip" hidden></div>
+  <div class="sect">最新动态</div>
   <div id="feed"><div class="empty">正在加载动态…</div></div>
   <div class="sect" id="board">本周读书榜</div>
   <div id="boardBox" class="board"><div class="empty">加载中…</div></div>
@@ -51,11 +63,26 @@
   function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
   function bookLink(r){var a=el('a','bk','《'+(r.bookTitle||r.bookId)+'》');a.href='/books/'+encodeURIComponent(r.bookId)+'/';return a;}
   fetch('/api/reader/feed').then(function(r){return r.json();}).then(function(d){
+    // v5.59.1 新上架条（总账倒序前 8，带封面）
+    var latest=(d&&d.latest)||[];
+    if(latest.length){
+      var ls=document.getElementById('latest');ls.hidden=false;document.getElementById('latestSect').hidden=false;
+      latest.forEach(function(b){
+        var a=el('a');a.href='/books/'+encodeURIComponent(b.bookId)+'/';
+        var cv=el('div','lc');
+        if(b.cover){var im=document.createElement('img');im.loading='lazy';im.src=b.cover;im.alt=b.title||'';cv.appendChild(im);}
+        a.appendChild(cv);a.appendChild(el('div','lt',b.title||''));
+        ls.appendChild(a);
+      });
+    }
     var box=document.getElementById('feed');box.innerHTML='';
     var rows=(d&&d.rows)||[];
     if(!rows.length){box.appendChild(el('div','empty','还没有动态。去读一本书，划下第一条想法。'));return;}
     rows.forEach(function(r){
       var c=el('div','frow');
+      // v5.59.1 封面缩略：动态行带书封，点击进书页
+      if(r.cover){var cva=el('a','cv');cva.href='/books/'+encodeURIComponent(r.bookId)+'/';var cvi=document.createElement('img');cvi.loading='lazy';cvi.src=r.cover;cvi.alt=r.bookTitle||'';cva.appendChild(cvi);c.appendChild(cva);}
+      var bd=el('div','bd');
       var who=el('div','who');
       var b=el('b','',r.name||'读者');who.appendChild(b);
       var verb=r.type==='review'?' 点评了 ':(r.type==='finished'?' 读完了 ':' 在 ');
@@ -64,9 +91,10 @@
       if(r.type==='note')who.appendChild(document.createTextNode(' 留下想法'));
       if(r.type==='review'&&r.rating){var st=el('span','stars',' '+'★'.repeat(r.rating));who.appendChild(st);}
       who.appendChild(document.createTextNode(' · '+String(r.at||'').slice(0,10)));
-      c.appendChild(who);
-      if(r.quote)c.appendChild(el('div','quote',r.quote));
-      if(r.text)c.appendChild(el('div','txt',r.text));
+      bd.appendChild(who);
+      if(r.quote)bd.appendChild(el('div','quote',r.quote));
+      if(r.text)bd.appendChild(el('div','txt',r.text));
+      c.appendChild(bd);
       box.appendChild(c);
     });
   }).catch(function(){document.getElementById('feed').innerHTML='<div class="empty">动态暂时打不开。</div>';});
