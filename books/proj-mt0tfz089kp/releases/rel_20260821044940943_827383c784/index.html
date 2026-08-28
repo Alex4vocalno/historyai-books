@@ -5,6 +5,8 @@
 @media(max-width:720px){.sitebar-inner{padding:0 16px}.sitebar nav{margin-left:auto}.page{padding:28px 17px 60px}}
 
   .book-hero{display:grid;grid-template-columns:minmax(220px,270px) minmax(0,1fr);gap:54px;align-items:start}.book-main{padding-top:6px}.eyebrow{margin:0 0 14px;color:var(--green);font-size:13.5px;font-weight:800}.book-main h1{margin:0;font-family:var(--serif);font-size:39px;line-height:1.35;letter-spacing:0}.subtitle{margin:11px 0 0;color:var(--muted);font-family:var(--serif);font-size:21px}.author{margin:22px 0 0;font-size:15.5px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.rating{display:flex;align-items:center;gap:14px;margin-top:26px}.rating strong{color:var(--gold);font-family:Georgia,serif;font-size:36px}.rating span,.rating-empty{color:var(--muted);font-size:13.5px}.rating-empty{margin-top:24px}
+  .social-stats{margin-top:14px;color:var(--muted);font-size:13.5px;display:flex;gap:14px;flex-wrap:wrap}
+  .social-stats strong{color:var(--ink);font-variant-numeric:tabular-nums}
   .reader-rating{margin-top:22px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:430px}
   .reader-rating[hidden],.reader-rating-empty[hidden]{display:none}
   .rr-head{display:flex;align-items:center;gap:12px}
@@ -27,7 +29,7 @@
   .editor-review p{margin:0;font-family:var(--serif);font-size:15.5px;line-height:1.95;color:#39403e}
   .editor-review .er-byline{margin-top:12px;font-family:var(--sans);font-size:13px;color:var(--muted);text-align:right}
   @media(max-width:720px){.book-hero{grid-template-columns:118px minmax(0,1fr);gap:20px}.editor-review{grid-column:1/-1}.book-main h1{font-size:25px}.subtitle{font-size:15.5px}.cover-copy{padding:42px 10px 12px}.cover-copy h2{font-size:16px}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:9px}.author{margin-top:13px}.meta{margin-top:13px}.rating{margin-top:16px}.actions{grid-column:1/-1}.description{grid-column:1/-1;margin-top:26px}.chapter-grid{grid-template-columns:1fr}}
-  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../../../index.html">书架</a></nav></div></header><main class="page"><section class="book-hero"><div class="cover-art" style="--cover-tone:hsl(205 28% 24%)"><img src="cover-c960e551b25d.svg" alt="《灯火与炊烟：中国古代日常生活的城乡分野》封面"></div><div class="book-main"><p class="eyebrow">中国史 · 中文</p><h1>灯火与炊烟：中国古代日常生活的城乡分野</h1><p class="subtitle">从唐宋到明清，一碗夜宵里的城乡中国</p><p class="author"><a class="author-link" href="../../../../author-b58ad26c36.html">李德诺富特斯基</a></p><div class="meta"><span class="pill">中国古代社会生活</span><span class="pill">城乡差异</span><span class="pill">饮食史</span><span class="pill">唐宋明清</span><span class="pill">夜间经济</span><span class="pill">15 章</span><span class="pill">138,200 字</span></div><div class="rating"><strong>8.8</strong><div><span>编辑评分</span><div class="rating-bar"><i style="width:88%"></i></div></div></div><div class="reader-rating" data-reader-rating hidden>
+  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../../../index.html">书架</a></nav></div></header><main class="page"><section class="book-hero"><div class="cover-art" style="--cover-tone:hsl(205 28% 24%)"><img src="cover-054e51615fae.svg" alt="《灯火与炊烟：中国古代日常生活的城乡分野》封面"></div><div class="book-main"><p class="eyebrow">中国史 · 中文</p><h1>灯火与炊烟：中国古代日常生活的城乡分野</h1><p class="subtitle">从唐宋到明清，一碗夜宵里的城乡中国</p><p class="author"><a class="author-link" href="../../../../author-b58ad26c36.html">李德诺富特斯基</a></p><div class="meta"><span class="pill">中国古代社会生活</span><span class="pill">城乡差异</span><span class="pill">饮食史</span><span class="pill">唐宋明清</span><span class="pill">夜间经济</span><span class="pill">15 章</span><span class="pill">138,200 字</span></div><div class="rating"><strong>8.8</strong><div><span>编辑评分</span><div class="rating-bar"><i style="width:88%"></i></div></div></div><div class="social-stats" data-social-stats hidden></div><div class="reader-rating" data-reader-rating hidden>
     <div class="rr-head"><strong class="rr-avg" data-rr-avg></strong><div><span class="rr-stars" data-rr-stars></span><span class="rr-count" data-rr-count></span></div></div>
     <div class="rr-bars" data-rr-bars></div>
     <p class="rr-notes" data-rr-notes></p>
@@ -81,4 +83,20 @@
         else if(d&&d.code==='AUTH_REQUIRED'){alert(EN?'Sign in from the library to use your shelf':'回书库登录后即可使用书架')}
       }).catch(function(){});
   })});
+})();</script>
+<script>(function(){
+  var box=document.querySelector('[data-social-stats]');
+  var bid="proj-mt0tfz089kp";
+  if(!box||!bid)return;
+  fetch('/api/social/book-stats?ids='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok&&d.stats&&d.stats[bid]))return;
+    var s=d.stats[bid];
+    if(!(s.read||s.reading||s.wishlist))return;
+    var parts=[];
+    if(s.read)parts.push('<span><strong>'+s.read+'</strong> 人读过</span>');
+    if(s.reading)parts.push('<span><strong>'+s.reading+'</strong> 人在读</span>');
+    if(s.wishlist)parts.push('<span><strong>'+s.wishlist+'</strong> 人想读</span>');
+    box.innerHTML=parts.join('');
+    box.hidden=false;
+  }).catch(function(){});
 })();</script></div><section class="description"><h2>内容简介</h2><p>古代城市入夜后，坊墙内外是两重天地：一边是灯火通明的夜市，馄饨、滴酥鲍螺与煎茶在叫卖声中流转；另一边，乡村灶膛的余烬映着最后一碗粟米粥，星月是唯一的照明。本书以夜宵与日常饮食为线索，穿梭于唐宋至明清的城乡之间，揭示城市夜间消费如何被商业逻辑驱动，而农村生活始终受制于自然节律。从暮鼓敲响的宵禁时刻，到深巷里挑担小贩的悠长吆喝；从闺阁中私藏的炭火小炉，到岁时节庆里城乡共享的灯火——每一章都以一件食物或一个时辰切入，将食谱与方志、笔记与案牍对读，还原古代普通人如何在时间秩序与社会结构的差异中，过着截然不同的夜晚。这不是一部泛谈饮食风物的随笔，而是一次对古代城乡分野的深层探问。</p></section></section><section class="catalog"><div class="catalog-head"><h2>目录</h2><span>共 15 章</span></div><div class="chapter-grid"><a class="chapter-row" href="ch-1.html"><span>第 01 章</span><span>暮鼓之后</span></a><a class="chapter-row" href="ch-2.html"><span>第 02 章</span><span>坊墙内外</span></a><a class="chapter-row" href="ch-3.html"><span>第 03 章</span><span>星月为灯</span></a><a class="chapter-row" href="ch-4.html"><span>第 04 章</span><span>夜市初开</span></a><a class="chapter-row" href="ch-5.html"><span>第 05 章</span><span>灶火余温</span></a><a class="chapter-row" href="ch-6.html"><span>第 06 章</span><span>一灯如豆</span></a><a class="chapter-row" href="ch-7.html"><span>第 07 章</span><span>杯盘照夜</span></a><a class="chapter-row" href="ch-8.html"><span>第 08 章</span><span>深巷叫卖</span></a><a class="chapter-row" href="ch-9.html"><span>第 09 章</span><span>岁时灯火</span></a><a class="chapter-row" href="ch-10.html"><span>第 10 章</span><span>守夜之人</span></a><a class="chapter-row" href="ch-11.html"><span>第 11 章</span><span>闺阁夜炊</span></a><a class="chapter-row" href="ch-12.html"><span>第 12 章</span><span>碗底余烬</span></a><a class="chapter-row" href="ch-13.html"><span>第 13 章</span><span>电灯照破旧时月</span></a><a class="chapter-row" href="ch-14.html"><span>第 14 章</span><span>食谱与方志之间</span></a><a class="chapter-row" href="ch-15.html"><span>第 15 章</span><span>灶火不熄</span></a></div></section></main><script>(function(){var button=document.querySelector('[data-continue-reading]');if(!button)return;try{var state=JSON.parse(localStorage.getItem("historyai.reader.proj-mt0tfz089kp")||'{}');if(state&&state.href){button.href=state.href;button.textContent='继续阅读 · 第 '+(Number(state.chapter)+1)+' 章'}}catch(e){}})();</script></body></html>
