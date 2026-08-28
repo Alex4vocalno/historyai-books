@@ -24,13 +24,21 @@
 .me{color:var(--muted);font-size:13.5px;margin:0}
 .sect{margin:30px 0 12px;font-family:var(--serif);font-size:19px;font-weight:800}
 .sect small{color:var(--muted);font-weight:400;margin-left:8px}
-.card{display:flex;align-items:center;gap:14px;padding:15px 17px;margin-bottom:10px;border:1px solid var(--line);border-radius:12px;background:var(--panel);box-shadow:0 1px 3px rgba(24,32,29,.05);transition:transform .16s,box-shadow .16s,border-color .16s}
-.card:hover{transform:translateY(-2px);border-color:#b9d9cc;box-shadow:0 10px 24px rgba(24,32,29,.09)}
-.card .info{min-width:0;flex:1}
-.card .t{font-size:16px;font-weight:800;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.card .s{margin-top:4px;color:var(--muted);font-size:13px}
-.card a.go{flex:none;min-height:36px;display:inline-flex;align-items:center;padding:0 16px;border:0;border-radius:18px;background:var(--accent);color:#fff;font-size:13.5px;font-weight:800;text-decoration:none}
-.card button.rm{flex:none;border:0;background:none;color:var(--muted);font-size:13px;cursor:pointer}
+/* v5.60 封面墙（用户定调：微信读书式按封面排列，不是文字列表） */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:26px 20px}
+.card{display:block;min-width:0}
+.card .cv{position:relative;display:block;aspect-ratio:2/3;border-radius:5px;overflow:hidden;background:#23302d;box-shadow:0 8px 20px rgba(28,38,34,.16);transition:transform .16s,box-shadow .16s}
+.card .cv:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(28,38,34,.24)}
+.card .cv img{width:100%;height:100%;object-fit:cover;display:block}
+.card .cv .ph{position:absolute;inset:0;display:grid;place-items:center;color:#e8e2d2;font-family:var(--serif);font-size:15px;padding:12px;text-align:center;line-height:1.6}
+.card .cv .done{position:absolute;top:8px;right:8px;min-height:22px;display:inline-flex;align-items:center;padding:0 8px;border-radius:11px;background:rgba(7,155,107,.92);color:#fff;font-size:11px;font-weight:800}
+.card .pbar{position:absolute;left:0;right:0;bottom:0;height:4px;background:rgba(255,255,255,.28)}
+.card .pbar i{display:block;height:100%;background:var(--green)}
+.card .t{margin-top:9px;font-size:12.5px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .s{margin-top:3px;color:var(--muted);font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .acts{margin-top:5px;display:flex;gap:10px}
+.card .acts button{border:0;background:none;padding:0;color:var(--muted);font-size:11.5px;cursor:pointer}
+.card .acts button:hover{color:var(--green-dark)}
 .empty{padding:40px 0;color:var(--muted);text-align:center;font-size:14.5px;line-height:2}
 .empty a{color:var(--accent)}
 .nrow{display:flex;gap:10px;align-items:baseline;padding:9px 14px;margin-bottom:6px;border:1px solid var(--line);border-radius:9px;background:var(--panel);font-size:13.5px}
@@ -38,7 +46,7 @@
 .nrow .nt{color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .nrow .nt b{color:var(--ink)}
 .nrow a{flex:none;color:var(--accent);text-decoration:none;font-size:13px}
-@media(max-width:620px){.wrap{padding:18px 14px 60px}.card{padding:13px;align-items:flex-start;flex-wrap:wrap}.card .info{flex-basis:100%}.card a.go{flex:1;justify-content:center}.card button.rm{min-height:34px}}
+@media(max-width:620px){.wrap{padding:18px 14px 60px}.grid{grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:20px 14px}.card .acts button{min-height:30px}}
 </style></head><body>
 <header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html">我的书架</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a></span></div></header>
 <div class="page-head"><h1>我的书架</h1><p class="lede me" id="me"></p></div>
@@ -55,28 +63,30 @@
     if(r.releaseId&&Number(r.chapter)>=0)return '/books/'+encodeURIComponent(r.bookId)+'/releases/'+encodeURIComponent(r.releaseId)+'/ch-'+(Number(r.chapter)+1)+'.html';
     return '/books/'+encodeURIComponent(r.bookId)+'/';
   }
+  // v5.60 封面墙：书架格=封面（点击续读）+进度条+读完角标+两个小动作
   function card(r){
     var c=el('div','card');
-    var info=el('div','info');
-    info.appendChild(el('div','t',r.title||'（书目已下架）'));
+    var cv=el('a','cv');cv.href=readHref(r);
+    if(r.cover){var im=document.createElement('img');im.loading='lazy';im.src=r.cover;im.alt=r.title||'';cv.appendChild(im);}
+    else{cv.appendChild(el('span','ph',r.title||'（书目已下架）'));}
+    if(r.status==='finished')cv.appendChild(el('span','done','读完 ✓'));
     var pct=(r.n&&Number(r.chapter)>=0)?Math.min(100,Math.round((Number(r.chapter)+1)/r.n*100)):null;
-    var sub=r.status==='finished'?'已读完 ✓':(r.status==='wishlist'?'想读':('读到 '+(r.chapterTitle||('第'+(Number(r.chapter)+1)+'章'))+(pct!=null?' · '+pct+'%':'')));
-    info.appendChild(el('div','s',sub+(r.updatedAt?' · '+String(r.updatedAt).slice(0,10):'')));
-    c.appendChild(info);
-    var go=el('a','go',r.status==='wishlist'?'开始读':(r.status==='finished'?'再读':'继续读'));
-    var fin=null;
-    if(r.status==='reading'){fin=el('button','rm','标记读完');fin.style.color='var(--accent)';
-      fin.addEventListener('click',function(ev){ev.preventDefault();ev.stopPropagation();
-        fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:r.bookId,title:r.title||'',status:'finished'})}).then(function(){location.reload()});
-      });}
-    go.href=readHref(r);c.appendChild(go);
-    if(fin)c.appendChild(fin);
-    var rm=el('button','rm','移出');
+    if(r.status==='reading'&&pct!=null){var pb=el('span','pbar');var pi=document.createElement('i');pi.style.width=pct+'%';pb.appendChild(pi);cv.appendChild(pb);}
+    c.appendChild(cv);
+    c.appendChild(el('div','t',r.title||'（书目已下架）'));
+    var sub=r.status==='finished'?'已读完':(r.status==='wishlist'?'想读':(pct!=null?('读到 '+pct+'%'):'在读'));
+    c.appendChild(el('div','s',sub+(r.updatedAt?' · '+String(r.updatedAt).slice(5,10):'')));
+    var acts=el('div','acts');
+    if(r.status==='reading'){var fin=el('button','','标记读完');
+      fin.onclick=function(){fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:r.bookId,title:r.title||'',status:'finished'})}).then(function(){location.reload()});};
+      acts.appendChild(fin);}
+    var rm=el('button','','移出');
     rm.onclick=function(){
       fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:r.bookId,status:'remove'})})
         .then(function(x){return x.json();}).then(function(d){if(d&&d.ok)c.remove();});
     };
-    c.appendChild(rm);
+    acts.appendChild(rm);
+    c.appendChild(acts);
     return c;
   }
   fetch('/api/reader/shelf',{credentials:'same-origin'}).then(function(r){
@@ -93,7 +103,9 @@
       if(!list.length)return;
       var h=el('div','sect',g[1]);h.appendChild(el('small','',String(list.length)+' 本'));
       main.appendChild(h);
-      list.forEach(function(r){main.appendChild(card(r));});
+      var grid=el('div','grid');
+      list.forEach(function(r){grid.appendChild(card(r));});
+      main.appendChild(grid);
     });
     fetch('/api/reader/profile',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null;}).then(function(p){
       if(p&&p.ok)document.getElementById('me').textContent=p.profile.name+' · 读完 '+p.profile.shelf.finished+' 本 · 想法 '+p.profile.notes+' 条 · 书评 '+p.profile.reviews+' 条';
