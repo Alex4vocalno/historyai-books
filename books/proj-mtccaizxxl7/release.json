@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260828070518777_151703826d",
+  "projectId": "proj-mtccaizxxl7",
+  "manuscriptVersionId": "mv_29c5f65c13be0dbd",
+  "contentHash": "29c5f65c13be0dbd6c8b97e48f99dbe131f38c80fcd34a8db04012b0def74f9c",
+  "title": "东渡",
+  "subtitle": "秦帝国海洋动员的压力测试与记忆重构",
+  "authorDisplayName": "半两先生",
+  "description": "公元前219年，徐福率众入海，这不仅是方士求仙的荒诞剧，更是秦帝国将海洋纳入郡县制逻辑的首次极限测试。当帝王的永生执念撞上季风、洋流与楼船载重，一场关于运力、粮道与人口征发的精密算计便在波涛中崩解。从琅琊台下的陌生面孔到列岛上的归化谱系，三千童男女不再是传说符号，而是被制度碾过的具体生命。本书拂去后世民族叙事的层累，以物资、文书与考古证词为锚，还原那场消失在海雾中的国家动员，看一个陆地帝国如何在认知与后勤的双重断裂中，触碰海洋的真实边界。",
+  "category": "中国史",
+  "tags": [
+    "秦汉史",
+    "海洋史",
+    "徐福东渡",
+    "历史考据",
+    "东亚交流",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 259918,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 87,
+    "method": "median-of-1",
+    "createdAt": "2026-08-28T06:07:44.528Z"
+  },
+  "editorReview": {
+    "text": "这本《东渡》的扎实程度令人印象深刻，它成功地将徐福传说锚定在秦帝国的行政逻辑中，而非止步于神话想象。全书的论证骨架立得住，从琅琊台碑文的“东有东海”四字破题，串联起木牍文书、楼船造价、粮草核算乃至漂流物考古，层层收紧，最终指向“海还给了海”这一冷静收束。尤其精彩的是第15章处理海上风暴中的临时祭祀，将官方祭祀语法的缺席、民间信仰的碎片与船上自发仪式并置，清晰揭示了信仰体系在极端环境下的瓦解与重建，微观叙事中见出宏观张力。不过，阅读时需注意，部分章节如第2章中段的行政流程罗列，句式趋同，推进略显平铺；此外，书中对伪档案或推演性叙述的边界处理，在主观阅读感受上偶有模糊，在一定程度上影响了史料论证的纯粹感。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-28T07:05:01.779Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "琅琊台下的陌生人",
+      "units": 8437
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "海上方士的账簿",
+      "units": 9816
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "楼船考",
+      "units": 8346
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "三千童男女的算术",
+      "units": 9392
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "出发港的层累",
+      "units": 8602
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "季风知道答案",
+      "units": 9594
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "一纸诏书入齐地",
+      "units": 8476
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "装到吃水线的船",
+      "units": 11752
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "外海的折返点",
+      "units": 11182
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "大鲛鱼的说辞",
+      "units": 8641
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "连弩射鱼之巡",
+      "units": 8207
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "沙丘之后的东渡",
+      "units": 8183
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "海上粮道",
+      "units": 10148
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "童男女的指甲缝",
+      "units": 7647
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "海神的语法",
+      "units": 8100
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "漂流物的证词",
+      "units": 8758
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "倭人传的倒叙",
+      "units": 8102
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "归化人的谱系",
+      "units": 8062
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "海雾中的最后航迹",
+      "units": 8885
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "不归人的户籍",
+      "units": 7382
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "二世朝廷的沉默",
+      "units": 7745
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "汉初的碎片回响",
+      "units": 8511
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "乐浪郡的视线",
+      "units": 7905
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "列岛上的秦人村",
+      "units": 8642
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "正史中的最后一笔",
+      "units": 8624
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "遣唐使的镜像投射",
+      "units": 8947
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "熊野的香火",
+      "units": 7393
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "民族叙事的锻造",
+      "units": 7690
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "考古学沉默的证词",
+      "units": 8938
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "海还给了海",
+      "units": 7811
+    }
+  ],
+  "illustrations": 13,
+  "publishedAt": "2026-08-28T07:05:18.817Z",
+  "formFamily": "narrative"
+}

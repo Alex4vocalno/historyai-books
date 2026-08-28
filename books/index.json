@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtccaizxxl7",
+    "projectId": "proj-mtccaizxxl7",
+    "releaseId": "rel_20260828070518777_151703826d",
+    "title": "东渡",
+    "subtitle": "秦帝国海洋动员的压力测试与记忆重构",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "半两先生",
+    "category": "中国史",
+    "tags": [
+      "秦汉史",
+      "海洋史",
+      "徐福东渡",
+      "历史考据",
+      "东亚交流",
+      "中国史"
+    ],
+    "description": "公元前219年，徐福率众入海，这不仅是方士求仙的荒诞剧，更是秦帝国将海洋纳入郡县制逻辑的首次极限测试。当帝王的永生执念撞上季风、洋流与楼船载重，一场关于运力、粮道与人口征发的精密算计便在波涛中崩解。从琅琊台下的陌生面孔到列岛上的归化谱系，三千童男女不再是传说符号，而是被制度碾过的具体生命。本书拂去后世民族叙事的层累，以物资、文书与考古证词为锚，还原那场消失在海雾中的国家动员，看一个陆地帝国如何在认知与后勤的双重断裂中，触碰海洋的真实边界。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 87,
+      "method": "median-of-1",
+      "createdAt": "2026-08-28T06:07:44.528Z"
+    },
+    "coverUrl": "books/proj-mtccaizxxl7/releases/rel_20260828070518777_151703826d/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtccaizxxl7/index.html",
+    "publishedAt": "2026-08-28T07:05:18.817Z",
+    "firstPublishedAt": "2026-08-28T07:05:18.817Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtb92woeb5s",
     "projectId": "proj-mtb92woeb5s",
     "releaseId": "rel_20260828062007005_c5c9b147ff",
