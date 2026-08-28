@@ -32,13 +32,12 @@
     "createdAt": ""
   },
   "cover": {
-    "file": "cover-ef5fcfe5a337.svg",
+    "file": "cover-117cf2cd0b2b.png",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-28T02:32:21.352Z",
+    "model": "qwen/qwen-image-3",
+    "generatedAt": "2026-08-28T05:27:42.533Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -133,5 +132,5 @@
     }
   ],
   "publishedAt": "2026-08-24T00:32:24.744Z",
-  "rerenderedAt": "2026-08-28T02:32:21.369Z"
+  "rerenderedAt": "2026-08-28T05:27:42.547Z"
 }
