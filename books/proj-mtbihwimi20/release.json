@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260828032102785_9d50538f42",
+  "projectId": "proj-mtbihwimi20",
+  "manuscriptVersionId": "mv_5e8bba48bd9fa7e1",
+  "contentHash": "5e8bba48bd9fa7e1271804489f5624556fa9e5be65a9cabed26df28a03e130e4",
+  "title": "野猪共和国",
+  "subtitle": "一部美国生态治理的失败史",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "十六世纪西班牙殖民者带来的家畜，如今已演变为每年吞噬二十五亿美元的生态梦魇。这并非单纯的自然失衡，而是土地制度、狩猎文化与联邦州权博弈共同制造的治理困局。从沼泽深处的猎手到华盛顿的政策制定者，六个关键转折点串起人猪冲突的百年纠葛。当直升机扫射与避孕疫苗轮番上阵，野猪依然在北纬四十度的农田里横行。这不仅是一部物种入侵史，更是一面镜子，映照出人类试图“管理”自然时的傲慢与失效，以及隐藏在枪声、铁丝网与野味市场背后的共和国裂痕。",
+  "category": "自然博物",
+  "tags": [
+    "环境史",
+    "美国史",
+    "生态治理",
+    "非虚构",
+    "物种入侵",
+    "自然博物"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 153168,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-2",
+    "createdAt": "2026-08-28T00:27:47.134Z"
+  },
+  "editorReview": {
+    "text": "从猎手夜候的栅栏边，到一本旧账本的纸页间，这本书最动人的地方，是它总能从一个具体的触感或瞬间，稳稳地引向制度与结构的层面。比如猎手自造的‘栅栏效应’——铁丝网困住的不是野猪，而是人——这个洞察既贴合人物视角，又精准地抽象出产权碎片化如何使集体行动成为泡影，避免了学术腔却不失锐度。不过，中部某些章节的叙述节奏稍显机械，句子开头的重复削弱了微观史应有的呼吸感；个别以档案口吻呈现的内心活动，若未标注来源，对一部以档案重建为生命线的作品而言，多少会动摇其‘有据可查’的根基。",
+    "penName": "青梧",
+    "title": "博物编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-28T03:20:38.880Z",
+    "textless": false,
+    "profileId": "sci-instrument-vintage",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "sci-instrument-vintage"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "枪声里的算术",
+      "units": 6564
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "猪的航海图",
+      "units": 7338
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "自由放牧的边界",
+      "units": 7867
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "栅栏法案与血的代价",
+      "units": 7521
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "沼泽里的帝国",
+      "units": 9663
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "直升机与选票",
+      "units": 8294
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "胃里的合众国",
+      "units": 6685
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "声母群",
+      "units": 10129
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "泥土之下",
+      "units": 8075
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "玉米带的账本",
+      "units": 7349
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "猎犬、铁丝网与病毒",
+      "units": 7386
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "狩猎经济的悖论",
+      "units": 7629
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "陷阱里的手艺",
+      "units": 7249
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "野味共和国的屠夫",
+      "units": 6584
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "保护区里的枪声",
+      "units": 6738
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "铁丝网两侧的邻居",
+      "units": 7387
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "北纬四十度的防火墙",
+      "units": 8774
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "镜子里的共和国",
+      "units": 7343
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "避孕疫苗与猎枪的拉锯",
+      "units": 7004
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "野猪共和国的一日",
+      "units": 7589
+    }
+  ],
+  "illustrations": 20,
+  "publishedAt": "2026-08-28T03:21:02.819Z",
+  "formFamily": "survey"
+}
