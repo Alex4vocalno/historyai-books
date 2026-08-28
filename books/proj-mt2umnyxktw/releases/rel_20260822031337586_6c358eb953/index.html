@@ -5,6 +5,8 @@
 @media(max-width:720px){.sitebar-inner{padding:0 16px}.sitebar nav{margin-left:auto}.page{padding:28px 17px 60px}}
 
   .book-hero{display:grid;grid-template-columns:minmax(220px,270px) minmax(0,1fr);gap:54px;align-items:start}.book-main{padding-top:6px}.eyebrow{margin:0 0 14px;color:var(--green);font-size:13.5px;font-weight:800}.book-main h1{margin:0;font-family:var(--serif);font-size:39px;line-height:1.35;letter-spacing:0}.subtitle{margin:11px 0 0;color:var(--muted);font-family:var(--serif);font-size:21px}.author{margin:22px 0 0;font-size:15.5px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.rating{display:flex;align-items:center;gap:14px;margin-top:26px}.rating strong{color:var(--gold);font-family:Georgia,serif;font-size:36px}.rating span,.rating-empty{color:var(--muted);font-size:13.5px}.rating-empty{margin-top:24px}
+  .social-stats{margin-top:14px;color:var(--muted);font-size:13.5px;display:flex;gap:14px;flex-wrap:wrap}
+  .social-stats strong{color:var(--ink);font-variant-numeric:tabular-nums}
   .reader-rating{margin-top:22px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:430px}
   .reader-rating[hidden],.reader-rating-empty[hidden]{display:none}
   .rr-head{display:flex;align-items:center;gap:12px}
@@ -27,7 +29,7 @@
   .editor-review p{margin:0;font-family:var(--serif);font-size:15.5px;line-height:1.95;color:#39403e}
   .editor-review .er-byline{margin-top:12px;font-family:var(--sans);font-size:13px;color:var(--muted);text-align:right}
   @media(max-width:720px){.book-hero{grid-template-columns:118px minmax(0,1fr);gap:20px}.editor-review{grid-column:1/-1}.book-main h1{font-size:25px}.subtitle{font-size:15.5px}.cover-copy{padding:42px 10px 12px}.cover-copy h2{font-size:16px}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:9px}.author{margin-top:13px}.meta{margin-top:13px}.rating{margin-top:16px}.actions{grid-column:1/-1}.description{grid-column:1/-1;margin-top:26px}.chapter-grid{grid-template-columns:1fr}}
-  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../../../index.html">书架</a></nav></div></header><main class="page"><section class="book-hero"><div class="cover-art" style="--cover-tone:hsl(345 28% 24%)"><img src="cover-73ab42207487.jpg" alt="《New York Subway Nightmare》封面"></div><div class="book-main"><p class="eyebrow">中国史 · 中文</p><h1>New York Subway Nightmare</h1><p class="author"><a class="author-link" href="../../../../author-d3b280591e.html">末野MOYE</a></p><div class="meta"><span class="pill">中国史</span><span class="pill">历史</span><span class="pill">非虚构</span><span class="pill">10 章</span><span class="pill">106,203 字</span></div><div class="rating"><strong>8.5</strong><div><span>编辑评分</span><div class="rating-bar"><i style="width:85%"></i></div></div></div><div class="reader-rating" data-reader-rating hidden>
+  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../../../index.html">书架</a></nav></div></header><main class="page"><section class="book-hero"><div class="cover-art" style="--cover-tone:hsl(345 28% 24%)"><img src="cover-4d34f1c605e3.jpg" alt="《New York Subway Nightmare》封面"></div><div class="book-main"><p class="eyebrow">中国史 · 中文</p><h1>New York Subway Nightmare</h1><p class="author"><a class="author-link" href="../../../../author-d3b280591e.html">末野MOYE</a></p><div class="meta"><span class="pill">中国史</span><span class="pill">历史</span><span class="pill">非虚构</span><span class="pill">10 章</span><span class="pill">106,203 字</span></div><div class="rating"><strong>8.5</strong><div><span>编辑评分</span><div class="rating-bar"><i style="width:85%"></i></div></div></div><div class="social-stats" data-social-stats hidden></div><div class="reader-rating" data-reader-rating hidden>
     <div class="rr-head"><strong class="rr-avg" data-rr-avg></strong><div><span class="rr-stars" data-rr-stars></span><span class="rr-count" data-rr-count></span></div></div>
     <div class="rr-bars" data-rr-bars></div>
     <p class="rr-notes" data-rr-notes></p>
@@ -81,4 +83,20 @@
         else if(d&&d.code==='AUTH_REQUIRED'){alert(EN?'Sign in from the library to use your shelf':'回书库登录后即可使用书架')}
       }).catch(function(){});
   })});
+})();</script>
+<script>(function(){
+  var box=document.querySelector('[data-social-stats]');
+  var bid="proj-mt2umnyxktw";
+  if(!box||!bid)return;
+  fetch('/api/social/book-stats?ids='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok&&d.stats&&d.stats[bid]))return;
+    var s=d.stats[bid];
+    if(!(s.read||s.reading||s.wishlist))return;
+    var parts=[];
+    if(s.read)parts.push('<span><strong>'+s.read+'</strong> 人读过</span>');
+    if(s.reading)parts.push('<span><strong>'+s.reading+'</strong> 人在读</span>');
+    if(s.wishlist)parts.push('<span><strong>'+s.wishlist+'</strong> 人想读</span>');
+    box.innerHTML=parts.join('');
+    box.hidden=false;
+  }).catch(function(){});
 })();</script></div><section class="description"><h2>内容简介</h2><p>1970年代的纽约地铁，在深夜变成了另一种画布。年轻人翻过车场的铁丝网，用喷漆罐将整节车厢涂满色彩斑斓的字母与图案。这些移动的涂鸦在地下隧道穿梭了二十年，既是边缘者的视觉呐喊，也是与城市管理者之间漫长的猫鼠游戏。从被铁丝网包围的车场、弥漫着酸味的清洗池，到后来画廊的白墙，这场关于空间、身份与艺术的战争，最终随着最后一列涂鸦列车驶入历史而落幕。但那些喷漆留下的痕迹，至今仍在追问：城市的秩序与亚文化的生命力，究竟该如何共存？</p></section></section><section class="catalog"><div class="catalog-head"><h2>目录</h2><span>共 10 章</span></div><div class="chapter-grid"><a class="chapter-row" href="ch-1.html"><span>第 01 章</span><span>车厢内壁的签名</span></a><a class="chapter-row" href="ch-2.html"><span>第 02 章</span><span>车场围栏上的缺口</span></a><a class="chapter-row" href="ch-3.html"><span>第 03 章</span><span>喷漆罐里的字母战争</span></a><a class="chapter-row" href="ch-4.html"><span>第 04 章</span><span>整车厢的夜间作业</span></a><a class="chapter-row" href="ch-5.html"><span>第 05 章</span><span>车站与画廊之间的目光</span></a><a class="chapter-row" href="ch-6.html"><span>第 06 章</span><span>酸浴池与铁丝网</span></a><a class="chapter-row" href="ch-7.html"><span>第 07 章</span><span>围栏内外的博弈</span></a><a class="chapter-row" href="ch-8.html"><span>第 08 章</span><span>最后一列涂鸦列车</span></a><a class="chapter-row" href="ch-9.html"><span>第 09 章</span><span>白墙上的喷漆痕迹</span></a><a class="chapter-row" href="ch-10.html"><span>第 10 章</span><span>列车驶过之后的城市</span></a></div></section></main><script>(function(){var button=document.querySelector('[data-continue-reading]');if(!button)return;try{var state=JSON.parse(localStorage.getItem("historyai.reader.proj-mt2umnyxktw")||'{}');if(state&&state.href){button.href=state.href;button.textContent='继续阅读 · 第 '+(Number(state.chapter)+1)+' 章'}}catch(e){}})();</script></body></html>
