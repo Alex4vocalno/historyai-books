@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260828062007005_c5c9b147ff",
+  "projectId": "proj-mtb92woeb5s",
+  "manuscriptVersionId": "mv_0762b103cf6b1ac2",
+  "contentHash": "0762b103cf6b1ac2c0423f372dbb07ab2f6821b8b1969122f61fc9f87ee3925f",
+  "title": "九重门",
+  "subtitle": "紫禁城门禁失守的权力真相",
+  "authorDisplayName": "半两先生",
+  "description": "森严的九重宫阙为何屡被刺客洞穿？从唐宋遗制到清末乱局，六次有据可查的突入事件撕开了皇权安保的华丽表象。当值守者沦为漏洞，再精密的勘合与腰牌也只是仪式。本书以档案还原事发当日的通行细节与行刺者的时代困境，揭示门禁失效并非单纯的物理溃败，而是权力关系异化的必然结果。在刀锋与宫墙的碰撞中，看见帝国秩序如何在人为妥协与结构性裂隙间走向终局。",
+  "category": "中国史",
+  "tags": [
+    "紫禁城",
+    "宫廷安保",
+    "明清史",
+    "制度史",
+    "刺客",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 259228,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-1",
+    "createdAt": "2026-08-27T15:01:54.927Z"
+  },
+  "editorReview": {
+    "text": "本书以「门阈剧场」这一原创概念为棱镜，将紫禁城门禁体系重新定义为权力展演的剧场，其理论穿透力在跨越五百年的案例分析中得以验证。档案运用尤为扎实，从万历朝校尉缺额数据到牙牌买卖价格，细节既支撑制度分析又构成生动的历史场景，第15章对天理教事件中信任结构坍塌的层层剖析，堪称全书论证与叙事融合的典范。不过，部分章节接缝处的叙事钩子未获回应，略损连贯性；而向当代延伸的尾部章节，论证密度有所稀释，个别段落滑向泛化的社会评论，偏离了以具体事件为棱镜的核心方法论。整体而言，这是一部骨架坚实、洞见锐利的制度史作品，若能对上述衔接与收束处做一轮精修，将更为完善。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-28T06:19:50.001Z",
+    "textless": false,
+    "profileId": "tang-palace-intrigue"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "门阈之重",
+      "units": 8768
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "宫城几何",
+      "units": 7723
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "勘合之网",
+      "units": 9511
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "值房内外",
+      "units": 7421
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "唐宫遗影",
+      "units": 8207
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "宋阙微光",
+      "units": 7971
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "门籍之隙",
+      "units": 8079
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "夹带之祸",
+      "units": 8704
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "混入之途",
+      "units": 8020
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "夜禁之溃",
+      "units": 7969
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "内应之危",
+      "units": 7741
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "仪仗之隙",
+      "units": 9951
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "天理教徒的突入",
+      "units": 7988
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "箭矢所向",
+      "units": 9080
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "宫墙内的恐慌",
+      "units": 8431
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "午门献俘之后",
+      "units": 10207
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "嘉道之间的暗流",
+      "units": 8575
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "一个厨役的刀",
+      "units": 7528
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "修补的边界",
+      "units": 8351
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "咸丰三年的匕首",
+      "units": 12893
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "光绪年间的腰牌买卖",
+      "units": 8184
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "景运门前的疯汉",
+      "units": 9036
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "宣统元年的闯入者",
+      "units": 8594
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "门禁的终局",
+      "units": 7949
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "制度余烬",
+      "units": 8505
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "新宫旧锁",
+      "units": 8319
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "暗门遗踪",
+      "units": 8569
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "他山之阙",
+      "units": 7854
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "门之重影",
+      "units": 8504
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "门阈之思",
+      "units": 10596
+    }
+  ],
+  "publishedAt": "2026-08-28T06:20:07.014Z",
+  "formFamily": "narrative"
+}
