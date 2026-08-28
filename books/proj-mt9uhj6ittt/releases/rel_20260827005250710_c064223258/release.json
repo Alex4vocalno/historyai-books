@@ -39,10 +39,10 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-098e3c8f3f9f.png",
+    "file": "cover-972746723a80.png",
     "provider": "openrouter",
     "model": "qwen/qwen-image-3-pro",
-    "generatedAt": "2026-08-27T11:23:55.784Z",
+    "generatedAt": "2026-08-28T02:07:49.944Z",
     "textless": false,
     "sourceTextless": false
   },
@@ -152,5 +152,5 @@
   ],
   "illustrations": 5,
   "publishedAt": "2026-08-27T00:52:50.730Z",
-  "rerenderedAt": "2026-08-27T11:23:55.960Z"
+  "rerenderedAt": "2026-08-28T02:07:50.145Z"
 }
