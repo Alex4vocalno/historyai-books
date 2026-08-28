@@ -35,10 +35,10 @@
     "manuscriptVersionId": "mv_b458e0526c930bef"
   },
   "cover": {
-    "file": "cover-99ab78bb4cdd.jpg",
+    "file": "cover-b74af821503b.png",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T12:11:51.392Z",
+    "model": "qwen/qwen-image-3-pro",
+    "generatedAt": "2026-08-28T05:59:58.529Z",
     "textless": false,
     "sourceTextless": false
   },
@@ -117,5 +117,5 @@
     }
   ],
   "publishedAt": "2026-08-24T00:32:22.877Z",
-  "rerenderedAt": "2026-08-27T12:11:51.402Z"
+  "rerenderedAt": "2026-08-28T05:59:58.547Z"
 }
