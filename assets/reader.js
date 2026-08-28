@@ -353,10 +353,17 @@
   }
   function layout(keepRatio) {
     root.dataset.rmode = state.mode;
-    if (state.mode !== 'page') { if (flow) { flow.style.columnWidth = ''; flow.style.columnGap = ''; flow.style.transform = ''; } scrollProgress(); return; }
+    if (state.mode !== 'page') { if (flow) { flow.style.columnWidth = ''; flow.style.columnGap = ''; flow.style.transform = ''; flow.style.height = ''; } scrollProgress(); return; }
     if (!flow || !flowBox) return;
     var ratio = total > 1 ? page / (total - 1) : 0;
     var cw = flowBox.clientWidth, gap = 48;
+    // v5.73 手机端专项（用户实弹：首行文字有几率看不全、底部反而留白）：
+    // 多列横排的列高若不是行高整倍数，跨列的行会被容器上缘腰斩——
+    // 列高向下取整到行高整倍数，余量留给底部，行永远完整。
+    var lh = parseFloat(getComputedStyle(flow).lineHeight);
+    if (!isFinite(lh) || lh <= 0) lh = 28;
+    var wholeH = Math.max(lh * 4, Math.floor(flowBox.clientHeight / lh) * lh);
+    flow.style.height = wholeH + 'px';
     flow.style.columnWidth = cw + 'px'; flow.style.columnGap = gap + 'px';
     step = cw + gap;
     total = Math.max(1, Math.round((flow.scrollWidth + gap) / step));

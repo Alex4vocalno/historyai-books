@@ -103,5 +103,8 @@ html[data-rmode="page"] .chapter-nav{display:none}
 .page-indicator{display:none}
 html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:13px;text-align:center}
 html[data-rmode="page"] .chapter-drawer{max-height:100%}
+/* v5.73 手机端专项：刘海屏顶栏安全区，翻页视口同步扣除 */
+.reader-bar{padding-top:env(safe-area-inset-top,0px)}
+html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px - env(safe-area-inset-top,0px))}
 @media(max-width:620px){.settings{top:auto;bottom:0;left:0;right:0;width:100%;border-radius:14px 14px 0 0;padding:18px 18px calc(18px + env(safe-area-inset-bottom));max-height:72vh;overflow:auto;box-shadow:0 -14px 42px rgba(17,22,20,.22)}.setting-row{grid-template-columns:56px minmax(0,1fr);margin:14px 0}.segments button,.stepper button{min-height:44px;font-size:14.5px}.swatch{width:44px;height:44px}}
 @media(max-width:980px){html[data-rmode="page"] .reader-shell{height:calc(100dvh - 58px);padding:12px 0 calc(8px + env(safe-area-inset-bottom))}html[data-rmode="page"] .reader-paper{border:0;box-shadow:none;padding:18px 22px 12px}}
