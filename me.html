@@ -120,7 +120,9 @@
         var wn=el('span','n',works.length+T(' 部',' published'));wh.appendChild(wn);
         wk.appendChild(wh);
         var wg=el('div','works');
-        works.slice(0,12).forEach(function(w){
+        // v5.71 用户实弹：作品最多显示 12 部——首屏 12 部 + 「展开全部」补渲余下
+        var WORKS_FOLD=12;
+        function renderWork(w){
           var a2=el('a','wk');a2.href='/'+(w.url||('books/'+w.projectId+'/index.html'));
           var cv=el('div','cv');
           if(w.coverUrl){var ci=document.createElement('img');ci.src='/'+w.coverUrl;ci.alt='';cv.appendChild(ci)}
@@ -129,8 +131,15 @@
           a2.appendChild(el('b','',w.title||''));
           a2.appendChild(el('small','',(w.category||'')+(w.chapterCount?' · '+w.chapterCount+T(' 章',' ch.'):'')));
           wg.appendChild(a2);
-        });
+        }
+        works.slice(0,WORKS_FOLD).forEach(renderWork);
         wk.appendChild(wg);
+        if(works.length>WORKS_FOLD){
+          var more=el('button','', T('展开全部 '+works.length+' 部','Show all '+works.length));
+          more.style.cssText='margin:12px auto 0;display:block;border:1px solid var(--line);border-radius:17px;background:#fff;padding:7px 22px;font-size:13px;cursor:pointer;color:var(--ink)';
+          more.onclick=function(){works.slice(WORKS_FOLD).forEach(renderWork);more.remove()};
+          wk.appendChild(more);
+        }
         main.appendChild(wk);
       }
       var items=noti.rows||[];
