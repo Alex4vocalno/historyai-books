@@ -38,12 +38,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-a6607f175c17.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T09:32:18.361Z",
+    "generatedAt": "2026-08-28T01:07:39.927Z",
     "textless": false,
-    "profileId": "tang-palace-intrigue"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -198,5 +198,5 @@
     }
   ],
   "publishedAt": "2026-08-21T05:41:21.335Z",
-  "rerenderedAt": "2026-08-27T11:40:59.912Z"
+  "rerenderedAt": "2026-08-28T01:07:39.938Z"
 }
