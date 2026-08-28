@@ -96,6 +96,14 @@
       n.rows.slice(0,20).forEach(function(row){
         var c=el('div','nrow'+(row.read?'':' unread'));
         var t=el('span','nt');
+        if(row.type==='ops'){
+          // v5.53.6 运维告警（owner 专收）：直接显示告警文本
+          t.innerHTML='<b></b> ⚙ '+(row.text?row.text.replace(/</g,'&lt;').slice(0,110):'');
+          t.querySelector('b').textContent=row.fromName||'系统';
+          c.appendChild(t);
+          box.appendChild(c);
+          return;
+        }
         var verb=row.type==='like'?'赞了你的':'回复了你的';
         var what=row.kind==='review'?'书评':(row.kind==='reply'?'回复':'想法');
         t.innerHTML='<b></b> '+verb+what+(row.text?'：'+row.text.replace(/</g,'&lt;').slice(0,60):'');
