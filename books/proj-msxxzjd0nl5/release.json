@@ -33,13 +33,12 @@
     "createdAt": "2026-08-18T04:22:10.223Z"
   },
   "cover": {
-    "file": "cover-6e7cb5351b31.svg",
+    "file": "cover-b34baa9a2775.png",
     "provider": "openrouter",
     "model": "qwen/qwen-image-3",
-    "generatedAt": "2026-08-28T07:27:54.735Z",
+    "generatedAt": "2026-08-28T07:30:05.406Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -176,5 +175,5 @@
     }
   ],
   "publishedAt": "2026-08-24T00:32:16.219Z",
-  "rerenderedAt": "2026-08-28T07:27:54.861Z"
+  "rerenderedAt": "2026-08-28T07:30:05.421Z"
 }
