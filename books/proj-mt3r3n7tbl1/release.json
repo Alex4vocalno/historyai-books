@@ -33,10 +33,10 @@
     "createdAt": "2026-08-22T08:02:47.332Z"
   },
   "cover": {
-    "file": "cover-fb7d4f334f8e.jpg",
+    "file": "cover-feb229885486.png",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-27T09:20:47.272Z",
+    "model": "qwen/qwen-image-3",
+    "generatedAt": "2026-08-28T07:46:00.376Z",
     "textless": false,
     "sourceTextless": false
   },
@@ -271,5 +271,5 @@
     }
   ],
   "publishedAt": "2026-08-22T10:24:15.520Z",
-  "rerenderedAt": "2026-08-27T09:20:47.591Z"
+  "rerenderedAt": "2026-08-28T07:46:00.733Z"
 }
