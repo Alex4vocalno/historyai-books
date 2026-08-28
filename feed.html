@@ -4,14 +4,24 @@
 <title>社区动态 · EVORON AI电子书城</title>
 <link rel="icon" href="/favicon.ico">
 <style>
-:root{--bg:#f4f1e8;--panel:#fbf8f0;--ink:#282b2d;--muted:#777a77;--line:#ddd9cd;--accent:#0a9b6d;--gold:#e8a33d;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);min-height:100vh}
-.wrap{max-width:860px;margin:0 auto;padding:34px 20px 80px}
-.top{display:flex;align-items:center;gap:16px;margin-bottom:22px}
-.top h1{margin:0;font-size:24px}
-.top a{color:var(--accent);font-size:14px;text-decoration:none}
-.top a.right{margin-left:auto}
-.sect{margin:26px 0 10px;font-size:15px;font-weight:700}
+:root{--bg:#f4f5f4;--surface:#fff;--panel:#fff;--ink:#202524;--muted:#747b79;--line:#e2e5e3;--green:#079b6b;--green-dark:#087a58;--accent:#079b6b;--accent-dark:#087a58;--gold:#b27a22;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:var(--sans)}a{color:inherit;text-decoration:none}
+.topbar{background:#fff;border-bottom:1px solid var(--line)}
+.topbar-inner{max-width:1180px;margin:0 auto;padding:0 24px;height:60px;display:flex;align-items:center;justify-content:space-between}
+.topbar .brand{display:inline-flex;align-items:center;gap:10px}
+.topbar .brand-mark{height:32px;display:block;mix-blend-mode:multiply}
+.topbar .brand-word{font-size:20px;font-weight:800;letter-spacing:.02em;background:linear-gradient(105deg,#123a8c 0%,#1f6fd6 55%,#28b4e8 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.topbar .brand-cn{font-family:var(--serif);font-size:19px;font-weight:800;letter-spacing:.14em;color:var(--ink)}
+.topbar-right{display:flex;align-items:center;gap:8px}
+.topbar-link{display:inline-flex;align-items:center;min-height:32px;padding:0 12px;border-radius:16px;color:var(--muted);font-size:13px;font-weight:700}
+.topbar-link:hover{background:#f2f5f4;color:var(--green-dark)}
+.topbar-link.active{background:#eaf4ef;color:var(--green-dark)}
+.page-head{max-width:1120px;margin:0 auto;padding:36px 24px 0}
+.page-head h1{margin:0;font-family:var(--serif);font-size:31px;line-height:1.4}
+.page-head .lede{margin:10px 0 0;color:var(--muted);font-size:13.5px}
+@media(max-width:720px){.topbar-inner{padding:0 14px}.topbar .brand-cn{display:none}.topbar-link{padding:0 9px}.page-head{padding:24px 16px 0}.page-head h1{font-size:25px}}
+.wrap{max-width:860px;margin:0 auto;padding:22px 20px 84px}
+.sect{margin:30px 0 12px;font-family:var(--serif);font-size:19px;font-weight:800}
 .frow{padding:13px 16px;margin-bottom:10px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
 .frow .who{font-size:13px;color:var(--muted)}
 .frow .who b{color:var(--ink)}
@@ -29,8 +39,9 @@
 .empty{padding:36px 0;color:var(--muted);text-align:center;font-size:14.5px}
 @media(max-width:620px){.wrap{padding:22px 14px 60px}}
 </style></head><body>
+<header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link" href="/shelf.html">我的书架</a><a class="topbar-link active" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a></span></div></header>
+<div class="page-head"><h1>社区动态</h1><p class="lede">全站读者的想法、书评与阅读足迹 · <a href="#board" style="color:var(--green-dark)">读书周榜 ↓</a></p></div>
 <div class="wrap">
-  <div class="top"><h1>社区动态</h1><a href="/index.html">书库</a><a href="/shelf.html">我的书架</a><a class="right" href="#board">读书周榜 ↓</a></div>
   <div id="feed"><div class="empty">正在加载动态…</div></div>
   <div class="sect" id="board">本周读书榜</div>
   <div id="boardBox" class="board"><div class="empty">加载中…</div></div>
