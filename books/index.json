@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mteb2bkeg41",
+    "projectId": "proj-mteb2bkeg41",
+    "releaseId": "rel_20260829145354711_b2b44cb50c",
+    "title": "标价时刻",
+    "subtitle": "决策瞬间的认知盲区与历史重演",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "心安处是故乡",
+    "category": "心理认知",
+    "tags": [
+      "认知科学",
+      "行为经济学",
+      "历史反思",
+      "决策心理",
+      "非虚构",
+      "心理认知"
+    ],
+    "description": "郁金香狂热中的交易者并非愚蠢，2008年危机前的银行家也熟读金融史。为何教训总在重演？因为大脑在决策瞬间会生理性地屏蔽代价信号，以维持行动所需的确定感。所谓“标价”，往往只在事后叙事中才变得清晰可见。本书穿行于行为经济学实验与中外历史现场，拆解泡沫、情报误判与群体狂热背后的认知机制。这不是关于道德缺陷的审判，而是对人性底层代码的冷静透视。当清晰的事后解释撞上模糊的决策当下，理解这种结构性错位，或许是我们面对下一次“标价时刻”时，唯一能握住的清醒。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-2",
+      "createdAt": "2026-08-29T14:45:34.593Z"
+    },
+    "coverUrl": "books/proj-mteb2bkeg41/releases/rel_20260829145354711_b2b44cb50c/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mteb2bkeg41/index.html",
+    "publishedAt": "2026-08-29T14:53:54.732Z",
+    "firstPublishedAt": "2026-08-29T14:53:54.732Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtd4h0t3sbn",
     "projectId": "proj-mtd4h0t3sbn",
     "releaseId": "rel_20260829105150453_db0e5c41ac",

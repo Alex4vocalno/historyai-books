@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260829145354711_b2b44cb50c",
+  "projectId": "proj-mteb2bkeg41",
+  "manuscriptVersionId": "mv_91db6776b1591c61",
+  "contentHash": "91db6776b1591c6123735b8b4fc379064f9601c02673b2bd908c91a7c4653377",
+  "title": "标价时刻",
+  "subtitle": "决策瞬间的认知盲区与历史重演",
+  "authorDisplayName": "心安处是故乡",
+  "description": "郁金香狂热中的交易者并非愚蠢，2008年危机前的银行家也熟读金融史。为何教训总在重演？因为大脑在决策瞬间会生理性地屏蔽代价信号，以维持行动所需的确定感。所谓“标价”，往往只在事后叙事中才变得清晰可见。本书穿行于行为经济学实验与中外历史现场，拆解泡沫、情报误判与群体狂热背后的认知机制。这不是关于道德缺陷的审判，而是对人性底层代码的冷静透视。当清晰的事后解释撞上模糊的决策当下，理解这种结构性错位，或许是我们面对下一次“标价时刻”时，唯一能握住的清醒。",
+  "category": "心理认知",
+  "tags": [
+    "认知科学",
+    "行为经济学",
+    "历史反思",
+    "决策心理",
+    "非虚构",
+    "心理认知"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 147030,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-29T14:45:34.593Z"
+  },
+  "editorReview": {
+    "text": "这本书最让人眼前一亮的地方，是它把行为经济学里“代价屏蔽”这个抽象机制，从郁金香泡沫一路讲到疫苗犹豫和元认知错觉，每章换一个场景却反复印证同一个原理——读着读着会不断产生“原来这里也是”的认知快感，这种螺旋递进的论证结构在通俗科学写作里相当难得。作者处理反方论点也显得很老练，几乎每章都主动抛出“这是不是事后归因”的质疑，再用具体证据一层层拆解，让论证过程充满张力。不过，书的中后段有几章文风明显粗糙，句式重复和抽象密度问题拖累了阅读流畅度；个别章节插入的当代案例与核心机制的关联较弱，像是为了增加本土语境而硬塞的素材，在叙事流中显得有些突兀。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-29T14:53:43.124Z",
+    "textless": false,
+    "profileId": "bold-symbol-poster",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "bold-symbol-poster"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "泡沫里的清醒者",
+      "units": 7182
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "情报与盲区",
+      "units": 7183
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "将尺度收缩到个体生命史",
+      "units": 6532
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "历史的回声",
+      "units": 6204
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "大脑的账本",
+      "units": 6349
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "看不见的价签",
+      "units": 6111
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "此刻的暴君",
+      "units": 7899
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "确定性的幻觉",
+      "units": 5688
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "沉没成本沼泽",
+      "units": 8782
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "故事胜过数据",
+      "units": 8227
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "专家的盲点",
+      "units": 7865
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "群体的放大器",
+      "units": 5615
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "市场的记忆缺失",
+      "units": 8502
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "制度的茧房",
+      "units": 7438
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "历史的盗猎者",
+      "units": 7522
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "自我驯化的困境",
+      "units": 8501
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "神经可塑性的承诺",
+      "units": 8731
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "无知之幕背后",
+      "units": 6967
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "元认知错觉",
+      "units": 6373
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "标价的另一面",
+      "units": 9359
+    }
+  ],
+  "illustrations": 7,
+  "publishedAt": "2026-08-29T14:53:54.732Z",
+  "formFamily": "explainer"
+}
