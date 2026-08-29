@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260829034634602_798de19c36",
+  "projectId": "proj-mtcz9iq8lh0",
+  "manuscriptVersionId": "mv_5e080c99ea38b7e5",
+  "contentHash": "5e080c99ea38b7e59558d0b234e7075519f65f82ae3e11a37ad3bffe227ae06d",
+  "title": "滑落",
+  "subtitle": "2008年以来中国城市中产财富沉浮录",
+  "authorDisplayName": "心安处是故乡",
+  "description": "一套学区房、一份高息理财、一张全能保单，曾是城市中产家庭抵御焦虑的坚固堡垒。当资产价格退潮，这些精心构筑的安全网为何瞬间变成吞噬积蓄的黑洞？本书重返2008年以来的四个典型收割现场，透过真实家庭的财务废墟，拆解房产、教培、P2P与保险理财背后的定价机制。没有道德审判，亦无致富捷径，只有对合同条款、资金流向与制度缝隙的冷静还原。当个体理性撞上系统性风险错配，所谓“踩坑”不过是结构性力量在普通家庭账本上留下的精确刻痕。",
+  "category": "经济理财",
+  "tags": [
+    "中产阶层",
+    "财富史",
+    "房地产",
+    "金融理财",
+    "社会变迁",
+    "经济理财"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 135405,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-2",
+    "createdAt": "2026-08-28T16:27:02.172Z"
+  },
+  "editorReview": {
+    "text": "本书最出色之处在于将房产、教培、P2P与保险这四类中产家庭现金流的“命门”统一到“期限错配与风险单边转移”的框架下进行机制拆解。作者并非简单归咎于贪婪或愚蠢，而是冷静地指向合同条款与政策文件中被精心设计的“制度级差”，这种从具体条款切入、逐层推导至结构性力量的因果链条，论证扎实，具有罕见的公共价值。然而，这种严谨的“投资纪律体”写法在中后段稍显疲态：多章以“一份合同”开篇的模板化叙事、以及预付与资金池等章节在机制分析上的重叠，使阅读节奏趋于同质，部分章节的抽象论述也略显艰涩，削弱了本可更强的穿透力。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-29T03:36:03.360Z",
+    "textless": false,
+    "profileId": "business-structural"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "房价信仰的资产负债表",
+      "units": 5868
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "教育刚需的定价幻觉",
+      "units": 6766
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "高收益话术的流动性陷阱",
+      "units": 6314
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "安全资产的期限锁死",
+      "units": 6687
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "收割是一个结构动词",
+      "units": 7847
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "风险错配的生成机制",
+      "units": 5969
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "错配的滞后清算",
+      "units": 5866
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "信息价差的隐性抽成",
+      "units": 5611
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "再融资杠杆的顺周期",
+      "units": 6099
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "预付现金流的断裂带",
+      "units": 6333
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "资金池的刚兑悖论",
+      "units": 7570
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "复杂保单的定价迷雾",
+      "units": 6357
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "短久期的安全错觉",
+      "units": 8769
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "从全面退守现金中清醒过来的家庭",
+      "units": 6475
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "简单产品的隐性税",
+      "units": 6698
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "提前还贷的流动性代价",
+      "units": 6079
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "信息流里的错觉",
+      "units": 8218
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "个人责任的制度边界",
+      "units": 7760
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "定价权的制度级差",
+      "units": 6660
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "流动的边界",
+      "units": 7459
+    }
+  ],
+  "illustrations": 10,
+  "publishedAt": "2026-08-29T03:46:34.624Z"
+}
