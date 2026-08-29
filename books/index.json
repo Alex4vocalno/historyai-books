@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtcwqn0guj9",
+    "projectId": "proj-mtcwqn0guj9",
+    "releaseId": "rel_20260829004713257_7e68984fa9",
+    "title": "磨刀",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "中国史",
+    "tags": [
+      "武侠悬疑",
+      "工匠探案",
+      "江湖黑话",
+      "底层逆袭",
+      "证据追凶",
+      "手艺复仇"
+    ],
+    "description": "陈四两，漕帮水口子一个磨刀的杂役，因私藏一把本该被磨毁的断刀，被逐出帮门。他原以为这只是坏了行规，却不知自己已踏入一个巨大的阴谋——水口子洗剑房，正借磨刀之名，替朝廷六扇门系统清洗江湖证人。而他当年亲手磨毁的某把刀，正是师父老锉被灭口的关键物证。一个最懂如何抹除痕迹的人，如今要用那些被销毁的碎片，反向拼凑出完整的真相。磨石的纹路、洗剑水的沉渣、账簿上褪色的墨迹……每一条线索，都藏在他磨了半辈子的刀里。",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-08-29T00:41:46.227Z"
+    },
+    "coverUrl": "books/proj-mtcwqn0guj9/releases/rel_20260829004713257_7e68984fa9/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtcwqn0guj9/index.html",
+    "publishedAt": "2026-08-29T00:47:13.274Z",
+    "firstPublishedAt": "2026-08-29T00:47:13.274Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt8u9cftm0k",
     "projectId": "proj-mt8u9cftm0k",
     "releaseId": "rel_20260828092048991_e9623ff4e7",

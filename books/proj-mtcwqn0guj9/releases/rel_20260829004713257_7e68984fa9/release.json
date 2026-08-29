@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260829004713257_7e68984fa9",
+  "projectId": "proj-mtcwqn0guj9",
+  "manuscriptVersionId": "mv_208f375f3939022f",
+  "contentHash": "208f375f3939022f35ab622e42f8fbfc4577c574ca209733424e780121c4e02c",
+  "title": "磨刀",
+  "subtitle": "",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "陈四两，漕帮水口子一个磨刀的杂役，因私藏一把本该被磨毁的断刀，被逐出帮门。他原以为这只是坏了行规，却不知自己已踏入一个巨大的阴谋——水口子洗剑房，正借磨刀之名，替朝廷六扇门系统清洗江湖证人。而他当年亲手磨毁的某把刀，正是师父老锉被灭口的关键物证。一个最懂如何抹除痕迹的人，如今要用那些被销毁的碎片，反向拼凑出完整的真相。磨石的纹路、洗剑水的沉渣、账簿上褪色的墨迹……每一条线索，都藏在他磨了半辈子的刀里。",
+  "category": "中国史",
+  "tags": [
+    "武侠悬疑",
+    "工匠探案",
+    "江湖黑话",
+    "底层逆袭",
+    "证据追凶",
+    "手艺复仇"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 206695,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-29T00:41:46.227Z"
+  },
+  "editorReview": {
+    "text": "读《磨刀》，最难忘的是那股铁腥味——它从磨石、刀柄、洗剑水里渗出来，卡在舌根，也卡进一个江湖的肌理。作者写场景的功夫极深，开篇陈四两摸刀柄铜箍上三道磨痕的瞬间，触觉与嗅觉并至，一个被规矩与铁器腌渍半生的人物便立住了。对白更是鲜活，阎九指那句“刀不过三手”带着帮规的冷硬，赵无常的官腔里藏着算计，声口各如其人。悬念也设得利落，一把带暗纹的断刀迅速钩住读者。不过，中段部分在紧张追逐后转入较长的证据查验与解释，节奏稍显平缓，陈四两从“追查真相”到“继承遗志”的内心转变也可更鲜明些。好在结尾收得有力，废墟中对峙将个人恩怨与行业规矩升华，磨了大半辈子的刀，终是刃口朝向了该去的地方。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-29T00:46:49.514Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "磨石异纹",
+      "units": 6030
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "江边废屋",
+      "units": 6474
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "洗剑水账",
+      "units": 5484
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "废水沉渣",
+      "units": 5871
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "四指掌事",
+      "units": 5998
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "渡口磨刀摊",
+      "units": 7317
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "沈家孤女",
+      "units": 5176
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "镖刀旧痕",
+      "units": 5330
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "撕页账簿",
+      "units": 6108
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "墨下之名",
+      "units": 5306
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "铁门槛旧档",
+      "units": 8636
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "失镖真相",
+      "units": 8927
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "独行",
+      "units": 5442
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "码头追杀",
+      "units": 5203
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "旧伤",
+      "units": 5566
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "半截凶刀",
+      "units": 7011
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "案牍库外",
+      "units": 6489
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "古刃修复",
+      "units": 7174
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "证人刀柄",
+      "units": 6928
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "黑市余波",
+      "units": 6015
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "库房杂役",
+      "units": 5865
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "销账对应",
+      "units": 6574
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "霉味旧档",
+      "units": 9454
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "墨褪法",
+      "units": 8130
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "纸墨不符",
+      "units": 6329
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "水样铁证",
+      "units": 5312
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "案牍库火起",
+      "units": 7261
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "残卷手书",
+      "units": 6830
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "老锉故居",
+      "units": 9832
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "废墟磨石",
+      "units": 5308
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "公开行规",
+      "units": 4380
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "规矩新解",
+      "units": 4935
+    }
+  ],
+  "publishedAt": "2026-08-29T00:47:13.274Z"
+}
