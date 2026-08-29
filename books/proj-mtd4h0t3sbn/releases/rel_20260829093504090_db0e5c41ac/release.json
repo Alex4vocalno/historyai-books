@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260829093504090_db0e5c41ac",
+  "projectId": "proj-mtd4h0t3sbn",
+  "manuscriptVersionId": "mv_26858fd9675aa964",
+  "contentHash": "26858fd9675aa9641485af7302c3b18bec483a377821b13379f901651897cca1",
+  "title": "合法收割",
+  "subtitle": "中国金融骗局三十年行为工程史",
+  "authorDisplayName": "心安处是故乡",
+  "description": "从九十年代利率双轨制的缝隙到资管新规后的净值幻觉，那些让无数家庭积蓄归零的产品，往往并非违法的赃物，而是精密合规的文本。本书重返三十个真实金融产品的设计现场，拆解操盘手如何精算监管空白、嵌套法律结构、调配柜台话术，将掠夺逻辑翻译成受保护的契约。这不是道德审判的檄文，而是一份关于认知不对称的解剖报告。当诈骗被编码为系统性的行为工程，受害者失去的不仅是财富，更是识别风险的能力。在规则与套利的永恒博弈中，看清收割机制，是守住财富底线的第一步。",
+  "category": "中国史",
+  "tags": [
+    "金融史",
+    "行为经济学",
+    "监管套利",
+    "非虚构",
+    "中国当代史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 258948,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-2",
+    "createdAt": "2026-08-29T08:58:25.521Z"
+  },
+  "editorReview": {
+    "text": "本书以'行为工程'为分析框架，将三十年金融产品演变史串联为一部论证严密的专题研究，其穿透力在于揭示了'设计者将监管文本当作操作手册阅读'这一核心认知不对称。档案材料的运用堪称典范——拆借合同上的铅笔字迹、审计报告批注等细节并非装饰，而是构成证据链的物质基础。对'社交裂变只是正常营销'等反方观点的正面处理，展现了扎实的论辩品格。不过，跨章重复片段（如约19字片段出现5次）累积削弱了推进感，第8至9章时间线回溯未做标记也造成小型叙事断裂，部分章节（如第12、30章）因句式开头重复导致文风密度偏高，影响了局部可读性。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-29T09:34:49.621Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "利率双轨的裂缝",
+      "units": 8643
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "账目迁徙的语法",
+      "units": 8745
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "兜底条款的暗室",
+      "units": 10316
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "柜台话术的配方",
+      "units": 8389
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "资金池的暗箱",
+      "units": 8392
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "刚性兑付的陷阱",
+      "units": 7561
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "产品矩阵的复制语法",
+      "units": 8380
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "通道的炼金术",
+      "units": 8382
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "风险延后的时间工程",
+      "units": 8453
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "估值的模糊地带",
+      "units": 8105
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "投资者教育的逆向操作",
+      "units": 8078
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "系统工程的合龙",
+      "units": 8344
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "互联网平台的嫁接术",
+      "units": 10568
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "移动支付的认知降维",
+      "units": 8379
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "社交裂变的传染机制",
+      "units": 10328
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "大数据的精准投喂",
+      "units": 7550
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "资产端的堕落螺旋",
+      "units": 8705
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "监管套利的数字化形态",
+      "units": 9000
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "刚兑瓦解的链式断裂",
+      "units": 8886
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "监管文本的逆向拆解",
+      "units": 8285
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "非标资产的最后盛宴",
+      "units": 7378
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "认知残局的收割者",
+      "units": 8370
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "司法追索的文本屏障",
+      "units": 8618
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "新规之后的行为工程变体",
+      "units": 8390
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "净值幻觉的炼成",
+      "units": 7903
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "比较基准的陷阱",
+      "units": 9337
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "风险测评的逆向工程",
+      "units": 8237
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "投教内容的认知污染",
+      "units": 8377
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "投诉处理的消音机制",
+      "units": 9614
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "收割的永恒回归",
+      "units": 9235
+    }
+  ],
+  "illustrations": 17,
+  "publishedAt": "2026-08-29T09:35:04.201Z"
+}
