@@ -144,7 +144,8 @@
         + '<span>' + String(i + 1).padStart(2, '0') + '</span><span>' + esc(t) + '</span></a>';
     }).join('');
     drawer = h('aside', 'chapter-drawer', loc('<div class="drawer-head"><strong>目录</strong><span>' + titles.length + ' 章'
-      + (isChapter ? ' · 当前第 ' + (Number(data.chapter) + 1) + ' 章' : '') + '</span></div><nav class="chapter-list">' + rows + '</nav>'));
+      + (isChapter ? ' · 当前第 ' + (Number(data.chapter) + 1) + ' 章' : '') + '</span></div><nav class="chapter-list">' + rows + '</nav>'
+      + '<div class="bm-head">' + (data.lang === 'en' ? 'BOOKMARKS' : '书签') + '</div><div class="bm-list" data-bm-list><p class="bm-empty">' + (data.lang === 'en' ? 'Select text and tap Bookmark to save one.' : '选中正文点「书签」即可保存。') + '</p></div>'));
   }
 
   var settings = h('section', 'settings', loc('<strong>阅读设置</strong>'
@@ -373,9 +374,13 @@
     page = Math.max(0, Math.min(total - 1, n));
     if (flow) flow.style.transform = 'translate3d(-' + (page * step) + 'px,0,0)';
     setBar(total > 1 ? page / (total - 1) : 1); indicator(); state.page = page; save();
+    var sl = document.querySelector('[data-reader-slider]');
+    if (sl) { sl.max = String(Math.max(0, total - 1)); sl.value = String(page); }
   }
-  function flip(dir) {
+  function flip(dir, fromGesture) {
     if (state.mode !== 'page') { scrollBy({ top: dir * (innerHeight * 0.88), behavior: 'smooth' }); return; }
+    // v5.87 沉浸阅读（微信读书向）：手势翻页即收起顶栏与底坞，中区轻点唤回
+    if (fromGesture) document.body.classList.add('chrome-hidden');
     var n = page + dir;
     if (n < 0) { if (prevHref) location.href = prevHref + '#last'; return; }
     if (n > total - 1) { if (nextHref) location.href = nextHref; return; }
@@ -384,10 +389,13 @@
   (function floatingReaderDock() {
     var prevText = data.lang === 'en' ? 'Prev' : '上一页';
     var nextText = data.lang === 'en' ? 'Next' : '下一页';
-    var dock = h('div', 'reader-floating', '<button type="button" data-reader-prev>' + prevText + '</button><span data-reader-pct>0%</span><button type="button" data-reader-next>' + nextText + '</button>');
+    var dock = h('div', 'reader-floating', '<button type="button" data-reader-prev>' + prevText + '</button><input type="range" data-reader-slider min="0" max="0" step="1" value="0" aria-label="' + (data.lang === 'en' ? 'Chapter progress' : '章内进度') + '"><span data-reader-pct>0%</span><button type="button" data-reader-next>' + nextText + '</button>');
     document.body.appendChild(dock);
     dock.querySelector('[data-reader-prev]').addEventListener('click', function (e) { e.stopPropagation(); flip(-1); });
     dock.querySelector('[data-reader-next]').addEventListener('click', function (e) { e.stopPropagation(); flip(1); });
+    // v5.87 章内进度拖拽（微信读书向）：拖到哪页翻到哪页
+    var slider = dock.querySelector('[data-reader-slider]');
+    if (slider) slider.addEventListener('input', function (e) { e.stopPropagation(); go(Number(slider.value) || 0); });
   })();
   function apply() {
     root.dataset.theme = state.theme;
@@ -461,7 +469,42 @@
   document.addEventListener('click', function () { if (!settings.hidden) settings.hidden = true; });
   addEventListener('keydown', function (e) { if (e.key === 'Escape' && !settings.hidden) settings.hidden = true; });
   var drawerToggle = document.querySelector('[data-toggle-drawer]');
-  if (drawerToggle) drawerToggle.addEventListener('click', function () { document.body.classList.toggle('drawer-open'); if (document.body.classList.contains('drawer-open')) defer(restoreTocScroll); });
+  if (drawerToggle) drawerToggle.addEventListener('click', function () { document.body.classList.toggle('drawer-open'); if (document.body.classList.contains('drawer-open')) { defer(restoreTocScroll); defer(loadBookmarkList); } });
+  // v5.87 抽屉书签列表（用户定案：书签可保存可回访）：云端+本机合并渲染，
+  // 点击跳到对应章的段落（同章直接翻页定位，跨章 sessionStorage 递话）
+  function loadBookmarkList() {
+    var host = document.querySelector('[data-bm-list]');
+    if (!host || host.dataset.loaded) return;
+    host.dataset.loaded = '1';
+    var localRows = [];
+    try { localRows = (JSON.parse(localStorage.getItem('historyai.bookmarks') || '[]') || []).filter(function (r) { return r && r.bookId === data.bookId; }); } catch (eB) {}
+    fetch('/api/reader/bookmarks?bookId=' + encodeURIComponent(data.bookId || ''), { credentials: 'same-origin' })
+      .then(function (r) { return r.status === 401 ? { rows: [] } : r.json(); })
+      .catch(function () { return { rows: [] }; })
+      .then(function (d) {
+        var rows2 = (d && d.rows || []).concat(localRows.reverse());
+        if (!rows2.length) return;
+        host.innerHTML = '';
+        rows2.slice(0, 30).forEach(function (r) {
+          var b = document.createElement('button');
+          b.type = 'button'; b.className = 'bm-row';
+          b.innerHTML = '<b>' + (data.lang === 'en' ? 'Ch.' : '第') + (Number(r.chapter) + 1) + (data.lang === 'en' ? '' : '章') + '</b>' + String(r.quote || '').slice(0, 42).replace(/[<>&]/g, '');
+          b.addEventListener('click', function () {
+            if (Number(r.chapter) === Number(data.chapter)) { document.body.classList.remove('drawer-open'); jumpToPara(Number(r.para) || 0); return; }
+            try { sessionStorage.setItem('historyai.reader.bmjump', JSON.stringify({ bookId: data.bookId, chapter: Number(r.chapter), para: Number(r.para) || 0 })); } catch (eJ) {}
+            location.href = chapterHref(Number(r.chapter));
+          });
+          host.appendChild(b);
+        });
+      });
+  }
+  function jumpToPara(idx) {
+    var ps = document.querySelectorAll('.reader-content p');
+    var el = ps[Math.max(0, Math.min(ps.length - 1, idx))];
+    if (!el) return;
+    if (state.mode === 'page' && typeof step === 'number' && step > 0) { go(Math.round(el.offsetLeft / step)); }
+    else { el.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+  }
   mask.addEventListener('click', function () { document.body.classList.remove('drawer-open'); });
   addEventListener('scroll', scrollProgress, { passive: true });
 
@@ -475,7 +518,11 @@
       if (sheetEl) { sheetEl.remove(); return; } // 想法面板开着：点正文=收起，不翻页
       if (e.target.closest && e.target.closest('a,button,input,textarea,label,.idea-dot,.review-box')) return;
       try { if (window.getSelection && String(window.getSelection())) return; } catch (e9) {}
-      if (e.clientX < innerWidth / 3) flip(-1); else flip(1);
+      // v5.87 三分区（微信读书式）：左 30% 上一页 / 中 40% 收放工具栏 / 右 30% 下一页
+      var x = e.clientX / innerWidth;
+      if (x < 0.3) flip(-1, true);
+      else if (x > 0.7) flip(1, true);
+      else document.body.classList.toggle('chrome-hidden');
     });
   }
   document.addEventListener('keydown', function (e) {
@@ -498,10 +545,21 @@
     if (dt >= 600 || Math.abs(dx) <= 56 || Math.abs(dy) >= 48) return;
     try { if (window.getSelection && String(window.getSelection())) return; } catch (e4) {}
     if (e.target.closest && e.target.closest('a,button,input,textarea,label,.settings,.chapter-drawer,.idea-sheet,.review-box')) return;
-    flip(dx < 0 ? 1 : -1);
+    flip(dx < 0 ? 1 : -1, true);
   }, { passive: true });
   var rsz = null;
   addEventListener('resize', function () { clearTimeout(rsz); rsz = setTimeout(function () { layout(true); }, 150); });
+  // v5.87 跨章书签落点：上一页面把目标段写进 sessionStorage，本章加载后翻过去
+  (function bmJumpLanding() {
+    try {
+      var raw = sessionStorage.getItem('historyai.reader.bmjump');
+      if (!raw) return;
+      var j = JSON.parse(raw);
+      if (!j || j.bookId !== data.bookId || Number(j.chapter) !== Number(data.chapter)) return;
+      sessionStorage.removeItem('historyai.reader.bmjump');
+      setTimeout(function () { jumpToPara(Number(j.para) || 0); }, 220);
+    } catch (eJ2) {}
+  })();
   // v4.87 章末大按钮：正文末尾醒目「下一章」，末章给「全书完·返回书库」
   (function bigNext() {
     var content = document.querySelector('.reader-content');

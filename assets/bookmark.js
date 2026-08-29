@@ -2341,6 +2341,32 @@ var qrcode = function() {
   document.body.appendChild(fab);
 
   var currentQuote = '';
+  var currentPara = 0;
+  // v5.87 三款高级书签（用户定案：提供 2-3 种书签设计和保存）——素笺/夜阑/朱批
+  var BM_STYLES = [
+    { id: 'sujian', zh: '素笺', en: 'Paper', paper: '#f6efe2', ink: '#2b2620', muted: '#8a8172', gold: '#a8873f', band: '#152420', bandInk: '#f2ead8', vignette: 'rgba(60,45,20,' },
+    { id: 'yelan', zh: '夜阑', en: 'Night', paper: '#14181d', ink: '#e8e3d5', muted: '#8d9299', gold: '#c8a55b', band: '#0b0e12', bandInk: '#e9e2cf', vignette: 'rgba(0,0,0,' },
+    { id: 'zhupi', zh: '朱批', en: 'Cinnabar', paper: '#b5382e', ink: '#f9efdd', muted: '#ecc9b4', gold: '#e9c97b', band: '#5f1b14', bandInk: '#f6e8cd', vignette: 'rgba(60,8,4,' }
+  ];
+  var bmStyle = BM_STYLES[0];
+  try {
+    var savedStyle = localStorage.getItem('historyai.bm.style');
+    for (var bs = 0; bs < BM_STYLES.length; bs++) if (BM_STYLES[bs].id === savedStyle) bmStyle = BM_STYLES[bs];
+  } catch (eS) {}
+  function captureParaIndex() {
+    var para = 0;
+    try {
+      var sel = window.getSelection();
+      var node = sel.rangeCount ? sel.getRangeAt(0).commonAncestorContainer : null;
+      var el = node && (node.nodeType === 1 ? node : node.parentNode);
+      while (el && el.tagName !== 'P') el = el.parentNode;
+      if (el) {
+        var ps = document.querySelectorAll('.reader-content p');
+        for (var i = 0; i < ps.length; i++) if (ps[i] === el) { para = i; break; }
+      }
+    } catch (e0) {}
+    return para;
+  }
   function onSelection() {
     var sel = window.getSelection();
     var text = sel ? String(sel.toString()).replace(/\s+/g, ' ').trim() : '';
@@ -2352,6 +2378,7 @@ var qrcode = function() {
     }
     if (inside && text.length >= 4 && text.length <= 220) {
       currentQuote = text;
+      currentPara = captureParaIndex();
       fab.style.display = 'block';
       ideaBtn.style.display = 'block';
       fab.style.transform = 'translateX(calc(-50% - 62px))';
@@ -2401,25 +2428,26 @@ var qrcode = function() {
     ctx.closePath();
   }
 
-  function renderBookmark(cover) {
+  function renderBookmark(cover, style) {
+    style = style || bmStyle;
     var W = 1080, H = 1920;
     var c = document.createElement('canvas');
     c.width = W; c.height = H;
     var ctx = c.getContext('2d');
     var serif = String(data.lang || '').indexOf('en') === 0 ? 'Georgia,"Times New Roman",serif' : '"Songti SC","Noto Serif SC",Georgia,serif';
     var sans = '-apple-system,"PingFang SC",sans-serif';
-    var INK = '#2b2620', MUTED = '#8a8172', GOLD = '#a8873f', PAPER = '#f6efe2', DARK = '#152420';
+    var INK = style.ink, MUTED = style.muted, GOLD = style.gold, PAPER = style.paper, DARK = style.band;
     // 纸面 + 晕影
     ctx.fillStyle = PAPER; ctx.fillRect(0, 0, W, H);
     var vg = ctx.createRadialGradient(W / 2, H / 2, H * 0.28, W / 2, H / 2, H * 0.75);
-    vg.addColorStop(0, 'rgba(60,45,20,0)');
-    vg.addColorStop(1, 'rgba(60,45,20,.10)');
+    vg.addColorStop(0, style.vignette + '0)');
+    vg.addColorStop(1, style.vignette + '.12)');
     ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
     // 双细金框
-    ctx.strokeStyle = 'rgba(168,135,63,.75)'; ctx.lineWidth = 3;
+    ctx.strokeStyle = GOLD; ctx.globalAlpha = .75; ctx.lineWidth = 3;
     ctx.strokeRect(42, 42, W - 84, H - 84);
-    ctx.strokeStyle = 'rgba(168,135,63,.35)'; ctx.lineWidth = 1.5;
-    ctx.strokeRect(58, 58, W - 116, H - 116);
+    ctx.globalAlpha = .35; ctx.lineWidth = 1.5;
+    ctx.strokeRect(58, 58, W - 116, H - 116); ctx.globalAlpha = 1;
     // 品牌小字
     ctx.textAlign = 'center';
     ctx.fillStyle = GOLD;
@@ -2439,8 +2467,8 @@ var qrcode = function() {
       var sc = Math.max(cw / cover.width, chh / cover.height);
       ctx.drawImage(cover, cx + (cw - cover.width * sc) / 2, y + (chh - cover.height * sc) / 2, cover.width * sc, cover.height * sc);
       ctx.restore();
-      ctx.strokeStyle = 'rgba(168,135,63,.5)'; ctx.lineWidth = 1.5;
-      roundRect(ctx, cx, y, cw, chh, 8); ctx.stroke();
+      ctx.strokeStyle = GOLD; ctx.globalAlpha = .5; ctx.lineWidth = 1.5;
+      roundRect(ctx, cx, y, cw, chh, 8); ctx.stroke(); ctx.globalAlpha = 1;
       y += chh + 78;
     } else {
       y += 60;
@@ -2457,10 +2485,10 @@ var qrcode = function() {
     }
     // 装饰分隔：细线 ◆ 细线
     y += 44;
-    ctx.strokeStyle = 'rgba(168,135,63,.6)'; ctx.lineWidth = 1.5;
+    ctx.strokeStyle = GOLD; ctx.globalAlpha = .6; ctx.lineWidth = 1.5;
     ctx.beginPath(); ctx.moveTo(W / 2 - 190, y); ctx.lineTo(W / 2 - 34, y); ctx.stroke();
     ctx.beginPath(); ctx.moveTo(W / 2 + 34, y); ctx.lineTo(W / 2 + 190, y); ctx.stroke();
-    ctx.fillStyle = GOLD; ctx.font = '22px ' + sans;
+    ctx.globalAlpha = 1; ctx.fillStyle = GOLD; ctx.font = '22px ' + sans;
     ctx.fillText('\u25c6', W / 2, y + 8);
     // ── 金句（居中，自适应字号，保证完整） ──
     var bandTop = H - 262;
@@ -2494,9 +2522,9 @@ var qrcode = function() {
     }
     totalH = count * lh + (paraLines.length - 1) * gap;
     var q0 = areaTop + Math.max(0, (areaH - totalH) / 2) + 50;
-    ctx.fillStyle = 'rgba(168,135,63,.85)';
+    ctx.fillStyle = GOLD; ctx.globalAlpha = .85;
     ctx.font = '700 120px ' + serif;
-    ctx.fillText('\u201c', W / 2, q0 - 34);
+    ctx.fillText('\u201c', W / 2, q0 - 34); ctx.globalAlpha = 1;
     ctx.fillStyle = INK;
     ctx.font = fs + 'px ' + serif;
     var qy0 = q0 + 60;
@@ -2517,24 +2545,46 @@ var qrcode = function() {
     ctx.fillStyle = '#111';
     for (var r = 0; r < n; r++) for (var col = 0; col < n; col++) if (q.isDark(r, col)) ctx.fillRect(qx + col * cell, qy2 + r * cell, Math.ceil(cell), Math.ceil(cell));
     ctx.textAlign = 'left';
-    ctx.fillStyle = '#f2ead8'; ctx.font = '600 36px ' + sans;
+    ctx.fillStyle = style.bandInk; ctx.font = '600 36px ' + sans;
     ctx.fillText(EN ? 'Scan to keep reading' : '扫码继续阅读全书', 150, bandTop + 104);
-    ctx.fillStyle = 'rgba(242,234,216,.62)'; ctx.font = '26px ' + sans;
-    ctx.fillText(EN ? 'EVORON AI Books · Every reader is a writer' : 'EVORON AI 书城 · 每一位读者也是作者', 150, bandTop + 158);
+    ctx.globalAlpha = .62; ctx.fillStyle = style.bandInk; ctx.font = '26px ' + sans;
+    ctx.fillText(EN ? 'EVORON AI Books · Every reader is a writer' : 'EVORON AI 书城 · 每一位读者也是作者', 150, bandTop + 158); ctx.globalAlpha = 1;
     return c;
   }
 
   function openOverlay() {
     loadCover().then(function (cover) {
       var canvas;
-      try { canvas = renderBookmark(cover); } catch (e) { return; }
+      try { canvas = renderBookmark(cover, bmStyle); } catch (e) { return; }
       var dataUrl = canvas.toDataURL('image/jpeg', 0.9);
+      var savedQuote = currentQuote, savedPara = currentPara;
       var wrap = document.createElement('div');
       wrap.style.cssText = 'position:fixed;inset:0;z-index:120;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:rgba(14,17,15,.82);padding:20px';
       var img = document.createElement('img');
       img.src = dataUrl;
       img.alt = '书签';
-      img.style.cssText = 'max-height:70vh;max-width:88vw;border-radius:10px;box-shadow:0 24px 70px rgba(0,0,0,.5)';
+      img.style.cssText = 'max-height:64vh;max-width:88vw;border-radius:10px;box-shadow:0 24px 70px rgba(0,0,0,.5)';
+      // v5.87 三款风格页签：点选即重绘，选择记忆到本地
+      var EN0 = String(data.lang || '').indexOf('en') === 0;
+      var tabs = document.createElement('div');
+      tabs.style.cssText = 'display:flex;gap:8px';
+      BM_STYLES.forEach(function (st) {
+        var tb = document.createElement('button');
+        tb.type = 'button'; tb.textContent = EN0 ? st.en : st.zh;
+        tb.dataset.bmStyle = st.id;
+        tb.style.cssText = 'min-height:34px;padding:0 16px;border:1px solid rgba(255,255,255,.3);border-radius:17px;font:13px -apple-system,"PingFang SC",sans-serif;font-weight:700;cursor:pointer;background:' + (st.id === bmStyle.id ? '#fff' : 'transparent') + ';color:' + (st.id === bmStyle.id ? '#111' : '#fff');
+        tb.onclick = function () {
+          bmStyle = st;
+          try { localStorage.setItem('historyai.bm.style', st.id); } catch (e5) {}
+          try { canvas = renderBookmark(cover, st); dataUrl = canvas.toDataURL('image/jpeg', 0.9); img.src = dataUrl; } catch (e6) {}
+          tabs.querySelectorAll('button').forEach(function (b2) {
+            var on = b2.dataset.bmStyle === st.id;
+            b2.style.background = on ? '#fff' : 'transparent';
+            b2.style.color = on ? '#111' : '#fff';
+          });
+        };
+        tabs.appendChild(tb);
+      });
       var hint = document.createElement('p');
       hint.textContent = String(data.lang || '').indexOf('en') === 0 ? 'Long-press the image to save it' : '手机可长按图片保存到相册';
       hint.style.cssText = 'margin:0;color:#cfd6d1;font:13px -apple-system,"PingFang SC",sans-serif';
@@ -2552,6 +2602,26 @@ var qrcode = function() {
         a.href = dataUrl; a.download = (data.title || '书签') + '-书签.jpg';
         document.body.appendChild(a); a.click(); a.remove();
       };
+      // v5.87 存书签（云同步，匿名落本地）：登录读者 POST 云端，401 回落 localStorage
+      var keep = btn(EN0 ? 'Keep bookmark' : '存入书签', false);
+      keep.onclick = function () {
+        var row = { bookId: data.bookId || '', bookTitle: data.title || '', chapter: Number(data.chapter) || 0, para: savedPara, quote: savedQuote, style: bmStyle.id };
+        function localFallback() {
+          try {
+            var all = JSON.parse(localStorage.getItem('historyai.bookmarks') || '[]');
+            row.id = 'lbm_' + Date.now().toString(36);
+            row.createdAt = new Date().toISOString();
+            all.push(row);
+            localStorage.setItem('historyai.bookmarks', JSON.stringify(all.slice(-200)));
+            keep.textContent = EN0 ? '✓ Saved on this device' : '✓ 已存本机（登录可云同步）';
+          } catch (e7) { keep.textContent = EN0 ? 'Save failed' : '保存失败'; }
+          keep.disabled = true;
+        }
+        fetch('/api/reader/bookmarks', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(row) })
+          .then(function (r) { if (r.status === 401) { localFallback(); return null; } return r.json(); })
+          .then(function (d) { if (d && d.ok) { keep.textContent = EN0 ? '✓ Bookmarked' : '✓ 已存入书签'; keep.disabled = true; } else if (d) { localFallback(); } })
+          .catch(localFallback);
+      };
       var share = btn(String(data.lang || '').indexOf('en') === 0 ? 'Share' : '分享', false);
       if (navigator.share && navigator.canShare) {
         share.onclick = function () {
@@ -2565,8 +2635,8 @@ var qrcode = function() {
       var close = btn(String(data.lang || '').indexOf('en') === 0 ? 'Close' : '关闭', false);
       close.onclick = function () { wrap.remove(); };
       wrap.addEventListener('click', function (e) { if (e.target === wrap) wrap.remove(); });
-      row.appendChild(save); row.appendChild(share); row.appendChild(close);
-      wrap.appendChild(img); wrap.appendChild(hint); wrap.appendChild(row);
+      row.appendChild(save); row.appendChild(keep); row.appendChild(share); row.appendChild(close);
+      wrap.appendChild(img); wrap.appendChild(tabs); wrap.appendChild(hint); wrap.appendChild(row);
       document.body.appendChild(wrap);
       fab.style.display = 'none';
       ideaBtn.style.display = 'none';
