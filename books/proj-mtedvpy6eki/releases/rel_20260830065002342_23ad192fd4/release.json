@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830065002342_23ad192fd4",
+  "projectId": "proj-mtedvpy6eki",
+  "manuscriptVersionId": "mv_696cfcafe171bb6d",
+  "contentHash": "696cfcafe171bb6d63054fbd5021036b350d018a0cb042020140155d4204797e",
+  "title": "Seventy-Two Hours: Chernobyl Before the World Knew",
+  "subtitle": "Chernobyl Before the World Knew",
+  "authorDisplayName": "李思特Think",
+  "description": "On April 26, 1986, Reactor Number Four exploded, yet for seventy-two critical hours, the catastrophe remained a state secret. Inside the control room, operators stared at impossible dosimeter readings while firefighters climbed into invisible flames. In Moscow, apparatchiks drafted reassuring bulletins as radiation drifted undetected toward Sweden. This minute-by-minute reconstruction captures the agonizing interval between disaster and admission, tracing the collision of human denial and physical reality. From the failed turbine test to the first terse TASS announcement, the narrative moves through burning roofs, evacuation buses, and emergency commissions to reveal how the defining tragedy of the nuclear age was negotiated in real time. Before the world understood what had happened, a desperate struggle unfolded between those who could not believe the core was gone and those tasked with containing the unthinkable.",
+  "category": "世界史",
+  "tags": [
+    "Chernobyl",
+    "Nuclear History",
+    "Soviet Union",
+    "Disaster",
+    "Cold War",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 38,
+    "units": 92537,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-2",
+    "createdAt": "2026-08-29T18:02:36.826Z"
+  },
+  "editorReview": {
+    "text": "This panoramic reconstruction of Chernobyl's first three days achieves a formidable density of detail, particularly in its early, gripping chapters that meticulously trace the doomed test sequence. Its most significant contribution is the sustained analysis of the 'seventy-two-hour secret' as an epistemological template, a genuinely insightful frame that elevates the specific catastrophe into a powerful systemic parable. However, the reading experience is hampered in the book's middle sections by prose that lapses into a more generic register and by mechanical transitions between chapters, whi",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-30T06:49:45.824Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Origins of the Catastrophe",
+      "units": 2313
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Unthinkable Experiment (April 25, 1986, 11:00 – 23:59)",
+      "units": 2254
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Immediate Aftermath of the Explosion",
+      "units": 2781
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The First Hours of Daylight",
+      "units": 2626
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Historical Content Follows Parallel",
+      "units": 2347
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Arrival and Initial Engagement",
+      "units": 2095
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The First Official Word (April 26, 1986, 14:00 – Evening)",
+      "units": 2505
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Arrival and Initial Assessments",
+      "units": 2615
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Commission Confronts the Uninhabitable",
+      "units": 2341
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Evacuation of Pripyat (April 27, 1986, Afternoon)",
+      "units": 2507
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Commission Assembles (April 27-28, 1986)",
+      "units": 2492
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The First International Alarm (April 28, 1986, Morning)",
+      "units": 2468
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Politburo’s First Briefing (April 28, 1986, Afternoon)",
+      "units": 2500
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The First TASS Bulletin (April 28, 1986, Evening)",
+      "units": 2391
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Secret Crosses the Border (April 28-29, 1986)",
+      "units": 2515
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Commission Assumes Command (April 29, 1986)",
+      "units": 2607
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The First Aerial Assault (April 30 – May 1, 1986)",
+      "units": 2661
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Weight of Command (April 30 – May 2, 1986)",
+      "units": 2647
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Unyielding Core (April 30 – May 2, 1986)",
+      "units": 2311
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Secret Crosses the Border (April 28, 1986)",
+      "units": 2412
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Commission’s First Report (April 28 – 29, 1986)",
+      "units": 2404
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The First International Broadcast (April 29, 1986)",
+      "units": 2399
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The First Public Admission (April 29 – 30, 1986)",
+      "units": 2573
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The First Aerial Assault (May 1-2, 1986)",
+      "units": 2043
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Siege of the Sarcophagus (May 3-4, 1986)",
+      "units": 2080
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The First Casualty Lists (May 5-9, 1986)",
+      "units": 2328
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The First International Reckoning (May 10-14, 1986)",
+      "units": 1745
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Weight of the Secret (May 15-31, 1986)",
+      "units": 2416
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Bureaucracy of Denial (June 1986)",
+      "units": 2572
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The First Public Trial (July 1986)",
+      "units": 2348
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The First Scientific Report (August 1986)",
+      "units": 2589
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Monument of Impermanent Containment",
+      "units": 2570
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Long Shadow of the Secret (1987 – 1991)",
+      "units": 1670
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Perpetual Steward",
+      "units": 2541
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "The Enduring Bargain (1992 – Present)",
+      "units": 2560
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "The Final Reckoning (1986 – Present)",
+      "units": 2359
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "The Unfinished Conversation (1986 – Present)",
+      "units": 2500
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "The Unknowable Price (1986 – Present)",
+      "units": 3452
+    }
+  ],
+  "publishedAt": "2026-08-30T06:50:02.346Z"
+}
