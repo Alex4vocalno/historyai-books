@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtd16n61ss1",
+    "projectId": "proj-mtd16n61ss1",
+    "releaseId": "rel_20260830073629790_fe3601052a",
+    "title": "谁在编造人类",
+    "subtitle": "虚构如何驱动文明跃升与崩塌",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "中国史",
+    "tags": [
+      "大历史",
+      "文明演化",
+      "认知革命",
+      "物质文化",
+      "社会协作",
+      "中国史"
+    ],
+    "description": "智人统治地球，靠的不是肌肉或智商，而是讲故事的能力。但故事并非无限游戏，它受制于能量、技术与生态的硬约束。从七万年前的认知裂隙到今日的算法神谕，每一次协作规模的跃升都对应一种新虚构的诞生，而每一次系统性崩溃皆源于叙事与物质基础的脱节。本书以考古、古气候与经济史证据为锚，穿透神话、国家、货币与公司的表象，揭示文明在虚构红利与现实反噬间的永恒张力。这不是又一部线性进步史，而是一份关于人类想象边界的清醒账簿。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 78,
+      "method": "median-of-3",
+      "createdAt": "2026-08-30T06:59:08.059Z"
+    },
+    "coverUrl": "books/proj-mtd16n61ss1/releases/rel_20260830073629790_fe3601052a/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtd16n61ss1/index.html",
+    "publishedAt": "2026-08-30T07:36:29.803Z",
+    "firstPublishedAt": "2026-08-30T07:36:29.803Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtedw6dsufz",
     "projectId": "proj-mtedw6dsufz",
     "releaseId": "rel_20260830073550468_43679157e4",

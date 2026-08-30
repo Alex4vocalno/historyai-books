@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830073629790_fe3601052a",
+  "projectId": "proj-mtd16n61ss1",
+  "manuscriptVersionId": "mv_456ca988c1f35e8e",
+  "contentHash": "456ca988c1f35e8e75b991367daf466234a7b9f5cea16d93f4467624e7e187e0",
+  "title": "谁在编造人类",
+  "subtitle": "虚构如何驱动文明跃升与崩塌",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "智人统治地球，靠的不是肌肉或智商，而是讲故事的能力。但故事并非无限游戏，它受制于能量、技术与生态的硬约束。从七万年前的认知裂隙到今日的算法神谕，每一次协作规模的跃升都对应一种新虚构的诞生，而每一次系统性崩溃皆源于叙事与物质基础的脱节。本书以考古、古气候与经济史证据为锚，穿透神话、国家、货币与公司的表象，揭示文明在虚构红利与现实反噬间的永恒张力。这不是又一部线性进步史，而是一份关于人类想象边界的清醒账簿。",
+  "category": "中国史",
+  "tags": [
+    "大历史",
+    "文明演化",
+    "认知革命",
+    "物质文化",
+    "社会协作",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 254372,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-3",
+    "createdAt": "2026-08-30T06:59:08.059Z"
+  },
+  "editorReview": {
+    "text": "本书以「虚构协议」为贯穿七万年文明的统一解释框架，其核心论点具有真正的原创性与跨学科穿透力，从布隆伯斯贝壳到算法神谕的全链路论证，单论框架已属出版级洞见。第15章（战马的信用）与第16章（经卷的刀锋）是全书论证的高光时刻，将多组案例交织编织，因果链清晰，起承转合自如，展现了作者在具体历史情境中驾驭宏大叙事的扎实功力。然而，全书文本质量存在明显梯度：开篇两章及第29章存在严重的语句断链、逻辑跳跃与文风混乱问题，部分段落甚至显露出AI写作痕迹，严重损害了论证推进的连贯性与读者信任。章节间的论证递进亦存在系统性断裂，削弱了「长时段结构史」样态应有的声口稳定性。这是一部洞见惊人但执行参差的作品，其框架的锐利与局部文本的粗糙形成了鲜明反差。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "编辑意见"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-30T05:59:19.604Z",
+    "textless": false,
+    "profileId": "archival-deep"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "认知裂隙",
+      "units": 8386
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "言说之网",
+      "units": 8374
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "神话的算术",
+      "units": 8166
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "图腾的边界",
+      "units": 9935
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "仪式的账簿",
+      "units": 8674
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "青铜的盟约",
+      "units": 8331
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "刻写权力",
+      "units": 7779
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "律令的肉身",
+      "units": 8944
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "价值的炼金术",
+      "units": 8091
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "普世的幻景",
+      "units": 8212
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "远方的信用",
+      "units": 7930
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "佛陀的轭痕",
+      "units": 8967
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "税册的裂缝",
+      "units": 8375
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "庄园的暗账",
+      "units": 8390
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "战马的信用",
+      "units": 7440
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "经卷的刀锋",
+      "units": 7593
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "港口的秤砣",
+      "units": 8574
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "银流的暗涌",
+      "units": 8809
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "驿道织就的帝国",
+      "units": 8613
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "瘟疫清算旧账",
+      "units": 8373
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "城邦的双栏账",
+      "units": 8383
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "海图锁住大洋",
+      "units": 8357
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "印版拆解圣言",
+      "units": 8585
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "主权登录总账",
+      "units": 8306
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "理性的神座",
+      "units": 7785
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "碳基账簿",
+      "units": 11019
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "民族的血脉",
+      "units": 8279
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "欲望的流水线",
+      "units": 8815
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "计划的乌托邦",
+      "units": 8390
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "算法的神谕",
+      "units": 8497
+    }
+  ],
+  "publishedAt": "2026-08-30T07:36:29.803Z",
+  "formFamily": "narrative"
+}
