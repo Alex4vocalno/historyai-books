@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mteegh84zas",
+    "projectId": "proj-mteegh84zas",
+    "releaseId": "rel_20260830073753127_77dea79132",
+    "title": "伪诏",
+    "subtitle": "一纸假圣旨与元朝官僚机器的失灵时刻",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "中国史",
+    "tags": [
+      "元代政治",
+      "制度史",
+      "公文流转",
+      "官僚体系",
+      "历史非虚构",
+      "中国史"
+    ],
+    "description": "元代河南行省，底层书吏范孟仅凭一纸伪造圣旨，便撬动整个地方官僚机器，开府库、杀官员、权知军政。这并非传奇式的个人犯罪，而是帝国信息控制体系崩塌的症候。当皇权符号在驿传链条末端变得廉价且易于复制，严密的公文核验制度便在人为弹性中失效。从伪造、执行到败露，这场荒诞闹剧精准暴露了中央集权与地方执行之间的致命断层。在文书流转的缝隙里，看见一个庞大帝国如何被自身的制度重量压出裂痕。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-2",
+      "createdAt": "2026-08-30T06:13:54.466Z"
+    },
+    "coverUrl": "books/proj-mteegh84zas/releases/rel_20260830073753127_77dea79132/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mteegh84zas/index.html",
+    "publishedAt": "2026-08-30T07:37:53.632Z",
+    "firstPublishedAt": "2026-08-30T07:37:53.632Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtd16n61ss1",
     "projectId": "proj-mtd16n61ss1",
     "releaseId": "rel_20260830073629790_fe3601052a",

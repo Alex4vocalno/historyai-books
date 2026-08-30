@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830073753127_77dea79132",
+  "projectId": "proj-mteegh84zas",
+  "manuscriptVersionId": "mv_f3f6c5ee99f41809",
+  "contentHash": "f3f6c5ee99f41809f9423e8af141e42fbb4053486d2ffa7da36b075f5c55b08b",
+  "title": "伪诏",
+  "subtitle": "一纸假圣旨与元朝官僚机器的失灵时刻",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "元代河南行省，底层书吏范孟仅凭一纸伪造圣旨，便撬动整个地方官僚机器，开府库、杀官员、权知军政。这并非传奇式的个人犯罪，而是帝国信息控制体系崩塌的症候。当皇权符号在驿传链条末端变得廉价且易于复制，严密的公文核验制度便在人为弹性中失效。从伪造、执行到败露，这场荒诞闹剧精准暴露了中央集权与地方执行之间的致命断层。在文书流转的缝隙里，看见一个庞大帝国如何被自身的制度重量压出裂痕。",
+  "category": "中国史",
+  "tags": [
+    "元代政治",
+    "制度史",
+    "公文流转",
+    "官僚体系",
+    "历史非虚构",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 291621,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-30T06:13:54.466Z"
+  },
+  "editorReview": {
+    "text": "本书以元代小吏范孟伪造圣旨案为切口，论证起点极为扎实——从第一章归德府秋粮申禀的十七户丁口差额这个具体数字悬念入手，自然引出制度缝隙，避免了宏大叙事的空洞感。其最出色的洞见，在于层层揭示了从印信核验的形式主义、驿传系统的信任盲区，到“口耳之间的帝国”这一非正式信息网络，每一层都有具体案例支撑，尤其是第十五章王谨密禀写作的场景，将公文体系的精密与非正式渠道的生存智慧展现得淋漓尽致。不过，本书在中后段（约第29-30章）出现了明显的滑坡，叙事密度骤降，代之以大量概括性的学术论文句式，与前半部以人物行动为锚点的稳定声口形成落差；同时，对驿传系统漏洞等核心论点的重复阐述也略显冗余。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-30T07:37:30.684Z",
+    "textless": false,
+    "profileId": "woodblock-print"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "省掾范孟",
+      "units": 8280
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "一纸诏书",
+      "units": 8516
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "省府汴梁",
+      "units": 9812
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "纸上的刀兵",
+      "units": 10098
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "夜开府库",
+      "units": 8838
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "权知河南",
+      "units": 10758
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "堂上惊变",
+      "units": 7505
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "符节在手",
+      "units": 8345
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "驿路风雷",
+      "units": 8643
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "地方的回声",
+      "units": 10073
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "衙门的嗅觉",
+      "units": 8541
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "裂痕初现",
+      "units": 12744
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "酒后的真言",
+      "units": 14364
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "同谋者的算盘",
+      "units": 10495
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "一纸密禀",
+      "units": 8972
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "风声",
+      "units": 10220
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "钦差的马蹄",
+      "units": 13469
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "堂前对质",
+      "units": 8360
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "堂上最后的供词",
+      "units": 8530
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "同谋者的囚笼",
+      "units": 7680
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "案卷如山",
+      "units": 10432
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "汴梁城中的等待",
+      "units": 8836
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "上谕临汴",
+      "units": 7908
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "刑场上的目光",
+      "units": 10078
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "修补的链条",
+      "units": 10804
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "清洗与升迁",
+      "units": 11658
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "地方官的生存术",
+      "units": 9522
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "文书的重量",
+      "units": 7957
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "口耳之间的帝国",
+      "units": 11781
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "符号的裂缝",
+      "units": 8402
+    }
+  ],
+  "publishedAt": "2026-08-30T07:37:53.632Z",
+  "formFamily": "narrative"
+}
