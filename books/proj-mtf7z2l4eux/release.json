@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-3f5325be6e42.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-30T06:22:12.705Z",
+    "generatedAt": "2026-08-30T06:31:58.306Z",
     "textless": false,
-    "profileId": "zen-literary-minimal",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "zen-literary-minimal"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -143,5 +140,6 @@
   ],
   "illustrations": 4,
   "publishedAt": "2026-08-30T06:31:02.894Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "rerenderedAt": "2026-08-30T06:31:58.428Z"
 }
