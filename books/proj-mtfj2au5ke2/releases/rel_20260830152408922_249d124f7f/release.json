@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830152408922_249d124f7f",
+  "projectId": "proj-mtfj2au5ke2",
+  "manuscriptVersionId": "mv_f8e1d43b23b096a9",
+  "contentHash": "f8e1d43b23b096a94c4c36b675fd8fa05d367d2a3059d407129d2f6a3d4c6b33",
+  "title": "棋局与玫瑰",
+  "subtitle": "",
+  "authorDisplayName": "知世犹稚",
+  "description": "四十岁的陈砚秋，生活原本像一杯温吞的白水。直到儿子教他下国际象棋，一切开始失控。棋盘上，他步步为营，从新手一路杀向区级冠军赛；棋盘外，四位性格迥异的女性相继闯入他的生活，每一步棋都牵动着微妙的情感博弈。当棋局与玫瑰同时摆在面前，这位幽默豪爽的中年男人，该如何走出既定的方格，重新定义自己的人生？",
+  "category": "小说",
+  "tags": [
+    "都市轻喜剧",
+    "中年成长",
+    "情感博弈",
+    "国际象棋",
+    "生活哲学",
+    "都市"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 255622,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 81,
+    "method": "median-of-1",
+    "createdAt": "2026-08-30T15:23:46.261Z"
+  },
+  "editorReview": {
+    "text": "翻开《棋局与玫瑰》，最打动人的是那些充满在场感的瞬间：客厅里温吞的空气、储藏室旧物的气味，都仿佛触手可及；人物声口更是活灵活现，儿子的冷静、苏蔓的锋利、老郑的沉稳，几句对白就能让你看见他们。陈砚秋从逃避到直面、从父亲到棋手的弧光也扎实可信，尤其结尾阳台对局的处理，意境悠长，余味很足。但不得不提的是，阅读中能明显感觉到节奏的断点与跳跃，部分章节的衔接略显生硬，篇幅的失衡偶尔会打断沉浸的叙事流。好在棋理与情感的巧妙融合、以及那些细腻的感官细节，足以支撑你跟随这位幽默豪爽的中年男人，走完这场棋盘内外的人生对弈。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-30T15:22:05.215Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "激将法",
+      "units": 9258
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "旧棋谱",
+      "units": 10761
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "深夜棋局",
+      "units": 8853
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "棋馆初战",
+      "units": 11013
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "棋馆常客",
+      "units": 3862
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "甲方乙方",
+      "units": 7052
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "家长群风暴",
+      "units": 7069
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "降维打击",
+      "units": 8934
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "棋馆之外",
+      "units": 9165
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "四人成局",
+      "units": 8335
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "棋力精进",
+      "units": 4604
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "广告棋局",
+      "units": 7321
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "四线交织",
+      "units": 13789
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "儿子的审视",
+      "units": 8515
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "棋协风云",
+      "units": 4159
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "苏蔓的过去",
+      "units": 4962
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "弃子之影",
+      "units": 11203
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "弃子之择",
+      "units": 11729
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "舅舅的身份",
+      "units": 9409
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "弃子之后",
+      "units": 10692
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "坦诚风暴",
+      "units": 10399
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "霓虹灯下的质问",
+      "units": 7540
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "冷却期",
+      "units": 5164
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "周棠的退场",
+      "units": 9582
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "重新定义",
+      "units": 8668
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "反向养成",
+      "units": 7318
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "决赛前夜",
+      "units": 3049
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "弃子之光",
+      "units": 9514
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "弃子夺冠",
+      "units": 8006
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "冠军之后",
+      "units": 1960
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "各自的棋局",
+      "units": 5090
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "新局",
+      "units": 8647
+    }
+  ],
+  "publishedAt": "2026-08-30T15:24:08.931Z"
+}
