@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtedvch1j50",
+    "projectId": "proj-mtedvch1j50",
+    "releaseId": "rel_20260830064419272_24c490a6be",
+    "title": "The Berlin Airlift Ledger: Feeding a City by Paper and Propeller",
+    "subtitle": "Feeding a City by Paper and Propeller",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "世界史",
+    "tags": [
+      "Berlin Airlift",
+      "Cold War History",
+      "Logistics",
+      "Military History",
+      "Postwar Germany",
+      "世界史"
+    ],
+    "description": "When Soviet forces sealed off West Berlin in June 1948, survival depended not merely on pilot bravery but on bureaucratic precision. The Berlin Airlift was a triumph of logistics where tonnage boards, loading manifests, and corridor schedules transformed coal and flour into instruments of grand strategy. Drawing from Operation Vittles archives, Soviet diplomatic notes, and municipal ration records, this history reconstructs the eleven-month siege through its operational paperwork. From the first improvised flights to the record-breaking Easter Parade and the blockade’s quiet termination, these documents reveal how close the city came to starvation. Beyond the cockpit, the true battle was fought in control rooms and counting houses where arithmetic determined fate. This is the story of how an archival machine sustained two million people, proving that in the early Cold War, administrative order was as vital as aviation fuel.",
+    "chapterCount": 36,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 78,
+      "method": "median-of-2",
+      "createdAt": "2026-08-29T19:08:58.125Z"
+    },
+    "coverUrl": "books/proj-mtedvch1j50/releases/rel_20260830064419272_24c490a6be/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtedvch1j50/index.html",
+    "publishedAt": "2026-08-30T06:44:19.286Z",
+    "firstPublishedAt": "2026-08-30T06:44:19.286Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtf7z2l4eux",
     "projectId": "proj-mtf7z2l4eux",
     "releaseId": "rel_20260830063237492_1e7d78077a",

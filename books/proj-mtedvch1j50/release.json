@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830064419272_24c490a6be",
+  "projectId": "proj-mtedvch1j50",
+  "manuscriptVersionId": "mv_bb3ffe999af7574b",
+  "contentHash": "bb3ffe999af7574bdc8742db26ce86c3a7e4f307fa61f50dfed19c6f9dfab59a",
+  "title": "The Berlin Airlift Ledger: Feeding a City by Paper and Propeller",
+  "subtitle": "Feeding a City by Paper and Propeller",
+  "authorDisplayName": "李思特Think",
+  "description": "When Soviet forces sealed off West Berlin in June 1948, survival depended not merely on pilot bravery but on bureaucratic precision. The Berlin Airlift was a triumph of logistics where tonnage boards, loading manifests, and corridor schedules transformed coal and flour into instruments of grand strategy. Drawing from Operation Vittles archives, Soviet diplomatic notes, and municipal ration records, this history reconstructs the eleven-month siege through its operational paperwork. From the first improvised flights to the record-breaking Easter Parade and the blockade’s quiet termination, these documents reveal how close the city came to starvation. Beyond the cockpit, the true battle was fought in control rooms and counting houses where arithmetic determined fate. This is the story of how an archival machine sustained two million people, proving that in the early Cold War, administrative order was as vital as aviation fuel.",
+  "category": "世界史",
+  "tags": [
+    "Berlin Airlift",
+    "Cold War History",
+    "Logistics",
+    "Military History",
+    "Postwar Germany",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 36,
+    "units": 87415,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-2",
+    "createdAt": "2026-08-29T19:08:58.125Z"
+  },
+  "editorReview": {
+    "text": "This chronicle offers a compelling re-examination of the Berlin Airlift, successfully framing the 'paper machine' of logistics as an active historical protagonist rather than a passive record. The argument finds its most potent form in the middle chapters, where meticulous archival evidence—such as the analysis of priority lists and manifests in Chapter 19—drives the narrative with precision and conceptual force. However, the structural discipline falters towards the end, where the rich, document-specific texture gives way to more generic strategic analysis. A noticeable repetition in chapter",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-30T06:42:58.589Z",
+    "textless": false,
+    "profileId": "serious-history-editorial",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Ledger’s First Empty Page (June 1948)",
+      "units": 2332
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Chapter’s Claim",
+      "units": 2202
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Coal Manifesto (Late June – Early July 1948)",
+      "units": 2365
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Corridor’s First Timetable (Late July 1948)",
+      "units": 2308
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Ration Card’s Arithmetic (August 1948)",
+      "units": 2517
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Weather Log’s First Warning (September 1948)",
+      "units": 2289
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Control Council’s Final Minutes (Late September 1948)",
+      "units": 2512
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The First Tonnage Board (October 1948)",
+      "units": 2430
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Loading Manifest’s Standard Form (November 1948)",
+      "units": 2231
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Diplomatic Note’s Calculated Ambiguity (December 1948)",
+      "units": 2652
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Winter Stockpile Ledger (January 1949)",
+      "units": 2363
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Easter Parade’s Paper Trail (April 1949)",
+      "units": 2373
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Maintenance Log’s Grim Calculus (May 1949)",
+      "units": 2423
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The City Treasurer’s Final Balance (Late May 1949)",
+      "units": 2491
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Blockade’s Quiet Termination (May 12, 1949)",
+      "units": 2360
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Ledger’s Final Balance (June 1949)",
+      "units": 2504
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Air Corridor’s Cartographic Closure (June – September 1949)",
+      "units": 2230
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Archive’s First Historian (Summer 1949)",
+      "units": 2315
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Paper Machine’s Final Rhythm (June – September 1949)",
+      "units": 2405
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Ledger’s Public Face",
+      "units": 2536
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Ledger’s Final Balance",
+      "units": 2607
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Ledger’s Posthumous Power (1949 – 1950s)",
+      "units": 2508
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Ledger’s Unwritten Page (Late 1949 – Early 1950)",
+      "units": 2518
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Ledger’s Cold Storage (1950–1955)",
+      "units": 2498
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Ledger’s Second Life (1955–1961)",
+      "units": 2518
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Ledger’s Final Judgment (1961–1989)",
+      "units": 2317
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Ledger’s Digital Ghost (1990–Present)",
+      "units": 2287
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Ledger’s Last Audit (May 1949)",
+      "units": 2490
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Ledger’s Unwritten Epilogue (May 1949 – June 1950)",
+      "units": 2222
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Ledger’s Final Balance (May 1949 – The Present)",
+      "units": 2519
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The Ledger’s Unclaimed Inheritance (May 1949 – The Present)",
+      "units": 2549
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Ledger’s Final Verdict (May 1949 – The Present)",
+      "units": 2500
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Ledger’s Enduring Shadow (May 1949 – The Present)",
+      "units": 2547
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Ledger’s Final Reckoning",
+      "units": 2502
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "The Paper Monument",
+      "units": 2761
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "The Ledger’s Final Balance (May 1949 – The Present)（36）",
+      "units": 2234
+    }
+  ],
+  "publishedAt": "2026-08-30T06:44:19.286Z",
+  "formFamily": "narrative"
+}
