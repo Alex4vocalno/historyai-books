@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830072635353_02f19f7464",
+  "projectId": "proj-mtedwbdvb0r",
+  "manuscriptVersionId": "mv_de63eec25a14d378",
+  "contentHash": "de63eec25a14d37864c357d834699f0583add596d4e06bc916b53c68a8917832",
+  "title": "The Alphabet of Life: How Four Letters Write Every Living Thing",
+  "subtitle": "How Four Letters Write Every Living Thing",
+  "authorDisplayName": "李思特Think",
+  "description": "All life on Earth is written in a four-letter alphabet, yet for most of history, this script remained invisible. From the mold that transformed mice to Rosalind Franklin’s Photo 51 and the high-stakes race to map the human genome, this book narrates the greatest decoding story ever told. Complex biology becomes tangible through vivid scenes: the double helix unzipping like a zipper, genes acting as recipes rather than blueprints, and CRISPR functioning as molecular find-and-replace. Jargon gives way to narrative as experiments unfold in real time, revealing how typos drive evolution and how vast genomic libraries still hold unread shelves. Accessible to readers with no scientific background, this account traces the arc from early heredity mysteries to modern gene editing and epigenetic inheritance. It is a journey through the grammar of existence itself, exploring not only what we have deciphered but the profound questions that remain in the unwritten chapters of our biological code.",
+  "category": "世界史",
+  "tags": [
+    "DNA",
+    "Genetics",
+    "History of Science",
+    "CRISPR",
+    "Biology",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 35,
+    "units": 85136,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 76,
+    "method": "median-of-3",
+    "createdAt": "2026-08-29T20:29:22.329Z"
+  },
+  "editorReview": {
+    "text": "This book excels when it anchors the profound in the tactile, as in Chapter 2's vivid description of the glass rod lifting from the cold bath, immersing the reader directly in the scientific process. Its strongest conceptual reframes, like viewing DNA as a battlefield, are genuinely illuminating. However, the narrative momentum falters in the middle sections, where a repeating motif like the 'Unfinished Symphony' fails to develop, and the chronological thread frays during critical transitions. The result is a capable and often insightful history, but one whose structural seams are occasionally",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-30T07:26:28.725Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Mould That Transformed Mice",
+      "units": 2277
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Heat-Stable Agent of Heredity",
+      "units": 1976
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Photograph That Revealed a Shape (1952-1953)",
+      "units": 2516
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Zipper That Copies Itself (1953-1958)",
+      "units": 2477
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Recipe Book of the Cell (1958-1961)",
+      "units": 2263
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Cracking of Life’s Code (1961-1966)",
+      "units": 2347
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Typographical Errors of Inheritance (1966-1977)",
+      "units": 2599
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Library of a Species (1977-2001)",
+      "units": 2480
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Unseen Hand of the Genome (2001-2023)",
+      "units": 2370
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Molecular Scissors of a Bacterial Immune System (1987-2005)",
+      "units": 2494
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Chapter’s Claim",
+      "units": 2507
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The First Patient (2012-2017)",
+      "units": 2524
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Unintended Consequences of a Perfect Edit (2017-2023)",
+      "units": 2485
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Inherited Memory of a Lifetime (2000-Present)",
+      "units": 2444
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Engine of Our Own Evolution (2005-Present)",
+      "units": 2295
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Unwritten Future of a Written Code (2024–Present)",
+      "units": 2594
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Immortal Thread in a Mortal Body (1951–Present)",
+      "units": 2388
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Unfinished Symphony of the Human Genome (2003–Present)",
+      "units": 2405
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Unseen Architects of a Visible World (1984–Present)",
+      "units": 2450
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Engine of Evolution in a Test Tube (1970–2024)",
+      "units": 2500
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Private Code of a Public Scientist (1953–1975)",
+      "units": 1889
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Ghost in the Machine of Inheritance (1975–2000)",
+      "units": 2224
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Unfinished Symphony of the Human Genome (2003–Present)（23）",
+      "units": 2519
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Second Code:Life Beyond the Sequence (2000–Present)",
+      "units": 2503
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Unintended Consequences of a Perfect Tool (2012–Present)",
+      "units": 2398
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Unseen Architects of Our Own Evolution (2015–Present)",
+      "units": 2453
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Uncharted Territory of a Rewritten Future (2018–Present)",
+      "units": 2460
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Unfinished Symphony of the Genome (2020–Present)",
+      "units": 2866
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Living Library and Its Endless Annotations (2023–Present)",
+      "units": 2526
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Final Word of the Four-Letter Code (2024–Present)",
+      "units": 2456
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The Unwritten Chapters of Life (2025–Present)",
+      "units": 2581
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Last Word of the First Decoders (2025–Present)",
+      "units": 2411
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Alphabet’s Unfinished Story (2025–Present)",
+      "units": 2355
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Enduring Grammar of Life (2025–Present)",
+      "units": 2503
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "The Grammar of a Living Library (2025–Present)",
+      "units": 2601
+    }
+  ],
+  "publishedAt": "2026-08-30T07:26:36.090Z"
+}
