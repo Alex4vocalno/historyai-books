@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830065439395_413f4d1c6e",
+  "projectId": "proj-mtedvzmzza4",
+  "manuscriptVersionId": "mv_10ecba0a00478af8",
+  "contentHash": "10ecba0a00478af897fe14babc5c8f59b16c98f60b9c5ce58abe287ab201856a",
+  "title": "Aisle Nine: The Store That Taught the World to Shop",
+  "subtitle": "Clarence Saunders, Piggly Wiggly, and the Invention of Modern Retail",
+  "authorDisplayName": "李思特Think",
+  "description": "In 1916, a Memphis grocer installed a wooden turnstile and changed how the world buys food. Clarence Saunders’s Piggly Wiggly replaced clerks with open shelves, branded goods, and the checkout line, birthing the self-service economy. But the architect of modern retail was also its first casualty. Aisle Nine traces Saunders from his revolutionary patent to a spectacular Wall Street corner attempt, bankruptcy, and an obsessive quest to automate shopping entirely. Drawing on blueprints, franchise contracts, and court filings, this history reveals how one man’s genius and ruin constructed the supermarket age. From the first impulse buy to an unfinished pink marble palace, Saunders’s paper trail maps the DNA of consumer culture. It is a story of innovation hubris, where the system that liberated shoppers ultimately consumed its creator, leaving behind the invisible architecture that still dictates our daily lives.",
+  "category": "世界史",
+  "tags": [
+    "Retail History",
+    "Business Biography",
+    "Consumer Culture",
+    "American Innovation",
+    "Piggly Wiggly",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 35,
+    "units": 86069,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 77,
+    "method": "median-of-2",
+    "createdAt": "2026-08-29T18:06:29.585Z"
+  },
+  "editorReview": {
+    "text": "This microhistory shines when it grounds its ambitious thesis—that a Memphis turnstile engineered modern consumer behavior—in vivid archival specifics. The analysis of a museum catalog card (Object ID 1964.147.2) as a narrative origin point is a masterclass in the form, and the book’s central metaphor, tracing the turnstile’s evolution into a legal and then digital gatekeeper, provides remarkable coherence. However, the execution is uneven. A distracting structural bloat is evident in repetitive chapter titling and temporal seams that disrupt the narrative flow, while occasional lapses into ge",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-30T06:54:33.593Z",
+    "textless": false,
+    "profileId": "silk-mineral-pigment"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Clerk and the Counter (c. 1881-1916)",
+      "units": 2517
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Patent and the Turnstile (1916-1917)",
+      "units": 2610
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The First Turn of the Turnstile (1917-1918)",
+      "units": 2354
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Franchise and the Flood (1919-1921)",
+      "units": 2323
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Architecture of Impulse (1921-1922)",
+      "units": 2560
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Man Who Sold Systems (1922-1923)",
+      "units": 2555
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Corner of Wall Street",
+      "units": 2586
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Crash and the Receivers (1923-1924)",
+      "units": 2303
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Patent and the Prison (1924-1925)",
+      "units": 2513
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Phoenix of the Keedoozle (1925-1929)",
+      "units": 2323
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Second Phoenix (1929-1936)",
+      "units": 2370
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Unfinished Palace (1936-1953)",
+      "units": 2303
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Final Turnstile (1953-1960)",
+      "units": 2506
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The System in the Wild (1920-1925)",
+      "units": 2460
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The End of Monopoly (1929-1936)",
+      "units": 2600
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Grocer’s Ghost in the Supermarket (1946-1953)",
+      "units": 2499
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Turnstile in the Museum (1953-1970)",
+      "units": 2511
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Palace of Pink Marble (1959-1962)",
+      "units": 2190
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Unseen Architecture (1963-Present)",
+      "units": 2523
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Curator of Unbuilt Worlds",
+      "units": 2529
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Patent on Experience",
+      "units": 2606
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Ghost in the Machine (1963-Present)",
+      "units": 2687
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Final Ledger (1963-Present)",
+      "units": 2465
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Palace of Pink Marble (1959-1962)（24）",
+      "units": 2663
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Unfinished Palace (1959-1963)",
+      "units": 2188
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Last Turnstile (1953-1962)",
+      "units": 2457
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Final Inventory (1959-1963)",
+      "units": 2170
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Ghost in the Machine (1963-1970s)",
+      "units": 2484
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Inventor’s Epitaph (1963-1970s)",
+      "units": 2398
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Turnstile in the Mind (1960s–Present)",
+      "units": 2527
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The Pink Marble Palace (1959-1963)",
+      "units": 2220
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Unpatented World (1970s–Present)",
+      "units": 2396
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Turnstile’s Endless Return (1970s–Present)",
+      "units": 2514
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Man in the Turnstile (1917–Present)",
+      "units": 2721
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "The Turnstile’s Final Turn (1917–Present)",
+      "units": 2438
+    }
+  ],
+  "publishedAt": "2026-08-30T06:54:39.397Z",
+  "formFamily": "narrative"
+}
