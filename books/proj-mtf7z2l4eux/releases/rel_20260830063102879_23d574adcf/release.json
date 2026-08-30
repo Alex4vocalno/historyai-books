@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830063102879_23d574adcf",
+  "projectId": "proj-mtf7z2l4eux",
+  "manuscriptVersionId": "mv_95ace0dabfc6b90b",
+  "contentHash": "95ace0dabfc6b90bda213bf14e5a42d6e1d53443e7c450a023e2ac5685e96622",
+  "title": "文心禅骨",
+  "subtitle": "士大夫精神结构的隐性骨架",
+  "authorDisplayName": "心安处是故乡",
+  "description": "王维在辋川别业的空谷中究竟看见了什么？白居易的“中隐”是逃避还是精密的心性计算？禅宗本不立文字，为何反被文人锻造成最锋利的诗笔与画论？从盛唐山水到晚明茶寮，禅从未仅是宗教皈依，而是一套可操作的精神技术。它调节着仕与隐的张力，重构了审美判断，甚至成为园林留白与书画南北宗论的底层逻辑。本书穿透义理迷雾，还原古代文人将禅转化为创作方法与生活方式的具体现场，揭示那些藏在诗文、器物与日常起居中的精神骨架。",
+  "category": "中国史",
+  "tags": [
+    "文人禅",
+    "中国古代文化",
+    "士大夫精神",
+    "古典美学",
+    "禅宗艺术",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 122345,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-08-30T06:18:55.220Z"
+  },
+  "editorReview": {
+    "text": "本书最扎实处，在于将禅宗从宗教修行到审美技术、再到生活装饰的三阶段变形，贯穿为一条清晰的观念史骨架。第一章对王维《鹿柴》的细读尤为精彩，从“返景”与“青苔”的缝隙中辨认“空”的发生现场，既有文本依据又有理论穿透力。第八章将宗杲焚版事件本身作为公案来解读，指出“意义可以在断裂处生成”，锐利洞见与前后章节形成有效对话。全书声口冷静克制，与观念史体裁高度匹配。不过，部分章节存在论证重复与接缝钩子悬置的问题，例如第一章内部关于“物象密度递减”的段落几近自我复制；而中后段处理清中叶至民国的转型时，论证密度明显下降，对袁枚、周作人等人的铺陈未能延续前文的细读深度，稍显仓促。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-30T06:22:12.705Z",
+    "textless": false,
+    "profileId": "zen-literary-minimal",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "zen-literary-minimal"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "辋川别业的空谷",
+      "units": 8500
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "中隐的闲适刻度",
+      "units": 7925
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "诗僧调停的悖论",
+      "units": 8036
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "文字权作渡船",
+      "units": 7756
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "夺胎换骨与句眼",
+      "units": 8526
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "沧浪诗话截众流",
+      "units": 8486
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "平易深处的禅关",
+      "units": 8587
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "焚版事件与转身",
+      "units": 8396
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "白沙静坐开新径",
+      "units": 7526
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "园林留白的制度化",
+      "units": 8264
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "茶寮里的当下",
+      "units": 8444
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "南北宗论定画禅",
+      "units": 8584
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "空门外的存身术",
+      "units": 8369
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "承平年间的半日闲",
+      "units": 7582
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "新诗旧禅的回声",
+      "units": 7364
+    }
+  ],
+  "illustrations": 4,
+  "publishedAt": "2026-08-30T06:31:02.894Z"
+}

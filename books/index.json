@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtf7z2l4eux",
+    "projectId": "proj-mtf7z2l4eux",
+    "releaseId": "rel_20260830063102879_23d574adcf",
+    "title": "文心禅骨",
+    "subtitle": "士大夫精神结构的隐性骨架",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "心安处是故乡",
+    "category": "中国史",
+    "tags": [
+      "文人禅",
+      "中国古代文化",
+      "士大夫精神",
+      "古典美学",
+      "禅宗艺术",
+      "中国史"
+    ],
+    "description": "王维在辋川别业的空谷中究竟看见了什么？白居易的“中隐”是逃避还是精密的心性计算？禅宗本不立文字，为何反被文人锻造成最锋利的诗笔与画论？从盛唐山水到晚明茶寮，禅从未仅是宗教皈依，而是一套可操作的精神技术。它调节着仕与隐的张力，重构了审美判断，甚至成为园林留白与书画南北宗论的底层逻辑。本书穿透义理迷雾，还原古代文人将禅转化为创作方法与生活方式的具体现场，揭示那些藏在诗文、器物与日常起居中的精神骨架。",
+    "chapterCount": 15,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-08-30T06:18:55.220Z"
+    },
+    "coverUrl": "books/proj-mtf7z2l4eux/releases/rel_20260830063102879_23d574adcf/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtf7z2l4eux/index.html",
+    "publishedAt": "2026-08-30T06:31:02.894Z",
+    "firstPublishedAt": "2026-08-30T06:31:02.894Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mteb2bkeg41",
     "projectId": "proj-mteb2bkeg41",
     "releaseId": "rel_20260829145354711_b2b44cb50c",
