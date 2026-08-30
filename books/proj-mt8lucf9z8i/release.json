@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260830082441138_f1771ec716",
+  "projectId": "proj-mt8lucf9z8i",
+  "manuscriptVersionId": "mv_62eaa45066682fa6",
+  "contentHash": "62eaa45066682fa66c6a11e1f6968fd60a06723f5be143eb3625b95a1122a8b6",
+  "title": "无声世界",
+  "subtitle": "",
+  "authorDisplayName": "绝对值",
+  "description": "在声音即死亡的静默末世，失聪少年伊莱亚斯是唯一能“听”见危险的人。家人的过度保护是牢笼，废墟中的每一次呼吸都潜伏着无声的杀机。当信任成为最稀缺的资源，当真相被埋藏在绝对的寂静之下，他必须用眼睛去“倾听”世界，在猜忌与背叛的暗流中，找到那条通往微光的裂缝。",
+  "category": "小说",
+  "tags": [
+    "末世求生",
+    "感官惊悚",
+    "成长史诗",
+    "人性微光",
+    "静默世界",
+    "信任重建"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 360317,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 80,
+    "method": "median-of-1",
+    "createdAt": "2026-08-30T08:11:29.745Z"
+  },
+  "editorReview": {
+    "text": "翻开这本书，你首先会被作者构建的那个‘无声世界’所捕获——尘土的气味、铁锈的触感、光影的明暗，所有感官被重新调配，共同编织出一种令人屏息的末世在场感。失聪的主角伊莱亚斯，他的成长弧线清晰有力，从被过度保护的少年，到在猜忌与背叛的暗流中逐步觉醒，最终成为‘导师’的过程，充满了可信的挣扎与力量。作者对非语言沟通（手势、身体语言）的创意描绘，也为这个世界的生存逻辑提供了独特的解法。不过，阅读中也能感觉到章节间的衔接有时略显生硬，影响了叙事的丝滑流动，部分章节的节奏和信息密度也稍有不均，让那股紧绷的悬念感偶有松驰。但瑕不掩瑜，这依然是一个用眼睛去‘倾听’的、充满细节与张力的故事。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-30T08:21:26.679Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "光影序曲",
+      "units": 7424
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "净水惊变",
+      "units": 13077
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "无声警告",
+      "units": 15964
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "余悸犹存",
+      "units": 10947
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "暗处之约",
+      "units": 8474
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "暗流",
+      "units": 10818
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "临行之际",
+      "units": 12161
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "数据深渊",
+      "units": 18538
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "归途裂痕",
+      "units": 11903
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "寂静回响",
+      "units": 9546
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "离谷",
+      "units": 9221
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "航道初遇",
+      "units": 12240
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "解码",
+      "units": 14025
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "夜话",
+      "units": 7984
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "旧厂遗骸",
+      "units": 8845
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "齿轮陷阱",
+      "units": 9406
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "父辈的罪",
+      "units": 12775
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "高地风起",
+      "units": 14982
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "桥梁",
+      "units": 10343
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "秘密改造",
+      "units": 10679
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "最终观测",
+      "units": 11160
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "广播悲鸣",
+      "units": 7566
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "幸存者",
+      "units": 11056
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "临终忏悔",
+      "units": 7289
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "重聚微光",
+      "units": 6402
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "废墟抉择",
+      "units": 11648
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "禁行边缘",
+      "units": 12485
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "父债子偿",
+      "units": 11526
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "静默纪元",
+      "units": 17294
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "观星合鸣",
+      "units": 16030
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "高地集会",
+      "units": 8128
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "导师启程",
+      "units": 10381
+    }
+  ],
+  "publishedAt": "2026-08-30T08:24:41.261Z",
+  "formFamily": "narrative"
+}

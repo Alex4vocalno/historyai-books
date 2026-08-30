@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt8lucf9z8i",
+    "projectId": "proj-mt8lucf9z8i",
+    "releaseId": "rel_20260830082441138_f1771ec716",
+    "title": "无声世界",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "绝对值",
+    "category": "小说",
+    "tags": [
+      "末世求生",
+      "感官惊悚",
+      "成长史诗",
+      "人性微光",
+      "静默世界",
+      "信任重建"
+    ],
+    "description": "在声音即死亡的静默末世，失聪少年伊莱亚斯是唯一能“听”见危险的人。家人的过度保护是牢笼，废墟中的每一次呼吸都潜伏着无声的杀机。当信任成为最稀缺的资源，当真相被埋藏在绝对的寂静之下，他必须用眼睛去“倾听”世界，在猜忌与背叛的暗流中，找到那条通往微光的裂缝。",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 80,
+      "method": "median-of-1",
+      "createdAt": "2026-08-30T08:11:29.745Z"
+    },
+    "coverUrl": "books/proj-mt8lucf9z8i/releases/rel_20260830082441138_f1771ec716/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt8lucf9z8i/index.html",
+    "publishedAt": "2026-08-30T08:24:41.261Z",
+    "firstPublishedAt": "2026-08-30T08:24:41.261Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mteegh84zas",
     "projectId": "proj-mteegh84zas",
     "releaseId": "rel_20260830073753127_77dea79132",
