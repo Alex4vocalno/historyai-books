@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260831025520707_21593f2b28",
+  "projectId": "proj-mtcluz7mjbp",
+  "manuscriptVersionId": "mv_eda79438fd91b5bb",
+  "contentHash": "eda79438fd91b5bb25945d1f8d17a9a1c296cf523ad5ec257adf0f10ecd49c55",
+  "title": "失落的北疆：外蒙古独立的条约链与大国博弈",
+  "subtitle": "1911—1946年条约体系下的主权剥离",
+  "authorDisplayName": "半两先生",
+  "description": "外蒙古的分离并非瞬间的历史断裂，而是三十五年间由无数份条约、电文与谈判桌前的沉默层层累积的制度性剥离。从1911年《俄蒙协约》的法理突破，到徐树铮收复后的得而复失，再到雅尔塔密约下国民政府的艰难承认，主权在纸面上被反复切割、置换与形式化确认。本书摒弃情绪渲染，以原始档案为锚点，冷静拆解中俄蒙三方在条约体系与地缘博弈中的决策逻辑，还原一段被宏大叙事遮蔽的边疆法理变迁史。",
+  "category": "中国史",
+  "tags": [
+    "外蒙古独立",
+    "近代外交史",
+    "条约体系",
+    "中苏关系",
+    "边疆史地",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 259686,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-28T11:30:51.102Z"
+  },
+  "editorReview": {
+    "text": "本书以条约链为骨架，将外蒙古独立这一宏大议题拆解为可追溯的法理演进过程，论证链条从1911年《俄蒙协约》至1962年边界条约逐环扣紧，逻辑严密。档案嵌入尤为出色，如第2章通过祁县商人破产案卷、第15章顾维钧报告中的“相机而行”批示等细节，让制度分析扎根于具体史料。核心概念“制度性剥离”的提炼具有学术穿透力，精准概括了各方在法理框架内行事却导致主权持续流失的悖论。不过，作为编年实录体，多处章节接缝存在未标记的时间回溯（如第11章结尾在1919年后，第12章却回溯至1915年前），破坏了时间秩序感；部分章节标题如“以1945年2月雅尔塔会议为焦点”更像论文提纲，与全书档案实录的声口略有违和。若能在这些结构细节上精修，本书的学术价值与阅读体验将更为统一。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-31T02:55:04.038Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "清廷治蒙的盟旗旧制",
+      "units": 7964
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "俄商特权的条约入口",
+      "units": 8665
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "库伦新政的离心效应",
+      "units": 8269
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "辛亥真空中的库伦独立",
+      "units": 11025
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "俄蒙协约的法理突破",
+      "units": 8145
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "自治外蒙古的条约落定",
+      "units": 8117
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "沙俄崩塌后的条约空白",
+      "units": 8000
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "协约国棋盘上的库伦",
+      "units": 8724
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "徐树铮收复外蒙",
+      "units": 7881
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "直皖战争后的库伦松动",
+      "units": 11489
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "恩琴攻陷库伦",
+      "units": 7933
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "红军入蒙与新政权",
+      "units": 8125
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "红色改造下的库伦",
+      "units": 8340
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "蒙古人民共和国立宪",
+      "units": 7372
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "北京谈判桌上的宗主权",
+      "units": 8400
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "制度消化宗主声索",
+      "units": 8377
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "满洲事变后的蒙苏防务捆绑",
+      "units": 8850
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "大清洗年代的外蒙边疆",
+      "units": 8097
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "诺门罕：一场边境战争的条约后果",
+      "units": 8450
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "以1945年2月雅尔塔会议为焦点",
+      "units": 9728
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "中苏谈判：主权声索的最后条约战场",
+      "units": 8531
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "对1945年8月14日中苏换文进行逐条法理分析",
+      "units": 8969
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "公民投票：自决原则的形式化操演",
+      "units": 9211
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "以1946年1月5日国民政府正式发布承认蒙古人民",
+      "units": 8321
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "流亡政府：法统残片的外交角力",
+      "units": 8963
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "边界勘定：地籍图上的主权确认",
+      "units": 9759
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "核心分析对象是蒋介石与蒋经国两代领导人在处理外蒙",
+      "units": 8603
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "走向承认：中蒙关系正常化的最后关卡",
+      "units": 8399
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "论证外蒙古独立并未随着中蒙边界条约和中蒙外交关系",
+      "units": 8374
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "条约链的尽头：制度性剥离的历史检验",
+      "units": 8605
+    }
+  ],
+  "illustrations": 9,
+  "publishedAt": "2026-08-31T02:55:20.732Z",
+  "formFamily": "narrative"
+}
