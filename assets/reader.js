@@ -37,8 +37,8 @@
       var en = wordLen(t) > cjkLen(t) * 2;
       if (en ? wordLen(t) <= 150 : cjkLen(t) <= 250) continue;
       var re = en
-        ? /[^.!?]*[.!?]+["')]]*s*|[^.!?]+$/g
-        : /[^。！？；…]*[。！？；…]+[」』”’】)]]*|[^。！？；…]+$/g;
+        ? /[^.!?]*[.!?]+["')\]]*\s*|[^.!?]+$/g
+        : /[^。！？；…]*[。！？；…]+[」』”’】)\]]*|[^。！？；…]+$/g;
       var sen = t.match(re) || [];
       if (sen.join('') !== t || sen.length < 3) continue;
       var n = sen.length;
@@ -49,7 +49,7 @@
       var attract = [];
       for (var ai = 0; ai < n; ai++) attract.push(0);
       for (var bi = 0; bi < n - 1; bi++) {
-        if ((en ? DIS_EN : DIS_ZH).test(sen[bi + 1].replace(/^s+/, ''))) attract[bi] += 2.2;
+        if ((en ? DIS_EN : DIS_ZH).test(sen[bi + 1].replace(/^\s+/, ''))) attract[bi] += 2.2;
         var ov = overlap(sets[bi], sets[bi + 1]);
         if (ov < 0.12) attract[bi] += 0.9;
         else if (ov > 0.35) attract[bi] -= 1.4;

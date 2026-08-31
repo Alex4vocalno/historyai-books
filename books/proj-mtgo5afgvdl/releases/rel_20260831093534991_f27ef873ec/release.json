@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260831093534991_f27ef873ec",
+  "projectId": "proj-mtgo5afgvdl",
+  "manuscriptVersionId": "mv_8d12c1cfd068adf6",
+  "contentHash": "8d12c1cfd068adf6c0a5cfa0604327c76e85a7e575becbf9f00816b40a0146eb",
+  "title": "无为而盈",
+  "subtitle": "道德经与A股十七年认知突围",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "2007年至2024年，A股历经股权分置改革、杠杆异动与注册制变迁，无数投资者在政策预期与市场规律的错位中反复受挫。当追涨杀跌成为本能，亏损便不再是技术问题，而是认知困境。本书以《道德经》王弼注本为镜，重审十七年市场波动：无为并非躺平，而是斩断对短期行情的预测冲动；知足不是鸡汤，对应着止盈止损的仓位纪律；反者道之动，正是均值回归与逆向布局的哲学底色。从核心资产抱团到微盘股幻觉，从信息饥渴到量化迷思，二十五个历史切片拆解散户情绪与机构纪律的断裂。这不是选股指南，而是一套在不确定性中安顿身心的思维操作系统，让投资回归对市场本体的敬畏与自知。",
+  "category": "经济理财",
+  "tags": [
+    "道家哲学",
+    "A股历史",
+    "投资认知",
+    "道德经",
+    "市场周期",
+    "经济理财"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 206039,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-08-31T09:31:38.908Z"
+  },
+  "editorReview": {
+    "text": "这本书最让人眼前一亮的地方，是它把道家哲学和A股历史案例的融合做得既扎实又自然，没有沦为生硬的比附。像“反者道之动”对应策略生命周期、“知不知”划定操作边界，这些都不是装饰，而是真正构成了分析市场的认知框架，读来有侦探解谜般的快感。不过，它也存在一些明显的打磨痕迹：部分章节之间有重复的语句片段，中段一些章节的行文略显生涩，抽象概念和具体案例的衔接偶有脱节，影响了阅读的流畅感。整体看，它提供了一套很有启发性的思维工具，但若能在精修中解决这些结构与文笔上的小瑕疵，会更配得上它锋利的洞见。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-31T09:31:38.909Z",
+    "textless": false,
+    "profileId": "business-structural"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "政策不是方向盘",
+      "units": 8434
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "杠杆上的情绪共同体",
+      "units": 7921
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "核心资产的抱团代价",
+      "units": 7654
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "亏损时的纪律",
+      "units": 8700
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "微盘股新常态幻觉",
+      "units": 8063
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "道体虚无与市场本体",
+      "units": 7923
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "给股票贴标签的代价",
+      "units": 7764
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "无为就是斩断预测冲动",
+      "units": 8374
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "止盈比止损更难",
+      "units": 8083
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "均值回归的慢与快",
+      "units": 8272
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "牛熊七段的道家坐标",
+      "units": 9133
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "知不知上的操作边界",
+      "units": 8904
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "估值消化的沉默机制",
+      "units": 8397
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "信息饥渴的认知陷阱",
+      "units": 7261
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "仓位即是本体论",
+      "units": 8391
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "抄底冲动的本体论批判",
+      "units": 8495
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "趋势追踪的本体论反讽",
+      "units": 8221
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "逆向布局的艰难伦理",
+      "units": 7634
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "为之于未有",
+      "units": 8267
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "聪明人的失败学",
+      "units": 9938
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "制度套利的本体论",
+      "units": 8138
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "量化不可量化之物",
+      "units": 7935
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "时间的非对称性",
+      "units": 7997
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "玄同于市",
+      "units": 8279
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "虚静之用",
+      "units": 7861
+    }
+  ],
+  "publishedAt": "2026-08-31T09:35:35.002Z"
+}
