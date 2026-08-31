@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260831025627508_a13d192245",
+  "projectId": "proj-mtav42jjcnt",
+  "manuscriptVersionId": "mv_8c320fc6d02398f2",
+  "contentHash": "8c320fc6d02398f2e84529aab199431e390186e888063cba55d6d390a88d911b",
+  "title": "湘军：一支私兵与晚清国家的重构",
+  "subtitle": "战利品、宗族资本与近代湖南的崛起",
+  "authorDisplayName": "半两先生",
+  "description": "晚清湖南何以从边缘省份一跃成为变革策源地？答案不在庙堂奏对，而在湘乡、湘潭的田亩与账簿之间。湘军不仅是一支军队，更是一套精密的社会重组机器。巨额饷银与战利品回流本土，经由宗族、钱庄与书院的转化，重塑了土地产权与阶层流动路径。落第书生与农民在战火中结成利益共同体，将军事暴力转化为教育投资与实业资本。从团练局到新式学堂，从厘金截留到联省自治，这场以战争红利为燃料的地方实验，为近代湖南的启蒙与伟人辈出奠定了结构性基础。一部跳出英雄叙事、用家谱与碑刻还原财富传导机制的社会史。",
+  "category": "中国史",
+  "tags": [
+    "湘军",
+    "晚清社会史",
+    "地方精英",
+    "近代转型",
+    "湖南",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 245948,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-1",
+    "createdAt": "2026-08-28T02:39:36.656Z"
+  },
+  "editorReview": {
+    "text": "本书最见功力处，在于将湘军战利品回流这一经济现象，锻造成贯穿三十章的因果链条。第二章以募兵名册解剖宗族房支的田产分布与入营风险，第十五章借善后局淤洲查丈清册揭示程序规则如何偏向既有资本，这些章节的论证骨架扎实，史料与洞见咬合紧密。遗憾的是，书中存在数处模糊来源（如“某档案”“零散家书”），削弱了实证的可核验性；部分章节（如第十二、十三章）文风稍显生硬，且章节衔接偶有断裂感。整体而言，这是一部结构完整、问题意识鲜明的社会史，若能在史料溯源与局部文风上稍作打磨，将更臻完善。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-31T02:56:05.318Z",
+    "textless": false,
+    "profileId": "archival-deep"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "团练的合法化",
+      "units": 8386
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "以湘乡县为主要解剖对象",
+      "units": 8485
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "饷源之变：从捐输摊派到厘金抽收的财政转型",
+      "units": 7647
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "私人网络与指挥链重构",
+      "units": 8159
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "战利品的制度性分配",
+      "units": 7703
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "湘潭之战与逆产再分配",
+      "units": 10082
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "土地产权的暴力重组",
+      "units": 8131
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "宗族权力的金钱改造",
+      "units": 7668
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "书院捐建与知识路径的偏移",
+      "units": 7466
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "姻亲网络的战略编织",
+      "units": 8439
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "典当与钱庄的军资起源",
+      "units": 8508
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "绅商阶层的双重基因",
+      "units": 9666
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "捐纳的杠杆化",
+      "units": 8068
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "幕府的知识生产",
+      "units": 8391
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "善后局的权力沉淀",
+      "units": 8600
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "团练局的在地化",
+      "units": 8400
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "刻书业的理学复兴",
+      "units": 8482
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "军功世家的代际转型",
+      "units": 7626
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "厘金的地方化截留",
+      "units": 7700
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "新式学堂的军功资本",
+      "units": 7757
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "矿业投资的财富转化",
+      "units": 8107
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "留日学生的网络构建",
+      "units": 8032
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "咨议局选举的军功底色",
+      "units": 7373
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "新军募兵的地缘延续",
+      "units": 8208
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "革命动员的旧瓶新酒",
+      "units": 8138
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "民初财政的厘金遗产",
+      "units": 8377
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "教育会的权力网络",
+      "units": 7644
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "联省自治的军绅底色",
+      "units": 8402
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "矿业资本与省营实业",
+      "units": 7920
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "遗产的沉淀与回响",
+      "units": 8383
+    }
+  ],
+  "illustrations": 7,
+  "publishedAt": "2026-08-31T02:56:27.535Z"
+}
