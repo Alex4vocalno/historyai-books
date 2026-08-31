@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260831143455663_9bd1324484",
+  "projectId": "proj-mtgwbt7pnnu",
+  "manuscriptVersionId": "mv_c467de2b1ec48c0c",
+  "contentHash": "c467de2b1ec48c0c06fce4e47d0035a48b53dbda50cbc64664dde3fabecff4dd",
+  "title": "齿间秩序：义齿行业的管理学实证",
+  "subtitle": "精密制造与医疗服务的平衡术",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "当定制化的医疗需求撞上工业化的交付节拍，义齿工厂里每天都在上演匠人自治与标准流程的拉锯。技师流失、合规重压、数字化阵痛，这些并非单纯的技术难题，而是组织进化的必经关口。本书深入中国义齿产业十年变革现场，以真实管理困境为切口，复盘CEO决策逻辑与一线实操细节。它不提供诊疗建议或成功学鸡汤，而是呈现一套在个性化与效率间构建动态平衡的实证框架。对于所有身处“精密制造+专业服务”复合赛道的从业者，这是一份关于如何在非标行业中建立可复制管理体系的冷静底稿。",
+  "category": "商业管理",
+  "tags": [
+    "义齿产业",
+    "精密制造",
+    "组织管理",
+    "医疗合规",
+    "实证案例",
+    "商业管理"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 161379,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-08-31T12:38:46.298Z"
+  },
+  "editorReview": {
+    "text": "这本书是写给那些在“精密制造+专业服务”赛道里，被个性化需求和标准化流程反复拉扯的管理者的。它最大的价值在于提供了一套可操作的管理框架，而非空谈理论。作者从“匠人自治”这个最真实的痛点切入，构建了“容差区间”、“调节权架构”、“缓冲阈值”等一套相互咬合的概念，把行业里那些只可意会的“分寸感”变成了可以讨论和管理的工具。书中几乎每个观点都用正反案例做了扎实的论证，避免了幸存者偏差，像“分散不是失败，而是避开失败的方式”这类判断，确实触及了行业的结构性逻辑。不过，阅读体验并非一帆风顺。部分章节（尤其是中后段）的论述密度偏高，句式略显重复，核心观点在不同章节的复现也容易让读者产生疲劳感。它更像一份需要耐心消化的行业底稿，而非一本轻松的读物。",
+    "penName": "半山",
+    "title": "商业财经编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-31T14:32:27.761Z",
+    "textless": false,
+    "profileId": "bold-symbol-poster"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "匠人自治的隐性成本",
+      "units": 7985
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "分散格局的规模诅咒",
+      "units": 8272
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "医疗合规的效率悖论",
+      "units": 9089
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "技术迭代中的经验折旧",
+      "units": 8395
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "动态平衡框架的逻辑",
+      "units": 8711
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "可复制管理的三个前提",
+      "units": 7887
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "平衡不是定点，而是区间",
+      "units": 7541
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "谁握着调节旋钮",
+      "units": 8261
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "订单分级的第一道闸",
+      "units": 10655
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "节拍之外的缓冲仓",
+      "units": 8027
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "合规嵌入工位控制",
+      "units": 8636
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "客户反馈的闭环回路",
+      "units": 8907
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "订单分级的静态陷阱",
+      "units": 7411
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "缓冲池成库存坟场",
+      "units": 7909
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "合规前移的责任转移",
+      "units": 8288
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "客户反馈的噪声放大器",
+      "units": 8165
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "规模临界点的边界外",
+      "units": 7997
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "时间会令框架失效",
+      "units": 9213
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "框架之外的判断力",
+      "units": 10030
+    }
+  ],
+  "illustrations": 10,
+  "publishedAt": "2026-08-31T14:34:55.810Z",
+  "formFamily": "method"
+}
