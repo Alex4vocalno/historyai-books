@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260831024431724_bc238b574e",
+  "projectId": "proj-mtbg0uelb1t",
+  "manuscriptVersionId": "mv_2a5e25a1e195f0e3",
+  "contentHash": "2a5e25a1e195f0e32f5c465fe7c8331a97eee80272121cda00f72cad485ef25a",
+  "title": "钝痛",
+  "subtitle": "",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "三十二岁的城市规划师林晚，被一纸诊断书拽回了故乡。母亲确诊阿尔茨海默症，那个曾经掌控一切的女人，正一点点从时间的缝隙里滑落。在长三角小城的老旧家属院里，林晚被迫与失控的日常、旧账的阴影以及整个社区无声的目光对峙。这不是一个关于和解或逆袭的故事，而是一个女儿，在伦理的废墟上，独自学习如何长出自己骨骼的漫长记录。当照护成为一场没有硝烟的战争，她手中唯一的武器，是那份清醒的钝痛。",
+  "category": "小说",
+  "tags": [
+    "家庭伦理",
+    "都市现实",
+    "女性成长",
+    "照护困境",
+    "代际关系",
+    "心理写实"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 342943,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 87,
+    "method": "median-of-1",
+    "createdAt": "2026-08-31T02:40:57.608Z"
+  },
+  "editorReview": {
+    "text": "翻开《钝痛》，你会立刻被那种扎实的感官在场感捕获：诊室里空调滤网积尘的气味混着消毒水，报告纸边缘被风掀起，纸面冰凉……确诊的瞬间就这样被生理反应与环境质感牢牢焊在一起。作者对母亲失智语言的描摹尤其精到，从重复的执念到运河边误认后的忏悔，层次分明，既不煽情也不猎奇，让这个失控的过程拥有了令人心碎的真实质地。贯穿全书的搪瓷杯意象更是克制而有力，从扔进垃圾桶到洗净倒扣，一个物件便承载了放下而非原谅的复杂情感。不过，阅读中偶尔会感到章节间的衔接有些生涩，仿佛上一章结尾悬着的线头，下一章开头没有及时接住，需要读者稍费心力去弥合。陈砚这个角色也略显单薄，更像一个总是在关键时刻提供帮助的工具人，缺乏属于他自己的困境与弧光。但瑕不掩瑜，当故事最终收束于运河石阶上那句‘今天我能自己走回去’，你会感到，这份清醒的钝痛，确实已长成了骨骼。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-08-31T02:44:11.451Z",
+    "textless": false,
+    "profileId": "fiction-romance-intimate",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "fiction-romance-intimate"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "确诊之日",
+      "units": 9652
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "失控的日常",
+      "units": 11814
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "账本",
+      "units": 9279
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "废墟叠影",
+      "units": 9645
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "照护的裂缝",
+      "units": 9364
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "旧账",
+      "units": 11712
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "衣柜里的日记",
+      "units": 11983
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "照护的倒刺",
+      "units": 8639
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "外婆的票据",
+      "units": 11188
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "裂痕",
+      "units": 12455
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "边界",
+      "units": 11069
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "红灯亮起",
+      "units": 7031
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "逼宫",
+      "units": 12208
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "夜游前兆",
+      "units": 13060
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "倒计时暗涌",
+      "units": 9042
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "夜寻运河",
+      "units": 9082
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "走失之夜",
+      "units": 6129
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "社区的目光",
+      "units": 11266
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "倒下的临界点",
+      "units": 10287
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "你有权利停下来",
+      "units": 11372
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "暗涌",
+      "units": 9956
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "碎裂与异响",
+      "units": 9483
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "遗书为盾",
+      "units": 14823
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "遗书如刀",
+      "units": 10457
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "遗书为剑",
+      "units": 11836
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "握书拒控",
+      "units": 7485
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "送别之日",
+      "units": 12357
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "真相的告别",
+      "units": 12206
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "余波未平",
+      "units": 14520
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "运河边的规划",
+      "units": 11262
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "余波落定",
+      "units": 10043
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "运河的完成时",
+      "units": 12238
+    }
+  ],
+  "publishedAt": "2026-08-31T02:44:31.730Z",
+  "formFamily": "narrative"
+}

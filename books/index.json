@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtbg0uelb1t",
+    "projectId": "proj-mtbg0uelb1t",
+    "releaseId": "rel_20260831024431724_bc238b574e",
+    "title": "钝痛",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "小说",
+    "tags": [
+      "家庭伦理",
+      "都市现实",
+      "女性成长",
+      "照护困境",
+      "代际关系",
+      "心理写实"
+    ],
+    "description": "三十二岁的城市规划师林晚，被一纸诊断书拽回了故乡。母亲确诊阿尔茨海默症，那个曾经掌控一切的女人，正一点点从时间的缝隙里滑落。在长三角小城的老旧家属院里，林晚被迫与失控的日常、旧账的阴影以及整个社区无声的目光对峙。这不是一个关于和解或逆袭的故事，而是一个女儿，在伦理的废墟上，独自学习如何长出自己骨骼的漫长记录。当照护成为一场没有硝烟的战争，她手中唯一的武器，是那份清醒的钝痛。",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 87,
+      "method": "median-of-1",
+      "createdAt": "2026-08-31T02:40:57.608Z"
+    },
+    "coverUrl": "books/proj-mtbg0uelb1t/releases/rel_20260831024431724_bc238b574e/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtbg0uelb1t/index.html",
+    "publishedAt": "2026-08-31T02:44:31.730Z",
+    "firstPublishedAt": "2026-08-31T02:44:31.730Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtfj2au5ke2",
     "projectId": "proj-mtfj2au5ke2",
     "releaseId": "rel_20260830152408922_249d124f7f",
