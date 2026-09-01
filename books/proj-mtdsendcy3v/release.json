@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260901160800363_932ac0d5e5",
+  "projectId": "proj-mtdsendcy3v",
+  "manuscriptVersionId": "mv_0e077382cbef7887",
+  "contentHash": "0e077382cbef7887fb06a03122bbabbcad673b4c0e929f9ab6292aea8bd6d95c",
+  "title": "规划造城：政体、产业与城市的百年互塑",
+  "subtitle": "政体、产业与城市的百年互塑",
+  "authorDisplayName": "Psycheeee",
+  "description": "匹兹堡的钢炉、鲁尔区的矿架、北九州的烟囱，这些工业地标不仅是生产场所，更是政体逻辑与资本意志浇筑的实体。从19世纪末到21世纪初，产业规划从未只是技术蓝图，而是国家、市场与社会在特定时空下的激烈博弈。本书穿越美、德、日、中四国百年城市现场，追踪政策文本背后的资本流向与社会代价。当石油危机击穿增长神话，当金融化重塑空间价值，那些曾被视为永恒的产业秩序如何瓦解？在绿色转型与数字基建的当下，城市命运不再取决于规划的精度，而在于制度应对不确定性的弹性。这是一部关于钢铁、债务与韧性的现代城市启示录。",
+  "category": "商业史",
+  "tags": [
+    "城市史",
+    "产业规划",
+    "政治经济",
+    "工业遗产",
+    "制度变迁",
+    "商业史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 264293,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-01T15:11:08.367Z"
+  },
+  "editorReview": {
+    "text": "以匹兹堡、鲁尔、北九州为棱镜，本书将百年产业规划史锻造为一套制度分析的利器，其核心命题——规划从工具演化为结构，制度弹性取决于退出威胁的不对称性——具有切实的原创性与理论穿透力。开篇第1章以三条历史线索并行锚定框架，第15章对土地产权进行的微观制度对比，皆展现出将宏大叙事落地于可验证细节的扎实功力。然而，需提醒读者注意，部分章节（如第6、9章）存在句式重复与逻辑衔接生硬的问题，且有若干档案引用缺乏完整的馆藏信息，虽未动摇主干论证，但在学术严谨性上留下了可再精修的空间。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-01T16:05:28.440Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "规划前的规划：思想谱系与制度雏形",
+      "units": 8566
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "以匹兹堡在1880–1920年间从商业城市蜕变为",
+      "units": 8588
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "鲁尔区的协同体：统制经济的地方根系",
+      "units": 8820
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "帝国车间：北九州与官僚规划的兴起",
+      "units": 8294
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "转向1930年代美国田纳西河流域管理局的实践",
+      "units": 9274
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "不逐一叙述各城市重建史",
+      "units": 7791
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "将分析时段集中于1900至1930年代",
+      "units": 10390
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "规划师与官僚：专业阶层的双重效忠",
+      "units": 8417
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "将产业规划的合法性建构置于20世纪中叶民主制度扩",
+      "units": 8847
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "超越城市：区域规划的尺度政治",
+      "units": 7707
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "增长的代价：产业锁定与城市债务",
+      "units": 7863
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "以1973年石油危机为导火索",
+      "units": 8294
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "资本的地理偏好：金融结构与城市选择",
+      "units": 7943
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "将结构性力量的分析从资本端转向劳动端",
+      "units": 7780
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "将土地产权制度确立为产业规划的第三重结构性力量",
+      "units": 7533
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "不同于金融资本或劳动力可以相对快速地重新配置",
+      "units": 8063
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "将环境规制从通常的“外部约束”重新定位为一种反向",
+      "units": 8582
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "将知识生产体制确立为产业规划在当代最活跃的结构性",
+      "units": 7523
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "去工业化冲击与规划联盟瓦解",
+      "units": 9798
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "新自由主义的规划哲学转向",
+      "units": 8463
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "全球化生产网络与规划尺度的再断裂",
+      "units": 7666
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "产业集群战略的兴起与局限",
+      "units": 8462
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "创新城区与知识体制的空间化",
+      "units": 8606
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "制度弹性的当代形态与边界",
+      "units": 9195
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "绿色转型的规划悖论",
+      "units": 9837
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "数字基础设施与规划权转移",
+      "units": 10493
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "金融化与城市产业空间的再商品化",
+      "units": 11087
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "中国模式：规划型国家的当代实验",
+      "units": 8407
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "韧性竞赛：危机时代的规划压力测试",
+      "units": 9348
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "规划的尽头与城市的可能",
+      "units": 12656
+    }
+  ],
+  "publishedAt": "2026-09-01T16:08:00.384Z",
+  "formFamily": "narrative"
+}
