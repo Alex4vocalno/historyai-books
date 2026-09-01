@@ -39,15 +39,13 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-0c63bf615714.svg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-30T07:31:49.827Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-01T05:20:17.785Z",
     "textless": false,
-    "profileId": "silk-mineral-pigment",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "silk-mineral-pigment"
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -274,5 +272,6 @@
     }
   ],
   "publishedAt": "2026-08-30T07:31:56.986Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "rerenderedAt": "2026-09-01T05:20:18.163Z"
 }
