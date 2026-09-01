@@ -298,9 +298,9 @@
         });
     }).catch(function () { /* 未登录/网络失败=本地模式 */ });
   } catch (e8) {}
-  // v4.86 阅读埋点（第一期用户拍板：埋点先行）：open/half/finish 三事件，
+  // v4.86/v6.4 阅读埋点：open/half/finish/paint 四事件，
   // 匿名 tid、sendBeacon 零阻塞、失败无感。数据落写作台 output/telemetry/。
-  function track(ev) {
+  function track(ev, extra) {
     try {
       var tid = localStorage.getItem('historyai.tid');
       if (!tid) { tid = Math.random().toString(36).slice(2, 10) + Date.now().toString(36); localStorage.setItem('historyai.tid', tid); }
@@ -308,7 +308,7 @@
       var bIdx = segs.indexOf('books');
       var mb = bIdx >= 0 ? segs[bIdx + 1] : '';
       var mrel = (bIdx >= 0 && segs[bIdx + 2] === 'releases') ? segs[bIdx + 3] : '';
-      var payload = JSON.stringify({ e: ev, b: data.bookId || mb || '', rel: mrel || '', c: Number(data.chapter) || 0, n: (titles && titles.length) || 0, tid: tid });
+      var payload = JSON.stringify(Object.assign({ e: ev, b: data.bookId || mb || '', rel: mrel || '', c: Number(data.chapter) || 0, n: (titles && titles.length) || 0, tid: tid }, extra || {}));
       if (navigator.sendBeacon) navigator.sendBeacon('/api/track', new Blob([payload], { type: 'application/json' }));
     } catch (e3) { /* 打点失败无感 */ }
   }
@@ -422,7 +422,7 @@
   state.chapterTitle = data.chapterTitle;
   state.updatedAt = new Date().toISOString();
   save(); apply();
-  trackOnce('open');
+  trackOnce('open'); setTimeout(function () { try { var nav = performance.getEntriesByType && performance.getEntriesByType('navigation')[0]; var paints = performance.getEntriesByType && performance.getEntriesByType('paint') || []; var fcp = paints.find(function (p) { return p.name === 'first-contentful-paint'; }); track('paint', { ttfbMs: nav ? nav.responseStart : 0, fcpMs: fcp ? fcp.startTime : 0, cache: Boolean(nav && nav.transferSize === 0 && nav.duration > 0) }); } catch (ePaint) { /* 性能 API 缺席不影响阅读 */ } }, 0);
 
   // v5.25 阅读体验深化：插图点击放大（lightbox）——图、图注、出处一屏呈现。
   // 遮罩挂 body（翻页模式的 transform 容器内 fixed 会失效）；ESC/点击关闭。
