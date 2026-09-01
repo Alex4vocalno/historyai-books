@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260901094935398_e4f8734ad6",
+  "projectId": "proj-mtfjvyp741n",
+  "manuscriptVersionId": "mv_3380e2886720f8d3",
+  "contentHash": "3380e2886720f8d3a62a93b64bd510fa255f5ef6f1bcf1441e7ac0348b882de6",
+  "title": "听骨录",
+  "subtitle": "",
+  "authorDisplayName": "磨墨无文",
+  "description": "殡仪馆入殓师沈渡，天生能触摸遗骨，听见死者临终执念。每一次“听骨辨怨”，都伴随着死者记忆与痛楚的短暂侵袭。当他在一具被判定为自杀的少女遗骨中，听见了与二十年前母亲溺亡时完全相同的童谣旋律，平静的都市表象开始剥落。童谣、红绳、井痕……一个个指向“民俗净化”的隐秘符号接连浮现。沈渡必须在自身精神被反噬殆尽前，揭开这座城市系统性清除“不洁者”的冰冷真相，代价，或许是他自己的骨头。",
+  "category": "小说",
+  "tags": [
+    "都市悬疑",
+    "民俗奇谭",
+    "异能刑侦",
+    "人性拷问",
+    "社会派推理",
+    "代价异能"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 298170,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-2",
+    "createdAt": "2026-09-01T09:05:53.117Z"
+  },
+  "editorReview": {
+    "text": "《听骨录》最迷人的是它用肉身感知锚定超验体验的写法——指骨毛刺在指腹下如砂纸颗粒、寒意从指尖窜上脊椎，这些精确的感官描写让‘听骨辨怨’的设定既奇诡又可信。红绳意象从‘活人护’到‘死人锁’的转化，以及槐安巷老妇人那句‘你比你妈晚来了二十年’的极简对白，都展现了作者在细节编码与时间压缩上的功力。不过章节间的衔接偶尔会断裂，比如某些章尾戛然而止的截断感，以及部分过渡处需要读者自行重建上下文，多少影响了叙事的流畅性。此外，个别功能性过强的对话和篇幅失衡的章节，也让中后段的节奏有些波动。但整体而言，这部作品以扎实的文学质感和独特的民俗悬疑氛围，牢牢抓住了愿意沉浸其中的读者。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-01T02:06:24.229Z",
+    "textless": false,
+    "profileId": "fiction-mystery-noir"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "童谣与河水",
+      "units": 9354
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "红绳对照",
+      "units": 10186
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "核心对抗势力封锁",
+      "units": 10209
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "缺失页",
+      "units": 6738
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "首段记忆",
+      "units": 8643
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "档案裂缝",
+      "units": 10983
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "符号链浮现",
+      "units": 8031
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "旋律拼图",
+      "units": 5671
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "井字刻痕",
+      "units": 11540
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "井痕重现",
+      "units": 8317
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "意义改写",
+      "units": 7045
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "翻修日历",
+      "units": 4632
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "红绳旧结",
+      "units": 8767
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "红绳旧约",
+      "units": 9554
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "遗忘之墙",
+      "units": 7935
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "七日井痕",
+      "units": 7624
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "九姑的证词",
+      "units": 9869
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "完整童谣",
+      "units": 6776
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "旧历对照",
+      "units": 9364
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "告密者之骨",
+      "units": 16338
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "日历兑现",
+      "units": 8736
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "不洁者之歌",
+      "units": 7448
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "旧符新尸",
+      "units": 12304
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "孤证难鸣",
+      "units": 12949
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "红绳双结",
+      "units": 7804
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "红绳解结",
+      "units": 8918
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "洗骨歌的标记",
+      "units": 9293
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "井底遗稿",
+      "units": 10356
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "洗骨真相",
+      "units": 7267
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "重写遗忘",
+      "units": 17356
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "尘埃里的新坐标",
+      "units": 7190
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "代价之骨",
+      "units": 10973
+    }
+  ],
+  "publishedAt": "2026-09-01T09:49:35.402Z",
+  "formFamily": "narrative"
+}
