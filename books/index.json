@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9svubagyl",
+    "projectId": "proj-mt9svubagyl",
+    "releaseId": "rel_20260902123105866_9f8842aed6",
+    "title": "第二十四颗卫星",
+    "subtitle": "从核战预警到外卖骑手，一套隐形基础设施如何重写现代文明",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "科普",
+    "tags": [
+      "GPS",
+      "基础设施",
+      "科技史",
+      "导航技术",
+      "数字文明",
+      "科普"
+    ],
+    "description": "手机如何知晓你的位置？答案藏在为核战争设计的军用系统里。从相对论修正的每天三十八微秒钟差，到1983年大韩航空悲剧催生的民用开放，定位技术从主权武器变为免费公共品，悄然成为外卖、金融与现代农业的基石。这套维系全球时间同步的信号极其脆弱，却是数字文明最少被审视的软肋。当厘米级精度重塑拖拉机轨迹，纳秒级授时支撑电网脉搏，我们正生活在一套可被干扰的时空坐标之上。这不仅是一部技术演进史，更是对现代生活隐形地基的深度勘探。",
+    "chapterCount": 19,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T11:49:42.801Z"
+    },
+    "coverUrl": "books/proj-mt9svubagyl/releases/rel_20260902123105866_9f8842aed6/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9svubagyl/index.html",
+    "publishedAt": "2026-09-02T12:31:05.883Z",
+    "firstPublishedAt": "2026-08-27T00:52:09.945Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9sw4ccanx",
     "projectId": "proj-mt9sw4ccanx",
     "releaseId": "rel_20260902123034126_351bf17c3b",
@@ -2376,40 +2410,6 @@
     "url": "books/proj-mt88alit2bj/index.html",
     "publishedAt": "2026-08-27T02:16:54.366Z",
     "firstPublishedAt": "2026-08-27T02:16:38.870Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9svubagyl",
-    "projectId": "proj-mt9svubagyl",
-    "releaseId": "rel_20260827005209918_4eefe8682a",
-    "title": "第二十四颗卫星",
-    "subtitle": "从核战预警到外卖骑手，一套隐形基础设施如何重写现代文明",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "科普",
-    "tags": [
-      "GPS",
-      "基础设施",
-      "科技史",
-      "导航技术",
-      "数字文明",
-      "科普"
-    ],
-    "description": "手机如何知晓你的位置？答案藏在为核战争设计的军用系统里。从相对论修正的每天三十八微秒钟差，到1983年大韩航空悲剧催生的民用开放，定位技术从主权武器变为免费公共品，悄然成为外卖、金融与现代农业的基石。这套维系全球时间同步的信号极其脆弱，却是数字文明最少被审视的软肋。当厘米级精度重塑拖拉机轨迹，纳秒级授时支撑电网脉搏，我们正生活在一套可被干扰的时空坐标之上。这不仅是一部技术演进史，更是对现代生活隐形地基的深度勘探。",
-    "chapterCount": 19,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-1",
-      "createdAt": "2026-08-26T11:49:42.801Z"
-    },
-    "coverUrl": "books/proj-mt9svubagyl/releases/rel_20260827005209918_4eefe8682a/cover-9984c001bbce.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt9svubagyl/index.html",
-    "publishedAt": "2026-08-27T00:52:09.945Z",
-    "firstPublishedAt": "2026-08-27T00:52:09.945Z",
     "visibility": "public"
   },
   {
