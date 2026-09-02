@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902162047328_63c48f0103",
+  "projectId": "proj-mt9uhaxerme",
+  "manuscriptVersionId": "mv_aa762b503d9ead42",
+  "contentHash": "aa762b503d9ead4280409729f5a6eddfa0d994c1d0957f1bff0982a76afd6d01",
+  "chapterCount": 17,
+  "generatedAt": "2026-09-02T16:20:47.356Z",
+  "files": [
+    {
+      "path": "ch-1.html",
+      "bytes": 20635,
+      "sha256": "2b9d00261e4c7e61090a4883ba741270f43a8ecb471f49f20e211624a1f2ac79"
+    },
+    {
+      "path": "ch-10.html",
+      "bytes": 22148,
+      "sha256": "e46ac58fdcd56f7cd9701aa7c548fe72a12aa036a66fa8e7298cfcdad70c15e2"
+    },
+    {
+      "path": "ch-11.html",
+      "bytes": 20478,
+      "sha256": "d364374bf7de99f29d74892453f8404e54fd9e3d6533cd7c6a75b43041709b49"
+    },
+    {
+      "path": "ch-12.html",
+      "bytes": 24745,
+      "sha256": "c72ab359020dcc3ac049d2268c4408c6b71f6c4a463980f2ef732b76b68b2dd6"
+    },
+    {
+      "path": "ch-13.html",
+      "bytes": 25065,
+      "sha256": "e659e6f64573273cda546ccab52b13336baa233af0c59340a062335037414ea9"
+    },
+    {
+      "path": "ch-14.html",
+      "bytes": 24185,
+      "sha256": "4541d408ccac0a2272e996cec1c530bbe16ccb42c087c4b7f9a6d8e9d518d219"
+    },
+    {
+      "path": "ch-15.html",
+      "bytes": 24916,
+      "sha256": "9f92a7ee162bd27b0bcd46a750a3df26a1762a4cf2252e982b760bdbc47a8e77"
+    },
+    {
+      "path": "ch-16.html",
+      "bytes": 19735,
+      "sha256": "98d7a3be9f9d841a69083d06fc93510dc33f6092ad9434c55eea9eff972fa2ad"
+    },
+    {
+      "path": "ch-17.html",
+      "bytes": 20818,
+      "sha256": "cf733eaccc64057be6643485d4b23bf8ae9dfa38a687ad3d4004212268920023"
+    },
+    {
+      "path": "ch-2.html",
+      "bytes": 23186,
+      "sha256": "5972701f08517d46a4e8e765ff0b2a56d4d0aecdd9a0697a81d09e9d539b3e1d"
+    },
+    {
+      "path": "ch-3.html",
+      "bytes": 22776,
+      "sha256": "dd108823a83d8c8d6d00c01d27f18d4b84be4f181e5ea79777380bf750fc5f90"
+    },
+    {
+      "path": "ch-4.html",
+      "bytes": 19490,
+      "sha256": "9970878133e5e1837312f82f9a1d217a9d313c88c9adc23d8aa55524416b1cc2"
+    },
+    {
+      "path": "ch-5.html",
+      "bytes": 21350,
+      "sha256": "e396f4883bbf4ba66bca5f04cfd8d819c86f3cb96e13c0f91c2d9306a1185557"
+    },
+    {
+      "path": "ch-6.html",
+      "bytes": 25276,
+      "sha256": "d7ef0969ba283da4473f6b8fce9bc95bcde212caaedf67cf5980953064507c69"
+    },
+    {
+      "path": "ch-7.html",
+      "bytes": 18913,
+      "sha256": "27f2d8f1000b91c4ab7e2d01430293d5f30e7c44b0f600c828640f69d35569b8"
+    },
+    {
+      "path": "ch-8.html",
+      "bytes": 21598,
+      "sha256": "021516e18d42708d0d40aaac6d1c4a4fbff49466aed6bfde414827502bdbca7c"
+    },
+    {
+      "path": "ch-9.html",
+      "bytes": 24428,
+      "sha256": "23f0cde8bc4b5a87564fd65a55fa657b78ee92fe9f65ef8e64db15ce28fcbc7d"
+    },
+    {
+      "path": "cover.jpg",
+      "bytes": 1040890,
+      "sha256": "6953ae10d6ad6765785a54542cce3b076c936335f2ba8eeed85f438f10392a2a"
+    },
+    {
+      "path": "images/ill_0002.jpg",
+      "bytes": 816368,
+      "sha256": "df8a837c386c53ed646d74504236765f14cd624f7d6b7e8f95849a9848a93509"
+    },
+    {
+      "path": "images/ill_0004.jpg",
+      "bytes": 555908,
+      "sha256": "4c20097141f59e948125ea7dd6be5dddae712f0e4bb2225254c4979ab3dfea05"
+    },
+    {
+      "path": "images/ill_0009.jpg",
+      "bytes": 772302,
+      "sha256": "70252fa7660363b4e03cf79e8534bb48f63db2ecd400d585b30abe1ba66d03b0"
+    },
+    {
+      "path": "images/ill_0016.jpg",
+      "bytes": 478696,
+      "sha256": "0474d9f418d4808ead8edb6718d78354408e1d16c40eab82d9a2315cd0067722"
+    },
+    {
+      "path": "index.html",
+      "bytes": 21910,
+      "sha256": "b84baa572102ed44f51575f35f173bdc9e2c548ba273aa18eafa1eb575fd06ca"
+    },
+    {
+      "path": "read.html",
+      "bytes": 3380,
+      "sha256": "070dc432ab953d7872bd181cf1f39cfd23f6052108a731ddc9d9edcd353c99e5"
+    },
+    {
+      "path": "release.json",
+      "bytes": 4557,
+      "sha256": "4935554601565148428138fbb1fe8622a8f9c3af0ff6f6822bd417228f48e2af"
+    }
+  ]
+}
