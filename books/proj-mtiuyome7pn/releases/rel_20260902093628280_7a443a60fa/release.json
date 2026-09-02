@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902093628280_7a443a60fa",
+  "projectId": "proj-mtiuyome7pn",
+  "manuscriptVersionId": "mv_8bac98fc8a27fb97",
+  "contentHash": "8bac98fc8a27fb971047d95a5ee03221419c9b91306af9d32d95590f2f7b8bb1",
+  "title": "雪线之下",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "殡仪馆化妆师沈青，十九年来始终记得父亲死于雪夜车祸。如今，她为肇事者病逝的母亲整理遗容，却在遗物里发现了另一份行车记录。七天丧仪，是最后的期限。她必须决定是否揭开真相，而真相的代价，是她母亲一生的清白。当所有线索指向那场被掩盖的雪夜交易，一个老出租车司机，拼出了最后的拼图。",
+  "category": "小说",
+  "tags": [
+    "悬疑",
+    "殡仪馆",
+    "小镇往事",
+    "家庭秘密",
+    "冷感叙事",
+    "道德困境"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 16,
+    "units": 72927,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-09-02T09:10:12.231Z"
+  },
+  "editorReview": {
+    "text": "《雪线之下》的悬疑感来自一种近乎执拗的职业质感，沈青为遗体化妆的段落写得极好——粉底湿度试调、棉花填充颧骨、镊子避开牙齿，动作链的精确与克制，让殡仪馆的消毒水味和遗体温度几乎穿透纸面。物证叙事的结构也很精巧，存储卡、红绳、存折，每件物品都承载着情感重量，红绳从手腕滑出到重新系上的细节，映射着主人公心理状态的微妙变化。不过，部分章节之间的衔接略显生硬，读起来偶有断裂感；人物对话整体偏少且功能单一，周砚与沈青的对手戏尤其客气，缺乏潜台词的交锋，这让某些关键对手的内心层次显得稍显单薄。但出租车司机在雨刮器节拍中的碎片化独白，依然拼出了令人屏息的拼图——这是一部靠细节的在场感与物证的冰冷重量推动的悬疑故事，真相的代价，在沉默的留白中显得格外沉重。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-02T09:10:12.010Z",
+    "textless": false,
+    "profileId": "fiction-mystery-noir"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "遗物中的存储卡",
+      "units": 5144
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "红绳与平安符",
+      "units": 5181
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "火化记录上的签名",
+      "units": 6982
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "相册的缺口",
+      "units": 4974
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "砖封的财务室",
+      "units": 5832
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "排污记录与一笔钱",
+      "units": 4578
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "周砚的第一反应",
+      "units": 4781
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "母亲的旧存折",
+      "units": 3824
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "照片背面的号码",
+      "units": 6669
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "陈叔的沉默",
+      "units": 1816
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "最后一段录音",
+      "units": 5942
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "雪夜交易",
+      "units": 2845
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "平安符的转移",
+      "units": 2320
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "焚化炉前的决定",
+      "units": 3477
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "出租车司机的拼图",
+      "units": 6340
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "雪线之下",
+      "units": 2222
+    }
+  ],
+  "publishedAt": "2026-09-02T09:36:28.285Z"
+}
