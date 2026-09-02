@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9pf1m91yp",
+    "projectId": "proj-mt9pf1m91yp",
+    "releaseId": "rel_20260902123509717_5f10cd9051",
+    "title": "排队的秘密",
+    "subtitle": "用机制之眼重看习以为常的生活",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "经济理财",
+    "tags": [
+      "行为经济学",
+      "日常生活",
+      "机制设计",
+      "消费心理",
+      "社会观察",
+      "经济理财"
+    ],
+    "description": "奶茶店为何总爱扎堆？演唱会门票明知被黄牛扫光也不涨价？便利店深夜亮灯真的只为便利？这些看似反常的日常切片，实则是经济激励的显影液。本书以十八个生活谜题为切口，将价格、排队与选址还原为可拆解的机制链条。没有枯燥公式，只有数据作侦探线索、推理环环可查的解谜现场。在直觉与机制的反差中，看清效率与公平的拉锯，把习以为常的怪现象变成普通人理解世界的经济学入门课。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-2",
+      "createdAt": "2026-08-26T09:49:35.113Z"
+    },
+    "coverUrl": "books/proj-mt9pf1m91yp/releases/rel_20260902123509717_5f10cd9051/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9pf1m91yp/index.html",
+    "publishedAt": "2026-09-02T12:35:09.720Z",
+    "firstPublishedAt": "2026-08-26T09:55:37.981Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9pf70wuuv",
     "projectId": "proj-mt9pf70wuuv",
     "releaseId": "rel_20260902123322690_c7d9c3f31b",
@@ -2580,40 +2614,6 @@
     "url": "books/proj-mt9u3qgb1vg/index.html",
     "publishedAt": "2026-08-26T14:32:10.242Z",
     "firstPublishedAt": "2026-08-26T14:32:10.242Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9pf1m91yp",
-    "projectId": "proj-mt9pf1m91yp",
-    "releaseId": "rel_20260826095537973_1abf362db8",
-    "title": "排队的秘密",
-    "subtitle": "用机制之眼重看习以为常的生活",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "经济理财",
-    "tags": [
-      "行为经济学",
-      "日常生活",
-      "机制设计",
-      "消费心理",
-      "社会观察",
-      "经济理财"
-    ],
-    "description": "奶茶店为何总爱扎堆？演唱会门票明知被黄牛扫光也不涨价？便利店深夜亮灯真的只为便利？这些看似反常的日常切片，实则是经济激励的显影液。本书以十八个生活谜题为切口，将价格、排队与选址还原为可拆解的机制链条。没有枯燥公式，只有数据作侦探线索、推理环环可查的解谜现场。在直觉与机制的反差中，看清效率与公平的拉锯，把习以为常的怪现象变成普通人理解世界的经济学入门课。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-2",
-      "createdAt": "2026-08-26T09:49:35.113Z"
-    },
-    "coverUrl": "books/proj-mt9pf1m91yp/releases/rel_20260826095537973_1abf362db8/cover-7c42feb5bc90.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt9pf1m91yp/index.html",
-    "publishedAt": "2026-08-26T09:55:37.981Z",
-    "firstPublishedAt": "2026-08-26T09:55:37.981Z",
     "visibility": "public"
   },
   {
