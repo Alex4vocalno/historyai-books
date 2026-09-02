@@ -39,15 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-9a0d52dc705b.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-02T06:10:45.446Z",
+    "generatedAt": "2026-09-02T06:23:23.377Z",
     "textless": false,
-    "profileId": "serious-history-editorial",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "serious-history-editorial"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -201,5 +198,6 @@
       "units": 9499
     }
   ],
-  "publishedAt": "2026-09-02T06:11:16.713Z"
+  "publishedAt": "2026-09-02T06:11:16.713Z",
+  "rerenderedAt": "2026-09-02T06:23:23.571Z"
 }
