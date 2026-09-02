@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9sw0hph11",
+    "projectId": "proj-mt9sw0hph11",
+    "releaseId": "rel_20260902162100428_44c0285dd2",
+    "title": "诺基亚做错了什么",
+    "subtitle": "一场关于成功组织的结构性尸检",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "商业管理",
+    "tags": [
+      "商业史",
+      "组织管理",
+      "诺基亚",
+      "企业战略",
+      "科技产业",
+      "商业管理"
+    ],
+    "description": "2007年，诺基亚手握全球四成市场与充沛现金，却在五年内将手机业务归零。这并非一个关于傲慢或盲视的简单故事，而是一份成功组织的病理切片。本书重返每一个关键决策现场，用会议记录与当事人回忆重建当时的合理性：保塞班、维系运营商、坚守硬件毛利，这些单独看都正确的选择，如何叠加成无法逆转的战略死局。从功能机时代的完美机器到Lumia的最后一搏，再到网络设备业务的暗中生长，这不仅是一家巨头的坠落史，更是所有辉煌组织在面对范式转移时，被既有利润结构吞噬的残酷标本。",
+    "chapterCount": 19,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-2",
+      "createdAt": "2026-08-26T12:10:43.950Z"
+    },
+    "coverUrl": "books/proj-mt9sw0hph11/releases/rel_20260902162100428_44c0285dd2/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9sw0hph11/index.html",
+    "publishedAt": "2026-09-02T16:21:00.430Z",
+    "firstPublishedAt": "2026-08-27T00:42:12.291Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9uh811bqo",
     "projectId": "proj-mt9uh811bqo",
     "releaseId": "rel_20260902162053378_4d6e20cbce",
@@ -541,40 +575,6 @@
     "url": "books/proj-mt9svxu3n26/index.html",
     "publishedAt": "2026-09-02T12:17:06.351Z",
     "firstPublishedAt": "2026-08-27T00:40:42.120Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9sw0hph11",
-    "projectId": "proj-mt9sw0hph11",
-    "releaseId": "rel_20260902121701105_da5a277672",
-    "title": "诺基亚做错了什么",
-    "subtitle": "一场关于成功组织的结构性尸检",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "商业管理",
-    "tags": [
-      "商业史",
-      "组织管理",
-      "诺基亚",
-      "企业战略",
-      "科技产业",
-      "商业管理"
-    ],
-    "description": "2007年，诺基亚手握全球四成市场与充沛现金，却在五年内将手机业务归零。这并非一个关于傲慢或盲视的简单故事，而是一份成功组织的病理切片。本书重返每一个关键决策现场，用会议记录与当事人回忆重建当时的合理性：保塞班、维系运营商、坚守硬件毛利，这些单独看都正确的选择，如何叠加成无法逆转的战略死局。从功能机时代的完美机器到Lumia的最后一搏，再到网络设备业务的暗中生长，这不仅是一家巨头的坠落史，更是所有辉煌组织在面对范式转移时，被既有利润结构吞噬的残酷标本。",
-    "chapterCount": 19,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-2",
-      "createdAt": "2026-08-26T12:10:43.950Z"
-    },
-    "coverUrl": "books/proj-mt9sw0hph11/releases/rel_20260902121701105_da5a277672/cover-08380c8db41f.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt9sw0hph11/index.html",
-    "publishedAt": "2026-09-02T12:17:01.112Z",
-    "firstPublishedAt": "2026-08-27T00:42:12.291Z",
     "visibility": "public"
   },
   {
