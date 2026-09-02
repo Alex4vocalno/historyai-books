@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902051816561_d3d0635e19",
+  "projectId": "proj-mtjekm8w47u",
+  "manuscriptVersionId": "mv_2fd898b117f683cc",
+  "contentHash": "2fd898b117f683cc2de2228f260d6a82258ef7bb2b011a40718149721e6f7482",
+  "title": "Small Levers: The Engineering of Everyday Change",
+  "subtitle": "The Engineering of Everyday Change",
+  "authorDisplayName": "李思特Think",
+  "description": "Why do most self-improvement efforts collapse within weeks? Lasting change is not a test of willpower but an engineering problem. Drawing on fifty years of behavioral science, from 1970s token-economy experiments to modern digital habit products, this book replaces motivation myths with measurable mechanisms. Four specific levers—friction, environment design, feedback latency, and identity signaling—determine whether new behaviors stick or fail. Each chapter pairs rigorous research with real-world case studies and a one-page protocol readers can test immediately. Moving beyond universal advice, the text offers a falsifiable framework for personalizing behavioral architecture while acknowledging the limits of optimization. This is a practical manual for designing a life that works, grounded in data rather than aspiration.",
+  "category": "个人成长",
+  "tags": [
+    "Behavioral Science",
+    "Habit Formation",
+    "Self-Improvement",
+    "Psychology",
+    "Productivity",
+    "个人成长"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 34,
+    "units": 87517,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 75,
+    "method": "median-of-2",
+    "createdAt": "2026-09-02T04:22:35.947Z"
+  },
+  "editorReview": {
+    "text": "This book offers a genuinely useful framework for anyone frustrated by failed self-improvement attempts. It moves beyond motivation myths to present change as an engineering problem, anchored in behavioral science. The conceptual advance is real—particularly the insightful case study on 'instrumental burnout,' which reframes why systems fail. The opening 'autopsy report' metaphor effectively sets high stakes. However, the execution is uneven. The prose can feel mechanical and passive, which may test a reader's patience, and the structural clarity wavers in the final chapters. It's best for rea",
+    "penName": "一苇",
+    "title": "Personal Growth Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T05:17:33.028Z",
+    "textless": false,
+    "profileId": "dawn-object-warm",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "dawn-object-warm"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Collapse of Good Intentions (1970s-2020s)",
+      "units": 2638
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Mechanics of Failure (1970s-1990s)",
+      "units": 2479
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The First Lever:Measuring Friction (1970s-1980s)",
+      "units": 2480
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Problem Space:The Collapse of Willpower Mythology",
+      "units": 2689
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Third Lever:Timing Feedback (1990s-2000s)",
+      "units": 2607
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Fourth Lever:Signaling Identity (2000s-2010s)",
+      "units": 2647
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Four-Lever Framework (2010s)",
+      "units": 2612
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The First Test:A Protocol for Personal Friction (2010s)",
+      "units": 2620
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Second Test:Engineering the Social Environment (1990s-2010s)",
+      "units": 2613
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Framework:A Four-Lever Engineering Model",
+      "units": 2435
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Fourth Test:Identity as a Behavioral Scaffold (2010s)",
+      "units": 2593
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Framework in the Wild (2010s)",
+      "units": 2613
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Limits of Engineering (2010s-2020s)",
+      "units": 2464
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Framework in Practice (2010s-2020s)",
+      "units": 2657
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Personalization Imperative (2010s-2020s)",
+      "units": 2571
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Architecture of a Personal Protocol (2010s-2020s)",
+      "units": 2491
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Protocol as a Living System (2010s-2020s)",
+      "units": 2701
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Unseen Levers of Institutional Change (2010s-2020s)",
+      "units": 2716
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Limits of Mechanism (2020s)",
+      "units": 2364
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Engineering of Everyday Life (2020s)",
+      "units": 2613
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Unseen Levers of Institutional Change (2010s-2020s)（21）",
+      "units": 2433
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Architecture of a Personal Protocol (2020s)",
+      "units": 2612
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Counterexample of the Corporate Wellness Mandate (2000s-2020s)",
+      "units": 2564
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Limits of a Measurable World (2020s)",
+      "units": 2396
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Unintended Consequences of Gamified Habit (2010s-2020s)",
+      "units": 2395
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Friction of Social Norms (2010s-2020s)",
+      "units": 2555
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Paradox of the Perfectly Engineered Life (2020s)",
+      "units": 2619
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Unseen Architecture of Habitual Cities (2010s-2020s)",
+      "units": 2618
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Final Protocol and Its Inherent Boundaries (2020s)",
+      "units": 2379
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Engineer’s Final Reckoning (2020s)",
+      "units": 2442
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The Unfinished Work of Behavioral Engineering (2020s)",
+      "units": 2657
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Engineer’s Final Reckoning (2020s)（32）",
+      "units": 2651
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Engineer’s Final Reckoning (2020s)（33）",
+      "units": 2642
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Engineer’s Final Reckoning (2020s)（34）",
+      "units": 2951
+    }
+  ],
+  "publishedAt": "2026-09-02T05:18:16.569Z",
+  "formFamily": "method"
+}
