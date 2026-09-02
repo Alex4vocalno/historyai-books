@@ -39,12 +39,12 @@
     "rating": "编辑意见"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-0f6d5b381c6f.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-02T10:05:01.515Z",
+    "generatedAt": "2026-09-02T17:07:43.436Z",
     "textless": false,
-    "profileId": "warm-humanist"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -198,5 +198,6 @@
       "units": 9081
     }
   ],
-  "publishedAt": "2026-09-02T10:05:58.154Z"
+  "publishedAt": "2026-09-02T10:05:58.154Z",
+  "rerenderedAt": "2026-09-02T17:07:43.631Z"
 }
