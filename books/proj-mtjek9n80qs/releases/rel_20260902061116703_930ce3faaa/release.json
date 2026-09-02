@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902061116703_930ce3faaa",
+  "projectId": "proj-mtjek9n80qs",
+  "manuscriptVersionId": "mv_e767f9c728990c92",
+  "contentHash": "e767f9c728990c9279a54263a0486f6454f12f0428d5f03c32b68aac23f01fa9",
+  "title": "汴京的最后十年",
+  "subtitle": "1117—1127：繁华帝都的理性崩塌",
+  "authorDisplayName": "李思特Think",
+  "description": "重和元年的汴京，米价三十文一斗，说书声里尽是盛世安稳。谁料十年后，这座当时世界上最繁华的都城竟在风雪中洞开城门，任由铁骑长驱直入。从童贯的算盘到花石纲的账本，从太学生的激愤到西军的溃散，每一步决策在当时都看似合理，叠加起来却通向万劫不复。这不是突如其来的灾难，而是财政、军制、党争与外交四条线索精密咬合出的必然深渊。以宋金档案与市井笔记为证，将庙堂大势落回米价、军饷与城门开合之间，重现一座伟大城市如何在日常运转中一步步走向靖康之变。",
+  "category": "中国史",
+  "tags": [
+    "北宋末年",
+    "靖康之变",
+    "汴京",
+    "宋金战争",
+    "城市史",
+    "北宋灭亡"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 215124,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-09-02T05:25:19.553Z"
+  },
+  "editorReview": {
+    "text": "本书以米铺秤砣的半钱铁为切口，将帝国度量秩序的信用崩塌与宏观财政空心化无缝衔接，论证从具象到抽象的推进极为流畅。童贯联金灭辽一章对‘代理死局’机制的分析尤为精彩，信息筛选如何变成自我实现预言，写得层次分明。终章将花石纲、燕山府、犒军费三轮财政消耗与禁军空心化编织成四条线并行崩塌的结构，‘空心化繁荣’这一核心论断清晰有力。全书说书人口吻自然，不造作。不过，部分章节接缝处存在钩子未回应的问题，破坏了说书体逐回扣合的节奏；中后段叙事锚点周小乙几乎消失，导致视角断裂；且个别历史断言的论证基础偏薄，如孟元老描述缺乏可核出处。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-02T06:10:45.446Z",
+    "textless": false,
+    "profileId": "serious-history-editorial",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "米铺里的盛世",
+      "units": 8365
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "童贯的算盘",
+      "units": 8728
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "花石纲的账本",
+      "units": 8386
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "太学生的眼睛",
+      "units": 8288
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "西军的影子",
+      "units": 10235
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "燕山府的窟窿",
+      "units": 8140
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "三年前一斗米不过三十文",
+      "units": 8400
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "方腊的余烬",
+      "units": 8497
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "种师中的最后一战",
+      "units": 7928
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "马扩的使金日记",
+      "units": 8418
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "徽宗的最后一道诏书",
+      "units": 7872
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "陈东的上书",
+      "units": 8200
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "李纲的城头",
+      "units": 7335
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "太原的孤城",
+      "units": 8988
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "种师道的最后谏言",
+      "units": 8064
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "割三镇的奏对",
+      "units": 8883
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "黄河的冬天",
+      "units": 8592
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "汴京的围城",
+      "units": 7570
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "雪夜开城门",
+      "units": 8178
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "最后的禁军",
+      "units": 8627
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "金营里的降表",
+      "units": 11925
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "开封府的账册",
+      "units": 9188
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "二帝北行",
+      "units": 8064
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "梦华录的余音",
+      "units": 8754
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "深渊的回声",
+      "units": 9499
+    }
+  ],
+  "publishedAt": "2026-09-02T06:11:16.713Z"
+}
