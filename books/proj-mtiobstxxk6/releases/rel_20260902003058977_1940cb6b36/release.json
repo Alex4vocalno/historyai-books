@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902003058977_1940cb6b36",
+  "projectId": "proj-mtiobstxxk6",
+  "manuscriptVersionId": "mv_7f54e2049373583a",
+  "contentHash": "7f54e2049373583a9f5100300d109116294f8e1843bf646bfa8ade4b5d75f1a7",
+  "title": "温差",
+  "subtitle": "中美股市三十年制度分野实录",
+  "authorDisplayName": "心安处是故乡",
+  "description": "1990年至2024年，中美股市在同一条时间轴上走出了截然不同的曲线。这并非偶然的周期错位，而是融资导向与投资导向、政策干预与市场出清、散户洪流与机构定价四组制度变量长期博弈的必然结果。本书以三十余年可追溯的历史数据为锚，穿透暴涨暴跌的表象，还原A股波动作为制度内生特征的演化逻辑。从退市机制的缺位到流动性的双重面孔，从估值幻象到长牛结构，每一组中美同期对照都在揭示市场性格背后的深层基因。这不是诊疗手册，而是一份关于两种市场温度如何形成的冷静底稿。",
+  "category": "经济理财",
+  "tags": [
+    "中美股市",
+    "制度比较",
+    "金融史",
+    "市场机制",
+    "投资逻辑",
+    "经济理财"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 128977,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-09-01T15:59:46.641Z"
+  },
+  "editorReview": {
+    "text": "这本书值得花时间，尤其适合对中美市场差异有困惑、想建立系统认知的投资者。它最大的价值在于用扎实的数据和一手制度文本，把“融资导向vs投资导向”这个核心论点从1990年一路拆解到2024年，论证链条严密，数据运用克制精确，且始终恪守不荐股的投资纪律，这在同类作品中非常难得。不过，阅读体验并非完美：部分章节存在句式重复、抽象密度偏高的问题，个别章节间的叙事衔接也有断裂感，容易在中段造成阅读疲劳。总体而言，它是一份冷静、扎实的制度分析底稿，但需要读者有一定的耐心去消化其中密集的信息。",
+    "penName": "半山",
+    "title": "商业财经编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T00:30:49.876Z",
+    "textless": false,
+    "profileId": "ledger-tape-archive"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "同一片刻度，两种温度",
+      "units": 7632
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "融资的熔炉与投资的容器",
+      "units": 9015
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "干预之手与市场之锚",
+      "units": 7296
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "不退场的代价与出清的纪律",
+      "units": 6120
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "四组变量的逻辑地图",
+      "units": 6439
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "投资者的面孔与市场的性格",
+      "units": 6415
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "融资的代价",
+      "units": 6930
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "时间的形状",
+      "units": 5707
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "估值的幻象",
+      "units": 6870
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "流动性的两面",
+      "units": 6511
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "政策的周期",
+      "units": 6279
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "制度的遗产",
+      "units": 5581
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "压力的容限",
+      "units": 5787
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "泡沫的配方",
+      "units": 6063
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "改革的试金石",
+      "units": 6279
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "长牛的结构",
+      "units": 5940
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "投资者的纪律",
+      "units": 5890
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "框架的边界",
+      "units": 6096
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "策略的格栅",
+      "units": 6179
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "温差之外的自由",
+      "units": 5948
+    }
+  ],
+  "publishedAt": "2026-09-02T00:30:58.996Z"
+}
