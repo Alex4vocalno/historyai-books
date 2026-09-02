@@ -39,15 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-e48cf8be7768.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-01T16:05:28.440Z",
+    "generatedAt": "2026-09-02T16:44:32.307Z",
     "textless": false,
-    "profileId": "epigraphy-rubbing",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "epigraphy-rubbing"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -231,5 +228,6 @@
       "units": 12656
     }
   ],
-  "publishedAt": "2026-09-01T16:08:00.384Z"
+  "publishedAt": "2026-09-01T16:08:00.384Z",
+  "rerenderedAt": "2026-09-02T16:44:32.322Z"
 }
