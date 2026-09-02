@@ -5,7 +5,7 @@
   "manuscriptVersionId": "mv_aa762b503d9ead42",
   "contentHash": "aa762b503d9ead4280409729f5a6eddfa0d994c1d0957f1bff0982a76afd6d01",
   "chapterCount": 17,
-  "generatedAt": "2026-09-02T12:16:49.044Z",
+  "generatedAt": "2026-09-02T15:05:48.842Z",
   "files": [
     {
       "path": "ch-1.html",
@@ -93,6 +93,11 @@
       "sha256": "23f0cde8bc4b5a87564fd65a55fa657b78ee92fe9f65ef8e64db15ce28fcbc7d"
     },
     {
+      "path": "cover-6953ae10d6ad.jpg",
+      "bytes": 1040890,
+      "sha256": "6953ae10d6ad6765785a54542cce3b076c936335f2ba8eeed85f438f10392a2a"
+    },
+    {
       "path": "cover.jpg",
       "bytes": 957356,
       "sha256": "2050ee38be9d6fac76af41dbaab44e15cae9569cf29600d6daf5588f02cfd44e"
@@ -119,8 +124,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 21910,
-      "sha256": "b84baa572102ed44f51575f35f173bdc9e2c548ba273aa18eafa1eb575fd06ca"
+      "bytes": 21936,
+      "sha256": "6fba320d194c2e84fe82e31bb85ac605dd96b4bf0e74d380e775d169ec205134"
     },
     {
       "path": "read.html",
@@ -129,8 +134,8 @@
     },
     {
       "path": "release.json",
-      "bytes": 4552,
-      "sha256": "2c1a558e732d5e4f5bc4d1ea1b6392999547806243e43624c927112a2f151acf"
+      "bytes": 4605,
+      "sha256": "30d66dea4e87d986895882fe6a9c277815243fc59d4bad4b8b6143f72090fed3"
     }
   ]
 }
