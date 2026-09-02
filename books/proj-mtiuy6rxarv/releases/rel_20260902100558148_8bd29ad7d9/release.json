@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902100558148_8bd29ad7d9",
+  "projectId": "proj-mtiuy6rxarv",
+  "manuscriptVersionId": "mv_a8832f183cd362e1",
+  "contentHash": "a8832f183cd362e18c069ac56bdfb91eb1c0fac76ce6a56517a2c3bf205514bc",
+  "title": "一个盐商的账本：1740年代扬州的日常与帝国",
+  "subtitle": "乾隆朝两淮盐区的账簿、家族与帝国财政",
+  "authorDisplayName": "李思特Think",
+  "description": "翻开一册乾隆年间扬州盐商的家用账簿，传奇滤镜随之碎裂。这里没有挥金如土的豪奢神话，只有精密到令人窒息的生存算计。每一笔嫁妆、修缮与药费背后，都是商人在帝国财政汲取与家族体面之间的艰难走钢丝。从河下码头的盐引流转，到宴席戏班的开销；从下人的月钱，到分家时的锱铢必较，数字还原了1740年代两淮盐区最真实的肌理。盐商并非富可敌国的传说，而是以私人资本运转公共财政的制度代理人。当账簿停止记录，一个家族乃至一种制度的命运才真正显影。",
+  "category": "中国史",
+  "tags": [
+    "清代经济史",
+    "扬州盐商",
+    "微观史",
+    "社会生活史",
+    "账簿研究",
+    "世界史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 206214,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-3",
+    "createdAt": "2026-09-02T10:01:41.625Z"
+  },
+  "editorReview": {
+    "text": "这本书最动人的地方，在于它让一册乾隆年间的竹纸账簿真正“活”了起来。作者对物质细节的感知力令人印象深刻，比如第一章描写账簿折角处“一层暗色的油光渗进了竹纸的纤维，纸角被摸得像一层薄皮，微微透光”，这种凝视让历史有了可触摸的质感。第十二章通过宴席筹备的逐日账目，将“戏比菜贵”的比例关系揭示为一种体面的政治经济学，展现了制度分析与日常账目衔接的洞见。然而，全书在中段（第6至17章）的论证模式过于同质化，几乎每章都遵循“从账簿条目引申到盐政制度”的三段式结构，缺乏递进的张力。更关键的是，正文中频繁出现“某档案”“一份契约”等模糊来源表述，在微观史体裁中这动摇了实证的根基，让读者难以区分哪些是扎实的档案支撑、哪些是作者的推断。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "编辑意见"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T10:05:01.515Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "一册账簿的折痕",
+      "units": 8387
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "河下盐栈与码头",
+      "units": 7463
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "报效银两入账",
+      "units": 8670
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "嫁娶簿上的脸面",
+      "units": 8459
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "账簿并不只在婚丧嫁娶时才显现出时间感",
+      "units": 4915
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "柴米油盐之间",
+      "units": 8398
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "药渣里的身体",
+      "units": 8287
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "下人们的名字",
+      "units": 7930
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "修缮与置换",
+      "units": 8357
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "笔墨纸砚的账",
+      "units": 8242
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "园中亭台",
+      "units": 8310
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "宴席上的戏",
+      "units": 7767
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "装裱与悬挂",
+      "units": 8173
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "礼单上的品味",
+      "units": 9226
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "藏书的账目",
+      "units": 8021
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "官盐之家的门槛",
+      "units": 8337
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "族产与公账",
+      "units": 8438
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "子弟的出路",
+      "units": 8971
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "分家时的账本",
+      "units": 8405
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "账簿停止之处",
+      "units": 8130
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "账簿之后的人",
+      "units": 7586
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "账簿作为记忆",
+      "units": 8395
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "盐商之后",
+      "units": 9793
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "一册账簿的长度",
+      "units": 8473
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "账簿的来世",
+      "units": 9081
+    }
+  ],
+  "publishedAt": "2026-09-02T10:05:58.154Z"
+}
