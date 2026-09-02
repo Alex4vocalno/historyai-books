@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902001407273_c752b43330",
+  "projectId": "proj-mtiuydbjvo6",
+  "manuscriptVersionId": "mv_4c5f0e8e515d74f1",
+  "contentHash": "4c5f0e8e515d74f1ff0071173bda2e1fe2e59a7e2085a90cc0625928ba4d7b2b",
+  "title": "瑞幸咖啡：从造假到重生（2017–2024）",
+  "subtitle": "一家退市公司的万店重生实录",
+  "authorDisplayName": "李思特Think",
+  "description": "从纳斯达克退市到门店破万，瑞幸只用了三年。这并非简单的逆袭爽文，而是一场被债务与合规重塑的商业实验。本书基于财报、法庭文件与从业者访谈，还原关键决策现场的博弈与算计。当补贴退潮、管理层更迭，支撑其活下来的竟是曾导致造假的那套数字化基因。这不是公司通史，而是对中国连锁商业底层逻辑的冷峻解剖：在资本时间表与真实单店经济之间，一家企业如何支付代价，换回第二次生命。",
+  "category": "商业管理",
+  "tags": [
+    "商业史",
+    "瑞幸咖啡",
+    "企业重生",
+    "新零售",
+    "非虚构",
+    "商业管理"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 165913,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-09-01T22:11:14.290Z"
+  },
+  "editorReview": {
+    "text": "这本书对瑞幸的解剖，胜在它把“速度与约束”这条核心张力线贯穿始终，从神州租车的资本闭环讲到咖啡单店模型的测算，再到造假后的制度重建，论证清晰且有层次。尤其难得的是，它用数据说话——比如“每四块钱资产里三块钱是借来的”这类细节，让商业逻辑变得可感。不过，部分章节的衔接存在明显断裂，比如埋下的问题钩子未被回应，以及个别段落（如第7、9章）因概念堆叠而略显枯燥，影响了阅读的流畅性。整体是一部扎实、有洞见的案例深描，适合想看清中国连锁商业底层代价的读者。",
+    "penName": "半山",
+    "title": "商业财经编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T00:13:13.589Z",
+    "textless": false,
+    "profileId": "ledger-tape-archive"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "陆正耀的上市流水线",
+      "units": 8901
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "钱治亚的咖啡算术",
+      "units": 9360
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "银河SOHO的试验场",
+      "units": 8836
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "资本局中局",
+      "units": 7944
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "补贴制造的繁荣",
+      "units": 7915
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "纳斯达克的速度崇拜",
+      "units": 7945
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "浑水做空",
+      "units": 8267
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "审计师的拒绝签字",
+      "units": 8357
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "董事会政变",
+      "units": 7502
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "郭谨一接盘",
+      "units": 7671
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "告别补贴",
+      "units": 8378
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "大钲入主",
+      "units": 7943
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "和解的价码",
+      "units": 10102
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "生椰拿铁与沉默的反转",
+      "units": 8021
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "万店不万恶",
+      "units": 8436
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "瑞幸方法",
+      "units": 8292
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "咖啡的平权",
+      "units": 7707
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "两次生命，同一套基因",
+      "units": 8413
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "价格战的终局",
+      "units": 7802
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "瑞幸的遗产",
+      "units": 8121
+    }
+  ],
+  "publishedAt": "2026-09-02T00:14:07.276Z",
+  "formFamily": "narrative"
+}
