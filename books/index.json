@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9uhaxerme",
+    "projectId": "proj-mt9uhaxerme",
+    "releaseId": "rel_20260902121649010_c4d2fdf2f9",
+    "title": "每天两小时",
+    "subtitle": "通勤时间背后的城市隐形契约",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "经济理财",
+    "tags": [
+      "城市史",
+      "通勤研究",
+      "空间政治",
+      "马凯蒂常数",
+      "居住决策",
+      "经济理财"
+    ],
+    "description": "从马车到地铁，人类单程通勤时间为何始终徘徊在半小时至一小时之间？这并非巧合，而是一份由空间结构、住房价格与交通投资共同写定的隐形契约。更快的交通并未缩短路途，只是用速度换取了更远的居住边界。本书以跨国通勤数据为线索，揭开马凯蒂常数背后的城市运行逻辑，剖析房价梯度、地铁效应与远程办公对这份契约的冲击。看懂这笔时间账，才能在拥堵的均衡中，重新审视个人的居住选择与城市的空间权利。",
+    "chapterCount": 17,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 87,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T11:49:18.130Z"
+    },
+    "coverUrl": "books/proj-mt9uhaxerme/releases/rel_20260902121649010_c4d2fdf2f9/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9uhaxerme/index.html",
+    "publishedAt": "2026-09-02T12:16:49.023Z",
+    "firstPublishedAt": "2026-08-27T00:47:52.144Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9uhf746ud",
     "projectId": "proj-mt9uhf746ud",
     "releaseId": "rel_20260902121641647_42bf5da2d3",
@@ -2206,40 +2240,6 @@
     "url": "books/proj-mt9svubagyl/index.html",
     "publishedAt": "2026-08-27T00:52:09.945Z",
     "firstPublishedAt": "2026-08-27T00:52:09.945Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9uhaxerme",
-    "projectId": "proj-mt9uhaxerme",
-    "releaseId": "rel_20260827004752130_e257c9e934",
-    "title": "每天两小时",
-    "subtitle": "通勤时间背后的城市隐形契约",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "经济理财",
-    "tags": [
-      "城市史",
-      "通勤研究",
-      "空间政治",
-      "马凯蒂常数",
-      "居住决策",
-      "经济理财"
-    ],
-    "description": "从马车到地铁，人类单程通勤时间为何始终徘徊在半小时至一小时之间？这并非巧合，而是一份由空间结构、住房价格与交通投资共同写定的隐形契约。更快的交通并未缩短路途，只是用速度换取了更远的居住边界。本书以跨国通勤数据为线索，揭开马凯蒂常数背后的城市运行逻辑，剖析房价梯度、地铁效应与远程办公对这份契约的冲击。看懂这笔时间账，才能在拥堵的均衡中，重新审视个人的居住选择与城市的空间权利。",
-    "chapterCount": 17,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 87,
-      "method": "median-of-1",
-      "createdAt": "2026-08-26T11:49:18.130Z"
-    },
-    "coverUrl": "books/proj-mt9uhaxerme/releases/rel_20260827004752130_e257c9e934/cover-2050ee38be9d.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt9uhaxerme/index.html",
-    "publishedAt": "2026-08-27T00:47:52.144Z",
-    "firstPublishedAt": "2026-08-27T00:47:52.144Z",
     "visibility": "public"
   },
   {
