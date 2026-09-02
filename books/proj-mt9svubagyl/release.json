@@ -39,10 +39,10 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-a7f38c863230.png",
+    "file": "cover-9984c001bbce.jpg",
     "provider": "openrouter",
-    "model": "qwen/qwen-image-3",
-    "generatedAt": "2026-08-28T02:13:57.372Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T12:31:00.679Z",
     "textless": false,
     "sourceTextless": false
   },
@@ -165,5 +165,5 @@
   "illustrations": 7,
   "publishedAt": "2026-08-27T00:52:09.945Z",
   "formFamily": "explainer",
-  "rerenderedAt": "2026-08-28T02:13:57.630Z"
+  "rerenderedAt": "2026-09-02T12:31:00.827Z"
 }
