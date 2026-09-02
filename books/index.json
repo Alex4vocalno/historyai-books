@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mt9pf70wuuv",
+    "projectId": "proj-mt9pf70wuuv",
+    "releaseId": "rel_20260902123322690_c7d9c3f31b",
+    "title": "当世界失焦",
+    "subtitle": "近视如何重塑现代身体与童年",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "医学健康",
+    "tags": [
+      "医疗社会史",
+      "近视",
+      "公共卫生",
+      "身体史",
+      "东亚教育",
+      "医学健康"
+    ],
+    "description": "一个世纪前，近视还是少数人的缺陷；如今，它已成为东亚半数人口的常态。这场安静的流行病并非基因突变，而是现代生活刻在眼球上的历史印记。从新加坡教室的灯光到视网膜边缘的多巴胺，从角膜塑形镜的工艺演进到操场上的随机试验，本书追踪近视作为“传主”的生命史。当教育竞争、商业矫正与公共卫生在方寸眼球间角力，看清模糊背后的结构性成因，比寻找某种神奇疗法更为紧迫。这是一部关于身体如何被环境重塑的非虚构记录，在清晰与模糊之间，重新审视我们习以为常的观看方式。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-08-26T09:56:25.975Z"
+    },
+    "coverUrl": "books/proj-mt9pf70wuuv/releases/rel_20260902123322690_c7d9c3f31b/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mt9pf70wuuv/index.html",
+    "publishedAt": "2026-09-02T12:33:22.692Z",
+    "firstPublishedAt": "2026-08-26T10:02:06.796Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9svremeed",
     "projectId": "proj-mt9svremeed",
     "releaseId": "rel_20260902123135533_72eda42a4c",
@@ -2546,40 +2580,6 @@
     "url": "books/proj-mt9u3qgb1vg/index.html",
     "publishedAt": "2026-08-26T14:32:10.242Z",
     "firstPublishedAt": "2026-08-26T14:32:10.242Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mt9pf70wuuv",
-    "projectId": "proj-mt9pf70wuuv",
-    "releaseId": "rel_20260826100206782_6af850b191",
-    "title": "当世界失焦",
-    "subtitle": "近视如何重塑现代身体与童年",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "医学健康",
-    "tags": [
-      "医疗社会史",
-      "近视",
-      "公共卫生",
-      "身体史",
-      "东亚教育",
-      "医学健康"
-    ],
-    "description": "一个世纪前，近视还是少数人的缺陷；如今，它已成为东亚半数人口的常态。这场安静的流行病并非基因突变，而是现代生活刻在眼球上的历史印记。从新加坡教室的灯光到视网膜边缘的多巴胺，从角膜塑形镜的工艺演进到操场上的随机试验，本书追踪近视作为“传主”的生命史。当教育竞争、商业矫正与公共卫生在方寸眼球间角力，看清模糊背后的结构性成因，比寻找某种神奇疗法更为紧迫。这是一部关于身体如何被环境重塑的非虚构记录，在清晰与模糊之间，重新审视我们习以为常的观看方式。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 85,
-      "method": "median-of-1",
-      "createdAt": "2026-08-26T09:56:25.975Z"
-    },
-    "coverUrl": "books/proj-mt9pf70wuuv/releases/rel_20260826100206782_6af850b191/cover-b7dfee763d3e.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mt9pf70wuuv/index.html",
-    "publishedAt": "2026-08-26T10:02:06.796Z",
-    "firstPublishedAt": "2026-08-26T10:02:06.796Z",
     "visibility": "public"
   },
   {
