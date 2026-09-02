@@ -39,13 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-bc925e36d082.svg",
+    "file": "cover-546c5856bed3.jpg",
     "provider": "openrouter",
-    "model": "qwen/qwen-image-3",
-    "generatedAt": "2026-08-28T02:11:27.948Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T12:30:28.659Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -152,5 +151,5 @@
     }
   ],
   "publishedAt": "2026-08-27T00:52:32.633Z",
-  "rerenderedAt": "2026-08-28T02:11:28.096Z"
+  "rerenderedAt": "2026-09-02T12:30:28.786Z"
 }
