@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902122222200_825364579d",
+  "projectId": "proj-mtdojkjummc",
+  "manuscriptVersionId": "mv_9b1a9b43b5547096",
+  "contentHash": "9b1a9b43b55470966fc3c38ee9d3b180b71078bc857cad1eaf60cc892b21bce3",
+  "title": "The Year Without a Summer: 1816 and the World Tambora Made",
+  "subtitle": "1816 and the World Tambora Made",
+  "authorDisplayName": "李思特Think",
+  "description": "In April 1815, Mount Tambora erupted with unprecedented force, shrouding the planet in ash and stealing the following summer. Snow fell on New England in June; famine stalked Ireland and Switzerland; cholera surged from Bengal; and a sunless Geneva inspired Frankenstein. Yet those enduring the cold, hunger, and disease never knew a volcano was to blame. This narrative reconstructs 1816 as a global panorama, tracing the eruption’s invisible shockwaves through weather diaries, parish registers, and price lists across four continents. From Yunnan’s failed rice harvests to American frontier migrations and Parisian bread riots, it reveals a pre-industrial world far more interconnected than previously understood. The volcanic science is established early, then yields to the human experience of a climate catastrophe whose cause remained a mystery to its victims. A vivid chronicle of resilience and ruin, this history illuminates how a single geological event reshaped societies, economies, and cultures long before the modern age of globalization.",
+  "category": "世界史",
+  "tags": [
+    "Climate History",
+    "Mount Tambora",
+    "Global History",
+    "Environmental Disaster",
+    "Nineteenth Century",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 40,
+    "units": 97364,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 75,
+    "method": "median-of-3",
+    "createdAt": "2026-08-29T11:26:20.069Z"
+  },
+  "editorReview": {
+    "text": "This panoramic account of the Tambora eruption's global aftermath delivers on its geographical promise, tracing the volcanic veil from Sumbawa to Vermont with documented specificity. Its strongest moments, like the sensory immersion of Chapter 1 or the insightful analysis of how artists like Turner gave form to the 'ambient dread,' elevate the chronicle. However, the narrative drive is periodically fractured by repetitive structural formulas, particularly in chapter openings, which can create a sense of déjà vu rather than deepening momentum. While the book successfully establishes the global",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-02T12:22:17.961Z",
+    "textless": false,
+    "profileId": "serious-history-editorial",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Mountain’s Last Breath (April 1815)",
+      "units": 2523
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Long Winter of New England (June–October 1816)",
+      "units": 2219
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Famine’s First Tremors in Ireland (Spring–Summer 1816)",
+      "units": 2460
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Alpine Lifeline Severed",
+      "units": 2529
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Kingdom’s Broken Compact",
+      "units": 2338
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Cholera’s Passage from Bengal (Summer–Autumn 1816)",
+      "units": 2592
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Failed Harvests of Yunnan (Summer–Autumn 1816)",
+      "units": 1923
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Darkened Sun of the British Isles (Summer–Autumn 1816)",
+      "units": 2584
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Ghosts of Geneva (Summer 1816)",
+      "units": 2489
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Typhus Tide in Ireland (Autumn 1816–Spring 1817)",
+      "units": 2530
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Alpine Descent into Italy (Autumn 1816–Spring 1817)",
+      "units": 2756
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Petition from Heiningen",
+      "units": 2555
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Price of Bread in Paris (Winter 1816–Spring 1817)",
+      "units": 2507
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Governor’s Dilemma in Bengal (Summer–Autumn 1816)",
+      "units": 2426
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The American Exodus to the Ohio Valley (Spring–Summer 1817)",
+      "units": 2528
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Kingdom’s Broken Harvests in Bohemia (Autumn 1816–Spring 1817)",
+      "units": 2276
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Emperor’s Empty Granaries in Vienna (Winter 1816–Spring 1817)",
+      "units": 2119
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Scientist’s Global Puzzle (1817–1818)",
+      "units": 2531
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Governor’s Impossible Choice in Madras (Summer–Autumn 1817)",
+      "units": 2475
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Artist’s Vision of a World in Ashes (1817–1819)",
+      "units": 2133
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Atlantic’s Silent Passage (Spring–Summer 1817)",
+      "units": 2092
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Empire’s Hungry Winter (Winter 1816–1817)",
+      "units": 2341
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Governor’s Dilemma in Madras (Summer–Autumn 1817)",
+      "units": 2253
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Climax of a Global Crisis (Winter 1817–1818)",
+      "units": 2354
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Reckoning of the Russian Steppe (Summer–Autumn 1817)",
+      "units": 1890
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Retreat of the American Frontier (Spring–Summer 1817)",
+      "units": 2419
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Last Embers of the Volcanic Winter (Spring–Summer 1818)",
+      "units": 2374
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Shock Hardens into Policy",
+      "units": 2371
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Unraveling of the Atlantic Order (1819–1824)",
+      "units": 2532
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Reckoning of a Global Shock (1819–1830)",
+      "units": 2283
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The Unseen Threads of a Global System (1816–1820)",
+      "units": 2918
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Tambora Shadow Over a New Century (1820–1850)",
+      "units": 2705
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Volcano’s Final Lesson (1820–1850)",
+      "units": 2089
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Memory of a Broken Year (1820–1850)",
+      "units": 2520
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "The Volcano’s Echo in a Modern World (1850–Present)",
+      "units": 2529
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "The Unseen Thread of a Global Shock (1850–Present)",
+      "units": 2836
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "The Unseen Thread of a Global System (1820–Present)",
+      "units": 2983
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "The World That Tambora Revealed (1817–Present)",
+      "units": 2329
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "The Final Reckoning of a Global Shock (1817–Present)",
+      "units": 2540
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "The Lasting Shadow of a Broken Year (1817–Present)",
+      "units": 2513
+    }
+  ],
+  "publishedAt": "2026-09-02T12:22:22.208Z"
+}

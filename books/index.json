@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtdojkjummc",
+    "projectId": "proj-mtdojkjummc",
+    "releaseId": "rel_20260902122222200_825364579d",
+    "title": "The Year Without a Summer: 1816 and the World Tambora Made",
+    "subtitle": "1816 and the World Tambora Made",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "世界史",
+    "tags": [
+      "Climate History",
+      "Mount Tambora",
+      "Global History",
+      "Environmental Disaster",
+      "Nineteenth Century",
+      "世界史"
+    ],
+    "description": "In April 1815, Mount Tambora erupted with unprecedented force, shrouding the planet in ash and stealing the following summer. Snow fell on New England in June; famine stalked Ireland and Switzerland; cholera surged from Bengal; and a sunless Geneva inspired Frankenstein. Yet those enduring the cold, hunger, and disease never knew a volcano was to blame. This narrative reconstructs 1816 as a global panorama, tracing the eruption’s invisible shockwaves through weather diaries, parish registers, and price lists across four continents. From Yunnan’s failed rice harvests to American frontier migrations and Parisian bread riots, it reveals a pre-industrial world far more interconnected than previously understood. The volcanic science is established early, then yields to the human experience of a climate catastrophe whose cause remained a mystery to its victims. A vivid chronicle of resilience and ruin, this history illuminates how a single geological event reshaped societies, economies, and cultures long before the modern age of globalization.",
+    "chapterCount": 40,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 75,
+      "method": "median-of-3",
+      "createdAt": "2026-08-29T11:26:20.069Z"
+    },
+    "coverUrl": "books/proj-mtdojkjummc/releases/rel_20260902122222200_825364579d/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtdojkjummc/index.html",
+    "publishedAt": "2026-09-02T12:22:22.208Z",
+    "firstPublishedAt": "2026-08-29T06:06:32.228Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9ga3z16r8",
     "projectId": "proj-mt9ga3z16r8",
     "releaseId": "rel_20260902121718113_2cf7dc624a",
@@ -1426,40 +1460,6 @@
     "publishedAt": "2026-08-29T10:51:50.539Z",
     "firstPublishedAt": "2026-08-29T09:35:04.201Z",
     "visibility": "public"
-  },
-  {
-    "id": "proj-mtdojkjummc",
-    "projectId": "proj-mtdojkjummc",
-    "releaseId": "rel_20260829060632218_8fb5515bbb",
-    "title": "The Year Without a Summer: 1816 and the World Tambora Made",
-    "subtitle": "1816 and the World Tambora Made",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "世界史",
-    "tags": [
-      "Climate History",
-      "Mount Tambora",
-      "Global History",
-      "Environmental Disaster",
-      "Nineteenth Century",
-      "世界史"
-    ],
-    "description": "In April 1815, Mount Tambora erupted with unprecedented force, shrouding the planet in ash and stealing the following summer. Snow fell on New England in June; famine stalked Ireland and Switzerland; cholera surged from Bengal; and a sunless Geneva inspired Frankenstein. Yet those enduring the cold, hunger, and disease never knew a volcano was to blame. This narrative reconstructs 1816 as a global panorama, tracing the eruption’s invisible shockwaves through weather diaries, parish registers, and price lists across four continents. From Yunnan’s failed rice harvests to American frontier migrations and Parisian bread riots, it reveals a pre-industrial world far more interconnected than previously understood. The volcanic science is established early, then yields to the human experience of a climate catastrophe whose cause remained a mystery to its victims. A vivid chronicle of resilience and ruin, this history illuminates how a single geological event reshaped societies, economies, and cultures long before the modern age of globalization.",
-    "chapterCount": 40,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 74,
-      "method": "median-of-3",
-      "createdAt": "2026-08-29T05:51:14.903Z"
-    },
-    "coverUrl": "books/proj-mtdojkjummc/releases/rel_20260829060632218_8fb5515bbb/cover.png",
-    "coverTextless": false,
-    "url": "books/proj-mtdojkjummc/index.html",
-    "publishedAt": "2026-08-29T06:06:32.228Z",
-    "firstPublishedAt": "2026-08-29T06:06:32.228Z",
-    "visibility": "unlisted"
   },
   {
     "id": "proj-mtdojb7zftn",
