@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902002829459_9568d056ba",
+  "projectId": "proj-mtiuyoqnoeb",
+  "manuscriptVersionId": "mv_6bf8d3470514db3c",
+  "contentHash": "6bf8d3470514db3c9f6fccfe97666492b9aaacb5398fdfa63491d34951b31b85",
+  "title": "返潮",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "六十三岁的陈有福卖掉了最后一条船。儿子出海失踪三年，孙女在城里等着学费。从粤西海边到陌生城市，从渔民到保安，他带着一身海腥味撞进水泥森林。被骗光积蓄的夜晚，台风登陆的码头，漏雨的出租屋，每一次他都得在体面和活着之间选。选了活着，就得继续往前走。十二个月，十二件事，不说苦，只做事。直到退潮的滩涂上，他弯下腰，指给孙女看：这是花螺，这是辣螺。",
+  "category": "小说",
+  "tags": [
+    "粤西渔民",
+    "现实生存",
+    "祖孙情",
+    "海边小镇",
+    "城市边缘",
+    "沉默的尊严"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 12,
+    "units": 68182,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-1",
+    "createdAt": "2026-09-02T00:14:16.126Z"
+  },
+  "editorReview": {
+    "text": "翻开《返潮》，你几乎能闻到海风里那股咸腥味——缆绳磨得起毛的触感、手心反复出现的咸涩，这些细节让陈有福的丧子之痛变得可触摸。台风夜车库堵水那章写得真好，门板划痕触发记忆闪回的一瞬，是全书的弧光转折。不过进城后的几章，岗亭和出租屋的描写少了些渔村场景那种浸入感；孙女海岚在中段几乎消失，也让最后滩涂上教认螺的传承时刻，少了些层层铺垫的力道。但当你读到老人弯下腰，指认花螺和辣螺的沉默场景，会明白这部小说最珍贵的东西：不说苦，只做事，在退潮的滩涂上把根重新刻进生活里。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-02T00:26:17.276Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "卖船",
+      "units": 5158
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "进城",
+      "units": 4612
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "岗亭",
+      "units": 4970
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "被骗",
+      "units": 5798
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "夜班",
+      "units": 6231
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "还账",
+      "units": 6302
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "台风",
+      "units": 7175
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "漏雨",
+      "units": 5236
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "回乡",
+      "units": 5560
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "渔汛",
+      "units": 7340
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "祭海",
+      "units": 4347
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "认螺",
+      "units": 5453
+    }
+  ],
+  "publishedAt": "2026-09-02T00:28:29.462Z"
+}
