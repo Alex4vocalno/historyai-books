@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtdojmyg750",
+    "projectId": "proj-mtdojmyg750",
+    "releaseId": "rel_20260902162041429_658fbf260a",
+    "title": "Why the Night Sky Is Dark",
+    "subtitle": "Olbers' Paradox and the Discovery of a Finite Universe",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "世界史",
+    "tags": [
+      "Cosmology",
+      "History of Science",
+      "Astronomy",
+      "Physics",
+      "Olbers' Paradox",
+      "世界史"
+    ],
+    "description": "Why is the night sky dark? In an infinite, eternal universe, every line of sight should end on a star, rendering the heavens as bright as the sun. This simple question, known as Olbers’ paradox, haunted astronomers for centuries and ultimately broke the model of a static cosmos. Tracing the inquiry from Kepler’s early doubts through Edgar Allan Poe’s uncanny intuition to the discovery of cosmic background radiation, this narrative reveals how failed explanations paved the way for modern cosmology. Each wrong turn—from interstellar dust to fractal clustering—is treated not as an error but as a necessary step toward understanding redshift and the universe's finite age. Rigorous yet accessible, the text builds complex concepts from observable reality before introducing mathematics. The darkness overhead is no longer a void but a signature of creation, proving that the most profound truths about our origin are hidden in plain sight.",
+    "chapterCount": 34,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 76,
+      "method": "median-of-3",
+      "createdAt": "2026-08-29T11:24:56.886Z"
+    },
+    "coverUrl": "books/proj-mtdojmyg750/releases/rel_20260902162041429_658fbf260a/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtdojmyg750/index.html",
+    "publishedAt": "2026-09-02T16:20:41.433Z",
+    "firstPublishedAt": "2026-08-29T06:11:12.404Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mt9uhj6ittt",
     "projectId": "proj-mt9uhj6ittt",
     "releaseId": "rel_20260902140711215_b1ddce0d88",
@@ -609,40 +643,6 @@
     "url": "books/proj-mt9uhf746ud/index.html",
     "publishedAt": "2026-09-02T12:16:41.689Z",
     "firstPublishedAt": "2026-08-27T00:49:53.367Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtdojmyg750",
-    "projectId": "proj-mtdojmyg750",
-    "releaseId": "rel_20260902121635491_658fbf260a",
-    "title": "Why the Night Sky Is Dark",
-    "subtitle": "Olbers' Paradox and the Discovery of a Finite Universe",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "世界史",
-    "tags": [
-      "Cosmology",
-      "History of Science",
-      "Astronomy",
-      "Physics",
-      "Olbers' Paradox",
-      "世界史"
-    ],
-    "description": "Why is the night sky dark? In an infinite, eternal universe, every line of sight should end on a star, rendering the heavens as bright as the sun. This simple question, known as Olbers’ paradox, haunted astronomers for centuries and ultimately broke the model of a static cosmos. Tracing the inquiry from Kepler’s early doubts through Edgar Allan Poe’s uncanny intuition to the discovery of cosmic background radiation, this narrative reveals how failed explanations paved the way for modern cosmology. Each wrong turn—from interstellar dust to fractal clustering—is treated not as an error but as a necessary step toward understanding redshift and the universe's finite age. Rigorous yet accessible, the text builds complex concepts from observable reality before introducing mathematics. The darkness overhead is no longer a void but a signature of creation, proving that the most profound truths about our origin are hidden in plain sight.",
-    "chapterCount": 34,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 76,
-      "method": "median-of-3",
-      "createdAt": "2026-08-29T11:24:56.886Z"
-    },
-    "coverUrl": "books/proj-mtdojmyg750/releases/rel_20260902121635491_658fbf260a/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtdojmyg750/index.html",
-    "publishedAt": "2026-09-02T12:16:35.494Z",
-    "firstPublishedAt": "2026-08-29T06:11:12.404Z",
     "visibility": "public"
   },
   {
