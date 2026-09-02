@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902062507793_6caf564f99",
+  "projectId": "proj-mtiuyixbw2l",
+  "manuscriptVersionId": "mv_03c85137ece89f94",
+  "contentHash": "03c85137ece89f94b5afe3f8d3e6b947471590b515cb1fb0aed63614f1c8e663",
+  "title": "The Rubber Century: How a Tree Sap Wired the Modern World",
+  "subtitle": "How a Tree Sap Wired the Modern World",
+  "authorDisplayName": "李思特Think",
+  "description": "A milky sap from Amazonian trees became the material precondition for tires, wires, and war. Rubber was the first truly global commodity whose supply chain was engineered by design: seeds smuggled across oceans, plantations carved from jungle, and colonies reorganized to feed an insatiable industrial engine. Every leap in modern mobility carried a hidden cost paid in coercion and extraction. From Charles Goodyear’s heated coil to the synthetic laboratories of wartime Akron, this history traces the substance through specific objects and trade routes rather than broad surveys. It reveals how the bicycle tire coincided with famine, how estate payrolls masked colonial profit spirals, and how synthetic substitutes emerged from monopolist panic. Spanning the Congo, Malaya, and the American interstate system, the narrative anchors abstract economic forces in concrete realities of wages, tonnage, and human labor. This is the story of how a single botanical exudate was transformed into the unyielding infrastructure of contemporary life.",
+  "category": "世界史",
+  "tags": [
+    "Commodity History",
+    "Industrialization",
+    "Colonialism",
+    "Global Trade",
+    "Material Culture",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 34,
+    "units": 83530,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-2",
+    "createdAt": "2026-09-02T05:21:47.332Z"
+  },
+  "editorReview": {
+    "text": "This book excels in its structural ambition, using rubber as a prism to refract a genuinely global history. Its analytical power is most evident in chapters like the 17th, which masterfully juxtaposes the gleaming consumption of the American interstate with the dereliction of Malaysian plantations. However, the journey can feel episodic at times, as the connective tissue between some chapters is thin, breaking the promised network narrative into distinct chunks. While the prose can be vividly immersive—the opening sensory description of the smell of rubber is a standout—it occasionally lapses",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-02T06:25:03.332Z",
+    "textless": false,
+    "profileId": "archival-deep"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Leaking Tree and the Useful Stain (prehistory to 1838)",
+      "units": 2640
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Heated Coil and the Made Substance (1839-1855)",
+      "units": 2603
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Smugglers, The Seedlings, And The Single Shipment (1856-1876)",
+      "units": 2624
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Rack and The Kindertransport Bicycle (1877-1885)",
+      "units": 2781
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Bicycle Tire and the Great Hunger (1885-1894)",
+      "units": 2784
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Royal Charter and the First Milled Estate (1895-1905)",
+      "units": 2419
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Lament of the Lost Province (1905-1911)",
+      "units": 1663
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Estate Journal and the Payroll Tax (1911-1914)",
+      "units": 1401
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Tire Factory and the Colonial Profit Spiral (1914-1918)",
+      "units": 2277
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Unpaid Wages and the Triumphant Shipment (1919-1922)",
+      "units": 2352
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Monopoly Protocol and the Manufactured Scarcity (1923-1928)",
+      "units": 2470
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Synthetic Announcement and the Monopolist’s Panic (1929-1934)",
+      "units": 2614
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Concrete Highway and the Second War Engine (1935-1939)",
+      "units": 2069
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Saltwater Plantations and the Blockade Clock (1939-1941)",
+      "units": 2617
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Peacetime Tire and the Primacy of Akron (1942-1945)",
+      "units": 2235
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Silent Letter and the Synthetic Surge (1946-1955)",
+      "units": 2430
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Blistered Highway and the Ghost Estate (1956-1965)",
+      "units": 2619
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Last Plantation and the First Petrochemical Pact (1965-1975)",
+      "units": 2403
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Interstate and the Accelerated Dream (1956-1965)",
+      "units": 3065
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Conveyor Belt and the Death of Distance (1956-1970)",
+      "units": 2560
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Burden of Perfection (1976-1991)",
+      "units": 1752
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Abandoned Test Track and the New World Standard (1992-2001)",
+      "units": 2552
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "A Profound and Ironic Turn",
+      "units": 2640
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Condom and the Price of Certainty (1992-2005)",
+      "units": 2115
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Lesson of Scarcity and the Primacy of Security (1940-1945)",
+      "units": 2675
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Perfect Substitute and the Shattered Mirror (1942-1946)",
+      "units": 2504
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The One Trillion-Mile Pact (1948-1955)",
+      "units": 2234
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Last Fleet and the First Harvest (1956-1965)",
+      "units": 2611
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Plastic Monsoon and the Forgotten Tree (1965-1975)",
+      "units": 2542
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Unbroken Circle of the Global Engineered Chain (1975-present)",
+      "units": 2615
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The Asphalt Harvest and the Living Archive (1980-Present)",
+      "units": 2694
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Sap, The Algorithm, And The Engineer’s Signature (1990-Present)",
+      "units": 2683
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Laid Waste and the Whistling Replanted (1980-2020)",
+      "units": 2609
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Final Measured Kilometer (1960-Present)",
+      "units": 2678
+    }
+  ],
+  "publishedAt": "2026-09-02T06:25:07.796Z",
+  "formFamily": "narrative"
+}
