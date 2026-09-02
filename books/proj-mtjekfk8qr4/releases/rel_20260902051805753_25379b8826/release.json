@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902051805753_25379b8826",
+  "projectId": "proj-mtjekfk8qr4",
+  "manuscriptVersionId": "mv_0e86e5707e45f49d",
+  "contentHash": "0e86e5707e45f49db756a20af854ab113bc51d49a5d6e725a1fd3242e60d48cf",
+  "title": "县城的钱从哪来",
+  "subtitle": "1994-2025中国基层财政运转实录",
+  "authorDisplayName": "李思特Think",
+  "description": "一所县高中的预算表、一条断头路的立项书、一份城投债募集说明书，这些沉默的档案里藏着中国县城运转的真实密码。从1994年分税制到2025年化债，学校、医院、工资与产业园的资金并非凭空而来。转移支付、土地财政、城投平台与专项债四股水源此消彼长，在事权与财权的缝隙中重塑了基层面貌。没有宏大叙事，只有账目背后的取舍与代价。当人口流出遇上债务约束，当发展冲动撞上收支边界，每一笔钱的流向都是理解当下中国最诚实的切片。",
+  "category": "经济理财",
+  "tags": [
+    "县域经济",
+    "财政史",
+    "城投债",
+    "基层治理",
+    "公共财政",
+    "经济理财"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 167172,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-09-02T03:57:14.022Z"
+  },
+  "editorReview": {
+    "text": "这本书最让人眼前一亮的，是它把枯燥的县级财政数据变成了一场严谨的“经济侦探游戏”。从县中预算表里82.3%的人员经费占比这个“数字线索”出发，层层拆解到转移支付、土地财政、城投平台，最终勾勒出县城运转的真实因果链，论证逻辑自洽，读来有抽丝剥茧的快感。书中对微观场景的捕捉尤其出色，比如用公共厕所管理员四点锁门这个细节，将财政压力的传导链条具象化到最后一环，极具穿透力。不过，部分章节存在论证密度溢出导致的节奏拖沓，比如第11章在完成论证闭环后仍有重复强化；个别章节结尾的截断感和偶尔从冷静分析滑向抒情评论的声口漂移，也略微破坏了全书统一的“侦探体”气质。总体而言，这是一部完成度很高的作品，只需一轮针对性精修便能更加紧凑锐利。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T05:16:04.037Z",
+    "textless": false,
+    "profileId": "popsci-luminous"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "一所县中的账本",
+      "units": 8649
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "断头路的立项书",
+      "units": 8101
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "发工资的日子",
+      "units": 8661
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "平台公司的诞生",
+      "units": 8451
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "分税制的遗产",
+      "units": 10540
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "专项债的闸门",
+      "units": 8325
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "土地出让金的炼金术",
+      "units": 8505
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "抵押的链条",
+      "units": 8370
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "借新还旧的齿轮",
+      "units": 8392
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "隐性债务的迷宫",
+      "units": 8006
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "压缩的公共服务",
+      "units": 7533
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "考核指挥棒的力学",
+      "units": 7377
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "补贴的竞赛",
+      "units": 7364
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "买榜的财政学",
+      "units": 9232
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "空转的流水线",
+      "units": 8331
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "化债的账本两面",
+      "units": 8007
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "数据资产的幻想",
+      "units": 8229
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "收与支的边界",
+      "units": 8107
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "人口流出的税基",
+      "units": 7639
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "县城的财政遗嘱",
+      "units": 9353
+    }
+  ],
+  "publishedAt": "2026-09-02T05:18:05.758Z"
+}
