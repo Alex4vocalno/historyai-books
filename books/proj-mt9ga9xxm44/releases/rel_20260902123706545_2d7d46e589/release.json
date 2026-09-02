@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-3ca5709e10fb.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-02T12:37:01.370Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T15:02:50.053Z",
     "textless": false,
-    "profileId": "sci-instrument-vintage"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -169,5 +169,6 @@
     }
   ],
   "illustrations": 15,
-  "publishedAt": "2026-09-02T12:37:06.615Z"
+  "publishedAt": "2026-09-02T12:37:06.615Z",
+  "rerenderedAt": "2026-09-02T15:02:50.225Z"
 }
