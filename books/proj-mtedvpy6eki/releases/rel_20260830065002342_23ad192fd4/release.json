@@ -39,12 +39,13 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-4600594a2183.svg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-30T06:49:45.824Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T16:47:57.906Z",
     "textless": false,
-    "profileId": "warm-humanist"
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -276,5 +277,6 @@
       "units": 3452
     }
   ],
-  "publishedAt": "2026-08-30T06:50:02.346Z"
+  "publishedAt": "2026-08-30T06:50:02.346Z",
+  "rerenderedAt": "2026-09-02T16:47:58.261Z"
 }
