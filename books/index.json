@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtiuyouxdbo",
+    "projectId": "proj-mtiuyouxdbo",
+    "releaseId": "rel_20260902002836157_d07913c847",
+    "title": "零度回声",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "李思特Think",
+    "category": "小说",
+    "tags": [
+      "硬科幻",
+      "时间悖论",
+      "科学悬疑",
+      "冷湖射电",
+      "因果律",
+      "父女羁绊"
+    ],
+    "description": "2041年，青海冷湖。天体物理学家林岸收到了一条来自射电阵列的异常信号——内容竟是三天后才会发出的校准序列。七十二小时倒计时开始，这是设备故障、人为伪造，还是物理法则的裂痕？每解开一个技术谜题，林岸就离真相更近一步，也离那个无法回避的私人时刻更近一步：他女儿的心脏手术，正安排在三天之后。当回声的源头终于显现，林岸发现，他面对的不仅是宇宙的奥秘，更是自己未来的选择。",
+    "chapterCount": 14,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-09-02T00:14:07.552Z"
+    },
+    "coverUrl": "books/proj-mtiuyouxdbo/releases/rel_20260902002836157_d07913c847/cover.png",
+    "coverTextless": false,
+    "url": "books/proj-mtiuyouxdbo/index.html",
+    "publishedAt": "2026-09-02T00:28:36.180Z",
+    "firstPublishedAt": "2026-09-02T00:28:36.180Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtiuyoqnoeb",
     "projectId": "proj-mtiuyoqnoeb",
     "releaseId": "rel_20260902002829459_9568d056ba",

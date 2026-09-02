@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260902002836157_d07913c847",
+  "projectId": "proj-mtiuyouxdbo",
+  "manuscriptVersionId": "mv_1dbfda83ba6cdf94",
+  "contentHash": "1dbfda83ba6cdf94c9b8d9f1b440bfb1a41a38efe0b4d80ad04ce0d3eea061a8",
+  "title": "零度回声",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "2041年，青海冷湖。天体物理学家林岸收到了一条来自射电阵列的异常信号——内容竟是三天后才会发出的校准序列。七十二小时倒计时开始，这是设备故障、人为伪造，还是物理法则的裂痕？每解开一个技术谜题，林岸就离真相更近一步，也离那个无法回避的私人时刻更近一步：他女儿的心脏手术，正安排在三天之后。当回声的源头终于显现，林岸发现，他面对的不仅是宇宙的奥秘，更是自己未来的选择。",
+  "category": "小说",
+  "tags": [
+    "硬科幻",
+    "时间悖论",
+    "科学悬疑",
+    "冷湖射电",
+    "因果律",
+    "父女羁绊"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 14,
+    "units": 87169,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-1",
+    "createdAt": "2026-09-02T00:14:07.552Z"
+  },
+  "editorReview": {
+    "text": "这是一部质感扎实、情感充沛的硬科幻。最动人的是那些让冰冷技术变得可触摸的细节：氢原子钟室的恒温冷气、电缆沟里的土腥味，以及老魏那只贯穿始终的搪瓷杯和右肩低半寸的姿态，人物由此有了呼吸。林岸从数据世界回归人伦的弧线，在女儿勾住他小指说“我怕”的时刻完成得克制而有力，时间镜的物理设定最终服务于深刻的情感表达。当然，阅读中也会遇到一些结构上的接缝，比如中段推导过程稍显冗复，部分章节的过渡略显生硬，但整体而言，这是一次精密逻辑与温暖人性成功交织的阅读体验。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.png",
+    "provider": "openrouter",
+    "model": "qwen/qwen-image-3",
+    "generatedAt": "2026-09-02T00:28:06.676Z",
+    "textless": false,
+    "profileId": "fiction-science-concept"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "回声",
+      "units": 6581
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "时间戳",
+      "units": 4391
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "排除法",
+      "units": 6401
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "幽灵写入",
+      "units": 10721
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "功率波动",
+      "units": 4711
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "共振",
+      "units": 4921
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "时间镜",
+      "units": 5818
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "旧站",
+      "units": 7470
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "签名",
+      "units": 7026
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "电缆",
+      "units": 5666
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "选择",
+      "units": 5765
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "不发送",
+      "units": 5656
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "因果",
+      "units": 7556
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "零度",
+      "units": 4486
+    }
+  ],
+  "publishedAt": "2026-09-02T00:28:36.180Z",
+  "formFamily": "narrative"
+}
