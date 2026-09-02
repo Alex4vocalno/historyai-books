@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-663f89688bea.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-28T06:19:50.001Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-02T15:14:30.742Z",
     "textless": false,
-    "profileId": "tang-palace-intrigue"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -228,5 +228,6 @@
       "units": 10596
     }
   ],
-  "publishedAt": "2026-08-28T06:20:07.014Z"
+  "publishedAt": "2026-08-28T06:20:07.014Z",
+  "rerenderedAt": "2026-09-02T15:14:30.757Z"
 }
