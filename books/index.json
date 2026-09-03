@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtcz9iq8lh0",
+    "projectId": "proj-mtcz9iq8lh0",
+    "releaseId": "rel_20260829040050032_993cf3f669",
+    "title": "滑落",
+    "subtitle": "2008年以来中国城市中产财富沉浮录",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "心安处是故乡",
+    "category": "经济理财",
+    "tags": [
+      "中产阶层",
+      "财富史",
+      "房地产",
+      "金融理财",
+      "社会变迁",
+      "经济理财"
+    ],
+    "description": "一套学区房、一份高息理财、一张全能保单，曾是城市中产家庭抵御焦虑的坚固堡垒。当资产价格退潮，这些精心构筑的安全网为何瞬间变成吞噬积蓄的黑洞？本书重返2008年以来的四个典型收割现场，透过真实家庭的财务废墟，拆解房产、教培、P2P与保险理财背后的定价机制。没有道德审判，亦无致富捷径，只有对合同条款、资金流向与制度缝隙的冷静还原。当个体理性撞上系统性风险错配，所谓“踩坑”不过是结构性力量在普通家庭账本上留下的精确刻痕。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-2",
+      "createdAt": "2026-08-28T16:27:02.172Z"
+    },
+    "coverUrl": "books/proj-mtcz9iq8lh0/releases/rel_20260829040050032_993cf3f669/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtcz9iq8lh0/index.html",
+    "publishedAt": "2026-08-29T04:00:50.154Z",
+    "firstPublishedAt": "2026-08-29T03:46:34.624Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtiobstxxk6",
     "projectId": "proj-mtiobstxxk6",
     "releaseId": "rel_20260902003058977_1940cb6b36",
@@ -1935,40 +1969,6 @@
     "url": "books/proj-mtdojb7zftn/index.html",
     "publishedAt": "2026-08-29T06:06:21.945Z",
     "firstPublishedAt": "2026-08-29T06:06:21.945Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtcz9iq8lh0",
-    "projectId": "proj-mtcz9iq8lh0",
-    "releaseId": "rel_20260829040050032_993cf3f669",
-    "title": "滑落",
-    "subtitle": "2008年以来中国城市中产财富沉浮录",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "心安处是故乡",
-    "category": "经济理财",
-    "tags": [
-      "中产阶层",
-      "财富史",
-      "房地产",
-      "金融理财",
-      "社会变迁",
-      "经济理财"
-    ],
-    "description": "一套学区房、一份高息理财、一张全能保单，曾是城市中产家庭抵御焦虑的坚固堡垒。当资产价格退潮，这些精心构筑的安全网为何瞬间变成吞噬积蓄的黑洞？本书重返2008年以来的四个典型收割现场，透过真实家庭的财务废墟，拆解房产、教培、P2P与保险理财背后的定价机制。没有道德审判，亦无致富捷径，只有对合同条款、资金流向与制度缝隙的冷静还原。当个体理性撞上系统性风险错配，所谓“踩坑”不过是结构性力量在普通家庭账本上留下的精确刻痕。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 84,
-      "method": "median-of-2",
-      "createdAt": "2026-08-28T16:27:02.172Z"
-    },
-    "coverUrl": "books/proj-mtcz9iq8lh0/releases/rel_20260829040050032_993cf3f669/cover-dfb5294800ec.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtcz9iq8lh0/index.html",
-    "publishedAt": "2026-08-29T04:00:50.154Z",
-    "firstPublishedAt": "2026-08-29T03:46:34.624Z",
     "visibility": "public"
   },
   {
