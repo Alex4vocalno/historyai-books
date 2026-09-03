@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtjunb9vhoy",
+    "projectId": "proj-mtjunb9vhoy",
+    "releaseId": "rel_20260903134259299_6e49fc9be4",
+    "title": "胜负",
+    "subtitle": "A股短线情绪周期的认知博弈与生存实录",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "经济理财",
+    "tags": [
+      "A股短线",
+      "情绪周期",
+      "交易认知",
+      "行为金融",
+      "龙虎榜",
+      "市场微观结构"
+    ],
+    "description": "无数交易者熟背龙头战法，为何仍在分时图的起伏中反复亏损？盈利并非来自永恒的技术公式，而是对分歧、一致、高潮与退潮节奏的体感匹配。本书以龙虎榜、席位联动与真实盘面为切口，还原A股短线生态中信仰形成与反噬的决策现场。不讲买卖点位，不作个股推荐，只用原生语言拆解情绪流派演化路径与沉默成本。在幸存者叙事之外，呈现统计现实与周期规律的冷峻真相，为普通交易者提供一份关于认知、纪律与敬畏的生存底稿。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-03T13:03:19.896Z"
+    },
+    "coverUrl": "books/proj-mtjunb9vhoy/releases/rel_20260903134259299_6e49fc9be4/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtjunb9vhoy/index.html",
+    "publishedAt": "2026-09-03T13:42:59.460Z",
+    "firstPublishedAt": "2026-09-03T13:42:59.460Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtgk96ge316",
     "projectId": "proj-mtgk96ge316",
     "releaseId": "rel_20260903125653329_1d6208908a",

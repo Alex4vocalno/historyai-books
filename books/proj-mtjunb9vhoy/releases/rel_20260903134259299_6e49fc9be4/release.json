@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260903134259299_6e49fc9be4",
+  "projectId": "proj-mtjunb9vhoy",
+  "manuscriptVersionId": "mv_1542b2d279b49a3c",
+  "contentHash": "1542b2d279b49a3cd268020806958ceb28118c345010abc201478d823edbfe52",
+  "title": "胜负",
+  "subtitle": "A股短线情绪周期的认知博弈与生存实录",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "无数交易者熟背龙头战法，为何仍在分时图的起伏中反复亏损？盈利并非来自永恒的技术公式，而是对分歧、一致、高潮与退潮节奏的体感匹配。本书以龙虎榜、席位联动与真实盘面为切口，还原A股短线生态中信仰形成与反噬的决策现场。不讲买卖点位，不作个股推荐，只用原生语言拆解情绪流派演化路径与沉默成本。在幸存者叙事之外，呈现统计现实与周期规律的冷峻真相，为普通交易者提供一份关于认知、纪律与敬畏的生存底稿。",
+  "category": "经济理财",
+  "tags": [
+    "A股短线",
+    "情绪周期",
+    "交易认知",
+    "行为金融",
+    "龙虎榜",
+    "市场微观结构"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 271319,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-03T13:03:19.896Z"
+  },
+  "editorReview": {
+    "text": "这本书值得花时间，尤其对那些在短线交易中反复被“龙头战法”伤害过的人。它最大的价值在于用龙虎榜数据、席位联动这些硬事实，把“信仰”如何形成又如何反噬的过程拆解得非常透彻，论证链条严密且有原创性，比如对“辨识度双刃效应”和“周期不可通约性”的分析，能帮你认清很多经验模板为何会失效。全书坚持“投资纪律体”的声口，不荐股、不讲点位，只谈风险与统计现实，这种克制在同类书中难得。但需要提醒的是，部分章节（尤其是第7、8章）文风偏机械、抽象，读起来有点费劲；另外，体育类比用得太密，有时反而干扰了主线论证。如果你能忍受这些可读性上的瑕疵，它提供的认知框架和纪律清单，对建立交易者的“生存底稿”确实有实打实的帮助。",
+    "penName": "半山",
+    "title": "商业财经编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-03T13:39:44.880Z",
+    "textless": false,
+    "profileId": "ledger-tape-archive"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "龙虎榜上的幸存者",
+      "units": 8419
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "分时图上的体温计",
+      "units": 8180
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "龙头信仰的诞生",
+      "units": 8396
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "补涨与卡位的幻觉",
+      "units": 8755
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "退潮日的沉默成本",
+      "units": 8305
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "统计不说谎",
+      "units": 9805
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "周期之骨",
+      "units": 8934
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "分歧的解剖",
+      "units": 7826
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "一致的形成",
+      "units": 8945
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "高潮的幻觉",
+      "units": 8475
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "退潮的秩序",
+      "units": 7963
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "框架的边界",
+      "units": 8384
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "卡位的代价",
+      "units": 7701
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "补涨的逻辑陷阱",
+      "units": 8351
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "辨识度的双刃",
+      "units": 8633
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "席位信仰的破产",
+      "units": 8925
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "情绪周期的疤痕效应",
+      "units": 8405
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "纪律的解剖学",
+      "units": 11865
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "补涨的剩余价值",
+      "units": 8614
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "卡位的绞杀链",
+      "units": 10139
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "辨识度的自噬",
+      "units": 7606
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "席位信仰的案例课",
+      "units": 8504
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "一场完整轮回的切片",
+      "units": 10376
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "反例的沉默叙事",
+      "units": 10592
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "清单的纪律",
+      "units": 7804
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "空仓的权重",
+      "units": 12133
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "卖点的认知权重",
+      "units": 11964
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "回撤的容忍与熔断",
+      "units": 10447
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "周期的不可通约性",
+      "units": 8648
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "胜负之外",
+      "units": 8225
+    }
+  ],
+  "illustrations": 15,
+  "publishedAt": "2026-09-03T13:42:59.460Z"
+}
