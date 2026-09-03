@@ -46,13 +46,32 @@
 .nrow .nt{color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .nrow .nt b{color:var(--ink)}
 .nrow a{flex:none;color:var(--accent);text-decoration:none;font-size:13px}
-@media(max-width:620px){.wrap{padding:18px 14px 60px}.grid{grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:20px 14px}.card .acts button{min-height:30px}}
+/* v6.9.33 笔记本（weread 式全书笔记汇总，用户拍板）：书架/笔记本双 tab，按书分组 */
+.shelf-tabs{display:flex;gap:6px;margin:0 0 18px;padding:4px;border-radius:12px;background:#e9edec;width:fit-content}
+.shelf-tabs button{min-height:36px;padding:0 22px;border:0;border-radius:9px;background:transparent;color:var(--muted);font:14px var(--sans);font-weight:700;cursor:pointer}
+.shelf-tabs button.on{background:#fff;color:var(--ink);box-shadow:0 1px 4px rgba(24,32,29,.1)}
+.nb-book{margin-bottom:22px;border:1px solid var(--line);border-radius:12px;background:var(--panel);overflow:hidden}
+.nb-head{display:flex;align-items:baseline;gap:10px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.nb-head a{font-family:var(--serif);font-size:16.5px;font-weight:800}
+.nb-head a:hover{color:var(--green-dark)}
+.nb-head small{color:var(--muted);font-size:13px}
+.nb-item{padding:13px 18px;border-bottom:1px solid #f0f2f1}
+.nb-item:last-child{border-bottom:0}
+.nb-quote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--green);font-family:var(--serif);font-size:14.5px;line-height:1.8;color:#3c443f}
+.nb-text{margin:8px 0 0;font-size:13.5px;line-height:1.75;color:var(--ink)}
+.nb-stars{color:var(--gold);font-size:13px;letter-spacing:1px}
+.nb-meta{margin-top:7px;display:flex;gap:12px;color:var(--muted);font-size:13px}
+.nb-meta button{border:0;background:none;padding:0;color:var(--muted);font-size:13px;cursor:pointer}
+.nb-meta button:hover{color:#d8402a}
+@media(max-width:620px){.wrap{padding:18px 14px 60px}.grid{grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:20px 14px}.card .acts button{min-height:30px}.shelf-tabs button{padding:0 16px}}
 </style></head><body>
 <header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html">我的书架</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a></span></div></header>
 <div class="page-head"><h1>我的书架</h1><p class="lede me" id="me"></p></div>
 <div class="wrap">
+  <nav class="shelf-tabs"><button type="button" class="on" data-stab="books">书架</button><button type="button" data-stab="notes">笔记本</button></nav>
   <div id="noti"></div>
   <div id="main"><div class="empty">正在打开书架…</div></div>
+  <div id="notebook" hidden></div>
 </div>
 <script>
 (function(){
@@ -139,5 +158,60 @@
       if(n.unread>0)fetch('/api/reader/notifications',{method:'POST',credentials:'same-origin'}).catch(function(){});
     }).catch(function(){});
   }).catch(function(){main.innerHTML='';main.appendChild(el('div','empty','书架暂时打不开，稍后再试。'));});
+})();
+</script>
+<script>
+/* v6.9.33 笔记本 tab（weread 式全书笔记汇总）：懒加载，按书分组渲染划线/想法/点评 */
+(function(){
+  var loaded=false;
+  var nb=document.getElementById('notebook');
+  var main=document.getElementById('main');
+  var noti=document.getElementById('noti');
+  if(!nb)return;
+  function esc(v){return String(v==null?'':v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+  document.querySelectorAll('[data-stab]').forEach(function(tb){
+    tb.addEventListener('click',function(){
+      document.querySelectorAll('[data-stab]').forEach(function(x){x.classList.toggle('on',x===tb)});
+      var notes=tb.dataset.stab==='notes';
+      main.hidden=notes;if(noti)noti.hidden=notes;nb.hidden=!notes;
+      if(notes&&!loaded){loaded=true;render()}
+    });
+  });
+  function render(){
+    nb.innerHTML='<div class="empty">正在整理笔记…</div>';
+    Promise.all([
+      fetch('/api/reader/my-notes',{credentials:'same-origin'}).then(function(r){return r.json()}),
+      fetch('/books/index.json').then(function(r){return r.json()}).catch(function(){return []})
+    ]).then(function(rs){
+      var d=rs[0]||{};
+      if(!d.ok){nb.innerHTML='<div class="empty">登录后即可查看你的划线与想法。</div>';return}
+      var map={};(rs[1]||[]).forEach(function(b){if(b)map[b.projectId||b.id]={t:b.title,u:b.url}});
+      var books=d.books||[];
+      if(!books.length){nb.innerHTML='<div class="empty">还没有笔记——阅读时选中文字即可划线、写想法。</div>';return}
+      nb.innerHTML=books.map(function(bk){
+        var m=map[bk.bookId]||{};
+        var n=(bk.notes||[]).length+(bk.reviews||[]).length;
+        var items='';
+        (bk.notes||[]).slice().reverse().forEach(function(x){
+          items+='<div class="nb-item"><p class="nb-quote">'+esc(x.quote)+'</p>'
+            +(x.text?'<p class="nb-text">'+esc(x.text)+'</p>':'')
+            +'<div class="nb-meta"><span>第 '+(Number(x.chapter)||1)+' 章 · '+String(x.at||'').slice(0,10)+' · '+(x.text?'想法':'划线')+'</span><button type="button" data-del="note" data-book="'+esc(bk.bookId)+'" data-id="'+esc(x.id)+'">删除</button></div></div>';
+        });
+        (bk.reviews||[]).forEach(function(x){
+          items+='<div class="nb-item"><span class="nb-stars">'+'★★★★★'.slice(0,Math.max(1,Math.min(5,Number(x.rating)||0)))+'</span>'
+            +(x.text?'<p class="nb-text">'+esc(x.text)+'</p>':'')
+            +'<div class="nb-meta"><span>'+String(x.at||'').slice(0,10)+' · 点评</span><button type="button" data-del="review" data-book="'+esc(bk.bookId)+'" data-id="'+esc(x.id)+'">删除</button></div></div>';
+        });
+        return '<div class="nb-book"><div class="nb-head"><a href="'+esc(m.u||'#')+'">'+esc(m.t||'已下架的书')+'</a><small>'+n+' 条</small></div>'+items+'</div>';
+      }).join('');
+    }).catch(function(){nb.innerHTML='<div class="empty">笔记暂时打不开，稍后再试。</div>'});
+  }
+  nb.addEventListener('click',function(e){
+    var b=e.target.closest&&e.target.closest('button[data-del]');
+    if(!b)return;
+    if(!confirm('删除这条'+(b.dataset.del==='review'?'点评':'笔记')+'？'))return;
+    fetch('/api/book/delete',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:b.dataset.book,kind:b.dataset.del,id:b.dataset.id})})
+      .then(function(r){return r.json()}).then(function(d){if(d&&d.ok)render()});
+  });
 })();
 </script></body></html>
