@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260903125653329_1d6208908a",
+  "projectId": "proj-mtgk96ge316",
+  "manuscriptVersionId": "mv_a72735a8f73803e1",
+  "contentHash": "a72735a8f73803e125e8607c7e9e33f8f4b4989c51524b39906eb7402ce3df2a",
+  "title": "疗愈的代价",
+  "subtitle": "现代医学的荣光与阴影",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "当麻醉剂让手术刀不再伴随尖叫，当呼吸机将死亡从瞬间拉长为漫长的过程，人类在战胜病痛的同时，也交出了对身体的部分主权。从十九世纪无菌室的诞生到二十一世纪基因编辑的争议，每一次技术飞跃都伴随着伦理的阵痛与观念的重塑。本书重返三十个关键历史现场，在解剖台、重症监护室与制药实验室的变迁中，呈现治愈能力与过度医疗、科学权威与患者主体性之间的反复博弈。这不仅是一部技术编年史，更是一份关于人类如何在延长寿命与承受代价之间艰难寻找平衡的深刻记录。",
+  "category": "中国史",
+  "tags": [
+    "医学史",
+    "医疗伦理",
+    "身体政治",
+    "科技与社会",
+    "生命叙事",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 255885,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 80,
+    "method": "median-of-2",
+    "createdAt": "2026-09-01T05:08:49.492Z"
+  },
+  "editorReview": {
+    "text": "本书以三十章篇幅勾勒从体液论到基因编辑的医学认知范式变迁，其叙事弧线设计与跨学科视野在通识读物中颇为扎实。尤其值得称道的是第十五章对慢性病管理中“风险制度化”的拆解，以及第二十九章对全球药物研发结构性困境的分析，二者构成全书思想骨架，展现了穿透表象的思辨深度。第二章盗尸场景、第十六章老医生面对指南的犹豫等段落，以具象细节承载抽象论点，赋予了历史叙述少见的文学质感。然而，全书在章节衔接上存在明显断裂——多处结尾埋设的问句钩子在下一章未被回应，导致论证推进出现断层；同时，跨章重复表述与局部文风退化（如第十八章、第二十九章标题异常）也削弱了阅读的连贯节奏。若能在出版前精修这些接缝与重复，本书的知识骨架与伦理审慎将更显光芒。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "编辑意见"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-01T03:44:04.699Z",
+    "textless": false,
+    "profileId": "bold-symbol-poster",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "bold-symbol-poster"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "体液平衡的漫长黄昏",
+      "units": 8327
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "解剖台上的人体秩序",
+      "units": 8355
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "血液循环与机械身体",
+      "units": 9319
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "医院从收容走向观察",
+      "units": 8312
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "无麻醉手术的速度崇拜",
+      "units": 7589
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "死亡计数与瘴气争论",
+      "units": 8523
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "细菌理论的实验室诞生",
+      "units": 11393
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "消毒术与外科的无菌转折",
+      "units": 8342
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "以十九世纪末至二十世纪初为时段",
+      "units": 10285
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "药物标准化与产业萌芽",
+      "units": 9181
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "放射诊断与身体可视化",
+      "units": 7623
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "激素疗法的身体干预",
+      "units": 8779
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "重症监护的诞生与延长了的死亡",
+      "units": 8449
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "精神病院的化学革命",
+      "units": 5024
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "流行病学转型与慢性病时代的到来",
+      "units": 8399
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "循证医学对临床经验的重塑",
+      "units": 8668
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "移植手术与稀缺身体的伦理",
+      "units": 8363
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "艾滋病与患者知识的生产",
+      "units": 11149
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "制药工业的垂直整合",
+      "units": 5008
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "医疗保险与第三方付费的困境",
+      "units": 8060
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "影像技术的市场扩张与身体叙事的衰落",
+      "units": 7832
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "临床试验的工业化与证据的制造",
+      "units": 11666
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "基因专利与生命信息的私有化",
+      "units": 9382
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "医疗费用的结构性上涨与社会分摊机制",
+      "units": 8261
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "患者权利运动与医学权威的裂解",
+      "units": 8385
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "死亡定义的医学化与生前预嘱的兴起",
+      "units": 8369
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "临床目视的消退与诊断技术代理",
+      "units": 7585
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "预防性医疗的扩张与风险概念的医学化",
+      "units": 9033
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "将分析多项典型困境：第二代抗结核药物研发停滞数十",
+      "units": 8294
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "基因编辑与人类增强的边界之争",
+      "units": 7930
+    }
+  ],
+  "publishedAt": "2026-09-03T12:56:53.338Z"
+}

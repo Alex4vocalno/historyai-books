@@ -58,13 +58,38 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .rk-rec{display:block;margin-top:8px;color:var(--muted);font-size:13px}
 .rk-rec b{color:#3c443f;font-weight:800;font-variant-numeric:tabular-nums}
 .empty{padding:40px;text-align:center;color:var(--muted)}
-@media(max-width:860px){.page{display:block;padding:16px 12px 60px}.rank-nav{position:static;display:flex;overflow-x:auto;max-height:none;padding:8px;margin-bottom:14px;gap:4px}.rank-nav button{flex:none;width:auto}.nav-sec{display:none}.rk-item{grid-template-columns:30px 58px minmax(0,1fr);gap:10px;padding:14px 12px}.rk-cov{width:58px}.rk-desc{-webkit-line-clamp:2}}
+/* v6.9.40 榜单视觉升级：每榜专属渐变英雄区 + 前三名领奖台 + 金银铜徽章 */
+.rank-hero{position:relative;border-radius:14px;padding:26px 28px 24px;color:#fff;overflow:hidden;background:var(--rh-bg,linear-gradient(120deg,#0d5c46,#2f9a74))}
+.rank-hero h1{margin:0;font-family:var(--serif);font-size:28px;color:#fff;letter-spacing:.02em}
+.rank-hero p{margin:8px 0 0;font-size:13.5px;color:rgba(255,255,255,.85)}
+.rank-hero .rh-orn{position:absolute;right:-14px;top:-40px;font-family:var(--serif);font-size:150px;font-weight:800;line-height:1;color:rgba(255,255,255,.13);transform:rotate(10deg);pointer-events:none;user-select:none}
+.daily-pick{display:flex;align-items:center;gap:12px;margin-top:16px;padding:10px 12px;border-radius:10px;background:rgba(0,0,0,.18);backdrop-filter:blur(4px)}
+.daily-pick img{width:34px;aspect-ratio:2/3;border-radius:2px;object-fit:cover;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.daily-pick .dp-tag{flex:none;padding:3px 9px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;font-size:13px;font-weight:800;letter-spacing:.06em}
+.daily-pick .dp-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#fff;font-family:var(--serif);font-size:14.5px;font-weight:700}
+.daily-pick .dp-go{margin-left:auto;flex:none;color:rgba(255,255,255,.75);font-size:13px}
+.podium{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.pd-card{position:relative;display:block;border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:16px 12px 14px;text-align:center}
+.pd-card:hover{box-shadow:0 12px 30px rgba(20,30,25,.13)}
+.pd-card.p1{border-color:rgba(201,150,43,.55);box-shadow:0 4px 18px rgba(201,150,43,.14)}
+.pd-medal{position:absolute;left:10px;top:10px;width:30px;height:30px;display:grid;place-items:center;border-radius:50%;color:#fff;font:italic 800 14px Georgia,serif;box-shadow:0 2px 8px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.4)}
+.pd-medal.m1{background:linear-gradient(160deg,#f0c14b,#c9962b 60%,#a67716)}
+.pd-medal.m2{background:linear-gradient(160deg,#cfd6d4,#9aa5a2 60%,#7d8886)}
+.pd-medal.m3{background:linear-gradient(160deg,#d9a06b,#b5763f 60%,#96591f)}
+.pd-cov{width:64%;max-width:126px;margin:2px auto 0;aspect-ratio:2/3;border-radius:4px;overflow:hidden;background:#eceeeb;box-shadow:0 8px 22px rgba(20,30,25,.22)}
+.pd-cov img{width:100%;height:100%;object-fit:cover;display:block}
+.pd-card strong{display:block;margin-top:11px;font:700 14.5px var(--serif);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pd-card small{display:block;margin-top:4px;color:var(--muted);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pd-card .pd-rec{display:block;margin-top:7px;font-size:13px;color:var(--muted)}
+.pd-card .pd-rec b{color:#b27a22;font-weight:800;font-variant-numeric:tabular-nums}
+@media(max-width:860px){.page{display:block;padding:16px 12px 60px}.rank-nav{position:static;display:flex;overflow-x:auto;max-height:none;padding:8px;margin-bottom:14px;gap:4px}.rank-nav button{flex:none;width:auto}.nav-sec{display:none}.rk-item{grid-template-columns:30px 58px minmax(0,1fr);gap:10px;padding:14px 12px}.rk-cov{width:58px}.rk-desc{-webkit-line-clamp:2}.rank-hero{border-radius:12px;padding:18px 16px 16px}.rank-hero h1{font-size:23px}.rank-hero .rh-orn{font-size:110px}.podium{gap:8px}.pd-card{padding:12px 8px 12px}.pd-medal{left:6px;top:6px;width:26px;height:26px;font-size:13px}.daily-pick .dp-go{display:none}}
 </style></head><body>
 <header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a href="/index.html" style="color:var(--muted);font-size:14px" data-t="back">← 返回书城</a></span></div></header>
 <main class="page">
 <aside class="rank-nav" data-nav></aside>
 <section>
-<header class="rank-head"><h1 data-title></h1><p data-note></p></header>
+<header class="rank-hero" data-hero><span class="rh-orn" data-orn aria-hidden="true"></span><h1 data-title></h1><p data-note></p><a class="daily-pick" data-pick hidden></a></header>
+<div class="podium" data-podium hidden></div>
 <div class="rk-list" data-list><div class="empty" data-t="loading">载入中…</div></div>
 </section>
 </main>
@@ -75,35 +100,59 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
   document.title=T('榜单 · EVORON AI电子书城','Charts · EVORON AI Bookstore');
   var backEl=document.querySelector('[data-t="back"]');backEl.textContent=T('← 返回书城','← Back to library');if(EN)backEl.href='/index-en.html';
   function esc(v){return String(v==null?'':v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+  // v6.9.40 榜单去机械化：飙升=近7天读者热度、巅峰/神作=贝叶斯加权（阅读量×评分）、
+  // 新书=时间；热度接口失败或数据太薄时回落纯评分排序（fail-open 不许卡死）
   var BOARDS=[
-    {k:'surging',t:T('飙升榜','Surging'),n:T('最近 30 天上架中评分领先的作品','Top-rated among books published in the last 30 days')},
-    {k:'fresh',t:T('新书榜','New arrivals'),n:T('最近上架的新作品','The latest additions to the library')},
-    {k:'top',t:T('总榜','All-time'),n:T('全馆读者与编辑评分最高的作品','Highest-rated across the whole library')},
-    {k:'master',t:T('神作榜','Masterworks'),n:T('编辑评分 8.5 分以上的高分书','Books rated 8.5 and above')}
+    {k:'surging',t:T('飙升榜','Surging'),n:T('近 7 天读者热度上升最快的作品','Fastest-rising with readers over the last 7 days'),bg:'linear-gradient(120deg,#b8371f,#e08a2e)',orn:T('飙','S')},
+    {k:'fresh',t:T('新书榜','New arrivals'),n:T('最近上架的新作品','The latest additions to the library'),bg:'linear-gradient(120deg,#0e7d63,#3db08a)',orn:T('新','N')},
+    {k:'top',t:T('巅峰榜','All-time'),n:T('读者阅读量与编辑评分综合最高','Readership and editorial rating combined'),bg:'linear-gradient(120deg,#7a5410,#c9962b)',orn:T('巅','T')},
+    {k:'master',t:T('神作榜','Masterworks'),n:T('85 分以上高分书，按口碑加权','Books rated 85+, weighted by readership'),bg:'linear-gradient(120deg,#452a72,#8a5ec2)',orn:T('神','M')}
   ];
+  var CAT_BG='linear-gradient(120deg,#2c3e38,#4a6a5d)';
   function womTier(s){return s>=90?['wom-god',T('神作','Masterwork')]:s>=85?['wom-hot',T('好评如潮','Acclaimed')]:s>=78?['wom-good',T('值得一读','Worth reading')]:null}
   fetch('/books/index.json').then(function(r){return r.json()}).then(function(all){
     var rows=all.filter(function(b){return b&&b.visibility!=='unlisted'&&(EN?String(b.language||'').indexOf('en')===0:String(b.language||'').indexOf('en')!==0)});
+    var ids=rows.map(function(b){return b.projectId||b.id}).filter(Boolean);
+    var chunks=[];for(var ci=0;ci<ids.length;ci+=80)chunks.push(ids.slice(ci,ci+80));
+    Promise.all(chunks.map(function(ch){
+      return fetch('/api/social/book-stats?ids='+ch.join(',')).then(function(r){return r.json()}).catch(function(){return null})
+    })).then(function(parts){
+      var stats={};parts.forEach(function(p){if(p&&p.stats)Object.keys(p.stats).forEach(function(k){stats[k]=p.stats[k]})});
+      boot(rows,stats);
+    }).catch(function(){boot(rows,{})});
+  }).catch(function(){document.querySelector('[data-list]').innerHTML='<div class="empty">'+T('榜单暂时打不开，稍后再试。','Charts are unavailable right now.')+'</div>'});
+  function boot(rows,stats){
     function scoreOf(b){return b.editorialScore&&Number(b.editorialScore.score)||0}
     function dateOf(b){return Date.parse(b.firstPublishedAt||b.publishedAt||'')||0}
+    function heatOf(b){return stats[b.projectId||b.id]||{read:0,reading:0,wishlist:0,hot7:0}}
     var scored=rows.filter(function(b){return scoreOf(b)>0});
     function byScore(a){return a.slice().sort(function(x,y){return scoreOf(y)-scoreOf(x)})}
     var now=Date.now();
     function within(days){return function(b){return now-dateOf(b)<days*86400000}}
+    // 贝叶斯口碑：阅读人数少的高分书向全站均分收缩，读得多才立得住
+    var avg=scored.length?scored.reduce(function(a,b){return a+scoreOf(b)},0)/scored.length:80;
+    function bayes(b){var h=heatOf(b);var v=h.read+h.reading;return (v*scoreOf(b)+8*avg)/(v+8)}
+    function byBayes(a){return a.slice().sort(function(x,y){return bayes(y)-bayes(x)})}
+    var heatTotal=rows.reduce(function(a,b){var h=heatOf(b);return a+h.hot7+h.reading},0);
+    function surgeScore(b){var h=heatOf(b);return h.hot7*4+h.reading*2+h.read+(within(30)(b)?6:0)+Math.max(0,scoreOf(b)-70)*0.3}
     var cats={};rows.forEach(function(b){var g=b.category||T('历史','History');cats[g]=(cats[g]||0)+1});
     var catNames=Object.keys(cats).sort(function(a,b){return cats[b]-cats[a]});
     function listFor(key){
-      if(key==='surging')return byScore(scored.filter(within(30))).slice(0,20);
+      if(key==='surging'){
+        if(heatTotal<5)return byScore(scored.filter(within(30))).slice(0,20);
+        return rows.filter(function(b){var h=heatOf(b);return h.hot7+h.reading+h.read>0||within(30)(b)})
+          .sort(function(x,y){return surgeScore(y)-surgeScore(x)}).slice(0,20);
+      }
       if(key==='fresh')return rows.slice().sort(function(a,b){return dateOf(b)-dateOf(a)}).slice(0,20);
-      if(key==='top')return byScore(scored).slice(0,20);
-      if(key==='master')return byScore(scored.filter(function(b){return scoreOf(b)>=85})).slice(0,20);
-      if(key.indexOf('cat-')===0){var g=decodeURIComponent(key.slice(4));return byScore(rows.filter(function(b){return (b.category||T('历史','History'))===g})).slice(0,20)}
+      if(key==='top')return byBayes(scored).slice(0,20);
+      if(key==='master')return byBayes(scored.filter(function(b){return scoreOf(b)>=85})).slice(0,20);
+      if(key.indexOf('cat-')===0){var g=decodeURIComponent(key.slice(4));return byBayes(rows.filter(function(b){return (b.category||T('历史','History'))===g})).slice(0,20)}
       return [];
     }
     function headFor(key){
       var bd=BOARDS.filter(function(b){return b.k===key})[0];
       if(bd)return bd;
-      if(key.indexOf('cat-')===0){var g=decodeURIComponent(key.slice(4));return {t:g,n:cats[g]?cats[g]+T(' 部作品 · 按评分排序',' books · sorted by rating'):''}}
+      if(key.indexOf('cat-')===0){var g=decodeURIComponent(key.slice(4));return {t:g,n:cats[g]?cats[g]+T(' 部作品 · 按口碑加权排序',' books · weighted by readership'):'',bg:CAT_BG,orn:g.slice(0,1)}}
       return BOARDS[0];
     }
     var nav=document.querySelector('[data-nav]');
@@ -112,23 +161,58 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
     navHtml+='<div class="nav-sec">'+T('分类','CATEGORIES')+'</div>';
     catNames.forEach(function(g){navHtml+='<button type="button" data-key="cat-'+encodeURIComponent(g)+'">'+esc(g)+'<em>'+cats[g]+'</em></button>'});
     nav.innerHTML=navHtml;
+    // 今日主编推荐：85+ 池按日期种子轮换，全站同一本
+    (function(){
+      var pool=byScore(scored.filter(function(b){return scoreOf(b)>=85}));
+      if(!pool.length)return;
+      var d=new Date();var seed=d.getFullYear()*372+(d.getMonth()+1)*31+d.getDate();
+      var pick=pool[seed%pool.length];
+      var el=document.querySelector('[data-pick]');
+      el.href=pick.url||'#';
+      el.innerHTML='<span class="dp-tag">'+T('今日主编推荐','Editor’s pick')+'</span>'
+        +(pick.coverUrl?'<img src="'+esc(pick.coverUrl)+'" alt="">':'')
+        +'<span class="dp-name">'+esc(pick.title)+'</span><span class="dp-go">'+T('去看看 →','Read →')+'</span>';
+      el.hidden=false;
+    })();
+    function heatLine(b){
+      var h=heatOf(b);var bits=[];
+      if(h.read)bits.push(h.read+T(' 人读过',' read'));
+      if(h.reading)bits.push(h.reading+T(' 人在读',' reading'));
+      if(h.hot7)bits.push(T('7天热度 ','7d heat ')+h.hot7);
+      return bits.join(' · ');
+    }
     function render(key){
       var head=headFor(key);
+      document.querySelector('[data-hero]').style.setProperty('--rh-bg',head.bg||CAT_BG);
+      document.querySelector('[data-orn]').textContent=head.orn||'';
       document.querySelector('[data-title]').textContent=head.t;
       document.querySelector('[data-note]').textContent=head.n||'';
       nav.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x.dataset.key===key)});
       var list=listFor(key);
       var box=document.querySelector('[data-list]');
-      if(!list.length){box.innerHTML='<div class="empty">'+T('这个榜单暂时是空的。','Nothing here yet.')+'</div>';return}
-      box.innerHTML=list.map(function(b,i){
-        var s=scoreOf(b);var tier=s?womTier(s):null;
+      var pod=document.querySelector('[data-podium]');
+      if(!list.length){pod.hidden=true;box.innerHTML='<div class="empty">'+T('这个榜单暂时是空的。','Nothing here yet.')+'</div>';return}
+      var top3=list.slice(0,3),rest=list.slice(3);
+      pod.hidden=false;
+      pod.innerHTML=top3.map(function(b,i){
+        var s=scoreOf(b);var hl=heatLine(b);
+        return '<a class="pd-card'+(i===0?' p1':'')+'" href="'+esc(b.url||'#')+'">'
+          +'<i class="pd-medal m'+(i+1)+'">'+(i+1)+'</i>'
+          +'<span class="pd-cov">'+(b.coverUrl?'<img src="'+esc(b.coverUrl)+'" alt="'+esc(b.title)+'" loading="lazy">':'')+'</span>'
+          +'<strong>'+esc(b.title)+'</strong>'
+          +'<small>'+esc(b.authorDisplayName||T('未署名','Unsigned'))+'</small>'
+          +'<span class="pd-rec">'+(s?T('推荐值 ','Rec ')+'<b>'+s.toFixed(1)+'%</b>':'')+(hl?(s?' · ':'')+hl:'')+'</span>'
+          +'</a>';
+      }).join('');
+      box.innerHTML=rest.map(function(b,i){
+        var s=scoreOf(b);var tier=s?womTier(s):null;var hl=heatLine(b);
         return '<a class="rk-item" href="'+esc(b.url||'#')+'">'
-          +'<i class="rk-num'+(i<3?' top'+(i+1):'')+'">'+(i+1)+'</i>'
+          +'<i class="rk-num">'+(i+4)+'</i>'
           +'<span class="rk-cov">'+(b.coverUrl?'<img src="'+esc(b.coverUrl)+'" alt="'+esc(b.title)+'" loading="lazy">':'')+'</span>'
           +'<span class="rk-info"><strong>'+esc(b.title)+'</strong>'+(tier?'<i class="wom '+tier[0]+'">'+tier[1]+'</i>':'')
           +'<small>'+esc(b.authorDisplayName||T('未署名','Unsigned'))+' · '+esc(b.category||T('历史','History'))+' · '+(Number(b.chapterCount)||0)+T(' 章',' chapters')+'</small>'
           +(b.description?'<p class="rk-desc">'+esc(String(b.description).replace(/\s+/g,' ').slice(0,150))+'</p>':'')
-          +(s?'<span class="rk-rec">'+T('推荐值 ','Recommend ')+'<b>'+s.toFixed(1)+'%</b></span>':'')
+          +((s||hl)?'<span class="rk-rec">'+(s?T('推荐值 ','Recommend ')+'<b>'+s.toFixed(1)+'%</b>':'')+(hl?(s?' · ':'')+hl:'')+'</span>':'')
           +'</span></a>';
       }).join('');
     }
@@ -140,6 +224,6 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
     function fromHash(){var k=(location.hash||'').replace(/^#/,'')||'surging';render(k)}
     addEventListener('hashchange',fromHash);
     fromHash();
-  }).catch(function(){document.querySelector('[data-list]').innerHTML='<div class="empty">'+T('榜单暂时打不开，稍后再试。','Charts are unavailable right now.')+'</div>'});
+  }
 })();
 </script></body></html>

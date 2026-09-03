@@ -1,13 +1,23 @@
 {
   "schemaVersion": 1,
   "contractVersion": "reader-site.v1",
-  "generatedAt": "2026-09-03T12:46:48.600Z",
+  "generatedAt": "2026-09-03T12:56:53.451Z",
   "catalog": {
     "path": "books/index.json",
-    "bytes": 323125,
-    "sha256": "1e2fd8f0db83339c0b39a9de4aaab3764bbbbbf405d14d54b9fecffd28e69118"
+    "bytes": 324833,
+    "sha256": "f08af7023dc2f4965ea9161483df78886ed60a05e0372cb5e5c1ec5b7990346d"
   },
   "books": [
+    {
+      "projectId": "proj-mtgk96ge316",
+      "releaseId": "rel_20260903125653329_1d6208908a",
+      "language": "zh",
+      "visibility": "public",
+      "currentPointer": "books/proj-mtgk96ge316/current.json",
+      "releaseRoot": "books/proj-mtgk96ge316/releases/rel_20260903125653329_1d6208908a/",
+      "manifest": "books/proj-mtgk96ge316/releases/rel_20260903125653329_1d6208908a/release-manifest.json",
+      "integrity": "sha256"
+    },
     {
       "projectId": "proj-mtjek9hfxo6",
       "releaseId": "rel_20260903000917761_1f1f72a4b9",

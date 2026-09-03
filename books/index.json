@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtgk96ge316",
+    "projectId": "proj-mtgk96ge316",
+    "releaseId": "rel_20260903125653329_1d6208908a",
+    "title": "疗愈的代价",
+    "subtitle": "现代医学的荣光与阴影",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "中国史",
+    "tags": [
+      "医学史",
+      "医疗伦理",
+      "身体政治",
+      "科技与社会",
+      "生命叙事",
+      "中国史"
+    ],
+    "description": "当麻醉剂让手术刀不再伴随尖叫，当呼吸机将死亡从瞬间拉长为漫长的过程，人类在战胜病痛的同时，也交出了对身体的部分主权。从十九世纪无菌室的诞生到二十一世纪基因编辑的争议，每一次技术飞跃都伴随着伦理的阵痛与观念的重塑。本书重返三十个关键历史现场，在解剖台、重症监护室与制药实验室的变迁中，呈现治愈能力与过度医疗、科学权威与患者主体性之间的反复博弈。这不仅是一部技术编年史，更是一份关于人类如何在延长寿命与承受代价之间艰难寻找平衡的深刻记录。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 80,
+      "method": "median-of-2",
+      "createdAt": "2026-09-01T05:08:49.492Z"
+    },
+    "coverUrl": "books/proj-mtgk96ge316/releases/rel_20260903125653329_1d6208908a/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtgk96ge316/index.html",
+    "publishedAt": "2026-09-03T12:56:53.338Z",
+    "firstPublishedAt": "2026-09-03T12:56:53.338Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtjek9hfxo6",
     "projectId": "proj-mtjek9hfxo6",
     "releaseId": "rel_20260903000917761_1f1f72a4b9",
@@ -2032,7 +2066,7 @@
       "method": "median-of-2",
       "createdAt": "2026-08-29T14:45:34.593Z"
     },
-    "coverUrl": "books/proj-mteb2bkeg41/releases/rel_20260829145354711_b2b44cb50c/cover.svg",
+    "coverUrl": "books/proj-mteb2bkeg41/releases/rel_20260829145354711_b2b44cb50c/cover-112444096d49.jpg",
     "coverTextless": false,
     "url": "books/proj-mteb2bkeg41/index.html",
     "publishedAt": "2026-08-29T14:53:54.732Z",
@@ -2134,7 +2168,7 @@
       "method": "median-of-1",
       "createdAt": "2026-08-29T00:41:46.227Z"
     },
-    "coverUrl": "books/proj-mtcwqn0guj9/releases/rel_20260829004713257_7e68984fa9/cover-2dd6873fad82.jpg",
+    "coverUrl": "books/proj-mtcwqn0guj9/releases/rel_20260829004713257_7e68984fa9/cover-10c6f6097886.jpg",
     "coverTextless": false,
     "url": "books/proj-mtcwqn0guj9/index.html",
     "publishedAt": "2026-08-29T00:47:13.274Z",
@@ -2168,7 +2202,7 @@
       "method": "median-of-1",
       "createdAt": "2026-08-28T09:12:53.379Z"
     },
-    "coverUrl": "books/proj-mt8u9cftm0k/releases/rel_20260828092048991_e9623ff4e7/cover.svg",
+    "coverUrl": "books/proj-mt8u9cftm0k/releases/rel_20260828092048991_e9623ff4e7/cover-4053937c9980.jpg",
     "coverTextless": false,
     "url": "books/proj-mt8u9cftm0k/index.html",
     "publishedAt": "2026-08-28T09:20:48.997Z",
@@ -2337,7 +2371,7 @@
       "method": "median-of-3",
       "createdAt": "2026-08-25T11:31:26.958Z"
     },
-    "coverUrl": "books/proj-mt84tydw6vf/releases/rel_20260825130433183_80da03896c/cover-d0a67e8bd184.svg",
+    "coverUrl": "books/proj-mt84tydw6vf/releases/rel_20260825130433183_80da03896c/cover-d6cbdd4d2cc6.jpg",
     "coverTextless": false,
     "url": "books/proj-mt84tydw6vf/index.html",
     "publishedAt": "2026-08-25T13:04:33.189Z",
@@ -2371,7 +2405,7 @@
       "method": "median-of-2",
       "createdAt": "2026-08-24T04:02:10.170Z"
     },
-    "coverUrl": "books/proj-mt5wyuzx9sk/releases/rel_20260824071606328_685358e885/cover-2d36adcb333f.svg",
+    "coverUrl": "books/proj-mt5wyuzx9sk/releases/rel_20260824071606328_685358e885/cover-a19249dba06c.jpg",
     "coverTextless": false,
     "url": "books/proj-mt5wyuzx9sk/index.html",
     "publishedAt": "2026-08-24T07:16:06.338Z",
@@ -2405,7 +2439,7 @@
       "method": "median-of-2",
       "createdAt": "2026-08-26T12:07:27.486Z"
     },
-    "coverUrl": "books/proj-mt9rw6covf3/releases/rel_20260826133551704_67ed7de6c5/cover.svg",
+    "coverUrl": "books/proj-mt9rw6covf3/releases/rel_20260826133551704_67ed7de6c5/cover-99499e67b643.jpg",
     "coverTextless": false,
     "url": "books/proj-mt9rw6covf3/index.html",
     "publishedAt": "2026-08-26T13:35:51.712Z",
@@ -2473,7 +2507,7 @@
       "method": "median-of-3",
       "createdAt": "2026-08-27T08:40:03.152Z"
     },
-    "coverUrl": "books/proj-mtayk3u6ky5/releases/rel_20260827084017896_34d5b97fe6/cover-53c8103cd517.svg",
+    "coverUrl": "books/proj-mtayk3u6ky5/releases/rel_20260827084017896_34d5b97fe6/cover-ab57d9b1afaf.jpg",
     "coverTextless": false,
     "url": "books/proj-mtayk3u6ky5/index.html",
     "publishedAt": "2026-08-27T08:40:17.912Z",
