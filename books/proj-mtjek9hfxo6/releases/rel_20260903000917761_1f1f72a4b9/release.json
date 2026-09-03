@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260903000917761_1f1f72a4b9",
+  "projectId": "proj-mtjek9hfxo6",
+  "manuscriptVersionId": "mv_c1cb7779d17546e5",
+  "contentHash": "c1cb7779d17546e5713ab5dbd615e4b2a798e6d50a00e9084ca6f2e9231e77ac",
+  "title": "青芜纪",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "灵气衰微的末法之世，药田杂役陈芜资质平平，只有一册残缺的《青芜谱》和一颗算无遗策的凡人之心。丹药几株，灵石几枚，人情几分——他的每一分修为都算得明明白白。从辨草识毒起家，到坊市历练、秘境夺宝，他靠着记账式的谨慎与对灵植的笨功夫，在宗门倾覆的乱世中步步为营。然而，省出来的每一步，都在逼问他那个最根本的问题：修行，究竟是为了什么？",
+  "category": "小说",
+  "tags": [
+    "凡人流",
+    "修行成长",
+    "资源经营",
+    "末法时代",
+    "冷静理智",
+    "东方玄幻"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 315550,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-02T16:41:40.456Z"
+  },
+  "editorReview": {
+    "text": "《青芜纪》最动人的是它扎实的在场感：开篇药田里泥土的腥气、灵植的触感，立刻将人拉入那个资源枯竭的修真世界。主角陈芜的“记账式生存”被刻画得入木三分，他与赵雨在绝境中相互依存的关系演变，尤其是劫后余生的誓言场景，情感张力饱满，是书中真正闪光的时刻。不过，当情节推进到人物遭遇重大打击（如修为暴跌）时，后续的行动驱动力有时会迅速滑向生存算计，使得那份内心冲击的情感余韵未能充分延展，略显可惜。部分技术细节的详尽描写（如阵法优化）虽增强了世界真实感，但也偶有拖慢叙事节奏之感。总体而言，这是一部靠细腻场景与真实挣扎站稳脚跟的作品，若人物在命运转折时的情感链条能更绵密连贯，将更为出色。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "编辑意见"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-02T16:25:11.091Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "灵纹偏移",
+      "units": 5860
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "腐骨花讯",
+      "units": 10237
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "沼泽惊蛇",
+      "units": 13068
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "坊市寻苗",
+      "units": 8005
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "隐秘培育",
+      "units": 7319
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "同门遇险",
+      "units": 10708
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "暗账初立",
+      "units": 8950
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "暖阳成株",
+      "units": 12020
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "强行索要",
+      "units": 15309
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "代价清单",
+      "units": 9963
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "蛰伏待机",
+      "units": 9616
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "宗门倾覆",
+      "units": 8586
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "荒野求生",
+      "units": 7325
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "灵眼之争",
+      "units": 9113
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "合作初成",
+      "units": 10825
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "阵法优化",
+      "units": 10425
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "聚气散败",
+      "units": 8951
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "黑虎勒索",
+      "units": 10184
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "流云坊市",
+      "units": 11294
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "荒原传闻",
+      "units": 15401
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "预警触发",
+      "units": 12827
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "智退强敌",
+      "units": 7312
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "荒原入口",
+      "units": 11603
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "遗迹痕迹",
+      "units": 9169
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "空间裂隙",
+      "units": 12670
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "古修遗骸",
+      "units": 8300
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "残缺传承",
+      "units": 11367
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "荒原追逐",
+      "units": 7955
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "绝境抉择",
+      "units": 9128
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "禁忌代价",
+      "units": 6596
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "劫后余生",
+      "units": 8197
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "荒原归途",
+      "units": 7267
+    }
+  ],
+  "publishedAt": "2026-09-03T00:09:17.767Z"
+}
