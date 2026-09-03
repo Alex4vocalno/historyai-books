@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-f702df14ee4c.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-31T02:44:11.451Z",
+    "generatedAt": "2026-09-03T12:41:15.784Z",
     "textless": false,
-    "profileId": "fiction-romance-intimate",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "fiction-romance-intimate"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -243,5 +240,6 @@
       "units": 12238
     }
   ],
-  "publishedAt": "2026-08-31T02:44:31.730Z"
+  "publishedAt": "2026-08-31T02:44:31.730Z",
+  "rerenderedAt": "2026-09-03T12:41:15.790Z"
 }

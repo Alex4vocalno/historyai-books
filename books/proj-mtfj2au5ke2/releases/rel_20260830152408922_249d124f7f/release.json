@@ -39,15 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-db6712037c39.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-30T15:22:05.215Z",
+    "generatedAt": "2026-09-03T12:42:40.651Z",
     "textless": false,
-    "profileId": "literary-fiction-premium",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "literary-fiction-premium"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -243,5 +240,6 @@
       "units": 8647
     }
   ],
-  "publishedAt": "2026-08-30T15:24:08.931Z"
+  "publishedAt": "2026-08-30T15:24:08.931Z",
+  "rerenderedAt": "2026-09-03T12:42:40.657Z"
 }
