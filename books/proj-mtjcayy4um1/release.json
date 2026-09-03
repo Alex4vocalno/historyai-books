@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260903000939053_32eb19a6ab",
+  "projectId": "proj-mtjcayy4um1",
+  "manuscriptVersionId": "mv_8e21dea3ae64b98e",
+  "contentHash": "8e21dea3ae64b98e2d7ba920de0b1922ab4cb3c618f01ce59cccf253d3802023",
+  "title": "灰湖",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "水库放水季，管理员老江在湖底淤泥里挖出一辆沉了十二年的面包车。车里没有尸体，只有一台锈死的保险柜，和一件叠得整整齐齐的小学生校服。十二年前，镇上会计一家三口离奇失踪，成为悬案。病退回乡的老刑警闻讯而来，两人在七天内追索着保险柜与旧账目的秘密。而另一条时间线里，会计在挪用公款与匿名举报信之间，度过了他生命中最后一个月。真正沉在湖底的，或许从来不是人，而是整个小镇用集体沉默换来的安稳。打开保险柜，就等于翻开每一家的旧账。当柜中只有账本与一封未寄出的信，人早已改名活在邻县——揭开真相，还是让秘密继续沉睡？老江握着那封信，走向了邮局。",
+  "category": "小说",
+  "tags": [
+    "悬疑",
+    "小镇秘密",
+    "陈年旧案",
+    "人性抉择",
+    "冷硬派",
+    "克制冷峻"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 16,
+    "units": 54407,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-02T17:12:29.117Z"
+  },
+  "editorReview": {
+    "text": "灰湖的开篇极好：水库放水季，管理员老江在湖底淤泥里挖出一辆沉了十二年的面包车，锈蚀的保险柜与叠得整齐的小学生校服并置，腐殖质的气味几乎要透纸而出。这种淤泥般粘稠的感官描写，和对白里周正平的老练、江建国的犹豫，共同撑起了一个扎实的悬疑氛围。但阅读过程并不顺畅——章节之间的接缝处常出现断裂：上一章结尾抛出的钩子，下一章开头却无承接，仿佛镜头突兀地切走；而有的章节仅千余字，叙事刚展开便匆匆收尾，犹如紧张对峙时突然插入一段无关紧要的旁白。整体来看，这像是一块深挖出来的、带着新鲜湿气的泥炭，内核坚实，边缘却还需小心地修整打磨，才能让那被集体沉默压住的十二年，真正均匀地沉在每一个段落里。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-02T16:33:02.341Z",
+    "textless": false,
+    "profileId": "fiction-mystery-noir"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "湖底之车",
+      "units": 5165
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "旧案重启",
+      "units": 5620
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "首轮假设",
+      "units": 1803
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "证据冲突",
+      "units": 2845
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "集体沉默",
+      "units": 2083
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "周正平",
+      "units": 2423
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "旧案笔记",
+      "units": 6523
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "保险柜与校服",
+      "units": 5205
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "旧账新痕",
+      "units": 2250
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "暗流涌动",
+      "units": 1827
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "时间锁",
+      "units": 2753
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "邻县校服",
+      "units": 1886
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "旧档疑云",
+      "units": 4432
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "沉默的代价",
+      "units": 5173
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "涂改的日志",
+      "units": 1703
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "帕萨特的监视",
+      "units": 2716
+    }
+  ],
+  "publishedAt": "2026-09-03T00:09:39.056Z",
+  "formFamily": "narrative"
+}
