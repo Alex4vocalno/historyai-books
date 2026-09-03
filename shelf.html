@@ -180,7 +180,7 @@
   function render(){
     nb.innerHTML='<div class="empty">正在整理笔记…</div>';
     Promise.all([
-      fetch('/api/reader/my-notes',{credentials:'same-origin'}).then(function(r){return r.json()}),
+      fetch('/api/book/my-notes',{credentials:'same-origin'}).then(function(r){return r.json()}),
       fetch('/books/index.json').then(function(r){return r.json()}).catch(function(){return []})
     ]).then(function(rs){
       var d=rs[0]||{};
