@@ -19,17 +19,61 @@
   .rr-row b{display:block;height:100%;background:var(--gold);border-radius:3px}
   .rr-row em{font-style:normal;text-align:right;font-variant-numeric:tabular-nums}
   .reader-rating-empty{margin-top:18px;color:var(--muted);font-size:13.5px}
+  /* v6.9.31 视觉精修（微信读书对齐）：胶囊按钮+柔和标签+封面立体书感 */
+  .book-hero .primary{border-radius:25px;padding:0 36px;box-shadow:0 8px 22px color-mix(in srgb,var(--green) 32%,transparent);letter-spacing:.04em}
+  .book-hero .primary:active{transform:scale(.98)}
+  .book-hero .meta .pill{border:0;background:#eef1ef;min-height:27px;padding:4px 13px;font-size:13px;color:#68716d;border-radius:14px}
+  .book-hero .cover-art{border-radius:4px 9px 9px 4px;box-shadow:0 20px 48px rgba(28,38,34,.26),0 4px 12px rgba(28,38,34,.14)}
+  .book-hero .cover-art::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;z-index:3;background:linear-gradient(90deg,rgba(255,255,255,.34),rgba(255,255,255,0));pointer-events:none}
   .shelf-acts{display:flex;gap:8px;margin-left:12px}
-  .shelf-acts button{min-height:50px;padding:0 16px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--muted);font-size:13.5px;font-weight:700;cursor:pointer}
+  .shelf-acts button{min-height:50px;padding:0 18px;border:1px solid var(--line);border-radius:25px;background:#fff;color:var(--muted);font-size:13.5px;font-weight:700;cursor:pointer;transition:border-color .12s,color .12s}
+  .shelf-acts button:hover{border-color:#c9cfcc;color:var(--ink)}
   .shelf-acts button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 7%,#fff)}
-  @media(max-width:720px){.shelf-acts{margin-left:0;margin-top:10px;flex-basis:100%}}.rating-bar{width:112px;height:4px;margin-top:7px;border-radius:3px;background:#e8e9e7;overflow:hidden}.rating-bar i{display:block;height:100%;background:var(--gold)}.actions{display:flex;gap:10px;margin-top:30px}.description{grid-column:2;margin-top:35px;padding-top:27px;border-top:1px solid var(--line);font-family:var(--serif)}.description h2,.catalog h2{margin:0 0 15px;font-family:var(--sans);font-size:20px}.description p{max-width:760px;margin:0;color:#39403e;font-size:17.5px;line-height:2}.catalog{margin-top:52px;padding-top:28px;border-top:1px solid var(--line)}.catalog-head{display:flex;align-items:baseline;justify-content:space-between}.catalog-head span{color:var(--muted);font-size:13.5px}.chapter-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:38px}.chapter-row{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:13px 2px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px}.chapter-row span:first-child{color:var(--muted);font-family:var(--sans);font-size:13px}.chapter-row:hover{color:var(--green)}
+  @media(max-width:720px){.shelf-acts{margin-left:0;margin-top:10px;flex-basis:100%}}.rating-bar{width:112px;height:4px;margin-top:7px;border-radius:3px;background:#e8e9e7;overflow:hidden}.rating-bar i{display:block;height:100%;background:var(--gold)}.actions{display:flex;gap:10px;margin-top:30px}.description{grid-column:2;margin-top:35px;padding-top:27px;border-top:1px solid var(--line);font-family:var(--serif)}.description h2,.catalog h2{margin:0 0 15px;font-family:var(--sans);font-size:20px}.description p{max-width:760px;margin:0;color:#39403e;font-size:17.5px;line-height:2}.catalog{margin-top:52px;padding-top:28px;border-top:1px solid var(--line)}.catalog-head{display:flex;align-items:baseline;justify-content:space-between}.catalog-head span{color:var(--muted);font-size:13.5px}.chapter-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:38px}.chapter-row{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:13px 2px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px}.chapter-row span:first-child{color:var(--muted);font-family:var(--sans);font-size:13px}.chapter-row:hover{color:var(--green)}.catalog.collapsed .chapter-grid{max-height:560px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,#000 78%,transparent);mask-image:linear-gradient(180deg,#000 78%,transparent)}.catalog-more{display:block;margin:14px auto 0;border:1px solid var(--line);border-radius:18px;background:#fff;padding:8px 26px;font:13px var(--sans);color:var(--muted);cursor:pointer}.catalog-more:hover{color:var(--green-dark);border-color:var(--green)}.related{margin-top:52px;padding-top:28px;border-top:1px solid var(--line)}.related .sec-head h2{margin:0 0 16px;font-family:var(--sans);font-size:20px}.related-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px}.rel-card{display:block;min-width:0;text-decoration:none;color:inherit}.rel-cover{position:relative;display:block;aspect-ratio:2/3;border-radius:4px;overflow:hidden;background:#eceeeb;box-shadow:0 1px 4px rgba(20,30,25,.12)}.rel-cover img{width:100%;height:100%;object-fit:cover}.rel-card strong{display:block;margin-top:9px;font:600 13.5px var(--serif);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.rel-card small{display:block;margin-top:3px;color:var(--muted);font-size:12.5px}@media(max-width:720px){.related-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}
+  .stat-band{display:flex;align-items:stretch;margin-top:26px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);max-width:560px}
+  .stat-cell{flex:1;min-width:0;text-align:center;position:relative}
+  .stat-cell[hidden]{display:none}
+  .stat-cell+.stat-cell:not([hidden]){border-left:1px solid var(--line)}
+  .stat-cell b{display:block;font-family:Georgia,serif;font-size:26px;line-height:1.15;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+  .stat-cell b.sc-green{color:var(--green-dark)}
+  .stat-cell b.sc-gold{color:var(--gold)}
+  .stat-cell b i{font-style:normal}
+  .stat-cell b em{font-style:normal;font-size:14px;margin-left:1px}
+  .stat-cell span{display:block;margin-top:4px;color:var(--muted);font-size:13px}
+  .hot-lines,.hot-reviews{grid-column:2;margin-top:34px;padding-top:26px;border-top:1px solid var(--line);max-width:760px}
+  .hot-lines h2,.hot-reviews h2{margin:0 0 16px;font-family:var(--sans);font-size:20px}
+  .hl-item{margin:0 0 15px;padding:2px 0 2px 14px;border-left:3px solid var(--green);font-family:var(--serif);font-size:15.5px;line-height:1.9;color:#39403e}
+  .hl-item small{display:block;margin-top:5px;font-family:var(--sans);font-size:13px;color:var(--muted)}
+  .rv-item{padding:15px 0;border-bottom:1px solid var(--line)}
+  .rv-item:last-child{border-bottom:0}
+  .rv-head{display:flex;align-items:center;gap:10px;font-family:var(--sans);font-size:13.5px}
+  .rv-ava{width:30px;height:30px;border-radius:50%;background:color-mix(in srgb,var(--green) 14%,#fff);color:var(--green-dark);display:grid;place-items:center;font-weight:800;font-size:14px}
+  .rv-head b{color:var(--ink)}
+  .rv-stars{color:var(--gold);letter-spacing:1px;font-size:13px}
+  .rv-like{margin-left:auto;color:var(--muted)}
+  .rv-text{margin:9px 0 0;font-family:var(--serif);font-size:15px;line-height:1.9;color:#39403e}
+  .rv-more{display:inline-block;margin-top:14px;font:13.5px var(--sans);color:var(--green-dark);text-decoration:none}
+  .rv-more:hover{text-decoration:underline}
+  .quick-rate{display:flex;align-items:center;gap:9px;margin-top:16px;font-family:var(--sans);font-size:13.5px;color:var(--muted)}
+  .quick-rate button{min-height:34px;padding:0 15px;border:1px solid var(--line);border-radius:17px;background:#fff;color:var(--ink);font-size:13.5px;cursor:pointer;transition:border-color .12s,color .12s}
+  .quick-rate button:hover{border-color:#c9cfcc}
+  .quick-rate button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 8%,#fff);font-weight:700}
+  .qr-done{font-style:normal;color:var(--green-dark);font-weight:700}
+  @media(max-width:720px){.quick-rate{flex-wrap:wrap}}
+  .description.clamped p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+  .desc-toggle{margin-top:10px;border:0;background:none;padding:0;font:13.5px var(--sans);color:var(--green-dark);cursor:pointer}
   .editor-review{grid-column:2;margin-top:30px;padding:22px 24px;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;background:var(--surface);max-width:760px}
   .editor-review h2{margin:0 0 12px;font-size:16px;display:flex;align-items:center;gap:10px}
   .editor-review .er-rating{color:var(--gold);font-size:13px;font-weight:800;border:1px solid var(--gold);border-radius:4px;padding:1px 8px}
   .editor-review p{margin:0;font-family:var(--serif);font-size:15.5px;line-height:1.95;color:#39403e}
   .editor-review .er-byline{margin-top:12px;font-family:var(--sans);font-size:13px;color:var(--muted);text-align:right}
-  @media(max-width:720px){.book-hero{grid-template-columns:118px minmax(0,1fr);gap:20px}.editor-review{grid-column:1/-1}.book-main h1{font-size:25px}.subtitle{font-size:15.5px}.cover-copy{padding:42px 10px 12px}.cover-copy h2{font-size:16px}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:9px}.author{margin-top:13px}.meta{margin-top:13px}.rating{margin-top:16px}.actions{grid-column:1/-1}.description{grid-column:1/-1;margin-top:26px}.chapter-grid{grid-template-columns:1fr}}
-  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../../../index.html">书架</a></nav></div></header><main class="page"><section class="book-hero"><a class="cover-open" href="cover.jpg" data-cover-zoom title="查看封面大图"><div class="cover-art" style="--cover-tone:hsl(345 28% 24%)"><img src="cover.jpg" alt="《The Space Race: From Sputnik to the Sea of Tranquility》封面"></div></a><div class="book-main"><p class="eyebrow">世界史 · 中文</p><h1>The Space Race: From Sputnik to the Sea of Tranquility</h1><p class="author"><a class="author-link" href="../../../../author-ad56049233.html">李思特Think</a></p><div class="meta"><span class="pill">太空竞赛</span><span class="pill">冷战史</span><span class="pill">航天史</span><span class="pill">阿波罗计划</span><span class="pill">NASA</span><span class="pill">苏联航天</span><span class="pill">16 章</span><span class="pill">332,066 字</span></div><div class="rating"><strong>7.8</strong><div><span>编辑评分</span><div class="rating-bar"><i style="width:78%"></i></div></div></div><div class="social-stats" data-social-stats hidden></div><div class="reader-rating" data-reader-rating hidden>
+  @media(max-width:720px){.book-hero{grid-template-columns:118px minmax(0,1fr);gap:20px}.editor-review,.hot-lines,.hot-reviews{grid-column:1/-1}.stat-band{margin-top:16px;padding:12px 0;max-width:none}.stat-cell b{font-size:21px}.stat-cell span{font-size:13px}.book-main h1{font-size:25px}.subtitle{font-size:15.5px}.cover-copy{padding:42px 10px 12px}.cover-copy h2{font-size:16px}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:9px}.author{margin-top:13px}.meta{margin-top:13px}.rating{margin-top:16px}.actions{grid-column:1/-1}.description{grid-column:1/-1;margin-top:26px}.chapter-grid{grid-template-columns:1fr}}
+  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../../../index.html">书架</a></nav></div></header><main class="page"><section class="book-hero"><a class="cover-open" href="cover.jpg" data-cover-zoom title="查看封面大图"><div class="cover-art" style="--cover-tone:hsl(345 28% 24%)"><img src="cover.jpg" alt="《The Space Race: From Sputnik to the Sea of Tranquility》封面"></div></a><div class="book-main"><p class="eyebrow">世界史 · 中文</p><h1>The Space Race: From Sputnik to the Sea of Tranquility</h1><p class="author"><a class="author-link" href="../../../../author-ad56049233.html">李思特Think</a></p><div class="meta"><span class="pill">太空竞赛</span><span class="pill">冷战史</span><span class="pill">航天史</span><span class="pill">阿波罗计划</span><span class="pill">NASA</span><span class="pill">苏联航天</span><span class="pill">16 章</span><span class="pill">332,066 字</span></div><div class="stat-band" data-stat-band>
+    <div class="stat-cell" data-stat-reco hidden><b class="sc-green"><i data-stat-reco-val></i><em>%</em></b><span>推荐值</span></div>
+    <div class="stat-cell" data-stat-rr hidden><b class="sc-gold" data-stat-rr-val></b><span>读者评分</span></div>
+    <div class="stat-cell"><b class="sc-gold">7.8</b><span>编辑评分</span></div>
+    <div class="stat-cell" data-stat-readers hidden><b data-stat-readers-val></b><span>人读过</span></div>
+  </div><div class="social-stats" data-social-stats hidden></div><div class="reader-rating" data-reader-rating hidden>
     <div class="rr-head"><strong class="rr-avg" data-rr-avg></strong><div><span class="rr-stars" data-rr-stars></span><span class="rr-count" data-rr-count></span></div></div>
     <div class="rr-bars" data-rr-bars></div>
     <p class="rr-notes" data-rr-notes></p>
@@ -48,6 +92,14 @@
       var full=Math.round(d.avg);
       box.querySelector('[data-rr-stars]').textContent='★★★★★'.slice(0,full)+'☆☆☆☆☆'.slice(0,5-full);
       box.querySelector('[data-rr-count]').textContent=' · '+d.count+" 人点评";
+      // v6.9.31 数据栏填充：读者评分格；推荐值格（微信读书口径 4-5 星占比，样本 ≥3）
+      var rrCell=document.querySelector('[data-stat-rr]');
+      if(rrCell){rrCell.querySelector('[data-stat-rr-val]').textContent=d.avg;rrCell.hidden=false}
+      if(d.count>=3&&Array.isArray(d.dist)){
+        var rec=Math.round((d.dist[3]+d.dist[4])/d.count*100);
+        var rcCell=document.querySelector('[data-stat-reco]');
+        if(rcCell){rcCell.querySelector('[data-stat-reco-val]').textContent=rec;rcCell.hidden=false}
+      }
       var bars=box.querySelector('[data-rr-bars]');
       var max=Math.max.apply(null,d.dist.concat([1]));
       for(var i=4;i>=0;i--){
@@ -62,7 +114,7 @@
       }
       if(d.notes){document.querySelector('[data-rr-notes]').textContent="读者想法 "+d.notes+" 条"}
     }).catch(function(){});
-  })();</script><div class="actions"><a class="primary" data-continue-reading href="ch-1.html">开始阅读</a><div class="shelf-acts" data-shelf-acts><button type="button" data-shelf-status="wishlist">+ 想读</button><button type="button" data-shelf-status="reading">在读</button><button type="button" data-shelf-status="finished">读完</button></div></div>
+  })();</script><div class="actions"><a class="primary" data-continue-reading href="ch-1.html">开始阅读</a><div class="shelf-acts" data-shelf-acts><button type="button" data-shelf-status="wishlist">+ 想读</button><button type="button" data-shelf-status="reading">在读</button><button type="button" data-shelf-status="finished">读完</button></div></div><div class="quick-rate" data-quick-rate><span>这本书怎么样？</span><button type="button" data-qr="5">👍 推荐</button><button type="button" data-qr="3">😐 一般</button><button type="button" data-qr="1">👎 不行</button><i class="qr-done" data-qr-done hidden>已记录 ✓</i></div>
 <script>(function(){
   var EN=false;
   var bid="proj-mso32bdljfc";
@@ -92,11 +144,104 @@
     if(!(d&&d.ok&&d.stats&&d.stats[bid]))return;
     var s=d.stats[bid];
     if(!(s.read||s.reading||s.wishlist))return;
+    // v6.9.31 「读过」进数据栏大数字；小字行只留在读/想读
+    if(s.read){var rd=document.querySelector('[data-stat-readers]');if(rd){rd.querySelector('[data-stat-readers-val]').textContent=s.read;rd.hidden=false}}
     var parts=[];
-    if(s.read)parts.push('<span><strong>'+s.read+'</strong> 人读过</span>');
     if(s.reading)parts.push('<span><strong>'+s.reading+'</strong> 人在读</span>');
     if(s.wishlist)parts.push('<span><strong>'+s.wishlist+'</strong> 人想读</span>');
-    box.innerHTML=parts.join('');
+    if(parts.length){box.innerHTML=parts.join('');box.hidden=false}
+  }).catch(function(){});
+})();</script></div><section class="description clamped" data-desc><h2>内容简介</h2><p>本书以编年史的方式，生动讲述了冷战时期美苏太空竞赛的完整历程。故事从1957年苏联发射第一颗人造卫星‘斯普特尼克’的震撼性‘哔哔’声开始，追溯了其技术根源——纳粹德国的V-2火箭遗产，并详细描绘了美国国家航空航天局（NASA）应运而生的过程。书中聚焦于关键人物，如苏联神秘的‘总设计师’科罗廖夫，以及美国‘水星计划’的七位首批宇航员，再现了‘东方号’与‘水星号’的早期载人飞行竞赛。核心叙事围绕肯尼迪总统登月承诺背后的政治危机、两国在60年代中期的技术博弈，以及‘阿波罗1号’火灾悲剧带来的系统重建。最终，本书引领读者见证‘阿波罗11号’在静海基地的历史性着陆，并探讨了登月之后美苏从竞争走向合作的遗产，以及太空探索对人类科学与社会的深远影响。</p><button type="button" class="desc-toggle" data-desc-toggle>展开 ∨</button></section><section class="hot-lines" data-hot-lines hidden><h2>热门划线</h2><div data-hl-list></div></section><section class="hot-reviews" data-hot-reviews hidden><h2>精彩点评</h2><div data-rv-list></div><a class="rv-more" href="ch-1.html">读完这本书，写下你的点评 →</a></section></section><section class="catalog" data-catalog><div class="catalog-head"><h2>目录</h2><span>共 16 章</span></div><div class="chapter-grid"><a class="chapter-row" href="ch-1.html"><span>第 01 章</span><span>Chapter 1 The Beep That Shook the West (October 1957)</span></a><a class="chapter-row" href="ch-2.html"><span>第 02 章</span><span>Chapter 2 The Agency Born of Panic</span></a><a class="chapter-row" href="ch-3.html"><span>第 03 章</span><span>Chapter 3 The Chief Designer’s Shadow (1959-1961)</span></a><a class="chapter-row" href="ch-4.html"><span>第 04 章</span><span>Chapter 4 The V-2 Inheritance (1945-1957)</span></a><a class="chapter-row" href="ch-5.html"><span>第 05 章</span><span>Chapter 5 Seven Men, One Nation’s Gaze (1959-1960)</span></a><a class="chapter-row" href="ch-6.html"><span>第 06 章</span><span>Chapter 6 The First American Leap (1961–1962)</span></a><a class="chapter-row" href="ch-7.html"><span>第 07 章</span><span>Chapter 7 The Deadline Born of Crisis</span></a><a class="chapter-row" href="ch-8.html"><span>第 08 章</span><span>Chapter 8 The Last Mercury and the Vostok Triumph</span></a><a class="chapter-row" href="ch-9.html"><span>第 09 章</span><span>Chapter 9 A Mirage of Parity (1963-1964)</span></a><a class="chapter-row" href="ch-10.html"><span>第 10 章</span><span>Chapter 10 The Kremlin’s Unwinnable War</span></a><a class="chapter-row" href="ch-11.html"><span>第 11 章</span><span>Chapter 11 The Chief Designer’s Final Autumn (1965–1966)</span></a><a class="chapter-row" href="ch-12.html"><span>第 12 章</span><span>Chapter 12 The Inferno That Rebuilt a System (January 1967–December 1967)</span></a><a class="chapter-row" href="ch-13.html"><span>第 13 章</span><span>Chapter 13 The Year of Two Orbits</span></a><a class="chapter-row" href="ch-14.html"><span>第 14 章</span><span>Chapter 14 The Sea of Tranquility (July 1969)</span></a><a class="chapter-row" href="ch-15.html"><span>第 15 章</span><span>Chapter 15 Legacy and Judgment (1969–1970)</span></a><a class="chapter-row" href="ch-16.html"><span>第 16 章</span><span>Chapter 16 What the Moon Left Behind (1969–1972)</span></a></div></section><section class="related" data-related hidden><div class="sec-head"><h2>同类好书</h2></div><div class="related-grid" data-related-grid></div></section></main><script>(function(){var button=document.querySelector('[data-continue-reading]');if(!button)return;try{var state=JSON.parse(localStorage.getItem("historyai.reader.proj-mso32bdljfc")||'{}');if(state&&state.href){button.href=state.href;button.textContent='继续阅读 · 第 '+(Number(state.chapter)+1)+' 章'}}catch(e){}})();</script><script>(function(){var a=document.querySelector('[data-cover-zoom]');if(!a)return;a.addEventListener('click',function(e){e.preventDefault();var o=document.createElement('div');o.setAttribute('style','position:fixed;inset:0;z-index:99;background:rgba(12,10,8,.92);display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:4vmin');var img=document.createElement('img');img.src=a.getAttribute('href');img.alt=document.title;img.setAttribute('style','max-width:96vw;max-height:94vh;width:auto;height:auto;border-radius:6px;box-shadow:0 24px 80px rgba(0,0,0,.6)');o.appendChild(img);function close(){o.remove();document.removeEventListener('keydown',esc)}function esc(ev){if(ev.key==='Escape')close()}o.addEventListener('click',close);document.addEventListener('keydown',esc);document.body.appendChild(o)})})();</script><script>(function(){
+  var bid="proj-mso32bdljfc";
+  fetch('/api/book/notes?bookId='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok&&d.notes&&d.notes.length))return;
+    var byQ={};
+    d.notes.forEach(function(n){if(!n.quote)return;var g=byQ[n.quote]=byQ[n.quote]||{q:n.quote,n:0,likes:0};g.n++;g.likes+=Number(n.likeCount)||0});
+    var groups=Object.keys(byQ).map(function(k){return byQ[k]});
+    groups.sort(function(a,b){return(b.n*2+b.likes)-(a.n*2+a.likes)});
+    var top=groups.slice(0,4);
+    if(!top.length)return;
+    var list=document.querySelector('[data-hl-list]');
+    top.forEach(function(g){
+      var it=document.createElement('div');it.className='hl-item';
+      it.appendChild(document.createTextNode(g.q));
+      var s=document.createElement('small');
+      s.textContent=g.n+' \u4eba\u5212\u7ebf'+(g.likes?(' \u00b7 '+g.likes+' \u8d5e'):'');
+      it.appendChild(s);list.appendChild(it);
+    });
+    document.querySelector('[data-hot-lines]').hidden=false;
+  }).catch(function(){});
+  fetch('/api/book/reviews?bookId='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok&&d.reviews))return;
+    var rows=d.reviews.filter(function(r2){return r2.text}).sort(function(a,b){return(Number(b.likeCount)||0)-(Number(a.likeCount)||0)}).slice(0,3);
+    if(!rows.length)return;
+    var list=document.querySelector('[data-rv-list]');
+    rows.forEach(function(r2){
+      var it=document.createElement('div');it.className='rv-item';
+      var hd=document.createElement('div');hd.className='rv-head';
+      var av=document.createElement('span');av.className='rv-ava';av.textContent=String(r2.name||'?').slice(0,1);
+      var nm=document.createElement('b');nm.textContent=r2.name||"读者";
+      var st=document.createElement('span');st.className='rv-stars';st.textContent='\u2605\u2605\u2605\u2605\u2605'.slice(0,Math.max(1,Math.min(5,r2.rating||0)));
+      hd.appendChild(av);hd.appendChild(nm);hd.appendChild(st);
+      if(Number(r2.likeCount)){var lk=document.createElement('span');lk.className='rv-like';lk.textContent='\u2665 '+r2.likeCount;hd.appendChild(lk)}
+      it.appendChild(hd);
+      var tx=document.createElement('p');tx.className='rv-text';tx.textContent=r2.text;
+      it.appendChild(tx);list.appendChild(it);
+    });
+    document.querySelector('[data-hot-reviews]').hidden=false;
+  }).catch(function(){});
+  var dt=document.querySelector('[data-desc-toggle]');
+  if(dt)dt.addEventListener('click',function(){
+    var sec=document.querySelector('[data-desc]');
+    var open=sec.classList.toggle('clamped');
+    dt.textContent=open?"展开 ∨":"收起 ∧";
+  });
+  // v6.9.32 三键快捷评分（weread 式推荐/一般/不行）：映射 5/3/1 星走既有书评体系
+  var qr=document.querySelector('[data-quick-rate]');
+  if(qr){
+    var qbtns=[].slice.call(qr.querySelectorAll('[data-qr]'));
+    function paintQr(rating){
+      var key=rating>=4?'5':(rating===3?'3':(rating>=1?'1':''));
+      qbtns.forEach(function(b){b.classList.toggle('on',b.dataset.qr===key)});
+    }
+    fetch('/api/auth/me',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(me){
+      if(!(me&&me.ok&&me.user))return;
+      fetch('/api/book/reviews?bookId='+encodeURIComponent(bid),{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){
+        if(!(d&&d.ok))return;
+        var mine=(d.reviews||[]).filter(function(x){return x.uid===me.user.id})[0];
+        if(mine)paintQr(Number(mine.rating)||0);
+      }).catch(function(){});
+    }).catch(function(){});
+    qbtns.forEach(function(b){b.addEventListener('click',function(){
+      fetch('/api/book/reviews',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:bid,rating:Number(b.dataset.qr)})})
+        .then(function(r){return r.json()}).then(function(d){
+          if(d&&d.ok){
+            paintQr(Number(b.dataset.qr));
+            var dn=document.querySelector('[data-qr-done]');
+            if(dn){dn.hidden=false;setTimeout(function(){dn.hidden=true},2200)}
+          } else alert("回书库登录后即可评价");
+        }).catch(function(){});
+    })});
+  }
+})();</script><script>(function(){
+  var moreBtn=document.querySelector('[data-catalog-more]');
+  if(moreBtn)moreBtn.addEventListener('click',function(){document.querySelector('[data-catalog]').classList.remove('collapsed');moreBtn.remove()});
+  var box=document.querySelector('[data-related]');var grid=document.querySelector('[data-related-grid]');
+  if(!box||!grid)return;
+  var self="proj-mso32bdljfc";var cat="世界史";var en=false;
+  fetch('/books/index.json').then(function(r){return r.json()}).then(function(rows){
+    if(!Array.isArray(rows))return;
+    var pool=rows.filter(function(r){return r&&r.projectId!==self&&String(r.visibility||'public')==='public'&&(!cat||r.category===cat)});
+    if(pool.length<3)pool=rows.filter(function(r){return r&&r.projectId!==self&&String(r.visibility||'public')==='public'});
+    pool.sort(function(a,b){return (Number(b.editorialScore&&b.editorialScore.score)||0)-(Number(a.editorialScore&&a.editorialScore.score)||0)});
+    var pick=pool.slice(0,6);
+    if(!pick.length)return;
+    grid.innerHTML=pick.map(function(r){
+      var sc=Number(r.editorialScore&&r.editorialScore.score)||0;
+      var chip=sc?'<span class="score-chip">'+(sc/10).toFixed(1)+'</span>':'';
+      var cover=r.coverUrl?'<img src="/'+String(r.coverUrl).replace(/^//,'')+'" alt="" loading="lazy">':'';
+      return '<a class="rel-card" href="/'+String(r.url||'#').replace(/^//,'')+'"><span class="rel-cover">'+cover+chip+'</span><strong>'+String(r.title||'').replace(/</g,'&lt;')+'</strong><small>'+String(r.authorDisplayName||'').replace(/</g,'&lt;')+'</small></a>';
+    }).join('');
     box.hidden=false;
   }).catch(function(){});
-})();</script></div><section class="description"><h2>内容简介</h2><p>本书以编年史的方式，生动讲述了冷战时期美苏太空竞赛的完整历程。故事从1957年苏联发射第一颗人造卫星‘斯普特尼克’的震撼性‘哔哔’声开始，追溯了其技术根源——纳粹德国的V-2火箭遗产，并详细描绘了美国国家航空航天局（NASA）应运而生的过程。书中聚焦于关键人物，如苏联神秘的‘总设计师’科罗廖夫，以及美国‘水星计划’的七位首批宇航员，再现了‘东方号’与‘水星号’的早期载人飞行竞赛。核心叙事围绕肯尼迪总统登月承诺背后的政治危机、两国在60年代中期的技术博弈，以及‘阿波罗1号’火灾悲剧带来的系统重建。最终，本书引领读者见证‘阿波罗11号’在静海基地的历史性着陆，并探讨了登月之后美苏从竞争走向合作的遗产，以及太空探索对人类科学与社会的深远影响。</p></section></section><section class="catalog"><div class="catalog-head"><h2>目录</h2><span>共 16 章</span></div><div class="chapter-grid"><a class="chapter-row" href="ch-1.html"><span>第 01 章</span><span>Chapter 1 The Beep That Shook the West (October 1957)</span></a><a class="chapter-row" href="ch-2.html"><span>第 02 章</span><span>Chapter 2 The Agency Born of Panic</span></a><a class="chapter-row" href="ch-3.html"><span>第 03 章</span><span>Chapter 3 The Chief Designer’s Shadow (1959-1961)</span></a><a class="chapter-row" href="ch-4.html"><span>第 04 章</span><span>Chapter 4 The V-2 Inheritance (1945-1957)</span></a><a class="chapter-row" href="ch-5.html"><span>第 05 章</span><span>Chapter 5 Seven Men, One Nation’s Gaze (1959-1960)</span></a><a class="chapter-row" href="ch-6.html"><span>第 06 章</span><span>Chapter 6 The First American Leap (1961–1962)</span></a><a class="chapter-row" href="ch-7.html"><span>第 07 章</span><span>Chapter 7 The Deadline Born of Crisis</span></a><a class="chapter-row" href="ch-8.html"><span>第 08 章</span><span>Chapter 8 The Last Mercury and the Vostok Triumph</span></a><a class="chapter-row" href="ch-9.html"><span>第 09 章</span><span>Chapter 9 A Mirage of Parity (1963-1964)</span></a><a class="chapter-row" href="ch-10.html"><span>第 10 章</span><span>Chapter 10 The Kremlin’s Unwinnable War</span></a><a class="chapter-row" href="ch-11.html"><span>第 11 章</span><span>Chapter 11 The Chief Designer’s Final Autumn (1965–1966)</span></a><a class="chapter-row" href="ch-12.html"><span>第 12 章</span><span>Chapter 12 The Inferno That Rebuilt a System (January 1967–December 1967)</span></a><a class="chapter-row" href="ch-13.html"><span>第 13 章</span><span>Chapter 13 The Year of Two Orbits</span></a><a class="chapter-row" href="ch-14.html"><span>第 14 章</span><span>Chapter 14 The Sea of Tranquility (July 1969)</span></a><a class="chapter-row" href="ch-15.html"><span>第 15 章</span><span>Chapter 15 Legacy and Judgment (1969–1970)</span></a><a class="chapter-row" href="ch-16.html"><span>第 16 章</span><span>Chapter 16 What the Moon Left Behind (1969–1972)</span></a></div></section></main><script>(function(){var button=document.querySelector('[data-continue-reading]');if(!button)return;try{var state=JSON.parse(localStorage.getItem("historyai.reader.proj-mso32bdljfc")||'{}');if(state&&state.href){button.href=state.href;button.textContent='继续阅读 · 第 '+(Number(state.chapter)+1)+' 章'}}catch(e){}})();</script><script>(function(){var a=document.querySelector('[data-cover-zoom]');if(!a)return;a.addEventListener('click',function(e){e.preventDefault();var o=document.createElement('div');o.setAttribute('style','position:fixed;inset:0;z-index:99;background:rgba(12,10,8,.92);display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:4vmin');var img=document.createElement('img');img.src=a.getAttribute('href');img.alt=document.title;img.setAttribute('style','max-width:96vw;max-height:94vh;width:auto;height:auto;border-radius:6px;box-shadow:0 24px 80px rgba(0,0,0,.6)');o.appendChild(img);function close(){o.remove();document.removeEventListener('keydown',esc)}function esc(ev){if(ev.key==='Escape')close()}o.addEventListener('click',close);document.addEventListener('keydown',esc);document.body.appendChild(o)})})();</script></body></html>
+})();</script></body></html>

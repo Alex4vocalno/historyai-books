@@ -20,6 +20,16 @@
 .page-head h1{margin:0;font-family:var(--serif);font-size:31px;line-height:1.4}
 .page-head .lede{margin:10px 0 0;color:var(--muted);font-size:13.5px}
 @media(max-width:720px){.topbar-inner{padding:0 14px}.topbar .brand-cn{display:none}.topbar-link{padding:0 9px}.page-head{padding:24px 16px 0}.page-head h1{font-size:25px}}
+.m-tabbar{display:none}
+@media(max-width:640px){
+.topbar-link{display:none}
+.m-tabbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:5px 8px calc(5px + env(safe-area-inset-bottom))}
+.m-tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 0;font-size:13px;color:var(--muted);font-weight:600}
+.m-tabbar a img{width:22px;height:22px;opacity:.6;mix-blend-mode:multiply}
+.m-tabbar a.on{color:var(--green-dark)}
+.m-tabbar a.on img{opacity:1}
+body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
+}
 .wrap{max-width:860px;margin:0 auto;padding:22px 20px 84px}
 .sect{margin:30px 0 12px;font-family:var(--serif);font-size:19px;font-weight:800}
 .frow{display:flex;gap:14px;padding:16px 18px;margin-bottom:12px;border:1px solid var(--line);border-radius:12px;background:var(--panel);box-shadow:0 1px 3px rgba(24,32,29,.05);transition:transform .16s,box-shadow .16s,border-color .16s}
@@ -48,7 +58,7 @@
 .empty{padding:36px 0;color:var(--muted);text-align:center;font-size:14.5px}
 @media(max-width:620px){.wrap{padding:22px 14px 60px}}
 </style></head><body>
-<header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link" href="/shelf.html">我的书架</a><a class="topbar-link active" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a></span></div></header>
+<header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link" href="/shelf.html">我的书架</a><a class="topbar-link active" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a href="/shelf.html"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a class="on" href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script>(function(){try{if(localStorage.getItem('hai.shelfLang')==='en'){var m={'书城':'Store','书架':'Shelf','动态':'Feed','我的':'Me'};document.querySelectorAll('.m-tabbar .mtb-t').forEach(function(s){if(m[s.textContent])s.textContent=m[s.textContent]})}}catch(e){}})();</script>
 <div class="page-head"><h1>社区动态</h1><p class="lede">全站读者的想法、书评与阅读足迹 · <a href="#board" style="color:var(--green-dark)">读书周榜 ↓</a></p></div>
 <div class="wrap">
   <div id="latestSect" class="sect" hidden>新上架</div>

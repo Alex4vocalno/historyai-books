@@ -20,6 +20,16 @@
 .page-head h1{margin:0;font-family:var(--serif);font-size:31px;line-height:1.4}
 .page-head .lede{margin:10px 0 0;color:var(--muted);font-size:13.5px}
 @media(max-width:720px){.topbar-inner{padding:0 14px}.topbar .brand-cn{display:none}.topbar-link{padding:0 9px}.page-head{padding:24px 16px 0}.page-head h1{font-size:25px}}
+.m-tabbar{display:none}
+@media(max-width:640px){
+.topbar-link{display:none}
+.m-tabbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:5px 8px calc(5px + env(safe-area-inset-bottom))}
+.m-tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 0;font-size:13px;color:var(--muted);font-weight:600}
+.m-tabbar a img{width:22px;height:22px;opacity:.6;mix-blend-mode:multiply}
+.m-tabbar a.on{color:var(--green-dark)}
+.m-tabbar a.on img{opacity:1}
+body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
+}
 .page{max-width:1080px;margin:0 auto;padding:30px 24px 80px;display:grid;grid-template-columns:216px minmax(0,1fr);gap:34px;align-items:start}
 .rank-nav{position:sticky;top:20px;border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px;max-height:calc(100vh - 40px);overflow:auto}
 .nav-sec{padding:12px 12px 6px;color:var(--muted);font-size:13px;font-weight:800;letter-spacing:.08em}

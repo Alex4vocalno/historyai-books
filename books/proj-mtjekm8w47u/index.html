@@ -54,6 +54,12 @@
   .rv-text{margin:9px 0 0;font-family:var(--serif);font-size:15px;line-height:1.9;color:#39403e}
   .rv-more{display:inline-block;margin-top:14px;font:13.5px var(--sans);color:var(--green-dark);text-decoration:none}
   .rv-more:hover{text-decoration:underline}
+  .quick-rate{display:flex;align-items:center;gap:9px;margin-top:16px;font-family:var(--sans);font-size:13.5px;color:var(--muted)}
+  .quick-rate button{min-height:34px;padding:0 15px;border:1px solid var(--line);border-radius:17px;background:#fff;color:var(--ink);font-size:13.5px;cursor:pointer;transition:border-color .12s,color .12s}
+  .quick-rate button:hover{border-color:#c9cfcc}
+  .quick-rate button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 8%,#fff);font-weight:700}
+  .qr-done{font-style:normal;color:var(--green-dark);font-weight:700}
+  @media(max-width:720px){.quick-rate{flex-wrap:wrap}}
   .description.clamped p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
   .desc-toggle{margin-top:10px;border:0;background:none;padding:0;font:13.5px var(--sans);color:var(--green-dark);cursor:pointer}
   .editor-review{grid-column:2;margin-top:30px;padding:22px 24px;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;background:var(--surface);max-width:760px}
@@ -62,7 +68,7 @@
   .editor-review p{margin:0;font-family:var(--serif);font-size:15.5px;line-height:1.95;color:#39403e}
   .editor-review .er-byline{margin-top:12px;font-family:var(--sans);font-size:13px;color:var(--muted);text-align:right}
   @media(max-width:720px){.book-hero{grid-template-columns:118px minmax(0,1fr);gap:20px}.editor-review,.hot-lines,.hot-reviews{grid-column:1/-1}.stat-band{margin-top:16px;padding:12px 0;max-width:none}.stat-cell b{font-size:21px}.stat-cell span{font-size:13px}.book-main h1{font-size:25px}.subtitle{font-size:15.5px}.cover-copy{padding:42px 10px 12px}.cover-copy h2{font-size:16px}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:9px}.author{margin-top:13px}.meta{margin-top:13px}.rating{margin-top:16px}.actions{grid-column:1/-1}.description{grid-column:1/-1;margin-top:26px}.chapter-grid{grid-template-columns:1fr}}
-  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../index-en.html"><i></i>EVORON AI Bookstore</a><nav><a href="../../index-en.html">Library</a></nav></div></header><main class="page"><section class="book-hero"><a class="cover-open" href="releases/rel_20260902051816561_d3d0635e19/cover.svg" data-cover-zoom title="View cover"><div class="cover-art" style="--cover-tone:hsl(205 28% 24%)"><img src="releases/rel_20260902051816561_d3d0635e19/cover.svg" alt="Small Levers: The Engineering of Everyday Change cover"></div></a><div class="book-main"><p class="eyebrow">Personal Growth · English</p><h1>Small Levers: The Engineering of Everyday Change</h1><p class="subtitle">The Engineering of Everyday Change</p><p class="author"><a class="author-link" href="../../index-en.html">李思特Think</a></p><div class="meta"><span class="pill">Behavioral Science</span><span class="pill">Habit Formation</span><span class="pill">Self-Improvement</span><span class="pill">Psychology</span><span class="pill">Productivity</span><span class="pill">Personal Growth</span><span class="pill">34 chapters</span><span class="pill">87,517 words</span></div><div class="stat-band" data-stat-band>
+  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../index-en.html"><i></i>EVORON AI Bookstore</a><nav><a href="../../index-en.html">Library</a></nav></div></header><main class="page"><section class="book-hero"><a class="cover-open" href="releases/rel_20260902051816561_d3d0635e19/cover-240914fe7534.jpg" data-cover-zoom title="View cover"><div class="cover-art" style="--cover-tone:hsl(205 28% 24%)"><img src="releases/rel_20260902051816561_d3d0635e19/cover-240914fe7534.jpg" alt="Small Levers: The Engineering of Everyday Change cover"></div></a><div class="book-main"><p class="eyebrow">Personal Growth · English</p><h1>Small Levers: The Engineering of Everyday Change</h1><p class="subtitle">The Engineering of Everyday Change</p><p class="author"><a class="author-link" href="../../index-en.html">李思特Think</a></p><div class="meta"><span class="pill">Behavioral Science</span><span class="pill">Habit Formation</span><span class="pill">Self-Improvement</span><span class="pill">Psychology</span><span class="pill">Productivity</span><span class="pill">Personal Growth</span><span class="pill">34 chapters</span><span class="pill">87,517 words</span></div><div class="stat-band" data-stat-band>
     <div class="stat-cell" data-stat-reco hidden><b class="sc-green"><i data-stat-reco-val></i><em>%</em></b><span>Recommend</span></div>
     <div class="stat-cell" data-stat-rr hidden><b class="sc-gold" data-stat-rr-val></b><span>Reader rating</span></div>
     <div class="stat-cell"><b class="sc-gold">7.5</b><span>Editorial</span></div>
@@ -108,7 +114,7 @@
       }
       if(d.notes){document.querySelector('[data-rr-notes]').textContent="Reader thoughts: "+d.notes+""}
     }).catch(function(){});
-  })();</script><div class="actions"><a class="primary" data-continue-reading href="releases/rel_20260902051816561_d3d0635e19/ch-1.html">Start reading</a><div class="shelf-acts" data-shelf-acts><button type="button" data-shelf-status="wishlist">+ Want to read</button><button type="button" data-shelf-status="reading">Reading</button><button type="button" data-shelf-status="finished">Finished</button></div></div>
+  })();</script><div class="actions"><a class="primary" data-continue-reading href="releases/rel_20260902051816561_d3d0635e19/ch-1.html">Start reading</a><div class="shelf-acts" data-shelf-acts><button type="button" data-shelf-status="wishlist">+ Want to read</button><button type="button" data-shelf-status="reading">Reading</button><button type="button" data-shelf-status="finished">Finished</button></div></div><div class="quick-rate" data-quick-rate><span>Rate this book:</span><button type="button" data-qr="5">👍 Recommend</button><button type="button" data-qr="3">😐 So-so</button><button type="button" data-qr="1">👎 Not for me</button><i class="qr-done" data-qr-done hidden>Saved ✓</i></div>
 <script>(function(){
   var EN=true;
   var bid="proj-mtjekm8w47u";
@@ -190,6 +196,33 @@
     var open=sec.classList.toggle('clamped');
     dt.textContent=open?"Show more ∨":"Show less ∧";
   });
+  // v6.9.32 三键快捷评分（weread 式推荐/一般/不行）：映射 5/3/1 星走既有书评体系
+  var qr=document.querySelector('[data-quick-rate]');
+  if(qr){
+    var qbtns=[].slice.call(qr.querySelectorAll('[data-qr]'));
+    function paintQr(rating){
+      var key=rating>=4?'5':(rating===3?'3':(rating>=1?'1':''));
+      qbtns.forEach(function(b){b.classList.toggle('on',b.dataset.qr===key)});
+    }
+    fetch('/api/auth/me',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(me){
+      if(!(me&&me.ok&&me.user))return;
+      fetch('/api/book/reviews?bookId='+encodeURIComponent(bid),{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){
+        if(!(d&&d.ok))return;
+        var mine=(d.reviews||[]).filter(function(x){return x.uid===me.user.id})[0];
+        if(mine)paintQr(Number(mine.rating)||0);
+      }).catch(function(){});
+    }).catch(function(){});
+    qbtns.forEach(function(b){b.addEventListener('click',function(){
+      fetch('/api/book/reviews',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:bid,rating:Number(b.dataset.qr)})})
+        .then(function(r){return r.json()}).then(function(d){
+          if(d&&d.ok){
+            paintQr(Number(b.dataset.qr));
+            var dn=document.querySelector('[data-qr-done]');
+            if(dn){dn.hidden=false;setTimeout(function(){dn.hidden=true},2200)}
+          } else alert("Sign in from the library to rate");
+        }).catch(function(){});
+    })});
+  }
 })();</script><script>(function(){
   var moreBtn=document.querySelector('[data-catalog-more]');
   if(moreBtn)moreBtn.addEventListener('click',function(){document.querySelector('[data-catalog]').classList.remove('collapsed');moreBtn.remove()});
