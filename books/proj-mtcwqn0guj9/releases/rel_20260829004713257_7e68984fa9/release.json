@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-2dd6873fad82.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-29T00:46:49.514Z",
+    "generatedAt": "2026-09-03T12:46:48.518Z",
     "textless": false,
-    "profileId": "literary-fiction-premium",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "literary-fiction-premium"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -243,5 +240,6 @@
       "units": 4935
     }
   ],
-  "publishedAt": "2026-08-29T00:47:13.274Z"
+  "publishedAt": "2026-08-29T00:47:13.274Z",
+  "rerenderedAt": "2026-09-03T12:46:48.529Z"
 }
