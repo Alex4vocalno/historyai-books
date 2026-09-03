@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtjek9hfxo6",
+    "projectId": "proj-mtjek9hfxo6",
+    "releaseId": "rel_20260903000917761_1f1f72a4b9",
+    "title": "青芜纪",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "李思特Think",
+    "category": "小说",
+    "tags": [
+      "凡人流",
+      "修行成长",
+      "资源经营",
+      "末法时代",
+      "冷静理智",
+      "东方玄幻"
+    ],
+    "description": "灵气衰微的末法之世，药田杂役陈芜资质平平，只有一册残缺的《青芜谱》和一颗算无遗策的凡人之心。丹药几株，灵石几枚，人情几分——他的每一分修为都算得明明白白。从辨草识毒起家，到坊市历练、秘境夺宝，他靠着记账式的谨慎与对灵植的笨功夫，在宗门倾覆的乱世中步步为营。然而，省出来的每一步，都在逼问他那个最根本的问题：修行，究竟是为了什么？",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-02T16:41:40.456Z"
+    },
+    "coverUrl": "books/proj-mtjek9hfxo6/releases/rel_20260903000917761_1f1f72a4b9/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtjek9hfxo6/index.html",
+    "publishedAt": "2026-09-03T00:09:17.767Z",
+    "firstPublishedAt": "2026-09-03T00:09:17.767Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtfjvyp741n",
     "projectId": "proj-mtfjvyp741n",
     "releaseId": "rel_20260901094935398_e4f8734ad6",
@@ -269,40 +303,6 @@
     "url": "books/proj-mtiobstxxk6/index.html",
     "publishedAt": "2026-09-02T00:30:58.996Z",
     "firstPublishedAt": "2026-09-02T00:30:58.996Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtjek9hfxo6",
-    "projectId": "proj-mtjek9hfxo6",
-    "releaseId": "rel_20260903000917761_1f1f72a4b9",
-    "title": "青芜纪",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "fiction",
-    "authorDisplayName": "李思特Think",
-    "category": "小说",
-    "tags": [
-      "凡人流",
-      "修行成长",
-      "资源经营",
-      "末法时代",
-      "冷静理智",
-      "东方玄幻"
-    ],
-    "description": "灵气衰微的末法之世，药田杂役陈芜资质平平，只有一册残缺的《青芜谱》和一颗算无遗策的凡人之心。丹药几株，灵石几枚，人情几分——他的每一分修为都算得明明白白。从辨草识毒起家，到坊市历练、秘境夺宝，他靠着记账式的谨慎与对灵植的笨功夫，在宗门倾覆的乱世中步步为营。然而，省出来的每一步，都在逼问他那个最根本的问题：修行，究竟是为了什么？",
-    "chapterCount": 32,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-09-02T16:41:40.456Z"
-    },
-    "coverUrl": "books/proj-mtjek9hfxo6/releases/rel_20260903000917761_1f1f72a4b9/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtjek9hfxo6/index.html",
-    "publishedAt": "2026-09-03T00:09:17.767Z",
-    "firstPublishedAt": "2026-09-03T00:09:17.767Z",
     "visibility": "public"
   },
   {
