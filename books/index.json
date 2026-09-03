@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtdsendcy3v",
+    "projectId": "proj-mtdsendcy3v",
+    "releaseId": "rel_20260901160800363_932ac0d5e5",
+    "title": "规划造城：政体、产业与城市的百年互塑",
+    "subtitle": "政体、产业与城市的百年互塑",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "Psycheeee",
+    "category": "商业史",
+    "tags": [
+      "城市史",
+      "产业规划",
+      "政治经济",
+      "工业遗产",
+      "制度变迁",
+      "商业史"
+    ],
+    "description": "匹兹堡的钢炉、鲁尔区的矿架、北九州的烟囱，这些工业地标不仅是生产场所，更是政体逻辑与资本意志浇筑的实体。从19世纪末到21世纪初，产业规划从未只是技术蓝图，而是国家、市场与社会在特定时空下的激烈博弈。本书穿越美、德、日、中四国百年城市现场，追踪政策文本背后的资本流向与社会代价。当石油危机击穿增长神话，当金融化重塑空间价值，那些曾被视为永恒的产业秩序如何瓦解？在绿色转型与数字基建的当下，城市命运不再取决于规划的精度，而在于制度应对不确定性的弹性。这是一部关于钢铁、债务与韧性的现代城市启示录。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-01T15:11:08.367Z"
+    },
+    "coverUrl": "books/proj-mtdsendcy3v/releases/rel_20260901160800363_932ac0d5e5/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtdsendcy3v/index.html",
+    "publishedAt": "2026-09-01T16:08:00.384Z",
+    "firstPublishedAt": "2026-09-01T16:08:00.384Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtd4h0t3sbn",
     "projectId": "proj-mtd4h0t3sbn",
     "releaseId": "rel_20260829105150453_db0e5c41ac",
@@ -1187,40 +1221,6 @@
     "url": "books/proj-mtiuydbjvo6/index.html",
     "publishedAt": "2026-09-02T00:14:07.276Z",
     "firstPublishedAt": "2026-09-02T00:14:07.276Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtdsendcy3v",
-    "projectId": "proj-mtdsendcy3v",
-    "releaseId": "rel_20260901160800363_932ac0d5e5",
-    "title": "规划造城：政体、产业与城市的百年互塑",
-    "subtitle": "政体、产业与城市的百年互塑",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "Psycheeee",
-    "category": "商业史",
-    "tags": [
-      "城市史",
-      "产业规划",
-      "政治经济",
-      "工业遗产",
-      "制度变迁",
-      "商业史"
-    ],
-    "description": "匹兹堡的钢炉、鲁尔区的矿架、北九州的烟囱，这些工业地标不仅是生产场所，更是政体逻辑与资本意志浇筑的实体。从19世纪末到21世纪初，产业规划从未只是技术蓝图，而是国家、市场与社会在特定时空下的激烈博弈。本书穿越美、德、日、中四国百年城市现场，追踪政策文本背后的资本流向与社会代价。当石油危机击穿增长神话，当金融化重塑空间价值，那些曾被视为永恒的产业秩序如何瓦解？在绿色转型与数字基建的当下，城市命运不再取决于规划的精度，而在于制度应对不确定性的弹性。这是一部关于钢铁、债务与韧性的现代城市启示录。",
-    "chapterCount": 30,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-09-01T15:11:08.367Z"
-    },
-    "coverUrl": "books/proj-mtdsendcy3v/releases/rel_20260901160800363_932ac0d5e5/cover-fead2ba4385a.svg",
-    "coverTextless": false,
-    "url": "books/proj-mtdsendcy3v/index.html",
-    "publishedAt": "2026-09-01T16:08:00.384Z",
-    "firstPublishedAt": "2026-09-01T16:08:00.384Z",
     "visibility": "public"
   },
   {
