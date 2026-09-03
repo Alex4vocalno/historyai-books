@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtb92woeb5s",
+    "projectId": "proj-mtb92woeb5s",
+    "releaseId": "rel_20260828062007005_c5c9b147ff",
+    "title": "九重门",
+    "subtitle": "紫禁城门禁失守的权力真相",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "半两先生",
+    "category": "中国史",
+    "tags": [
+      "紫禁城",
+      "宫廷安保",
+      "明清史",
+      "制度史",
+      "刺客",
+      "中国史"
+    ],
+    "description": "森严的九重宫阙为何屡被刺客洞穿？从唐宋遗制到清末乱局，六次有据可查的突入事件撕开了皇权安保的华丽表象。当值守者沦为漏洞，再精密的勘合与腰牌也只是仪式。本书以档案还原事发当日的通行细节与行刺者的时代困境，揭示门禁失效并非单纯的物理溃败，而是权力关系异化的必然结果。在刀锋与宫墙的碰撞中，看见帝国秩序如何在人为妥协与结构性裂隙间走向终局。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-1",
+      "createdAt": "2026-08-27T15:01:54.927Z"
+    },
+    "coverUrl": "books/proj-mtb92woeb5s/releases/rel_20260828062007005_c5c9b147ff/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtb92woeb5s/index.html",
+    "publishedAt": "2026-08-28T06:20:07.014Z",
+    "firstPublishedAt": "2026-08-28T06:20:07.014Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtdsendcy3v",
     "projectId": "proj-mtdsendcy3v",
     "releaseId": "rel_20260901160800363_932ac0d5e5",
@@ -2105,40 +2139,6 @@
     "url": "books/proj-mtccaizxxl7/index.html",
     "publishedAt": "2026-08-28T07:05:18.817Z",
     "firstPublishedAt": "2026-08-28T07:05:18.817Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtb92woeb5s",
-    "projectId": "proj-mtb92woeb5s",
-    "releaseId": "rel_20260828062007005_c5c9b147ff",
-    "title": "九重门",
-    "subtitle": "紫禁城门禁失守的权力真相",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "半两先生",
-    "category": "中国史",
-    "tags": [
-      "紫禁城",
-      "宫廷安保",
-      "明清史",
-      "制度史",
-      "刺客",
-      "中国史"
-    ],
-    "description": "森严的九重宫阙为何屡被刺客洞穿？从唐宋遗制到清末乱局，六次有据可查的突入事件撕开了皇权安保的华丽表象。当值守者沦为漏洞，再精密的勘合与腰牌也只是仪式。本书以档案还原事发当日的通行细节与行刺者的时代困境，揭示门禁失效并非单纯的物理溃败，而是权力关系异化的必然结果。在刀锋与宫墙的碰撞中，看见帝国秩序如何在人为妥协与结构性裂隙间走向终局。",
-    "chapterCount": 30,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-1",
-      "createdAt": "2026-08-27T15:01:54.927Z"
-    },
-    "coverUrl": "books/proj-mtb92woeb5s/releases/rel_20260828062007005_c5c9b147ff/cover-2583069a02e9.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtb92woeb5s/index.html",
-    "publishedAt": "2026-08-28T06:20:07.014Z",
-    "firstPublishedAt": "2026-08-28T06:20:07.014Z",
     "visibility": "public"
   },
   {
