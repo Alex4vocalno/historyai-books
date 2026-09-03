@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtb7hf9kdtp",
+    "projectId": "proj-mtb7hf9kdtp",
+    "releaseId": "rel_20260828024420380_fd446bcedb",
+    "title": "AI时代的学习重构",
+    "subtitle": "在算法舒适区外重建深度学习回路",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "个人成长",
+    "tags": [
+      "深度学习",
+      "元认知",
+      "AI教育",
+      "学习方法",
+      "认知科学",
+      "个人成长"
+    ],
+    "description": "当AI让英语学习变得异常省力，我们是否正陷入一种被外包的记忆幻觉？工具越便利，认知越容易在碎片流中产生熟练假象，被推荐算法圈养在舒适区内。真正的学习重构，不是寻找更高效的捷径，而是将AI作为放大元认知的外挂。从输入、输出到反馈，通过可验证的实验制造“必要难度”，把提问变成回路，用引导替代纠错。当工具相同而终点分岔，唯有守住不可外包的核心能力，才能在注意力预算的隐性成本中，设计出属于自己的深度学习闭环。",
+    "chapterCount": 17,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-2",
+      "createdAt": "2026-08-28T01:51:18.558Z"
+    },
+    "coverUrl": "books/proj-mtb7hf9kdtp/releases/rel_20260828024420380_fd446bcedb/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtb7hf9kdtp/index.html",
+    "publishedAt": "2026-08-28T02:44:20.428Z",
+    "firstPublishedAt": "2026-08-28T02:44:20.428Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtb92woeb5s",
     "projectId": "proj-mtb92woeb5s",
     "releaseId": "rel_20260828062007005_c5c9b147ff",
@@ -2207,40 +2241,6 @@
     "url": "books/proj-mtaw1np6a98/index.html",
     "publishedAt": "2026-08-28T03:07:38.344Z",
     "firstPublishedAt": "2026-08-28T03:07:38.344Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtb7hf9kdtp",
-    "projectId": "proj-mtb7hf9kdtp",
-    "releaseId": "rel_20260828024420380_fd446bcedb",
-    "title": "AI时代的学习重构",
-    "subtitle": "在算法舒适区外重建深度学习回路",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李德诺富特斯基",
-    "category": "个人成长",
-    "tags": [
-      "深度学习",
-      "元认知",
-      "AI教育",
-      "学习方法",
-      "认知科学",
-      "个人成长"
-    ],
-    "description": "当AI让英语学习变得异常省力，我们是否正陷入一种被外包的记忆幻觉？工具越便利，认知越容易在碎片流中产生熟练假象，被推荐算法圈养在舒适区内。真正的学习重构，不是寻找更高效的捷径，而是将AI作为放大元认知的外挂。从输入、输出到反馈，通过可验证的实验制造“必要难度”，把提问变成回路，用引导替代纠错。当工具相同而终点分岔，唯有守住不可外包的核心能力，才能在注意力预算的隐性成本中，设计出属于自己的深度学习闭环。",
-    "chapterCount": 17,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-2",
-      "createdAt": "2026-08-28T01:51:18.558Z"
-    },
-    "coverUrl": "books/proj-mtb7hf9kdtp/releases/rel_20260828024420380_fd446bcedb/cover-43f7030628b1.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtb7hf9kdtp/index.html",
-    "publishedAt": "2026-08-28T02:44:20.428Z",
-    "firstPublishedAt": "2026-08-28T02:44:20.428Z",
     "visibility": "public"
   },
   {
