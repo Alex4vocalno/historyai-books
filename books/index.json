@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtfjvyp741n",
+    "projectId": "proj-mtfjvyp741n",
+    "releaseId": "rel_20260901094935398_e4f8734ad6",
+    "title": "听骨录",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "磨墨无文",
+    "category": "小说",
+    "tags": [
+      "都市悬疑",
+      "民俗奇谭",
+      "异能刑侦",
+      "人性拷问",
+      "社会派推理",
+      "代价异能"
+    ],
+    "description": "殡仪馆入殓师沈渡，天生能触摸遗骨，听见死者临终执念。每一次“听骨辨怨”，都伴随着死者记忆与痛楚的短暂侵袭。当他在一具被判定为自杀的少女遗骨中，听见了与二十年前母亲溺亡时完全相同的童谣旋律，平静的都市表象开始剥落。童谣、红绳、井痕……一个个指向“民俗净化”的隐秘符号接连浮现。沈渡必须在自身精神被反噬殆尽前，揭开这座城市系统性清除“不洁者”的冰冷真相，代价，或许是他自己的骨头。",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-2",
+      "createdAt": "2026-09-01T09:05:53.117Z"
+    },
+    "coverUrl": "books/proj-mtfjvyp741n/releases/rel_20260901094935398_e4f8734ad6/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtfjvyp741n/index.html",
+    "publishedAt": "2026-09-01T09:49:35.402Z",
+    "firstPublishedAt": "2026-09-01T09:49:35.402Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtbihwimi20",
     "projectId": "proj-mtbihwimi20",
     "releaseId": "rel_20260828032411892_9d50538f42",
@@ -1323,40 +1357,6 @@
     "url": "books/proj-mtiuydbjvo6/index.html",
     "publishedAt": "2026-09-02T00:14:07.276Z",
     "firstPublishedAt": "2026-09-02T00:14:07.276Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtfjvyp741n",
-    "projectId": "proj-mtfjvyp741n",
-    "releaseId": "rel_20260901094935398_e4f8734ad6",
-    "title": "听骨录",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "fiction",
-    "authorDisplayName": "磨墨无文",
-    "category": "小说",
-    "tags": [
-      "都市悬疑",
-      "民俗奇谭",
-      "异能刑侦",
-      "人性拷问",
-      "社会派推理",
-      "代价异能"
-    ],
-    "description": "殡仪馆入殓师沈渡，天生能触摸遗骨，听见死者临终执念。每一次“听骨辨怨”，都伴随着死者记忆与痛楚的短暂侵袭。当他在一具被判定为自杀的少女遗骨中，听见了与二十年前母亲溺亡时完全相同的童谣旋律，平静的都市表象开始剥落。童谣、红绳、井痕……一个个指向“民俗净化”的隐秘符号接连浮现。沈渡必须在自身精神被反噬殆尽前，揭开这座城市系统性清除“不洁者”的冰冷真相，代价，或许是他自己的骨头。",
-    "chapterCount": 32,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 84,
-      "method": "median-of-2",
-      "createdAt": "2026-09-01T09:05:53.117Z"
-    },
-    "coverUrl": "books/proj-mtfjvyp741n/releases/rel_20260901094935398_e4f8734ad6/cover-d1df95ba8f25.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtfjvyp741n/index.html",
-    "publishedAt": "2026-09-01T09:49:35.402Z",
-    "firstPublishedAt": "2026-09-01T09:49:35.402Z",
     "visibility": "public"
   },
   {
