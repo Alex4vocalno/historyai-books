@@ -39,13 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-fdc32b16622e.svg",
+    "file": "cover-9320e09f3c0f.jpg",
     "provider": "openrouter",
-    "model": "qwen/qwen-image-3",
-    "generatedAt": "2026-08-28T03:27:09.200Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-03T13:23:07.935Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -231,5 +230,5 @@
   ],
   "publishedAt": "2026-08-27T00:27:42.215Z",
   "formFamily": "narrative",
-  "rerenderedAt": "2026-08-28T03:27:09.234Z"
+  "rerenderedAt": "2026-09-03T13:23:07.941Z"
 }
