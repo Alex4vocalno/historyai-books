@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtbihwimi20",
+    "projectId": "proj-mtbihwimi20",
+    "releaseId": "rel_20260828032411892_9d50538f42",
+    "title": "野猪共和国",
+    "subtitle": "一部美国生态治理的失败史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "自然博物",
+    "tags": [
+      "环境史",
+      "美国史",
+      "生态治理",
+      "非虚构",
+      "物种入侵",
+      "自然博物"
+    ],
+    "description": "十六世纪西班牙殖民者带来的家畜，如今已演变为每年吞噬二十五亿美元的生态梦魇。这并非单纯的自然失衡，而是土地制度、狩猎文化与联邦州权博弈共同制造的治理困局。从沼泽深处的猎手到华盛顿的政策制定者，六个关键转折点串起人猪冲突的百年纠葛。当直升机扫射与避孕疫苗轮番上阵，野猪依然在北纬四十度的农田里横行。这不仅是一部物种入侵史，更是一面镜子，映照出人类试图“管理”自然时的傲慢与失效，以及隐藏在枪声、铁丝网与野味市场背后的共和国裂痕。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-2",
+      "createdAt": "2026-08-28T00:27:47.134Z"
+    },
+    "coverUrl": "books/proj-mtbihwimi20/releases/rel_20260828032411892_9d50538f42/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtbihwimi20/index.html",
+    "publishedAt": "2026-08-28T03:24:11.917Z",
+    "firstPublishedAt": "2026-08-28T03:21:02.819Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtb7hf9kdtp",
     "projectId": "proj-mtb7hf9kdtp",
     "releaseId": "rel_20260828024420380_fd446bcedb",
@@ -2173,40 +2207,6 @@
     "url": "books/proj-mtccaizxxl7/index.html",
     "publishedAt": "2026-08-28T07:05:18.817Z",
     "firstPublishedAt": "2026-08-28T07:05:18.817Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtbihwimi20",
-    "projectId": "proj-mtbihwimi20",
-    "releaseId": "rel_20260828032411892_9d50538f42",
-    "title": "野猪共和国",
-    "subtitle": "一部美国生态治理的失败史",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "哈里·谢顿",
-    "category": "自然博物",
-    "tags": [
-      "环境史",
-      "美国史",
-      "生态治理",
-      "非虚构",
-      "物种入侵",
-      "自然博物"
-    ],
-    "description": "十六世纪西班牙殖民者带来的家畜，如今已演变为每年吞噬二十五亿美元的生态梦魇。这并非单纯的自然失衡，而是土地制度、狩猎文化与联邦州权博弈共同制造的治理困局。从沼泽深处的猎手到华盛顿的政策制定者，六个关键转折点串起人猪冲突的百年纠葛。当直升机扫射与避孕疫苗轮番上阵，野猪依然在北纬四十度的农田里横行。这不仅是一部物种入侵史，更是一面镜子，映照出人类试图“管理”自然时的傲慢与失效，以及隐藏在枪声、铁丝网与野味市场背后的共和国裂痕。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 85,
-      "method": "median-of-2",
-      "createdAt": "2026-08-28T00:27:47.134Z"
-    },
-    "coverUrl": "books/proj-mtbihwimi20/releases/rel_20260828032411892_9d50538f42/cover-b7ea01e08497.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtbihwimi20/index.html",
-    "publishedAt": "2026-08-28T03:24:11.917Z",
-    "firstPublishedAt": "2026-08-28T03:21:02.819Z",
     "visibility": "public"
   },
   {
