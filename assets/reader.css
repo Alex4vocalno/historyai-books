@@ -17,6 +17,11 @@ html[data-rmode="page"] .paper-flow{transition:transform .16s ease-out}
 .bm-row:hover{background:color-mix(in srgb,var(--reader-accent) 8%,transparent);color:var(--reader-ink)}
 .bm-row b{color:var(--reader-accent);font-weight:700;margin-right:6px}
 .bm-empty{padding:4px 18px 10px;color:var(--reader-muted);font-family:var(--sans);font-size:13px}
+/* v6.9.26 正文划线（微信读书式）：他人虚线 / 含我实线 / ≥2人缀人数角标（::after 零文本变异） */
+.hai-hl{border-bottom:1.5px dashed color-mix(in srgb,var(--reader-accent) 62%,transparent);cursor:pointer;transition:background .12s}
+.hai-hl:hover{background:color-mix(in srgb,var(--reader-accent) 10%,transparent)}
+.hai-hl.mine{border-bottom:2px solid var(--reader-accent)}
+.hai-hl[data-n]::after{content:attr(data-n);margin:0 1px 0 2px;color:var(--reader-accent);font:700 11px var(--sans);vertical-align:super}
 .idea-dot-ico{width:12px;height:12px;object-fit:contain;vertical-align:-1px;margin-right:3px}
 .idea-dot{display:inline-flex;align-items:center;margin-left:6px;padding:1px 7px;border-radius:9px;background:color-mix(in srgb,var(--reader-accent) 14%,var(--reader-panel));color:var(--reader-accent);font-family:var(--sans);font-size:13px;font-weight:700;cursor:pointer;vertical-align:super;line-height:1.4;user-select:none}
 .idea-sheet{position:fixed;z-index:90;left:0;right:0;bottom:0;max-height:62vh;overflow:auto;padding:18px 18px 26px;border-radius:14px 14px 0 0;background:var(--reader-panel);color:var(--reader-ink);box-shadow:0 -14px 44px rgba(15,20,18,.28);font-family:var(--sans)}

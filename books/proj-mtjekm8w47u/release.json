@@ -39,13 +39,15 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-e2bcab07e832.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
     "generatedAt": "2026-09-02T17:13:46.961Z",
     "textless": false,
+    "profileId": "dawn-object-warm",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "dawn-object-warm"
   },
   "chapters": [
     {
@@ -254,6 +256,6 @@
     }
   ],
   "publishedAt": "2026-09-02T05:18:16.569Z",
-  "formFamily": "method",
-  "rerenderedAt": "2026-09-02T17:13:47.309Z"
+  "rerenderedAt": "2026-09-03T01:01:11.996Z",
+  "formFamily": "method"
 }

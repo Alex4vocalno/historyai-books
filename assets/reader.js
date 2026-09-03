@@ -578,6 +578,7 @@
     fetch('/api/auth/me', { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (d) {
       if (d && d.ok && d.user) {
         loggedIn2 = true; myUid = d.user.id;
+        refreshNotes(); // v6.9.26 登录态确定后重绘划线（「我的划线」实线样式依赖 myUid）
         // v5.8 通知小红点（P2）：有未读时点亮顶栏「书架」，进书架页即清
         fetch('/api/reader/notifications?countOnly=1', { credentials: 'same-origin' })
           .then(function (r5) { return r5.ok ? r5.json() : null; })
@@ -676,7 +677,50 @@
       items.forEach(function (n) { n._replies = (replies || []).filter(function (r) { return r.targetId === n.id; }); });
     }
     // 想法气泡：按引文定位段落
+    // v6.9.26 划线进正文（微信读书式）：同引文聚合成一条下划线（他人虚线、
+    // 含自己实线、≥2 人缀人数角标），点下划线开面板；纯划线（text 空）只出
+    // 下划线不出气泡，气泡只数有想法的条目。角标用 ::after+data-n，零文本
+    // 变异——插入可见字符会破坏后续引文的偏移定位。
     var notesCache = [];
+    function unwrapHl() {
+      document.querySelectorAll('.reader-content .hai-hl').forEach(function (s) {
+        var pn = s.parentNode;
+        while (s.firstChild) pn.insertBefore(s.firstChild, s);
+        pn.removeChild(s);
+        pn.normalize();
+      });
+    }
+    function wrapQuote(p, quote, cls, group) {
+      var full = p.textContent || '';
+      var idx = full.indexOf(quote);
+      var len = quote.length;
+      if (idx < 0) {
+        idx = full.indexOf(quote.slice(0, 40));
+        if (idx < 0) return;
+        len = Math.min(len, full.length - idx);
+      }
+      var walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT, null);
+      var pos = 0, node, targets = [];
+      while ((node = walker.nextNode())) {
+        var nl = node.nodeValue.length;
+        var a = Math.max(idx, pos), b = Math.min(idx + len, pos + nl);
+        if (b > a) targets.push({ node: node, from: a - pos, to: b - pos });
+        pos += nl;
+        if (pos >= idx + len) break;
+      }
+      var last = null;
+      for (var ti = 0; ti < targets.length; ti++) {
+        var r = document.createRange();
+        r.setStart(targets[ti].node, targets[ti].from);
+        r.setEnd(targets[ti].node, targets[ti].to);
+        var span = document.createElement('span');
+        span.className = cls;
+        try { r.surroundContents(span); } catch (e9) { continue; }
+        span.onclick = function (ev3) { ev3.stopPropagation(); openSheet(group, p); };
+        last = span;
+      }
+      if (last && group.length > 1) last.setAttribute('data-n', String(group.length));
+    }
     function refreshNotes() {
       fetch('/api/book/notes?bookId=' + encodeURIComponent(data.bookId) + '&chapter=' + (Number(data.chapter) + 1))
         .then(function (r) { return r.json(); })
@@ -685,15 +729,25 @@
           attachReplies(d.notes, d.replies);
           notesCache = d.notes;
           document.querySelectorAll('.idea-dot').forEach(function (x) { x.remove(); });
+          unwrapHl();
           var ps = document.querySelectorAll('.reader-content p');
           var byPara = {};
+          var byQuote = {};
           d.notes.forEach(function (n) {
             var hit = -1;
             for (var i = 0; i < ps.length; i++) {
               if ((ps[i].textContent || '').indexOf(n.quote.slice(0, 60)) !== -1) { hit = i; break; }
             }
             n._para = hit;
-            (byPara[hit] = byPara[hit] || []).push(n);
+            if (n.text) (byPara[hit] = byPara[hit] || []).push(n);
+            if (hit >= 0) (byQuote[n.quote] = byQuote[n.quote] || []).push(n);
+          });
+          Object.keys(byQuote).forEach(function (q) {
+            var group = byQuote[q];
+            var p2 = ps[group[0]._para];
+            if (!p2) return;
+            var mine = group.some(function (n) { return myUid && n.uid === myUid; });
+            wrapQuote(p2, q, 'hai-hl' + (mine ? ' mine' : ''), group);
           });
           Object.keys(byPara).forEach(function (k) {
             var i2 = Number(k);
@@ -709,11 +763,32 @@
     function openSheet(notes2, paraEl) {
       closeSheet();
       sheet = el2('div', 'idea-sheet');
-      sheet.appendChild(el2('h4', '', T('想法', 'Thoughts') + ' · ' + notes2.length));
+      var thoughts = notes2.filter(function (n) { return n.text; });
+      var marks = notes2.filter(function (n) { return !n.text; });
+      sheet.appendChild(el2('h4', '', thoughts.length ? T('想法', 'Thoughts') + ' · ' + thoughts.length : T('划线', 'Underlines')));
       sheet.appendChild(el2('p', 'idea-quote', notes2[0].quote));
-      notes2.forEach(function (n) { renderItem(sheet, n, 'note', refreshAll); });
+      if (marks.length) {
+        var mrow = el2('p', 'idea-hint', T(marks.length + ' 人划过这里', marks.length + (marks.length > 1 ? ' readers underlined this' : ' reader underlined this')));
+        var minem = null;
+        for (var mi = 0; mi < marks.length; mi++) if (myUid && marks[mi].uid === myUid) { minem = marks[mi]; break; }
+        if (minem) {
+          var un = el2('a', '', T(' · 取消我的划线', ' · Remove mine'));
+          un.style.cursor = 'pointer';
+          un.onclick = function () { post2('/api/book/delete', { bookId: data.bookId, kind: 'note', id: minem.id }).then(refreshAll); };
+          mrow.appendChild(un);
+        }
+        sheet.appendChild(mrow);
+      }
+      thoughts.forEach(function (n) { renderItem(sheet, n, 'note', refreshAll); });
       if (!loggedIn2) loginHint(sheet);
       var x = el2('div', 'idea-act');
+      var w = el2('span', '', T('✍ 写想法', '✍ Add a thought'));
+      w.onclick = function () {
+        var q = notes2[0].quote;
+        var pi = Math.max(0, Number(notes2[0]._para) || 0);
+        if (window.__haiIdeaCompose) window.__haiIdeaCompose(q, pi);
+      };
+      x.appendChild(w);
       var c = el2('span', '', T('关闭', 'Close'));
       c.onclick = closeSheet;
       x.appendChild(c);
@@ -721,6 +796,7 @@
       document.body.appendChild(sheet);
     }
     function refreshAll() { closeSheet(); refreshNotes(); }
+    window.__haiNotesRefresh = refreshAll;
     // 想法作曲器（选择浮钮的 💬 调用）
     window.__haiIdeaCompose = function (quote, para) {
       closeSheet();
@@ -853,6 +929,23 @@
         content2.appendChild(box);
       }
     }
+  })();
+
+  // v6.9.26 阅读时长（微信读书向）：页面可见每 30s 记账入本机，目录头显示本书累计
+  (function readTime() {
+    if (!data.bookId) return;
+    var tk = 'historyai.readtime.' + data.bookId;
+    setInterval(function () {
+      if (document.visibilityState !== 'visible') return;
+      try { localStorage.setItem(tk, String((Number(localStorage.getItem(tk)) || 0) + 30)); } catch (e) { /* 隐私模式 */ }
+    }, 30000);
+    try {
+      var secs = Number(localStorage.getItem(tk)) || 0;
+      if (secs >= 60 && drawer) {
+        var headSpan = drawer.querySelector('.drawer-head span');
+        if (headSpan) headSpan.textContent += (data.lang === 'en' ? ' · read ' + Math.round(secs / 60) + ' min' : ' · 已读 ' + Math.round(secs / 60) + ' 分钟');
+      }
+    } catch (e2) { /* 隐私模式 */ }
   })();
 
   layout(false);

@@ -2317,7 +2317,7 @@ var qrcode = function() {
   var ideaBtn = document.createElement('button');
   ideaBtn.type = 'button';
   ideaBtn.textContent = SOCIAL_EN ? '💬 Thought' : '💬 想法';
-  ideaBtn.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(calc(-50% + 92px));z-index:80;display:none;min-height:44px;padding:0 18px;border:0;border-radius:22px;background:#3b6ea5;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(30,70,110,.4);cursor:pointer';
+  ideaBtn.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(calc(-50% + 124px));z-index:80;display:none;min-height:44px;padding:0 18px;border:0;border-radius:22px;background:#3b6ea5;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(30,70,110,.4);cursor:pointer';
   ideaBtn.onclick = function () {
     var quote = currentQuote;
     if (!quote) return;
@@ -2335,8 +2335,32 @@ var qrcode = function() {
     if (window.__haiIdeaCompose) window.__haiIdeaCompose(quote, para);
     fab.style.display = 'none';
     ideaBtn.style.display = 'none';
+    hlBtn.style.display = 'none';
   };
   document.body.appendChild(ideaBtn);
+  // v6.9.26 纯划线（微信读书向）：选中即划，不强制写想法；成功后阅读器重绘下划线
+  var hlBtn = document.createElement('button');
+  hlBtn.type = 'button';
+  hlBtn.textContent = SOCIAL_EN ? '✏️ Underline' : '✏️ 划线';
+  hlBtn.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(calc(-50% + 8px));z-index:80;display:none;min-height:44px;padding:0 18px;border:0;border-radius:22px;background:#8a6a2f;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(110,85,30,.4);cursor:pointer';
+  hlBtn.onclick = function () {
+    var quote = currentQuote;
+    if (!quote) return;
+    var para = captureParaIndex();
+    fetch('/api/book/notes', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin',
+      body: JSON.stringify({ bookId: data.bookId, chapter: Number(data.chapter) + 1, para: para, quote: quote, text: '' })
+    }).then(function (r) { return r.json(); }).then(function (d2) {
+      if (d2 && d2.ok) {
+        try { window.getSelection().removeAllRanges(); } catch (e1) {}
+        if (window.__haiNotesRefresh) window.__haiNotesRefresh();
+      } else alert(SOCIAL_EN ? 'Sign in to underline' : '登录后才能划线');
+    }).catch(function () { alert(SOCIAL_EN ? 'Network error' : '网络异常，稍后再试'); });
+    fab.style.display = 'none';
+    ideaBtn.style.display = 'none';
+    hlBtn.style.display = 'none';
+  };
+  document.body.appendChild(hlBtn);
   fab.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(-50%);z-index:80;display:none;min-height:44px;padding:0 22px;border:0;border-radius:22px;background:#0a9b6d;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(7,120,85,.4);cursor:pointer';
   document.body.appendChild(fab);
 
@@ -2381,10 +2405,12 @@ var qrcode = function() {
       currentPara = captureParaIndex();
       fab.style.display = 'block';
       ideaBtn.style.display = 'block';
-      fab.style.transform = 'translateX(calc(-50% - 62px))';
+      hlBtn.style.display = 'block';
+      fab.style.transform = 'translateX(calc(-50% - 116px))';
     } else if (!text) {
       fab.style.display = 'none';
       ideaBtn.style.display = 'none';
+      hlBtn.style.display = 'none';
     }
   }
   document.addEventListener('selectionchange', function () { setTimeout(onSelection, 60); });
@@ -2640,6 +2666,7 @@ var qrcode = function() {
       document.body.appendChild(wrap);
       fab.style.display = 'none';
       ideaBtn.style.display = 'none';
+      hlBtn.style.display = 'none';
     });
   }
   fab.addEventListener('click', openOverlay);
