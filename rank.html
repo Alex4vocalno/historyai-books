@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>榜单 · EVORON AI电子书城</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+:root{--bg:#f4f5f4;--surface:#fff;--panel:#fff;--ink:#202524;--muted:#747b79;--line:#e2e5e3;--green:#079b6b;--green-dark:#087a58;--accent:#079b6b;--accent-dark:#087a58;--gold:#b27a22;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:var(--sans)}a{color:inherit;text-decoration:none}
+.topbar{background:#fff;border-bottom:1px solid var(--line)}
+.topbar-inner{max-width:1180px;margin:0 auto;padding:0 24px;height:60px;display:flex;align-items:center;justify-content:space-between}
+.topbar .brand{display:inline-flex;align-items:center;gap:10px}
+.topbar .brand-mark{height:32px;display:block;mix-blend-mode:multiply}
+.topbar .brand-word{font-size:20px;font-weight:800;letter-spacing:.02em;background:linear-gradient(105deg,#123a8c 0%,#1f6fd6 55%,#28b4e8 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.topbar .brand-cn{font-family:var(--serif);font-size:19px;font-weight:800;letter-spacing:.14em;color:var(--ink)}
+.topbar-right{display:flex;align-items:center;gap:8px}
+.topbar-link{display:inline-flex;align-items:center;min-height:32px;padding:0 12px;border-radius:16px;color:var(--muted);font-size:13px;font-weight:700}
+.topbar-link:hover{background:#f2f5f4;color:var(--green-dark)}
+.topbar-link.active{background:#eaf4ef;color:var(--green-dark)}
+.page-head{max-width:1120px;margin:0 auto;padding:36px 24px 0}
+.page-head h1{margin:0;font-family:var(--serif);font-size:31px;line-height:1.4}
+.page-head .lede{margin:10px 0 0;color:var(--muted);font-size:13.5px}
+@media(max-width:720px){.topbar-inner{padding:0 14px}.topbar .brand-cn{display:none}.topbar-link{padding:0 9px}.page-head{padding:24px 16px 0}.page-head h1{font-size:25px}}
+.page{max-width:1080px;margin:0 auto;padding:30px 24px 80px;display:grid;grid-template-columns:216px minmax(0,1fr);gap:34px;align-items:start}
+.rank-nav{position:sticky;top:20px;border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px;max-height:calc(100vh - 40px);overflow:auto}
+.nav-sec{padding:12px 12px 6px;color:var(--muted);font-size:13px;font-weight:800;letter-spacing:.08em}
+.rank-nav button{display:flex;align-items:center;gap:8px;width:100%;min-height:38px;padding:0 12px;border:0;border-radius:8px;background:transparent;color:var(--ink);font:14px var(--sans);cursor:pointer;text-align:left}
+.rank-nav button:hover{background:#f2f4f3}
+.rank-nav button.on{background:color-mix(in srgb,var(--green) 10%,#fff);color:var(--green-dark);font-weight:800}
+.rank-nav button em{font-style:normal;margin-left:auto;color:var(--muted);font-size:13px}
+.rank-head h1{margin:0;font-family:var(--serif);font-size:27px}
+.rank-head p{margin:7px 0 0;color:var(--muted);font-size:13.5px}
+.rk-list{margin-top:20px;border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}
+.rk-item{display:grid;grid-template-columns:44px 74px minmax(0,1fr);gap:16px;padding:18px 20px;border-bottom:1px solid var(--line);align-items:start}
+.rk-item:last-child{border-bottom:0}
+.rk-item:hover{background:#fafbfa}
+.rk-num{font:italic 800 22px Georgia,serif;color:#c2c8c5;text-align:center;padding-top:4px}
+.rk-num.top1{color:#e0452e}.rk-num.top2{color:#e08a2e}.rk-num.top3{color:#c98a1b}
+.rk-cov{width:74px;aspect-ratio:2/3;border-radius:3px;overflow:hidden;background:#eceeeb;box-shadow:0 2px 8px rgba(20,30,25,.14)}
+.rk-cov img{width:100%;height:100%;object-fit:cover;display:block}
+.rk-info{min-width:0}
+.rk-info strong{font:600 16.5px var(--serif);line-height:1.4}
+.rk-info .wom{font-style:normal;font-weight:800;margin-left:8px;padding:1px 8px;border-radius:10px;font-size:13px;vertical-align:2px;border:1px solid transparent}
+.wom-god{color:#b87c12;background:linear-gradient(180deg,rgba(233,196,106,.2),rgba(217,168,63,.08));border-color:rgba(201,138,27,.3)}
+.wom-hot{color:#d8402a;background:rgba(224,69,46,.07);border-color:rgba(224,69,46,.22)}
+.wom-good{color:#2f6fc4;background:rgba(58,123,200,.07);border-color:rgba(58,123,200,.22)}
+.rk-info small{display:block;margin-top:5px;color:var(--muted);font-size:13px}
+.rk-desc{margin:8px 0 0;color:#565e5a;font-size:13.5px;line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.rk-rec{display:block;margin-top:8px;color:var(--muted);font-size:13px}
+.rk-rec b{color:#3c443f;font-weight:800;font-variant-numeric:tabular-nums}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+@media(max-width:860px){.page{display:block;padding:16px 12px 60px}.rank-nav{position:static;display:flex;overflow-x:auto;max-height:none;padding:8px;margin-bottom:14px;gap:4px}.rank-nav button{flex:none;width:auto}.nav-sec{display:none}.rk-item{grid-template-columns:30px 58px minmax(0,1fr);gap:10px;padding:14px 12px}.rk-cov{width:58px}.rk-desc{-webkit-line-clamp:2}}
+</style></head><body>
+<header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a href="/index.html" style="color:var(--muted);font-size:14px" data-t="back">← 返回书城</a></span></div></header>
+<main class="page">
+<aside class="rank-nav" data-nav></aside>
+<section>
+<header class="rank-head"><h1 data-title></h1><p data-note></p></header>
+<div class="rk-list" data-list><div class="empty" data-t="loading">载入中…</div></div>
+</section>
+</main>
+<script>
+(function(){
+  var EN=false;try{EN=localStorage.getItem('hai.shelfLang')==='en'}catch(e){}
+  function T(zh,en){return EN?en:zh}
+  document.title=T('榜单 · EVORON AI电子书城','Charts · EVORON AI Bookstore');
+  var backEl=document.querySelector('[data-t="back"]');backEl.textContent=T('← 返回书城','← Back to library');if(EN)backEl.href='/index-en.html';
+  function esc(v){return String(v==null?'':v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+  var BOARDS=[
+    {k:'surging',t:T('飙升榜','Surging'),n:T('最近 30 天上架中评分领先的作品','Top-rated among books published in the last 30 days')},
+    {k:'fresh',t:T('新书榜','New arrivals'),n:T('最近上架的新作品','The latest additions to the library')},
+    {k:'top',t:T('总榜','All-time'),n:T('全馆读者与编辑评分最高的作品','Highest-rated across the whole library')},
+    {k:'master',t:T('神作榜','Masterworks'),n:T('编辑评分 8.5 分以上的高分书','Books rated 8.5 and above')}
+  ];
+  function womTier(s){return s>=90?['wom-god',T('神作','Masterwork')]:s>=85?['wom-hot',T('好评如潮','Acclaimed')]:s>=78?['wom-good',T('值得一读','Worth reading')]:null}
+  fetch('/books/index.json').then(function(r){return r.json()}).then(function(all){
+    var rows=all.filter(function(b){return b&&b.visibility!=='unlisted'&&(EN?String(b.language||'').indexOf('en')===0:String(b.language||'').indexOf('en')!==0)});
+    function scoreOf(b){return b.editorialScore&&Number(b.editorialScore.score)||0}
+    function dateOf(b){return Date.parse(b.firstPublishedAt||b.publishedAt||'')||0}
+    var scored=rows.filter(function(b){return scoreOf(b)>0});
+    function byScore(a){return a.slice().sort(function(x,y){return scoreOf(y)-scoreOf(x)})}
+    var now=Date.now();
+    function within(days){return function(b){return now-dateOf(b)<days*86400000}}
+    var cats={};rows.forEach(function(b){var g=b.category||T('历史','History');cats[g]=(cats[g]||0)+1});
+    var catNames=Object.keys(cats).sort(function(a,b){return cats[b]-cats[a]});
+    function listFor(key){
+      if(key==='surging')return byScore(scored.filter(within(30))).slice(0,20);
+      if(key==='fresh')return rows.slice().sort(function(a,b){return dateOf(b)-dateOf(a)}).slice(0,20);
+      if(key==='top')return byScore(scored).slice(0,20);
+      if(key==='master')return byScore(scored.filter(function(b){return scoreOf(b)>=85})).slice(0,20);
+      if(key.indexOf('cat-')===0){var g=decodeURIComponent(key.slice(4));return byScore(rows.filter(function(b){return (b.category||T('历史','History'))===g})).slice(0,20)}
+      return [];
+    }
+    function headFor(key){
+      var bd=BOARDS.filter(function(b){return b.k===key})[0];
+      if(bd)return bd;
+      if(key.indexOf('cat-')===0){var g=decodeURIComponent(key.slice(4));return {t:g,n:cats[g]?cats[g]+T(' 部作品 · 按评分排序',' books · sorted by rating'):''}}
+      return BOARDS[0];
+    }
+    var nav=document.querySelector('[data-nav]');
+    var navHtml='<div class="nav-sec">'+T('榜单','CHARTS')+'</div>';
+    BOARDS.forEach(function(b){navHtml+='<button type="button" data-key="'+b.k+'">'+esc(b.t)+'</button>'});
+    navHtml+='<div class="nav-sec">'+T('分类','CATEGORIES')+'</div>';
+    catNames.forEach(function(g){navHtml+='<button type="button" data-key="cat-'+encodeURIComponent(g)+'">'+esc(g)+'<em>'+cats[g]+'</em></button>'});
+    nav.innerHTML=navHtml;
+    function render(key){
+      var head=headFor(key);
+      document.querySelector('[data-title]').textContent=head.t;
+      document.querySelector('[data-note]').textContent=head.n||'';
+      nav.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x.dataset.key===key)});
+      var list=listFor(key);
+      var box=document.querySelector('[data-list]');
+      if(!list.length){box.innerHTML='<div class="empty">'+T('这个榜单暂时是空的。','Nothing here yet.')+'</div>';return}
+      box.innerHTML=list.map(function(b,i){
+        var s=scoreOf(b);var tier=s?womTier(s):null;
+        return '<a class="rk-item" href="'+esc(b.url||'#')+'">'
+          +'<i class="rk-num'+(i<3?' top'+(i+1):'')+'">'+(i+1)+'</i>'
+          +'<span class="rk-cov">'+(b.coverUrl?'<img src="'+esc(b.coverUrl)+'" alt="'+esc(b.title)+'" loading="lazy">':'')+'</span>'
+          +'<span class="rk-info"><strong>'+esc(b.title)+'</strong>'+(tier?'<i class="wom '+tier[0]+'">'+tier[1]+'</i>':'')
+          +'<small>'+esc(b.authorDisplayName||T('未署名','Unsigned'))+' · '+esc(b.category||T('历史','History'))+' · '+(Number(b.chapterCount)||0)+T(' 章',' chapters')+'</small>'
+          +(b.description?'<p class="rk-desc">'+esc(String(b.description).replace(/\s+/g,' ').slice(0,150))+'</p>':'')
+          +(s?'<span class="rk-rec">'+T('推荐值 ','Recommend ')+'<b>'+s.toFixed(1)+'%</b></span>':'')
+          +'</span></a>';
+      }).join('');
+    }
+    nav.addEventListener('click',function(e){
+      var b=e.target.closest&&e.target.closest('button[data-key]');
+      if(!b)return;
+      location.hash=b.dataset.key;
+    });
+    function fromHash(){var k=(location.hash||'').replace(/^#/,'')||'surging';render(k)}
+    addEventListener('hashchange',fromHash);
+    fromHash();
+  }).catch(function(){document.querySelector('[data-list]').innerHTML='<div class="empty">'+T('榜单暂时打不开，稍后再试。','Charts are unavailable right now.')+'</div>'});
+})();
+</script></body></html>
