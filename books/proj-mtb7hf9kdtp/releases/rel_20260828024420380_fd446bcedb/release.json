@@ -39,15 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-f6bcebf02895.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-27T14:26:15.943Z",
+    "generatedAt": "2026-09-03T12:33:24.340Z",
     "textless": false,
-    "profileId": "dawn-object-warm",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "dawn-object-warm"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -155,5 +152,5 @@
   ],
   "illustrations": 5,
   "publishedAt": "2026-08-28T02:44:20.428Z",
-  "rerenderedAt": "2026-09-03T02:31:23.198Z"
+  "rerenderedAt": "2026-09-03T12:33:24.351Z"
 }

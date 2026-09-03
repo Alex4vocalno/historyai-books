@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-2b6a8e5a0be4.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-27T14:05:23.968Z",
+    "generatedAt": "2026-09-03T12:38:27.909Z",
     "textless": false,
-    "profileId": "business-structural",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "business-structural"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -153,5 +150,6 @@
       "units": 5768
     }
   ],
-  "publishedAt": "2026-09-02T12:17:12.659Z"
+  "publishedAt": "2026-09-02T12:17:12.659Z",
+  "rerenderedAt": "2026-09-03T12:38:27.917Z"
 }
