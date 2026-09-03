@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtiobstxxk6",
+    "projectId": "proj-mtiobstxxk6",
+    "releaseId": "rel_20260902003058977_1940cb6b36",
+    "title": "温差",
+    "subtitle": "中美股市三十年制度分野实录",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "心安处是故乡",
+    "category": "经济理财",
+    "tags": [
+      "中美股市",
+      "制度比较",
+      "金融史",
+      "市场机制",
+      "投资逻辑",
+      "经济理财"
+    ],
+    "description": "1990年至2024年，中美股市在同一条时间轴上走出了截然不同的曲线。这并非偶然的周期错位，而是融资导向与投资导向、政策干预与市场出清、散户洪流与机构定价四组制度变量长期博弈的必然结果。本书以三十余年可追溯的历史数据为锚，穿透暴涨暴跌的表象，还原A股波动作为制度内生特征的演化逻辑。从退市机制的缺位到流动性的双重面孔，从估值幻象到长牛结构，每一组中美同期对照都在揭示市场性格背后的深层基因。这不是诊疗手册，而是一份关于两种市场温度如何形成的冷静底稿。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-1",
+      "createdAt": "2026-09-01T15:59:46.641Z"
+    },
+    "coverUrl": "books/proj-mtiobstxxk6/releases/rel_20260902003058977_1940cb6b36/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtiobstxxk6/index.html",
+    "publishedAt": "2026-09-02T00:30:58.996Z",
+    "firstPublishedAt": "2026-09-02T00:30:58.996Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtjekm8w47u",
     "projectId": "proj-mtjekm8w47u",
     "releaseId": "rel_20260902051816561_d3d0635e19",
@@ -303,40 +337,6 @@
     "url": "books/proj-mtcz9iq8lh0/index.html",
     "publishedAt": "2026-08-29T04:00:50.154Z",
     "firstPublishedAt": "2026-08-29T03:46:34.624Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtiobstxxk6",
-    "projectId": "proj-mtiobstxxk6",
-    "releaseId": "rel_20260902003058977_1940cb6b36",
-    "title": "温差",
-    "subtitle": "中美股市三十年制度分野实录",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "心安处是故乡",
-    "category": "经济理财",
-    "tags": [
-      "中美股市",
-      "制度比较",
-      "金融史",
-      "市场机制",
-      "投资逻辑",
-      "经济理财"
-    ],
-    "description": "1990年至2024年，中美股市在同一条时间轴上走出了截然不同的曲线。这并非偶然的周期错位，而是融资导向与投资导向、政策干预与市场出清、散户洪流与机构定价四组制度变量长期博弈的必然结果。本书以三十余年可追溯的历史数据为锚，穿透暴涨暴跌的表象，还原A股波动作为制度内生特征的演化逻辑。从退市机制的缺位到流动性的双重面孔，从估值幻象到长牛结构，每一组中美同期对照都在揭示市场性格背后的深层基因。这不是诊疗手册，而是一份关于两种市场温度如何形成的冷静底稿。",
-    "chapterCount": 20,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 85,
-      "method": "median-of-1",
-      "createdAt": "2026-09-01T15:59:46.641Z"
-    },
-    "coverUrl": "books/proj-mtiobstxxk6/releases/rel_20260902003058977_1940cb6b36/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtiobstxxk6/index.html",
-    "publishedAt": "2026-09-02T00:30:58.996Z",
-    "firstPublishedAt": "2026-09-02T00:30:58.996Z",
     "visibility": "public"
   },
   {
