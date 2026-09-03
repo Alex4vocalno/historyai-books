@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtd4h0t3sbn",
+    "projectId": "proj-mtd4h0t3sbn",
+    "releaseId": "rel_20260829105150453_db0e5c41ac",
+    "title": "合法收割",
+    "subtitle": "中国金融骗局三十年行为工程史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "心安处是故乡",
+    "category": "中国史",
+    "tags": [
+      "金融史",
+      "行为经济学",
+      "监管套利",
+      "非虚构",
+      "中国当代史",
+      "中国史"
+    ],
+    "description": "从九十年代利率双轨制的缝隙到资管新规后的净值幻觉，那些让无数家庭积蓄归零的产品，往往并非违法的赃物，而是精密合规的文本。本书重返三十个真实金融产品的设计现场，拆解操盘手如何精算监管空白、嵌套法律结构、调配柜台话术，将掠夺逻辑翻译成受保护的契约。这不是道德审判的檄文，而是一份关于认知不对称的解剖报告。当诈骗被编码为系统性的行为工程，受害者失去的不仅是财富，更是识别风险的能力。在规则与套利的永恒博弈中，看清收割机制，是守住财富底线的第一步。",
+    "chapterCount": 30,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-2",
+      "createdAt": "2026-08-29T08:58:25.521Z"
+    },
+    "coverUrl": "books/proj-mtd4h0t3sbn/releases/rel_20260829105150453_db0e5c41ac/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtd4h0t3sbn/index.html",
+    "publishedAt": "2026-08-29T10:51:50.539Z",
+    "firstPublishedAt": "2026-08-29T09:35:04.201Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtcz9iq8lh0",
     "projectId": "proj-mtcz9iq8lh0",
     "releaseId": "rel_20260829040050032_993cf3f669",
@@ -1901,40 +1935,6 @@
     "url": "books/proj-mteb2bkeg41/index.html",
     "publishedAt": "2026-08-29T14:53:54.732Z",
     "firstPublishedAt": "2026-08-29T14:53:54.732Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtd4h0t3sbn",
-    "projectId": "proj-mtd4h0t3sbn",
-    "releaseId": "rel_20260829105150453_db0e5c41ac",
-    "title": "合法收割",
-    "subtitle": "中国金融骗局三十年行为工程史",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "心安处是故乡",
-    "category": "中国史",
-    "tags": [
-      "金融史",
-      "行为经济学",
-      "监管套利",
-      "非虚构",
-      "中国当代史",
-      "中国史"
-    ],
-    "description": "从九十年代利率双轨制的缝隙到资管新规后的净值幻觉，那些让无数家庭积蓄归零的产品，往往并非违法的赃物，而是精密合规的文本。本书重返三十个真实金融产品的设计现场，拆解操盘手如何精算监管空白、嵌套法律结构、调配柜台话术，将掠夺逻辑翻译成受保护的契约。这不是道德审判的檄文，而是一份关于认知不对称的解剖报告。当诈骗被编码为系统性的行为工程，受害者失去的不仅是财富，更是识别风险的能力。在规则与套利的永恒博弈中，看清收割机制，是守住财富底线的第一步。",
-    "chapterCount": 30,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-2",
-      "createdAt": "2026-08-29T08:58:25.521Z"
-    },
-    "coverUrl": "books/proj-mtd4h0t3sbn/releases/rel_20260829105150453_db0e5c41ac/cover-4cb8f7a8369b.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtd4h0t3sbn/index.html",
-    "publishedAt": "2026-08-29T10:51:50.539Z",
-    "firstPublishedAt": "2026-08-29T09:35:04.201Z",
     "visibility": "public"
   },
   {
