@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260903000928879_8e54abf83a",
+  "projectId": "proj-mtjek9a96kg",
+  "manuscriptVersionId": "mv_acb9392b16538952",
+  "contentHash": "acb9392b16538952a3fd45c2b60f0e77fea23658cd03e88399d9ff1e0323254c",
+  "title": "过河的人",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "1998年，黄河滩区少年周船生考上省城大学，却在开学前夜退了学。二十年间，他三次“过河”：进城打工、回乡承包滩地、带全村搬迁上塬。每一次选择，都踩在个人前程与一村人着落的刀刃上。黄河调水、滩地确权、搬迁补偿……城乡双线里，他的每一步都对应着故乡的一次阵痛。当新村终于通电，他把父亲那柄磨得发亮的旧船桨，挂在了文化站的白墙上。",
+  "category": "小说",
+  "tags": [
+    "黄河滩区",
+    "城乡变迁",
+    "乡村纪实",
+    "劳动尊严",
+    "时代选择",
+    "现实"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 14,
+    "units": 58060,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-2",
+    "createdAt": "2026-09-02T16:27:22.653Z"
+  },
+  "editorReview": {
+    "text": "这是一本扎根在黄河滩涂上的小说，开篇省城火车站广场那阵土腥气的风，以及帆布包里那本《高等数学》，瞬间把人拽回1998年的质感里。人物声口特别鲜活，赵援朝那句“做生意呗！我在南方倒腾了一批电子表”的市侩劲儿，和周船生的内敛沉稳对比鲜明，方言对白自然得像是从滩区泥土里长出来的。不过，读起来总觉得章节之间的衔接处有些涩，好几回正看到情绪节点，故事却像被生硬截断了，比如第一章戛然而止在“账本里”，下一章的开头又完全没有交代，需要读者自己费力去拼接人物关系，这种断裂感多少影响了沉浸。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T16:27:22.503Z",
+    "textless": false,
+    "profileId": "fiction-romance-intimate"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "开篇钩子",
+      "units": 2906
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "滩区求学",
+      "units": 5743
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "初次破局",
+      "units": 2184
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "旧桨新墙",
+      "units": 5898
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "关系转折",
+      "units": 5067
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "渡口抉择",
+      "units": 4846
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "中点翻转",
+      "units": 1936
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "老桨难渡",
+      "units": 3265
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "真相逼近",
+      "units": 5509
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "断流之殇",
+      "units": 1994
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "河口遗梦",
+      "units": 6208
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "至暗时刻",
+      "units": 3191
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "终极高潮",
+      "units": 5811
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "弥合裂痕",
+      "units": 3502
+    }
+  ],
+  "publishedAt": "2026-09-03T00:09:28.882Z",
+  "formFamily": "narrative"
+}
