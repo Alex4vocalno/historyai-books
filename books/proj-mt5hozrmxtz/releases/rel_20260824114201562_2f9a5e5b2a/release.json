@@ -39,10 +39,10 @@
     "rating": "编辑意见"
   },
   "cover": {
-    "file": "cover-6fd9f0a2bdf5.jpg",
+    "file": "cover-2e458f4e2677.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-28T03:54:23.920Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-04T07:31:22.523Z",
     "textless": false,
     "sourceTextless": false
   },
@@ -853,5 +853,5 @@
     }
   ],
   "publishedAt": "2026-08-24T11:42:01.564Z",
-  "rerenderedAt": "2026-08-28T03:54:23.956Z"
+  "rerenderedAt": "2026-09-04T07:31:22.528Z"
 }
