@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtljxu4bvx0",
+    "projectId": "proj-mtljxu4bvx0",
+    "releaseId": "rel_20260904012950609_1bc0ce4c95",
+    "title": "落灯记",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "李思特Think",
+    "category": "小说",
+    "tags": [
+      "非遗传承",
+      "双时间线",
+      "治愈",
+      "匠人",
+      "悬疑言情",
+      "慢热"
+    ],
+    "description": "一盏匿名的残破走马灯，一张祖母从未提及的老照片，将灯彩非遗传承人纪云灯拖入三十年前的谜局。订单委托人沈既明，一位沉默的古建修复师，带着他过往的伤痕与她并肩复原这盏旧灯。在灯骨与绢帛的经纬交错间，1990年代灯会上的往事碎片逐渐浮现——那似乎并非一场遗憾的爱情。当两代人的秘密在灯影中交织，纪云灯与沈既明小心翼翼靠近的现在，也悄然被照亮。灯成之夜，真相揭晓，他们又将如何安放自己的心？",
+    "chapterCount": 24,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-04T00:44:23.239Z"
+    },
+    "coverUrl": "books/proj-mtljxu4bvx0/releases/rel_20260904012950609_1bc0ce4c95/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mtljxu4bvx0/index.html",
+    "publishedAt": "2026-09-04T01:29:50.616Z",
+    "firstPublishedAt": "2026-09-04T00:59:37.593Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtljxnsiwq5",
     "projectId": "proj-mtljxnsiwq5",
     "releaseId": "rel_20260904012945050_8a85bd6db0",
@@ -31,40 +65,6 @@
     "url": "books/proj-mtljxnsiwq5/index.html",
     "publishedAt": "2026-09-04T01:29:45.052Z",
     "firstPublishedAt": "2026-09-04T00:59:26.629Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtljxu4bvx0",
-    "projectId": "proj-mtljxu4bvx0",
-    "releaseId": "rel_20260904005937580_1bc0ce4c95",
-    "title": "落灯记",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "fiction",
-    "authorDisplayName": "李思特Think",
-    "category": "小说",
-    "tags": [
-      "非遗传承",
-      "双时间线",
-      "治愈",
-      "匠人",
-      "悬疑言情",
-      "慢热"
-    ],
-    "description": "一盏匿名的残破走马灯，一张祖母从未提及的老照片，将灯彩非遗传承人纪云灯拖入三十年前的谜局。订单委托人沈既明，一位沉默的古建修复师，带着他过往的伤痕与她并肩复原这盏旧灯。在灯骨与绢帛的经纬交错间，1990年代灯会上的往事碎片逐渐浮现——那似乎并非一场遗憾的爱情。当两代人的秘密在灯影中交织，纪云灯与沈既明小心翼翼靠近的现在，也悄然被照亮。灯成之夜，真相揭晓，他们又将如何安放自己的心？",
-    "chapterCount": 24,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-04T00:44:23.239Z"
-    },
-    "coverUrl": "books/proj-mtljxu4bvx0/releases/rel_20260904005937580_1bc0ce4c95/cover.svg",
-    "coverTextless": false,
-    "url": "books/proj-mtljxu4bvx0/index.html",
-    "publishedAt": "2026-09-04T00:59:37.593Z",
-    "firstPublishedAt": "2026-09-04T00:59:37.593Z",
     "visibility": "public"
   },
   {
