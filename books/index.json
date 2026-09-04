@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtljxnsiwq5",
+    "projectId": "proj-mtljxnsiwq5",
+    "releaseId": "rel_20260904012945050_8a85bd6db0",
+    "title": "雪线之下",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "李思特Think",
+    "category": "小说",
+    "tags": [
+      "本格推理",
+      "暴风雪山庄",
+      "时间诡计",
+      "公平解谜",
+      "情感反转",
+      "孤岛悬疑"
+    ],
+    "description": "暴雪封山，观测站成了孤岛。工程师程默的师兄坠崖身亡，现场一切指向意外——直到他在师兄遗物里发现一张写着自己名字的排班表。七名被困者，环环相扣的不在场证明，一场无人承认看过的流星雨。所有线索都已摊开在雪光之下：供电日志、望远镜记录、冰层下的笔迹。当时间的诡计被层层剥开，等待程默的，是比雪原更刺骨的真相。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-04T00:44:11.607Z"
+    },
+    "coverUrl": "books/proj-mtljxnsiwq5/releases/rel_20260904012945050_8a85bd6db0/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtljxnsiwq5/index.html",
+    "publishedAt": "2026-09-04T01:29:45.052Z",
+    "firstPublishedAt": "2026-09-04T00:59:26.629Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtljxu4bvx0",
     "projectId": "proj-mtljxu4bvx0",
     "releaseId": "rel_20260904005937580_1bc0ce4c95",
@@ -31,40 +65,6 @@
     "url": "books/proj-mtljxu4bvx0/index.html",
     "publishedAt": "2026-09-04T00:59:37.593Z",
     "firstPublishedAt": "2026-09-04T00:59:37.593Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtljxnsiwq5",
-    "projectId": "proj-mtljxnsiwq5",
-    "releaseId": "rel_20260904005926624_8a85bd6db0",
-    "title": "雪线之下",
-    "subtitle": "",
-    "language": "zh",
-    "workType": "fiction",
-    "authorDisplayName": "李思特Think",
-    "category": "小说",
-    "tags": [
-      "本格推理",
-      "暴风雪山庄",
-      "时间诡计",
-      "公平解谜",
-      "情感反转",
-      "孤岛悬疑"
-    ],
-    "description": "暴雪封山，观测站成了孤岛。工程师程默的师兄坠崖身亡，现场一切指向意外——直到他在师兄遗物里发现一张写着自己名字的排班表。七名被困者，环环相扣的不在场证明，一场无人承认看过的流星雨。所有线索都已摊开在雪光之下：供电日志、望远镜记录、冰层下的笔迹。当时间的诡计被层层剥开，等待程默的，是比雪原更刺骨的真相。",
-    "chapterCount": 25,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-09-04T00:44:11.607Z"
-    },
-    "coverUrl": "books/proj-mtljxnsiwq5/releases/rel_20260904005926624_8a85bd6db0/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtljxnsiwq5/index.html",
-    "publishedAt": "2026-09-04T00:59:26.629Z",
-    "firstPublishedAt": "2026-09-04T00:59:26.629Z",
     "visibility": "public"
   },
   {
