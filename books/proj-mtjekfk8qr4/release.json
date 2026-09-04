@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-b36fe5bd23d7.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-02T05:16:04.037Z",
+    "generatedAt": "2026-09-04T06:30:50.092Z",
     "textless": false,
-    "profileId": "popsci-luminous"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -169,5 +169,6 @@
     }
   ],
   "publishedAt": "2026-09-02T05:18:05.758Z",
-  "formFamily": "explainer"
+  "formFamily": "explainer",
+  "rerenderedAt": "2026-09-04T06:30:50.097Z"
 }
