@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260904005926624_8a85bd6db0",
+  "projectId": "proj-mtljxnsiwq5",
+  "manuscriptVersionId": "mv_6368abb5738c0548",
+  "contentHash": "6368abb5738c0548b37b1001aa051032386390b2d35f06b2256434cf7eb12767",
+  "title": "雪线之下",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "暴雪封山，观测站成了孤岛。工程师程默的师兄坠崖身亡，现场一切指向意外——直到他在师兄遗物里发现一张写着自己名字的排班表。七名被困者，环环相扣的不在场证明，一场无人承认看过的流星雨。所有线索都已摊开在雪光之下：供电日志、望远镜记录、冰层下的笔迹。当时间的诡计被层层剥开，等待程默的，是比雪原更刺骨的真相。",
+  "category": "小说",
+  "tags": [
+    "本格推理",
+    "暴风雪山庄",
+    "时间诡计",
+    "公平解谜",
+    "情感反转",
+    "孤岛悬疑"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 210828,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T00:44:11.607Z"
+  },
+  "editorReview": {
+    "text": "《雪线之下》最动人的是那种被雪光浸透的孤绝感——储物柜的气味、冰晶的触觉、观测站压抑的光线，这些细节让暴风雪山庄的设定有了呼吸。程默这个人物立住了，他摩挲纸张时的偏执、观察冰晶时的冷静，都在沉默中积蓄着张力。悬念铺设也见功力，从一张排班表到供电日志，逻辑链条清晰得如同雪地上的足迹。不过部分章节的衔接略显生硬，有些埋下的钩子后来没了回响；赵海峰等配角的台词偶尔会跳脱出人物本身，透出几分说教味。但瑕不掩瑜，当所有线索在雪光下摊开时，那种刺骨的寒意是真实的。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-04T00:36:36.015Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "雪山异响",
+      "units": 6576
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "时间的裂痕",
+      "units": 9038
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "抽屉疑云",
+      "units": 7573
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "暗礁",
+      "units": 5520
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "笔迹疑云",
+      "units": 7193
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "数据幽灵",
+      "units": 9093
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "发电机的嗡鸣",
+      "units": 7801
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "时间锚点",
+      "units": 8436
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "时间线的对齐",
+      "units": 7014
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "笔锋的背叛",
+      "units": 7207
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "被迫摊牌",
+      "units": 12663
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "流星雨谎言",
+      "units": 6447
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "冰晶证言",
+      "units": 8062
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "数据疑云",
+      "units": 6653
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "时间的裂隙",
+      "units": 11720
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "时间幽灵",
+      "units": 10515
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "沉默的掩护",
+      "units": 9409
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "冰层下的真相",
+      "units": 10731
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "献祭真相",
+      "units": 11641
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "逻辑的献祭",
+      "units": 9506
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "情感的雪崩",
+      "units": 9610
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "献祭逻辑",
+      "units": 5588
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "雪线抉择",
+      "units": 8976
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "抉择时刻",
+      "units": 6062
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "融雪时分",
+      "units": 7794
+    }
+  ],
+  "publishedAt": "2026-09-04T00:59:26.629Z"
+}
