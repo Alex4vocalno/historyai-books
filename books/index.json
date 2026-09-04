@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtlhhxz8bf8",
+    "projectId": "proj-mtlhhxz8bf8",
+    "releaseId": "rel_20260904042518594_d2109b9240",
+    "title": "What Nora Knew",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "李思特Think",
+    "category": "小说",
+    "tags": [
+      "心理悬疑",
+      "双时间线",
+      "日记谜案",
+      "职业伦理",
+      "火灾真相",
+      "悬疑"
+    ],
+    "description": "悲伤咨询师诺拉接下了一个新案子：一位在火灾中丧生的女性的丈夫。官方结论是意外，但诺拉却在丈夫的叙述与亡妻日记之间，发现了微小却无法忽视的裂痕。她自己的过去——一个未能及时报告、最终走向杀戮的客户——正悄然扭曲她的判断。当两个时空的线索最终交汇，那场火灾的真相，将彻底颠覆一切。",
+    "chapterCount": 10,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-04T03:49:50.113Z"
+    },
+    "coverUrl": "books/proj-mtlhhxz8bf8/releases/rel_20260904042518594_d2109b9240/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtlhhxz8bf8/index.html",
+    "publishedAt": "2026-09-04T04:25:18.598Z",
+    "firstPublishedAt": "2026-09-04T04:25:18.598Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtljwi4cw8p",
     "projectId": "proj-mtljwi4cw8p",
     "releaseId": "rel_20260904035228850_d14871e44b",

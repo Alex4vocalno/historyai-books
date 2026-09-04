@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260904042518594_d2109b9240",
+  "projectId": "proj-mtlhhxz8bf8",
+  "manuscriptVersionId": "mv_d612ac4cf0a1f965",
+  "contentHash": "d612ac4cf0a1f965550c05c05ec049507089c23eb8e0fdc5f947fd5f6e49cb1e",
+  "title": "What Nora Knew",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "悲伤咨询师诺拉接下了一个新案子：一位在火灾中丧生的女性的丈夫。官方结论是意外，但诺拉却在丈夫的叙述与亡妻日记之间，发现了微小却无法忽视的裂痕。她自己的过去——一个未能及时报告、最终走向杀戮的客户——正悄然扭曲她的判断。当两个时空的线索最终交汇，那场火灾的真相，将彻底颠覆一切。",
+  "category": "小说",
+  "tags": [
+    "心理悬疑",
+    "双时间线",
+    "日记谜案",
+    "职业伦理",
+    "火灾真相",
+    "悬疑"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 10,
+    "units": 28359,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T03:49:50.113Z"
+  },
+  "editorReview": {
+    "text": "这本书最迷人的地方在于那种持续的认知撕裂感——日记里关于拇指伤疤、化学气味的细节，与詹姆斯口中那场'意外'之间，存在着微小却无法忽视的裂痕，读者几乎能同步诺拉的怀疑，凭已给出的线索自行推演。对白层次也相当精准，詹姆斯的'表演性悲伤'与诺拉试探间的心理博弈，让每一场对话都暗藏张力。不过，部分章节的英文密度确实偏高，影响了中文阅读的流畅沉浸；而最令人挂心的是，故事在关键处戛然而止，我们尚未能验证，那场火灾的真相是否配得上此前扎实的铺垫。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-04T03:43:33.403Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "初次会谈",
+      "units": 1371
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "日记首章",
+      "units": 1760
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "被遗忘的周年",
+      "units": 4012
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "灰烬与证据",
+      "units": 3367
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "噩梦与录音",
+      "units": 1382
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "情人与供词",
+      "units": 6097
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "职业指控",
+      "units": 1865
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "最终计划",
+      "units": 2782
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "忏悔",
+      "units": 2745
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "双火交叠",
+      "units": 2978
+    }
+  ],
+  "publishedAt": "2026-09-04T04:25:18.598Z"
+}
