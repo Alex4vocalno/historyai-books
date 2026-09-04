@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260904035228850_d14871e44b",
+  "projectId": "proj-mtljwi4cw8p",
+  "manuscriptVersionId": "mv_c34d04f140956560",
+  "contentHash": "c34d04f1409565602a4ade92951b0f023cfdbde59f58a270f9e351efd157ba6c",
+  "title": "王安：华人计算机帝国的崛起与崩塌",
+  "subtitle": "从哈佛实验室到破产法庭的决策复盘",
+  "authorDisplayName": "李思特Think",
+  "description": "1980年代，王安实验室市值高达56亿美元，是当时全球华人商业成就的巅峰。这位从上海交大到哈佛应用物理实验室的工程师，曾凭磁芯存储器专利从IBM手中换取第一桶金，又靠文字处理机在蓝色巨人的阴影下撕开市场。然而，拒绝兼容PC标准与传位长子的连环决策，让帝国在短短数年内走向破产保护。本书重返每一个关键转折的决策现场，还原当事人掌握的信息、可选项与性格如何压倒理性。这不仅是一家科技公司的兴衰实录，更是一代华人移民工程师在美国企业界打破天花板、又亲手重建它的悲剧性注脚。",
+  "category": "人物传记",
+  "tags": [
+    "商业史",
+    "科技传记",
+    "王安",
+    "企业决策",
+    "华人移民",
+    "世界史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 17,
+    "units": 147750,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T03:01:06.840Z"
+  },
+  "editorReview": {
+    "text": "本书在创始人传的框架下，构建了一条从王安个人心理结构（对控制的渴望）到其工程思维（约束下的精确），再到垂直整合商业哲学，最终被平台逻辑围剿的完整论证链条，每一环都有扎实的史料与具体场景支撑，避免了从史料直接跳跃到时代结论的常见硬伤。尤为可贵的是，它通过第16章对档案、回忆录与学术论文的交叉验证，系统性地修正了“王安因固执拒绝兼容PC”的流行叙事，将失败还原为在有限信息、内部政治与强烈情感约束下的悲剧性选择，论证严谨。主要保留意见在于文风存在机械感与重复句式，部分章节（如开篇）信息密度过高、节奏略显冗长，影响了阅读的流畅性；此外，对“开放架构如何具体催生生态”这一关键机制的解释，部分环节仍依赖结论性陈述，可更充分展开。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-04T03:52:22.934Z",
+    "textless": false,
+    "profileId": "serious-history-editorial",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "上海昆山路的少年",
+      "units": 8363
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "哈佛计算实验室的闯入者",
+      "units": 8307
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "专利交易里的对赌",
+      "units": 7738
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "计算器赌局",
+      "units": 9360
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "文字处理机的诞生",
+      "units": 8512
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "洛厄尔的总部大楼",
+      "units": 7563
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "上市公司的代价",
+      "units": 11240
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "蓝色阴影",
+      "units": 7863
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "垂直整合的孤岛",
+      "units": 8835
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "王烈登场",
+      "units": 7652
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "拒绝兼容的代价",
+      "units": 12079
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "裁员与裂痕",
+      "units": 7392
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "破产法庭上的遗产分割",
+      "units": 10082
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "残局中的幸存者",
+      "units": 7669
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "王安之后",
+      "units": 7965
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "档案室里的另一种真相",
+      "units": 9094
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "洛厄尔楼群的黄昏",
+      "units": 8036
+    }
+  ],
+  "publishedAt": "2026-09-04T03:52:28.858Z",
+  "formFamily": "narrative"
+}
