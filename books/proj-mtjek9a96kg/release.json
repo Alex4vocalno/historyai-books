@@ -39,12 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-93c7e4c849d1.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-02T16:27:22.503Z",
+    "generatedAt": "2026-09-04T06:05:58.564Z",
     "textless": false,
-    "profileId": "fiction-romance-intimate"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -133,5 +133,6 @@
     }
   ],
   "publishedAt": "2026-09-03T00:09:28.882Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "rerenderedAt": "2026-09-04T06:05:58.569Z"
 }

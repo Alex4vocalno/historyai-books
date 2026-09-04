@@ -39,12 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-2309faf181c1.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-02T14:18:34.548Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-04T06:09:54.809Z",
     "textless": false,
-    "profileId": "ledger-tape-archive"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -162,5 +162,6 @@
       "units": 6784
     }
   ],
-  "publishedAt": "2026-09-02T16:21:00.430Z"
+  "publishedAt": "2026-09-02T16:21:00.430Z",
+  "rerenderedAt": "2026-09-04T06:09:54.815Z"
 }

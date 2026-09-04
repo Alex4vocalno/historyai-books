@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-98802c0f9263.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-28T02:20:50.321Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-04T06:24:55.719Z",
     "textless": false,
-    "profileId": "psychology-inner-space"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -151,5 +151,6 @@
     }
   ],
   "illustrations": 6,
-  "publishedAt": "2026-09-02T12:16:54.945Z"
+  "publishedAt": "2026-09-02T12:16:54.945Z",
+  "rerenderedAt": "2026-09-04T06:24:55.726Z"
 }

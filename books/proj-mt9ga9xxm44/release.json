@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-3991fdb4c48b.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-02T15:02:50.053Z",
+    "generatedAt": "2026-09-04T06:09:10.890Z",
     "textless": false,
-    "profileId": "eco-panorama-wash"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -170,5 +170,6 @@
   ],
   "illustrations": 15,
   "publishedAt": "2026-09-02T16:21:05.789Z",
-  "formFamily": "survey"
+  "formFamily": "survey",
+  "rerenderedAt": "2026-09-04T06:09:10.897Z"
 }

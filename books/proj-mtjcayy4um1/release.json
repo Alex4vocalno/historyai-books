@@ -39,12 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-e2cc6bbd4135.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-02T16:33:02.341Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-04T06:05:17.266Z",
     "textless": false,
-    "profileId": "fiction-mystery-noir"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -145,5 +145,6 @@
     }
   ],
   "publishedAt": "2026-09-03T00:09:39.056Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "rerenderedAt": "2026-09-04T06:05:17.271Z"
 }
