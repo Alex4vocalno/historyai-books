@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260904005937580_1bc0ce4c95",
+  "projectId": "proj-mtljxu4bvx0",
+  "manuscriptVersionId": "mv_b498e9bbd79104c3",
+  "contentHash": "b498e9bbd79104c3e9d69eda15d9cf13f276ef54efd75cc90e854c870725f810",
+  "title": "落灯记",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "一盏匿名的残破走马灯，一张祖母从未提及的老照片，将灯彩非遗传承人纪云灯拖入三十年前的谜局。订单委托人沈既明，一位沉默的古建修复师，带着他过往的伤痕与她并肩复原这盏旧灯。在灯骨与绢帛的经纬交错间，1990年代灯会上的往事碎片逐渐浮现——那似乎并非一场遗憾的爱情。当两代人的秘密在灯影中交织，纪云灯与沈既明小心翼翼靠近的现在，也悄然被照亮。灯成之夜，真相揭晓，他们又将如何安放自己的心？",
+  "category": "小说",
+  "tags": [
+    "非遗传承",
+    "双时间线",
+    "治愈",
+    "匠人",
+    "悬疑言情",
+    "慢热"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 24,
+    "units": 176178,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T00:44:23.239Z"
+  },
+  "editorReview": {
+    "text": "《落灯记》最动人的是那些沉静的在场瞬间：工作室里尘埃在光线中漂浮的质感，绢帛与灯骨交错时细微的声响，都让纪云灯这个非遗传承人的世界变得可触可感。人物声口也极贴合——纪云灯的克制与沈既明的谨慎，在寥寥数语中便勾勒出各自的过往与心防。情感表达含蓄却有张力，那些未说出口的话往往比直白的告白更揪心。若说遗憾，则是部分章节过渡时悬念的断裂偶尔会打断阅读的沉浸感，让人刚刚提起的心又稍稍落空。但瑕不掩瑜，尤其结尾‘新灯入水’的意象，将两代人的秘密与当下的情愫收束得悠远而完满，是一盏值得慢慢赏玩的好灯。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-04T00:39:05.904Z",
+    "textless": false,
+    "profileId": "fiction-romance-intimate",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "fiction-romance-intimate"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "匿名残灯",
+      "units": 3821
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "抉择十字",
+      "units": 8714
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "灯骨藏秘",
+      "units": 7434
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "清理残骸",
+      "units": 7123
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "午后静修",
+      "units": 8931
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "灯骨玄机",
+      "units": 6352
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "理念交锋",
+      "units": 9024
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "档案馆的引导",
+      "units": 8929
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "未知来电",
+      "units": 6117
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "主动邀请",
+      "units": 6701
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "孤灯静思",
+      "units": 5122
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "骤然的冷却",
+      "units": 9571
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "停滞的修复",
+      "units": 5076
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "停滞与线索",
+      "units": 6196
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "线索拼图",
+      "units": 5903
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "商业抉择",
+      "units": 8539
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "商业诱惑",
+      "units": 7412
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "沉默的成全",
+      "units": 6738
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "灯影下的抉择",
+      "units": 8402
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "旧信真相",
+      "units": 8586
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "灯明",
+      "units": 10495
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "平静选择",
+      "units": 9615
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "平静的拒绝",
+      "units": 4817
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "新灯入水",
+      "units": 6560
+    }
+  ],
+  "publishedAt": "2026-09-04T00:59:37.593Z",
+  "formFamily": "narrative"
+}
