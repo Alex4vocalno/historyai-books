@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065816335_953b7998ca",
   "projectId": "proj-mtedw46tosb",
-  "manuscriptVersionId": "mv_91cdb0561ca3ffe5",
-  "contentHash": "91cdb0561ca3ffe579c243567d4793aa9506a1bdb2ded8dfc82cbeb3313ae5df",
+  "manuscriptVersionId": "mv_2be1496e9c1260db",
+  "contentHash": "2be1496e9c1260dbdf5937a19b76be050562eba662728bd37c8a9185d233b288",
   "title": "The Night Shift: What Your Brain Does While You Sleep",
   "subtitle": "What Your Brain Does While You Sleep",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:35:54.175Z"
   },
   "editorReview": {
-    "text": "The book's early chapters are a masterclass in making complex science intuitively graspable. The opening scene with the EOG machine and the elegant analogies used to explain Von Economo's work demonstrate a rare narrative craft. However, this disciplined focus dissipates in the final third. The prose becomes noticeably less sharp, and the speculative framing device set in the 2080s feels more like distracting filler than a meaningful synthesis of the preceding, solid historical narrative. It starts with the concrete thrill of discovery but ends in generic futurism.",
+    "text": "This book shines in its early, historically-grounded chapters, where the author masterfully builds a compelling narrative around concrete discoveries, such as the vivid 'detective of dysfunction' framing of von Economo's work. The opening is particularly strong, establishing immediate tension and sensory detail. However, the final third suffers from a noticeable decline. The prose becomes less disciplined, and the speculative 2080s framing device feels more like unearned filler than a logical synthesis of the preceding science, abandoning the book's initial, more concrete strengths for a drift",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -170,7 +170,7 @@
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Unfinished Symphony of the Night (c. 2020–Present)（21）",
+      "title": "The Conductor of the Night Shift",
       "units": 2532
     },
     {
@@ -236,7 +236,7 @@
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Unfinished Symphony of the Night (c. 2075–Present)",
+      "title": "The Biological Invoice",
       "units": 2661
     },
     {
@@ -253,6 +253,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:58:16.342Z",
-  "rerenderedAt": "2026-09-05T09:02:31.959Z",
+  "rerenderedAt": "2026-09-05T09:25:26.974Z",
   "formFamily": "narrative"
 }
