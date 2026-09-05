@@ -1,0 +1,247 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>网吧、兵营与冠军</title><style>
+:root{--bg:#f4f5f4;--surface:#fff;--ink:#202524;--muted:#747b79;--line:#e2e5e3;--green:#079b6b;--green-dark:#087a58;--gold:#b27a22;--serif:'Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:var(--sans)}a{color:inherit;text-decoration:none}.sitebar{height:66px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.96)}.sitebar-inner{max-width:1180px;height:100%;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:28px}.brand{font-size:22px;font-weight:800}.brand i{display:inline-block;width:9px;height:9px;margin-right:9px;border-radius:50%;background:var(--green)}.sitebar nav{display:flex;gap:22px;color:var(--muted);font-size:14.5px}.sitebar nav a:hover{color:var(--green)}.page{max-width:1180px;margin:0 auto;padding:44px 24px 84px}.cover-art{position:relative;aspect-ratio:2/3;overflow:hidden;background:#23302d;color:#fff;box-shadow:0 16px 36px rgba(28,38,34,.18)}.cover-art img{width:100%;height:100%;object-fit:cover;display:block}.cover-copy{position:absolute;inset:auto 0 0;padding:76px 26px 26px;background:linear-gradient(transparent,rgba(10,17,15,.9));text-shadow:0 2px 12px rgba(0,0,0,.32)}.cover-copy h2{margin:0;font-family:var(--serif);font-size:27px;line-height:1.35;letter-spacing:0}.cover-copy p{margin:10px 0 0;font-size:12px}.cover-copy small{display:block;margin-top:18px;color:rgba(255,255,255,.84)}.cover-fallback{position:absolute;inset:0;display:grid;place-items:center;padding:34px;text-align:center;font-family:var(--serif);font-size:13px;line-height:2;border:1px solid rgba(255,255,255,.22)}.cover-typeset{container-type:inline-size}.cover-type{position:absolute;inset:0;padding:9% 8% 8%;display:flex;flex-direction:column;align-items:center;text-align:center;font-size:16px;color:var(--cover-title,#f8f0df);background:linear-gradient(180deg,var(--cover-shade-top,rgba(12,16,14,.7)) 0%,rgba(12,16,14,.18) 48%,var(--cover-shade-bottom,rgba(12,16,14,.24)) 100%);text-shadow:0 2px 14px rgba(0,0,0,.55);pointer-events:none}.cover-type:before{content:"";position:absolute;inset:5.6%;border:1px solid var(--cover-frame,rgba(238,220,176,.34));box-shadow:inset 0 0 0 1px rgba(255,255,255,.04);opacity:.74}.cover-type:after{content:"";position:absolute;inset:8.5%;border:1px solid rgba(255,255,255,.05);opacity:.48}.cover-type h2{position:relative;z-index:1;width:88%;margin:0 auto;padding:.68em .58em .62em;border:1px solid var(--cover-panel-border,rgba(238,220,176,.28));background:linear-gradient(180deg,var(--cover-panel,rgba(16,19,17,.52)),var(--cover-panel-2,rgba(16,19,17,.28)));box-shadow:0 10px 28px rgba(0,0,0,.18),inset 0 0 0 1px rgba(255,255,255,.045);backdrop-filter:blur(1.2px);font-family:var(--serif);font-weight:760;font-size:1.54em;line-height:1.18;letter-spacing:.055em;text-wrap:balance;color:var(--cover-title,#f8f0df);text-shadow:0 2px 16px rgba(0,0,0,.72)}.cover-type h2 span{display:inline;background:none;-webkit-background-clip:initial;background-clip:initial}.cover-title-long h2{font-size:1.32em;line-height:1.2}.cover-title-very-long h2{font-size:1.08em;line-height:1.18;letter-spacing:.025em}.cover-type p{position:relative;z-index:1;margin:.62em auto 0;max-width:84%;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;font-size:.58em;line-height:1.45;color:var(--cover-sub,#ead9af);opacity:.92;text-shadow:0 1px 9px rgba(0,0,0,.62)}.cover-type i{position:relative;z-index:1;display:block;width:28%;max-width:58px;min-width:24px;height:1px;margin:.85em auto 0;background:linear-gradient(90deg,transparent,var(--cover-rule,#d7b15a),transparent);box-shadow:0 0 10px var(--cover-rule-glow,rgba(215,177,90,.28))}.cover-type small{position:relative;z-index:1;display:block;margin-top:.82em;max-width:86%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:.26em .54em;border-radius:999px;background:var(--cover-author-bg,rgba(0,0,0,.18));font-size:.54em;font-weight:700;letter-spacing:.16em;color:var(--cover-author,#d7b15a);opacity:.96;text-shadow:0 1px 9px rgba(0,0,0,.72)}.cover-theme-zen{--cover-title:#2b281f;--cover-author:#6c5a36;--cover-author-bg:rgba(251,246,229,.62);--cover-sub:#6a6049;--cover-rule:#b79845;--cover-frame:rgba(154,127,78,.34);--cover-panel:rgba(250,245,229,.84);--cover-panel-2:rgba(238,229,202,.66);--cover-panel-border:rgba(154,127,78,.38);--cover-shade-top:rgba(246,242,226,.18);--cover-shade-bottom:rgba(31,39,32,.18)}.cover-theme-tang{--cover-title:#fff2cc;--cover-author:#f0c66a;--cover-author-bg:rgba(46,16,9,.22);--cover-sub:#efd6a0;--cover-rule:#dfad4a;--cover-rule-glow:rgba(223,173,74,.35);--cover-frame:rgba(230,181,84,.42);--cover-panel:rgba(65,22,12,.58);--cover-panel-2:rgba(35,13,8,.34);--cover-panel-border:rgba(230,181,84,.36);--cover-shade-top:rgba(43,18,9,.54);--cover-shade-bottom:rgba(45,13,10,.24)}.cover-theme-mythic{--cover-title:#f1fbff;--cover-author:#e8c264;--cover-author-bg:rgba(2,22,31,.24);--cover-sub:#c9e3e8;--cover-rule:#d8b45f;--cover-frame:rgba(141,207,229,.31);--cover-panel:rgba(2,25,35,.6);--cover-panel-2:rgba(3,13,27,.36);--cover-panel-border:rgba(129,203,220,.3);--cover-shade-top:rgba(5,19,25,.52);--cover-shade-bottom:rgba(8,13,24,.28)}.cover-theme-tech{--cover-title:#eaf6ff;--cover-author:#84d6e8;--cover-author-bg:rgba(6,25,40,.22);--cover-sub:#b9ddec;--cover-rule:#73d7f2;--cover-frame:rgba(116,215,242,.33);--cover-panel:rgba(5,26,43,.56);--cover-panel-2:rgba(5,18,28,.3);--cover-panel-border:rgba(116,215,242,.32);--cover-shade-top:rgba(5,19,35,.56);--cover-shade-bottom:rgba(5,18,28,.26)}.cover-theme-literary{--cover-title:#f8f1df;--cover-author:#d1a85b;--cover-author-bg:rgba(23,16,10,.18);--cover-sub:#e8d3aa;--cover-rule:#cfa04b;--cover-frame:rgba(226,201,157,.34);--cover-panel:rgba(24,19,15,.54);--cover-panel-2:rgba(21,18,14,.3);--cover-panel-border:rgba(226,201,157,.3);--cover-shade-top:rgba(24,19,15,.5);--cover-shade-bottom:rgba(21,18,14,.24)}@supports (font-size:1cqw){.cover-type{font-size:8.15cqw}}.pill{display:inline-flex;align-items:center;min-height:31px;padding:5px 11px;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:var(--surface);font-size:13px}.score{color:var(--gold);font-weight:800}.primary,.secondary{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:5px;font-weight:700}.primary{background:var(--green);color:#fff}.primary:hover{background:var(--green-dark)}.secondary{border:1px solid var(--line);background:#fff}.muted{color:var(--muted)}
+.author-link{color:var(--green-dark);border-bottom:1px solid transparent}.author-link:hover{border-bottom-color:var(--green-dark)}.card-author{cursor:pointer}.card-author:hover{color:var(--green);text-decoration:underline}
+@media(max-width:720px){.sitebar-inner{padding:0 16px}.sitebar nav{margin-left:auto}.page{padding:28px 17px 60px}}
+
+  .book-hero{display:grid;grid-template-columns:minmax(220px,270px) minmax(0,1fr);gap:54px;align-items:start}.cover-open{display:block;cursor:zoom-in;text-decoration:none;color:inherit}.book-main{padding-top:6px}.eyebrow{margin:0 0 14px;color:var(--green);font-size:13.5px;font-weight:800}.book-main h1{margin:0;font-family:var(--serif);font-size:39px;line-height:1.35;letter-spacing:0}.subtitle{margin:11px 0 0;color:var(--muted);font-family:var(--serif);font-size:21px}.author{margin:22px 0 0;font-size:15.5px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.rating{display:flex;align-items:center;gap:14px;margin-top:26px}.rating strong{color:var(--gold);font-family:Georgia,serif;font-size:36px}.rating span,.rating-empty{color:var(--muted);font-size:13.5px}.rating-empty{margin-top:24px}
+  .social-stats{margin-top:14px;color:var(--muted);font-size:13.5px;display:flex;gap:14px;flex-wrap:wrap}
+  .social-stats strong{color:var(--ink);font-variant-numeric:tabular-nums}
+  .reader-rating{margin-top:22px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:430px}
+  .reader-rating[hidden],.reader-rating-empty[hidden]{display:none}
+  .rr-head{display:flex;align-items:center;gap:12px}
+  .rr-avg{color:var(--gold);font-family:Georgia,serif;font-size:32px}
+  .rr-stars{color:var(--gold);font-size:15px;letter-spacing:2px}
+  .rr-count{color:var(--muted);font-size:13px}
+  .rr-bars{margin-top:10px;display:grid;gap:4px}
+  .rr-row{display:grid;grid-template-columns:30px 1fr 34px;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+  .rr-row i{display:block;height:6px;border-radius:3px;background:#eceeec;overflow:hidden}
+  .rr-row b{display:block;height:100%;background:var(--gold);border-radius:3px}
+  .rr-row em{font-style:normal;text-align:right;font-variant-numeric:tabular-nums}
+  .reader-rating-empty{margin-top:18px;color:var(--muted);font-size:13.5px}
+  /* v6.9.31 视觉精修（微信读书对齐）：胶囊按钮+柔和标签+封面立体书感 */
+  .book-hero .primary{border-radius:25px;padding:0 36px;box-shadow:0 8px 22px color-mix(in srgb,var(--green) 32%,transparent);letter-spacing:.04em}
+  .book-hero .primary:active{transform:scale(.98)}
+  .book-hero .meta .pill{border:0;background:#eef1ef;min-height:27px;padding:4px 13px;font-size:13px;color:#68716d;border-radius:14px}
+  .book-hero .cover-art{border-radius:4px 9px 9px 4px;box-shadow:0 20px 48px rgba(28,38,34,.26),0 4px 12px rgba(28,38,34,.14)}
+  .book-hero .cover-art::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;z-index:3;background:linear-gradient(90deg,rgba(255,255,255,.34),rgba(255,255,255,0));pointer-events:none}
+  .shelf-acts{display:flex;gap:8px;margin-left:12px}
+  .shelf-acts button{min-height:50px;padding:0 18px;border:1px solid var(--line);border-radius:25px;background:#fff;color:var(--muted);font-size:13.5px;font-weight:700;cursor:pointer;transition:border-color .12s,color .12s}
+  .shelf-acts button:hover{border-color:#c9cfcc;color:var(--ink)}
+  .shelf-acts button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 7%,#fff)}
+  @media(max-width:720px){.shelf-acts{margin-left:0;margin-top:10px;flex-basis:100%}}.rating-bar{width:112px;height:4px;margin-top:7px;border-radius:3px;background:#e8e9e7;overflow:hidden}.rating-bar i{display:block;height:100%;background:var(--gold)}.actions{display:flex;gap:10px;margin-top:30px}.description{grid-column:2;margin-top:35px;padding-top:27px;border-top:1px solid var(--line);font-family:var(--serif)}.description h2,.catalog h2{margin:0 0 15px;font-family:var(--sans);font-size:20px}.description p{max-width:760px;margin:0;color:#39403e;font-size:17.5px;line-height:2}.catalog{margin-top:52px;padding-top:28px;border-top:1px solid var(--line)}.catalog-head{display:flex;align-items:baseline;justify-content:space-between}.catalog-head span{color:var(--muted);font-size:13.5px}.chapter-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:38px}.chapter-row{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:13px 2px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px}.chapter-row span:first-child{color:var(--muted);font-family:var(--sans);font-size:13px}.chapter-row:hover{color:var(--green)}.catalog.collapsed .chapter-grid{max-height:560px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,#000 78%,transparent);mask-image:linear-gradient(180deg,#000 78%,transparent)}.catalog-more{display:block;margin:14px auto 0;border:1px solid var(--line);border-radius:18px;background:#fff;padding:8px 26px;font:13px var(--sans);color:var(--muted);cursor:pointer}.catalog-more:hover{color:var(--green-dark);border-color:var(--green)}.related{margin-top:52px;padding-top:28px;border-top:1px solid var(--line)}.related .sec-head h2{margin:0 0 16px;font-family:var(--sans);font-size:20px}.related-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px}.rel-card{display:block;min-width:0;text-decoration:none;color:inherit}.rel-cover{position:relative;display:block;aspect-ratio:2/3;border-radius:4px;overflow:hidden;background:#eceeeb;box-shadow:0 1px 4px rgba(20,30,25,.12)}.rel-cover img{width:100%;height:100%;object-fit:cover}.rel-card strong{display:block;margin-top:9px;font:600 13.5px var(--serif);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.rel-card small{display:block;margin-top:3px;color:var(--muted);font-size:12.5px}@media(max-width:720px){.related-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}
+  .stat-band{display:flex;align-items:stretch;margin-top:26px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);max-width:560px}
+  .stat-cell{flex:1;min-width:0;text-align:center;position:relative}
+  .stat-cell[hidden]{display:none}
+  .stat-cell+.stat-cell:not([hidden]){border-left:1px solid var(--line)}
+  .stat-cell b{display:block;font-family:Georgia,serif;font-size:26px;line-height:1.15;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+  .stat-cell b.sc-green{color:var(--green-dark)}
+  .stat-cell b.sc-gold{color:var(--gold)}
+  .stat-cell b i{font-style:normal}
+  .stat-cell b em{font-style:normal;font-size:14px;margin-left:1px}
+  .stat-cell span{display:block;margin-top:4px;color:var(--muted);font-size:13px}
+  .hot-lines,.hot-reviews{grid-column:2;margin-top:34px;padding-top:26px;border-top:1px solid var(--line);max-width:760px}
+  .hot-lines h2,.hot-reviews h2{margin:0 0 16px;font-family:var(--sans);font-size:20px}
+  .hl-item{margin:0 0 15px;padding:2px 0 2px 14px;border-left:3px solid var(--green);font-family:var(--serif);font-size:15.5px;line-height:1.9;color:#39403e}
+  .hl-item small{display:block;margin-top:5px;font-family:var(--sans);font-size:13px;color:var(--muted)}
+  .rv-item{padding:15px 0;border-bottom:1px solid var(--line)}
+  .rv-item:last-child{border-bottom:0}
+  .rv-head{display:flex;align-items:center;gap:10px;font-family:var(--sans);font-size:13.5px}
+  .rv-ava{width:30px;height:30px;border-radius:50%;background:color-mix(in srgb,var(--green) 14%,#fff);color:var(--green-dark);display:grid;place-items:center;font-weight:800;font-size:14px}
+  .rv-head b{color:var(--ink)}
+  .rv-stars{color:var(--gold);letter-spacing:1px;font-size:13px}
+  .rv-like{margin-left:auto;color:var(--muted)}
+  .rv-text{margin:9px 0 0;font-family:var(--serif);font-size:15px;line-height:1.9;color:#39403e}
+  .rv-more{display:inline-block;margin-top:14px;font:13.5px var(--sans);color:var(--green-dark);text-decoration:none}
+  .rv-more:hover{text-decoration:underline}
+  .quick-rate{display:flex;align-items:center;gap:9px;margin-top:16px;font-family:var(--sans);font-size:13.5px;color:var(--muted)}
+  .quick-rate button{min-height:34px;padding:0 15px;border:1px solid var(--line);border-radius:17px;background:#fff;color:var(--ink);font-size:13.5px;cursor:pointer;transition:border-color .12s,color .12s}
+  .quick-rate button:hover{border-color:#c9cfcc}
+  .quick-rate button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 8%,#fff);font-weight:700}
+  .qr-done{font-style:normal;color:var(--green-dark);font-weight:700}
+  @media(max-width:720px){.quick-rate{flex-wrap:wrap}}
+  .description.clamped p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+  .desc-toggle{margin-top:10px;border:0;background:none;padding:0;font:13.5px var(--sans);color:var(--green-dark);cursor:pointer}
+  .editor-review{grid-column:2;margin-top:30px;padding:22px 24px;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;background:var(--surface);max-width:760px}
+  .editor-review h2{margin:0 0 12px;font-size:16px;display:flex;align-items:center;gap:10px}
+  .editor-review .er-rating{color:var(--gold);font-size:13px;font-weight:800;border:1px solid var(--gold);border-radius:4px;padding:1px 8px}
+  .editor-review p{margin:0;font-family:var(--serif);font-size:15.5px;line-height:1.95;color:#39403e}
+  .editor-review .er-byline{margin-top:12px;font-family:var(--sans);font-size:13px;color:var(--muted);text-align:right}
+  @media(max-width:720px){.book-hero{grid-template-columns:118px minmax(0,1fr);gap:20px}.editor-review,.hot-lines,.hot-reviews{grid-column:1/-1}.stat-band{margin-top:16px;padding:12px 0;max-width:none}.stat-cell b{font-size:21px}.stat-cell span{font-size:13px}.book-main h1{font-size:25px}.subtitle{font-size:15.5px}.cover-copy{padding:42px 10px 12px}.cover-copy h2{font-size:16px}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:9px}.author{margin-top:13px}.meta{margin-top:13px}.rating{margin-top:16px}.actions{grid-column:1/-1}.description{grid-column:1/-1;margin-top:26px}.chapter-grid{grid-template-columns:1fr}}
+  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../index.html">书架</a></nav></div></header><main class="page"><section class="book-hero"><a class="cover-open" href="releases/rel_20260905014751935_ecd7da8a3a/cover.jpg" data-cover-zoom title="查看封面大图"><div class="cover-art" style="--cover-tone:hsl(205 28% 24%)"><img src="releases/rel_20260905014751935_ecd7da8a3a/cover.jpg" alt="《网吧、兵营与冠军》封面"></div></a><div class="book-main"><p class="eyebrow">中国史 · 中文</p><h1>网吧、兵营与冠军</h1><p class="subtitle">韩国网游产业二十五年兴衰史</p><p class="author"><a class="author-link" href="../../author-ad56049233.html">李思特Think</a></p><div class="meta"><span class="pill">韩国网游</span><span class="pill">电子竞技</span><span class="pill">PC房文化</span><span class="pill">产业史</span><span class="pill">数字社会</span><span class="pill">中国史</span><span class="pill">16 章</span><span class="pill">141,957 字</span></div><div class="stat-band" data-stat-band>
+    <div class="stat-cell" data-stat-reco hidden><b class="sc-green"><i data-stat-reco-val></i><em>%</em></b><span>推荐值</span></div>
+    <div class="stat-cell" data-stat-rr hidden><b class="sc-gold" data-stat-rr-val></b><span>读者评分</span></div>
+    <div class="stat-cell"><b class="sc-gold">8.8</b><span>编辑评分</span></div>
+    <div class="stat-cell" data-stat-readers hidden><b data-stat-readers-val></b><span>人读过</span></div>
+  </div><div class="social-stats" data-social-stats hidden></div><div class="reader-rating" data-reader-rating hidden>
+    <div class="rr-head"><strong class="rr-avg" data-rr-avg></strong><div><span class="rr-stars" data-rr-stars></span><span class="rr-count" data-rr-count></span></div></div>
+    <div class="rr-bars" data-rr-bars></div>
+    <p class="rr-notes" data-rr-notes></p>
+  </div>
+  <p class="reader-rating-empty" data-reader-rating-empty hidden>还没有读者评分——读完这本书的人可以在末章打分。</p>
+  <script>(function(){
+    var bid="proj-mtmzi4ujag2";
+    if(!bid)return;
+    fetch('/api/book/stats?bookId='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+      if(!(d&&d.ok))return;
+      var box=document.querySelector('[data-reader-rating]');
+      var empty=document.querySelector('[data-reader-rating-empty]');
+      if(!d.count){if(empty)empty.hidden=false;return}
+      box.hidden=false;
+      box.querySelector('[data-rr-avg]').textContent=d.avg;
+      var full=Math.round(d.avg);
+      box.querySelector('[data-rr-stars]').textContent='★★★★★'.slice(0,full)+'☆☆☆☆☆'.slice(0,5-full);
+      box.querySelector('[data-rr-count]').textContent=' · '+d.count+" 人点评";
+      // v6.9.31 数据栏填充：读者评分格；推荐值格（微信读书口径 4-5 星占比，样本 ≥3）
+      var rrCell=document.querySelector('[data-stat-rr]');
+      if(rrCell){rrCell.querySelector('[data-stat-rr-val]').textContent=d.avg;rrCell.hidden=false}
+      if(d.count>=3&&Array.isArray(d.dist)){
+        var rec=Math.round((d.dist[3]+d.dist[4])/d.count*100);
+        var rcCell=document.querySelector('[data-stat-reco]');
+        if(rcCell){rcCell.querySelector('[data-stat-reco-val]').textContent=rec;rcCell.hidden=false}
+      }
+      var bars=box.querySelector('[data-rr-bars]');
+      var max=Math.max.apply(null,d.dist.concat([1]));
+      for(var i=4;i>=0;i--){
+        var row=document.createElement('div');row.className='rr-row';
+        var lab=document.createElement('span');lab.textContent=(i+1)+'★';
+        var bar=document.createElement('i');var fill=document.createElement('b');
+        fill.style.width=Math.round(d.dist[i]/max*100)+'%';
+        bar.appendChild(fill);
+        var num=document.createElement('em');num.textContent=d.dist[i];
+        row.appendChild(lab);row.appendChild(bar);row.appendChild(num);
+        bars.appendChild(row);
+      }
+      if(d.notes){document.querySelector('[data-rr-notes]').textContent="读者想法 "+d.notes+" 条"}
+    }).catch(function(){});
+  })();</script><div class="actions"><a class="primary" data-continue-reading href="releases/rel_20260905014751935_ecd7da8a3a/ch-1.html">开始阅读</a><div class="shelf-acts" data-shelf-acts><button type="button" data-shelf-status="wishlist">+ 想读</button><button type="button" data-shelf-status="reading">在读</button><button type="button" data-shelf-status="finished">读完</button></div></div><div class="quick-rate" data-quick-rate><span>这本书怎么样？</span><button type="button" data-qr="5">👍 推荐</button><button type="button" data-qr="3">😐 一般</button><button type="button" data-qr="1">👎 不行</button><i class="qr-done" data-qr-done hidden>已记录 ✓</i></div>
+<script>(function(){
+  var EN=false;
+  var bid="proj-mtmzi4ujag2";
+  var title="网吧、兵营与冠军";
+  var btns=[].slice.call(document.querySelectorAll('[data-shelf-status]'));
+  function paint(cur){btns.forEach(function(b){b.classList.toggle('on',b.dataset.shelfStatus===cur)})}
+  fetch('/api/reader/shelf',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok))return;
+    var row=(d.rows||[]).find(function(x){return x.bookId===bid});
+    if(row)paint(row.status);
+  }).catch(function(){});
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    var st=b.dataset.shelfStatus;
+    var already=b.classList.contains('on');
+    fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:bid,title:title,status:already?'remove':st})})
+      .then(function(r){return r.json()}).then(function(d){
+        if(d&&d.ok){paint(already?'':st)}
+        else if(d&&d.code==='AUTH_REQUIRED'){alert(EN?'Sign in from the library to use your shelf':'回书库登录后即可使用书架')}
+      }).catch(function(){});
+  })});
+})();</script>
+<script>(function(){
+  var box=document.querySelector('[data-social-stats]');
+  var bid="proj-mtmzi4ujag2";
+  if(!box||!bid)return;
+  fetch('/api/social/book-stats?ids='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok&&d.stats&&d.stats[bid]))return;
+    var s=d.stats[bid];
+    if(!(s.read||s.reading||s.wishlist))return;
+    // v6.9.31 「读过」进数据栏大数字；小字行只留在读/想读
+    if(s.read){var rd=document.querySelector('[data-stat-readers]');if(rd){rd.querySelector('[data-stat-readers-val]').textContent=s.read;rd.hidden=false}}
+    var parts=[];
+    if(s.reading)parts.push('<span><strong>'+s.reading+'</strong> 人在读</span>');
+    if(s.wishlist)parts.push('<span><strong>'+s.wishlist+'</strong> 人想读</span>');
+    if(parts.length){box.innerHTML=parts.join('');box.hidden=false}
+  }).catch(function(){});
+})();</script></div><section class="description clamped" data-desc><h2>内容简介</h2><p>1997年金融风暴后的废墟上，每小时一千韩元的PC房意外接通了国家宽带，催生出全球首个成熟的网游帝国。从《天堂》攻城战里诞生的公会政治，到兵营制度下被压缩的职业选手青春，再到假赛丑闻后重建的电竞信仰，三个空间撑起了这套精密运转的文化机器。当订阅制让位于道具收费，当国族叙事在领奖台上反复上演，最初的领跑者却发现自己被困在了亲手缔造的成功里。这不仅是一部产业进化史，更是一个关于技术、制度与欲望如何相互塑造又彼此吞噬的现代寓言。</p><button type="button" class="desc-toggle" data-desc-toggle>展开 ∨</button></section><section class="editor-review"><h2>编辑点评<span class="er-rating">推荐</span></h2><p>本书最可贵处，在于将韩国网游产业的兴衰牢牢锚定在1997年IMF危机后的国家转型棋局中，从“光纤救国”的战略抉择推导出PC房作为基础设施的必然性，再延伸至电竞产业的制度性困境，论证骨架扎实，完全跳出了行业编年史的窠臼。对“PC房老板作为分布式选品机器”、“兵役制度作为人才代谢钟摆”等机制的提炼极具穿透力，档案材料运用扎实，使产业社会学观察有了坚实的物质基础。但中后段叙事接缝处理粗糙，存在数处无标记的时间回溯，且部分章节起笔陷入“年份起笔”的机械模板，打断了阅读的呼吸感，若能精修打磨，文本完成度会更高。</p><p class="er-byline">—— 砚北 · 历史社科编辑</p></section><section class="hot-lines" data-hot-lines hidden><h2>热门划线</h2><div data-hl-list></div></section><section class="hot-reviews" data-hot-reviews hidden><h2>精彩点评</h2><div data-rv-list></div><a class="rv-more" href="releases/rel_20260905014751935_ecd7da8a3a/ch-1.html">读完这本书，写下你的点评 →</a></section></section><section class="catalog" data-catalog><div class="catalog-head"><h2>目录</h2><span>共 16 章</span></div><div class="chapter-grid"><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-1.html"><span>第 01 章</span><span>断崖边的网线</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-2.html"><span>第 02 章</span><span>选品者联盟</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-3.html"><span>第 03 章</span><span>血盟的发明</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-4.html"><span>第 04 章</span><span>鼠标上的兵役</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-5.html"><span>第 05 章</span><span>皇帝的加冕礼</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-6.html"><span>第 06 章</span><span>道具的代价</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-7.html"><span>第 07 章</span><span>造神流水线</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-8.html"><span>第 08 章</span><span>首尔的全球服务器</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-9.html"><span>第 09 章</span><span>神殿与它的祭司</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-10.html"><span>第 10 章</span><span>虚拟地产与真实权力</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-11.html"><span>第 11 章</span><span>审判日</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-12.html"><span>第 12 章</span><span>困在网吧里的帝国</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-13.html"><span>第 13 章</span><span>兵役钟摆</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-14.html"><span>第 14 章</span><span>模式输出者的反噬</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-15.html"><span>第 15 章</span><span>国族叙事的折旧</span></a><a class="chapter-row" href="releases/rel_20260905014751935_ecd7da8a3a/ch-16.html"><span>第 16 章</span><span>领跑者的囚笼</span></a></div></section><section class="related" data-related hidden><div class="sec-head"><h2>同类好书</h2></div><div class="related-grid" data-related-grid></div></section></main><script>(function(){var button=document.querySelector('[data-continue-reading]');if(!button)return;try{var state=JSON.parse(localStorage.getItem("historyai.reader.proj-mtmzi4ujag2")||'{}');if(state&&state.href){button.href=state.href;button.textContent='继续阅读 · 第 '+(Number(state.chapter)+1)+' 章'}}catch(e){}})();</script><script>(function(){var a=document.querySelector('[data-cover-zoom]');if(!a)return;a.addEventListener('click',function(e){e.preventDefault();var o=document.createElement('div');o.setAttribute('style','position:fixed;inset:0;z-index:99;background:rgba(12,10,8,.92);display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:4vmin');var img=document.createElement('img');img.src=a.getAttribute('href');img.alt=document.title;img.setAttribute('style','max-width:96vw;max-height:94vh;width:auto;height:auto;border-radius:6px;box-shadow:0 24px 80px rgba(0,0,0,.6)');o.appendChild(img);function close(){o.remove();document.removeEventListener('keydown',esc)}function esc(ev){if(ev.key==='Escape')close()}o.addEventListener('click',close);document.addEventListener('keydown',esc);document.body.appendChild(o)})})();</script><script>(function(){
+  var bid="proj-mtmzi4ujag2";
+  fetch('/api/book/notes?bookId='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok&&d.notes&&d.notes.length))return;
+    var byQ={};
+    d.notes.forEach(function(n){if(!n.quote)return;var g=byQ[n.quote]=byQ[n.quote]||{q:n.quote,n:0,likes:0};g.n++;g.likes+=Number(n.likeCount)||0});
+    var groups=Object.keys(byQ).map(function(k){return byQ[k]});
+    groups.sort(function(a,b){return(b.n*2+b.likes)-(a.n*2+a.likes)});
+    var top=groups.slice(0,4);
+    if(!top.length)return;
+    var list=document.querySelector('[data-hl-list]');
+    top.forEach(function(g){
+      var it=document.createElement('div');it.className='hl-item';
+      it.appendChild(document.createTextNode(g.q));
+      var s=document.createElement('small');
+      s.textContent=g.n+' \u4eba\u5212\u7ebf'+(g.likes?(' \u00b7 '+g.likes+' \u8d5e'):'');
+      it.appendChild(s);list.appendChild(it);
+    });
+    document.querySelector('[data-hot-lines]').hidden=false;
+  }).catch(function(){});
+  fetch('/api/book/reviews?bookId='+encodeURIComponent(bid)).then(function(r){return r.json()}).then(function(d){
+    if(!(d&&d.ok&&d.reviews))return;
+    var rows=d.reviews.filter(function(r2){return r2.text}).sort(function(a,b){return(Number(b.likeCount)||0)-(Number(a.likeCount)||0)}).slice(0,3);
+    if(!rows.length)return;
+    var list=document.querySelector('[data-rv-list]');
+    rows.forEach(function(r2){
+      var it=document.createElement('div');it.className='rv-item';
+      var hd=document.createElement('div');hd.className='rv-head';
+      var av=document.createElement('span');av.className='rv-ava';av.textContent=String(r2.name||'?').slice(0,1);
+      var nm=document.createElement('b');nm.textContent=r2.name||"读者";
+      var st=document.createElement('span');st.className='rv-stars';st.textContent='\u2605\u2605\u2605\u2605\u2605'.slice(0,Math.max(1,Math.min(5,r2.rating||0)));
+      hd.appendChild(av);hd.appendChild(nm);hd.appendChild(st);
+      if(Number(r2.likeCount)){var lk=document.createElement('span');lk.className='rv-like';lk.textContent='\u2665 '+r2.likeCount;hd.appendChild(lk)}
+      it.appendChild(hd);
+      var tx=document.createElement('p');tx.className='rv-text';tx.textContent=r2.text;
+      it.appendChild(tx);list.appendChild(it);
+    });
+    document.querySelector('[data-hot-reviews]').hidden=false;
+  }).catch(function(){});
+  var dt=document.querySelector('[data-desc-toggle]');
+  if(dt)dt.addEventListener('click',function(){
+    var sec=document.querySelector('[data-desc]');
+    var open=sec.classList.toggle('clamped');
+    dt.textContent=open?"展开 ∨":"收起 ∧";
+  });
+  // v6.9.32 三键快捷评分（weread 式推荐/一般/不行）：映射 5/3/1 星走既有书评体系
+  var qr=document.querySelector('[data-quick-rate]');
+  if(qr){
+    var qbtns=[].slice.call(qr.querySelectorAll('[data-qr]'));
+    function paintQr(rating){
+      var key=rating>=4?'5':(rating===3?'3':(rating>=1?'1':''));
+      qbtns.forEach(function(b){b.classList.toggle('on',b.dataset.qr===key)});
+    }
+    fetch('/api/auth/me',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(me){
+      if(!(me&&me.ok&&me.user))return;
+      fetch('/api/book/reviews?bookId='+encodeURIComponent(bid),{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){
+        if(!(d&&d.ok))return;
+        var mine=(d.reviews||[]).filter(function(x){return x.uid===me.user.id})[0];
+        if(mine)paintQr(Number(mine.rating)||0);
+      }).catch(function(){});
+    }).catch(function(){});
+    qbtns.forEach(function(b){b.addEventListener('click',function(){
+      fetch('/api/book/reviews',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:bid,rating:Number(b.dataset.qr)})})
+        .then(function(r){return r.json()}).then(function(d){
+          if(d&&d.ok){
+            paintQr(Number(b.dataset.qr));
+            var dn=document.querySelector('[data-qr-done]');
+            if(dn){dn.hidden=false;setTimeout(function(){dn.hidden=true},2200)}
+          } else alert("回书库登录后即可评价");
+        }).catch(function(){});
+    })});
+  }
+})();</script><script>(function(){
+  var moreBtn=document.querySelector('[data-catalog-more]');
+  if(moreBtn)moreBtn.addEventListener('click',function(){document.querySelector('[data-catalog]').classList.remove('collapsed');moreBtn.remove()});
+  var box=document.querySelector('[data-related]');var grid=document.querySelector('[data-related-grid]');
+  if(!box||!grid)return;
+  var self="proj-mtmzi4ujag2";var cat="中国史";var en=false;
+  fetch('/books/index.json').then(function(r){return r.json()}).then(function(rows){
+    if(!Array.isArray(rows))return;
+    var pool=rows.filter(function(r){return r&&r.projectId!==self&&String(r.visibility||'public')==='public'&&(!cat||r.category===cat)});
+    if(pool.length<3)pool=rows.filter(function(r){return r&&r.projectId!==self&&String(r.visibility||'public')==='public'});
+    pool.sort(function(a,b){return (Number(b.editorialScore&&b.editorialScore.score)||0)-(Number(a.editorialScore&&a.editorialScore.score)||0)});
+    var pick=pool.slice(0,6);
+    if(!pick.length)return;
+    grid.innerHTML=pick.map(function(r){
+      var sc=Number(r.editorialScore&&r.editorialScore.score)||0;
+      var chip=sc?'<span class="score-chip">'+(sc/10).toFixed(1)+'</span>':'';
+      var cover=r.coverUrl?'<img src="/'+String(r.coverUrl).replace(/^//,'')+'" alt="" loading="lazy">':'';
+      return '<a class="rel-card" href="/'+String(r.url||'#').replace(/^//,'')+'"><span class="rel-cover">'+cover+chip+'</span><strong>'+String(r.title||'').replace(/</g,'&lt;')+'</strong><small>'+String(r.authorDisplayName||'').replace(/</g,'&lt;')+'</small></a>';
+    }).join('');
+    box.hidden=false;
+  }).catch(function(){});
+})();</script></body></html>

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905014751935_ecd7da8a3a",
+  "projectId": "proj-mtmzi4ujag2",
+  "manuscriptVersionId": "mv_d10f0cde5c13980b",
+  "contentHash": "d10f0cde5c13980bdd45c8c3cce9b368f5d6b3364dcc41302accc37350b76023",
+  "title": "网吧、兵营与冠军",
+  "subtitle": "韩国网游产业二十五年兴衰史",
+  "authorDisplayName": "李思特Think",
+  "description": "1997年金融风暴后的废墟上，每小时一千韩元的PC房意外接通了国家宽带，催生出全球首个成熟的网游帝国。从《天堂》攻城战里诞生的公会政治，到兵营制度下被压缩的职业选手青春，再到假赛丑闻后重建的电竞信仰，三个空间撑起了这套精密运转的文化机器。当订阅制让位于道具收费，当国族叙事在领奖台上反复上演，最初的领跑者却发现自己被困在了亲手缔造的成功里。这不仅是一部产业进化史，更是一个关于技术、制度与欲望如何相互塑造又彼此吞噬的现代寓言。",
+  "category": "中国史",
+  "tags": [
+    "韩国网游",
+    "电子竞技",
+    "PC房文化",
+    "产业史",
+    "数字社会",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 16,
+    "units": 141957,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T15:59:28.668Z"
+  },
+  "editorReview": {
+    "text": "本书最可贵处，在于将韩国网游产业的兴衰牢牢锚定在1997年IMF危机后的国家转型棋局中，从“光纤救国”的战略抉择推导出PC房作为基础设施的必然性，再延伸至电竞产业的制度性困境，论证骨架扎实，完全跳出了行业编年史的窠臼。对“PC房老板作为分布式选品机器”、“兵役制度作为人才代谢钟摆”等机制的提炼极具穿透力，档案材料运用扎实，使产业社会学观察有了坚实的物质基础。但中后段叙事接缝处理粗糙，存在数处无标记的时间回溯，且部分章节起笔陷入“年份起笔”的机械模板，打断了阅读的呼吸感，若能精修打磨，文本完成度会更高。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-05T01:47:47.771Z",
+    "textless": false,
+    "profileId": "portrait-biography"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "断崖边的网线",
+      "units": 10372
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "选品者联盟",
+      "units": 9911
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "血盟的发明",
+      "units": 8933
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "鼠标上的兵役",
+      "units": 8580
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "皇帝的加冕礼",
+      "units": 7859
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "道具的代价",
+      "units": 8388
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "造神流水线",
+      "units": 9401
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "首尔的全球服务器",
+      "units": 8359
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "神殿与它的祭司",
+      "units": 8630
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "虚拟地产与真实权力",
+      "units": 8373
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "审判日",
+      "units": 7957
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "困在网吧里的帝国",
+      "units": 7364
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "兵役钟摆",
+      "units": 8175
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "模式输出者的反噬",
+      "units": 10313
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "国族叙事的折旧",
+      "units": 8426
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "领跑者的囚笼",
+      "units": 10916
+    }
+  ],
+  "publishedAt": "2026-09-05T01:47:51.945Z"
+}
