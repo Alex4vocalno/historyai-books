@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260829060621942_b906c3ba0e",
   "projectId": "proj-mtdojb7zftn",
-  "manuscriptVersionId": "mv_f7eadad236f05a41",
-  "contentHash": "f7eadad236f05a41fdc7cada5116b4e89ba7ea0947a6bb6e34cef33778c03996",
+  "manuscriptVersionId": "mv_a44a774dbb66bb0f",
+  "contentHash": "a44a774dbb66bb0f06c81e99ea3a31d937911f94589c4dd967c9598982fdca81",
   "title": "Thirteen Days on Paper: The Cuban Missile Crisis in Documents",
   "subtitle": "The Cuban Missile Crisis in Documents",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T04:47:41.151Z"
   },
   "editorReview": {
-    "text": "The book's strength lies in its unwavering commitment to the 'paperwork as protagonist' conceit, which yields genuine insight, particularly in the powerful dismantlement chapter. The consistent bureaucratic voice and effective documentary juxtapositions, like contrasting raw ExComm tapes with formal communiqués, create a compelling, textured narrative. However, the reading experience is periodically disrupted by structural unevenness and prose that can feel mechanical or repetitive, especially in some mid-book chapters. A more significant reservation concerns the sourcing: the use of uncited '",
+    "text": "This archival chronicle shines in its final chapters, where the 'paperwork standard' thesis achieves genuine conceptual lift, particularly in the dismantlement chapter's powerful observation about the weight of paper versus missiles. The bureaucratic voice is consistently effective, creating a tangible sense of the crisis as a flood of documents. However, the narrative drive falters in the middle sections, with some chapter titles betraying a struggle for structure, and the reader's experience is periodically undercut by repetitive prose patterns. The book's most significant reservation stems",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -59,7 +59,7 @@
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Blueprint in a Briefcase (Late Summer 1962)",
+      "title": "The Blueprint in a Briefcase",
       "units": 2581
     },
     {
@@ -83,25 +83,25 @@
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Cabinet Room Debate (October 16, 1962)",
+      "title": "The Cabinet Room Debate",
       "units": 2485
     },
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Ad Hoc Committee (October 16-17, 1962)",
+      "title": "The Ad Hoc Committee",
       "units": 2548
     },
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The President’s Private Deliberation (October —, 1962)",
+      "title": "The President’s Private Deliberation",
       "units": 2328
     },
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Quarantine Decision (October 18-20, 1962)",
+      "title": "The Quarantine Decision",
       "units": 2449
     },
     {
@@ -113,7 +113,7 @@
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The First Soviet Denial (October 23, 1962)",
+      "title": "The First Soviet Denial",
       "units": 2608
     },
     {
@@ -125,67 +125,67 @@
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Submarine’s Silent Run (October 25, 1962)",
+      "title": "The Submarine’s Silent Run",
       "units": 2628
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Ambassador’s Midnight Cable (October 25-26, 1962)",
+      "title": "The Ambassador’s Midnight Cable",
       "units": 2538
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Second Letter from Moscow (October 26-27, 1962)",
+      "title": "The Second Letter from Moscow",
       "units": 2188
     },
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The Convergence of Catastrophe (October 27, 1962)",
+      "title": "The Convergence of Catastrophe",
       "units": 2532
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Channel Outside the Record (October 27-28, 1962)",
+      "title": "The Channel Outside the Record",
       "units": 2504
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Kremlin’s Silent Retreat (October 28, 1962)",
+      "title": "The Kremlin’s Silent Retreat",
       "units": 2324
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Paper Trail of Dismantlement (Late October – November 1962)",
+      "title": "The Paper Trail of Dismantlement",
       "units": 2507
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Anatomy of a Near-Catastrophe (October 28–31, 1962)",
+      "title": "The Anatomy of a Near-Catastrophe",
       "units": 2513
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Reckoning in Real Time (Late October – Early November 1962)",
+      "title": "The Reckoning in Real Time",
       "units": 2509
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Bureaucratization of Brinkmanship (Late October – November 1962)",
+      "title": "The Bureaucratization of Brinkmanship",
       "units": 2582
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Unseen Hand of the Hotline (Late October – November 1962)",
+      "title": "The Unseen Hand of the Hotline",
       "units": 2532
     },
     {
@@ -209,7 +209,7 @@
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Paper Trail of a Submarine (October 27, 1962)",
+      "title": "The Paper Trail of a Submarine",
       "units": 2383
     },
     {
@@ -280,5 +280,5 @@
     }
   ],
   "publishedAt": "2026-08-29T06:06:21.945Z",
-  "rerenderedAt": "2026-09-05T09:34:16.071Z"
+  "rerenderedAt": "2026-09-05T09:44:03.922Z"
 }
