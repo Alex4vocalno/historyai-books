@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065002342_23ad192fd4",
   "projectId": "proj-mtedvpy6eki",
-  "manuscriptVersionId": "mv_176ade272a607e83",
-  "contentHash": "176ade272a607e83a440f0dcdae31ffadce1042af552f3b15d55e8848b88ac3e",
+  "manuscriptVersionId": "mv_37a7cf527d42b0a8",
+  "contentHash": "37a7cf527d42b0a8c9ac5e22236611db19bc761e86472a151123b79689d44116",
   "title": "Seventy-Two Hours: Chernobyl Before the World Knew",
   "subtitle": "Chernobyl Before the World Knew",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:02:36.826Z"
   },
   "editorReview": {
-    "text": "This panoramic reconstruction of Chernobyl's first three days achieves a rare density, where the central concept of a 'seventy-two-hour secret' evolves into a powerful, sustained lens for understanding the disaster. The early chapters masterfully build narrative tension from granular details, like the precise sequence of the fateful test. However, the reading experience becomes uneven as the scope widens; the prose in the book's middle sections loses its sensory edge, and the parade of bureaucratic figures can blur together, making the crucial institutional dynamics harder to grasp. It is a wo",
+    "text": "This book delivers a formidable panoramic reconstruction of the Chernobyl disaster, achieving a documentary density that is most compelling in its early chapters. The sustained thematic architecture—framing the seventy-two-hour secrecy as a profound epistemological failure—provides genuine and insightful interpretive power, elevating the event to a systemic parable. However, the reader's experience is hampered by a noticeable mechanical quality in the book's middle sections, where prose fatigue sets in and the dense bureaucracy of officials becomes difficult to differentiate. While structurall",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -56,7 +56,7 @@
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Unthinkable Experiment (April 25, 1986, 11:00 – 23:59)",
+      "title": "The Unthinkable Experiment",
       "units": 2254
     },
     {
@@ -86,7 +86,7 @@
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The First Official Word (April 26, 1986, 14:00 – Evening)",
+      "title": "The First Official Word",
       "units": 2505
     },
     {
@@ -110,13 +110,13 @@
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The Commission Assembles (April 27-28, 1986)",
+      "title": "The Commission Assembles",
       "units": 2492
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The First International Alarm (April 28, 1986, Morning)",
+      "title": "The First International Alarm",
       "units": 2468
     },
     {
@@ -128,37 +128,37 @@
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The First TASS Bulletin (April 28, 1986, Evening)",
+      "title": "The First TASS Bulletin",
       "units": 2391
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Secret Crosses the Border (April 28-29, 1986)",
+      "title": "The Secret Crosses the Border",
       "units": 2515
     },
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The Commission Assumes Command (April 29, 1986)",
+      "title": "The Commission Assumes Command",
       "units": 2607
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The First Aerial Assault (April 30 – May 1, 1986)",
+      "title": "The First Aerial Assault",
       "units": 2661
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Weight of Command (April 30 – May 2, 1986)",
+      "title": "The Weight of Command",
       "units": 2647
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Unyielding Core (April 30 – May 2, 1986)",
+      "title": "The Unyielding Core",
       "units": 2311
     },
     {
@@ -170,19 +170,19 @@
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Commission’s First Report (April 28 – 29, 1986)",
+      "title": "The Commission’s First Report",
       "units": 2404
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The First International Broadcast (April 29, 1986)",
+      "title": "The First International Broadcast",
       "units": 2399
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The First Public Admission (April 29 – 30, 1986)",
+      "title": "The First Public Admission",
       "units": 2573
     },
     {
@@ -194,25 +194,25 @@
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Siege of the Sarcophagus (May 3-4, 1986)",
+      "title": "The Siege of the Sarcophagus",
       "units": 2080
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The First Casualty Lists (May 5-9, 1986)",
+      "title": "The First Casualty Lists",
       "units": 2328
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The First International Reckoning (May 10-14, 1986)",
+      "title": "The First International Reckoning",
       "units": 1745
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Weight of the Secret (May 15-31, 1986)",
+      "title": "The Weight of the Secret",
       "units": 2416
     },
     {
@@ -277,6 +277,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:50:02.346Z",
-  "rerenderedAt": "2026-09-05T09:33:55.837Z",
+  "rerenderedAt": "2026-09-05T09:42:29.421Z",
   "formFamily": "narrative"
 }
