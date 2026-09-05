@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065219812_566e0f3a1c",
   "projectId": "proj-mtedvw0ohyz",
-  "manuscriptVersionId": "mv_945c3f23196206e0",
-  "contentHash": "945c3f23196206e09b296921efc2d4408c0ad40dff840ca0b5a03f140e35b167",
+  "manuscriptVersionId": "mv_5a9656d6f1421984",
+  "contentHash": "5a9656d6f14219842bcb8c0dee7450198b6314cd467833b15c337903d69337d6",
   "title": "The Marathon of 1908: The Race That Invented Modern Sport",
   "subtitle": "The Race That Invented Modern Sport",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "On July 24, 1908, Dorando Pietri staggered into the White City Stadium and collapsed four times before the finish line. Helped across by officials, the Italian confectioner was disqualified, yet his agony birthed the modern sporting spectacle. This narrative reconstructs that singular afternoon through entry forms, official protests, and Arthur Conan Doyle’s breathless dispatches. It traces how a disputed loss created a global celebrity, inspired music-hall tours, and permanently fixed the marathon at 26.2 miles. Beyond the stadium drama lies the paper trail of fame: Queen Alexandra’s consolation cup, professional challenges, and the machinery that turned athletic exhaustion into enduring myth. Pietri’s tragic triumph defined the rules, media narratives, and exact distances of spectator sport. A vivid chronicle of one man’s collapse and the birth of an athletic standard that outlasted its creator.",
   "category": "世界史",
   "tags": [
@@ -33,30 +33,33 @@
     "createdAt": "2026-08-29T20:53:43.421Z"
   },
   "editorReview": {
-    "text": "This microhistory of Dorando Pietri's legendary collapse achieves genuine archival texture, particularly in its intimate Sanremo chapters where municipal ledgers and copper kettles ground the story in documentary specificity. The final chapter's poignant reflection on how Pietri's agony became the template for modern sporting spectacle is a powerful, elegantly argued conclusion. However, the narrative's structural ambition sometimes works against its intimacy: the decision to extend the aftermath across 34 chapters leads to mid-book sections where Pietri's voice fades amid a more generic surve",
+    "text": "The book shines in its archival depth, particularly in the Sanremo chapters, where the texture of municipal ledgers and domestic details creates a vivid microhistorical portrait. Its closing argument about how Pietri's collapse forged the template for modern sporting spectacle is powerful and well-earned. However, the narrative structure feels overextended for a single incident; the middle chapters drift into a more generic survey of institutional history, and the repetitive chapter titling formula becomes noticeable. While the core argument is compelling, the journey to reach it is at times c",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.png",
+    "file": "cover.svg",
     "provider": "openrouter",
-    "model": "qwen/qwen-image-3-pro",
-    "generatedAt": "2026-08-30T06:52:14.843Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T17:00:33.945Z",
     "textless": false,
-    "profileId": "warm-humanist"
+    "profileId": "portrait-biography",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "portrait-biography"
   },
   "chapters": [
     {
       "idx": 0,
       "sourceIdx": 0,
-      "title": "The Confectioner from Carpi (1885-1907)",
+      "title": "The Confectioner from Carpi",
       "units": 2504
     },
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Call to London (1907-1908)",
+      "title": "The Call to London",
       "units": 2379
     },
     {
@@ -98,37 +101,37 @@
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Marathon as Spectacle (November 1908–January 1909)",
+      "title": "The Marathon as Spectacle",
       "units": 1931
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The Return of the Hero (Spring 1909)",
+      "title": "The Return of the Hero",
       "units": 2447
     },
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The Limits of the Body (1909–1910)",
+      "title": "The Limits of the Body",
       "units": 2414
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The Machinery of a Modern Myth (1910–1911)",
+      "title": "The Machinery of a Modern Myth",
       "units": 1884
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Fading of the Footsteps (1912–1914)",
+      "title": "The Fading of the Footsteps",
       "units": 2271
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Distance Settles (1914–1921)",
+      "title": "The Distance Settles",
       "units": 1901
     },
     {
@@ -140,19 +143,19 @@
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The War and the Forgotten Man (1914–1918)",
+      "title": "The War and the Forgotten Man",
       "units": 2208
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Final Curtain (1919–1922)",
+      "title": "The Final Curtain",
       "units": 2338
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Quiet Life in Sanremo (1922–1942)",
+      "title": "The Quiet Life in Sanremo",
       "units": 2197
     },
     {
@@ -164,93 +167,94 @@
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Immortal Distance (1948–Present)",
+      "title": "The Immortal Distance",
       "units": 2536
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Standardization of a Myth (1948–Present)",
+      "title": "The Standardization of a Myth",
       "units": 2517
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Anatomy of a Sporting Myth (1942–Present)",
+      "title": "The Anatomy of a Sporting Myth",
       "units": 2453
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Final Lap and the Eternal Finish (1942–Present)",
+      "title": "The Final Lap and the Eternal Finish",
       "units": 2506
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Last Confection (1909–1942)",
+      "title": "The Last Confection",
       "units": 1850
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Enduring Echo (1942–Present)",
+      "title": "The Enduring Echo",
       "units": 1990
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Final Measure (1942–Present)",
+      "title": "The Final Measure",
       "units": 2192
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Fixed Distance (1908–Present)",
+      "title": "The Fixed Distance",
       "units": 2205
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Standard in Stone (1908–Present)",
+      "title": "The Standard in Stone",
       "units": 1943
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Man Who Lost the Race (1908–Present)",
+      "title": "The Man Who Lost the Race",
       "units": 2325
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Immortal Second Place (1908–Present)",
+      "title": "The Immortal Second Place",
       "units": 2328
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Echo in the Stadium (1908–Present)",
+      "title": "The Echo in the Stadium",
       "units": 2547
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Final Mile (1909–1942)",
+      "title": "The Final Mile",
       "units": 2529
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Lasting Finish (1908–Present)",
+      "title": "The Lasting Finish",
       "units": 2491
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Distance Fixed (1908–Present)",
+      "title": "The Distance Fixed",
       "units": 2575
     }
   ],
-  "publishedAt": "2026-08-30T06:52:19.820Z"
+  "publishedAt": "2026-08-30T06:52:19.820Z",
+  "rerenderedAt": "2026-09-05T09:03:11.162Z"
 }
