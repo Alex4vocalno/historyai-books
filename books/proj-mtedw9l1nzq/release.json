@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072221701_7ef134334d",
   "projectId": "proj-mtedw9l1nzq",
-  "manuscriptVersionId": "mv_85f10359b06cbf88",
-  "contentHash": "85f10359b06cbf888c6a006c7f056b7b56546dac2aaead539f40116f93a50352",
+  "manuscriptVersionId": "mv_5492f47744017be0",
+  "contentHash": "5492f47744017be07ec58507a18bb2d5c170489b753fcb1751b2f1d98ddd586e",
   "title": "Six Ways to Fall: A Natural History of Gravity",
   "subtitle": "A Natural History of Gravity",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:51:06.751Z"
   },
   "editorReview": {
-    "text": "This history of gravity excels when it anchors abstract concepts in vivid sensory detail, most notably in the suspenseful narrative of detecting gravitational waves and the imaging of a black hole’s shadow. These chapters achieve that rare feat of making profound physics feel intuitive. However, the book’s chronological march through 35 discrete 'ways' to understand gravity can feel episodic, with the middle sections occasionally slipping into a drier, textbook-like register. The journey recovers its philosophical coherence in the final, reflective chapters, which reframe the entire quest not",
+    "text": "This ambitious history of gravity excels when it anchors cosmic concepts in tangible experience. The narrative of detecting gravitational waves is masterful, transforming a faint 'chirp' into a profound sensory and intellectual revelation. Similarly, the account of imaging a black hole's shadow builds suspense with genuine historical momentum. However, the journey's middle stretches can feel like a dutiful textbook, with prose that loses its distinctive voice. The chronological structure, while clear, often presents ideas as a sequence of episodes rather than building them into a cumulative ar",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -50,7 +50,7 @@
     {
       "idx": 0,
       "sourceIdx": 0,
-      "title": "The Tendency of a Place (c. 350 BCE)",
+      "title": "The Tendency of a Place",
       "units": 2047
     },
     {
@@ -259,6 +259,6 @@
     }
   ],
   "publishedAt": "2026-08-30T07:22:21.710Z",
-  "rerenderedAt": "2026-09-05T09:32:40.847Z",
+  "rerenderedAt": "2026-09-05T09:41:56.035Z",
   "formFamily": "narrative"
 }
