@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830073550468_43679157e4",
   "projectId": "proj-mtedw6dsufz",
-  "manuscriptVersionId": "mv_59da5602afe101e0",
-  "contentHash": "59da5602afe101e022f79487e07da3d9e4dff90f169ae642b3f50b04c40cd7bb",
+  "manuscriptVersionId": "mv_c8f767c89fca1367",
+  "contentHash": "c8f767c89fca1367d1e8e0fb43c1a8768db893faabf619bb55c7980cc5b1e9e4",
   "title": "The Cold Truth: Why Ice Floats and Other Miracles of Water",
   "subtitle": "Why Ice Floats and Other Miracles of Water",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:37:26.276Z"
   },
   "editorReview": {
-    "text": "This book's ambition is commendable, especially its 'Strangeness Engine' framework that elegantly connects water's diverse anomalies. The opening is masterful, grounding profound physics in tactile moments, like the shards of a frozen pitcher or Galileo examining an ice sheet. However, the journey becomes uneven. The vivid, intuitive explanations that define the early chapters gradually give way to a more generic, textbook-like register in the middle. By the final stretch, the narrative drifts into abstract philosophical commentary, leaving behind the embodied analogies that made its core idea",
+    "text": "This book's ambition is clear: to transform water's scientific oddities into a coherent narrative of 'strangeness.' The early chapters succeed brilliantly, grounding abstract concepts in tangible moments—like Galileo turning an ice sheet in his hand or a lake cooling from the surface down. However, the project loses its physical intuition in the later stages, where the prose drifts into repetitive philosophical abstraction. A particularly jarring misstep is the attempt to draw a parallel with Holocaust denial, an analogy that feels both forced and profoundly out of place. The core scientific i",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -218,7 +218,7 @@
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Memory of a Miracle (c. 2200–)",
+      "title": "The Memory of a Miracle",
       "units": 2333
     },
     {
@@ -230,13 +230,13 @@
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Last Drop (c. 2500–)",
+      "title": "The Last Drop",
       "units": 2514
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Enduring Stranger (c. 3000–)",
+      "title": "The Enduring Stranger",
       "units": 2525
     },
     {
@@ -248,11 +248,11 @@
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Stranger’s Last Whisper (c. 3000–)",
+      "title": "The Stranger’s Last Whisper",
       "units": 2393
     }
   ],
   "publishedAt": "2026-08-30T07:35:51.534Z",
-  "rerenderedAt": "2026-09-05T09:32:44.756Z",
+  "rerenderedAt": "2026-09-05T09:42:04.215Z",
   "formFamily": "narrative"
 }
