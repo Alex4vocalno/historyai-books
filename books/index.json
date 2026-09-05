@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtedw46tosb",
+    "projectId": "proj-mtedw46tosb",
+    "releaseId": "rel_20260830065816335_953b7998ca",
+    "title": "The Night Shift: What Your Brain Does While You Sleep",
+    "subtitle": "What Your Brain Does While You Sleep",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "sleep science",
+      "neuroscience history",
+      "dream research",
+      "memory consolidation",
+      "circadian biology",
+      "世界史"
+    ],
+    "description": "Sleep is not an absence of activity but a second job. When consciousness fades, the brain begins its night shift: copying the day’s rough notes into long-term storage, clearing metabolic waste, and running emotional simulations with the logic checker off. This narrative history traces a century of discovery, from early twentieth-century watchmen to modern sleep labs where split-brain patients and sleep-deprived doctors revealed the architecture of rest. Rather than treating dreams as mysteries to be solved or apologized for, the text presents them as essential prediction tuning. Vivid scenes replace equations, showing how researchers learned to read the sleeping mind as a dynamic workshop of memory consolidation and emotional triage. Open questions about why we dream remain allures rather than gaps in understanding. Accessible to readers without biological training, this account reframes slumber not as downtime but as the indispensable labor that sustains waking life.",
+    "chapterCount": 34,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 76,
+      "method": "median-of-3",
+      "createdAt": "2026-08-29T18:35:54.175Z"
+    },
+    "coverUrl": "books/proj-mtedw46tosb/releases/rel_20260830065816335_953b7998ca/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtedw46tosb/index.html",
+    "publishedAt": "2026-08-30T06:58:16.342Z",
+    "firstPublishedAt": "2026-08-30T06:58:16.342Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtedw9l1nzq",
     "projectId": "proj-mtedw9l1nzq",
     "releaseId": "rel_20260830072221701_7ef134334d",
@@ -609,40 +643,6 @@
     "url": "books/proj-mtedvzmzza4/index.html",
     "publishedAt": "2026-08-30T06:54:39.397Z",
     "firstPublishedAt": "2026-08-30T06:54:39.397Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtedw46tosb",
-    "projectId": "proj-mtedw46tosb",
-    "releaseId": "rel_20260830065816335_953b7998ca",
-    "title": "The Night Shift: What Your Brain Does While You Sleep",
-    "subtitle": "What Your Brain Does While You Sleep",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "sleep science",
-      "neuroscience history",
-      "dream research",
-      "memory consolidation",
-      "circadian biology",
-      "世界史"
-    ],
-    "description": "Sleep is not an absence of activity but a second job. When consciousness fades, the brain begins its night shift: copying the day’s rough notes into long-term storage, clearing metabolic waste, and running emotional simulations with the logic checker off. This narrative history traces a century of discovery, from early twentieth-century watchmen to modern sleep labs where split-brain patients and sleep-deprived doctors revealed the architecture of rest. Rather than treating dreams as mysteries to be solved or apologized for, the text presents them as essential prediction tuning. Vivid scenes replace equations, showing how researchers learned to read the sleeping mind as a dynamic workshop of memory consolidation and emotional triage. Open questions about why we dream remain allures rather than gaps in understanding. Accessible to readers without biological training, this account reframes slumber not as downtime but as the indispensable labor that sustains waking life.",
-    "chapterCount": 34,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 76,
-      "method": "median-of-3",
-      "createdAt": "2026-08-29T18:35:54.175Z"
-    },
-    "coverUrl": "books/proj-mtedw46tosb/releases/rel_20260830065816335_953b7998ca/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtedw46tosb/index.html",
-    "publishedAt": "2026-08-30T06:58:16.342Z",
-    "firstPublishedAt": "2026-08-30T06:58:16.342Z",
     "visibility": "public"
   },
   {
