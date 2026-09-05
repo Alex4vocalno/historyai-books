@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtnr0vu7br8",
+    "projectId": "proj-mtnr0vu7br8",
+    "releaseId": "rel_20260905075528633_98cfae259b",
+    "title": "从像素到光追",
+    "subtitle": "电子游戏美术风格四十年细读史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏美术",
+      "视觉文化",
+      "艺术评论",
+      "设计史",
+      "像素艺术",
+      "中国史"
+    ],
+    "description": "为什么8×8像素块能承载人格？为何手绘逐帧动画至今无法被算法复刻？当显存与多边形预算不再是枷锁，画面反而陷入同质化的泥沼。这不是画质进化论，而是一部在硬件约束下反复重新发明“观看”的历史。从《ICO》的过曝白到《艾尔登法环》的物理天光，二十三个视觉样本细读，还原美术总监在限制中做出的风格抉择。当技术许诺无限自由，我们才惊觉那些动人的画面，往往诞生于匮乏之中的创造性妥协。",
+    "chapterCount": 23,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-05T04:58:57.561Z"
+    },
+    "coverUrl": "books/proj-mtnr0vu7br8/releases/rel_20260905075528633_98cfae259b/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtnr0vu7br8/index.html",
+    "publishedAt": "2026-09-05T07:55:28.637Z",
+    "firstPublishedAt": "2026-09-05T07:35:51.281Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtnr12mwdbz",
     "projectId": "proj-mtnr12mwdbz",
     "releaseId": "rel_20260905075521679_3b19f9acb6",
@@ -65,40 +99,6 @@
     "url": "books/proj-mtnr1948yaa/index.html",
     "publishedAt": "2026-09-05T07:55:14.642Z",
     "firstPublishedAt": "2026-09-05T07:27:41.816Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtnr0vu7br8",
-    "projectId": "proj-mtnr0vu7br8",
-    "releaseId": "rel_20260905073551278_98cfae259b",
-    "title": "从像素到光追",
-    "subtitle": "电子游戏美术风格四十年细读史",
-    "language": "zh",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "游戏史",
-    "tags": [
-      "游戏美术",
-      "视觉文化",
-      "艺术评论",
-      "设计史",
-      "像素艺术",
-      "中国史"
-    ],
-    "description": "为什么8×8像素块能承载人格？为何手绘逐帧动画至今无法被算法复刻？当显存与多边形预算不再是枷锁，画面反而陷入同质化的泥沼。这不是画质进化论，而是一部在硬件约束下反复重新发明“观看”的历史。从《ICO》的过曝白到《艾尔登法环》的物理天光，二十三个视觉样本细读，还原美术总监在限制中做出的风格抉择。当技术许诺无限自由，我们才惊觉那些动人的画面，往往诞生于匮乏之中的创造性妥协。",
-    "chapterCount": 23,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-05T04:58:57.561Z"
-    },
-    "coverUrl": "books/proj-mtnr0vu7br8/releases/rel_20260905073551278_98cfae259b/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtnr0vu7br8/index.html",
-    "publishedAt": "2026-09-05T07:35:51.281Z",
-    "firstPublishedAt": "2026-09-05T07:35:51.281Z",
     "visibility": "public"
   },
   {
