@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtjekm8w47u",
+    "projectId": "proj-mtjekm8w47u",
+    "releaseId": "rel_20260902051816561_d3d0635e19",
+    "title": "Small Levers: The Engineering of Everyday Change",
+    "subtitle": "The Engineering of Everyday Change",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "个人成长",
+    "tags": [
+      "Behavioral Science",
+      "Habit Formation",
+      "Self-Improvement",
+      "Psychology",
+      "Productivity",
+      "个人成长"
+    ],
+    "description": "Why do most self-improvement efforts collapse within weeks? Lasting change is not a test of willpower but an engineering problem. Drawing on fifty years of behavioral science, from 1970s token-economy experiments to modern digital habit products, this book replaces motivation myths with measurable mechanisms. Four specific levers—friction, environment design, feedback latency, and identity signaling—determine whether new behaviors stick or fail. Each chapter pairs rigorous research with real-world case studies and a one-page protocol readers can test immediately. Moving beyond universal advice, the text offers a falsifiable framework for personalizing behavioral architecture while acknowledging the limits of optimization. This is a practical manual for designing a life that works, grounded in data rather than aspiration.",
+    "chapterCount": 34,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 75,
+      "method": "median-of-2",
+      "createdAt": "2026-09-02T04:22:35.947Z"
+    },
+    "coverUrl": "books/proj-mtjekm8w47u/releases/rel_20260902051816561_d3d0635e19/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtjekm8w47u/index.html",
+    "publishedAt": "2026-09-02T05:18:16.569Z",
+    "firstPublishedAt": "2026-09-02T05:18:16.569Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtmzikk1kf1",
     "projectId": "proj-mtmzikk1kf1",
     "releaseId": "rel_20260905015519067_9a8912c039",
@@ -611,40 +645,6 @@
     "url": "books/proj-mtiobstxxk6/index.html",
     "publishedAt": "2026-09-02T00:30:58.996Z",
     "firstPublishedAt": "2026-09-02T00:30:58.996Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtjekm8w47u",
-    "projectId": "proj-mtjekm8w47u",
-    "releaseId": "rel_20260902051816561_d3d0635e19",
-    "title": "Small Levers: The Engineering of Everyday Change",
-    "subtitle": "The Engineering of Everyday Change",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "个人成长",
-    "tags": [
-      "Behavioral Science",
-      "Habit Formation",
-      "Self-Improvement",
-      "Psychology",
-      "Productivity",
-      "个人成长"
-    ],
-    "description": "Why do most self-improvement efforts collapse within weeks? Lasting change is not a test of willpower but an engineering problem. Drawing on fifty years of behavioral science, from 1970s token-economy experiments to modern digital habit products, this book replaces motivation myths with measurable mechanisms. Four specific levers—friction, environment design, feedback latency, and identity signaling—determine whether new behaviors stick or fail. Each chapter pairs rigorous research with real-world case studies and a one-page protocol readers can test immediately. Moving beyond universal advice, the text offers a falsifiable framework for personalizing behavioral architecture while acknowledging the limits of optimization. This is a practical manual for designing a life that works, grounded in data rather than aspiration.",
-    "chapterCount": 34,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 75,
-      "method": "median-of-2",
-      "createdAt": "2026-09-02T04:22:35.947Z"
-    },
-    "coverUrl": "books/proj-mtjekm8w47u/releases/rel_20260902051816561_d3d0635e19/cover-39faab1f87dd.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtjekm8w47u/index.html",
-    "publishedAt": "2026-09-02T05:18:16.569Z",
-    "firstPublishedAt": "2026-09-02T05:18:16.569Z",
     "visibility": "public"
   },
   {

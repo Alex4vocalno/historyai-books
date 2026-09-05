@@ -1,8 +1,21 @@
 {
   "schemaVersion": "historyai.distribution-revision.v1",
-  "revision": "mto5leuj-1e4de204",
-  "updatedAt": "2026-09-05T09:01:23.179Z",
+  "revision": "mto5llqe-1e38702e",
+  "updatedAt": "2026-09-05T09:01:32.102Z",
   "events": [
+    {
+      "at": "2026-09-05T09:01:32.102Z",
+      "revision": "mto5llqe-1e38702e",
+      "action": "publish",
+      "projectId": "proj-mtjekm8w47u",
+      "releaseId": "rel_20260902051816561_d3d0635e19",
+      "paths": [
+        "/",
+        "/index-en.html",
+        "/books/proj-mtjekm8w47u/",
+        "/books/proj-mtjekm8w47u/current.json"
+      ]
+    },
     {
       "at": "2026-09-05T09:01:23.179Z",
       "revision": "mto5leuj-1e4de204",
