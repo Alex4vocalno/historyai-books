@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtedw6dsufz",
+    "projectId": "proj-mtedw6dsufz",
+    "releaseId": "rel_20260830073550468_43679157e4",
+    "title": "The Cold Truth: Why Ice Floats and Other Miracles of Water",
+    "subtitle": "Why Ice Floats and Other Miracles of Water",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "History of Science",
+      "Physics",
+      "Water",
+      "Natural History",
+      "Chemistry",
+      "世界史"
+    ],
+    "description": "Water is the most ordinary substance on Earth, yet it breaks the fundamental rules of chemistry. If ice sank, lakes would freeze solid from the bottom up; without its peculiar cohesion, sap could never climb a redwood. Each anomaly is a doorway into deep physics, where hydrogen bonds act like crowds holding hands and letting go a trillion times a second. This narrative translates complex equations into kitchen experience and laboratory discovery, moving from frost-cracked engine blocks to the Titanic’s brittle steel. It explores supercooling, heavy water, and the elusive second liquid phase without requiring prior scientific knowledge. Beyond established facts lies an alluring frontier: the unknown edges of liquid physics that researchers still struggle to map. From early inquiries to future frontiers, this is a story of how water’s strangeness makes life possible. The most familiar element remains our most profound mystery, inviting readers to see the glass on their table as a window into the universe’s deepest architecture.",
+    "chapterCount": 34,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 76,
+      "method": "median-of-3",
+      "createdAt": "2026-08-29T18:37:26.276Z"
+    },
+    "coverUrl": "books/proj-mtedw6dsufz/releases/rel_20260830073550468_43679157e4/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtedw6dsufz/index.html",
+    "publishedAt": "2026-08-30T07:35:51.534Z",
+    "firstPublishedAt": "2026-08-30T07:35:51.534Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtedwbdvb0r",
     "projectId": "proj-mtedwbdvb0r",
     "releaseId": "rel_20260830072635353_02f19f7464",
@@ -609,40 +643,6 @@
     "url": "books/proj-mtedw46tosb/index.html",
     "publishedAt": "2026-08-30T06:58:16.342Z",
     "firstPublishedAt": "2026-08-30T06:58:16.342Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtedw6dsufz",
-    "projectId": "proj-mtedw6dsufz",
-    "releaseId": "rel_20260830073550468_43679157e4",
-    "title": "The Cold Truth: Why Ice Floats and Other Miracles of Water",
-    "subtitle": "Why Ice Floats and Other Miracles of Water",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "History of Science",
-      "Physics",
-      "Water",
-      "Natural History",
-      "Chemistry",
-      "世界史"
-    ],
-    "description": "Water is the most ordinary substance on Earth, yet it breaks the fundamental rules of chemistry. If ice sank, lakes would freeze solid from the bottom up; without its peculiar cohesion, sap could never climb a redwood. Each anomaly is a doorway into deep physics, where hydrogen bonds act like crowds holding hands and letting go a trillion times a second. This narrative translates complex equations into kitchen experience and laboratory discovery, moving from frost-cracked engine blocks to the Titanic’s brittle steel. It explores supercooling, heavy water, and the elusive second liquid phase without requiring prior scientific knowledge. Beyond established facts lies an alluring frontier: the unknown edges of liquid physics that researchers still struggle to map. From early inquiries to future frontiers, this is a story of how water’s strangeness makes life possible. The most familiar element remains our most profound mystery, inviting readers to see the glass on their table as a window into the universe’s deepest architecture.",
-    "chapterCount": 34,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 76,
-      "method": "median-of-3",
-      "createdAt": "2026-08-29T18:37:26.276Z"
-    },
-    "coverUrl": "books/proj-mtedw6dsufz/releases/rel_20260830073550468_43679157e4/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtedw6dsufz/index.html",
-    "publishedAt": "2026-08-30T07:35:51.534Z",
-    "firstPublishedAt": "2026-08-30T07:35:51.534Z",
     "visibility": "public"
   },
   {
