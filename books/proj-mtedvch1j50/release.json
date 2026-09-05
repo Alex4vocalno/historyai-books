@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830064419272_24c490a6be",
   "projectId": "proj-mtedvch1j50",
-  "manuscriptVersionId": "mv_c64572ad88e2f4e6",
-  "contentHash": "c64572ad88e2f4e6fadf491ca94579f6ef15525538630aad37319037960d22b6",
+  "manuscriptVersionId": "mv_30c9b8e940845dcb",
+  "contentHash": "30c9b8e940845dcbd96b70fe805a9ab2c0f0ab79757ac754304eb928c2bfa466",
   "title": "The Berlin Airlift Ledger: Feeding a City by Paper and Propeller",
   "subtitle": "Feeding a City by Paper and Propeller",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T19:08:58.125Z"
   },
   "editorReview": {
-    "text": "This is a history that understands its form. The central thesis—that the airlift was governed by the 'paper machine' of ledgers and manifests—is powerfully sustained, especially in the meticulous middle chapters where documentary evidence drives the narrative with precision. The opening's conceptual framing, imagining the ledger's grid as a 'page defined by absence,' is particularly strong. However, the structural execution falters. Repetitive chapter titles signal a lack of editorial polish, and the concluding chapters drift from the rich archival specificity that defines the book's best mome",
+    "text": "This archive chronicle makes an original contribution to airlift historiography by powerfully arguing that the 'paper machine' of manifests and schedules was the active governor of the crisis, not a passive record. The middle chapters (18-19) are a masterclass in this approach, where meticulous documentary evidence drives a compelling narrative with precision. However, the book's structural integrity suffers in its closing stretch, where the rich archival specificity gives way to generic strategic analysis and repetitive thesis restatement. This drift, coupled with a frustratingly mechanical r",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -62,13 +62,13 @@
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Coal Manifesto (Late June – Early July 1948)",
+      "title": "The Coal Manifesto",
       "units": 2365
     },
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Corridor’s First Timetable (Late July 1948)",
+      "title": "The Corridor’s First Timetable",
       "units": 2308
     },
     {
@@ -86,7 +86,7 @@
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Control Council’s Final Minutes (Late September 1948)",
+      "title": "The Control Council’s Final Minutes",
       "units": 2512
     },
     {
@@ -128,13 +128,13 @@
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The City Treasurer’s Final Balance (Late May 1949)",
+      "title": "The City Treasurer’s Final Balance",
       "units": 2491
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Blockade’s Quiet Termination (May 12, 1949)",
+      "title": "The Blockade’s Quiet Termination",
       "units": 2360
     },
     {
@@ -146,7 +146,7 @@
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Air Corridor’s Cartographic Closure (June – September 1949)",
+      "title": "The Air Corridor’s Cartographic Closure",
       "units": 2230
     },
     {
@@ -158,7 +158,7 @@
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Paper Machine’s Final Rhythm (June – September 1949)",
+      "title": "The Paper Machine’s Final Rhythm",
       "units": 2405
     },
     {
@@ -265,6 +265,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:44:19.286Z",
-  "rerenderedAt": "2026-09-05T09:33:59.980Z",
+  "rerenderedAt": "2026-09-05T09:42:38.266Z",
   "formFamily": "narrative"
 }
