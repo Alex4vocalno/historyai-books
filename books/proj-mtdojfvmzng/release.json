@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902122624804_c8eba0a6ed",
   "projectId": "proj-mtdojfvmzng",
-  "manuscriptVersionId": "mv_df7f8d6d5cf8a887",
-  "contentHash": "df7f8d6d5cf8a8870bc13d46bb2ae6fa3459425d4d62c4334edce19077143aa0",
+  "manuscriptVersionId": "mv_d98d01e4253a5dcf",
+  "contentHash": "d98d01e4253a5dcfe3997bd765dafa821d2e2f041451bff24d23cededf229281",
   "title": "The Great Stink: London in the Summer of 1858",
   "subtitle": "London in the Summer of 1858",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T17:42:00.641Z"
   },
   "editorReview": {
-    "text": "This microhistory excels in its visceral opening and core chapters, where the author masterfully uses the sensory experience of a single waterman to anchor the systemic crisis of the Thames. The analysis of how pollution was not solved but redistributed across class and geography is particularly sharp, honoring the form's commitment to whose experience counts. However, the structure falters in its later sections, where the intimate historical witness gives way to abstract policy commentary, and repetitive chapter titles hint at a lack of editorial precision. The book's strength lies in its pow",
+    "text": "This microhistory excels in its core moments, particularly the visceral opening and the powerful compression of a single document or object—like the authorization lying on a desk—to carry immense institutional weight. The analysis of how environmental burdens were redistributed along class and geographic lines is sharp and honors the form's commitment to specific human experience. However, the structure shows strain: repetitive chapter titles and a late pivot into abstract policy analysis dilute the immersive, embodied narrative voice that makes the early chapters so compelling. It's a vivid p",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -110,31 +110,31 @@
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The River’s New Anatomy (July-August 1858)",
+      "title": "The River’s New Anatomy",
       "units": 2291
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The Labourer and the Embankment (July-August 1858)",
+      "title": "The Labourer and the Embankment",
       "units": 2147
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Price of a Clean River (July-August 1858)",
+      "title": "The Price of a Clean River",
       "units": 1423
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Displaced and the Dispossessed (July-August 1858)",
+      "title": "The Displaced and the Dispossessed",
       "units": 1667
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Engine of the New City (July-August 1858)",
+      "title": "The Engine of the New City",
       "units": 2560
     },
     {
@@ -259,6 +259,6 @@
     }
   ],
   "publishedAt": "2026-09-02T12:26:24.811Z",
-  "rerenderedAt": "2026-09-05T09:34:12.032Z",
+  "rerenderedAt": "2026-09-05T09:43:55.298Z",
   "formFamily": "narrative"
 }
