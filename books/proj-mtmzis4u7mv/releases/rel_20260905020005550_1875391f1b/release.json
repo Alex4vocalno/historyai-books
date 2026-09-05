@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905020005550_1875391f1b",
   "projectId": "proj-mtmzis4u7mv",
-  "manuscriptVersionId": "mv_3994dfb5bd89fd02",
-  "contentHash": "3994dfb5bd89fd02164b41747ea0045234806fe3160c0707a38b765608c0319b",
+  "manuscriptVersionId": "mv_683d98e5cfe77dd9",
+  "contentHash": "683d98e5cfe77dd917bae1ae08581453e54ba9f7516ffc495d80520285b65cba",
   "title": "The Server Is a Country",
   "subtitle": "A Social History of Life Inside the Virtual World",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:20:58.821Z"
   },
   "editorReview": {
-    "text": "This chronicle of digital societies shines when it delves into the granular, lived experience of its subjects. The early chapters deliver on their promise of a modern 'Montaillou,' where a player's corpse run becomes a poignant study of virtual inheritance and a guild's DKP spreadsheet is convincingly analyzed as a foundational constitution. However, the book's structural integrity wavers as it progresses. The introduction of a second major game world feels abrupt and disrupts the immersive, single-domain focus established at the outset. While the final sections recover some narrative power, p",
+    "text": "The book delivers on its core promise of a social history of a digital world with moments of real ethnographic depth. The early chapters are particularly strong, where the author convincingly treats a guild's loot-distribution spreadsheet as a kind of living constitution and captures the tangible stakes of a 'corpse run' with poignant specificity. However, the structural focus wavers later on, most notably with the seemingly unmotivated introduction of a second, parallel game world that disrupts the narrative's initial, compelling single-domain immersion. While the final section recovers some",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -200,13 +200,13 @@
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Judgment of the Server",
+      "title": "Syllabus of Settled Judgment",
       "units": 2207
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Unpaid Administrator",
+      "title": "Forty-Seven Unread Messages",
       "units": 2571
     },
     {
@@ -218,13 +218,13 @@
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Ghost in the Machine",
+      "title": "Logging In for the Dead",
       "units": 2420
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Final Log Entry",
+      "title": "Anonymizing the Archive",
       "units": 2307
     },
     {
@@ -242,13 +242,13 @@
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Society in the Locked Drawer",
+      "title": "Coffee and a Choice",
       "units": 2064
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Judgment of the Logs",
+      "title": "Silence Before the Terminal",
       "units": 2721
     },
     {
@@ -260,10 +260,10 @@
     {
       "idx": 35,
       "sourceIdx": 35,
-      "title": "The Player-Written Country",
+      "title": "Bedrock's Social Protocol",
       "units": 2398
     }
   ],
   "publishedAt": "2026-09-05T02:00:05.611Z",
-  "rerenderedAt": "2026-09-05T10:12:43.694Z"
+  "rerenderedAt": "2026-09-05T10:26:18.652Z"
 }
