@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902051816561_d3d0635e19",
   "projectId": "proj-mtjekm8w47u",
-  "manuscriptVersionId": "mv_d2125e3abdfdf033",
-  "contentHash": "d2125e3abdfdf033199a3e1d5651aff966981bd41855840a2d2d6495e6405dd4",
+  "manuscriptVersionId": "mv_25b06b31218df1f0",
+  "contentHash": "25b06b31218df1f03656e4d667034edefe49f36e840b475d504ed5135af312bf",
   "title": "Small Levers: The Engineering of Everyday Change",
   "subtitle": "The Engineering of Everyday Change",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-02T04:22:35.947Z"
   },
   "editorReview": {
-    "text": "This book offers a genuinely useful framework for anyone tired of willpower-based self-help, replacing vague motivation with a structured 'engineering' approach to change. The conceptual ambition is real—especially in later chapters like the insightful Atlas Systems case on instrumental burnout—and the core argument that lasting change requires measurable mechanics rather than moral effort is compelling. However, the reading experience can be uneven. The prose sometimes feels mechanical or passive, and the structure wavers, with some chapters (like the vivid opening 'autopsy report') stronger",
+    "text": "This book offers a genuinely useful framework for anyone tired of motivation-based self-help, framing change as an engineering problem with measurable levers. Its strongest moments—like the insightful Atlas Systems case study on instrumental burnout—demonstrate real conceptual ambition, moving beyond standard behavioral economics. The opening's 'autopsy report' metaphor sets clear, compelling stakes. However, the execution is uneven; the prose can feel mechanical, and the structure sometimes wavers, as seen in repetitive chapter titles late in the book. It's best for readers seeking a systemat",
     "penName": "一苇",
     "title": "Personal Growth Editor",
     "rating": "Editor's notes"
@@ -224,19 +224,19 @@
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Engineer’s Final Reckoning",
+      "title": "Living Within the Truthful Model",
       "units": 2442
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Unfinished Work of Behavioral Engineering",
+      "title": "Who Holds the Wrench",
       "units": 2657
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Participatory Origin of the Token Economy",
+      "title": "Tokens as Tangible Power",
       "units": 2651
     },
     {
@@ -253,5 +253,5 @@
     }
   ],
   "publishedAt": "2026-09-02T05:18:16.569Z",
-  "rerenderedAt": "2026-09-05T09:24:32.828Z"
+  "rerenderedAt": "2026-09-05T09:32:08.953Z"
 }
