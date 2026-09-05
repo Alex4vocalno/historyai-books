@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtmzhxtagjy",
+    "projectId": "proj-mtmzhxtagjy",
+    "releaseId": "rel_20260905014853434_0e595e17d3",
+    "title": "消失的关卡",
+    "subtitle": "电子游戏保存战的四十年",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "电子游戏史",
+      "数字保存",
+      "版权法",
+      "媒介考古",
+      "文化记忆",
+      "中国史"
+    ],
+    "description": "一款手游上线四十七天后彻底消失，街机主板在仓库中锈蚀，开发日志随硬盘一同腐烂。全球超过八成的电子游戏史正经历物理性消亡。当卡带电池漏液、服务器关停、源码无人认领，保存者们在法庭与废墟间抢夺记忆。从任天堂的连环诉讼到博物馆的玻璃展柜，从模拟器的灰色地带到每三年一次的法律豁免拉锯，这是一场关于载体、版权与时间的战争。当作品赖以存在的平台与法律同时成为敌人，谁有权决定一段数字文明是否还能被后人触碰？",
+    "chapterCount": 15,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-04T16:48:28.705Z"
+    },
+    "coverUrl": "books/proj-mtmzhxtagjy/releases/rel_20260905014853434_0e595e17d3/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtmzhxtagjy/index.html",
+    "publishedAt": "2026-09-05T01:48:53.446Z",
+    "firstPublishedAt": "2026-09-05T01:48:53.446Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtmzi4ujag2",
     "projectId": "proj-mtmzi4ujag2",
     "releaseId": "rel_20260905014751935_ecd7da8a3a",

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905014853434_0e595e17d3",
+  "projectId": "proj-mtmzhxtagjy",
+  "manuscriptVersionId": "mv_dbefc101616b47de",
+  "contentHash": "dbefc101616b47dee03f5f84cb71dd45fdb38a617e2262e108b0e1ef2bd9a7a0",
+  "title": "消失的关卡",
+  "subtitle": "电子游戏保存战的四十年",
+  "authorDisplayName": "李思特Think",
+  "description": "一款手游上线四十七天后彻底消失，街机主板在仓库中锈蚀，开发日志随硬盘一同腐烂。全球超过八成的电子游戏史正经历物理性消亡。当卡带电池漏液、服务器关停、源码无人认领，保存者们在法庭与废墟间抢夺记忆。从任天堂的连环诉讼到博物馆的玻璃展柜，从模拟器的灰色地带到每三年一次的法律豁免拉锯，这是一场关于载体、版权与时间的战争。当作品赖以存在的平台与法律同时成为敌人，谁有权决定一段数字文明是否还能被后人触碰？",
+  "category": "游戏史",
+  "tags": [
+    "电子游戏史",
+    "数字保存",
+    "版权法",
+    "媒介考古",
+    "文化记忆",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 15,
+    "units": 123680,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T16:48:28.705Z"
+  },
+  "editorReview": {
+    "text": "本书以扎实的证据链推进，核心论证——技术、法律、商业三方构成的僵局——从具体材料中生长出来，而非套用模板。例如第15章对模拟器社群、权利人与文化机构三方对峙的呈现，逻辑清晰且互相牵制，有效拒绝了简单的正义叙事。人物弧线如Near的燃尽轨迹，每一步都有博客、代码提交记录等可定位证据支撑，堪称全书最完整的证据链。然而，作为调查纪实，其体裁承诺存在一处结构性瑕疵：多处将推测或叙事重构冒充实证档案（如第7章、第15章），读者难以区分档案原文与作者推断，这削弱了‘指控与证据严格对齐’的可信度。此外，第14章文笔质量骤降，从证据链推进滑向通用学术评论，声口漂移明显；两处章末钩子未在下一章回应，也造成了叙事接缝的断裂。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-05T01:48:48.418Z",
+    "textless": false,
+    "profileId": "silk-mineral-pigment"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "只活了四十七天的游戏",
+      "units": 8486
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "卡带里的电池",
+      "units": 8532
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "任天堂的锤子",
+      "units": 7927
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "每三年一次的喘息",
+      "units": 8324
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "模拟器的合法性困境",
+      "units": 8304
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "斯特朗博物馆的柜子",
+      "units": 8045
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "浏览器里的街机厅",
+      "units": 7528
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "完美模拟的代价",
+      "units": 8393
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "失而复得的源代码",
+      "units": 8503
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "一千二百万美元的判决",
+      "units": 8327
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "被拒绝的豁免",
+      "units": 8395
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "保存者的终局",
+      "units": 8316
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "法律帝国与时间胶囊",
+      "units": 7899
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "玻璃柜中的电路板",
+      "units": 8344
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "谁有权决定一件作品是否存在",
+      "units": 8357
+    }
+  ],
+  "publishedAt": "2026-09-05T01:48:53.446Z",
+  "formFamily": "narrative"
+}
