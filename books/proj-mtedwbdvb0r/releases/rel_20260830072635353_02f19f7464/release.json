@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072635353_02f19f7464",
   "projectId": "proj-mtedwbdvb0r",
-  "manuscriptVersionId": "mv_ac394b04f910b51c",
-  "contentHash": "ac394b04f910b51c47356fd98d8f9e607a3b9d87f7141f4dfdbc24d964ea1738",
+  "manuscriptVersionId": "mv_d1fb21bc3e935bba",
+  "contentHash": "d1fb21bc3e935bbae0e7be3acc46cecf3875d70807af92a4022a65112d1547e7",
   "title": "The Alphabet of Life: How Four Letters Write Every Living Thing",
   "subtitle": "How Four Letters Write Every Living Thing",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T20:29:22.329Z"
   },
   "editorReview": {
-    "text": "This book excels when it leans into its core strength: rendering complex mechanisms through vivid, intuitive craft metaphors, as seen in the brilliant analogy chains of the opening chapters. The conceptual scaffolding, particularly the mature framing of DNA as an established 'grammar' rather than a final answer, offers genuine insight that transcends simplistic scientific triumphalism. However, the reading experience becomes uneven in the middle section. The narrative drive stalls at critical transitions, with chronological leaps that feel unmotivated and a thematic thread that frays, particul",
+    "text": "This book excels when it anchors its grand story in the tangible. Chapter 2’s vivid description of the glass rod lifting from an alcohol bath is a masterclass in immersive science writing, while later chapters reframe DNA as a battlefield and a grammar with genuine insight. However, the narrative engine sputters in the middle stretch. A repeated motif like the 'Unfinished Symphony' fails to develop, and the chronological thread frays at key transitions, leaving the reader to bridge gaps the prose should. It’s a work of considerable intelligence whose structure doesn’t always support its ambiti",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -212,7 +212,7 @@
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Unfinished Symphony of the Genome",
+      "title": "Probing the Layers of a Changed Sequence",
       "units": 2866
     },
     {
@@ -236,7 +236,7 @@
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Last Word of the First Decoders",
+      "title": "A Portrait of Breathtaking Complexity",
       "units": 2411
     },
     {
@@ -259,5 +259,5 @@
     }
   ],
   "publishedAt": "2026-08-30T07:26:36.090Z",
-  "rerenderedAt": "2026-09-05T09:25:00.390Z"
+  "rerenderedAt": "2026-09-05T09:32:36.589Z"
 }
