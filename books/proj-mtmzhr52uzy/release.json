@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905014334248_db4c5593b9",
+  "projectId": "proj-mtmzhr52uzy",
+  "manuscriptVersionId": "mv_46bd4b973e545cc5",
+  "contentHash": "46bd4b973e545cc5b681a6518080fa5abe065d2454c38ae8c5ddd50fb6a29b61",
+  "title": "原神纪元",
+  "subtitle": "米哈游与中国游戏出海的十年",
+  "authorDisplayName": "李思特Think",
+  "description": "从上海交大宿舍到全球现象级产品，三位创始人用十年完成了一场从模仿到定义的豪赌。他们押注自研引擎与全平台同步，在《崩坏3》盈利巅峰时抽调核心团队奔赴无人看好的开放世界，让二次元从亚文化蜕变为国家名片。然而奇迹之后，抽卡经济的隐秘代价与自我重复的困局接踵而至。当技术臣服于商业惯性，当爆款复制出现裂痕，定义者亦难逃边界。这不仅是一家公司的崛起史，更是中国游戏工业在狂热与疲惫中摸索前行的真实切片。",
+  "category": "游戏史",
+  "tags": [
+    "米哈游",
+    "原神",
+    "游戏出海",
+    "商业史",
+    "二次元文化",
+    "中国游戏"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 17,
+    "units": 146062,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T16:05:04.083Z"
+  },
+  "editorReview": {
+    "text": "本书对米哈游十年兴衰的剖析，胜在商业逻辑与技术演进互证的扎实骨架。第2章自研引擎的决策与第9章抽卡经济危机的因果链条，证据链完整，显示出作者对产业本质的清醒认知。尤为可贵的是，它并未止步于成功学叙事，第17章对“内容工业化”与“创造力收敛”这一悖论的揭示，触及了中国游戏工业狂热背后的深层困局。商战纪实风格稳定，场景描写如第8章全球首发极具张力。不过，中后部叙事节奏略显沉重，第16章行业全景描写虽信息量大，却因缺乏核心事件牵引而稍显冗长，部分章节的数据堆砌也削弱了阅读的流畅感。结尾处对创始人新动向的点到即止，则留下了一丝意犹未尽。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-05T01:43:26.227Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "交大宿舍与第一个选择",
+      "units": 8777
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "崩坏世界的技术预演",
+      "units": 7630
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "3D动作的豪赌",
+      "units": 9310
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "开放世界的隐秘起点",
+      "units": 8200
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "全平台同步的工程地狱",
+      "units": 8016
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "风暴眼中的全球首秀",
+      "units": 8463
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "越过风暴的起锚",
+      "units": 7522
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "提瓦特的黄金时刻",
+      "units": 8591
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "抽卡经济的隐秘代价",
+      "units": 9771
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "重复奇迹的疲倦",
+      "units": 7712
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "技术臣服",
+      "units": 8633
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "爆款复制的第一道裂痕",
+      "units": 10250
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "蔡浩宇沉默离场",
+      "units": 7828
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "绝区零与不被理解的新语言",
+      "units": 8653
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "二次元的国家面孔",
+      "units": 9340
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "全行业尽成米哈游门徒",
+      "units": 8866
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "定义者的边界",
+      "units": 8500
+    }
+  ],
+  "publishedAt": "2026-09-05T01:43:34.252Z",
+  "formFamily": "narrative"
+}
