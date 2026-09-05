@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtedw9l1nzq",
+    "projectId": "proj-mtedw9l1nzq",
+    "releaseId": "rel_20260830072221701_7ef134334d",
+    "title": "Six Ways to Fall: A Natural History of Gravity",
+    "subtitle": "A Natural History of Gravity",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "History of Physics",
+      "Gravity",
+      "Popular Science",
+      "Cosmology",
+      "Scientific Biography",
+      "世界史"
+    ],
+    "description": "Gravity is the force we know best and understand least. For two millennia, the simple question of why things fall has driven six successive revolutions in physics, from Aristotle’s natural tendencies to the ringing spacetime detected by LIGO. This narrative traces that intellectual journey through lived experience rather than abstraction, translating equations into GPS satellites aging overhead and tides stretching the sea. It moves beyond established canon to confront the unsolved frontiers of dark matter and quantum gravity, treating uncertainty not as failure but as the most vital part of the story. Requiring no prior physics knowledge, this history replaces jargon with tangible analogies, revealing how each era’s answer reshaped our cosmic perspective. It is an invitation to witness science as a persistent human inquiry, where the mystery of a falling apple remains as profound as the curvature of light.",
+    "chapterCount": 35,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 78,
+      "method": "median-of-2",
+      "createdAt": "2026-08-29T18:51:06.751Z"
+    },
+    "coverUrl": "books/proj-mtedw9l1nzq/releases/rel_20260830072221701_7ef134334d/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtedw9l1nzq/index.html",
+    "publishedAt": "2026-08-30T07:22:21.710Z",
+    "firstPublishedAt": "2026-08-30T07:22:21.710Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtedwbdvb0r",
     "projectId": "proj-mtedwbdvb0r",
     "releaseId": "rel_20260830072635353_02f19f7464",
@@ -2345,40 +2379,6 @@
     "url": "books/proj-mtedw6dsufz/index.html",
     "publishedAt": "2026-08-30T07:35:51.534Z",
     "firstPublishedAt": "2026-08-30T07:35:51.534Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtedw9l1nzq",
-    "projectId": "proj-mtedw9l1nzq",
-    "releaseId": "rel_20260830072221701_7ef134334d",
-    "title": "Six Ways to Fall: A Natural History of Gravity",
-    "subtitle": "A Natural History of Gravity",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "世界史",
-    "tags": [
-      "History of Physics",
-      "Gravity",
-      "Popular Science",
-      "Cosmology",
-      "Scientific Biography",
-      "世界史"
-    ],
-    "description": "Gravity is the force we know best and understand least. For two millennia, the simple question of why things fall has driven six successive revolutions in physics, from Aristotle’s natural tendencies to the ringing spacetime detected by LIGO. This narrative traces that intellectual journey through lived experience rather than abstraction, translating equations into GPS satellites aging overhead and tides stretching the sea. It moves beyond established canon to confront the unsolved frontiers of dark matter and quantum gravity, treating uncertainty not as failure but as the most vital part of the story. Requiring no prior physics knowledge, this history replaces jargon with tangible analogies, revealing how each era’s answer reshaped our cosmic perspective. It is an invitation to witness science as a persistent human inquiry, where the mystery of a falling apple remains as profound as the curvature of light.",
-    "chapterCount": 35,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 78,
-      "method": "median-of-2",
-      "createdAt": "2026-08-29T18:51:06.751Z"
-    },
-    "coverUrl": "books/proj-mtedw9l1nzq/releases/rel_20260830072221701_7ef134334d/cover-080cf27257c3.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtedw9l1nzq/index.html",
-    "publishedAt": "2026-08-30T07:22:21.710Z",
-    "firstPublishedAt": "2026-08-30T07:22:21.710Z",
     "visibility": "public"
   },
   {

@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072221701_7ef134334d",
   "projectId": "proj-mtedw9l1nzq",
-  "manuscriptVersionId": "mv_4c85373a759a3d72",
-  "contentHash": "4c85373a759a3d72159c314242f95a19c4c5060cfdf42ea9984083797be2554b",
+  "manuscriptVersionId": "mv_85f10359b06cbf88",
+  "contentHash": "85f10359b06cbf888c6a006c7f056b7b56546dac2aaead539f40116f93a50352",
   "title": "Six Ways to Fall: A Natural History of Gravity",
   "subtitle": "A Natural History of Gravity",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "Gravity is the force we know best and understand least. For two millennia, the simple question of why things fall has driven six successive revolutions in physics, from Aristotle’s natural tendencies to the ringing spacetime detected by LIGO. This narrative traces that intellectual journey through lived experience rather than abstraction, translating equations into GPS satellites aging overhead and tides stretching the sea. It moves beyond established canon to confront the unsolved frontiers of dark matter and quantum gravity, treating uncertainty not as failure but as the most vital part of the story. Requiring no prior physics knowledge, this history replaces jargon with tangible analogies, revealing how each era’s answer reshaped our cosmic perspective. It is an invitation to witness science as a persistent human inquiry, where the mystery of a falling apple remains as profound as the curvature of light.",
   "category": "世界史",
   "tags": [
@@ -33,18 +33,18 @@
     "createdAt": "2026-08-29T18:51:06.751Z"
   },
   "editorReview": {
-    "text": "This ambitious history of gravity succeeds most where it grounds cosmic abstractions in tangible experience: the 'chirp' of gravitational waves in Chapter 18 and the 'fuzzy orange ring' of a black hole's shadow in Chapter 17 are masterclasses in intuitive explanation. However, the chronological journey can feel episodic, with the middle sections occasionally slipping into a dry, textbook-like register that disrupts the book's otherwise strong narrative voice. It recovers its philosophical footing powerfully in the final chapters, framing gravity's story not as a question answered, but as one p",
+    "text": "This history of gravity excels when it anchors abstract concepts in vivid sensory detail, most notably in the suspenseful narrative of detecting gravitational waves and the imaging of a black hole’s shadow. These chapters achieve that rare feat of making profound physics feel intuitive. However, the book’s chronological march through 35 discrete 'ways' to understand gravity can feel episodic, with the middle sections occasionally slipping into a drier, textbook-like register. The journey recovers its philosophical coherence in the final, reflective chapters, which reframe the entire quest not",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-080cf27257c3.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-03T12:43:22.086Z",
+    "generatedAt": "2026-09-04T06:50:56.233Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "portrait-biography"
   },
   "chapters": [
     {
@@ -56,133 +56,133 @@
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Slope of a Plane (c. 1638)",
+      "title": "The Slope of a Plane",
       "units": 2298
     },
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Moon in a Falling Orbit (c. 1687)",
+      "title": "The Moon in a Falling Orbit",
       "units": 2517
     },
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Elevator in Free Space (c. 1907-1915)",
+      "title": "The Elevator in Free Space",
       "units": 2315
     },
     {
       "idx": 4,
       "sourceIdx": 4,
-      "title": "The Fabric of a Universe (c. 1919-1970s)",
+      "title": "The Fabric of a Universe",
       "units": 2214
     },
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Ringing of a Spacetime (c. 1970s–2015)",
+      "title": "The Ringing of a Spacetime",
       "units": 2513
     },
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Frontier of a Quantum World (c. 1970s–Present)",
+      "title": "The Frontier of a Quantum World",
       "units": 2209
     },
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The Weight of a Vacuum (c. 1998–Present)",
+      "title": "The Weight of a Vacuum",
       "units": 2483
     },
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Measure of a Missing Mass (c. 1970s–Present)",
+      "title": "The Measure of a Missing Mass",
       "units": 2377
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The Architect of a Cosmic Web (c. 1980s–Present)",
+      "title": "The Architect of a Cosmic Web",
       "units": 2988
     },
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The Clockwork of a Celestial Machine (c. 1687–1846)",
+      "title": "The Clockwork of a Celestial Machine",
       "units": 2728
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The Anomaly of a Wandering Planet (1846–1915)",
+      "title": "The Anomaly of a Wandering Planet",
       "units": 2545
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Curvature of a Light Ray (1919–1920s)",
+      "title": "The Curvature of a Light Ray",
       "units": 2520
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Precession of a Dying Orbit (1915–1974)",
+      "title": "The Precession of a Dying Orbit",
       "units": 2085
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Clock of a Falling Satellite (1957–1976)",
+      "title": "The Clock of a Falling Satellite",
       "units": 2462
     },
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The Ladder of a Cosmic Hierarchy (c. 1970s–Present)",
+      "title": "The Ladder of a Cosmic Hierarchy",
       "units": 2529
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Shadow of a Black Hole (c. 1916–2019)",
+      "title": "The Shadow of a Black Hole",
       "units": 2464
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Echo of a Collision (c. 2015–Present)",
+      "title": "The Echo of a Collision",
       "units": 2448
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Pull of a Distant Galaxy (c. 1929–Present)",
+      "title": "The Pull of a Distant Galaxy",
       "units": 2558
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Clock in a Curved Orbit (c. 1976–Present)",
+      "title": "The Clock in a Curved Orbit",
       "units": 2571
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Ladder of a Universal Force (c. 1687–Present)",
+      "title": "The Ladder of a Universal Force",
       "units": 2625
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Constant in a Falling Apple (c. 1907–Present)",
+      "title": "The Constant in a Falling Apple",
       "units": 2476
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Unification of a Broken Symmetry (c. 1970s–Present)",
+      "title": "The Unification of a Broken Symmetry",
       "units": 2504
     },
     {
@@ -194,70 +194,70 @@
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Paradox of an Information Firewall (c. 1970s–Present)",
+      "title": "The Paradox of an Information Firewall",
       "units": 2450
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Shadow of a Multiverse (c. 1998–Present)",
+      "title": "The Shadow of a Multiverse",
       "units": 2418
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Observer in a Quantum Universe (c. 1920s–Present)",
+      "title": "The Observer in a Quantum Universe",
       "units": 2547
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Test of a Holographic Principle (c. 1990s–Present)",
+      "title": "The Test of a Holographic Principle",
       "units": 2508
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Gravity of a Human Question (c. 2020s–Present)",
+      "title": "The Gravity of a Human Question",
       "units": 2520
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Force of a Persistent Question (c. 2024–Present)",
+      "title": "The Force of a Persistent Question",
       "units": 2508
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Unfinished Nature of a Force (c. 2020s–Present)",
+      "title": "The Unfinished Nature of a Force",
       "units": 2218
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Enduring Pull of a Mystery (c. 2024–Present)",
+      "title": "The Enduring Pull of a Mystery",
       "units": 2425
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Final Shape of a Falling World (c. 2024–Present)",
+      "title": "The Final Shape of a Falling World",
       "units": 2594
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Human Scale of a Cosmic Force (c. 2024–Present)",
+      "title": "The Human Scale of a Cosmic Force",
       "units": 2532
     },
     {
       "idx": 34,
       "sourceIdx": 34,
-      "title": "The Final Question of a Falling Apple (c. 2024–Present)",
+      "title": "The Final Question of a Falling Apple",
       "units": 2275
     }
   ],
   "publishedAt": "2026-08-30T07:22:21.710Z",
-  "rerenderedAt": "2026-09-03T12:43:22.091Z"
+  "rerenderedAt": "2026-09-05T09:02:13.788Z"
 }
