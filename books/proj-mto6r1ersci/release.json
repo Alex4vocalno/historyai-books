@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905130126817_290325da18",
+  "projectId": "proj-mto6r1ersci",
+  "manuscriptVersionId": "mv_7cb30fa8f6b08ac6",
+  "contentHash": "7cb30fa8f6b08ac6df4e483fc6e203d92b31f6da677f5557e28f56e591d5a8bb",
+  "title": "What Nora Knew",
+  "subtitle": "A Novella of Memory, Fire, and the Stories We Tell to Survive",
+  "authorDisplayName": "Liszt Think",
+  "description": "Grief counselor Nora Voss has spent her career listening to the bereaved, guiding them through loss with steady hands and careful questions. Then Martin Brand walks into her office, mourning his wife in a house fire everyone calls accidental. His grief is polished, his story consistent — almost too consistent. When a diary surfaces from the dead woman's final month, small details begin to diverge from Martin's account in ways that are easy to dismiss and impossible to forget. Nora knows she should stay behind the line. But Nora has crossed a line before, with consequences she buried long ago, and the weight of that silence bends everything she hears now. As the diary pulls her deeper into a dead woman's last days, Nora must decide what she is willing to risk — and what she already suspects — before the two timelines collide in a revelation that changes everything she thought she understood about her client, his wife, and herself.",
+  "category": "世界史",
+  "tags": [
+    "psychological suspense",
+    "dual timeline",
+    "domestic noir",
+    "grief",
+    "diary",
+    "Fiction"
+  ],
+  "language": "en",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 48932,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 87,
+    "method": "median-of-3",
+    "createdAt": "2026-09-05T12:46:33.097Z"
+  },
+  "editorReview": {
+    "text": "What Nora Knew pulls off a genuinely rare feat: a twist that doesn't just surprise but retroactively rewrites every clue Nora chased, revealing the whole investigation as bait she was meant to swallow. The fire-aftermath scenes carry real tactile authority—'shadows still smelled of fire,' the ash pattern wrong—and Nora's slow slide from grief-counselor crusader to someone who realizes she's been wielded as a weapon is quietly devastating. I do wish the middle held that pressure; the alibi-verification chapters replay the same investigate-confirm-doubt loop without escalating, and Daniel's voic",
+    "penName": "疏影",
+    "title": "Fiction Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-05T12:56:54.265Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Polished Grief",
+      "units": 2215
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Ghost in the Room",
+      "units": 2552
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "Paper and Fear",
+      "units": 2791
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "A Window Seat Truth",
+      "units": 3014
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Country Club Smiles",
+      "units": 2474
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Perfect Accident",
+      "units": 1956
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Smell of Fire",
+      "units": 2543
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Crossing the Line",
+      "units": 2522
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "Official Dismissal",
+      "units": 2740
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Alibi Verified",
+      "units": 2120
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Sanctuary Violated",
+      "units": 2408
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Tearful Confession",
+      "units": 2645
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Overlooked Evidence",
+      "units": 2280
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "She Knew My Name",
+      "units": 2989
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Diary's True Purpose",
+      "units": 2391
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "Clubhouse Confrontation",
+      "units": 2911
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Cleared Nook",
+      "units": 2607
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The True Blueprint",
+      "units": 3584
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "Living With the Truth",
+      "units": 2190
+    }
+  ],
+  "publishedAt": "2026-09-05T13:01:26.821Z",
+  "formFamily": "narrative"
+}
