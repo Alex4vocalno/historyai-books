@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905073551278_98cfae259b",
+  "projectId": "proj-mtnr0vu7br8",
+  "manuscriptVersionId": "mv_3d70b1fbc73a49d0",
+  "contentHash": "3d70b1fbc73a49d0ab79b33386a0b01a500cf88f3aff4db8d11be03f09c59896",
+  "title": "从像素到光追",
+  "subtitle": "电子游戏美术风格四十年细读史",
+  "authorDisplayName": "李思特Think",
+  "description": "为什么8×8像素块能承载人格？为何手绘逐帧动画至今无法被算法复刻？当显存与多边形预算不再是枷锁，画面反而陷入同质化的泥沼。这不是画质进化论，而是一部在硬件约束下反复重新发明“观看”的历史。从《ICO》的过曝白到《艾尔登法环》的物理天光，二十三个视觉样本细读，还原美术总监在限制中做出的风格抉择。当技术许诺无限自由，我们才惊觉那些动人的画面，往往诞生于匮乏之中的创造性妥协。",
+  "category": "游戏史",
+  "tags": [
+    "游戏美术",
+    "视觉文化",
+    "艺术评论",
+    "设计史",
+    "像素艺术",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 23,
+    "units": 224966,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-05T04:58:57.561Z"
+  },
+  "editorReview": {
+    "text": "本书以二十三个游戏视觉样本的扎实细读，贯穿起一条清晰的论证骨架：在硬件约束下诞生的“可读性优先于拟真”原则，如何成为游戏美术的深层语法。其工艺令人信服，例如开篇对马力欧16×32像素中黑色线条如何同时承担帽檐阴影、鼻子轮廓与胡子三重功能的拆解，以及逐帧分析升龙拳信息节点的章节，都严格履行了从可见细节起步的评论承诺。核心洞见具有强大的解释力，从像素识字课到光追时代手动偏移光源半度的案例，四十年证据链指向同一结论。然而，本书在叙事推进上存在明显断裂，多章结尾的问句钩子未在下一章回应，破坏了阅读的连贯性；更遗憾的是，第22、23章两次插入与主题完全无关的演员轶事，并对虚构文献未作标注，这些结构性瑕疵削弱了全书作为一部严谨美术史细读作品的置信度。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-05T07:35:44.984Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "像素的识字课",
+      "units": 8322
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "调色板上的战争",
+      "units": 8380
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "手绘的不可复刻性",
+      "units": 9748
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "轮廓线换来的体积",
+      "units": 8127
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "过曝白与减法",
+      "units": 8882
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "空气的重量",
+      "units": 10713
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "铁与锈的笔触",
+      "units": 8227
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "废墟的修辞学",
+      "units": 12834
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "纯粹色彩的叛变",
+      "units": 10738
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "手绘的第二次生命",
+      "units": 9558
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "风与叶的导演术",
+      "units": 9508
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "天光的物理与神性",
+      "units": 10703
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "像素的第二次宣言",
+      "units": 10381
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "界面的消失术",
+      "units": 10247
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "同质化的阴影",
+      "units": 11711
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "风格化的反击",
+      "units": 9449
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "玩家眼睛的疲劳",
+      "units": 7636
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "光追时代的风格真空",
+      "units": 9767
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "风格的代价",
+      "units": 10550
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "手工的幽灵",
+      "units": 8601
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "玩家的目光",
+      "units": 8618
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "批评的武器",
+      "units": 10915
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "约束的遗产",
+      "units": 11351
+    }
+  ],
+  "publishedAt": "2026-09-05T07:35:51.281Z",
+  "formFamily": "narrative"
+}
