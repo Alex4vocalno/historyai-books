@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902122624804_c8eba0a6ed",
   "projectId": "proj-mtdojfvmzng",
-  "manuscriptVersionId": "mv_c4edeb34c98d5ff0",
-  "contentHash": "c4edeb34c98d5ff03218ad69722b408da4aeae5ea3c579e0b83b221831b36e9f",
+  "manuscriptVersionId": "mv_d3a1d40ecbffa977",
+  "contentHash": "d3a1d40ecbffa9773e9250d468667ee6572767f20ea963bd756aa4f119f4e4f6",
   "title": "The Great Stink: London in the Summer of 1858",
   "subtitle": "London in the Summer of 1858",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "In the sweltering summer of 1858, the Thames became an open sewer so foul that Parliament soaked its curtains in chloride of lime to endure sitting. For years, Londoners knew the river was killing them, yet only when the stench breached Westminster did political will finally align with engineering ambition. This visceral microhistory immerses readers in those twelve pivotal weeks, moving from cholera maps and watermen’s routes to the first spades breaking earth for Joseph Bazalgette’s monumental sewer system. It captures the sensory reality of a city at its breaking point, revealing how class, science, and state capacity collided to forge modern urban infrastructure. Beyond the statistics lies the human texture of transformation: the laborers on the embankment, the displaced poor, and the officials racing against a clock set by heat and disease. A singular season that forced Victorian London to invent the modern metropolis, leaving a legacy buried beneath the streets we walk today.",
   "category": "世界史",
   "tags": [
@@ -33,54 +33,54 @@
     "createdAt": "2026-08-29T17:42:00.641Z"
   },
   "editorReview": {
-    "text": "This microhistory of London's 1858 crisis achieves its most compelling moments when it grounds the systemic failure in tangible, sensory detail—the opening immersion through a waterman's eyes is masterful, and later chapters deftly use a single material object to carry the weight of institutional inertia. The analysis of how pollution was redistributed, not solved, is sharp and socially aware. However, the form stumbles in its later stretches; the narrative voice drifts from embodied witness into abstract policy commentary, and repetitive chapter titles hint at a structural unevenness that und",
+    "text": "The book's strength lies in its immersive, sensory-driven core chapters, which masterfully use the 'Great Stink' as a fulcrum to explore the gap between public knowledge and political action. The analysis of how urban sanitation redistributed, rather than eliminated, environmental burdens is particularly sharp. However, the structure falters in the later sections, where the intimate historical narrative drifts into abstract contemporary policy, losing its powerful anchor. Some repetitive chapter titling also hints at an uneven editorial hand, preventing a fully cohesive execution of its promis",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-32816be7032b.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-03T12:37:07.289Z",
+    "generatedAt": "2026-09-04T08:05:54.679Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "serious-history-editorial"
   },
   "chapters": [
     {
       "idx": 0,
       "sourceIdx": 0,
-      "title": "The River and the City (c. 1800 – June 1858)",
+      "title": "The River and the City",
       "units": 2286
     },
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Engineer and the Map (June 1858)",
+      "title": "The Engineer and the Map",
       "units": 2509
     },
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Parliament of Smells (June 1858)",
+      "title": "The Parliament of Smells",
       "units": 2656
     },
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Waterman’s Last Fare (June 1858)",
+      "title": "The Waterman’s Last Fare",
       "units": 2281
     },
     {
       "idx": 4,
       "sourceIdx": 4,
-      "title": "The Doctor’s Map and the Invisible Enemy (July 1858)",
+      "title": "The Doctor’s Map and the Invisible Enemy",
       "units": 2489
     },
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Press and the Public Outcry (July 1858)",
+      "title": "The Press and the Public Outcry",
       "units": 2436
     },
     {
@@ -92,19 +92,19 @@
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The Sanitary Idea and Its Discontents (July 1858)",
+      "title": "The Sanitary Idea and Its Discontents",
       "units": 2645
     },
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Contract and the Clock (July 1858)",
+      "title": "The Contract and the Clock",
       "units": 2618
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The First Spade in the Earth (July 1858)",
+      "title": "The First Spade in the Earth",
       "units": 2270
     },
     {
@@ -140,19 +140,19 @@
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The River’s New Geometry (August 1858)",
+      "title": "The River’s New Geometry",
       "units": 1762
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Summer’s End and the City’s New Breath (August 1858)",
+      "title": "The Summer’s End and the City’s New Breath",
       "units": 1801
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Engineer’s Triumph and the City’s Debt (August 1858)",
+      "title": "The Engineer’s Triumph and the City’s Debt",
       "units": 2511
     },
     {
@@ -164,7 +164,7 @@
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Embankment as a Civic Promise (August 1858)",
+      "title": "The Embankment as a Civic Promise",
       "units": 2160
     },
     {
@@ -176,13 +176,13 @@
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The River’s Last Gasp and the Turning Tide (August 1858)",
+      "title": "The River’s Last Gasp and the Turning Tide",
       "units": 1782
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Unseen Victory and the Lingering Stench (August 1858)",
+      "title": "The Unseen Victory and the Lingering Stench",
       "units": 2384
     },
     {
@@ -194,7 +194,7 @@
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Engineer’s Burden and the City’s Debt (September 1858–1865)",
+      "title": "The Engineer’s Burden and the City’s Debt",
       "units": 2429
     },
     {
@@ -206,7 +206,7 @@
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The River Reclaimed and the City Transformed (1866–1875)",
+      "title": "The River Reclaimed and the City Transformed",
       "units": 2539
     },
     {
@@ -218,47 +218,47 @@
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Monument and the Memory (1858–Present)",
+      "title": "The Monument and the Memory",
       "units": 2464
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Great Stink and the Modern Condition (1858–Present)",
+      "title": "The Great Stink and the Modern Condition",
       "units": 2526
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Unfinished River and the Urban Future (1858–Present)",
+      "title": "The Unfinished River and the Urban Future",
       "units": 2323
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Summer That Remade the City (1858–Present)",
+      "title": "The Summer That Remade the City",
       "units": 1960
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Unseen City and the Unfinished Work (1858–Present)",
+      "title": "The Unseen City and the Unfinished Work",
       "units": 2389
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The River’s Enduring Shadow (1858–Present)",
+      "title": "The River’s Enduring Shadow",
       "units": 2083
     },
     {
       "idx": 34,
       "sourceIdx": 34,
-      "title": "The City and the Unseen Sewer (1858–Present)",
+      "title": "The City and the Unseen Sewer",
       "units": 2231
     }
   ],
   "publishedAt": "2026-09-02T12:26:24.811Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-03T12:37:07.294Z"
+  "rerenderedAt": "2026-09-05T09:03:58.774Z",
+  "formFamily": "narrative"
 }

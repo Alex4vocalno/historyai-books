@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtdojfvmzng",
+    "projectId": "proj-mtdojfvmzng",
+    "releaseId": "rel_20260902122624804_c8eba0a6ed",
+    "title": "The Great Stink: London in the Summer of 1858",
+    "subtitle": "London in the Summer of 1858",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Victorian London",
+      "Urban History",
+      "Sanitation",
+      "Joseph Bazalgette",
+      "Microhistory",
+      "世界史"
+    ],
+    "description": "In the sweltering summer of 1858, the Thames became an open sewer so foul that Parliament soaked its curtains in chloride of lime to endure sitting. For years, Londoners knew the river was killing them, yet only when the stench breached Westminster did political will finally align with engineering ambition. This visceral microhistory immerses readers in those twelve pivotal weeks, moving from cholera maps and watermen’s routes to the first spades breaking earth for Joseph Bazalgette’s monumental sewer system. It captures the sensory reality of a city at its breaking point, revealing how class, science, and state capacity collided to forge modern urban infrastructure. Beyond the statistics lies the human texture of transformation: the laborers on the embankment, the displaced poor, and the officials racing against a clock set by heat and disease. A singular season that forced Victorian London to invent the modern metropolis, leaving a legacy buried beneath the streets we walk today.",
+    "chapterCount": 35,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 76,
+      "method": "median-of-3",
+      "createdAt": "2026-08-29T17:42:00.641Z"
+    },
+    "coverUrl": "books/proj-mtdojfvmzng/releases/rel_20260902122624804_c8eba0a6ed/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtdojfvmzng/index.html",
+    "publishedAt": "2026-09-02T12:26:24.811Z",
+    "firstPublishedAt": "2026-09-02T12:26:24.811Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtdojkjummc",
     "projectId": "proj-mtdojkjummc",
     "releaseId": "rel_20260902122222200_825364579d",
@@ -1767,40 +1801,6 @@
     "url": "books/proj-mt9sw4ccanx/index.html",
     "publishedAt": "2026-09-02T12:30:34.130Z",
     "firstPublishedAt": "2026-08-27T00:52:32.633Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtdojfvmzng",
-    "projectId": "proj-mtdojfvmzng",
-    "releaseId": "rel_20260902122624804_c8eba0a6ed",
-    "title": "The Great Stink: London in the Summer of 1858",
-    "subtitle": "London in the Summer of 1858",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "世界史",
-    "tags": [
-      "Victorian London",
-      "Urban History",
-      "Sanitation",
-      "Joseph Bazalgette",
-      "Microhistory",
-      "世界史"
-    ],
-    "description": "In the sweltering summer of 1858, the Thames became an open sewer so foul that Parliament soaked its curtains in chloride of lime to endure sitting. For years, Londoners knew the river was killing them, yet only when the stench breached Westminster did political will finally align with engineering ambition. This visceral microhistory immerses readers in those twelve pivotal weeks, moving from cholera maps and watermen’s routes to the first spades breaking earth for Joseph Bazalgette’s monumental sewer system. It captures the sensory reality of a city at its breaking point, revealing how class, science, and state capacity collided to forge modern urban infrastructure. Beyond the statistics lies the human texture of transformation: the laborers on the embankment, the displaced poor, and the officials racing against a clock set by heat and disease. A singular season that forced Victorian London to invent the modern metropolis, leaving a legacy buried beneath the streets we walk today.",
-    "chapterCount": 35,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 76,
-      "method": "median-of-3",
-      "createdAt": "2026-08-29T17:42:00.641Z"
-    },
-    "coverUrl": "books/proj-mtdojfvmzng/releases/rel_20260902122624804_c8eba0a6ed/cover-32816be7032b.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtdojfvmzng/index.html",
-    "publishedAt": "2026-09-02T12:26:24.811Z",
-    "firstPublishedAt": "2026-09-02T12:26:24.811Z",
     "visibility": "public"
   },
   {
