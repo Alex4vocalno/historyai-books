@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830073550468_43679157e4",
   "projectId": "proj-mtedw6dsufz",
-  "manuscriptVersionId": "mv_d8abd68a4ea8a079",
-  "contentHash": "d8abd68a4ea8a079ccab272dc757227af5fb1337f6c5b13f6d3a12ee2abd4917",
+  "manuscriptVersionId": "mv_59da5602afe101e0",
+  "contentHash": "59da5602afe101e022f79487e07da3d9e4dff90f169ae642b3f50b04c40cd7bb",
   "title": "The Cold Truth: Why Ice Floats and Other Miracles of Water",
   "subtitle": "Why Ice Floats and Other Miracles of Water",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:37:26.276Z"
   },
   "editorReview": {
-    "text": "This is an ambitious work that succeeds best when it grounds water's profound strangeness in tangible, physical experience. The opening chapters are exemplary, building intuitive understanding through vivid historical scenes and concrete analogies—the shards of a frozen pitcher, Galileo examining an ice sheet—that make the science feel immediate. The unifying 'Strangeness Engine' concept is also a strength, effectively linking water's disparate anomalies into a coherent story. However, the narrative momentum falters in the middle sections, where the prose can drift toward a more generic, textb",
+    "text": "This book's ambition is commendable, especially its 'Strangeness Engine' framework that elegantly connects water's diverse anomalies. The opening is masterful, grounding profound physics in tactile moments, like the shards of a frozen pitcher or Galileo examining an ice sheet. However, the journey becomes uneven. The vivid, intuitive explanations that define the early chapters gradually give way to a more generic, textbook-like register in the middle. By the final stretch, the narrative drifts into abstract philosophical commentary, leaving behind the embodied analogies that made its core idea",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -182,7 +182,7 @@
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Unquiet Equilibrium (c. 2045–2060)（23）",
+      "title": "The Grammar of Consequences",
       "units": 2387
     },
     {
@@ -224,7 +224,7 @@
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Final Anomaly (c. 2300–)",
+      "title": "The Willing Instrument",
       "units": 2437
     },
     {
@@ -242,7 +242,7 @@
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Stranger in the Mirror (c. 3000–)",
+      "title": "The Wisdom of Mastery",
       "units": 2326
     },
     {
@@ -253,5 +253,5 @@
     }
   ],
   "publishedAt": "2026-08-30T07:35:51.534Z",
-  "rerenderedAt": "2026-09-05T09:02:23.295Z"
+  "rerenderedAt": "2026-09-05T09:25:16.405Z"
 }
