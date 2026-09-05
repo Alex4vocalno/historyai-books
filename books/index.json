@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtmzikk1kf1",
+    "projectId": "proj-mtmzikk1kf1",
+    "releaseId": "rel_20260905015519067_9a8912c039",
+    "title": "Rated M",
+    "subtitle": "How Video Games Learned to Police Themselves Across Four Nations",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "游戏史",
+    "tags": [
+      "Video Game History",
+      "Censorship",
+      "Media Regulation",
+      "ESRB",
+      "Digital Culture",
+      "世界史"
+    ],
+    "description": "In December 1993, pixelated blood spilled onto the Senate floor, forcing an industry to invent its own conscience or face federal regulation. Rated M traces the aftermath across four jurisdictions, revealing how self-regulation became a complex negotiation between commerce and culture. From the green blood of German localizations and Japan’s deliberate doujin blind spot to China’s production quotas and America’s Supreme Court battles, this history examines the case files behind the labels. Drawing on banned titles, court records, and leaked memos, it exposes ratings boards not as guardians of childhood innocence but as gatekeepers of market access. A forensic investigation into thirty years of digital morality, this book demonstrates that every age rating is ultimately a decision about who gets to sell what, to whom, and where.",
+    "chapterCount": 36,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 78,
+      "method": "median-of-3",
+      "createdAt": "2026-09-04T16:17:20.197Z"
+    },
+    "coverUrl": "books/proj-mtmzikk1kf1/releases/rel_20260905015519067_9a8912c039/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtmzikk1kf1/index.html",
+    "publishedAt": "2026-09-05T01:55:19.127Z",
+    "firstPublishedAt": "2026-09-05T01:55:19.127Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtmzidfdk73",
     "projectId": "proj-mtmzidfdk73",
     "releaseId": "rel_20260905015022902_606bdeed76",

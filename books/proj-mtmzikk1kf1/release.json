@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905015519067_9a8912c039",
+  "projectId": "proj-mtmzikk1kf1",
+  "manuscriptVersionId": "mv_25e2f229e1054c02",
+  "contentHash": "25e2f229e1054c02f941763a626ff818eceb49f187f7f9e83fa0ef9bd7462c28",
+  "title": "Rated M",
+  "subtitle": "How Video Games Learned to Police Themselves Across Four Nations",
+  "authorDisplayName": "Liszt Think",
+  "description": "In December 1993, pixelated blood spilled onto the Senate floor, forcing an industry to invent its own conscience or face federal regulation. Rated M traces the aftermath across four jurisdictions, revealing how self-regulation became a complex negotiation between commerce and culture. From the green blood of German localizations and Japan’s deliberate doujin blind spot to China’s production quotas and America’s Supreme Court battles, this history examines the case files behind the labels. Drawing on banned titles, court records, and leaked memos, it exposes ratings boards not as guardians of childhood innocence but as gatekeepers of market access. A forensic investigation into thirty years of digital morality, this book demonstrates that every age rating is ultimately a decision about who gets to sell what, to whom, and where.",
+  "category": "游戏史",
+  "tags": [
+    "Video Game History",
+    "Censorship",
+    "Media Regulation",
+    "ESRB",
+    "Digital Culture",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 36,
+    "units": 88513,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T16:17:20.197Z"
+  },
+  "editorReview": {
+    "text": "Rated M delivers a compelling institutional history, rich with documentary texture. The opening chapters skillfully stage political actors like Lieberman and Kohl, revealing their motives, while the closing synthesis—juxtaposing a 1990 internal memo with a 2023 global policy—crystallizes a profound thirty-year transformation with genuine insight. However, the narrative drive stalls in the middle. The identically titled 'The Unseen Hand' sequence (Chapters 17-21) sacrifices character for system mechanics, leading to structural redundancy and a prose rhythm that feels mechanical where human agen",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-05T01:55:14.807Z",
+    "textless": false,
+    "profileId": "portrait-biography"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Senate’s Living Room (December 1993)",
+      "units": 2423
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Man Who Saw a Storm Coming (1992-1993)",
+      "units": 2739
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Birth of a Voluntary Shield",
+      "units": 2475
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The First Label (1994-1995)",
+      "units": 2566
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The German Precedent (1984-1994)",
+      "units": 2539
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Index and the Green Blood (1994-1998)",
+      "units": 2520
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Architect of the Index (1994-1998)",
+      "units": 2604
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The First Test Case (1994-1995)",
+      "units": 2503
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Unlikely Arbiter (1995-1996)",
+      "units": 2548
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Lawyer’s Gambit (1996-1997)",
+      "units": 2293
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Price of a Shield (1997-1998)",
+      "units": 2271
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The German Exception (1998-2003)",
+      "units": 2531
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Console Maker’s Veto (1998-2000)",
+      "units": 2274
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Unwritten Rule (1999-2000)",
+      "units": 2374
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The First Amendment Shield (2000-2001)",
+      "units": 2240
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Unassailable Shield (2001-2003)",
+      "units": 2554
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Unseen Hand (2003-2005)",
+      "units": 2510
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Unseen Hand (2003-2005)（18）",
+      "units": 2593
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Unseen Hand (2003-2005)（19）",
+      "units": 2236
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Unseen Hand (2003-2005)（20）",
+      "units": 2626
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Unseen Hand (2003-2005)（21）",
+      "units": 2457
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Supreme Court’s Shield (2005-2011)",
+      "units": 2327
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Shield Cracks (2012-2017)",
+      "units": 2495
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Unratable Game (2013-2015)",
+      "units": 2197
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The New Frontier of the Unseen (2015-2018)",
+      "units": 2180
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Last Bastion of the Physical (2018-2020)",
+      "units": 2113
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Invisible Hand of the Algorithm (2020-2023)",
+      "units": 2464
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Unseen Censor (2020-2023)",
+      "units": 2760
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Architect’s Final Blueprint (2018-2023)",
+      "units": 2345
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Shield as a Service (2023-Present)",
+      "units": 2942
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The Unwritten Rulebook (2023-Present)",
+      "units": 2221
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Last Barrier (2023-Present)",
+      "units": 2533
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Final Verdict (2023-Present)",
+      "units": 2517
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Unseen Hand (2023-Present)",
+      "units": 2679
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "The End of the Beginning (2023-Present)",
+      "units": 2334
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "The Ghost in the Machine (2023-Present)",
+      "units": 2530
+    }
+  ],
+  "publishedAt": "2026-09-05T01:55:19.127Z",
+  "formFamily": "narrative"
+}
