@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905072741811_54f4268679",
+  "projectId": "proj-mtnr1948yaa",
+  "manuscriptVersionId": "mv_a4f347612f9c31fd",
+  "contentHash": "a4f347612f9c31fd7f312bcd1c981afb1d37617eed34938d030ec0ab7d6434a3",
+  "title": "把游戏拆开的人",
+  "subtitle": "速通文化二十五年关键时刻特写",
+  "authorDisplayName": "李思特Think",
+  "description": "为了省下0.1秒，有人对着同一面墙壁练习了十六年；一段被遗忘的录像带，藏着电子游戏最隐秘的史前史。这不是关于通关的攻略，而是一群极致玩家拆解规则系统的实录。从《毁灭战士》的早期磁带到慈善马拉松的万人狂欢，从半按A键的肌肉记忆到统计学审判的取证现场，速通者以近乎偏执的认真，将娱乐产品读成了精密文本。当破坏者变成被官方默许的解构者，当边缘社群建立起自己的伦理与法度，这些拆开游戏的人，也在重塑我们理解数字世界的方式。",
+  "category": "游戏史",
+  "tags": [
+    "游戏史",
+    "速通文化",
+    "亚文化研究",
+    "数字人类学",
+    "非虚构",
+    "历史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 23,
+    "units": 201538,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-05T04:43:47.754Z"
+  },
+  "editorReview": {
+    "text": "本书最扎实处，在于它从速通社群的实践细节里，生长出了“逆向阅读规则系统”这一核心论点，而非套用现成理论模板。比如第一章以《毁灭战士》的.lmp录像文件为证据，推导出游戏过程本身获得“公证文件属性”，判断与证据贴得极近；第二章写玩家从复现路线到发现身体成为瓶颈的转变，用键位测试、帧数据交叉验证来支撑人物弧线，避免了空谈。第十一章将GDQ马拉松的戏剧张力压进数小时，对Cosmo Wright穿墙操作零点三秒的拉伸描写，也确实有特写集的文学温度。但全书标榜的“关键时刻特写集”样态，执行上存在严重落差：多章实质是长时段编年与议论，时间线频繁无标记回跳（如第2→3章从1996跳回1994），破坏了聚焦感；第2章甚至出现约358字的整段重复，第12、22章则插入《摩尔庄园》风波、巴斯特·基顿影评等明显离题内容，疑似写作引擎素材检索漂移。这些结构性问题，让原本有洞见的论证骨架，在阅读体验上打了折扣。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-05T07:27:26.957Z",
+    "textless": false,
+    "profileId": "portrait-biography"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "录像带的史前史",
+      "units": 7934
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "雷神之锤下的计时器",
+      "units": 8798
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "银河城里的序列裂痕",
+      "units": 9243
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "三维空间里的零",
+      "units": 8388
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "黄金眼里的军备竞赛",
+      "units": 8492
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "时之笛里的任意门",
+      "units": 8419
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "论坛地下城的规则抄写员",
+      "units": 9017
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "半按A键的十六年",
+      "units": 7878
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "计时器下的幽灵手",
+      "units": 10585
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "盗版直播时代的加冕礼",
+      "units": 12741
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "马拉松跑道上的众神",
+      "units": 7844
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "开发者留下的后门",
+      "units": 8405
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "镜中之王",
+      "units": 9609
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "计时器停止的瞬间",
+      "units": 8995
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "随机数审判",
+      "units": 8518
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "边界上的手",
+      "units": 8037
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "裁判席上的分裂",
+      "units": 7746
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "拆开之后",
+      "units": 8386
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "算法守门人",
+      "units": 8515
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "内置的秒表",
+      "units": 8078
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "博物馆里的录像带",
+      "units": 9510
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "拆解者的后半生",
+      "units": 7761
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "永恒的未完成",
+      "units": 8639
+    }
+  ],
+  "publishedAt": "2026-09-05T07:27:41.816Z"
+}
