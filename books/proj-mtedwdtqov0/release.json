@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072902167_d2ab9f02c7",
   "projectId": "proj-mtedwdtqov0",
-  "manuscriptVersionId": "mv_557aad09c5483a4d",
-  "contentHash": "557aad09c5483a4de14d51a35a2ef1c0f7c185c98a1f50254d0961426e5ac2bb",
+  "manuscriptVersionId": "mv_ed5ace40c5165844",
+  "contentHash": "ed5ace40c516584427933151edcc8926cb3b9e02742dfed780c1ff17f16fd835",
   "title": "The Emperor of the United States: The Gloriously True Story of Norton I",
   "subtitle": "The Gloriously True Story of Norton I",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:59:08.929Z"
   },
   "editorReview": {
-    "text": "This biography of the self-proclaimed Emperor Norton achieves something rare in popular history: it reframes a local eccentric as a lens for examining social contracts, particularly in its standout Chapter 33 where the acceptance of his currency is analyzed as a sophisticated barter system. The narrative is at its most compelling when it commits to its storyteller rhythm, using concrete sensory details to immerse the reader in 19th-century San Francisco. However, the voice is not consistently maintained; the prose can drift from vivid immediacy into a more abstract, textbook-like register, wit",
+    "text": "The book's most compelling chapters achieve what popular history should: Chapter 33 brilliantly reframes Norton's handwritten currency as a genuine 'barter system' that reveals the social contracts underpinning a frontier city. However, the narrative voice is inconsistent. While the middle sections capture a storyteller's immediacy, the prose elsewhere lapses into a mechanical rhythm and anachronistic jargon, drifting from its promised '说书体' form. This is a work of genuine historiographical insight, particularly in its cultural analysis, but one that feels uneven in its execution.",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -188,19 +188,19 @@
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Currency of a Crown",
+      "title": "Banking on a Pauper's Crown",
       "units": 3208
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Sovereign’s Afterlife in Stone and Story",
+      "title": "Bronze on a Ghost Address",
       "units": 2527
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Sovereign’s Shadow in the Ashes",
+      "title": "Ghost in the Ashes",
       "units": 2491
     },
     {
@@ -224,7 +224,7 @@
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Emperor’s Enduring Currency",
+      "title": "Spending a Legacy's Balance",
       "units": 2928
     },
     {
@@ -236,13 +236,13 @@
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Kindness of Crowns",
+      "title": "Between Footnote and Emoji",
       "units": 2358
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Final Reckoning of a Paper Crown",
+      "title": "Whimsy Purchasing Tangible Goods",
       "units": 2634
     },
     {
@@ -253,6 +253,6 @@
     }
   ],
   "publishedAt": "2026-08-30T07:29:02.208Z",
-  "rerenderedAt": "2026-09-05T10:13:29.964Z",
+  "rerenderedAt": "2026-09-05T10:27:07.032Z",
   "formFamily": "narrative"
 }
