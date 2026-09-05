@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905015022902_606bdeed76",
   "projectId": "proj-mtmzidfdk73",
-  "manuscriptVersionId": "mv_81240312964330da",
-  "contentHash": "81240312964330da1b51f45b549ec1e2fb0908917b6b970f312f27df443965ab",
+  "manuscriptVersionId": "mv_ddbd210dbd80d77d",
+  "contentHash": "ddbd210dbd80d77d243f2a899bf9b939a55b0d50cb264215f3068fa37cbac2a6",
   "title": "The Pocket Wars",
   "subtitle": "Engineering Trade-offs and the Evolution of Handheld Gaming",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:31:22.614Z"
   },
   "editorReview": {
-    "text": "This history of handheld consoles shines when it grounds its 'Portability Trilemma' argument in the tangible physics of battery chemistry and manufacturing cost. The analysis of the Switch's 'software-defined sacrifice' is a standout example of the book's strength: using the device as a lens to dissect engineering philosophy. However, the central biographical promise falters. The compelling origin story of Gunpei Yokoi is front-loaded, but the text later abandons him as a living subject, failing to examine his later contradictions with the same material rigor. This structural lapse, alongside",
+    "text": "This is a history that understands its subject deeply: the handheld console as a site of material negotiation. The central 'Portability Trilemma' argument is compelling precisely because it is built from the ground up—on battery chemistry, thermal limits, and manufacturing costs. Chapter 18’s analysis of the Nintendo Switch is a masterclass in showing how a device embodies a dynamic 'software-defined sacrifice.' However, the book's structural promise falters in its biographical core. The fascinating origin story of engineer Gunpei Yokoi, established in Chapter 1, is left unresolved; his later",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -50,43 +50,43 @@
     {
       "idx": 0,
       "sourceIdx": 0,
-      "title": "The Man Who Believed in Toys (1970-1980)",
+      "title": "The Man Who Believed in Toys",
       "units": 2527
     },
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The First Pocket War (1989-1991)",
+      "title": "The First Pocket War",
       "units": 2116
     },
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The American Gambit (1989-1991)",
+      "title": "The American Gambit",
       "units": 2230
     },
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Philosophy of the Fist (1990-1999)",
+      "title": "The Philosophy of the Fist",
       "units": 2149
     },
     {
       "idx": 4,
       "sourceIdx": 4,
-      "title": "The Quiet Revolution of the WonderSwan (1999-2003)",
+      "title": "The Quiet Revolution of the WonderSwan",
       "units": 2552
     },
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Microswitch and the Missed Moment (1998-2001)",
+      "title": "The Microswitch and the Missed Moment",
       "units": 2549
     },
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Backlight and the Blind Spot (2001-2003)",
+      "title": "The Backlight and the Blind Spot",
       "units": 2548
     },
     {
@@ -98,43 +98,43 @@
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Format War in a Pocket (2004-2006)",
+      "title": "The Format War in a Pocket",
       "units": 2528
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The Price of Ambition (2004-2007)",
+      "title": "The Price of Ambition",
       "units": 2516
     },
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The Self-Inflicted Wound (2011-2012)",
+      "title": "The Self-Inflicted Wound",
       "units": 2607
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The Unseen Dimension (2011-2013)",
+      "title": "The Unseen Dimension",
       "units": 2554
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Doctrine Reforged (2012-2015)",
+      "title": "The Doctrine Reforged",
       "units": 2138
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Mobile Shadow (2010-2015)",
+      "title": "The Mobile Shadow",
       "units": 2540
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Doctrine in Exile (2015-2017)",
+      "title": "The Doctrine in Exile",
       "units": 2478
     },
     {
@@ -146,124 +146,125 @@
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Doctrine’s Final Form (2017-2021)",
+      "title": "The Doctrine’s Final Form",
       "units": 2288
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Doctrine’s Final Form",
+      "title": "The Managed Compromise",
       "units": 2458
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Reopening of the Argument (2022-2024)",
+      "title": "The Reopening of the Argument",
       "units": 2279
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Unclaimed Middle Ground (2022-2024)",
+      "title": "The Unclaimed Middle Ground",
       "units": 2335
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Return of the Pocket (2024-2025)",
+      "title": "The Return of the Pocket",
       "units": 2131
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Unfinished Machine (2024-2025)",
+      "title": "The Unfinished Machine",
       "units": 2658
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Doctrine’s Final Test (2017-2021)",
+      "title": "The Doctrine’s Final Test",
       "units": 2575
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Doctrine’s Final Test (2017-2021)（24）",
+      "title": "The Frictionless Promise",
       "units": 2727
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Doctrine’s Final Test",
+      "title": "The Unseen Hand of the Ecosystem",
       "units": 2490
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Unseen Hand (2017-2021)",
+      "title": "The Unseen Hand",
       "units": 2471
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Unfinished Machine (2024-2025)（27）",
+      "title": "The Fractured Consensus",
       "units": 2270
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Return of the Pocket (2022-2024)",
+      "title": "The Schism of the Pocket",
       "units": 2566
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Unseen Hand (2017-2021)（29）",
+      "title": "The Software Ecosystem's Turn",
       "units": 2638
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Argument That Never Ends (2024–Present)",
+      "title": "The Argument That Never Ends",
       "units": 2519
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Final Pocket (2024–Present)",
+      "title": "The Final Pocket",
       "units": 2594
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Pocket’s Enduring Argument (2024–Present)",
+      "title": "The Pocket’s Enduring Argument",
       "units": 2248
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Pocket’s Enduring Argument (2024–Present)（33）",
+      "title": "The Battlefield Map of Compromise",
       "units": 2072
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Pocket’s Enduring Argument (2024–Present)（34）",
+      "title": "The Permanent Exhibition of Compromise",
       "units": 2456
     },
     {
       "idx": 34,
       "sourceIdx": 34,
-      "title": "The Pocket’s Enduring Argument (2024–Present)（35）",
+      "title": "The Battery and the Heat Sink",
       "units": 2056
     },
     {
       "idx": 35,
       "sourceIdx": 35,
-      "title": "The Pocket’s Enduring Argument (2024–Present)（36）",
+      "title": "The Geography of Plateaus",
       "units": 2606
     }
   ],
   "publishedAt": "2026-09-05T01:50:22.906Z",
+  "rerenderedAt": "2026-09-05T09:24:17.677Z",
   "formFamily": "narrative"
 }
