@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtedwhaebky",
+    "projectId": "proj-mtedwhaebky",
+    "releaseId": "rel_20260902121625741_8cdfd6803c",
+    "title": "Sweet Empire: How Sugar Built and Broke the Modern World",
+    "subtitle": "How Sugar Built and Broke the Modern World",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Global History",
+      "Food Systems",
+      "Atlantic Slave Trade",
+      "Commodity History",
+      "Public Health",
+      "世界史"
+    ],
+    "description": "Every soda can is a Caribbean inheritance. From its first domestication in New Guinea to the Atlantic slave economies of Barbados and Saint-Domingue, sugar has been history’s most consequential luxury. This narrative traces a single molecule’s journey through medieval monasteries, Napoleonic beet fields, and wartime rationing to reveal how sweetness financed revolutions and rewired the human diet. The story moves beyond the plantation to expose the industrial trusts, corn syrup economies, and algorithmic appetites that define modern consumption. Sweetness has always been a measure of power, demanding a reckoning with who truly pays for cheap abundance. Connecting the brutal calculus of the triangle trade to today’s obesity crisis and supermarket aisles, this history illuminates the bitter cost hidden within our daily cravings. It is an unflinching accounting of how a simple crystal shaped empires, moved millions in chains, and left an unfinished legacy on both the land and the human body.",
+    "chapterCount": 37,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 75,
+      "method": "median-of-2",
+      "createdAt": "2026-08-30T02:36:58.069Z"
+    },
+    "coverUrl": "books/proj-mtedwhaebky/releases/rel_20260902121625741_8cdfd6803c/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtedwhaebky/index.html",
+    "publishedAt": "2026-09-02T12:16:25.748Z",
+    "firstPublishedAt": "2026-08-30T07:31:56.986Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtjekm8w47u",
     "projectId": "proj-mtjekm8w47u",
     "releaseId": "rel_20260902051816561_d3d0635e19",
@@ -609,40 +643,6 @@
     "url": "books/proj-mtedwdtqov0/index.html",
     "publishedAt": "2026-08-30T07:29:02.208Z",
     "firstPublishedAt": "2026-08-30T07:29:02.208Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtedwhaebky",
-    "projectId": "proj-mtedwhaebky",
-    "releaseId": "rel_20260902121625741_8cdfd6803c",
-    "title": "Sweet Empire: How Sugar Built and Broke the Modern World",
-    "subtitle": "How Sugar Built and Broke the Modern World",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Global History",
-      "Food Systems",
-      "Atlantic Slave Trade",
-      "Commodity History",
-      "Public Health",
-      "世界史"
-    ],
-    "description": "Every soda can is a Caribbean inheritance. From its first domestication in New Guinea to the Atlantic slave economies of Barbados and Saint-Domingue, sugar has been history’s most consequential luxury. This narrative traces a single molecule’s journey through medieval monasteries, Napoleonic beet fields, and wartime rationing to reveal how sweetness financed revolutions and rewired the human diet. The story moves beyond the plantation to expose the industrial trusts, corn syrup economies, and algorithmic appetites that define modern consumption. Sweetness has always been a measure of power, demanding a reckoning with who truly pays for cheap abundance. Connecting the brutal calculus of the triangle trade to today’s obesity crisis and supermarket aisles, this history illuminates the bitter cost hidden within our daily cravings. It is an unflinching accounting of how a simple crystal shaped empires, moved millions in chains, and left an unfinished legacy on both the land and the human body.",
-    "chapterCount": 37,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 75,
-      "method": "median-of-2",
-      "createdAt": "2026-08-30T02:36:58.069Z"
-    },
-    "coverUrl": "books/proj-mtedwhaebky/releases/rel_20260902121625741_8cdfd6803c/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtedwhaebky/index.html",
-    "publishedAt": "2026-09-02T12:16:25.748Z",
-    "firstPublishedAt": "2026-08-30T07:31:56.986Z",
     "visibility": "public"
   },
   {
