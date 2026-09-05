@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065439395_413f4d1c6e",
   "projectId": "proj-mtedvzmzza4",
-  "manuscriptVersionId": "mv_557f998dc39c081f",
-  "contentHash": "557f998dc39c081fd7e6ef85b3cadc6ddc81b3e3097d9e1b3758922691b21dcc",
+  "manuscriptVersionId": "mv_ef98906907a7e9d3",
+  "contentHash": "ef98906907a7e9d3de5b4a1e4e41435e21b6de93a12274e3f0c85605fafc78d5",
   "title": "Aisle Nine: The Store That Taught the World to Shop",
   "subtitle": "Clarence Saunders, Piggly Wiggly, and the Invention of Modern Retail",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:06:29.585Z"
   },
   "editorReview": {
-    "text": "This microhistory shines in its archival texture and conceptual ambition. The author powerfully grounds the birth of self-service in specific, sensory details—like the proprietary weights of a brass-beam balance—and develops the turnstile from a physical gate to a digital algorithm with impressive coherence. The final insight on Saunders's anonymity as the ultimate monument to his system is genuinely thought-provoking. However, the execution is marred by structural unevenness. Repetitive chapter titling and jarring chronological seams disrupt the narrative flow, while occasional lapses into ge",
+    "text": "This microhistory shines in its archival imagination—the museum catalog card for a turnstile (Object ID 1964.147.2) becomes a compelling origin story, perfectly illustrating how a single object can illuminate a vast economic shift. The book's core argument, tracing the turnstile's evolution from a physical gate to a digital algorithm, is sustained with impressive coherence. However, the execution can feel uneven. The narrative sometimes drifts into generic exposition, and structural seams are visible, such as in the repetitive deployment of certain chapter titles, which can momentarily pull th",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -188,13 +188,13 @@
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Palace of Pink Marble (1959-1962)（24）",
+      "title": "The Permit and the Pink Marble",
       "units": 2663
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Unfinished Palace (1959-1963)",
+      "title": "The Blueprint's First Lie",
       "units": 2188
     },
     {
@@ -212,7 +212,7 @@
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Ghost in the Machine (1963-1970s)",
+      "title": "The Uncredited Geometry",
       "units": 2484
     },
     {
@@ -259,6 +259,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:54:39.397Z",
-  "rerenderedAt": "2026-09-05T09:02:40.485Z",
+  "rerenderedAt": "2026-09-05T09:25:38.793Z",
   "formFamily": "narrative"
 }
