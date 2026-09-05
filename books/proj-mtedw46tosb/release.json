@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065816335_953b7998ca",
   "projectId": "proj-mtedw46tosb",
-  "manuscriptVersionId": "mv_e623cf7f5e6f59f6",
-  "contentHash": "e623cf7f5e6f59f65916ab2c66a35a6f37c4b193ea71ab34a27c89cabcd9bb2c",
+  "manuscriptVersionId": "mv_91cdb0561ca3ffe5",
+  "contentHash": "91cdb0561ca3ffe579c243567d4793aa9506a1bdb2ded8dfc82cbeb3313ae5df",
   "title": "The Night Shift: What Your Brain Does While You Sleep",
   "subtitle": "What Your Brain Does While You Sleep",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "Sleep is not an absence of activity but a second job. When consciousness fades, the brain begins its night shift: copying the day’s rough notes into long-term storage, clearing metabolic waste, and running emotional simulations with the logic checker off. This narrative history traces a century of discovery, from early twentieth-century watchmen to modern sleep labs where split-brain patients and sleep-deprived doctors revealed the architecture of rest. Rather than treating dreams as mysteries to be solved or apologized for, the text presents them as essential prediction tuning. Vivid scenes replace equations, showing how researchers learned to read the sleeping mind as a dynamic workshop of memory consolidation and emotional triage. Open questions about why we dream remain allures rather than gaps in understanding. Accessible to readers without biological training, this account reframes slumber not as downtime but as the indispensable labor that sustains waking life.",
   "category": "世界史",
   "tags": [
@@ -33,18 +33,18 @@
     "createdAt": "2026-08-29T18:35:54.175Z"
   },
   "editorReview": {
-    "text": "The book's early chapters are a masterclass in science writing, grounding abstract concepts in vivid, human-scale moments. The opening's EOG machine becomes a character, and the detective-like chain of analogies tracing von Economo's work is genuinely compelling. This strong chronological foundation builds a clear causal narrative from Kleitman to the present. However, the final third feels like a different book. The disciplined 'intuition-first' prose gives way to repetitive chapter titles and speculative futurism about the 2080s that reads more like filler than a logical synthesis of the pre",
+    "text": "The book's early chapters are a masterclass in making complex science intuitively graspable. The opening scene with the EOG machine and the elegant analogies used to explain Von Economo's work demonstrate a rare narrative craft. However, this disciplined focus dissipates in the final third. The prose becomes noticeably less sharp, and the speculative framing device set in the 2080s feels more like distracting filler than a meaningful synthesis of the preceding, solid historical narrative. It starts with the concrete thrill of discovery but ends in generic futurism.",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-7bfc3986cb12.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-04T06:53:17.665Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "warm-humanist"
   },
   "chapters": [
     {
@@ -56,115 +56,115 @@
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Watchman’s First Clue (c. 1924–1935)",
+      "title": "The Watchman’s First Clue",
       "units": 2410
     },
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Dream Factory’s First Blueprint (c. 1953–1957)",
+      "title": "The Dream Factory’s First Blueprint",
       "units": 2376
     },
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Lost Decade of the Sleeping Brain (c. 1958–1968)",
+      "title": "The Lost Decade of the Sleeping Brain",
       "units": 2560
     },
     {
       "idx": 4,
       "sourceIdx": 4,
-      "title": "The Architect of the Night (c. 1968–1975)",
+      "title": "The Architect of the Night",
       "units": 2287
     },
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Janitorial Hypothesis (c. 1975–1985)",
+      "title": "The Janitorial Hypothesis",
       "units": 2502
     },
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Price of the Night Shift (c. 1985–1995)",
+      "title": "The Price of the Night Shift",
       "units": 2632
     },
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The Simulation Engine (c. 1995–2005)",
+      "title": "The Simulation Engine",
       "units": 2508
     },
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Prediction Machine (c. 2005–2015)",
+      "title": "The Prediction Machine",
       "units": 2592
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The Body’s Silent Reckoning (c. 2015–Present)",
+      "title": "The Body’s Silent Reckoning",
       "units": 2446
     },
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The Unseen Shift (c. 2018–Present)",
+      "title": "The Unseen Shift",
       "units": 2339
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The Custodian of the Clock (c. 1998–2010)",
+      "title": "The Custodian of the Clock",
       "units": 2267
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Sentinel of the Slumbering Self (c. 2010–Present)",
+      "title": "The Sentinel of the Slumbering Self",
       "units": 2534
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Anomaly of the Dreamless Mind (c. 2015–Present)",
+      "title": "The Anomaly of the Dreamless Mind",
       "units": 2529
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Dream Catchers (c. 2000–2010)",
+      "title": "The Dream Catchers",
       "units": 2472
     },
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The Universal Shift (c. 2010–Present)",
+      "title": "The Universal Shift",
       "units": 2399
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Unseen Cost of the Waking World (c. 2010–Present)",
+      "title": "The Unseen Cost of the Waking World",
       "units": 2723
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Unfinished Symphony of the Night (c. 2020–Present)",
+      "title": "The Unfinished Symphony of the Night",
       "units": 2551
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Final Reckoning of the Night (c. 2020–Present)",
+      "title": "The Final Reckoning of the Night",
       "units": 2373
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Uncharted Territory of the Sleeping Mind (c. 2025–Present)",
+      "title": "The Uncharted Territory of the Sleeping Mind",
       "units": 2382
     },
     {
@@ -176,61 +176,61 @@
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Unseen Cost of a Sleepless Society (c. 2025–Present)",
+      "title": "The Unseen Cost of a Sleepless Society",
       "units": 2742
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Unquiet Rest of the Modern Mind (c. 2030–Present)",
+      "title": "The Unquiet Rest of the Modern Mind",
       "units": 2215
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Final Reckoning of the Waking World (c. 2035–Present)",
+      "title": "The Final Reckoning of the Waking World",
       "units": 2377
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Uncharted Territory of the Sleeping Self (c. 2040–Present)",
+      "title": "The Uncharted Territory of the Sleeping Self",
       "units": 2574
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Unyielding Rhythm of a Living World (c. 2045–Present)",
+      "title": "The Unyielding Rhythm of a Living World",
       "units": 2264
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Unfinished Symphony of the Sleeping Brain (c. 2050–Present)",
+      "title": "The Unfinished Symphony of the Sleeping Brain",
       "units": 2501
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Unseen Cost of a Sleepless Civilization (c. 2055–Present)",
+      "title": "The Unseen Cost of a Sleepless Civilization",
       "units": 2694
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Final Reckoning of the Night Shift (c. 2060–Present)",
+      "title": "The Final Reckoning of the Night Shift",
       "units": 2775
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Indelible Signature of a Second Self (c. 2065–Present)",
+      "title": "The Indelible Signature of a Second Self",
       "units": 2318
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Uncharted Territory of the Second Mind (c. 2070–Present)",
+      "title": "The Uncharted Territory of the Second Mind",
       "units": 2819
     },
     {
@@ -242,17 +242,17 @@
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Unbroken Rhythm of a Second Life (c. 2080–Present)",
+      "title": "The Unbroken Rhythm of a Second Life",
       "units": 2509
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Unending Conversation of the Night (c. 2085–Present)",
+      "title": "The Unending Conversation of the Night",
       "units": 2166
     }
   ],
   "publishedAt": "2026-08-30T06:58:16.342Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-04T06:53:17.670Z"
+  "rerenderedAt": "2026-09-05T09:02:31.959Z",
+  "formFamily": "narrative"
 }
