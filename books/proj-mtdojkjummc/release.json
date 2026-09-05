@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902122222200_825364579d",
   "projectId": "proj-mtdojkjummc",
-  "manuscriptVersionId": "mv_0637478a7c34db5b",
-  "contentHash": "0637478a7c34db5be26c6617d8bf32e555e6ce24b63cdd84cf8d2528806dd046",
+  "manuscriptVersionId": "mv_55032f537067c99d",
+  "contentHash": "55032f537067c99d83603bcf68cf00b242b57c50f42fc9321552a9bd4e149e31",
   "title": "The Year Without a Summer: 1816 and the World Tambora Made",
   "subtitle": "1816 and the World Tambora Made",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T11:26:20.069Z"
   },
   "editorReview": {
-    "text": "This panoramic history convincingly establishes the Tambora eruption as a global coupling event, tracing its chilling impact from New England to Bengal with impressive archival specificity. The analysis of how artists like Turner gave form to the 'ambient dread' of a sunless world provides a particularly insightful thread. However, the narrative momentum is hampered by repetitive structural formulas, and a reliance on passive voice at times dilutes the sensory immediacy so crucial to this story of a world plunged into cold and darkness.",
+    "text": "This panoramic history convincingly positions the Tambora eruption as a global coupling mechanism, tracing its chilling effects from Sumbawa to New England with commendable archival specificity. The analysis of how artists like Turner and Friedrich gave form to the 'ambient dread' of a sunless world is a particular highlight, offering genuine insight into cultural mediation. However, the narrative's momentum is periodically fractured by repetitive structural formulas, and a reliance on passive voice can dilute the sensory immediacy so crucial to this form of storytelling. While it successfully",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -56,13 +56,13 @@
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Long Winter of New England (June–October 1816)",
+      "title": "The Long Winter of New England",
       "units": 2219
     },
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Famine’s First Tremors in Ireland (Spring–Summer 1816)",
+      "title": "The Famine’s First Tremors in Ireland",
       "units": 2460
     },
     {
@@ -80,19 +80,19 @@
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Cholera’s Passage from Bengal (Summer–Autumn 1816)",
+      "title": "The Cholera’s Passage from Bengal",
       "units": 2592
     },
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Failed Harvests of Yunnan (Summer–Autumn 1816)",
+      "title": "The Failed Harvests of Yunnan",
       "units": 1923
     },
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The Darkened Sun of the British Isles (Summer–Autumn 1816)",
+      "title": "The Darkened Sun of the British Isles",
       "units": 2584
     },
     {
@@ -128,13 +128,13 @@
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Governor’s Dilemma in Bengal (Summer–Autumn 1816)",
+      "title": "The Governor’s Dilemma in Bengal",
       "units": 2426
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The American Exodus to the Ohio Valley (Spring–Summer 1817)",
+      "title": "The American Exodus to the Ohio Valley",
       "units": 2528
     },
     {
@@ -158,7 +158,7 @@
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Governor’s Impossible Choice in Madras (Summer–Autumn 1817)",
+      "title": "The Governor’s Impossible Choice in Madras",
       "units": 2475
     },
     {
@@ -170,7 +170,7 @@
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Atlantic’s Silent Passage (Spring–Summer 1817)",
+      "title": "The Atlantic’s Silent Passage",
       "units": 2092
     },
     {
@@ -182,7 +182,7 @@
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Governor’s Dilemma in Madras (Summer–Autumn 1817)",
+      "title": "The Governor’s Dilemma in Madras",
       "units": 2253
     },
     {
@@ -194,19 +194,19 @@
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Reckoning of the Russian Steppe (Summer–Autumn 1817)",
+      "title": "The Reckoning of the Russian Steppe",
       "units": 1890
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Retreat of the American Frontier (Spring–Summer 1817)",
+      "title": "The Retreat of the American Frontier",
       "units": 2419
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Last Embers of the Volcanic Winter (Spring–Summer 1818)",
+      "title": "The Last Embers of the Volcanic Winter",
       "units": 2374
     },
     {
@@ -289,6 +289,6 @@
     }
   ],
   "publishedAt": "2026-09-02T12:22:22.208Z",
-  "rerenderedAt": "2026-09-05T09:34:08.069Z",
+  "rerenderedAt": "2026-09-05T09:43:47.176Z",
   "formFamily": "narrative"
 }
