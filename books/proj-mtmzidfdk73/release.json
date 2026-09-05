@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905015022902_606bdeed76",
+  "projectId": "proj-mtmzidfdk73",
+  "manuscriptVersionId": "mv_81240312964330da",
+  "contentHash": "81240312964330da1b51f45b549ec1e2fb0908917b6b970f312f27df443965ab",
+  "title": "The Pocket Wars",
+  "subtitle": "Engineering Trade-offs and the Evolution of Handheld Gaming",
+  "authorDisplayName": "Liszt Think",
+  "description": "Every handheld console is a compromise etched in plastic and silicon. To fit a world into your pocket, engineers must sacrifice something: battery life for color, processing power for portability, or open standards for proprietary control. This history traces that relentless negotiation from the Game Boy’s monochrome endurance to the Steam Deck’s PC-grade ambition. Through the lenses of Gunpei Yokoi, Ken Kutaragi, Satoru Iwata, and Valve’s hardware team, each device emerges as an artifact of specific manufacturing constraints and patent skirmishes. The WonderSwan’s ergonomic grip, the PSP’s UMD format war, and the Vita’s memory card missteps reveal how materials and price points dictate survival more than raw specs. Beyond nostalgia lies a continuous engineering argument about what players will tolerate for mobility. This is the story of how technical limitations shaped play, defining a medium where every design choice carries the weight of what was left behind to make the machine fit in a palm.",
+  "category": "游戏史",
+  "tags": [
+    "handheld gaming history",
+    "hardware engineering",
+    "Nintendo",
+    "industrial design",
+    "video game technology",
+    "战争史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 36,
+    "units": 87359,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T16:31:22.614Z"
+  },
+  "editorReview": {
+    "text": "This history of handheld consoles shines when it grounds its 'Portability Trilemma' argument in the tangible physics of battery chemistry and manufacturing cost. The analysis of the Switch's 'software-defined sacrifice' is a standout example of the book's strength: using the device as a lens to dissect engineering philosophy. However, the central biographical promise falters. The compelling origin story of Gunpei Yokoi is front-loaded, but the text later abandons him as a living subject, failing to examine his later contradictions with the same material rigor. This structural lapse, alongside",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-05T01:50:18.567Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Man Who Believed in Toys (1970-1980)",
+      "units": 2527
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The First Pocket War (1989-1991)",
+      "units": 2116
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The American Gambit (1989-1991)",
+      "units": 2230
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Philosophy of the Fist (1990-1999)",
+      "units": 2149
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Quiet Revolution of the WonderSwan (1999-2003)",
+      "units": 2552
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Microswitch and the Missed Moment (1998-2001)",
+      "units": 2549
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Backlight and the Blind Spot (2001-2003)",
+      "units": 2548
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Bet Nobody Asked For (2004-2006)",
+      "units": 2108
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Format War in a Pocket (2004-2006)",
+      "units": 2528
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Price of Ambition (2004-2007)",
+      "units": 2516
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Self-Inflicted Wound (2011-2012)",
+      "units": 2607
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Unseen Dimension (2011-2013)",
+      "units": 2554
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Doctrine Reforged (2012-2015)",
+      "units": 2138
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Mobile Shadow (2010-2015)",
+      "units": 2540
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Doctrine in Exile (2015-2017)",
+      "units": 2478
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Hybrid Proposition",
+      "units": 2782
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Doctrine’s Final Form (2017-2021)",
+      "units": 2288
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Doctrine’s Final Form",
+      "units": 2458
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Reopening of the Argument (2022-2024)",
+      "units": 2279
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Unclaimed Middle Ground (2022-2024)",
+      "units": 2335
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Return of the Pocket (2024-2025)",
+      "units": 2131
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Unfinished Machine (2024-2025)",
+      "units": 2658
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Doctrine’s Final Test (2017-2021)",
+      "units": 2575
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Doctrine’s Final Test (2017-2021)（24）",
+      "units": 2727
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Doctrine’s Final Test",
+      "units": 2490
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Unseen Hand (2017-2021)",
+      "units": 2471
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Unfinished Machine (2024-2025)（27）",
+      "units": 2270
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Return of the Pocket (2022-2024)",
+      "units": 2566
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Unseen Hand (2017-2021)（29）",
+      "units": 2638
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Argument That Never Ends (2024–Present)",
+      "units": 2519
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "The Final Pocket (2024–Present)",
+      "units": 2594
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "The Pocket’s Enduring Argument (2024–Present)",
+      "units": 2248
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Pocket’s Enduring Argument (2024–Present)（33）",
+      "units": 2072
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Pocket’s Enduring Argument (2024–Present)（34）",
+      "units": 2456
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "The Pocket’s Enduring Argument (2024–Present)（35）",
+      "units": 2056
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "The Pocket’s Enduring Argument (2024–Present)（36）",
+      "units": 2606
+    }
+  ],
+  "publishedAt": "2026-09-05T01:50:22.906Z",
+  "formFamily": "narrative"
+}
