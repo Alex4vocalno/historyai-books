@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtiuyixbw2l",
+    "projectId": "proj-mtiuyixbw2l",
+    "releaseId": "rel_20260902121619628_bdde4963ba",
+    "title": "The Rubber Century: How a Tree Sap Wired the Modern World",
+    "subtitle": "How a Tree Sap Wired the Modern World",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Commodity History",
+      "Industrialization",
+      "Colonialism",
+      "Global Trade",
+      "Material Culture",
+      "世界史"
+    ],
+    "description": "A milky sap from Amazonian trees became the material precondition for tires, wires, and war. Rubber was the first truly global commodity whose supply chain was engineered by design: seeds smuggled across oceans, plantations carved from jungle, and colonies reorganized to feed an insatiable industrial engine. Every leap in modern mobility carried a hidden cost paid in coercion and extraction. From Charles Goodyear’s heated coil to the synthetic laboratories of wartime Akron, this history traces the substance through specific objects and trade routes rather than broad surveys. It reveals how the bicycle tire coincided with famine, how estate payrolls masked colonial profit spirals, and how synthetic substitutes emerged from monopolist panic. Spanning the Congo, Malaya, and the American interstate system, the narrative anchors abstract economic forces in concrete realities of wages, tonnage, and human labor. This is the story of how a single botanical exudate was transformed into the unyielding infrastructure of contemporary life.",
+    "chapterCount": 34,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 78,
+      "method": "median-of-2",
+      "createdAt": "2026-09-02T05:21:47.332Z"
+    },
+    "coverUrl": "books/proj-mtiuyixbw2l/releases/rel_20260902121619628_bdde4963ba/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtiuyixbw2l/index.html",
+    "publishedAt": "2026-09-02T12:16:19.631Z",
+    "firstPublishedAt": "2026-09-02T06:25:07.796Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtjekm8w47u",
     "projectId": "proj-mtjekm8w47u",
     "releaseId": "rel_20260902051816561_d3d0635e19",
@@ -575,40 +609,6 @@
     "url": "books/proj-mtedwhaebky/index.html",
     "publishedAt": "2026-09-02T12:16:25.748Z",
     "firstPublishedAt": "2026-08-30T07:31:56.986Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtiuyixbw2l",
-    "projectId": "proj-mtiuyixbw2l",
-    "releaseId": "rel_20260902121619628_bdde4963ba",
-    "title": "The Rubber Century: How a Tree Sap Wired the Modern World",
-    "subtitle": "How a Tree Sap Wired the Modern World",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Commodity History",
-      "Industrialization",
-      "Colonialism",
-      "Global Trade",
-      "Material Culture",
-      "世界史"
-    ],
-    "description": "A milky sap from Amazonian trees became the material precondition for tires, wires, and war. Rubber was the first truly global commodity whose supply chain was engineered by design: seeds smuggled across oceans, plantations carved from jungle, and colonies reorganized to feed an insatiable industrial engine. Every leap in modern mobility carried a hidden cost paid in coercion and extraction. From Charles Goodyear’s heated coil to the synthetic laboratories of wartime Akron, this history traces the substance through specific objects and trade routes rather than broad surveys. It reveals how the bicycle tire coincided with famine, how estate payrolls masked colonial profit spirals, and how synthetic substitutes emerged from monopolist panic. Spanning the Congo, Malaya, and the American interstate system, the narrative anchors abstract economic forces in concrete realities of wages, tonnage, and human labor. This is the story of how a single botanical exudate was transformed into the unyielding infrastructure of contemporary life.",
-    "chapterCount": 34,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 78,
-      "method": "median-of-2",
-      "createdAt": "2026-09-02T05:21:47.332Z"
-    },
-    "coverUrl": "books/proj-mtiuyixbw2l/releases/rel_20260902121619628_bdde4963ba/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtiuyixbw2l/index.html",
-    "publishedAt": "2026-09-02T12:16:19.631Z",
-    "firstPublishedAt": "2026-09-02T06:25:07.796Z",
     "visibility": "public"
   },
   {
