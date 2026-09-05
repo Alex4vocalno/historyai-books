@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830064419272_24c490a6be",
   "projectId": "proj-mtedvch1j50",
-  "manuscriptVersionId": "mv_bb3ffe999af7574b",
-  "contentHash": "bb3ffe999af7574bdc8742db26ce86c3a7e4f307fa61f50dfed19c6f9dfab59a",
+  "manuscriptVersionId": "mv_c64572ad88e2f4e6",
+  "contentHash": "c64572ad88e2f4e6fadf491ca94579f6ef15525538630aad37319037960d22b6",
   "title": "The Berlin Airlift Ledger: Feeding a City by Paper and Propeller",
   "subtitle": "Feeding a City by Paper and Propeller",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "When Soviet forces sealed off West Berlin in June 1948, survival depended not merely on pilot bravery but on bureaucratic precision. The Berlin Airlift was a triumph of logistics where tonnage boards, loading manifests, and corridor schedules transformed coal and flour into instruments of grand strategy. Drawing from Operation Vittles archives, Soviet diplomatic notes, and municipal ration records, this history reconstructs the eleven-month siege through its operational paperwork. From the first improvised flights to the record-breaking Easter Parade and the blockade’s quiet termination, these documents reveal how close the city came to starvation. Beyond the cockpit, the true battle was fought in control rooms and counting houses where arithmetic determined fate. This is the story of how an archival machine sustained two million people, proving that in the early Cold War, administrative order was as vital as aviation fuel.",
   "category": "世界史",
   "tags": [
@@ -33,24 +33,24 @@
     "createdAt": "2026-08-29T19:08:58.125Z"
   },
   "editorReview": {
-    "text": "This chronicle offers a compelling re-examination of the Berlin Airlift, successfully framing the 'paper machine' of logistics as an active historical protagonist rather than a passive record. The argument finds its most potent form in the middle chapters, where meticulous archival evidence—such as the analysis of priority lists and manifests in Chapter 19—drives the narrative with precision and conceptual force. However, the structural discipline falters towards the end, where the rich, document-specific texture gives way to more generic strategic analysis. A noticeable repetition in chapter",
+    "text": "This is a history that understands its form. The central thesis—that the airlift was governed by the 'paper machine' of ledgers and manifests—is powerfully sustained, especially in the meticulous middle chapters where documentary evidence drives the narrative with precision. The opening's conceptual framing, imagining the ledger's grid as a 'page defined by absence,' is particularly strong. However, the structural execution falters. Repetitive chapter titles signal a lack of editorial polish, and the concluding chapters drift from the rich archival specificity that defines the book's best mome",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-ddea619d57a0.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-03T12:45:48.531Z",
+    "generatedAt": "2026-09-04T08:45:13.730Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "warm-humanist"
   },
   "chapters": [
     {
       "idx": 0,
       "sourceIdx": 0,
-      "title": "The Ledger’s First Empty Page (June 1948)",
+      "title": "The Ledger’s First Empty Page",
       "units": 2332
     },
     {
@@ -74,13 +74,13 @@
     {
       "idx": 4,
       "sourceIdx": 4,
-      "title": "The Ration Card’s Arithmetic (August 1948)",
+      "title": "The Ration Card’s Arithmetic",
       "units": 2517
     },
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Weather Log’s First Warning (September 1948)",
+      "title": "The Weather Log’s First Warning",
       "units": 2289
     },
     {
@@ -92,37 +92,37 @@
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The First Tonnage Board (October 1948)",
+      "title": "The First Tonnage Board",
       "units": 2430
     },
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Loading Manifest’s Standard Form (November 1948)",
+      "title": "The Loading Manifest’s Standard Form",
       "units": 2231
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The Diplomatic Note’s Calculated Ambiguity (December 1948)",
+      "title": "The Diplomatic Note’s Calculated Ambiguity",
       "units": 2652
     },
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The Winter Stockpile Ledger (January 1949)",
+      "title": "The Winter Stockpile Ledger",
       "units": 2363
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The Easter Parade’s Paper Trail (April 1949)",
+      "title": "The Easter Parade’s Paper Trail",
       "units": 2373
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Maintenance Log’s Grim Calculus (May 1949)",
+      "title": "The Maintenance Log’s Grim Calculus",
       "units": 2423
     },
     {
@@ -140,7 +140,7 @@
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The Ledger’s Final Balance (June 1949)",
+      "title": "The Ledger’s Final Balance",
       "units": 2504
     },
     {
@@ -152,7 +152,7 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Archive’s First Historian (Summer 1949)",
+      "title": "The Archive’s First Historian",
       "units": 2315
     },
     {
@@ -170,61 +170,61 @@
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Ledger’s Final Balance",
+      "title": "The Audit's Engineered Permanence",
       "units": 2607
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Ledger’s Posthumous Power (1949 – 1950s)",
+      "title": "The Ledger’s Posthumous Power",
       "units": 2508
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Ledger’s Unwritten Page (Late 1949 – Early 1950)",
+      "title": "The Ledger’s Unwritten Page",
       "units": 2518
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Ledger’s Cold Storage (1950–1955)",
+      "title": "The Ledger’s Cold Storage",
       "units": 2498
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Ledger’s Second Life (1955–1961)",
+      "title": "The Ledger’s Second Life",
       "units": 2518
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Ledger’s Final Judgment (1961–1989)",
+      "title": "The Ledger’s Final Judgment",
       "units": 2317
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Ledger’s Digital Ghost (1990–Present)",
+      "title": "The Ledger’s Digital Ghost",
       "units": 2287
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Ledger’s Last Audit (May 1949)",
+      "title": "The Ledger’s Last Audit",
       "units": 2490
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Ledger’s Unwritten Epilogue (May 1949 – June 1950)",
+      "title": "The Ledger’s Unwritten Epilogue",
       "units": 2222
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Ledger’s Final Balance (May 1949 – The Present)",
+      "title": "The Manual's First Protocol",
       "units": 2519
     },
     {
@@ -260,10 +260,10 @@
     {
       "idx": 35,
       "sourceIdx": 35,
-      "title": "The Ledger’s Final Balance (May 1949 – The Present)（36）",
+      "title": "The Template's First Echo",
       "units": 2234
     }
   ],
   "publishedAt": "2026-08-30T06:44:19.286Z",
-  "rerenderedAt": "2026-09-03T12:45:48.541Z"
+  "rerenderedAt": "2026-09-05T09:26:06.871Z"
 }
