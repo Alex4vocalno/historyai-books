@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260829060621942_b906c3ba0e",
   "projectId": "proj-mtdojb7zftn",
-  "manuscriptVersionId": "mv_5b4d93dc9289651f",
-  "contentHash": "5b4d93dc9289651f29461dfcee8a8272ddfae117337079b0c9841f2ef97ced86",
+  "manuscriptVersionId": "mv_f5617ee1f540fdfc",
+  "contentHash": "f5617ee1f540fdfc6223243db0d1ba2b742a7352ac670f5ad09a05faac40accb",
   "title": "Thirteen Days on Paper: The Cuban Missile Crisis in Documents",
   "subtitle": "The Cuban Missile Crisis in Documents",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "The Cuban Missile Crisis was not resolved by steely nerves alone, but by an avalanche of paperwork. From ExComm tapes and State Department cables to Soviet Presidium minutes and U-2 photo interpretation reports, the thirteen days of October 1962 survive in an extraordinary archival trail. Reading the crisis strictly through these primary sources reveals two governments improvising control over events they only half understood. This narrative reconstructs the standoff hour by hour, letting garbled intelligence, contradictory logs, and silent gaps in the record speak for themselves. Rather than smoothing the past into retrospective certainty, the documents confront each other to expose the chasm between what leaders said in private and what their bureaucracies executed on the ground. Experience the crisis as it actually unfolded: information arriving late, incomplete, and terrifyingly ambiguous. This is the definitive documentary account of how paper, not just brinkmanship, averted nuclear catastrophe.",
   "category": "世界史",
   "tags": [
@@ -33,24 +33,27 @@
     "createdAt": "2026-08-29T04:47:41.151Z"
   },
   "editorReview": {
-    "text": "This chronicle of the Cuban Missile Crisis through its paperwork delivers on its core promise. The bureaucratic voice is sustained and effective, framing documents from ExComm tapes to Soviet minutes with a texture that makes the 'paperwork standard' thesis physically tangible, especially in the powerful dismantlement and hotline chapters. However, the narrative drive falters in the middle, betrayed by awkwardly meta chapter titles, and is undercut by prose that occasionally becomes repetitive or mechanical. A more significant reservation concerns the sourcing: the use of uncitable 'family pap",
+    "text": "This archival chronicle excels where its core thesis—the 'paperwork standard' as a tangible force in the crisis—achieves its fullest synthesis, particularly in the powerful dismantlement chapter. The consistent bureaucratic voice and effective documentary juxtapositions create a compelling texture. However, the narrative drive falters in the middle sections, and the reader's trust is subtly eroded by the occasional use of vaguely sourced 'family papers' or 'local registers' as evidence. The conceptual ambition is genuine, but the execution is uneven.",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-1a2626db1f95.jpg",
+    "file": "cover.svg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-02T16:40:28.398Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-02T16:59:20.431Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "portrait-biography",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "portrait-biography"
   },
   "chapters": [
     {
       "idx": 0,
       "sourceIdx": 0,
-      "title": "The Architect of a Secret (Spring 1962)",
+      "title": "The Architect of a Secret",
       "units": 2150
     },
     {
@@ -62,7 +65,7 @@
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Unseen Fleet (September 1962)",
+      "title": "The Unseen Fleet",
       "units": 2473
     },
     {
@@ -218,25 +221,25 @@
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Hotline’s First Test (October 1963)",
+      "title": "The Hotline’s First Test",
       "units": 2284
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Archive’s First Historian (October 1962 – November 1963)",
+      "title": "The Archive’s First Historian",
       "units": 2692
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Declassification Era (1970s–1990s)",
+      "title": "The Declassification Era",
       "units": 2499
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Paper Trail’s Long Shadow (1963–Present)",
+      "title": "The Paper Trail’s Long Shadow",
       "units": 2531
     },
     {
@@ -248,7 +251,7 @@
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Paper and the Nerve (1962–Present)",
+      "title": "The Paper and the Nerve",
       "units": 2622
     },
     {
@@ -260,7 +263,7 @@
     {
       "idx": 35,
       "sourceIdx": 35,
-      "title": "The Archive as the Final Witness (1962–Present)",
+      "title": "The Archive as the Final Witness",
       "units": 2556
     },
     {
@@ -277,6 +280,6 @@
     }
   ],
   "publishedAt": "2026-08-29T06:06:21.945Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-02T16:40:28.901Z"
+  "rerenderedAt": "2026-09-05T09:04:07.083Z",
+  "formFamily": "narrative"
 }
