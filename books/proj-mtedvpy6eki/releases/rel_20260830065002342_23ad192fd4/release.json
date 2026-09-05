@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065002342_23ad192fd4",
   "projectId": "proj-mtedvpy6eki",
-  "manuscriptVersionId": "mv_683bd90d08ba94a3",
-  "contentHash": "683bd90d08ba94a30ff777f2aed46da4e7b772b1804a7122051b8a7ecb92dbee",
+  "manuscriptVersionId": "mv_176ade272a607e83",
+  "contentHash": "176ade272a607e83a440f0dcdae31ffadce1042af552f3b15d55e8848b88ac3e",
   "title": "Seventy-Two Hours: Chernobyl Before the World Knew",
   "subtitle": "Chernobyl Before the World Knew",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:02:36.826Z"
   },
   "editorReview": {
-    "text": "This panoramic reconstruction of Chernobyl's first three days achieves a rare documentary density, particularly in its early, granular chapters that masterfully build narrative tension. The core insight—treating the seventy-two-hour information blackout as a profound epistemological template—provides a genuinely illuminating and well-sustained thematic architecture. However, the reader's immersion is periodically broken by a mechanical quality in the middle chapters, where prose can lapse into generic exposition and bureaucratic figures blur together without distinct institutional voices. It i",
+    "text": "This panoramic reconstruction of Chernobyl's first three days achieves a rare density, where the central concept of a 'seventy-two-hour secret' evolves into a powerful, sustained lens for understanding the disaster. The early chapters masterfully build narrative tension from granular details, like the precise sequence of the fateful test. However, the reading experience becomes uneven as the scope widens; the prose in the book's middle sections loses its sensory edge, and the parade of bureaucratic figures can blur together, making the crucial institutional dynamics harder to grasp. It is a wo",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -164,7 +164,7 @@
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Secret Crosses the Border (April 28, 1986)",
+      "title": "The Distant Echo in Forsmark",
       "units": 2412
     },
     {
@@ -188,7 +188,7 @@
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The First Aerial Assault (May 1-2, 1986)",
+      "title": "The Siege Begins with a Hover",
       "units": 2043
     },
     {
@@ -277,5 +277,5 @@
     }
   ],
   "publishedAt": "2026-08-30T06:50:02.346Z",
-  "rerenderedAt": "2026-09-05T09:03:20.249Z"
+  "rerenderedAt": "2026-09-05T09:25:54.948Z"
 }
