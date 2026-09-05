@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902162041429_658fbf260a",
   "projectId": "proj-mtdojmyg750",
-  "manuscriptVersionId": "mv_0716500ef5a1aaae",
-  "contentHash": "0716500ef5a1aaaef1e792f0a788fcd3d42216d9bb9d4764f3ef84f3f879a990",
+  "manuscriptVersionId": "mv_a9bd94fc98c75d67",
+  "contentHash": "a9bd94fc98c75d67d9681c43a963a88ce2593bf208bcd4dba9e0bb12b09b2251",
   "title": "Why the Night Sky Is Dark",
   "subtitle": "Olbers' Paradox and the Discovery of a Finite Universe",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "Why is the night sky dark? In an infinite, eternal universe, every line of sight should end on a star, rendering the heavens as bright as the sun. This simple question, known as Olbers’ paradox, haunted astronomers for centuries and ultimately broke the model of a static cosmos. Tracing the inquiry from Kepler’s early doubts through Edgar Allan Poe’s uncanny intuition to the discovery of cosmic background radiation, this narrative reveals how failed explanations paved the way for modern cosmology. Each wrong turn—from interstellar dust to fractal clustering—is treated not as an error but as a necessary step toward understanding redshift and the universe's finite age. Rigorous yet accessible, the text builds complex concepts from observable reality before introducing mathematics. The darkness overhead is no longer a void but a signature of creation, proving that the most profound truths about our origin are hidden in plain sight.",
   "category": "世界史",
   "tags": [
@@ -33,18 +33,18 @@
     "createdAt": "2026-08-29T11:24:56.886Z"
   },
   "editorReview": {
-    "text": "This exploration of Olbers’ paradox succeeds where it matters most: it builds a sturdy chronological argument from Kepler to Hubble, and its recurring 'forest of stars' analogy is a masterstroke in making cosmic abstractions viscerally clear. However, the journey is not without its stumbles. A noticeable shift toward a drier, textbook-like tone in the middle chapters momentarily dampens the narrative's intuitive spark, and the structural choice of repeating identical chapter titles flattens the sense of progression. While the core intellectual architecture is sound, these formal inconsistencie",
+    "text": "The book's greatest strength is its chronological spine, which carries the reader from Kepler's unease to the modern Hubble tension with admirable clarity. The recurring 'forest of stars' analogy is also a high point, effectively grounding abstract cosmology in tangible intuition. However, the narrative drive is periodically flattened, most noticeably by a drift into a dry, textbook-like register in the middle chapters, which departs from the work's otherwise engaging explanatory mandate. A significant disruption in the final chapter's prose further mars the terminal experience. Despite these",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-dd227c773b87.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-04T08:09:31.985Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -56,7 +56,7 @@
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Forest of Stars and the Absent Light (c. 1750-1823)",
+      "title": "The Forest of Stars and the Absent Light",
       "units": 2469
     },
     {
@@ -68,7 +68,7 @@
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Astronomer’s Calculation and the Age of Light (c. 1848-1901)",
+      "title": "The Astronomer’s Calculation and the Age of Light",
       "units": 2430
     },
     {
@@ -92,61 +92,61 @@
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The Physician’s Paradox and the Unseen Forest (c. 1823-1826)",
+      "title": "The Physician’s Paradox and the Unseen Forest",
       "units": 2370
     },
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Paradox Named and the Problem Shelved (c. 1826-1900)",
+      "title": "The Paradox Named and the Problem Shelved",
       "units": 2350
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The Dusty Veil and the Infinite Retreat (c. 1900-1917)",
+      "title": "The Dusty Veil and the Infinite Retreat",
       "units": 2537
     },
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The Fractal Universe and the Failed Escape (c. 1917-1929)",
+      "title": "The Fractal Universe and the Failed Escape",
       "units": 2291
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The Redshift and the Receding Light (c. 1929-1936)",
+      "title": "The Redshift and the Receding Light",
       "units": 2583
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Finite Age and the Final Darkness (c. 1936-1948)",
+      "title": "The Finite Age and the Final Darkness",
       "units": 2675
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Relic Radiation and the Cosmic Signature (c. 1948-1965)",
+      "title": "The Relic Radiation and the Cosmic Signature",
       "units": 2419
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Paradox’s Return and the New Cosmology (c. 1965-1990)",
+      "title": "The Paradox’s Return and the New Cosmology",
       "units": 2525
     },
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The Paradox as a Beacon in the Dark (c. 1990-Present)",
+      "title": "The Paradox as a Beacon in the Dark",
       "units": 2554
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Paradox as a Universal Constant (c. 1990-Present)",
+      "title": "The Paradox as a Universal Constant",
       "units": 2134
     },
     {
@@ -158,7 +158,7 @@
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Dark Sky’s Final Answer (c. 1990-Present)",
+      "title": "The Dark Sky’s Final Answer",
       "units": 2332
     },
     {
@@ -170,7 +170,7 @@
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Paradox in the Public Imagination (c. 1965-Present)",
+      "title": "The Paradox in the Public Imagination",
       "units": 2458
     },
     {
@@ -182,25 +182,25 @@
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Paradox as a Mirror for the Mind (c. 2000-Present)",
+      "title": "The Paradox as a Mirror for the Mind",
       "units": 2391
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Paradox and the Limits of Certainty (c. 2000-Present)",
+      "title": "The Paradox and the Limits of Certainty",
       "units": 2465
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Paradox and the Unfinished Universe (c. 2000-Present)",
+      "title": "The Paradox and the Unfinished Universe",
       "units": 2354
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Final Light and the First Darkness (c. 1965-Present)",
+      "title": "The Final Light and the First Darkness",
       "units": 2438
     },
     {
@@ -218,40 +218,40 @@
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Everyday Observation and the Cosmic Story (c. 2020-Present)",
+      "title": "The Everyday Observation and the Cosmic Story",
       "units": 2327
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Dark Sky and the Human Question (c. 2020-Present)",
+      "title": "The Dark Sky and the Human Question",
       "units": 2644
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Final Darkness and the First Light (c. 2020-Present)",
+      "title": "The Final Darkness and the First Light",
       "units": 2454
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Single Thread and the Infinite Story (c. 2020-Present)",
+      "title": "The Single Thread and the Infinite Story",
       "units": 2276
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Unfinished Sky and the Next Question (c. 2020-Present)",
+      "title": "The Unfinished Sky and the Next Question",
       "units": 2691
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Observation That Remade the Cosmos (c. 2020-Present)",
+      "title": "The Observation That Remade the Cosmos",
       "units": 2630
     }
   ],
   "publishedAt": "2026-09-02T16:20:41.433Z",
-  "rerenderedAt": "2026-09-04T08:09:31.990Z"
+  "rerenderedAt": "2026-09-05T09:03:31.700Z"
 }
