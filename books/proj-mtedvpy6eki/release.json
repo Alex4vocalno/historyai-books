@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065002342_23ad192fd4",
   "projectId": "proj-mtedvpy6eki",
-  "manuscriptVersionId": "mv_696cfcafe171bb6d",
-  "contentHash": "696cfcafe171bb6d63054fbd5021036b350d018a0cb042020140155d4204797e",
+  "manuscriptVersionId": "mv_683bd90d08ba94a3",
+  "contentHash": "683bd90d08ba94a30ff777f2aed46da4e7b772b1804a7122051b8a7ecb92dbee",
   "title": "Seventy-Two Hours: Chernobyl Before the World Knew",
   "subtitle": "Chernobyl Before the World Knew",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "On April 26, 1986, Reactor Number Four exploded, yet for seventy-two critical hours, the catastrophe remained a state secret. Inside the control room, operators stared at impossible dosimeter readings while firefighters climbed into invisible flames. In Moscow, apparatchiks drafted reassuring bulletins as radiation drifted undetected toward Sweden. This minute-by-minute reconstruction captures the agonizing interval between disaster and admission, tracing the collision of human denial and physical reality. From the failed turbine test to the first terse TASS announcement, the narrative moves through burning roofs, evacuation buses, and emergency commissions to reveal how the defining tragedy of the nuclear age was negotiated in real time. Before the world understood what had happened, a desperate struggle unfolded between those who could not believe the core was gone and those tasked with containing the unthinkable.",
   "category": "世界史",
   "tags": [
@@ -33,18 +33,18 @@
     "createdAt": "2026-08-29T18:02:36.826Z"
   },
   "editorReview": {
-    "text": "This panoramic reconstruction of Chernobyl's first three days achieves a formidable density of detail, particularly in its early, gripping chapters that meticulously trace the doomed test sequence. Its most significant contribution is the sustained analysis of the 'seventy-two-hour secret' as an epistemological template, a genuinely insightful frame that elevates the specific catastrophe into a powerful systemic parable. However, the reading experience is hampered in the book's middle sections by prose that lapses into a more generic register and by mechanical transitions between chapters, whi",
+    "text": "This panoramic reconstruction of Chernobyl's first three days achieves a rare documentary density, particularly in its early, granular chapters that masterfully build narrative tension. The core insight—treating the seventy-two-hour information blackout as a profound epistemological template—provides a genuinely illuminating and well-sustained thematic architecture. However, the reader's immersion is periodically broken by a mechanical quality in the middle chapters, where prose can lapse into generic exposition and bureaucratic figures blur together without distinct institutional voices. It i",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-1de097e2eb32.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-04T06:59:43.821Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "warm-humanist"
   },
   "chapters": [
     {
@@ -218,19 +218,19 @@
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Bureaucracy of Denial (June 1986)",
+      "title": "The Bureaucracy of Denial",
       "units": 2572
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The First Public Trial (July 1986)",
+      "title": "The First Public Trial",
       "units": 2348
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The First Scientific Report (August 1986)",
+      "title": "The First Scientific Report",
       "units": 2589
     },
     {
@@ -242,7 +242,7 @@
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Long Shadow of the Secret (1987 – 1991)",
+      "title": "The Long Shadow of the Secret",
       "units": 1670
     },
     {
@@ -254,29 +254,29 @@
     {
       "idx": 34,
       "sourceIdx": 34,
-      "title": "The Enduring Bargain (1992 – Present)",
+      "title": "The Enduring Bargain",
       "units": 2560
     },
     {
       "idx": 35,
       "sourceIdx": 35,
-      "title": "The Final Reckoning (1986 – Present)",
+      "title": "The Final Reckoning",
       "units": 2359
     },
     {
       "idx": 36,
       "sourceIdx": 36,
-      "title": "The Unfinished Conversation (1986 – Present)",
+      "title": "The Unfinished Conversation",
       "units": 2500
     },
     {
       "idx": 37,
       "sourceIdx": 37,
-      "title": "The Unknowable Price (1986 – Present)",
+      "title": "The Unknowable Price",
       "units": 3452
     }
   ],
   "publishedAt": "2026-08-30T06:50:02.346Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-04T06:59:43.827Z"
+  "rerenderedAt": "2026-09-05T09:03:20.249Z",
+  "formFamily": "narrative"
 }

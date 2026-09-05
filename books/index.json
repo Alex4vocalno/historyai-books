@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtedvpy6eki",
+    "projectId": "proj-mtedvpy6eki",
+    "releaseId": "rel_20260830065002342_23ad192fd4",
+    "title": "Seventy-Two Hours: Chernobyl Before the World Knew",
+    "subtitle": "Chernobyl Before the World Knew",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Chernobyl",
+      "Nuclear History",
+      "Soviet Union",
+      "Disaster",
+      "Cold War",
+      "世界史"
+    ],
+    "description": "On April 26, 1986, Reactor Number Four exploded, yet for seventy-two critical hours, the catastrophe remained a state secret. Inside the control room, operators stared at impossible dosimeter readings while firefighters climbed into invisible flames. In Moscow, apparatchiks drafted reassuring bulletins as radiation drifted undetected toward Sweden. This minute-by-minute reconstruction captures the agonizing interval between disaster and admission, tracing the collision of human denial and physical reality. From the failed turbine test to the first terse TASS announcement, the narrative moves through burning roofs, evacuation buses, and emergency commissions to reveal how the defining tragedy of the nuclear age was negotiated in real time. Before the world understood what had happened, a desperate struggle unfolded between those who could not believe the core was gone and those tasked with containing the unthinkable.",
+    "chapterCount": 38,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 78,
+      "method": "median-of-2",
+      "createdAt": "2026-08-29T18:02:36.826Z"
+    },
+    "coverUrl": "books/proj-mtedvpy6eki/releases/rel_20260830065002342_23ad192fd4/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtedvpy6eki/index.html",
+    "publishedAt": "2026-08-30T06:50:02.346Z",
+    "firstPublishedAt": "2026-08-30T06:50:02.346Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtedvw0ohyz",
     "projectId": "proj-mtedvw0ohyz",
     "releaseId": "rel_20260830065219812_566e0f3a1c",
@@ -2481,40 +2515,6 @@
     "url": "books/proj-mtd16n61ss1/index.html",
     "publishedAt": "2026-08-30T07:36:29.803Z",
     "firstPublishedAt": "2026-08-30T07:36:29.803Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtedvpy6eki",
-    "projectId": "proj-mtedvpy6eki",
-    "releaseId": "rel_20260830065002342_23ad192fd4",
-    "title": "Seventy-Two Hours: Chernobyl Before the World Knew",
-    "subtitle": "Chernobyl Before the World Knew",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "世界史",
-    "tags": [
-      "Chernobyl",
-      "Nuclear History",
-      "Soviet Union",
-      "Disaster",
-      "Cold War",
-      "世界史"
-    ],
-    "description": "On April 26, 1986, Reactor Number Four exploded, yet for seventy-two critical hours, the catastrophe remained a state secret. Inside the control room, operators stared at impossible dosimeter readings while firefighters climbed into invisible flames. In Moscow, apparatchiks drafted reassuring bulletins as radiation drifted undetected toward Sweden. This minute-by-minute reconstruction captures the agonizing interval between disaster and admission, tracing the collision of human denial and physical reality. From the failed turbine test to the first terse TASS announcement, the narrative moves through burning roofs, evacuation buses, and emergency commissions to reveal how the defining tragedy of the nuclear age was negotiated in real time. Before the world understood what had happened, a desperate struggle unfolded between those who could not believe the core was gone and those tasked with containing the unthinkable.",
-    "chapterCount": 38,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 78,
-      "method": "median-of-2",
-      "createdAt": "2026-08-29T18:02:36.826Z"
-    },
-    "coverUrl": "books/proj-mtedvpy6eki/releases/rel_20260830065002342_23ad192fd4/cover-1de097e2eb32.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtedvpy6eki/index.html",
-    "publishedAt": "2026-08-30T06:50:02.346Z",
-    "firstPublishedAt": "2026-08-30T06:50:02.346Z",
     "visibility": "public"
   },
   {
