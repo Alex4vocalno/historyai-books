@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtedwdtqov0",
+    "projectId": "proj-mtedwdtqov0",
+    "releaseId": "rel_20260830072902167_d2ab9f02c7",
+    "title": "The Emperor of the United States: The Gloriously True Story of Norton I",
+    "subtitle": "The Gloriously True Story of Norton I",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "San Francisco History",
+      "American Biography",
+      "Joshua Norton",
+      "19th Century California",
+      "Cultural History",
+      "世界史"
+    ],
+    "description": "In 1859, a bankrupt rice merchant declared himself Emperor of the United States. San Francisco did not arrest Joshua Norton; it saluted him. For twenty-one years, police honored his decrees, saloons accepted his handwritten currency, and thirty thousand mourners attended his funeral. This narrative chronicles the improbable reign of America’s most beloved monarch, tracing his arc from financial ruin to sovereign grace. Beyond the eccentricity lies a profound inquiry into legitimacy, madness, and the power of civic kindness. From the Gold Rush to the digital age, Norton’s paper crown endures as a testament to a city that chose compassion over conformity. A meticulously researched history that asks what happens when a community decides to play along, transforming a delusion into an enduring symbol of democratic humanity.",
+    "chapterCount": 34,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 78,
+      "method": "median-of-3",
+      "createdAt": "2026-08-29T18:59:08.929Z"
+    },
+    "coverUrl": "books/proj-mtedwdtqov0/releases/rel_20260830072902167_d2ab9f02c7/cover.png",
+    "coverTextless": false,
+    "url": "books/proj-mtedwdtqov0/index.html",
+    "publishedAt": "2026-08-30T07:29:02.208Z",
+    "firstPublishedAt": "2026-08-30T07:29:02.208Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtedwbdvb0r",
     "projectId": "proj-mtedwbdvb0r",
     "releaseId": "rel_20260830072635353_02f19f7464",
@@ -65,40 +99,6 @@
     "url": "books/proj-mtedwhaebky/index.html",
     "publishedAt": "2026-09-02T12:16:25.748Z",
     "firstPublishedAt": "2026-08-30T07:31:56.986Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtedwdtqov0",
-    "projectId": "proj-mtedwdtqov0",
-    "releaseId": "rel_20260830072902167_d2ab9f02c7",
-    "title": "The Emperor of the United States: The Gloriously True Story of Norton I",
-    "subtitle": "The Gloriously True Story of Norton I",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "San Francisco History",
-      "American Biography",
-      "Joshua Norton",
-      "19th Century California",
-      "Cultural History",
-      "世界史"
-    ],
-    "description": "In 1859, a bankrupt rice merchant declared himself Emperor of the United States. San Francisco did not arrest Joshua Norton; it saluted him. For twenty-one years, police honored his decrees, saloons accepted his handwritten currency, and thirty thousand mourners attended his funeral. This narrative chronicles the improbable reign of America’s most beloved monarch, tracing his arc from financial ruin to sovereign grace. Beyond the eccentricity lies a profound inquiry into legitimacy, madness, and the power of civic kindness. From the Gold Rush to the digital age, Norton’s paper crown endures as a testament to a city that chose compassion over conformity. A meticulously researched history that asks what happens when a community decides to play along, transforming a delusion into an enduring symbol of democratic humanity.",
-    "chapterCount": 34,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 78,
-      "method": "median-of-3",
-      "createdAt": "2026-08-29T18:59:08.929Z"
-    },
-    "coverUrl": "books/proj-mtedwdtqov0/releases/rel_20260830072902167_d2ab9f02c7/cover.png",
-    "coverTextless": false,
-    "url": "books/proj-mtedwdtqov0/index.html",
-    "publishedAt": "2026-08-30T07:29:02.208Z",
-    "firstPublishedAt": "2026-08-30T07:29:02.208Z",
     "visibility": "public"
   },
   {
