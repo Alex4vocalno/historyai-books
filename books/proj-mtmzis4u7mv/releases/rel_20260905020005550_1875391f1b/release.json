@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905020005550_1875391f1b",
+  "projectId": "proj-mtmzis4u7mv",
+  "manuscriptVersionId": "mv_0e17d4887deebe9d",
+  "contentHash": "0e17d4887deebe9d5b592dc79ee2c2384d96ddeff5d79c9e850c9f8dc147c874",
+  "title": "The Server Is a Country",
+  "subtitle": "A Social History of Life Inside the Virtual World",
+  "authorDisplayName": "Liszt Think",
+  "description": "Between 1999 and today, tens of millions of people inhabited persistent digital societies that developed their own economies, laws, and mourning rituals. These were not mere games but sovereign territories where guilds operated as workplaces with performance reviews, virtual plagues generated real epidemiological data, and banking collapses prompted player-written constitutions. Drawing on chat logs, patch notes, and forum archives, this history reconstructs the ordinary evenings of a civilization that existed only while servers remained paid. From the corpse runs of EverQuest to the gold farmers whose labor was essential yet denied citizenship, these pages document a society built from code and sustained by human connection. Here are the funerals held for players who died offline, the scandals that forced new laws, and the historians preserving worlds now gone dark. A definitive record of communities that flourished in the glow of monitors, proving that wherever people gather, they inevitably build a country.",
+  "category": "科技史",
+  "tags": [
+    "Digital History",
+    "MMO Culture",
+    "Virtual Societies",
+    "Internet Ethnography",
+    "Social History",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 36,
+    "units": 84988,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 78,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T16:20:58.821Z"
+  },
+  "editorReview": {
+    "text": "This chronicle excels in its granular, anthropological moments, particularly the early chapters where the material culture of digital life is rendered with startling clarity—from the poignant rituals of corpse runs to the constitutional weight of a DKP spreadsheet. However, the structural promise of a deep dive into a single virtual world is compromised by the later, less justified inclusion of a second game universe, which flattens the narrative and disrupts its focus. While the archival recovery of events like a massive space battle is commendable, the human stories that anchor the early sec",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-05T02:00:01.208Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The First Evening on the Shard",
+      "units": 2518
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Guild as a Second Job (1999-2001)",
+      "units": 2444
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Economy of the Camp (1999-2001)",
+      "units": 2474
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The First Funeral in Norrath (2000-2001)",
+      "units": 2190
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Player Who Became a Profession (2001-2003)",
+      "units": 1994
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Plague That Escaped the Dungeon",
+      "units": 1948
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Banker Who Broke a World (2006-2007)",
+      "units": 2520
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Architects of the Afterlife (2002-2004)",
+      "units": 2681
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The First Laws of the Frontier (2000-2002)",
+      "units": 2403
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Rise of the Virtual State (2003-2005)",
+      "units": 2455
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Sovereign and the Scammer (2006-2007)",
+      "units": 2399
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Funeral as a Political Act (2006-2008)",
+      "units": 2526
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Gold Farmer’s Ledger (2004-2006)",
+      "units": 2437
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Scandal That Forced a Constitution (2007-2008)",
+      "units": 2601
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Player Who Became a Politician (2008-2010)",
+      "units": 2638
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Sovereign of the Server (2009-2011)",
+      "units": 1976
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The End of the Frontier (2011-2013)",
+      "units": 2184
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Great War and the First Census (2013-2014)",
+      "units": 2371
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Player Who Became a Historian (2014-2016)",
+      "units": 2569
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Funeral for a World (2016-2018)",
+      "units": 2199
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Labor of the Ghost (2018-2020)",
+      "units": 2255
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Last True Frontier (2014-2016)",
+      "units": 2210
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The End of the Evening (2016-2020)",
+      "units": 2420
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Archive of a Vanished Society (2020-2023)",
+      "units": 2117
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Historian in the Ruins (2023-Present)",
+      "units": 2485
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Judgment of the Server (2024-Present)",
+      "units": 2207
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Unpaid Administrator (2018-2022)",
+      "units": 2571
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Last Citizen of a Dying World (2020-2023)",
+      "units": 2110
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "The Ghost in the Machine (2023-Present)",
+      "units": 2420
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "The Final Log Entry (2024-Present)",
+      "units": 2307
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "This Concluding Chapter Advances",
+      "units": 2689
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "This Concluding Chapter Advances（32）",
+      "units": 2086
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "The Archive of a Vanished Society (2024-Present)",
+      "units": 2064
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "The Judgment of the Logs (2024-Present)",
+      "units": 2721
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "The Society That Outlived the Server (2024-Present)",
+      "units": 2401
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "The Society That Outlived the Server",
+      "units": 2398
+    }
+  ],
+  "publishedAt": "2026-09-05T02:00:05.611Z"
+}
