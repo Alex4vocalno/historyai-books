@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905015519067_9a8912c039",
   "projectId": "proj-mtmzikk1kf1",
-  "manuscriptVersionId": "mv_b00d9b8d7eb53f41",
-  "contentHash": "b00d9b8d7eb53f4184348b831ce8f7e44014aa6c9f70a243de12a75e26e918d5",
+  "manuscriptVersionId": "mv_2dbb1a4e510b85fb",
+  "contentHash": "2dbb1a4e510b85fb5c791f142baa88d665526ff70e6ccdaa113ac3b5aaec30ce",
   "title": "Rated M",
   "subtitle": "How Video Games Learned to Police Themselves Across Four Nations",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:17:20.197Z"
   },
   "editorReview": {
-    "text": "This institutional history excels in its documentary texture, particularly in framing figures like Douglas Lowenstein as complex actors navigating between Washington and the gaming industry. The comparative analysis of global regulatory frameworks in the final chapters is a standout, offering genuine insight without resorting to cliché. However, the book's momentum falters in its middle section, where a repetitive focus on systemic mechanics ('The Unseen Hand' sequence) crowds out the human drama promised by its strong opening. While the arc from the 1993 Senate hearings to modern corporate co",
+    "text": "This institutional history excels at capturing the texture of its subject. The opening brilliantly frames the 1993 Senate hearings through the political motives of figures like Lieberman, while the closing chapters achieve a powerful synthesis, crystallizing a thirty-year transformation by comparing early industry documents with modern corporate policy. The book's core insight—that self-regulation was a web of preemptive private negotiation—is convincingly illustrated through specific cases, such as the design notes for *Doom 3*. However, the narrative drive falters in the middle section, wher",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -212,49 +212,49 @@
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Unseen Censor",
+      "title": "From Box to Data Point",
       "units": 2760
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Architect’s Final Blueprint",
+      "title": "Filtered Reality",
       "units": 2345
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Shield as a Service",
+      "title": "From Retail Aisle to Database Field",
       "units": 2942
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Unwritten Rulebook",
+      "title": "Blood, Gore, and Budget Hours",
       "units": 2221
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Last Barrier",
+      "title": "Verification, Not Evaluation",
       "units": 2533
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Final Verdict",
+      "title": "Senators and Cartridges",
       "units": 2517
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Global Launch Compliance Matrix",
+      "title": "From Night Trap to Compliance Matrix",
       "units": 2679
     },
     {
       "idx": 34,
       "sourceIdx": 34,
-      "title": "The End of the Beginning",
+      "title": "Loot Boxes and Global Compliance Toggles",
       "units": 2334
     },
     {
@@ -265,6 +265,6 @@
     }
   ],
   "publishedAt": "2026-09-05T01:55:19.127Z",
-  "rerenderedAt": "2026-09-05T10:13:12.674Z",
+  "rerenderedAt": "2026-09-05T10:26:27.727Z",
   "formFamily": "narrative"
 }
