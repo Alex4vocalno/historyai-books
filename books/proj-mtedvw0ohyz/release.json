@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065219812_566e0f3a1c",
   "projectId": "proj-mtedvw0ohyz",
-  "manuscriptVersionId": "mv_5a9656d6f1421984",
-  "contentHash": "5a9656d6f14219842bcb8c0dee7450198b6314cd467833b15c337903d69337d6",
+  "manuscriptVersionId": "mv_80040dde3b9f6d66",
+  "contentHash": "80040dde3b9f6d661aaa352a5b5d760e462291225fb48a86d8a5f9d94c21eb51",
   "title": "The Marathon of 1908: The Race That Invented Modern Sport",
   "subtitle": "The Race That Invented Modern Sport",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T20:53:43.421Z"
   },
   "editorReview": {
-    "text": "The book shines in its archival depth, particularly in the Sanremo chapters, where the texture of municipal ledgers and domestic details creates a vivid microhistorical portrait. Its closing argument about how Pietri's collapse forged the template for modern sporting spectacle is powerful and well-earned. However, the narrative structure feels overextended for a single incident; the middle chapters drift into a more generic survey of institutional history, and the repetitive chapter titling formula becomes noticeable. While the core argument is compelling, the journey to reach it is at times c",
+    "text": "This microhistory shines in its archival texture and final argument, where Pietri's collapse is powerfully framed as the template for modern sporting tragedy. The prose achieves elegance, particularly in the Sanremo chapters, which use municipal ledgers and artisan details to build genuine intimacy. However, the narrative's structural ambition falters; its 34 chapters tracking a single incident's aftermath create diminishing returns, with mid-book sections drifting into repetitive institutional surveys and losing Pietri's compelling voice. The book's core insight is profound, but its form feel",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -65,13 +65,13 @@
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Long Road from Windsor (July 24, 1908)",
+      "title": "The Long Road from Windsor",
       "units": 2499
     },
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Disqualification and the Dispatch (July 24, 1908)",
+      "title": "The Disqualification and the Dispatch",
       "units": 2507
     },
     {
@@ -83,19 +83,19 @@
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Queen’s Cup and the Public’s Heart (July–August 1908)",
+      "title": "The Queen’s Cup and the Public’s Heart",
       "units": 2285
     },
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Professional Turn (August–September 1908)",
+      "title": "The Professional Turn",
       "units": 1783
     },
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The American Challenge (September–November 1908)",
+      "title": "The American Challenge",
       "units": 1782
     },
     {
@@ -256,6 +256,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:52:19.820Z",
-  "rerenderedAt": "2026-09-05T09:33:51.477Z",
+  "rerenderedAt": "2026-09-05T09:42:20.933Z",
   "formFamily": "narrative"
 }
