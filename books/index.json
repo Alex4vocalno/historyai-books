@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtmzidfdk73",
+    "projectId": "proj-mtmzidfdk73",
+    "releaseId": "rel_20260905015022902_606bdeed76",
+    "title": "The Pocket Wars",
+    "subtitle": "Engineering Trade-offs and the Evolution of Handheld Gaming",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "游戏史",
+    "tags": [
+      "handheld gaming history",
+      "hardware engineering",
+      "Nintendo",
+      "industrial design",
+      "video game technology",
+      "战争史"
+    ],
+    "description": "Every handheld console is a compromise etched in plastic and silicon. To fit a world into your pocket, engineers must sacrifice something: battery life for color, processing power for portability, or open standards for proprietary control. This history traces that relentless negotiation from the Game Boy’s monochrome endurance to the Steam Deck’s PC-grade ambition. Through the lenses of Gunpei Yokoi, Ken Kutaragi, Satoru Iwata, and Valve’s hardware team, each device emerges as an artifact of specific manufacturing constraints and patent skirmishes. The WonderSwan’s ergonomic grip, the PSP’s UMD format war, and the Vita’s memory card missteps reveal how materials and price points dictate survival more than raw specs. Beyond nostalgia lies a continuous engineering argument about what players will tolerate for mobility. This is the story of how technical limitations shaped play, defining a medium where every design choice carries the weight of what was left behind to make the machine fit in a palm.",
+    "chapterCount": 36,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 78,
+      "method": "median-of-3",
+      "createdAt": "2026-09-04T16:31:22.614Z"
+    },
+    "coverUrl": "books/proj-mtmzidfdk73/releases/rel_20260905015022902_606bdeed76/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtmzidfdk73/index.html",
+    "publishedAt": "2026-09-05T01:50:22.906Z",
+    "firstPublishedAt": "2026-09-05T01:50:22.906Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtmzikk1kf1",
     "projectId": "proj-mtmzikk1kf1",
     "releaseId": "rel_20260905015519067_9a8912c039",
@@ -609,40 +643,6 @@
     "url": "books/proj-mtjekm8w47u/index.html",
     "publishedAt": "2026-09-02T05:18:16.569Z",
     "firstPublishedAt": "2026-09-02T05:18:16.569Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtmzidfdk73",
-    "projectId": "proj-mtmzidfdk73",
-    "releaseId": "rel_20260905015022902_606bdeed76",
-    "title": "The Pocket Wars",
-    "subtitle": "Engineering Trade-offs and the Evolution of Handheld Gaming",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "Liszt Think",
-    "category": "游戏史",
-    "tags": [
-      "handheld gaming history",
-      "hardware engineering",
-      "Nintendo",
-      "industrial design",
-      "video game technology",
-      "战争史"
-    ],
-    "description": "Every handheld console is a compromise etched in plastic and silicon. To fit a world into your pocket, engineers must sacrifice something: battery life for color, processing power for portability, or open standards for proprietary control. This history traces that relentless negotiation from the Game Boy’s monochrome endurance to the Steam Deck’s PC-grade ambition. Through the lenses of Gunpei Yokoi, Ken Kutaragi, Satoru Iwata, and Valve’s hardware team, each device emerges as an artifact of specific manufacturing constraints and patent skirmishes. The WonderSwan’s ergonomic grip, the PSP’s UMD format war, and the Vita’s memory card missteps reveal how materials and price points dictate survival more than raw specs. Beyond nostalgia lies a continuous engineering argument about what players will tolerate for mobility. This is the story of how technical limitations shaped play, defining a medium where every design choice carries the weight of what was left behind to make the machine fit in a palm.",
-    "chapterCount": 36,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 78,
-      "method": "median-of-3",
-      "createdAt": "2026-09-04T16:31:22.614Z"
-    },
-    "coverUrl": "books/proj-mtmzidfdk73/releases/rel_20260905015022902_606bdeed76/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtmzidfdk73/index.html",
-    "publishedAt": "2026-09-05T01:50:22.906Z",
-    "firstPublishedAt": "2026-09-05T01:50:22.906Z",
     "visibility": "public"
   },
   {
