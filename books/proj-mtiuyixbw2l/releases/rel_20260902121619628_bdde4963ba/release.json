@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902121619628_bdde4963ba",
   "projectId": "proj-mtiuyixbw2l",
-  "manuscriptVersionId": "mv_9813cba548da9a36",
-  "contentHash": "9813cba548da9a36140b7219ce3ff2e610a8d413623765bc64f467ce58f45829",
+  "manuscriptVersionId": "mv_f361a6e2eff1ac9c",
+  "contentHash": "f361a6e2eff1ac9c0b0fced7e70cd0eeae8d214da4ae5bdfa137780b557a5f70",
   "title": "The Rubber Century: How a Tree Sap Wired the Modern World",
   "subtitle": "How a Tree Sap Wired the Modern World",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "A milky sap from Amazonian trees became the material precondition for tires, wires, and war. Rubber was the first truly global commodity whose supply chain was engineered by design: seeds smuggled across oceans, plantations carved from jungle, and colonies reorganized to feed an insatiable industrial engine. Every leap in modern mobility carried a hidden cost paid in coercion and extraction. From Charles Goodyear’s heated coil to the synthetic laboratories of wartime Akron, this history traces the substance through specific objects and trade routes rather than broad surveys. It reveals how the bicycle tire coincided with famine, how estate payrolls masked colonial profit spirals, and how synthetic substitutes emerged from monopolist panic. Spanning the Congo, Malaya, and the American interstate system, the narrative anchors abstract economic forces in concrete realities of wages, tonnage, and human labor. This is the story of how a single botanical exudate was transformed into the unyielding infrastructure of contemporary life.",
   "category": "世界史",
   "tags": [
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-02T05:21:47.332Z"
   },
   "editorReview": {
-    "text": "This global history of rubber succeeds where it stays closest to the material object and its specific, systemic costs. Chapter 17 is exemplary, weaving together disparate scenes from a Texas highway to a Malayan plantation through the precise mechanism of a price threshold, grounding vast networks in concrete wages and logistics. The book’s core strength is this montage technique, finding genuine insight in juxtapositions like a high-yield clone and a Tokyo contract. However, the final chapters falter, abandoning the form’s promised rigor for abstract editorializing. A grounded, powerful analy",
+    "text": "This is a global history of rubber that understands its form. The book excels in its middle chapters, where the material is allowed to lead: the precise, devastating montage of a Texas highway photograph against a Malayan estate survey in Chapter 17 is a masterclass in systemic argument made tangible. The author is at their best when grounding vast systems in specific costs and objects, like the frayed latex-tapping glove. However, the final chapters lose this disciplined, object-led rigor, slipping into a more abstract, textbook-like register that feels disconnected from the powerful material",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -56,127 +56,127 @@
     {
       "idx": 1,
       "sourceIdx": 1,
-      "title": "The Heated Coil and the Made Substance (1839-1855)",
+      "title": "The Heated Coil and the Made Substance",
       "units": 2612
     },
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Smugglers, The Seedlings, And The Single Shipment (1856-1876)",
+      "title": "The Smugglers, The Seedlings, And The Single Shipment",
       "units": 2624
     },
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Rack and The Kindertransport Bicycle (1877-1885)",
+      "title": "The Rack and The Kindertransport Bicycle",
       "units": 2781
     },
     {
       "idx": 4,
       "sourceIdx": 4,
-      "title": "The Bicycle Tire and the Great Hunger (1885-1894)",
+      "title": "The Bicycle Tire and the Great Hunger",
       "units": 2784
     },
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Royal Charter and the First Milled Estate (1895-1905)",
+      "title": "The Royal Charter and the First Milled Estate",
       "units": 2460
     },
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Lament of the Lost Province (1905-1911)",
+      "title": "The Lament of the Lost Province",
       "units": 1663
     },
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The Estate Journal and the Payroll Tax (1911-1914)",
+      "title": "The Estate Journal and the Payroll Tax",
       "units": 1527
     },
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Tire Factory and the Colonial Profit Spiral (1914-1918)",
+      "title": "The Tire Factory and the Colonial Profit Spiral",
       "units": 2289
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The Unpaid Wages and the Triumphant Shipment (1919-1922)",
+      "title": "The Unpaid Wages and the Triumphant Shipment",
       "units": 2459
     },
     {
       "idx": 10,
       "sourceIdx": 10,
-      "title": "The Monopoly Protocol and the Manufactured Scarcity (1923-1928)",
+      "title": "The Monopoly Protocol and the Manufactured Scarcity",
       "units": 2542
     },
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The Synthetic Announcement and the Monopolist’s Panic (1929-1934)",
+      "title": "The Synthetic Announcement and the Monopolist’s Panic",
       "units": 2643
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Concrete Highway and the Second War Engine (1935-1939)",
+      "title": "The Concrete Highway and the Second War Engine",
       "units": 2125
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Saltwater Plantations and the Blockade Clock (1939-1941)",
+      "title": "The Saltwater Plantations and the Blockade Clock",
       "units": 2617
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Peacetime Tire and the Primacy of Akron (1942-1945)",
+      "title": "The Peacetime Tire and the Primacy of Akron",
       "units": 2284
     },
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The Silent Letter and the Synthetic Surge (1946-1955)",
+      "title": "The Silent Letter and the Synthetic Surge",
       "units": 2430
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Blistered Highway and the Ghost Estate (1956-1965)",
+      "title": "The Blistered Highway and the Ghost Estate",
       "units": 2659
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Last Plantation and the First Petrochemical Pact (1965-1975)",
+      "title": "The Last Plantation and the First Petrochemical Pact",
       "units": 2421
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Interstate and the Accelerated Dream (1956-1965)",
+      "title": "The Interstate and the Accelerated Dream",
       "units": 3075
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Conveyor Belt and the Death of Distance (1956-1970)",
+      "title": "The Conveyor Belt and the Death of Distance",
       "units": 2420
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Burden of Perfection (1976-1991)",
+      "title": "The Burden of Perfection",
       "units": 1756
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Abandoned Test Track and the New World Standard (1992-2001)",
+      "title": "The Abandoned Test Track and the New World Standard",
       "units": 2547
     },
     {
@@ -188,69 +188,70 @@
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Condom and the Price of Certainty (1992-2005)",
+      "title": "The Condom and the Price of Certainty",
       "units": 2070
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Lesson of Scarcity and the Primacy of Security (1940-1945)",
+      "title": "The Lesson of Scarcity and the Primacy of Security",
       "units": 2731
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Perfect Substitute and the Shattered Mirror (1942-1946)",
+      "title": "The Perfect Substitute and the Shattered Mirror",
       "units": 2499
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The One Trillion-Mile Pact (1948-1955)",
+      "title": "The One Trillion-Mile Pact",
       "units": 2253
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Last Fleet and the First Harvest (1956-1965)",
+      "title": "The Last Fleet and the First Harvest",
       "units": 2611
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Plastic Monsoon and the Forgotten Tree (1965-1975)",
+      "title": "The Plastic Monsoon and the Forgotten Tree",
       "units": 2552
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Unbroken Circle of the Global Engineered Chain (1975-present)",
+      "title": "The Unbroken Circle of the Global Engineered Chain",
       "units": 2585
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Asphalt Harvest and the Living Archive (1980-Present)",
+      "title": "The Asphalt Harvest and the Living Archive",
       "units": 2708
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Sap, The Algorithm, And The Engineer’s Signature (1990-Present)",
+      "title": "The Sap, The Algorithm, And The Engineer’s Signature",
       "units": 2670
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Laid Waste and the Whistling Replanted (1980-2020)",
+      "title": "The Laid Waste and the Whistling Replanted",
       "units": 2631
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Final Measured Kilometer (1960-Present)",
+      "title": "The Final Measured Kilometer",
       "units": 2662
     }
   ],
-  "publishedAt": "2026-09-02T12:16:19.631Z"
+  "publishedAt": "2026-09-02T12:16:19.631Z",
+  "rerenderedAt": "2026-09-05T09:01:40.657Z"
 }
