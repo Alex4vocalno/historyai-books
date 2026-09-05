@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtedwbdvb0r",
+    "projectId": "proj-mtedwbdvb0r",
+    "releaseId": "rel_20260830072635353_02f19f7464",
+    "title": "The Alphabet of Life: How Four Letters Write Every Living Thing",
+    "subtitle": "How Four Letters Write Every Living Thing",
+    "language": "en",
+    "workType": "nonfiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "DNA",
+      "Genetics",
+      "History of Science",
+      "CRISPR",
+      "Biology",
+      "世界史"
+    ],
+    "description": "All life on Earth is written in a four-letter alphabet, yet for most of history, this script remained invisible. From the mold that transformed mice to Rosalind Franklin’s Photo 51 and the high-stakes race to map the human genome, this book narrates the greatest decoding story ever told. Complex biology becomes tangible through vivid scenes: the double helix unzipping like a zipper, genes acting as recipes rather than blueprints, and CRISPR functioning as molecular find-and-replace. Jargon gives way to narrative as experiments unfold in real time, revealing how typos drive evolution and how vast genomic libraries still hold unread shelves. Accessible to readers with no scientific background, this account traces the arc from early heredity mysteries to modern gene editing and epigenetic inheritance. It is a journey through the grammar of existence itself, exploring not only what we have deciphered but the profound questions that remain in the unwritten chapters of our biological code.",
+    "chapterCount": 35,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 76,
+      "method": "median-of-3",
+      "createdAt": "2026-08-29T20:29:22.329Z"
+    },
+    "coverUrl": "books/proj-mtedwbdvb0r/releases/rel_20260830072635353_02f19f7464/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtedwbdvb0r/index.html",
+    "publishedAt": "2026-08-30T07:26:36.090Z",
+    "firstPublishedAt": "2026-08-30T07:26:36.090Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtedwdtqov0",
     "projectId": "proj-mtedwdtqov0",
     "releaseId": "rel_20260830072902167_d2ab9f02c7",
@@ -2311,40 +2345,6 @@
     "url": "books/proj-mtedw6dsufz/index.html",
     "publishedAt": "2026-08-30T07:35:51.534Z",
     "firstPublishedAt": "2026-08-30T07:35:51.534Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtedwbdvb0r",
-    "projectId": "proj-mtedwbdvb0r",
-    "releaseId": "rel_20260830072635353_02f19f7464",
-    "title": "The Alphabet of Life: How Four Letters Write Every Living Thing",
-    "subtitle": "How Four Letters Write Every Living Thing",
-    "language": "en",
-    "workType": "nonfiction",
-    "authorDisplayName": "李思特Think",
-    "category": "世界史",
-    "tags": [
-      "DNA",
-      "Genetics",
-      "History of Science",
-      "CRISPR",
-      "Biology",
-      "世界史"
-    ],
-    "description": "All life on Earth is written in a four-letter alphabet, yet for most of history, this script remained invisible. From the mold that transformed mice to Rosalind Franklin’s Photo 51 and the high-stakes race to map the human genome, this book narrates the greatest decoding story ever told. Complex biology becomes tangible through vivid scenes: the double helix unzipping like a zipper, genes acting as recipes rather than blueprints, and CRISPR functioning as molecular find-and-replace. Jargon gives way to narrative as experiments unfold in real time, revealing how typos drive evolution and how vast genomic libraries still hold unread shelves. Accessible to readers with no scientific background, this account traces the arc from early heredity mysteries to modern gene editing and epigenetic inheritance. It is a journey through the grammar of existence itself, exploring not only what we have deciphered but the profound questions that remain in the unwritten chapters of our biological code.",
-    "chapterCount": 35,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 76,
-      "method": "median-of-3",
-      "createdAt": "2026-08-29T20:29:22.329Z"
-    },
-    "coverUrl": "books/proj-mtedwbdvb0r/releases/rel_20260830072635353_02f19f7464/cover-97a99ed26d32.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtedwbdvb0r/index.html",
-    "publishedAt": "2026-08-30T07:26:36.090Z",
-    "firstPublishedAt": "2026-08-30T07:26:36.090Z",
     "visibility": "public"
   },
   {

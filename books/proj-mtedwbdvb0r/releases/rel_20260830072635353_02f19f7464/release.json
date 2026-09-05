@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072635353_02f19f7464",
   "projectId": "proj-mtedwbdvb0r",
-  "manuscriptVersionId": "mv_de63eec25a14d378",
-  "contentHash": "de63eec25a14d37864c357d834699f0583add596d4e06bc916b53c68a8917832",
+  "manuscriptVersionId": "mv_ddf3a857aeb70f5a",
+  "contentHash": "ddf3a857aeb70f5aee271e64971f5d94315be246a613e995922e7c86042f6a56",
   "title": "The Alphabet of Life: How Four Letters Write Every Living Thing",
   "subtitle": "How Four Letters Write Every Living Thing",
-  "authorDisplayName": "李思特Think",
+  "authorDisplayName": "Liszt Think",
   "description": "All life on Earth is written in a four-letter alphabet, yet for most of history, this script remained invisible. From the mold that transformed mice to Rosalind Franklin’s Photo 51 and the high-stakes race to map the human genome, this book narrates the greatest decoding story ever told. Complex biology becomes tangible through vivid scenes: the double helix unzipping like a zipper, genes acting as recipes rather than blueprints, and CRISPR functioning as molecular find-and-replace. Jargon gives way to narrative as experiments unfold in real time, revealing how typos drive evolution and how vast genomic libraries still hold unread shelves. Accessible to readers with no scientific background, this account traces the arc from early heredity mysteries to modern gene editing and epigenetic inheritance. It is a journey through the grammar of existence itself, exploring not only what we have deciphered but the profound questions that remain in the unwritten chapters of our biological code.",
   "category": "世界史",
   "tags": [
@@ -33,18 +33,18 @@
     "createdAt": "2026-08-29T20:29:22.329Z"
   },
   "editorReview": {
-    "text": "This book excels when it anchors the profound in the tactile, as in Chapter 2's vivid description of the glass rod lifting from the cold bath, immersing the reader directly in the scientific process. Its strongest conceptual reframes, like viewing DNA as a battlefield, are genuinely illuminating. However, the narrative momentum falters in the middle sections, where a repeating motif like the 'Unfinished Symphony' fails to develop, and the chronological thread frays during critical transitions. The result is a capable and often insightful history, but one whose structural seams are occasionally",
+    "text": "This book shines in its ability to translate complex science into vivid, intuitive understanding, particularly in its early and concluding chapters. The sustained use of craft metaphors—like families of scribes or the tactile description of lifting a glass rod from a cold bath—creates genuine immersion. Its most valuable insight reframes DNA not as a static code but as a grammar, a framework of rules that resists simplistic triumphalism. However, the narrative engine occasionally falters; a recurring 'Unfinished Symphony' motif loses its thematic power through repetition without development, a",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-97a99ed26d32.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-04T06:47:59.795Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "warm-humanist"
   },
   "chapters": [
     {
@@ -62,49 +62,49 @@
     {
       "idx": 2,
       "sourceIdx": 2,
-      "title": "The Photograph That Revealed a Shape (1952-1953)",
+      "title": "The Photograph That Revealed a Shape",
       "units": 2516
     },
     {
       "idx": 3,
       "sourceIdx": 3,
-      "title": "The Zipper That Copies Itself (1953-1958)",
+      "title": "The Zipper That Copies Itself",
       "units": 2477
     },
     {
       "idx": 4,
       "sourceIdx": 4,
-      "title": "The Recipe Book of the Cell (1958-1961)",
+      "title": "The Recipe Book of the Cell",
       "units": 2263
     },
     {
       "idx": 5,
       "sourceIdx": 5,
-      "title": "The Cracking of Life’s Code (1961-1966)",
+      "title": "The Cracking of Life’s Code",
       "units": 2347
     },
     {
       "idx": 6,
       "sourceIdx": 6,
-      "title": "The Typographical Errors of Inheritance (1966-1977)",
+      "title": "The Typographical Errors of Inheritance",
       "units": 2599
     },
     {
       "idx": 7,
       "sourceIdx": 7,
-      "title": "The Library of a Species (1977-2001)",
+      "title": "The Library of a Species",
       "units": 2480
     },
     {
       "idx": 8,
       "sourceIdx": 8,
-      "title": "The Unseen Hand of the Genome (2001-2023)",
+      "title": "The Unseen Hand of the Genome",
       "units": 2370
     },
     {
       "idx": 9,
       "sourceIdx": 9,
-      "title": "The Molecular Scissors of a Bacterial Immune System (1987-2005)",
+      "title": "The Molecular Scissors of a Bacterial Immune System",
       "units": 2494
     },
     {
@@ -116,67 +116,67 @@
     {
       "idx": 11,
       "sourceIdx": 11,
-      "title": "The First Patient (2012-2017)",
+      "title": "The First Patient",
       "units": 2524
     },
     {
       "idx": 12,
       "sourceIdx": 12,
-      "title": "The Unintended Consequences of a Perfect Edit (2017-2023)",
+      "title": "The Unintended Consequences of a Perfect Edit",
       "units": 2485
     },
     {
       "idx": 13,
       "sourceIdx": 13,
-      "title": "The Inherited Memory of a Lifetime (2000-Present)",
+      "title": "The Inherited Memory of a Lifetime",
       "units": 2444
     },
     {
       "idx": 14,
       "sourceIdx": 14,
-      "title": "The Engine of Our Own Evolution (2005-Present)",
+      "title": "The Engine of Our Own Evolution",
       "units": 2295
     },
     {
       "idx": 15,
       "sourceIdx": 15,
-      "title": "The Unwritten Future of a Written Code (2024–Present)",
+      "title": "The Unwritten Future of a Written Code",
       "units": 2594
     },
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Immortal Thread in a Mortal Body (1951–Present)",
+      "title": "The Immortal Thread in a Mortal Body",
       "units": 2388
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Unfinished Symphony of the Human Genome (2003–Present)",
+      "title": "The Unfinished Symphony of the Human Genome",
       "units": 2405
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Unseen Architects of a Visible World (1984–Present)",
+      "title": "The Unseen Architects of a Visible World",
       "units": 2450
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Engine of Evolution in a Test Tube (1970–2024)",
+      "title": "The Engine of Evolution in a Test Tube",
       "units": 2500
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Private Code of a Public Scientist (1953–1975)",
+      "title": "The Private Code of a Public Scientist",
       "units": 1889
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Ghost in the Machine of Inheritance (1975–2000)",
+      "title": "The Ghost in the Machine of Inheritance",
       "units": 2224
     },
     {
@@ -188,76 +188,76 @@
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Second Code:Life Beyond the Sequence (2000–Present)",
+      "title": "The Second Code:Life Beyond the Sequence",
       "units": 2503
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Unintended Consequences of a Perfect Tool (2012–Present)",
+      "title": "The Unintended Consequences of a Perfect Tool",
       "units": 2398
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Unseen Architects of Our Own Evolution (2015–Present)",
+      "title": "The Unseen Architects of Our Own Evolution",
       "units": 2453
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Uncharted Territory of a Rewritten Future (2018–Present)",
+      "title": "The Uncharted Territory of a Rewritten Future",
       "units": 2460
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Unfinished Symphony of the Genome (2020–Present)",
+      "title": "The Unfinished Symphony of the Genome",
       "units": 2866
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Living Library and Its Endless Annotations (2023–Present)",
+      "title": "The Living Library and Its Endless Annotations",
       "units": 2526
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Final Word of the Four-Letter Code (2024–Present)",
+      "title": "The Final Word of the Four-Letter Code",
       "units": 2456
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Unwritten Chapters of Life (2025–Present)",
+      "title": "The Unwritten Chapters of Life",
       "units": 2581
     },
     {
       "idx": 31,
       "sourceIdx": 31,
-      "title": "The Last Word of the First Decoders (2025–Present)",
+      "title": "The Last Word of the First Decoders",
       "units": 2411
     },
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "The Alphabet’s Unfinished Story (2025–Present)",
+      "title": "The Alphabet’s Unfinished Story",
       "units": 2355
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Enduring Grammar of Life (2025–Present)",
+      "title": "The Enduring Grammar of Life",
       "units": 2503
     },
     {
       "idx": 34,
       "sourceIdx": 34,
-      "title": "The Grammar of a Living Library (2025–Present)",
+      "title": "The Grammar of a Living Library",
       "units": 2601
     }
   ],
   "publishedAt": "2026-08-30T07:26:36.090Z",
-  "rerenderedAt": "2026-09-04T06:47:59.802Z"
+  "rerenderedAt": "2026-09-05T09:02:06.133Z"
 }
