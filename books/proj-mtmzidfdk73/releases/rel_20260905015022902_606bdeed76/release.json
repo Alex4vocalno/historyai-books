@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905015022902_606bdeed76",
   "projectId": "proj-mtmzidfdk73",
-  "manuscriptVersionId": "mv_ddbd210dbd80d77d",
-  "contentHash": "ddbd210dbd80d77d243f2a899bf9b939a55b0d50cb264215f3068fa37cbac2a6",
+  "manuscriptVersionId": "mv_9f5c2b53b3a04257",
+  "contentHash": "9f5c2b53b3a0425775dfca969bd2ccf6bb1f78043a775b99f482ed30e761a7ec",
   "title": "The Pocket Wars",
   "subtitle": "Engineering Trade-offs and the Evolution of Handheld Gaming",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:31:22.614Z"
   },
   "editorReview": {
-    "text": "This is a history that understands its subject deeply: the handheld console as a site of material negotiation. The central 'Portability Trilemma' argument is compelling precisely because it is built from the ground up—on battery chemistry, thermal limits, and manufacturing costs. Chapter 18’s analysis of the Nintendo Switch is a masterclass in showing how a device embodies a dynamic 'software-defined sacrifice.' However, the book's structural promise falters in its biographical core. The fascinating origin story of engineer Gunpei Yokoi, established in Chapter 1, is left unresolved; his later",
+    "text": "The book excels in grounding its 'Portability Trilemma' argument in tangible details, from battery chemistry to the precise heft of a Steam Deck versus a Switch. This material focus gives its history of handheld consoles a compelling, engineering-driven spine. However, the promise of a biographical core centered on Gunpei Yokoi—so vividly established in the opening chapter—dissipates as the narrative progresses. His later contradictions and failures are left largely unexamined, which creates a noticeable structural imbalance. While the concluding synthesis offers a thoughtful perspective on 's",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -224,7 +224,7 @@
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The Argument That Never Ends",
+      "title": "A Mosaic of Competing Truths",
       "units": 2519
     },
     {
@@ -248,7 +248,7 @@
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Permanent Exhibition of Compromise",
+      "title": "A Permanent Exhibition of Compromise",
       "units": 2456
     },
     {
@@ -265,5 +265,5 @@
     }
   ],
   "publishedAt": "2026-09-05T01:50:22.906Z",
-  "rerenderedAt": "2026-09-05T09:24:17.677Z"
+  "rerenderedAt": "2026-09-05T09:32:00.820Z"
 }
