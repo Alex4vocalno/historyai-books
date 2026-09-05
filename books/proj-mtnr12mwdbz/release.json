@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260905073131773_3b19f9acb6",
+  "projectId": "proj-mtnr12mwdbz",
+  "manuscriptVersionId": "mv_7f6279789c6cec85",
+  "contentHash": "7f6279789c6cec850aae25919bf6c84f28f52262f08e5536efea235943003a78",
+  "title": "方块世界",
+  "subtitle": "一部数字童年的全球联系史",
+  "authorDisplayName": "李思特Think",
+  "description": "2009年，斯德哥尔摩一间公寓里诞生的业余代码，意外构筑了数亿儿童的第一个社会空间。从红石电路意外成为编程启蒙，到服务器里自发诞生的儿童宪法；从微软二十五亿美元的收购算盘，到土耳其与沙特教室里的封禁与解禁。这不仅是史上销量最高游戏的商业传记，更是一代人在像素世界中学习规则、争夺主权、建立秩序的文明实验。当虚拟场所成为真实的童年记忆，谁在为这个数字共和国立法？本书穿越四大洲的机房与课堂，记录方块原住民在资本、技术与地缘政治夹缝中，如何定义属于自己的数字公民身份。",
+  "category": "游戏史",
+  "tags": [
+    "游戏史",
+    "数字社会",
+    "儿童文化",
+    "平台经济",
+    "技术人类学",
+    "世界史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 23,
+    "units": 207687,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-05T04:56:37.528Z"
+  },
+  "editorReview": {
+    "text": "《方块世界》以《我的世界》为棱镜，折射出数字童年场所的立法权争夺，其跨洋并置的章节结构与扎实的中层机制论证，确实履行了“全球联系史”的体裁承诺。例如，第11章用Hypixel服务器的“羊驼纠纷案”类比十九世纪治外法权，将抽象论断落地于具体技术治理，史料与论点衔接紧密。第22章对“告别”的三地切片分析尤为锐利，揭示了数字记忆背后的阶级分层，超越了浪漫化叙事。然而，全书在叙事推进上存在明显瑕疵：多处章节接缝断裂，如第8章结尾的悬念在第9章被生硬切断；时间轴在未加标记的情况下回退，破坏了同年对照的节奏感。结尾章节滑向四段式教科书总结，也削弱了前文建立的场景驱动声口。这些结构上的机械拼接，是本书从优秀迈向卓越的主要障碍。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-05T07:31:15.380Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "斯德哥尔摩与雷德蒙德",
+      "units": 8397
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "安卡拉与利雅得的裁决",
+      "units": 8998
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "编程课与STEM实验室",
+      "units": 8501
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "大西洋两岸的儿童宪法",
+      "units": 8197
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "洛杉矶与上海：两种创作者经济",
+      "units": 7485
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "三个世界的种子",
+      "units": 8358
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "圣保罗的方块贫民窟",
+      "units": 13202
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "东京秋叶原与同人秩序的诞生",
+      "units": 8545
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "孟买的廉价手机与草根经济",
+      "units": 11067
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "柏林墙下的服务器战争",
+      "units": 9027
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "跨洋电缆上的大融合",
+      "units": 8116
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "模组共和国与代码边疆",
+      "units": 11833
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "模组共和国的宪法危机",
+      "units": 8356
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "北极圈里的服务器主权",
+      "units": 8352
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "红石禁地与数字铁幕",
+      "units": 7988
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "微软的帝国与行省",
+      "units": 8582
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "创作者经济的断裂带",
+      "units": 10026
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "童年场所的立法者",
+      "units": 9679
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "封锁中的童年",
+      "units": 7987
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "方块原住民",
+      "units": 8434
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "像素里的文明",
+      "units": 9064
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "第一代人的告别",
+      "units": 9101
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "未完成的立法",
+      "units": 8392
+    }
+  ],
+  "publishedAt": "2026-09-05T07:31:31.777Z",
+  "formFamily": "narrative"
+}

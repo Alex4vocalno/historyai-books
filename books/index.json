@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtnr12mwdbz",
+    "projectId": "proj-mtnr12mwdbz",
+    "releaseId": "rel_20260905073131773_3b19f9acb6",
+    "title": "方块世界",
+    "subtitle": "一部数字童年的全球联系史",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李思特Think",
+    "category": "游戏史",
+    "tags": [
+      "游戏史",
+      "数字社会",
+      "儿童文化",
+      "平台经济",
+      "技术人类学",
+      "世界史"
+    ],
+    "description": "2009年，斯德哥尔摩一间公寓里诞生的业余代码，意外构筑了数亿儿童的第一个社会空间。从红石电路意外成为编程启蒙，到服务器里自发诞生的儿童宪法；从微软二十五亿美元的收购算盘，到土耳其与沙特教室里的封禁与解禁。这不仅是史上销量最高游戏的商业传记，更是一代人在像素世界中学习规则、争夺主权、建立秩序的文明实验。当虚拟场所成为真实的童年记忆，谁在为这个数字共和国立法？本书穿越四大洲的机房与课堂，记录方块原住民在资本、技术与地缘政治夹缝中，如何定义属于自己的数字公民身份。",
+    "chapterCount": 23,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-05T04:56:37.528Z"
+    },
+    "coverUrl": "books/proj-mtnr12mwdbz/releases/rel_20260905073131773_3b19f9acb6/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtnr12mwdbz/index.html",
+    "publishedAt": "2026-09-05T07:31:31.777Z",
+    "firstPublishedAt": "2026-09-05T07:31:31.777Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtnr1948yaa",
     "projectId": "proj-mtnr1948yaa",
     "releaseId": "rel_20260905072741811_54f4268679",
