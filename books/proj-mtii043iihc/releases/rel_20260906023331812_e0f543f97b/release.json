@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260906023331812_e0f543f97b",
+  "projectId": "proj-mtii043iihc",
+  "manuscriptVersionId": "mv_7bb5bc49ad59fe3d",
+  "contentHash": "7bb5bc49ad59fe3d1963f0dd81d29e7ecf57997d37dce3891d9f5526f2110990",
+  "title": "体面",
+  "subtitle": "",
+  "authorDisplayName": "磨墨无文",
+  "description": "林婉、陈禾、苏青，三位生于不同年代的中国女性。她们拒绝按社会规定的方式去爱、去结婚、去沉默。从筒子楼的集体目光，到深圳出租屋的孤独账单，再到算法时代的匿名自述，她们的身体与欲望，成了时代制度最隐秘的落点。当忍耐被称作体面，当选择成为污点，她们还能找到另一种活法吗？",
+  "category": "小说",
+  "tags": [
+    "女性命运",
+    "社会史诗",
+    "时代切片",
+    "欲望与制度",
+    "中国故事",
+    "现实文学"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 285095,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-3",
+    "createdAt": "2026-09-06T02:23:19.918Z"
+  },
+  "editorReview": {
+    "text": "翻开《体面》，最动人的是那些将内心风暴完全物化的感官瞬间：林婉发现衬衫上的口红印，从“隔夜的雪花膏”底香到“擦不掉”的触觉，再到她将衬衫“翻面叠起”的动作，没有一句情绪直写，却让一个女人的崩塌与克制纤毫毕现。三代女性的声口也分化得精准，从林婉温顺的“就得了，妈”，到陈禾防御性的“第一、第二”编号语言，再到方小敏快嘴的“你傻啊”，听声音就能认人。不过，小说中后段对“体面”命题的反复叩问略显直白，苏青的内心独白与前一章的主题陈述有重叠，削弱了结尾应有的留白与冲击力。瑕不掩瑜，那些被绩效评估表、抽屉滑轨声和塞进包里的离婚证所具象化的压迫与解脱，构成了这本书最扎实、也最令人共情的肌理。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-06T02:31:34.800Z",
+    "textless": false,
+    "profileId": "fiction-romance-intimate"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "翻面叠起",
+      "units": 7450
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "筒子楼的眼睛",
+      "units": 4651
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "档案之外",
+      "units": 11586
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "纸上的污点",
+      "units": 11095
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "集体目光",
+      "units": 10303
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "沉默的边界",
+      "units": 4074
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "女儿的眼睛",
+      "units": 9669
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "厨房里的那声",
+      "units": 8853
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "选择的重量",
+      "units": 3684
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "档案室的门",
+      "units": 9860
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "搬出筒子楼",
+      "units": 9673
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "空出来的房间",
+      "units": 9127
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "深圳的出租屋",
+      "units": 7511
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "母亲的账本",
+      "units": 10658
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "会议室里的拒绝",
+      "units": 11979
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "团队里的背叛",
+      "units": 10657
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "尊严的代价",
+      "units": 11264
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "医院的走廊",
+      "units": 9526
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "手术签字",
+      "units": 9712
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "宣传画上的乳房",
+      "units": 9789
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "母亲的苏醒",
+      "units": 4961
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "华强北的除夕",
+      "units": 4987
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "匿名自述",
+      "units": 8372
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "审核员的日常",
+      "units": 9634
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "方小敏的质疑",
+      "units": 9884
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "算法的推手",
+      "units": 8767
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "三代人的对位",
+      "units": 10138
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "代孕的链条",
+      "units": 5607
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "共同的线索",
+      "units": 9728
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "不体面的选择",
+      "units": 14346
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "不体面的答案",
+      "units": 9244
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "体面的反义词",
+      "units": 8306
+    }
+  ],
+  "publishedAt": "2026-09-06T02:33:31.816Z"
+}

@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtii043iihc",
+    "projectId": "proj-mtii043iihc",
+    "releaseId": "rel_20260906023331812_e0f543f97b",
+    "title": "体面",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "authorDisplayName": "磨墨无文",
+    "category": "小说",
+    "tags": [
+      "女性命运",
+      "社会史诗",
+      "时代切片",
+      "欲望与制度",
+      "中国故事",
+      "现实文学"
+    ],
+    "description": "林婉、陈禾、苏青，三位生于不同年代的中国女性。她们拒绝按社会规定的方式去爱、去结婚、去沉默。从筒子楼的集体目光，到深圳出租屋的孤独账单，再到算法时代的匿名自述，她们的身体与欲望，成了时代制度最隐秘的落点。当忍耐被称作体面，当选择成为污点，她们还能找到另一种活法吗？",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 85,
+      "method": "median-of-3",
+      "createdAt": "2026-09-06T02:23:19.918Z"
+    },
+    "coverUrl": "books/proj-mtii043iihc/releases/rel_20260906023331812_e0f543f97b/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtii043iihc/index.html",
+    "publishedAt": "2026-09-06T02:33:31.816Z",
+    "firstPublishedAt": "2026-09-06T02:33:31.816Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mto6r1ersci",
     "projectId": "proj-mto6r1ersci",
     "releaseId": "rel_20260905130126817_290325da18",
