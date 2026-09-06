@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905015022902_606bdeed76",
   "projectId": "proj-mtmzidfdk73",
-  "manuscriptVersionId": "mv_e66a204d8c15f9b5",
-  "contentHash": "e66a204d8c15f9b5419b4eb407ff99172238057c03e5c04152ec6d2d82d9d4c7",
+  "manuscriptVersionId": "mv_11ffa0d3151716bd",
+  "contentHash": "11ffa0d3151716bd37b4cd9bd83942cab51e2df35d8fce16ad393bcff8f0bc31",
   "title": "The Pocket Wars",
   "subtitle": "Engineering Trade-offs and the Evolution of Handheld Gaming",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:31:22.614Z"
   },
   "editorReview": {
-    "text": "The Pocket Wars succeeds where it grounds its grand thesis in tangible details: the 'Portability Trilemma' is compellingly argued through battery chemistry and thermal physics, and Chapter 18's analysis of the Nintendo Switch's 'software-defined sacrifice' is a model of precise, evidence-driven writing. However, the book's structural promise falters. The central biographical arc of engineer Gunpei Yokoi, brilliantly established in the opening chapter, is largely abandoned, leaving his later failures and contradictions unexamined. This, coupled with repetitive chapter structures and occasional",
+    "text": "This history of handheld gaming consoles distinguishes itself through a materially grounded argument—the 'Portability Trilemma' of battery, power, and control is convincingly built from engineering and economic constraints. The analysis of specific devices, like the nuanced trade-offs in the Switch, showcases the book's strength in linking hardware to philosophy. However, a structural flaw undermines its core biographical promise: the compelling portrait of Gunpei Yokoi established in the opening chapter is largely abandoned, leaving his later failures and contradictions unexplored. This, alon",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -176,31 +176,31 @@
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Unfinished Machine",
+      "title": "Parallel Realities on a Store Shelf",
       "units": 2658
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Doctrine’s Final Test",
+      "title": "Battery Against Breath of the Wild",
       "units": 2575
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Frictionless Promise",
+      "title": "Frictionless Unity, Profound Compromise",
       "units": 2727
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Unseen Hand of the Ecosystem",
+      "title": "Defying the Pocket",
       "units": 2490
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Unseen Hand",
+      "title": "Underwhelming Specs, Overwhelming Reception",
       "units": 2471
     },
     {
@@ -265,6 +265,6 @@
     }
   ],
   "publishedAt": "2026-09-05T01:50:22.906Z",
-  "rerenderedAt": "2026-09-05T10:26:35.809Z",
+  "rerenderedAt": "2026-09-06T12:54:48.295Z",
   "formFamily": "narrative"
 }
