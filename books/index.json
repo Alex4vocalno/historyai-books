@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtpcyp9zfi0",
+    "projectId": "proj-mtpcyp9zfi0",
+    "releaseId": "rel_20260906095705204_9b93827897",
+    "title": "The Lisbon Drop",
+    "subtitle": "A Novel of Wartime Lisbon",
+    "language": "en",
+    "workType": "fiction",
+    "authorDisplayName": "Liszt Think",
+    "category": "小说",
+    "tags": [
+      "espionage",
+      "World War II",
+      "Lisbon",
+      "double agent",
+      "historical thriller",
+      "Fiction"
+    ],
+    "description": "Lisbon, winter 1942. Neutral Portugal is a city of watchers, and Ana Ferreira is one of them — a translator in the censorship office who reads every telegram that crosses her desk. When her brother is sent to Tarrafal prison camp, Ana needs money the state will never pay. So she walks into the British embassy with copied intercepts. Then she walks to the German press office with the same pages. Both buyers are competent. Both are lying to their own services. And both believe they are her only customer. For six weeks Ana runs the simplest double game in espionage: one set of telegrams, two envelopes, a sum and a date. But a name she altered in the first sale begins to circulate in places it should never reach, and both handlers start counting discrepancies. The telegram she changed to protect her brother becomes the thread someone pulls. The ending asks one question: whose life is worth the price of a lie she already told?",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-3",
+      "createdAt": "2026-09-06T09:45:23.457Z"
+    },
+    "coverUrl": "books/proj-mtpcyp9zfi0/releases/rel_20260906095705204_9b93827897/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtpcyp9zfi0/index.html",
+    "publishedAt": "2026-09-06T09:57:05.208Z",
+    "firstPublishedAt": "2026-09-06T09:57:05.208Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mto6r1ersci",
     "projectId": "proj-mto6r1ersci",
     "releaseId": "rel_20260905130126817_290325da18",
@@ -677,40 +711,6 @@
     "url": "books/proj-mtdojb7zftn/index.html",
     "publishedAt": "2026-08-29T06:06:21.945Z",
     "firstPublishedAt": "2026-08-29T06:06:21.945Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mtpcyp9zfi0",
-    "projectId": "proj-mtpcyp9zfi0",
-    "releaseId": "rel_20260906095705204_9b93827897",
-    "title": "The Lisbon Drop",
-    "subtitle": "A Novel of Wartime Lisbon",
-    "language": "en",
-    "workType": "fiction",
-    "authorDisplayName": "Liszt Think",
-    "category": "小说",
-    "tags": [
-      "espionage",
-      "World War II",
-      "Lisbon",
-      "double agent",
-      "historical thriller",
-      "Fiction"
-    ],
-    "description": "Lisbon, winter 1942. Neutral Portugal is a city of watchers, and Ana Ferreira is one of them — a translator in the censorship office who reads every telegram that crosses her desk. When her brother is sent to Tarrafal prison camp, Ana needs money the state will never pay. So she walks into the British embassy with copied intercepts. Then she walks to the German press office with the same pages. Both buyers are competent. Both are lying to their own services. And both believe they are her only customer. For six weeks Ana runs the simplest double game in espionage: one set of telegrams, two envelopes, a sum and a date. But a name she altered in the first sale begins to circulate in places it should never reach, and both handlers start counting discrepancies. The telegram she changed to protect her brother becomes the thread someone pulls. The ending asks one question: whose life is worth the price of a lie she already told?",
-    "chapterCount": 25,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 84,
-      "method": "median-of-3",
-      "createdAt": "2026-09-06T09:45:23.457Z"
-    },
-    "coverUrl": "books/proj-mtpcyp9zfi0/releases/rel_20260906095705204_9b93827897/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mtpcyp9zfi0/index.html",
-    "publishedAt": "2026-09-06T09:57:05.208Z",
-    "firstPublishedAt": "2026-09-06T09:57:05.208Z",
     "visibility": "public"
   },
   {
