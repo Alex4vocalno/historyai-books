@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905015022902_606bdeed76",
   "projectId": "proj-mtmzidfdk73",
-  "manuscriptVersionId": "mv_d56a8753a8356a3b",
-  "contentHash": "d56a8753a8356a3b0817037e1178540d2e75380ae90f91f121f4bd840202e421",
+  "manuscriptVersionId": "mv_20d666a48c777f0d",
+  "contentHash": "20d666a48c777f0d6869bdeabbcd219244aa3b9a76e695ff8b6a10c80bc80708",
   "title": "The Pocket Wars",
   "subtitle": "Engineering Trade-offs and the Evolution of Handheld Gaming",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:31:22.614Z"
   },
   "editorReview": {
-    "text": "The book's core strength lies in its materialist approach: the 'Portability Trilemma' is convincingly built from the physical realities of battery chemistry and thermal limits, making engineering compromises tangible. Chapter 18's dissection of the Nintendo Switch exemplifies this, brilliantly capturing its 'software-defined sacrifices.' However, a significant structural flaw undercuts its biographical promise. The fascinating, detail-rich portrait of Gunpei Yokoi in Chapter 1—where his design philosophy grows from observed life—fades away. His later contradictions and failures are left unexam",
+    "text": "This history of handheld gaming consoles shines when it grounds its core argument—the 'Portability Trilemma'—in the tangible realities of battery chemistry, thermal limits, and manufacturing cost, as seen in sharp analyses of devices like the Switch. The opening chapter's portrait of Gunpei Yokoi, built from the material details of his 'lateral thinking' philosophy, is a masterclass in letting character emerge from evidence. However, the promise of a sustained biographical study falters as Yokoi recedes from the narrative, leaving key contradictions in his later career unexamined. Furthermore,",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -224,7 +224,7 @@
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "A Mosaic of Competing Truths",
+      "title": "Mosaic of Competing Truths",
       "units": 2519
     },
     {
@@ -248,7 +248,7 @@
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "A Permanent Exhibition of Compromise",
+      "title": "Spectrum of Resolved Equations",
       "units": 2456
     },
     {
@@ -265,6 +265,6 @@
     }
   ],
   "publishedAt": "2026-09-05T01:50:22.906Z",
-  "rerenderedAt": "2026-09-06T13:03:03.075Z",
+  "rerenderedAt": "2026-09-06T13:12:08.317Z",
   "formFamily": "narrative"
 }
