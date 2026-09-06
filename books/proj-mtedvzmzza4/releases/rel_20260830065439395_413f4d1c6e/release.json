@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065439395_413f4d1c6e",
   "projectId": "proj-mtedvzmzza4",
-  "manuscriptVersionId": "mv_5816e351a9a66688",
-  "contentHash": "5816e351a9a66688a1c2099edf731e2fea5a50efd72aeebc7497b4868d9b9a81",
+  "manuscriptVersionId": "mv_05ece4f2542a437d",
+  "contentHash": "05ece4f2542a437d5ef7f19e1f9dee20556140fad65c0660056f769d8bf4b2ec",
   "title": "Aisle Nine: The Store That Taught the World to Shop",
   "subtitle": "Clarence Saunders, Piggly Wiggly, and the Invention of Modern Retail",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:06:29.585Z"
   },
   "editorReview": {
-    "text": "This microhistory shines in its archival imagination, particularly the evocative use of a museum catalog card to trace the material origins of self-service. The turnstile’s evolution from a physical gate to a digital algorithm provides a sturdy, compelling spine for the argument. However, the narrative is weighed down by structural bloat, evident in repetitive chapter titles and temporal seams that disrupt the flow. While the closing insight—that Saunders’s erasure from his own system is its ultimate monument—is genuinely powerful, the prose too often lapses into a generic expository register,",
+    "text": "This microhistory’s strength lies in its potent archival imagination, most notably when a humble museum catalog card blossoms into a compelling narrative origin point, perfectly demonstrating the form’s power to animate the past. The central argument—tracing the turnstile’s evolution from physical gate to digital algorithm—is sustained with impressive coherence. However, the execution is uneven. The narrative is periodically undercut by structural bloat, including redundant chapter titling that feels mechanically templated and a drift into generic exposition that saps the required immediacy fr",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -152,19 +152,19 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Palace of Pink Marble",
+      "title": "Unpaid Taxes on Pink Marble",
       "units": 2190
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Unseen Architecture",
+      "title": "Blueprint S-1047",
       "units": 2523
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Curator of Unbuilt Worlds",
+      "title": "Inventory of Models & Patents",
       "units": 2529
     },
     {
@@ -259,5 +259,5 @@
     }
   ],
   "publishedAt": "2026-08-30T06:54:39.397Z",
-  "rerenderedAt": "2026-09-06T12:53:51.786Z"
+  "rerenderedAt": "2026-09-06T13:00:40.260Z"
 }
