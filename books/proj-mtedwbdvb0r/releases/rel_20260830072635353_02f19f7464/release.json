@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072635353_02f19f7464",
   "projectId": "proj-mtedwbdvb0r",
-  "manuscriptVersionId": "mv_92d291ceabf2648e",
-  "contentHash": "92d291ceabf2648e4e6c00fdc4106a2c665f7748873afebec377447f0ca6f47e",
+  "manuscriptVersionId": "mv_a3d9b5ba2b0aae60",
+  "contentHash": "a3d9b5ba2b0aae60ca9ac9b91e9e818cc1c6639a8eeba246ed4ed885195d0dc9",
   "title": "The Alphabet of Life: How Four Letters Write Every Living Thing",
   "subtitle": "How Four Letters Write Every Living Thing",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T20:29:22.329Z"
   },
   "editorReview": {
-    "text": "This book's greatest strength lies in its ability to translate complex mechanisms into vivid, intuitive metaphors—the opening chapter's sustained analogy of DNA as a family of scribes is a masterclass in clarity. The conceptual scaffolding, particularly the final chapter's framing of geneticists as finders, readers, and interpreters, retroactively illuminates the entire scientific journey with genuine narrative intelligence. However, the middle section struggles to maintain this promise. The narrative drive stalls at key transitions, with chronological leaps that feel unmotivated, and a relian",
+    "text": "The book’s greatest strength lies in its ability to make the abstract tangible, such as the vivid, sustained analogy in the opening chapter that renders a complex mechanism intuitively clear without resorting to jargon. Its mature framing of scientific discovery as an ongoing interpretation, rather than a final victory, is particularly refreshing. However, the reading experience becomes uneven in the middle sections, where the narrative thread frays and a reliance on repetitive sentence structures can impede the flow just as the concepts grow most complex. While the core insights are solid, th",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -152,19 +152,19 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Unfinished Symphony of the Human Genome",
+      "title": "Possession Without Comprehension",
       "units": 2405
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Unseen Architects of a Visible World",
+      "title": "Invisible Hand That Arranges Them",
       "units": 2450
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Engine of Evolution in a Test Tube",
+      "title": "Watching Paint Dry for Decades",
       "units": 2500
     },
     {
@@ -259,5 +259,5 @@
     }
   ],
   "publishedAt": "2026-08-30T07:26:36.090Z",
-  "rerenderedAt": "2026-09-06T12:54:24.831Z"
+  "rerenderedAt": "2026-09-06T13:01:35.290Z"
 }
