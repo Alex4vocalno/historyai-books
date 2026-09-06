@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065219812_566e0f3a1c",
   "projectId": "proj-mtedvw0ohyz",
-  "manuscriptVersionId": "mv_8fdeaf382c71ff06",
-  "contentHash": "8fdeaf382c71ff06663b9744c07b77e2daeffe1ecdec0283de911774275663e1",
+  "manuscriptVersionId": "mv_cdf344326ec959bf",
+  "contentHash": "cdf344326ec959bf0d4d213077cd4b20fbb4427cbeca4b7a366c223aa4711be9",
   "title": "The Marathon of 1908: The Race That Invented Modern Sport",
   "subtitle": "The Race That Invented Modern Sport",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T20:53:43.421Z"
   },
   "editorReview": {
-    "text": "This microhistory of the 1908 marathon is built on formidable archival work, achieving moments of genuine elegance, particularly in its evocative final chapter and the intimate portrait of Pietri's life in Sanremo. The book powerfully argues how Pietri's collapse became a template for modern sporting spectacle. However, the narrative structure feels overextended for its subject; the middle chapters drift into repetitive institutional surveys, at times losing the runner's compelling personal story in bureaucratic context. The core argument remains strong, but the journey to reach it is occasion",
+    "text": "This microhistory excels in archival texture and thematic coherence, particularly in its final chapters where the author's elegant prose binds the 1908 marathon to the enduring template of sporting tragedy. The Sanremo chapters achieve genuine intimacy through documentary specificity, while the sustained argument about 'the machinery of spectacle' is powerfully rendered. However, the narrative's structural ambition—34 chapters tracking a single incident's aftermath—leads to noticeable bloat. Mid-book sections drift into repetitive institutional surveys, losing Pietri's voice for stretches, and",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -149,25 +149,25 @@
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Final Curtain",
+      "title": "March 1920, Leicester Empire",
       "units": 2338
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Quiet Life in Sanremo",
+      "title": "Municipal Ledger, Spring 1922",
       "units": 2197
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Death of a Legend",
+      "title": "Infarto Miocardico Acuto",
       "units": 2306
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Immortal Distance",
+      "title": "Page Forty-Seven's Decree",
       "units": 2536
     },
     {
@@ -256,6 +256,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:52:19.820Z",
-  "rerenderedAt": "2026-09-06T12:53:44.145Z",
+  "rerenderedAt": "2026-09-06T13:00:28.112Z",
   "formFamily": "narrative"
 }
