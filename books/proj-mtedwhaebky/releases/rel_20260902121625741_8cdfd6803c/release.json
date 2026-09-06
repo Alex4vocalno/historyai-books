@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902121625741_8cdfd6803c",
   "projectId": "proj-mtedwhaebky",
-  "manuscriptVersionId": "mv_897408093ac3a637",
-  "contentHash": "897408093ac3a6372a37f168150837b341be2403c84452854c3ea974e8924215",
+  "manuscriptVersionId": "mv_bb458c61224f8c49",
+  "contentHash": "bb458c61224f8c49e5692729658b95d9876f3ae6163de4ffaddeaa5bf96dd7a5",
   "title": "Sweet Empire: How Sugar Built and Broke the Modern World",
   "subtitle": "How Sugar Built and Broke the Modern World",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-30T02:36:58.069Z"
   },
   "editorReview": {
-    "text": "This ambitious world history of sugar succeeds most where it grounds its vast thesis in tangible details—from medieval clay molds to modern enzyme labs—and where its narrative voice finds moral clarity without sermonizing, particularly in the powerful closing synthesis. However, the journey is uneven; the middle sections too often lapse into a generic, passive textbook register, and several abrupt transitions between chapters fray the connective tissue essential for a work of this scope. It's a conceptually bold project whose execution doesn't always sustain its initial promise.",
+    "text": "A bold narrative history of sugar's global journey, distinguished by its conceptual ambition—the 'Sweetness Stack' framework offers a genuinely useful lens for understanding how a luxury became a necessity. The closing chapters achieve a powerful synthesis, particularly in their vivid contrast between industrial refineries and biochemical labs. However, the book's momentum is periodically disrupted; some middle chapters slip into a flat, textbook-like register, and several abrupt transitions between key historical moments can leave the reader feeling unmoored. The final analysis is sharp, but",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -230,7 +230,7 @@
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "Sugar's Cellular Rebellion",
+      "title": "The Debit and Credit Columns",
       "units": 2224
     },
     {
@@ -248,19 +248,19 @@
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "Sugar's Double Ledger",
+      "title": "The Silent, Socialized Cost",
       "units": 2285
     },
     {
       "idx": 34,
       "sourceIdx": 34,
-      "title": "Fishery's Line, Health's Draft",
+      "title": "The Paradox of the New Millennium",
       "units": 2538
     },
     {
       "idx": 35,
       "sourceIdx": 35,
-      "title": "Silvertown's Shuttered Gates",
+      "title": "The End of a Geography",
       "units": 2559
     },
     {
@@ -271,5 +271,5 @@
     }
   ],
   "publishedAt": "2026-09-02T12:16:25.748Z",
-  "rerenderedAt": "2026-09-06T12:54:32.518Z"
+  "rerenderedAt": "2026-09-06T13:02:10.392Z"
 }
