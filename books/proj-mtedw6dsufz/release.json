@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830073550468_43679157e4",
   "projectId": "proj-mtedw6dsufz",
-  "manuscriptVersionId": "mv_3de836d34befd319",
-  "contentHash": "3de836d34befd319b4a6f2ccf69150aa6258021e12b12c82de39054b6249ba6e",
+  "manuscriptVersionId": "mv_a1a63cd8b64a6631",
+  "contentHash": "a1a63cd8b64a6631e3e70abecd185545436b7a3ab27e27207b7cfb379d12b4b0",
   "title": "The Cold Truth: Why Ice Floats and Other Miracles of Water",
   "subtitle": "Why Ice Floats and Other Miracles of Water",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:37:26.276Z"
   },
   "editorReview": {
-    "text": "This book's ambition is clear: to transform water's scientific oddities into a profound exploration of physics. It succeeds brilliantly in its opening acts. The explanation of why ice floats, built from the tactile image of a shattered pitcher and Galileo's hands-on perspective, is a masterclass in grounding complex ideas in physical intuition. The 'Strangeness Engine' framework also proves its worth, elegantly linking disparate phenomena into a coherent whole. However, the narrative engine loses steam. The voice drifts toward a generic textbook register in the middle, and the final chapters a",
+    "text": "The book's intellectual ambition is genuine, anchored by a productive conceptual frame—the 'Strangeness Engine'—that elegantly ties together water's disparate anomalies. The early chapters are particularly strong, building physical intuition from tactile, historical grounding, such as the vivid, embodied explanation of the 4°C density maximum. However, the narrative engine cools considerably in the middle stretch, where the prose occasionally lapses into a generic textbook register. More troubling is the book's structural fatigue toward the end, where the core strength of concrete analogy is a",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -146,25 +146,25 @@
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Unfinished Symphony",
+      "title": "Fertile Crisis",
       "units": 2453
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Stranger in the Mirror",
+      "title": "Ice That Floats, Life That Follows",
       "units": 2514
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Unbreakable Code",
+      "title": "Legislated Obedience",
       "units": 2360
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Final Anomaly",
+      "title": "March 15, 2035",
       "units": 2287
     },
     {
@@ -253,6 +253,6 @@
     }
   ],
   "publishedAt": "2026-08-30T07:35:51.534Z",
-  "rerenderedAt": "2026-09-06T12:54:08.702Z",
+  "rerenderedAt": "2026-09-06T13:01:07.120Z",
   "formFamily": "narrative"
 }
