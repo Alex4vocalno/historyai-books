@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902121625741_8cdfd6803c",
   "projectId": "proj-mtedwhaebky",
-  "manuscriptVersionId": "mv_bb458c61224f8c49",
-  "contentHash": "bb458c61224f8c49e5692729658b95d9876f3ae6163de4ffaddeaa5bf96dd7a5",
+  "manuscriptVersionId": "mv_7ac132737b83ba5e",
+  "contentHash": "7ac132737b83ba5e106e3f041d8ad9375f7e2ada552e47c425b26b2200e39de2",
   "title": "Sweet Empire: How Sugar Built and Broke the Modern World",
   "subtitle": "How Sugar Built and Broke the Modern World",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-30T02:36:58.069Z"
   },
   "editorReview": {
-    "text": "A bold narrative history of sugar's global journey, distinguished by its conceptual ambition—the 'Sweetness Stack' framework offers a genuinely useful lens for understanding how a luxury became a necessity. The closing chapters achieve a powerful synthesis, particularly in their vivid contrast between industrial refineries and biochemical labs. However, the book's momentum is periodically disrupted; some middle chapters slip into a flat, textbook-like register, and several abrupt transitions between key historical moments can leave the reader feeling unmoored. The final analysis is sharp, but",
+    "text": "This narrative history of sugar's global impact succeeds when it grounds its bold 'Sweetness Stack' concept in vivid material details—like the conical clay molds of early refining or the immobilized enzymes in a modern Iowa plant. However, the middle chapters too often lose their storyteller's voice, slipping into a passive, textbook-like register that severs the narrative seams and flattens the drama. While the concluding analysis on the 'cost distance' of empire regains its moral urgency, the journey there can feel uneven.",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -158,25 +158,25 @@
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Bittersweet Harvest",
+      "title": "NAFTA's Metabolic Invoice",
       "units": 2238
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Sweetener’s Dilemma",
+      "title": "Metastasizing Sweetness",
       "units": 2196
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Body’s Ledger",
+      "title": "Insulin Resistance and Fatty Liver Cells",
       "units": 2488
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Empire of Empty Calories",
+      "title": "Oil Shock and the Supermarket Aisle",
       "units": 2462
     },
     {
@@ -224,13 +224,13 @@
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "A Final Frontier",
+      "title": "From Soil to Cell",
       "units": 2421
     },
     {
       "idx": 30,
       "sourceIdx": 30,
-      "title": "The Debit and Credit Columns",
+      "title": "Four Hundred Billion Cans",
       "units": 2224
     },
     {
@@ -242,25 +242,25 @@
     {
       "idx": 32,
       "sourceIdx": 32,
-      "title": "A Physiological Fact",
+      "title": "Sweetness and the Insolvent Estate",
       "units": 2197
     },
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "The Silent, Socialized Cost",
+      "title": "Broken Body, Failing Pancreas",
       "units": 2285
     },
     {
       "idx": 34,
       "sourceIdx": 34,
-      "title": "The Paradox of the New Millennium",
+      "title": "Sugar's Perfect Equilibrium",
       "units": 2538
     },
     {
       "idx": 35,
       "sourceIdx": 35,
-      "title": "The End of a Geography",
+      "title": "Pancreas, Artery, Chamber, Budget",
       "units": 2559
     },
     {
@@ -271,5 +271,5 @@
     }
   ],
   "publishedAt": "2026-09-02T12:16:25.748Z",
-  "rerenderedAt": "2026-09-06T13:02:10.392Z"
+  "rerenderedAt": "2026-09-06T13:11:45.026Z"
 }
