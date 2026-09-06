@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065816335_953b7998ca",
   "projectId": "proj-mtedw46tosb",
-  "manuscriptVersionId": "mv_782a29fc3e08eaae",
-  "contentHash": "782a29fc3e08eaae7766ff12784a1f162a81497a7ff34237e70a8ce41daf09be",
+  "manuscriptVersionId": "mv_c7ed224187cb39e3",
+  "contentHash": "c7ed224187cb39e34d2621e1b811db40861bc377cec6f997e5d4de69c9a3d8bc",
   "title": "The Night Shift: What Your Brain Does While You Sleep",
   "subtitle": "What Your Brain Does While You Sleep",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:35:54.175Z"
   },
   "editorReview": {
-    "text": "This book excels in its early chapters, where the author grounds complex science in vivid, concrete storytelling. The opening chapter's sensory detail and the masterful analogies used to explain historical discoveries are genuinely compelling, building a strong causal narrative. However, the final third of the book suffers from a noticeable decline. The prose becomes less sharp, and the structure falters, with repetitive chapter titles and a shift into speculative futurism that feels more like filler than a logical culmination of the established ideas. While the core science is fascinating, th",
+    "text": "This book excels when it anchors its exploration of the sleeping brain in concrete historical discovery. The early chapters are a masterclass in narrative science writing, particularly the vivid, analogical treatment of von Economo's work and the brilliant sensory hook of the opening scene. However, the final third of the volume suffers from a noticeable decline in editorial discipline. The prose loses its earlier precision, and the speculative framing device set in the 2080s often feels like unearned filler, diluting the hard-won insights built from a century of research. It begins with the c",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -170,31 +170,31 @@
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Conductor of the Night Shift",
+      "title": "Symphony Without a Checklist",
       "units": 2532
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Unseen Cost of a Sleepless Society",
+      "title": "Performance Anxiety of the Night",
       "units": 2742
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Unquiet Rest of the Modern Mind",
+      "title": "Approved, Tuesday Morning, 2029",
       "units": 2215
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Final Reckoning of the Waking World",
+      "title": "River of Interrupted Minds",
       "units": 2377
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Uncharted Territory of the Sleeping Self",
+      "title": "Patient Zero of the Rewritten Self",
       "units": 2574
     },
     {
@@ -253,6 +253,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:58:16.342Z",
-  "rerenderedAt": "2026-09-05T10:27:40.410Z",
+  "rerenderedAt": "2026-09-06T12:53:59.876Z",
   "formFamily": "narrative"
 }
