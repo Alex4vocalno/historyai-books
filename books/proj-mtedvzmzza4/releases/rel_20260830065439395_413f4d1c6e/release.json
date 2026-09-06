@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065439395_413f4d1c6e",
   "projectId": "proj-mtedvzmzza4",
-  "manuscriptVersionId": "mv_86a924f498745c84",
-  "contentHash": "86a924f498745c8487274fa002fc34a769775da85aae8f54fade49875dc8053a",
+  "manuscriptVersionId": "mv_5816e351a9a66688",
+  "contentHash": "5816e351a9a66688a1c2099edf731e2fea5a50efd72aeebc7497b4868d9b9a81",
   "title": "Aisle Nine: The Store That Taught the World to Shop",
   "subtitle": "Clarence Saunders, Piggly Wiggly, and the Invention of Modern Retail",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:06:29.585Z"
   },
   "editorReview": {
-    "text": "This microhistory shines in its archival imagination, most notably when a museum catalog card becomes the narrative origin point for unpacking the self-service revolution. The turnstile's evolution from physical gate to digital algorithm sustains a compelling thesis across a century of retail. However, the structure feels padded, with repetitive chapter titles and occasional lapses into generic exposition that dilute the vivid physical detail—like the proprietary weights of a brass-beam balance—which otherwise grounds the critique so effectively.",
+    "text": "This microhistory shines in its archival imagination, particularly the evocative use of a museum catalog card to trace the material origins of self-service. The turnstile’s evolution from a physical gate to a digital algorithm provides a sturdy, compelling spine for the argument. However, the narrative is weighed down by structural bloat, evident in repetitive chapter titles and temporal seams that disrupt the flow. While the closing insight—that Saunders’s erasure from his own system is its ultimate monument—is genuinely powerful, the prose too often lapses into a generic expository register,",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -170,43 +170,43 @@
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Patent on Experience",
+      "title": "Patent No. 1,242,872",
       "units": 2606
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Ghost in the Machine",
+      "title": "Patent No. 5,832,460",
       "units": 2687
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Final Ledger",
+      "title": "Expiration of the Self-Serving Store",
       "units": 2465
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Permit and the Pink Marble",
+      "title": "Pink Marble Manifesto",
       "units": 2663
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Blueprint's First Lie",
+      "title": "March 1959, a Lie of Omission",
       "units": 2188
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Last Turnstile",
+      "title": "April 1953, Lamar Avenue",
       "units": 2457
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Final Inventory",
+      "title": "Patent 1,242,872 Expired",
       "units": 2170
     },
     {
@@ -259,5 +259,5 @@
     }
   ],
   "publishedAt": "2026-08-30T06:54:39.397Z",
-  "rerenderedAt": "2026-09-05T10:27:47.766Z"
+  "rerenderedAt": "2026-09-06T12:53:51.786Z"
 }
