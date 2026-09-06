@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902162041429_658fbf260a",
   "projectId": "proj-mtdojmyg750",
-  "manuscriptVersionId": "mv_2ba6ce4a66292529",
-  "contentHash": "2ba6ce4a66292529b60356d614c975e4ba97d9e08c556e1b84a85ea8be050b66",
+  "manuscriptVersionId": "mv_7cbce2f904c187ae",
+  "contentHash": "7cbce2f904c187aec0eae18fe7bc00e91c6e5101b7b1da15c1a9908fbd1582f7",
   "title": "Why the Night Sky Is Dark",
   "subtitle": "Olbers' Paradox and the Discovery of a Finite Universe",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T11:24:56.886Z"
   },
   "editorReview": {
-    "text": "This book succeeds by building a clear chronological arc from Kepler to Hubble, using the 'forest of stars' analogy to make cosmological abstraction viscerally intuitive. It excels in its high-value synthesis, transforming the paradox from a historical puzzle into a modern analytical tool for dark matter and the Fermi paradox. However, the reading experience is uneven. The prose suffers from a significant disruption in the final chapter, and a drift toward a dry, textbook register in the middle section temporarily weakens the book's otherwise compelling narrative voice. These structural seams",
+    "text": "This book's greatest strength lies in its chronological spine, which elegantly guides the reader from Kepler's early unease to modern cosmological tensions, providing a clear and compelling argumentative journey. The persistent use of the 'forest of stars' analogy is particularly effective, grounding abstract concepts in tangible, sensory intuition. However, the narrative momentum is occasionally flattened by structural oddities, such as redundant chapter titles in the middle section, and a noticeable drift toward a dry, textbook-like register in Chapters 17-20, which departs from the otherwis",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -176,31 +176,31 @@
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Paradox Released into the World",
+      "title": "Proven Truth's Journey",
       "units": 2562
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Paradox as a Mirror for the Mind",
+      "title": "Classroom Logic and the Silent Sky",
       "units": 2391
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Paradox and the Limits of Certainty",
+      "title": "From Logical Goad to Philosophical Mirror",
       "units": 2465
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Paradox and the Unfinished Universe",
+      "title": "Planck's Hollow Triumph",
       "units": 2354
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Final Light and the First Darkness",
+      "title": "Pigeons and the Persistent Hiss",
       "units": 2438
     },
     {
@@ -253,5 +253,5 @@
     }
   ],
   "publishedAt": "2026-09-02T16:20:41.433Z",
-  "rerenderedAt": "2026-09-05T10:28:22.706Z"
+  "rerenderedAt": "2026-09-06T12:53:20.006Z"
 }
