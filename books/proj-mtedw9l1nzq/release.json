@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072221701_7ef134334d",
   "projectId": "proj-mtedw9l1nzq",
-  "manuscriptVersionId": "mv_dfcf1dfda95a532a",
-  "contentHash": "dfcf1dfda95a532a493689f135ecb4ea2d8051aa984baf2568174115db86df57",
+  "manuscriptVersionId": "mv_cb375f32e885982b",
+  "contentHash": "cb375f32e885982b6f1ed02b17e50b07917245f9a2289ae68905bbbc62a28c2a",
   "title": "Six Ways to Fall: A Natural History of Gravity",
   "subtitle": "A Natural History of Gravity",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:51:06.751Z"
   },
   "editorReview": {
-    "text": "This history of gravity shines in its most vivid chapters, where concrete sensory details—like the 'chirp' of gravitational waves or the fuzzy orange ring of a black hole's shadow—serve as brilliant anchors for profound conceptual leaps. The opening and closing sections are particularly strong, framing the entire journey not as a march toward an answer, but as the story of a question being continually reborn. However, the middle sections can lapse into a more generic, textbook-like tone, and the episodic chronological structure, while ambitious, sometimes feels like an accumulation of ideas ra",
+    "text": "This history of gravity succeeds most vividly when it grounds cosmic abstractions in sensory experience. The narrative of the first gravitational wave detection (Chapter 18), built around the iconic 'chirp', and the suspenseful account of imaging a black hole's shadow (Chapter 17) are masterclasses in intuitive explanation. However, the book's chronological ambition also creates a structural weakness: the procession through 35 discrete 'ways to understand' gravity often feels like an accumulation of episodes rather than a building argument, with the middle chapters slipping into a generic text",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -152,19 +152,19 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Echo of a Collision",
+      "title": "NASA's Deep Space Clock",
       "units": 2448
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Pull of a Distant Galaxy",
+      "title": "Faint Smudges Running Away",
       "units": 2558
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Clock in a Curved Orbit",
+      "title": "Atomic Hearts in Curved Orbits",
       "units": 2571
     },
     {
@@ -259,6 +259,6 @@
     }
   ],
   "publishedAt": "2026-08-30T07:22:21.710Z",
-  "rerenderedAt": "2026-09-06T12:54:16.559Z",
+  "rerenderedAt": "2026-09-06T13:01:19.555Z",
   "formFamily": "narrative"
 }
