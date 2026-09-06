@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902122624804_c8eba0a6ed",
   "projectId": "proj-mtdojfvmzng",
-  "manuscriptVersionId": "mv_2e78886f378551a3",
-  "contentHash": "2e78886f378551a3c756f33d79ed16374fad7a5767723212c26f5701bdb3e242",
+  "manuscriptVersionId": "mv_14bfab484db023c2",
+  "contentHash": "14bfab484db023c242468fd85bb7b78a31e7d60fc3ca1126b88b330789249baf",
   "title": "The Great Stink: London in the Summer of 1858",
   "subtitle": "London in the Summer of 1858",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T17:42:00.641Z"
   },
   "editorReview": {
-    "text": "This microhistory excels in its immersive core, particularly the opening chapters where the sensory assault of the Thames is rendered with visceral power, grounding a systemic crisis in a single waterman's experience. The analysis of how pollution was redistributed, not solved, along class and geographic lines is a sophisticated highlight that honors the genre's attention to lived reality. However, the book's structural seams show, with repetitive chapter titles and a concluding pivot into contemporary policy analysis that loses the intimate, embodied anchor that makes the earlier narrative so",
+    "text": "This microhistory excels in its visceral opening and core chapters, plunging the reader into the sensory reality of 1858 London with a waterman's perspective that powerfully grounds a systemic crisis. The analysis of how pollution was not solved but redistributed along class and geographic lines is particularly sharp, honoring the form's commitment to specific experience. However, the book's structural seams show, with repetitive chapter titles and a final section that drifts from its intimate historical anchor into abstract policy commentary, diluting the immersive effect. It's a compelling,",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -152,19 +152,19 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Engineer’s Triumph and the City’s Debt",
+      "title": "Three Million Pounds on a Sheet",
       "units": 2511
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Notice on Mill Street",
+      "title": "Notice Nailed to Mill Street",
       "units": 1986
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Embankment as a Civic Promise",
+      "title": "Lithographed Promise, Granular Reality",
       "units": 2160
     },
     {
@@ -259,6 +259,6 @@
     }
   ],
   "publishedAt": "2026-09-02T12:26:24.811Z",
-  "rerenderedAt": "2026-09-06T12:53:02.618Z",
+  "rerenderedAt": "2026-09-06T12:59:18.094Z",
   "formFamily": "narrative"
 }
