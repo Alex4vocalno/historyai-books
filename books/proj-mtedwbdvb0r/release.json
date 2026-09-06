@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072635353_02f19f7464",
   "projectId": "proj-mtedwbdvb0r",
-  "manuscriptVersionId": "mv_9c4cfddfc3f4859f",
-  "contentHash": "9c4cfddfc3f4859fb64510c566c397b391ca8b10d6d3ee5a3a7174c932865c02",
+  "manuscriptVersionId": "mv_92d291ceabf2648e",
+  "contentHash": "92d291ceabf2648e4e6c00fdc4106a2c665f7748873afebec377447f0ca6f47e",
   "title": "The Alphabet of Life: How Four Letters Write Every Living Thing",
   "subtitle": "How Four Letters Write Every Living Thing",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T20:29:22.329Z"
   },
   "editorReview": {
-    "text": "This book shines when it renders the complex intuitive, as in its opening chapters where the DNA code is masterfully explained through sustained, vivid analogies of scribes and alphabets. Its strongest insights reframe the genome as a battlefield and a grammar, resisting simple triumphalism. However, the narrative engine occasionally falters. A promising thematic motif, like the 'Unfinished Symphony,' is repeated without meaningful development, and the chronological thread frays in the middle sections, creating noticeable seams that disrupt immersion. While its conceptual scaffolding is sophis",
+    "text": "This book's greatest strength lies in its ability to translate complex mechanisms into vivid, intuitive metaphors—the opening chapter's sustained analogy of DNA as a family of scribes is a masterclass in clarity. The conceptual scaffolding, particularly the final chapter's framing of geneticists as finders, readers, and interpreters, retroactively illuminates the entire scientific journey with genuine narrative intelligence. However, the middle section struggles to maintain this promise. The narrative drive stalls at key transitions, with chronological leaps that feel unmotivated, and a relian",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -170,31 +170,31 @@
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Private Code of a Public Scientist",
+      "title": "Photo 51's Human Shadow",
       "units": 1889
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Ghost in the Machine of Inheritance",
+      "title": "Invisible Ink on the Master Text",
       "units": 2224
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Cipher in the Complete Library",
+      "title": "Ninety-Eight Percent Cipher",
       "units": 2519
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Second Code:Life Beyond the Sequence",
+      "title": "Hunger's Echo in the Grandchildren",
       "units": 2503
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Unintended Consequences of a Perfect Tool",
+      "title": "First Deliberate Word",
       "units": 2398
     },
     {
@@ -259,6 +259,6 @@
     }
   ],
   "publishedAt": "2026-08-30T07:26:36.090Z",
-  "rerenderedAt": "2026-09-05T10:27:15.476Z",
+  "rerenderedAt": "2026-09-06T12:54:24.831Z",
   "formFamily": "narrative"
 }
