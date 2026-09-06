@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260829060621942_b906c3ba0e",
   "projectId": "proj-mtdojb7zftn",
-  "manuscriptVersionId": "mv_f3b4fcd773ca0182",
-  "contentHash": "f3b4fcd773ca0182bc8a8f86b86206929384039619a8e0c94ec21543cce5b70c",
+  "manuscriptVersionId": "mv_4fc6d098de6d5542",
+  "contentHash": "4fc6d098de6d5542508929f2e1337e56db96c7601cc3b4cdf3df07164ccac7bd",
   "title": "Thirteen Days on Paper: The Cuban Missile Crisis in Documents",
   "subtitle": "The Cuban Missile Crisis in Documents",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T04:47:41.151Z"
   },
   "editorReview": {
-    "text": "This is a work of genuine historiographic ambition, its strongest chapters achieving a powerful synthesis of the 'paperwork standard' thesis that makes the bureaucratic machinery of the crisis viscerally tangible. The author's consistent voice and effective documentary framing create a compelling bureaucratic texture, and the structural conceit of paperwork as protagonist delivers cumulative insight. However, the narrative drive falters in the middle chapters, where transitional struggles become visible, and the experience is undercut by patches of mechanical prose and, more critically, the us",
+    "text": "This archival chronicle shines in its commitment to the paper trail as protagonist, delivering a powerful cumulative insight: the crisis was ultimately measured in 'more tons of paper than tons of missiles.' The bureaucratic voice is consistently effective, and the juxtaposition of raw documents—like ExComm tapes against formal communiqués—creates a genuinely stereoscopic historical effect. However, the narrative drive occasionally stalls, betrayed by clunky chapter titles and patches of repetitive, mechanical prose that undercut the material's gravity. A more critical flaw is the use of uncit",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -191,7 +191,7 @@
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "A Paperwork of Peace",
+      "title": "Routing Slip's Three Initials",
       "units": 2459
     },
     {
@@ -251,7 +251,7 @@
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "A Weary Voice on Tape",
+      "title": "Weary and Strained",
       "units": 2622
     },
     {
@@ -280,6 +280,6 @@
     }
   ],
   "publishedAt": "2026-08-29T06:06:21.945Z",
-  "rerenderedAt": "2026-09-06T12:59:07.009Z",
+  "rerenderedAt": "2026-09-06T13:10:53.002Z",
   "formFamily": "narrative"
 }
