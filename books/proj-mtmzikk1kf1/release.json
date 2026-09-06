@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905015519067_9a8912c039",
   "projectId": "proj-mtmzikk1kf1",
-  "manuscriptVersionId": "mv_2dbb1a4e510b85fb",
-  "contentHash": "2dbb1a4e510b85fb5c791f142baa88d665526ff70e6ccdaa113ac3b5aaec30ce",
+  "manuscriptVersionId": "mv_50d9449336db273f",
+  "contentHash": "50d9449336db273fe12787a0a3e79e3163ed352631eb15f9cfbaa74855e9bd77",
   "title": "Rated M",
   "subtitle": "How Video Games Learned to Police Themselves Across Four Nations",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:17:20.197Z"
   },
   "editorReview": {
-    "text": "This institutional history excels at capturing the texture of its subject. The opening brilliantly frames the 1993 Senate hearings through the political motives of figures like Lieberman, while the closing chapters achieve a powerful synthesis, crystallizing a thirty-year transformation by comparing early industry documents with modern corporate policy. The book's core insight—that self-regulation was a web of preemptive private negotiation—is convincingly illustrated through specific cases, such as the design notes for *Doom 3*. However, the narrative drive falters in the middle section, wher",
+    "text": "Rated M delivers a valuable institutional history, rich with documentary texture. It excels in its framing: the opening vividly stages political actors like Lieberman and Kohl, while the closing chapters achieve a powerful synthesis, crystallizing a thirty-year transformation through sharp comparisons like the 1990 Commander Keen document versus a 2023 corporate policy. The insightful comparative analysis of different national jurisdictions avoids simplistic globalization tropes. However, the book's experiential promise—people before thesis—erodes in the middle section. Chapters 17-21, the 'Un",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -176,37 +176,37 @@
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Supreme Court’s Shield",
+      "title": "Yee's Obscenity Analogy",
       "units": 2327
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Shield Cracks",
+      "title": "Day-One DLC and the Unratable Game",
       "units": 2495
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Unratable Game",
+      "title": "DayZ's Empty Rating Box",
       "units": 2197
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The New Frontier of the Unseen",
+      "title": "Voluntary Protocol, Invisible Frontier",
       "units": 2180
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The Last Bastion of the Physical",
+      "title": "Parental Controls & Tools",
       "units": 2113
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The Invisible Hand of the Algorithm",
+      "title": "Metadata Inputs for Automated Compliance",
       "units": 2464
     },
     {
@@ -265,6 +265,6 @@
     }
   ],
   "publishedAt": "2026-09-05T01:55:19.127Z",
-  "rerenderedAt": "2026-09-05T10:26:27.727Z",
+  "rerenderedAt": "2026-09-06T12:54:56.890Z",
   "formFamily": "narrative"
 }
