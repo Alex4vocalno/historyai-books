@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902121619628_bdde4963ba",
   "projectId": "proj-mtiuyixbw2l",
-  "manuscriptVersionId": "mv_153d706a8cbef798",
-  "contentHash": "153d706a8cbef79842bc0491c4ae3617802c6910b9acde805667d337685a551d",
+  "manuscriptVersionId": "mv_4c73ca769aa1ac31",
+  "contentHash": "4c73ca769aa1ac312b6f65c212bb0fbc15ad0102b4504f5c2596297c56ef182c",
   "title": "The Rubber Century: How a Tree Sap Wired the Modern World",
   "subtitle": "How a Tree Sap Wired the Modern World",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-02T05:21:47.332Z"
   },
   "editorReview": {
-    "text": "This is a structurally intelligent global history of rubber that shines when it adheres to its object-led promise. The book is at its best in the middle chapters, where the author masterfully juxtaposes a Texas interstate photograph with a Malayan estate survey map, grounding systemic arguments in precise material details. However, the final chapters lose this disciplined tension, drifting into abstract editorializing where the form demands a rigorous, numeric-driven conclusion. The opening’s strength—rooted in the personal scale of Goodyear’s kitchen—makes the ending’s retreat into textbook-l",
+    "text": "This is a structurally intelligent global history of rubber, one that excels in its middle chapters. The book's finest moment comes in Chapter 17, where a precise montage—juxtaposing a Texas Interstate photograph with a Malaya estate map—powerfully demonstrates the material's global reach while grounding its argument in specific costs and wages. However, the final chapter disappoints by abandoning the rigorous, object-led analysis promised earlier. Instead of delivering a signature 'cold numeric closer,' it lapses into abstract editorializing, a shift in voice that weakens the conclusion. The",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -146,25 +146,25 @@
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Blistered Highway and the Ghost Estate",
+      "title": "Melted Residue and the Negligible Valuation",
       "units": 2659
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Last Plantation and the First Petrochemical Pact",
+      "title": "RRIM 800 and the Fixed-Price Butadiene",
       "units": 2421
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Interstate and the Accelerated Dream",
+      "title": "Sun on Fresh Concrete",
       "units": 3075
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Conveyor Belt and the Death of Distance",
+      "title": "Corner Castings and the Sealed Box",
       "units": 2420
     },
     {
@@ -253,6 +253,6 @@
     }
   ],
   "publishedAt": "2026-09-02T12:16:19.631Z",
-  "rerenderedAt": "2026-09-06T12:54:40.378Z",
+  "rerenderedAt": "2026-09-06T13:02:24.874Z",
   "formFamily": "narrative"
 }
