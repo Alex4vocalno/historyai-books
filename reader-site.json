@@ -1,13 +1,23 @@
 {
   "schemaVersion": 1,
   "contractVersion": "reader-site.v1",
-  "generatedAt": "2026-09-06T12:53:02.722Z",
+  "generatedAt": "2026-09-06T12:53:11.342Z",
   "catalog": {
     "path": "books/index.json",
     "bytes": 355327,
-    "sha256": "8a6526d689b1258cbfd021b3a76c32c903d480ba3a7d9c64c9b843cb37017339"
+    "sha256": "5d09474f51dd3ab88e3aacbedba012198928e9ece894b9cebb87bcef3c9cd290"
   },
   "books": [
+    {
+      "projectId": "proj-mtdojkjummc",
+      "releaseId": "rel_20260902122222200_825364579d",
+      "language": "en",
+      "visibility": "public",
+      "currentPointer": "books/proj-mtdojkjummc/current.json",
+      "releaseRoot": "books/proj-mtdojkjummc/releases/rel_20260902122222200_825364579d/",
+      "manifest": "books/proj-mtdojkjummc/releases/rel_20260902122222200_825364579d/release-manifest.json",
+      "integrity": "sha256"
+    },
     {
       "projectId": "proj-mtdojfvmzng",
       "releaseId": "rel_20260902122624804_c8eba0a6ed",
@@ -56,16 +66,6 @@
       "currentPointer": "books/proj-mto6r1ersci/current.json",
       "releaseRoot": "books/proj-mto6r1ersci/releases/rel_20260905130126817_290325da18/",
       "manifest": "books/proj-mto6r1ersci/releases/rel_20260905130126817_290325da18/release-manifest.json",
-      "integrity": "sha256"
-    },
-    {
-      "projectId": "proj-mtdojkjummc",
-      "releaseId": "rel_20260902122222200_825364579d",
-      "language": "en",
-      "visibility": "public",
-      "currentPointer": "books/proj-mtdojkjummc/current.json",
-      "releaseRoot": "books/proj-mtdojkjummc/releases/rel_20260902122222200_825364579d/",
-      "manifest": "books/proj-mtdojkjummc/releases/rel_20260902122222200_825364579d/release-manifest.json",
       "integrity": "sha256"
     },
     {
