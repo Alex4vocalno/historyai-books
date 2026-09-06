@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065816335_953b7998ca",
   "projectId": "proj-mtedw46tosb",
-  "manuscriptVersionId": "mv_c7ed224187cb39e3",
-  "contentHash": "c7ed224187cb39e34d2621e1b811db40861bc377cec6f997e5d4de69c9a3d8bc",
+  "manuscriptVersionId": "mv_4c2d6e7192eecb3d",
+  "contentHash": "4c2d6e7192eecb3d9db9ee7f7c4c4454e74c6c8bc900be249a27fbc3e655ec73",
   "title": "The Night Shift: What Your Brain Does While You Sleep",
   "subtitle": "What Your Brain Does While You Sleep",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:35:54.175Z"
   },
   "editorReview": {
-    "text": "This book excels when it anchors its exploration of the sleeping brain in concrete historical discovery. The early chapters are a masterclass in narrative science writing, particularly the vivid, analogical treatment of von Economo's work and the brilliant sensory hook of the opening scene. However, the final third of the volume suffers from a noticeable decline in editorial discipline. The prose loses its earlier precision, and the speculative framing device set in the 2080s often feels like unearned filler, diluting the hard-won insights built from a century of research. It begins with the c",
+    "text": "This book excels at making complex neuroscience feel intuitive, especially in its early chapters. The opening sequence, where an EOG machine becomes an active character, and the masterful analogy chain in the Von Economo chapter, demonstrate a rare narrative craft. The strong chronological spine from the 1920s to 2015 builds a compelling causal argument rather than a mere catalog of facts. However, the final third of the book suffers from a noticeable decline. The prose becomes less precise, and the narrative discipline gives way to generic, speculative futurism—particularly in the 2080s frami",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -146,25 +146,25 @@
     {
       "idx": 16,
       "sourceIdx": 16,
-      "title": "The Unseen Cost of the Waking World",
+      "title": "Voluntary Rejection of a Biological Necessity",
       "units": 2723
     },
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Unfinished Symphony of the Night",
+      "title": "Sleep's Fundamental Algorithm",
       "units": 2551
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Final Reckoning of the Night",
+      "title": "Shift Work's Systemic Collapse",
       "units": 2373
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Uncharted Territory of the Sleeping Mind",
+      "title": "Caffeine's Unpaid Debt",
       "units": 2382
     },
     {
@@ -253,5 +253,5 @@
     }
   ],
   "publishedAt": "2026-08-30T06:58:16.342Z",
-  "rerenderedAt": "2026-09-06T12:53:59.876Z"
+  "rerenderedAt": "2026-09-06T13:00:53.669Z"
 }
