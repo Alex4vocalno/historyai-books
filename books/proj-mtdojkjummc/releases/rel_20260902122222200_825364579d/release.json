@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902122222200_825364579d",
   "projectId": "proj-mtdojkjummc",
-  "manuscriptVersionId": "mv_3ff94a4f0db20fcb",
-  "contentHash": "3ff94a4f0db20fcb9b3c13c187d99b0977e76d874c169d45d8f69733c54caf23",
+  "manuscriptVersionId": "mv_5c9953b9b1979836",
+  "contentHash": "5c9953b9b19798364f521099eccb0f2db2b30b919fa9ce553ad086a013810a19",
   "title": "The Year Without a Summer: 1816 and the World Tambora Made",
   "subtitle": "1816 and the World Tambora Made",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T11:26:20.069Z"
   },
   "editorReview": {
-    "text": "This panoramic history convincingly positions the Tambora eruption as a global coupling mechanism, its stratospheric veil linking disparate events from famine in Ireland to artistic dread in Europe. The geographic scope is impressive, moving from Sumbawa to Vermont with documented specificity, and the cultural analysis, such as the reading of Turner's paintings as a form of 'ambient dread,' provides genuine insight. However, the narrative momentum is hampered by repetitive structural formulas, with too many chapters opening with similar date-location templates, and a reliance on passive voice",
+    "text": "This panoramic history compellingly frames the 1815 Tambora eruption as a global coupling event, weaving together famine in Switzerland, cholera in Bengal, and the genesis of Frankenstein in Geneva with impressive geographic specificity. It excels in moments of sensory immersion—like the opening chapter's description of ash so thick one could not see their own hand—and offers genuine insight into how artists like Turner grappled with the 'ambient dread' of a sunless world. However, the narrative momentum is periodically fractured by repetitive structural formulas, and a reliance on passive voi",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -164,25 +164,25 @@
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Artist’s Vision of a World in Ashes",
+      "title": "Turner's Thames Studio, 1819",
       "units": 2133
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Atlantic’s Silent Passage",
+      "title": "Mary-Ann's Windless Calm",
       "units": 2092
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Empire’s Hungry Winter",
+      "title": "Wheat at 112 Shillings",
       "units": 2341
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The Governor’s Dilemma in Madras",
+      "title": "Monsoon's Failure, Cholera's Arrival",
       "units": 2253
     },
     {
@@ -289,5 +289,5 @@
     }
   ],
   "publishedAt": "2026-09-02T12:22:22.208Z",
-  "rerenderedAt": "2026-09-06T12:53:11.235Z"
+  "rerenderedAt": "2026-09-06T12:59:30.947Z"
 }
