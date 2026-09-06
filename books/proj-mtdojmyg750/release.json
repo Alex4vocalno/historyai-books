@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260902162041429_658fbf260a",
   "projectId": "proj-mtdojmyg750",
-  "manuscriptVersionId": "mv_7cbce2f904c187ae",
-  "contentHash": "7cbce2f904c187aec0eae18fe7bc00e91c6e5101b7b1da15c1a9908fbd1582f7",
+  "manuscriptVersionId": "mv_906bc39b3fb7b961",
+  "contentHash": "906bc39b3fb7b9611aa5ce4e92de0c670e88de2bed968e05845da59d0d4ae999",
   "title": "Why the Night Sky Is Dark",
   "subtitle": "Olbers' Paradox and the Discovery of a Finite Universe",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T11:24:56.886Z"
   },
   "editorReview": {
-    "text": "This book's greatest strength lies in its chronological spine, which elegantly guides the reader from Kepler's early unease to modern cosmological tensions, providing a clear and compelling argumentative journey. The persistent use of the 'forest of stars' analogy is particularly effective, grounding abstract concepts in tangible, sensory intuition. However, the narrative momentum is occasionally flattened by structural oddities, such as redundant chapter titles in the middle section, and a noticeable drift toward a dry, textbook-like register in Chapters 17-20, which departs from the otherwis",
+    "text": "This book's great strength is its chronological spine, which cleanly traces the paradox from Kepler's unease to modern cosmology, effectively transforming a historical puzzle into a benchmark for contemporary science. The recurring 'forest of stars' analogy is a masterstroke, consistently grounding abstract concepts in vivid, intuitive terms. However, the narrative drive falters in the middle section, where a drift toward a dry, academic register and redundant chapter titles can flatten the prose. A significant text corruption near the end also mars the final experience, requiring the reader t",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -152,25 +152,25 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Weight of Foundation",
+      "title": "Settled Science's Second Life",
       "units": 1973
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Dark Sky’s Final Answer",
+      "title": "2.725 Degrees Above Absolute Zero",
       "units": 2332
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Paradox as a Pedagogical Template",
+      "title": "Pedagogy's Migrating Template",
       "units": 2724
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Paradox in the Public Imagination",
+      "title": "Explaining the Darkness",
       "units": 2458
     },
     {
@@ -253,6 +253,6 @@
     }
   ],
   "publishedAt": "2026-09-02T16:20:41.433Z",
-  "rerenderedAt": "2026-09-06T12:53:20.006Z",
+  "rerenderedAt": "2026-09-06T12:59:47.112Z",
   "formFamily": "narrative"
 }
