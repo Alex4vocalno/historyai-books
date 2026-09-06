@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065002342_23ad192fd4",
   "projectId": "proj-mtedvpy6eki",
-  "manuscriptVersionId": "mv_dc3842cd694203ba",
-  "contentHash": "dc3842cd694203ba6f40be0aadc03318f8cd0b0f4bc592d47a767a3e323f6127",
+  "manuscriptVersionId": "mv_e84fb1c5e3c3e632",
+  "contentHash": "e84fb1c5e3c3e63208420fdb064d0a9a4165dd69a22e6fc0c6b9867cd4b6f7ab",
   "title": "Seventy-Two Hours: Chernobyl Before the World Knew",
   "subtitle": "Chernobyl Before the World Knew",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:02:36.826Z"
   },
   "editorReview": {
-    "text": "This panoramic reconstruction of Chernobyl's seventy-two-hour secret achieves remarkable documentary density, particularly in its early, gripping chapters that masterfully build narrative tension. The central thematic framework—analyzing how confusion and secrecy became inseparable—provides a genuinely insightful and sustained lens for understanding the catastrophe. However, the reader's immersion is periodically disrupted by mechanical chapter transitions in the middle sections, where the prose can lapse into a generic register and bureaucratic actors blur together. Despite these structural h",
+    "text": "This panoramic reconstruction of Chernobyl's initial seventy-two hours achieves a compelling density, particularly in its early chapters where the granular, minute-by-minute breakdown of the test sequence masterfully builds narrative tension. The book's core insight—that the 'seventy-two-hour secret' serves as a profound epistemological template for understanding how confusion and state secrecy became inseparable—is genuinely illuminating and well-sustained throughout. However, the reading experience is hampered by a noticeable mid-book lull, where prose can lapse into a more generic register",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -182,49 +182,49 @@
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The First Public Admission",
+      "title": "Shortwave Signals Piercing Silence",
       "units": 2573
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Siege Begins with a Hover",
+      "title": "May Day Parade, Distant Fire",
       "units": 2043
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Siege of the Sarcophagus",
+      "title": "Digging the Unseen Trench",
       "units": 2080
     },
     {
       "idx": 25,
       "sourceIdx": 25,
-      "title": "The First Casualty Lists",
+      "title": "White Blood Cells Approaching Zero",
       "units": 2328
     },
     {
       "idx": 26,
       "sourceIdx": 26,
-      "title": "The First International Reckoning",
+      "title": "Iodine-131 Over Scandinavia",
       "units": 1745
     },
     {
       "idx": 27,
       "sourceIdx": 27,
-      "title": "The Weight of the Secret",
+      "title": "Secret Estimate of Resettlement Costs",
       "units": 2416
     },
     {
       "idx": 28,
       "sourceIdx": 28,
-      "title": "The Bureaucracy of Denial",
+      "title": "Medical Protocols and Managed Truth",
       "units": 2572
     },
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "The First Public Trial",
+      "title": "July's Judicial Mobilization",
       "units": 2348
     },
     {
@@ -277,6 +277,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:50:02.346Z",
-  "rerenderedAt": "2026-09-05T10:28:07.269Z",
+  "rerenderedAt": "2026-09-06T12:53:36.082Z",
   "formFamily": "narrative"
 }
