@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905015022902_606bdeed76",
   "projectId": "proj-mtmzidfdk73",
-  "manuscriptVersionId": "mv_11ffa0d3151716bd",
-  "contentHash": "11ffa0d3151716bd37b4cd9bd83942cab51e2df35d8fce16ad393bcff8f0bc31",
+  "manuscriptVersionId": "mv_d56a8753a8356a3b",
+  "contentHash": "d56a8753a8356a3b0817037e1178540d2e75380ae90f91f121f4bd840202e421",
   "title": "The Pocket Wars",
   "subtitle": "Engineering Trade-offs and the Evolution of Handheld Gaming",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:31:22.614Z"
   },
   "editorReview": {
-    "text": "This history of handheld gaming consoles distinguishes itself through a materially grounded argument—the 'Portability Trilemma' of battery, power, and control is convincingly built from engineering and economic constraints. The analysis of specific devices, like the nuanced trade-offs in the Switch, showcases the book's strength in linking hardware to philosophy. However, a structural flaw undermines its core biographical promise: the compelling portrait of Gunpei Yokoi established in the opening chapter is largely abandoned, leaving his later failures and contradictions unexplored. This, alon",
+    "text": "The book's core strength lies in its materialist approach: the 'Portability Trilemma' is convincingly built from the physical realities of battery chemistry and thermal limits, making engineering compromises tangible. Chapter 18's dissection of the Nintendo Switch exemplifies this, brilliantly capturing its 'software-defined sacrifices.' However, a significant structural flaw undercuts its biographical promise. The fascinating, detail-rich portrait of Gunpei Yokoi in Chapter 1—where his design philosophy grows from observed life—fades away. His later contradictions and failures are left unexam",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -152,25 +152,25 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Managed Compromise",
+      "title": "Docked and Undocked",
       "units": 2458
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Reopening of the Argument",
+      "title": "Weight in Your Hand",
       "units": 2279
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Unclaimed Middle Ground",
+      "title": "Scrambling to Plant Flags",
       "units": 2335
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Return of the Pocket",
+      "title": "Four Gigabytes of Manifesto",
       "units": 2131
     },
     {
@@ -265,6 +265,6 @@
     }
   ],
   "publishedAt": "2026-09-05T01:50:22.906Z",
-  "rerenderedAt": "2026-09-06T12:54:48.295Z",
+  "rerenderedAt": "2026-09-06T13:03:03.075Z",
   "formFamily": "narrative"
 }
