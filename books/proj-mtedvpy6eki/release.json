@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830065002342_23ad192fd4",
   "projectId": "proj-mtedvpy6eki",
-  "manuscriptVersionId": "mv_e84fb1c5e3c3e632",
-  "contentHash": "e84fb1c5e3c3e63208420fdb064d0a9a4165dd69a22e6fc0c6b9867cd4b6f7ab",
+  "manuscriptVersionId": "mv_bad6a04285ce6e74",
+  "contentHash": "bad6a04285ce6e740d187a832ec7187dae52907c95655750b4d7728d4819f413",
   "title": "Seventy-Two Hours: Chernobyl Before the World Knew",
   "subtitle": "Chernobyl Before the World Knew",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:02:36.826Z"
   },
   "editorReview": {
-    "text": "This panoramic reconstruction of Chernobyl's initial seventy-two hours achieves a compelling density, particularly in its early chapters where the granular, minute-by-minute breakdown of the test sequence masterfully builds narrative tension. The book's core insight—that the 'seventy-two-hour secret' serves as a profound epistemological template for understanding how confusion and state secrecy became inseparable—is genuinely illuminating and well-sustained throughout. However, the reading experience is hampered by a noticeable mid-book lull, where prose can lapse into a more generic register",
+    "text": "This panoramic reconstruction of Chernobyl’s first seventy-two hours achieves a rare documentary density, particularly in its early chapters which masterfully build narrative tension from granular operational details. Its greatest strength lies in a sustained and insightful thematic architecture, using the 'seventy-two-hour secret' as a powerful epistemological frame to analyze how confusion and state secrecy became inseparable. However, the reader's experience is hampered in the book's middle sections by prose that grows repetitive and mechanical chapter transitions, which flatten the distinc",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -158,25 +158,25 @@
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Unyielding Core",
+      "title": "Mi-8 Crews at Predawn",
       "units": 2311
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Distant Echo in Forsmark",
+      "title": "Distant Echo at Forsmark",
       "units": 2412
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Commission’s First Report",
+      "title": "Blank Page on a Heavy Desk",
       "units": 2404
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The First International Broadcast",
+      "title": "Sterile Studio Lights",
       "units": 2399
     },
     {
@@ -277,6 +277,6 @@
     }
   ],
   "publishedAt": "2026-08-30T06:50:02.346Z",
-  "rerenderedAt": "2026-09-06T12:53:36.082Z",
+  "rerenderedAt": "2026-09-06T13:00:14.346Z",
   "formFamily": "narrative"
 }
