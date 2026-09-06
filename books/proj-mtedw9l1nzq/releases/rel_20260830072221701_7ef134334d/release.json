@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830072221701_7ef134334d",
   "projectId": "proj-mtedw9l1nzq",
-  "manuscriptVersionId": "mv_cb375f32e885982b",
-  "contentHash": "cb375f32e885982b6f1ed02b17e50b07917245f9a2289ae68905bbbc62a28c2a",
+  "manuscriptVersionId": "mv_c85e76cd4023cca4",
+  "contentHash": "c85e76cd4023cca4662d9542f81576e64d006adc843c4bf5666aa039153950d3",
   "title": "Six Ways to Fall: A Natural History of Gravity",
   "subtitle": "A Natural History of Gravity",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T18:51:06.751Z"
   },
   "editorReview": {
-    "text": "This history of gravity succeeds most vividly when it grounds cosmic abstractions in sensory experience. The narrative of the first gravitational wave detection (Chapter 18), built around the iconic 'chirp', and the suspenseful account of imaging a black hole's shadow (Chapter 17) are masterclasses in intuitive explanation. However, the book's chronological ambition also creates a structural weakness: the procession through 35 discrete 'ways to understand' gravity often feels like an accumulation of episodes rather than a building argument, with the middle chapters slipping into a generic text",
+    "text": "This ambitious chronicle of gravity’s intellectual history is at its best when it grounds cosmic abstraction in tangible experience. The gripping narrative of the gravitational wave detection, anchored by the evocative 'chirp' of colliding black holes, exemplifies the ideal of an intuitive scientific explanation. Similarly, the account of imaging a black hole’s shadow masterfully builds historical suspense. However, the book's chronological structure leads to a fragmented argument, with 35 chapters often feeling like an accumulation of episodes rather than a cohesive build. While the concludin",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -224,7 +224,7 @@
     {
       "idx": 29,
       "sourceIdx": 29,
-      "title": "A Child's Question in a Whiteboard Room",
+      "title": "Whiteboard Forests in 2024",
       "units": 2508
     },
     {
@@ -248,7 +248,7 @@
     {
       "idx": 33,
       "sourceIdx": 33,
-      "title": "A Corrected Signal, An Unseen Frontier",
+      "title": "Correcting a Satellite's Clock",
       "units": 2532
     },
     {
@@ -259,5 +259,5 @@
     }
   ],
   "publishedAt": "2026-08-30T07:22:21.710Z",
-  "rerenderedAt": "2026-09-06T13:01:19.555Z"
+  "rerenderedAt": "2026-09-06T13:11:03.651Z"
 }
