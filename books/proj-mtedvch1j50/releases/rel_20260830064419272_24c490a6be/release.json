@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830064419272_24c490a6be",
   "projectId": "proj-mtedvch1j50",
-  "manuscriptVersionId": "mv_7ede264d4372e9c6",
-  "contentHash": "7ede264d4372e9c63e7205e79c5be68c382f59b960bbea4644e347f39605895d",
+  "manuscriptVersionId": "mv_f5b531f1e416446a",
+  "contentHash": "f5b531f1e416446aabc5de231a455f6961b20c5bdf15585f9e3a8aaf4a1f1853",
   "title": "The Berlin Airlift Ledger: Feeding a City by Paper and Propeller",
   "subtitle": "Feeding a City by Paper and Propeller",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-08-29T19:08:58.125Z"
   },
   "editorReview": {
-    "text": "The book's core strength lies in its compelling thesis that paperwork itself was the active governor of the airlift, a point driven home with precision in the excellent middle chapters (18-19) where archival evidence powerfully animates the narrative. However, the structural execution falters toward the end. The final chapters lose the vivid archival specificity that defines the work's best parts, sliding into more generic strategic analysis, while repetitive chapter titles betray a lack of editorial polish. It is a conceptually rich contribution to the history of logistics, but one whose form",
+    "text": "This archive chronicle offers a genuinely original contribution to airlift historiography, most powerfully in its central thesis that paperwork functioned as an 'active governor' of the operation. The conceptual framing, particularly in chapters like 18 and 19, is strong, using archival poetics to make the ledgers and manifests feel alive. However, the book's structural discipline wanes in its final third, where the tight archival focus gives way to more generic strategic analysis and repetitive thesis restatements. Readers will value the core insight but may notice a drift in voice and specif",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -152,25 +152,25 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Archive’s First Historian",
+      "title": "July 1949 Memorandum",
       "units": 2315
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Paper Machine’s Final Rhythm",
+      "title": "Daily Tonnage Summary",
       "units": 2405
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Ledger’s Public Face",
+      "title": "Statistical Summary’s Clean Lines",
       "units": 2536
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Audit's Engineered Permanence",
+      "title": "Engineered for Permanence",
       "units": 2607
     },
     {
@@ -265,5 +265,5 @@
     }
   ],
   "publishedAt": "2026-08-30T06:44:19.286Z",
-  "rerenderedAt": "2026-09-06T12:53:27.787Z"
+  "rerenderedAt": "2026-09-06T13:00:00.246Z"
 }
