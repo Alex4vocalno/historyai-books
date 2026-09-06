@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905020005550_1875391f1b",
   "projectId": "proj-mtmzis4u7mv",
-  "manuscriptVersionId": "mv_683d98e5cfe77dd9",
-  "contentHash": "683d98e5cfe77dd917bae1ae08581453e54ba9f7516ffc495d80520285b65cba",
+  "manuscriptVersionId": "mv_a3b5be4ddc5d4fa7",
+  "contentHash": "a3b5be4ddc5d4fa79a17823cb3479c271335d242630206033a21e2aa2ce0a41d",
   "title": "The Server Is a Country",
   "subtitle": "A Social History of Life Inside the Virtual World",
   "authorDisplayName": "Liszt Think",
@@ -33,7 +33,7 @@
     "createdAt": "2026-09-04T16:20:58.821Z"
   },
   "editorReview": {
-    "text": "The book delivers on its core promise of a social history of a digital world with moments of real ethnographic depth. The early chapters are particularly strong, where the author convincingly treats a guild's loot-distribution spreadsheet as a kind of living constitution and captures the tangible stakes of a 'corpse run' with poignant specificity. However, the structural focus wavers later on, most notably with the seemingly unmotivated introduction of a second, parallel game world that disrupts the narrative's initial, compelling single-domain immersion. While the final section recovers some",
+    "text": "The book shines when it delivers on its core promise: a 'Montaillou' for the digital age. The early chapters are masterful, using granular details—like the solemn ritual of retrieving a fallen comrade's pixelated gear or the constitutional weight of a guild's DKP spreadsheet—to build a vivid social history from the ground up. However, the structure falters as it progresses. The late-game pivot to a second virtual world feels abrupt and undermines the focused, single-realm chronicle initially promised, while character portraits that began with rich archival specificity gradually fade into abstr",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Editor's notes"
@@ -152,49 +152,49 @@
     {
       "idx": 17,
       "sourceIdx": 17,
-      "title": "The Great War and the First Census",
+      "title": "Ledger of Catastrophe",
       "units": 2371
     },
     {
       "idx": 18,
       "sourceIdx": 18,
-      "title": "The Player Who Became a Historian",
+      "title": "Synthesizing Data from Three Sources",
       "units": 2569
     },
     {
       "idx": 19,
       "sourceIdx": 19,
-      "title": "The Funeral for a World",
+      "title": "Service Termination Notice",
       "units": 2199
     },
     {
       "idx": 20,
       "sourceIdx": 20,
-      "title": "The Labor of the Ghost",
+      "title": "Hollowing Out a Society",
       "units": 2255
     },
     {
       "idx": 21,
       "sourceIdx": 21,
-      "title": "The Last True Frontier",
+      "title": "Wormhole Colonization as Final Defiance",
       "units": 2210
     },
     {
       "idx": 22,
       "sourceIdx": 22,
-      "title": "The End of the Evening",
+      "title": "Fourteenth Place, Two Kills",
       "units": 2420
     },
     {
       "idx": 23,
       "sourceIdx": 23,
-      "title": "The Archive of a Vanished Society",
+      "title": "README for a Dead World",
       "units": 2117
     },
     {
       "idx": 24,
       "sourceIdx": 24,
-      "title": "The Historian in the Ruins",
+      "title": "Seventeen Tabs of Collective Effort",
       "units": 2485
     },
     {
@@ -265,5 +265,5 @@
     }
   ],
   "publishedAt": "2026-09-05T02:00:05.611Z",
-  "rerenderedAt": "2026-09-05T10:26:18.652Z"
+  "rerenderedAt": "2026-09-06T13:03:42.798Z"
 }
