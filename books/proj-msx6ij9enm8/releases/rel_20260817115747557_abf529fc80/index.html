@@ -26,6 +26,11 @@
   .book-hero .cover-art{border-radius:4px 9px 9px 4px;box-shadow:0 20px 48px rgba(28,38,34,.26),0 4px 12px rgba(28,38,34,.14)}
   .book-hero .cover-art::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;z-index:3;background:linear-gradient(90deg,rgba(255,255,255,.34),rgba(255,255,255,0));pointer-events:none}
   .shelf-acts{display:flex;gap:8px;margin-left:12px}
+  .book-controls{grid-column:2;min-width:0}
+  .book-hero{row-gap:0}
+  .book-hero>.cover-open,.book-hero>.cover-art{grid-row:1/3}
+  .book-controls .actions,.book-controls .shelf-acts,.book-controls .quick-rate{flex-wrap:wrap}
+  .book-controls .actions>.primary{height:auto;min-height:50px;white-space:normal;text-align:center}
   .shelf-acts button{min-height:50px;padding:0 18px;border:1px solid var(--line);border-radius:25px;background:#fff;color:var(--muted);font-size:13.5px;font-weight:700;cursor:pointer;transition:border-color .12s,color .12s}
   .shelf-acts button:hover{border-color:#c9cfcc;color:var(--ink)}
   .shelf-acts button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 7%,#fff)}
@@ -59,6 +64,17 @@
   .quick-rate button:hover{border-color:#c9cfcc}
   .quick-rate button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 8%,#fff);font-weight:700}
   .qr-done{font-style:normal;color:var(--green-dark);font-weight:700}
+  @media(max-width:720px){
+    .book-hero>.cover-open,.book-hero>.cover-art{grid-row:1}
+    .book-main{min-width:0;overflow-wrap:anywhere}
+    .book-controls{grid-column:1/-1}
+    .book-controls .actions{margin-top:4px}
+    .book-controls .actions>.primary{width:100%;padding:12px 20px;letter-spacing:0}
+    .book-controls .shelf-acts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;margin:0}
+    .book-controls .shelf-acts button{min-width:0;padding:10px 8px;overflow-wrap:anywhere}
+    .book-controls .quick-rate>span{flex-basis:100%}
+    .book-controls .quick-rate button{min-height:44px;padding:8px 12px}
+  }
   @media(max-width:720px){.quick-rate{flex-wrap:wrap}}
   .description.clamped p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
   .desc-toggle{margin-top:10px;border:0;background:none;padding:0;font:13.5px var(--sans);color:var(--green-dark);cursor:pointer}
@@ -114,7 +130,7 @@
       }
       if(d.notes){document.querySelector('[data-rr-notes]').textContent="读者想法 "+d.notes+" 条"}
     }).catch(function(){});
-  })();</script><div class="actions"><a class="primary" data-continue-reading href="ch-1.html">开始阅读</a><div class="shelf-acts" data-shelf-acts><button type="button" data-shelf-status="wishlist">+ 想读</button><button type="button" data-shelf-status="reading">在读</button><button type="button" data-shelf-status="finished">读完</button></div></div><div class="quick-rate" data-quick-rate><span>这本书怎么样？</span><button type="button" data-qr="5">👍 推荐</button><button type="button" data-qr="3">😐 一般</button><button type="button" data-qr="1">👎 不行</button><i class="qr-done" data-qr-done hidden>已记录 ✓</i></div>
+  })();</script></div><div class="book-controls"><div class="actions"><a class="primary" data-continue-reading href="ch-1.html">开始阅读</a><div class="shelf-acts" data-shelf-acts><button type="button" data-shelf-status="wishlist">+ 想读</button><button type="button" data-shelf-status="reading">在读</button><button type="button" data-shelf-status="finished">读完</button></div></div><div class="quick-rate" data-quick-rate><span>这本书怎么样？</span><button type="button" data-qr="5">👍 推荐</button><button type="button" data-qr="3">😐 一般</button><button type="button" data-qr="1">👎 不行</button><i class="qr-done" data-qr-done hidden>已记录 ✓</i></div>
 <script>(function(){
   var EN=false;
   var bid="proj-msx6ij9enm8";
