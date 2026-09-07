@@ -215,27 +215,77 @@
 
   if (!isChapter) return; // 起始页只要外壳，不跑分页逻辑
 
-  // v4.87 旧版本自动刷新（用户定调）：本页 release 与最新不一致时静默跳到
-  // 最新版同章（章号超界收到末章）。每书每会话只跳一次防环。
-  (function autoUpgradeRelease() {
-    try {
-      var segs0 = location.pathname.split('/');
-      var bi0 = segs0.indexOf('books');
-      if (bi0 < 0 || segs0[bi0 + 2] !== 'releases') return;
-      var curRel = segs0[bi0 + 3];
-      var guard = 'hai.upgraded.' + (data.bookId || segs0[bi0 + 1]);
-      if (sessionStorage.getItem(guard)) return;
-      fetch('../../release.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (rel) {
-        if (!rel || !rel.releaseId || rel.releaseId === curRel) return;
-        sessionStorage.setItem(guard, '1');
-        var chNo = Math.min(Number(data.chapter) + 1 || 1, Number(rel.chapterCount) || 1);
-        location.replace('../../releases/' + rel.releaseId + '/ch-' + chNo + '.html');
-      }).catch(function () { /* 网络失败按当前版本读 */ });
-    } catch (e6) { /* 环境不支持则跳过 */ }
-  })();
+  if (window.__haiReaderEntryRedirecting) return;
 
   // ---- 阅读行为：翻页排版 / 设置 / 进度记忆 ----
+  // Panel history must not restore a pre-reflow scroll position over the text anchor.
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   var key = 'historyai.reader.' + data.bookId;
+  var releaseId = data.releaseId || (location.pathname.split('/releases/')[1] || '').split('/')[0];
+  var editionPolicy = (function readerEditionPolicy() {
+  const validId = id => typeof id === 'string' && /^[A-Za-z0-9_-]{1,100}$/.test(id);
+  function releaseOf(record) {
+    const id = record && (record.releaseId || record.anchor?.releaseId
+      || String(record.href || '').split('/releases/')[1]?.split('/')[0]);
+    return validId(id) ? id : '';
+  }
+  function chapterFor(record, releaseId, titles) {
+    if (!record) return -1;
+    const source = releaseOf(record);
+    if (source && source !== releaseId) {
+      if (!record.chapterTitle) return -1;
+      const hits = titles.map((title, i) => title === record.chapterTitle ? i : -1).filter(i => i >= 0);
+      return hits.length === 1 ? hits[0] : -1;
+    }
+    const index = Number(record.chapter);
+    return Number.isInteger(index) && index >= 0 && index < titles.length ? index : -1;
+  }
+  const checkpointKey = (key, releaseId) => key.replace(/^historyai\.reader\./, 'historyai.reader-edition.') + '.' + releaseId;
+  return { validId, releaseOf, chapterFor, checkpointKey };
+})();
+  var readerEdition = (function createReaderEdition({ storage, key, releaseId, policy }) {
+  let raw = null, previous = {}, corrupt = false, readFailed = false;
+  try {
+    raw = storage.getItem(key);
+  } catch { readFailed = true; }
+  try {
+    previous = raw ? JSON.parse(raw) : {};
+    if (!previous || typeof previous !== 'object' || Array.isArray(previous)) corrupt = true;
+  } catch { corrupt = true; }
+  const source = policy.releaseOf(previous);
+  const crossing = Boolean(source && source !== releaseId);
+  let allowed = !crossing && !corrupt && !readFailed;
+  let backedUp = false;
+  function backup() {
+    if (readFailed) return false;
+    if (backedUp) return true;
+    try {
+      if (raw !== null) {
+        const archiveKey = policy.checkpointKey(key, source || 'legacy');
+        storage.setItem(archiveKey, raw);
+        if (storage.getItem(archiveKey) !== raw) return false;
+      }
+      backedUp = true;
+      return true;
+    } catch { return false; }
+  }
+  let progress = allowed ? previous : {};
+  if (crossing && backup()) {
+    try {
+      const saved = JSON.parse(storage.getItem(policy.checkpointKey(key, releaseId)) || 'null');
+      if (saved && policy.releaseOf(saved) === releaseId) { progress = saved; allowed = true; }
+    } catch { /* A damaged checkpoint must not replace the source record. */ }
+  }
+  return {
+    previous: corrupt ? {} : previous, progress,
+    needsRecovery: corrupt || readFailed,
+    canSave: () => allowed,
+    accept() { if (!backup()) return false; allowed = true; return true; },
+  };
+})({
+    storage: { getItem: function (k) { return localStorage.getItem(k); }, setItem: function (k, v) { localStorage.setItem(k, v); } },
+    key: key, releaseId: releaseId, policy: editionPolicy
+  });
   var PREF_KEY = 'historyai.reader.settings';
   // v5.40 外观全局化（用户实弹：每次点阅读默认夜间）：外观（纸色/字体/字号/
   // 行距/版心/翻页）存全站 key，一次设定所有书生效；书级 key 只存进度。
@@ -243,61 +293,140 @@
   var state = { theme: 'paper', face: 'serif', font: 18, leading: 2, width: 760, mode: 'page', chapter: 0, page: 0, href: '' };
   try { state = Object.assign(state, JSON.parse(localStorage.getItem(PREF_KEY) || '{}')); } catch (e) { /* 首次阅读 */ }
   try {
-    var prog0 = JSON.parse(localStorage.getItem(key) || '{}');
+    var prog0 = readerEdition.progress;
     // 老账迁移：手选过主题的读者把书级外观带进全站偏好（仅当全站偏好还没建立）
     if (prog0.themeChosen && !localStorage.getItem(PREF_KEY)) {
       ['theme', 'face', 'font', 'leading', 'width', 'mode'].forEach(function (k0) { if (prog0[k0] !== undefined) state[k0] = prog0[k0]; });
     }
     state.chapter = prog0.chapter || 0; state.page = prog0.page || 0; state.href = prog0.href || '';
+    state.anchor = prog0.anchor || null; state.updatedAt = prog0.updatedAt || '';
   } catch (e) { /* 首次阅读 */ }
   if (state.mode !== 'scroll') state.mode = 'page';
   var flow = document.querySelector('.flow-inner');
   var paper = document.querySelector('.reader-paper');
   var flowBox = document.querySelector('.paper-flow');
   var page = 0, total = 1, step = 1, prefetched = false;
+  var positionReady = false, readerSync = null, applyingSync = false, anchoredScrollY = null;
+  var mayPrefetch = (function readerMayPrefetch(navigator, document) {
+  if (document.visibilityState === 'hidden' || navigator.onLine === false) return false;
+  const connection = navigator.connection;
+  if (!connection) return true;
+  return !connection.saveData && !['slow-2g', '2g', '3g'].includes(connection.effectiveType)
+    && !(connection.downlink > 0 && connection.downlink < 1.5);
+});
+  var initialPosition = readerEdition.progress;
+  var readerLocation = (function createReaderLocation({ document, window, content, flow, chapter, chapterTitle, releaseId }) {
+  function textNodes(block) {
+    const walker = document.createTreeWalker(block, 4);
+    const nodes = [];
+    let node;
+    while ((node = walker.nextNode())) {
+      if (!node.parentElement.closest('.idea-dot,.review-box')) nodes.push(node);
+    }
+    return nodes;
+  }
+  function fingerprint(text) {
+    let hash = 2166136261;
+    for (let i = 0; i < text.length; i++) hash = Math.imul(hash ^ text.charCodeAt(i), 16777619);
+    return (hash >>> 0).toString(16);
+  }
+  const blocks = content ? [...content.querySelectorAll('p,h2,h3,h4,li,pre')]
+    .filter(block => !block.closest('.review-box') && !block.querySelector('p,li,pre')) : [];
+  const entries = blocks.map(block => {
+    const text = textNodes(block).map(node => node.nodeValue).join('');
+    return { block, hash: fingerprint(text), length: text.length };
+  });
+  function resolve(anchor) {
+    if (!anchor || anchor.version !== 1 || anchor.releaseId !== releaseId
+      || anchor.chapter !== chapter || anchor.chapterTitle !== chapterTitle
+      || !Number.isInteger(anchor.offset) || anchor.offset < 0) return null;
+    const matches = entry => entry && entry.hash === anchor.hash && entry.length === anchor.length;
+    let entry = entries[anchor.block];
+    if (!matches(entry)) {
+      const hits = entries.filter(matches);
+      if (hits.length !== 1) return null;
+      entry = hits[0];
+    }
+    return anchor.offset < entry.length ? entry : null;
+  }
+  function characterRect(entry, offset) {
+    for (const node of textNodes(entry.block)) {
+      if (offset < node.nodeValue.length) {
+        const range = document.createRange();
+        range.setStart(node, offset); range.setEnd(node, offset + 1);
+        return range.getBoundingClientRect();
+      }
+      offset -= node.nodeValue.length;
+    }
+    return null;
+  }
+  const topEdge = () => Math.max(0, document.querySelector('.reader-bar')?.getBoundingClientRect().bottom || 0) + 8;
+  const pageOf = (rect, step) => Math.max(0, Math.floor((rect.left - flow.getBoundingClientRect().left + 1) / step));
+  function capture({ mode, page, step }) {
+    const top = topEdge();
+    for (let index = 0; index < entries.length; index++) {
+      const entry = entries[index];
+      if (!entry.length) continue;
+      const rects = [...entry.block.getClientRects()];
+      const visible = rects.some(rect => mode === 'page' ? pageOf(rect, step) === page
+        : rect.bottom > top && rect.top < window.innerHeight);
+      if (!visible) continue;
+      // Find the first visible character, including a paragraph split across columns.
+      let lo = 0, hi = entry.length - 1;
+      while (lo < hi) {
+        const mid = Math.floor((lo + hi) / 2);
+        const rect = characterRect(entry, mid);
+        if (!rect) return null;
+        const before = mode === 'page' ? pageOf(rect, step) < page : rect.bottom <= top;
+        if (before) lo = mid + 1; else hi = mid;
+      }
+      return { version: 1, releaseId, chapter, chapterTitle, block: index,
+        hash: entry.hash, length: entry.length, offset: lo };
+    }
+    return null;
+  }
+  return {
+    capture,
+    migrate(anchor) {
+      if (!anchor || anchor.version !== 1 || anchor.chapterTitle !== chapterTitle
+        || !Number.isInteger(anchor.offset) || anchor.offset < 0) return null;
+      const hits = entries.map((entry, index) => ({ ...entry, index }))
+        .filter(entry => entry.hash === anchor.hash && entry.length === anchor.length && anchor.offset < entry.length);
+      if (hits.length !== 1) return null;
+      return { ...anchor, releaseId, chapter, block: hits[0].index };
+    },
+    pageFor(anchor, step) {
+      const entry = resolve(anchor);
+      const rect = entry && characterRect(entry, anchor.offset);
+      return rect ? pageOf(rect, step) : null;
+    },
+    scrollTo(anchor) {
+      const entry = resolve(anchor);
+      const rect = entry && characterRect(entry, anchor.offset);
+      if (!rect) return false;
+      window.scrollBy({ top: rect.top - topEdge(), behavior: 'instant' });
+      return true;
+    },
+  };
+})({
+    document: document, window: window, content: document.querySelector('.reader-content'), flow: flow,
+    chapter: Number(data.chapter), chapterTitle: data.chapterTitle || '',
+    releaseId: releaseId
+  });
   var prevHref = Number(data.chapter) > 0 ? chapterHref(Number(data.chapter) - 1) : '';
   var nextHref = Number(data.chapter) + 1 < titles.length ? chapterHref(Number(data.chapter) + 1) : '';
 
   function save() {
     try { localStorage.setItem(PREF_KEY, JSON.stringify({ theme: state.theme, face: state.face, font: state.font, leading: state.leading, width: state.width, mode: state.mode })); } catch (e) { /* 隐私模式 */ }
-    try { localStorage.setItem(key, JSON.stringify({ chapter: state.chapter, page: state.page, href: state.href, chapterTitle: state.chapterTitle, updatedAt: state.updatedAt })); } catch (e) { /* 隐私模式 */ }
-    cloudPush();
+    if (!positionReady || !readerEdition.canSave()) return;
+    if (applyingSync) return;
+    try { localStorage.setItem(key, JSON.stringify({ releaseId: releaseId, chapter: state.chapter, page: state.page, anchor: state.anchor, href: state.href, chapterTitle: state.chapterTitle, updatedAt: state.updatedAt, readerUserId: readerSync && readerSync.isReady() ? readerSync.userId() : initialPosition.readerUserId || '' })); } catch (e) { /* 隐私模式 */ }
+    if (readerSync) readerSync.note(syncPosition());
   }
-  // v4.87 进度云同步：登录读者换设备不丢书。探测一次身份，匿名整体跳过；
-  // 写云节流 5s；云端进度更新且指向别章时静默接续（每书每会话只跳一次）。
-  var cloudOn = false, cloudTimer = null;
-  function cloudPush() {
-    if (!cloudOn) return;
-    clearTimeout(cloudTimer);
-    cloudTimer = setTimeout(function () {
-      try {
-        fetch('/api/reader/progress', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          credentials: 'same-origin',
-          body: JSON.stringify({ bookId: data.bookId, releaseId: (location.pathname.split('/releases/')[1] || '').split('/')[0], chapter: Number(data.chapter) || 0, n: (titles && titles.length) || 0, page: Number(state.page) || 0, title: data.title || '', chapterTitle: data.chapterTitle || '' }),
-        }).catch(function () {});
-      } catch (e7) {}
-    }, 5000);
+  function syncPosition() {
+    return { releaseId: releaseId, chapter: Number(data.chapter) || 0, n: titles.length, page: Number(state.page) || 0,
+      anchor: state.anchor || null, title: data.title || '', chapterTitle: data.chapterTitle || '' };
   }
-  try {
-    fetch('/api/auth/me', { credentials: 'same-origin' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
-      if (!(me && me.ok && me.user)) return;
-      cloudOn = true;
-      return fetch('/api/reader/progress?bookId=' + encodeURIComponent(data.bookId), { credentials: 'same-origin' })
-        .then(function (r) { return r.ok ? r.json() : null; })
-        .then(function (d2) {
-          var row = d2 && d2.row;
-          if (!row) return;
-          var localAt = String(state.updatedAt || '');
-          var guard2 = 'hai.cloudjump.' + data.bookId;
-          if (String(row.updatedAt) > localAt && Number(row.chapter) !== Number(data.chapter) && !sessionStorage.getItem(guard2)) {
-            sessionStorage.setItem(guard2, '1');
-            location.replace(chapterHref(Number(row.chapter)));
-          }
-        });
-    }).catch(function () { /* 未登录/网络失败=本地模式 */ });
-  } catch (e8) {}
   // v4.86/v6.4 阅读埋点：open/half/finish/paint 四事件，
   // 匿名 tid、sendBeacon 零阻塞、失败无感。数据落写作台 output/telemetry/。
   function track(ev, extra) {
@@ -319,16 +448,17 @@
     var pctNode = document.querySelector('[data-reader-pct]');
     if (pctNode) pctNode.textContent = Math.round(Math.max(0, Math.min(1, r)) * 100) + '%';
     if (r >= 0.5) trackOnce('half');
-    if (r >= 0.9 && nextHref && !prefetched) {
+    if (r >= 0.9 && nextHref && !prefetched && mayPrefetch(navigator, document)) {
       prefetched = true;
       var pl = document.createElement('link'); pl.rel = 'prefetch'; pl.href = nextHref; document.head.appendChild(pl);
     }
     if (r >= 0.98) {
       trackOnce('finish');
       // v5.12 读完自动标记（用户定调对齐微信读书）：末章读完即记书架「读完」
-      if (!nextHref && cloudOn && !window.__haiMarkedFinished) {
+      if (!nextHref && readerSync && readerSync.isReady() && readerEdition.canSave() && !applyingSync && !window.__haiMarkedFinished) {
         window.__haiMarkedFinished = true;
-        fetch('/api/reader/shelf', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ bookId: data.bookId, title: data.title || '', status: 'finished' }) }).then(function () {
+        fetch('/api/reader/shelf', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ bookId: data.bookId, title: data.title || '', status: 'finished', syncUserId: readerSync.userId() }) }).then(function (r) { return r.json(); }).then(function (result) {
+          if (!result.ok) { window.__haiMarkedFinished = false; return; }
           var mk = document.querySelector('[data-mark-finished]');
           if (mk) { mk.textContent = data.lang === 'en' ? '✓ Finished' : '✓ 已读完'; mk.disabled = true; }
         }).catch(function () {});
@@ -353,8 +483,13 @@
     if (loc && state.mode === 'page') loc.textContent = chapterLabel + ' · ' + (data.chapterTitle || '') + ' · ' + (page + 1) + '/' + total + (data.lang === 'en' ? ' pages' : ' 页');
   }
   function layout(keepRatio) {
+    var anchor = keepRatio ? state.anchor : null;
     root.dataset.rmode = state.mode;
-    if (state.mode !== 'page') { if (flow) { flow.style.columnWidth = ''; flow.style.columnGap = ''; flow.style.transform = ''; flow.style.height = ''; } scrollProgress(); return; }
+    if (state.mode !== 'page') {
+      if (flow) { flow.style.columnWidth = ''; flow.style.columnGap = ''; flow.style.transform = ''; flow.style.height = ''; }
+      if (anchor) restoreScrollAnchor(anchor);
+      scrollProgress(); return;
+    }
     if (!flow || !flowBox) return;
     var ratio = total > 1 ? page / (total - 1) : 0;
     var cw = flowBox.clientWidth, gap = 48;
@@ -368,12 +503,17 @@
     flow.style.columnWidth = cw + 'px'; flow.style.columnGap = gap + 'px';
     step = cw + gap;
     total = Math.max(1, Math.round((flow.scrollWidth + gap) / step));
-    go(keepRatio ? Math.round(ratio * (total - 1)) : Math.min(page, total - 1));
+    var anchoredPage = anchor && readerLocation.pageFor(anchor, step);
+    go(anchoredPage != null ? anchoredPage : keepRatio ? Math.round(ratio * (total - 1)) : Math.min(page, total - 1), Boolean(anchor && anchoredPage != null));
   }
-  function go(n) {
+  function go(n, preserveAnchor) {
     page = Math.max(0, Math.min(total - 1, n));
     if (flow) flow.style.transform = 'translate3d(-' + (page * step) + 'px,0,0)';
-    setBar(total > 1 ? page / (total - 1) : 1); indicator(); state.page = page; save();
+    setBar(total > 1 ? page / (total - 1) : 1); indicator(); state.page = page;
+    if (positionReady) {
+      if (!preserveAnchor) state.anchor = readerLocation.capture({ mode: 'page', page: page, step: step });
+      state.updatedAt = new Date().toISOString(); save();
+    }
     var sl = document.querySelector('[data-reader-slider]');
     if (sl) { sl.max = String(Math.max(0, total - 1)); sl.value = String(page); }
   }
@@ -406,6 +546,11 @@
     document.querySelectorAll('[data-setting]').forEach(function (b) { b.classList.toggle('active', String(state[b.dataset.setting]) === b.dataset.value); });
     var f = document.querySelector('[data-font-value]'); if (f) f.textContent = state.font + ' px';
   }
+  function restoreScrollAnchor(anchor) {
+    if (!readerLocation.scrollTo(anchor)) return false;
+    anchoredScrollY = scrollY;
+    return true;
+  }
   function scrollProgress() {
     if (state.mode === 'page') return;
     var totalH = Math.max(1, document.documentElement.scrollHeight - innerHeight);
@@ -414,9 +559,20 @@
     // v5.25 阅读体验深化：滚动模式同样显示本章剩余时间（此前只有翻页模式有）
     var loc2 = document.querySelector('.reader-location');
     if (loc2) loc2.textContent = chapterLabel + ' · ' + (data.chapterTitle || '') + ' · ' + remainText(r);
+    if (positionReady) {
+      // Programmatic reflow can round a text position to a different line in WebKit.
+      if (!state.anchor || anchoredScrollY === null || Math.abs(scrollY - anchoredScrollY) > 1) {
+        state.anchor = readerLocation.capture({ mode: 'scroll', page: page, step: step });
+        anchoredScrollY = null;
+      }
+      state.updatedAt = new Date().toISOString(); save();
+    }
   }
 
   var sameChapter = Number(state.chapter) === Number(data.chapter);
+  var savedPage = sameChapter ? Number(state.page) || 0 : 0;
+  var savedAnchor = sameChapter ? state.anchor : null;
+  state.anchor = savedAnchor;
   state.chapter = Number(data.chapter);
   state.href = new URL(L.self || location.pathname.split('/').pop(), location.href).href;
   state.chapterTitle = data.chapterTitle;
@@ -463,13 +619,152 @@
       save(); apply(); layout(true);
     });
   });
-  var toggle = document.querySelector('[data-toggle-settings]');
-  if (toggle) toggle.addEventListener('click', function (e) { e.stopPropagation(); settings.hidden = !settings.hidden; });
-  settings.addEventListener('click', function (e) { e.stopPropagation(); });
-  document.addEventListener('click', function () { if (!settings.hidden) settings.hidden = true; });
-  addEventListener('keydown', function (e) { if (e.key === 'Escape' && !settings.hidden) settings.hidden = true; });
-  var drawerToggle = document.querySelector('[data-toggle-drawer]');
-  if (drawerToggle) drawerToggle.addEventListener('click', function () { document.body.classList.toggle('drawer-open'); if (document.body.classList.contains('drawer-open')) { defer(restoreTocScroll); defer(loadBookmarkList); } });
+  var readerPanels = (function installReaderPanels({ document, window, settings, drawer, mask, onOpenDrawer, onCloseDrawer, english }) {
+  const settingsButton = document.querySelector('[data-toggle-settings]');
+  const drawerButton = document.querySelector('[data-toggle-drawer]');
+  const panels = { settings, contents: drawer };
+  const buttons = { settings: settingsButton, contents: drawerButton };
+  let active = null;
+  let returnFocus = null;
+  let ownsHistory = false;
+  let closingHistory = false;
+  let queued = null;
+  let afterClose = null;
+  const mobile = () => window.matchMedia('(max-width:980px)').matches;
+  const focusables = panel => [...panel.querySelectorAll('button,a[href],input,textarea,select,[tabindex="0"]')]
+    .filter(el => !el.disabled && el.getClientRects().length);
+
+  function update() {
+    settings.hidden = active !== 'settings';
+    if (panels.notes) panels.notes.hidden = active !== 'notes';
+    document.body.classList.toggle('drawer-open', active === 'contents');
+    if (drawer) drawer.inert = mobile() && active !== 'contents';
+    for (const [name, panel] of Object.entries(panels)) {
+      if (!panel) continue;
+      if (buttons[name]) buttons[name].setAttribute('aria-expanded', String(active === name));
+      const modal = active === name && (name !== 'contents' || mobile());
+      if (modal) { panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'true'); }
+      else { panel.removeAttribute('role'); panel.removeAttribute('aria-modal'); }
+    }
+  }
+
+  function hide(restoreFocus = true) {
+    if (active === 'contents') onCloseDrawer();
+    active = null;
+    update();
+    if (restoreFocus && returnFocus && returnFocus.isConnected) returnFocus.focus({ preventScroll: true });
+  }
+
+  function close(callback) {
+    afterClose = typeof callback === 'function' ? callback : null;
+    queued = null;
+    hide();
+    if (ownsHistory && window.history.state?.haiReaderPanel) {
+      ownsHistory = false;
+      closingHistory = true;
+      window.history.back();
+    } else if (afterClose) {
+      const done = afterClose; afterClose = null; done();
+    }
+  }
+
+  function focusPanel(name) {
+    const target = name === 'notes' && panels[name].querySelector('textarea');
+    (target || focusables(panels[name])[0] || panels[name]).focus({ preventScroll: true });
+  }
+
+  function open(name, replace = false) {
+    if (!panels[name]) return;
+    if (closingHistory) { queued = name; return; }
+    if (active === name && !replace) { close(); return; }
+    if (active === 'contents') onCloseDrawer();
+    if (!active) returnFocus = document.activeElement;
+    active = name;
+    update();
+    try {
+      const state = { ...window.history.state, haiReaderPanel: name };
+      if (ownsHistory) window.history.replaceState(state, '');
+      else { window.history.pushState(state, ''); ownsHistory = true; }
+    } catch { /* Restricted history must not prevent opening a panel. */ }
+    if (name === 'contents') onOpenDrawer();
+    focusPanel(name);
+  }
+
+  function prepare(name, panel) {
+    panel.id = 'reader-panel-' + name;
+    panel.tabIndex = -1;
+    const labels = english ? { settings: 'Reading settings', contents: 'Contents', notes: 'Thoughts' }
+      : { settings: '阅读设置', contents: '目录', notes: '想法' };
+    panel.setAttribute('aria-label', labels[name]);
+    const button = document.createElement('button');
+    button.type = 'button'; button.className = 'reader-panel-close'; button.textContent = '×';
+    button.setAttribute('aria-label', english ? 'Close' : '关闭');
+    button.addEventListener('click', close);
+    panel.insertBefore(button, panel.firstChild);
+  }
+  for (const [name, panel] of Object.entries(panels)) {
+    if (!panel) continue;
+    prepare(name, panel);
+    if (buttons[name]) {
+      buttons[name].setAttribute('aria-controls', panel.id);
+      buttons[name].addEventListener('click', event => { event.stopPropagation(); open(name); });
+    }
+  }
+  settings.addEventListener('click', event => event.stopPropagation());
+  mask.addEventListener('click', close);
+  document.addEventListener('click', event => {
+    if (active === 'settings' && !settings.contains(event.target)) close();
+  });
+  document.addEventListener('keydown', event => {
+    if (!active) return;
+    if (event.key === 'Escape') { event.preventDefault(); close(); return; }
+    if (event.key !== 'Tab' || (active === 'contents' && !mobile())) return;
+    const panel = panels[active];
+    const list = focusables(panel);
+    const first = list[0] || panel, last = list.at(-1) || panel;
+    if (event.shiftKey && (document.activeElement === first || !panel.contains(document.activeElement))) {
+      event.preventDefault(); last.focus();
+    } else if (!event.shiftKey && (document.activeElement === last || !panel.contains(document.activeElement))) {
+      event.preventDefault(); first.focus();
+    }
+  });
+  window.addEventListener('popstate', () => {
+    const next = window.history.state?.haiReaderPanel;
+    ownsHistory = Boolean(next && panels[next]);
+    hide();
+    if (ownsHistory) { active = next; update(); if (next === 'contents') onOpenDrawer(); focusPanel(next); }
+    closingHistory = false;
+    if (afterClose) {
+      const done = afterClose; afterClose = null;
+      window.requestAnimationFrame(done);
+    }
+    if (queued) { const name = queued; queued = null; open(name); }
+  });
+  window.addEventListener('resize', update);
+  const restored = window.history.state?.haiReaderPanel;
+  if (restored && panels[restored]) {
+    active = restored;
+    ownsHistory = true;
+    if (active === 'contents') onOpenDrawer();
+  }
+  update();
+  return {
+    open, close,
+    isOpen: name => name ? active === name : Boolean(active),
+    showNotes(panel) {
+      if (panels.notes) panels.notes.remove();
+      panels.notes = panel;
+      panel.hidden = true;
+      prepare('notes', panel);
+      open('notes', true);
+    },
+  };
+})({
+    document: document, window: window, settings: settings, drawer: drawer, mask: mask,
+    english: data.lang === 'en',
+    onOpenDrawer: function () { defer(restoreTocScroll); defer(loadBookmarkList); },
+    onCloseDrawer: saveTocScroll
+  });
   // v5.87 抽屉书签列表（用户定案：书签可保存可回访）：云端+本机合并渲染，
   // 点击跳到对应章的段落（同章直接翻页定位，跨章 sessionStorage 递话）
   function loadBookmarkList() {
@@ -490,7 +785,7 @@
           b.type = 'button'; b.className = 'bm-row';
           b.innerHTML = '<b>' + (data.lang === 'en' ? 'Ch.' : '第') + (Number(r.chapter) + 1) + (data.lang === 'en' ? '' : '章') + '</b>' + String(r.quote || '').slice(0, 42).replace(/[<>&]/g, '');
           b.addEventListener('click', function () {
-            if (Number(r.chapter) === Number(data.chapter)) { document.body.classList.remove('drawer-open'); jumpToPara(Number(r.para) || 0); return; }
+            if (Number(r.chapter) === Number(data.chapter)) { readerPanels.close(function () { jumpToPara(Number(r.para) || 0); }); return; }
             try { sessionStorage.setItem('historyai.reader.bmjump', JSON.stringify({ bookId: data.bookId, chapter: Number(r.chapter), para: Number(r.para) || 0 })); } catch (eJ) {}
             location.href = chapterHref(Number(r.chapter));
           });
@@ -505,8 +800,41 @@
     if (state.mode === 'page' && typeof step === 'number' && step > 0) { go(Math.round(el.offsetLeft / step)); }
     else { el.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
   }
-  mask.addEventListener('click', function () { document.body.classList.remove('drawer-open'); });
-  addEventListener('scroll', scrollProgress, { passive: true });
+  (function installReaderLifecycle({ window, document, content, persist, scroll, layout, restore }) {
+  let scrollTimer, layoutTimer;
+  function saveNow() {
+    window.clearTimeout(scrollTimer);
+    persist();
+  }
+  function reflow() {
+    window.clearTimeout(layoutTimer);
+    layoutTimer = window.setTimeout(() => {
+      if (document.visibilityState !== 'hidden') layout();
+    }, 150);
+  }
+  window.addEventListener('scroll', () => {
+    window.clearTimeout(scrollTimer);
+    scrollTimer = window.setTimeout(scroll, 100);
+  }, { passive: true });
+  window.addEventListener('pagehide', saveNow);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') saveNow();
+    else reflow();
+  });
+  window.addEventListener('pageshow', event => {
+    if (event.persisted) { restore(); layout(); }
+  });
+  window.addEventListener('resize', reflow);
+  window.visualViewport?.addEventListener('resize', reflow);
+  window.addEventListener('load', reflow);
+  content?.addEventListener('load', event => { if (event.target.tagName === 'IMG') reflow(); }, true);
+  document.fonts?.ready.then(reflow).catch(() => {});
+})({
+    window: window, document: document, content: document.querySelector('.reader-content'),
+    persist: function () { if (state.mode === 'scroll') scrollProgress(); else save(); },
+    scroll: scrollProgress, layout: function () { layout(true); },
+    restore: function () { applyingSync = false; }
+  });
 
   // v4.98.1 点按翻页（Kindle 式）：左 1/3 上一页，其余下一页。轻点统一走 click
   // 通道——触屏轻点有合成 click、滑动没有，天然分流；滑动归下方 touch 通道独管。
@@ -514,8 +842,7 @@
     paper.addEventListener('click', function (e) {
       if (state.mode !== 'page') return;
       if (!settings.hidden || document.body.classList.contains('drawer-open')) return;
-      var sheetEl = document.querySelector('.idea-sheet');
-      if (sheetEl) { sheetEl.remove(); return; } // 想法面板开着：点正文=收起，不翻页
+      if (readerPanels.isOpen('notes')) { readerPanels.close(); return; } // 想法面板开着：点正文=收起，不翻页
       if (e.target.closest && e.target.closest('a,button,input,textarea,label,.idea-dot,.review-box')) return;
       try { if (window.getSelection && String(window.getSelection())) return; } catch (e9) {}
       // v5.87 三分区（微信读书式）：左 30% 上一页 / 中 40% 收放工具栏 / 右 30% 下一页
@@ -527,7 +854,7 @@
   }
   document.addEventListener('keydown', function (e) {
     if (e.defaultPrevented || e.ctrlKey || e.metaKey || e.altKey) return;
-    if (!settings.hidden || document.body.classList.contains('drawer-open') || document.querySelector('.idea-sheet,.ill-lightbox')) return;
+    if (readerPanels.isOpen() || document.querySelector('.ill-lightbox')) return;
     if (e.target.closest && e.target.closest('input,textarea,select,button,a,[contenteditable]:not([contenteditable="false"]),[role="dialog"]')) return;
     if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); flip(1); }
     else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); flip(-1); }
@@ -538,13 +865,13 @@
   var swipeX = null, swipeY = 0, swipeT = 0;
   addEventListener('touchstart', function (e) {
     swipeX = null;
-    if (!settings.hidden || document.body.classList.contains('drawer-open')) return;
+    if (readerPanels.isOpen()) return;
     if (!paper || !paper.contains(e.target)) return;
     if (!e.touches || e.touches.length !== 1) { swipeX = null; return; }
     swipeX = e.touches[0].clientX; swipeY = e.touches[0].clientY; swipeT = Date.now();
   }, { passive: true });
   addEventListener('touchend', function (e) {
-    if (!settings.hidden || document.body.classList.contains('drawer-open')) { swipeX = null; return; }
+    if (readerPanels.isOpen()) { swipeX = null; return; }
     if (state.mode !== 'page' || swipeX === null) return;
     var c = e.changedTouches && e.changedTouches[0]; if (!c) return;
     var dx = c.clientX - swipeX, dy = c.clientY - swipeY, dt = Date.now() - swipeT;
@@ -555,8 +882,6 @@
     flip(dx < 0 ? 1 : -1, true);
   }, { passive: true });
   addEventListener('touchcancel', function () { swipeX = null; }, { passive: true });
-  var rsz = null;
-  addEventListener('resize', function () { clearTimeout(rsz); rsz = setTimeout(function () { layout(true); }, 150); });
   // v5.87 跨章书签落点：上一页面把目标段写进 sessionStorage，本章加载后翻过去
   (function bmJumpLanding() {
     try {
@@ -615,7 +940,9 @@
       box.appendChild(h);
     }
     var sheet = null;
-    function closeSheet() { if (sheet) { sheet.remove(); sheet = null; } }
+    var noteDrafts = Object.create(null);
+    function closeSheet() { if (readerPanels.isOpen('notes')) readerPanels.close(); }
+    function showSheet() { document.body.appendChild(sheet); readerPanels.showNotes(sheet); }
     function renderItem(box, item, kind, refresh) {
       var it = el2('div', 'idea-item');
       var who = el2('div', 'who');
@@ -769,7 +1096,6 @@
         }).catch(function () {});
     }
     function openSheet(notes2, paraEl) {
-      closeSheet();
       sheet = el2('div', 'idea-sheet');
       var thoughts = notes2.filter(function (n) { return n.text; });
       var marks = notes2.filter(function (n) { return !n.text; });
@@ -790,47 +1116,58 @@
       thoughts.forEach(function (n) { renderItem(sheet, n, 'note', refreshAll); });
       if (!loggedIn2) loginHint(sheet);
       var x = el2('div', 'idea-act');
-      var w = el2('span', '', T('✍ 写想法', '✍ Add a thought'));
+      var w = el2('button', '', T('写想法', 'Add a thought'));
       w.onclick = function () {
         var q = notes2[0].quote;
         var pi = Math.max(0, Number(notes2[0]._para) || 0);
         if (window.__haiIdeaCompose) window.__haiIdeaCompose(q, pi);
       };
       x.appendChild(w);
-      var c = el2('span', '', T('关闭', 'Close'));
+      var c = el2('button', '', T('关闭', 'Close'));
       c.onclick = closeSheet;
       x.appendChild(c);
       sheet.appendChild(x);
-      document.body.appendChild(sheet);
+      showSheet();
     }
     function refreshAll() { closeSheet(); refreshNotes(); }
     window.__haiNotesRefresh = refreshAll;
     // 想法作曲器（选择浮钮的 💬 调用）
     window.__haiIdeaCompose = function (quote, para) {
-      closeSheet();
       sheet = el2('div', 'idea-sheet');
       sheet.appendChild(el2('h4', '', T('写想法', 'Add a thought')));
       sheet.appendChild(el2('p', 'idea-quote', quote));
-      if (!loggedIn2) { loginHint(sheet); document.body.appendChild(sheet); return; }
+      if (!loggedIn2) { loginHint(sheet); showSheet(); return; }
       var row = el2('div', 'idea-input');
       var ta = document.createElement('textarea');
       ta.placeholder = T('这段文字让你想到什么…', 'What does this passage make you think…');
+      ta.setAttribute('aria-label', T('想法内容', 'Your thought'));
+      var draftKey = JSON.stringify([para, quote]);
+      ta.value = noteDrafts[draftKey] || '';
+      ta.addEventListener('input', function () { noteDrafts[draftKey] = ta.value; });
+      var submittedSheet = sheet;
       var go = el2('button', '', T('发表', 'Post'));
       go.onclick = function () {
         var v = ta.value.trim();
         if (!v) return;
         post2('/api/book/notes', { bookId: data.bookId, chapter: Number(data.chapter) + 1, para: para, quote: quote, text: v })
-          .then(function (r2) { if (r2 && r2.ok) refreshAll(); else alert((r2 && r2.error) || T('发表失败', 'Failed')); });
+          .then(function (r2) {
+            if (r2 && r2.ok) {
+              var unchanged = ta.value.trim() === v;
+              if (noteDrafts[draftKey] === ta.value && unchanged) delete noteDrafts[draftKey];
+              if (unchanged) ta.value = '';
+              if (sheet === submittedSheet && unchanged) closeSheet();
+              refreshNotes();
+            } else alert((r2 && r2.error) || T('发表失败', 'Failed'));
+          }).catch(function () { alert(T('发表失败，输入已保留', 'Failed to post. Your text is preserved.')); });
       };
       row.appendChild(ta); row.appendChild(go);
       sheet.appendChild(row);
       var x2 = el2('div', 'idea-act');
-      var c2 = el2('span', '', T('关闭', 'Close'));
+      var c2 = el2('button', '', T('关闭', 'Close'));
       c2.onclick = closeSheet;
       x2.appendChild(c2);
       sheet.appendChild(x2);
-      document.body.appendChild(sheet);
-      ta.focus();
+      showSheet();
     };
     refreshNotes();
     // 末章：打分 + 书评
@@ -957,9 +1294,365 @@
   })();
 
   layout(false);
+  positionReady = true;
   if (state.mode === 'page') {
     if (location.hash === '#last') go(total - 1);
-    else if (sameChapter && Number.isFinite(Number(state.page))) go(Math.min(Number(state.page), total - 1));
+    else {
+      var restoredPage = savedAnchor && readerLocation.pageFor(savedAnchor, step);
+      go(restoredPage != null ? restoredPage : savedPage, Boolean(savedAnchor && restoredPage != null));
+    }
+  } else {
+    if (savedAnchor) restoreScrollAnchor(savedAnchor);
+    scrollProgress();
   }
-  addEventListener('load', function () { setTimeout(function () { layout(true); }, 80); });
+  (function installReaderEditionNotice({ document, window, data, policy, edition, location, releaseId, onAccept, onResize }) {
+  const en = data.lang === 'en';
+  const paper = document.querySelector('.reader-paper');
+  let notice;
+  function show(text) {
+    if (notice) notice.remove();
+    notice = document.createElement('section');
+    notice.className = 'reader-edition';
+    notice.setAttribute('aria-label', en ? 'Book edition' : '书籍版本');
+    const message = document.createElement('p'); message.textContent = text;
+    notice.appendChild(message);
+    const actions = document.createElement('div'); notice.appendChild(actions);
+    paper.prepend(notice);
+    return actions;
+  }
+  function button(actions, text, action, name) {
+    const el = document.createElement('button'); el.type = 'button'; el.textContent = text;
+    el.dataset.editionAction = name;
+    el.addEventListener('click', event => { event.stopPropagation(); action(); });
+    actions.appendChild(el);
+  }
+  function link(actions, text, href) {
+    const el = document.createElement('a'); el.textContent = text; el.href = href;
+    el.addEventListener('click', event => event.stopPropagation()); actions.appendChild(el);
+  }
+  const segments = window.location.pathname.split('/');
+  const bookIndex = segments.indexOf('books');
+  const standardPath = bookIndex >= 0 && segments[bookIndex + 1] === data.bookId && segments[bookIndex + 2] === 'releases';
+  if (!edition.canSave()) {
+    const actions = show(edition.needsRecovery
+      ? (en ? 'Your saved position could not be read. It will not be overwritten.' : '暂时无法读取原进度，不会自动覆盖。')
+      : (en ? 'This edition has changed. Your previous position is kept separately.' : '书籍版本已变化，原阅读进度将单独保留。'));
+    const previous = edition.previous;
+    const index = policy.chapterFor(previous, releaseId, data.chapterTitles || []);
+    const anchor = index === Number(data.chapter) ? location.migrate(previous.anchor) : null;
+    function accept(value) {
+      if (!edition.accept()) {
+        notice.querySelector('p').textContent = en ? 'Could not save the previous position. Free some browser storage and try again; reading remains available.' : '暂时无法备份原进度。请释放浏览器存储后重试；仍可阅读，原进度不会覆盖。';
+        onResize(); return;
+      }
+      notice.remove(); notice = null; onAccept(value);
+    }
+    if (anchor) button(actions, en ? 'Resume at matching text' : '接续原文位置', () => accept(anchor), 'resume');
+    const oldRelease = policy.releaseOf(previous);
+    if (standardPath && oldRelease && Number.isInteger(previous.chapter) && previous.chapter >= 0) {
+      link(actions, en ? 'Read previous edition' : '继续旧版', '../../releases/' + oldRelease + '/ch-' + (previous.chapter + 1) + '.html');
+    }
+    button(actions, en ? 'Start this chapter' : '从本章开始', () => accept(null), 'start');
+    onResize();
+    return;
+  }
+  if (!standardPath) return;
+  window.fetch('../../release.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(release => {
+    if (!release || !policy.validId(release.releaseId) || release.releaseId === releaseId) return;
+    const titles = (Array.isArray(release.chapters) ? release.chapters : []).map(ch => String(ch?.title || ''));
+    const index = policy.chapterFor({ releaseId, chapter: data.chapter, chapterTitle: data.chapterTitle }, release.releaseId, titles);
+    const actions = show(en ? 'A newer edition is available.' : '本书有新版本。');
+    link(actions, index >= 0 ? (en ? 'View new edition' : '查看新版') : (en ? 'Open new edition' : '打开新版'),
+      '../../releases/' + release.releaseId + '/' + (index >= 0 ? 'ch-' + (index + 1) + '.html' : 'read.html'));
+    button(actions, en ? 'Stay here' : '留在当前版本', () => { notice.remove(); notice = null; onResize(); }, 'stay');
+    onResize();
+  }).catch(() => { /* Offline readers keep the current edition. */ });
+})({
+    document: document, window: window, data: data, policy: editionPolicy, edition: readerEdition,
+    location: readerLocation, releaseId: releaseId,
+    onResize: function () { layout(true); },
+    onAccept: function (anchor) {
+      state.anchor = anchor;
+      if (anchor) layout(true);
+      else if (state.mode === 'page') { page = 0; layout(false); }
+      else { window.scrollTo({ top: 0, behavior: 'instant' }); scrollProgress(); }
+      if (readerSync) readerSync.connect();
+    }
+  });
+  readerSync = (function installReaderSync({ window, document, data, initialPosition, canSync, getPosition, onRemote, onResize, createSync }) {
+  const en = data.lang === 'en';
+  let banner = null, status = null, controller;
+  const indicator = document.createElement('span'); indicator.className = 'reader-sync-status';
+  indicator.setAttribute('aria-live', 'polite');
+  document.querySelector('.reader-tools')?.prepend(indicator);
+  function request(url, options = {}) {
+    const abort = new window.AbortController();
+    const timeout = window.setTimeout(() => abort.abort(), 10000);
+    return window.fetch(url, { credentials: 'same-origin', cache: 'no-store', ...options, signal: abort.signal })
+      .then(async response => ({ status: response.status, body: await response.json() }))
+      .finally(() => window.clearTimeout(timeout));
+  }
+  const storage = {
+    get length() { return window.localStorage.length; }, key: index => window.localStorage.key(index),
+    getItem: key => window.localStorage.getItem(key), setItem: (key, value) => window.localStorage.setItem(key, value),
+    removeItem: key => window.localStorage.removeItem(key),
+  };
+  controller = createSync({
+    storage, bookId: data.bookId, initialPosition,
+    initialOwner: initialPosition?.readerUserId || '', canSync, getPosition,
+    onRemote, randomId: () => window.crypto.randomUUID(),
+    schedule: (fn, delay) => window.setTimeout(fn, delay), cancel: timer => window.clearTimeout(timer),
+    transport: {
+      account: async () => {
+        const r = await request('/api/auth/me');
+        if (r.status >= 500) throw Error('account unavailable');
+        return r.body?.ok ? r.body.user : null;
+      },
+      get: bookId => request('/api/reader/progress?bookId=' + encodeURIComponent(bookId)
+        + '&syncUserId=' + encodeURIComponent(controller.userId())),
+      post: (body, keepalive) => request('/api/reader/progress', { method: 'POST', keepalive,
+        headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
+    },
+    onChange(value) {
+      const labels = en ? { saved: 'Synced', syncing: 'Syncing', pending: 'Pending sync', offline: 'Sync offline', ready: '', anonymous: '',
+        account: 'Sign in again', upgrade: 'Refresh to sync', error: 'Sync paused', storage: 'Storage unavailable', conflict: 'Choose position' }
+        : { saved: '已同步', syncing: '同步中', pending: '待同步', offline: '同步离线', ready: '', anonymous: '', account: '请重新登录',
+          upgrade: '刷新后同步', error: '同步已暂停', storage: '存储不可用', conflict: '选择阅读位置' };
+      indicator.textContent = labels[value.status] || '';
+      const signature = JSON.stringify([value.status, value.local, value.remote]);
+      if (status === signature) return;
+      status = signature;
+      const hadBanner = Boolean(banner);
+      if (banner) { banner.remove(); banner = null; }
+      if (value.status !== 'conflict') { if (hadBanner) onResize(); return; }
+      banner = document.createElement('section'); banner.className = 'reader-edition reader-sync-choice';
+      const text = document.createElement('p'); text.textContent = en ? 'Your local and cloud positions differ.' : '本机与云端阅读位置不同，请选择。';
+      banner.appendChild(text);
+      const actions = document.createElement('div'); banner.appendChild(actions);
+      function choice(label, row, action, name) {
+        const button = document.createElement('button'); button.type = 'button'; button.dataset.syncChoice = name;
+        button.textContent = label + (row ? ' · ' + (Number(row.chapter) + 1) + ' · ' + (row.chapterTitle || '') : '');
+        if (row?.anchor) button.textContent += en ? ' · paragraph ' + (row.anchor.block + 1) : ' · 第 ' + (row.anchor.block + 1) + ' 段';
+        if (row && value.remote && value.local.releaseId !== value.remote.releaseId) button.textContent += ' · ' + row.releaseId;
+        button.addEventListener('click', e => { e.stopPropagation(); action(); }); actions.appendChild(button);
+      }
+      choice(en ? 'Use local position' : '使用本机位置', value.local, () => controller.chooseLocal(), 'local');
+      if (value.remote) choice(en ? 'Use cloud position' : '使用云端位置', value.remote, () => controller.chooseRemote(), 'remote');
+      document.querySelector('.reader-paper').prepend(banner); onResize();
+    },
+  });
+  window.addEventListener('online', () => controller.connect());
+  window.addEventListener('focus', () => controller.connect());
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') controller.flush(true);
+    else controller.connect();
+  });
+  window.addEventListener('pagehide', () => controller.flush(true));
+  window.addEventListener('pageshow', event => { if (event.persisted) controller.connect(); });
+  controller.connect();
+  return controller;
+})({
+    window: window, document: document, data: data, initialPosition: initialPosition,
+    canSync: function () { return readerEdition.canSave(); }, getPosition: syncPosition,
+    createSync: (function createReaderSync({ transport, storage, bookId, getPosition, canSync, onRemote, onChange,
+  initialOwner = '', initialPosition = null, randomId, schedule, cancel }) {
+  let uid = '', revision = null, ready = false, busy = false, conflict = null;
+  let pending = null, desired = null, timer, epoch = 0, retry = 2000, stopped = false, applying = false;
+  let connectedPosition = initialPosition, connectedOwner = initialOwner;
+  const prefix = () => 'historyai.reader-sync.' + uid + '.' + bookId + '.';
+  const same = (a, b) => {
+    if (!a || !b || a.releaseId !== b.releaseId || a.chapter !== b.chapter) return false;
+    if (a.anchor || b.anchor) return Boolean(a.anchor && b.anchor && a.anchor.hash === b.anchor.hash
+      && a.anchor.block === b.anchor.block && a.anchor.length === b.anchor.length
+      && a.anchor.offset === b.anchor.offset && a.chapterTitle === b.chapterTitle);
+    return a.page === b.page;
+  };
+  let observed = getPosition();
+  const emit = (status, extra = {}) => onChange({ status, uid, ...extra });
+  function records() {
+    const rows = [];
+    for (let i = 0; i < storage.length; i++) {
+      const key = storage.key(i);
+      if (!key || !key.startsWith(prefix())) continue;
+      try {
+        const body = JSON.parse(storage.getItem(key));
+        if (body.syncUserId === uid && body.bookId === bookId && body.syncVersion === 2
+          && key === prefix() + body.mutationId) rows.push({ key, body });
+      } catch { /* Preserve damaged records; never send them to another account. */ }
+    }
+    return rows;
+  }
+  function write(position, baseRevision) {
+    const body = { ...position, bookId, syncUserId: uid, syncVersion: 2, baseRevision, mutationId: randomId() };
+    const key = prefix() + body.mutationId;
+    try {
+      const raw = JSON.stringify(body);
+      storage.setItem(key, raw);
+      if (storage.getItem(key) !== raw) throw Error('storage');
+      return { key, body };
+    } catch { emit('storage'); return null; }
+  }
+  function remove(record) {
+    if (record) { try { storage.removeItem(record.key); } catch { /* Retrying the immutable operation is safe. */ } }
+  }
+  function later(delay = 5000) {
+    cancel(timer); timer = schedule(() => flush(), delay);
+  }
+  function showConflict(remote, rev, local) {
+    ready = true; revision = rev;
+    conflict = { remote, local: local || desired?.body || pending?.body || getPosition() };
+    emit('conflict', { ...conflict, count: records().length });
+  }
+  function note(position) {
+    if (applying) return;
+    if (same(position, observed)) return;
+    observed = position;
+    if (!uid || !ready || !canSync() || stopped) return;
+    const next = write(position, revision);
+    if (!next) return;
+    remove(desired); desired = next;
+    if (conflict) { conflict.local = position; emit('conflict', { ...conflict, count: records().length }); return; }
+    emit('pending'); later();
+  }
+  async function flush(keepalive = false) {
+    if (!ready || !uid || busy || conflict || !canSync() || stopped) return;
+    if (!pending) { pending = desired; desired = null; }
+    if (!pending) return;
+    busy = true;
+    const token = epoch, sent = pending;
+    emit('syncing');
+    try {
+      const result = await transport.post(sent.body, keepalive);
+      if (token !== epoch) return;
+      const body = result.body || {};
+      if (result.status === 401) { ready = false; emit('account'); return; }
+      if (result.status === 428) { stopped = true; emit('upgrade'); return; }
+      if (result.status === 409) {
+        if (!Number.isSafeInteger(body.revision)) { stopped = true; emit('error'); return; }
+        showConflict(body.row, body.revision); return;
+      }
+      if (result.status >= 500) throw Error('retry');
+      if (!body.ok || body.mutationId !== sent.body.mutationId || !Number.isSafeInteger(body.revision)) {
+        stopped = true; emit('error'); return;
+      }
+      if (body.replayed && body.appliedRevision !== body.revision) {
+        showConflict(body.row, body.revision); return;
+      }
+      remove(sent); pending = null; revision = body.revision; retry = 2000;
+      connectedPosition = sent.body; connectedOwner = uid;
+      if (desired) {
+        // Only rebase this page's next intent after its own confirmed write.
+        const next = write(desired.body, revision);
+        if (!next) { stopped = true; return; }
+        remove(desired); desired = next;
+        later();
+      } else {
+        const remaining = records();
+        if (remaining.length) showConflict(body.row, revision, remaining[0].body);
+        else if (!same(getPosition(), sent.body)) showConflict(body.row, revision, getPosition());
+        else emit('saved');
+      }
+    } catch {
+      if (token !== epoch) return;
+      emit('offline'); later(retry); retry = Math.min(30000, retry * 2);
+    } finally { if (token === epoch) busy = false; }
+  }
+  async function connect() {
+    const token = ++epoch;
+    cancel(timer); busy = false; ready = false; stopped = false;
+    try {
+      const account = await transport.account();
+      if (token !== epoch) return;
+      const nextUid = account?.id || '';
+      if (nextUid !== uid) { uid = nextUid; pending = null; desired = null; conflict = null; }
+      if (!uid) { emit('anonymous'); return; }
+      const response = await transport.get(bookId);
+      if (token !== epoch) return;
+      const data = response.body || {};
+      if (response.status === 401) { emit('account'); return; }
+      if (response.status >= 500) throw Error('retry');
+      if (!data.ok || data.syncVersion !== 2 || !Number.isSafeInteger(data.revision)) { emit('upgrade'); return; }
+      revision = data.revision; ready = true;
+      const queued = records();
+      if (queued.length) {
+        // Recovered operations retain their original baseline and identity.
+        pending = queued[0]; desired = null; conflict = null;
+        await flush(); return;
+      }
+      const current = getPosition();
+      // A wishlist entry without a chapter is not a saved reading position.
+      const remote = Number.isInteger(data.row?.chapter) ? data.row : null;
+      const navigation = connectedOwner === uid && same(connectedPosition, remote);
+      if (remote && !same(current, remote) && !navigation) { showConflict(remote, revision, current); return; }
+      if (!remote && connectedPosition?.releaseId && connectedOwner !== uid) { showConflict(null, revision, current); return; }
+      conflict = null;
+      if ((!remote || !same(current, remote)) && canSync()) {
+        desired = write(current, revision); if (!desired) return; later();
+      }
+      connectedPosition = remote || current; connectedOwner = uid;
+      emit(desired ? 'pending' : remote ? 'saved' : 'ready');
+    } catch { if (token === epoch) { emit('offline'); timer = schedule(connect, retry); retry = Math.min(30000, retry * 2); } }
+  }
+  async function chooseLocal() {
+    if (!conflict || !uid || !canSync()) return;
+    const local = conflict.local;
+    applying = true;
+    try {
+      if (!same(getPosition(), local) && onRemote(local, uid) === false) { emit('storage'); return; }
+    } finally { applying = false; }
+    // Explicit reader choice, never an automatic rebase of a conflict.
+    const next = write(local, revision);
+    if (!next) return;
+    for (const old of records()) if (old.key !== next.key) remove(old);
+    pending = next; desired = null; conflict = null;
+    await flush();
+  }
+  function chooseRemote() {
+    if (!conflict?.remote || !uid || !canSync()) return;
+    applying = true;
+    try { if (onRemote(conflict.remote, uid) === false) { emit('storage'); return; } }
+    finally { applying = false; }
+    for (const old of records()) remove(old);
+    observed = conflict.remote; connectedPosition = conflict.remote; connectedOwner = uid;
+    pending = null; desired = null; conflict = null;
+    emit('saved');
+  }
+  return { connect, note, flush, chooseLocal, chooseRemote, userId: () => uid,
+    isReady: () => Boolean(uid && ready && !conflict && !stopped),
+    stop() { ++epoch; cancel(timer); ready = false; } };
+}),
+    onResize: function () {
+      var wasApplying = applyingSync; applyingSync = true;
+      try { layout(true); } finally { applyingSync = wasApplying; }
+    },
+    onRemote: function (row, uid) {
+      if (!editionPolicy.validId(row.releaseId) || !Number.isInteger(row.chapter) || row.chapter < 0 || row.chapter > 500) return false;
+      var sameEdition = row.releaseId === releaseId;
+      if (sameEdition && row.chapter >= titles.length) return false;
+      var href = sameEdition ? chapterHref(row.chapter) : '../../releases/' + row.releaseId + '/ch-' + (row.chapter + 1) + '.html';
+      var next = Object.assign({}, row, { href: href, readerUserId: uid });
+      try {
+        var old = localStorage.getItem(key);
+        if (old) {
+          var backupKey = 'historyai.reader-recovery.' + data.bookId + '.' + Date.now();
+          localStorage.setItem(backupKey, old);
+          if (localStorage.getItem(backupKey) !== old) return false;
+        }
+        localStorage.setItem(key, JSON.stringify(next));
+        if (localStorage.getItem(key) !== JSON.stringify(next)) return false;
+      } catch (e) { return false; }
+      if (!sameEdition || row.chapter !== Number(data.chapter)) {
+        applyingSync = true; location.assign(href); return true;
+      }
+      applyingSync = true;
+      try {
+        state.anchor = row.anchor || null; state.page = row.page || 0;
+        if (state.mode === 'page') {
+          var target = row.anchor && readerLocation.pageFor(row.anchor, step);
+          go(target != null ? target : state.page, Boolean(target != null));
+        } else if (!row.anchor || !restoreScrollAnchor(row.anchor)) window.scrollTo({ top: 0, behavior: 'instant' });
+      } finally { applyingSync = false; }
+      return true;
+    }
+  });
 })();

@@ -239,8 +239,8 @@
     grid.innerHTML=pick.map(function(r){
       var sc=Number(r.editorialScore&&r.editorialScore.score)||0;
       var chip=sc?'<span class="score-chip">'+(sc/10).toFixed(1)+'</span>':'';
-      var cover=r.coverUrl?'<img src="/'+String(r.coverUrl).replace(/^//,'')+'" alt="" loading="lazy">':'';
-      return '<a class="rel-card" href="/'+String(r.url||'#').replace(/^//,'')+'"><span class="rel-cover">'+cover+chip+'</span><strong>'+String(r.title||'').replace(/</g,'&lt;')+'</strong><small>'+String(r.authorDisplayName||'').replace(/</g,'&lt;')+'</small></a>';
+      var cover=r.coverUrl?'<img src="/'+String(r.coverUrl).replace(/^\//,'')+'" alt="" loading="lazy">':'';
+      return '<a class="rel-card" href="/'+String(r.url||'#').replace(/^\//,'')+'"><span class="rel-cover">'+cover+chip+'</span><strong>'+String(r.title||'').replace(/</g,'&lt;')+'</strong><small>'+String(r.authorDisplayName||'').replace(/</g,'&lt;')+'</small></a>';
     }).join('');
     box.hidden=false;
   }).catch(function(){});
