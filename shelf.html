@@ -31,6 +31,7 @@
 body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 }
 .wrap{max-width:1120px;margin:0 auto;padding:22px 24px 84px}
+.shelf-filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}.shelf-filters[hidden]{display:none}.shelf-filters button,.empty button,.shelf-feedback button{min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:inherit;cursor:pointer}.shelf-filters button.on{border-color:var(--green);color:var(--green-dark)}.shelf-feedback{font-size:14px;color:var(--muted)}.card a.t{display:block}.card .acts{flex-wrap:wrap}.card .acts button{min-height:44px;font-size:13px}
 .me{color:var(--muted);font-size:13.5px;margin:0}
 .sect{margin:30px 0 12px;font-family:var(--serif);font-size:19px;font-weight:800}
 .sect small{color:var(--muted);font-weight:400;margin-left:8px}
@@ -74,6 +75,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .nb-meta button{border:0;background:none;padding:0;color:var(--muted);font-size:13px;cursor:pointer}
 .nb-meta button:hover{color:#d8402a}
 @media(max-width:620px){.wrap{padding:18px 14px 60px}.grid{grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:20px 14px}.card .acts button{min-height:30px}.shelf-tabs button{padding:0 16px}}
+.wrap .card .s{font-size:13px;line-height:1.5;white-space:normal;overflow:visible}.wrap .card .acts button{min-height:44px;font-size:13px}.wrap .card .acts{flex-wrap:wrap}.wrap .card .t{font-size:14px}
 </style></head><body>
 <header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html">我的书架</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a class="on" href="/shelf.html"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script>(function(){try{if(localStorage.getItem('hai.shelfLang')==='en'){var m={'书城':'Store','书架':'Shelf','动态':'Feed','我的':'Me'};document.querySelectorAll('.m-tabbar .mtb-t').forEach(function(s){if(m[s.textContent])s.textContent=m[s.textContent]})}}catch(e){}})();</script>
 <div class="page-head"><h1>我的书架</h1><p class="lede me" id="me"></p></div>
@@ -83,61 +85,12 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
   <div id="main"><div class="empty">正在打开书架…</div></div>
   <div id="notebook" hidden></div>
 </div>
-<script>
-(function(){
-  // v5.59.1 直取 #main（v5.59 外壳把 #me 移进 page-head，parentNode 同级假设失效=书架卡死实弹）
-  var main=document.getElementById('main');
-  function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
-  function readHref(r){
-    if(r.releaseId&&Number(r.chapter)>=0)return '/books/'+encodeURIComponent(r.bookId)+'/releases/'+encodeURIComponent(r.releaseId)+'/ch-'+(Number(r.chapter)+1)+'.html';
-    return '/books/'+encodeURIComponent(r.bookId)+'/';
-  }
-  // v5.60 封面墙：书架格=封面（点击续读）+进度条+读完角标+两个小动作
-  function card(r){
-    var c=el('div','card');
-    var cv=el('a','cv');cv.href=readHref(r);
-    if(r.cover){var im=document.createElement('img');im.loading='lazy';im.src=r.cover;im.alt=r.title||'';cv.appendChild(im);}
-    else{cv.appendChild(el('span','ph',r.title||'（书目已下架）'));}
-    if(r.status==='finished')cv.appendChild(el('span','done','读完 ✓'));
-    var pct=(r.n&&Number(r.chapter)>=0)?Math.min(100,Math.round((Number(r.chapter)+1)/r.n*100)):null;
-    if(r.status==='reading'&&pct!=null){var pb=el('span','pbar');var pi=document.createElement('i');pi.style.width=pct+'%';pb.appendChild(pi);cv.appendChild(pb);}
-    c.appendChild(cv);
-    c.appendChild(el('div','t',r.title||'（书目已下架）'));
-    var sub=r.status==='finished'?'已读完':(r.status==='wishlist'?'想读':(pct!=null?('读到 '+pct+'%'):'在读'));
-    c.appendChild(el('div','s',sub+(r.updatedAt?' · '+String(r.updatedAt).slice(5,10):'')));
-    var acts=el('div','acts');
-    if(r.status==='reading'){var fin=el('button','','标记读完');
-      fin.onclick=function(){fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:r.bookId,title:r.title||'',status:'finished'})}).then(function(){location.reload()});};
-      acts.appendChild(fin);}
-    var rm=el('button','','移出');
-    rm.onclick=function(){
-      fetch('/api/reader/shelf',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({bookId:r.bookId,status:'remove'})})
-        .then(function(x){return x.json();}).then(function(d){if(d&&d.ok)c.remove();});
-    };
-    acts.appendChild(rm);
-    c.appendChild(acts);
-    return c;
-  }
-  fetch('/api/reader/shelf',{credentials:'same-origin'}).then(function(r){
-    if(r.status===401){main.innerHTML='';var e=el('div','empty');e.innerHTML='登录后即可使用书架，跨设备同步阅读进度。<br><a href="/index.html">回书库登录</a>';main.appendChild(e);return null;}
-    return r.json();
-  }).then(function(d){
-    if(!d)return;
-    main.innerHTML='';
-    var rows=(d.rows||[]);
-    if(!rows.length){var e2=el('div','empty');e2.innerHTML='书架还空着。去<a href="/index.html">书库</a>翻开一本书，读过的都会自动出现在这里。';main.appendChild(e2);return;}
-    var groups=[['reading','在读'],['wishlist','想读'],['finished','读完']];
-    groups.forEach(function(g){
-      var list=rows.filter(function(r){return r.status===g[0];});
-      if(!list.length)return;
-      var h=el('div','sect',g[1]);h.appendChild(el('small','',String(list.length)+' 本'));
-      main.appendChild(h);
-      var grid=el('div','grid');
-      list.forEach(function(r){grid.appendChild(card(r));});
-      main.appendChild(grid);
-    });
+<script src="/assets/reader-shelf.js?v=6.12.0"></script>
+<script>EvoronShelf.installPage(window);</script>
+<script>(function(){
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
     fetch('/api/reader/profile',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null;}).then(function(p){
-      if(p&&p.ok)document.getElementById('me').textContent=p.profile.name+' · 读完 '+p.profile.shelf.finished+' 本 · 想法 '+p.profile.notes+' 条 · 书评 '+p.profile.reviews+' 条';
+      if(p&&p.ok){var en=EvoronShelf.language(window)==='en';document.getElementById('me').textContent=p.profile.name+(en?' · Finished ':' · 读完 ')+p.profile.shelf.finished+(en?' · Notes ':' 本 · 想法 ')+p.profile.notes+(en?' · Reviews ':' 条 · 书评 ')+p.profile.reviews+(en?'':' 条');}
     }).catch(function(){});
     // v5.8 通知箱：被回复/被赞；打开书架即视为已读（小红点熄灭）
     fetch('/api/reader/notifications',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null;}).then(function(n){
@@ -167,9 +120,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
       });
       if(n.unread>0)fetch('/api/reader/notifications',{method:'POST',credentials:'same-origin'}).catch(function(){});
     }).catch(function(){});
-  }).catch(function(){main.innerHTML='';main.appendChild(el('div','empty','书架暂时打不开，稍后再试。'));});
-})();
-</script>
+})();</script>
 <script>
 /* v6.9.33 笔记本 tab（weread 式全书笔记汇总）：懒加载，按书分组渲染划线/想法/点评 */
 (function(){
