@@ -106,10 +106,9 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
     {k:'surging',t:T('飙升榜','Surging'),n:T('近 7 天读者热度上升最快的作品','Fastest-rising with readers over the last 7 days'),bg:'linear-gradient(120deg,#b8371f,#e08a2e)',orn:T('飙','S')},
     {k:'fresh',t:T('新书榜','New arrivals'),n:T('最近上架的新作品','The latest additions to the library'),bg:'linear-gradient(120deg,#0e7d63,#3db08a)',orn:T('新','N')},
     {k:'top',t:T('巅峰榜','All-time'),n:T('读者阅读量与编辑评分综合最高','Readership and editorial rating combined'),bg:'linear-gradient(120deg,#7a5410,#c9962b)',orn:T('巅','T')},
-    {k:'master',t:T('神作榜','Masterworks'),n:T('85 分以上高分书，按口碑加权','Books rated 85+, weighted by readership'),bg:'linear-gradient(120deg,#452a72,#8a5ec2)',orn:T('神','M')}
+    {k:'master',t:T('编辑精选','Editorial picks'),n:T('编辑评分 8.5 分以上，结合阅读人数排序','Editorial scores of 8.5+, ranked with readership'),bg:'linear-gradient(120deg,#452a72,#8a5ec2)',orn:T('选','E')}
   ];
   var CAT_BG='linear-gradient(120deg,#2c3e38,#4a6a5d)';
-  function womTier(s){return s>=90?['wom-god',T('神作','Masterwork')]:s>=85?['wom-hot',T('好评如潮','Acclaimed')]:s>=78?['wom-good',T('值得一读','Worth reading')]:null}
   fetch('/books/index.json').then(function(r){return r.json()}).then(function(all){
     var rows=all.filter(function(b){return b&&b.visibility!=='unlisted'&&(EN?String(b.language||'').indexOf('en')===0:String(b.language||'').indexOf('en')!==0)});
     var ids=rows.map(function(b){return b.projectId||b.id}).filter(Boolean);
@@ -134,6 +133,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
     function bayes(b){var h=heatOf(b);var v=h.read+h.reading;return (v*scoreOf(b)+8*avg)/(v+8)}
     function byBayes(a){return a.slice().sort(function(x,y){return bayes(y)-bayes(x)})}
     var heatTotal=rows.reduce(function(a,b){var h=heatOf(b);return a+h.hot7+h.reading},0);
+    if(heatTotal<5){BOARDS[0].t=T('近期佳作','Recent highlights');BOARDS[0].n=T('阅读数据尚少，暂按近 30 天新书的编辑评分排序','Limited reading data; ordered by editorial scores for releases in the last 30 days')}
     function surgeScore(b){var h=heatOf(b);return h.hot7*4+h.reading*2+h.read+(within(30)(b)?6:0)+Math.max(0,scoreOf(b)-70)*0.3}
     var cats={};rows.forEach(function(b){var g=b.category||T('历史','History');cats[g]=(cats[g]||0)+1});
     var catNames=Object.keys(cats).sort(function(a,b){return cats[b]-cats[a]});
@@ -201,18 +201,18 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
           +'<span class="pd-cov">'+(b.coverUrl?'<img src="'+esc(b.coverUrl)+'" alt="'+esc(b.title)+'" loading="lazy">':'')+'</span>'
           +'<strong>'+esc(b.title)+'</strong>'
           +'<small>'+esc(b.authorDisplayName||T('未署名','Unsigned'))+'</small>'
-          +'<span class="pd-rec">'+(s?T('推荐值 ','Rec ')+'<b>'+s.toFixed(1)+'%</b>':'')+(hl?(s?' · ':'')+hl:'')+'</span>'
+          +'<span class="pd-rec">'+(s?T('编辑评分 ','Editorial score ')+'<b>'+(s/10).toFixed(1)+'</b> / 10':'')+(hl?(s?' · ':'')+hl:'')+'</span>'
           +'</a>';
       }).join('');
       box.innerHTML=rest.map(function(b,i){
-        var s=scoreOf(b);var tier=s?womTier(s):null;var hl=heatLine(b);
+        var s=scoreOf(b);var hl=heatLine(b);
         return '<a class="rk-item" href="'+esc(b.url||'#')+'">'
           +'<i class="rk-num">'+(i+4)+'</i>'
           +'<span class="rk-cov">'+(b.coverUrl?'<img src="'+esc(b.coverUrl)+'" alt="'+esc(b.title)+'" loading="lazy">':'')+'</span>'
-          +'<span class="rk-info"><strong>'+esc(b.title)+'</strong>'+(tier?'<i class="wom '+tier[0]+'">'+tier[1]+'</i>':'')
+          +'<span class="rk-info"><strong>'+esc(b.title)+'</strong>'
           +'<small>'+esc(b.authorDisplayName||T('未署名','Unsigned'))+' · '+esc(b.category||T('历史','History'))+' · '+(Number(b.chapterCount)||0)+T(' 章',' chapters')+'</small>'
           +(b.description?'<p class="rk-desc">'+esc(String(b.description).replace(/\s+/g,' ').slice(0,150))+'</p>':'')
-          +((s||hl)?'<span class="rk-rec">'+(s?T('推荐值 ','Recommend ')+'<b>'+s.toFixed(1)+'%</b>':'')+(hl?(s?' · ':'')+hl:'')+'</span>':'')
+          +((s||hl)?'<span class="rk-rec">'+(s?T('编辑评分 ','Editorial score ')+'<b>'+(s/10).toFixed(1)+'</b> / 10':'')+(hl?(s?' · ':'')+hl:'')+'</span>':'')
           +'</span></a>';
       }).join('');
     }

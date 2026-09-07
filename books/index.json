@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtptvt49gdx",
+    "projectId": "proj-mtptvt49gdx",
+    "releaseId": "rel_20260907024446827_7e987cd79a",
+    "title": "燕云十六声",
+    "subtitle": "一款历史游戏的诞生与试炼",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "游戏史",
+    "tags": [
+      "游戏开发",
+      "燕云十六州",
+      "数字人文",
+      "创作纪实",
+      "文化工业",
+      "中国史"
+    ],
+    "description": "燕云十六州不仅是地理疆域，更是横亘在创作者面前的叙事深渊。当技术积累遭遇历史真实，当商业预期碰撞创作野心，一款试图重构东方武侠世界的游戏，注定要在裂痕中艰难成型。从立项时的选题分歧到上线后的舆论风暴，从宋画笔触的数字复原到动作系统的考古式打磨，这段历程记录了理想主义在工业化生产线上的挣扎与蜕变。它不是光鲜的产品通稿，而是一份关于取舍、妥协与坚持的田野调查，呈现了数字时代历史题材创作最粗粝也最真实的剖面。",
+    "chapterCount": 38,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-07T01:30:01.102Z"
+    },
+    "coverUrl": "books/proj-mtptvt49gdx/releases/rel_20260907024446827_7e987cd79a/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtptvt49gdx/index.html",
+    "publishedAt": "2026-09-07T02:44:46.882Z",
+    "firstPublishedAt": "2026-09-07T02:44:46.882Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mto1w7l3iy6",
     "projectId": "proj-mto1w7l3iy6",
     "releaseId": "rel_20260907013655788_4eb244b290",

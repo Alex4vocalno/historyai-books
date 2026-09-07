@@ -125,9 +125,9 @@
   var progress = h('div', 'read-progress', '<span></span>');
   var tools = ''
     + '<button class="icon-button text" type="button" data-toggle-settings title="字体与排版">字体</button>'
-    + (detailHref ? '<a class="icon-button text" href="' + esc(detailHref) + '" title="回到本书封面">封面</a>' : '')
+    + (detailHref ? '<a class="icon-button text reader-secondary" href="' + esc(detailHref) + '" title="回到本书封面">封面</a>' : '')
     + loc('<a class="icon-button text" href="/shelf.html" title="我的书架">书架</a>')
-    + (homeHref ? loc('<a class="icon-button text" href="' + esc(homeHref) + '" title="返回书库">书库</a>') : '');
+    + (homeHref ? loc('<a class="icon-button text reader-secondary" href="' + esc(homeHref) + '" title="返回书库">书库</a>') : '');
   var bar = h('header', 'reader-bar', '<div class="reader-bar-inner">'
     + '<div class="reader-bar-left">'
     + (titles.length ? loc('<button class="icon-button text" type="button" data-toggle-drawer>目录</button>') : '')
@@ -526,6 +526,9 @@
     });
   }
   document.addEventListener('keydown', function (e) {
+    if (e.defaultPrevented || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (!settings.hidden || document.body.classList.contains('drawer-open') || document.querySelector('.idea-sheet,.ill-lightbox')) return;
+    if (e.target.closest && e.target.closest('input,textarea,select,button,a,[contenteditable]:not([contenteditable="false"]),[role="dialog"]')) return;
     if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); flip(1); }
     else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); flip(-1); }
   });
@@ -534,10 +537,14 @@
   // 把坐标置 null，后到的算出假位移——右侧轻点被一退一进抵消成「点了没反应」。
   var swipeX = null, swipeY = 0, swipeT = 0;
   addEventListener('touchstart', function (e) {
+    swipeX = null;
+    if (!settings.hidden || document.body.classList.contains('drawer-open')) return;
+    if (!paper || !paper.contains(e.target)) return;
     if (!e.touches || e.touches.length !== 1) { swipeX = null; return; }
     swipeX = e.touches[0].clientX; swipeY = e.touches[0].clientY; swipeT = Date.now();
   }, { passive: true });
   addEventListener('touchend', function (e) {
+    if (!settings.hidden || document.body.classList.contains('drawer-open')) { swipeX = null; return; }
     if (state.mode !== 'page' || swipeX === null) return;
     var c = e.changedTouches && e.changedTouches[0]; if (!c) return;
     var dx = c.clientX - swipeX, dy = c.clientY - swipeY, dt = Date.now() - swipeT;
@@ -547,6 +554,7 @@
     if (e.target.closest && e.target.closest('a,button,input,textarea,label,.settings,.chapter-drawer,.idea-sheet,.review-box')) return;
     flip(dx < 0 ? 1 : -1, true);
   }, { passive: true });
+  addEventListener('touchcancel', function () { swipeX = null; }, { passive: true });
   var rsz = null;
   addEventListener('resize', function () { clearTimeout(rsz); rsz = setTimeout(function () { layout(true); }, 150); });
   // v5.87 跨章书签落点：上一页面把目标段写进 sessionStorage，本章加载后翻过去

@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260907024446827_7e987cd79a",
+  "projectId": "proj-mtptvt49gdx",
+  "manuscriptVersionId": "mv_392d8a5190e4b797",
+  "contentHash": "392d8a5190e4b7973a1e36de18547e52ad5bd3f7729232f142204ce3bb4e7c7b",
+  "title": "燕云十六声",
+  "subtitle": "一款历史游戏的诞生与试炼",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "燕云十六州不仅是地理疆域，更是横亘在创作者面前的叙事深渊。当技术积累遭遇历史真实，当商业预期碰撞创作野心，一款试图重构东方武侠世界的游戏，注定要在裂痕中艰难成型。从立项时的选题分歧到上线后的舆论风暴，从宋画笔触的数字复原到动作系统的考古式打磨，这段历程记录了理想主义在工业化生产线上的挣扎与蜕变。它不是光鲜的产品通稿，而是一份关于取舍、妥协与坚持的田野调查，呈现了数字时代历史题材创作最粗粝也最真实的剖面。",
+  "category": "游戏史",
+  "tags": [
+    "游戏开发",
+    "燕云十六州",
+    "数字人文",
+    "创作纪实",
+    "文化工业",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 38,
+    "units": 369809,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-07T01:30:01.102Z"
+  },
+  "editorReview": {
+    "text": "本书以《燕云十六声》的开发历程为切片，完成了一部扎实的游戏工业田野调查。其最可贵处在于用数字与因果链兜底，如第20章用“返修率从34%降至11%”等具体数据论证组件库效用，第37章直言考据投入占比飙升却未换来市场溢价，败局叙事诚实且具穿透力。作者提炼出的“战略探索的融资困境”等概念，为评估非标产品提供了可操作的框架。然而，部分章节接缝存在时间线倒错（如第22至23章），尾部复盘章节的抽象密度略有升高，文风轻微滑向学术报告腔，削弱了商战纪实的在场感。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-07T02:43:44.261Z",
+    "textless": false,
+    "profileId": "corporate-saga"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "前作的影子",
+      "units": 8692
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "选题的裂痕",
+      "units": 10086
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "跨界集结",
+      "units": 11742
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "立桩之战",
+      "units": 11511
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "第一份设计文档",
+      "units": 7436
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "绿灯的重量",
+      "units": 11097
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "纸上的疆域",
+      "units": 8499
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "引擎里的沙盘",
+      "units": 10009
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "宋画的笔触",
+      "units": 9025
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "动作的考古学",
+      "units": 8908
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "碎片里的叙事",
+      "units": 9357
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "第一次呼吸",
+      "units": 9122
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "伤筋动骨",
+      "units": 10497
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "内容饥渴",
+      "units": 10971
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "沉默的多数",
+      "units": 15269
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "雁门的重量",
+      "units": 11693
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "定调的勇气",
+      "units": 11707
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "聚光灯下的裂缝",
+      "units": 8464
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "同盟者入场",
+      "units": 11500
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "生产线的重塑",
+      "units": 10883
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "开封的倒影",
+      "units": 11072
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "声音的考古",
+      "units": 9348
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "最后的内部测试",
+      "units": 8582
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "裂缝的蔓延",
+      "units": 7860
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "上线日的沉默",
+      "units": 8381
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "定价权的代价",
+      "units": 10370
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "版本分裂症",
+      "units": 7765
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "舆论场的反噬",
+      "units": 8365
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "内部的审判",
+      "units": 8604
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "幸存者的重负",
+      "units": 10706
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "沉默的转向",
+      "units": 10986
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "考据派的反扑",
+      "units": 8975
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "同行的注视",
+      "units": 9572
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "工业化遗产",
+      "units": 8375
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "玩家的长尾",
+      "units": 8594
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "未竟的燕云",
+      "units": 8219
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "战略侦察的代价",
+      "units": 8385
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "燕云之后",
+      "units": 9182
+    }
+  ],
+  "illustrations": 15,
+  "publishedAt": "2026-09-07T02:44:46.882Z"
+}
