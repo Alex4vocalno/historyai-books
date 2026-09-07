@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260907013330626_4eb244b290",
+  "projectId": "proj-mto1w7l3iy6",
+  "manuscriptVersionId": "mv_f3497ef622abd4e8",
+  "contentHash": "f3497ef622abd4e8ce0a3ef1e6bc6a759cad30ddf13d07265e445319f13f4eb6",
+  "title": "数障",
+  "subtitle": "跨越数学焦虑的认知重建指南",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "面对公式时的茫然与心悸，往往不是智力缺陷，而是认知机制的错位。当工作记忆过载、数感通道阻塞，再多的刷题也只是在加固焦虑的回路。本书剥离天赋叙事的迷雾，从神经科学与认知心理学实证出发，拆解“听不懂”背后的生理与心理真相。不提供速成捷径，而是给出一套可自查、可执行的思维脚手架：重建数感、外包记忆负荷、对恐惧脱敏。在承认天赋差异的前提下，为大多数被数学困住的人，找回理解世界的底层能力与平静。",
+  "category": "心理认知",
+  "tags": [
+    "认知科学",
+    "数学焦虑",
+    "学习方法",
+    "神经科学",
+    "教育心理",
+    "心理认知"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 134068,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-1",
+    "createdAt": "2026-09-05T09:56:27.926Z"
+  },
+  "editorReview": {
+    "text": "这本书在科学传播上讲透了数学困难的认知根源，将'听不懂'从天赋缺陷重构为工作记忆过载与情绪劫持的系统交互，洞见迁移价值极高。作者特别值得表扬的是机制拆解的严谨性——实验边界清晰、效应量交代克制（如明确提示将解决率从20%升至75%而非夸大），自测钩子设计也让抽象概念变得可自查。但保留意见是，跨章节衔接存在断裂，比如多个钩子未回应，破坏了叙事连贯性；部分章节抽象密度过高，连续概念堆砌易让读者认知过载。尽管有些打磨不足，它仍为大多数被数学困住的人提供了扎实的认知脚手架。",
+    "penName": "观澜",
+    "title": "科学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-07T01:01:56.209Z",
+    "textless": false,
+    "profileId": "psychology-inner-space",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "psychology-inner-space"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "听不懂的瞬间",
+      "units": 7213
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "数字在你脑子里长什么样",
+      "units": 6856
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "脑子里的那块黑板太小了",
+      "units": 7124
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "怕数学这件事本身就会让你变笨",
+      "units": 5771
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "从这一章开始",
+      "units": 6868
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "上一章讲了认知负荷理论",
+      "units": 8872
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "把脑子里的黑板变大",
+      "units": 6307
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "让知识自己跑起来",
+      "units": 5678
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "从这一章开始（9）",
+      "units": 5931
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "这道题换了个马甲你就不认识了",
+      "units": 5957
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "你以为你懂了",
+      "units": 7147
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "扔掉拐杖",
+      "units": 7301
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "教法穿不透的那堵墙",
+      "units": 6943
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "屏幕上的数字看起来更聪明",
+      "units": 8274
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "那个教你“秒杀”的老师",
+      "units": 5988
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "刷题的手与不动的大脑",
+      "units": 6567
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "从这一章开始（17）",
+      "units": 6203
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "聪明药与大脑的欠条",
+      "units": 6526
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "天赋的尽头是概率",
+      "units": 6120
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "带着数障生活",
+      "units": 6422
+    }
+  ],
+  "publishedAt": "2026-09-07T01:33:30.636Z",
+  "formFamily": "explainer"
+}

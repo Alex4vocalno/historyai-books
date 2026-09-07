@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mto1w7l3iy6",
+    "projectId": "proj-mto1w7l3iy6",
+    "releaseId": "rel_20260907013330626_4eb244b290",
+    "title": "数障",
+    "subtitle": "跨越数学焦虑的认知重建指南",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "心理认知",
+    "tags": [
+      "认知科学",
+      "数学焦虑",
+      "学习方法",
+      "神经科学",
+      "教育心理",
+      "心理认知"
+    ],
+    "description": "面对公式时的茫然与心悸，往往不是智力缺陷，而是认知机制的错位。当工作记忆过载、数感通道阻塞，再多的刷题也只是在加固焦虑的回路。本书剥离天赋叙事的迷雾，从神经科学与认知心理学实证出发，拆解“听不懂”背后的生理与心理真相。不提供速成捷径，而是给出一套可自查、可执行的思维脚手架：重建数感、外包记忆负荷、对恐惧脱敏。在承认天赋差异的前提下，为大多数被数学困住的人，找回理解世界的底层能力与平静。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-1",
+      "createdAt": "2026-09-05T09:56:27.926Z"
+    },
+    "coverUrl": "books/proj-mto1w7l3iy6/releases/rel_20260907013330626_4eb244b290/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mto1w7l3iy6/index.html",
+    "publishedAt": "2026-09-07T01:33:30.636Z",
+    "firstPublishedAt": "2026-09-07T01:33:30.636Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtpcyp9zfi0",
     "projectId": "proj-mtpcyp9zfi0",
     "releaseId": "rel_20260906095705204_9b93827897",
