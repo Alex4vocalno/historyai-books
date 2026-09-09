@@ -13,7 +13,7 @@
     return Number.isFinite(balance.remaining) ? balance.remaining.toLocaleString('zh-CN') : '暂不可用';
   }
 
-  function create({ onRefresh, version, returnFocus, container, onTabChange = () => {}, loginUrl = '/login.html' }) {
+  function create({ onRefresh, returnFocus, container, onTabChange = () => {}, loginUrl = '/login.html' }) {
     let dialog = null, panel, status, navigation, user, pending = false, generation = 0, sessionEnded = false;
     let readController;
     const node = (tag, text, className) => {
@@ -157,7 +157,7 @@
       panel.appendChild(form);
     }
     async function credits(signal, current) {
-      panel.appendChild(node('h3', '积分与流水'));
+      panel.appendChild(node('h3', '积分与消费'));
       const data = await get('/api/billing/mine', signal);
       if (current !== generation || !dialog) return;
       const amount = node('section', undefined, 'account-balance');
@@ -165,7 +165,7 @@
       panel.appendChild(amount);
       const details = node('dl');
       const number = value => Number.isFinite(value) ? value.toLocaleString('zh-CN') : '暂不可用';
-      detail(details, '累计授予', number(data.balance && data.balance.granted));
+      detail(details, '累计获得', number(data.balance && data.balance.granted));
       detail(details, '累计消耗', number(data.balance && data.balance.usedCredits));
       panel.appendChild(details);
       if (root.HAIStudioPayments) {
@@ -176,32 +176,15 @@
         } });
         if (current !== generation || !dialog) return;
       }
-      if (user.role !== 'owner') {
-        const form = node('form', undefined, 'account-redeem');
-        const code = field(form, 'code', '兑换码', { maxLength: 128 });
-        code.spellcheck = false;
-        action(form, '兑换积分');
-        form.onsubmit = event => {
-          event.preventDefault();
-          if (!code.value.trim()) { message('请输入兑换码', true); return; }
-          postJson('/api/billing/redeem', { code: code.value.trim() }, async () => {
-            code.value = ''; panel.replaceChildren();
-            await credits(readController.signal, generation);
-            setPending(true); message('兑换成功，余额已重新读取');
-          });
-        };
-        panel.appendChild(form);
-      }
-      panel.appendChild(node('h4', '最近 50 条积分流水'));
-      panel.appendChild(node('p', '流水记录积分授予与调整；剩余积分以当前余额为准。', 'account-note'));
+      panel.appendChild(node('h4', '最近 50 条积分记录'));
+      panel.appendChild(node('p', '记录积分的增加与调整；已使用积分见累计消耗。', 'account-note'));
       const rows = Array.isArray(data.rows) ? data.rows : [];
-      if (!rows.length) { panel.appendChild(node('p', '暂无积分流水', 'account-note')); return; }
+      if (!rows.length) { panel.appendChild(node('p', '暂无积分记录', 'account-note')); return; }
       const list = node('ol', undefined, 'account-ledger');
-      const labels = { grant: '积分授予', adjust: '积分调整', redeem: '兑换入账', refund: '退款调整', purchase: '购买入账' };
+      const labels = { grant: '积分增加', adjust: '积分调整', redeem: '积分增加', refund: '退款调整', purchase: '购买入账' };
       rows.forEach(row => {
         const item = node('li');
-        const copy = node('div'), reason = node('strong', row.reason || labels[row.kind] || '积分变动');
-        if (row.reason) reason.setAttribute('translate', 'no');
+        const copy = node('div'), reason = node('strong', labels[row.kind] || '积分变动');
         copy.appendChild(reason);
         const date = new Date(row.at);
         copy.appendChild(node('small', Number.isFinite(date.getTime()) ? date.toLocaleString('zh-CN') : '时间未记录'));
@@ -213,7 +196,7 @@
     }
     async function show(tab) {
       if (pending || sessionEnded || !dialog) return;
-      if (!['profile', 'security', 'credits', 'version'].includes(tab)) tab = 'profile';
+      if (!['profile', 'security', 'credits'].includes(tab)) tab = 'profile';
       onTabChange(tab);
       readController?.abort(); readController = new AbortController();
       const current = ++generation;
@@ -239,11 +222,6 @@
         if (tab === 'profile') profile();
         else if (tab === 'security') security();
         else if (tab === 'credits') await credits(readController.signal, current);
-        else {
-          panel.append(node('h3', 'EVORON AI'), node('p', '书城与写作工作台', 'account-note'));
-          const details = node('dl'); detail(details, '当前版本', version()); detail(details, '更新来源', 'GitHub 正式版本'); panel.appendChild(details);
-          const link = node('a', '查看版本说明'); link.href = 'https://github.com/Alex4vocalno/historyai/releases'; link.target = '_blank'; link.rel = 'noopener'; panel.appendChild(link);
-        }
       } catch (error) {
         if (current !== generation || !dialog) return;
         message(error.name === 'AbortError' ? '读取超时，请重试' : error.message, true);
@@ -259,7 +237,7 @@
       close.onclick = () => { if (!pending) dialog.close(); }; head.append(title, close);
       if (container) close.remove();
       navigation = node('nav'); navigation.setAttribute('role', 'tablist'); navigation.setAttribute('aria-label', '账号设置');
-      for (const [id, label] of Object.entries({ profile: '个人资料', security: '账号安全', credits: '积分', version: '版本' })) {
+      for (const [id, label] of Object.entries({ profile: '个人资料', security: '账号安全', credits: '积分' })) {
         const button = node('button', label); button.type = 'button'; button.dataset.tab = id; button.id = 'account-tab-' + id;
         button.setAttribute('role', 'tab'); button.setAttribute('aria-controls', 'account-panel'); button.onclick = () => show(id); navigation.appendChild(button);
       }

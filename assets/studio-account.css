@@ -32,7 +32,6 @@
 .account-status[data-kind="error"] { border-left-color: #b3423d; background: #fff3f2; color: #9c302d; }
 .account-balance { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .account-balance strong { font-size: 30px; color: #147b62; overflow-wrap: anywhere; }
-.account-redeem { margin-top: 24px; }
 .account-credit-packs { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; padding: 0; border: 0; min-width: 0; }
 .account-credit-packs legend { margin-bottom: 12px; color: var(--dim2); }
 .account-pack { display: flex; align-items: flex-start; gap: 8px; border: 1px solid var(--line); padding: 14px 10px; border-radius: 6px; cursor: pointer; min-width: 0; }

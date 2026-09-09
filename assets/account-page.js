@@ -4,7 +4,6 @@
   const params = new URLSearchParams(location.search);
   const panel = window.HAIStudioAccount.create({
     container: host,
-    version: () => host.dataset.ver,
     returnFocus: () => null,
     loginUrl: () => window.EvoronAccountLinks.loginUrl(location.href, location.origin),
     onRefresh: async () => {
@@ -16,5 +15,5 @@
       history.replaceState(null, '', url.pathname + url.search);
     },
   });
-  panel.open(window.HAIStudioPayments.returnedOrder() ? 'credits' : params.get('tab') || 'profile');
+  panel.open(window.HAIStudioPayments.returnedOrder() || params.has('plan') ? 'credits' : params.get('tab') || 'profile');
 })();

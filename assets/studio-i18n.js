@@ -15,7 +15,9 @@
   var store = typeof localStorage !== 'undefined' ? localStorage : { getItem: function () { return null; }, setItem: function () {} };
   var nav = typeof navigator !== 'undefined' ? navigator : { language: 'zh' };
   // v4.93 用户定调：语言跟随系统——中文系统才中文，非中文系统一律英文。
-  // 手动切换（hai.lang）永远优先于系统判定。
+  var accountLang = typeof location !== 'undefined' && /\/account\.html$/.test(location.pathname) ? new URLSearchParams(location.search).get('lang') : null;
+  if (accountLang === 'en' || accountLang === 'zh') store.setItem('hai.lang', accountLang);
+  // 手动切换（hai.lang）优先于系统判定。
   var lang = store.getItem('hai.lang') || (String(nav.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en');
 
   var MAP = {
@@ -25,9 +27,12 @@
     '登录后管理邮箱、笔名与写作积分。': 'Sign in to manage your email, pen name and writing credits.',
     '书城与写作工作台': 'Bookstore and writing studio', '进入工作台': 'Open studio',
     '我的主页': 'My page',
-    '登录邮箱': 'Sign-in email', '邮箱或原测试账号': 'Email or existing test account',
+    '登录邮箱': 'Sign-in email', '输入登录邮箱': 'Enter your email',
+    '正在读取账号': 'Loading account',
+    '暂时无法加载页面，正在重新连接…': 'The page could not load. Reconnecting…',
+    '页面出现问题，请刷新重试。如仍无法使用，请联系支持。': 'Something went wrong. Refresh and try again. If the problem persists, contact support.',
     '你的公开署名': 'Your public pen name', '确认密码': 'Confirm password', '再次输入密码': 'Repeat your password',
-    '使用邮箱登录。原测试账号仍可使用。': 'Sign in with your email. Existing test accounts still work.',
+    '登录后继续阅读与创作。': 'Sign in to continue reading and writing.',
     '邮箱用于登录，笔名用于公开署名。笔名绑定后不可更改。': 'Use your email to sign in and a pen name for publishing. Your pen name cannot be changed later.',
     '请填写笔名、邮箱和至少 8 位密码': 'Enter a pen name, email and password of at least 8 characters.',
     '两次输入的密码不一致': 'The passwords do not match.',
@@ -41,7 +46,7 @@
     '当前密码或原激活码不正确': 'Your current password or activation code is incorrect.',
     '该邮箱不可绑定，请使用其他邮箱或找回原账号': 'This email cannot be linked. Use another email or recover the existing account.',
     '发送过于频繁，请稍后再试': 'Too many requests. Please try again later.',
-    '在线支付暂未开放，已有积分与兑换码仍可使用。': 'Online payments are not available yet. Existing credits and redemption codes still work.',
+    '积分购买暂未开放，已有积分可继续使用。如需帮助，请联系支持。': 'Credit purchases are not available yet. You can still use your existing credits. Contact support for help.',
     '选择积分套餐': 'Choose a credit pack', '前往测试结账': 'Test checkout', '前往安全结账': 'Secure checkout',
     '购买记录': 'Purchase history', '暂无购买记录': 'No purchases yet', '购买记录暂时无法读取': 'Purchase history is temporarily unavailable.',
     '登录': 'Sign in', '注册': 'Sign up', '找回密码': 'Forgot password',
@@ -61,6 +66,7 @@
     '如果邮箱仍待验证，系统会重新发送验证邮件。': 'If your email is awaiting verification, a new email will be sent subject to the resend limits.',
     '验证码无效、已过期或尝试次数过多，请重新获取': 'The code is invalid, expired or has too many failed attempts. Request a new code.',
     '邮件服务暂不可用': 'Email delivery is temporarily unavailable.',
+    '原先选择的套餐暂不可用，请重新选择。': 'Your selected pack is unavailable. Please select another pack.',
     '密码重置邮件暂不可用，请联系客服': 'Password reset email is unavailable. Please contact support.',
     '如果该邮箱已注册，系统会发送重置邮件。': 'If this email is registered, a password reset email will be sent subject to the resend limits.',
     '密码已更新，请登录。': 'Password updated. Please sign in.',
@@ -122,7 +128,7 @@
     '两次输入的新密码不一致': 'The new passwords do not match.', '旧密码不正确': 'The current password is incorrect.',
     '原登录会话已失效，请使用新密码重新登录。': 'Your previous sessions have expired. Sign in with your new password.',
     '重新登录': 'Sign in again', '密码修改成功，请重新登录': 'Password changed. Please sign in again.',
-    '积分与流水': 'Credits and history', '累计授予': 'Total granted', '累计消耗': 'Total used', '兑换码': 'Redeem code',
+    '积分与消费': 'Credits and usage', '累计获得': 'Total added', '累计消耗': 'Total used',
     '购买积分': 'Buy credits', '购买积分 · 测试环境': 'Buy credits · Test mode', '购买': 'Buy',
     '测试交易，不产生真实扣款。': 'Test transaction. No real charge.',
     '一次性购买，无自动续费。适用税费以结账页为准。': 'One-time purchase. No auto-renewal. Applicable tax is shown at checkout.',
@@ -134,13 +140,12 @@
     '未能查询到本账号的订单，请稍后重试或联系支持。': 'Could not find this order for your account. Retry later or contact support.',
     '付款结果暂时无法查询，请稍后重试，勿重复付款。': 'Payment status is temporarily unavailable. Retry later; do not pay twice.',
     '积分套餐暂时无法读取，请稍后重试。': 'Credit packs are temporarily unavailable. Please try again later.',
-    '兑换积分': 'Redeem credits', '请输入兑换码': 'Enter a redeem code.', '兑换成功，余额已重新读取': 'Code redeemed. Your balance is up to date.',
-    '最近 50 条积分流水': 'Recent credit entries (up to 50)', '暂无积分流水': 'No credit entries yet',
-    '流水记录积分授予与调整；剩余积分以当前余额为准。': 'Entries record credit grants and adjustments. Available credits are shown in the current balance.',
-    '积分授予': 'Credit grant', '积分调整': 'Credit adjustment', '兑换入账': 'Code redeemed', '退款调整': 'Refund adjustment',
+    '最近 50 条积分记录': 'Recent credit entries (up to 50)', '暂无积分记录': 'No credit entries yet',
+    '记录积分的增加与调整；已使用积分见累计消耗。': 'Entries show credits added and adjusted. Credits spent are shown under Total used.',
+    '积分增加': 'Credits added', '积分调整': 'Credit adjustment', '退款调整': 'Refund adjustment',
     '购买入账': 'Purchase', '积分变动': 'Credit change', '时间未记录': 'Time not recorded', '暂不可用': 'Unavailable', '不限额度': 'Unlimited',
     '正在读取账号…': 'Loading account...', '登录已失效，请重新登录': 'Your session has expired. Please sign in again.',
-    '更新来源': 'Update source', 'GitHub 正式版本': 'GitHub release', '查看版本说明': 'Release notes', '工作台': 'Studio',
+    '工作台': 'Studio',
     '读取超时，请重试': 'Loading timed out. Please try again.', '重新读取': 'Reload', '读取失败': 'Could not load', '正在提交…': 'Submitting...',
     '操作未成功，请检查后重试': 'The operation failed. Check your details and try again.',
     '操作已成功，但最新资料读取失败。请重新打开面板核对，无需重复提交。': 'The change succeeded, but updated details could not be loaded. Reopen this panel to check; do not submit again.',
@@ -396,6 +401,10 @@
     btn.onclick = function () {
       store.setItem('hai.lang', lang === 'en' ? 'zh' : 'en');
       store.setItem('hai.shelfLang', lang === 'en' ? 'zh' : 'en');
+      if (accountLang === 'en' || accountLang === 'zh') {
+        var url = new URL(location.href); url.searchParams.set('lang', lang === 'en' ? 'zh' : 'en');
+        history.replaceState(null, '', url.pathname + url.search + url.hash);
+      }
       location.reload();
     };
     if (existingToggle) return;

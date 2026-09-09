@@ -14,6 +14,11 @@
     const id = params.get('order') || '';
     return /^[A-Za-z0-9_-]{1,120}$/.test(id) ? id : '';
   }
+  function requestedPlan(plans, search = root.location.search) {
+    const id = new URLSearchParams(search).get('plan');
+    if (!id) return { id: plans[0]?.id || '', missing: false };
+    return { id: plans.some(plan => plan.id === id) ? id : '', missing: !plans.some(plan => plan.id === id) };
+  }
   async function mount(parent, { signal, postJson, refresh }) {
     const node = (tag, text, className) => {
       const el = document.createElement(tag);
@@ -45,15 +50,21 @@
       if (signal.aborted) return;
       if (!data.ok) throw Error('Plans unavailable');
       wrap.appendChild(node('h4', '购买积分'));
-      if (!data.checkoutEnabled) wrap.appendChild(node('p', '在线支付暂未开放，已有积分与兑换码仍可使用。', 'account-note'));
+      if (!data.checkoutEnabled) wrap.appendChild(node('p', '积分购买暂未开放，已有积分可继续使用。如需帮助，请联系支持。', 'account-note'));
       const plans = (data.plans || []).filter(plan => plan.checkoutEnabled !== false);
       if (data.checkoutEnabled && plans.length) {
+        const requested = requestedPlan(plans);
+        if (requested.missing) wrap.appendChild(node('p', '原先选择的套餐暂不可用，请重新选择。', 'account-note'));
         const form = node('form');
         const list = node('fieldset', '', 'account-credit-packs'); list.appendChild(node('legend', '选择积分套餐'));
         const locale = root.__haiI18n?.lang === 'en' ? 'en-US' : 'zh-CN';
-        for (const [index, plan] of plans.entries()) {
+        for (const plan of plans) {
           const row = node('label', '', 'account-pack');
-          const radio = node('input'); radio.type = 'radio'; radio.name = 'creditPack'; radio.value = plan.id; radio.checked = index === 0;
+          const radio = node('input'); radio.type = 'radio'; radio.name = 'creditPack'; radio.value = plan.id; radio.checked = plan.id === requested.id; radio.required = true;
+          radio.onchange = () => {
+            const url = new URL(root.location.href); url.searchParams.set('plan', plan.id);
+            root.history.replaceState(null, '', url.pathname + url.search + url.hash);
+          };
           const price = new Intl.NumberFormat(locale, { style: 'currency', currency: data.currency }).format(plan.amountMinor / 100);
           const copy = node('span'); copy.append(node('strong', `${plan.credits.toLocaleString(locale)} ${locale === 'en-US' ? 'credits' : '积分'}`), node('small', price));
           row.append(radio, copy); list.appendChild(row);
@@ -91,7 +102,7 @@
       if (rows.length) wrap.appendChild(list);
     } catch { if (!signal.aborted) wrap.appendChild(node('p', '购买记录暂时无法读取', 'account-note')); }
   }
-  const api = { mount, orderMessage, returnedOrder };
+  const api = { mount, orderMessage, returnedOrder, requestedPlan };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.HAIStudioPayments = api;
 })(typeof window === 'undefined' ? globalThis : window);
