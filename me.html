@@ -28,12 +28,12 @@
 body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 }
 .wrap{max-width:760px;margin:0 auto;padding:22px 18px 76px}
-.idcard{display:flex;align-items:center;gap:14px;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.idcard{display:grid;grid-template-columns:52px minmax(0,1fr) auto;align-items:center;gap:14px;padding:18px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
 .avatar{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-size:22px;font-weight:800;flex:none}
-.idcard .nm{font-size:18px;font-weight:800}
+.idcard .nm{font-size:18px;font-weight:800;overflow-wrap:anywhere}
 .idcard .role{margin-top:3px;color:var(--muted);font-size:13px}
 .idcard .go{margin-left:auto;display:flex;flex-direction:column;gap:8px}
-.idcard .go a,.idcard .go button{min-height:34px;padding:0 16px;border:1px solid var(--line);border-radius:17px;background:#fff;color:var(--ink);font-size:13px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+.idcard .go a,.idcard .go button{min-height:44px;padding:6px 16px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font-size:13px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
 .idcard .go a{background:var(--accent);color:#fff;border:0}
 .stats{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:16px 0}
 .stat{padding:14px 8px;border:1px solid var(--line);border-radius:10px;background:var(--panel);text-align:center}
@@ -65,9 +65,9 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .rv p{margin:6px 0 0;font-size:14px;line-height:1.65}
 .empty{padding:36px 0;color:var(--muted);text-align:center;font-size:14.5px;line-height:2}
 .empty a{color:var(--accent)}
-@media(max-width:620px){.stats{grid-template-columns:repeat(3,1fr)}.idcard .go{flex-direction:row}.works{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:620px){.stats{grid-template-columns:repeat(3,minmax(0,1fr))}.idcard{grid-template-columns:52px minmax(0,1fr)}.idcard .go{grid-column:1/-1;margin:0;flex-direction:row;flex-wrap:wrap}.works{grid-template-columns:repeat(3,1fr)}}
 </style></head><body>
-<header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link" href="/shelf.html">我的书架</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link active" href="/me.html">我的主页</a></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a href="/shelf.html"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a class="on" href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script>(function(){try{if(localStorage.getItem('hai.shelfLang')==='en'){var m={'书城':'Store','书架':'Shelf','动态':'Feed','我的':'Me'};document.querySelectorAll('.m-tabbar .mtb-t').forEach(function(s){if(m[s.textContent])s.textContent=m[s.textContent]})}}catch(e){}})();</script>
+<link rel="stylesheet" href="/assets/store-account.css?v=6.20.0"><script src="/assets/account-links.js?v=6.20.0" defer></script><script src="/assets/store-account.js?v=6.20.0" defer></script><header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link" href="/shelf.html">我的书架</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link active" href="/me.html">我的主页</a><span class="store-account-entry"><a class="store-write" href="https://write.evoronai.com/" data-account-label="write">开始写作</a><a class="store-pricing" href="/pricing.html" data-account-label="pricing">积分方案</a><a class="store-login" href="https://write.evoronai.com/login.html" data-store-account>登录 / 注册</a></span></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a href="/shelf.html"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a class="on" href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script>(function(){try{if(localStorage.getItem('hai.shelfLang')==='en'){var m={'书城':'Store','书架':'Shelf','动态':'Feed','我的':'Me'};document.querySelectorAll('.m-tabbar .mtb-t').forEach(function(s){if(m[s.textContent])s.textContent=m[s.textContent]})}}catch(e){}})();</script>
 <div class="page-head"><h1 data-t="title">我的主页</h1></div>
 <div class="wrap">
   <div id="main"><div class="empty" data-t="loading">正在打开…</div></div>
@@ -88,7 +88,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
       var em=el('div','empty');
       em.appendChild(document.createTextNode(T('登录后即可看到你的书架、想法与通知。','Sign in to see your shelf, thoughts and notifications.')));
       em.appendChild(document.createElement('br'));
-      var a=el('a','',T('回书库登录','Sign in from the library'));a.href='/index.html';
+      var a=el('a','',T('登录 / 注册','Sign in / Register'));a.href='/index.html?login=1&returnTo=%2Fme.html';
       em.appendChild(a);
       main.appendChild(em);
       return;
@@ -96,21 +96,27 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
     var u=me.user;
     main.innerHTML='';
     var card=el('div','idcard');
-    var av=el('div','avatar',(u.penName||u.name||'?').slice(0,1).toUpperCase());
+    var av=el('div','avatar',(u.penName||'EVORON').slice(0,1).toUpperCase());
     card.appendChild(av);
     var mid=el('div','');
-    mid.appendChild(el('div','nm',u.penName||u.name));
-    function remainingCredits(user){if(!user||user.role==='owner')return null;if(user.balance&&user.balance.unlimited)return null;if(user.balance&&user.balance.remaining!=null)return user.balance.remaining;if(user.credits!=null)return user.credits;return null}
-    var rem=remainingCredits(u);
-    mid.appendChild(el('div','role',(u.role==='owner'?T('超级用户','Owner'):T('读者 · 作者','Reader · Writer'))+(rem!=null&&u.role!=='owner'?(' · '+T('剩余积分 ','Remaining credits ')+rem):'')));
+    mid.appendChild(el('div','nm',u.penName||T('尚未设置笔名','Pen name not set')));
+    mid.appendChild(el('div','role',u.role==='owner'?T('超级用户','Owner'):T('读者 · 作者','Reader · Writer')));
     card.appendChild(mid);
     var go=el('div','go');
     var st=el('a','');st.innerHTML='<img class="ico" src="assets/icons/write-inv.png" alt=""> '+T('进入写作台','Open the studio');st.href='https://write.evoronai.com/';go.appendChild(st);
-    var out=el('button','',T('登出','Sign out'));
-    out.onclick=function(){j('/api/auth/logout',{method:'POST'}).then(function(){location.reload()})};
-    go.appendChild(out);
+    var settings=el('a','',T('账号管理','Account settings'));settings.href='/account.html?tab=profile';go.appendChild(settings);
     card.appendChild(go);
     main.appendChild(card);
+    var account=el('section','account-overview');
+    var accountInfo=el('div','');
+    accountInfo.appendChild(el('p','',T('剩余积分','Remaining credits')));
+    var amount=el('strong','',T('正在读取…','Loading…'));accountInfo.appendChild(amount);
+    accountInfo.appendChild(el('p','',T('阅读免费。写作、编修使用积分。','Reading is free. Credits are for writing and editing.')));
+    accountInfo.appendChild(el('p','',u.email?(u.email+' · '+(u.emailVerified?T('已验证','Verified'):T('待验证','Unverified'))):T('邮箱待绑定，原有作品与积分保留','Link your email. Existing books and credits are preserved.')));
+    var accountNav=el('nav','');
+    [['/account.html?tab=credits',T('积分与购买记录','Credits & orders')],['/pricing.html',T('积分方案','Credit packs')],['/account.html?tab=profile',T('邮箱与笔名','Email & pen name')],['/account.html?tab=security',T('账号安全','Security')]].forEach(function(item){var link=el('a','',item[1]);link.href=EN&&item[0]==='/pricing.html'?'/pricing-en.html':item[0];accountNav.appendChild(link)});
+    account.appendChild(accountInfo);account.appendChild(accountNav);main.appendChild(account);
+    j('/api/billing/mine',{cache:'no-store'}).then(function(data){var b=data&&data.ok&&data.balance;amount.textContent=b&&b.unlimited?T('不限额度','Unlimited'):b&&Number.isFinite(b.remaining)?b.remaining.toLocaleString(EN?'en-US':'zh-CN'):T('暂不可用','Unavailable')}).catch(function(){amount.textContent=T('暂不可用','Unavailable')});
     var stats=el('div','stats');main.appendChild(stats);
     function stat(icon,n,label,href){var s2=el('div','stat');var inner=href?el('a',''):s2;var im=document.createElement('img');im.className='si';im.src='assets/icons/'+icon+'.png';im.alt='';var b=el('b','',String(n));var sp=el('span','',label);if(href){inner.href=href;inner.appendChild(im);inner.appendChild(b);inner.appendChild(sp);s2.appendChild(inner)}else{s2.appendChild(im);s2.appendChild(b);s2.appendChild(sp)}stats.appendChild(s2)}
     Promise.all([j('/api/reader/shelf').catch(function(){return null}),j('/api/reader/profile').catch(function(){return null}),j('/api/reader/notifications').catch(function(){return null})]).then(function(rs){

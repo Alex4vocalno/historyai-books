@@ -19,6 +19,15 @@
   .rr-row b{display:block;height:100%;background:var(--gold);border-radius:3px}
   .rr-row em{font-style:normal;text-align:right;font-variant-numeric:tabular-nums}
   .reader-rating-empty{margin-top:18px;color:var(--muted);font-size:13.5px}
+  .work-facts dl{margin:10px 0 0;display:grid;gap:8px}
+  .work-facts dl>div{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;font-size:14px}
+  .work-facts dt{color:var(--muted)}
+  .work-facts dd{margin:0;color:var(--ink)}
+  .pub-record ul{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:6px;font-size:13.5px;color:var(--muted)}
+  .pub-record li b{font-weight:600;color:var(--ink);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+  .pub-record li i{font-style:normal;margin-left:8px;padding:1px 7px;border-radius:10px;background:#eef1ef;color:#68716d;font-size:12px}
+  .pub-note{margin:8px 0 0;color:var(--muted);font-size:13px}
+  @media (max-width:520px){.work-facts dl>div{grid-template-columns:1fr;gap:2px}}
   /* v6.9.31 视觉精修（微信读书对齐）：胶囊按钮+柔和标签+封面立体书感 */
   .book-hero .primary{border-radius:25px;padding:0 36px;box-shadow:0 8px 22px color-mix(in srgb,var(--green) 32%,transparent);letter-spacing:.04em}
   .book-hero .primary:active{transform:scale(.98)}
@@ -107,11 +116,12 @@
       box.querySelector('[data-rr-avg]').textContent=d.avg;
       var full=Math.round(d.avg);
       box.querySelector('[data-rr-stars]').textContent='★★★★★'.slice(0,full)+'☆☆☆☆☆'.slice(0,5-full);
-      box.querySelector('[data-rr-count]').textContent=' · '+d.count+" 人点评";
+      box.querySelector('[data-rr-count]').textContent=' · '+d.count+" 人点评"+(d.lowSample?" · 样本较少":'');
       // v6.9.31 数据栏填充：读者评分格；推荐值格（微信读书口径 4-5 星占比，样本 ≥3）
       var rrCell=document.querySelector('[data-stat-rr]');
       if(rrCell){rrCell.querySelector('[data-stat-rr-val]').textContent=d.avg;rrCell.hidden=false}
-      if(d.count>=3&&Array.isArray(d.dist)){
+      // v6.16.0 F3：推荐值只在样本够时出（少样本如实标注而不是拿一两票算百分比）
+      if(d.count>=(d.sampleLimit||5)&&Array.isArray(d.dist)){
         var rec=Math.round((d.dist[3]+d.dist[4])/d.count*100);
         var rcCell=document.querySelector('[data-stat-reco]');
         if(rcCell){rcCell.querySelector('[data-stat-reco-val]').textContent=rec;rcCell.hidden=false}
@@ -147,7 +157,7 @@
     if(s.wishlist)parts.push('<span><strong>'+s.wishlist+'</strong> 人想读</span>');
     if(parts.length){box.innerHTML=parts.join('');box.hidden=false}
   }).catch(function(){});
-})();</script></div><section class="description" data-desc><h2>内容简介</h2><p>郑和七下西洋（1405-1433）：宝船舰队的建造与组织、永乐朝的政治动因、朝贡体系与海上贸易网络、航海技术与季风航线、船队在南洋与印度洋的交往冲突，以及下西洋的终结与明代海权的转向。</p></section><section class="hot-lines" data-hot-lines hidden><h2>热门划线</h2><div data-hl-list></div></section><section class="hot-reviews" data-hot-reviews hidden><h2>精彩点评</h2><div data-rv-list></div><a class="rv-more" href="ch-1.html">读完这本书，写下你的点评 →</a></section></section><section class="catalog" data-catalog><div class="catalog-head"><h2>目录</h2><span>共 15 章</span></div><div class="chapter-grid"><a class="chapter-row" href="ch-1.html"><span>第 01 章</span><span>宋元遗风与明初船政</span></a><a class="chapter-row" href="ch-2.html"><span>第 02 章</span><span>季风认知与水文图志</span></a><a class="chapter-row" href="ch-3.html"><span>第 03 章</span><span>靖难余波与朝贡宏图</span></a><a class="chapter-row" href="ch-4.html"><span>第 04 章</span><span>巨舰龙骨与龙江船厂</span></a><a class="chapter-row" href="ch-5.html"><span>第 05 章</span><span>舰队编制与远洋后勤</span></a><a class="chapter-row" href="ch-6.html"><span>第 06 章</span><span>牵星过洋与罗盘导航</span></a><a class="chapter-row" href="ch-7.html"><span>第 07 章</span><span>巨舰龙骨与帝国船坞</span></a><a class="chapter-row" href="ch-8.html"><span>第 08 章</span><span>牵星过洋与季风航路</span></a><a class="chapter-row" href="ch-9.html"><span>第 09 章</span><span>跨洋调度与舰队阵型</span></a><a class="chapter-row" href="ch-10.html"><span>第 10 章</span><span>勘合贸易与市舶流转</span></a><a class="chapter-row" href="ch-11.html"><span>第 11 章</span><span>枢纽重塑与海上秩序</span></a><a class="chapter-row" href="ch-12.html"><span>第 12 章</span><span>远洋物产与宫廷消费</span></a><a class="chapter-row" href="ch-13.html"><span>第 13 章</span><span>宝船停泊与帝国财政</span></a><a class="chapter-row" href="ch-14.html"><span>第 14 章</span><span>海权内收与技术停滞</span></a><a class="chapter-row" href="ch-15.html"><span>第 15 章</span><span>沧溟余波与海权转向</span></a></div></section><section class="related" data-related hidden><div class="sec-head"><h2>同类好书</h2></div><div class="related-grid" data-related-grid></div></section></main><script src="/assets/discovery.js?v=6.12.0"></script><script>(function(){
+})();</script></div><section class="description" data-desc><h2>内容简介</h2><p>郑和七下西洋（1405-1433）：宝船舰队的建造与组织、永乐朝的政治动因、朝贡体系与海上贸易网络、航海技术与季风航线、船队在南洋与印度洋的交往冲突，以及下西洋的终结与明代海权的转向。</p></section><section class="work-facts"><h2>作品说明</h2><dl><div><dt>作者</dt><dd>李思特Think</dd></div><div><dt>作品类型</dt><dd>历史</dd></div><div><dt>正文语言</dt><dd>中文</dd></div><div><dt>篇幅</dt><dd>15 章 · 137,842 字</dd></div><div><dt>创作方式</dt><dd>由 AI 引擎完成写作与编修，出版前经审校流程</dd></div></dl></section><section class="pub-record"><h2>出版记录</h2><ul><li><span>2026-08-16</span> <b>rel_20260816164711326_</b><i>当前版本</i></li></ul><p class="pub-note">这是首个发布版本，暂无修改记录。</p></section><section class="hot-lines" data-hot-lines hidden><h2>热门划线</h2><div data-hl-list></div></section><section class="hot-reviews" data-hot-reviews hidden><h2>精彩点评</h2><div data-rv-list></div><a class="rv-more" href="ch-1.html">读完这本书，写下你的点评 →</a></section></section><section class="catalog" data-catalog><div class="catalog-head"><h2>目录</h2><span>共 15 章</span></div><div class="chapter-grid"><a class="chapter-row" href="ch-1.html"><span>第 01 章</span><span>宋元遗风与明初船政</span></a><a class="chapter-row" href="ch-2.html"><span>第 02 章</span><span>季风认知与水文图志</span></a><a class="chapter-row" href="ch-3.html"><span>第 03 章</span><span>靖难余波与朝贡宏图</span></a><a class="chapter-row" href="ch-4.html"><span>第 04 章</span><span>巨舰龙骨与龙江船厂</span></a><a class="chapter-row" href="ch-5.html"><span>第 05 章</span><span>舰队编制与远洋后勤</span></a><a class="chapter-row" href="ch-6.html"><span>第 06 章</span><span>牵星过洋与罗盘导航</span></a><a class="chapter-row" href="ch-7.html"><span>第 07 章</span><span>巨舰龙骨与帝国船坞</span></a><a class="chapter-row" href="ch-8.html"><span>第 08 章</span><span>牵星过洋与季风航路</span></a><a class="chapter-row" href="ch-9.html"><span>第 09 章</span><span>跨洋调度与舰队阵型</span></a><a class="chapter-row" href="ch-10.html"><span>第 10 章</span><span>勘合贸易与市舶流转</span></a><a class="chapter-row" href="ch-11.html"><span>第 11 章</span><span>枢纽重塑与海上秩序</span></a><a class="chapter-row" href="ch-12.html"><span>第 12 章</span><span>远洋物产与宫廷消费</span></a><a class="chapter-row" href="ch-13.html"><span>第 13 章</span><span>宝船停泊与帝国财政</span></a><a class="chapter-row" href="ch-14.html"><span>第 14 章</span><span>海权内收与技术停滞</span></a><a class="chapter-row" href="ch-15.html"><span>第 15 章</span><span>沧溟余波与海权转向</span></a></div></section><section class="related" data-related hidden><div class="sec-head"><h2>同类好书</h2></div><div class="related-grid" data-related-grid></div></section></main><script src="/assets/discovery.js?v=6.12.0"></script><script>(function(){
     var button=document.querySelector('[data-continue-reading]');if(!button)return;
     try{
       var state=JSON.parse(localStorage.getItem("historyai.reader.proj-mrei7vpyow3")||'{}');
