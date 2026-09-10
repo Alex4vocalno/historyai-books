@@ -2,12 +2,13 @@
 
 (function () {
   function purchaseState(data, id) {
-    if (data?.ok !== true || typeof data.checkoutEnabled !== 'boolean' || !Array.isArray(data.plans)) return { state: 'unavailable' };
+    if (typeof id !== 'string' || !id.trim()) return { state: 'unavailable' };
+    if (data?.ok !== true || !Array.isArray(data.plans)) return { state: 'unavailable' };
     const plan = data.plans.find(row => row?.id === id);
     if (!plan) return { state: 'unavailable' };
     if (!/^[A-Z]{3}$/.test(data.currency || '') || !Number.isSafeInteger(plan.amountMinor) || plan.amountMinor <= 0
       || !Number.isFinite(plan.credits) || plan.credits <= 0) return { state: 'unavailable' };
-    return { state: data.checkoutEnabled && plan.checkoutEnabled === true ? 'ready' : 'closed', plan };
+    return { state: 'ready', plan };
   }
   async function mount() {
     const en = document.documentElement.lang === 'en';
@@ -35,10 +36,7 @@
       for (const card of cards) {
         const result = purchaseState(data, card.dataset.creditPlan);
         const button = card.querySelector('button');
-        button.textContent = result.state === 'ready' ? t('选择套餐', 'Select pack')
-          : result.state === 'closed' ? t('查看套餐', 'View pack') : t('购买状态暂不可用', 'Availability unavailable');
-        const status = card.querySelector('[data-pack-status]');
-        if (status) status.textContent = result.state === 'closed' ? t('暂未开放购买', 'Purchases not yet available') : '';
+        button.textContent = result.state === 'ready' ? t('选择套餐', 'Select pack') : t('购买状态暂不可用', 'Availability unavailable');
         button.disabled = result.state === 'unavailable';
         if (result.state === 'unavailable') retry.hidden = false;
         if (result.state === 'unavailable') continue;
