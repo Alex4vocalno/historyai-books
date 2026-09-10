@@ -2302,6 +2302,7 @@ var qrcode = function() {
  * 上方为 vendor 的 qrcode-generator（MIT, Kazuhiko Arase）。
  * ================================================================ */
 (function () {
+  if (typeof document === 'undefined') return;
   var dataEl = document.getElementById('reader-data');
   if (!dataEl) return;
   var data = {};

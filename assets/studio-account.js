@@ -15,7 +15,7 @@
 
   function create({ onRefresh, returnFocus, container, onTabChange = () => {}, loginUrl = '/login.html' }) {
     let dialog = null, panel, status, navigation, user, pending = false, generation = 0, sessionEnded = false;
-    let readController;
+    let readController, consent;
     const node = (tag, text, className) => {
       const el = document.createElement(tag);
       if (text !== undefined) el.textContent = text;
@@ -46,7 +46,14 @@
         const data = await root.HAIStudioSession.readJson(url, {
           method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), timeoutMs: 20000,
         });
-        if (!data.ok) { message(data.userError || data.error || '操作未成功，请检查后重试', true); return; }
+        if (!data.ok) {
+          if (data.code === 'CONSENT_OUTDATED') {
+            const current = await get('/api/auth/me');
+            user = current.user; consent = current.consent;
+            if (user) { panel.replaceChildren(); profile(); }
+          }
+          message(data.userError || data.error || '操作未成功，请检查后重试', true); return;
+        }
         accepted = true;
         await success(data);
         if (refreshIdentity) await onRefresh();
@@ -81,6 +88,7 @@
       detail(details, '邮箱', user.email ? `${user.email} · ${user.emailVerified ? '已验证' : '未验证'}` : '未绑定');
       detail(details, '账号类型', user.role === 'owner' ? '超级用户' : '创作账号');
       panel.appendChild(details);
+      if (consent?.required && !consent.accepted && user.mode !== 'local-owner') policyConfirmation();
       if (!user.email && user.mode !== 'local-owner') emailBinding();
       if (user.penName) {
         detail(details, '笔名', user.penName, true);
@@ -100,6 +108,28 @@
         if (!name || !check.checked) { message('请输入笔名并确认绑定规则', true); return; }
         postJson('/api/auth/pen-name', { penName: name }, async data => {
           user.penName = data.penName; panel.replaceChildren(); profile(); message('笔名已绑定');
+        });
+      };
+      panel.appendChild(form);
+    }
+    function policyConfirmation() {
+      const form = node('form');
+      form.appendChild(node('h4', '服务政策更新'));
+      const label = node('label', undefined, 'account-confirm');
+      const check = node('input'); check.type = 'checkbox'; check.required = true;
+      const text = node('span');
+      const suffix = root.__haiI18n?.lang === 'en' ? '-en' : '';
+      const terms = node('a', '服务条款'), privacy = node('a', '隐私政策');
+      terms.href = `/terms${suffix}.html`; privacy.href = `/privacy${suffix}.html`;
+      for (const link of [terms, privacy]) { link.target = '_blank'; link.rel = 'noopener noreferrer'; }
+      text.append(node('span', '我同意'), ' ', terms, ' ', node('span', '，并已阅读'), ' ', privacy);
+      label.append(check, text); form.appendChild(label);
+      action(form, '确认当前政策');
+      form.onsubmit = event => {
+        event.preventDefault();
+        if (!check.checked) return;
+        postJson('/api/auth/consent', { consent: { termsAccepted: true, privacyAcknowledged: true, version: consent.version, digest: consent.digest }, locale: root.__haiI18n?.lang || 'zh' }, async data => {
+          consent = data.consent; panel.replaceChildren(); profile(); message('政策确认已保存。');
         });
       };
       panel.appendChild(form);
@@ -136,6 +166,10 @@
       panel.appendChild(node('h3', '账号安全'));
       if (user.mode === 'local-owner') {
         panel.appendChild(node('p', '当前为本机直通模式，没有可在此修改的登录密码。', 'account-note')); return;
+      }
+      if (['owner', 'admin'].includes(user.role) || user.mfaEnabled) {
+        const link = node('a', '管理双重认证', 'account-mfa-link');
+        link.href = '/admin-security.html'; panel.appendChild(link);
       }
       const form = node('form');
       const old = field(form, 'oldPassword', '当前密码', { type: 'password', autocomplete: 'current-password' });
@@ -217,7 +251,7 @@
             const link = node('a', '登录 / 注册'); link.href = typeof loginUrl === 'function' ? loginUrl() : loginUrl; panel.appendChild(link);
             return;
           }
-          user = data.user; panel.replaceChildren();
+          user = data.user; consent = data.consent; panel.replaceChildren();
         }
         if (tab === 'profile') profile();
         else if (tab === 'security') security();
@@ -251,7 +285,7 @@
       status = node('p', '', 'account-status'); status.setAttribute('aria-live', 'polite');
       const legal = node('footer', undefined, 'account-legal');
       const en = root.__haiI18n?.lang === 'en';
-      for (const [id, label] of Object.entries({ pricing: '积分价格', privacy: '隐私政策', terms: '服务条款', 'acceptable-use': '可接受使用政策' })) {
+      for (const [id, label] of Object.entries({ pricing: '积分价格', privacy: '隐私政策', terms: '服务条款', 'acceptable-use': '可接受使用政策', refunds: '退款说明', support: '联系支持', policies: '政策中心与版本' })) {
         const link = node('a', label); link.href = `https://evoronai.com/${id}${en ? '-en' : ''}.html`;
         link.target = '_blank'; link.rel = 'noopener'; legal.appendChild(link);
       }

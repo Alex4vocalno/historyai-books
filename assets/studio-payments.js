@@ -70,17 +70,21 @@
           row.append(radio, copy); list.appendChild(row);
         }
         const button = node('button', data.mode === 'test' ? '前往测试结账' : '前往安全结账', 'account-primary'); button.type = 'submit';
+        const eligibility = node('label', '', 'account-confirm');
+        const age = node('input'); age.type = 'checkbox'; age.name = 'ageConfirmed'; age.required = true;
+        eligibility.append(age, node('span', locale === 'en-US' ? 'I confirm that I am at least 18 years old.' : '我确认已年满 18 岁。'));
         form.onsubmit = event => {
           event.preventDefault();
           const selected = form.querySelector('input[name="creditPack"]:checked');
-          if (!selected) return;
-          postJson('/api/billing/orders', { planId: selected.value }, async result => {
+          if (!selected || !age.checked) return;
+          postJson('/api/billing/orders', { planId: selected.value, ageConfirmed: age.checked }, async result => {
             const target = new URL(result.checkoutUrl);
             if (target.protocol !== 'https:' || !(target.hostname === 'checkout.stripe.com' || target.hostname === 'creem.io' || target.hostname.endsWith('.creem.io'))) throw Error('无效支付地址');
             root.location.assign(target.href);
           }, false);
         };
-        form.append(list, node('p', data.mode === 'test' ? '测试交易，不产生真实扣款。' : '一次性购买，无自动续费。适用税费以结账页为准。', 'account-note'), button);
+        form.append(list, node('p', data.mode === 'test' ? '测试交易，不产生真实扣款。' : '一次性购买，无自动续费。适用税费以结账页为准。', 'account-note'),
+          node('p', locale === 'en-US' ? 'Purchased credits do not automatically expire. Refund requests are reviewed individually; statutory rights remain unaffected.' : '已购积分不自动过期。退款逐单人工审核，法定权利不受影响。', 'account-note'), eligibility, button);
         wrap.appendChild(form);
       }
     } catch { if (!signal.aborted) wrap.appendChild(node('p', '积分套餐暂时无法读取，请稍后重试。', 'account-note')); }
