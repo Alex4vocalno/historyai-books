@@ -3,22 +3,28 @@
 (function () {
   function purchaseState(data, id) {
     if (data?.ok !== true || typeof data.checkoutEnabled !== 'boolean' || !Array.isArray(data.plans)) return { state: 'unavailable' };
-    if (!data.checkoutEnabled) return { state: 'closed' };
     const plan = data.plans.find(row => row?.id === id);
-    if (!plan || plan.checkoutEnabled !== true) return { state: 'closed' };
+    if (!plan) return { state: 'unavailable' };
     if (!/^[A-Z]{3}$/.test(data.currency || '') || !Number.isSafeInteger(plan.amountMinor) || plan.amountMinor <= 0
       || !Number.isFinite(plan.credits) || plan.credits <= 0) return { state: 'unavailable' };
-    return { state: 'ready', plan };
+    return { state: data.checkoutEnabled && plan.checkoutEnabled === true ? 'ready' : 'closed', plan };
   }
   async function mount() {
     const en = document.documentElement.lang === 'en';
     const t = (zh, english) => en ? english : zh;
     const retry = document.querySelector('[data-pricing-retry]');
     const cards = [...document.querySelectorAll('[data-credit-plan]')];
+    for (const card of cards) {
+      const status = document.createElement('p');
+      status.dataset.packStatus = ''; status.setAttribute('role', 'status');
+      card.appendChild(status);
+    }
     const load = async () => {
       retry.hidden = true;
       for (const card of cards) {
         const button = card.querySelector('button'); button.disabled = true;
+        button.onclick = null;
+        card.querySelector('[data-pack-status]').textContent = '';
         button.textContent = t('正在读取购买状态…', 'Checking availability…');
       }
       let data;
@@ -30,10 +36,12 @@
         const result = purchaseState(data, card.dataset.creditPlan);
         const button = card.querySelector('button');
         button.textContent = result.state === 'ready' ? t('选择套餐', 'Select pack')
-          : result.state === 'closed' ? t('暂未开放购买', 'Purchases not yet available') : t('购买状态暂不可用', 'Availability unavailable');
-        button.disabled = result.state !== 'ready';
+          : result.state === 'closed' ? t('查看套餐', 'View pack') : t('购买状态暂不可用', 'Availability unavailable');
+        const status = card.querySelector('[data-pack-status]');
+        if (status) status.textContent = result.state === 'closed' ? t('暂未开放购买', 'Purchases not yet available') : '';
+        button.disabled = result.state === 'unavailable';
         if (result.state === 'unavailable') retry.hidden = false;
-        if (result.state !== 'ready') continue;
+        if (result.state === 'unavailable') continue;
         card.querySelector('.price').textContent = new Intl.NumberFormat(en ? 'en-US' : 'zh-CN', { style: 'currency', currency: data.currency }).format(result.plan.amountMinor / 100) + ' ' + data.currency;
         card.querySelector('.credits').textContent = result.plan.credits.toLocaleString(en ? 'en-US' : 'zh-CN') + t(' 积分', ' credits');
         button.onclick = () => {

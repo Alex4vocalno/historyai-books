@@ -51,8 +51,9 @@
       if (!data.ok) throw Error('Plans unavailable');
       wrap.appendChild(node('h4', '购买积分'));
       if (!data.checkoutEnabled) wrap.appendChild(node('p', '积分购买暂未开放，已有积分可继续使用。如需帮助，请联系支持。', 'account-note'));
-      const plans = (data.plans || []).filter(plan => plan.checkoutEnabled !== false);
-      if (data.checkoutEnabled && plans.length) {
+      const plans = (data.plans || []).filter(plan => plan && typeof plan.id === 'string'
+        && Number.isSafeInteger(plan.amountMinor) && plan.amountMinor > 0 && Number.isFinite(plan.credits) && plan.credits > 0);
+      if (plans.length) {
         const requested = requestedPlan(plans);
         if (requested.missing) wrap.appendChild(node('p', '原先选择的套餐暂不可用，请重新选择。', 'account-note'));
         const form = node('form');
@@ -69,14 +70,22 @@
           const copy = node('span'); copy.append(node('strong', `${plan.credits.toLocaleString(locale)} ${locale === 'en-US' ? 'credits' : '积分'}`), node('small', price));
           row.append(radio, copy); list.appendChild(row);
         }
-        const button = node('button', data.mode === 'test' ? '前往测试结账' : '前往安全结账', 'account-primary'); button.type = 'submit';
+        const button = node('button', '', 'account-primary'); button.type = 'submit';
+        const canCheckout = () => data.checkoutEnabled === true
+          && plans.some(plan => plan.id === form.querySelector('input[name="creditPack"]:checked')?.value && plan.checkoutEnabled === true);
+        const updateCheckout = () => {
+          button.disabled = !canCheckout();
+          button.textContent = button.disabled ? (locale === 'en-US' ? 'Purchases not yet available' : '暂未开放购买')
+            : data.mode === 'test' ? '前往测试结账' : '前往安全结账';
+        };
+        form.addEventListener('change', updateCheckout);
         const eligibility = node('label', '', 'account-confirm');
         const age = node('input'); age.type = 'checkbox'; age.name = 'ageConfirmed'; age.required = true;
         eligibility.append(age, node('span', locale === 'en-US' ? 'I confirm that I am at least 18 years old.' : '我确认已年满 18 岁。'));
         form.onsubmit = event => {
           event.preventDefault();
           const selected = form.querySelector('input[name="creditPack"]:checked');
-          if (!selected || !age.checked) return;
+          if (!selected || !age.checked || !canCheckout()) return;
           postJson('/api/billing/orders', { planId: selected.value, ageConfirmed: age.checked }, async result => {
             const target = new URL(result.checkoutUrl);
             if (target.protocol !== 'https:' || !(target.hostname === 'checkout.stripe.com' || target.hostname === 'creem.io' || target.hostname.endsWith('.creem.io'))) throw Error('无效支付地址');
@@ -85,6 +94,15 @@
         };
         form.append(list, node('p', data.mode === 'test' ? '测试交易，不产生真实扣款。' : '一次性购买，无自动续费。适用税费以结账页为准。', 'account-note'),
           node('p', locale === 'en-US' ? 'Purchased credits do not automatically expire. Refund requests are reviewed individually; statutory rights remain unaffected.' : '已购积分不自动过期。退款逐单人工审核，法定权利不受影响。', 'account-note'), eligibility, button);
+        const links = node('p', '', 'account-note');
+        for (const [id, zh, en] of [['terms', '服务条款', 'Terms of Service'], ['privacy', '隐私政策', 'Privacy Policy'], ['refunds', '退款政策', 'Refund Policy'], ['support', '联系支持', 'Contact support']]) {
+          if (links.childNodes.length) links.append(document.createTextNode(' · '));
+          const link = node('a', locale === 'en-US' ? en : zh);
+          link.href = `/${id}${locale === 'en-US' ? '-en' : ''}.html`;
+          link.target = '_blank'; link.rel = 'noopener'; links.appendChild(link);
+        }
+        form.appendChild(links);
+        updateCheckout();
         wrap.appendChild(form);
       }
     } catch { if (!signal.aborted) wrap.appendChild(node('p', '积分套餐暂时无法读取，请稍后重试。', 'account-note')); }
