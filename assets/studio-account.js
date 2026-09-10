@@ -1,6 +1,7 @@
 'use strict';
 
 (function (root) {
+  let checkoutInFlight = false;
   function passwordError(oldPassword, password, confirmation) {
     if (!oldPassword.trim()) return '请输入当前密码';
     if (password.trim().length < 6) return '新密码至少需要 6 位';
@@ -13,9 +14,15 @@
     return Number.isFinite(balance.remaining) ? balance.remaining.toLocaleString('zh-CN') : '暂不可用';
   }
 
-  function create({ onRefresh, returnFocus, container, onTabChange = () => {}, loginUrl = '/login.html' }) {
+  function create({ onRefresh, returnFocus, container, onTabChange = () => {}, loginUrl = () => '/login.html?returnTo=' + encodeURIComponent(root.location.href) }) {
     let dialog = null, panel, status, navigation, user, pending = false, generation = 0, sessionEnded = false;
     let readController, consent;
+    const en = () => (root.__haiI18n?.lang || new URLSearchParams(root.location?.search || '').get('lang')) === 'en';
+    const t = (zh, english) => en() ? english : zh;
+    function resumeCheckout(event) {
+      if (!event.persisted || !dialog || !checkoutInFlight) return;
+      checkoutInFlight = false; setPending(false); show('credits');
+    }
     const node = (tag, text, className) => {
       const el = document.createElement(tag);
       if (text !== undefined) el.textContent = text;
@@ -140,7 +147,7 @@
       form.appendChild(node('p', '验证后可用邮箱登录；原有书稿、笔名和积分保持不变。', 'account-note'));
       const email = field(form, 'email', '登录邮箱', { type: 'email', autocomplete: 'email' });
       email.value = user.pendingEmail || '';
-      const password = field(form, 'password', user.hasPassword === false ? '原激活码' : '当前密码', { type: 'password', autocomplete: 'current-password' });
+      const password = field(form, 'password', user.hasPassword === false ? t('当前登录凭证', 'Current sign-in credential') : '当前密码', { type: 'password', autocomplete: 'current-password' });
       const newPassword = user.hasPassword === false ? field(form, 'newPassword', '设置登录密码', { type: 'password', autocomplete: 'new-password', minLength: 8 }) : null;
       action(form, '发送验证邮件');
       form.onsubmit = event => {
@@ -165,7 +172,7 @@
     function security() {
       panel.appendChild(node('h3', '账号安全'));
       if (user.mode === 'local-owner') {
-        panel.appendChild(node('p', '当前为本机直通模式，没有可在此修改的登录密码。', 'account-note')); return;
+        panel.appendChild(node('p', t('此账号不支持在此修改登录密码。', 'This account’s sign-in password cannot be changed here.'), 'account-note')); return;
       }
       if (['owner', 'admin'].includes(user.role) || user.mfaEnabled) {
         const link = node('a', '管理双重认证', 'account-mfa-link');
@@ -191,50 +198,187 @@
       panel.appendChild(form);
     }
     async function credits(signal, current) {
-      panel.appendChild(node('h3', '积分与消费'));
-      const data = await get('/api/billing/mine', signal);
-      if (current !== generation || !dialog) return;
-      const amount = node('section', undefined, 'account-balance');
-      amount.append(node('span', '剩余积分'), node('strong', balanceText(data.balance)));
-      panel.appendChild(amount);
-      const details = node('dl');
-      const number = value => Number.isFinite(value) ? value.toLocaleString('zh-CN') : '暂不可用';
-      detail(details, '累计获得', number(data.balance && data.balance.granted));
-      detail(details, '累计消耗', number(data.balance && data.balance.usedCredits));
-      panel.appendChild(details);
-      if (root.HAIStudioPayments) {
-        await root.HAIStudioPayments.mount(panel, { signal, postJson, refresh: async () => {
-          if (current !== generation || !dialog) return;
-          await onRefresh();
-          await show('credits');
-        } });
-        if (current !== generation || !dialog) return;
+      const payments = root.HAIStudioPayments;
+      if (!payments || !['checkoutUrl', 'checkoutFailure', 'orderMessage', 'purchasePlans', 'requestCheckout', 'requestedPlan', 'returnedOrder'].every(key => typeof payments[key] === 'function')) {
+        message(t('购买页面暂时无法加载，请重试或刷新页面。', 'The purchase page could not be loaded. Please retry or refresh the page.'), true);
+        const retry = node('button', t('重新加载购买页面', 'Retry purchase page'));
+        retry.type = 'button'; retry.onclick = () => show('credits'); panel.appendChild(retry); return;
       }
-      panel.appendChild(node('h4', '最近 50 条积分记录'));
-      panel.appendChild(node('p', '记录积分的增加与调整；已使用积分见累计消耗。', 'account-note'));
-      const rows = Array.isArray(data.rows) ? data.rows : [];
-      if (!rows.length) { panel.appendChild(node('p', '暂无积分记录', 'account-note')); return; }
-      const list = node('ol', undefined, 'account-ledger');
-      const labels = { grant: '积分增加', adjust: '积分调整', redeem: '积分增加', refund: '退款调整', purchase: '购买入账' };
-      rows.forEach(row => {
-        const item = node('li');
-        const copy = node('div'), reason = node('strong', labels[row.kind] || '积分变动');
-        copy.appendChild(reason);
-        const date = new Date(row.at);
-        copy.appendChild(node('small', Number.isFinite(date.getTime()) ? date.toLocaleString('zh-CN') : '时间未记录'));
-        const delta = Number.isFinite(row.delta) ? `${row.delta > 0 ? '+' : ''}${row.delta}` : '—';
-        item.append(copy, node('span', delta, row.delta >= 0 ? 'account-positive' : 'account-negative'));
-        list.appendChild(item);
-      });
-      panel.appendChild(list);
+      const { checkoutUrl, checkoutFailure: purchaseError, orderMessage: purchaseStatus, purchasePlans } = payments;
+      const active = () => !signal.aborted && current === generation && dialog;
+      const locale = en() ? 'en-US' : 'zh-CN';
+      const number = value => Number.isFinite(value) ? value.toLocaleString(locale) : t('暂不可用', 'Unavailable');
+      const money = (amount, currency) => Number.isSafeInteger(amount) && amount >= 0 && /^[A-Z]{3}$/.test(currency || '')
+        ? `${new Intl.NumberFormat(locale, { style: 'currency', currency }).format(amount / 100)} ${currency}` : t('金额暂不可用', 'Amount unavailable');
+      panel.setAttribute('translate', 'no');
+      panel.appendChild(node('h3', t('积分与购买', 'Credits & purchases')));
+      const balance = node('section', undefined, 'account-credit-balance');
+      const purchase = node('section', undefined, 'account-purchase');
+      const orders = node('section', undefined, 'account-purchase-orders');
+      const ledger = node('details', undefined, 'account-credit-ledger');
+      ledger.appendChild(node('summary', t('积分明细', 'Credit activity')));
+      const entries = node('div'); ledger.appendChild(entries);
+      panel.append(balance, purchase, orders, ledger);
+      const retryButton = (parent, label, run) => {
+        const button = node('button', label); button.type = 'button';
+        button.onclick = () => { if (!pending) run(); }; parent.appendChild(button); return button;
+      };
+      async function loadBalance() {
+        balance.replaceChildren(node('p', t('正在读取余额…', 'Loading balance…'), 'account-note'));
+        entries.replaceChildren();
+        try {
+          const data = await get('/api/billing/mine', signal);
+          if (!active()) return;
+          const amount = node('div', undefined, 'account-balance');
+          amount.append(node('span', t('可用积分', 'Available credits')), node('strong', data.balance?.unlimited ? t('不限额度', 'Unlimited') : number(data.balance?.remaining)));
+          const totals = node('p', t(`累计获得 ${number(data.balance?.granted)} · 累计消耗 ${number(data.balance?.usedCredits)}`,
+            `Total added ${number(data.balance?.granted)} · Total used ${number(data.balance?.usedCredits)}`), 'account-note');
+          balance.replaceChildren(amount, totals);
+          const list = node('ol', undefined, 'account-ledger');
+          const labels = { grant: '积分增加', adjust: '积分调整', redeem: '积分增加', refund: '退款调整', purchase: '购买入账' };
+          const english = { grant: 'Credits added', adjust: 'Credit adjustment', redeem: 'Credits added', refund: 'Refund adjustment', purchase: 'Purchase credited' };
+          for (const row of Array.isArray(data.rows) ? data.rows : []) {
+            const item = node('li'), copy = node('div'), date = new Date(row.at);
+            copy.append(node('strong', (en() ? english : labels)[row.kind] || t('积分变动', 'Credit change')),
+              node('small', Number.isFinite(date.getTime()) ? date.toLocaleString(locale) : t('时间未记录', 'Date unavailable')));
+            item.append(copy, node('span', Number.isFinite(row.delta) ? `${row.delta > 0 ? '+' : ''}${number(row.delta)}` : '—'));
+            list.appendChild(item);
+          }
+          entries.append(node('p', t('最近 50 条积分增加与调整；已使用积分见累计消耗。', 'The latest 50 additions and adjustments. Credit usage is shown in Total used.'), 'account-note'), list);
+          if (!list.children.length) entries.appendChild(node('p', t('暂无积分记录', 'No credit activity yet'), 'account-note'));
+        } catch {
+          if (!active()) return;
+          balance.replaceChildren(node('p', t('余额暂时无法读取，请重试。', 'Your balance could not be loaded. Please retry.'), 'account-note'));
+          retryButton(balance, t('重新读取余额', 'Retry balance'), loadBalance);
+        }
+      }
+      async function loadOrders(refreshBalance = false) {
+        orders.replaceChildren(node('h4', t('购买记录', 'Your orders')));
+        const result = node('div'); orders.appendChild(result);
+        const check = retryButton(orders, t('查询付款结果', 'Check payment status'), () => loadOrders(true)); check.disabled = true;
+        result.appendChild(node('p', t('正在查询付款结果…', 'Checking payment status…'), 'account-note'));
+        try {
+          const orderId = payments.returnedOrder();
+          if (orderId) {
+            try {
+              const returned = await get(`/api/billing/orders/${encodeURIComponent(orderId)}`, signal);
+              if (!active()) return;
+              result.replaceChildren(node('p', returned.order ? purchaseStatus(returned.order, en()) : t('未能查询到本账号的订单，请重试或联系支持。', 'This order could not be found for your account. Retry or contact support.'), 'account-return-status'));
+            } catch {
+              if (!active()) return;
+              result.replaceChildren(node('p', t('未能确认本账号的付款结果，请重试或联系支持，勿重复付款。', 'We could not confirm this account’s payment. Retry or contact support; do not pay again.'), 'account-return-status'));
+            }
+          } else result.replaceChildren();
+          const data = await get('/api/billing/orders', signal);
+          if (!active()) return;
+          if (!Array.isArray(data.orders)) throw Error('Invalid orders');
+          const list = node('ol', undefined, 'account-ledger account-orders');
+          for (const order of data.orders) {
+            const row = node('li'), copy = node('div');
+            copy.append(node('strong', order.planName || t('积分购买', 'Credit purchase')), node('small', purchaseStatus(order, en())));
+            const date = new Date(order.createdAt);
+            if (Number.isFinite(date.getTime())) copy.appendChild(node('small', date.toLocaleString(locale)));
+            if (/^[A-Za-z0-9_-]{1,120}$/.test(order.orderId || '')) copy.appendChild(node('small', t('订单编号：', 'Order reference: ') + order.orderId));
+            row.append(copy, node('span', money(order.amountMinor, order.currency))); list.appendChild(row);
+          }
+          result.appendChild(list);
+          if (!data.orders.length) result.appendChild(node('p', t('暂无购买记录', 'No purchases yet'), 'account-note'));
+          if (refreshBalance) { await loadBalance(); await onRefresh(); }
+        } catch {
+          if (active()) result.appendChild(node('p', t('购买记录暂时无法读取。请重新查询，勿重复付款。', 'Orders could not be loaded. Check again; do not pay again.'), 'account-note'));
+        } finally { if (active()) check.disabled = pending; }
+      }
+      async function loadPlans() {
+        purchase.replaceChildren(node('p', t('正在读取积分包…', 'Loading credit packs…'), 'account-note'));
+        try {
+          const data = await get('/api/billing/plans', signal);
+          if (!active()) return;
+          const plans = purchasePlans(data);
+          if (!plans.length) throw Error('No valid plans');
+          const requested = payments.requestedPlan(plans);
+          let selected = plans.find(plan => plan.id === requested.id);
+          purchase.replaceChildren();
+          const form = node('form', undefined, 'account-purchase-form');
+          const list = node('fieldset', undefined, 'account-pack-options');
+          list.appendChild(node('legend', t('选择积分包', 'Choose a credit pack')));
+          if (requested.missing) list.appendChild(node('p', t('原先选择的积分包暂不可用，请重新选择。', 'Your selected pack is no longer available. Please choose another.'), 'account-note'));
+          const summary = node('section', undefined, 'account-order-summary');
+          summary.appendChild(node('h4', t('订单摘要', 'Order summary')));
+          const creditCount = node('p', '', 'account-order-credits');
+          const total = node('strong', '', 'account-order-total');
+          summary.append(creditCount, node('span', t('积分包金额', 'Pack price'), 'account-note'), total,
+            node('p', data.mode === 'test' ? t('测试结账，不产生真实扣款。', 'Test checkout; no real payment is taken.')
+              : t('一次性购买，无自动续费。适用税费及最终应付金额以结账页为准。', 'One-time purchase, no automatic renewal. Applicable taxes and the final total are shown at checkout.'), 'account-note'));
+          const ageLabel = node('label', undefined, 'account-confirm');
+          const age = node('input'); age.type = 'checkbox'; age.name = 'ageConfirmed'; age.required = true;
+          ageLabel.append(age, node('span', t('我确认已年满 18 岁。', 'I confirm that I am at least 18 years old.')));
+          const legal = node('div', undefined, 'account-purchase-legal');
+          for (const [id, zh, english] of [['terms', '服务条款', 'Terms of Service'], ['privacy', '隐私政策', 'Privacy Policy'], ['refunds', '退款政策', 'Refund Policy']]) {
+            const a = node('a', t(zh, english)); a.href = `/${id}${en() ? '-en' : ''}.html`; a.target = '_blank'; a.rel = 'noopener noreferrer'; legal.appendChild(a);
+          }
+          const button = node('button', '', 'account-primary'); button.type = 'submit';
+          const feedback = node('div', undefined, 'account-checkout-feedback'); feedback.setAttribute('aria-live', 'polite');
+          let failed = false;
+          const update = () => {
+            if (!active()) return;
+            creditCount.textContent = selected ? `${number(selected.credits)} ${t('积分', 'credits')}` : t('尚未选择积分包', 'No pack selected');
+            total.textContent = selected ? money(selected.amountMinor, data.currency) : '—';
+            button.disabled = checkoutInFlight || !selected;
+            list.disabled = checkoutInFlight; age.disabled = checkoutInFlight;
+            button.textContent = checkoutInFlight ? t('正在前往结账…', 'Opening checkout…') : failed ? t('重试前往结账', 'Retry checkout')
+              : data.mode === 'test' ? t('前往测试结账', 'Continue to test checkout')
+                : data.provider === 'creem' ? t('前往 Creem 结账', 'Continue to Creem checkout') : t('前往安全结账', 'Continue to secure checkout');
+          };
+          for (const plan of plans) {
+            const label = node('label', undefined, 'account-pack-option');
+            const radio = node('input'); radio.type = 'radio'; radio.name = 'creditPack'; radio.value = plan.id; radio.checked = plan === selected; radio.required = true;
+            const copy = node('span'); copy.append(node('strong', `${number(plan.credits)} ${t('积分', 'credits')}`), node('small', money(plan.amountMinor, data.currency)));
+            label.append(radio, copy); list.appendChild(label);
+            radio.onchange = () => {
+              selected = plan;
+              const url = new URL(root.location.href); url.searchParams.set('plan', plan.id); url.searchParams.set('lang', en() ? 'en' : 'zh');
+              root.history.replaceState(null, '', url.pathname + url.search + url.hash); update();
+            };
+          }
+          form.onsubmit = async event => {
+            event.preventDefault();
+            if (!active() || checkoutInFlight || !selected || !age.checked || form.querySelector('input[name="creditPack"]:checked')?.value !== selected.id) return;
+            checkoutInFlight = true; setPending(true); update();
+            feedback.setAttribute('role', 'status'); feedback.replaceChildren(node('p', t('正在创建结账，尚未完成付款。', 'Creating checkout. Payment is not complete.')));
+            let redirecting = false;
+            try {
+              const result = await payments.requestCheckout(selected.id);
+              if (!active()) return;
+              const target = result.ok && checkoutUrl(result.checkoutUrl);
+              if (target) { root.location.assign(target); redirecting = true; return; }
+              failed = true; feedback.setAttribute('role', 'alert'); feedback.replaceChildren(node('p', purchaseError(result.code, en())));
+              if (result.code === 'AUTH_REQUIRED') {
+                const login = node('a', t('重新登录', 'Sign in again')); login.href = typeof loginUrl === 'function' ? loginUrl() : loginUrl; feedback.appendChild(login);
+              }
+            } catch {
+              if (active()) { failed = true; feedback.setAttribute('role', 'alert'); feedback.replaceChildren(node('p', purchaseError('', en()))); }
+            } finally {
+              if (!redirecting) { checkoutInFlight = false; if (active()) { setPending(false); update(); } }
+            }
+          };
+          summary.append(ageLabel, legal, button, feedback, node('p', t('付款经确认后积分才会入账。已购积分不自动过期；退款逐单人工审核，法定权利不受影响。', 'Credits are added only after payment is confirmed. Purchased credits do not automatically expire. Refunds are reviewed individually; statutory rights are unaffected.'), 'account-note'));
+          form.append(list, summary); purchase.appendChild(form); update();
+        } catch {
+          if (!active()) return;
+          purchase.replaceChildren(node('p', t('积分包暂时无法读取，请重试或联系支持。', 'Credit packs could not be loaded. Retry or contact support.'), 'account-note'));
+          retryButton(purchase, t('重新读取积分包', 'Retry credit packs'), loadPlans);
+        }
+      }
+      await Promise.all([loadBalance(), loadPlans(), loadOrders()]);
     }
     async function show(tab) {
       if (pending || sessionEnded || !dialog) return;
       if (!['profile', 'security', 'credits'].includes(tab)) tab = 'profile';
+      dialog.dataset.tab = tab;
       onTabChange(tab);
       readController?.abort(); readController = new AbortController();
       const current = ++generation;
-      panel.replaceChildren(); message('');
+      panel.replaceChildren(); panel.removeAttribute('translate'); message('');
       navigation.querySelectorAll('button').forEach(button => {
         const selected = button.dataset.tab === tab;
         button.setAttribute('aria-selected', String(selected)); button.tabIndex = selected ? 0 : -1;
@@ -258,8 +402,8 @@
         else if (tab === 'credits') await credits(readController.signal, current);
       } catch (error) {
         if (current !== generation || !dialog) return;
-        message(error.name === 'AbortError' ? '读取超时，请重试' : error.message, true);
-        const retry = node('button', '重新读取'); retry.type = 'button'; retry.onclick = () => show(tab); panel.appendChild(retry);
+        message(error.name === 'AbortError' ? t('读取超时，请重试', 'Loading timed out. Please retry.') : t('暂时无法读取账号，请重试。', 'Your account could not be loaded. Please retry.'), true);
+        const retry = node('button', t('重新读取', 'Retry')); retry.type = 'button'; retry.onclick = () => show(tab); panel.appendChild(retry);
       }
     }
     function open(tab = 'profile') {
@@ -284,17 +428,18 @@
       panel = node('section', undefined, 'account-panel'); panel.id = 'account-panel'; panel.setAttribute('role', 'tabpanel');
       status = node('p', '', 'account-status'); status.setAttribute('aria-live', 'polite');
       const legal = node('footer', undefined, 'account-legal');
-      const en = root.__haiI18n?.lang === 'en';
-      for (const [id, label] of Object.entries({ pricing: '积分价格', privacy: '隐私政策', terms: '服务条款', 'acceptable-use': '可接受使用政策', refunds: '退款说明', support: '联系支持', policies: '政策中心与版本' })) {
-        const link = node('a', label); link.href = `https://evoronai.com/${id}${en ? '-en' : ''}.html`;
+      const legalEnglish = { pricing: 'Credit pricing', privacy: 'Privacy Policy', terms: 'Terms of Service', 'acceptable-use': 'Acceptable Use Policy', refunds: 'Refund Policy', support: 'Help' };
+      for (const [id, label] of Object.entries({ pricing: '积分价格', privacy: '隐私政策', terms: '服务条款', 'acceptable-use': '可接受使用政策', refunds: '退款说明', support: '联系支持' })) {
+        const link = node('a', t(label, legalEnglish[id])); link.href = `https://evoronai.com/${id}${en() ? '-en' : ''}.html`;
         link.target = '_blank'; link.rel = 'noopener'; legal.appendChild(link);
       }
       const support = node('a', 'support@evoronai.com'); support.href = 'mailto:support@evoronai.com'; legal.appendChild(support);
       dialog.append(head, navigation, status, panel, legal); (container || document.body).appendChild(dialog);
+      root.addEventListener('pageshow', resumeCheckout);
       if (container) { show(tab); return; }
       dialog.addEventListener('keydown', event => {
         if (event.key !== 'Tab') return;
-        const controls = Array.from(dialog.querySelectorAll('button, input, a[href]')).filter(el => !el.disabled && el.tabIndex >= 0 && el.getClientRects().length);
+        const controls = Array.from(dialog.querySelectorAll('button, input, a[href], summary')).filter(el => !el.disabled && el.tabIndex >= 0 && el.getClientRects().length);
         const first = controls[0], last = controls[controls.length - 1];
         if (!first) { event.preventDefault(); return; }
         if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
@@ -302,6 +447,7 @@
       });
       dialog.addEventListener('cancel', event => { if (pending) event.preventDefault(); });
       dialog.addEventListener('close', () => {
+        root.removeEventListener('pageshow', resumeCheckout);
         readController?.abort(); generation++; dialog.remove(); dialog = null; user = null; returnFocus()?.focus();
       });
       dialog.showModal(); close.focus(); show(tab);

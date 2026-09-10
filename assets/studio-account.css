@@ -32,16 +32,6 @@
 .account-status[data-kind="error"] { border-left-color: #b3423d; background: #fff3f2; color: #9c302d; }
 .account-balance { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .account-balance strong { font-size: 30px; color: #147b62; overflow-wrap: anywhere; }
-.account-credit-packs { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; padding: 0; border: 0; min-width: 0; }
-.account-credit-packs legend { margin-bottom: 12px; color: var(--dim2); }
-.account-pack { display: flex; align-items: flex-start; gap: 8px; border: 1px solid var(--line); padding: 14px 10px; border-radius: 6px; cursor: pointer; min-width: 0; }
-.account-pack:has(input:checked) { border-color: var(--accent); background: #fff6f5; }
-.account-pack input { flex: none; margin-top: 3px; accent-color: var(--accent); }
-.account-pack span { min-width: 0; overflow-wrap: anywhere; }
-.account-credit-packs li { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
-.account-credit-packs li div { min-width: 0; overflow-wrap: anywhere; }
-.account-credit-packs small { display: block; margin-top: 6px; color: var(--dim2); }
-.account-credit-packs button { flex-shrink: 0; }
 .account-ledger { list-style: none; }
 .account-ledger li { display: flex; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
 .account-ledger li div { min-width: 0; overflow-wrap: anywhere; }
@@ -50,9 +40,6 @@
 .account-positive { color: #147b62; white-space: nowrap; }
 .account-negative { color: #b3423d; white-space: nowrap; }
 @media (max-width: 600px) {
-  .account-credit-packs { grid-template-columns: 1fr; }
-  .account-pack { align-items: center; }
-  .account-pack span { display: flex; align-items: baseline; justify-content: space-between; flex: 1; gap: 12px; }
   .studio-account { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); }
   .studio-account header { padding: 12px 16px; }
   .studio-account nav { padding: 0 12px; gap: 0; }
@@ -64,3 +51,47 @@
 }
 .studio-account .account-legal{display:flex;flex-wrap:wrap;gap:10px 16px;padding:14px 22px;border-top:1px solid var(--line,#e2e5e3);font-size:13px;line-height:1.7}
 .studio-account .account-legal a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.studio-account[data-tab="credits"] { width: min(960px, calc(100vw - 32px)); --accent: #087c72; --accent-strong: #06665e; --ink: #202524; --dim2: #606b66; --line: #dfe5e1; --surface-2: #f4f6f5; letter-spacing: 0; }
+.studio-account[data-tab="credits"] *, .studio-account[data-tab="credits"] *::before { box-sizing: border-box; }
+.account-credit-balance { padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.account-credit-balance .account-balance { border: 0; padding: 0; justify-content: flex-start; flex-wrap: wrap; gap: 12px 24px; }
+.account-credit-balance .account-balance strong { font-size: 32px; color: var(--ink); }
+.account-credit-balance .account-note { margin: 8px 0; }
+.account-purchase { padding: 28px 0; border-bottom: 1px solid var(--line); }
+.account-purchase-form { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 32px; margin: 0; }
+.account-pack-options { margin: 0; padding: 0; border: 0; min-width: 0; }
+.account-pack-options legend { padding: 0 0 16px; font-size: 16px; font-weight: 650; }
+.account-pack-option { display: flex; align-items: center; min-height: 84px; gap: 14px; padding: 16px 12px; border-top: 1px solid var(--line); cursor: pointer; }
+.account-pack-option:last-child { border-bottom: 1px solid var(--line); }
+.account-pack-option:has(input:checked) { background: #f0f8f6; box-shadow: inset 3px 0 #087c72; }
+.account-pack-option input { width: 20px; height: 20px; flex: none; margin: 0; accent-color: var(--accent); }
+.account-pack-option span { min-width: 0; display: grid; gap: 4px; }
+.account-pack-option strong { font-size: 17px; }
+.account-pack-option small { font-size: 14px; color: var(--dim2); }
+.account-order-summary { border-left: 1px solid var(--line); padding-left: 32px; min-width: 0; }
+.account-order-summary h4 { margin: 0 0 16px; font-size: 16px; }
+.account-order-credits { margin: 0 0 16px; }
+.account-order-total { display: block; font-size: 28px; line-height: 1.3; margin-top: 4px; }
+.account-order-summary .account-note { font-size: 13px; margin: 12px 0; }
+.account-order-summary .account-confirm { min-height: 44px; align-items: center; margin: 16px 0 0; cursor: pointer; }
+.account-order-summary .account-confirm input { margin: 0; }
+.account-order-summary .account-primary { display: block; width: 100%; min-height: 48px; padding: 10px 16px; line-height: 1.5; }
+.account-purchase-legal { display: flex; flex-wrap: wrap; gap: 0 16px; margin-bottom: 12px; }
+.account-purchase-legal a, .studio-account .account-legal a, .account-checkout-feedback a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); }
+.account-checkout-feedback { margin-top: 12px; padding-left: 12px; border-left: 3px solid var(--accent); line-height: 1.7; }
+.account-checkout-feedback:empty { display: none; }
+.account-checkout-feedback[role="alert"] { border-color: #ad3e35; color: #8e352e; }
+.account-checkout-feedback p { margin: 0; }
+.account-purchase-orders { padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.account-purchase-orders > button { margin-top: 12px; }
+.account-return-status { padding: 12px 0; line-height: 1.7; }
+.account-credit-ledger > summary { display: list-item; min-height: 44px; padding: 12px 0; cursor: pointer; font-weight: 600; }
+.account-purchase-form, .account-purchase-orders, .account-credit-ledger, .account-credit-balance { overflow-wrap: anywhere; }
+.account-orders > li > span { flex-shrink: 0; max-width: 45%; text-align: right; }
+@media (max-width: 680px) {
+  .account-purchase-form { grid-template-columns: minmax(0,1fr); gap: 24px; }
+  .account-order-summary { border-left: 0; padding-left: 0; }
+  .account-pack-option { min-height: 68px; }
+  .account-pack-option span { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex: 1; flex-wrap: wrap; }
+  .studio-account[data-tab="credits"] { width: calc(100vw - 16px); }
+}

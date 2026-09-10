@@ -1,15 +1,24 @@
 /* global document, window, localStorage, location */
 'use strict';
 (function () {
-  const en = document.documentElement.lang.startsWith('en') || (() => { try { return localStorage.getItem('hai.shelfLang') === 'en'; } catch { return false; } })();
+  const params = new URLSearchParams(location.search);
+  const requestedLang = params.get('lang');
+  const en = ['en', 'zh'].includes(requestedLang) ? requestedLang === 'en'
+    : document.documentElement.lang.startsWith('en') || (() => { try { return localStorage.getItem('hai.shelfLang') === 'en'; } catch { return false; } })();
   const t = (zh, english) => en ? english : zh;
   const links = window.EvoronAccountLinks;
   document.querySelectorAll('[data-account-label="write"]').forEach(el => { el.textContent = t('开始写作', 'Start writing'); });
   document.querySelectorAll('[data-account-label="pricing"]').forEach(el => { el.textContent = t('积分方案', 'Writing credits'); el.href = en ? '/pricing-en.html' : '/pricing.html'; });
   const entry = document.querySelector('[data-store-account]');
   if (!entry) return;
-  const params = new URLSearchParams(location.search);
-  const destination = links.safeReturn(params.get('returnTo') || location.pathname + location.hash, location.origin);
+  const returnParams = new URLSearchParams(params); returnParams.delete('login'); returnParams.delete('returnTo');
+  returnParams.set('lang', en ? 'en' : 'zh');
+  const destination = links.safeReturn(params.get('returnTo') || location.pathname + '?' + returnParams + location.hash, location.origin);
+  const accountUrl = tab => {
+    const query = new URLSearchParams({ tab, lang: en ? 'en' : 'zh' });
+    if (params.get('plan')) query.set('plan', params.get('plan'));
+    return '/account.html?' + query;
+  };
   entry.href = links.loginUrl(destination, location.origin);
   entry.textContent = t('登录 / 注册', 'Sign in / Register');
   if (params.get('login') === '1') { location.replace(entry.href); return; }
@@ -25,8 +34,8 @@
       summary.setAttribute('aria-label', t('账号菜单', 'Account menu')); summary.setAttribute('translate', 'no');
       const list = document.createElement('nav'); list.setAttribute('aria-label', t('账号管理', 'Account management'));
       for (const [url, label] of [
-        ['/me.html', t('我的主页', 'My page')], ['/account.html?tab=profile', t('账号与邮箱', 'Account & email')],
-        ['/account.html?tab=security', t('账号安全', 'Security')], ['/account.html?tab=credits', t('积分与购买记录', 'Credits & orders')],
+        ['/me.html', t('我的主页', 'My page')], [accountUrl('profile'), t('账号与邮箱', 'Account & email')],
+        [accountUrl('security'), t('账号安全', 'Security')], [accountUrl('credits'), t('积分与购买记录', 'Credits & orders')],
         ['mailto:support@evoronai.com', t('联系支持', 'Contact support')],
       ]) { const a = document.createElement('a'); a.href = url; a.textContent = label; list.appendChild(a); }
       const out = document.createElement('button'); out.type = 'button'; out.textContent = t('退出登录', 'Sign out');
@@ -49,6 +58,6 @@
           badge.setAttribute('aria-label', t('未读通知', 'Unread notifications')); summary.appendChild(badge);
         }
       } catch { /* The account menu stays usable if notifications are unavailable. */ }
-    }).catch(() => { entry.textContent = t('账号暂不可用', 'Account unavailable'); entry.href = '/account.html'; })
+    }).catch(() => { entry.textContent = t('重新读取账号', 'Retry account'); entry.href = accountUrl(params.has('plan') ? 'credits' : 'profile'); })
     .finally(() => clearTimeout(timeout));
 })();

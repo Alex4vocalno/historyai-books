@@ -12,8 +12,8 @@
     },
     onTabChange: tab => {
       const url = new URL(location.href); url.searchParams.set('tab', tab);
-      history.replaceState(null, '', url.pathname + url.search);
+      history.replaceState(null, '', url.pathname + url.search + url.hash);
     },
   });
-  panel.open(window.HAIStudioPayments.returnedOrder() || params.has('plan') ? 'credits' : params.get('tab') || 'profile');
+  panel.open(window.HAIStudioPayments?.returnedOrder?.() ? 'credits' : params.get('tab') || (params.has('plan') ? 'credits' : 'profile'));
 })();
