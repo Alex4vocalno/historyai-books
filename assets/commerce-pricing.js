@@ -1,6 +1,10 @@
 'use strict';
 
 (function () {
+  function unitPrice(plan, currency) {
+    if (!Number.isSafeInteger(plan?.amountMinor) || plan.amountMinor <= 0 || !Number.isFinite(plan?.credits) || plan.credits <= 0 || !/^[A-Z]{3}$/.test(currency || '')) return '';
+    return new Intl.NumberFormat('en-US', { style: 'currency', currency, minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(plan.amountMinor / plan.credits);
+  }
   function purchaseState(data, id) {
     if (typeof id !== 'string' || !id.trim()) return { state: 'unavailable' };
     if (data?.ok !== true || !Array.isArray(data.plans)) return { state: 'unavailable' };
@@ -40,8 +44,12 @@
         button.disabled = result.state === 'unavailable';
         if (result.state === 'unavailable') retry.hidden = false;
         if (result.state === 'unavailable') continue;
-        card.querySelector('.price').textContent = new Intl.NumberFormat(en ? 'en-US' : 'zh-CN', { style: 'currency', currency: data.currency }).format(result.plan.amountMinor / 100) + ' ' + data.currency;
+        const price = card.querySelector('.price');
+        const currency = document.createElement('span'); currency.textContent = data.currency;
+        price.replaceChildren(document.createTextNode(new Intl.NumberFormat('en-US', { style: 'currency', currency: data.currency }).format(result.plan.amountMinor / 100) + ' '), currency);
         card.querySelector('.credits').textContent = result.plan.credits.toLocaleString(en ? 'en-US' : 'zh-CN') + t(' 积分', ' credits');
+        const unit = card.querySelector('[data-unit-price]');
+        if (unit) unit.textContent = unitPrice(result.plan, data.currency) + t(' / 100 积分', ' / 100 credits');
         button.onclick = () => {
           const next = new URL('/account.html', location.origin);
           next.searchParams.set('tab', 'credits'); next.searchParams.set('plan', card.dataset.creditPlan);
@@ -53,6 +61,6 @@
     retry.onclick = load;
     await load();
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = { purchaseState };
+  if (typeof module !== 'undefined' && module.exports) module.exports = { purchaseState, unitPrice };
   else mount();
 })();
