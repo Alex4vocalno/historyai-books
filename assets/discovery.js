@@ -6,10 +6,15 @@
   else root.EvoronDiscovery = factory();
 })(typeof window === 'undefined' ? globalThis : window, function () {
   function normalized(value) { return String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/\s+/gu, ' ').trim(); }
+  function categoryKey(value, pool) {
+    if (!value || value === 'all') return '';
+    const book = pool.find(b => [b.categoryKey, b.categoryEn, b.g].includes(value));
+    return book ? book.categoryKey || book.g : '';
+  }
   function searchBooks(pool, state) {
     const terms = normalized(state.q).split(' ').filter(Boolean);
     return pool.filter(b => terms.every(term => normalized(b.h).includes(term))
-      && (!state.category || b.g === state.category)
+      && (!state.category || (b.categoryKey || b.g) === state.category)
       && (!state.kind || b.kind === state.kind)
       && (!state.language || b.lang === state.language))
       .sort((a, b) => (state.sort === 'score' ? b.s - a.s : state.sort === 'chapters' ? b.n - a.n : 0)
@@ -19,7 +24,7 @@
     const p = new URLSearchParams(search);
     const category = p.get('category') || '';
     const language = p.get('language') || '';
-    return { q: (p.get('q') || '').slice(0, 200), category: pool.some(b => b.g === category) ? category : '',
+    return { q: (p.get('q') || '').slice(0, 200), category: categoryKey(category, pool),
       kind: ['fiction', 'nonfiction'].includes(p.get('kind')) ? p.get('kind') : '',
       language: pool.some(b => b.lang === language) ? language : '',
       sort: ['score', 'chapters'].includes(p.get('sort')) ? p.get('sort') : 'default' };
@@ -41,9 +46,11 @@
     let visible = 24;
     let composing = false;
     let restoring = false;
+    let focusId = '';
     const key = () => 'evoron.discovery:' + win.location.pathname + win.location.search;
-    function remember() {
-      try { win.sessionStorage.setItem(key(), JSON.stringify({ y: win.scrollY, visible })); } catch { /* storage is optional */ }
+    function remember(link) {
+      if (link) focusId = link.closest('[data-book-card]')?.dataset.pid || '';
+      try { win.sessionStorage.setItem(key(), JSON.stringify({ y: win.scrollY, visible, focusId })); } catch { /* storage is optional */ }
     }
     function updateUrl() {
       const url = new URL(win.location.href);
@@ -53,23 +60,46 @@
     function render() {
       if (input && input.value !== state.q) input.value = state.q;
       doc.querySelectorAll('[data-category-filter]').forEach(b => {
-        const selected = b.dataset.categoryFilter === (state.category || 'all');
+        const selected = b.dataset.categoryFilter === 'all' ? !state.category : Boolean(state.category) && categoryKey(b.dataset.categoryFilter, pool) === state.category;
         b.classList.toggle('on', selected); b.setAttribute('aria-pressed', String(selected));
       });
       doc.querySelectorAll('[data-discovery-filter]').forEach(b => { b.value = state[b.dataset.discoveryFilter]; });
       doc.querySelectorAll('[data-sort]').forEach(b => {
         b.classList.toggle('on', b.dataset.sort === state.sort); b.setAttribute('aria-pressed', String(b.dataset.sort === state.sort));
       });
+      const languageLink = doc.querySelector('.lang-switch');
+      if (languageLink) {
+        const url = new URL(languageLink.href, win.location.href);
+        url.search = win.location.search;
+        Object.entries(state).forEach(([k, v]) => { if (v && v !== 'default') url.searchParams.set(k, v); else url.searchParams.delete(k); });
+        url.searchParams.set('lang', url.pathname.endsWith('index-en.html') ? 'en' : 'zh');
+        url.hash = win.location.hash;
+        languageLink.href = url.href;
+      }
       const matches = searchBooks(pool, state);
       paint(matches.slice(0, visible), matches.length, state);
     }
-    function change(patch) { remember(); state = { ...state, ...patch }; visible = 24; updateUrl(); render(); }
+    function change(patch) {
+      remember();
+      if ('category' in patch) patch = { ...patch, category: categoryKey(patch.category, pool) };
+      state = { ...state, ...patch }; visible = 24; focusId = ''; updateUrl(); render();
+    }
     function restore() {
       restoring = true; state = parseState(win.location.search, pool); visible = 24;
-      let y = 0;
-      try { const saved = JSON.parse(win.sessionStorage.getItem(key()) || '{}'); visible = Math.max(24, Math.min(pool.length || 24, Number(saved.visible) || 24)); y = Number(saved.y) || 0; } catch { /* first visit */ }
+      let y = 0; focusId = '';
+      try {
+        const saved = JSON.parse(win.sessionStorage.getItem(key()) || '{}');
+        visible = Math.max(24, Math.min(pool.length || 24, Number(saved.visible) || 24));
+        y = Number.isFinite(saved.y) ? Math.max(0, saved.y) : 0;
+        focusId = typeof saved.focusId === 'string' ? saved.focusId : '';
+      } catch { /* first visit */ }
       render();
-      win.requestAnimationFrame(() => { win.scrollTo(0, y); restoring = false; });
+      win.requestAnimationFrame(() => {
+        win.scrollTo(0, y);
+        const card = Array.from(doc.querySelectorAll('[data-book-card]')).find(el => el.dataset.pid === focusId);
+        card?.focus({ preventScroll: true });
+        restoring = false;
+      });
     }
     function results() { doc.querySelector('[data-all-books]')?.scrollIntoView({ block: 'start' }); }
     input?.addEventListener('compositionstart', () => { composing = true; });
@@ -82,15 +112,17 @@
     }));
     doc.querySelectorAll('[data-discovery-filter]').forEach(b => b.addEventListener('change', () => change({ [b.dataset.discoveryFilter]: b.value })));
     doc.querySelectorAll('[data-sort]').forEach(b => b.addEventListener('click', () => change({ sort: b.dataset.sort })));
-    doc.querySelector('[data-search-clear]')?.addEventListener('click', () => change({ q: '', category: '', kind: '', language: '' }));
+    doc.querySelector('[data-search-clear]')?.addEventListener('click', () => {
+      change({ q: '', category: '', kind: '', language: '' }); input?.focus({ preventScroll: true });
+    });
     const more = doc.querySelector('[data-shelf-more]');
     function loadMore() { if (restoring || more?.hidden) return; visible += 24; render(); }
     more?.addEventListener('click', loadMore);
     if (more && win.IntersectionObserver) new win.IntersectionObserver(entries => {
       if (entries.some(e => e.isIntersecting)) loadMore();
     }, { rootMargin: '300px 0px' }).observe(more);
-    win.addEventListener('pagehide', remember);
-    doc.addEventListener('click', e => { if (e.target.closest('a')) remember(); });
+    win.addEventListener('pagehide', () => remember());
+    doc.addEventListener('click', e => { const link = e.target.closest('a'); if (link) remember(link); });
     win.addEventListener('popstate', restore);
     win.addEventListener('pageshow', e => { if (e.persisted) restore(); });
     restore();

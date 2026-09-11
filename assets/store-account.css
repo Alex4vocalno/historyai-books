@@ -2,4 +2,5 @@
 @media(max-width:900px){.topbar-right>.topbar-link{display:none}.store-account-entry{gap:12px}}
 .store-unread{margin-left:6px;color:#b3423d;font-size:13px}
 .store-account-entry a{display:inline-flex;align-items:center;min-height:44px}
+@media(max-width:640px){.topbar .topbar-inner{flex-wrap:wrap;gap:8px}.store-account-entry{flex-wrap:wrap}}
 @media(max-width:600px){.store-pricing{display:none}.store-account-menu,.store-account-menu summary{max-width:100px}.store-account-entry{font-size:13px;gap:10px}.account-overview{grid-template-columns:minmax(0,1fr);padding:18px 0}.account-overview strong{font-size:21px}.topbar .brand-cn{display:none}}
