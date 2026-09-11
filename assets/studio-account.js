@@ -174,7 +174,7 @@
       if (user.mode === 'local-owner') {
         panel.appendChild(node('p', t('此账号不支持在此修改登录密码。', 'This account’s sign-in password cannot be changed here.'), 'account-note')); return;
       }
-      if (['owner', 'admin'].includes(user.role) || user.mfaEnabled) {
+      if (user.localAdmin === true && (['owner', 'admin'].includes(user.role) || user.mfaEnabled)) {
         const link = node('a', '管理双重认证', 'account-mfa-link');
         link.href = '/admin-security.html'; panel.appendChild(link);
       }
