@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mtvj0hv3bhf",
+    "projectId": "proj-mtvj0hv3bhf",
+    "releaseId": "rel_20260911023608635_00d19f149e",
+    "title": "应县木塔",
+    "subtitle": "千年木构的存续逻辑与技术演进",
+    "language": "zh",
+    "workType": "nonfiction",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "中国史",
+    "tags": [
+      "应县木塔",
+      "中国古代建筑",
+      "建筑史",
+      "辽代建筑",
+      "梁思成",
+      "木构技术"
+    ],
+    "description": "1056年落成的应县木塔，何以在战火、地震与风雨中屹立近千年？答案不在神话，而在历代匠人对结构的持续调适。从辽代双层套筒骨架的雄心，到金元明清修缮中斗拱与斜撑的力学博弈，再到梁思成测绘时的科学重释，木塔的存续是一部活态的技术演进史。本书以关键修缮节点为锚，用实测数据与文献互证，还原原始设计、加固手段与地方社会网络三者间的动态适配，呈现一座建筑在时间中不断被重塑的真实生命。",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-11T00:09:14.258Z"
+    },
+    "coverUrl": "books/proj-mtvj0hv3bhf/releases/rel_20260911023608635_00d19f149e/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtvj0hv3bhf/index.html",
+    "publishedAt": "2026-09-11T02:36:08.672Z",
+    "firstPublishedAt": "2026-09-11T02:36:08.672Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtptvt49gdx",
     "projectId": "proj-mtptvt49gdx",
     "releaseId": "rel_20260907025035048_7e987cd79a",

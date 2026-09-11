@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260911023608635_00d19f149e",
+  "projectId": "proj-mtvj0hv3bhf",
+  "manuscriptVersionId": "mv_63e25f2d676422a8",
+  "contentHash": "63e25f2d676422a82df89016529c2239ea56cdec9483db5692f0ae45a173a39a",
+  "title": "应县木塔",
+  "subtitle": "千年木构的存续逻辑与技术演进",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1056年落成的应县木塔，何以在战火、地震与风雨中屹立近千年？答案不在神话，而在历代匠人对结构的持续调适。从辽代双层套筒骨架的雄心，到金元明清修缮中斗拱与斜撑的力学博弈，再到梁思成测绘时的科学重释，木塔的存续是一部活态的技术演进史。本书以关键修缮节点为锚，用实测数据与文献互证，还原原始设计、加固手段与地方社会网络三者间的动态适配，呈现一座建筑在时间中不断被重塑的真实生命。",
+  "category": "中国史",
+  "tags": [
+    "应县木塔",
+    "中国古代建筑",
+    "建筑史",
+    "辽代建筑",
+    "梁思成",
+    "木构技术"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 212996,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-11T00:09:14.258Z"
+  },
+  "editorReview": {
+    "text": "这是一部扎实的科学史，它将应县木塔的千年存续，清晰地还原为一部由结构力学原理驱动的“活态技术演进史”。书的优点在于其严密的概念递进体系，从第1章“中心柱方案的内在矛盾”起步，经“双套筒结构”的技术解析，最终在第24章升华为对“韧性复合体”的深刻洞察，骨架极为稳固。作者将艰深的结构力学原理，与对金元、明代修缮背后社会逻辑的剖析（第12、13章）融为一体，使技术史拥有了社会史的深度，这种跨学科视野尤为可贵。全书声口克制稳定，章回呼应周密，是一份高质量的知识地图。不过，个别关键结论的确定性表述（如第2章对建塔年份的推断）似可更审慎，且局部章节的叙事节奏稍显拖沓，时间线接缝处（如第16→17章）也需读者稍加留意。这些微瑕，不妨碍它成为理解中国古建筑技术哲学的一部重要著作。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-11T01:10:09.917Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "从楼阁到多层木塔",
+      "units": 8299
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "辽土佛塔的雄心",
+      "units": 7579
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "斗拱承重的秩序",
+      "units": 8153
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "图样量尺与匠班",
+      "units": 7788
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "山林木料与功德主",
+      "units": 9487
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "九层立骨的突破",
+      "units": 8332
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "内外双环的骨架",
+      "units": 7965
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "暗层斜撑的刚性",
+      "units": 8374
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "斗拱群的分工",
+      "units": 8101
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "地基与柱脚的调适",
+      "units": 11041
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "塔样流布与匠作谱系",
+      "units": 9220
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "金元修缮的结构对话",
+      "units": 8379
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "明代官修的接管之道",
+      "units": 8374
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "清代补强的力学代价",
+      "units": 7608
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "乡民僧寺的日常网络",
+      "units": 7520
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "从佛塔到文物对象",
+      "units": 8324
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "科学测绘的结构重释",
+      "units": 8540
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "千年存续的适配逻辑",
+      "units": 8368
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "保护技术的体系化重组",
+      "units": 9811
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "制度介入后的地方变容",
+      "units": 8378
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "知识生产的公共转向",
+      "units": 8370
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "民族形式下的技术误读",
+      "units": 8956
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "承接前一章的技术误读批判",
+      "units": 8355
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "存续作为永续问题",
+      "units": 8124
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "遗产的永恒与变迁",
+      "units": 9550
+    }
+  ],
+  "publishedAt": "2026-09-11T02:36:08.672Z",
+  "formFamily": "narrative"
+}
