@@ -1,3 +1,45 @@
+/* global window, Image */
+(function () {
+  'use strict';
+  window.HAI_BOOKMARK_CANVAS = function (data) {
+  function wrapText(ctx, text, maxWidth) {
+    // v4.95：英文按单词断行（逐字符断会把单词拦腰截断），中文仍逐字
+    var enWrap = String(data.lang || '').indexOf('en') === 0 && / /.test(text);
+    var units = enWrap ? String(text).split(/(\s+)/) : String(text);
+    var lines = [], line = '';
+    for (var i = 0; i < units.length; i++) {
+      var u = units[i];
+      var probe = line + u;
+      if (ctx.measureText(probe).width > maxWidth && line) { lines.push(line.replace(/\s+$/, '')); line = u === ' ' ? '' : u; }
+      else line = probe;
+    }
+    if (line) lines.push(line.replace(/\s+$/, ''));
+    return lines;
+  }
+
+  function loadCover() {
+    return new Promise(function (resolve) {
+      var img = new Image();
+      img.onload = function () { resolve(img); };
+      img.onerror = function () { resolve(null); };
+      img.src = 'cover.jpg'; // 章节页与封面同目录；无封面书自然落到 onerror
+    });
+  }
+
+  function roundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+    return { wrapText: wrapText, loadCover: loadCover, roundRect: roundRect };
+  };
+})();
+
 //---------------------------------------------------------------------
 //
 // QR Code Generator for JavaScript
@@ -2416,43 +2458,12 @@ var qrcode = function() {
   }
   document.addEventListener('selectionchange', function () { setTimeout(onSelection, 60); });
 
-  function wrapText(ctx, text, maxWidth) {
-    // v4.95：英文按单词断行（逐字符断会把单词拦腰截断），中文仍逐字
-    var enWrap = String(data.lang || '').indexOf('en') === 0 && / /.test(text);
-    var units = enWrap ? String(text).split(/(\s+)/) : String(text);
-    var lines = [], line = '';
-    for (var i = 0; i < units.length; i++) {
-      var u = units[i];
-      var probe = line + u;
-      if (ctx.measureText(probe).width > maxWidth && line) { lines.push(line.replace(/\s+$/, '')); line = u === ' ' ? '' : u; }
-      else line = probe;
-    }
-    if (line) lines.push(line.replace(/\s+$/, ''));
-    return lines;
-  }
+  var canvasTools = window.HAI_BOOKMARK_CANVAS(data);
+  var wrapText = canvasTools.wrapText, loadCover = canvasTools.loadCover, roundRect = canvasTools.roundRect;
 
   function bookUrl() {
     try { return new URL((data.links && data.links.detail) || 'index.html', location.href).href; }
     catch (e) { return location.href; }
-  }
-
-  function loadCover() {
-    return new Promise(function (resolve) {
-      var img = new Image();
-      img.onload = function () { resolve(img); };
-      img.onerror = function () { resolve(null); };
-      img.src = 'cover.jpg'; // 章节页与封面同目录；无封面书自然落到 onerror
-    });
-  }
-
-  function roundRect(ctx, x, y, w, h, r) {
-    ctx.beginPath();
-    ctx.moveTo(x + r, y);
-    ctx.arcTo(x + w, y, x + w, y + h, r);
-    ctx.arcTo(x + w, y + h, x, y + h, r);
-    ctx.arcTo(x, y + h, x, y, r);
-    ctx.arcTo(x, y, x + w, y, r);
-    ctx.closePath();
   }
 
   function renderBookmark(cover, style) {
