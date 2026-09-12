@@ -1,0 +1,64 @@
+.store-welcome-open { overflow: hidden; }
+.store-welcome {
+  box-sizing: border-box;
+  width: 620px;
+  max-width: calc(100% - 32px);
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 0;
+  border: 1px solid #e6eaf0;
+  border-radius: 8px;
+  background: #fff;
+  color: #242a33;
+  box-shadow: 0 28px 96px #18243730, 0 3px 12px #1824370a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  letter-spacing: 0;
+  overflow: hidden;
+}
+.store-welcome[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
+.store-welcome:focus { outline: none; }
+.store-welcome::backdrop { background: #20273359; backdrop-filter: blur(3px); }
+.store-welcome-header { display: flex; align-items: center; gap: 16px; padding: 20px 24px 12px 36px; }
+.store-welcome-brand { display: flex; align-items: center; gap: 9px; flex: 1; min-width: 0; font-size: 13px; font-weight: 700; }
+.store-welcome-brand img { width: 24px; height: 24px; object-fit: contain; }
+.store-welcome-count { color: #87919e; font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.store-welcome button { cursor: pointer; font-family: inherit; letter-spacing: 0; }
+.store-welcome-close { display: grid; place-items: center; flex: 0 0 44px; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 4px; background: transparent; color: #7a8490; font-size: 26px; font-weight: 300; }
+.store-welcome-close:hover { background: #f3f5f7; color: #242a33; }
+.store-welcome-content { display: grid; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 16px 36px 36px; scrollbar-width: thin; }
+.store-welcome-page { grid-area: 1 / 1; min-width: 0; visibility: hidden; opacity: 0; pointer-events: none; }
+.store-welcome-page.is-current { visibility: visible; opacity: 1; pointer-events: auto; animation: welcome-reveal .2s ease-out; }
+.store-welcome .store-welcome-kicker { margin: 0 0 16px; color: #1767b5; font-size: 12px; line-height: 1.8; font-weight: 500; }
+.store-welcome h1 { margin: 0; font-size: 30px; line-height: 1.5; font-weight: 600; letter-spacing: 0; text-wrap: balance; }
+.store-welcome .store-welcome-copy { margin: 22px 0 0; color: #465260; font-size: 16px; line-height: 1.9; text-wrap: pretty; }
+.store-welcome .store-welcome-detail { margin: 18px 0 0; color: #6b7684; font-size: 14px; line-height: 1.9; text-wrap: pretty; }
+.store-welcome-nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 36px; border-top: 1px solid #edf0f3; background: #fff; }
+.store-welcome-back, .store-welcome-skip { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 6px; border: 0; border-radius: 4px; background: transparent; color: #677383; font-size: 14px; }
+.store-welcome-back[hidden], .store-welcome-skip[hidden] { display: none; }
+.store-welcome-back span { font-size: 20px; }
+.store-welcome-back:hover, .store-welcome-skip:hover { background: #f4f6f8; color: #20252c; }
+.store-welcome-start { flex: 0 0 148px; height: 46px; padding: 0 16px; border: 1px solid #185b9c; border-radius: 6px; background: #1963a8; color: #fff; box-shadow: 0 2px 3px #13477612; font-size: 14px; font-weight: 500; white-space: nowrap; }
+.store-welcome-start:hover { background: #14538f; }
+.store-welcome button:focus-visible, .store-welcome-reopen:focus-visible { outline: 2px solid #4c8dc9; outline-offset: 3px; }
+.store-welcome-reopen { margin-top: 16px; min-height: 44px; padding: 8px 12px; border: 0; background: transparent; color: #1963a8; cursor: pointer; font: inherit; text-decoration: underline; text-underline-offset: 4px; }
+@keyframes welcome-reveal { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 600px) {
+  .store-welcome-header { padding: 12px 12px 8px 24px; gap: 10px; }
+  .store-welcome-content { padding: 16px 24px 28px; }
+  .store-welcome h1 { font-size: 26px; }
+  .store-welcome .store-welcome-kicker { font-size: 11px; margin-bottom: 14px; }
+  .store-welcome .store-welcome-copy { margin-top: 18px; font-size: 15px; line-height: 1.85; }
+  .store-welcome .store-welcome-detail { margin-top: 16px; font-size: 13px; line-height: 1.85; }
+  .store-welcome-nav { padding: 16px 24px; gap: 12px; }
+  .store-welcome-start { flex-basis: 136px; }
+}
+@media (max-width: 359px) {
+  .store-welcome-header { padding-left: 20px; }
+  .store-welcome-content { padding-left: 20px; padding-right: 20px; }
+  .store-welcome-nav { padding-left: 20px; padding-right: 20px; }
+  .store-welcome h1 { font-size: 24px; }
+  .store-welcome-start { flex-basis: 128px; font-size: 13px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .store-welcome-page.is-current { animation: none; }
+}
