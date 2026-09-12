@@ -9,7 +9,7 @@
     } catch { return ''; }
   }
   function checkoutFailure(code, en = false) {
-    if (['PAYMENT_PROVIDER_DISABLED', 'PAYMENT_PRODUCT_UNCONFIGURED'].includes(code)) return en
+    if (['PAYMENT_PROVIDER_DISABLED', 'PAYMENT_PRODUCT_UNCONFIGURED', 'PAYMENT_RETURN_URL_UNCONFIGURED'].includes(code)) return en
       ? 'Checkout is temporarily unavailable. This attempt did not create a checkout or take payment. Please retry later or contact support.'
       : '暂时无法前往结账。本次未创建结账，也未扣款。请稍后重试或联系支持。';
     if (code === 'PAYMENT_PLAN_NOT_FOUND') return en ? 'This pack is no longer available. Please choose another pack.' : '此积分包暂不可用，请选择其他积分包。';
