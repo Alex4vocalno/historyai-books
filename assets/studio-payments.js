@@ -39,6 +39,15 @@
       ids.add(plan.id); return true;
     });
   }
+  function orderSupportUrl(order, en = false) {
+    const id = /^[A-Za-z0-9_-]{1,120}$/.test(order?.orderId || '') ? order.orderId : '';
+    const subject = en ? 'EvoronAI purchase support' : 'EvoronAI 购买求助';
+    const body = [en ? 'Please help me check this purchase.' : '请协助核查这笔购买。',
+      id ? (en ? 'Order reference: ' : '订单编号：') + id : '',
+      en ? 'Issue (payment / credits / refund): ' : '遇到的问题（付款 / 积分 / 退款）：',
+      en ? 'Please do not include passwords or full card details.' : '请勿填写密码或完整银行卡信息。'].filter(Boolean).join('\n');
+    return `mailto:support@evoronai.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
   async function requestCheckout(planId) {
     // readJson discards non-2xx bodies; checkout needs the server error code to distinguish known failures from unknown outcomes.
     const response = await root.fetch('/api/billing/orders', {
@@ -61,7 +70,7 @@
     if (!id) return { id: plans[0]?.id || '', missing: false };
     return { id: plans.some(plan => plan.id === id) ? id : '', missing: !plans.some(plan => plan.id === id) };
   }
-  const api = { checkoutUrl, checkoutFailure, orderMessage, purchasePlans, returnedOrder, requestedPlan, requestCheckout };
+  const api = { checkoutUrl, checkoutFailure, orderMessage, purchasePlans, returnedOrder, requestedPlan, requestCheckout, orderSupportUrl };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.HAIStudioPayments = api;
 })(typeof window === 'undefined' ? globalThis : window);

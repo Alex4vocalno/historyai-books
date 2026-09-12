@@ -214,6 +214,18 @@
     '完成全书写作后开放': 'Opens when the book is finished', '运行发行评测后开放': 'Opens after release evaluation',
     '纲': 'O', '策': 'B', '文': 'M',
     // ── 完稿总结 ──
+    '书稿已完稿': 'Your manuscript is complete',
+    '成书总结 · 已发布': 'Book summary · published', '章节': 'Chapters', '成书规模': 'Manuscript length',
+    '项目历时（含等待）': 'Project elapsed time (including waiting)',
+    '阅读正式正文': 'Read manuscript', '下载 Word 文档': 'Download Word document',
+    '阅读成书': 'Read your book', '作品评测': 'Book evaluation',
+    '先通读正式正文，确认作品整体感受。': 'Read the manuscript and see how the book feels as a whole.',
+    '编辑评测正在运行，完成后自动更新。': 'Evaluation is running. Results will update when it finishes.',
+    '检查整本书的结构、内容与阅读质量。': 'Review the structure, content and reading quality of the book.',
+    '生成封面、简介与公开阅读页面。': 'Create a cover, description and public reading page.',
+    '作品评测完成后开放。': 'Available after book evaluation.',
+    '评测进行中…': 'Evaluation in progress…', '开始作品评测': 'Evaluate book',
+    '打开已发布电子书': 'Open published e-book', '成书后的下一步': 'Next steps for your book',
     '恭喜，书稿已经完成！': 'Congratulations — your book is finished!',
     '🚀 发布电子书': '🚀 Publish e-book', '完整章节': 'Chapters', '正文总量': 'Total length',
     '平均每章': 'Avg per chapter', '从建项到完本': 'Start to finish', '写作语言': 'Language',
@@ -334,6 +346,8 @@
   };
 
   var RULES = [
+    [/^已完成 · 编辑分 ([\d.]+)$/, 'Complete · editorial score $1'],
+    [/^已发布 (\d+) 个版本。$/, '$1 edition(s) published.'],
     [/^重新发送（(\d+)s）$/, 'Resend in $1s'],
     [/^(.*) · 已验证$/, '$1 · Verified'],
     [/^(.*) · 未验证$/, '$1 · Unverified'],

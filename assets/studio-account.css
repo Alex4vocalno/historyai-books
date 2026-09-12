@@ -83,11 +83,19 @@
 .account-checkout-feedback[role="alert"] { border-color: #ad3e35; color: #8e352e; }
 .account-checkout-feedback p { margin: 0; }
 .account-purchase-orders { padding-bottom: 24px; border-bottom: 1px solid var(--line); }
-.account-purchase-orders > button { margin-top: 12px; }
+.account-purchase-orders > button { margin: 12px 12px 0 0; }
 .account-return-status { padding: 12px 0; line-height: 1.7; }
 .account-credit-ledger > summary { display: list-item; min-height: 44px; padding: 12px 0; cursor: pointer; font-weight: 600; }
 .account-purchase-form, .account-purchase-orders, .account-credit-ledger, .account-credit-balance { overflow-wrap: anywhere; }
-.account-orders > li > span { flex-shrink: 0; max-width: 45%; text-align: right; }
+.account-orders > li { display: grid; grid-template-columns: minmax(0,1fr) minmax(120px, 35%); }
+.account-order-amounts { text-align: right; line-height: 1.6; }
+.account-order-amounts span { display: block; font-variant-numeric: tabular-nums; }
+.studio-account .account-order-support { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; line-height: 1.6; }
+.account-checkout-feedback button { margin: 10px 12px 0 0; }
+@media (max-width: 420px) {
+  .account-orders > li { grid-template-columns: minmax(0,1fr); gap: 4px; }
+  .account-order-amounts { text-align: left; }
+}
 @media (max-width: 680px) {
   .account-purchase-form { grid-template-columns: minmax(0,1fr); gap: 24px; }
   .account-order-summary { border-left: 0; padding-left: 0; }

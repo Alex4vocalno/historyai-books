@@ -199,7 +199,7 @@
     }
     async function credits(signal, current) {
       const payments = root.HAIStudioPayments;
-      if (!payments || !['checkoutUrl', 'checkoutFailure', 'orderMessage', 'purchasePlans', 'requestCheckout', 'requestedPlan', 'returnedOrder'].every(key => typeof payments[key] === 'function')) {
+      if (!payments || !['checkoutUrl', 'checkoutFailure', 'orderMessage', 'purchasePlans', 'requestCheckout', 'requestedPlan', 'returnedOrder', 'orderSupportUrl'].every(key => typeof payments[key] === 'function')) {
         message(t('购买页面暂时无法加载，请重试或刷新页面。', 'The purchase page could not be loaded. Please retry or refresh the page.'), true);
         const retry = node('button', t('重新加载购买页面', 'Retry purchase page'));
         retry.type = 'button'; retry.onclick = () => show('credits'); panel.appendChild(retry); return;
@@ -215,13 +215,20 @@
       const balance = node('section', undefined, 'account-credit-balance');
       const purchase = node('section', undefined, 'account-purchase');
       const orders = node('section', undefined, 'account-purchase-orders');
+      orders.tabIndex = -1;
       const ledger = node('details', undefined, 'account-credit-ledger');
       ledger.appendChild(node('summary', t('积分明细', 'Credit activity')));
       const entries = node('div'); ledger.appendChild(entries);
-      panel.append(balance, purchase, orders, ledger);
+      if (payments.returnedOrder()) panel.append(balance, orders, purchase, ledger);
+      else panel.append(balance, purchase, orders, ledger);
       const retryButton = (parent, label, run) => {
         const button = node('button', label); button.type = 'button';
         button.onclick = () => { if (!pending) run(); }; parent.appendChild(button); return button;
+      };
+      const supportLink = order => {
+        const link = node('a', order ? t('联系支持 / 申请退款', 'Get help / request a refund')
+          : t('付款有疑问？联系支持', 'Payment question? Contact support'), 'account-order-support');
+        link.href = payments.orderSupportUrl(order, en()); return link;
       };
       async function loadBalance() {
         balance.replaceChildren(node('p', t('正在读取余额…', 'Loading balance…'), 'account-note'));
@@ -252,8 +259,12 @@
           retryButton(balance, t('重新读取余额', 'Retry balance'), loadBalance);
         }
       }
+      let ordersLoading = false;
       async function loadOrders(refreshBalance = false) {
+        if (ordersLoading || !active()) return;
+        ordersLoading = true;
         orders.replaceChildren(node('h4', t('购买记录', 'Your orders')));
+        orders.setAttribute('aria-busy', 'true');
         const result = node('div'); orders.appendChild(result);
         const check = retryButton(orders, t('查询付款结果', 'Check payment status'), () => loadOrders(true)); check.disabled = true;
         result.appendChild(node('p', t('正在查询付款结果…', 'Checking payment status…'), 'account-note'));
@@ -276,17 +287,40 @@
           for (const order of data.orders) {
             const row = node('li'), copy = node('div');
             copy.append(node('strong', order.planName || t('积分购买', 'Credit purchase')), node('small', purchaseStatus(order, en())));
+            const settled = ['paid', 'partially_refunded', 'refunded', 'refund_pending'].includes(order.status);
+            if (Number.isFinite(order.credits) && order.credits > 0) {
+              copy.appendChild(node('small', (settled ? t('已入账积分：', 'Credits added: ') : t('本单积分：', 'Pack credits: ')) + number(order.credits)));
+            }
+            if (settled && Number.isFinite(order.refundedCredits) && order.refundedCredits > 0) {
+              copy.appendChild(node('small', t('退款扣回积分：', 'Credits reversed for refunds: ') + number(order.refundedCredits)));
+            }
             const date = new Date(order.createdAt);
-            if (Number.isFinite(date.getTime())) copy.appendChild(node('small', date.toLocaleString(locale)));
+            if (Number.isFinite(date.getTime())) copy.appendChild(node('small', t('下单时间：', 'Created: ') + date.toLocaleString(locale)));
+            const paidDate = new Date(order.paidAt || '');
+            if (settled && Number.isFinite(paidDate.getTime())) copy.appendChild(node('small', t('付款时间：', 'Paid: ') + paidDate.toLocaleString(locale)));
             if (/^[A-Za-z0-9_-]{1,120}$/.test(order.orderId || '')) copy.appendChild(node('small', t('订单编号：', 'Order reference: ') + order.orderId));
-            row.append(copy, node('span', money(order.amountMinor, order.currency))); list.appendChild(row);
+            copy.appendChild(supportLink(order));
+            const amounts = node('div', undefined, 'account-order-amounts');
+            amounts.append(node('small', t('套餐价', 'Pack price')), node('span', money(order.amountMinor, order.currency)));
+            if (settled) {
+              amounts.append(node('small', t('实付金额（含适用税费）', 'Paid (including applicable tax)')),
+                node('span', money(order.paidAmountMinor, order.currency)));
+              if (!Number.isSafeInteger(order.paidAmountMinor)) amounts.appendChild(node('small', t('请以支付凭证为准', 'See your payment receipt')));
+            }
+            row.append(copy, amounts); list.appendChild(row);
           }
           result.appendChild(list);
           if (!data.orders.length) result.appendChild(node('p', t('暂无购买记录', 'No purchases yet'), 'account-note'));
           if (refreshBalance) { await loadBalance(); await onRefresh(); }
         } catch {
           if (active()) result.appendChild(node('p', t('购买记录暂时无法读取。请重新查询，勿重复付款。', 'Orders could not be loaded. Check again; do not pay again.'), 'account-note'));
-        } finally { if (active()) check.disabled = pending; }
+        } finally {
+          ordersLoading = false;
+          if (active()) {
+            check.disabled = pending; orders.setAttribute('aria-busy', 'false');
+            orders.appendChild(supportLink());
+          }
+        }
       }
       async function loadPlans() {
         purchase.replaceChildren(node('p', t('正在读取积分包…', 'Loading credit packs…'), 'account-note'));
@@ -318,6 +352,12 @@
           }
           const button = node('button', '', 'account-primary'); button.type = 'submit';
           const feedback = node('div', undefined, 'account-checkout-feedback'); feedback.setAttribute('aria-live', 'polite');
+          const recoveryActions = () => {
+            retryButton(feedback, t('查看购买记录', 'View orders'), () => {
+              orders.scrollIntoView({ block: 'start', behavior: 'auto' }); orders.focus({ preventScroll: true }); loadOrders(true);
+            });
+            feedback.appendChild(supportLink());
+          };
           let failed = false;
           const update = () => {
             if (!active()) return;
@@ -352,11 +392,12 @@
               const target = result.ok && checkoutUrl(result.checkoutUrl);
               if (target) { root.location.assign(target); redirecting = true; return; }
               failed = true; feedback.setAttribute('role', 'alert'); feedback.replaceChildren(node('p', purchaseError(result.code, en())));
+              recoveryActions();
               if (result.code === 'AUTH_REQUIRED') {
                 const login = node('a', t('重新登录', 'Sign in again')); login.href = typeof loginUrl === 'function' ? loginUrl() : loginUrl; feedback.appendChild(login);
               }
             } catch {
-              if (active()) { failed = true; feedback.setAttribute('role', 'alert'); feedback.replaceChildren(node('p', purchaseError('', en()))); }
+              if (active()) { failed = true; feedback.setAttribute('role', 'alert'); feedback.replaceChildren(node('p', purchaseError('', en()))); recoveryActions(); }
             } finally {
               if (!redirecting) { checkoutInFlight = false; if (active()) { setPending(false); update(); } }
             }
