@@ -6,6 +6,10 @@
   const en = ['en', 'zh'].includes(requestedLang) ? requestedLang === 'en'
     : document.documentElement.lang.startsWith('en') || (() => { try { return localStorage.getItem('hai.shelfLang') === 'en'; } catch { return false; } })();
   const t = (zh, english) => en ? english : zh;
+  document.querySelectorAll('[data-store-about]').forEach(el => {
+    el.href = en ? '/about-en.html' : '/about.html';
+    (el.querySelector('.mtb-t') || el).textContent = t('关于我们', el.dataset.storeAbout === 'short' ? 'About' : 'About us');
+  });
   const links = window.EvoronAccountLinks;
   document.querySelectorAll('[data-account-label="write"]').forEach(el => { el.textContent = t('开始写作', 'Start writing'); });
   document.querySelectorAll('[data-account-label="pricing"]').forEach(el => { el.textContent = t('积分方案', 'Writing credits'); el.href = en ? '/pricing-en.html' : '/pricing.html'; });
