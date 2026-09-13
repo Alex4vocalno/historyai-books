@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260913022621499_56b13dccfb",
+  "projectId": "proj-mty782ob2yd",
+  "manuscriptVersionId": "mv_cc6d9613ed8dcde7",
+  "contentHash": "cc6d9613ed8dcde792eac6b7f57f7c2793cfc32c7b17ae0d0fcd5d0830582d07",
+  "title": "断剑问潮",
+  "subtitle": "",
+  "authorDisplayName": "李九变",
+  "description": "灭门之夜，梁铮只带出半截断剑。他是前朝武林世家的最后血脉，背负着六大派围剿魔教的血海深仇。然而，他身怀一种无人知晓的绝世天赋——天下武学，过目即悟，瞬间精通。任何招式在他面前，都只是等待被拆解的谜题。从雁荡山废墟中走出，他不再只为复仇而活。虚伪的正道、蛰伏的魔教、暗藏的朝廷……所有阻碍，皆是他登顶路上的踏脚石。当断剑重铸之日，便是江湖秩序改写之时。他要以绝对的武力，问鼎武林，成为新的规则。",
+  "category": "小说",
+  "tags": [
+    "武学推演",
+    "碾压流",
+    "复仇崛起",
+    "乱世江湖",
+    "登顶霸主",
+    "武侠"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 384772,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-13T02:09:22.060Z"
+  },
+  "editorReview": {
+    "text": "《断剑问潮》在武学体系构建上展现出少见的自洽与克制，断剑共鸣需以血为代价、推演之力伴随“永冻成冰”的诅咒，规则立下即付代价，让每一次突破都带着压抑的实感。梁铮从废墟求死到“成为潮汐本身”的心性弧线完整，与武道成长双线闭合，人物立得住。场景的感官在场感是亮点，灰尘焦糊味、铁锈硫磺气、崖顶青苔腥，多感官协同营造出扎实的江湖肌理。但开篇断梁脱困情节的重复叙述暴露了结构性冗余，多处长段落标点缺失导致阅读节奏磕绊，章与章之间的钩子断裂也削弱了悬念的连续性。对白声口区分度不足，玄真与梁铮的语感趋同，削弱了人物辨识度。作为高潮章的第30章文风质量与篇幅不匹配，是全书最需打磨的一处。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-13T02:24:25.088Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "断剑余烬",
+      "units": 7965
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "荒村铁匠",
+      "units": 10138
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "血仇旧影",
+      "units": 14130
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "溪畔杀机",
+      "units": 10338
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "暗影初现",
+      "units": 11468
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "推演初鸣",
+      "units": 14312
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "黑市暗流",
+      "units": 10621
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "铁剑折锋",
+      "units": 14148
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "暗箭疑云",
+      "units": 11120
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "珠钗旧忆",
+      "units": 10132
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "北行伊始",
+      "units": 8906
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "藏经阁变",
+      "units": 16355
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "禅机暗语",
+      "units": 10523
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "旧疤新痕",
+      "units": 11933
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "真武论剑",
+      "units": 11557
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "道破天机",
+      "units": 10501
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "蜀道诡谲",
+      "units": 13618
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "机关堡外",
+      "units": 11710
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "暴雨前夕",
+      "units": 11225
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "堡内血战",
+      "units": 14816
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "亡命山涧",
+      "units": 13689
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "冰封之喻",
+      "units": 11606
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "焚心旧疤",
+      "units": 11762
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "信任裂痕",
+      "units": 8478
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "孤身问道",
+      "units": 9572
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "心剑共鸣",
+      "units": 15547
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "旧部来投",
+      "units": 15662
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "盟主之邀",
+      "units": 12326
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "应天风云",
+      "units": 10604
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "孤峰绝顶",
+      "units": 18705
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "余烬新生",
+      "units": 11359
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "潮声剑成",
+      "units": 9946
+    }
+  ],
+  "publishedAt": "2026-09-13T02:26:21.515Z"
+}
