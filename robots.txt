@@ -1,0 +1,39 @@
+# EVORON 书城 robots（引擎生成，勿手改；规则见 docs/plans/2026-09-13-seo-plan.md）
+User-agent: *
+Disallow: /api/
+Disallow: /assets/
+Disallow: /account.html
+Disallow: /me.html
+Disallow: /feed.html
+Disallow: /shelf.html
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /api/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+
+User-agent: CCBot
+Allow: /
+Disallow: /api/
+
+Sitemap: https://evoronai.com/sitemap.xml
