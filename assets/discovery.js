@@ -63,7 +63,11 @@
         const selected = b.dataset.categoryFilter === 'all' ? !state.category : Boolean(state.category) && categoryKey(b.dataset.categoryFilter, pool) === state.category;
         b.classList.toggle('on', selected); b.setAttribute('aria-pressed', String(selected));
       });
-      doc.querySelectorAll('[data-discovery-filter]').forEach(b => { b.value = state[b.dataset.discoveryFilter]; });
+      doc.querySelectorAll('[data-discovery-filter]').forEach(b => {
+        b.value = b.dataset.discoveryFilter === 'category'
+          ? Array.from(b.options).find(option => categoryKey(option.value, pool) === state.category)?.value || ''
+          : state[b.dataset.discoveryFilter];
+      });
       doc.querySelectorAll('[data-sort]').forEach(b => {
         b.classList.toggle('on', b.dataset.sort === state.sort); b.setAttribute('aria-pressed', String(b.dataset.sort === state.sort));
       });

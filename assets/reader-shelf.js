@@ -82,6 +82,9 @@
     if (!main) return;
     doc.documentElement.lang = en ? 'en' : 'zh';
     doc.title = T('我的书架', 'My shelf') + ' · EVORON AI';
+    try { win.localStorage.setItem('hai.shelfLang', en ? 'en' : 'zh'); } catch { /* UI preference is optional. */ }
+    doc.querySelector('.shelf-tabs')?.setAttribute('aria-label', T('书架视图', 'Shelf views'));
+    doc.querySelector('.m-tabbar')?.setAttribute('aria-label', T('站内导航', 'Site navigation'));
     const labels = { '我的书架': 'My shelf', '书架': 'Shelf', '笔记本': 'Notebook', '书城首页': 'Bookstore', '书城': 'Store', '社区动态': 'Community', '我的主页': 'My profile', '动态': 'Community', '我的': 'Me' };
     if (en) doc.querySelectorAll('h1,.brand-cn,.topbar-link,.mtb-t,[data-stab]').forEach(e => { e.textContent = labels[e.textContent] || e.textContent; });
     doc.querySelectorAll('a[href="/index.html"]').forEach(a => { a.href = en ? '/index-en.html' : '/index.html'; });
@@ -116,6 +119,7 @@
         else { row.status = status; if (!rows.includes(row)) rows.push(row); }
         undo = { row, status: oldStatus };
         notice.replaceChildren(doc.createTextNode(T('已保存。', 'Saved. ')), button(T('撤销', 'Undo'), () => {
+          if (saving || !undo) return;
           const previous = undo; undo = null;
           save(previous.row, previous.status);
         }));
@@ -130,7 +134,7 @@
         const count = status ? rows.filter(r => r.status === status).length : rows.length;
         const b = button((statusNames[status] || T('全部', 'All')) + ' ' + count, () => {
           active = status; const url = new URL(win.location.href); if (active) url.searchParams.set('status', active); else url.searchParams.delete('status');
-          win.history.replaceState(win.history.state, '', url); render();
+          win.history.replaceState(win.history.state, '', url); render(); controls.querySelector('[aria-pressed="true"]')?.focus({ preventScroll: true });
         }); b.classList.toggle('on', status === active); b.setAttribute('aria-pressed', String(status === active)); controls.append(b);
       });
       main.replaceChildren();
@@ -158,10 +162,14 @@
       }); main.append(grid);
     }
     async function load() {
+      main.setAttribute('aria-busy', 'true');
       main.replaceChildren(el('div', 'empty', T('正在打开书架…', 'Loading shelf…')));
       try { const data = await request(win); rows = data.rows || []; syncUserId = data.syncUserId; render(); } catch (error) { errorBox(error); }
+      finally { main.setAttribute('aria-busy', 'false'); }
     }
-    doc.querySelectorAll('[data-stab]').forEach(b => b.addEventListener('click', () => { controls.hidden = notice.hidden = b.dataset.stab === 'notes'; }));
+    if (!doc.getElementById('shelf-books')) {
+      doc.querySelectorAll('[data-stab]').forEach(b => b.addEventListener('click', () => { controls.hidden = notice.hidden = b.dataset.stab === 'notes'; }));
+    }
     win.addEventListener('pageshow', e => { if (e.persisted) load(); });
     load();
   }

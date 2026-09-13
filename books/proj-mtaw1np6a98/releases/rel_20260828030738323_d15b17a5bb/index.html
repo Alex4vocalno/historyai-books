@@ -3,89 +3,152 @@
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:var(--sans)}a{color:inherit;text-decoration:none}.sitebar{height:66px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.96)}.sitebar-inner{max-width:1180px;height:100%;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:28px}.brand{font-size:22px;font-weight:800}.brand i{display:inline-block;width:9px;height:9px;margin-right:9px;border-radius:50%;background:var(--green)}.sitebar nav{display:flex;gap:22px;color:var(--muted);font-size:14.5px}.sitebar nav a:hover{color:var(--green)}.page{max-width:1180px;margin:0 auto;padding:44px 24px 84px}.cover-art{position:relative;aspect-ratio:2/3;overflow:hidden;background:#23302d;color:#fff;box-shadow:0 16px 36px rgba(28,38,34,.18)}.cover-art img{width:100%;height:100%;object-fit:cover;display:block}.cover-copy{position:absolute;inset:auto 0 0;padding:76px 26px 26px;background:linear-gradient(transparent,rgba(10,17,15,.9));text-shadow:0 2px 12px rgba(0,0,0,.32)}.cover-copy h2{margin:0;font-family:var(--serif);font-size:27px;line-height:1.35;letter-spacing:0}.cover-copy p{margin:10px 0 0;font-size:12px}.cover-copy small{display:block;margin-top:18px;color:rgba(255,255,255,.84)}.cover-fallback{position:absolute;inset:0;display:grid;place-items:center;padding:34px;text-align:center;font-family:var(--serif);font-size:13px;line-height:2;border:1px solid rgba(255,255,255,.22)}.cover-typeset{container-type:inline-size}.cover-type{position:absolute;inset:0;padding:9% 8% 8%;display:flex;flex-direction:column;align-items:center;text-align:center;font-size:16px;color:var(--cover-title,#f8f0df);background:linear-gradient(180deg,var(--cover-shade-top,rgba(12,16,14,.7)) 0%,rgba(12,16,14,.18) 48%,var(--cover-shade-bottom,rgba(12,16,14,.24)) 100%);text-shadow:0 2px 14px rgba(0,0,0,.55);pointer-events:none}.cover-type:before{content:"";position:absolute;inset:5.6%;border:1px solid var(--cover-frame,rgba(238,220,176,.34));box-shadow:inset 0 0 0 1px rgba(255,255,255,.04);opacity:.74}.cover-type:after{content:"";position:absolute;inset:8.5%;border:1px solid rgba(255,255,255,.05);opacity:.48}.cover-type h2{position:relative;z-index:1;width:88%;margin:0 auto;padding:.68em .58em .62em;border:1px solid var(--cover-panel-border,rgba(238,220,176,.28));background:linear-gradient(180deg,var(--cover-panel,rgba(16,19,17,.52)),var(--cover-panel-2,rgba(16,19,17,.28)));box-shadow:0 10px 28px rgba(0,0,0,.18),inset 0 0 0 1px rgba(255,255,255,.045);backdrop-filter:blur(1.2px);font-family:var(--serif);font-weight:760;font-size:1.54em;line-height:1.18;letter-spacing:.055em;text-wrap:balance;color:var(--cover-title,#f8f0df);text-shadow:0 2px 16px rgba(0,0,0,.72)}.cover-type h2 span{display:inline;background:none;-webkit-background-clip:initial;background-clip:initial}.cover-title-long h2{font-size:1.32em;line-height:1.2}.cover-title-very-long h2{font-size:1.08em;line-height:1.18;letter-spacing:.025em}.cover-type p{position:relative;z-index:1;margin:.62em auto 0;max-width:84%;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;font-size:.58em;line-height:1.45;color:var(--cover-sub,#ead9af);opacity:.92;text-shadow:0 1px 9px rgba(0,0,0,.62)}.cover-type i{position:relative;z-index:1;display:block;width:28%;max-width:58px;min-width:24px;height:1px;margin:.85em auto 0;background:linear-gradient(90deg,transparent,var(--cover-rule,#d7b15a),transparent);box-shadow:0 0 10px var(--cover-rule-glow,rgba(215,177,90,.28))}.cover-type small{position:relative;z-index:1;display:block;margin-top:.82em;max-width:86%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:.26em .54em;border-radius:999px;background:var(--cover-author-bg,rgba(0,0,0,.18));font-size:.54em;font-weight:700;letter-spacing:.16em;color:var(--cover-author,#d7b15a);opacity:.96;text-shadow:0 1px 9px rgba(0,0,0,.72)}.cover-theme-zen{--cover-title:#2b281f;--cover-author:#6c5a36;--cover-author-bg:rgba(251,246,229,.62);--cover-sub:#6a6049;--cover-rule:#b79845;--cover-frame:rgba(154,127,78,.34);--cover-panel:rgba(250,245,229,.84);--cover-panel-2:rgba(238,229,202,.66);--cover-panel-border:rgba(154,127,78,.38);--cover-shade-top:rgba(246,242,226,.18);--cover-shade-bottom:rgba(31,39,32,.18)}.cover-theme-tang{--cover-title:#fff2cc;--cover-author:#f0c66a;--cover-author-bg:rgba(46,16,9,.22);--cover-sub:#efd6a0;--cover-rule:#dfad4a;--cover-rule-glow:rgba(223,173,74,.35);--cover-frame:rgba(230,181,84,.42);--cover-panel:rgba(65,22,12,.58);--cover-panel-2:rgba(35,13,8,.34);--cover-panel-border:rgba(230,181,84,.36);--cover-shade-top:rgba(43,18,9,.54);--cover-shade-bottom:rgba(45,13,10,.24)}.cover-theme-mythic{--cover-title:#f1fbff;--cover-author:#e8c264;--cover-author-bg:rgba(2,22,31,.24);--cover-sub:#c9e3e8;--cover-rule:#d8b45f;--cover-frame:rgba(141,207,229,.31);--cover-panel:rgba(2,25,35,.6);--cover-panel-2:rgba(3,13,27,.36);--cover-panel-border:rgba(129,203,220,.3);--cover-shade-top:rgba(5,19,25,.52);--cover-shade-bottom:rgba(8,13,24,.28)}.cover-theme-tech{--cover-title:#eaf6ff;--cover-author:#84d6e8;--cover-author-bg:rgba(6,25,40,.22);--cover-sub:#b9ddec;--cover-rule:#73d7f2;--cover-frame:rgba(116,215,242,.33);--cover-panel:rgba(5,26,43,.56);--cover-panel-2:rgba(5,18,28,.3);--cover-panel-border:rgba(116,215,242,.32);--cover-shade-top:rgba(5,19,35,.56);--cover-shade-bottom:rgba(5,18,28,.26)}.cover-theme-literary{--cover-title:#f8f1df;--cover-author:#d1a85b;--cover-author-bg:rgba(23,16,10,.18);--cover-sub:#e8d3aa;--cover-rule:#cfa04b;--cover-frame:rgba(226,201,157,.34);--cover-panel:rgba(24,19,15,.54);--cover-panel-2:rgba(21,18,14,.3);--cover-panel-border:rgba(226,201,157,.3);--cover-shade-top:rgba(24,19,15,.5);--cover-shade-bottom:rgba(21,18,14,.24)}@supports (font-size:1cqw){.cover-type{font-size:8.15cqw}}.pill{display:inline-flex;align-items:center;min-height:31px;padding:5px 11px;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:var(--surface);font-size:13px}.score{color:var(--gold);font-weight:800}.primary,.secondary{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:5px;font-weight:700}.primary{background:var(--green);color:#fff}.primary:hover{background:var(--green-dark)}.secondary{border:1px solid var(--line);background:#fff}.muted{color:var(--muted)}
 .author-link{color:var(--green-dark);border-bottom:1px solid transparent}.author-link:hover{border-bottom-color:var(--green-dark)}.card-author{cursor:pointer}.card-author:hover{color:var(--green);text-decoration:underline}
 @media(max-width:720px){.sitebar-inner{padding:0 16px}.sitebar nav{margin-left:auto}.page{padding:28px 17px 60px}}
-
-  .book-hero{display:grid;grid-template-columns:minmax(220px,270px) minmax(0,1fr);gap:54px;align-items:start}.cover-open{display:block;cursor:zoom-in;text-decoration:none;color:inherit}.book-main{padding-top:6px}.eyebrow{margin:0 0 14px;color:var(--green);font-size:13.5px;font-weight:800}.book-main h1{margin:0;font-family:var(--serif);font-size:39px;line-height:1.35;letter-spacing:0}.subtitle{margin:11px 0 0;color:var(--muted);font-family:var(--serif);font-size:21px}.author{margin:22px 0 0;font-size:15.5px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.rating{display:flex;align-items:center;gap:14px;margin-top:26px}.rating strong{color:var(--gold);font-family:Georgia,serif;font-size:36px}.rating span,.rating-empty{color:var(--muted);font-size:13.5px}.rating-empty{margin-top:24px}
-  .social-stats{margin-top:14px;color:var(--muted);font-size:13.5px;display:flex;gap:14px;flex-wrap:wrap}
-  .social-stats strong{color:var(--ink);font-variant-numeric:tabular-nums}
-  .reader-rating{margin-top:22px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:430px}
-  .reader-rating[hidden],.reader-rating-empty[hidden]{display:none}
-  .rr-head{display:flex;align-items:center;gap:12px}
-  .rr-avg{color:var(--gold);font-family:Georgia,serif;font-size:32px}
-  .rr-stars{color:var(--gold);font-size:15px;letter-spacing:2px}
-  .rr-count{color:var(--muted);font-size:13px}
-  .rr-bars{margin-top:10px;display:grid;gap:4px}
-  .rr-row{display:grid;grid-template-columns:30px 1fr 34px;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
-  .rr-row i{display:block;height:6px;border-radius:3px;background:#eceeec;overflow:hidden}
-  .rr-row b{display:block;height:100%;background:var(--gold);border-radius:3px}
-  .rr-row em{font-style:normal;text-align:right;font-variant-numeric:tabular-nums}
-  .reader-rating-empty{margin-top:18px;color:var(--muted);font-size:13.5px}
-  /* v6.9.31 视觉精修（微信读书对齐）：胶囊按钮+柔和标签+封面立体书感 */
-  .book-hero .primary{border-radius:25px;padding:0 36px;box-shadow:0 8px 22px color-mix(in srgb,var(--green) 32%,transparent);letter-spacing:.04em}
-  .book-hero .primary:active{transform:scale(.98)}
-  .book-hero .meta .pill{border:0;background:#eef1ef;min-height:27px;padding:4px 13px;font-size:13px;color:#68716d;border-radius:14px}
-  .book-hero .cover-art{border-radius:4px 9px 9px 4px;box-shadow:0 20px 48px rgba(28,38,34,.26),0 4px 12px rgba(28,38,34,.14)}
-  .book-hero .cover-art::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;z-index:3;background:linear-gradient(90deg,rgba(255,255,255,.34),rgba(255,255,255,0));pointer-events:none}
-  .shelf-acts{display:flex;gap:8px;margin-left:12px}
-  .shelf-notice{flex-basis:100%;font:13px/1.5 var(--sans);color:var(--muted);margin:4px 0}.shelf-notice~button{min-height:44px;padding:6px 12px;border:1px solid var(--line);border-radius:6px;background:white;cursor:pointer}.shelf-notice~a{min-height:44px;align-content:center;color:var(--green-dark)}
-  .book-controls{grid-column:2;min-width:0}
-  .book-hero{row-gap:0}
-  .book-hero>.cover-open,.book-hero>.cover-art{grid-row:1/3}
-  .book-controls .actions,.book-controls .shelf-acts,.book-controls .quick-rate{flex-wrap:wrap}
-  .book-controls .actions>.primary{height:auto;min-height:50px;white-space:normal;text-align:center}
-  .shelf-acts button{min-height:50px;padding:0 18px;border:1px solid var(--line);border-radius:25px;background:#fff;color:var(--muted);font-size:13.5px;font-weight:700;cursor:pointer;transition:border-color .12s,color .12s}
-  .shelf-acts button:hover{border-color:#c9cfcc;color:var(--ink)}
-  .shelf-acts button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 7%,#fff)}
-  @media(max-width:720px){.shelf-acts{margin-left:0;margin-top:10px;flex-basis:100%}}.rating-bar{width:112px;height:4px;margin-top:7px;border-radius:3px;background:#e8e9e7;overflow:hidden}.rating-bar i{display:block;height:100%;background:var(--gold)}.actions{display:flex;gap:10px;margin-top:30px}.description{grid-column:2;margin-top:35px;padding-top:27px;border-top:1px solid var(--line);font-family:var(--serif)}.description h2,.catalog h2{margin:0 0 15px;font-family:var(--sans);font-size:20px}.description p{max-width:760px;margin:0;color:#39403e;font-size:17.5px;line-height:2}.catalog{margin-top:52px;padding-top:28px;border-top:1px solid var(--line)}.catalog-head{display:flex;align-items:baseline;justify-content:space-between}.catalog-head span{color:var(--muted);font-size:13.5px}.chapter-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:38px}.chapter-row{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:13px 2px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px}.chapter-row span:first-child{color:var(--muted);font-family:var(--sans);font-size:13px}.chapter-row:hover{color:var(--green)}.catalog.collapsed .chapter-grid{max-height:560px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,#000 78%,transparent);mask-image:linear-gradient(180deg,#000 78%,transparent)}.catalog-more{display:block;margin:14px auto 0;border:1px solid var(--line);border-radius:18px;background:#fff;padding:8px 26px;font:13px var(--sans);color:var(--muted);cursor:pointer}.catalog-more:hover{color:var(--green-dark);border-color:var(--green)}.related{margin-top:52px;padding-top:28px;border-top:1px solid var(--line)}.related .sec-head h2{margin:0 0 16px;font-family:var(--sans);font-size:20px}.related-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px}.rel-card{display:block;min-width:0;text-decoration:none;color:inherit}.rel-cover{position:relative;display:block;aspect-ratio:2/3;border-radius:4px;overflow:hidden;background:#eceeeb;box-shadow:0 1px 4px rgba(20,30,25,.12)}.rel-cover img{width:100%;height:100%;object-fit:cover}.rel-card strong{display:block;margin-top:9px;font:600 13.5px var(--serif);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.rel-card small{display:block;margin-top:3px;color:var(--muted);font-size:12.5px}@media(max-width:720px){.related-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}
-  .stat-band{display:flex;align-items:stretch;margin-top:26px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);max-width:560px}
-  .stat-cell{flex:1;min-width:0;text-align:center;position:relative}
-  .stat-cell[hidden]{display:none}
-  .stat-cell+.stat-cell:not([hidden]){border-left:1px solid var(--line)}
-  .stat-cell b{display:block;font-family:Georgia,serif;font-size:26px;line-height:1.15;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
-  .stat-cell b.sc-green{color:var(--green-dark)}
-  .stat-cell b.sc-gold{color:var(--gold)}
-  .stat-cell b i{font-style:normal}
-  .stat-cell b em{font-style:normal;font-size:14px;margin-left:1px}
-  .stat-cell span{display:block;margin-top:4px;color:var(--muted);font-size:13px}
-  .hot-lines,.hot-reviews{grid-column:2;margin-top:34px;padding-top:26px;border-top:1px solid var(--line);max-width:760px}
-  .hot-lines h2,.hot-reviews h2{margin:0 0 16px;font-family:var(--sans);font-size:20px}
-  .hl-item{margin:0 0 15px;padding:2px 0 2px 14px;border-left:3px solid var(--green);font-family:var(--serif);font-size:15.5px;line-height:1.9;color:#39403e}
-  .hl-item small{display:block;margin-top:5px;font-family:var(--sans);font-size:13px;color:var(--muted)}
-  .rv-item{padding:15px 0;border-bottom:1px solid var(--line)}
-  .rv-item:last-child{border-bottom:0}
-  .rv-head{display:flex;align-items:center;gap:10px;font-family:var(--sans);font-size:13.5px}
-  .rv-ava{width:30px;height:30px;border-radius:50%;background:color-mix(in srgb,var(--green) 14%,#fff);color:var(--green-dark);display:grid;place-items:center;font-weight:800;font-size:14px}
-  .rv-head b{color:var(--ink)}
-  .rv-stars{color:var(--gold);letter-spacing:1px;font-size:13px}
-  .rv-like{margin-left:auto;color:var(--muted)}
-  .rv-text{margin:9px 0 0;font-family:var(--serif);font-size:15px;line-height:1.9;color:#39403e}
-  .rv-more{display:inline-block;margin-top:14px;font:13.5px var(--sans);color:var(--green-dark);text-decoration:none}
-  .rv-more:hover{text-decoration:underline}
-  .quick-rate{display:flex;align-items:center;gap:9px;margin-top:16px;font-family:var(--sans);font-size:13.5px;color:var(--muted)}
-  .quick-rate button{min-height:34px;padding:0 15px;border:1px solid var(--line);border-radius:17px;background:#fff;color:var(--ink);font-size:13.5px;cursor:pointer;transition:border-color .12s,color .12s}
-  .quick-rate button:hover{border-color:#c9cfcc}
-  .quick-rate button.on{border-color:var(--green);color:var(--green-dark);background:color-mix(in srgb,var(--green) 8%,#fff);font-weight:700}
-  .qr-done{font-style:normal;color:var(--green-dark);font-weight:700}
-  @media(max-width:720px){
-    .book-hero>.cover-open,.book-hero>.cover-art{grid-row:1}
-    .book-main{min-width:0;overflow-wrap:anywhere}
-    .book-controls{grid-column:1/-1}
-    .book-controls .actions{margin-top:4px}
-    .book-controls .actions>.primary{width:100%;padding:12px 20px;letter-spacing:0}
-    .book-controls .shelf-acts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;margin:0}
-    .book-controls .shelf-acts button{min-width:0;padding:10px 8px;overflow-wrap:anywhere}
-    .book-controls .quick-rate>span{flex-basis:100%}
-    .book-controls .quick-rate button{min-height:44px;padding:8px 12px}
-  }
-  @media(max-width:720px){.quick-rate{flex-wrap:wrap}}
-  .description.clamped p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
-  .desc-toggle{margin-top:10px;border:0;background:none;padding:0;font:13.5px var(--sans);color:var(--green-dark);cursor:pointer}
-  .editor-review{grid-column:2;margin-top:30px;padding:22px 24px;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;background:var(--surface);max-width:760px}
-  .editor-review h2{margin:0 0 12px;font-size:16px;display:flex;align-items:center;gap:10px}
-  .editor-review .er-rating{color:var(--gold);font-size:13px;font-weight:800;border:1px solid var(--gold);border-radius:4px;padding:1px 8px}
-  .editor-review p{margin:0;font-family:var(--serif);font-size:15.5px;line-height:1.95;color:#39403e}
-  .editor-review .er-byline{margin-top:12px;font-family:var(--sans);font-size:13px;color:var(--muted);text-align:right}
-  @media(max-width:720px){.book-hero{grid-template-columns:118px minmax(0,1fr);gap:20px}.editor-review,.hot-lines,.hot-reviews{grid-column:1/-1}.stat-band{margin-top:16px;padding:12px 0;max-width:none}.stat-cell b{font-size:21px}.stat-cell span{font-size:13px}.book-main h1{font-size:25px}.subtitle{font-size:15.5px}.cover-copy{padding:42px 10px 12px}.cover-copy h2{font-size:16px}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:9px}.author{margin-top:13px}.meta{margin-top:13px}.rating{margin-top:16px}.actions{grid-column:1/-1}.description{grid-column:1/-1;margin-top:26px}.chapter-grid{grid-template-columns:1fr}}
-  </style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../../../index.html">书城</a><a href="/shelf.html">我的书架</a></nav></div></header><main class="page"><section class="book-hero"><a class="cover-open" href="cover.jpg" data-cover-zoom title="查看封面大图"><div class="cover-art" style="--cover-tone:hsl(345 28% 24%)"><img src="cover.jpg" alt="《归途无岸》封面"></div></a><div class="book-main"><p class="eyebrow">战争史 · 中文</p><h1>归途无岸</h1><p class="subtitle">中国远征军的荣耀、代价与无声归途</p><p class="author"><a class="author-link" href="../../../../author-642dd26ba2.html">半两先生</a></p><div class="meta"><span class="pill">中国远征军</span><span class="pill">二战史</span><span class="pill">军事史</span><span class="pill">口述历史</span><span class="pill">滇缅战场</span><span class="pill">中国史</span><span class="pill">30 章</span><span class="pill">262,042 字</span></div><div class="stat-band" data-stat-band>
+/* Lucide chevron-down: ISC, Copyright (c) 2026 Lucide Icons and Contributors.
+ * Permission to use, copy, modify, and/or distribute this software for any purpose
+ * with or without fee is hereby granted, provided that the above copyright notice
+ * and this permission notice appear in all copies.
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ * LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ * PERFORMANCE OF THIS SOFTWARE.
+ * Derived from Feather, MIT, Copyright (c) 2013-present Cole Bemis.
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+ * of the Software, and to permit persons to whom the Software is furnished to do
+ * so, subject to the following conditions: The above copyright notice and this
+ * permission notice shall be included in all copies or substantial portions of
+ * the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+ * EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+ * OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+body{background:#fff}
+.page{max-width:1080px;padding-top:48px}
+.sitebar-inner{max-width:1080px}
+.sitebar .brand{min-width:0;font-size:1.125rem;overflow-wrap:anywhere}
+.sitebar nav{margin-left:auto;flex-wrap:wrap}
+.book-hero{display:grid;grid-template-columns:216px minmax(0,1fr);column-gap:48px;align-items:start}
+.book-hero>.cover-open,.book-hero>.cover-art{grid-row:1/3}
+.cover-open{display:block;cursor:zoom-in}
+.book-hero .cover-art{border-radius:3px;box-shadow:0 12px 30px rgba(28,38,34,.14),0 2px 5px rgba(28,38,34,.12)}
+.book-main{min-width:0;overflow-wrap:anywhere}
+.eyebrow{margin:0 0 12px;color:var(--muted);font-size:.8125rem;line-height:1.6}
+.book-main h1{margin:0;font-family:var(--sans);font-size:2rem;line-height:1.35;letter-spacing:0;text-wrap:pretty}
+.subtitle{margin:12px 0 0;color:var(--muted);font-size:1.125rem;line-height:1.6}
+.author{margin:18px 0 0;font-size:.9375rem;line-height:1.6}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.book-hero .meta .pill{border:0;border-radius:4px;background:#f2f4f3;min-height:28px;padding:4px 9px;font-size:.8125rem}
+.book-controls{grid-column:2;min-width:0}
+.actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:24px}
+.book-controls .actions>.primary{min-height:48px;height:auto;min-width:180px;padding:12px 24px;border-radius:6px;font-size:.9375rem;line-height:1.5;text-align:center;white-space:normal}
+.shelf-acts{display:flex;flex-wrap:wrap;gap:6px}
+.shelf-acts button,.shelf-notice~button{min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--muted);font:.8125rem/1.5 var(--sans);cursor:pointer}
+.shelf-acts button:hover,.shelf-acts button.on,.shelf-notice~button:hover{color:var(--green-dark);border-color:var(--green)}
+.shelf-acts button.on{background:#f0f8f4}
+.shelf-notice{flex-basis:100%;margin:4px 0;color:var(--muted);font:.8125rem/1.6 var(--sans)}
+.shelf-notice~a{min-height:44px;align-content:center;color:var(--green-dark)}
+.quick-rate{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:18px;font:.8125rem/1.5 var(--sans);color:var(--muted)}
+.quick-rate button{min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:inherit;cursor:pointer}
+.quick-rate button:hover{border-color:var(--green)}
+.quick-rate button.on{border-color:var(--green);color:var(--green-dark);background:#f0f8f4}
+.qr-done{font-style:normal;color:var(--green-dark)}
+.stat-band{display:flex;flex-wrap:wrap;gap:20px;margin-top:22px}
+.stat-band:not(:has(.stat-cell:not([hidden]))){display:none}
+.stat-cell{min-width:0}
+.stat-cell b{display:block;font:600 1.5rem/1.2 var(--sans);font-variant-numeric:tabular-nums}
+.stat-cell b.sc-green{color:var(--green-dark)}
+.stat-cell b.sc-gold{color:#896424}
+.stat-cell b i,.stat-cell b em{font-style:normal}
+.stat-cell b em{font-size:.875rem}
+.stat-cell span{display:block;margin-top:5px;color:var(--muted);font-size:.8125rem}
+.social-stats{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;color:var(--muted);font-size:.8125rem}
+.reader-rating{margin-top:18px;max-width:420px;padding:14px 16px;border:1px solid var(--line);border-radius:6px}
+.rr-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.rr-avg{font:600 1.5rem var(--sans);color:#896424}
+.rr-stars,.rv-stars{color:#896424;letter-spacing:0}
+.rr-count,.reader-rating-empty{font-size:.8125rem;color:var(--muted)}
+.reader-rating-empty{margin-top:16px}
+.rr-bars{display:grid;gap:4px;margin-top:10px}
+.rr-row{display:grid;grid-template-columns:30px 1fr 34px;gap:8px;align-items:center;color:var(--muted);font-size:.8125rem}
+.rr-row i{display:block;height:6px;border-radius:3px;background:#eceeec;overflow:hidden}
+.rr-row b{display:block;height:100%;background:var(--gold)}
+.rr-row em{font-style:normal;text-align:right}
+.description,.editor-review,.hot-lines,.hot-reviews{grid-column:2;min-width:0;margin-top:32px;padding-top:24px;border-top:1px solid var(--line)}
+.description h2,.editor-review h2,.hot-lines h2,.hot-reviews h2,.catalog h2,.related h2{margin:0 0 16px;font:650 1rem/1.5 var(--sans)}
+.description p,.editor-review>p{margin:0;color:#3e4743;font:1.0625rem/1.85 var(--serif);overflow-wrap:anywhere;white-space:pre-line}
+.description.clamped p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.disclosure-toggle{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;margin-top:10px;padding:8px 4px;border:0;border-radius:4px;background:transparent;color:var(--green-dark);font:600 .875rem/1.5 var(--sans);cursor:pointer}
+.disclosure-toggle:hover{background:#f0f6f3}
+.disclosure-toggle svg{width:18px;height:18px;flex:none;transition:transform .15s}
+.disclosure-toggle[aria-expanded="true"] svg{transform:rotate(180deg)}
+.editor-review h2{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.er-rating{padding-left:10px;border-left:1px solid var(--line);color:#896424;font-size:.8125rem;font-weight:500}
+.editor-review .er-byline{margin-top:12px;color:var(--muted);font:.8125rem/1.6 var(--sans)}
+.catalog,.related{margin-top:40px;padding-top:26px;border-top:1px solid var(--line)}
+.catalog-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px}
+.catalog-head>span{color:var(--muted);font-size:.8125rem}
+.chapter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:32px}
+.chapter-row{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px;align-items:start;padding:14px 4px;border-bottom:1px solid var(--line);font:.9375rem/1.6 var(--sans);overflow-wrap:anywhere}
+.chapter-row span:first-child{color:var(--muted);font-size:.8125rem;font-variant-numeric:tabular-nums}
+.chapter-row:hover{color:var(--green-dark);background:#f7f9f8}
+.catalog-more{margin-top:16px}
+.hl-item{margin:0 0 16px;padding-left:14px;border-left:2px solid var(--green);font:1rem/1.85 var(--serif);overflow-wrap:anywhere}
+.hl-item small{display:block;margin-top:6px;color:var(--muted);font:.8125rem/1.5 var(--sans)}
+.rv-item{padding:16px 0;border-bottom:1px solid var(--line)}
+.rv-item:last-child{border:0}
+.rv-head{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:.8125rem}
+.rv-ava{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:#f0f8f4;color:var(--green-dark)}
+.rv-like{margin-left:auto;color:var(--muted)}
+.rv-text{margin:10px 0 0;font:1rem/1.85 var(--serif);overflow-wrap:anywhere}
+.rv-more{display:inline-flex;align-items:center;min-height:44px;color:var(--green-dark);font:.875rem/1.6 var(--sans)}
+.related-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px}
+.rel-card{min-width:0}
+.rel-cover{position:relative;display:block;aspect-ratio:2/3;overflow:hidden;border-radius:3px;background:#eef1ef}
+.rel-cover img{width:100%;height:100%;object-fit:cover}
+.rel-card strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:10px;font:600 .875rem/1.5 var(--sans);overflow-wrap:anywhere}
+.rel-card small{display:block;margin-top:4px;color:var(--muted);font-size:.8125rem;overflow-wrap:anywhere}
+.page [hidden]{display:none!important}
+.page :is(a,button):focus-visible{outline:2px solid var(--green-dark);outline-offset:4px}
+.page button:disabled{opacity:.55;cursor:wait}
+html[lang="en"] .description p,html[lang="en"] .editor-review>p:not(.er-byline){font-family:Georgia,'Iowan Old Style',serif;line-height:1.8}
+@media(max-width:960px){.book-hero{grid-template-columns:180px minmax(0,1fr);column-gap:32px}.book-main h1{font-size:1.75rem}}
+@media(max-width:720px){
+  .page{padding:28px 20px 60px}
+  .sitebar{height:auto;min-height:66px}
+  .sitebar-inner{padding:16px 20px;flex-wrap:wrap;gap:12px 20px}
+  .sitebar nav{gap:16px;font-size:.875rem}
+  .book-hero{grid-template-columns:108px minmax(0,1fr);gap:24px 20px}
+  .book-hero>.cover-open,.book-hero>.cover-art{grid-row:1}
+  .book-main h1{font-size:1.5rem}
+  .subtitle{font-size:1rem}
+  .author{margin-top:12px;font-size:.875rem}
+  .eyebrow{font-size:.75rem;margin-bottom:8px}
+  .meta{margin-top:12px;gap:6px}
+  .stat-band{gap:12px;margin-top:16px}
+  .stat-cell b{font-size:1.25rem}
+  .book-controls{grid-column:1/-1}
+  .actions{margin-top:0}
+  .book-controls .actions>.primary{width:100%;min-width:0}
+  .shelf-acts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}
+  .shelf-acts button{min-width:0;padding:10px 6px;overflow-wrap:anywhere}
+  .shelf-notice,.shelf-notice~a,.shelf-notice~button{grid-column:1/-1}
+  .quick-rate>span{flex-basis:100%}
+  .description,.editor-review,.hot-lines,.hot-reviews{grid-column:1/-1;margin-top:4px;padding-top:24px}
+  .description p,.editor-review>p{font-size:1rem}
+  .chapter-grid{grid-template-columns:1fr}
+  .related-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .cover-copy{padding:30px 10px 12px}.cover-copy h2{font-size:1rem}.cover-copy p{display:none}.cover-copy small{margin-top:8px;font-size:.625rem}
+}
+@media(prefers-reduced-motion:reduce){.disclosure-toggle svg{transition:none}}
+</style></head><body><header class="sitebar"><div class="sitebar-inner"><a class="brand" href="../../../../index.html"><i></i>EVORON AI电子书城</a><nav><a href="../../../../index.html">书城</a><a href="/shelf.html">我的书架</a></nav></div></header><main class="page"><section class="book-hero"><a class="cover-open" href="cover.jpg" data-cover-zoom title="查看封面大图"><div class="cover-art" style="--cover-tone:hsl(345 28% 24%)"><img src="cover.jpg" alt="《归途无岸》封面"></div></a><div class="book-main"><p class="eyebrow">战争史 · 中文</p><h1>归途无岸</h1><p class="subtitle">中国远征军的荣耀、代价与无声归途</p><p class="author"><a class="author-link" href="../../../../author-642dd26ba2.html">半两先生</a></p><div class="meta"><span class="pill">中国远征军</span><span class="pill">二战史</span><span class="pill">军事史</span><span class="pill">口述历史</span><span class="pill">滇缅战场</span><span class="pill">中国史</span><span class="pill">30 章</span><span class="pill">262,042 字</span></div><div class="stat-band" data-stat-band>
     <div class="stat-cell" data-stat-reco hidden><b class="sc-green"><i data-stat-reco-val></i><em>%</em></b><span>推荐值</span></div>
     <div class="stat-cell" data-stat-rr hidden><b class="sc-gold" data-stat-rr-val></b><span>读者评分</span></div>
     <div class="stat-cell"><b class="sc-gold">8.2</b><span>编辑评分</span></div>
@@ -149,7 +212,7 @@
     if(s.wishlist)parts.push('<span><strong>'+s.wishlist+'</strong> 人想读</span>');
     if(parts.length){box.innerHTML=parts.join('');box.hidden=false}
   }).catch(function(){});
-})();</script></div><section class="description clamped" data-desc><h2>内容简介</h2><p>他们是盟军公认的卓越步兵，却也是大国博弈中被精密计算的消耗品。从滇缅公路的烽火到野人山的白骨，从兰姆伽的钢铁洪流到富国岛的漫长滞留，中国远征军的战史不仅是一部战场胜负录，更是一场以血肉换取国际地位的残酷交易。本书穿透宏大的胜利叙事，以三方一手档案互证，将镜头对准士兵的口粮、弹药与抚恤金。当指挥权让渡于盟友、后勤依附于外援，个体的英勇便成了体系缺失最尖锐的注脚。这不仅是对两次入缅作战的微观复盘，更是对数十万归途无岸者的迟来证词，揭示被胜利掩盖的结构性代价与战后遗忘。</p><button type="button" class="desc-toggle" data-desc-toggle>展开 ∨</button></section><section class="editor-review"><h2>编辑点评<span class="er-rating">值得一读</span></h2><p>本书以‘以人力换取国际地位’这一核心命题贯穿始终，论证骨架清晰有力。尤其值得称道的是其对档案细节的运用：仰光港中方卸货周期12天与英军4天的对比、民工登记册上‘失踪’二字的无备注状态，这些微观证据使制度性压迫的判断不流于抽象。第29章将政策松动、学术推动与幸存者生命倒计时三股力量并置，分析记忆浮出的条件，展现了超越战役史的社会史视野。不过，全书在结构上存在可优化的空间：第1章与第2章关于滇缅公路封锁的材料高度重叠，造成约一万五千字的冗余；中段战斗章节（如第15-16章）战术描写密度虽高，但对‘为何同样缺陷反复出现’的追问稍显不足，分析层略薄。此外，终章试图同时完成历史回望、理论总结与记忆政治回应，功能过于集中，篇幅膨胀，若能拆分或可使论述更为精炼。</p><p class="er-byline">—— 砚北 · 历史社科编辑</p></section><section class="hot-lines" data-hot-lines hidden><h2>热门划线</h2><div data-hl-list></div></section><section class="hot-reviews" data-hot-reviews hidden><h2>精彩点评</h2><div data-rv-list></div><a class="rv-more" href="ch-1.html">读完这本书，写下你的点评 →</a></section></section><section class="catalog collapsed" data-catalog><div class="catalog-head"><h2>目录</h2><span>共 30 章</span></div><div class="chapter-grid"><a class="chapter-row" href="ch-1.html"><span>第 01 章</span><span>生命线起于滇缅</span></a><a class="chapter-row" href="ch-2.html"><span>第 02 章</span><span>南进阴影下的缅甸</span></a><a class="chapter-row" href="ch-3.html"><span>第 03 章</span><span>英帝国防线之虚</span></a><a class="chapter-row" href="ch-4.html"><span>第 04 章</span><span>重庆的出兵算盘</span></a><a class="chapter-row" href="ch-5.html"><span>第 05 章</span><span>士兵底色与体系缺口</span></a><a class="chapter-row" href="ch-6.html"><span>第 06 章</span><span>盟军初逢的裂缝</span></a><a class="chapter-row" href="ch-7.html"><span>第 07 章</span><span>东京的南下按钮</span></a><a class="chapter-row" href="ch-8.html"><span>第 08 章</span><span>仰光的陷落</span></a><a class="chapter-row" href="ch-9.html"><span>第 09 章</span><span>同古：第一滴血</span></a><a class="chapter-row" href="ch-10.html"><span>第 10 章</span><span>仁安羌：解围的代价</span></a><a class="chapter-row" href="ch-11.html"><span>第 11 章</span><span>曼德勒：计划沦为废纸</span></a><a class="chapter-row" href="ch-12.html"><span>第 12 章</span><span>败退的分水岭</span></a><a class="chapter-row" href="ch-13.html"><span>第 13 章</span><span>野人山：白骨铺成的归途</span></a><a class="chapter-row" href="ch-14.html"><span>第 14 章</span><span>钢铁开始流入兰姆伽</span></a><a class="chapter-row" href="ch-15.html"><span>第 15 章</span><span>胡康河谷：反攻的逻辑</span></a><a class="chapter-row" href="ch-16.html"><span>第 16 章</span><span>密支那：血肉堆出的跑道</span></a><a class="chapter-row" href="ch-17.html"><span>第 17 章</span><span>滇西会师：两线夹击的叙事</span></a><a class="chapter-row" href="ch-18.html"><span>第 18 章</span><span>胜利的暗面</span></a><a class="chapter-row" href="ch-19.html"><span>第 19 章</span><span>战火熄灭时的离散者</span></a><a class="chapter-row" href="ch-20.html"><span>第 20 章</span><span>归国者与不归者的分岔</span></a><a class="chapter-row" href="ch-21.html"><span>第 21 章</span><span>富国岛的滞留之岸</span></a><a class="chapter-row" href="ch-22.html"><span>第 22 章</span><span>遗忘从幸存者开始</span></a><a class="chapter-row" href="ch-23.html"><span>第 23 章</span><span>泰缅边境的无岸岁月</span></a><a class="chapter-row" href="ch-24.html"><span>第 24 章</span><span>归途尽头无岸无声</span></a><a class="chapter-row" href="ch-25.html"><span>第 25 章</span><span>胜利叙事的分娩阵痛</span></a><a class="chapter-row" href="ch-26.html"><span>第 26 章</span><span>内战熔炉中的番号消解</span></a><a class="chapter-row" href="ch-27.html"><span>第 27 章</span><span>冷战铁幕下的记忆分流</span></a><a class="chapter-row" href="ch-28.html"><span>第 28 章</span><span>幸存者的沉默契约</span></a><a class="chapter-row" href="ch-29.html"><span>第 29 章</span><span>迟来的证词与历史的回响</span></a><a class="chapter-row" href="ch-30.html"><span>第 30 章</span><span>归途无岸的历史回望</span></a></div><button type="button" class="catalog-more" data-catalog-more>展开全部 30 章</button></section><section class="related" data-related hidden><div class="sec-head"><h2>同类好书</h2></div><div class="related-grid" data-related-grid></div></section></main><script src="/assets/discovery.js?v=6.12.0"></script><script>(function(){
+})();</script></div><section class="description" data-desc><h2>内容简介</h2><p id="book-description">他们是盟军公认的卓越步兵，却也是大国博弈中被精密计算的消耗品。从滇缅公路的烽火到野人山的白骨，从兰姆伽的钢铁洪流到富国岛的漫长滞留，中国远征军的战史不仅是一部战场胜负录，更是一场以血肉换取国际地位的残酷交易。本书穿透宏大的胜利叙事，以三方一手档案互证，将镜头对准士兵的口粮、弹药与抚恤金。当指挥权让渡于盟友、后勤依附于外援，个体的英勇便成了体系缺失最尖锐的注脚。这不仅是对两次入缅作战的微观复盘，更是对数十万归途无岸者的迟来证词，揭示被胜利掩盖的结构性代价与战后遗忘。</p><button type="button" class="disclosure-toggle desc-toggle" data-desc-toggle aria-controls="book-description" aria-expanded="false" data-expand="展开简介" data-collapse="收起简介" hidden><span>展开简介</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></section><section class="editor-review"><h2>AI 编辑点评<span class="er-rating">值得一读</span></h2><p>本书以‘以人力换取国际地位’这一核心命题贯穿始终，论证骨架清晰有力。尤其值得称道的是其对档案细节的运用：仰光港中方卸货周期12天与英军4天的对比、民工登记册上‘失踪’二字的无备注状态，这些微观证据使制度性压迫的判断不流于抽象。第29章将政策松动、学术推动与幸存者生命倒计时三股力量并置，分析记忆浮出的条件，展现了超越战役史的社会史视野。不过，全书在结构上存在可优化的空间：第1章与第2章关于滇缅公路封锁的材料高度重叠，造成约一万五千字的冗余；中段战斗章节（如第15-16章）战术描写密度虽高，但对‘为何同样缺陷反复出现’的追问稍显不足，分析层略薄。此外，终章试图同时完成历史回望、理论总结与记忆政治回应，功能过于集中，篇幅膨胀，若能拆分或可使论述更为精炼。</p><p class="er-byline">砚北 · 历史社科编辑</p></section><section class="hot-lines" data-hot-lines hidden><h2>热门划线</h2><div data-hl-list></div></section><section class="hot-reviews" data-hot-reviews hidden><h2>精彩点评</h2><div data-rv-list></div><a class="rv-more" href="ch-1.html">读完这本书，写下你的点评 →</a></section></section><section class="catalog" data-catalog><div class="catalog-head"><h2>目录</h2><span>共 30 章</span></div><div class="chapter-grid" id="book-chapters"><a class="chapter-row" href="ch-1.html"><span>第 01 章</span><span>生命线起于滇缅</span></a><a class="chapter-row" href="ch-2.html"><span>第 02 章</span><span>南进阴影下的缅甸</span></a><a class="chapter-row" href="ch-3.html"><span>第 03 章</span><span>英帝国防线之虚</span></a><a class="chapter-row" href="ch-4.html"><span>第 04 章</span><span>重庆的出兵算盘</span></a><a class="chapter-row" href="ch-5.html"><span>第 05 章</span><span>士兵底色与体系缺口</span></a><a class="chapter-row" href="ch-6.html"><span>第 06 章</span><span>盟军初逢的裂缝</span></a><a class="chapter-row" href="ch-7.html"><span>第 07 章</span><span>东京的南下按钮</span></a><a class="chapter-row" href="ch-8.html"><span>第 08 章</span><span>仰光的陷落</span></a><a class="chapter-row" href="ch-9.html"><span>第 09 章</span><span>同古：第一滴血</span></a><a class="chapter-row" href="ch-10.html"><span>第 10 章</span><span>仁安羌：解围的代价</span></a><a class="chapter-row" href="ch-11.html"><span>第 11 章</span><span>曼德勒：计划沦为废纸</span></a><a class="chapter-row" href="ch-12.html"><span>第 12 章</span><span>败退的分水岭</span></a><a class="chapter-row" href="ch-13.html"><span>第 13 章</span><span>野人山：白骨铺成的归途</span></a><a class="chapter-row" href="ch-14.html"><span>第 14 章</span><span>钢铁开始流入兰姆伽</span></a><a class="chapter-row" href="ch-15.html"><span>第 15 章</span><span>胡康河谷：反攻的逻辑</span></a><a class="chapter-row" href="ch-16.html"><span>第 16 章</span><span>密支那：血肉堆出的跑道</span></a><a class="chapter-row" href="ch-17.html"><span>第 17 章</span><span>滇西会师：两线夹击的叙事</span></a><a class="chapter-row" href="ch-18.html"><span>第 18 章</span><span>胜利的暗面</span></a><a class="chapter-row" href="ch-19.html"><span>第 19 章</span><span>战火熄灭时的离散者</span></a><a class="chapter-row" href="ch-20.html"><span>第 20 章</span><span>归国者与不归者的分岔</span></a><a class="chapter-row" href="ch-21.html"><span>第 21 章</span><span>富国岛的滞留之岸</span></a><a class="chapter-row" href="ch-22.html"><span>第 22 章</span><span>遗忘从幸存者开始</span></a><a class="chapter-row" href="ch-23.html"><span>第 23 章</span><span>泰缅边境的无岸岁月</span></a><a class="chapter-row" href="ch-24.html"><span>第 24 章</span><span>归途尽头无岸无声</span></a><a class="chapter-row" href="ch-25.html"><span>第 25 章</span><span>胜利叙事的分娩阵痛</span></a><a class="chapter-row" href="ch-26.html"><span>第 26 章</span><span>内战熔炉中的番号消解</span></a><a class="chapter-row" href="ch-27.html"><span>第 27 章</span><span>冷战铁幕下的记忆分流</span></a><a class="chapter-row" href="ch-28.html"><span>第 28 章</span><span>幸存者的沉默契约</span></a><a class="chapter-row" href="ch-29.html"><span>第 29 章</span><span>迟来的证词与历史的回响</span></a><a class="chapter-row" href="ch-30.html"><span>第 30 章</span><span>归途无岸的历史回望</span></a></div><button type="button" class="disclosure-toggle catalog-more" data-catalog-more aria-controls="book-chapters" aria-expanded="false" data-expand="查看全部 30 章" data-collapse="收起目录" hidden><span>查看全部 30 章</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></section><section class="related" data-related hidden><div class="sec-head"><h2>同类好书</h2></div><div class="related-grid" data-related-grid></div></section></main><script src="/assets/discovery.js?v=6.12.0"></script><script>(function(){
     var button=document.querySelector('[data-continue-reading]');if(!button)return;
     try{
       var state=JSON.parse(localStorage.getItem("historyai.reader.proj-mtaw1np6a98")||'{}');
@@ -197,12 +260,6 @@
     });
     document.querySelector('[data-hot-reviews]').hidden=false;
   }).catch(function(){});
-  var dt=document.querySelector('[data-desc-toggle]');
-  if(dt)dt.addEventListener('click',function(){
-    var sec=document.querySelector('[data-desc]');
-    var open=sec.classList.toggle('clamped');
-    dt.textContent=open?"展开 ∨":"收起 ∧";
-  });
   // v6.9.32 三键快捷评分（weread 式推荐/一般/不行）：映射 5/3/1 星走既有书评体系
   var qr=document.querySelector('[data-quick-rate]');
   if(qr){
@@ -231,8 +288,6 @@
     })});
   }
 })();</script><script>(function(){
-  var moreBtn=document.querySelector('[data-catalog-more]');
-  if(moreBtn)moreBtn.addEventListener('click',function(){document.querySelector('[data-catalog]').classList.remove('collapsed');moreBtn.remove()});
   var box=document.querySelector('[data-related]');var grid=document.querySelector('[data-related-grid]');
   if(!box||!grid)return;
   var self="proj-mtaw1np6a98";var cat="战争史";var en=false;
@@ -251,4 +306,77 @@
     }).join('');
     box.hidden=false;
   }).catch(function(){});
-})();</script></body></html>
+})();</script><script>/* global window */
+'use strict';
+
+(function () {
+  const doc = window.document;
+  function paint(button, expanded) {
+    button.setAttribute('aria-expanded', String(expanded));
+    button.querySelector('span').textContent = expanded ? button.dataset.collapse : button.dataset.expand;
+  }
+  // Keep the clicked control in view when collapsing a long section.
+  function keepPosition(button, change) {
+    const rect = button.getBoundingClientRect();
+    const before = Math.max(12, Math.min(rect.top, window.innerHeight - rect.height - 12));
+    change();
+    const delta = button.getBoundingClientRect().top - before;
+    if (delta) window.scrollBy(0, delta);
+    const after = button.getBoundingClientRect();
+    if (after.top < 0 || after.bottom > window.innerHeight) button.scrollIntoView({ block: 'nearest' });
+  }
+
+  const description = doc.querySelector('[data-desc]');
+  const toggle = doc.querySelector('[data-desc-toggle]');
+  if (description && toggle) {
+    const text = description.querySelector('p');
+    let expanded = false;
+    function measure() {
+      description.classList.add('clamped');
+      const overflows = text.scrollHeight > text.clientHeight + 1;
+      description.classList.toggle('clamped', overflows && !expanded);
+      toggle.hidden = !overflows;
+      paint(toggle, overflows && expanded);
+    }
+    toggle.addEventListener('click', () => {
+      const collapse = expanded;
+      const change = () => {
+        expanded = !expanded;
+        description.classList.toggle('clamped', !expanded);
+        paint(toggle, expanded);
+      };
+      if (collapse) keepPosition(toggle, change);
+      else change();
+    });
+    let frame = 0;
+    const schedule = () => {
+      window.cancelAnimationFrame(frame);
+      frame = window.requestAnimationFrame(measure);
+    };
+    if (window.ResizeObserver) new window.ResizeObserver(schedule).observe(text);
+    window.addEventListener('resize', schedule);
+    if (doc.fonts) doc.fonts.ready.then(schedule);
+    measure();
+  }
+
+  const catalog = doc.querySelector('[data-catalog]');
+  const catalogToggle = doc.querySelector('[data-catalog-more]');
+  if (catalog && catalogToggle) {
+    const rows = Array.from(catalog.querySelectorAll('.chapter-row'));
+    const tail = rows.slice(12);
+    let expanded = false;
+    function update() {
+      tail.forEach(row => { row.hidden = !expanded; });
+      paint(catalogToggle, expanded);
+    }
+    catalogToggle.hidden = tail.length === 0;
+    catalogToggle.addEventListener('click', () => {
+      const collapse = expanded;
+      const change = () => { expanded = !expanded; update(); };
+      if (collapse) keepPosition(catalogToggle, change);
+      else change();
+    });
+    update();
+  }
+})();
+</script></body></html>
