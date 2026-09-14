@@ -17,11 +17,18 @@
   function create({ onRefresh, returnFocus, container, onTabChange = () => {}, loginUrl = () => '/login.html?returnTo=' + encodeURIComponent(root.location.href) }) {
     let dialog = null, panel, status, navigation, user, pending = false, generation = 0, sessionEnded = false;
     let readController, consent;
-    const en = () => (root.__haiI18n?.lang || new URLSearchParams(root.location?.search || '').get('lang')) === 'en';
+    const en = () => (root.EvoronLanguage?.state().language || root.__haiI18n?.lang) === 'en';
     const t = (zh, english) => en() ? english : zh;
     function resumeCheckout(event) {
       if (!event.persisted || !dialog || !checkoutInFlight) return;
       checkoutInFlight = false; setPending(false); show('credits');
+    }
+    function refreshLanguageLinks() {
+      dialog?.querySelectorAll('[data-policy-link]').forEach(link => {
+        link.href = `https://evoronai.com/${link.dataset.policyLink}${en() ? '-en' : ''}.html`;
+      });
+      const select = dialog?.querySelector('[name="uiLanguage"]');
+      if (select && !pending && select.dataset.dirty !== 'true') select.value = root.EvoronLanguage.state().preference;
     }
     const node = (tag, text, className) => {
       const el = document.createElement(tag);
@@ -37,7 +44,7 @@
     function setPending(value) {
       pending = value;
       dialog.setAttribute('aria-busy', String(value));
-      dialog.querySelectorAll('button, input').forEach(el => { el.disabled = value; });
+      dialog.querySelectorAll('button, input, select').forEach(el => { el.disabled = value; });
       if (sessionEnded) navigation.querySelectorAll('button').forEach(el => { el.disabled = true; });
     }
     async function get(url, signal) {
@@ -412,9 +419,32 @@
       }
       await Promise.all([loadBalance(), loadPlans(), loadOrders()]);
     }
+    function general() {
+      panel.appendChild(node('h3', '通用设置'));
+      const form = node('form'), label = node('label', undefined, 'account-field');
+      label.appendChild(node('span', '界面语言'));
+      const select = node('select'); select.name = 'uiLanguage';
+      for (const [value, text] of [['system', '跟随系统'], ['zh', '简体中文'], ['en', 'English']]) {
+        const option = node('option', text); option.value = value; select.appendChild(option);
+        if (value !== 'system') option.setAttribute('translate', 'no');
+      }
+      select.value = root.EvoronLanguage.state().preference;
+      select.onchange = () => { select.dataset.dirty = 'true'; };
+      label.appendChild(select); form.appendChild(label); action(form, '保存设置');
+      form.onsubmit = async event => {
+        event.preventDefault();
+        if (pending) return;
+        const value = select.value;
+        setPending(true); message('正在提交…');
+        try { await root.EvoronLanguage.save(value); select.dataset.dirty = 'false'; message('设置已保存'); }
+        catch { message('设置未保存，请重试。', true); }
+        finally { setPending(false); }
+      };
+      panel.appendChild(form);
+    }
     async function show(tab) {
       if (pending || sessionEnded || !dialog) return;
-      if (!['profile', 'security', 'credits'].includes(tab)) tab = 'profile';
+      if (!['profile', 'security', 'credits', 'general'].includes(tab)) tab = 'profile';
       dialog.dataset.tab = tab;
       onTabChange(tab);
       readController?.abort(); readController = new AbortController();
@@ -426,6 +456,11 @@
       });
       panel.setAttribute('aria-labelledby', 'account-tab-' + tab);
       try {
+        if (tab === 'general') {
+          await root.EvoronLanguage.refresh();
+          if (current === generation && dialog) general();
+          return;
+        }
         if (!user) {
           panel.appendChild(node('p', '正在读取账号…', 'account-note'));
           const data = await get('/api/auth/me', readController.signal);
@@ -456,7 +491,7 @@
       close.onclick = () => { if (!pending) dialog.close(); }; head.append(title, close);
       if (container) close.remove();
       navigation = node('nav'); navigation.setAttribute('role', 'tablist'); navigation.setAttribute('aria-label', '账号设置');
-      for (const [id, label] of Object.entries({ profile: '个人资料', security: '账号安全', credits: '积分' })) {
+      for (const [id, label] of Object.entries({ profile: '个人资料', security: '账号安全', credits: '积分', general: '通用设置' })) {
         const button = node('button', label); button.type = 'button'; button.dataset.tab = id; button.id = 'account-tab-' + id;
         button.setAttribute('role', 'tab'); button.setAttribute('aria-controls', 'account-panel'); button.onclick = () => show(id); navigation.appendChild(button);
       }
@@ -472,15 +507,17 @@
       const legalEnglish = { pricing: 'Credit pricing', privacy: 'Privacy Policy', terms: 'Terms of Service', 'acceptable-use': 'Acceptable Use Policy', refunds: 'Refund Policy', support: 'Help' };
       for (const [id, label] of Object.entries({ pricing: '积分价格', privacy: '隐私政策', terms: '服务条款', 'acceptable-use': '可接受使用政策', refunds: '退款说明', support: '联系支持' })) {
         const link = node('a', t(label, legalEnglish[id])); link.href = `https://evoronai.com/${id}${en() ? '-en' : ''}.html`;
+        link.dataset.policyLink = id;
         link.target = '_blank'; link.rel = 'noopener'; legal.appendChild(link);
       }
       const support = node('a', 'support@evoronai.com'); support.href = 'mailto:support@evoronai.com'; legal.appendChild(support);
       dialog.append(head, navigation, status, panel, legal); (container || document.body).appendChild(dialog);
       root.addEventListener('pageshow', resumeCheckout);
+      root.addEventListener('evoron:language', refreshLanguageLinks);
       if (container) { show(tab); return; }
       dialog.addEventListener('keydown', event => {
         if (event.key !== 'Tab') return;
-        const controls = Array.from(dialog.querySelectorAll('button, input, a[href], summary')).filter(el => !el.disabled && el.tabIndex >= 0 && el.getClientRects().length);
+        const controls = Array.from(dialog.querySelectorAll('button, input, select, a[href], summary')).filter(el => !el.disabled && el.tabIndex >= 0 && el.getClientRects().length);
         const first = controls[0], last = controls[controls.length - 1];
         if (!first) { event.preventDefault(); return; }
         if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
@@ -489,6 +526,7 @@
       dialog.addEventListener('cancel', event => { if (pending) event.preventDefault(); });
       dialog.addEventListener('close', () => {
         root.removeEventListener('pageshow', resumeCheckout);
+        root.removeEventListener('evoron:language', refreshLanguageLinks);
         readController?.abort(); generation++; dialog.remove(); dialog = null; user = null; returnFocus()?.focus();
       });
       dialog.showModal(); close.focus(); show(tab);

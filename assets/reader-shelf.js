@@ -23,9 +23,7 @@
     } finally { win.clearTimeout(timer); }
   }
   function language(win) {
-    const explicit = new URLSearchParams(win.location.search).get('lang');
-    if (explicit === 'en' || explicit === 'zh') return explicit;
-    try { return win.localStorage.getItem('hai.shelfLang') === 'en' ? 'en' : 'zh'; } catch { return 'zh'; }
+    return win.EvoronLanguage?.state().language || (/^zh/i.test(win.navigator?.language || 'zh') ? 'zh' : 'en');
   }
   function readHref(row) {
     const dir = '/books/' + encodeURIComponent(row.bookId) + '/';
@@ -44,7 +42,7 @@
     const retry = doc.createElement('button'); retry.type = 'button'; retry.textContent = T('重试', 'Retry'); retry.hidden = true;
     notice.after(retry);
     const login = doc.createElement('a'); login.textContent = T('登录后加入书架', 'Sign in to add to shelf');
-    login.href = (en ? '/index-en.html' : '/index.html') + '?login=1&returnTo=' + encodeURIComponent(win.location.pathname);
+    login.href = (en ? '/index-en.html' : '/index.html') + '?login=1&returnTo=' + encodeURIComponent(win.location.pathname + win.location.search + win.location.hash);
     login.hidden = true; retry.after(login);
     let current = '', busy = false, last = null, syncUserId;
     function paint() { buttons.forEach(b => { b.classList.toggle('on', b.dataset.shelfStatus === current); b.setAttribute('aria-pressed', String(b.dataset.shelfStatus === current)); b.disabled = busy; }); }
@@ -60,7 +58,11 @@
         notice.textContent = body ? T('已保存', 'Saved') : '';
         if (row && row.releaseId === book.releaseId && row.status !== 'wishlist') {
           const button = doc.querySelector('[data-continue-reading]');
-          if (button && Number(row.chapter) < book.chapterCount) { button.href = readHref(row); button.textContent = T('继续阅读', 'Continue reading'); }
+          const chapter = Number(row.chapter);
+          const numeric = typeof row.chapter === 'number' || (typeof row.chapter === 'string' && /^\d+$/.test(row.chapter));
+          if (button && numeric && Number.isInteger(chapter) && chapter >= 0 && chapter < book.chapterCount) {
+            button.href = readHref(row); button.textContent = T('继续第 ' + (chapter + 1) + ' 章', 'Continue chapter ' + (chapter + 1));
+          }
         }
       } catch (error) {
         const auth = error.code === 'AUTH_REQUIRED';
@@ -82,7 +84,6 @@
     if (!main) return;
     doc.documentElement.lang = en ? 'en' : 'zh';
     doc.title = T('我的书架', 'My shelf') + ' · EVORON AI';
-    try { win.localStorage.setItem('hai.shelfLang', en ? 'en' : 'zh'); } catch { /* UI preference is optional. */ }
     doc.querySelector('.shelf-tabs')?.setAttribute('aria-label', T('书架视图', 'Shelf views'));
     doc.querySelector('.m-tabbar')?.setAttribute('aria-label', T('站内导航', 'Site navigation'));
     const labels = { '我的书架': 'My shelf', '书架': 'Shelf', '笔记本': 'Notebook', '书城首页': 'Bookstore', '书城': 'Store', '社区动态': 'Community', '我的主页': 'My profile', '动态': 'Community', '我的': 'Me' };

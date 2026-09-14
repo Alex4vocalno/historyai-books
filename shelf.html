@@ -21,7 +21,7 @@
 .page-head .lede{margin:10px 0 0;color:var(--muted);font-size:13.5px}
 @media(max-width:720px){.topbar-inner{padding:0 14px}.topbar .brand-cn{display:none}.topbar-link{padding:0 9px}.page-head{padding:24px 16px 0}.page-head h1{font-size:25px}}
 .m-tabbar{display:none}
-@media(min-width:641px) and (max-width:900px){.topbar .topbar-right>[data-store-about]{display:inline-flex}}
+@media(min-width:641px) and (max-width:900px){.topbar .topbar-inner{height:auto;min-height:68px;flex-wrap:wrap;gap:12px;padding-top:12px;padding-bottom:12px}.topbar .topbar-right{flex-wrap:wrap}.topbar .topbar-right>.topbar-link{display:inline-flex}}
 @media(max-width:640px){
 .topbar-link{display:none}
 .m-tabbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:5px 8px calc(5px + env(safe-area-inset-bottom))}
@@ -92,6 +92,11 @@ html body.store-home,html body.store-shelf{background:#fff;font-family:var(--san
 .store-home .hot{gap:8px;font:.8125rem/1.5 var(--sans)}
 .store-home .hot button{min-height:44px;border:0;border-radius:6px;background:#f5f7f6;box-shadow:none;font:inherit;padding:8px 12px}
 .store-home .page{padding-top:32px}
+.store-home.searching :is(.continue-box,.sec-quotes,.sec-catalog,.hot){display:none!important}
+.store-home [data-all-books]{scroll-margin-top:24px}
+.store-home .search-head{flex-wrap:wrap;justify-content:space-between}
+.store-home .continue-strip{grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/4);grid-template-columns:none;overflow-x:auto;scroll-snap-type:x proximity;padding:4px 0 12px}
+.store-home .cont-card{scroll-snap-align:start;min-width:0}
 .store-home .sec{margin-bottom:40px}
 .store-home .sec-head h3,.store-home .search-head h3,.store-shelf .page-head h1{font:650 1.25rem/1.5 var(--sans)}
 .store-home .sec-head .note,.store-home .theme-group h4 small{font:.8125rem/1.5 var(--sans)}
@@ -115,7 +120,7 @@ html body.store-home,html body.store-shelf{background:#fff;font-family:var(--san
 .store-home .rec-card:hover,.store-home .rail-card:hover,.store-home .quote-card:hover{transform:none;box-shadow:none;background:#f0f5f2}
 .store-home .rec-body strong,.store-home .rail-card strong{font:600 .9375rem/1.5 var(--sans);overflow-wrap:anywhere}
 .store-home .rec-cat{border-radius:4px;font:.75rem/1.5 var(--sans);padding:3px 7px}
-.store-home .rec-cover{width:76px;border-radius:3px}
+.store-home .rec-cover{width:76px;border-radius:3px;align-self:flex-start}
 .store-home .category-tile{border-radius:6px;box-shadow:none;background:#fff;padding:14px 12px}
 .store-home .category-tile:hover{transform:none;box-shadow:none;background:#f7f9f8}
 .store-home .category-tile strong{font:600 .9375rem/1.5 var(--sans);overflow-wrap:anywhere}
@@ -177,12 +182,13 @@ html .store-home .book-card h2{font:600 1rem/1.5 var(--sans);letter-spacing:0;mi
   .store-home .shelf,.store-shelf .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 16px}
   html .store-home .book-card h2,.store-shelf .card .t{font-size:.9375rem}
   .store-home .hot{scrollbar-width:thin}
+  .store-home .continue-strip{grid-auto-columns:minmax(238px,78%);gap:12px}
 }
 @media(max-width:440px){.store-home .shelf,.store-shelf .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(prefers-reduced-motion:reduce){.store-home *,.store-shelf *{scroll-behavior:auto!important;transition:none!important}}
 
 </style></head><body class="store-shelf">
-<link rel="stylesheet" href="/assets/store-account.css?v=6.30.2"><script src="/assets/account-links.js?v=6.30.2" defer></script><script src="/assets/store-account.js?v=6.30.2" defer></script><header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html" aria-current="page">我的书架</a><a class="topbar-link" href="/about.html" data-store-about>关于我们</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a><span class="store-account-entry"><a class="store-write" href="https://write.evoronai.com/" data-account-label="write">开始写作</a><a class="store-pricing" href="/pricing.html" data-account-label="pricing">积分方案</a><a class="store-login" href="https://write.evoronai.com/login.html" data-store-account>登录 / 注册</a></span></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a class="on" href="/shelf.html" aria-current="page"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/about.html" data-store-about="short"><img src="/assets/icons/globe.png" alt=""><span class="mtb-t">关于我们</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script>(function(){try{if(localStorage.getItem('hai.shelfLang')==='en'){var m={'书城':'Store','书架':'Shelf','动态':'Feed','我的':'Me'};document.querySelectorAll('.m-tabbar .mtb-t').forEach(function(s){if(m[s.textContent])s.textContent=m[s.textContent]})}}catch(e){}})();</script>
+<link rel="stylesheet" href="/assets/store-account.css?v=6.32.0"><script src="/assets/account-language.js?v=6.32.0"></script><script src="/assets/store-language.js?v=6.32.0" defer></script><link rel="stylesheet" href="/assets/store-covers.css?v=6.32.0"><script src="/assets/store-covers.js?v=6.32.0" defer></script><script src="/assets/account-links.js?v=6.32.0" defer></script><script src="/assets/store-account.js?v=6.32.0" defer></script><header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html" aria-current="page">我的书架</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a><span class="store-account-entry"><a class="store-write" href="https://write.evoronai.com/" data-account-label="write">开始写作</a><a class="store-pricing" href="/pricing.html" data-account-label="pricing">积分方案</a><a href="/account.html?tab=general" data-guest-settings>设置</a><a class="store-login" href="https://write.evoronai.com/login.html" data-store-account>登录 / 注册</a></span></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a class="on" href="/shelf.html" aria-current="page"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script>(function(){try{if(window.EvoronLanguage?.state().language==='en'){var m={'书城':'Store','书架':'Shelf','动态':'Feed','我的':'Me'};document.querySelectorAll('.m-tabbar .mtb-t').forEach(function(s){if(m[s.textContent])s.textContent=m[s.textContent]})}}catch(e){}})();</script>
 <div class="page-head"><h1>我的书架</h1><p class="lede me" id="me"></p></div>
 <div class="wrap">
   <nav class="shelf-tabs" role="tablist" aria-label="书架视图"><button type="button" class="on" id="shelf-books-tab" data-stab="books" role="tab" aria-controls="shelf-books" aria-selected="true">书架</button><button type="button" id="notebook-tab" data-stab="notes" role="tab" aria-controls="notebook" aria-selected="false" tabindex="-1">笔记本</button></nav>
@@ -190,7 +196,7 @@ html .store-home .book-card h2{font:600 1rem/1.5 var(--sans);letter-spacing:0;mi
   <div id="main"><div class="empty">正在打开书架…</div></div></section>
   <section id="notebook" role="tabpanel" aria-labelledby="notebook-tab" hidden></section>
 </div>
-<script src="/assets/reader-shelf.js?v=6.30.2"></script>
+<script src="/assets/reader-shelf.js?v=6.32.0"></script>
 <script>EvoronShelf.installPage(window);</script>
 <script>(function(){
 function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
@@ -227,4 +233,4 @@ var EN=EvoronShelf.language(window)==='en';function T(zh,en){return EN?en:zh;}
       if(n.unread>0)fetch('/api/reader/notifications',{method:'POST',credentials:'same-origin'}).catch(function(){});
     }).catch(function(){});
 })();</script>
-<script src="/assets/reader-notebook.js?v=6.30.2"></script></body></html>
+<script src="/assets/reader-notebook.js?v=6.32.0"></script></body></html>

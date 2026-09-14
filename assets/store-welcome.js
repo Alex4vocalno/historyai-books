@@ -2,8 +2,8 @@
 (function () {
   'use strict';
   const key = 'evoron.welcome.dismissed';
-  const en = document.documentElement.lang.toLowerCase().startsWith('en');
-  const pages = en ? [
+  let en = document.documentElement.lang.toLowerCase().startsWith('en');
+  const pagesFor = en => en ? [
     { label: 'Welcome to EvoronAI', title: 'A global generative library.', copy: 'Anyone can bring the book they want to read into being, and share it with the world.', detail: 'You do not have to limit your curiosity to books that already exist. Read what others have created, or create the book you have been looking for.' },
     { label: 'Your interests. Your perspective. Your language.', title: 'Your curiosity deserves a book.', copy: 'Even if your interest is niche, your perspective is different, or no book is available in your language, what you want to read can be the starting point.', detail: 'No subject has just one story. Your language, perspective and curiosity can open up another way to explore it.' },
     { label: 'From a reading wish to a book', title: 'Want to read it? Help bring it to life.', copy: 'Tell AI about the book you want to read. Shape its subject, language, style and length through conversation, then confirm your choices and begin writing.', detail: 'Fiction or nonfiction, from outline to chapters. Creating a book can be how a reader meets their own reading needs, not just a profession for authors.' },
@@ -26,6 +26,8 @@
   let activeDialog;
   function openWelcome() {
     if (activeDialog && activeDialog.open) return;
+    en = document.documentElement.lang.toLowerCase().startsWith('en');
+    const pages = pagesFor(en);
     const previousFocus = document.activeElement;
     const dialog = document.createElement('dialog');
     activeDialog = dialog;
@@ -118,6 +120,4 @@
     document.documentElement.classList.add('store-welcome-open');
   }
   entry.addEventListener('click', openWelcome);
-  try { if (localStorage.getItem(key) === '1') return; } catch { /* Storage is optional. */ }
-  openWelcome();
 }());

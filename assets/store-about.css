@@ -3,7 +3,7 @@ html{-webkit-text-size-adjust:100%}body{margin:0;background:#fff}
 .ev-skip:focus{top:16px}
 #evoron-about a:focus-visible{outline:2px solid var(--ev-green);outline-offset:5px;border-radius:2px}
 #evoron-about .ev-brand img{flex:none;object-fit:contain}
-#evoron-about .ev-language{display:inline-flex;align-items:center;justify-content:center}
+#evoron-about .ev-settings{display:inline-flex;align-items:center;justify-content:center}
 #evoron-about .ev-policies{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 24px;flex-basis:100%;padding-top:18px;border-top:1px solid var(--ev-line)}
 #evoron-about .ev-policies a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px}
 #evoron-about .ev-footer a{overflow-wrap:anywhere}
@@ -18,7 +18,7 @@ html{-webkit-text-size-adjust:100%}body{margin:0;background:#fff}
 #evoron-about .ev-nav{display:flex;gap:26px;align-items:center;margin-left:auto;font-size:14px;line-height:1.5;}
 #evoron-about .ev-nav a{display:flex;align-items:center;min-height:40px;white-space:nowrap;}
 #evoron-about .ev-nav .ev-current{color:var(--ev-green);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:10px;}
-#evoron-about .ev-language{background:none;border:0;border-left:1px solid var(--ev-line);font-size:13px;line-height:20px;padding:10px 0 10px 20px;color:var(--ev-body);min-width:44px;min-height:40px;}
+#evoron-about .ev-settings{background:none;border:0;border-left:1px solid var(--ev-line);font-size:13px;line-height:20px;padding:10px 0 10px 20px;color:var(--ev-body);min-width:44px;min-height:40px;}
 #evoron-about .ev-opening{padding:88px 32px 64px;text-align:center;}
 #evoron-about .ev-kicker{font-size:13px;font-weight:500;line-height:1.6;color:var(--ev-green);margin:0 0 24px;}
 #evoron-about h1{font-family:var(--ev-serif);font-size:48px;font-weight:500;line-height:1.35;margin:0 0 26px;overflow-wrap:break-word;text-wrap:balance;}
@@ -65,7 +65,7 @@ html{-webkit-text-size-adjust:100%}body{margin:0;background:#fff}
   #evoron-about .ev-brand{font-size:19px;}
   #evoron-about .ev-brand span{display:none;}
   #evoron-about .ev-nav{gap:18px;font-size:13px;}
-  #evoron-about .ev-language{padding-left:12px;}
+  #evoron-about .ev-settings{padding-left:12px;}
   #evoron-about .ev-opening{padding:62px 26px 44px;}
   #evoron-about h1{font-size:36px;}
   #evoron-about .ev-mission{font-size:20px;}
@@ -86,7 +86,7 @@ html{-webkit-text-size-adjust:100%}body{margin:0;background:#fff}
 @container(max-width:470px){
   #evoron-about .ev-header{gap:8px;}
   #evoron-about .ev-brand{flex:1;}
-  #evoron-about .ev-language{order:2;border:0;}
+  #evoron-about .ev-settings{order:2;border:0;}
   #evoron-about .ev-nav{order:3;flex-basis:100%;margin:8px 0 0;gap:26px;}
   #evoron-about .ev-opening{padding:48px 24px 36px;}
   #evoron-about h1{font-size:32px;line-height:1.5;margin-bottom:18px;}

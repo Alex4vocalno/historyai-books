@@ -21,7 +21,7 @@
 .page-head .lede{margin:10px 0 0;color:var(--muted);font-size:13.5px}
 @media(max-width:720px){.topbar-inner{padding:0 14px}.topbar .brand-cn{display:none}.topbar-link{padding:0 9px}.page-head{padding:24px 16px 0}.page-head h1{font-size:25px}}
 .m-tabbar{display:none}
-@media(min-width:641px) and (max-width:900px){.topbar .topbar-right>[data-store-about]{display:inline-flex}}
+@media(min-width:641px) and (max-width:900px){.topbar .topbar-inner{height:auto;min-height:68px;flex-wrap:wrap;gap:12px;padding-top:12px;padding-bottom:12px}.topbar .topbar-right{flex-wrap:wrap}.topbar .topbar-right>.topbar-link{display:inline-flex}}
 @media(max-width:640px){
 .topbar-link{display:none}
 .m-tabbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:5px 8px calc(5px + env(safe-area-inset-bottom))}
@@ -85,7 +85,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .pd-card .pd-rec b{color:#b27a22;font-weight:800;font-variant-numeric:tabular-nums}
 @media(max-width:860px){.page{display:block;padding:16px 12px 60px}.rank-nav{position:static;display:flex;overflow-x:auto;max-height:none;padding:8px;margin-bottom:14px;gap:4px}.rank-nav button{flex:none;width:auto}.nav-sec{display:none}.rk-item{grid-template-columns:30px 58px minmax(0,1fr);gap:10px;padding:14px 12px}.rk-cov{width:58px}.rk-desc{-webkit-line-clamp:2}.rank-hero{border-radius:12px;padding:18px 16px 16px}.rank-hero h1{font-size:23px}.rank-hero .rh-orn{font-size:110px}.podium{gap:8px}.pd-card{padding:12px 8px 12px}.pd-medal{left:6px;top:6px;width:26px;height:26px;font-size:13px}.daily-pick .dp-go{display:none}}
 </style></head><body>
-<header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a href="/index.html" style="color:var(--muted);font-size:14px" data-t="back">← 返回书城</a></span></div></header>
+<link rel="stylesheet" href="/assets/store-covers.css?v=6.32.0"><script src="/assets/store-covers.js?v=6.32.0" defer></script><header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a href="/index.html" style="color:var(--muted);font-size:14px" data-t="back">← 返回书城</a></span></div></header>
 <main class="page">
 <aside class="rank-nav" data-nav></aside>
 <section>
@@ -96,7 +96,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 </main>
 <script>
 (function(){
-  var EN=false;try{EN=localStorage.getItem('hai.shelfLang')==='en'}catch(e){}
+  var EN=false;try{EN=window.EvoronLanguage?.state().language==='en'}catch(e){}
   function T(zh,en){return EN?en:zh}
   document.title=T('榜单 · EVORON AI电子书城','Charts · EVORON AI Bookstore');
   var backEl=document.querySelector('[data-t="back"]');backEl.textContent=T('← 返回书城','← Back to library');if(EN)backEl.href='/index-en.html';
@@ -111,7 +111,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
   ];
   var CAT_BG='linear-gradient(120deg,#2c3e38,#4a6a5d)';
   fetch('/books/index.json').then(function(r){return r.json()}).then(function(all){
-    var rows=all.filter(function(b){return b&&b.visibility!=='unlisted'&&(EN?String(b.language||'').indexOf('en')===0:String(b.language||'').indexOf('en')!==0)});
+    var rows=all.filter(function(b){return b&&b.visibility!=='unlisted'});
     var ids=rows.map(function(b){return b.projectId||b.id}).filter(Boolean);
     var chunks=[];for(var ci=0;ci<ids.length;ci+=80)chunks.push(ids.slice(ci,ci+80));
     Promise.all(chunks.map(function(ch){
@@ -171,7 +171,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
       var el=document.querySelector('[data-pick]');
       el.href=pick.url||'#';
       el.innerHTML='<span class="dp-tag">'+T('今日主编推荐','Editor’s pick')+'</span>'
-        +(pick.coverUrl?'<img src="'+esc(pick.coverUrl)+'" alt="">':'')
+        +(pick.coverUrl?'<span class="dp-cover"><img src="'+esc(pick.coverUrl)+'" alt=""></span>':'')
         +'<span class="dp-name">'+esc(pick.title)+'</span><span class="dp-go">'+T('去看看 →','Read →')+'</span>';
       el.hidden=false;
     })();
@@ -202,7 +202,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
           +'<span class="pd-cov">'+(b.coverUrl?'<img src="'+esc(b.coverUrl)+'" alt="'+esc(b.title)+'" loading="lazy">':'')+'</span>'
           +'<strong>'+esc(b.title)+'</strong>'
           +'<small>'+esc(b.authorDisplayName||T('未署名','Unsigned'))+'</small>'
-          +'<span class="pd-rec">'+(s?T('编辑评分 ','Editorial score ')+'<b>'+(s/10).toFixed(1)+'</b> / 10':'')+(hl?(s?' · ':'')+hl:'')+'</span>'
+          +'<span class="pd-rec">'+(s?'<span class="reco-line">'+T('编辑评分 ','Editorial score ')+'<b>'+(s/10).toFixed(1)+'</b></span>':'')+(hl?'<span class="readers-badge">'+hl+'</span>':'')+'</span>'
           +'</a>';
       }).join('');
       box.innerHTML=rest.map(function(b,i){
@@ -213,7 +213,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
           +'<span class="rk-info"><strong>'+esc(b.title)+'</strong>'
           +'<small>'+esc(b.authorDisplayName||T('未署名','Unsigned'))+' · '+esc(b.category||T('历史','History'))+' · '+(Number(b.chapterCount)||0)+T(' 章',' chapters')+'</small>'
           +(b.description?'<p class="rk-desc">'+esc(String(b.description).replace(/\s+/g,' ').slice(0,150))+'</p>':'')
-          +((s||hl)?'<span class="rk-rec">'+(s?T('编辑评分 ','Editorial score ')+'<b>'+(s/10).toFixed(1)+'</b> / 10':'')+(hl?(s?' · ':'')+hl:'')+'</span>':'')
+          +((s||hl)?'<span class="rk-rec">'+(s?'<span class="reco-line">'+T('编辑评分 ','Editorial score ')+'<b>'+(s/10).toFixed(1)+'</b></span>':'')+(hl?'<span class="readers-badge">'+hl+'</span>':'')+'</span>':'')
           +'</span></a>';
       }).join('');
     }

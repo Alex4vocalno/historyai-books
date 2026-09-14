@@ -1,0 +1,12 @@
+.daily-pick .dp-cover{flex:none;display:block;position:relative;width:34px;aspect-ratio:2/3;overflow:hidden;border-radius:2px}
+.daily-pick .dp-cover img{display:block;width:100%;height:100%;object-fit:cover}
+.list-cover-unavailable{position:relative;background:#edf0f1!important;box-shadow:inset 0 0 0 1px #d7dddf!important}
+.list-cover-unavailable>img,.list-cover-unavailable>.cover-type,.list-cover-unavailable>.cover-copy{visibility:hidden}
+.list-cover-unavailable.list-cover-unavailable>.list-cover-fallback{position:absolute;inset:0;display:grid;place-items:center;padding:0;color:#647078;font:600 18px/1 system-ui,sans-serif;letter-spacing:0;text-align:center;background:none;text-shadow:none}
+.list-cover-notice{display:flex;align-items:center;justify-content:flex-end;gap:8px;min-width:0;margin:0 0 8px;color:#59666b;font:400 13px/1.5 system-ui,sans-serif;letter-spacing:0}
+.list-cover-notice[hidden]{display:none}
+.list-cover-notice span{min-width:0;overflow-wrap:anywhere}
+.list-cover-notice button{flex:none;width:44px;height:44px;display:grid;place-items:center;padding:0;border:1px solid #cbd3d5;border-radius:6px;color:#34474c;background:#fff;font:400 24px/1 system-ui,sans-serif;cursor:pointer}
+.list-cover-notice button:hover{background:#eef4f3}
+.list-cover-notice button:disabled{opacity:.5;cursor:wait}
+.list-cover-notice button:focus-visible{outline:2px solid #087f69;outline-offset:2px}

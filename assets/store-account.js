@@ -1,10 +1,12 @@
-/* global document, window, localStorage, location */
+/* global document, window, location */
 'use strict';
 (function () {
   const params = new URLSearchParams(location.search);
-  const requestedLang = params.get('lang');
-  const en = ['en', 'zh'].includes(requestedLang) ? requestedLang === 'en'
-    : document.documentElement.lang.startsWith('en') || (() => { try { return localStorage.getItem('hai.shelfLang') === 'en'; } catch { return false; } })();
+  let en = window.EvoronLanguage.state().language === 'en';
+  window.addEventListener('evoron:language', event => {
+    en = event.detail.language === 'en';
+    document.querySelector('.store-account-menu summary')?.setAttribute('aria-label', en ? 'Account menu' : '账号菜单');
+  });
   const t = (zh, english) => en ? english : zh;
   document.querySelectorAll('[data-store-about]').forEach(el => {
     el.href = en ? '/about-en.html' : '/about.html';
@@ -40,6 +42,7 @@
       for (const [url, label] of [
         ['/me.html', t('我的主页', 'My page')], [accountUrl('profile'), t('账号与邮箱', 'Account & email')],
         [accountUrl('security'), t('账号安全', 'Security')], [accountUrl('credits'), t('积分与购买记录', 'Credits & orders')],
+        [accountUrl('general'), t('通用设置', 'General settings')],
         ['mailto:support@evoronai.com', t('联系支持', 'Contact support')],
       ]) { const a = document.createElement('a'); a.href = url; a.textContent = label; list.appendChild(a); }
       const out = document.createElement('button'); out.type = 'button'; out.textContent = t('退出登录', 'Sign out');
@@ -52,6 +55,8 @@
         } catch { out.textContent = t('退出失败，重试', 'Sign out failed. Retry'); out.disabled = false; }
       };
       list.appendChild(out); menu.append(summary, list); entry.replaceWith(menu);
+      document.querySelector('[data-guest-settings]')?.remove();
+      menu.addEventListener('toggle', () => { if (menu.open) window.EvoronLanguage.refresh().catch(() => {}); });
       document.addEventListener('click', event => { if (!menu.contains(event.target)) menu.open = false; });
       document.addEventListener('keydown', event => { if (event.key === 'Escape' && menu.open) { menu.open = false; summary.focus(); } });
       try {

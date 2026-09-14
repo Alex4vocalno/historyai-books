@@ -12,15 +12,12 @@
  */
 (function () {
   var isBrowser = typeof document !== 'undefined';
-  var store = typeof localStorage !== 'undefined' ? localStorage : { getItem: function () { return null; }, setItem: function () {} };
   var nav = typeof navigator !== 'undefined' ? navigator : { language: 'zh' };
-  // v4.93 用户定调：语言跟随系统——中文系统才中文，非中文系统一律英文。
-  var accountLang = typeof location !== 'undefined' && /\/account\.html$/.test(location.pathname) ? new URLSearchParams(location.search).get('lang') : null;
-  if (accountLang === 'en' || accountLang === 'zh') store.setItem('hai.lang', accountLang);
-  // 手动切换（hai.lang）优先于系统判定。
-  var lang = store.getItem('hai.lang') || (String(nav.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en');
+  var lang = isBrowser && window.EvoronLanguage ? window.EvoronLanguage.state().language : (String(nav.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en');
 
   var MAP = {
+    '通用设置': 'General', '界面语言': 'Interface language', '跟随系统': 'System default',
+    '保存设置': 'Save settings', '设置已保存': 'Settings saved', '设置未保存，请重试。': 'Settings were not saved. Please retry.',
     '购买写作积分须年满 18 岁，请确认后继续。': 'You must be at least 18 to buy writing credits. Please confirm to continue.',
     '阅读免费。写作、编修使用积分。': 'Reading is free. Credits are for writing and editing.',
     '一个账号，连接阅读与创作。': 'One account for reading and writing.',
@@ -110,6 +107,9 @@
     '当前章节尚无可读正文': 'This chapter has no readable manuscript yet',
     '编辑建议读取失败，请重试；未触发评测或改稿。': 'Could not load editorial suggestions. Retry; no evaluation or rewrite was started.',
     '评分概览读取失败，仍可查看已保存的编辑建议。': 'Could not load the score overview. Saved editorial suggestions are still available.',
+    '书稿': 'Manuscript', '尚无章节': 'No chapters yet', '章节目录': 'Chapter contents',
+    '成书信息': 'Book details', '查看书稿': 'View manuscript',
+    '可阅读': 'Ready to read', '尚未保存': 'Not saved yet',
     '对话': 'Conversation', '质量结果': 'Quality results',
     '查看质量结果': 'View quality results', '查看发布历史': 'View publication history', '刷新结果': 'Refresh results',
     '正在读取结果…': 'Loading results…', '读取失败，请重试；现有书稿和发布记录未改变。': 'Could not load results. Retry; your manuscript and releases are unchanged.',
@@ -393,6 +393,7 @@
     [/^编辑 第(\d+)章$/, 'Edit chapter $1'],
     [/^编修 · (.+)$/, 'Edit · $1'],
     [/^第 (\d+) 章已保存（([+-]?\d+) 字）。已发布的书需重新发布电子书生效。$/, 'Chapter $1 saved ($2 chars). Published books need a re-publish to go live.'],
+    [/^已保存 (\d+) \/ (\d+) 章$/, '$1 / $2 chapters saved'],
     [/^(\d+) 章$/, '$1 chapters'],
     [/^(\d+)\/(\d+) 章 · ([\d,.]+) (.+)$/, '$1/$2 chapters · $3 $4'],
     [/^书稿还没写完（正式正文 (\d+)\/(\d+) 章）。完成全书写作与编修后再来发布。$/, 'The book is unfinished ($1/$2 chapters of final text). Finish writing and editing before publishing.'],
@@ -424,44 +425,24 @@
   if (typeof window !== 'undefined') window.__haiI18n = { lang: lang, trText: trText };
   if (!isBrowser) return;
 
-  // ── 语言切换按钮（两种语言都显示，切换即刷新）──
-  function mountToggle() {
-    var existingToggle = document.getElementById('langToggle');
-    var btn = existingToggle || document.createElement('button');
-    btn.id = 'langToggle';
-    btn.type = 'button';
-    btn.textContent = lang === 'en' ? '中文' : 'EN';
-    btn.title = lang === 'en' ? '切换到中文' : 'Switch to English';
-    btn.onclick = function () {
-      store.setItem('hai.lang', lang === 'en' ? 'zh' : 'en');
-      store.setItem('hai.shelfLang', lang === 'en' ? 'zh' : 'en');
-      if (accountLang === 'en' || accountLang === 'zh') {
-        var url = new URL(location.href); url.searchParams.set('lang', lang === 'en' ? 'zh' : 'en');
-        history.replaceState(null, '', url.pathname + url.search + url.hash);
-      }
-      location.reload();
-    };
-    if (existingToggle) return;
-    // v4.93.1 用户定调：统一放左下角。工作台挂进用户资料栏（#userRow 上方），
-    // 其他页（登录/发布中心）固定左下。
-    var userRow = document.getElementById('userRow');
-    if (userRow && userRow.parentNode) {
-      btn.style.cssText = 'display:block;width:calc(100% - 20px);margin:0 10px 6px;height:26px;border:1px solid #d5dae0;border-radius:13px;background:#fff;color:#555;font-size:12px;font-weight:700;cursor:pointer';
-      userRow.parentNode.insertBefore(btn, userRow);
-    } else {
-      btn.style.cssText = 'position:fixed;left:12px;bottom:12px;z-index:80;min-width:44px;height:26px;border:1px solid #d5dae0;border-radius:13px;background:#fff;color:#555;font-size:12px;font-weight:700;cursor:pointer;opacity:.9';
-      document.body.appendChild(btn);
-    }
+  var originals = new WeakMap();
+  var reverse = Object.fromEntries(Object.entries(MAP).map(function (pair) { return [pair[1], pair[0]]; }));
+  function translateValue(node, key, value) {
+    var values = originals.get(node) || {};
+    var previous = values[key];
+    var source = previous && previous.output === value ? previous.source : value;
+    var output = lang === 'en' ? trText(source) : source.replace(source.trim(), reverse[source.trim()] || source.trim());
+    values[key] = { source: source, output: output }; originals.set(node, values);
+    return output;
   }
 
   function trAttrs(el) {
     if (!el || !el.getAttribute) return;
-    if (el.id === 'langToggle') return; // 切换按钮的中文提示是刻意的，跳过
     var attrs = ['placeholder', 'title', 'aria-label'];
     for (var i = 0; i < attrs.length; i++) {
       var v = el.getAttribute(attrs[i]);
-      if (!v || !/[一-鿿]/.test(v)) continue;
-      var t = trText(v);
+      if (!v) continue;
+      var t = translateValue(el, attrs[i], v);
       // v4.93.2 死循环实弹：词典翻不动的中文属性若原值写回，setAttribute 仍
       // 触发 mutation 记录→观察器再进→无限循环→页面无响应。值未变绝不写回。
       if (t !== v) el.setAttribute(attrs[i], t);
@@ -470,12 +451,10 @@
   function walk(node) {
     if (!node) return;
     var element = node.nodeType === 1 ? node : node.parentElement;
-    if (element && element.closest('[translate="no"]')) return;
+    if (element && element.closest('[translate="no"], [contenteditable="true"], .message-content, .chapter-content')) return;
     if (node.nodeType === 3) { // 文本节点
-      if (/[一-鿿]/.test(node.nodeValue)) {
-        var t = trText(node.nodeValue);
-        if (t !== node.nodeValue) node.nodeValue = t;
-      }
+      var t = translateValue(node, 'text', node.nodeValue);
+      if (t !== node.nodeValue) node.nodeValue = t;
       return;
     }
     if (node.nodeType !== 1) return;
@@ -485,8 +464,12 @@
   }
 
   function boot() {
-    mountToggle();
-    if (lang !== 'en') return; // 中文=原生，不动
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    window.addEventListener('evoron:language', function (event) {
+      lang = event.detail.language; window.__haiI18n.lang = lang;
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+      walk(document.body);
+    });
     walk(document.body);
     var mo = new MutationObserver(function (muts) {
       for (var i = 0; i < muts.length; i++) {
