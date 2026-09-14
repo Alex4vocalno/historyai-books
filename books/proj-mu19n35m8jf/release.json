@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260914162544904_a3649fdcca",
+  "projectId": "proj-mu19n35m8jf",
+  "manuscriptVersionId": "mv_7af120269d1e63d4",
+  "contentHash": "7af120269d1e63d43ec5ffbad544abb1c541076ca040f3779982d8e5bc8a9965",
+  "title": "算法造浪：抖音十年",
+  "subtitle": "张一鸣与字节跳动的理性狂热",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "锦秋家园深夜未熄的灯光，华盛顿凛冽寒风中的沉默，直播间里喧嚣背后的疲惫。这不仅是关于十亿用户的增长神话，更是一群理想主义者在极致效率碾压下反复崩塌又重建的精神实录。从推荐引擎的豪赌到出海船队的裂缝，每一次产品跃迁都对应着决策者内心的剧烈撕扯。当算法长出根系，热血冷却之后，那些被否决的方案与重新站起的瞬间，才真正定义了这家公司的骨骼。在代码与人性、增长与初心的漫长博弈中，看见技术浪潮背后具体而微的人。",
+  "category": "中国史",
+  "tags": [
+    "字节跳动",
+    "张一鸣",
+    "互联网商业史",
+    "算法时代",
+    "企业传记",
+    "科技人文"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 247895,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-14T15:22:09.949Z"
+  },
+  "editorReview": {
+    "text": "在汗牛充栋的互联网公司叙事中，本书视角难得地从算法逻辑的演进切入，避免了常见的创始人神话或增长奇迹的复述。作者的叙事掌控力值得称道，第2章白板前的争论、第15章从“抄送列表里的名字”窥探权力交接，这些具体场景的运用，让“算法理性与人性热血的张力”这一核心立意得以扎实落地，而非观点悬空。对张一鸣决策逻辑与组织进化因果链的挖掘，也颇具深度。但书稿的“工程化”痕迹成为主要阅读障碍：章节接缝处的时间线断裂与钩子未回应（如第16至17章、第25至26章），造成了明显的叙事裂缝；部分章节（如第16、17章）存在逐字重复段落，第27章标题风格突变为“报告体”，均破坏了全书样态的一致性。这些技术性瑕疵虽不伤筋动骨，却使一部思路清晰、脉络扎实的商业深描，未能以更精良的品相抵达读者。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-14T16:25:36.962Z",
+    "textless": false,
+    "profileId": "woodblock-print"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "代码里的少年",
+      "units": 7444
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "锦秋家园的深夜",
+      "units": 8363
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "推荐引擎的赌注",
+      "units": 7531
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "视频的召唤",
+      "units": 8745
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "音乐响起的时刻",
+      "units": 8717
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "第一波浪潮",
+      "units": 8447
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "算法开始有了脾气",
+      "units": 8116
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "看不见的边界",
+      "units": 8289
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "出海的第一张船票",
+      "units": 7683
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "组织长出了骨骼",
+      "units": 8418
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "流量变现的十字路口",
+      "units": 8403
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "风暴眼中的沉默",
+      "units": 8081
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "浪潮越过国境线",
+      "units": 7725
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "华盛顿的冬天",
+      "units": 8395
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "退到风暴背后",
+      "units": 8400
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "货架上的新战场",
+      "units": 8458
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "看不见的审判",
+      "units": 9059
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "热血冷却之后",
+      "units": 8129
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "风暴眼里的交接",
+      "units": 8378
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "被否决的推荐",
+      "units": 8512
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "直播间里的新战场",
+      "units": 8392
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "出海船队的裂缝",
+      "units": 8355
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "增长机器的刹车片",
+      "units": 8096
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "潮水的方向",
+      "units": 8317
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "算法长出了根系",
+      "units": 8486
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "被算法改变的人",
+      "units": 7831
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "梁汝波在2024至2025年推动的组织文化建设",
+      "units": 7731
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "出海船的龙骨",
+      "units": 8374
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "创始人的影子",
+      "units": 8547
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "浪潮退去之后",
+      "units": 8473
+    }
+  ],
+  "publishedAt": "2026-09-14T16:25:44.909Z",
+  "formFamily": "narrative"
+}
