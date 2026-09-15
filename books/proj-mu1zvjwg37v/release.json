@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260915060608453_6fcdd6cb5f",
+  "projectId": "proj-mu1zvjwg37v",
+  "manuscriptVersionId": "mv_0fc2cd544e6ad8ef",
+  "contentHash": "0fc2cd544e6ad8ef905e41b83101d03d301d193c0da97ab9be8c93c4ca1256b4",
+  "title": "京张铁路 1905–1909：詹天佑与中国第一条自建干线",
+  "subtitle": "从账本、月报与勘测图重筑中国首条自建干线",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1905年，英俄两国争夺筑路权未果，清廷决意自筹自建京张铁路。700余万两关内外铁路余利如何拨付？詹天佑的工程队从何而来？八达岭“人”字形线路与四条隧道背后，是居庸关下的炸药消耗、掌子面上的工钱伙食，以及外国工程师的现场复核。本书以勘测图、工程月报、公司账目与私人信札为锚点，还原钢轨延伸的四年。没有宏大叙事的滤镜，只有可核验的数字、器物与人的抉择，呈现一条铁路在晚清变局中真实的建造肌理与命运余波。",
+  "category": "中国史",
+  "tags": [
+    "京张铁路",
+    "詹天佑",
+    "晚清工程史",
+    "近代交通",
+    "历史非虚构",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 111082,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-15T03:23:23.887Z"
+  },
+  "editorReview": {
+    "text": "本书是微观史写作的一次扎实实践。作者从工程月报、工资册、材料单等枯燥档案中，硬是钩沉出一条铁路真实的建造肌理，詹天佑的形象也从'自建'的政治口号中落地，还原为在财政与技术夹缝中具体挣扎的工程师，这种从材料中自然生长出的人物弧线，是本书最见功力的地方。全书声口冷静，紧贴账本与数据展开，未滑向宏大叙事的窠臼。不过，第17-18章存在一处明显的时间线回退（1915年跳回1898年）且无标记，破坏了叙事的连贯性，属于结构性硬伤；此外，部分章节句式有机械重复的痕迹，略显生涩。若能修补这两处，本书的完成度会更高。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-15T05:53:01.344Z",
+    "textless": false,
+    "profileId": "portrait-biography",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "portrait-biography"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "两家都想包修的路",
+      "units": 5150
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "余利账上的路款",
+      "units": 5247
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "詹天佑的工程队",
+      "units": 5233
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "第一张线路图",
+      "units": 5309
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "工程队开进南口",
+      "units": 5179
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "居庸关下的炸药账",
+      "units": 6443
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "工地上的第一份月报",
+      "units": 5108
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "关沟里的选线之争",
+      "units": 5350
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "八达岭下的四条隧道",
+      "units": 5554
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "掌子面上的工钱与伙食",
+      "units": 7949
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "通车前的最后一段轨",
+      "units": 6251
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "通车典礼上的外国同行",
+      "units": 4845
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "钢轨伸过居庸关",
+      "units": 5574
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "公司账上的缺口",
+      "units": 5131
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "总工程师的两难",
+      "units": 4720
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "辛亥年的铁轨",
+      "units": 5029
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "外国同行的复核",
+      "units": 6510
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "一条线的余波",
+      "units": 5257
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "钢轨上的后来人",
+      "units": 5167
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "碑文之外的账本",
+      "units": 6076
+    }
+  ],
+  "publishedAt": "2026-09-15T06:06:08.463Z",
+  "formFamily": "narrative"
+}
