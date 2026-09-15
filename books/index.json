@@ -1,5 +1,39 @@
 [
   {
+    "id": "proj-mu0v98t59yl",
+    "projectId": "proj-mu0v98t59yl",
+    "releaseId": "rel_20260915010844029_7a40da9798",
+    "title": "The Harbour Ledger",
+    "subtitle": "A Novel",
+    "language": "en",
+    "workType": "fiction",
+    "authorDisplayName": "绝对值",
+    "category": "小说",
+    "tags": [
+      "literary suspense",
+      "Scottish estuary",
+      "cold case",
+      "archival mystery",
+      "literary fiction",
+      "Fiction"
+    ],
+    "description": "Iona Kerr has one winter to catalogue forty years of turbine logs in a decommissioned tidal power station on a Scottish estuary before the building is sold. The former plant is half-converted into a records archive now, its machinery silent, its corridors cold. She expected tedium. She finds the logbooks for February 1986 rewritten in a hand that is not the duty engineer's—and the man whose signature they carry drowned in the intake channel that same month. Every answer Iona uncovers comes from a document she has held, read, and turned over in the archive's grey light. Four living witnesses remember that winter night differently, and none of them is lying. The tide table governs everything: when the estuary empties, when it fills, when the past becomes legible in the silt. As the water rises and the sale deadline closes in, Iona must decide what a true record looks like—and what it costs to write one.",
+    "chapterCount": 9,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-3",
+      "createdAt": "2026-09-15T01:05:19.515Z"
+    },
+    "coverUrl": "books/proj-mu0v98t59yl/releases/rel_20260915010844029_7a40da9798/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu0v98t59yl/index.html",
+    "publishedAt": "2026-09-15T01:08:44.033Z",
+    "firstPublishedAt": "2026-09-15T01:08:44.033Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu1bcy54b8q9",
     "projectId": "proj-mu1bcy54b8q9",
     "releaseId": "rel_20260915005504746_e2f505ed76",

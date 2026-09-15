@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260915010844029_7a40da9798",
+  "projectId": "proj-mu0v98t59yl",
+  "manuscriptVersionId": "mv_0ea28d80a6de69f9",
+  "contentHash": "0ea28d80a6de69f92c895ba8d4aa247433a68d085011b23a8e6e4080d5005b3a",
+  "title": "The Harbour Ledger",
+  "subtitle": "A Novel",
+  "authorDisplayName": "绝对值",
+  "description": "Iona Kerr has one winter to catalogue forty years of turbine logs in a decommissioned tidal power station on a Scottish estuary before the building is sold. The former plant is half-converted into a records archive now, its machinery silent, its corridors cold. She expected tedium. She finds the logbooks for February 1986 rewritten in a hand that is not the duty engineer's—and the man whose signature they carry drowned in the intake channel that same month. Every answer Iona uncovers comes from a document she has held, read, and turned over in the archive's grey light. Four living witnesses remember that winter night differently, and none of them is lying. The tide table governs everything: when the estuary empties, when it fills, when the past becomes legible in the silt. As the water rises and the sale deadline closes in, Iona must decide what a true record looks like—and what it costs to write one.",
+  "category": "小说",
+  "tags": [
+    "literary suspense",
+    "Scottish estuary",
+    "cold case",
+    "archival mystery",
+    "literary fiction",
+    "Fiction"
+  ],
+  "language": "en",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 9,
+    "units": 24084,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-15T01:05:19.515Z"
+  },
+  "editorReview": {
+    "text": "The Harbour Ledger earns its atmosphere honestly. That single drop of condensation falling onto a leather logbook cover in the opening pages tells you exactly what kind of story you're in for—methodical, tactile, patient. Iona Kerr's handwriting analysis across the 1986 entries gives readers the same clues she works with, and the tidal station's 02:14 low-tide impossibility grounds archival detective work in genuine physical stakes. The setting does real narrative labor here. Where the book falters is the finish: the truth arrives via Rossiter's signed confession rather than through Iona's own",
+    "penName": "疏影",
+    "title": "Fiction Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-15T01:08:39.483Z",
+    "textless": false,
+    "profileId": "manuscript-of-ideas"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Anomaly in Ink",
+      "units": 2225
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "Low Water, High Stakes",
+      "units": 2184
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Fiancée's Truth",
+      "units": 1819
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Engineer's Story",
+      "units": 3134
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Breaking the Seal",
+      "units": 3346
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Whose Signature on the Blades?",
+      "units": 2570
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Against the Rising Tide",
+      "units": 3784
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Rossiter's Calculus",
+      "units": 2945
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "A True Record",
+      "units": 2077
+    }
+  ],
+  "publishedAt": "2026-09-15T01:08:44.033Z"
+}
