@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260915055725735_c55ae51e04",
+  "projectId": "proj-mu1zvbklkar",
+  "manuscriptVersionId": "mv_97222e79435e0ab7",
+  "contentHash": "97222e79435e0ab7221193a5628b5750b548c38d30b50b96d95fc8caebf07216",
+  "title": "敦煌的第一批访客：1900–1930 藏经洞文书的发现、流散与追索",
+  "subtitle": "1900–1930 藏经洞文书的发现、流散与追索",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1900年藏经洞重见天日，开启了一场跨越三十年的文书流散史。从斯坦因驼队穿越荒漠的运输路线，到伯希和在洞中挑拣的三周；从王道士手中模糊的收支账目，到清廷解送京师途中散佚的残卷。本书以S.6825等具体文书、入藏清单与往来信札为锚点，还原探险家、官员与僧侣在历史现场的抉择。当编号体系逐渐确立，中国学者于劫余中艰难追索，那些流失海外的纸页才重新获得被阅读的可能。一段关于失去与找回的往事，在档案细节中显影。",
+  "category": "中国史",
+  "tags": [
+    "敦煌学",
+    "藏经洞",
+    "近代考古史",
+    "文物流散",
+    "斯坦因",
+    "伯希和"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 115095,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-15T03:46:32.596Z"
+  },
+  "editorReview": {
+    "text": "本书以“编号”为切口，将敦煌文书的流散史转化为一部关于知识秩序如何被建构的微观史，视角精准而克制。作者对王圆箓等人物的处理尤为出色，将其置于具体的社会经济网络中还原行为逻辑，避免了简单的道德审判，真正做到了“从材料里长出来的人物”。全书结构严密，从发现、流散到编目追索，逻辑闭环清晰，展现了极强的档案驾驭能力。不过，部分章节（如第3、16章）的文风存在明显的机器生成痕迹，句式机械、连接词生硬，破坏了微观史应有的细腻语感；此外，第2→3章、第15→16章的时间线存在硬性回溯且无标记，打断了叙事的时间沉浸感，属于结构性接缝问题，需在精修中打磨。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-15T05:51:25.705Z",
+    "textless": false,
+    "profileId": "warm-humanist",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "沙埋的入口",
+      "units": 6271
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "经卷出洞",
+      "units": 5879
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "斯坦因的路线",
+      "units": 5371
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "王道士的账",
+      "units": 5246
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "伯希和的三个星期",
+      "units": 5284
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "大谷与奥登堡",
+      "units": 7063
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "编号的秩序",
+      "units": 5560
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "巴黎的挑选",
+      "units": 4653
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "解送途中",
+      "units": 4777
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "劫余之名",
+      "units": 6601
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "学者的目光",
+      "units": 4671
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "跨海的追踪",
+      "units": 8038
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "谁在替洞说话",
+      "units": 5697
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "纸上的追索",
+      "units": 5826
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "编号底下的空位",
+      "units": 6490
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "藏经洞之外",
+      "units": 5442
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "劫余录的分量",
+      "units": 6198
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "账目没有合上",
+      "units": 6097
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "底片上的敦煌",
+      "units": 4435
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "第一批访客的边界",
+      "units": 5496
+    }
+  ],
+  "illustrations": 2,
+  "publishedAt": "2026-09-15T05:57:25.746Z",
+  "formFamily": "narrative"
+}
