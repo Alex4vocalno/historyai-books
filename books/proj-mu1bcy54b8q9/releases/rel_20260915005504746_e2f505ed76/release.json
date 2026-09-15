@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260915005504746_e2f505ed76",
+  "projectId": "proj-mu1bcy54b8q9",
+  "manuscriptVersionId": "mv_cb328eb922d7d8a1",
+  "contentHash": "cb328eb922d7d8a10cc9c4d35a9098e3b377dc16196a3f1d9e6a8dfd12c34b36",
+  "title": "停电的第七夜",
+  "subtitle": "",
+  "authorDisplayName": "李思特Think",
+  "description": "2009年冬，东北一座即将关停的国营纺织厂，连续七晚陷入黑暗。保卫科长周砚在第一晚的巡夜中发现，库房里少了两台老式织机。第二晚，失踪的变成了账本。厂长限他在职工代表大会前查清真相，而周砚妻子那份至关重要的下岗补偿，正握在厂长手中。随着每一夜的黑暗降临，一层真相被揭开，他必须在第七夜的黎明前做出抉择——交出手中的哪一份名单。",
+  "category": "小说",
+  "tags": [
+    "悬疑",
+    "年代",
+    "工厂",
+    "人性抉择",
+    "社会派",
+    "东北"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 8,
+    "units": 30544,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-15T00:54:06.693Z"
+  },
+  "editorReview": {
+    "text": "这本书最打动人的是那种步步紧逼的窒息感——从螺丝方向到账本装订孔，线索像黑暗中摸到的砖块，一块块垒成高墙，把保卫科长周砚困在‘查下去还是保家庭’的真实困境里。赵德贵那句‘聪明人，都知道该怎么选’的官僚腔调写得尤其精准，权力压迫就藏在这份‘关怀’里。可惜的是，七夜积累的张力在黎明前悬置了，结局以‘手从口袋抽出，是空的’收束，让期待谜底揭晓的读者有些怅然。此外，文中省略号与破折号的使用稍显密集，偶尔打断了场景的沉浸节奏。但那些具体的人——妻子的补偿金、老工人的绝望——让这场停电不再只是背景，而是照见每个人选择的探照灯。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-15T00:55:00.505Z",
+    "textless": false,
+    "profileId": "business-structural"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "夜巡惊空",
+      "units": 2335
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "限期追查",
+      "units": 3382
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "配电疑云",
+      "units": 3622
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "反向螺丝",
+      "units": 4133
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "纸片残迹",
+      "units": 4235
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "旧账复印",
+      "units": 5228
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "名单浮现",
+      "units": 3853
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "黎明抉择",
+      "units": 3756
+    }
+  ],
+  "publishedAt": "2026-09-15T00:55:04.751Z"
+}

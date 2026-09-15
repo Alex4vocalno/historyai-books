@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260915005504746_e2f505ed76",
+  "projectId": "proj-mu1bcy54b8q9",
+  "manuscriptVersionId": "mv_cb328eb922d7d8a1",
+  "contentHash": "cb328eb922d7d8a10cc9c4d35a9098e3b377dc16196a3f1d9e6a8dfd12c34b36",
+  "chapterCount": 8,
+  "generatedAt": "2026-09-15T00:55:04.768Z",
+  "files": [
+    {
+      "path": "ch-1.html",
+      "bytes": 11017,
+      "sha256": "2e704b8734e7ba42c2b2e553d2f67a0733f81680e5dacdd37eaf4834a1fe9560"
+    },
+    {
+      "path": "ch-2.html",
+      "bytes": 14280,
+      "sha256": "cc13aa5600e3cab098e195bee5deadd6376d1d41519e8be7660870f2aad22e25"
+    },
+    {
+      "path": "ch-3.html",
+      "bytes": 14988,
+      "sha256": "fb71a95844de1a748b098e8a7700828518c378e75be5ba8a685a1309464d0375"
+    },
+    {
+      "path": "ch-4.html",
+      "bytes": 16691,
+      "sha256": "8cdcc65d38a84c3304d60b3893cc1e702eec03775996fb86755250d4649e1426"
+    },
+    {
+      "path": "ch-5.html",
+      "bytes": 16955,
+      "sha256": "bb6f880000027e6885ea938ec408e5bcb370e9d53f18f8480fcf32c7d4173cac"
+    },
+    {
+      "path": "ch-6.html",
+      "bytes": 20200,
+      "sha256": "75b5e865297377e44a294cdd72c335993316f73fbcae8021d081fb3c75071fff"
+    },
+    {
+      "path": "ch-7.html",
+      "bytes": 15587,
+      "sha256": "5e06dd0c0345d669fe11b5eff5eb1998895d567635c7d53731422e2b90457102"
+    },
+    {
+      "path": "ch-8.html",
+      "bytes": 15388,
+      "sha256": "c150b2661dab21cc49b1c03289ac8dc9b27311aacbf7c198a3409e09073aa781"
+    },
+    {
+      "path": "cover.jpg",
+      "bytes": 1094472,
+      "sha256": "bb4aad02678f1921ce0d4f7eefc8dab6c6640306613982cee6e31e48b720fecd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 46445,
+      "sha256": "31be219a45f482e8484560d7437be2d71344f136cb63dc9e5c8a6fd5205ca357"
+    },
+    {
+      "path": "read.html",
+      "bytes": 12857,
+      "sha256": "8bc8c1ddc89f199f994008bf652039f937ff3d9ca8f3efdd07703d4e0dea994e"
+    },
+    {
+      "path": "release.json",
+      "bytes": 3304,
+      "sha256": "404dcffa446db5f50ad6da87b0914d3ee2e52f8e4b069710b74914f988175095"
+    }
+  ]
+}
