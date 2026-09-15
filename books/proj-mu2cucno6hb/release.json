@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260915110721168_5676fed17d",
+  "projectId": "proj-mu2cucno6hb",
+  "manuscriptVersionId": "mv_4dfb022fed601bd1",
+  "contentHash": "4dfb022fed601bd193b49d7053b14b5b96760147793155ac4025f69929bfa581",
+  "title": "王安石的账：熙宁变法里的钱、粮与人",
+  "subtitle": "熙宁变法里的钱、粮与人",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "青苗钱利息几分，谁在偿还？免役钱收了多少，又压垮了哪些乡户？市易务的本钱从何而来，究竟是盈是亏？熙宁变法不仅是朝堂上的主义之争，更是一笔笔具体而微的国家账目。从借债农户的契券到御史奏章里的岁入数字，从县衙算盘到国库收支，新法为何在神宗死后一年内迅速崩塌，答案不在道德评判中，而在这些被遗忘的账册里。抛开后世褒贬，回到文书与数字现场，看一个王朝如何在钱粮流转中耗尽气力，又在账目裂缝间显露出制度运行的真实纹理与代价。",
+  "category": "中国史",
+  "tags": [
+    "北宋史",
+    "王安石变法",
+    "财政史",
+    "宋代社会",
+    "制度史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 40,
+    "units": 221132,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-15T11:05:16.968Z"
+  },
+  "editorReview": {
+    "text": "本书以“账本”为棱镜，将熙宁变法的财政运作拆解为可触可感的微观机制，论证骨架扎实，尤其对“记账权”这一核心概念的提炼，超越了简单的道德评判，切中了新法推行中权力博弈的要害。作者构建的“中央—州县—乡户”三层分析框架，每一层都有具体的制度细节（如考课压力、转写损耗）支撑，使得“大论断”有了坚实的中层机制依托，这是其最见功力之处。不过，全书文风存在明显的“机器味”，破折号与排比句式密度过高，部分章节甚至出现段落重复，削弱了微观史应有的叙事沉浸感；此外，后半程叙事线有所松散，前半部精心铺设的个体命运线索未能贯穿始终，部分章节滑向了教科书式的政策分析，声口略显漂移。若能在精修中打磨文风、弥合叙事接缝，并补强个别模糊引文的出处，本书的完成度将更上一层。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-15T11:07:10.555Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "账本里的王朝",
+      "units": 5338
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "青苗钱借出之后",
+      "units": 4995
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "差役折成钱的那天",
+      "units": 7295
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "市易务的本钱从哪来",
+      "units": 5430
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "河工与军费吃掉多少",
+      "units": 6470
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "御史奏章里的数字",
+      "units": 4795
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "国库见底之后",
+      "units": 5399
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "新法的骨架",
+      "units": 6287
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "县衙里的算盘",
+      "units": 5227
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "乡户的账本",
+      "units": 5227
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "公文里的裂缝",
+      "units": 4873
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "朝堂之外的阻力",
+      "units": 6713
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "考课簿上的新法",
+      "units": 5276
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "县令的算盘与良心",
+      "units": 5377
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "士林中的算盘声",
+      "units": 4967
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "一国之内的两种变法",
+      "units": 4769
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "不可削减的开支",
+      "units": 4676
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "变法的人事账",
+      "units": 7199
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "钱荒里的乡村",
+      "units": 5506
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "州县官的权限",
+      "units": 4870
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "变法派的分裂",
+      "units": 5176
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "御笔下的平衡",
+      "units": 5860
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "新旧并行的日子",
+      "units": 5366
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "不可逆的临界点",
+      "units": 5029
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "御笔下的最后几年",
+      "units": 4614
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "皇帝驾崩之后",
+      "units": 6333
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "司马光的废法清单",
+      "units": 5633
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "州县官的废法难题",
+      "units": 6199
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "废法之后的空账",
+      "units": 5635
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "一年之内的崩塌",
+      "units": 5242
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "旧制里的新账",
+      "units": 4990
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "谁还记得青苗",
+      "units": 5608
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "后来者的算盘",
+      "units": 4768
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "账本上的道德",
+      "units": 5219
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "数字的寿命",
+      "units": 5240
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "合上这本账",
+      "units": 8096
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "重算熙宁旧账",
+      "units": 5227
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "国家能力的旧影",
+      "units": 5248
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "王安石的两副面孔",
+      "units": 5695
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "账本之外的世界",
+      "units": 5265
+    }
+  ],
+  "illustrations": 1,
+  "publishedAt": "2026-09-15T11:07:21.181Z",
+  "formFamily": "narrative"
+}
