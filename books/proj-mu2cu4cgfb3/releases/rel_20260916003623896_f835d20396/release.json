@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260916003623896_f835d20396",
+  "projectId": "proj-mu2cu4cgfb3",
+  "manuscriptVersionId": "mv_e5278208bea88911",
+  "contentHash": "e5278208bea8891142ba78aeb4b7932b1a2ab6af605ea20ac37033f2f504c300",
+  "title": "崇祯十七年：一个王朝最后一百天的账本",
+  "subtitle": "一个王朝最后一百天的账本",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "崇祯十七年正月初一至三月十九日，大明王朝的最后倒计时。这不是道德审判或权谋演义，而是一笔笔核销的旧账：户部库银的存量、京营兵册的空额、山海关拖欠的军饷、李自成部队的行军日程。每一处转折都锚定于奏疏、塘报与饷册，用可核查的钱粮人事，还原两百七十六年基业如何在百日内崩塌。史料矛盾之处如实呈现，不替古人编造对白。当宏大叙事退场，只剩数字与文书的沉默证词，一个王朝的终局才显露出它粗砺而真实的质地。",
+  "category": "中国史",
+  "tags": [
+    "明末史",
+    "崇祯",
+    "财政史",
+    "军事后勤",
+    "史料考证",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 40,
+    "units": 217478,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-16T00:33:59.347Z"
+  },
+  "editorReview": {
+    "text": "本书以‘账册’为透镜，精准切入明末财政崩解的肌理，论证骨架严整，史料运用得当。从户部库银的存量到京营兵册的空额，层层剥笋，用财政拨付失效、公文流程空转等中层机制，坚实地支撑了‘王朝因财政失血而亡’的论断，并敏锐地捕捉到命令与资源之间的‘时间差’这一核心历史逻辑。微观史样态贴合度高，始终贴着具体人物视角展开，细节铺陈极具质感。然而，部分章节（如第39章）存在明显的叙事崩坏与文风漂移，疑似写作引擎生成痕迹，严重破坏了阅读体验的连贯性；章节接缝处的叙事流亦偶有断裂，这些技术性瑕疵在一定程度上影响了全书整体的高水准质感。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-16T00:36:17.876Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "岁首的账册",
+      "units": 4786
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "兵册上的空额",
+      "units": 5928
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "关宁的欠饷",
+      "units": 6099
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "塘报里的行军日程",
+      "units": 5907
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "南迁之议的僵局",
+      "units": 5049
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "加派之外的筹饷",
+      "units": 5286
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "饷银进京的路",
+      "units": 5173
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "驿路上的空马",
+      "units": 5181
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "账册里的春天",
+      "units": 4755
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "兵部堂前的空印",
+      "units": 5148
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "解运簿上的红笔",
+      "units": 5019
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "言路尽头的沉默",
+      "units": 5277
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "宗藩的俸米",
+      "units": 5496
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "盐引上的旧账",
+      "units": 5393
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "漕船过闸的迟延",
+      "units": 5596
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "内库门前的犹豫",
+      "units": 5211
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "调兵令的出京",
+      "units": 5711
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "朝会上的空位",
+      "units": 5389
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "诏令出京之后",
+      "units": 5513
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "援军停在何处",
+      "units": 4986
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "城墙上的人影",
+      "units": 5329
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "最后一次南迁",
+      "units": 5760
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "捐输簿上的空白",
+      "units": 5424
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "塘报不再来",
+      "units": 5116
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "城下的营帐与粮价",
+      "units": 5234
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "正阳门开的那一刻",
+      "units": 5625
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "追赃簿上的名字",
+      "units": 4974
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "旧臣名册上的空白",
+      "units": 6496
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "煤山那棵老槐树",
+      "units": 5228
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "一百天的账目",
+      "units": 5398
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "南渡的账册",
+      "units": 5360
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "追赃之后",
+      "units": 5239
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "党争的代价",
+      "units": 6516
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "新朝的旧账",
+      "units": 5016
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "史笔下的春天",
+      "units": 5679
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "一百天的回响",
+      "units": 5478
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "账册的最后一页",
+      "units": 5446
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "数字的沉默",
+      "units": 5235
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "算不清的账",
+      "units": 5735
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "余响未绝",
+      "units": 6287
+    }
+  ],
+  "illustrations": 4,
+  "publishedAt": "2026-09-16T00:36:23.906Z"
+}
