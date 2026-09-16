@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260916091316404_d7daecfe06",
+  "projectId": "proj-mu0v92pfvk1",
+  "manuscriptVersionId": "mv_ab77d68019111fb9",
+  "contentHash": "ab77d68019111fb9a33822febfe1daca216eba25b03d5174724037227dfb6c4b",
+  "chapterCount": 8,
+  "generatedAt": "2026-09-16T09:13:16.424Z",
+  "files": [
+    {
+      "path": "ch-1.html",
+      "bytes": 21310,
+      "sha256": "5be3402483bb7d51006e4862dc866a8111c3e9cbf9f5b11f34a216190a7656d2"
+    },
+    {
+      "path": "ch-2.html",
+      "bytes": 19904,
+      "sha256": "18dfe009c5b6785a2fbb039cbb800801048f39a452d1dfec33669ffedebc8861"
+    },
+    {
+      "path": "ch-3.html",
+      "bytes": 37209,
+      "sha256": "cce48a4894e3f8a0b4c8700710c25584b8e12637f9551139b6e5beca22f8f433"
+    },
+    {
+      "path": "ch-4.html",
+      "bytes": 21812,
+      "sha256": "eee10c09b246daca58706800573eecf17aeb20a2483f6b79ffa44693364fb41e"
+    },
+    {
+      "path": "ch-5.html",
+      "bytes": 29920,
+      "sha256": "a93bca8c18ece5b806013ab6127950addf2d9ffcdc6f286b3e85d9975dfe6c00"
+    },
+    {
+      "path": "ch-6.html",
+      "bytes": 27597,
+      "sha256": "a04b2c909f739b54a411d7588b96f0a73d27d77028ee0863651e71ac24c5e65e"
+    },
+    {
+      "path": "ch-7.html",
+      "bytes": 14568,
+      "sha256": "2505626a7cda650da75709567da8437b8b01ec7ef52edbbb32ed4f1503a65858"
+    },
+    {
+      "path": "ch-8.html",
+      "bytes": 11025,
+      "sha256": "7b1a21e7380597f60b3a9eadcf2b325b74ec8d7e66872b6bc05585f27a6eadf5"
+    },
+    {
+      "path": "cover.jpg",
+      "bytes": 1005854,
+      "sha256": "06dfaa5720e34cd57070a865337fbe7686f8a7031c0fa6bf9586e27f14715d47"
+    },
+    {
+      "path": "index.html",
+      "bytes": 46012,
+      "sha256": "7ae25f8e0a36b62fc4094ba2cb839799e1921fafc8f2904f91aa1924577da2b4"
+    },
+    {
+      "path": "read.html",
+      "bytes": 23152,
+      "sha256": "91cb26573732c775e12a98ac7bc89579f18a0d0313bd722376794955a433d61a"
+    },
+    {
+      "path": "release.json",
+      "bytes": 3020,
+      "sha256": "17fe1fdf60f5cf2c667b29ee0f35bd4b8c8e0d15c6b1e0ca44995ae89d564ab4"
+    }
+  ]
+}
