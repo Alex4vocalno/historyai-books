@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu2cv1nfqi8",
+    "projectId": "proj-mu2cv1nfqi8",
+    "releaseId": "rel_20260916002735104_bfbec04fdc",
+    "title": "驿路：万历二十年的一封急递",
+    "subtitle": "一封被拆开的六百里加急，一个腿有旧伤的驿卒",
+    "language": "zh",
+    "workType": "fiction",
+    "lengthTier": "novel",
+    "authorDisplayName": "哈里·谢顿",
+    "category": "小说",
+    "tags": [
+      "历史小说",
+      "万历朝鲜战争",
+      "驿卒",
+      "悬疑",
+      "急递",
+      "历史"
+    ],
+    "description": "万历二十年秋，朝鲜战事已起。一封辽东发往北京的六百里加急，在山海关以西的驿路上换了七次马、五次人。第三站，腿有旧伤的驿卒赵四接过了它——蜡封上有被人拆过又重封的痕迹。此后每一站，都有人在等他。雨夜、破庙、勘合不符、旧识暗示，信在谁手，路向何方？一个最底层的驿卒，被卷进一场看不见对手的围局。他只想把信送到，可这封信，真的该送到吗？",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-16T00:22:37.808Z"
+    },
+    "coverUrl": "books/proj-mu2cv1nfqi8/releases/rel_20260916002735104_bfbec04fdc/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mu2cv1nfqi8/index.html",
+    "publishedAt": "2026-09-16T00:27:35.112Z",
+    "firstPublishedAt": "2026-09-16T00:27:35.112Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu2cv7tpkys",
     "projectId": "proj-mu2cv7tpkys",
     "releaseId": "rel_20260916002537346_66e0394d86",

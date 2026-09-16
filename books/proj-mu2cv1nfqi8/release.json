@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260916002735104_bfbec04fdc",
+  "projectId": "proj-mu2cv1nfqi8",
+  "manuscriptVersionId": "mv_68127165e837002c",
+  "contentHash": "68127165e837002ccefeee90e4bc5e2ab04b634cbe2b05b1003c881e67bb8574",
+  "title": "驿路：万历二十年的一封急递",
+  "subtitle": "一封被拆开的六百里加急，一个腿有旧伤的驿卒",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "万历二十年秋，朝鲜战事已起。一封辽东发往北京的六百里加急，在山海关以西的驿路上换了七次马、五次人。第三站，腿有旧伤的驿卒赵四接过了它——蜡封上有被人拆过又重封的痕迹。此后每一站，都有人在等他。雨夜、破庙、勘合不符、旧识暗示，信在谁手，路向何方？一个最底层的驿卒，被卷进一场看不见对手的围局。他只想把信送到，可这封信，真的该送到吗？",
+  "category": "小说",
+  "tags": [
+    "历史小说",
+    "万历朝鲜战争",
+    "驿卒",
+    "悬疑",
+    "急递",
+    "历史"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 255461,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-16T00:22:37.808Z"
+  },
+  "editorReview": {
+    "text": "读这本书，最先被拽住的是那股子气味——马粪、草料、雨夜破庙，还有封蜡被拆过又重封时指尖的那点迟疑。作者写驿卒验牌、核勘合，不是摆古装道具，是让制度长出体温，赵四膝盖的旧伤和左肩的高低，比任何心理独白都更早说出他的动摇。这个人物从“只管送信”到“送出答案”的弧线，克制，也动人。但得说实话：章节之间的接缝太生硬，上一章结尾的人与事，下一章开头常常像被风吹散，读者得自己弯腰去捡；中段几章反复写膝盖疼、雨声，节奏拖沓，个别长句断得莫名其妙，像一口气没喘匀。骨架是好的，血肉也真，只是缝合处需要再走一遍针线。若能精修接缝与语感，这趟驿路会走得更稳、更远。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-16T00:27:31.123Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "关西驿·旧伤",
+      "units": 6004
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "关西驿·急递叁拾柒",
+      "units": 7407
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "蜡痕",
+      "units": 7711
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "蜡痕疑影",
+      "units": 9702
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "首段记忆",
+      "units": 8939
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "雨夜旧伤",
+      "units": 7578
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "旧识相认",
+      "units": 9837
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "雨夜封蜡痕",
+      "units": 7416
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "雨夜追忆",
+      "units": 6836
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "旧识",
+      "units": 7630
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "第五站·旧识",
+      "units": 7321
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "驿舍验蜡",
+      "units": 8530
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "旧识暗示",
+      "units": 7279
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "驿路抉择",
+      "units": 6724
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "暗流涌动",
+      "units": 7293
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "第七站暗手",
+      "units": 6607
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "夜宿破庙",
+      "units": 6232
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "勘合不符",
+      "units": 7136
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "京畿围局",
+      "units": 8537
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "京畿验勘合",
+      "units": 7691
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "旧伤与旧事",
+      "units": 8023
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "柿子林到破庙",
+      "units": 7920
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "丰润扣勘",
+      "units": 13204
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "链条",
+      "units": 4516
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "围局收紧",
+      "units": 9948
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "夜审密信",
+      "units": 8926
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "信落谁手",
+      "units": 9028
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "门房咬合",
+      "units": 10698
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "余波初现",
+      "units": 7964
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "改送",
+      "units": 3961
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "余波左肩",
+      "units": 8553
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "无凭之信",
+      "units": 10310
+    }
+  ],
+  "publishedAt": "2026-09-16T00:27:35.112Z",
+  "formFamily": "narrative"
+}
