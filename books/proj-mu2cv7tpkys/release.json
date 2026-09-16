@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260916002537346_66e0394d86",
+  "projectId": "proj-mu2cv7tpkys",
+  "manuscriptVersionId": "mv_420ad9fdffe977ef",
+  "contentHash": "420ad9fdffe977efe46b6475657846c3f992121f3cbea0a04d2089fd41355f47",
+  "title": "北方的冬天很长",
+  "subtitle": "一个冬天，两代人的去留",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1998年冬天，东北林区小城，停伐令下。四十七岁的检尺员老韩，手只会量木头，心只认得林场；十七岁的女儿韩小满，手里攥着省城中专的录取通知书，却凑不齐学费。一个想留，一个想走。家里的钱藏在棉袄夹层里，债写在旧房梁上，手伤在哪只手、通知书在谁那里，每一笔都算得清清楚楚。三十二章，双线并行，父女俩各自面对自己的冬天，直到站台送别那一刻，才发现彼此的选择早已咬合在一起。不煽情，不妥协，只讲一个关于离开与留下的真实故事。",
+  "category": "小说",
+  "tags": [
+    "东北",
+    "林区",
+    "父女",
+    "1998",
+    "现实题材",
+    "现实"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 271058,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-16T00:23:29.920Z"
+  },
+  "editorReview": {
+    "text": "老韩量木头的动作，松脂的气味，贮木场在停伐令下的死寂——开篇就把人拽进那个林区小城的冬天，职业在场感扎实得能闻到原木断面。父女俩一个想留、一个想走，沉默里全是暗涌，第16章那场对峙靠‘夹菜’的变形写尽底层情感，克制有力。但中段节奏塌陷了，债务和手伤的描写循环往复，缺少新变量推进；章节接缝也粗糙，第5章结尾的悬念到第6章直接断线，读着像被绊了一跤。明喻密度偏高，部分比喻陈旧，可惜了现实题材该有的粗粝质感。核心意象‘尺’从物理到心理的延伸倒是动人，只是执行还需一轮精修来疏通肌理。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-16T00:25:33.611Z",
+    "textless": false,
+    "profileId": "fiction-romance-intimate"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "停伐令下的最后一尺",
+      "units": 9274
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "广播响起与尺停",
+      "units": 8606
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "通知书与空场",
+      "units": 10409
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "通知书到与场空",
+      "units": 9638
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "债务暗影",
+      "units": 7636
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "旧房梁",
+      "units": 7887
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "棉袄夹层",
+      "units": 5275
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "名单与债",
+      "units": 9401
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "债务期限",
+      "units": 11443
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "交易筹码",
+      "units": 6428
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "旧疤复发",
+      "units": 7014
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "黑市验木",
+      "units": 7250
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "雪夜还债",
+      "units": 6398
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "挂镜背后",
+      "units": 7641
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "真相浮现",
+      "units": 7394
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "韩师傅",
+      "units": 7188
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "还债倒计时",
+      "units": 5879
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "债务清算",
+      "units": 6308
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "债务逼近",
+      "units": 7351
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "旧疤",
+      "units": 11465
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "归零",
+      "units": 8081
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "冷屋与空柜",
+      "units": 7195
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "债务真相",
+      "units": 9322
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "终局",
+      "units": 9978
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "清算之后",
+      "units": 10425
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "真相逼近",
+      "units": 11818
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "代价",
+      "units": 9205
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "站台送别",
+      "units": 7761
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "藏起的通知书",
+      "units": 10394
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "互助调解",
+      "units": 9689
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "调解的尺",
+      "units": 10814
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "量人的手",
+      "units": 6491
+    }
+  ],
+  "publishedAt": "2026-09-16T00:25:37.357Z",
+  "formFamily": "narrative"
+}
