@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260917044828576_c604b576b5",
+  "projectId": "proj-mu4w58ivzdi",
+  "manuscriptVersionId": "mv_97126849739c5c32",
+  "contentHash": "97126849739c5c3219117771322b0a1ce264c9646917fd5040a998dc39503d16",
+  "title": "The Dam Above Johnstown: The South Fork Club, the Flood of 1889 and the Price of Neglect",
+  "subtitle": "The South Fork Club, the Flood of 1889, and the Price of Neglect",
+  "authorDisplayName": "Liszt Think",
+  "description": "On May 31, 1889, twenty million tons of water released from a patched earthen dam obliterated Johnstown, Pennsylvania, in fifty-seven minutes. The catastrophe began not with rain, but with privilege: Pittsburgh industrialists had lowered the South Fork Dam to suit their private fishing club, ignoring engineers’ warnings until the structure failed. This narrative reconstructs the disaster through club minutes, railroad telegrams, and survivor testimony, tracing the wave from breach to the fiery wreckage at the stone bridge. Beyond the immediate horror and Clara Barton’s relief efforts lies a deeper failure of justice. Despite thousands dead, lawsuits collapsed and liability vanished. Drawing on coroner’s inquests and ASCE reports, this history exposes how Gilded Age power evaded accountability and how that legal void eventually forced a transformation in American dam safety. It is a definitive account of negligence without a defendant and the long reckoning that followed.",
+  "category": "世界史",
+  "tags": [
+    "Johnstown Flood",
+    "Gilded Age",
+    "Disaster History",
+    "Legal History",
+    "Pennsylvania",
+    "Engineering"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 96869,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-17T04:39:58.290Z"
+  },
+  "editorReview": {
+    "text": "A solid, archive-driven reconstruction of the Johnstown Flood. The book is at its best in the early chapters, which build genuine momentum through concrete scenes—like the 1853 surveyor's chain and field book that ground the dam's reality—and a disciplined cross-cutting of three narrative tracks with precise time-stamps. However, the immersive present-tense urgency promised by this structure gradually dissipates. The final chapters achieve thematic coherence, tracing how administrative law emerged to fill the void left by failed liability suits, but they retreat into retrospective summary ('Se",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-17T04:48:21.867Z",
+    "textless": false,
+    "profileId": "warm-humanist",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Reservoir Above Johnstown",
+      "units": 3717
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Club Forms and Lowers the Dam",
+      "units": 2937
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Club's Members and Their World",
+      "units": 3730
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Iron City Beneath the Old Dam",
+      "units": 3761
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Warnings That Came Too Late",
+      "units": 3493
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Warnings That Were Filed Away",
+      "units": 3198
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Last Ordinary Weeks",
+      "units": 3195
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "A Saturated Valley and a Rising Lake",
+      "units": 3177
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Wave Through the Valley",
+      "units": 2799
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Stone Bridge and the Fire",
+      "units": 2530
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Relief Machine Takes Shape",
+      "units": 2999
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Red Cross Camp on the Conemaugh",
+      "units": 3384
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Relief Machine at Its Height",
+      "units": 3099
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Inquest and the Engineers' Committee",
+      "units": 3080
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Suits That Named No One",
+      "units": 3228
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Club That Outlived Its Dam",
+      "units": 3612
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Flood Enters the National Memory",
+      "units": 4212
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Warning Outlives the Witnesses",
+      "units": 4062
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "Dam Safety as Public Trust",
+      "units": 4394
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The New Deal Claims the River",
+      "units": 2908
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Valley Rebuilt, the Reckoning Deferred",
+      "units": 3407
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Second Flood and the New Law",
+      "units": 3066
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Centennial Reckoning at Johnstown",
+      "units": 4374
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Defense That Never Ended",
+      "units": 3594
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Rule That Replaced the Verdict",
+      "units": 3353
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Maintenance That Stands In for a Verdict",
+      "units": 4416
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Ledger That Outlived the Dam",
+      "units": 3023
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "Negligence Without a Defendant (After 2026)",
+      "units": 4121
+    }
+  ],
+  "illustrations": 8,
+  "publishedAt": "2026-09-17T04:48:28.645Z"
+}

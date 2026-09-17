@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260917044828576_c604b576b5",
+  "projectId": "proj-mu4w58ivzdi",
+  "manuscriptVersionId": "mv_97126849739c5c32",
+  "contentHash": "97126849739c5c3219117771322b0a1ce264c9646917fd5040a998dc39503d16",
+  "chapterCount": 28,
+  "generatedAt": "2026-09-17T04:48:28.805Z",
+  "files": [
+    {
+      "path": "ch-1.html",
+      "bytes": 27462,
+      "sha256": "87e2516b7f690b0a0543743042c5dee9f04c878382bdc9d09db477a3e9a380c3"
+    },
+    {
+      "path": "ch-10.html",
+      "bytes": 20501,
+      "sha256": "7bb6891f91bba5f072d39d5cf7f2019364bfcbe75d923609a13c4458db55f39e"
+    },
+    {
+      "path": "ch-11.html",
+      "bytes": 23943,
+      "sha256": "b7e187fd041ce6a54633095167cd8cdad258441935318d3ad1a94bc24b7d1ce3"
+    },
+    {
+      "path": "ch-12.html",
+      "bytes": 25957,
+      "sha256": "fb5cce9f2734e3ea5f442bb48967c8cf1713cb49568f6a1ecc8774c826f09fcc"
+    },
+    {
+      "path": "ch-13.html",
+      "bytes": 24706,
+      "sha256": "25a1051b4132f9a37cb3c9567a04a2cd647cd8a29e8785080943ab83670248b2"
+    },
+    {
+      "path": "ch-14.html",
+      "bytes": 24502,
+      "sha256": "d6b0e4af4f5a33a5aa8c9dfeaa39834bb29854984146fb1640ee2da7d113e09a"
+    },
+    {
+      "path": "ch-15.html",
+      "bytes": 24433,
+      "sha256": "fad44d5896ffbb4907cccb2d717ecec490c0ee82875a0f12613210338bf26cac"
+    },
+    {
+      "path": "ch-16.html",
+      "bytes": 26562,
+      "sha256": "5506f0e5c6a74eaf1f7e083b6699f442d6831bf11f1fafc964a8e62702e2d772"
+    },
+    {
+      "path": "ch-17.html",
+      "bytes": 30929,
+      "sha256": "ca54792804a05e0f8aa774f2d78daa453f0dc06174be95fed529327ed91601bd"
+    },
+    {
+      "path": "ch-18.html",
+      "bytes": 29190,
+      "sha256": "8021be5622d59b6fb4418ccbad3062c97d2833be78a1d9d3c85f86f892f20b5b"
+    },
+    {
+      "path": "ch-19.html",
+      "bytes": 31589,
+      "sha256": "1ef9bae468351d3163731e2061b4b2ffaf73e92ec3f43aecff917783858a73be"
+    },
+    {
+      "path": "ch-2.html",
+      "bytes": 22155,
+      "sha256": "bbac6f0701c646f5f1430661b059e3dea336a52f7099d0943505b7dc1f8115a4"
+    },
+    {
+      "path": "ch-20.html",
+      "bytes": 22799,
+      "sha256": "677fa6b7abafa741f4ab84a8e5e6b0c040190f390a1ce52c36e43e6865fa47fc"
+    },
+    {
+      "path": "ch-21.html",
+      "bytes": 26264,
+      "sha256": "8ba85d1c869c39b9ad6e82758e3c98b4da808dfbed0fd9ef8ae2904c46166f4b"
+    },
+    {
+      "path": "ch-22.html",
+      "bytes": 23988,
+      "sha256": "737e0c13d8a25459cfb95b0324ab2fcbfdf9c11dcad443150334d10910afe205"
+    },
+    {
+      "path": "ch-23.html",
+      "bytes": 32869,
+      "sha256": "c562bb6d46ba63a65116d80710f974c23d979f2dd869f47190b8fbf4ba6cc86e"
+    },
+    {
+      "path": "ch-24.html",
+      "bytes": 27003,
+      "sha256": "17eebd085242128421a148db4c49c5dd199e816754cb22b5e92bc72f962d82cc"
+    },
+    {
+      "path": "ch-25.html",
+      "bytes": 25183,
+      "sha256": "277e594fedf1bbdcb97be171eb394c46d11a3c07aeca7107f07c9f9ead374eda"
+    },
+    {
+      "path": "ch-26.html",
+      "bytes": 31017,
+      "sha256": "d57a8a68430685c76b598d36104d8cb67867c0071cbb1e184ae4122662ef103c"
+    },
+    {
+      "path": "ch-27.html",
+      "bytes": 23277,
+      "sha256": "31942e775858c8a028550b694e650de2996b1cc3168224ff07327bbd1a346aba"
+    },
+    {
+      "path": "ch-28.html",
+      "bytes": 28719,
+      "sha256": "64b6384a6a3aac993b0c83e5990844abd53af7df0e94af29cea8e68a02f4c54c"
+    },
+    {
+      "path": "ch-3.html",
+      "bytes": 27321,
+      "sha256": "4f41f41873851ce984e8617edcc7e6ddf740d5455cef3ec4c0873ac86c2f9919"
+    },
+    {
+      "path": "ch-4.html",
+      "bytes": 26223,
+      "sha256": "8b297ca20e6e8950c1b46a90f7a25154dc276a18cecd8a0b4ff83486e57eb8be"
+    },
+    {
+      "path": "ch-5.html",
+      "bytes": 26582,
+      "sha256": "b3f29d9b5edaee3b623bd451c80a1df9f1ba6fd44c3c5874516ed467250e6dd8"
+    },
+    {
+      "path": "ch-6.html",
+      "bytes": 23982,
+      "sha256": "a14c2312f4785744ca58bf9c0b9c506d231af65d39cec501a8babfa7dbe13ab4"
+    },
+    {
+      "path": "ch-7.html",
+      "bytes": 23398,
+      "sha256": "b5bdd142f3c343b09fcb79922207eb9191571ae7821d9a09a2bf1243a2117dc4"
+    },
+    {
+      "path": "ch-8.html",
+      "bytes": 23660,
+      "sha256": "0ced4c4c83a91dffe604925d8493c8bcfaae6126162b7845df437804ce75d16e"
+    },
+    {
+      "path": "ch-9.html",
+      "bytes": 22146,
+      "sha256": "415e3620026f7bdf1d10671298a6f037f1f94e1c880e1e7f6bfea10b8ec85bb2"
+    },
+    {
+      "path": "cover.svg",
+      "bytes": 1347393,
+      "sha256": "86bd08d7d5e4f0ea6759f93d1d434902396c4621fa62a0b6af085152345e18db"
+    },
+    {
+      "path": "images/ill_0001-028bc438fe058b50.jpg",
+      "bytes": 837440,
+      "sha256": "028bc438fe058b500fdd0de6316117ea1e55e42e6dc1159970e6285ee456087e"
+    },
+    {
+      "path": "images/ill_0003-ba7675fef9a8b3c0.jpg",
+      "bytes": 424933,
+      "sha256": "ba7675fef9a8b3c00d5e1b26f197d91d2ef974710e984395a8665e9861eee83b"
+    },
+    {
+      "path": "images/ill_0004-2d1f0478d6564eaf.jpg",
+      "bytes": 994774,
+      "sha256": "2d1f0478d6564eaf5f5036db92ae1a0acdd864caff32786a2d10753240896a6a"
+    },
+    {
+      "path": "images/ill_0005-8ae68c8a316c4537.jpg",
+      "bytes": 578855,
+      "sha256": "8ae68c8a316c4537371178519fc5d9e4ab1a18ccf03db72db8a1e6fe050a313a"
+    },
+    {
+      "path": "images/ill_0006-f8bac9b53a294415.jpg",
+      "bytes": 55055,
+      "sha256": "f8bac9b53a2944152fcf4b6fafed5d001c7c9c800023520198504a46a544f9b9"
+    },
+    {
+      "path": "images/ill_0008-034cf86095279077.jpg",
+      "bytes": 710759,
+      "sha256": "034cf86095279077a9e888aa6c67072011c8575d2b2a031b79e7cd59ae311c6a"
+    },
+    {
+      "path": "images/ill_0009-d79bcebad29d11a7.jpg",
+      "bytes": 930002,
+      "sha256": "d79bcebad29d11a70fab4aa781382618e7deadda599ae77195feed79d4a211f0"
+    },
+    {
+      "path": "images/ill_0010-83af2ddf4d066748.jpg",
+      "bytes": 569421,
+      "sha256": "83af2ddf4d06674855dccfc960cba31cd92027346a92e77aef0a84c463e30135"
+    },
+    {
+      "path": "index.html",
+      "bytes": 49716,
+      "sha256": "25ff221346759e3ab56e6ab8ef0837879199a927f4db32f011f8be35dc7977a9"
+    },
+    {
+      "path": "read.html",
+      "bytes": 30443,
+      "sha256": "2d51c27144ec4cf846246c2edcbebc8c961a3e3f411e2fad6e9b5e381d102366"
+    },
+    {
+      "path": "release.json",
+      "bytes": 6639,
+      "sha256": "cdcacda96d1b639234aafe49cc0f04062a52adf75053519dfca8633c83c05dd6"
+    }
+  ]
+}
