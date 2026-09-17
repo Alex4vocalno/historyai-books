@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mtkvcof76i4",
+    "projectId": "proj-mtkvcof76i4",
+    "releaseId": "rel_20260917081114114_c5ee053c5a",
+    "title": "白色盲区",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "lengthTier": "novel",
+    "authorDisplayName": "八月的风",
+    "category": "小说",
+    "tags": [
+      "医疗悬疑",
+      "制度拷问",
+      "硬核推理",
+      "道德困境",
+      "职业内幕",
+      "数据犯罪"
+    ],
+    "description": "七名死者，七份完美病历，零个凶手。\n\n唯一的问题是—死人不会修改自己的病历。\n\n三甲医院质控科医师陆沉，在复查一起术后死亡病例时，发现了一处不起眼的时间异常。顺着这几分钟的误差，他竟牵出了三年间七起看似毫无关联的死亡。\n\n不同科室，不同疾病，不同死因。每一份病历都合情合理，每一次死亡都有完整解释。\n\n而留给陆沉的时间，只有72小时。\n\n72小时内，他必须找出那些被修改的记录、消失的签名和错位的时间，证明这一切不是巧合。\n\n更可怕的是，其中一份病历，五年前正是他亲手签下了——“复核无误”。\n\n72小时之后，证据可能消失，真相可能再次被埋葬。\n\n当所有证据都证明凶手不存在，你要怎么抓住一个“不存在的人”？",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-04T03:53:26.230Z"
+    },
+    "coverUrl": "books/proj-mtkvcof76i4/releases/rel_20260917081114114_c5ee053c5a/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtkvcof76i4/index.html",
+    "publishedAt": "2026-09-17T08:11:14.118Z",
+    "firstPublishedAt": "2026-09-17T08:11:14.118Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu4rau3xedb",
     "projectId": "proj-mu4rau3xedb",
     "releaseId": "rel_20260917045518350_fa547f4f97",

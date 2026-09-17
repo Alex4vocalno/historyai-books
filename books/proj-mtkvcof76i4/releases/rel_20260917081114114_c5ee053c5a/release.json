@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260917081114114_c5ee053c5a",
+  "projectId": "proj-mtkvcof76i4",
+  "manuscriptVersionId": "mv_8cd6af93caf6bad9",
+  "contentHash": "8cd6af93caf6bad9bb40a297861767c6ad048b977a77416c36d19e45fd40461a",
+  "title": "白色盲区",
+  "subtitle": "",
+  "authorDisplayName": "八月的风",
+  "description": "七名死者，七份完美病历，零个凶手。\n\n唯一的问题是—死人不会修改自己的病历。\n\n三甲医院质控科医师陆沉，在复查一起术后死亡病例时，发现了一处不起眼的时间异常。顺着这几分钟的误差，他竟牵出了三年间七起看似毫无关联的死亡。\n\n不同科室，不同疾病，不同死因。每一份病历都合情合理，每一次死亡都有完整解释。\n\n而留给陆沉的时间，只有72小时。\n\n72小时内，他必须找出那些被修改的记录、消失的签名和错位的时间，证明这一切不是巧合。\n\n更可怕的是，其中一份病历，五年前正是他亲手签下了——“复核无误”。\n\n72小时之后，证据可能消失，真相可能再次被埋葬。\n\n当所有证据都证明凶手不存在，你要怎么抓住一个“不存在的人”？",
+  "category": "小说",
+  "tags": [
+    "医疗悬疑",
+    "制度拷问",
+    "硬核推理",
+    "道德困境",
+    "职业内幕",
+    "数据犯罪"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 351279,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-04T03:53:26.230Z"
+  },
+  "editorReview": {
+    "text": "这是一部将专业细节转化为悬疑利器的出色作品。作者对医院质控科的描摹精准到令人屏息——从服务器指示灯的红光到打印机嗡鸣，这些感官细节构建了极具在场感的白色迷宫。陆沉这个人物尤其动人，他手指上那道从“勤奋勋章”蜕变为“共犯印记”的疤痕，承载了整个故事最沉重的伦理拷问。七份完美病历构成的逻辑链层层递进，中段张力始终紧绷，让人几乎能听见秒针在72小时倒计时中的走动声。可惜部分章节接缝处略显生硬，有些钩子抛出后未能在下一章及时接住，偶尔打断了那种步步紧逼的阅读节奏。而结局处关于“系统之恶”的阐述稍显冗长，若能用更多戏剧动作而非对话来呈现，那股寒意或许能更彻骨地抵达读者。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-11T08:32:02.779Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "病历疑点",
+      "units": 8080
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "疤痕之始",
+      "units": 11840
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "五年前的刺",
+      "units": 8892
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "数据幽灵",
+      "units": 5069
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "细节破壁",
+      "units": 15865
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "床位巧合",
+      "units": 10985
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "单位陷阱",
+      "units": 7220
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "暗流涌动",
+      "units": 10213
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "汇报受阻",
+      "units": 14154
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "秘密接触",
+      "units": 8347
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "试探与恐惧",
+      "units": 9712
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "孤勇者",
+      "units": 9137
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "记录本疑痕",
+      "units": 6527
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "规则升级",
+      "units": 6008
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "护理记录暗痕",
+      "units": 12593
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "两分钟空置",
+      "units": 14708
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "代价初现",
+      "units": 18132
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "床位周转",
+      "units": 9361
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "抉择之重",
+      "units": 11032
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "床位暗线",
+      "units": 15834
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "数据链",
+      "units": 11930
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "数据链推理",
+      "units": 9665
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "沈雨抉择",
+      "units": 12820
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "证据链",
+      "units": 11181
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "证据指向",
+      "units": 12705
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "罪证签名",
+      "units": 11821
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "单位疑痕",
+      "units": 10098
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "自我审判",
+      "units": 12118
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "审判之证",
+      "units": 9967
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "终极抉择",
+      "units": 15695
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "疤痕审判",
+      "units": 10353
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "终局余烬",
+      "units": 9217
+    }
+  ],
+  "publishedAt": "2026-09-17T08:11:14.118Z"
+}
