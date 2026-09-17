@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260917000715416_e77348daab",
+  "projectId": "proj-mu3zsypqutd",
+  "manuscriptVersionId": "mv_4c76fa17a80d7c23",
+  "contentHash": "4c76fa17a80d7c2392414cade5afea21c4802729390c821604838afe7aeb981d",
+  "title": "1902-2002：远去的佛陀",
+  "subtitle": "中国佛教艺术的百年流散之路",
+  "authorDisplayName": "末野星球",
+  "description": "当龙门石窟的帝后礼佛图被凿成碎块运往大洋彼岸，当广胜寺的壁画为换取修缮经费被整墙剥离，中国佛教艺术便开始了漫长的“脱离原境”之旅。这不仅是物质的流失，更是文化解释权的转移。古董商的账本、探险队的切割痕迹、博物馆玻璃柜里的灯光，共同将这些圣物重塑为“亚洲艺术”。本书以三十个具体物证与人物命运为锚点，穿透道德审判的迷雾，还原文物在拍卖行、库房与展厅间流转的真实机制。从敦煌藏经洞的黄昏到像素级的数字重聚，呈现一场关于保存与破坏、追索与市场的复杂博弈，见证解释权在百年离散中的艰难回流。",
+  "category": "文化史",
+  "tags": [
+    "佛教艺术",
+    "文物流散史",
+    "海外馆藏",
+    "敦煌学",
+    "文物追索",
+    "文化史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 30,
+    "units": 259094,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-17T00:07:10.522Z"
+  },
+  "editorReview": {
+    "text": "本书以‘文物流散即解释权转移’为中层机制，从卢芹斋账本、山中商会货单等边缘史料切入，论证链条扎实，结构层层递进，颇具洞见。尤其第一章《石像的故乡》光影与史识交融，展现了文化史随笔的上佳样态。但全书文风参差不齐，部分章节（如十五、十六章）滑向教科书式的年份罗列与机械句式，与前几章的沉浸叙事形成明显断层，读来颇为枯燥。若能在精修中统一声口，克制模板化起笔，本书的学术骨架与叙事魅力将更为匹配。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-16T22:53:14.208Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "石像的故乡",
+      "units": 7860
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "响堂山的碎片",
+      "units": 8635
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "天龙山的无头佛",
+      "units": 7938
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "墙上的经变",
+      "units": 8285
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "藏经洞的黄昏",
+      "units": 8583
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "西域的切痕",
+      "units": 8371
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "卢芹斋的账本",
+      "units": 8456
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "山中商会的货单",
+      "units": 8921
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "大谷的行李箱",
+      "units": 7912
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "玻璃柜里的佛",
+      "units": 8627
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "标签上的名字",
+      "units": 9297
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "来源的迷雾",
+      "units": 8451
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "碎片的语法",
+      "units": 8400
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "玻璃柜里的光",
+      "units": 13474
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "镜头的第二次切割",
+      "units": 8385
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "原始主义的凝视",
+      "units": 7482
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "亚洲艺术的发明",
+      "units": 8287
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "修复的伦理转向",
+      "units": 8367
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "被发明的国宝",
+      "units": 8513
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "公约的缝隙",
+      "units": 8614
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "拍卖槌落下时",
+      "units": 8548
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "替佛说话的人",
+      "units": 8458
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "自己的展厅",
+      "units": 8543
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "像素里的重聚",
+      "units": 8809
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "残件的荣光",
+      "units": 8248
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "替身的伦理",
+      "units": 8629
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "空了的佛龛",
+      "units": 8969
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "博物馆的转身",
+      "units": 9256
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "归来的重量",
+      "units": 8381
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "谁在说话",
+      "units": 8395
+    }
+  ],
+  "illustrations": 32,
+  "publishedAt": "2026-09-17T00:07:15.458Z"
+}

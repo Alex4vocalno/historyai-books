@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "releaseId": "rel_20260916225801722_043fc1ac81",
+  "releaseId": "rel_20260917000715416_e77348daab",
   "projectId": "proj-mu3zsypqutd",
-  "manuscriptVersionId": "mv_89461eeb0d43d405",
-  "contentHash": "89461eeb0d43d405ddcdd7aa4c617583cda0d2e0664e613fbf928506d47eb354",
+  "manuscriptVersionId": "mv_4c76fa17a80d7c23",
+  "contentHash": "4c76fa17a80d7c2392414cade5afea21c4802729390c821604838afe7aeb981d",
   "title": "1902-2002：远去的佛陀",
   "subtitle": "中国佛教艺术的百年流散之路",
   "authorDisplayName": "末野星球",
@@ -23,7 +23,7 @@
   "visibility": "public",
   "stats": {
     "chapterCount": 30,
-    "units": 258894,
+    "units": 259094,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -31,10 +31,10 @@
     "source": "editorial-hub",
     "score": 82,
     "method": "median-of-3",
-    "createdAt": "2026-09-16T22:48:31.181Z"
+    "createdAt": "2026-09-17T00:07:10.522Z"
   },
   "editorReview": {
-    "text": "本书最见功力处，在于将文物离散史从道德控诉的窠臼中剥离，转而聚焦于「命名、分类、展陈」等中层机制的精密解剖。第一章对宾阳中洞「帝后礼佛图」的还原堪称典范，从斧凿声、光线到礼拜路线，让沉默的石头「说话」，论证了「原境」实为关系网络。第十六章引入现代主义艺术史视角，剖析「形式主义」滤镜如何重构佛像价值，揭示了「赞誉亦是权力」，视野开阔，提升了全书的思想海拔。然而，后半部叙事节奏出现明显漂移，部分章节滑向教科书式的概括与清单罗列，与前半部从容的随笔文气判若两书。跨章重复与时间线跳跃等问题，也显露出写作流程上的草率，削弱了整体气韵。",
+    "text": "本书以‘文物流散即解释权转移’为中层机制，从卢芹斋账本、山中商会货单等边缘史料切入，论证链条扎实，结构层层递进，颇具洞见。尤其第一章《石像的故乡》光影与史识交融，展现了文化史随笔的上佳样态。但全书文风参差不齐，部分章节（如十五、十六章）滑向教科书式的年份罗列与机械句式，与前几章的沉浸叙事形成明显断层，读来颇为枯燥。若能在精修中统一声口，克制模板化起笔，本书的学术骨架与叙事魅力将更为匹配。",
     "penName": "砚北",
     "title": "历史社科编辑",
     "rating": "值得一读"
@@ -70,7 +70,7 @@
       "idx": 3,
       "sourceIdx": 3,
       "title": "墙上的经变",
-      "units": 8186
+      "units": 8285
     },
     {
       "idx": 4,
@@ -88,7 +88,7 @@
       "idx": 6,
       "sourceIdx": 6,
       "title": "卢芹斋的账本",
-      "units": 8452
+      "units": 8456
     },
     {
       "idx": 7,
@@ -166,19 +166,19 @@
       "idx": 19,
       "sourceIdx": 19,
       "title": "公约的缝隙",
-      "units": 8610
+      "units": 8614
     },
     {
       "idx": 20,
       "sourceIdx": 20,
       "title": "拍卖槌落下时",
-      "units": 8514
+      "units": 8548
     },
     {
       "idx": 21,
       "sourceIdx": 21,
       "title": "替佛说话的人",
-      "units": 8475
+      "units": 8458
     },
     {
       "idx": 22,
@@ -208,13 +208,13 @@
       "idx": 26,
       "sourceIdx": 26,
       "title": "空了的佛龛",
-      "units": 8924
+      "units": 8969
     },
     {
       "idx": 27,
       "sourceIdx": 27,
       "title": "博物馆的转身",
-      "units": 9223
+      "units": 9256
     },
     {
       "idx": 28,
@@ -226,10 +226,10 @@
       "idx": 29,
       "sourceIdx": 29,
       "title": "谁在说话",
-      "units": 8397
+      "units": 8395
     }
   ],
   "illustrations": 32,
-  "publishedAt": "2026-09-16T22:58:01.762Z",
+  "publishedAt": "2026-09-17T00:07:15.458Z",
   "formFamily": "narrative"
 }
