@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260917045518350_fa547f4f97",
+  "projectId": "proj-mu4rau3xedb",
+  "manuscriptVersionId": "mv_9d36213d7277e4dc",
+  "contentHash": "9d36213d7277e4dc817d667ece843d9babfa740a2ea1967fa875796970d295e2",
+  "title": "The Sound Between Us",
+  "subtitle": "A Novel of Suspense",
+  "authorDisplayName": "Liszt Think",
+  "description": "Six months after her sister drowned near a remote hydrophone research station on the Norwegian coast, acoustic engineer Ingrid Solheim arrives to take her sister's old post. It is winter 1989. The sea ice is closing in. Five researchers winter at the outpost, and Ingrid knows one of them is lying. When she discovers the station's audio tapes have been altered—eleven minutes erased from the night of the drowning—Ingrid begins to listen. The clues are all around her: tide tables, a tape counter log, a diesel ledger, the small contradictions in her colleagues' accounts. Each has a motive. Each had the opportunity. As the Arctic darkness deepens and the station's isolation tightens, Ingrid must piece together what the sea refused to reveal. A psychological suspense novel of grief and detection, where every clue is on the page, and the killer is someone the reader has met.",
+  "category": "小说",
+  "tags": [
+    "psychological suspense",
+    "Nordic noir",
+    "Norwegian setting",
+    "cold case",
+    "isolated station",
+    "Fiction"
+  ],
+  "language": "en",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 67883,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-17T04:53:48.050Z"
+  },
+  "editorReview": {
+    "text": "The Arctic setting operates as a brilliant pressure system here; the sensory presence of cold creeping through walls effectively isolates the cast, while the forensic specificity of the eleven-minute tape gap and the tide-table alibi offers deeply satisfying, fair-play detection. The emotional core strikes hard in Chapter 12, where a crayon-cipher reveal repurposes childhood intimacy into a genuine investigative breakthrough. However, the prose occasionally suffers from rhythmic monotony, with an over-reliance on em-dashes and repetitive sentence openings that flatten the voice. The final act",
+    "penName": "疏影",
+    "title": "Fiction Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-17T04:55:15.646Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Unlogged Tape",
+      "units": 2045
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "A False Account",
+      "units": 2923
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "Solveig's Hidden Pages",
+      "units": 2480
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "Edited Silence",
+      "units": 3738
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Diesel Anomaly",
+      "units": 2365
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Frozen Alibis",
+      "units": 2289
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "A Voice in the Static",
+      "units": 2382
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Listening in the Dark",
+      "units": 3704
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Tape Teacher",
+      "units": 2715
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Mudflat Settles",
+      "units": 2951
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Tide Tables Tell",
+      "units": 2816
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Sister's Shadow",
+      "units": 2231
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Practical Power",
+      "units": 2809
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "Ledger of Deceit",
+      "units": 2761
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Edited Truth",
+      "units": 2885
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "Counting Off Silent Hours",
+      "units": 4113
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "Ledger Confrontation",
+      "units": 2780
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Final Argument",
+      "units": 2331
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Sound of Guilt",
+      "units": 3324
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "Testimony in the Ice",
+      "units": 2731
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Final Burden",
+      "units": 2398
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "Broken by the Shore",
+      "units": 2722
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "Departure in the Thaw",
+      "units": 1804
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "Only the Sea",
+      "units": 1906
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Weight of Silence",
+      "units": 2680
+    }
+  ],
+  "publishedAt": "2026-09-17T04:55:18.354Z"
+}
