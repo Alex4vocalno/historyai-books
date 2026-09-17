@@ -248,6 +248,13 @@
           const totals = node('p', t(`累计获得 ${number(data.balance?.granted)} · 累计消耗 ${number(data.balance?.usedCredits)}`,
             `Total added ${number(data.balance?.granted)} · Total used ${number(data.balance?.usedCredits)}`), 'account-note');
           balance.replaceChildren(amount, totals);
+          // v6.49.2 正在写的书会先预留一章的积分，写完按实际用量结算——单列出来，
+          // 免得"可用积分"比"累计获得-累计消耗"少一截却没有解释。
+          const reserved = Number(data.balance?.reserved) || 0;
+          if (!data.balance?.unlimited && reserved > 0) {
+            balance.appendChild(node('p', t(`其中 ${number(reserved)} 积分为写作中的书预留（写完按实际用量结算）`,
+              `${number(reserved)} credits are reserved by books currently writing (settled on actual usage when the chapter finishes)`), 'account-note'));
+          }
           const list = node('ol', undefined, 'account-ledger');
           const labels = { grant: '积分增加', adjust: '积分调整', redeem: '积分增加', refund: '退款调整', purchase: '购买入账' };
           const english = { grant: 'Credits added', adjust: 'Credit adjustment', redeem: 'Credits added', refund: 'Refund adjustment', purchase: 'Purchase credited' };

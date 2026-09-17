@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260917044403563_dc3e6f1531",
+  "projectId": "proj-mu4r9ndlozr",
+  "manuscriptVersionId": "mv_741556b21271959e",
+  "contentHash": "741556b21271959e045f4616608976bfded67d7950383a03bf0842c0d760d3b0",
+  "title": "The Canal That Broke a Nation: The French Panama Company, 1879–1893",
+  "subtitle": "The French Panama Company, 1879–1893",
+  "authorDisplayName": "Liszt Think",
+  "description": "Ferdinand de Lesseps conquered the Suez, but the Panamanian jungle consumed his ambition. This narrative history reconstructs the catastrophic failure of the Compagnie Universelle du Canal Interocéanique through hospital registers, company ledgers, and parliamentary inquiries. From the fatal 1879 Paris congress that ignored engineering warnings to the lottery bonds that financed a mirage, the account traces how yellow fever and financial corruption dismantled a national dream. Thousands of workers perished in the Culebra Cut while executives in Paris traded maps for balance sheets. The 1893 trial exposed a scandal reaching the Chamber of Deputies, yet these French excavations ultimately enabled the American canal. Drawing on conflicting French and Panamanian archives, this book reveals how a republic absorbed a colossal failure and transformed its ruins into a geopolitical argument. It is a definitive chronicle of hubris, disease, and the tangible remnants of an enterprise that broke a nation before building a waterway.",
+  "category": "商业史",
+  "tags": [
+    "French Colonial History",
+    "Panama Canal",
+    "Engineering Disasters",
+    "Financial Scandal",
+    "Ferdinand de Lesseps",
+    "Nineteenth-Century France"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 93704,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-17T04:40:30.804Z"
+  },
+  "editorReview": {
+    "text": "This archival reconstruction of the French Panama Company's collapse is at its best when its disciplined structure—cross-cutting between Paris, the isthmus, and the public—is anchored by concrete evidence, from mortality registers to excavation counts. The work earns its authority through such specificity. However, the final chapters abandon this vivid, time-stamped approach for a more conventional retrospective summary, which feels like a departure from the form's core strength. Some prose patterns in the middle section also require attention, but the foundational research here is formidable.",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Editor's notes"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-17T04:43:59.730Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "A Republic Divided by a Canal",
+      "units": 3462
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Engineer Who Measured the Isthmus",
+      "units": 3278
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Company Built on a Name",
+      "units": 3543
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The First Hospital Registers",
+      "units": 3253
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Lottery Bonds of Panama",
+      "units": 3751
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Great Cut at Culebra",
+      "units": 4056
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Organization That Could Not Doubt",
+      "units": 2396
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Workforce That Vanished",
+      "units": 3411
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Ledger Replaces the Map",
+      "units": 3190
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Between Late 1884 and Mid",
+      "units": 2560
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Ferdinand De Lesseps’s Second Journey",
+      "units": 3360
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Founder Faces the Field",
+      "units": 3823
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Summit Before Collapse",
+      "units": 2348
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Lottery Loan That Bought Time",
+      "units": 2719
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Summit That Was an Illusion",
+      "units": 3775
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Summit That Could Not Hold",
+      "units": 3840
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "Where French Accounts Present",
+      "units": 2910
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Bankruptcy of the Compagnie Universelle",
+      "units": 4374
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Trial That Reached the Chamber",
+      "units": 3044
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The American Canal and the French Excavations",
+      "units": 3428
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Verdict That Named Names",
+      "units": 2193
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Republic Absorbs the Failure",
+      "units": 3284
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The American Purchase of the French Canal",
+      "units": 3555
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Memoirs That Decided Panama",
+      "units": 3803
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Canal Built on French Failure",
+      "units": 3517
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Long Shadow of the Compagnie Universelle",
+      "units": 3749
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Ruins Become a National Argument",
+      "units": 3778
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Archive Outlives the Verdict",
+      "units": 3304
+    }
+  ],
+  "illustrations": 8,
+  "publishedAt": "2026-09-17T04:44:03.581Z"
+}
