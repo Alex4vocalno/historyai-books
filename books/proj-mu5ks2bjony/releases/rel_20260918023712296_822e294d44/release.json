@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918023712296_822e294d44",
+  "projectId": "proj-mu5ks2bjony",
+  "manuscriptVersionId": "mv_78e2bc0697a881d7",
+  "contentHash": "78e2bc0697a881d744d58df8b8ea6a08cd46e63d50082312729730740fd6987e",
+  "title": "The Narrows: Halifax, Two Ships and the Morning of 6 December 1917",
+  "subtitle": "Halifax, Two Ships and the Morning of 6 December 1917",
+  "authorDisplayName": "Liszt Think",
+  "description": "At 9:04:35 a.m. on December 6, 1917, the French munitions ship Mont-Blanc detonated in Halifax Harbour, leveling the Richmond district and killing nearly two thousand people. This narrative history reconstructs the catastrophe minute by minute, from the fatal collision with the Norwegian relief vessel Imo to the blizzard that buried the ruins. Drawing on harbour master logs, inquiry transcripts, and Relief Commission ledgers, the account traces the twenty minutes of fire that drew spectators to the waterfront, telegraph operator Vince Coleman’s final warning, and the relief trains from Boston. Beyond the blast wave, it examines the decades-long legal battle that divided blame between two captains and transformed maritime safety regulations. A chronicle of devastation and bureaucratic reckoning, this book grounds every detail in primary records to reveal how a wartime port disaster reshaped international rules for moving explosives and defined a city’s century of remembrance.",
+  "category": "世界史",
+  "tags": [
+    "Halifax Explosion",
+    "Maritime History",
+    "World War I",
+    "Disaster Narrative",
+    "Canadian History",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 84925,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T02:34:36.568Z"
+  },
+  "editorReview": {
+    "text": "This reconstruction of the Halifax Explosion is anchored by disciplined archival work, turning logbooks and manifests into a genuine narrative engine. The early chapters are particularly strong, building tension with precise physical detail and a masterful, time-stamped cross-cutting of perspectives on the harbor. However, the procedural rigor of its countdown structure wanes in the middle sections covering the inquiry and relief efforts, where the narrative retreats into summary and loses its concrete, multi-track immediacy. While it properly distributes causation among various actors, the in",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T02:37:08.273Z",
+    "textless": false,
+    "profileId": "chronicle-panorama"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Harbour Master's Logbook",
+      "units": 3022
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "Mont-Blanc Carries a Cargo of Explosives",
+      "units": 3027
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Norwegian Ship Imo and Belgian Relief",
+      "units": 2796
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The City Above the Narrows",
+      "units": 3492
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Harbour's Approaches",
+      "units": 3337
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Two Ships Meet in the Narrows",
+      "units": 3011
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Fire Becomes a Public Spectacle",
+      "units": 3699
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Telegraph Key's Last Warning",
+      "units": 3020
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Sphere of Expanding Gas and Debris",
+      "units": 2999
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Blast's Selective Destruction",
+      "units": 3024
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Soldiers and Sailors Search the Ruins (Afternoon, 6 December 1917)",
+      "units": 2897
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "Snow Falls on the Ruins (Night of 6 December 1917)",
+      "units": 3228
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Boston Relief Train Reaches Halifax",
+      "units": 3443
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Wreck Commissioner Opens the Inquiry",
+      "units": 2999
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Relief Commission’s Ledgers",
+      "units": 2976
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Inquiry Blames Mont-Blanc",
+      "units": 2861
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Supreme Court Weighs Two Ships",
+      "units": 2972
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Privy Council Divides the Blame",
+      "units": 2905
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Relief Commission Takes the Ledgers",
+      "units": 3297
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "Rebuilding One Street in Richmond",
+      "units": 2520
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Rules for Explosives in Ports",
+      "units": 3029
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Orphanage on the Hill",
+      "units": 2708
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Wreck Commissioner's Witnesses Speak",
+      "units": 2524
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Relief Commission's Case Files",
+      "units": 2670
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Relief Commission's Final Reckoning",
+      "units": 3041
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Harbour Rules After the Blast",
+      "units": 3380
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Morning That Halifax Remembers",
+      "units": 2781
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Common Grave at Fairview",
+      "units": 3267
+    }
+  ],
+  "publishedAt": "2026-09-18T02:37:12.301Z"
+}
