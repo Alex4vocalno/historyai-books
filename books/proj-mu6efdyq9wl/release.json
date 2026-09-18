@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918104855650_0365cbe1aa",
+  "projectId": "proj-mu6efdyq9wl",
+  "manuscriptVersionId": "mv_4ef67eaedab7a092",
+  "contentHash": "4ef67eaedab7a0927f6867b655e84d26e0d78fb8ce44fcf559cb4f36a690da52",
+  "title": "Struck by a Whale",
+  "subtitle": "The Essex Disaster and the True Story Behind Moby-Dick",
+  "authorDisplayName": "Liszt Think",
+  "description": "On November 20, 1820, a sperm whale rammed and sank the Nantucket whaleship Essex in the remote Pacific. Twenty men took to three open whaleboats, choosing a perilous eastward course over feared cannibal islands. What followed was ninety days of starvation, separation, and the drawing of lots that forced survivors to consume their dead. This narrative history reconstructs the catastrophe through conflicting accounts by first mate Owen Chase and cabin boy Thomas Nickerson, verified against ship registers, insurance records, and rescue logs. Where memories diverge, the documentary record speaks. From the moment of impact to the silent return to Nantucket and Herman Melville’s marginal annotations, every detail is anchored in primary evidence. Struck by a Whale strips away myth to reveal the grueling arithmetic of survival at sea, offering a definitive account of the tragedy that shaped American literature.",
+  "category": "世界史",
+  "tags": [
+    "Maritime History",
+    "Nantucket",
+    "Whaling",
+    "Survival Narrative",
+    "Moby-Dick",
+    "Primary Sources"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 87071,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T10:48:50.630Z"
+  },
+  "editorReview": {
+    "text": "This panoramic reconstruction achieves its highest standard by anchoring the Essex disaster in a concrete, recurring thesis—the 'ledger mentality'—which powerfully explains decisions from outfitting to the final, desperate lot-drawing. The narrative drive is compelling, built on dated physical particulars that grant the ordeal a stark immediacy, such as the deck tilting under a crewman's boots. However, the book's immersive power is partially undone in its final section, where the voice drifts from scene-stamped narration into retrospective summary and literary analysis, losing the gripping mo",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T10:12:50.018Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Endless Green Meadow",
+      "units": 3329
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "A Vessel Fitted for the Sea",
+      "units": 3042
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Blank Page of the Ocean",
+      "units": 3041
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Master’s Ledger",
+      "units": 2821
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Chase",
+      "units": 3036
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Sound of the Ship Breaking (20 November 1820, Afternoon)",
+      "units": 2940
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Captain’s Decision (Afternoon, 20 November 1820)",
+      "units": 3040
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Meticulous and Grimly Practical",
+      "units": 3012
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Historical Content",
+      "units": 4084
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Taste of Rain",
+      "units": 3386
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Henderson Island",
+      "units": 3008
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Parting of the Boats",
+      "units": 3285
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Box of Marbles",
+      "units": 3450
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Lot Falls Upon the Cabin Boy",
+      "units": 2753
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Second Ship",
+      "units": 2537
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Captain’s Reckoning",
+      "units": 2981
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Man Who Was Left Behind",
+      "units": 2635
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Dauphin Takes Them Aboard",
+      "units": 3988
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Sickness in the Salt",
+      "units": 2641
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The First Vessel to Valparaíso",
+      "units": 3936
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Captain’s Report to the Consul",
+      "units": 3048
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Inquiry on the Bachelor’s Delight",
+      "units": 3026
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Long Voyage Home",
+      "units": 3038
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Arrival in Silence",
+      "units": 3006
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Law’s Ledger",
+      "units": 2852
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Unquiet Pen",
+      "units": 3025
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Mark in the Margin",
+      "units": 3255
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Sea Has No Need of Memory",
+      "units": 2876
+    }
+  ],
+  "publishedAt": "2026-09-18T10:48:55.655Z",
+  "formFamily": "narrative"
+}
