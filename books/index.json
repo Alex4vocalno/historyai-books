@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6ezvip0ds",
+    "projectId": "proj-mu6ezvip0ds",
+    "releaseId": "rel_20260918100920533_f3d73c7c73",
+    "title": "The Parade",
+    "subtitle": "Philadelphia, the Liberty Loan Parade, and the Deadliest Week in American History",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "1918 Influenza",
+      "Philadelphia History",
+      "Public Health",
+      "Narrative Nonfiction",
+      "Epidemics",
+      "世界史"
+    ],
+    "description": "On September 28, 1918, two hundred thousand Philadelphians gathered for a Liberty Loan parade as influenza silently spread through the Navy Yard. Public health director Wilmer Krusen refused to cancel the event, and within days, hospitals collapsed. By mid-October, four thousand people died in a single week. Coffins vanished; seminarians and prisoners dug trench graves in Potter’s Field while nurses and volunteers sustained a paralyzed city. Drawing on Board of Health minutes, mortality returns, and personal letters, this narrative reconstructs the catastrophe through the records of those who endured it. Where official accounts contradict lived memory, the evidence speaks for itself. From the fevered wards to the undertaker’s receipts and the Blue Commission hearings, The Parade traces how civic pride collided with biological reality. It is a story of administrative failure and communal resilience, documenting the precise moment normalcy became fatal and revealing how a major American city survived its darkest autumn.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T10:06:27.992Z"
+    },
+    "coverUrl": "books/proj-mu6ezvip0ds/releases/rel_20260918100920533_f3d73c7c73/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6ezvip0ds/index.html",
+    "publishedAt": "2026-09-18T10:09:20.538Z",
+    "firstPublishedAt": "2026-09-18T10:09:20.538Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6e9rwoize",
     "projectId": "proj-mu6e9rwoize",
     "releaseId": "rel_20260918131958119_bf465e0a4b",
@@ -277,41 +312,6 @@
     "url": "books/proj-mu6efdyq9wl/index.html",
     "publishedAt": "2026-09-18T10:48:55.655Z",
     "firstPublishedAt": "2026-09-18T10:48:55.655Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu6ezvip0ds",
-    "projectId": "proj-mu6ezvip0ds",
-    "releaseId": "rel_20260918100920533_f3d73c7c73",
-    "title": "The Parade",
-    "subtitle": "Philadelphia, the Liberty Loan Parade, and the Deadliest Week in American History",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "1918 Influenza",
-      "Philadelphia History",
-      "Public Health",
-      "Narrative Nonfiction",
-      "Epidemics",
-      "世界史"
-    ],
-    "description": "On September 28, 1918, two hundred thousand Philadelphians gathered for a Liberty Loan parade as influenza silently spread through the Navy Yard. Public health director Wilmer Krusen refused to cancel the event, and within days, hospitals collapsed. By mid-October, four thousand people died in a single week. Coffins vanished; seminarians and prisoners dug trench graves in Potter’s Field while nurses and volunteers sustained a paralyzed city. Drawing on Board of Health minutes, mortality returns, and personal letters, this narrative reconstructs the catastrophe through the records of those who endured it. Where official accounts contradict lived memory, the evidence speaks for itself. From the fevered wards to the undertaker’s receipts and the Blue Commission hearings, The Parade traces how civic pride collided with biological reality. It is a story of administrative failure and communal resilience, documenting the precise moment normalcy became fatal and revealing how a major American city survived its darkest autumn.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 88,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T10:06:27.992Z"
-    },
-    "coverUrl": "books/proj-mu6ezvip0ds/releases/rel_20260918100920533_f3d73c7c73/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu6ezvip0ds/index.html",
-    "publishedAt": "2026-09-18T10:09:20.538Z",
-    "firstPublishedAt": "2026-09-18T10:09:20.538Z",
     "visibility": "public"
   },
   {
