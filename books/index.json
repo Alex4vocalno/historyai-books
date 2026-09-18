@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6f32c1gig",
+    "projectId": "proj-mu6f32c1gig",
+    "releaseId": "rel_20260918141838457_49622050ad",
+    "title": "Pudding Lane",
+    "subtitle": "The Great Fire of London, Hour by Hour",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Great Fire of London",
+      "Stuart England",
+      "Samuel Pepys",
+      "Urban History",
+      "Christopher Wren",
+      "17th Century"
+    ],
+    "description": "In the early hours of September 2, 1666, a spark in Thomas Farriner’s Pudding Lane bakehouse ignited a catastrophe that consumed medieval London. This narrative reconstructs the inferno through the eyes of those who endured it, drawing directly from the diaries of Samuel Pepys and John Evelyn, parliamentary inquiries, and Fire Court records. From Lord Mayor Bloodworth’s fatal hesitation to Charles II directing firebreaks in the streets, every pivotal moment is anchored in verifiable evidence. The account traces the blaze through the collapse of St Paul’s Cathedral, the xenophobic hunt for scapegoats that led to Robert Hubert’s false confession, and the meticulous surveys that preceded Christopher Wren’s rebuilding plans. Where witnesses contradict, the record speaks plainly. This is not merely a chronicle of destruction but a forensic examination of how a city burned and how its survivors navigated the ashes to forge a new metropolis, documented with rigorous precision from the first cry of alarm to the laying of the Monument’s foundation stone.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T14:17:13.392Z"
+    },
+    "coverUrl": "books/proj-mu6f32c1gig/releases/rel_20260918141838457_49622050ad/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6f32c1gig/index.html",
+    "publishedAt": "2026-09-18T14:18:38.461Z",
+    "firstPublishedAt": "2026-09-18T14:18:38.461Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6f3lp3xw7",
     "projectId": "proj-mu6f3lp3xw7",
     "releaseId": "rel_20260918125259879_92e1d41db9",
@@ -277,41 +312,6 @@
     "url": "books/proj-mu6f2l07t6x/index.html",
     "publishedAt": "2026-09-18T14:23:01.885Z",
     "firstPublishedAt": "2026-09-18T14:23:01.885Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu6f32c1gig",
-    "projectId": "proj-mu6f32c1gig",
-    "releaseId": "rel_20260918141838457_49622050ad",
-    "title": "Pudding Lane",
-    "subtitle": "The Great Fire of London, Hour by Hour",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Great Fire of London",
-      "Stuart England",
-      "Samuel Pepys",
-      "Urban History",
-      "Christopher Wren",
-      "17th Century"
-    ],
-    "description": "In the early hours of September 2, 1666, a spark in Thomas Farriner’s Pudding Lane bakehouse ignited a catastrophe that consumed medieval London. This narrative reconstructs the inferno through the eyes of those who endured it, drawing directly from the diaries of Samuel Pepys and John Evelyn, parliamentary inquiries, and Fire Court records. From Lord Mayor Bloodworth’s fatal hesitation to Charles II directing firebreaks in the streets, every pivotal moment is anchored in verifiable evidence. The account traces the blaze through the collapse of St Paul’s Cathedral, the xenophobic hunt for scapegoats that led to Robert Hubert’s false confession, and the meticulous surveys that preceded Christopher Wren’s rebuilding plans. Where witnesses contradict, the record speaks plainly. This is not merely a chronicle of destruction but a forensic examination of how a city burned and how its survivors navigated the ashes to forge a new metropolis, documented with rigorous precision from the first cry of alarm to the laying of the Monument’s foundation stone.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 84,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T14:17:13.392Z"
-    },
-    "coverUrl": "books/proj-mu6f32c1gig/releases/rel_20260918141838457_49622050ad/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu6f32c1gig/index.html",
-    "publishedAt": "2026-09-18T14:18:38.461Z",
-    "firstPublishedAt": "2026-09-18T14:18:38.461Z",
     "visibility": "public"
   },
   {
