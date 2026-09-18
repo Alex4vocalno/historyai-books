@@ -5,7 +5,7 @@
   "manuscriptVersionId": "mv_f52fe9c655d33d24",
   "contentHash": "f52fe9c655d33d242c939846197b47464b7423dd97662fef17c7ed3364fa07dd",
   "chapterCount": 28,
-  "generatedAt": "2026-09-18T15:14:06.844Z",
+  "generatedAt": "2026-09-18T15:30:23.752Z",
   "files": [
     {
       "path": "ch-1.html",
@@ -44,8 +44,8 @@
     },
     {
       "path": "ch-16.html",
-      "bytes": 26466,
-      "sha256": "381a531091caf09e7b1bb2221224eb59c5f41309eac057caebc2ef348e08a82c"
+      "bytes": 26478,
+      "sha256": "568f73bc419bad2a3e7b86bcaabbc7f83a7c0741f713c39fea45358bb61dd972"
     },
     {
       "path": "ch-17.html",
@@ -69,8 +69,8 @@
     },
     {
       "path": "ch-20.html",
-      "bytes": 22742,
-      "sha256": "c8197eb30b56664d8d90dfd9388832693c77fb0403e4b454705701ed6b20a419"
+      "bytes": 23366,
+      "sha256": "55f48d2f0287ee0c8151642c43c77fb84ffe0d6b334ddae359c01e8904aaca53"
     },
     {
       "path": "ch-21.html",
@@ -188,9 +188,14 @@
       "sha256": "7fd6f92d8b3eb03d5079c98c7eb70372f12214856004be3821e5615812181bfb"
     },
     {
-      "path": "images/ill_0008-5bbd98e7e319049a.jpg",
-      "bytes": 157824,
-      "sha256": "5bbd98e7e319049a16e927811490e1ada6959a99532ef0de6d87a529c67d5d16"
+      "path": "images/ill_0008-549db54efe848258.jpg",
+      "bytes": 530834,
+      "sha256": "549db54efe848258ee62fb3a5f25d93677d5c2c003a00b957d9b663a9c9de419"
+    },
+    {
+      "path": "images/ill_0010-b78efe23f899cf98.jpg",
+      "bytes": 289016,
+      "sha256": "b78efe23f899cf9835aa9b707491620792e1989b1405500c511e59bdeb482d9a"
     },
     {
       "path": "images/ill_0011-87a55f698df25ef8.jpg",
@@ -209,8 +214,8 @@
     },
     {
       "path": "release.json",
-      "bytes": 6273,
-      "sha256": "3204dfd4b88eedceddb94b7f281d53ce40590e9f358207038729b03d9845b03b"
+      "bytes": 6274,
+      "sha256": "cc1ad53cb8777419c28e8bebc42cce32df043a05b0e7027905d42329d862d5e0"
     }
   ]
 }
