@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918165950691_4ba7e4c12b",
+  "projectId": "proj-mu6f1u5brzt",
+  "manuscriptVersionId": "mv_06d70e7a543fb523",
+  "contentHash": "06d70e7a543fb523625cfe5a1bcc5cdb5a6d48d88d9e8e52347ee0647b251212",
+  "title": "Three Days of Fire",
+  "subtitle": "Earthquake, Fire, and the Forging of Modern San Francisco",
+  "authorDisplayName": "Liszt Think",
+  "description": "At 5:12 a.m. on April 18, 1906, San Francisco shattered. The true catastrophe began moments later when Fire Chief Dennis Sullivan died in the rubble and water mains ruptured, leaving the city defenseless against spreading flames. Over three days, General Frederick Funston’s troops enforced Mayor Eugene Schmitz’s shoot-to-kill order while dynamiting created firebreaks that often fed the inferno consuming Chinatown and Nob Hill. Drawing on army reports, relief ledgers, and survivor letters, this narrative reconstructs the disaster through conflicting official records and firsthand accounts. It traces the chaotic military response, the refugee camps in Golden Gate Park, and the deliberate political decision to rebrand the catastrophe as a fire rather than an earthquake. From the disputed death toll to the unequal rebuilding that followed, every claim is anchored in verifiable evidence. This is not a myth of resilience but a documented reckoning with how a metropolis burned, who survived, and what was sacrificed to raise a new city upon the ashes.",
+  "category": "世界史",
+  "tags": [
+    "San Francisco Earthquake",
+    "Disaster History",
+    "Urban History",
+    "American West",
+    "Narrative Nonfiction",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 85698,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T16:58:50.082Z"
+  },
+  "editorReview": {
+    "text": "This panoramic reconstruction of the 1906 San Francisco disaster meets the demanding standard of its form, achieving a gripping physical immediacy through verifiable sensory and logistical detail, as seen in the precise mechanics of a fire barrier's failure. Its greatest strength lies in how insight emerges from the friction between official records and material evidence, treating the subsequent legal reckoning with the same scene-based discipline as the event itself. However, the narrative's otherwise rigorous timeline stumbles in a key transition between chapters, creating a momentary regres",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T16:59:46.443Z",
+    "textless": false,
+    "profileId": "woodblock-print"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Engineer’s Premonition",
+      "units": 3746
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The City Feeds Itself by Water",
+      "units": 3265
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Sleep of the Plates (Geology Before the Dawn)",
+      "units": 2637
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "2 to His Presence",
+      "units": 2842
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Recorded by the Seismograph",
+      "units": 3455
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Critical Window of Disorganized",
+      "units": 3035
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Municipal Defense Unmade",
+      "units": 3369
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Death of Fire Chief",
+      "units": 3033
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Birth of the First Major",
+      "units": 3162
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Individual Fires Ignited",
+      "units": 3055
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Army Brigadier General Frederick Funston",
+      "units": 3050
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "Isolated in the Damaged Hall",
+      "units": 3060
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Military and Civic",
+      "units": 3011
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Execution and Fraught Outcome",
+      "units": 3032
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "Isolated by Earlier Dynamiting",
+      "units": 3015
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Consolidation and Critical Test",
+      "units": 2662
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Fire Crowns Nob Hill",
+      "units": 2768
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Official After-action Reports from Army",
+      "units": 2919
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The City Under Martial Law",
+      "units": 2791
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "Using Relief Committee Ledgers",
+      "units": 2784
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The First Official Count of the Ruins",
+      "units": 3232
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Earthquake That Did Not Exist",
+      "units": 3072
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "A Canvas City of Twenty Thousand Souls",
+      "units": 3130
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Commission of Forty and the Blueprint",
+      "units": 2901
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Board of Inquiry and the Engineer’s Gavel",
+      "units": 3222
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Indictments and the Unindicted Co-Conspirators",
+      "units": 3104
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "A New City Upon the Ashes, But Not For All",
+      "units": 3150
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Final Reckoning of Facts",
+      "units": 3196
+    }
+  ],
+  "publishedAt": "2026-09-18T16:59:50.696Z"
+}
