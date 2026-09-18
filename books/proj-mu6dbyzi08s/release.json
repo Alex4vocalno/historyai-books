@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918103912676_0559bea0be",
+  "projectId": "proj-mu6dbyzi08s",
+  "manuscriptVersionId": "mv_f52fe9c655d33d24",
+  "contentHash": "f52fe9c655d33d242c939846197b47464b7423dd97662fef17c7ed3364fa07dd",
+  "title": "The Ice Held Them",
+  "subtitle": "Endurance, the Ross Sea Party, and the Imperial Trans-Antarctic Expedition",
+  "authorDisplayName": "Liszt Think",
+  "description": "In January 1915, the Endurance vanished into the Weddell Sea pack ice, trapping twenty-eight men in a crushing white void. For ten months they drifted before the ship sank, forcing a desperate migration across floes and open boats to Elephant Island. While Ernest Shackleton navigated the James Caird eight hundred miles to South Georgia and crossed its uncharted mountains to summon rescue, the Ross Sea party laid depots on the opposite continent for a crossing that never came, losing three men in the process. Reconstructed from ship logs, navigation notes, and conflicting diaries, this narrative reconciles the expedition’s fractured records. It traces every position, temperature, and ration from the ice’s first embrace to the Chilean tug Yelcho’s final rescue, revealing how two separated parties endured catastrophe through precise navigation and sheer will.",
+  "category": "世界史",
+  "tags": [
+    "Antarctic exploration",
+    "Ernest Shackleton",
+    "Endurance expedition",
+    "polar survival",
+    "Ross Sea party",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 100795,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T10:35:56.261Z"
+  },
+  "editorReview": {
+    "text": "This reconstruction of the Endurance ordeal delivers a structurally sound and commendably clear chronicle of the expedition's causal chain—particularly in grounding Shackleton’s ambition in the hard financial ledgers of Chapter 2. Its multi-track structure during the crisis phase effectively conveys the simultaneous struggles of different groups. However, the narrative texture can feel abstract where it should be concrete, with some later chapters drifting into retrospective summary rather than maintaining the gripping, scene-level immediacy established earlier. A more disciplined handling of",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T10:39:08.187Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "A Bridge Too Far",
+      "units": 3676
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Man Who Would Be King",
+      "units": 3118
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "South to the Pack",
+      "units": 4136
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "A Geography of Ice and Light",
+      "units": 3662
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The First Embrace of the Floes",
+      "units": 3553
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The World Contracted to a Ship’s Beam",
+      "units": 3309
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Sun Circle and the Sounding Lead",
+      "units": 3681
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Ice Begins to Speak",
+      "units": 3745
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Death of a Ship",
+      "units": 3401
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Vessel of Salvation",
+      "units": 3540
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Patience Camp on the Drift",
+      "units": 4020
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "Synthesizing the Often-conflicting Diary Entries",
+      "units": 3728
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "Landfall on a Barren Shore",
+      "units": 4253
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Pivotal Relocation",
+      "units": 3675
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Last Order:South Georgia or Nothing",
+      "units": 4323
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Utmost Navigation",
+      "units": 3727
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Storm-Wracked Landfall",
+      "units": 3339
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Inland Sea of Mountains",
+      "units": 3181
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Fourth Rescue Attempt",
+      "units": 3745
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Men Under the Upturned Boats",
+      "units": 3150
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "“Take Me to My Men”",
+      "units": 3413
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Aurora’s Unknowing Race",
+      "units": 3313
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Admiralty’s Quiet Reckoning",
+      "units": 3754
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Ledger of Loss and Return",
+      "units": 3563
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "A Question of Gold and Coal",
+      "units": 2777
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Unforgiving Ice of Memory",
+      "units": 3396
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Receding Horizon",
+      "units": 3688
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "A Defeat That Was a Victory",
+      "units": 3929
+    }
+  ],
+  "publishedAt": "2026-09-18T10:39:12.679Z",
+  "formFamily": "narrative"
+}
