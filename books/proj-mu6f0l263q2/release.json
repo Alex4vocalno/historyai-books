@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918100852738_71d372bc86",
+  "projectId": "proj-mu6f0l263q2",
+  "manuscriptVersionId": "mv_dc7a9914f63d8549",
+  "contentHash": "dc7a9914f63d854919b60f3314f21578bee441e58de4de83f407b4ff533f5082",
+  "title": "Where Is Booth?",
+  "subtitle": "The Twelve-Day Manhunt for John Wilkes Booth",
+  "authorDisplayName": "Liszt Think",
+  "description": "On April 14, 1865, John Wilkes Booth fled Ford’s Theatre into the Maryland night. What followed were twelve days of desperate evasion and relentless pursuit across the Potomac tidewater. This narrative reconstructs the escape hour by hour, from the Navy Yard Bridge to the burning tobacco barn at the Garrett farm. Drawn exclusively from War Department telegrams, reward notices, conspiracy trial testimony, and Booth’s own diary, the account tracks every movement through verifiable records. Where witnesses contradict or evidence gaps exist, the historical record speaks plainly rather than speculating. Beyond the chase lies the aftermath: the cavalry patrol’s lost day, the siege of the Surratt boardinghouse, and Edwin Stanton’s final judgment. This is not a retelling of legend but a forensic examination of the most famous manhunt in American history, grounded entirely in the documents that defined it.",
+  "category": "世界史",
+  "tags": [
+    "Lincoln assassination",
+    "John Wilkes Booth",
+    "American Civil War",
+    "manhunt",
+    "historical true crime",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 79039,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T10:06:55.128Z"
+  },
+  "editorReview": {
+    "text": "This reconstruction of Booth's twelve-day flight achieves a rare physical immediacy, grounding each hour in sensory detail—like the gas lamps lit along Tenth Street—rather than atmospheric adjectives. Its multi-track structure converges with precision, cross-cutting escape, attack, and pursuit at key climaxes. While the post-event analysis maintains concrete anchors, such as the windowless storage room holding Booth's body, some passages drift toward textbook summary, momentarily loosening the narrative's countdown discipline. The overall effect is a panoramic pursuit that meets the form's hig",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T10:08:49.018Z",
+    "textless": false,
+    "profileId": "archival-deep"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The City of Oil Lamps",
+      "units": 2994
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Scream Before the Shot",
+      "units": 2536
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Sergeant at the Navy Yard Bridge",
+      "units": 3296
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Shadow on the Surratt Portrait",
+      "units": 3013
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Samuel Mudd at His Farmhouse",
+      "units": 2490
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Confederate's Oath After Appomattox",
+      "units": 2703
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Price on the President’s Head",
+      "units": 3296
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "After Days of Hiding",
+      "units": 3132
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Refuge at the Garrett Farm",
+      "units": 2611
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Its Core Claim",
+      "units": 2713
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Burning Barn",
+      "units": 3020
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Immediate Aftermath of the Shooting",
+      "units": 2520
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Burden of the Diary",
+      "units": 2847
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Witness from the Hanging Tree",
+      "units": 2835
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Verdict at the Old Arsenal",
+      "units": 2685
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Boot on the Booth Corpse",
+      "units": 2986
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Diary in the Judge Advocate’s Desk",
+      "units": 2954
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Reward and the Informants",
+      "units": 2523
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Cavalry Patrol’s Lost Day",
+      "units": 2717
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Telegraph Orders from Baker’s Office",
+      "units": 2636
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Doctor on the Porch at Dawn",
+      "units": 2971
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Farmhouse As An Evidence Room",
+      "units": 3020
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Cavalry’s Return to Washington",
+      "units": 3052
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Surratt Boardinghouse Siege",
+      "units": 3211
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "Set Primarily Aboard the Ironclad",
+      "units": 2632
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "Opening the Consequences Stage",
+      "units": 2606
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Coffin in the Arsenal Cellar",
+      "units": 2501
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Last Judgment of Edwin Stanton",
+      "units": 2539
+    }
+  ],
+  "publishedAt": "2026-09-18T10:08:52.745Z",
+  "formFamily": "narrative"
+}
