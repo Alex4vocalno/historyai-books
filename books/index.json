@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu7443eb2t6",
+    "projectId": "proj-mu7443eb2t6",
+    "releaseId": "rel_20260918174018461_4fed002cfd",
+    "title": "Nine Doors Down",
+    "subtitle": "A Novella of the 1926 General Strike",
+    "language": "en",
+    "workType": "fiction",
+    "lengthTier": "novel",
+    "authorDisplayName": "Liszt Think",
+    "category": "小说",
+    "tags": [
+      "1926 General Strike",
+      "Bristol",
+      "domestic fiction",
+      "working-class history",
+      "interwar Britain",
+      "Fiction"
+    ],
+    "description": "Nine doors apart on a Bristol terrace, Ada Penrose and Frank Hollis have lived within nodding distance for years. She keeps her widowed father's house exactly as he left it, teaching piano to pupils who can no longer pay. He drives trams, keeps union hours, and minds his own business. When the General Strike halts the trams and empties the streets in May 1926, the distance between them begins to close. Ada's front room draws in Frank's daughter Vi, an eleven-year-old escaping the shouting at number 12. What passes between the houses is not romance but something harder to name: a bag of coal, a borrowed metronome, a misdelivered letter, a wireless set carried down the street so the whole terrace can hear the news together. Over nine days, two guarded adults learn what the other has been carrying—debts, refusals, betrayals, and loyalties unspoken. When the strike ends with nothing won, Ada opens the shutters on the side of the house she had kept dark, and Frank walks past her window on his first shift back without looking in. Both of them know exactly what that costs.",
+    "chapterCount": 19,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 81,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T17:36:43.213Z"
+    },
+    "coverUrl": "books/proj-mu7443eb2t6/releases/rel_20260918174018461_4fed002cfd/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu7443eb2t6/index.html",
+    "publishedAt": "2026-09-18T17:40:18.472Z",
+    "firstPublishedAt": "2026-09-18T17:40:18.472Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6f1u5brzt",
     "projectId": "proj-mu6f1u5brzt",
     "releaseId": "rel_20260918165950691_4ba7e4c12b",

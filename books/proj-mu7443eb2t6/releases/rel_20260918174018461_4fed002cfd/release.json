@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918174018461_4fed002cfd",
+  "projectId": "proj-mu7443eb2t6",
+  "manuscriptVersionId": "mv_2234a0402cf7646e",
+  "contentHash": "2234a0402cf7646ea091da4434ac52d34c8d9d360ab6fca379427e4404642ecc",
+  "title": "Nine Doors Down",
+  "subtitle": "A Novella of the 1926 General Strike",
+  "authorDisplayName": "Liszt Think",
+  "description": "Nine doors apart on a Bristol terrace, Ada Penrose and Frank Hollis have lived within nodding distance for years. She keeps her widowed father's house exactly as he left it, teaching piano to pupils who can no longer pay. He drives trams, keeps union hours, and minds his own business. When the General Strike halts the trams and empties the streets in May 1926, the distance between them begins to close. Ada's front room draws in Frank's daughter Vi, an eleven-year-old escaping the shouting at number 12. What passes between the houses is not romance but something harder to name: a bag of coal, a borrowed metronome, a misdelivered letter, a wireless set carried down the street so the whole terrace can hear the news together. Over nine days, two guarded adults learn what the other has been carrying—debts, refusals, betrayals, and loyalties unspoken. When the strike ends with nothing won, Ada opens the shutters on the side of the house she had kept dark, and Frank walks past her window on his first shift back without looking in. Both of them know exactly what that costs.",
+  "category": "小说",
+  "tags": [
+    "1926 General Strike",
+    "Bristol",
+    "domestic fiction",
+    "working-class history",
+    "interwar Britain",
+    "Fiction"
+  ],
+  "language": "en",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 50410,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 81,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T17:36:43.213Z"
+  },
+  "editorReview": {
+    "text": "Daniel Mason renders Ada Penrose’s isolation with exquisite tactile precision—the air in her father's house smelling always of lemon polish and sealed envelopes, her thumb physically halting the pendulum of a metronome. These accumulated details build a central relationship of quiet, undeniable weight. However, the novel's restraint occasionally becomes its own trap. The narrative stasis during the strike’s second week mirrors the characters' waiting too closely, testing the reader's patience rather than earning it. Furthermore, while Ada is fully realized, Frank Hollis remains gestural, defin",
+    "penName": "疏影",
+    "title": "Fiction Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T17:40:10.874Z",
+    "textless": false,
+    "profileId": "fiction-romance-intimate"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Halted Metronome",
+      "units": 2188
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Empty Coal Scuttle",
+      "units": 2614
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Silent Piano",
+      "units": 2906
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "Neighbourhood Calculus",
+      "units": 2131
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Unpaid Request",
+      "units": 2201
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Inside a Still and Quiet Room",
+      "units": 2052
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Wound, Waiting",
+      "units": 2178
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The First Note",
+      "units": 3196
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "Hollis Raises His Hand",
+      "units": 2717
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Scales and Silence",
+      "units": 2429
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Sparks over Coals",
+      "units": 2866
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "Delivering Kindness, Expecting Nothing",
+      "units": 2729
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "Unspoken Accounts",
+      "units": 2370
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Mother's Absence",
+      "units": 2892
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Broken Rule",
+      "units": 2845
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Distant Bell",
+      "units": 3179
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "Strike Called Off",
+      "units": 4362
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Harmony Before the Return",
+      "units": 2392
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Open Shutter",
+      "units": 2163
+    }
+  ],
+  "publishedAt": "2026-09-18T17:40:18.472Z"
+}
