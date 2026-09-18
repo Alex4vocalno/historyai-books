@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918142301878_3436f66187",
+  "projectId": "proj-mu6f2l07t6x",
+  "manuscriptVersionId": "mv_e676b9f92ad96da4",
+  "contentHash": "e676b9f92ad96da44c8334b67e94b6ecb1452653560aa856a89179824c34031d",
+  "title": "A Ton of Goods",
+  "subtitle": "Ledgers, Law, and the Klondike Gold Rush",
+  "authorDisplayName": "Liszt Think",
+  "description": "In July 1897, the steamers Excelsior and Portland docked with a ton of gold, igniting a stampede that would test the limits of human endurance and bureaucratic order. This narrative history reconstructs the Klondike rush not through myth, but through the meticulous records of the North-West Mounted Police, customs manifests, and stampeders’ diaries. From Sam Steele’s uncompromising mandate that every prospector carry a ton of goods to Soapy Smith’s violent reign in Skagway, the story unfolds via checkable evidence. Witness the Palm Sunday avalanche, the boat-building frenzy at Lake Bennett, and the merchants who profited without panning. Where witnesses contradict, the record speaks plainly. This is the gold rush stripped of legend and restored to its documented reality: a saga of fortune, lawlessness, and survival measured in ledgers, claim records, and the final tally of those who stayed and those who fled to Nome.",
+  "category": "世界史",
+  "tags": [
+    "Klondike Gold Rush",
+    "North-West Mounted Police",
+    "Canadian History",
+    "Yukon Territory",
+    "Narrative Nonfiction",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 94594,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T14:21:19.084Z"
+  },
+  "editorReview": {
+    "text": "This panoramic reconstruction of the Klondike gold rush is distinguished by its rigorous, ground-level perspective. The narrative’s immediacy is compelling, built not on myth but on the verifiable physical details of ledgers, logistics, and daily survival—from the price of a single egg to the temperature of ink. Its three-track structure, cutting between the Mounted Police, the stampeders, and the Hän people, powerfully supports the central argument of the rush as a state-managed economic engine. However, the book's otherwise disciplined countdown structure is marred by a jarring timeline regr",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T14:22:57.253Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Land of the Midnight Sun (pre-1896)",
+      "units": 3093
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Prospector’s Map",
+      "units": 2944
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Winter of the Secret",
+      "units": 3380
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Law of the Trail",
+      "units": 2957
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Portland’s Manifest",
+      "units": 3859
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Ton of Goods",
+      "units": 4364
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Siege of the Scales",
+      "units": 3787
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Kingdom of the Pack Train",
+      "units": 4191
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The First Settled Consequence",
+      "units": 3388
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Long Wait on the Ice",
+      "units": 3619
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Sawdust and the Nail",
+      "units": 3820
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Avalanche on the Summit",
+      "units": 3175
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Breaking of the Ice",
+      "units": 3140
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The City of Canvas and Sawdust",
+      "units": 3444
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Ledger of the Creeks",
+      "units": 3558
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The King of Skagway",
+      "units": 2935
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Shootout on the Juneau Wharf",
+      "units": 3344
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Exodus to the Beach",
+      "units": 3130
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Ledger of the Merchants",
+      "units": 3406
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Women of the Dance Halls",
+      "units": 3235
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Mounted Police Reckoning",
+      "units": 3502
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Last Boat Down the River",
+      "units": 3624
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Mounted Police’s Final Tally",
+      "units": 3396
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Empty Bunkhouses of the Creeks",
+      "units": 3051
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Inquiry at the Barracks",
+      "units": 2499
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Last Claim on Eldorado",
+      "units": 3548
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Reckoning of the River",
+      "units": 2761
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Final Balance of the Ledger",
+      "units": 3444
+    }
+  ],
+  "publishedAt": "2026-09-18T14:23:01.885Z"
+}
