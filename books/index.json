@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6yz2ngrr4",
+    "projectId": "proj-mu6yz2ngrr4",
+    "releaseId": "rel_20260918150809677_a6477ada03",
+    "title": "The Tide Clerk",
+    "subtitle": "A Mystery of the Cornish Harbour, 1923",
+    "language": "en",
+    "workType": "fiction",
+    "lengthTier": "novel",
+    "authorDisplayName": "Liszt Think",
+    "category": "小说",
+    "tags": [
+      "historical mystery",
+      "Cornwall",
+      "1920s",
+      "closed-circle",
+      "fair-play",
+      "Fiction"
+    ],
+    "description": "On the morning after the spring tide, Captain Silas Trewin is found dead at the foot of the lock steps. The coroner calls it a fall in the dark. But Evelyn Marsh, the harbour board's tide clerk, notices what the inquest ignores: the lock gate was opened twice in the night, and only once was logged. Every clue is a document or an object the reader sees alongside her—a stopped pocket-watch, a wet coat, a receipt, the tide tables themselves. The solution turns on the tide alone: the precise time at which a body dropped from the steps would have been carried where it was found. Evelyn works it out from her own ledgers while being quietly squeezed out of her post. A fair-play mystery where the sea itself is the final witness.",
+    "chapterCount": 19,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T15:07:00.033Z"
+    },
+    "coverUrl": "books/proj-mu6yz2ngrr4/releases/rel_20260918150809677_a6477ada03/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6yz2ngrr4/index.html",
+    "publishedAt": "2026-09-18T15:08:09.680Z",
+    "firstPublishedAt": "2026-09-18T15:08:09.680Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6f2l07t6x",
     "projectId": "proj-mu6f2l07t6x",
     "releaseId": "rel_20260918142301878_3436f66187",
