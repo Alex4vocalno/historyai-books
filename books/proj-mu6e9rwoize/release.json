@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918131958119_bf465e0a4b",
+  "projectId": "proj-mu6e9rwoize",
+  "manuscriptVersionId": "mv_5d01d4b52b5267ca",
+  "contentHash": "5d01d4b52b5267caca3656b4223f8e1abe5306e956e29444abc703a0f681f7c0",
+  "title": "Eleven Miles from One Ton",
+  "subtitle": "Scott, Amundsen, and the Fatal Margin on the Antarctic Barrier",
+  "authorDisplayName": "Liszt Think",
+  "description": "On January 17, 1912, Robert Falcon Scott reached the South Pole only to find Roald Amundsen’s Norwegian flag already planted. The return journey became a catastrophe of exhaustion and cold, ending with five men dead just eleven miles from One Ton Depot. This narrative history reconstructs the Terra Nova expedition through the raw evidence of journals, meteorological logs, and sledging records. From the motor sledge failures and pony slaughter to the harrowing winter journey for emperor penguin eggs, every decision is weighed against primary sources. Where diaries conflict or historians dispute leadership choices, the record speaks plainly. Beyond the fatal march, the story follows the search party that discovered the tent and the inquiry that assessed the tragedy. Stripped of myth, this account presents the British Antarctic Expedition as a sequence of verifiable moments—temperatures, rations, distances, and names—that defined both scientific achievement and ultimate loss.",
+  "category": "世界史",
+  "tags": [
+    "Antarctic exploration",
+    "Robert Falcon Scott",
+    "polar history",
+    "Terra Nova expedition",
+    "survival narrative",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 87051,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T13:16:59.696Z"
+  },
+  "editorReview": {
+    "text": "This reconstruction of Scott's fatal polar journey excels in its disciplined, multi-track structure and its ability to build a compelling causal argument from stark material realities—like the weight of coal or a man's hand swelling inside a mitten. The narrative's physical detail generates a powerful sense of presence. However, the immersive effect is occasionally broken by textbook-like intrusions that explain rather than show, and some transitions rely on an overly aerial, summarizing voice where grounded scene-setting would serve the tragedy better. Once these stylistic elements are honed,",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T13:19:53.739Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "Terra Nova Leaves Cardiff",
+      "units": 3191
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Rival’s Telegram",
+      "units": 3043
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Ice Dock at Cape Evans",
+      "units": 2770
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Machinery of Hope",
+      "units": 2714
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The First Depot Lies Unmarked",
+      "units": 3347
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Winter Quarters of the Mind",
+      "units": 3687
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Winter of Companionship",
+      "units": 2939
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Second Depot and the Mounted Sledge",
+      "units": 3014
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Emperor Penguins’ Fortress",
+      "units": 3282
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Launch of Scott’s Final",
+      "units": 3377
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Motor Sledges Fall Silent",
+      "units": 3499
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Slaughter of the Ponies",
+      "units": 2709
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Upper Glacier Depots",
+      "units": 2514
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Summit and the Norwegian Flag",
+      "units": 3772
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The First Death on the Return",
+      "units": 3043
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Excruciating Descent",
+      "units": 3389
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Sacrifice at Latitude 79° 50' S",
+      "units": 3110
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Last Camp Eleven Miles North",
+      "units": 3019
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Record in the Diary",
+      "units": 2880
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Search Party Sets Forth",
+      "units": 3138
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Tent on the Barrier",
+      "units": 3172
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Documents Recovered from the Tent",
+      "units": 2486
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Burden of Notification",
+      "units": 3320
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Last Sledges of the Season",
+      "units": 2737
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Laboratory After the Fire",
+      "units": 3747
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Arrival of the Terra Nova",
+      "units": 2791
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Mersey Inquiry and Its Silent Witnesses",
+      "units": 2957
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Final Ledger and the Empty Place",
+      "units": 3404
+    }
+  ],
+  "publishedAt": "2026-09-18T13:19:58.123Z",
+  "formFamily": "narrative"
+}
