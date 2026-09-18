@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918155352145_a2c1f36f06",
+  "projectId": "proj-mu6f1b85dxo",
+  "manuscriptVersionId": "mv_a981e057b9be0006",
+  "contentHash": "a981e057b9be0006e395bbadc83e7783d5e7956c7e2c8a39e3f4f43a66225963",
+  "title": "Erebus and Terror",
+  "subtitle": "The Search for Franklin and the Evidence of the Ice",
+  "authorDisplayName": "Liszt Think",
+  "description": "In May 1845, HMS Erebus and HMS Terror sailed into Baffin Bay and vanished. What followed was the most extensive search in maritime history, driven by Admiralty orders, Lady Jane Franklin’s relentless campaigns, and the controversial testimony of Inuit witnesses. This narrative reconstructs the decades-long quest through the documents that defined it: journals, official reports, and the Victory Point record. From John Rae’s scandalous 1854 revelations to Francis Leopold McClintock’s discovery of skeletons on King William Island, every turn relies on verifiable evidence rather than speculation. Where accounts contradict, the record speaks for itself. The story extends beyond Victorian tragedy to the 2014 and 2016 sonar surveys that finally located the wrecks. A meticulous chronicle of obsession, protocol, and forensic discovery, this history lets the primary sources reveal how an empire grappled with loss and how modern archaeology completed the circle of testimony begun on the frozen sea.",
+  "category": "世界史",
+  "tags": [
+    "Franklin Expedition",
+    "Arctic Exploration",
+    "Maritime History",
+    "Victorian Britain",
+    "Historical Archaeology",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 83869,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T15:52:17.267Z"
+  },
+  "editorReview": {
+    "text": "This is a formidable reconstruction of the Franklin search, distinguished by its incisive argument and grounding in tangible detail. The narrative is most compelling when it anchors its institutional critique in the physical world—the kerosene-tainted pemmican, the canvas-wrapped bones—creating a powerful sense of immediacy. However, the book's structural discipline falters in its final act. The promised, urgent chronology gives way to a more retrospective, essayistic mode, shifting from a scene-driven reckoning to a static, museum-like perspective that distances the reader from the event's ra",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T15:53:48.597Z",
+    "textless": false,
+    "profileId": "chronicle-panorama"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Sounding Line and the Chart",
+      "units": 3144
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "A Distant and Frozen Sea",
+      "units": 3061
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Machinery of Unease",
+      "units": 2789
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Comfort of Protocol",
+      "units": 3552
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The First Mark on the Map",
+      "units": 2553
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Lady’s Memorandum",
+      "units": 2580
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Twelve Coats on the Rocks",
+      "units": 2433
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Disgrace of the Mess",
+      "units": 3066
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Purchase of the Fox",
+      "units": 3076
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "A Sled on the Horizon",
+      "units": 3010
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Seal-Skin Boots",
+      "units": 2761
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Cairn at Point Victory",
+      "units": 2979
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Boat on the Stony Beach",
+      "units": 3065
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Sledges Turn for Home",
+      "units": 3196
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Admiralty Weighs the Relics",
+      "units": 3022
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Captain’s Private Papers",
+      "units": 3032
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Surveyor’s Doubt",
+      "units": 2859
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Echo on the Sonar",
+      "units": 2623
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Unbroken Circle of Testimony",
+      "units": 3224
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Silence of the Ice",
+      "units": 2478
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "A Shadow on the Sonar",
+      "units": 3079
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Cabinet in the Quarter Gallery",
+      "units": 3030
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Bell from the Wreck",
+      "units": 3065
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Bones in the Sediment",
+      "units": 2786
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Report on the Table",
+      "units": 3029
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Name on the Land",
+      "units": 3160
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Reckoning of the Ledger",
+      "units": 3518
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Letter in the Glass Case",
+      "units": 3699
+    }
+  ],
+  "publishedAt": "2026-09-18T15:53:52.148Z",
+  "formFamily": "narrative"
+}
