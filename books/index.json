@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6dbyzi08s",
+    "projectId": "proj-mu6dbyzi08s",
+    "releaseId": "rel_20260918103912676_0559bea0be",
+    "title": "The Ice Held Them",
+    "subtitle": "Endurance, the Ross Sea Party, and the Imperial Trans-Antarctic Expedition",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Antarctic exploration",
+      "Ernest Shackleton",
+      "Endurance expedition",
+      "polar survival",
+      "Ross Sea party",
+      "世界史"
+    ],
+    "description": "In January 1915, the Endurance vanished into the Weddell Sea pack ice, trapping twenty-eight men in a crushing white void. For ten months they drifted before the ship sank, forcing a desperate migration across floes and open boats to Elephant Island. While Ernest Shackleton navigated the James Caird eight hundred miles to South Georgia and crossed its uncharted mountains to summon rescue, the Ross Sea party laid depots on the opposite continent for a crossing that never came, losing three men in the process. Reconstructed from ship logs, navigation notes, and conflicting diaries, this narrative reconciles the expedition’s fractured records. It traces every position, temperature, and ration from the ice’s first embrace to the Chilean tug Yelcho’s final rescue, revealing how two separated parties endured catastrophe through precise navigation and sheer will.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T10:35:56.261Z"
+    },
+    "coverUrl": "books/proj-mu6dbyzi08s/releases/rel_20260918103912676_0559bea0be/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6dbyzi08s/index.html",
+    "publishedAt": "2026-09-18T10:39:12.679Z",
+    "firstPublishedAt": "2026-09-18T10:39:12.679Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6f0l263q2",
     "projectId": "proj-mu6f0l263q2",
     "releaseId": "rel_20260918100852738_71d372bc86",
@@ -207,41 +242,6 @@
     "url": "books/proj-mu6efdyq9wl/index.html",
     "publishedAt": "2026-09-18T10:48:55.655Z",
     "firstPublishedAt": "2026-09-18T10:48:55.655Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu6dbyzi08s",
-    "projectId": "proj-mu6dbyzi08s",
-    "releaseId": "rel_20260918103912676_0559bea0be",
-    "title": "The Ice Held Them",
-    "subtitle": "Endurance, the Ross Sea Party, and the Imperial Trans-Antarctic Expedition",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Antarctic exploration",
-      "Ernest Shackleton",
-      "Endurance expedition",
-      "polar survival",
-      "Ross Sea party",
-      "世界史"
-    ],
-    "description": "In January 1915, the Endurance vanished into the Weddell Sea pack ice, trapping twenty-eight men in a crushing white void. For ten months they drifted before the ship sank, forcing a desperate migration across floes and open boats to Elephant Island. While Ernest Shackleton navigated the James Caird eight hundred miles to South Georgia and crossed its uncharted mountains to summon rescue, the Ross Sea party laid depots on the opposite continent for a crossing that never came, losing three men in the process. Reconstructed from ship logs, navigation notes, and conflicting diaries, this narrative reconciles the expedition’s fractured records. It traces every position, temperature, and ration from the ice’s first embrace to the Chilean tug Yelcho’s final rescue, revealing how two separated parties endured catastrophe through precise navigation and sheer will.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T10:35:56.261Z"
-    },
-    "coverUrl": "books/proj-mu6dbyzi08s/releases/rel_20260918103912676_0559bea0be/cover.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu6dbyzi08s/index.html",
-    "publishedAt": "2026-09-18T10:39:12.679Z",
-    "firstPublishedAt": "2026-09-18T10:39:12.679Z",
     "visibility": "public"
   },
   {
