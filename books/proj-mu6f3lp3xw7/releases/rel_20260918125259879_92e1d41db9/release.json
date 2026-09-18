@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918125259879_92e1d41db9",
+  "projectId": "proj-mu6f3lp3xw7",
+  "manuscriptVersionId": "mv_01c0622830e1bba1",
+  "contentHash": "01c0622830e1bba1994f77190fb756041fafa7345265567ac2f3dedfe281abed",
+  "title": "Eighteen Minutes",
+  "subtitle": "The Sinking of the Lusitania and the Eighteen Minutes That Changed the World",
+  "authorDisplayName": "Liszt Think",
+  "description": "On May 7, 1915, a single torpedo from U-20 struck the Lusitania off the Old Head of Kinsale. In just eighteen minutes, the world’s most famous liner vanished beneath the waves, taking hundreds with her and igniting a diplomatic crisis that would draw America toward war. This narrative reconstructs those fatal moments through survivor testimony, Captain Walther Schwieger’s war diary, and secret Admiralty intercepts from Room 40. It examines the unlaunched lifeboats, the disputed cargo of rifle cartridges, and the Mersey inquiry that cleared Captain William Turner while concealing British intelligence failures. Moving from New York piers to Queenstown sheds and Washington cable rooms, this account reconciles conflicting records to reveal how a maritime catastrophe became a geopolitical turning point. Every detail is anchored in primary sources, exposing where official narratives diverged from lived experience and how the tragedy’s true history was shaped by wartime secrecy.",
+  "category": "世界史",
+  "tags": [
+    "Lusitania",
+    "World War I",
+    "Maritime History",
+    "Naval Warfare",
+    "Diplomatic History",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 91291,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T12:48:59.141Z"
+  },
+  "editorReview": {
+    "text": "This meticulous reconstruction of the Lusitania disaster excels in its physical immediacy, particularly in Chapter 14's chilling use of hydrographic data and mechanical detail to ground the horror. The narrative's strength lies in such concrete juxtapositions, like the Cunard ad beside the German warning, which powerfully embodies the era's fatal contradictions. However, the otherwise gripping countdown structure occasionally falters after the sinking, slipping into retrospective summary where the scene-by-scene urgency is most needed. While the timeline is rigorously stamped throughout, some",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T12:52:54.542Z",
+    "textless": false,
+    "profileId": "chronicle-panorama"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Queen of the Atlantic",
+      "units": 3086
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "A Notice in the Newspapers",
+      "units": 3333
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "Captain Turner’s Orders",
+      "units": 3516
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Submarine’s Patrol",
+      "units": 4105
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Crossing",
+      "units": 3583
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Aboard the Lusitania",
+      "units": 2873
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Torpedo’s Track (2:10 p.m., 7 May 1915)",
+      "units": 2615
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Roar from Within",
+      "units": 2657
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Doors That Would Not Close",
+      "units": 3224
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Historical Content",
+      "units": 2914
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Last Rail",
+      "units": 3097
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Woman in the Water",
+      "units": 3438
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Boats That Would Not Launch",
+      "units": 3000
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Cold That Seized the Chest",
+      "units": 3069
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Submarine's Departure",
+      "units": 3014
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The First Boats to Queenstown (Afternoon, 7 May 1915)",
+      "units": 2986
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Sheds at Queenstown",
+      "units": 3247
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The First Cables to Washington",
+      "units": 4210
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Admiralty’s Silent Knowledge",
+      "units": 3185
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Cargo in Hold Number Four",
+      "units": 3915
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Names on the Pier",
+      "units": 2997
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Captain’s Defense",
+      "units": 3295
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Court in the Westminster Hotel",
+      "units": 3895
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The First Note from Washington",
+      "units": 2933
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The German Reply",
+      "units": 2902
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Secretary’s Resignation",
+      "units": 3195
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "Lord Mersey’s Final Report",
+      "units": 3583
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Last Reckoning",
+      "units": 3424
+    }
+  ],
+  "publishedAt": "2026-09-18T12:52:59.884Z"
+}

@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6f3lp3xw7",
+    "projectId": "proj-mu6f3lp3xw7",
+    "releaseId": "rel_20260918125259879_92e1d41db9",
+    "title": "Eighteen Minutes",
+    "subtitle": "The Sinking of the Lusitania and the Eighteen Minutes That Changed the World",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Lusitania",
+      "World War I",
+      "Maritime History",
+      "Naval Warfare",
+      "Diplomatic History",
+      "世界史"
+    ],
+    "description": "On May 7, 1915, a single torpedo from U-20 struck the Lusitania off the Old Head of Kinsale. In just eighteen minutes, the world’s most famous liner vanished beneath the waves, taking hundreds with her and igniting a diplomatic crisis that would draw America toward war. This narrative reconstructs those fatal moments through survivor testimony, Captain Walther Schwieger’s war diary, and secret Admiralty intercepts from Room 40. It examines the unlaunched lifeboats, the disputed cargo of rifle cartridges, and the Mersey inquiry that cleared Captain William Turner while concealing British intelligence failures. Moving from New York piers to Queenstown sheds and Washington cable rooms, this account reconciles conflicting records to reveal how a maritime catastrophe became a geopolitical turning point. Every detail is anchored in primary sources, exposing where official narratives diverged from lived experience and how the tragedy’s true history was shaped by wartime secrecy.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T12:48:59.141Z"
+    },
+    "coverUrl": "books/proj-mu6f3lp3xw7/releases/rel_20260918125259879_92e1d41db9/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6f3lp3xw7/index.html",
+    "publishedAt": "2026-09-18T12:52:59.884Z",
+    "firstPublishedAt": "2026-09-18T12:52:59.884Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6efdyq9wl",
     "projectId": "proj-mu6efdyq9wl",
     "releaseId": "rel_20260918104855650_0365cbe1aa",
