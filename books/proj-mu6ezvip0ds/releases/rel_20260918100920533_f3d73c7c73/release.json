@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260918100920533_f3d73c7c73",
+  "projectId": "proj-mu6ezvip0ds",
+  "manuscriptVersionId": "mv_78c982b62fa9eab8",
+  "contentHash": "78c982b62fa9eab8aab9be956a2cf3cc8d6e9aa27299feeae4d440e55f8bc42f",
+  "title": "The Parade",
+  "subtitle": "Philadelphia, the Liberty Loan Parade, and the Deadliest Week in American History",
+  "authorDisplayName": "Liszt Think",
+  "description": "On September 28, 1918, two hundred thousand Philadelphians gathered for a Liberty Loan parade as influenza silently spread through the Navy Yard. Public health director Wilmer Krusen refused to cancel the event, and within days, hospitals collapsed. By mid-October, four thousand people died in a single week. Coffins vanished; seminarians and prisoners dug trench graves in Potter’s Field while nurses and volunteers sustained a paralyzed city. Drawing on Board of Health minutes, mortality returns, and personal letters, this narrative reconstructs the catastrophe through the records of those who endured it. Where official accounts contradict lived memory, the evidence speaks for itself. From the fevered wards to the undertaker’s receipts and the Blue Commission hearings, The Parade traces how civic pride collided with biological reality. It is a story of administrative failure and communal resilience, documenting the precise moment normalcy became fatal and revealing how a major American city survived its darkest autumn.",
+  "category": "世界史",
+  "tags": [
+    "1918 Influenza",
+    "Philadelphia History",
+    "Public Health",
+    "Narrative Nonfiction",
+    "Epidemics",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 90780,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T10:06:27.992Z"
+  },
+  "editorReview": {
+    "text": "This is a masterfully constructed chronicle of institutional failure, achieving its impact through a disciplined, multi-track narrative. The author builds a damning case not by editorializing, but by precisely juxtaposing administrative procedure with physical consequence—as in the chilling cross-cut between a sealed mortality report and the reality of overflowing morgues. The civilian perspective, rendered through dated, unadorned actions like a volunteer's soup delivery, provides crucial immediacy. While the prose occasionally suffers from repetitive sentence rhythms, and the post-crisis cha",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T10:09:16.254Z",
+    "textless": false,
+    "profileId": "woodblock-print"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The River City and Its Keepers",
+      "units": 4006
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Shadow in the Ranks",
+      "units": 3039
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Protocol of Normalcy (Mid‑September 1918)",
+      "units": 3112
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Rules on Wilmer Krusen’s Desk",
+      "units": 2446
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Fever at the Navy Yard",
+      "units": 3548
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Decision on the Parade",
+      "units": 3740
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Parade That Knew No Fear",
+      "units": 2922
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The First Empty Beds",
+      "units": 3206
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Director’s Hour of Reckoning",
+      "units": 2575
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Army of the Sick",
+      "units": 2856
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Cellars of Mercy",
+      "units": 3775
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Week of Four Thousand Dead",
+      "units": 3509
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Ship of the Dead",
+      "units": 3353
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Ditch-Diggers of Potter’s Field",
+      "units": 3594
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Volunteers’ Vow",
+      "units": 3084
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Contradiction of Doctor Lewis",
+      "units": 3407
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Surgeon General’s Cipher",
+      "units": 3537
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Silence in the Telegraph Office",
+      "units": 3717
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Receipts of the Undertaker",
+      "units": 2971
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Nurses’ Last Rounds",
+      "units": 4122
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Reckoning on Filbert Street",
+      "units": 2645
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Commissioner’s Apologia",
+      "units": 2811
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Hearing in the State House",
+      "units": 3077
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The City That Worked Again",
+      "units": 3016
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Minutes of the Blue Commission",
+      "units": 2840
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Immunity of the Director",
+      "units": 3006
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Epitaphs in the Annual Report",
+      "units": 3161
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Eleventh Hour at the Navy Yard",
+      "units": 3705
+    }
+  ],
+  "publishedAt": "2026-09-18T10:09:20.538Z"
+}
