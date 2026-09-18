@@ -5,7 +5,7 @@
   "manuscriptVersionId": "mv_78e2bc0697a881d7",
   "contentHash": "78e2bc0697a881d744d58df8b8ea6a08cd46e63d50082312729730740fd6987e",
   "chapterCount": 28,
-  "generatedAt": "2026-09-18T15:29:58.668Z",
+  "generatedAt": "2026-09-18T15:34:10.266Z",
   "files": [
     {
       "path": "ch-1.html",
@@ -59,13 +59,13 @@
     },
     {
       "path": "ch-19.html",
-      "bytes": 27619,
-      "sha256": "dcbfc499ce3662d12986373939d67ae2cb265031f5c65a29583d618c98232d70"
+      "bytes": 27719,
+      "sha256": "3fafdeeb6a60c65f2a7ddc07b91660dd59eaed3e81d85aacccc33151aaec4773"
     },
     {
       "path": "ch-2.html",
-      "bytes": 24705,
-      "sha256": "f38e04fa14b51a83cb3761ca510d9c17edc321f0554aef9517ac5669415333be"
+      "bytes": 24771,
+      "sha256": "4669cdb5bf4630da7491453f76d606e8f7fd6bd7327a231f28106591201247b1"
     },
     {
       "path": "ch-20.html",
@@ -129,8 +129,8 @@
     },
     {
       "path": "ch-6.html",
-      "bytes": 23430,
-      "sha256": "2a2f3973a7fd0b7b406601430e75b39ed30c5f7daab52d76414cc1c4ddc3b622"
+      "bytes": 22823,
+      "sha256": "790cb736f86a381a8a65d6cdb54e1b40e114fec7e5b607c444a079eda259207d"
     },
     {
       "path": "ch-7.html",
@@ -144,8 +144,8 @@
     },
     {
       "path": "ch-9.html",
-      "bytes": 24275,
-      "sha256": "6ff793653e9be40000143183424a0cbe2d0674764e84184a517a06c2ad28ba29"
+      "bytes": 23673,
+      "sha256": "f9d5e1751a2df99e81640590b2de6d5aa34c9b6dcce188430afee2ffc725c7ff"
     },
     {
       "path": "cover.jpg",
@@ -161,16 +161,6 @@
       "path": "images/ill_0002-2bfef37b177e08d5.jpg",
       "bytes": 860201,
       "sha256": "2bfef37b177e08d5aedf1cb29ef00938a31d51fa63e6f419b38590b618ac23af"
-    },
-    {
-      "path": "images/ill_0003-f02fd829a2a931ac.jpg",
-      "bytes": 1086953,
-      "sha256": "f02fd829a2a931ac81a79bc7975fdee2f1f0e74ce835d62efd9440b59bf0b707"
-    },
-    {
-      "path": "images/ill_0004-86914beb4aefdbf9.jpg",
-      "bytes": 516727,
-      "sha256": "86914beb4aefdbf9ab5f2236b4412eef98374b9cb2aac422e0c4f9c67c28b31b"
     },
     {
       "path": "images/ill_0008-8cbfe7d1bad7ab2d.jpg",
@@ -190,7 +180,7 @@
     {
       "path": "release.json",
       "bytes": 6626,
-      "sha256": "88127bf314ca3d65a29889ecf9bfe04497437b843b6ab641ab393c0d8a08aabb"
+      "sha256": "b1f2a162dba9ca68b2eb4f4af09c1102e59f4e4f79618af1897b16164673c7f7"
     }
   ]
 }
