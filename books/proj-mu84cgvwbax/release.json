@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919112448050_a7dac6b941",
+  "projectId": "proj-mu84cgvwbax",
+  "manuscriptVersionId": "mv_ec1032bf27f971b3",
+  "contentHash": "ec1032bf27f971b31242f45da84e20c72e824be393acc766bb511f9985dfb869",
+  "title": "Ninety-Nine Days",
+  "subtitle": "The Great Tea Race of 1866 and the End of the Clipper Era",
+  "authorDisplayName": "Liszt Think",
+  "description": "In May 1866, five clippers departed Foochow within three days, chasing a lucrative premium for the first new-season tea to reach London. What followed was a grueling sprint against the monsoon through the Sunda Strait and across the Indian Ocean, culminating in a finish so close that Ariel and Taeping docked on the same tide to split the prize. Drawing on ship logs, captains’ letters, and Lloyd’s List, this narrative reconstructs the race from the wharves of China to the auction rooms of Limehouse. Beyond the maritime drama lies a story of global commerce, where sailors, tea chests, and speculative capital converged in a final test of sail before the telegraph and steamship rendered such contests obsolete. A vivid chronicle of ambition and seamanship at the twilight of an age.",
+  "category": "世界史",
+  "tags": [
+    "Maritime History",
+    "Tea Trade",
+    "Clipper Ships",
+    "British Empire",
+    "Victorian Commerce",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 91327,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T11:23:03.568Z"
+  },
+  "editorReview": {
+    "text": "This maritime history excels in its rigorous treatment of financial mechanisms, most notably how a specific premium clause is analyzed not as mere anecdote but as a driver of global competition. The causal chain linking technological change to the collapse of an entire shipping model is particularly well-documented and convincing. However, the narrative's immersive power is occasionally undercut by a repetitive prose cadence and a reliance on a single, overused descriptive device ('seen from above'), which can distance the reader from the human drama on deck. It is a work of strong structural",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T11:24:44.492Z",
+    "textless": false,
+    "profileId": "corporate-saga"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Premium and the Min River",
+      "units": 3109
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Logbook’s First Page",
+      "units": 3193
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "Tea, Salt, and Men",
+      "units": 4016
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Wharfside Loading",
+      "units": 3286
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Into the Teeth of the Monsoon",
+      "units": 3055
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Strait as a Funnel",
+      "units": 2783
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Unlike the Geographically Constrained Passages",
+      "units": 3279
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Captain’s Log at Midnight",
+      "units": 3235
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The False Calm Before the Cape",
+      "units": 3564
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Run of the Hunter",
+      "units": 3759
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Depths of the Doldrums",
+      "units": 3198
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The First Lookout’s Cry",
+      "units": 3657
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Balance Sheet of a Race",
+      "units": 2851
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Owners’ Inquest",
+      "units": 2870
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Board of Trade Summons",
+      "units": 3194
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Ruling from Whitehall",
+      "units": 3430
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Shipwright’s Response",
+      "units": 2477
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Last Monsoon Run",
+      "units": 4652
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Invisible Corner of the Ledger",
+      "units": 3015
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Cable That Broke the Monsoon’s Power",
+      "units": 3267
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Last Cargo of Jingdezhen Porcelain",
+      "units": 3298
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Charter Signed in Leadenhall Street",
+      "units": 2564
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Auctioneer’s Hammer Falls at Limehouse",
+      "units": 2751
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The New Master in the Old Captain’s Cabin",
+      "units": 3049
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Printers’ Devils at the Dock Gates",
+      "units": 3215
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Model in the Great Hall",
+      "units": 3839
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Ledger Closes at Lime Street",
+      "units": 2778
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Final Page of the Ship’s Register",
+      "units": 3943
+    }
+  ],
+  "publishedAt": "2026-09-19T11:24:48.054Z",
+  "formFamily": "narrative"
+}
