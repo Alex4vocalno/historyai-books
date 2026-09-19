@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919092054795_bf6f20d8a5",
+  "projectId": "proj-mu7pe7zspzk",
+  "manuscriptVersionId": "mv_c893bd3ba25353b0",
+  "contentHash": "c893bd3ba25353b008cc52a772e1fa93993497f5dc0d7b39fea3804275781868",
+  "title": "Fifty Percent in Ninety Days",
+  "subtitle": "Charles Ponzi, the Boston Post, and the Scheme That Named a Fraud",
+  "authorDisplayName": "Liszt Think",
+  "description": "In 1920, an Italian immigrant clerk in Boston promised to double investments in ninety days through postal reply coupons. Within eight months, Charles Ponzi collected fifteen million dollars from tens of thousands of believers, bought a controlling stake in Hanover Trust Company, and ignited a financial mania that consumed the city. Then the ledger cracked. Drawing on Boston Post reporting, federal indictments, bankruptcy accounts, and Ponzi’s own memoir, this narrative reconstructs the scheme’s dizzying ascent and devastating collapse. From the chaotic runs on School Street to the auditor’s damning tally and the reforms that followed, it captures the depositors who reinvested their winnings, the bankers who looked away, and the journalists who exposed an illusion. More than a biography of fraud, this is a portrait of a city seduced by impossible returns and forced to reckon with the cost of belief.",
+  "category": "世界史",
+  "tags": [
+    "Ponzi scheme",
+    "Boston history",
+    "financial fraud",
+    "1920s America",
+    "investigative journalism",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 84990,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T02:58:18.964Z"
+  },
+  "editorReview": {
+    "text": "This is a business narrative that knows how to make numbers talk. The precise financial figures—a staggering overdraft here, a decisive cash purchase there—are deployed not as decoration but as the very engine of the plot, driving the story forward with tangible force. The author’s commitment to sourcing is equally impressive, grounding pivotal moments like the Hanover Trust run in specific documents and dates, which builds a formidable chain of evidence. However, this rigorous framework is occasionally disrupted by a few mechanical sentence patterns that can momentarily stall the narrative’s",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T09:20:32.640Z",
+    "textless": false,
+    "profileId": "corporate-saga",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "corporate-saga"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Clerk from Lugano",
+      "units": 3051
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Steerage Passenger",
+      "units": 2710
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "Rose of the North End",
+      "units": 3073
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Man Who Could Not Be Fired",
+      "units": 2767
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Circular from Spain",
+      "units": 3022
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The First Dollar from Ettore",
+      "units": 3393
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Run on School Street",
+      "units": 3249
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Controlling Stake",
+      "units": 3015
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Financier’s Doubt",
+      "units": 3190
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Auditor’s Ledger",
+      "units": 2987
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Publisher’s Gamble",
+      "units": 2781
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Bank Examiner’s Knock",
+      "units": 2505
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The District Attorney’s Warrant",
+      "units": 2696
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Wife at the Window",
+      "units": 2794
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Run on Hanover Trust",
+      "units": 3033
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Receivership’s Ledger",
+      "units": 3476
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Indictment’s Language",
+      "units": 2772
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Depositors’ Committee",
+      "units": 2992
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Prisoner’s Bargain",
+      "units": 2892
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The State’s Witness",
+      "units": 3110
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Sentence in Dedham",
+      "units": 3707
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Banker’s Reckoning",
+      "units": 2967
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Auditor’s Final Tally",
+      "units": 3022
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Commissioner’s Report",
+      "units": 3105
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Prisoner’s Appeal",
+      "units": 3335
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Exile’s Return",
+      "units": 2985
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Scheme’s Name",
+      "units": 3263
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Last Dollar and the Last Word",
+      "units": 3098
+    }
+  ],
+  "publishedAt": "2026-09-19T09:20:54.801Z",
+  "formFamily": "narrative"
+}
