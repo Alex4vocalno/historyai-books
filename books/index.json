@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu4ynbc501p",
+    "projectId": "proj-mu4ynbc501p",
+    "releaseId": "rel_20260919035416065_2ccc4f67e1",
+    "title": "The Ledger of Small Hours",
+    "subtitle": "A Mystery of the Manchester Exchange",
+    "language": "en",
+    "workType": "fiction",
+    "lengthTier": "novel",
+    "authorDisplayName": "Liszt Think",
+    "category": "小说",
+    "tags": [
+      "1960s mystery",
+      "Manchester",
+      "telephone exchange",
+      "forgery",
+      "night shift",
+      "historical crime"
+    ],
+    "description": "February 1962, Manchester. In the fluorescent hush of the night-shift telephone exchange, supervisor Ruth Calloway keeps the ledger—a meticulous record of every trunk call logged by minute and line. When a city councillor is found dead and the police demand the records, Ruth spots the impossible: a page has been rewritten in her own handwriting, but not by her hand. Six operators, an engineer, and the councillor's driver all had reasons to want a call to disappear. Someone has forged the record, and the forgery sits in Ruth's ledger, in her script, under her watch. The clues are all on the page—the fault logs, the bus timetables, the silent gaps between connections. No coincidence solves it; the paper does. A close-third mystery where every entry counts and the smallest hours hold the darkest secrets.",
+    "chapterCount": 25,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-3",
+      "createdAt": "2026-09-17T05:43:27.551Z"
+    },
+    "coverUrl": "books/proj-mu4ynbc501p/releases/rel_20260919035416065_2ccc4f67e1/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu4ynbc501p/index.html",
+    "publishedAt": "2026-09-19T03:54:16.069Z",
+    "firstPublishedAt": "2026-09-19T03:54:16.069Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6f1b85dxo",
     "projectId": "proj-mu6f1b85dxo",
     "releaseId": "rel_20260918155352145_a2c1f36f06",
