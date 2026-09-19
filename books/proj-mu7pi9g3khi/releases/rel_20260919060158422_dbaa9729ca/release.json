@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919060158422_dbaa9729ca",
+  "projectId": "proj-mu7pi9g3khi",
+  "manuscriptVersionId": "mv_a2c8f98cdddc56fd",
+  "contentHash": "a2c8f98cdddc56fdbf2b953df0afa0aaf1126d1d8c8bb1d49d2bf62172ab67ec",
+  "title": "The Summer the Capital Emptied",
+  "subtitle": "Yellow Fever, Race, and the Collapse of Philadelphia in 1793",
+  "authorDisplayName": "Liszt Think",
+  "description": "In August 1793, yellow fever struck Philadelphia, then the nation’s capital. Within weeks, George Washington fled and half the city followed. Five thousand died before the first frost. Amid the exodus, Dr. Benjamin Rush bled patients by doctrine while French physician Jean Devèze and merchant Stephen Girard transformed Bush Hill hospital into a sanctuary of practical care. Absalom Jones and Richard Allen led the Free African Society in nursing the sick and burying the dead under a false promise of immunity, only to face public condemnation after the crisis passed. From waterfront wharves to the Committee of Twenty’s ledgers, this narrative reconstructs a city governed by volunteers when federal authority vanished. Drawing on letters, burial returns, and contemporary accounts, it reveals how medical dogma, racial prejudice, and civic duty collided in America’s first great public health catastrophe.",
+  "category": "世界史",
+  "tags": [
+    "yellow fever",
+    "Philadelphia history",
+    "early republic",
+    "public health",
+    "Benjamin Rush",
+    "Free African Society"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 90921,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T06:00:00.095Z"
+  },
+  "editorReview": {
+    "text": "This panoramic reconstruction of Philadelphia's 1793 yellow fever crisis meets the structural demands of the form with commendable discipline. The book excels in laying competing causes—such as Dr. Rush's medical doctrine versus French physician Devèze's contrasting methods—side by side, allowing the documented contradictions to generate genuine insight rather than imposing a reductive synthesis. Its physical detail is often precise and dated, grounding the narrative. However, the historical illusion is occasionally broken, most notably by the reliance on an unnamed source for a key October re",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T06:01:52.438Z",
+    "textless": false,
+    "profileId": "woodblock-print"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Nation’s New Seat of Government",
+      "units": 3892
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "A Philosophy of the Blood and the Bile",
+      "units": 3670
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Coffee-House Exchange and the Waterfront Stench",
+      "units": 4342
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Arrival of the Hankey",
+      "units": 3073
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The First Deaths on Water Street",
+      "units": 3720
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Dr. Rush Recognizes the Enemy",
+      "units": 2848
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Captain’s Declaration and the Mayor’s Inaction",
+      "units": 3353
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Exodus Begins",
+      "units": 3582
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "With the Federal Government Gone",
+      "units": 2713
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Fraught Establishment and Early",
+      "units": 2964
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Society’s Pledge",
+      "units": 2972
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Committee’s Ledger and the Potter’s Field",
+      "units": 3314
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Mercantile Custodian of Bush Hill",
+      "units": 3732
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Dispute Over the French Method",
+      "units": 3315
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Unpaid Account",
+      "units": 2617
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "A Calculus of Volunteers",
+      "units": 2874
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Closed Door and the Marked House",
+      "units": 3891
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Wind from the Northwest",
+      "units": 3329
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Mayor’s Last Appeal",
+      "units": 2565
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The First Cart from Germantown",
+      "units": 3510
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Account of Matthew Carey",
+      "units": 2805
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Judgment Upon the Society",
+      "units": 2985
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Mayor’s Ledger of the Lost",
+      "units": 2583
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Testimony Before the College",
+      "units": 3720
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Narrow Court of Public Opinion",
+      "units": 3724
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Unsettled Debt of Bush Hill",
+      "units": 3166
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The New Calculus of City and Capital",
+      "units": 3062
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Narrative’s Last Reckoning",
+      "units": 2600
+    }
+  ],
+  "publishedAt": "2026-09-19T06:01:58.427Z"
+}
