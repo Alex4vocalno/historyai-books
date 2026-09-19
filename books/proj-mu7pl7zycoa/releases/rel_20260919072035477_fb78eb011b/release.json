@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919072035477_fb78eb011b",
+  "projectId": "proj-mu7pl7zycoa",
+  "manuscriptVersionId": "mv_18d21c427a439171",
+  "contentHash": "18d21c427a4391710f52f3a9cc9f500468841d7c35ff909335be350ad136a180",
+  "title": "Under Berlin",
+  "subtitle": "The Berlin Tunnel, George Blake, and the Cold War's Greatest Intelligence Gamble",
+  "authorDisplayName": "Liszt Think",
+  "description": "In 1955, American and British intelligence tunneled beneath the Berlin border to tap Soviet military cables, capturing a river of secret conversations. Yet before the first shovel struck earth, MI6 officer George Blake had already betrayed the operation to the KGB. For eleven months, Moscow allowed the wiretap to continue, transforming a daring engineering feat into a labyrinth of counterintelligence. Was the tunnel permitted to run solely to protect a valuable double agent, or did the Kremlin use it to feed the West curated disinformation? Drawing on declassified CIA histories, Soviet archives, and memoirs from both sides of the Iron Curtain, this narrative reconstructs the audacious dig, the staged discovery at Altglienicke, and Blake’s eventual reckoning at the Old Bailey. It is a story not just of espionage tradecraft and subterranean engineering, but of the profound uncertainty that defined the Cold War, where every intercepted word carried the weight of calculated silence and enduring doubt.",
+  "category": "世界史",
+  "tags": [
+    "Cold War espionage",
+    "Berlin Tunnel",
+    "George Blake",
+    "CIA history",
+    "intelligence operations",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 99658,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T07:15:58.987Z"
+  },
+  "editorReview": {
+    "text": "This biography of the Berlin spy tunnel is a model of disciplined historical reconstruction. It resists sensationalism, grounding its core argument—that the operation's ultimate value was frustratingly indeterminate—in a meticulous assembly of declassified records rather than narrative imposition. The chronological structure is admirably faithful to its source material, and insights like its analysis of the 'quality of silence' in intercepted traffic are genuinely illuminating. However, the reading experience is occasionally disrupted by unpolished prose, including jarring repetitions across c",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T07:20:31.876Z",
+    "textless": false,
+    "profileId": "warm-humanist",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The City of Wire",
+      "units": 4250
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Man Who Hated Paper",
+      "units": 3672
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "A Service in Exile",
+      "units": 2957
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Mole in the Garden",
+      "units": 3564
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Rudow Blueprint",
+      "units": 3396
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Digging in Secret, Reporting in Plain Sight",
+      "units": 2837
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Cable in the Clay",
+      "units": 2966
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The River of Voices",
+      "units": 3061
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "Moscow’s Calculated Silence",
+      "units": 3491
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Warehouse of Ears",
+      "units": 3198
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Analyst’s Doubt",
+      "units": 3595
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Border Breached",
+      "units": 3279
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Tape Reels in London",
+      "units": 3801
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Quality of the Silence",
+      "units": 3424
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Calculus of Protection",
+      "units": 3190
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Engineers’ Last Walk",
+      "units": 3449
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Press Conference in Karlshorst",
+      "units": 4017
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Beneath This United Front",
+      "units": 4101
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The First Interrogation of George Blake",
+      "units": 3463
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Audit of the River",
+      "units": 3552
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "Harvey’s Reckoning in Berlin",
+      "units": 4038
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Trial at the Old Bailey",
+      "units": 3640
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Silence in Washington and London",
+      "units": 3690
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Engineers’ Verdict",
+      "units": 4469
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Mole’s Last Transmission",
+      "units": 3179
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Empty Warehouse",
+      "units": 3535
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Calculus of Doubt",
+      "units": 4096
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Final Balance Sheet",
+      "units": 3748
+    }
+  ],
+  "publishedAt": "2026-09-19T07:20:35.485Z"
+}
