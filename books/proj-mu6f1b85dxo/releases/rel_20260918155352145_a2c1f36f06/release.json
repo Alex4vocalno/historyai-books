@@ -40,12 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-9882fc93acbd.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-19T03:46:10.089Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "chronicle-panorama"
   },
   "chapters": [
     {
@@ -218,5 +218,5 @@
     }
   ],
   "publishedAt": "2026-09-18T15:53:52.148Z",
-  "rerenderedAt": "2026-09-19T03:46:10.354Z"
+  "rerenderedAt": "2026-09-19T03:46:32.106Z"
 }

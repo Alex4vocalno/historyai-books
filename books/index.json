@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6f1b85dxo",
+    "projectId": "proj-mu6f1b85dxo",
+    "releaseId": "rel_20260918155352145_a2c1f36f06",
+    "title": "Erebus and Terror",
+    "subtitle": "The Search for Franklin and the Evidence of the Ice",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Franklin Expedition",
+      "Arctic Exploration",
+      "Maritime History",
+      "Victorian Britain",
+      "Historical Archaeology",
+      "世界史"
+    ],
+    "description": "In May 1845, HMS Erebus and HMS Terror sailed into Baffin Bay and vanished. What followed was the most extensive search in maritime history, driven by Admiralty orders, Lady Jane Franklin’s relentless campaigns, and the controversial testimony of Inuit witnesses. This narrative reconstructs the decades-long quest through the documents that defined it: journals, official reports, and the Victory Point record. From John Rae’s scandalous 1854 revelations to Francis Leopold McClintock’s discovery of skeletons on King William Island, every turn relies on verifiable evidence rather than speculation. Where accounts contradict, the record speaks for itself. The story extends beyond Victorian tragedy to the 2014 and 2016 sonar surveys that finally located the wrecks. A meticulous chronicle of obsession, protocol, and forensic discovery, this history lets the primary sources reveal how an empire grappled with loss and how modern archaeology completed the circle of testimony begun on the frozen sea.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T15:52:17.267Z"
+    },
+    "coverUrl": "books/proj-mu6f1b85dxo/releases/rel_20260918155352145_a2c1f36f06/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6f1b85dxo/index.html",
+    "publishedAt": "2026-09-18T15:53:52.148Z",
+    "firstPublishedAt": "2026-09-18T15:53:52.148Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu5ks2bjony",
     "projectId": "proj-mu5ks2bjony",
     "releaseId": "rel_20260918023712296_822e294d44",
@@ -32,41 +67,6 @@
     "url": "books/proj-mu5ks2bjony/index.html",
     "publishedAt": "2026-09-18T02:37:12.301Z",
     "firstPublishedAt": "2026-09-18T02:37:12.301Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu6f1b85dxo",
-    "projectId": "proj-mu6f1b85dxo",
-    "releaseId": "rel_20260918155352145_a2c1f36f06",
-    "title": "Erebus and Terror",
-    "subtitle": "The Search for Franklin and the Evidence of the Ice",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Franklin Expedition",
-      "Arctic Exploration",
-      "Maritime History",
-      "Victorian Britain",
-      "Historical Archaeology",
-      "世界史"
-    ],
-    "description": "In May 1845, HMS Erebus and HMS Terror sailed into Baffin Bay and vanished. What followed was the most extensive search in maritime history, driven by Admiralty orders, Lady Jane Franklin’s relentless campaigns, and the controversial testimony of Inuit witnesses. This narrative reconstructs the decades-long quest through the documents that defined it: journals, official reports, and the Victory Point record. From John Rae’s scandalous 1854 revelations to Francis Leopold McClintock’s discovery of skeletons on King William Island, every turn relies on verifiable evidence rather than speculation. Where accounts contradict, the record speaks for itself. The story extends beyond Victorian tragedy to the 2014 and 2016 sonar surveys that finally located the wrecks. A meticulous chronicle of obsession, protocol, and forensic discovery, this history lets the primary sources reveal how an empire grappled with loss and how modern archaeology completed the circle of testimony begun on the frozen sea.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T15:52:17.267Z"
-    },
-    "coverUrl": "books/proj-mu6f1b85dxo/releases/rel_20260918155352145_a2c1f36f06/cover-9882fc93acbd.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu6f1b85dxo/index.html",
-    "publishedAt": "2026-09-18T15:53:52.148Z",
-    "firstPublishedAt": "2026-09-18T15:53:52.148Z",
     "visibility": "public"
   },
   {
