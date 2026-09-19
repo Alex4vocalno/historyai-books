@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919031541413_6dd09c1969",
+  "projectId": "proj-mu7peugg1g6",
+  "manuscriptVersionId": "mv_639497ceafadfd7f",
+  "contentHash": "639497ceafadfd7ffee2995f299173a9016e8c6ed75e1eadbb8fe2bf0ee07224",
+  "title": "Left on the Ice",
+  "subtitle": "The Karluk Disaster and the Canadian Arctic Expedition's Fight for Survival",
+  "authorDisplayName": "Liszt Think",
+  "description": "In August 1913, the Karluk, flagship of the Canadian Arctic Expedition, became trapped in pack ice off Alaska. When leader Vilhjalmur Stefansson departed on a hunting trip, he never returned to the vessel. Captain Robert Bartlett remained as the ship drifted westward for months before being crushed in January 1914. What followed was a harrowing march across shifting floes to Wrangel Island, where two parties vanished and survivors endured starvation and discord. Bartlett and Inuit hunter Kataktovik then undertook a perilous trek across the Chukchi Sea to Siberia to summon aid. Drawn from diaries, expedition records, and official inquiries, this narrative reconstructs the disaster through the eyes of those who lived it. The documents speak for themselves regarding Stefansson’s controversial departure, illuminating a story of endurance, leadership under duress, and the unforgiving reality of polar exploration.",
+  "category": "世界史",
+  "tags": [
+    "Arctic exploration",
+    "maritime disaster",
+    "Canadian history",
+    "survival narrative",
+    "polar expedition",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 88494,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T03:14:13.356Z"
+  },
+  "editorReview": {
+    "text": "This reconstruction of the Karluk disaster meets the form's core demands with a sound multi-track timeline and disciplined post-event chapters that maintain a gripping countdown. The work particularly succeeds in integrating indigenous expertise as structural causation, not exotic color, and grounds its argument in precise physical details—like the hull sounding 'dull' to an inspector's hammer. However, the prose sometimes substitutes analytical summary for scene-level immediacy, and meta-textual phrases can break the documentary illusion, requiring a more sensory presence to fully immerse the",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T03:15:36.804Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Ship and the Plan",
+      "units": 2942
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Leader and the Captain",
+      "units": 3564
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "Into the Gripping Ice",
+      "units": 2599
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Uncharted Territory",
+      "units": 2632
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Stefansson Walks Away",
+      "units": 3039
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "A Ship Without Its Expedition",
+      "units": 2540
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Captain’s First Decision",
+      "units": 3344
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Drift Begins",
+      "units": 3800
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Ice Closes Its Jaws",
+      "units": 3585
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Ship Gives Up the Ghost",
+      "units": 2993
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Camp on the Ice",
+      "units": 3246
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Decision to March",
+      "units": 4414
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The First Party Vanishes",
+      "units": 4075
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Second Party Is Lost",
+      "units": 3048
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "Bartlett and Kataktovik Strike Out Alone",
+      "units": 3272
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Long Wait on Wrangel Island",
+      "units": 3232
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Walk Across the Chukchi Sea",
+      "units": 2887
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Captain Bartlett’s Frantic and Bureaucratic",
+      "units": 3553
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Island’s Summer of Hunger",
+      "units": 3421
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Last Deaths and the Dividing Party",
+      "units": 2717
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Ships on the Horizon",
+      "units": 2481
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Survivors’ Return to Civilization",
+      "units": 3147
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Gathering of Testimony",
+      "units": 2905
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Commission’s Silent Verdict",
+      "units": 3074
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Captain’s Private Reckoning",
+      "units": 3661
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Survivors’ Scattered Fates",
+      "units": 2543
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Expedition’s Hollow Legacy",
+      "units": 2856
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Last Word Belongs to the Ice",
+      "units": 2924
+    }
+  ],
+  "publishedAt": "2026-09-19T03:15:41.418Z",
+  "formFamily": "narrative"
+}
