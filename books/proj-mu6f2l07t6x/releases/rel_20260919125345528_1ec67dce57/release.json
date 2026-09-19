@@ -218,5 +218,165 @@
     }
   ],
   "illustrations": 4,
-  "publishedAt": "2026-09-19T12:53:45.538Z"
+  "publishedAt": "2026-09-19T12:53:45.538Z",
+  "topics": {
+    "entities": [
+      "Klondike",
+      "Dawson City",
+      "Bonanza Creek",
+      "George Carmack",
+      "Skookum Jim",
+      "Chilkoot Pass",
+      "White Pass",
+      "Skagway",
+      "Sam Steele",
+      "Soapy Smith",
+      "Lake Bennett",
+      "Yukon River"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Land of the Midnight Sun (pre-1896)",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "The Prospector’s Map",
+        "asOfYear": 1896
+      },
+      {
+        "n": 3,
+        "title": "The Winter of the Secret",
+        "asOfYear": 1897
+      },
+      {
+        "n": 4,
+        "title": "The Law of the Trail",
+        "asOfYear": 1897
+      },
+      {
+        "n": 5,
+        "title": "The Portland’s Manifest",
+        "asOfYear": 1897
+      },
+      {
+        "n": 6,
+        "title": "The Ton of Goods",
+        "asOfYear": 1897
+      },
+      {
+        "n": 7,
+        "title": "The Siege of the Scales",
+        "asOfYear": 1897
+      },
+      {
+        "n": 8,
+        "title": "The Kingdom of the Pack Train",
+        "asOfYear": 1897
+      },
+      {
+        "n": 9,
+        "title": "The First Settled Consequence",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "The Long Wait on the Ice",
+        "asOfYear": 1898
+      },
+      {
+        "n": 11,
+        "title": "The Sawdust and the Nail",
+        "asOfYear": 1898
+      },
+      {
+        "n": 12,
+        "title": "The Avalanche on the Summit",
+        "asOfYear": 1898
+      },
+      {
+        "n": 13,
+        "title": "The Breaking of the Ice",
+        "asOfYear": 1898
+      },
+      {
+        "n": 14,
+        "title": "The City of Canvas and Sawdust",
+        "asOfYear": 1898
+      },
+      {
+        "n": 15,
+        "title": "The Ledger of the Creeks",
+        "asOfYear": 1898
+      },
+      {
+        "n": 16,
+        "title": "The King of Skagway",
+        "asOfYear": 1898
+      },
+      {
+        "n": 17,
+        "title": "The Shootout on the Juneau Wharf",
+        "asOfYear": 1898
+      },
+      {
+        "n": 18,
+        "title": "The Exodus to the Beach",
+        "asOfYear": 1899
+      },
+      {
+        "n": 19,
+        "title": "The Ledger of the Merchants",
+        "asOfYear": 1899
+      },
+      {
+        "n": 20,
+        "title": "The Women of the Dance Halls",
+        "asOfYear": 1899
+      },
+      {
+        "n": 21,
+        "title": "The Mounted Police Reckoning",
+        "asOfYear": 1899
+      },
+      {
+        "n": 22,
+        "title": "The Last Boat Down the River",
+        "asOfYear": 1899
+      },
+      {
+        "n": 23,
+        "title": "The Mounted Police’s Final Tally",
+        "asOfYear": 1900
+      },
+      {
+        "n": 24,
+        "title": "The Empty Bunkhouses of the Creeks",
+        "asOfYear": 1900
+      },
+      {
+        "n": 25,
+        "title": "The Inquiry at the Barracks",
+        "asOfYear": 1900
+      },
+      {
+        "n": 26,
+        "title": "The Last Claim on Eldorado",
+        "asOfYear": 1901
+      },
+      {
+        "n": 27,
+        "title": "The Reckoning of the River",
+        "asOfYear": 1903
+      },
+      {
+        "n": 28,
+        "title": "The Final Balance of the Ledger",
+        "asOfYear": 1909
+      }
+    ]
+  }
 }

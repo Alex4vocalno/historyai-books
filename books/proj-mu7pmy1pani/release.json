@@ -218,5 +218,165 @@
     }
   ],
   "publishedAt": "2026-09-19T09:18:56.248Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "Great Smog of London",
+      "Clean Air Act 1956",
+      "Hugh Beaver",
+      "Harold Macmillan",
+      "Battersea Power Station",
+      "Smithfield Show",
+      "Sadler's Wells Theatre",
+      "London County Council",
+      "Ministry of Health (United Kingdom)",
+      "Air pollution in the United Kingdom",
+      "Pea soup fog",
+      "Coal in the United Kingdom"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The City of a Million Fires",
+        "asOfYear": 1952
+      },
+      {
+        "n": 2,
+        "title": "The High-Pressure Dome",
+        "asOfYear": 1952
+      },
+      {
+        "n": 3,
+        "title": "The Pall Descends",
+        "asOfYear": 1952
+      },
+      {
+        "n": 4,
+        "title": "The Chimneys of Battersea (5 December 1952, Afternoon)",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "The Stage Goes Dark (Evening of 5 December 1952)",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "A Ministry of Normalcy",
+        "asOfYear": 1952
+      },
+      {
+        "n": 7,
+        "title": "The Smithfield Show",
+        "asOfYear": 1952
+      },
+      {
+        "n": 8,
+        "title": "The Telegraph from County Hall (6 December 1952, Afternoon)",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "The Conductor’s Flare (Evening of 6 December 1952)",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "The Ward Sister’s Ledger",
+        "asOfYear": 1952
+      },
+      {
+        "n": 11,
+        "title": "The Undertaker’s Inventory",
+        "asOfYear": 1952
+      },
+      {
+        "n": 12,
+        "title": "The Power Station’s Unceasing Furnace",
+        "asOfYear": 1952
+      },
+      {
+        "n": 13,
+        "title": "The Nutty Slack in the Grate",
+        "asOfYear": 1952
+      },
+      {
+        "n": 14,
+        "title": "The Silence in the Operating Theatre",
+        "asOfYear": 1952
+      },
+      {
+        "n": 15,
+        "title": "The Wind’s Return",
+        "asOfYear": 1952
+      },
+      {
+        "n": 16,
+        "title": "The Ministry’s First Tally",
+        "asOfYear": 1952
+      },
+      {
+        "n": 17,
+        "title": "The Editor’s Demand",
+        "asOfYear": 1952
+      },
+      {
+        "n": 18,
+        "title": "The Minister’s Statement",
+        "asOfYear": 1953
+      },
+      {
+        "n": 19,
+        "title": "The Unseen Audience",
+        "asOfYear": 1952
+      },
+      {
+        "n": 20,
+        "title": "The Parliament in Fog",
+        "asOfYear": 1952
+      },
+      {
+        "n": 21,
+        "title": "The Coffin Makers’ Overtime",
+        "asOfYear": 1953
+      },
+      {
+        "n": 22,
+        "title": "The Committee of Inquiry",
+        "asOfYear": 1953
+      },
+      {
+        "n": 23,
+        "title": "The Draft on the Minister’s Desk",
+        "asOfYear": 1954
+      },
+      {
+        "n": 24,
+        "title": "The Principle of the Chimney",
+        "asOfYear": 1956
+      },
+      {
+        "n": 25,
+        "title": "The First Smoke Control Area",
+        "asOfYear": 1958
+      },
+      {
+        "n": 26,
+        "title": "The Reckoning of the Twelve Thousand",
+        "asOfYear": 1962
+      },
+      {
+        "n": 27,
+        "title": "The Unmaking of the Pea-Souper",
+        "asOfYear": 1966
+      },
+      {
+        "n": 28,
+        "title": "The Last Smoke from the Stack",
+        "asOfYear": 1966
+      }
+    ]
+  }
 }

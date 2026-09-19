@@ -217,5 +217,162 @@
       "units": 3196
     }
   ],
-  "publishedAt": "2026-09-18T16:59:50.696Z"
+  "publishedAt": "2026-09-18T16:59:50.696Z",
+  "topics": {
+    "entities": [
+      "San Francisco",
+      "Dennis Sullivan",
+      "Frederick Funston",
+      "Eugene Schmitz",
+      "Van Ness Avenue",
+      "Golden Gate Park",
+      "Jack London",
+      "Chinatown",
+      "Presidio"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Engineer’s Premonition",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "The City Feeds Itself by Water",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "The Sleep of the Plates (Geology Before the Dawn)",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "2 to His Presence",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "Recorded by the Seismograph",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "The Critical Window of Disorganized",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "The Municipal Defense Unmade",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "The Death of Fire Chief",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "The Birth of the First Major",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "The Individual Fires Ignited",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "Army Brigadier General Frederick Funston",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "Isolated in the Damaged Hall",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "The Military and Civic",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "The Execution and Fraught Outcome",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "Isolated by Earlier Dynamiting",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "The Consolidation and Critical Test",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "The Fire Crowns Nob Hill",
+        "asOfYear": 1906
+      },
+      {
+        "n": 18,
+        "title": "Official After-action Reports from Army",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "The City Under Martial Law",
+        "asOfYear": 1906
+      },
+      {
+        "n": 20,
+        "title": "Using Relief Committee Ledgers",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "The First Official Count of the Ruins",
+        "asOfYear": 1906
+      },
+      {
+        "n": 22,
+        "title": "The Earthquake That Did Not Exist",
+        "asOfYear": 1906
+      },
+      {
+        "n": 23,
+        "title": "A Canvas City of Twenty Thousand Souls",
+        "asOfYear": 1906
+      },
+      {
+        "n": 24,
+        "title": "The Commission of Forty and the Blueprint",
+        "asOfYear": 1906
+      },
+      {
+        "n": 25,
+        "title": "The Board of Inquiry and the Engineer’s Gavel",
+        "asOfYear": 1907
+      },
+      {
+        "n": 26,
+        "title": "The Indictments and the Unindicted Co-Conspirators",
+        "asOfYear": 1908
+      },
+      {
+        "n": 27,
+        "title": "A New City Upon the Ashes, But Not For All",
+        "asOfYear": 1909
+      },
+      {
+        "n": 28,
+        "title": "The Final Reckoning of Facts",
+        "asOfYear": 1919
+      }
+    ]
+  }
 }

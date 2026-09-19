@@ -145,5 +145,94 @@
     }
   ],
   "publishedAt": "2026-09-05T01:47:51.945Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "网吧、兵营与冠军"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "断崖边的网线",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "选品者联盟",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "血盟的发明",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "鼠标上的兵役",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "皇帝的加冕礼",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "道具的代价",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "造神流水线",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "首尔的全球服务器",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "神殿与它的祭司",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "虚拟地产与真实权力",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "审判日",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "困在网吧里的帝国",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "兵役钟摆",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "模式输出者的反噬",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "国族叙事的折旧",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "领跑者的囚笼",
+        "asOfYear": null
+      }
+    ]
+  }
 }

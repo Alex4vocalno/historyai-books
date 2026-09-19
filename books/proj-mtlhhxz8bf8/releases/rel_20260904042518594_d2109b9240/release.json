@@ -108,5 +108,62 @@
       "units": 2978
     }
   ],
-  "publishedAt": "2026-09-04T04:25:18.598Z"
+  "publishedAt": "2026-09-04T04:25:18.598Z",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "初次会谈",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "日记首章",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "被遗忘的周年",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "灰烬与证据",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "噩梦与录音",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "情人与供词",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "职业指控",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "最终计划",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "忏悔",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "双火交叠",
+        "asOfYear": null
+      }
+    ]
+  }
 }

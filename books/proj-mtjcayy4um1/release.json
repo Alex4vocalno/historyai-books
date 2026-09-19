@@ -147,5 +147,92 @@
   "publishedAt": "2026-09-03T00:09:39.056Z",
   "formFamily": "narrative",
   "rerenderedAt": "2026-09-04T06:05:17.271Z",
-  "lengthTier": "novella"
+  "lengthTier": "novella",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "湖底之车",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "旧案重启",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "首轮假设",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "证据冲突",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "集体沉默",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "周正平",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "旧案笔记",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "保险柜与校服",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "旧账新痕",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "暗流涌动",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "时间锁",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "邻县校服",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "旧档疑云",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "沉默的代价",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "涂改的日志",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "帕萨特的监视",
+        "asOfYear": null
+      }
+    ]
+  }
 }

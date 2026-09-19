@@ -201,5 +201,137 @@
   "publishedAt": "2026-09-06T09:57:05.208Z",
   "rerenderedAt": "2026-09-06T13:12:41.575Z",
   "formFamily": "narrative",
-  "lengthTier": "novel"
+  "lengthTier": "novel",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Telegram and the First Sale",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "The First Sale",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "The First Discrepancy",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "The Fisherman's Name",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "The Altered Name",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "The Brother's Crime",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "The Price List",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "The Unreliable Source",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "The Familiar Name",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "The Unblinking Eye",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "The Discrepancy Confrontation",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "The Flaw Exposed",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "Pages Turning",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "Two Sheets of Paper",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "Nicotine-Stained Light",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "Hovering Over the Line",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "What Rafael Did",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "Between the Ledger Pages",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "Three Centimetres of Darkness",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "Keller's Silence",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "File 14-B on the Desk",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "Matters of Mutual Concern",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "Two Envelopes, Two Masters",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "Old Paper and Ink",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "Two Hundred Million Escudos",
+        "asOfYear": null
+      }
+    ]
+  }
 }

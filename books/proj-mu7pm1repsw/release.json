@@ -218,5 +218,165 @@
     }
   ],
   "publishedAt": "2026-09-19T09:26:44.290Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "Diamond hoax of 1872",
+      "Philip Arnold",
+      "William Chapman Ralston",
+      "Clarence King",
+      "Henry Janin",
+      "Asbury Harpending",
+      "Charles Lewis Tiffany",
+      "Bank of California",
+      "George D. Roberts",
+      "Diamond Peak (Colorado)",
+      "Geological Exploration of the Fortieth Parallel",
+      "Samuel Franklin Emmons"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Kingdom of the Banker",
+        "asOfYear": 1872
+      },
+      {
+        "n": 2,
+        "title": "The Prospector’s Secret",
+        "asOfYear": 1872
+      },
+      {
+        "n": 3,
+        "title": "The Gemologist’s Seal",
+        "asOfYear": 1872
+      },
+      {
+        "n": 4,
+        "title": "The Engineer’s Journey",
+        "asOfYear": 1872
+      },
+      {
+        "n": 5,
+        "title": "The Syndicate Forms",
+        "asOfYear": 1872
+      },
+      {
+        "n": 6,
+        "title": "A Map on a Desk",
+        "asOfYear": 1872
+      },
+      {
+        "n": 7,
+        "title": "The Syndicate’s Secret Agent",
+        "asOfYear": 1872
+      },
+      {
+        "n": 8,
+        "title": "The Government’s Parallel Track",
+        "asOfYear": 1872
+      },
+      {
+        "n": 9,
+        "title": "A Whisper in Washington",
+        "asOfYear": 1872
+      },
+      {
+        "n": 10,
+        "title": "The Engineer’s Return",
+        "asOfYear": 1872
+      },
+      {
+        "n": 11,
+        "title": "The Incorporation of Diamond Peak",
+        "asOfYear": 1872
+      },
+      {
+        "n": 12,
+        "title": "King Turns His Field Glasses",
+        "asOfYear": 1872
+      },
+      {
+        "n": 13,
+        "title": "The Geologist’s Detour",
+        "asOfYear": 1872
+      },
+      {
+        "n": 14,
+        "title": "A Cut Stone in the Gravel",
+        "asOfYear": 1872
+      },
+      {
+        "n": 15,
+        "title": "The Telegram from the Mesa",
+        "asOfYear": 1872
+      },
+      {
+        "n": 16,
+        "title": "The Banker’s Last Stand",
+        "asOfYear": 1872
+      },
+      {
+        "n": 17,
+        "title": "The Flight of the Prospectors",
+        "asOfYear": 1872
+      },
+      {
+        "n": 18,
+        "title": "The Scientist’s Burden of Proof",
+        "asOfYear": 1872
+      },
+      {
+        "n": 19,
+        "title": "The Lawyer’s Ledger",
+        "asOfYear": 1872
+      },
+      {
+        "n": 20,
+        "title": "The Prospector’s Price",
+        "asOfYear": 1873
+      },
+      {
+        "n": 21,
+        "title": "The Press Breaks the Silence",
+        "asOfYear": 1873
+      },
+      {
+        "n": 22,
+        "title": "The Commission’s First Question",
+        "asOfYear": 1873
+      },
+      {
+        "n": 23,
+        "title": "The Engineer in the Dock",
+        "asOfYear": 1873
+      },
+      {
+        "n": 24,
+        "title": "The Settlement’s Hollow Victory",
+        "asOfYear": 1873
+      },
+      {
+        "n": 25,
+        "title": "The Banker’s Last Reckoning",
+        "asOfYear": 1873
+      },
+      {
+        "n": 26,
+        "title": "The Geologist’s Ascendant Star",
+        "asOfYear": 1874
+      },
+      {
+        "n": 27,
+        "title": "The Mountain That Was a Mirage",
+        "asOfYear": 1875
+      },
+      {
+        "n": 28,
+        "title": "The Last Ledger of the Syndicate",
+        "asOfYear": 1875
+      }
+    ]
+  }
 }

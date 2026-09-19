@@ -123,5 +123,72 @@
   "publishedAt": "2026-09-02T00:28:29.462Z",
   "formFamily": "narrative",
   "rerenderedAt": "2026-09-04T06:31:26.709Z",
-  "lengthTier": "novella"
+  "lengthTier": "novella",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "卖船",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "进城",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "岗亭",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "被骗",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "夜班",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "还账",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "台风",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "漏雨",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "回乡",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "渔汛",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "祭海",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "认螺",
+        "asOfYear": null
+      }
+    ]
+  }
 }

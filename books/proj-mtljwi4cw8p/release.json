@@ -154,5 +154,101 @@
     }
   ],
   "publishedAt": "2026-09-04T03:52:28.858Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "王安",
+      "华人计算机帝国的崛起与崩塌",
+      "华人计算机帝国"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "上海昆山路的少年",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "哈佛计算实验室的闯入者",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "专利交易里的对赌",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "计算器赌局",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "文字处理机的诞生",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "洛厄尔的总部大楼",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "上市公司的代价",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "蓝色阴影",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "垂直整合的孤岛",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "王烈登场",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "拒绝兼容的代价",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "裁员与裂痕",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "破产法庭上的遗产分割",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "残局中的幸存者",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "王安之后",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "档案室里的另一种真相",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "洛厄尔楼群的黄昏",
+        "asOfYear": null
+      }
+    ]
+  }
 }

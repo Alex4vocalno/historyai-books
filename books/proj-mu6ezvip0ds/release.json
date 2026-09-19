@@ -220,5 +220,161 @@
   "illustrations": 3,
   "publishedAt": "2026-09-18T10:09:20.538Z",
   "rerenderedAt": "2026-09-18T14:43:47.797Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "Philadelphia",
+      "Wilmer Krusen",
+      "Liberty Loan",
+      "Rupert Blue",
+      "Paul Lewis",
+      "Philadelphia Navy Yard",
+      "Bureau of Health",
+      "Pennsylvania"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The River City and Its Keepers",
+        "asOfYear": 1918
+      },
+      {
+        "n": 2,
+        "title": "The Shadow in the Ranks",
+        "asOfYear": 1918
+      },
+      {
+        "n": 3,
+        "title": "The Protocol of Normalcy (Mid‑September 1918)",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "The Rules on Wilmer Krusen’s Desk",
+        "asOfYear": 1918
+      },
+      {
+        "n": 5,
+        "title": "The Fever at the Navy Yard",
+        "asOfYear": 1918
+      },
+      {
+        "n": 6,
+        "title": "The Decision on the Parade",
+        "asOfYear": 1918
+      },
+      {
+        "n": 7,
+        "title": "The Parade That Knew No Fear",
+        "asOfYear": 1918
+      },
+      {
+        "n": 8,
+        "title": "The First Empty Beds",
+        "asOfYear": 1918
+      },
+      {
+        "n": 9,
+        "title": "The Director’s Hour of Reckoning",
+        "asOfYear": 1918
+      },
+      {
+        "n": 10,
+        "title": "The Army of the Sick",
+        "asOfYear": 1918
+      },
+      {
+        "n": 11,
+        "title": "The Cellars of Mercy",
+        "asOfYear": 1918
+      },
+      {
+        "n": 12,
+        "title": "The Week of Four Thousand Dead",
+        "asOfYear": 1918
+      },
+      {
+        "n": 13,
+        "title": "The Ship of the Dead",
+        "asOfYear": 1918
+      },
+      {
+        "n": 14,
+        "title": "The Ditch-Diggers of Potter’s Field",
+        "asOfYear": 1918
+      },
+      {
+        "n": 15,
+        "title": "The Volunteers’ Vow",
+        "asOfYear": 1918
+      },
+      {
+        "n": 16,
+        "title": "The Contradiction of Doctor Lewis",
+        "asOfYear": 1918
+      },
+      {
+        "n": 17,
+        "title": "The Surgeon General’s Cipher",
+        "asOfYear": 1918
+      },
+      {
+        "n": 18,
+        "title": "The Silence in the Telegraph Office",
+        "asOfYear": 1918
+      },
+      {
+        "n": 19,
+        "title": "The Receipts of the Undertaker",
+        "asOfYear": 1918
+      },
+      {
+        "n": 20,
+        "title": "The Nurses’ Last Rounds",
+        "asOfYear": 1918
+      },
+      {
+        "n": 21,
+        "title": "The Reckoning on Filbert Street",
+        "asOfYear": 1918
+      },
+      {
+        "n": 22,
+        "title": "The Commissioner’s Apologia",
+        "asOfYear": 1918
+      },
+      {
+        "n": 23,
+        "title": "The Hearing in the State House",
+        "asOfYear": 1919
+      },
+      {
+        "n": 24,
+        "title": "The City That Worked Again",
+        "asOfYear": 1919
+      },
+      {
+        "n": 25,
+        "title": "The Minutes of the Blue Commission",
+        "asOfYear": 1919
+      },
+      {
+        "n": 26,
+        "title": "The Immunity of the Director",
+        "asOfYear": 1920
+      },
+      {
+        "n": 27,
+        "title": "The Epitaphs in the Annual Report",
+        "asOfYear": 1921
+      },
+      {
+        "n": 28,
+        "title": "The Eleventh Hour at the Navy Yard",
+        "asOfYear": 1921
+      }
+    ]
+  }
 }

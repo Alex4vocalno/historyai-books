@@ -243,5 +243,172 @@
   "publishedAt": "2026-08-30T15:24:08.931Z",
   "formFamily": "narrative",
   "rerenderedAt": "2026-09-03T12:42:40.657Z",
-  "lengthTier": "novel"
+  "lengthTier": "novel",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "激将法",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "旧棋谱",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "深夜棋局",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "棋馆初战",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "棋馆常客",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "甲方乙方",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "家长群风暴",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "降维打击",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "棋馆之外",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "四人成局",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "棋力精进",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "广告棋局",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "四线交织",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "儿子的审视",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "棋协风云",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "苏蔓的过去",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "弃子之影",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "弃子之择",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "舅舅的身份",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "弃子之后",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "坦诚风暴",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "霓虹灯下的质问",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "冷却期",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "周棠的退场",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "重新定义",
+        "asOfYear": null
+      },
+      {
+        "n": 26,
+        "title": "反向养成",
+        "asOfYear": null
+      },
+      {
+        "n": 27,
+        "title": "决赛前夜",
+        "asOfYear": null
+      },
+      {
+        "n": 28,
+        "title": "弃子之光",
+        "asOfYear": null
+      },
+      {
+        "n": 29,
+        "title": "弃子夺冠",
+        "asOfYear": null
+      },
+      {
+        "n": 30,
+        "title": "冠军之后",
+        "asOfYear": null
+      },
+      {
+        "n": 31,
+        "title": "各自的棋局",
+        "asOfYear": null
+      },
+      {
+        "n": 32,
+        "title": "新局",
+        "asOfYear": null
+      }
+    ]
+  }
 }

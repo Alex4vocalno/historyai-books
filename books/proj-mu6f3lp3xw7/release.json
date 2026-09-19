@@ -220,5 +220,164 @@
   "illustrations": 7,
   "publishedAt": "2026-09-18T12:52:59.884Z",
   "rerenderedAt": "2026-09-18T14:45:15.457Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "Lusitania",
+      "William Turner",
+      "U-20",
+      "Walther Schwieger",
+      "Old Head of Kinsale",
+      "Queenstown",
+      "Cunard",
+      "Lord Mersey",
+      "Room 40",
+      "Woodrow Wilson",
+      "Alfred Vanderbilt"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Queen of the Atlantic",
+        "asOfYear": 1914
+      },
+      {
+        "n": 2,
+        "title": "A Notice in the Newspapers",
+        "asOfYear": 1915
+      },
+      {
+        "n": 3,
+        "title": "Captain Turner’s Orders",
+        "asOfYear": 1915
+      },
+      {
+        "n": 4,
+        "title": "The Submarine’s Patrol",
+        "asOfYear": 1915
+      },
+      {
+        "n": 5,
+        "title": "The Crossing",
+        "asOfYear": 1915
+      },
+      {
+        "n": 6,
+        "title": "Aboard the Lusitania",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "The Torpedo’s Track (2:10 p.m., 7 May 1915)",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "The Roar from Within",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "The Doors That Would Not Close",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "The Historical Content",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "The Last Rail",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "The Woman in the Water",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "The Boats That Would Not Launch",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "The Cold That Seized the Chest",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "The Submarine's Departure",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "The First Boats to Queenstown (Afternoon, 7 May 1915)",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "The Sheds at Queenstown",
+        "asOfYear": 1915
+      },
+      {
+        "n": 18,
+        "title": "The First Cables to Washington",
+        "asOfYear": 1915
+      },
+      {
+        "n": 19,
+        "title": "The Admiralty’s Silent Knowledge",
+        "asOfYear": 1915
+      },
+      {
+        "n": 20,
+        "title": "The Cargo in Hold Number Four",
+        "asOfYear": 1915
+      },
+      {
+        "n": 21,
+        "title": "The Names on the Pier",
+        "asOfYear": 1915
+      },
+      {
+        "n": 22,
+        "title": "The Captain’s Defense",
+        "asOfYear": 1915
+      },
+      {
+        "n": 23,
+        "title": "The Court in the Westminster Hotel",
+        "asOfYear": 1915
+      },
+      {
+        "n": 24,
+        "title": "The First Note from Washington",
+        "asOfYear": 1915
+      },
+      {
+        "n": 25,
+        "title": "The German Reply",
+        "asOfYear": null
+      },
+      {
+        "n": 26,
+        "title": "The Secretary’s Resignation",
+        "asOfYear": 1915
+      },
+      {
+        "n": 27,
+        "title": "Lord Mersey’s Final Report",
+        "asOfYear": 1915
+      },
+      {
+        "n": 28,
+        "title": "The Last Reckoning",
+        "asOfYear": 1918
+      }
+    ]
+  }
 }

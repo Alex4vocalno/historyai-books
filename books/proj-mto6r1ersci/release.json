@@ -165,5 +165,107 @@
   "publishedAt": "2026-09-05T13:01:26.821Z",
   "rerenderedAt": "2026-09-06T13:12:30.609Z",
   "formFamily": "narrative",
-  "lengthTier": "novella"
+  "lengthTier": "novella",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Polished Grief",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "The Ghost in the Room",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "Paper and Fear",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "A Window Seat Truth",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "Country Club Smiles",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "The Perfect Accident",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "The Smell of Fire",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "Crossing the Line",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "Official Dismissal",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "Alibi Verified",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "Sanctuary Violated",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "The Tearful Confession",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "The Overlooked Evidence",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "She Knew My Name",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "The Diary's True Purpose",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "Clubhouse Confrontation",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "The Cleared Nook",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "Dust and Determination",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "Living With the Truth",
+        "asOfYear": null
+      }
+    ]
+  }
 }

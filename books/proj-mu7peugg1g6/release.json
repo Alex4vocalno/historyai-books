@@ -218,5 +218,165 @@
     }
   ],
   "publishedAt": "2026-09-19T03:15:41.418Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "Karluk",
+      "Vilhjalmur Stefansson",
+      "Robert Bartlett",
+      "Canadian Arctic Expedition",
+      "Wrangel Island",
+      "Herald Island",
+      "Shipwreck Camp",
+      "Kataktovik",
+      "William McKinlay",
+      "King and Wing",
+      "Bering Strait",
+      "Siberia"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Ship and the Plan",
+        "asOfYear": 1913
+      },
+      {
+        "n": 2,
+        "title": "The Leader and the Captain",
+        "asOfYear": 1913
+      },
+      {
+        "n": 3,
+        "title": "Into the Gripping Ice",
+        "asOfYear": 1913
+      },
+      {
+        "n": 4,
+        "title": "The Uncharted Territory",
+        "asOfYear": 1913
+      },
+      {
+        "n": 5,
+        "title": "Stefansson Walks Away",
+        "asOfYear": 1913
+      },
+      {
+        "n": 6,
+        "title": "A Ship Without Its Expedition",
+        "asOfYear": 1913
+      },
+      {
+        "n": 7,
+        "title": "The Captain’s First Decision",
+        "asOfYear": 1913
+      },
+      {
+        "n": 8,
+        "title": "The Drift Begins",
+        "asOfYear": 1913
+      },
+      {
+        "n": 9,
+        "title": "The Ice Closes Its Jaws",
+        "asOfYear": 1914
+      },
+      {
+        "n": 10,
+        "title": "The Ship Gives Up the Ghost",
+        "asOfYear": 1914
+      },
+      {
+        "n": 11,
+        "title": "Camp on the Ice",
+        "asOfYear": 1914
+      },
+      {
+        "n": 12,
+        "title": "The Decision to March",
+        "asOfYear": 1914
+      },
+      {
+        "n": 13,
+        "title": "The First Party Vanishes",
+        "asOfYear": 1914
+      },
+      {
+        "n": 14,
+        "title": "The Second Party Is Lost",
+        "asOfYear": 1914
+      },
+      {
+        "n": 15,
+        "title": "Bartlett and Kataktovik Strike Out Alone",
+        "asOfYear": 1914
+      },
+      {
+        "n": 16,
+        "title": "The Long Wait on Wrangel Island",
+        "asOfYear": 1914
+      },
+      {
+        "n": 17,
+        "title": "The Walk Across the Chukchi Sea",
+        "asOfYear": 1914
+      },
+      {
+        "n": 18,
+        "title": "Captain Bartlett’s Frantic and Bureaucratic",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "The Island’s Summer of Hunger",
+        "asOfYear": 1914
+      },
+      {
+        "n": 20,
+        "title": "The Last Deaths and the Dividing Party",
+        "asOfYear": 1914
+      },
+      {
+        "n": 21,
+        "title": "The Ships on the Horizon",
+        "asOfYear": 1914
+      },
+      {
+        "n": 22,
+        "title": "The Survivors’ Return to Civilization",
+        "asOfYear": 1914
+      },
+      {
+        "n": 23,
+        "title": "The Gathering of Testimony",
+        "asOfYear": 1914
+      },
+      {
+        "n": 24,
+        "title": "The Commission’s Silent Verdict",
+        "asOfYear": 1915
+      },
+      {
+        "n": 25,
+        "title": "The Captain’s Private Reckoning",
+        "asOfYear": 1915
+      },
+      {
+        "n": 26,
+        "title": "The Survivors’ Scattered Fates",
+        "asOfYear": 1920
+      },
+      {
+        "n": 27,
+        "title": "The Expedition’s Hollow Legacy",
+        "asOfYear": 1924
+      },
+      {
+        "n": 28,
+        "title": "The Last Word Belongs to the Ice",
+        "asOfYear": 1924
+      }
+    ]
+  }
 }

@@ -220,5 +220,164 @@
   "illustrations": 6,
   "publishedAt": "2026-09-18T13:19:58.123Z",
   "rerenderedAt": "2026-09-18T14:43:10.999Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "Robert Falcon Scott",
+      "Terra Nova",
+      "Cape Evans",
+      "One Ton Depot",
+      "Roald Amundsen",
+      "Lawrence Oates",
+      "Edward Wilson",
+      "Henry Bowers",
+      "Edgar Evans",
+      "Apsley Cherry-Garrard",
+      "Beardmore Glacier"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "Terra Nova Leaves Cardiff",
+        "asOfYear": 1910
+      },
+      {
+        "n": 2,
+        "title": "The Rival’s Telegram",
+        "asOfYear": 1910
+      },
+      {
+        "n": 3,
+        "title": "The Ice Dock at Cape Evans",
+        "asOfYear": 1911
+      },
+      {
+        "n": 4,
+        "title": "The Machinery of Hope",
+        "asOfYear": 1911
+      },
+      {
+        "n": 5,
+        "title": "The First Depot Lies Unmarked",
+        "asOfYear": 1911
+      },
+      {
+        "n": 6,
+        "title": "The Winter Quarters of the Mind",
+        "asOfYear": 1911
+      },
+      {
+        "n": 7,
+        "title": "The Winter of Companionship",
+        "asOfYear": 1911
+      },
+      {
+        "n": 8,
+        "title": "The Second Depot and the Mounted Sledge",
+        "asOfYear": 1911
+      },
+      {
+        "n": 9,
+        "title": "The Emperor Penguins’ Fortress",
+        "asOfYear": 1911
+      },
+      {
+        "n": 10,
+        "title": "The Launch of Scott’s Final",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "The Motor Sledges Fall Silent",
+        "asOfYear": 1911
+      },
+      {
+        "n": 12,
+        "title": "The Slaughter of the Ponies",
+        "asOfYear": 1911
+      },
+      {
+        "n": 13,
+        "title": "The Upper Glacier Depots",
+        "asOfYear": 1911
+      },
+      {
+        "n": 14,
+        "title": "The Summit and the Norwegian Flag",
+        "asOfYear": 1912
+      },
+      {
+        "n": 15,
+        "title": "The First Death on the Return",
+        "asOfYear": 1912
+      },
+      {
+        "n": 16,
+        "title": "The Excruciating Descent",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "The Sacrifice at Latitude 79° 50' S",
+        "asOfYear": 1912
+      },
+      {
+        "n": 18,
+        "title": "The Last Camp Eleven Miles North",
+        "asOfYear": 1912
+      },
+      {
+        "n": 19,
+        "title": "The Record in the Diary",
+        "asOfYear": 1912
+      },
+      {
+        "n": 20,
+        "title": "The Search Party Sets Forth",
+        "asOfYear": 1912
+      },
+      {
+        "n": 21,
+        "title": "The Tent on the Barrier",
+        "asOfYear": 1912
+      },
+      {
+        "n": 22,
+        "title": "The Documents Recovered from the Tent",
+        "asOfYear": 1912
+      },
+      {
+        "n": 23,
+        "title": "The Burden of Notification",
+        "asOfYear": 1912
+      },
+      {
+        "n": 24,
+        "title": "The Last Sledges of the Season",
+        "asOfYear": 1913
+      },
+      {
+        "n": 25,
+        "title": "The Laboratory After the Fire",
+        "asOfYear": 1913
+      },
+      {
+        "n": 26,
+        "title": "The Arrival of the Terra Nova",
+        "asOfYear": 1913
+      },
+      {
+        "n": 27,
+        "title": "The Mersey Inquiry and Its Silent Witnesses",
+        "asOfYear": 1913
+      },
+      {
+        "n": 28,
+        "title": "The Final Ledger and the Empty Place",
+        "asOfYear": 1914
+      }
+    ]
+  }
 }

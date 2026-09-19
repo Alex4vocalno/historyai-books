@@ -218,5 +218,165 @@
     }
   ],
   "publishedAt": "2026-09-19T06:01:58.427Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "Philadelphia",
+      "Benjamin Rush",
+      "Absalom Jones",
+      "Richard Allen",
+      "Stephen Girard",
+      "Bush Hill",
+      "Mathew Carey",
+      "Committee of Twenty",
+      "George Washington",
+      "Alexander Hamilton",
+      "Jean Devèze",
+      "Free African Society"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Nation’s New Seat of Government",
+        "asOfYear": 1793
+      },
+      {
+        "n": 2,
+        "title": "A Philosophy of the Blood and the Bile",
+        "asOfYear": 1793
+      },
+      {
+        "n": 3,
+        "title": "The Coffee-House Exchange and the Waterfront Stench",
+        "asOfYear": 1793
+      },
+      {
+        "n": 4,
+        "title": "The Arrival of the Hankey",
+        "asOfYear": 1793
+      },
+      {
+        "n": 5,
+        "title": "The First Deaths on Water Street",
+        "asOfYear": 1793
+      },
+      {
+        "n": 6,
+        "title": "Dr. Rush Recognizes the Enemy",
+        "asOfYear": 1793
+      },
+      {
+        "n": 7,
+        "title": "The Captain’s Declaration and the Mayor’s Inaction",
+        "asOfYear": 1793
+      },
+      {
+        "n": 8,
+        "title": "The Exodus Begins",
+        "asOfYear": 1793
+      },
+      {
+        "n": 9,
+        "title": "With the Federal Government Gone",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "The Fraught Establishment and Early",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "The Society’s Pledge",
+        "asOfYear": 1793
+      },
+      {
+        "n": 12,
+        "title": "The Committee’s Ledger and the Potter’s Field",
+        "asOfYear": 1793
+      },
+      {
+        "n": 13,
+        "title": "The Mercantile Custodian of Bush Hill",
+        "asOfYear": 1793
+      },
+      {
+        "n": 14,
+        "title": "The Dispute Over the French Method",
+        "asOfYear": 1793
+      },
+      {
+        "n": 15,
+        "title": "The Unpaid Account",
+        "asOfYear": 1793
+      },
+      {
+        "n": 16,
+        "title": "A Calculus of Volunteers",
+        "asOfYear": 1793
+      },
+      {
+        "n": 17,
+        "title": "The Closed Door and the Marked House",
+        "asOfYear": 1793
+      },
+      {
+        "n": 18,
+        "title": "The Wind from the Northwest",
+        "asOfYear": 1793
+      },
+      {
+        "n": 19,
+        "title": "The Mayor’s Last Appeal",
+        "asOfYear": 1793
+      },
+      {
+        "n": 20,
+        "title": "The First Cart from Germantown",
+        "asOfYear": 1793
+      },
+      {
+        "n": 21,
+        "title": "The Account of Matthew Carey",
+        "asOfYear": 1793
+      },
+      {
+        "n": 22,
+        "title": "The Judgment Upon the Society",
+        "asOfYear": 1794
+      },
+      {
+        "n": 23,
+        "title": "The Mayor’s Ledger of the Lost",
+        "asOfYear": 1794
+      },
+      {
+        "n": 24,
+        "title": "The Testimony Before the College",
+        "asOfYear": 1794
+      },
+      {
+        "n": 25,
+        "title": "The Narrow Court of Public Opinion",
+        "asOfYear": 1795
+      },
+      {
+        "n": 26,
+        "title": "The Unsettled Debt of Bush Hill",
+        "asOfYear": 1796
+      },
+      {
+        "n": 27,
+        "title": "The New Calculus of City and Capital",
+        "asOfYear": 1798
+      },
+      {
+        "n": 28,
+        "title": "The Narrative’s Last Reckoning",
+        "asOfYear": 1806
+      }
+    ]
+  }
 }

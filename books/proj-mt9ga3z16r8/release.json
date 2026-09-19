@@ -170,5 +170,121 @@
   ],
   "publishedAt": "2026-09-02T12:17:18.119Z",
   "formFamily": "narrative",
-  "rerenderedAt": "2026-09-04T06:24:10.402Z"
+  "rerenderedAt": "2026-09-04T06:24:10.402Z",
+  "topics": {
+    "entities": [
+      "电池里的战争",
+      "动力电池的产业地图",
+      "比亚迪）",
+      "三星SDI",
+      "SKon）",
+      "上溯澳洲锂矿",
+      "大材料的工艺门",
+      "论断都"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "赌注下在正极上",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "盐湖与矿石的两条腿",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "正极材料的配方战争",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "隔膜与电解液：看不见的工艺壁垒",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "索尼的遗产与松下的赌注",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "比亚迪的垂直整合实验",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "财阀的电池赌局",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "白名单的全球涟漪",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "宁德时代的成本机器",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "整车厂的反向渗透",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "磷酸铁锂的逆袭",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "固态电池的钟摆",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "印尼镍矿的禁运令",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "负极的石墨焦虑",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "回收的账本",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "欧洲的电池梦",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "美国《通胀削减法案》的引力场",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "车厂自研电池的最后赌局",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "产能过剩的利润绞杀",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "地图的尽头与战争的延续",
+        "asOfYear": null
+      }
+    ]
+  }
 }

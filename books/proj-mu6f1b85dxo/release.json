@@ -219,5 +219,164 @@
   ],
   "publishedAt": "2026-09-18T15:53:52.148Z",
   "rerenderedAt": "2026-09-19T03:46:32.106Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "John Franklin",
+      "HMS Erebus",
+      "HMS Terror",
+      "Jane Franklin",
+      "John Rae",
+      "Francis Leopold McClintock",
+      "King William Island",
+      "Beechey Island",
+      "Victory Point",
+      "James Clark Ross",
+      "Fox"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Sounding Line and the Chart",
+        "asOfYear": 1845
+      },
+      {
+        "n": 2,
+        "title": "A Distant and Frozen Sea",
+        "asOfYear": 1845
+      },
+      {
+        "n": 3,
+        "title": "The Machinery of Unease",
+        "asOfYear": 1847
+      },
+      {
+        "n": 4,
+        "title": "The Comfort of Protocol",
+        "asOfYear": 1848
+      },
+      {
+        "n": 5,
+        "title": "The First Mark on the Map",
+        "asOfYear": 1850
+      },
+      {
+        "n": 6,
+        "title": "The Lady’s Memorandum",
+        "asOfYear": 1852
+      },
+      {
+        "n": 7,
+        "title": "The Twelve Coats on the Rocks",
+        "asOfYear": 1854
+      },
+      {
+        "n": 8,
+        "title": "The Disgrace of the Mess",
+        "asOfYear": 1854
+      },
+      {
+        "n": 9,
+        "title": "The Purchase of the Fox",
+        "asOfYear": 1857
+      },
+      {
+        "n": 10,
+        "title": "A Sled on the Horizon",
+        "asOfYear": 1858
+      },
+      {
+        "n": 11,
+        "title": "The Seal-Skin Boots",
+        "asOfYear": 1858
+      },
+      {
+        "n": 12,
+        "title": "The Cairn at Point Victory",
+        "asOfYear": 1859
+      },
+      {
+        "n": 13,
+        "title": "The Boat on the Stony Beach",
+        "asOfYear": 1859
+      },
+      {
+        "n": 14,
+        "title": "The Sledges Turn for Home",
+        "asOfYear": 1859
+      },
+      {
+        "n": 15,
+        "title": "The Admiralty Weighs the Relics",
+        "asOfYear": 1860
+      },
+      {
+        "n": 16,
+        "title": "The Captain’s Private Papers",
+        "asOfYear": 1860
+      },
+      {
+        "n": 17,
+        "title": "The Surveyor’s Doubt",
+        "asOfYear": 1875
+      },
+      {
+        "n": 18,
+        "title": "The Echo on the Sonar",
+        "asOfYear": 1992
+      },
+      {
+        "n": 19,
+        "title": "The Unbroken Circle of Testimony",
+        "asOfYear": 1880
+      },
+      {
+        "n": 20,
+        "title": "The Silence of the Ice",
+        "asOfYear": 2014
+      },
+      {
+        "n": 21,
+        "title": "A Shadow on the Sonar",
+        "asOfYear": 2014
+      },
+      {
+        "n": 22,
+        "title": "The Cabinet in the Quarter Gallery",
+        "asOfYear": 2014
+      },
+      {
+        "n": 23,
+        "title": "The Bell from the Wreck",
+        "asOfYear": 2016
+      },
+      {
+        "n": 24,
+        "title": "The Bones in the Sediment",
+        "asOfYear": 2019
+      },
+      {
+        "n": 25,
+        "title": "The Report on the Table",
+        "asOfYear": 2021
+      },
+      {
+        "n": 26,
+        "title": "The Name on the Land",
+        "asOfYear": 2023
+      },
+      {
+        "n": 27,
+        "title": "The Reckoning of the Ledger",
+        "asOfYear": 2026
+      },
+      {
+        "n": 28,
+        "title": "The Letter in the Glass Case",
+        "asOfYear": 2026
+      }
+    ]
+  }
 }

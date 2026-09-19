@@ -853,5 +853,682 @@
     }
   ],
   "publishedAt": "2026-08-24T11:42:01.564Z",
-  "rerenderedAt": "2026-09-04T07:31:22.528Z"
+  "rerenderedAt": "2026-09-04T07:31:22.528Z",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "东宫夜议",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "玉螭裂纹",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "太极暗流",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "马疾疑云",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "裂痕加深",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "后宫密语",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "廷争敕书",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "封驳权争",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "马病溯源",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "洛阳之请",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "余波隐忧",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "朝堂交锋",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "尚书省文书战",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "崔氏回信",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "齐王献计",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "马疾暗流",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "婕妤传话",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "暗流",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "敕书留白",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "洛阳分割案",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "崔氏回音",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "封驳之败",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "洛阳争权",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "封驳之挫",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "分化关陇",
+        "asOfYear": null
+      },
+      {
+        "n": 26,
+        "title": "行玺露白",
+        "asOfYear": null
+      },
+      {
+        "n": 27,
+        "title": "婕妤之语",
+        "asOfYear": null
+      },
+      {
+        "n": 28,
+        "title": "玉螭裂痕",
+        "asOfYear": null
+      },
+      {
+        "n": 29,
+        "title": "崔干推诿",
+        "asOfYear": null
+      },
+      {
+        "n": 30,
+        "title": "玉螭隐裂",
+        "asOfYear": null
+      },
+      {
+        "n": 31,
+        "title": "元吉密谋",
+        "asOfYear": null
+      },
+      {
+        "n": 32,
+        "title": "刺杀败露",
+        "asOfYear": null
+      },
+      {
+        "n": 33,
+        "title": "敕书玄机",
+        "asOfYear": null
+      },
+      {
+        "n": 34,
+        "title": "余波定势",
+        "asOfYear": null
+      },
+      {
+        "n": 35,
+        "title": "毒计败露",
+        "asOfYear": null
+      },
+      {
+        "n": 36,
+        "title": "暗流涌动",
+        "asOfYear": null
+      },
+      {
+        "n": 37,
+        "title": "常何之约",
+        "asOfYear": null
+      },
+      {
+        "n": 38,
+        "title": "暮色暗涌",
+        "asOfYear": null
+      },
+      {
+        "n": 39,
+        "title": "玉碎",
+        "asOfYear": null
+      },
+      {
+        "n": 40,
+        "title": "山东书沉",
+        "asOfYear": null
+      },
+      {
+        "n": 41,
+        "title": "锦书成灰",
+        "asOfYear": null
+      },
+      {
+        "n": 42,
+        "title": "留白敕书",
+        "asOfYear": null
+      },
+      {
+        "n": 43,
+        "title": "玄武门变",
+        "asOfYear": null
+      },
+      {
+        "n": 44,
+        "title": "困兽之斗",
+        "asOfYear": null
+      },
+      {
+        "n": 45,
+        "title": "律令之重",
+        "asOfYear": null
+      },
+      {
+        "n": 46,
+        "title": "遗物惊心",
+        "asOfYear": null
+      },
+      {
+        "n": 47,
+        "title": "洛阳之争",
+        "asOfYear": null
+      },
+      {
+        "n": 48,
+        "title": "元吉献计",
+        "asOfYear": null
+      },
+      {
+        "n": 49,
+        "title": "封驳敕书",
+        "asOfYear": null
+      },
+      {
+        "n": 50,
+        "title": "举荐被驳",
+        "asOfYear": null
+      },
+      {
+        "n": 51,
+        "title": "马病真相",
+        "asOfYear": null
+      },
+      {
+        "n": 52,
+        "title": "盟友离心",
+        "asOfYear": null
+      },
+      {
+        "n": 53,
+        "title": "元吉躁进",
+        "asOfYear": null
+      },
+      {
+        "n": 54,
+        "title": "御前抉择",
+        "asOfYear": null
+      },
+      {
+        "n": 55,
+        "title": "元吉密会",
+        "asOfYear": null
+      },
+      {
+        "n": 56,
+        "title": "魏征谏言",
+        "asOfYear": null
+      },
+      {
+        "n": 57,
+        "title": "文书拖延",
+        "asOfYear": null
+      },
+      {
+        "n": 58,
+        "title": "分割草案",
+        "asOfYear": null
+      },
+      {
+        "n": 59,
+        "title": "封驳反击",
+        "asOfYear": null
+      },
+      {
+        "n": 60,
+        "title": "元吉逼宫",
+        "asOfYear": null
+      },
+      {
+        "n": 61,
+        "title": "秦王回京",
+        "asOfYear": null
+      },
+      {
+        "n": 62,
+        "title": "最后的游说",
+        "asOfYear": null
+      },
+      {
+        "n": 63,
+        "title": "风暴前夕",
+        "asOfYear": null
+      },
+      {
+        "n": 64,
+        "title": "洛阳高潮",
+        "asOfYear": null
+      },
+      {
+        "n": 65,
+        "title": "韦挺举荐",
+        "asOfYear": null
+      },
+      {
+        "n": 66,
+        "title": "昆明池密谋",
+        "asOfYear": null
+      },
+      {
+        "n": 67,
+        "title": "烛下谏笺",
+        "asOfYear": null
+      },
+      {
+        "n": 68,
+        "title": "余波收束",
+        "asOfYear": null
+      },
+      {
+        "n": 69,
+        "title": "夜叩东宫",
+        "asOfYear": null
+      },
+      {
+        "n": 70,
+        "title": "魏征再谏",
+        "asOfYear": null
+      },
+      {
+        "n": 71,
+        "title": "禁军暗流",
+        "asOfYear": null
+      },
+      {
+        "n": 72,
+        "title": "分化常何",
+        "asOfYear": null
+      },
+      {
+        "n": 73,
+        "title": "元吉失控",
+        "asOfYear": null
+      },
+      {
+        "n": 74,
+        "title": "常何回应",
+        "asOfYear": null
+      },
+      {
+        "n": 75,
+        "title": "秦王反制",
+        "asOfYear": null
+      },
+      {
+        "n": 76,
+        "title": "绝境微操",
+        "asOfYear": null
+      },
+      {
+        "n": 77,
+        "title": "元吉异动",
+        "asOfYear": null
+      },
+      {
+        "n": 78,
+        "title": "风暴前夜",
+        "asOfYear": null
+      },
+      {
+        "n": 79,
+        "title": "夜焚毒计",
+        "asOfYear": null
+      },
+      {
+        "n": 80,
+        "title": "烛烬弃敕",
+        "asOfYear": null
+      },
+      {
+        "n": 81,
+        "title": "禁军失控",
+        "asOfYear": null
+      },
+      {
+        "n": 82,
+        "title": "夜逼东宫",
+        "asOfYear": null
+      },
+      {
+        "n": 83,
+        "title": "文官动摇",
+        "asOfYear": null
+      },
+      {
+        "n": 84,
+        "title": "残局提疏",
+        "asOfYear": null
+      },
+      {
+        "n": 85,
+        "title": "秦王应对",
+        "asOfYear": null
+      },
+      {
+        "n": 86,
+        "title": "渊帝召见",
+        "asOfYear": null
+      },
+      {
+        "n": 87,
+        "title": "元吉独走",
+        "asOfYear": null
+      },
+      {
+        "n": 88,
+        "title": "建成抉择",
+        "asOfYear": null
+      },
+      {
+        "n": 89,
+        "title": "密奏惊澜",
+        "asOfYear": null
+      },
+      {
+        "n": 90,
+        "title": "元吉被囚",
+        "asOfYear": null
+      },
+      {
+        "n": 91,
+        "title": "宫闱对质",
+        "asOfYear": null
+      },
+      {
+        "n": 92,
+        "title": "夜谏孤城",
+        "asOfYear": null
+      },
+      {
+        "n": 93,
+        "title": "孤注一掷",
+        "asOfYear": null
+      },
+      {
+        "n": 94,
+        "title": "朝议风波",
+        "asOfYear": null
+      },
+      {
+        "n": 95,
+        "title": "秦王密会",
+        "asOfYear": null
+      },
+      {
+        "n": 96,
+        "title": "山雨欲来",
+        "asOfYear": null
+      },
+      {
+        "n": 97,
+        "title": "玄武前夕",
+        "asOfYear": null
+      },
+      {
+        "n": 98,
+        "title": "血色黎明",
+        "asOfYear": null
+      },
+      {
+        "n": 99,
+        "title": "余波初定",
+        "asOfYear": null
+      },
+      {
+        "n": 100,
+        "title": "清算与安抚",
+        "asOfYear": null
+      },
+      {
+        "n": 101,
+        "title": "新秩序",
+        "asOfYear": null
+      },
+      {
+        "n": 102,
+        "title": "囚笼初醒",
+        "asOfYear": null
+      },
+      {
+        "n": 103,
+        "title": "魏征探监",
+        "asOfYear": null
+      },
+      {
+        "n": 104,
+        "title": "诀别",
+        "asOfYear": null
+      },
+      {
+        "n": 105,
+        "title": "囚徒抉择",
+        "asOfYear": null
+      },
+      {
+        "n": 106,
+        "title": "新皇召见",
+        "asOfYear": null
+      },
+      {
+        "n": 107,
+        "title": "蜀道难行",
+        "asOfYear": null
+      },
+      {
+        "n": 108,
+        "title": "元吉之死",
+        "asOfYear": null
+      },
+      {
+        "n": 109,
+        "title": "绝笔家书",
+        "asOfYear": null
+      },
+      {
+        "n": 110,
+        "title": "最后的制度",
+        "asOfYear": null
+      },
+      {
+        "n": 111,
+        "title": "余烬未冷",
+        "asOfYear": null
+      },
+      {
+        "n": 112,
+        "title": "史笔如刀",
+        "asOfYear": null
+      },
+      {
+        "n": 113,
+        "title": "余脉暗涌",
+        "asOfYear": null
+      },
+      {
+        "n": 114,
+        "title": "新朝气象",
+        "asOfYear": null
+      },
+      {
+        "n": 115,
+        "title": "魏征归心",
+        "asOfYear": null
+      },
+      {
+        "n": 116,
+        "title": "北门之变",
+        "asOfYear": null
+      },
+      {
+        "n": 117,
+        "title": "父退子进",
+        "asOfYear": null
+      },
+      {
+        "n": 118,
+        "title": "登基大典",
+        "asOfYear": null
+      },
+      {
+        "n": 119,
+        "title": "洛阳暗流",
+        "asOfYear": null
+      },
+      {
+        "n": 120,
+        "title": "律法新章",
+        "asOfYear": null
+      },
+      {
+        "n": 121,
+        "title": "渭水之盟",
+        "asOfYear": null
+      },
+      {
+        "n": 122,
+        "title": "东宫密议",
+        "asOfYear": null
+      },
+      {
+        "n": 123,
+        "title": "崔府夜谈",
+        "asOfYear": null
+      },
+      {
+        "n": 124,
+        "title": "代价抉择",
+        "asOfYear": null
+      },
+      {
+        "n": 125,
+        "title": "洛阳惊变",
+        "asOfYear": null
+      },
+      {
+        "n": 126,
+        "title": "律令初稿",
+        "asOfYear": null
+      },
+      {
+        "n": 127,
+        "title": "暗线暴露",
+        "asOfYear": null
+      },
+      {
+        "n": 128,
+        "title": "拒谏东宫",
+        "asOfYear": null
+      },
+      {
+        "n": 129,
+        "title": "烛影红痕",
+        "asOfYear": null
+      },
+      {
+        "n": 130,
+        "title": "最后布局",
+        "asOfYear": null
+      },
+      {
+        "n": 131,
+        "title": "朝会风暴",
+        "asOfYear": null
+      },
+      {
+        "n": 132,
+        "title": "深夜密诏",
+        "asOfYear": null
+      },
+      {
+        "n": 133,
+        "title": "玄武门定局",
+        "asOfYear": null
+      },
+      {
+        "n": 134,
+        "title": "新朝余波",
+        "asOfYear": null
+      }
+    ]
+  }
 }

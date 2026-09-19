@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "releaseId": "rel_20260918150809677_a6477ada03",
+  "releaseId": "rel_20260919164116938_64ad2f35f1",
   "projectId": "proj-mu6yz2ngrr4",
-  "manuscriptVersionId": "mv_ba8dc612e766166d",
-  "contentHash": "ba8dc612e766166d8d2d6c0e36567437ddc59bae768f05926489667c00b3480f",
+  "manuscriptVersionId": "mv_0967545f31e0a066",
+  "contentHash": "0967545f31e0a0667c41945ebaf019fa4517f744a01672173fa9fe2239289c55",
   "title": "The Tide Clerk",
   "subtitle": "A Mystery of the Cornish Harbour, 1923",
   "authorDisplayName": "Liszt Think",
@@ -23,7 +23,7 @@
   "visibility": "public",
   "stats": {
     "chapterCount": 19,
-    "units": 53114,
+    "units": 53843,
     "unitLabel": "words"
   },
   "editorialScore": {
@@ -34,7 +34,7 @@
     "createdAt": "2026-09-18T15:07:00.033Z"
   },
   "editorReview": {
-    "text": "The Tide Clerk offers a meticulously crafted historical procedural where the tidal rhythm becomes a detective in its own right. The sensory precision is undeniable; you can practically taste the tar on the nets, and the confrontation with Nora Keast—her needle stopping mid-stitch—delivers a masterclass in showing rather than telling. Yet, the narrative occasionally settles into competence over urgency. While the fair-play clue architecture is satisfying, Evelyn’s interiority remains frustratingly opaque, rendering her emotional responses functional rather than visceral. The prose suffers from",
+    "text": "The Tide Clerk offers a meticulously crafted historical procedural where the tidal rhythms become a detective in their own right. The sensory precision is undeniable; the smell of tarred rope is so thick you taste it, grounding the mystery in a vivid maritime atmosphere. The fair-play clues and the silent confession of a needle stopping mid-stitch showcase a masterful command of physical detail. However, the emotional stakes peak too early, settling into competence rather than urgency. Evelyn’s interiority remains frustratingly opaque, rendering her grief functional rather than visceral, while",
     "penName": "疏影",
     "title": "Fiction Editor",
     "rating": "Worth reading"
@@ -58,7 +58,7 @@
       "idx": 1,
       "sourceIdx": 1,
       "title": "The Coroner's Convenient Lie",
-      "units": 2499
+      "units": 3228
     },
     {
       "idx": 2,
@@ -163,6 +163,6 @@
       "units": 1859
     }
   ],
-  "publishedAt": "2026-09-18T15:08:09.680Z",
+  "publishedAt": "2026-09-19T16:41:16.941Z",
   "formFamily": "narrative"
 }

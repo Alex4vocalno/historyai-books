@@ -171,5 +171,121 @@
   "illustrations": 10,
   "publishedAt": "2026-08-29T04:00:50.154Z",
   "rerenderedAt": "2026-09-04T08:39:17.497Z",
-  "formFamily": "explainer"
+  "formFamily": "explainer",
+  "topics": {
+    "entities": [
+      "滑落",
+      "医疗",
+      "以房产",
+      "教培",
+      "P2P",
+      "用财务数据",
+      "不做道德审判",
+      "年至今中国城"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "房价信仰的资产负债表",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "教育刚需的定价幻觉",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "高收益话术的流动性陷阱",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "安全资产的期限锁死",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "收割是一个结构动词",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "风险错配的生成机制",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "错配的滞后清算",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "信息价差的隐性抽成",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "再融资杠杆的顺周期",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "预付现金流的断裂带",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "资金池的刚兑悖论",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "复杂保单的定价迷雾",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "短久期的安全错觉",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "从全面退守现金中清醒过来的家庭",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "简单产品的隐性税",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "提前还贷的流动性代价",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "信息流里的错觉",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "个人责任的制度边界",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "定价权的制度级差",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "流动的边界",
+        "asOfYear": null
+      }
+    ]
+  }
 }

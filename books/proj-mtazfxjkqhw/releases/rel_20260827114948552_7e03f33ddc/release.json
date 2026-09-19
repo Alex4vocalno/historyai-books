@@ -169,5 +169,118 @@
     }
   ],
   "publishedAt": "2026-08-27T11:49:48.558Z",
-  "rerenderedAt": "2026-09-04T08:33:57.835Z"
+  "rerenderedAt": "2026-09-04T08:33:57.835Z",
+  "topics": {
+    "entities": [
+      "算力",
+      "云服务",
+      "每章以一个具体产品或公司",
+      "模型降低使用门",
+      "每一层的瓶颈都"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "从ChatGPT在2022年底的爆发切入",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "一张显卡的全球旅行",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "以亚马逊AWS的SageMaker服务为入口",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "以Meta开源LLaMA系列模型为叙事主线",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "四层结构：一个协作系统的解剖",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "芯片层的权力游戏",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "云服务的计费表：按秒租赁超级计算机",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "以沃尔玛、摩根大通等传统巨头在2022至2024",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "开源模型的岔路口：从社区玩具到商业武器",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "协作的代价：开源社区里的隐形等级",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "开源模型的黑暗面：当任何人都能造出超级工具",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "是全书的第二个理论收束点",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "翻译的价值",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "提示词不是咒语",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "同质化的陷阱",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "以2023年发生在美国的两起标志性事件为叙事主线",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "晶体管的叹息",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "被忽视的账单",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "量子悬崖",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "算力的语法",
+        "asOfYear": null
+      }
+    ]
+  }
 }

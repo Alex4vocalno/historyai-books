@@ -217,5 +217,165 @@
       "units": 3423
     }
   ],
-  "publishedAt": "2026-09-19T16:04:38.490Z"
+  "publishedAt": "2026-09-19T16:04:38.490Z",
+  "topics": {
+    "entities": [
+      "Operation Crossroads",
+      "Bikini Atoll",
+      "Joint Task Force One",
+      "William H. P. Blandy",
+      "Stafford Warren",
+      "USS Nevada",
+      "USS Saratoga",
+      "Prinz Eugen",
+      "Nagato",
+      "USS Independence",
+      "Rongerik",
+      "Juda"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Sun-Ringed Lagoon",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "A Fleet of Ghosts",
+        "asOfYear": 1946
+      },
+      {
+        "n": 3,
+        "title": "The Unwilling Pioneers of Rongerik",
+        "asOfYear": 1946
+      },
+      {
+        "n": 4,
+        "title": "Admiral Blandy’s Fleet of Intended Ruin",
+        "asOfYear": 1946
+      },
+      {
+        "n": 5,
+        "title": "The Last Sunrise on a Populated Sea",
+        "asOfYear": 1946
+      },
+      {
+        "n": 6,
+        "title": "The Fathom-Five Shot and the Unwashable Mist",
+        "asOfYear": 1946
+      },
+      {
+        "n": 7,
+        "title": "The Battleship Nevada’s Marking Day",
+        "asOfYear": 1946
+      },
+      {
+        "n": 8,
+        "title": "The Saratoga and the Sacrifice Fleet",
+        "asOfYear": 1946
+      },
+      {
+        "n": 9,
+        "title": "The Underwater Cathedral",
+        "asOfYear": 1946
+      },
+      {
+        "n": 10,
+        "title": "The First Seventy-two Hours",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "The Tug of War in the Lagoon",
+        "asOfYear": 1946
+      },
+      {
+        "n": 12,
+        "title": "The Exodus of the Living Ships",
+        "asOfYear": 1946
+      },
+      {
+        "n": 13,
+        "title": "The Graveyard’s First Wardens",
+        "asOfYear": 1946
+      },
+      {
+        "n": 14,
+        "title": "The Long Tow to Kwajalein",
+        "asOfYear": 1946
+      },
+      {
+        "n": 15,
+        "title": "Stafford Warren’s Ultimatum",
+        "asOfYear": 1946
+      },
+      {
+        "n": 16,
+        "title": "The Crucible of the Independence",
+        "asOfYear": 1946
+      },
+      {
+        "n": 17,
+        "title": "The Scuttling of the Nagato",
+        "asOfYear": 1947
+      },
+      {
+        "n": 18,
+        "title": "The Silent Return to Bikini",
+        "asOfYear": 1947
+      },
+      {
+        "n": 19,
+        "title": "The Bureaucrat’s Secret Log",
+        "asOfYear": 1948
+      },
+      {
+        "n": 20,
+        "title": "The Unsealed Verdict",
+        "asOfYear": 1948
+      },
+      {
+        "n": 21,
+        "title": "The Board of Inquiry Convenes",
+        "asOfYear": 1948
+      },
+      {
+        "n": 22,
+        "title": "The Skeletons in the Kwajalein Lagoon",
+        "asOfYear": 1949
+      },
+      {
+        "n": 23,
+        "title": "The Last Report from Rongerik",
+        "asOfYear": 1949
+      },
+      {
+        "n": 24,
+        "title": "Stafford Warren’s Reckoning",
+        "asOfYear": 1949
+      },
+      {
+        "n": 25,
+        "title": "The Phantom Fleet at Hunter’s Point",
+        "asOfYear": 1950
+      },
+      {
+        "n": 26,
+        "title": "The Judgment of the Gray Book",
+        "asOfYear": 1952
+      },
+      {
+        "n": 27,
+        "title": "The Unquiet Earth of Rongerik",
+        "asOfYear": 1955
+      },
+      {
+        "n": 28,
+        "title": "The Ghost in the Water",
+        "asOfYear": 1958
+      }
+    ]
+  }
 }

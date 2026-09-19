@@ -136,5 +136,85 @@
     }
   ],
   "publishedAt": "2026-09-04T11:46:32.241Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "夺回专注",
+      "数字时代的深度工作实践手册"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "你的注意力正在被按秒拍卖",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "任务切换的隐性税单",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "深度工作的神经入口",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "数字工具的戒断分级",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "会议与即时消息的防御工事",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "精力周期与深度时段的匹配",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "深度时段的物理围墙",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "注意力回收的日常仪式",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "协作中的深度契约",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "深度产出的质量标尺",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "每周复盘的操作量表",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "深度工作作为长期秩序",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "深度契约的组织化扩散",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "注意力的终身主权",
+        "asOfYear": null
+      }
+    ]
+  }
 }

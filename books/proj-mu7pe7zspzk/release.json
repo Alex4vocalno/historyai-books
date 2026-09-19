@@ -221,5 +221,164 @@
     }
   ],
   "publishedAt": "2026-09-19T09:20:54.801Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "Charles Ponzi",
+      "Securities Exchange Company",
+      "School Street",
+      "Boston Post",
+      "Hanover Trust Company",
+      "International Reply Coupon",
+      "Clarence Barron",
+      "Edwin Pride",
+      "Daniel Gallagher",
+      "Joseph Allen",
+      "Rose Gnecco Ponzi"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Clerk from Lugano",
+        "asOfYear": 1903
+      },
+      {
+        "n": 2,
+        "title": "The Steerage Passenger",
+        "asOfYear": 1903
+      },
+      {
+        "n": 3,
+        "title": "Rose of the North End",
+        "asOfYear": 1919
+      },
+      {
+        "n": 4,
+        "title": "The Man Who Could Not Be Fired",
+        "asOfYear": 1917
+      },
+      {
+        "n": 5,
+        "title": "The Circular from Spain",
+        "asOfYear": 1919
+      },
+      {
+        "n": 6,
+        "title": "The First Dollar from Ettore",
+        "asOfYear": 1920
+      },
+      {
+        "n": 7,
+        "title": "The Run on School Street",
+        "asOfYear": 1920
+      },
+      {
+        "n": 8,
+        "title": "The Controlling Stake",
+        "asOfYear": 1920
+      },
+      {
+        "n": 9,
+        "title": "The Financier’s Doubt",
+        "asOfYear": 1920
+      },
+      {
+        "n": 10,
+        "title": "The Auditor’s Ledger",
+        "asOfYear": 1920
+      },
+      {
+        "n": 11,
+        "title": "The Publisher’s Gamble",
+        "asOfYear": 1920
+      },
+      {
+        "n": 12,
+        "title": "The Bank Examiner’s Knock",
+        "asOfYear": 1920
+      },
+      {
+        "n": 13,
+        "title": "The District Attorney’s Warrant",
+        "asOfYear": 1920
+      },
+      {
+        "n": 14,
+        "title": "The Wife at the Window",
+        "asOfYear": 1920
+      },
+      {
+        "n": 15,
+        "title": "The Run on Hanover Trust",
+        "asOfYear": 1920
+      },
+      {
+        "n": 16,
+        "title": "The Receivership’s Ledger",
+        "asOfYear": 1920
+      },
+      {
+        "n": 17,
+        "title": "The Indictment’s Language",
+        "asOfYear": 1920
+      },
+      {
+        "n": 18,
+        "title": "The Depositors’ Committee",
+        "asOfYear": 1920
+      },
+      {
+        "n": 19,
+        "title": "The Prisoner’s Bargain",
+        "asOfYear": 1920
+      },
+      {
+        "n": 20,
+        "title": "The State’s Witness",
+        "asOfYear": 1921
+      },
+      {
+        "n": 21,
+        "title": "The Sentence in Dedham",
+        "asOfYear": 1921
+      },
+      {
+        "n": 22,
+        "title": "The Banker’s Reckoning",
+        "asOfYear": 1921
+      },
+      {
+        "n": 23,
+        "title": "The Auditor’s Final Tally",
+        "asOfYear": 1922
+      },
+      {
+        "n": 24,
+        "title": "The Commissioner’s Report",
+        "asOfYear": 1924
+      },
+      {
+        "n": 25,
+        "title": "The Prisoner’s Appeal",
+        "asOfYear": 1926
+      },
+      {
+        "n": 26,
+        "title": "The Exile’s Return",
+        "asOfYear": 1930
+      },
+      {
+        "n": 27,
+        "title": "The Scheme’s Name",
+        "asOfYear": 1934
+      },
+      {
+        "n": 28,
+        "title": "The Last Dollar and the Last Word",
+        "asOfYear": 1949
+      }
+    ]
+  }
 }

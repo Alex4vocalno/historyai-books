@@ -140,5 +140,92 @@
   ],
   "illustrations": 4,
   "publishedAt": "2026-08-30T11:45:42.109Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "文心禅骨",
+      "聚焦诗文",
+      "书画",
+      "园林"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "辋川别业的空谷",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "中隐的闲适刻度",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "诗僧调停的悖论",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "文字权作渡船",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "夺胎换骨与句眼",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "沧浪诗话截众流",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "平易深处的禅关",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "焚版事件与转身",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "白沙静坐开新径",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "园林留白的制度化",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "茶寮里的当下",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "南北宗论定画禅",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "空门外的存身术",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "承平年间的半日闲",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "新诗旧禅的回声",
+        "asOfYear": null
+      }
+    ]
+  }
 }

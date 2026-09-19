@@ -243,5 +243,172 @@
   "publishedAt": "2026-08-31T02:44:31.730Z",
   "formFamily": "narrative",
   "rerenderedAt": "2026-09-04T06:39:50.164Z",
-  "lengthTier": "novel"
+  "lengthTier": "novel",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "确诊之日",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "失控的日常",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "账本",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "废墟叠影",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "照护的裂缝",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "旧账",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "衣柜里的日记",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "照护的倒刺",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "外婆的票据",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "裂痕",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "边界",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "红灯亮起",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "逼宫",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "夜游前兆",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "倒计时暗涌",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "夜寻运河",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "走失之夜",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "社区的目光",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "倒下的临界点",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "你有权利停下来",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "暗涌",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "碎裂与异响",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "遗书为盾",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "遗书如刀",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "遗书为剑",
+        "asOfYear": null
+      },
+      {
+        "n": 26,
+        "title": "握书拒控",
+        "asOfYear": null
+      },
+      {
+        "n": 27,
+        "title": "送别之日",
+        "asOfYear": null
+      },
+      {
+        "n": 28,
+        "title": "真相的告别",
+        "asOfYear": null
+      },
+      {
+        "n": 29,
+        "title": "余波未平",
+        "asOfYear": null
+      },
+      {
+        "n": 30,
+        "title": "运河边的规划",
+        "asOfYear": null
+      },
+      {
+        "n": 31,
+        "title": "余波落定",
+        "asOfYear": null
+      },
+      {
+        "n": 32,
+        "title": "运河的完成时",
+        "asOfYear": null
+      }
+    ]
+  }
 }

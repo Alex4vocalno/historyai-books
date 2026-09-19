@@ -220,5 +220,165 @@
       "units": 3748
     }
   ],
-  "publishedAt": "2026-09-19T07:20:35.485Z"
+  "publishedAt": "2026-09-19T07:20:35.485Z",
+  "topics": {
+    "entities": [
+      "Operation Gold",
+      "George Blake",
+      "William King Harvey",
+      "Peter Lunn",
+      "Allen Dulles",
+      "KGB",
+      "Secret Intelligence Service",
+      "Central Intelligence Agency",
+      "Altglienicke",
+      "Rudow",
+      "Cold War espionage",
+      "East Berlin"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The City of Wire",
+        "asOfYear": 1949
+      },
+      {
+        "n": 2,
+        "title": "The Man Who Hated Paper",
+        "asOfYear": 1952
+      },
+      {
+        "n": 3,
+        "title": "A Service in Exile",
+        "asOfYear": 1953
+      },
+      {
+        "n": 4,
+        "title": "The Mole in the Garden",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "The Rudow Blueprint",
+        "asOfYear": 1954
+      },
+      {
+        "n": 6,
+        "title": "Digging in Secret, Reporting in Plain Sight",
+        "asOfYear": 1954
+      },
+      {
+        "n": 7,
+        "title": "The Cable in the Clay",
+        "asOfYear": 1954
+      },
+      {
+        "n": 8,
+        "title": "The River of Voices",
+        "asOfYear": 1956
+      },
+      {
+        "n": 9,
+        "title": "Moscow’s Calculated Silence",
+        "asOfYear": 1956
+      },
+      {
+        "n": 10,
+        "title": "The Warehouse of Ears",
+        "asOfYear": 1956
+      },
+      {
+        "n": 11,
+        "title": "The Analyst’s Doubt",
+        "asOfYear": 1956
+      },
+      {
+        "n": 12,
+        "title": "The Border Breached",
+        "asOfYear": 1956
+      },
+      {
+        "n": 13,
+        "title": "The Tape Reels in London",
+        "asOfYear": 1956
+      },
+      {
+        "n": 14,
+        "title": "The Quality of the Silence",
+        "asOfYear": 1956
+      },
+      {
+        "n": 15,
+        "title": "The Calculus of Protection",
+        "asOfYear": 1956
+      },
+      {
+        "n": 16,
+        "title": "The Engineers’ Last Walk",
+        "asOfYear": 1956
+      },
+      {
+        "n": 17,
+        "title": "The Press Conference in Karlshorst",
+        "asOfYear": 1956
+      },
+      {
+        "n": 18,
+        "title": "Beneath This United Front",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "The First Interrogation of George Blake",
+        "asOfYear": 1961
+      },
+      {
+        "n": 20,
+        "title": "The Audit of the River",
+        "asOfYear": 1961
+      },
+      {
+        "n": 21,
+        "title": "Harvey’s Reckoning in Berlin",
+        "asOfYear": 1961
+      },
+      {
+        "n": 22,
+        "title": "The Trial at the Old Bailey",
+        "asOfYear": 1961
+      },
+      {
+        "n": 23,
+        "title": "The Silence in Washington and London",
+        "asOfYear": 1963
+      },
+      {
+        "n": 24,
+        "title": "The Engineers’ Verdict",
+        "asOfYear": 1966
+      },
+      {
+        "n": 25,
+        "title": "The Mole’s Last Transmission",
+        "asOfYear": 1962
+      },
+      {
+        "n": 26,
+        "title": "The Empty Warehouse",
+        "asOfYear": 1966
+      },
+      {
+        "n": 27,
+        "title": "The Calculus of Doubt",
+        "asOfYear": 1966
+      },
+      {
+        "n": 28,
+        "title": "The Final Balance Sheet",
+        "asOfYear": null
+      }
+    ]
+  }
 }

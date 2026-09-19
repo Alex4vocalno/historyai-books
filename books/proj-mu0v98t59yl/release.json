@@ -104,5 +104,57 @@
   ],
   "publishedAt": "2026-09-15T01:08:44.033Z",
   "formFamily": "narrative",
-  "lengthTier": "novella"
+  "lengthTier": "novella",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Anomaly in Ink",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "Low Water, High Stakes",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "The Fiancée's Truth",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "The Engineer's Story",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "Breaking the Seal",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "Whose Signature on the Blades?",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "Against the Rising Tide",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "Rossiter's Calculus",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "A True Record",
+        "asOfYear": null
+      }
+    ]
+  }
 }

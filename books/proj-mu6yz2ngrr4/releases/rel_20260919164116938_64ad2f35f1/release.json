@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919164116938_64ad2f35f1",
+  "projectId": "proj-mu6yz2ngrr4",
+  "manuscriptVersionId": "mv_0967545f31e0a066",
+  "contentHash": "0967545f31e0a0667c41945ebaf019fa4517f744a01672173fa9fe2239289c55",
+  "title": "The Tide Clerk",
+  "subtitle": "A Mystery of the Cornish Harbour, 1923",
+  "authorDisplayName": "Liszt Think",
+  "description": "On the morning after the spring tide, Captain Silas Trewin is found dead at the foot of the lock steps. The coroner calls it a fall in the dark. But Evelyn Marsh, the harbour board's tide clerk, notices what the inquest ignores: the lock gate was opened twice in the night, and only once was logged. Every clue is a document or an object the reader sees alongside her—a stopped pocket-watch, a wet coat, a receipt, the tide tables themselves. The solution turns on the tide alone: the precise time at which a body dropped from the steps would have been carried where it was found. Evelyn works it out from her own ledgers while being quietly squeezed out of her post. A fair-play mystery where the sea itself is the final witness.",
+  "category": "小说",
+  "tags": [
+    "historical mystery",
+    "Cornwall",
+    "1920s",
+    "closed-circle",
+    "fair-play",
+    "Fiction"
+  ],
+  "language": "en",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 19,
+    "units": 53843,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-18T15:07:00.033Z"
+  },
+  "editorReview": {
+    "text": "The Tide Clerk offers a meticulously crafted historical procedural where the tidal rhythms become a detective in their own right. The sensory precision is undeniable; the smell of tarred rope is so thick you taste it, grounding the mystery in a vivid maritime atmosphere. The fair-play clues and the silent confession of a needle stopping mid-stitch showcase a masterful command of physical detail. However, the emotional stakes peak too early, settling into competence rather than urgency. Evelyn’s interiority remains frustratingly opaque, rendering her grief functional rather than visceral, while",
+    "penName": "疏影",
+    "title": "Fiction Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-18T15:08:07.363Z",
+    "textless": false,
+    "profileId": "fiction-mystery-noir"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Lock Steps at Dawn",
+      "units": 2749
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Coroner's Convenient Lie",
+      "units": 3228
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Discrepancy in the Ledger",
+      "units": 2890
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "Questions for the Lock-Keeper",
+      "units": 3764
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Nephew's Debt",
+      "units": 3212
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Pengelly's Berthing Grudge",
+      "units": 2409
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Tide Tables and Tampered Evidence",
+      "units": 2469
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Alderman Rowes Summons",
+      "units": 2149
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "Ink-Stained Fingers, One Truth",
+      "units": 2487
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Nora at Dawn",
+      "units": 2799
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Tide Table's Promise",
+      "units": 2512
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "Rowe's Ultimatum",
+      "units": 3127
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Tide's Testimony",
+      "units": 2519
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "Keasts Confession, the Rivers Secret",
+      "units": 2960
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Calculated Window",
+      "units": 3361
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "Scattered Evidence, Undeniable Sequence",
+      "units": 3169
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "Proof Before the Board",
+      "units": 3773
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Constable's Arrest",
+      "units": 2407
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The New Tide Ledger",
+      "units": 1859
+    }
+  ],
+  "publishedAt": "2026-09-19T16:41:16.941Z"
+}

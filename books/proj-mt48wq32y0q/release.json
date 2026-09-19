@@ -141,5 +141,93 @@
   "illustrations": 4,
   "publishedAt": "2026-08-24T07:15:28.687Z",
   "rerenderedAt": "2026-09-03T13:23:43.039Z",
-  "formFamily": "narrative"
+  "formFamily": "narrative",
+  "topics": {
+    "entities": [
+      "闺阁之内",
+      "明清江南女子的衣食住行",
+      "明清",
+      "明清江",
+      "中叶至清中期江"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "闺阁的围墙",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "衣裳里的规矩",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "灶下与食盒",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "绣绷前的世界",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "奁产与秤杆",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "药方与香灰",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "砚池边的另一重天地",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "丹青里的自我摹写",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "隔帘听曲与园中借景",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "礼单上的闺阁权力",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "佛堂前的施与受",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "寡居者的账簿",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "旧针黹与新学堂",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "箱奁里的故纸",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "日常的碑铭",
+        "asOfYear": null
+      }
+    ]
+  }
 }

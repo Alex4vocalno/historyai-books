@@ -134,5 +134,82 @@
   ],
   "publishedAt": "2026-09-02T00:28:36.180Z",
   "formFamily": "narrative",
-  "lengthTier": "novella"
+  "lengthTier": "novella",
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "回声",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "时间戳",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "排除法",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "幽灵写入",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "功率波动",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "共振",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "时间镜",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "旧站",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "签名",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "电缆",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "选择",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "不发送",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "因果",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "零度",
+        "asOfYear": null
+      }
+    ]
+  }
 }
