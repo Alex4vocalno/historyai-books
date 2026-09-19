@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919082858300_f111d89bef",
+  "projectId": "proj-mu7pmy1pani",
+  "manuscriptVersionId": "mv_c59dbda1d19c1c7f",
+  "contentHash": "c59dbda1d19c1c7f0e0a08981764ce43d2459f669968074e33f7f1737afda905",
+  "title": "Five Days Without Sky",
+  "subtitle": "London, 1952, and the Fog That Changed the World",
+  "authorDisplayName": "Liszt Think",
+  "description": "On December 5, 1952, an anticyclone trapped the smoke of a million coal fires over London. For five days, visibility fell to mere feet. Buses were guided by conductors wielding flares; prize cattle at the Smithfield Show choked to death; hospitals and undertakers exhausted their supplies. While the Ministry of Health initially reported four thousand deaths, the true toll reached twelve thousand. Drawing on Met Office records, government papers, and survivor memories, this narrative reconstructs the catastrophe hour by hour. It exposes a government reluctant to blame the low-grade ‘nutty slack’ coal it profited from, even as Parliament debated in blindness and coffin makers worked overtime. From the silence of operating theatres to the eventual Clean Air Act of 1956, this is the definitive account of a city suffocating under its own fuel—and the painful reckoning that finally cleared the air.",
+  "category": "世界史",
+  "tags": [
+    "London history",
+    "environmental disaster",
+    "1950s Britain",
+    "public health",
+    "narrative nonfiction",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 84398,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T08:27:36.796Z"
+  },
+  "editorReview": {
+    "text": "This meticulously researched account of the Great Smog of 1952 achieves its power through disciplined, concrete detail—the reader is there, feeling the bus conductor’s flare gutter out in the soupy air. The narrative masterfully weaves distinct institutional and human perspectives, building causation from physical facts rather than abstract claims. However, a jarring chronological jump in the book’s middle section momentarily fractures the immersive, day-by-day countdown structure that is otherwise so compelling. This is a vivid and authoritative reconstruction, its minor structural seam the o",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T08:28:54.874Z",
+    "textless": false,
+    "profileId": "archival-deep"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The City of a Million Fires",
+      "units": 3095
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The High-Pressure Dome",
+      "units": 3055
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Pall Descends",
+      "units": 2652
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Chimneys of Battersea (5 December 1952, Afternoon)",
+      "units": 2603
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Stage Goes Dark (Evening of 5 December 1952)",
+      "units": 3062
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "A Ministry of Normalcy",
+      "units": 2986
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Smithfield Show",
+      "units": 3537
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Telegraph from County Hall (6 December 1952, Afternoon)",
+      "units": 2490
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Conductor’s Flare (Evening of 6 December 1952)",
+      "units": 2869
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Ward Sister’s Ledger",
+      "units": 3043
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Undertaker’s Inventory",
+      "units": 3523
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Power Station’s Unceasing Furnace",
+      "units": 3008
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Nutty Slack in the Grate",
+      "units": 3119
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Silence in the Operating Theatre",
+      "units": 2653
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Wind’s Return",
+      "units": 3057
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Ministry’s First Tally",
+      "units": 3129
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Editor’s Demand",
+      "units": 3036
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Minister’s Statement",
+      "units": 3129
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Unseen Audience",
+      "units": 3515
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Parliament in Fog",
+      "units": 3046
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Coffin Makers’ Overtime",
+      "units": 3354
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Committee of Inquiry",
+      "units": 2797
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Draft on the Minister’s Desk",
+      "units": 2503
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Principle of the Chimney",
+      "units": 2524
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The First Smoke Control Area",
+      "units": 3369
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Reckoning of the Twelve Thousand",
+      "units": 3011
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Unmaking of the Pea-Souper",
+      "units": 3208
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Last Smoke from the Stack",
+      "units": 3025
+    }
+  ],
+  "publishedAt": "2026-09-19T08:28:58.304Z"
+}
