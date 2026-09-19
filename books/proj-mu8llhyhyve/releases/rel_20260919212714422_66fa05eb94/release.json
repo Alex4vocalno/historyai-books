@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919212714422_66fa05eb94",
+  "projectId": "proj-mu8llhyhyve",
+  "manuscriptVersionId": "mv_cbf976c5f56e3852",
+  "contentHash": "cbf976c5f56e385249f16af45124cb255f60517a7a3fb6a3f987d5abb5db2ecd",
+  "title": "The Officers at Newburgh",
+  "subtitle": "George Washington, the Newburgh Conspiracy, and the Crisis That Forged the American Republic",
+  "authorDisplayName": "Liszt Think",
+  "description": "In March 1783, peace had been signed but the Continental Army remained unpaid and restless at Newburgh. Two anonymous addresses circulated through camp, urging officers to defy Congress and march on Philadelphia. Nationalists in the capital secretly hoped this mutiny would force federal taxing power, risking military rule to secure financial stability. George Washington intervened uninvited at a tense assembly, reading a letter and donning spectacles to plead for patience. Drawing on diaries, congressional debates, and private correspondence, this narrative reconstructs the conspiracy from the documents themselves. It traces the plot from John Armstrong Jr.’s pen to Horatio Gates’s silence, revealing how a fragile republic survived its most dangerous internal threat. The crisis did not end with Washington’s emotional appeal; its unresolved debts echoed through Shays’s Rebellion and shaped the Constitution’s fiscal architecture. This is the definitive account of how an army’s grievance became a nation’s founding test.",
+  "category": "世界史",
+  "tags": [
+    "American Revolution",
+    "George Washington",
+    "Newburgh Conspiracy",
+    "Early Republic",
+    "Military History",
+    "Constitutional History"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 98096,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 85,
+    "method": "median-of-2",
+    "createdAt": "2026-09-19T20:44:21.708Z"
+  },
+  "editorReview": {
+    "text": "This biography of the Newburgh Conspiracy excels by treating the event as a crucial fiscal lever for the nascent U.S. government, not just a military mutiny. The argument is consistently structural, grounded in granular evidence like the quartermaster's ledger, and it preserves contradictions, such as portraying Robert Morris as both architect and victim of the financial system. However, the prose can feel mechanical at times, with repetitive phrasing that occasionally breaks immersion and a narrative voice that sometimes flattens into summary in later chapters, shifting focus from human cost",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T21:27:11.256Z",
+    "textless": false,
+    "profileId": "epigraphy-rubbing"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Unpaid Army at Newburgh",
+      "units": 3884
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Nationalist Gambit in Philadelphia",
+      "units": 3614
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Anonymous Addresses",
+      "units": 3156
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The General’s Unwanted Command",
+      "units": 3510
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Pen of John Armstrong Jr.",
+      "units": 3328
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Summons to the Temple of Virtue",
+      "units": 3195
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Meeting Called",
+      "units": 3790
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Washington’s Spectacles",
+      "units": 3605
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Vote for Patience",
+      "units": 3447
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Letters to Congress",
+      "units": 3048
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Debates in Philadelphia",
+      "units": 3964
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Impost and the Half-Pay Compromise",
+      "units": 3676
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Dispersal of the Army",
+      "units": 2683
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "Gates in the Shadows",
+      "units": 3652
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Unfunded Promise",
+      "units": 3678
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Hamilton-Morris Correspondence Unmasked",
+      "units": 3651
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Silence of Horatio Gates",
+      "units": 3606
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Spectacles as Relic",
+      "units": 3692
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Court of Inquiry at Newburgh",
+      "units": 2984
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Certificates of Debt",
+      "units": 4110
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "Shays’s Rebellion as Echo",
+      "units": 3335
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Constitution’s Unspoken Debt",
+      "units": 2548
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Funding Act and the Final Settlement",
+      "units": 3955
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Retirement of Horatio Gates",
+      "units": 3634
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Last Garrison at Newburgh",
+      "units": 2556
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Memory of Mutiny",
+      "units": 3748
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Reckoning in Retirement",
+      "units": 4187
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Final Ledger of the Revolution",
+      "units": 3860
+    }
+  ],
+  "topics": {
+    "entities": [
+      "George Washington",
+      "Horatio Gates",
+      "John Armstrong Jr.",
+      "Alexander Hamilton",
+      "Robert Morris",
+      "Gouverneur Morris",
+      "Henry Knox",
+      "Alexander McDougall",
+      "the Temple of Virtue",
+      "Newburgh, New York",
+      "Continental Congress",
+      "half-pay pensions"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Unpaid Army at Newburgh",
+        "asOfYear": 1783
+      },
+      {
+        "n": 2,
+        "title": "The Nationalist Gambit in Philadelphia",
+        "asOfYear": 1783
+      },
+      {
+        "n": 3,
+        "title": "The Anonymous Addresses",
+        "asOfYear": 1783
+      },
+      {
+        "n": 4,
+        "title": "The General’s Unwanted Command",
+        "asOfYear": 1783
+      },
+      {
+        "n": 5,
+        "title": "The Pen of John Armstrong Jr.",
+        "asOfYear": 1783
+      },
+      {
+        "n": 6,
+        "title": "Summons to the Temple of Virtue",
+        "asOfYear": 1783
+      },
+      {
+        "n": 7,
+        "title": "The Meeting Called",
+        "asOfYear": 1783
+      },
+      {
+        "n": 8,
+        "title": "Washington’s Spectacles",
+        "asOfYear": 1783
+      },
+      {
+        "n": 9,
+        "title": "The Vote for Patience",
+        "asOfYear": 1783
+      },
+      {
+        "n": 10,
+        "title": "The Letters to Congress",
+        "asOfYear": 1783
+      },
+      {
+        "n": 11,
+        "title": "The Debates in Philadelphia",
+        "asOfYear": 1783
+      },
+      {
+        "n": 12,
+        "title": "The Impost and the Half-Pay Compromise",
+        "asOfYear": 1783
+      },
+      {
+        "n": 13,
+        "title": "The Dispersal of the Army",
+        "asOfYear": 1783
+      },
+      {
+        "n": 14,
+        "title": "Gates in the Shadows",
+        "asOfYear": 1783
+      },
+      {
+        "n": 15,
+        "title": "The Unfunded Promise",
+        "asOfYear": 1784
+      },
+      {
+        "n": 16,
+        "title": "The Hamilton-Morris Correspondence Unmasked",
+        "asOfYear": 1783
+      },
+      {
+        "n": 17,
+        "title": "The Silence of Horatio Gates",
+        "asOfYear": 1784
+      },
+      {
+        "n": 18,
+        "title": "The Spectacles as Relic",
+        "asOfYear": 1790
+      },
+      {
+        "n": 19,
+        "title": "The Court of Inquiry at Newburgh",
+        "asOfYear": 1783
+      },
+      {
+        "n": 20,
+        "title": "The Certificates of Debt",
+        "asOfYear": 1787
+      },
+      {
+        "n": 21,
+        "title": "Shays’s Rebellion as Echo",
+        "asOfYear": 1787
+      },
+      {
+        "n": 22,
+        "title": "The Constitution’s Unspoken Debt",
+        "asOfYear": 1788
+      },
+      {
+        "n": 23,
+        "title": "The Funding Act and the Final Settlement",
+        "asOfYear": 1791
+      },
+      {
+        "n": 24,
+        "title": "The Retirement of Horatio Gates",
+        "asOfYear": 1806
+      },
+      {
+        "n": 25,
+        "title": "The Last Garrison at Newburgh",
+        "asOfYear": 1783
+      },
+      {
+        "n": 26,
+        "title": "The Memory of Mutiny",
+        "asOfYear": 1790
+      },
+      {
+        "n": 27,
+        "title": "The Reckoning in Retirement",
+        "asOfYear": 1793
+      },
+      {
+        "n": 28,
+        "title": "The Final Ledger of the Revolution",
+        "asOfYear": 1793
+      }
+    ]
+  },
+  "publishedAt": "2026-09-19T21:27:14.454Z"
+}
