@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919092644287_2d9e632f98",
+  "projectId": "proj-mu7pm1repsw",
+  "manuscriptVersionId": "mv_b1331b9b58e3d05e",
+  "contentHash": "b1331b9b58e3d05eda9850a3993e7040220f1f5923299d441815361b887942af",
+  "title": "Diamonds in the Sand",
+  "subtitle": "The Great Diamond Hoax of 1872 and the Men Who Fooled America",
+  "authorDisplayName": "Liszt Think",
+  "description": "In 1872, two Kentucky prospectors convinced San Francisco’s elite that a remote Colorado mesa held untold riches. Philip Arnold and John Slack had salted the wilderness with uncut diamonds and rubies purchased in Europe, ensnaring banker William Ralston and earning a favorable appraisal from Charles Tiffany. As investors poured ten million dollars into the venture, government geologist Clarence King raced to verify the find. On the desolate peak, King spotted an impossible cut stone among the gravel, exposing one of the Gilded Age’s most audacious frauds. Drawing on company ledgers, press reports, and King’s own field notes, this narrative reconstructs the deception that captivated a nation. From London gem markets to Washington hearing rooms, it traces the rise and ruin of financiers and scientists alike, revealing how ambition blinded experts and how a single observation dismantled a fortune built on mirages.",
+  "category": "世界史",
+  "tags": [
+    "Gilded Age fraud",
+    "Colorado Territory",
+    "Clarence King",
+    "mining history",
+    "American West",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 90763,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T07:08:37.957Z"
+  },
+  "editorReview": {
+    "text": "This panoramic reconstruction of the 1872 diamond hoax grounds its power in dated physical particulars—the weight of Ralston's silver, the texture of a salted mesa—rather than adjectives, creating a consistently immediate reading experience. Its multi-track structure successfully converges distinct timelines at the climax, delivering genuine narrative force. However, the prose carries mechanical artifacts, such as duplicate passages and repetitive sentence openings, which disrupt the reading rhythm and signal a need for tighter line-editing. The post-climax chapters, while maintaining better s",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T09:26:24.813Z",
+    "textless": false,
+    "profileId": "chronicle-panorama"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Kingdom of the Banker",
+      "units": 3909
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Prospector’s Secret",
+      "units": 2723
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Gemologist’s Seal",
+      "units": 2669
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Engineer’s Journey",
+      "units": 3121
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Syndicate Forms",
+      "units": 3769
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "A Map on a Desk",
+      "units": 3471
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Syndicate’s Secret Agent",
+      "units": 2918
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Government’s Parallel Track",
+      "units": 3225
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "A Whisper in Washington",
+      "units": 2650
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Engineer’s Return",
+      "units": 3844
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Incorporation of Diamond Peak",
+      "units": 2888
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "King Turns His Field Glasses",
+      "units": 4195
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Geologist’s Detour",
+      "units": 2783
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "A Cut Stone in the Gravel",
+      "units": 3470
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Telegram from the Mesa",
+      "units": 3761
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Banker’s Last Stand",
+      "units": 3672
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Flight of the Prospectors",
+      "units": 2864
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Scientist’s Burden of Proof",
+      "units": 3568
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Lawyer’s Ledger",
+      "units": 3051
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Prospector’s Price",
+      "units": 3061
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Press Breaks the Silence",
+      "units": 3197
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Commission’s First Question",
+      "units": 2706
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Engineer in the Dock",
+      "units": 3156
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Settlement’s Hollow Victory",
+      "units": 3056
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Banker’s Last Reckoning",
+      "units": 3184
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Geologist’s Ascendant Star",
+      "units": 3966
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Mountain That Was a Mirage",
+      "units": 3020
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Last Ledger of the Syndicate",
+      "units": 2866
+    }
+  ],
+  "publishedAt": "2026-09-19T09:26:44.290Z",
+  "formFamily": "narrative"
+}
