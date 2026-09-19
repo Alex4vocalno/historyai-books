@@ -40,12 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-272b4467c801.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T08:28:54.874Z",
+    "generatedAt": "2026-09-19T09:18:23.498Z",
     "textless": false,
-    "profileId": "archival-deep"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -217,5 +217,6 @@
       "units": 3025
     }
   ],
-  "publishedAt": "2026-09-19T08:28:58.304Z"
+  "publishedAt": "2026-09-19T08:28:58.304Z",
+  "rerenderedAt": "2026-09-19T09:18:23.778Z"
 }
