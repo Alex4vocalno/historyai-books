@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919090848425_0b99c339a1",
+  "projectId": "proj-mu82v8oow97",
+  "manuscriptVersionId": "mv_0c4e1c9184b2d48f",
+  "contentHash": "0c4e1c9184b2d48f07811bd601ab5c99e5a2fddc1bde0d5f6545bf0b2d0d8a10",
+  "title": "The Long Field",
+  "subtitle": "A Novel of the Fens",
+  "authorDisplayName": "Liszt Think",
+  "description": "Cambridgeshire, 1911. The wet spring threatens to undo Nell Askew, who has spent two years holding her late husband's forty acres of black peat against the water. Now the drainage board wants to cut a new dyke through the long field, the only land that pays. Philip Danvers, the surveyor, arrives with his notebook and careful courtesy. Nell's brother-in-law urges her to sell and move to Ely. Her daughter wants the world to stay unchanged. Only Amos Reed, the hired man who came back from the Boer War silent, stands with her. From Lady Day to harvest, the weather and the water table do the work of fate. The pump, the cut, the market, the chapel, the flooded road. No villain, only the dyke coming. A novel of what people decide to keep.",
+  "category": "小说",
+  "tags": [
+    "East Anglia",
+    "rural life",
+    "drainage",
+    "widow",
+    "historical",
+    "Fiction"
+  ],
+  "language": "en",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 21,
+    "units": 57445,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T09:07:22.674Z"
+  },
+  "editorReview": {
+    "text": "The sensory immersion in the Cambridgeshire fens is exceptional; you feel the cold go through Nell’s shawl and the peat yield beneath her boots. Nell’s resilience is built through accumulated physical detail—her hand on the pump handle, the nail in her pocket—making her struggle palpable. The lamb-birthing sequence stands out as a masterclass in immediate, mortal stakes. However, the prose occasionally falls into mechanical rhythms, with repetitive sentence openings flattening the tension. A late-stage exposition dump regarding thirty-year grudges arrives too compressed, rushing a history that",
+    "penName": "疏影",
+    "title": "Fiction Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T09:08:45.734Z",
+    "textless": false,
+    "profileId": "dawn-object-warm"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Measure",
+      "units": 2045
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "Surveying the Flooded Field",
+      "units": 4030
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Gate and the Letter",
+      "units": 2408
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Gate That Holds",
+      "units": 3593
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Surveyor's Mark",
+      "units": 2529
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "Amoss Last Pump",
+      "units": 2261
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Nell and Amos, Against the Water",
+      "units": 2958
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Kitty's Broken Routine",
+      "units": 3392
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "Saving Lamb, Losing Ground",
+      "units": 2385
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Frost and the Barley",
+      "units": 2523
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Lamb's First Stand",
+      "units": 2880
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "Mud, Time, and Tomorrow",
+      "units": 2467
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Lamb and the Ditch",
+      "units": 2359
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "Nells Stand on the Brink",
+      "units": 2761
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Rising Ditch",
+      "units": 2220
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "Nells Wrench, Amoss Doubt",
+      "units": 2530
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Truth Behind the Dyke",
+      "units": 2728
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Defeated by Rising Waters",
+      "units": 2487
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Engine's Heart",
+      "units": 4002
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "Memory of a Distant War",
+      "units": 2661
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Engine's Truth",
+      "units": 2226
+    }
+  ],
+  "publishedAt": "2026-09-19T09:08:48.428Z"
+}
