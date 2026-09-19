@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919160438486_b1e29c06f4",
+  "projectId": "proj-mu84bjjg9q2",
+  "manuscriptVersionId": "mv_dc330fbf840602f0",
+  "contentHash": "dc330fbf840602f0f9e3fb860c726d8d8845992292b7a2227c4701f23054fdf6",
+  "title": "Two Bombs at Bikini",
+  "subtitle": "Operation Crossroads and the Birth of the Nuclear Age",
+  "authorDisplayName": "Liszt Think",
+  "description": "In July 1946, the U.S. Navy assembled ninety target ships and forty-two thousand men at Bikini Atoll to test atomic weapons against a fleet. What followed was a collision of military ambition and invisible peril. After the air drop missed its mark, the underwater Test Baker unleashed a radioactive base surge that coated vessels in contamination no hose could remove. Radiological safety officers battled command schedules as sailors scrubbed decks in vain and animals perished on board. Drawing on task force reports, ship logs, and Bikinian testimony, this narrative reconstructs the operation’s human and environmental toll. From the forced exile of islanders to Rongerik to the scuttling of irradiated hulls, the story reveals what the Navy learned about nuclear warfare—and what it chose to ignore. A definitive account of the moment when atomic testing outpaced safety, leaving a legacy written in fission products and silenced warnings.",
+  "category": "世界史",
+  "tags": [
+    "Operation Crossroads",
+    "Nuclear Testing",
+    "Naval History",
+    "Bikini Atoll",
+    "Cold War",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 92565,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T16:03:12.866Z"
+  },
+  "editorReview": {
+    "text": "This panoramic reconstruction of the 1946 atomic tests at Bikini Atoll is a competent work of history, grounded in checkable detail and a credible timeline. Its strength lies in its multi-track structure, which effectively converges military, scientific, and civilian narratives at key operational climaxes; the cross-cutting tension in chapters like 'Stafford Warren’s Ultimatum' is particularly compelling. However, the reader's immersion is periodically broken by mechanical prose, including verbatim repetitions and, most damagingly, a corrupted passage in a pivotal underwater detonation scene.",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T16:04:33.167Z",
+    "textless": false,
+    "profileId": "archival-deep"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Sun-Ringed Lagoon",
+      "units": 3695
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "A Fleet of Ghosts",
+      "units": 3542
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Unwilling Pioneers of Rongerik",
+      "units": 2857
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "Admiral Blandy’s Fleet of Intended Ruin",
+      "units": 3651
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Last Sunrise on a Populated Sea",
+      "units": 3810
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Fathom-Five Shot and the Unwashable Mist",
+      "units": 2682
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Battleship Nevada’s Marking Day",
+      "units": 2938
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Saratoga and the Sacrifice Fleet",
+      "units": 2689
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Underwater Cathedral",
+      "units": 3322
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The First Seventy-two Hours",
+      "units": 3134
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Tug of War in the Lagoon",
+      "units": 3712
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Exodus of the Living Ships",
+      "units": 3360
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Graveyard’s First Wardens",
+      "units": 3284
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Long Tow to Kwajalein",
+      "units": 3500
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "Stafford Warren’s Ultimatum",
+      "units": 3125
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Crucible of the Independence",
+      "units": 3293
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Scuttling of the Nagato",
+      "units": 3055
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Silent Return to Bikini",
+      "units": 3189
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Bureaucrat’s Secret Log",
+      "units": 3624
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Unsealed Verdict",
+      "units": 3827
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Board of Inquiry Convenes",
+      "units": 3286
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Skeletons in the Kwajalein Lagoon",
+      "units": 3342
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Last Report from Rongerik",
+      "units": 3216
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "Stafford Warren’s Reckoning",
+      "units": 3854
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Phantom Fleet at Hunter’s Point",
+      "units": 3036
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Judgment of the Gray Book",
+      "units": 3524
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Unquiet Earth of Rongerik",
+      "units": 2595
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Ghost in the Water",
+      "units": 3423
+    }
+  ],
+  "publishedAt": "2026-09-19T16:04:38.490Z"
+}
