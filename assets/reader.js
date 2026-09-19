@@ -222,6 +222,7 @@
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   var key = 'historyai.reader.' + data.bookId;
   var releaseId = data.releaseId || (location.pathname.split('/releases/')[1] || '').split('/')[0];
+  var bookBase = (data.links && data.links.bookBase != null) ? data.links.bookBase : '../../'; // v6.64.0 稳定页深度
   var editionPolicy = (function readerEditionPolicy() {
   const validId = id => typeof id === 'string' && /^[A-Za-z0-9_-]{1,100}$/.test(id);
   function releaseOf(record) {
@@ -1306,6 +1307,7 @@
     scrollProgress();
   }
   (function installReaderEditionNotice({ document, window, data, policy, edition, location, releaseId, onAccept, onResize }) {
+  var bookBase = (data && data.links && data.links.bookBase != null) ? data.links.bookBase : '../../'; // v6.64.0 稳定页在 books/<id>/ 下
   const en = data.lang === 'en';
   const paper = document.querySelector('.reader-paper');
   let notice;
@@ -1350,20 +1352,20 @@
     if (anchor) button(actions, en ? 'Resume at matching text' : '接续原文位置', () => accept(anchor), 'resume');
     const oldRelease = policy.releaseOf(previous);
     if (standardPath && oldRelease && Number.isInteger(previous.chapter) && previous.chapter >= 0) {
-      link(actions, en ? 'Read previous edition' : '继续旧版', '../../releases/' + oldRelease + '/ch-' + (previous.chapter + 1) + '.html');
+      link(actions, en ? 'Read previous edition' : '继续旧版', bookBase + 'releases/' + oldRelease + '/ch-' + (previous.chapter + 1) + '.html');
     }
     button(actions, en ? 'Start this chapter' : '从本章开始', () => accept(null), 'start');
     onResize();
     return;
   }
   if (!standardPath) return;
-  window.fetch('../../release.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(release => {
+  window.fetch(bookBase + 'release.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(release => {
     if (!release || !policy.validId(release.releaseId) || release.releaseId === releaseId) return;
     const titles = (Array.isArray(release.chapters) ? release.chapters : []).map(ch => String(ch?.title || ''));
     const index = policy.chapterFor({ releaseId, chapter: data.chapter, chapterTitle: data.chapterTitle }, release.releaseId, titles);
     const actions = show(en ? 'A newer edition is available.' : '本书有新版本。');
     link(actions, index >= 0 ? (en ? 'View new edition' : '查看新版') : (en ? 'Open new edition' : '打开新版'),
-      '../../releases/' + release.releaseId + '/' + (index >= 0 ? 'ch-' + (index + 1) + '.html' : 'read.html'));
+      bookBase + 'releases/' + release.releaseId + '/' + (index >= 0 ? 'ch-' + (index + 1) + '.html' : 'read.html'));
     button(actions, en ? 'Stay here' : '留在当前版本', () => { notice.remove(); notice = null; onResize(); }, 'stay');
     onResize();
   }).catch(() => { /* Offline readers keep the current edition. */ });
@@ -1629,7 +1631,7 @@
       if (!editionPolicy.validId(row.releaseId) || !Number.isInteger(row.chapter) || row.chapter < 0 || row.chapter > 500) return false;
       var sameEdition = row.releaseId === releaseId;
       if (sameEdition && row.chapter >= titles.length) return false;
-      var href = sameEdition ? chapterHref(row.chapter) : '../../releases/' + row.releaseId + '/ch-' + (row.chapter + 1) + '.html';
+      var href = sameEdition ? chapterHref(row.chapter) : bookBase + 'releases/' + row.releaseId + '/ch-' + (row.chapter + 1) + '.html';
       var next = Object.assign({}, row, { href: href, readerUserId: uid });
       try {
         var old = localStorage.getItem(key);
