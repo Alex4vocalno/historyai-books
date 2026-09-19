@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919194531261_2ffd28c17a",
+  "projectId": "proj-mu8lk0u1b0d",
+  "manuscriptVersionId": "mv_7d0add826f0b751d",
+  "contentHash": "7d0add826f0b751df3c7b22dea9aeaa35747fee3fa4c678dad2460dcd5977a77",
+  "title": "Eleven Miles Out",
+  "subtitle": "Robert Stevenson, John Rennie, and the Building of the Bell Rock Lighthouse",
+  "authorDisplayName": "Liszt Think",
+  "description": "Eleven miles off the Scottish coast, a reef lies submerged for twenty hours a day. In the early nineteenth century, raising a granite tower on this treacherous foundation seemed impossible. Robert Stevenson had only brief summer tides to set interlocking stones cut without mortar in an Arbroath workyard. His men lived first on a moored ship, then in a precarious wooden beacon perched above the waves. When storms broke their boats loose in September 1807, thirty-two workers faced disaster on the exposed rock. Drawing on Stevenson’s 1824 narrative, Board minutes, and workmen’s records, this history reconstructs four grueling seasons of construction culminating in the lamp’s lighting in 1811. Beyond the engineering feat lies a bitter contest over credit between Stevenson and consulting engineer John Rennie, preserved here in their own correspondence. A story of human endurance against the North Sea, where precision masonry met professional rivalry to create a landmark that still stands.",
+  "category": "世界史",
+  "tags": [
+    "lighthouse history",
+    "Scottish engineering",
+    "Robert Stevenson",
+    "maritime history",
+    "Bell Rock",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 86249,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T19:43:49.393Z"
+  },
+  "editorReview": {
+    "text": "This is a biography that treats engineering as a game of institutional power, and its core argument—that authority is built through narrative control as much as technical skill—is exceptionally well-supported, particularly in its dissection of the professional credit dispute. The book excels at embedding the human cost of power within cold operational details, avoiding sentimentality. However, the reading experience is occasionally disrupted by unmarked chronological jumps between chapters and some repetitive, mechanical phrasing that can momentarily pull the reader out of the immersive histor",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T19:45:27.161Z",
+    "textless": false,
+    "profileId": "warm-humanist"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Rock and the Reckoning",
+      "units": 3028
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Engineer’s Apprenticeship",
+      "units": 3770
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "A Ship Moored Over the Reef",
+      "units": 3512
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Beacon House on the Rock",
+      "units": 2695
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Courses Cut at Arbroath",
+      "units": 2508
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Pharos and the Rising Tide",
+      "units": 3113
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Smeaton Breaks Loose",
+      "units": 3348
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Beacon’s First Night",
+      "units": 2709
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Inquiry at Arbroath",
+      "units": 3029
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The First Course of Granite",
+      "units": 3234
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Race Against the Equinox",
+      "units": 2517
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Tower Emerges from the Sea",
+      "units": 3232
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Lamp Is Lit",
+      "units": 3608
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Dispute in Correspondence",
+      "units": 3037
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "Stevenson’s Own Account",
+      "units": 3106
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Master Mason’s Hand",
+      "units": 3438
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Men in the Beacon House",
+      "units": 2871
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Rennie’s Final Inspection",
+      "units": 3503
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Blacksmith’s Forge in the Sea",
+      "units": 3045
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Keeper of the Workmen’s Roll",
+      "units": 3045
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Judgment of the Board of Inquiry",
+      "units": 3412
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Reckoning in the Workyard",
+      "units": 2722
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Public Claim to the Work",
+      "units": 2544
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Engineer’s Definitive Narrative",
+      "units": 3006
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Last Season on the Rock",
+      "units": 2792
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Balance of Credit and Cash",
+      "units": 3210
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Stone Against the Sea",
+      "units": 3070
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Final Reckoning in the Papers",
+      "units": 3145
+    }
+  ],
+  "topics": {
+    "entities": [
+      "Robert Stevenson",
+      "John Rennie",
+      "Bell Rock",
+      "Inchcape",
+      "Arbroath",
+      "Northern Lighthouse Board",
+      "the Smeaton",
+      "the Pharos lightship",
+      "Francis Watt",
+      "Peter Logan",
+      "James Dove",
+      "the beacon house"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Rock and the Reckoning",
+        "asOfYear": 1806
+      },
+      {
+        "n": 2,
+        "title": "The Engineer’s Apprenticeship",
+        "asOfYear": 1806
+      },
+      {
+        "n": 3,
+        "title": "A Ship Moored Over the Reef",
+        "asOfYear": 1807
+      },
+      {
+        "n": 4,
+        "title": "The Beacon House on the Rock",
+        "asOfYear": 1808
+      },
+      {
+        "n": 5,
+        "title": "The Courses Cut at Arbroath",
+        "asOfYear": 1809
+      },
+      {
+        "n": 6,
+        "title": "The Pharos and the Rising Tide",
+        "asOfYear": 1809
+      },
+      {
+        "n": 7,
+        "title": "The Smeaton Breaks Loose",
+        "asOfYear": 1807
+      },
+      {
+        "n": 8,
+        "title": "The Beacon’s First Night",
+        "asOfYear": 1807
+      },
+      {
+        "n": 9,
+        "title": "The Inquiry at Arbroath",
+        "asOfYear": 1807
+      },
+      {
+        "n": 10,
+        "title": "The First Course of Granite",
+        "asOfYear": 1810
+      },
+      {
+        "n": 11,
+        "title": "The Race Against the Equinox",
+        "asOfYear": 1810
+      },
+      {
+        "n": 12,
+        "title": "The Tower Emerges from the Sea",
+        "asOfYear": 1811
+      },
+      {
+        "n": 13,
+        "title": "The Lamp Is Lit",
+        "asOfYear": 1811
+      },
+      {
+        "n": 14,
+        "title": "The Dispute in Correspondence",
+        "asOfYear": 1814
+      },
+      {
+        "n": 15,
+        "title": "Stevenson’s Own Account",
+        "asOfYear": 1814
+      },
+      {
+        "n": 16,
+        "title": "The Master Mason’s Hand",
+        "asOfYear": 1811
+      },
+      {
+        "n": 17,
+        "title": "The Men in the Beacon House",
+        "asOfYear": 1811
+      },
+      {
+        "n": 18,
+        "title": "Rennie’s Final Inspection",
+        "asOfYear": 1810
+      },
+      {
+        "n": 19,
+        "title": "The Blacksmith’s Forge in the Sea",
+        "asOfYear": 1811
+      },
+      {
+        "n": 20,
+        "title": "The Keeper of the Workmen’s Roll",
+        "asOfYear": 1811
+      },
+      {
+        "n": 21,
+        "title": "The Judgment of the Board of Inquiry",
+        "asOfYear": 1814
+      },
+      {
+        "n": 22,
+        "title": "The Reckoning in the Workyard",
+        "asOfYear": 1814
+      },
+      {
+        "n": 23,
+        "title": "The Public Claim to the Work",
+        "asOfYear": 1818
+      },
+      {
+        "n": 24,
+        "title": "The Engineer’s Definitive Narrative",
+        "asOfYear": 1818
+      },
+      {
+        "n": 25,
+        "title": "The Last Season on the Rock",
+        "asOfYear": 1811
+      },
+      {
+        "n": 26,
+        "title": "The Balance of Credit and Cash",
+        "asOfYear": 1824
+      },
+      {
+        "n": 27,
+        "title": "The Stone Against the Sea",
+        "asOfYear": 1824
+      },
+      {
+        "n": 28,
+        "title": "The Final Reckoning in the Papers",
+        "asOfYear": 1824
+      }
+    ]
+  },
+  "publishedAt": "2026-09-19T19:45:31.269Z",
+  "formFamily": "narrative"
+}

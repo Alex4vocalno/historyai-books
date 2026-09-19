@@ -1,8 +1,21 @@
 {
   "schemaVersion": "historyai.distribution-revision.v1",
-  "revision": "mu8m797e-0833705d",
-  "updatedAt": "2026-09-19T16:41:39.674Z",
+  "revision": "mu8srrdl-2fcfce1d",
+  "updatedAt": "2026-09-19T19:45:34.041Z",
   "events": [
+    {
+      "at": "2026-09-19T19:45:34.041Z",
+      "revision": "mu8srrdl-2fcfce1d",
+      "action": "publish",
+      "projectId": "proj-mu8lk0u1b0d",
+      "releaseId": "rel_20260919194531261_2ffd28c17a",
+      "paths": [
+        "/",
+        "/index-en.html",
+        "/books/proj-mu8lk0u1b0d/",
+        "/books/proj-mu8lk0u1b0d/current.json"
+      ]
+    },
     {
       "at": "2026-09-19T16:41:39.674Z",
       "revision": "mu8m797e-0833705d",
@@ -1288,19 +1301,6 @@
         "/index-en.html",
         "/books/proj-mtedw9l1nzq/",
         "/books/proj-mtedw9l1nzq/current.json"
-      ]
-    },
-    {
-      "at": "2026-09-06T13:01:07.292Z",
-      "revision": "mtptlkd8-891e94a0",
-      "action": "publish",
-      "projectId": "proj-mtedw6dsufz",
-      "releaseId": "rel_20260830073550468_43679157e4",
-      "paths": [
-        "/",
-        "/index-en.html",
-        "/books/proj-mtedw6dsufz/",
-        "/books/proj-mtedw6dsufz/current.json"
       ]
     }
   ]
