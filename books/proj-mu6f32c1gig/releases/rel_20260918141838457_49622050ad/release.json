@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-77810949886e.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-18T14:18:32.079Z",
+    "generatedAt": "2026-09-19T03:37:18.741Z",
     "textless": false,
-    "profileId": "archival-deep"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -219,5 +219,5 @@
   ],
   "illustrations": 7,
   "publishedAt": "2026-09-18T14:18:38.461Z",
-  "rerenderedAt": "2026-09-18T14:46:10.730Z"
+  "rerenderedAt": "2026-09-19T03:37:19.008Z"
 }
