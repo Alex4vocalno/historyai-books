@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-67375c8205b2.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-19T03:41:33.656Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -219,5 +219,5 @@
   ],
   "illustrations": 4,
   "publishedAt": "2026-09-18T02:37:12.301Z",
-  "rerenderedAt": "2026-09-19T03:41:33.928Z"
+  "rerenderedAt": "2026-09-19T03:41:59.803Z"
 }
