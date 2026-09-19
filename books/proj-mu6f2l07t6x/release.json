@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "releaseId": "rel_20260918142301878_3436f66187",
+  "releaseId": "rel_20260919125345528_1ec67dce57",
   "projectId": "proj-mu6f2l07t6x",
-  "manuscriptVersionId": "mv_e676b9f92ad96da4",
-  "contentHash": "e676b9f92ad96da44c8334b67e94b6ecb1452653560aa856a89179824c34031d",
+  "manuscriptVersionId": "mv_2b4bc145e5cdb19d",
+  "contentHash": "2b4bc145e5cdb19d13b51a8d7edaf1004edb38e74f12cbd3da12630bf50c845b",
   "title": "A Ton of Goods",
   "subtitle": "Ledgers, Law, and the Klondike Gold Rush",
   "authorDisplayName": "Liszt Think",
@@ -23,7 +23,7 @@
   "visibility": "public",
   "stats": {
     "chapterCount": 28,
-    "units": 94594,
+    "units": 94622,
     "unitLabel": "words"
   },
   "editorialScore": {
@@ -34,7 +34,7 @@
     "createdAt": "2026-09-18T14:21:19.084Z"
   },
   "editorReview": {
-    "text": "This panoramic reconstruction of the Klondike gold rush is distinguished by its rigorous, ground-level perspective. The narrative’s immediacy is compelling, built not on myth but on the verifiable physical details of ledgers, logistics, and daily survival—from the price of a single egg to the temperature of ink. Its three-track structure, cutting between the Mounted Police, the stampeders, and the Hän people, powerfully supports the central argument of the rush as a state-managed economic engine. However, the book's otherwise disciplined countdown structure is marred by a jarring timeline regr",
+    "text": "This narrative history of the Klondike gold rush achieves a remarkable feat: it makes ledgers and logistics the engine of a gripping story. The book's great strength is its panoramic, three-track reconstruction, which grounds the immense drama in dated, verifiable detail—the price of an egg, the temperature of ink—to show how the rush was less a free-for-all and more a state-managed extraction machine. However, the otherwise disciplined countdown structure suffers a jarring timeline break in the final act, and some middle chapters lapse into repetitive prose rhythms that can dull the narrative",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
@@ -52,7 +52,7 @@
       "idx": 0,
       "sourceIdx": 0,
       "title": "The Land of the Midnight Sun (pre-1896)",
-      "units": 3093
+      "units": 3121
     },
     {
       "idx": 1,
@@ -218,7 +218,6 @@
     }
   ],
   "illustrations": 4,
-  "publishedAt": "2026-09-18T14:23:01.885Z",
-  "rerenderedAt": "2026-09-18T14:46:49.425Z",
+  "publishedAt": "2026-09-19T12:53:45.538Z",
   "formFamily": "narrative"
 }
