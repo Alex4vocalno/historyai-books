@@ -5,7 +5,7 @@
   "manuscriptVersionId": "mv_0e077382cbef7887",
   "contentHash": "0e077382cbef7887fb06a03122bbabbcad673b4c0e929f9ab6292aea8bd6d95c",
   "chapterCount": 30,
-  "generatedAt": "2026-09-19T03:33:48.840Z",
+  "generatedAt": "2026-09-19T17:13:26.197Z",
   "files": [
     {
       "path": "ch-1.html",
@@ -184,8 +184,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 51158,
-      "sha256": "b050825b86624c43c27700b2f66e04151910e1320fc382551689d6ccbe5c7ace"
+      "bytes": 51388,
+      "sha256": "d11910cda41ef5e4b9476be7882761ac3247030e10c6616f3e6f15175712609b"
     },
     {
       "path": "read.html",
@@ -194,8 +194,8 @@
     },
     {
       "path": "release.json",
-      "bytes": 6981,
-      "sha256": "22bf90fdd75761c9496f542a741790f111e212bcda27e918577576dd8e9a4f23"
+      "bytes": 11125,
+      "sha256": "3a1fe4aea980516277b34aba80fe15caf1e3753acc34e928600ef0b483e78f02"
     }
   ]
 }
