@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260919204339565_fd883d6500",
+  "projectId": "proj-mu8ll1ltieb",
+  "manuscriptVersionId": "mv_6ac1f0d09ad1919f",
+  "contentHash": "6ac1f0d09ad1919f1804cdad0d8f0422abd3fd320b738e45103a4e1bcf9a6bbb",
+  "title": "Breathing by Hand",
+  "subtitle": "The Copenhagen Polio Epidemic and the Birth of Intensive Care",
+  "authorDisplayName": "Liszt Think",
+  "description": "In August 1952, Copenhagen’s Blegdam Hospital faced catastrophe as fifty paralyzed polio patients arrived daily with only one iron lung available. Anaesthetist Bjørn Ibsen challenged prevailing medical wisdom, arguing that victims were suffocating from carbon dioxide retention rather than the virus itself. After proving his theory on a twelve-year-old girl, he mobilized fifteen hundred medical and dental students to manually ventilate patients by squeezing rubber bags in continuous shifts for months. Guided by Poul Astrup’s pioneering blood-gas measurements, this human assembly line transformed a desperate ward into the world’s first intensive care unit. Drawing on hospital records, student testimonies, and clinical archives, Breathing by Hand reconstructs the exhaustion and ingenuity of this pivotal moment. It is a visceral account of how manual labor and radical collaboration redefined survival, establishing the modern ICU through the rhythm of hands and the authority of measured breath.",
+  "category": "世界史",
+  "tags": [
+    "Medical History",
+    "Polio Epidemic",
+    "Intensive Care",
+    "Copenhagen",
+    "Bjørn Ibsen",
+    "1950s Medicine"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 87307,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T20:42:21.126Z"
+  },
+  "editorReview": {
+    "text": "This is a work of formidable narrative architecture. The book's power lies in its commitment to grounding the 1952 polio crisis in the precise, dated material reality of the hospital—the weight of an iron lung, the specific timestamp of a turning point—which builds an unshakable sense of immediacy. Its multi-track structure honors the event's logistical and physiological complexity without resorting to simplistic heroism, a discipline maintained even in the aftermath. However, this impressive control can, at times, feel overly procedural. A subtle but persistent mechanical rhythm in its senten",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-19T20:43:35.974Z",
+    "textless": false,
+    "profileId": "woodblock-print"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The City and the Hospital",
+      "units": 2862
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The First Paralysed Breath",
+      "units": 3440
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "A Theory of Poisoned Air",
+      "units": 2857
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Machine and the Man",
+      "units": 2952
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Girl on the Table",
+      "units": 3046
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Call to the Schools",
+      "units": 2869
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The First Bag of Air",
+      "units": 2946
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Assembly of Hands",
+      "units": 3489
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "A Ward of Rubber and Glass",
+      "units": 3534
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Rhythm of the Bags",
+      "units": 3493
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Numbers in the Syringe",
+      "units": 2622
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Authority of Breath",
+      "units": 3262
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Anatomy of Exhaustion",
+      "units": 3450
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Limits of the Line",
+      "units": 3056
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Silence of the Virus",
+      "units": 3944
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Price of a Life",
+      "units": 3591
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Invention of the Chart",
+      "units": 3264
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Battle for the Bladder",
+      "units": 2787
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Geometry of the Ward",
+      "units": 3041
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Calculus of Survival",
+      "units": 2502
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "The Last New Patient",
+      "units": 3500
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Dispersal of the Army",
+      "units": 3028
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Machinery of Normalcy",
+      "units": 2750
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Ledger of the Saved",
+      "units": 2559
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Commission of Inquiry",
+      "units": 3169
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Architecture of Necessity",
+      "units": 2849
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Reckoning of Hands",
+      "units": 3399
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The First Intensive Care Unit",
+      "units": 3046
+    }
+  ],
+  "topics": {
+    "entities": [
+      "Blegdam Hospital",
+      "Bjørn Ibsen",
+      "Henry Cai Alexander Lassen",
+      "Poul Astrup",
+      "Vivi Ebert",
+      "tracheostomy",
+      "positive-pressure ventilation",
+      "iron lung",
+      "medical students of Copenhagen University",
+      "Carl Eli Mollaret",
+      "Kommunehospitalet",
+      "August–December 1952"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The City and the Hospital",
+        "asOfYear": 1952
+      },
+      {
+        "n": 2,
+        "title": "The First Paralysed Breath",
+        "asOfYear": 1952
+      },
+      {
+        "n": 3,
+        "title": "A Theory of Poisoned Air",
+        "asOfYear": 1952
+      },
+      {
+        "n": 4,
+        "title": "The Machine and the Man",
+        "asOfYear": 1952
+      },
+      {
+        "n": 5,
+        "title": "The Girl on the Table",
+        "asOfYear": 1952
+      },
+      {
+        "n": 6,
+        "title": "The Call to the Schools",
+        "asOfYear": 1952
+      },
+      {
+        "n": 7,
+        "title": "The First Bag of Air",
+        "asOfYear": 1952
+      },
+      {
+        "n": 8,
+        "title": "The Assembly of Hands",
+        "asOfYear": 1952
+      },
+      {
+        "n": 9,
+        "title": "A Ward of Rubber and Glass",
+        "asOfYear": 1952
+      },
+      {
+        "n": 10,
+        "title": "The Rhythm of the Bags",
+        "asOfYear": 1952
+      },
+      {
+        "n": 11,
+        "title": "The Numbers in the Syringe",
+        "asOfYear": 1952
+      },
+      {
+        "n": 12,
+        "title": "The Authority of Breath",
+        "asOfYear": 1952
+      },
+      {
+        "n": 13,
+        "title": "The Anatomy of Exhaustion",
+        "asOfYear": 1952
+      },
+      {
+        "n": 14,
+        "title": "The Limits of the Line",
+        "asOfYear": 1952
+      },
+      {
+        "n": 15,
+        "title": "The Silence of the Virus",
+        "asOfYear": 1952
+      },
+      {
+        "n": 16,
+        "title": "The Price of a Life",
+        "asOfYear": 1952
+      },
+      {
+        "n": 17,
+        "title": "The Invention of the Chart",
+        "asOfYear": 1952
+      },
+      {
+        "n": 18,
+        "title": "The Battle for the Bladder",
+        "asOfYear": 1952
+      },
+      {
+        "n": 19,
+        "title": "The Geometry of the Ward",
+        "asOfYear": 1953
+      },
+      {
+        "n": 20,
+        "title": "The Calculus of Survival",
+        "asOfYear": 1953
+      },
+      {
+        "n": 21,
+        "title": "The Last New Patient",
+        "asOfYear": 1953
+      },
+      {
+        "n": 22,
+        "title": "The Dispersal of the Army",
+        "asOfYear": 1953
+      },
+      {
+        "n": 23,
+        "title": "The Machinery of Normalcy",
+        "asOfYear": 1953
+      },
+      {
+        "n": 24,
+        "title": "The Ledger of the Saved",
+        "asOfYear": 1953
+      },
+      {
+        "n": 25,
+        "title": "The Commission of Inquiry",
+        "asOfYear": 1954
+      },
+      {
+        "n": 26,
+        "title": "The Architecture of Necessity",
+        "asOfYear": 1955
+      },
+      {
+        "n": 27,
+        "title": "The Reckoning of Hands",
+        "asOfYear": 1955
+      },
+      {
+        "n": 28,
+        "title": "The First Intensive Care Unit",
+        "asOfYear": 1965
+      }
+    ]
+  },
+  "publishedAt": "2026-09-19T20:43:39.570Z"
+}

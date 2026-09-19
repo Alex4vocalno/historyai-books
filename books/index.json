@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu8ll1ltieb",
+    "projectId": "proj-mu8ll1ltieb",
+    "releaseId": "rel_20260919204339565_fd883d6500",
+    "title": "Breathing by Hand",
+    "subtitle": "The Copenhagen Polio Epidemic and the Birth of Intensive Care",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Medical History",
+      "Polio Epidemic",
+      "Intensive Care",
+      "Copenhagen",
+      "Bjørn Ibsen",
+      "1950s Medicine"
+    ],
+    "description": "In August 1952, Copenhagen’s Blegdam Hospital faced catastrophe as fifty paralyzed polio patients arrived daily with only one iron lung available. Anaesthetist Bjørn Ibsen challenged prevailing medical wisdom, arguing that victims were suffocating from carbon dioxide retention rather than the virus itself. After proving his theory on a twelve-year-old girl, he mobilized fifteen hundred medical and dental students to manually ventilate patients by squeezing rubber bags in continuous shifts for months. Guided by Poul Astrup’s pioneering blood-gas measurements, this human assembly line transformed a desperate ward into the world’s first intensive care unit. Drawing on hospital records, student testimonies, and clinical archives, Breathing by Hand reconstructs the exhaustion and ingenuity of this pivotal moment. It is a visceral account of how manual labor and radical collaboration redefined survival, establishing the modern ICU through the rhythm of hands and the authority of measured breath.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-19T20:42:21.126Z"
+    },
+    "coverUrl": "books/proj-mu8ll1ltieb/releases/rel_20260919204339565_fd883d6500/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu8ll1ltieb/index.html",
+    "publishedAt": "2026-09-19T20:43:39.570Z",
+    "firstPublishedAt": "2026-09-19T20:43:39.570Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu8lk0u1b0d",
     "projectId": "proj-mu8lk0u1b0d",
     "releaseId": "rel_20260919194531261_2ffd28c17a",
