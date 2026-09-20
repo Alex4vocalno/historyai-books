@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260920005642855_935166df7d",
+  "projectId": "proj-mu8li9co56t",
+  "manuscriptVersionId": "mv_a98e20f3f1a927c0",
+  "contentHash": "a98e20f3f1a927c0e48201a28c406e428ff7967cadfc81e63716bd30d4f42c3a",
+  "title": "Printed by the Bank Itself",
+  "subtitle": "Alves dos Reis, Waterlow & Sons, and the Banknote Fraud That Shook Portugal",
+  "authorDisplayName": "Liszt Think",
+  "description": "In 1925, a Lisbon clerk with a forged Oxford diploma orchestrated the largest banknote fraud in history. Alves dos Reis convinced London printers Waterlow & Sons to produce genuine 500-escudo notes using the Bank of Portugal’s own plates, backed by fabricated contracts and official correspondence. He flooded Angola with legitimate currency, purchased major enterprises, and nearly seized control of the central bank itself. The scheme unraveled only when a Porto newspaper and a routine inspection exposed the deception, triggering arrests, a sensational trial, and a landmark House of Lords judgment seven years later. Drawn from trial records, litigation files, bank registers, and participant memoirs, this narrative reconstructs the audacious crime that destabilized a nation’s currency and destroyed a venerable printing house. It is a story of bureaucratic exploitation and legal consequence, where authentic money became indistinguishable from counterfeit ambition.",
+  "category": "世界史",
+  "tags": [
+    "financial fraud",
+    "Portuguese history",
+    "true crime",
+    "legal history",
+    "banking",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 84069,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T18:35:46.232Z"
+  },
+  "editorReview": {
+    "text": "This biography excels in its forensic integration of person and system, using ledgers, cables, and inventories to make institutional procedure itself the engine of the story. The dramatic tension in scenes like the vault inventory is masterfully achieved without melodrama. However, the prose rhythm can occasionally flatten into a procedural drone, with an over-reliance on em-dashes and repetitive sentence openings that dull the narrative drive at pivotal moments. The book's great strength lies in showing, not just telling, how power mechanisms work, even if some later chapters briefly lapse in",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-20T00:55:06.467Z",
+    "textless": false,
+    "profileId": "portrait-biography",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "portrait-biography"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Clerk from Lisbon",
+      "units": 3623
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Forged Pedigree",
+      "units": 3039
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "The Printer on Threadneedle Street",
+      "units": 3136
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Contract from the Bank of Portugal",
+      "units": 2430
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Authorisation from Threadneedle Street",
+      "units": 2612
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "With the Notes Being Printed",
+      "units": 2569
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "The Consul’s Signature",
+      "units": 3194
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "The Deliberate and Paradoxical Design",
+      "units": 3090
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "A Controlling Interest",
+      "units": 3035
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Dutchman’s Ledger",
+      "units": 2787
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "The Inspector’s Routine Journey",
+      "units": 2598
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Porto Edition",
+      "units": 2532
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Arrest in the Rua do Ouro",
+      "units": 2865
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "Sir William’s Cable to Lisbon",
+      "units": 3049
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "Sealing the Strong Room",
+      "units": 2759
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Governor’s Denial",
+      "units": 2754
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Flight from Estoril",
+      "units": 3552
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Waterlow’s Defence Takes Shape",
+      "units": 3023
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The Trial of Alves dos Reis",
+      "units": 3027
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Bank Sues the Printer",
+      "units": 2999
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "Judgment in the House of Lords",
+      "units": 3017
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Commission of Inquiry",
+      "units": 2260
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Fall of the Governor",
+      "units": 3986
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Financial Reckoning",
+      "units": 3165
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Prisoner’s Manuscript",
+      "units": 3217
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Fate of the House of Waterlow",
+      "units": 3003
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "A Currency of Ghosts",
+      "units": 3142
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Final Balance",
+      "units": 3606
+    }
+  ],
+  "topics": {
+    "entities": [
+      "Artur Virgílio Alves dos Reis",
+      "Waterlow & Sons",
+      "Sir William Waterlow",
+      "Banco de Portugal",
+      "Banco Angola e Metrópole",
+      "Karel Marang",
+      "Adolf Hennies",
+      "José Bandeira",
+      "António Bandeira",
+      "Lisbon",
+      "Porto",
+      "Angola"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Clerk from Lisbon",
+        "asOfYear": 1916
+      },
+      {
+        "n": 2,
+        "title": "The Forged Pedigree",
+        "asOfYear": 1924
+      },
+      {
+        "n": 3,
+        "title": "The Printer on Threadneedle Street",
+        "asOfYear": 1924
+      },
+      {
+        "n": 4,
+        "title": "The Contract from the Bank of Portugal",
+        "asOfYear": 1924
+      },
+      {
+        "n": 5,
+        "title": "The Authorisation from Threadneedle Street",
+        "asOfYear": 1924
+      },
+      {
+        "n": 6,
+        "title": "With the Notes Being Printed",
+        "asOfYear": 1924
+      },
+      {
+        "n": 7,
+        "title": "The Consul’s Signature",
+        "asOfYear": 1925
+      },
+      {
+        "n": 8,
+        "title": "The Deliberate and Paradoxical Design",
+        "asOfYear": 1925
+      },
+      {
+        "n": 9,
+        "title": "A Controlling Interest",
+        "asOfYear": 1925
+      },
+      {
+        "n": 10,
+        "title": "The Dutchman’s Ledger",
+        "asOfYear": 1925
+      },
+      {
+        "n": 11,
+        "title": "The Inspector’s Routine Journey",
+        "asOfYear": 1925
+      },
+      {
+        "n": 12,
+        "title": "The Porto Edition",
+        "asOfYear": 1925
+      },
+      {
+        "n": 13,
+        "title": "The Arrest in the Rua do Ouro",
+        "asOfYear": 1925
+      },
+      {
+        "n": 14,
+        "title": "Sir William’s Cable to Lisbon",
+        "asOfYear": 1925
+      },
+      {
+        "n": 15,
+        "title": "Sealing the Strong Room",
+        "asOfYear": 1925
+      },
+      {
+        "n": 16,
+        "title": "The Governor’s Denial",
+        "asOfYear": 1925
+      },
+      {
+        "n": 17,
+        "title": "The Flight from Estoril",
+        "asOfYear": 1925
+      },
+      {
+        "n": 18,
+        "title": "Waterlow’s Defence Takes Shape",
+        "asOfYear": 1926
+      },
+      {
+        "n": 19,
+        "title": "The Trial of Alves dos Reis",
+        "asOfYear": 1926
+      },
+      {
+        "n": 20,
+        "title": "The Bank Sues the Printer",
+        "asOfYear": 1930
+      },
+      {
+        "n": 21,
+        "title": "Judgment in the House of Lords",
+        "asOfYear": 1930
+      },
+      {
+        "n": 22,
+        "title": "The Commission of Inquiry",
+        "asOfYear": 1930
+      },
+      {
+        "n": 23,
+        "title": "The Fall of the Governor",
+        "asOfYear": 1930
+      },
+      {
+        "n": 24,
+        "title": "The Financial Reckoning",
+        "asOfYear": 1934
+      },
+      {
+        "n": 25,
+        "title": "The Prisoner’s Manuscript",
+        "asOfYear": 1935
+      },
+      {
+        "n": 26,
+        "title": "The Fate of the House of Waterlow",
+        "asOfYear": 1935
+      },
+      {
+        "n": 27,
+        "title": "A Currency of Ghosts",
+        "asOfYear": 1935
+      },
+      {
+        "n": 28,
+        "title": "The Final Balance",
+        "asOfYear": 1945
+      }
+    ]
+  },
+  "publishedAt": "2026-09-20T00:56:42.861Z"
+}
