@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu849pa8neg",
+    "projectId": "proj-mu849pa8neg",
+    "releaseId": "rel_20260920005633555_00d9f28a87",
+    "title": "Fast Ships, Bad Trade",
+    "subtitle": "Opium Clippers and the Making of the China War",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Opium Trade",
+      "Maritime History",
+      "British Empire",
+      "China Trade",
+      "Naval Architecture",
+      "世界史"
+    ],
+    "description": "In 1829, the East India Company’s monopoly birthed a vessel designed to outrun monsoons and defy imperial law. The opium clipper was a marvel of naval architecture, yet its sole purpose was smuggling Bengal narcotics into Canton. From the receiving hulks at Lintin to the agency houses of Jardine Matheson, this narrative reconstructs the illicit maritime world that precipitated the First Opium War. Drawing on ships’ logs, merchant ledgers, and Chinese memorials, the account follows captains, lascars, and traders through storms, bribes, and wrecks. When Commissioner Lin Zexu seized twenty thousand chests in 1839, these fast ships became instruments of conflict rather than commerce. The moral weight of this trade emerges not from modern judgment but from the contemporary voices of those who sailed, profited, and perished within it. A story of technological brilliance yoked to moral catastrophe, revealing how profit-driven innovation dismantled an empire’s borders and ignited a war that reshaped Asia.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-19T09:50:04.073Z"
+    },
+    "coverUrl": "books/proj-mu849pa8neg/releases/rel_20260920005633555_00d9f28a87/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mu849pa8neg/index.html",
+    "publishedAt": "2026-09-20T00:56:33.562Z",
+    "firstPublishedAt": "2026-09-20T00:56:33.562Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu8li9co56t",
     "projectId": "proj-mu8li9co56t",
     "releaseId": "rel_20260920005642855_935166df7d",
@@ -67,41 +102,6 @@
     "url": "books/proj-mtii043iihc/index.html",
     "publishedAt": "2026-09-20T07:59:38.941Z",
     "firstPublishedAt": "2026-09-06T02:33:31.816Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu849pa8neg",
-    "projectId": "proj-mu849pa8neg",
-    "releaseId": "rel_20260920005633555_00d9f28a87",
-    "title": "Fast Ships, Bad Trade",
-    "subtitle": "Opium Clippers and the Making of the China War",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Opium Trade",
-      "Maritime History",
-      "British Empire",
-      "China Trade",
-      "Naval Architecture",
-      "世界史"
-    ],
-    "description": "In 1829, the East India Company’s monopoly birthed a vessel designed to outrun monsoons and defy imperial law. The opium clipper was a marvel of naval architecture, yet its sole purpose was smuggling Bengal narcotics into Canton. From the receiving hulks at Lintin to the agency houses of Jardine Matheson, this narrative reconstructs the illicit maritime world that precipitated the First Opium War. Drawing on ships’ logs, merchant ledgers, and Chinese memorials, the account follows captains, lascars, and traders through storms, bribes, and wrecks. When Commissioner Lin Zexu seized twenty thousand chests in 1839, these fast ships became instruments of conflict rather than commerce. The moral weight of this trade emerges not from modern judgment but from the contemporary voices of those who sailed, profited, and perished within it. A story of technological brilliance yoked to moral catastrophe, revealing how profit-driven innovation dismantled an empire’s borders and ignited a war that reshaped Asia.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-19T09:50:04.073Z"
-    },
-    "coverUrl": "books/proj-mu849pa8neg/releases/rel_20260920005633555_00d9f28a87/cover.svg",
-    "coverTextless": false,
-    "url": "books/proj-mu849pa8neg/index.html",
-    "publishedAt": "2026-09-20T00:56:33.562Z",
-    "firstPublishedAt": "2026-09-20T00:56:33.562Z",
     "visibility": "public"
   },
   {
