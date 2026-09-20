@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu9m9yl9do2",
+    "projectId": "proj-mu9m9yl9do2",
+    "releaseId": "rel_20260920154448712_06af6268f3",
+    "title": "灰度婚约",
+    "subtitle": "两代人的婚姻，一场没有标准答案的灰度实验",
+    "language": "zh",
+    "workType": "fiction",
+    "lengthTier": "novel",
+    "authorDisplayName": "磨墨无文",
+    "category": "小说",
+    "tags": [
+      "婚姻",
+      "社会变迁",
+      "灰度思维",
+      "算法伦理",
+      "两代人",
+      "现实"
+    ],
+    "description": "1995年，铁岭婚姻登记窗口，陈禾每天经手三百对哭声。社会学研究者林砚带着田野笔记闯进她的辖区，想弄明白一件事：为什么制度要求婚姻稳定，而人心偏偏不稳定？从下岗潮到奥运婚潮，从深圳到铁岭，从纸质证明到AI婚恋算法，两人用三十年、六段婚姻的成败反复验证——互助是本质，自由是人性，稳定是刚需，这三样东西到底还能不能捆在一起。当算法开始替人决定谁该和谁过，当一纸婚约被拆解成可计算的条款，林砚和陈禾各自站在窗口的两侧，看见了同一道裂缝。窗口03的抽屉没有锁，里面放着什么，他们谁都没先开口。",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-20T15:41:02.883Z"
+    },
+    "coverUrl": "books/proj-mu9m9yl9do2/releases/rel_20260920154448712_06af6268f3/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mu9m9yl9do2/index.html",
+    "publishedAt": "2026-09-20T15:44:48.722Z",
+    "firstPublishedAt": "2026-09-20T15:44:48.722Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu9ibl1d32y",
     "projectId": "proj-mu9ibl1d32y",
     "releaseId": "rel_20260920104334887_a97f60f297",
