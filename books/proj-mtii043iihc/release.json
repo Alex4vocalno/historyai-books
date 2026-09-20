@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "rel_20260906023331812_e0f543f97b",
+  "releaseId": "rel_20260920075938935_e0f543f97b",
   "projectId": "proj-mtii043iihc",
   "manuscriptVersionId": "mv_7bb5bc49ad59fe3d",
   "contentHash": "7bb5bc49ad59fe3d1963f0dd81d29e7ecf57997d37dce3891d9f5526f2110990",
@@ -19,6 +19,7 @@
   ],
   "language": "zh",
   "workType": "fiction",
+  "lengthTier": "novel",
   "visibility": "public",
   "stats": {
     "chapterCount": 32,
@@ -30,7 +31,7 @@
     "source": "editorial-hub",
     "score": 85,
     "method": "median-of-3",
-    "createdAt": "2026-09-06T02:23:19.918Z"
+    "createdAt": "2026-09-20T07:59:38.381Z"
   },
   "editorReview": {
     "text": "翻开《体面》，最动人的是那些将内心风暴完全物化的感官瞬间：林婉发现衬衫上的口红印，从“隔夜的雪花膏”底香到“擦不掉”的触觉，再到她将衬衫“翻面叠起”的动作，没有一句情绪直写，却让一个女人的崩塌与克制纤毫毕现。三代女性的声口也分化得精准，从林婉温顺的“就得了，妈”，到陈禾防御性的“第一、第二”编号语言，再到方小敏快嘴的“你傻啊”，听声音就能认人。不过，小说中后段对“体面”命题的反复叩问略显直白，苏青的内心独白与前一章的主题陈述有重叠，削弱了结尾应有的留白与冲击力。瑕不掩瑜，那些被绩效评估表、抽屉滑轨声和塞进包里的离婚证所具象化的压迫与解脱，构成了这本书最扎实、也最令人共情的肌理。",
@@ -240,9 +241,6 @@
       "units": 8306
     }
   ],
-  "publishedAt": "2026-09-06T02:33:31.816Z",
-  "formFamily": "narrative",
-  "lengthTier": "novel",
   "topics": {
     "entities": [],
     "geo": [],
@@ -409,5 +407,7 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "publishedAt": "2026-09-20T07:59:38.941Z",
+  "formFamily": "narrative"
 }
