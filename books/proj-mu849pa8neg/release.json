@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260920005633555_00d9f28a87",
+  "projectId": "proj-mu849pa8neg",
+  "manuscriptVersionId": "mv_7ad5a936cc21e697",
+  "contentHash": "7ad5a936cc21e69712b00f765e9ddba99100afb6a6611cbf7a6c0c6f6437badc",
+  "title": "Fast Ships, Bad Trade",
+  "subtitle": "Opium Clippers and the Making of the China War",
+  "authorDisplayName": "Liszt Think",
+  "description": "In 1829, the East India Company’s monopoly birthed a vessel designed to outrun monsoons and defy imperial law. The opium clipper was a marvel of naval architecture, yet its sole purpose was smuggling Bengal narcotics into Canton. From the receiving hulks at Lintin to the agency houses of Jardine Matheson, this narrative reconstructs the illicit maritime world that precipitated the First Opium War. Drawing on ships’ logs, merchant ledgers, and Chinese memorials, the account follows captains, lascars, and traders through storms, bribes, and wrecks. When Commissioner Lin Zexu seized twenty thousand chests in 1839, these fast ships became instruments of conflict rather than commerce. The moral weight of this trade emerges not from modern judgment but from the contemporary voices of those who sailed, profited, and perished within it. A story of technological brilliance yoked to moral catastrophe, revealing how profit-driven innovation dismantled an empire’s borders and ignited a war that reshaped Asia.",
+  "category": "世界史",
+  "tags": [
+    "Opium Trade",
+    "Maritime History",
+    "British Empire",
+    "China Trade",
+    "Naval Architecture",
+    "世界史"
+  ],
+  "language": "en",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 28,
+    "units": 97951,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 86,
+    "method": "median-of-3",
+    "createdAt": "2026-09-19T09:50:04.073Z"
+  },
+  "editorReview": {
+    "text": "This book excels at turning hard data into narrative propulsion. The author masterfully uses ship specifications and ledger entries not as mere decoration, but as the very engine driving a rigorous causal argument, showing how naval design was dictated by market loopholes. The analysis is admirably balanced, giving the system's decline as much weight as its rise. However, the narrative can feel more like a forensic audit than a human drama, with key figures remaining functional ciphers. A more significant reservation is the occasional lapse in sourcing, which, in a work of this caliber, subtly",
+    "penName": "砚北",
+    "title": "History & Social Science Editor",
+    "rating": "Recommended"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-20T00:56:17.510Z",
+    "textless": false,
+    "profileId": "woodblock-print",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "woodblock-print"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Empire’s Last Monopoly",
+      "units": 3832
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "The Red Rover’s Revolution",
+      "units": 3484
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "A Fleet Takes Shape",
+      "units": 3483
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "The Lintin Anchorage",
+      "units": 3522
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "The Agency Houses Ascendant",
+      "units": 3431
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Captain’s Ledger",
+      "units": 3256
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Sylph’s Challenge",
+      "units": 4182
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "William Clifton’s Ledger",
+      "units": 4240
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "The Water Witch’s Last Run",
+      "units": 3337
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "The Lady Hayes’s Longest Voyage",
+      "units": 2700
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Matheson’s Calculated Gamble",
+      "units": 2802
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "The Fleet at the Flood",
+      "units": 3678
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "The Commissioner's Edict",
+      "units": 3691
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "Jardine’s Departure",
+      "units": 4058
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "The Twenty Thousand Chests",
+      "units": 3279
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Opium Fleet Dispersed",
+      "units": 3393
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "The Captain’s Ultimatum",
+      "units": 3237
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "Matheson’s War Council",
+      "units": 3172
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "The First Shot",
+      "units": 3338
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Owners’ Reckoning",
+      "units": 3378
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "Lin’s Fortifications",
+      "units": 3810
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "The Court of Proprietors’ Inquiry",
+      "units": 4449
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "The Jardine Papers Before Parliament",
+      "units": 3090
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Fleet Sold for Prize",
+      "units": 3482
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "The Cost Accounted in Men",
+      "units": 3216
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "The Shipwrights’ Ledger",
+      "units": 3797
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "The Silence in the Factory Records",
+      "units": 3360
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "The Arbiter's Final Silence",
+      "units": 3254
+    }
+  ],
+  "topics": {
+    "entities": [
+      "Red Rover",
+      "William Clifton",
+      "Jardine Matheson",
+      "William Jardine",
+      "James Matheson",
+      "Lintin Island",
+      "Canton",
+      "Whampoa",
+      "Calcutta",
+      "Sylph",
+      "Water Witch",
+      "Lady Hayes"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Empire’s Last Monopoly",
+        "asOfYear": 1829
+      },
+      {
+        "n": 2,
+        "title": "The Red Rover’s Revolution",
+        "asOfYear": 1830
+      },
+      {
+        "n": 3,
+        "title": "A Fleet Takes Shape",
+        "asOfYear": 1832
+      },
+      {
+        "n": 4,
+        "title": "The Lintin Anchorage",
+        "asOfYear": 1833
+      },
+      {
+        "n": 5,
+        "title": "The Agency Houses Ascendant",
+        "asOfYear": 1834
+      },
+      {
+        "n": 6,
+        "title": "The Captain’s Ledger",
+        "asOfYear": 1836
+      },
+      {
+        "n": 7,
+        "title": "Sylph’s Challenge",
+        "asOfYear": 1836
+      },
+      {
+        "n": 8,
+        "title": "William Clifton’s Ledger",
+        "asOfYear": 1837
+      },
+      {
+        "n": 9,
+        "title": "The Water Witch’s Last Run",
+        "asOfYear": 1838
+      },
+      {
+        "n": 10,
+        "title": "The Lady Hayes’s Longest Voyage",
+        "asOfYear": 1838
+      },
+      {
+        "n": 11,
+        "title": "Matheson’s Calculated Gamble",
+        "asOfYear": 1838
+      },
+      {
+        "n": 12,
+        "title": "The Fleet at the Flood",
+        "asOfYear": 1838
+      },
+      {
+        "n": 13,
+        "title": "The Commissioner's Edict",
+        "asOfYear": 1839
+      },
+      {
+        "n": 14,
+        "title": "Jardine’s Departure",
+        "asOfYear": 1839
+      },
+      {
+        "n": 15,
+        "title": "The Twenty Thousand Chests",
+        "asOfYear": 1839
+      },
+      {
+        "n": 16,
+        "title": "The Opium Fleet Dispersed",
+        "asOfYear": 1839
+      },
+      {
+        "n": 17,
+        "title": "The Captain’s Ultimatum",
+        "asOfYear": 1839
+      },
+      {
+        "n": 18,
+        "title": "Matheson’s War Council",
+        "asOfYear": 1839
+      },
+      {
+        "n": 19,
+        "title": "The First Shot",
+        "asOfYear": 1839
+      },
+      {
+        "n": 20,
+        "title": "The Owners’ Reckoning",
+        "asOfYear": 1840
+      },
+      {
+        "n": 21,
+        "title": "Lin’s Fortifications",
+        "asOfYear": 1840
+      },
+      {
+        "n": 22,
+        "title": "The Court of Proprietors’ Inquiry",
+        "asOfYear": 1841
+      },
+      {
+        "n": 23,
+        "title": "The Jardine Papers Before Parliament",
+        "asOfYear": 1842
+      },
+      {
+        "n": 24,
+        "title": "The Fleet Sold for Prize",
+        "asOfYear": 1843
+      },
+      {
+        "n": 25,
+        "title": "The Cost Accounted in Men",
+        "asOfYear": 1845
+      },
+      {
+        "n": 26,
+        "title": "The Shipwrights’ Ledger",
+        "asOfYear": 1847
+      },
+      {
+        "n": 27,
+        "title": "The Silence in the Factory Records",
+        "asOfYear": 1849
+      },
+      {
+        "n": 28,
+        "title": "The Arbiter's Final Silence",
+        "asOfYear": 1849
+      }
+    ]
+  },
+  "publishedAt": "2026-09-20T00:56:33.562Z",
+  "formFamily": "narrative"
+}
