@@ -1,0 +1,1 @@
+(function(){try{if(window.EvoronLanguage?.state().language==='en'){var m={'书城':'Store','书架':'Shelf','动态':'Feed','我的':'Me'};document.querySelectorAll('.m-tabbar .mtb-t').forEach(function(s){if(m[s.textContent])s.textContent=m[s.textContent]})}}catch(e){}})();
