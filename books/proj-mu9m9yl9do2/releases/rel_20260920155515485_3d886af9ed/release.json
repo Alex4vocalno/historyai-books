@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260920155515485_3d886af9ed",
+  "projectId": "proj-mu9m9yl9do2",
+  "manuscriptVersionId": "mv_81ddda971b0de57e",
+  "contentHash": "81ddda971b0de57ee6a5f962b3994a639fa89cf66488b419f46058b1bca38658",
+  "title": "灰度婚约",
+  "subtitle": "两代人的婚姻样本，三十年的人性实验",
+  "authorDisplayName": "磨墨无文",
+  "description": "1995年，铁岭婚姻登记窗口，陈禾每天盖章三百次，看尽搭伙过日子的悲欢。同一时刻，社会学研究者林砚在田野笔记里写下第一个问号：婚姻究竟靠什么维系？从下岗潮到奥运婚潮，从移动互联网到AI婚恋算法，两人用三十年追踪六段婚姻的成败。当算法开始匹配姻缘，当情感唯一论撞上现实刚需，一份名为「灰度婚约」的协议浮出水面——它不承诺永恒，只计算互助、自由与稳定的配比。但人心，从来不是一道可以精确求解的题。",
+  "category": "小说",
+  "tags": [
+    "婚姻",
+    "社会变迁",
+    "算法伦理",
+    "代际",
+    "现实",
+    "灰度思维"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 395718,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 88,
+    "method": "median-of-3",
+    "createdAt": "2026-09-20T15:41:02.883Z"
+  },
+  "editorReview": {
+    "text": "铁岭冬天的泥浆和烟囱，火车上那张被咖啡渍泡成旧地图的桌布——这本书的在场感是真好，冷得能钻进骨头里。陈禾食指敲桌面那半秒，比一整章心理描写都管用，一个在窗口看了三十年哭声的人，她的倦怠和心软全在那半秒里了。林砚那条线也不虚，母亲缝纫机的肌肉记忆扎得很深。但读到中段我得说实话：有些句子反复出现，像同一块砖被搬来搬去砌了六次墙，主题是强调住了，读者的耐心却磨掉了。章节之间偶尔也接不上气，上一章的人名到下一章忽然没了着落，读着像换了个频道。骨架和血肉都在，缺的是一遍把气韵捋顺的精修。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "推荐"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-20T15:52:14.520Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "窗口前的哭声",
+      "units": 9615
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "铁岭窗口·三百对哭声",
+      "units": 9086
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "两套逻辑碰撞",
+      "units": 15468
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "田野初遇",
+      "units": 13655
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "田野初遇·两套逻辑碰撞",
+      "units": 12534
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "单位证明",
+      "units": 9690
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "田野调查",
+      "units": 10800
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "制度裂缝",
+      "units": 10269
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "深圳窗口·奥运婚潮与退潮",
+      "units": 10270
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "灵堂长谈",
+      "units": 14935
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "铁岭站告别",
+      "units": 8756
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "奥运婚潮",
+      "units": 10616
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "算法邀约",
+      "units": 9704
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "母亲葬礼",
+      "units": 12553
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "协议前夜",
+      "units": 14804
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "灰度婚约",
+      "units": 14044
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "电话沉默",
+      "units": 10991
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "草稿纸上的退出机制",
+      "units": 12340
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "缘算方案·血渍与授权",
+      "units": 14013
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "普查真相",
+      "units": 12397
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "算法伦理",
+      "units": 12538
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "分道扬镳",
+      "units": 9673
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "数据风暴",
+      "units": 13578
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "算法边界",
+      "units": 11188
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "算法之外",
+      "units": 10708
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "灰度契约",
+      "units": 18804
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "灰度决策",
+      "units": 16586
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "调岗风波",
+      "units": 13806
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "台灯下的两份稿",
+      "units": 7585
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "档案室里的三十年",
+      "units": 15545
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "余波",
+      "units": 14839
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "窗口03的抽屉没有锁",
+      "units": 14328
+    }
+  ],
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "窗口前的哭声",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "铁岭窗口·三百对哭声",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "两套逻辑碰撞",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "田野初遇",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "田野初遇·两套逻辑碰撞",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "单位证明",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "田野调查",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "制度裂缝",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "深圳窗口·奥运婚潮与退潮",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "灵堂长谈",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "铁岭站告别",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "奥运婚潮",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "算法邀约",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "母亲葬礼",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "协议前夜",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "灰度婚约",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "电话沉默",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "草稿纸上的退出机制",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "缘算方案·血渍与授权",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "普查真相",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "算法伦理",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "分道扬镳",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "数据风暴",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "算法边界",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "算法之外",
+        "asOfYear": null
+      },
+      {
+        "n": 26,
+        "title": "灰度契约",
+        "asOfYear": null
+      },
+      {
+        "n": 27,
+        "title": "灰度决策",
+        "asOfYear": null
+      },
+      {
+        "n": 28,
+        "title": "调岗风波",
+        "asOfYear": null
+      },
+      {
+        "n": 29,
+        "title": "台灯下的两份稿",
+        "asOfYear": null
+      },
+      {
+        "n": 30,
+        "title": "档案室里的三十年",
+        "asOfYear": null
+      },
+      {
+        "n": 31,
+        "title": "余波",
+        "asOfYear": null
+      },
+      {
+        "n": 32,
+        "title": "窗口03的抽屉没有锁",
+        "asOfYear": null
+      }
+    ]
+  },
+  "publishedAt": "2026-09-20T15:55:15.491Z"
+}
