@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260920104334887_a97f60f297",
+  "projectId": "proj-mu9ibl1d32y",
+  "manuscriptVersionId": "mv_e5cb79a738f1514d",
+  "contentHash": "e5cb79a738f1514d78a1655f85ee9511d65f57ba891126c6c719504299776a47",
+  "title": "陪考手记",
+  "subtitle": "深圳中考家长的七年级陪考实录",
+  "authorDisplayName": "李德诺富特斯基",
+  "description": "七年级是深圳中考长跑的起跑线，也是亲子关系的压力测试场。当辅导作业变成情绪拉锯，当专业教学与家庭陪伴边界模糊，家长该如何自处？这份手记不谈提分神话，只记录真实陪考现场：从数学概念链条的梳理到语文积累系统的搭建，从英语听说读写的同步推进到错题本的有效使用。它提供可复制的学习节奏、诊断习惯与情绪支持方案，帮助家长在精力有限与需求无限的张力中，找到不替代老师、不消耗关系的科学站位。方法比知识更重要，关系比分数更底层，这是一份写给普通家庭的教育素养备忘录。",
+  "category": "中国史",
+  "tags": [
+    "深圳中考",
+    "七年级陪考",
+    "家庭教育",
+    "学习方法",
+    "亲子沟通",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 20,
+    "units": 152758,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-20T10:38:27.022Z"
+  },
+  "editorReview": {
+    "text": "本书作为七年级陪考指南，在方法论构建上颇具诚意。第2章提出的「反替代线」概念，清晰区分了家长作为「系统搭建者」的边界，并给出可自查的行为准则，避免了空泛说教；第19章引入「隐形劳动」「情绪劳动」等概念，深刻剖析辅导崩溃的机制，洞见超越常规应试技巧。然而，文风上的机械感是明显短板：部分章节如第1章存在句式单调、叙事推进生硬的问题，章节接缝处钩子未回应，削弱了教科书应有的清晰流畅。整体而言，方法扎实、结构严谨，若经文风精修以提升阅读节奏，将更利于读者吸收。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-20T10:42:57.262Z",
+    "textless": false,
+    "profileId": "method-clean-grid",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "method-clean-grid"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "中考线前的七年级",
+      "units": 6022
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "家长辅导的角色边界",
+      "units": 7852
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "三科并进的家庭战场",
+      "units": 7779
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "精力有限而需求无限",
+      "units": 6290
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "方法比知识更重要",
+      "units": 7718
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "关系比分数更底层",
+      "units": 9162
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "诊断先于干预",
+      "units": 7294
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "节奏嵌入日常",
+      "units": 10762
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "数学的概念链条",
+      "units": 8254
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "语文的积累系统",
+      "units": 8044
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "英语的听说读写",
+      "units": 8101
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "跨科通用的工具",
+      "units": 6479
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "案例与反例板块",
+      "units": 10810
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "别人家的节奏",
+      "units": 7698
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "放手之后的失控",
+      "units": 6186
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "分数波动之后",
+      "units": 6216
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "哪些事不该做",
+      "units": 5831
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "哪些事必须做",
+      "units": 7099
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "家长的续航能力",
+      "units": 8241
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "中考之后的回望",
+      "units": 6920
+    }
+  ],
+  "topics": {
+    "entities": [
+      "陪考手记"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "中考线前的七年级",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "家长辅导的角色边界",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "三科并进的家庭战场",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "精力有限而需求无限",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "方法比知识更重要",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "关系比分数更底层",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "诊断先于干预",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "节奏嵌入日常",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "数学的概念链条",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "语文的积累系统",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "英语的听说读写",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "跨科通用的工具",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "案例与反例板块",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "别人家的节奏",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "放手之后的失控",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "分数波动之后",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "哪些事不该做",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "哪些事必须做",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "家长的续航能力",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "中考之后的回望",
+        "asOfYear": null
+      }
+    ]
+  },
+  "illustrations": 1,
+  "publishedAt": "2026-09-20T10:43:34.897Z",
+  "formFamily": "method"
+}

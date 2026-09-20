@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu9ibl1d32y",
+    "projectId": "proj-mu9ibl1d32y",
+    "releaseId": "rel_20260920104334887_a97f60f297",
+    "title": "陪考手记",
+    "subtitle": "深圳中考家长的七年级陪考实录",
+    "language": "zh",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "李德诺富特斯基",
+    "category": "中国史",
+    "tags": [
+      "深圳中考",
+      "七年级陪考",
+      "家庭教育",
+      "学习方法",
+      "亲子沟通",
+      "中国史"
+    ],
+    "description": "七年级是深圳中考长跑的起跑线，也是亲子关系的压力测试场。当辅导作业变成情绪拉锯，当专业教学与家庭陪伴边界模糊，家长该如何自处？这份手记不谈提分神话，只记录真实陪考现场：从数学概念链条的梳理到语文积累系统的搭建，从英语听说读写的同步推进到错题本的有效使用。它提供可复制的学习节奏、诊断习惯与情绪支持方案，帮助家长在精力有限与需求无限的张力中，找到不替代老师、不消耗关系的科学站位。方法比知识更重要，关系比分数更底层，这是一份写给普通家庭的教育素养备忘录。",
+    "chapterCount": 20,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-20T10:38:27.022Z"
+    },
+    "coverUrl": "books/proj-mu9ibl1d32y/releases/rel_20260920104334887_a97f60f297/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mu9ibl1d32y/index.html",
+    "publishedAt": "2026-09-20T10:43:34.897Z",
+    "firstPublishedAt": "2026-09-20T10:43:34.897Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu849pa8neg",
     "projectId": "proj-mu849pa8neg",
     "releaseId": "rel_20260920005633555_00d9f28a87",
