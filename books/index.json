@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu8li9co56t",
+    "projectId": "proj-mu8li9co56t",
+    "releaseId": "rel_20260920005642855_935166df7d",
+    "title": "Printed by the Bank Itself",
+    "subtitle": "Alves dos Reis, Waterlow & Sons, and the Banknote Fraud That Shook Portugal",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "financial fraud",
+      "Portuguese history",
+      "true crime",
+      "legal history",
+      "banking",
+      "世界史"
+    ],
+    "description": "In 1925, a Lisbon clerk with a forged Oxford diploma orchestrated the largest banknote fraud in history. Alves dos Reis convinced London printers Waterlow & Sons to produce genuine 500-escudo notes using the Bank of Portugal’s own plates, backed by fabricated contracts and official correspondence. He flooded Angola with legitimate currency, purchased major enterprises, and nearly seized control of the central bank itself. The scheme unraveled only when a Porto newspaper and a routine inspection exposed the deception, triggering arrests, a sensational trial, and a landmark House of Lords judgment seven years later. Drawn from trial records, litigation files, bank registers, and participant memoirs, this narrative reconstructs the audacious crime that destabilized a nation’s currency and destroyed a venerable printing house. It is a story of bureaucratic exploitation and legal consequence, where authentic money became indistinguishable from counterfeit ambition.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-19T18:35:46.232Z"
+    },
+    "coverUrl": "books/proj-mu8li9co56t/releases/rel_20260920005642855_935166df7d/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mu8li9co56t/index.html",
+    "publishedAt": "2026-09-20T00:56:42.861Z",
+    "firstPublishedAt": "2026-09-20T00:55:22.256Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtii043iihc",
     "projectId": "proj-mtii043iihc",
     "releaseId": "rel_20260920075938935_e0f543f97b",
@@ -32,41 +67,6 @@
     "url": "books/proj-mtii043iihc/index.html",
     "publishedAt": "2026-09-20T07:59:38.941Z",
     "firstPublishedAt": "2026-09-06T02:33:31.816Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu8li9co56t",
-    "projectId": "proj-mu8li9co56t",
-    "releaseId": "rel_20260920005642855_935166df7d",
-    "title": "Printed by the Bank Itself",
-    "subtitle": "Alves dos Reis, Waterlow & Sons, and the Banknote Fraud That Shook Portugal",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "financial fraud",
-      "Portuguese history",
-      "true crime",
-      "legal history",
-      "banking",
-      "世界史"
-    ],
-    "description": "In 1925, a Lisbon clerk with a forged Oxford diploma orchestrated the largest banknote fraud in history. Alves dos Reis convinced London printers Waterlow & Sons to produce genuine 500-escudo notes using the Bank of Portugal’s own plates, backed by fabricated contracts and official correspondence. He flooded Angola with legitimate currency, purchased major enterprises, and nearly seized control of the central bank itself. The scheme unraveled only when a Porto newspaper and a routine inspection exposed the deception, triggering arrests, a sensational trial, and a landmark House of Lords judgment seven years later. Drawn from trial records, litigation files, bank registers, and participant memoirs, this narrative reconstructs the audacious crime that destabilized a nation’s currency and destroyed a venerable printing house. It is a story of bureaucratic exploitation and legal consequence, where authentic money became indistinguishable from counterfeit ambition.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 88,
-      "method": "median-of-3",
-      "createdAt": "2026-09-19T18:35:46.232Z"
-    },
-    "coverUrl": "books/proj-mu8li9co56t/releases/rel_20260920005642855_935166df7d/cover-b94a96dc1be3.svg",
-    "coverTextless": false,
-    "url": "books/proj-mu8li9co56t/index.html",
-    "publishedAt": "2026-09-20T00:56:42.861Z",
-    "firstPublishedAt": "2026-09-20T00:55:22.256Z",
     "visibility": "public"
   },
   {

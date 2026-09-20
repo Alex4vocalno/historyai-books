@@ -40,13 +40,15 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-b94a96dc1be3.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-20T10:38:53.807Z",
     "textless": false,
+    "profileId": "portrait-biography",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "portrait-biography"
   },
   "chapters": [
     {
@@ -379,5 +381,5 @@
     ]
   },
   "publishedAt": "2026-09-20T00:56:42.861Z",
-  "rerenderedAt": "2026-09-20T10:38:54.130Z"
+  "rerenderedAt": "2026-09-20T10:39:14.389Z"
 }
