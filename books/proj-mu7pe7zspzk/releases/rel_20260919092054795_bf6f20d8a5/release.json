@@ -40,15 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-9d96b0882bce.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T09:20:32.640Z",
+    "generatedAt": "2026-09-21T02:02:31.334Z",
     "textless": false,
-    "profileId": "corporate-saga",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "corporate-saga"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -379,5 +376,6 @@
         "asOfYear": 1949
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:02:31.343Z"
 }

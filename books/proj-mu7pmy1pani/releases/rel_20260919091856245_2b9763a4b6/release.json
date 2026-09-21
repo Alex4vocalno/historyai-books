@@ -40,12 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-57c06f572cad.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T09:18:23.498Z",
+    "generatedAt": "2026-09-21T02:04:00.689Z",
     "textless": false,
-    "profileId": "serious-history-editorial"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -377,5 +377,6 @@
         "asOfYear": 1966
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:04:00.699Z"
 }

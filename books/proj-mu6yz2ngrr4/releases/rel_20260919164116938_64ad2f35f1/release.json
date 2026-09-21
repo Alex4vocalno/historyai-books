@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-ce9dfca47e13.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-18T15:08:07.363Z",
+    "generatedAt": "2026-09-21T01:52:28.522Z",
     "textless": false,
-    "profileId": "fiction-mystery-noir"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -163,5 +163,6 @@
       "units": 1859
     }
   ],
-  "publishedAt": "2026-09-19T16:41:16.941Z"
+  "publishedAt": "2026-09-19T16:41:16.941Z",
+  "rerenderedAt": "2026-09-21T01:52:28.529Z"
 }

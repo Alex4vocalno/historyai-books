@@ -40,12 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-9f8ad5400d0c.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T11:24:44.492Z",
+    "generatedAt": "2026-09-21T01:57:22.245Z",
     "textless": false,
-    "profileId": "corporate-saga"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -378,5 +378,6 @@
         "asOfYear": 1886
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T01:57:22.254Z"
 }

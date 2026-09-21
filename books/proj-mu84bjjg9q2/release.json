@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-c6076debfc2b.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T16:04:33.167Z",
+    "generatedAt": "2026-09-21T01:54:00.413Z",
     "textless": false,
-    "profileId": "archival-deep"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -378,5 +378,6 @@
         "asOfYear": 1958
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T01:54:00.421Z"
 }
