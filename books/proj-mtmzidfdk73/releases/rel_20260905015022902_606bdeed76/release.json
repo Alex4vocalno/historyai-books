@@ -39,12 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-d245bb273265.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-05T01:50:18.567Z",
+    "generatedAt": "2026-09-21T02:54:11.123Z",
     "textless": false,
-    "profileId": "serious-history-editorial"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -265,7 +265,7 @@
     }
   ],
   "publishedAt": "2026-09-05T01:50:22.906Z",
-  "rerenderedAt": "2026-09-06T13:12:08.317Z",
+  "rerenderedAt": "2026-09-21T02:54:11.131Z",
   "topics": {
     "entities": [
       "ThePocketWars"

@@ -39,12 +39,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-1aef9f3105b0.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-05T12:56:54.265Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-21T02:51:03.901Z",
     "textless": false,
-    "profileId": "literary-fiction-premium"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -163,7 +163,7 @@
     }
   ],
   "publishedAt": "2026-09-05T13:01:26.821Z",
-  "rerenderedAt": "2026-09-06T13:12:30.609Z",
+  "rerenderedAt": "2026-09-21T02:51:03.908Z",
   "formFamily": "narrative",
   "lengthTier": "novella",
   "topics": {

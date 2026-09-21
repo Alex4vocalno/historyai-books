@@ -39,12 +39,12 @@
     "rating": "编辑意见"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-600ef60aa5c7.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-30T05:59:19.604Z",
+    "generatedAt": "2026-09-21T02:50:00.418Z",
     "textless": false,
-    "profileId": "archival-deep"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -395,5 +395,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:50:00.427Z"
 }
