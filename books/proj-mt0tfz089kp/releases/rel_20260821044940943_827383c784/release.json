@@ -31,13 +31,12 @@
     "createdAt": "2026-08-21T03:01:13.352Z"
   },
   "cover": {
-    "file": "cover-054e51615fae.svg",
+    "file": "cover-328479637adc.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-08-28T08:00:26.749Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-21T08:08:28.355Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -132,7 +131,7 @@
     }
   ],
   "publishedAt": "2026-08-21T04:49:40.947Z",
-  "rerenderedAt": "2026-08-28T08:00:26.901Z",
+  "rerenderedAt": "2026-09-21T08:08:28.365Z",
   "topics": {
     "entities": [
       "灯火与炊烟",
