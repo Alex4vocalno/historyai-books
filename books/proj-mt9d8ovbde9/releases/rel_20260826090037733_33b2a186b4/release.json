@@ -39,12 +39,13 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-1c5f000eba85.png",
+    "file": "cover-cb664d7f9b38.svg",
     "provider": "openrouter",
-    "model": "qwen/qwen-image-3-pro",
-    "generatedAt": "2026-08-28T03:45:02.765Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-21T07:22:53.168Z",
     "textless": false,
-    "sourceTextless": false
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -229,7 +230,7 @@
     }
   ],
   "publishedAt": "2026-08-26T09:00:37.736Z",
-  "rerenderedAt": "2026-08-28T03:45:02.782Z",
+  "rerenderedAt": "2026-09-21T07:22:53.180Z",
   "topics": {
     "entities": [
       "陇西李氏",

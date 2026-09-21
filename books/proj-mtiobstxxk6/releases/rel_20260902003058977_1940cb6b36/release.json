@@ -39,12 +39,13 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-85096a78efaa.jpg",
+    "file": "cover-cff0669a4df9.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T02:19:03.638Z",
+    "generatedAt": "2026-09-21T07:14:27.139Z",
     "textless": false,
-    "sourceTextless": false
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -169,7 +170,7 @@
     }
   ],
   "publishedAt": "2026-09-02T00:30:58.996Z",
-  "rerenderedAt": "2026-09-21T02:19:03.646Z",
+  "rerenderedAt": "2026-09-21T07:14:27.151Z",
   "topics": {
     "entities": [
       "温差",

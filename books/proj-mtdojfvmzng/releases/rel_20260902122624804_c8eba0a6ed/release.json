@@ -39,12 +39,13 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-41ed65645044.jpg",
+    "file": "cover-98e8888a7545.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T03:42:29.808Z",
+    "generatedAt": "2026-09-21T07:10:07.605Z",
     "textless": false,
-    "sourceTextless": false
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -259,7 +260,7 @@
     }
   ],
   "publishedAt": "2026-09-02T12:26:24.811Z",
-  "rerenderedAt": "2026-09-21T03:42:29.817Z",
+  "rerenderedAt": "2026-09-21T07:10:07.636Z",
   "topics": {
     "entities": [
       "TheGreatStink",

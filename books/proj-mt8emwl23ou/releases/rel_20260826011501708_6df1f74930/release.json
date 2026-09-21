@@ -38,12 +38,13 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-7521d90e1a9e.jpg",
+    "file": "cover-1f65cabb5022.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T03:47:31.742Z",
+    "generatedAt": "2026-09-21T07:26:15.718Z",
     "textless": false,
-    "sourceTextless": false
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -222,7 +223,7 @@
     }
   ],
   "publishedAt": "2026-08-26T01:15:01.723Z",
-  "rerenderedAt": "2026-09-21T03:47:31.749Z",
+  "rerenderedAt": "2026-09-21T07:26:15.732Z",
   "topics": {
     "entities": [
       "而是理想主义",
