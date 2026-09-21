@@ -40,12 +40,13 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-6974dfbc0779.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-20T15:52:14.520Z",
+    "generatedAt": "2026-09-21T01:43:32.016Z",
     "textless": false,
-    "profileId": "literary-fiction-premium"
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -408,5 +409,6 @@
       }
     ]
   },
-  "publishedAt": "2026-09-20T15:55:15.491Z"
+  "publishedAt": "2026-09-20T15:55:15.491Z",
+  "rerenderedAt": "2026-09-21T01:43:32.031Z"
 }

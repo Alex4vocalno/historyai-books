@@ -39,12 +39,13 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-fa7cc8994db3.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-07T02:43:44.261Z",
+    "generatedAt": "2026-09-21T01:49:33.358Z",
     "textless": false,
-    "profileId": "corporate-saga"
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -480,5 +481,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T01:49:33.370Z"
 }

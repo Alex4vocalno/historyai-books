@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-96bab3cd573a.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T09:08:45.734Z",
+    "generatedAt": "2026-09-21T01:49:45.489Z",
     "textless": false,
-    "profileId": "dawn-object-warm"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -175,5 +175,6 @@
       "units": 2226
     }
   ],
-  "publishedAt": "2026-09-19T16:41:38.188Z"
+  "publishedAt": "2026-09-19T16:41:38.188Z",
+  "rerenderedAt": "2026-09-21T01:49:45.499Z"
 }

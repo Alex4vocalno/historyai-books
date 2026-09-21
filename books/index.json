@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mtpdshkfle6",
+    "projectId": "proj-mtpdshkfle6",
+    "releaseId": "rel_20260921014957016_55bcfbcc8e",
+    "title": "咬合",
+    "subtitle": "",
+    "language": "zh",
+    "workType": "fiction",
+    "lengthTier": "novel",
+    "authorDisplayName": "磨墨无文",
+    "category": "小说",
+    "tags": [
+      "中年情感",
+      "现实主义",
+      "商业与人情",
+      "人性暗面",
+      "婚姻困局",
+      "时代切片"
+    ],
+    "description": "两个被时代与亲密关系反复碾磨的中年人，在2025年的酒局后相遇。吴文，从辍学青年到亿万身家的义齿厂创始人，事业的成功并未治愈婚姻的创伤，反而滋生出对情感的贪婪索取。程默，带着寄人篱下与被弃的创伤，在将就的婚姻里以“被需要”填补内心的不稳。他们的关系始于一次合作，燃烧于一场激情，却迅速布满现实利益的尖刺：公司的股权、各自的家庭、道德的羞耻、中年的虚无。这不是救赎，而是暗面共振。当野心与虚荣、贪婪与恐惧紧紧咬合，他们能否挣脱自己亲手复制的痛苦模式？",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-21T01:49:50.833Z"
+    },
+    "coverUrl": "books/proj-mtpdshkfle6/releases/rel_20260921014957016_55bcfbcc8e/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mtpdshkfle6/index.html",
+    "publishedAt": "2026-09-21T01:49:57.019Z",
+    "firstPublishedAt": "2026-09-21T01:49:57.019Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu9m9yl9do2",
     "projectId": "proj-mu9m9yl9do2",
     "releaseId": "rel_20260920155515485_3d886af9ed",
@@ -27,7 +62,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-20T15:41:02.883Z"
     },
-    "coverUrl": "books/proj-mu9m9yl9do2/releases/rel_20260920155515485_3d886af9ed/cover.jpg",
+    "coverUrl": "books/proj-mu9m9yl9do2/releases/rel_20260920155515485_3d886af9ed/cover-6974dfbc0779.svg",
     "coverTextless": false,
     "url": "books/proj-mu9m9yl9do2/index.html",
     "publishedAt": "2026-09-20T15:55:15.491Z",
@@ -97,7 +132,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-19T09:50:04.073Z"
     },
-    "coverUrl": "books/proj-mu849pa8neg/releases/rel_20260920005633555_00d9f28a87/cover.svg",
+    "coverUrl": "books/proj-mu849pa8neg/releases/rel_20260920005633555_00d9f28a87/cover-68d8c5b5ecf2.jpg",
     "coverTextless": false,
     "url": "books/proj-mu849pa8neg/index.html",
     "publishedAt": "2026-09-20T00:56:33.562Z",
@@ -132,7 +167,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-19T18:35:46.232Z"
     },
-    "coverUrl": "books/proj-mu8li9co56t/releases/rel_20260920005642855_935166df7d/cover.svg",
+    "coverUrl": "books/proj-mu8li9co56t/releases/rel_20260920005642855_935166df7d/cover-99eec63e7948.jpg",
     "coverTextless": false,
     "url": "books/proj-mu8li9co56t/index.html",
     "publishedAt": "2026-09-20T00:56:42.861Z",
@@ -202,7 +237,7 @@
       "method": "median-of-2",
       "createdAt": "2026-09-19T20:44:21.708Z"
     },
-    "coverUrl": "books/proj-mu8llhyhyve/releases/rel_20260919212714422_66fa05eb94/cover.jpg",
+    "coverUrl": "books/proj-mu8llhyhyve/releases/rel_20260919212714422_66fa05eb94/cover-9e625980891f.jpg",
     "coverTextless": false,
     "url": "books/proj-mu8llhyhyve/index.html",
     "publishedAt": "2026-09-19T21:27:14.454Z",
@@ -237,7 +272,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-19T20:42:21.126Z"
     },
-    "coverUrl": "books/proj-mu8ll1ltieb/releases/rel_20260919204339565_fd883d6500/cover.jpg",
+    "coverUrl": "books/proj-mu8ll1ltieb/releases/rel_20260919204339565_fd883d6500/cover-2e82d7b52d3d.jpg",
     "coverTextless": false,
     "url": "books/proj-mu8ll1ltieb/index.html",
     "publishedAt": "2026-09-19T20:43:39.570Z",
@@ -307,7 +342,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-19T09:07:22.674Z"
     },
-    "coverUrl": "books/proj-mu82v8oow97/releases/rel_20260919164138184_b662c533b4/cover.jpg",
+    "coverUrl": "books/proj-mu82v8oow97/releases/rel_20260919164138184_b662c533b4/cover-96bab3cd573a.jpg",
     "coverTextless": false,
     "url": "books/proj-mu82v8oow97/index.html",
     "publishedAt": "2026-09-19T16:41:38.188Z",
@@ -1182,7 +1217,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-04T03:53:26.230Z"
     },
-    "coverUrl": "books/proj-mtkvcof76i4/releases/rel_20260917081114114_c5ee053c5a/cover.jpg",
+    "coverUrl": "books/proj-mtkvcof76i4/releases/rel_20260917081114114_c5ee053c5a/cover-7ef5206156ce.svg",
     "coverTextless": false,
     "url": "books/proj-mtkvcof76i4/index.html",
     "publishedAt": "2026-09-17T08:11:14.118Z",
@@ -1322,7 +1357,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-17T00:07:10.522Z"
     },
-    "coverUrl": "books/proj-mu3zsypqutd/releases/rel_20260917000715416_e77348daab/cover.jpg",
+    "coverUrl": "books/proj-mu3zsypqutd/releases/rel_20260917000715416_e77348daab/cover-c05c3eea0cf2.svg",
     "coverTextless": false,
     "url": "books/proj-mu3zsypqutd/index.html",
     "publishedAt": "2026-09-17T00:07:15.458Z",
@@ -1738,7 +1773,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-11T00:09:14.258Z"
     },
-    "coverUrl": "books/proj-mtvj0hv3bhf/releases/rel_20260911023608635_00d19f149e/cover.jpg",
+    "coverUrl": "books/proj-mtvj0hv3bhf/releases/rel_20260911023608635_00d19f149e/cover-4807641aac05.svg",
     "coverTextless": false,
     "url": "books/proj-mtvj0hv3bhf/index.html",
     "publishedAt": "2026-09-11T02:36:08.672Z",
@@ -1772,7 +1807,7 @@
       "method": "median-of-3",
       "createdAt": "2026-09-07T01:30:01.102Z"
     },
-    "coverUrl": "books/proj-mtptvt49gdx/releases/rel_20260907025035048_7e987cd79a/cover.jpg",
+    "coverUrl": "books/proj-mtptvt49gdx/releases/rel_20260907025035048_7e987cd79a/cover-fa7cc8994db3.svg",
     "coverTextless": false,
     "url": "books/proj-mtptvt49gdx/index.html",
     "publishedAt": "2026-09-07T02:50:35.079Z",

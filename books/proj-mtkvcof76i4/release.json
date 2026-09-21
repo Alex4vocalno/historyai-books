@@ -40,12 +40,13 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-7ef5206156ce.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-11T08:32:02.779Z",
+    "generatedAt": "2026-09-21T01:44:21.359Z",
     "textless": false,
-    "profileId": "literary-fiction-premium"
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3"
   },
   "chapters": [
     {
@@ -409,5 +410,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T01:44:21.372Z"
 }

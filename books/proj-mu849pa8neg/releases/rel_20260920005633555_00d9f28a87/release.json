@@ -40,15 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-68d8c5b5ecf2.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-20T00:56:17.510Z",
+    "generatedAt": "2026-09-21T01:39:09.453Z",
     "textless": false,
-    "profileId": "woodblock-print",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "woodblock-print"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -381,5 +378,5 @@
     ]
   },
   "publishedAt": "2026-09-20T00:56:33.562Z",
-  "rerenderedAt": "2026-09-20T10:39:42.024Z"
+  "rerenderedAt": "2026-09-21T01:39:09.462Z"
 }
