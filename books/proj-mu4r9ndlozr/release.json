@@ -40,12 +40,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-e89374fe62cf.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-17T04:43:59.730Z",
+    "generatedAt": "2026-09-21T02:46:38.083Z",
     "textless": false,
-    "profileId": "warm-humanist"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -366,5 +366,6 @@
         "asOfYear": 2016
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:46:38.091Z"
 }
