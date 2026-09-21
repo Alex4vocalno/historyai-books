@@ -39,12 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.png",
+    "file": "cover-8c740cc4c5a4.jpg",
     "provider": "openrouter",
-    "model": "qwen/qwen-image-3",
-    "generatedAt": "2026-08-30T07:28:54.806Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-21T03:02:38.397Z",
     "textless": false,
-    "profileId": "serious-history-editorial"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -253,7 +253,7 @@
     }
   ],
   "publishedAt": "2026-08-30T07:29:02.208Z",
-  "rerenderedAt": "2026-09-06T13:11:24.820Z",
+  "rerenderedAt": "2026-09-21T03:02:38.404Z",
   "topics": {
     "entities": [
       "the30"

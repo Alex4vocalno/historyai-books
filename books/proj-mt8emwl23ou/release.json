@@ -38,10 +38,10 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-2512d44eba7e.png",
+    "file": "cover-7521d90e1a9e.jpg",
     "provider": "openrouter",
-    "model": "qwen/qwen-image-3",
-    "generatedAt": "2026-08-28T04:24:21.824Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-21T03:47:31.742Z",
     "textless": false,
     "sourceTextless": false
   },
@@ -222,7 +222,7 @@
     }
   ],
   "publishedAt": "2026-08-26T01:15:01.723Z",
-  "rerenderedAt": "2026-08-28T04:24:21.841Z",
+  "rerenderedAt": "2026-09-21T03:47:31.749Z",
   "formFamily": "narrative",
   "topics": {
     "entities": [

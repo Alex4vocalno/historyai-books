@@ -39,12 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-09dd9f5f2166.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-04T08:48:43.198Z",
+    "generatedAt": "2026-09-21T02:59:00.781Z",
     "textless": false,
-    "profileId": "warm-humanist"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -271,7 +271,7 @@
     }
   ],
   "publishedAt": "2026-09-02T12:16:25.748Z",
-  "rerenderedAt": "2026-09-06T13:11:45.026Z",
+  "rerenderedAt": "2026-09-21T02:59:00.789Z",
   "topics": {
     "entities": [
       "SweetEmpire"

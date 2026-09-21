@@ -39,12 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-968349f920c8.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-04T12:38:05.582Z",
+    "generatedAt": "2026-09-21T03:15:09.874Z",
     "textless": false,
-    "profileId": "method-clean-grid"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -253,7 +253,7 @@
     }
   ],
   "publishedAt": "2026-09-02T05:18:16.569Z",
-  "rerenderedAt": "2026-09-06T13:02:46.888Z",
+  "rerenderedAt": "2026-09-21T03:15:09.885Z",
   "formFamily": "method",
   "topics": {
     "entities": [

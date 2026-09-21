@@ -39,12 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-280a4f36135f.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-04T06:56:51.902Z",
+    "generatedAt": "2026-09-21T03:22:28.598Z",
     "textless": false,
-    "profileId": "portrait-biography"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -259,7 +259,7 @@
     }
   ],
   "publishedAt": "2026-08-30T06:54:39.397Z",
-  "rerenderedAt": "2026-09-06T13:00:40.260Z",
+  "rerenderedAt": "2026-09-21T03:22:28.607Z",
   "formFamily": "narrative",
   "topics": {
     "entities": [

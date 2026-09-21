@@ -39,12 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-41ed65645044.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-04T08:05:54.679Z",
+    "generatedAt": "2026-09-21T03:42:29.808Z",
     "textless": false,
-    "profileId": "serious-history-editorial"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -259,7 +259,7 @@
     }
   ],
   "publishedAt": "2026-09-02T12:26:24.811Z",
-  "rerenderedAt": "2026-09-06T12:59:18.094Z",
+  "rerenderedAt": "2026-09-21T03:42:29.817Z",
   "formFamily": "narrative",
   "topics": {
     "entities": [

@@ -39,12 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-ea888544a7d7.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-02T06:25:03.332Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-21T02:58:05.317Z",
     "textless": false,
-    "profileId": "archival-deep"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -253,7 +253,7 @@
     }
   ],
   "publishedAt": "2026-09-02T12:16:19.631Z",
-  "rerenderedAt": "2026-09-06T13:11:56.293Z",
+  "rerenderedAt": "2026-09-21T02:58:05.324Z",
   "topics": {
     "entities": [
       "TheRubberCentury",
