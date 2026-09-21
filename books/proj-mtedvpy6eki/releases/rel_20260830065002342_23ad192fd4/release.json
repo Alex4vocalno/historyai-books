@@ -39,13 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-79c6f57e8101.svg",
+    "file": "cover-93d56ee014d5.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T07:05:30.913Z",
+    "generatedAt": "2026-09-21T09:00:49.271Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -278,7 +277,7 @@
     }
   ],
   "publishedAt": "2026-08-30T06:50:02.346Z",
-  "rerenderedAt": "2026-09-21T07:05:30.923Z",
+  "rerenderedAt": "2026-09-21T09:00:49.284Z",
   "topics": {
     "entities": [
       "Seventy-TwoHours"
