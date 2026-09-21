@@ -40,12 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-a3d0693c44ea.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T19:45:27.161Z",
+    "generatedAt": "2026-09-21T01:32:33.965Z",
     "textless": false,
-    "profileId": "warm-humanist"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -377,5 +377,6 @@
       }
     ]
   },
-  "publishedAt": "2026-09-19T19:45:31.269Z"
+  "publishedAt": "2026-09-19T19:45:31.269Z",
+  "rerenderedAt": "2026-09-21T01:32:33.975Z"
 }
