@@ -39,10 +39,10 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-cd2fbf3329d6.svg",
+    "file": "cover-3d26d3abfece.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T06:56:15.964Z",
+    "generatedAt": "2026-09-21T08:27:37.070Z",
     "textless": false,
     "sourceTextless": true,
     "composerVersion": "cover-composer.v3"
@@ -280,5 +280,5 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T06:56:15.980Z"
+  "rerenderedAt": "2026-09-21T08:27:37.088Z"
 }

@@ -1658,3 +1658,80 @@
     }
   });
 })();
+
+/* ================================================================
+ * EVORON AI 书城 · 书签脚本的按需加载器（v6.69）
+ *
+ * 病因：章节页此前静态挂着 assets/bookmark.js（76KB，其中 74% 是只在「点开
+ * 书签图」时才用得上的 vendor QR）。全站 200 多本书的每一个章节页都在为它付
+ * 下载与解析的钱，而绝大多数读者从头到尾不会划一次线。
+ *
+ * 现在：本段随 reader.js 落到每个页面（不额外增加请求），只在读者**第一次在
+ * 正文里选中文字**时才注入 bookmark.js。浮钮的三颗按钮（书签/想法/划线）都在
+ * 那份脚本里，所以判定必须够早——selectionchange 在手机长按选中第一个词、
+ * 桌面端拖选途中就会触发，抓取与读者调整选区是重叠的。
+ *
+ * 不做 pointerdown/touchstart 预热：翻页手势也走这两个事件（reader.js 的
+ * 全局 touchstart），预热等于人人都下载，省不下来。
+ *
+ * 降级：注入失败不复位 __haiBookmarkReady，监听保留，下次选中再试（至多 3 次）；
+ * 始终失败的最坏结果是没有浮钮，与今天脚本 404 时一样，正文与静态兜底导航不受影响。
+ * 老页面（HTML 里还带着静态 bookmark.js 标签的那批）先探测再决定，不会双份注入。
+ * ================================================================ */
+(function () {
+  if (typeof document === 'undefined') return;
+  var dataEl = document.getElementById('reader-data');
+  if (!dataEl) return;
+  var data = {};
+  try { data = JSON.parse(dataEl.textContent || '{}'); } catch (e) { return; }
+  if (data.kind !== 'chapter') return;
+  // 过渡期：迁移前发布的页面自带静态标签，那份会自己到场，这里不插手
+  if (window.__haiBookmarkReady) return;
+  if (document.querySelector('script[src$="bookmark.js"]')) return;
+
+  var base = (function () {
+    try {
+      var self2 = document.currentScript;
+      if (self2 && self2.src) return self2.src.replace(/[^/]*$/, '');
+      var tag = document.querySelector('script[src*="reader.js"]');
+      if (tag && tag.src) return tag.src.replace(/[^/]*$/, '');
+    } catch (e0) {}
+    return '';
+  })();
+  window.__haiAssetBase = base; // bookmark.js 拉 QR 时的兜底基路径
+
+  var content = null;
+  var tries = 0;
+  var pending = false;
+
+  function selectedInBody() {
+    try {
+      var sel = window.getSelection();
+      if (!sel || sel.isCollapsed || !sel.rangeCount) return false;
+      if (!String(sel.toString()).trim()) return false;
+      if (!content) content = document.querySelector('.reader-content');
+      var node = sel.getRangeAt(0).commonAncestorContainer;
+      return content ? content.contains(node.nodeType === 1 ? node : node.parentNode) : false;
+    } catch (e1) { return false; }
+  }
+
+  function onSelectionChange() {
+    if (pending || window.__haiBookmarkReady || tries >= 3) return;
+    if (!selectedInBody()) return;
+    pending = true;
+    tries++;
+    var el = document.createElement('script');
+    el.src = base + 'bookmark.js';
+    el.async = true;
+    el.onload = function () {
+      document.removeEventListener('selectionchange', onSelectionChange);
+    };
+    el.onerror = function () {
+      pending = false;
+      el.parentNode && el.parentNode.removeChild(el);
+    };
+    document.head.appendChild(el);
+  }
+
+  document.addEventListener('selectionchange', onSelectionChange);
+})();
