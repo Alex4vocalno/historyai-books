@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-18d78f62a7e8.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T06:01:52.438Z",
+    "generatedAt": "2026-09-21T02:09:57.325Z",
     "textless": false,
-    "profileId": "woodblock-print"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -377,5 +377,6 @@
         "asOfYear": 1806
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:09:57.337Z"
 }

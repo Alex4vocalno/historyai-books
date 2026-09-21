@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-ebf26e05b139.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T03:15:36.804Z",
+    "generatedAt": "2026-09-21T02:21:03.154Z",
     "textless": false,
-    "profileId": "serious-history-editorial"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -378,5 +378,6 @@
         "asOfYear": 1924
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:21:03.163Z"
 }

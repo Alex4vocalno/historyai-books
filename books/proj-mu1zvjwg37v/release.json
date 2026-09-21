@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-6fb4efa87879.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-15T05:53:01.344Z",
+    "generatedAt": "2026-09-21T02:14:43.362Z",
     "textless": false,
-    "profileId": "portrait-biography",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "portrait-biography"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -282,5 +279,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:14:43.371Z"
 }

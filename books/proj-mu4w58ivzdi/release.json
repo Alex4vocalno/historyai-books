@@ -40,15 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-159fd7e25e28.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-17T04:48:21.867Z",
+    "generatedAt": "2026-09-21T02:44:18.189Z",
     "textless": false,
-    "profileId": "warm-humanist",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "warm-humanist"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -369,5 +366,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:44:18.198Z"
 }

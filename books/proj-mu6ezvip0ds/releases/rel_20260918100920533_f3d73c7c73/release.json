@@ -40,12 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-34039ca1f18b.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-18T10:09:16.254Z",
+    "generatedAt": "2026-09-21T02:34:46.441Z",
     "textless": false,
-    "profileId": "woodblock-print"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -219,7 +219,7 @@
   ],
   "illustrations": 3,
   "publishedAt": "2026-09-18T10:09:20.538Z",
-  "rerenderedAt": "2026-09-18T14:43:47.797Z",
+  "rerenderedAt": "2026-09-21T02:34:46.449Z",
   "topics": {
     "entities": [
       "Philadelphia",

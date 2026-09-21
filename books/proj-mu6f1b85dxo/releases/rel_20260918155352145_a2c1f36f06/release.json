@@ -40,12 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-28c8153f2e62.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T03:46:10.089Z",
+    "generatedAt": "2026-09-21T02:15:18.569Z",
     "textless": false,
-    "profileId": "chronicle-panorama"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -218,7 +218,7 @@
     }
   ],
   "publishedAt": "2026-09-18T15:53:52.148Z",
-  "rerenderedAt": "2026-09-19T03:46:32.106Z",
+  "rerenderedAt": "2026-09-21T02:15:18.577Z",
   "topics": {
     "entities": [
       "John Franklin",

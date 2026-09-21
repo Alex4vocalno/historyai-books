@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-f76adac1d88f.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T03:54:13.051Z",
+    "generatedAt": "2026-09-21T02:13:55.230Z",
     "textless": false,
-    "profileId": "literary-fiction-premium"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -331,5 +331,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:13:55.238Z"
 }

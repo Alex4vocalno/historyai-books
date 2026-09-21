@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-dc2415ef3e46.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-02T12:33:17.563Z",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-21T02:41:17.614Z",
     "textless": false,
-    "profileId": "psychology-inner-space"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -280,5 +280,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:41:17.623Z"
 }

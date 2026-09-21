@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-13343b871f3c.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-18T10:24:49.143Z",
+    "generatedAt": "2026-09-21T02:37:49.723Z",
     "textless": false,
-    "profileId": "woodblock-print"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -219,7 +219,7 @@
   ],
   "illustrations": 2,
   "publishedAt": "2026-09-18T10:24:52.509Z",
-  "rerenderedAt": "2026-09-18T14:42:42.946Z",
+  "rerenderedAt": "2026-09-21T02:37:49.731Z",
   "topics": {
     "entities": [
       "Titanic",

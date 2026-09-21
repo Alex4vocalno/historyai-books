@@ -40,12 +40,12 @@
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-21f6e64cc3b2.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-18T10:08:49.018Z",
+    "generatedAt": "2026-09-21T02:39:09.996Z",
     "textless": false,
-    "profileId": "archival-deep"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -219,7 +219,7 @@
   ],
   "illustrations": 8,
   "publishedAt": "2026-09-18T10:08:52.745Z",
-  "rerenderedAt": "2026-09-18T14:39:36.948Z",
+  "rerenderedAt": "2026-09-21T02:39:10.003Z",
   "formFamily": "narrative",
   "topics": {
     "entities": [

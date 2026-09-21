@@ -39,12 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-0ae8156122bb.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-02T12:31:00.679Z",
+    "generatedAt": "2026-09-21T02:44:19.119Z",
     "textless": false,
-    "profileId": "popsci-luminous"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -272,5 +272,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-21T02:44:19.129Z"
 }

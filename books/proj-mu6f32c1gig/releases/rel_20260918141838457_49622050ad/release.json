@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-8191a74e5cdb.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-19T03:37:18.741Z",
+    "generatedAt": "2026-09-21T02:18:01.085Z",
     "textless": false,
-    "profileId": "archival-deep"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -219,7 +219,7 @@
   ],
   "illustrations": 7,
   "publishedAt": "2026-09-18T14:18:38.461Z",
-  "rerenderedAt": "2026-09-19T03:37:27.544Z",
+  "rerenderedAt": "2026-09-21T02:18:01.093Z",
   "topics": {
     "entities": [
       "Pudding Lane",

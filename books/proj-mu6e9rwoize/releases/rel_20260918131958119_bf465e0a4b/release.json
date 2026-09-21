@@ -40,12 +40,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-b1be795f6521.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-18T13:19:53.739Z",
+    "generatedAt": "2026-09-21T02:35:41.696Z",
     "textless": false,
-    "profileId": "serious-history-editorial"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -219,7 +219,7 @@
   ],
   "illustrations": 6,
   "publishedAt": "2026-09-18T13:19:58.123Z",
-  "rerenderedAt": "2026-09-18T14:43:10.999Z",
+  "rerenderedAt": "2026-09-21T02:35:41.703Z",
   "topics": {
     "entities": [
       "Robert Falcon Scott",

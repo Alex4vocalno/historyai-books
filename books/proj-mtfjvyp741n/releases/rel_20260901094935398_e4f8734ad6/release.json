@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-96ab16cdb4cf.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-01T02:06:24.229Z",
+    "generatedAt": "2026-09-21T02:37:54.114Z",
     "textless": false,
-    "profileId": "fiction-mystery-noir"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -241,7 +241,7 @@
     }
   ],
   "publishedAt": "2026-09-01T09:49:35.402Z",
-  "rerenderedAt": "2026-09-03T02:31:31.662Z",
+  "rerenderedAt": "2026-09-21T02:37:54.122Z",
   "topics": {
     "entities": [],
     "geo": [],

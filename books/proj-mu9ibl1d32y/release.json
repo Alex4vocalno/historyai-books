@@ -40,15 +40,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-8d990ca27dd4.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-20T10:42:57.262Z",
+    "generatedAt": "2026-09-21T02:09:28.533Z",
     "textless": false,
-    "profileId": "method-clean-grid",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "method-clean-grid"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -283,5 +280,6 @@
   },
   "illustrations": 1,
   "publishedAt": "2026-09-20T10:43:34.897Z",
-  "formFamily": "method"
+  "formFamily": "method",
+  "rerenderedAt": "2026-09-21T02:09:28.544Z"
 }
