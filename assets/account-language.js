@@ -9,6 +9,7 @@
   function create(win) {
     let preference = 'system', userId = null, revision = 0, sequence = 0, loaded = false, saving = false;
     const cookieName = 'evoron_ui_language';
+    const channel = typeof win.BroadcastChannel === 'function' ? new win.BroadcastChannel('evoron-ui-language') : null;
     function guestPreference() {
       const match = win.document.cookie.split(';').map(item => item.trim()).find(item => item.startsWith(cookieName + '='));
       const value = match?.slice(cookieName.length + 1);
@@ -64,10 +65,11 @@
           win.document.cookie = cookieName + '=' + value + '; Path=/; Max-Age=31536000; SameSite=Lax' + (shared ? '; Domain=evoronai.com' : '') + (win.location.protocol === 'https:' ? '; Secure' : '');
           if (guestPreference() !== value) throw Error('Browser preference storage unavailable');
         }
-        preference = value; announce(); return state();
+        preference = value; announce(); channel?.postMessage('changed'); return state();
       } finally { saving = false; }
     }
     win.addEventListener('languagechange', announce);
+    if (channel) channel.onmessage = event => { if (event.data === 'changed') refresh().catch(() => {}); };
     win.addEventListener('focus', () => refresh().catch(() => {}));
     win.document.addEventListener('visibilitychange', () => {
       if (win.document.visibilityState === 'visible') refresh().catch(() => {});
@@ -76,6 +78,7 @@
   }
   if (typeof module !== 'undefined' && module.exports) module.exports = { resolve, create };
   else {
+    if (root.EvoronLanguage) return;
     root.EvoronLanguage = create(root);
     root.EvoronLanguage.refresh().catch(() => {});
   }

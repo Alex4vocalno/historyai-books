@@ -63,12 +63,14 @@
 
   var fab = document.createElement('button');
   fab.type = 'button';
-  var SOCIAL_EN = String(data.lang || '').indexOf('en') === 0;
-  fab.textContent = SOCIAL_EN ? '🔖 Bookmark' : '🔖 书签';
+  function ui(zh, en) { return window.EvoronReaderLanguage.text(zh, en); }
+  fab.dataset.readerUi = '';
+  fab.textContent = ui('🔖 书签', '🔖 Bookmark');
   // v4.97 想法按钮（对标微信读书划线想法）：与书签共用选择检测
   var ideaBtn = document.createElement('button');
   ideaBtn.type = 'button';
-  ideaBtn.textContent = SOCIAL_EN ? '💬 Thought' : '💬 想法';
+  ideaBtn.dataset.readerUi = '';
+  ideaBtn.textContent = ui('💬 想法', '💬 Thought');
   ideaBtn.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(calc(-50% + 124px));z-index:80;display:none;min-height:44px;padding:0 18px;border:0;border-radius:22px;background:#3b6ea5;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(30,70,110,.4);cursor:pointer';
   ideaBtn.onclick = function () {
     var quote = currentQuote;
@@ -93,7 +95,8 @@
   // v6.9.26 纯划线（微信读书向）：选中即划，不强制写想法；成功后阅读器重绘下划线
   var hlBtn = document.createElement('button');
   hlBtn.type = 'button';
-  hlBtn.textContent = SOCIAL_EN ? '✏️ Underline' : '✏️ 划线';
+  hlBtn.dataset.readerUi = '';
+  hlBtn.textContent = ui('✏️ 划线', '✏️ Underline');
   hlBtn.style.cssText = 'position:fixed;left:50%;bottom:76px;transform:translateX(calc(-50% + 8px));z-index:80;display:none;min-height:44px;padding:0 18px;border:0;border-radius:22px;background:#8a6a2f;color:#fff;font:15px -apple-system,"PingFang SC",sans-serif;font-weight:700;box-shadow:0 8px 24px rgba(110,85,30,.4);cursor:pointer';
   hlBtn.onclick = function () {
     var quote = currentQuote;
@@ -106,8 +109,8 @@
       if (d2 && d2.ok) {
         try { window.getSelection().removeAllRanges(); } catch (e1) {}
         if (window.__haiNotesRefresh) window.__haiNotesRefresh();
-      } else alert(SOCIAL_EN ? 'Sign in to underline' : '登录后才能划线');
-    }).catch(function () { alert(SOCIAL_EN ? 'Network error' : '网络异常，稍后再试'); });
+      } else alert(ui('登录后才能划线', 'Sign in to underline'));
+    }).catch(function () { alert(ui('网络异常，稍后再试', 'Network error')); });
     fab.style.display = 'none';
     ideaBtn.style.display = 'none';
     hlBtn.style.display = 'none';
@@ -332,18 +335,18 @@
       var dataUrl = canvas.toDataURL('image/jpeg', 0.9);
       var savedQuote = currentQuote, savedPara = currentPara;
       var wrap = document.createElement('div');
+      wrap.dataset.readerUi = '';
       wrap.style.cssText = 'position:fixed;inset:0;z-index:120;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:rgba(14,17,15,.82);padding:20px';
       var img = document.createElement('img');
       img.src = dataUrl;
       img.alt = '书签';
       img.style.cssText = 'max-height:64vh;max-width:88vw;border-radius:10px;box-shadow:0 24px 70px rgba(0,0,0,.5)';
       // v5.87 三款风格页签：点选即重绘，选择记忆到本地
-      var EN0 = String(data.lang || '').indexOf('en') === 0;
       var tabs = document.createElement('div');
       tabs.style.cssText = 'display:flex;gap:8px';
       BM_STYLES.forEach(function (st) {
         var tb = document.createElement('button');
-        tb.type = 'button'; tb.textContent = EN0 ? st.en : st.zh;
+        tb.type = 'button'; tb.textContent = ui(st.zh, st.en);
         tb.dataset.bmStyle = st.id;
         tb.style.cssText = 'min-height:34px;padding:0 16px;border:1px solid rgba(255,255,255,.3);border-radius:17px;font:13px -apple-system,"PingFang SC",sans-serif;font-weight:700;cursor:pointer;background:' + (st.id === bmStyle.id ? '#fff' : 'transparent') + ';color:' + (st.id === bmStyle.id ? '#111' : '#fff');
         tb.onclick = function () {
@@ -359,7 +362,7 @@
         tabs.appendChild(tb);
       });
       var hint = document.createElement('p');
-      hint.textContent = String(data.lang || '').indexOf('en') === 0 ? 'Long-press the image to save it' : '手机可长按图片保存到相册';
+      hint.textContent = ui('手机可长按图片保存到相册', 'Long-press the image to save it');
       hint.style.cssText = 'margin:0;color:#cfd6d1;font:13px -apple-system,"PingFang SC",sans-serif';
       var row = document.createElement('div');
       row.style.cssText = 'display:flex;gap:12px';
@@ -369,14 +372,14 @@
         b.style.cssText = 'min-height:42px;padding:0 20px;border:0;border-radius:21px;font:14px -apple-system,"PingFang SC",sans-serif;font-weight:700;cursor:pointer;' + (primary ? 'background:#0a9b6d;color:#fff' : 'background:rgba(255,255,255,.14);color:#fff');
         return b;
       }
-      var save = btn(String(data.lang || '').indexOf('en') === 0 ? 'Save image' : '保存图片', true);
+      var save = btn(ui('保存图片', 'Save image'), true);
       save.onclick = function () {
         var a = document.createElement('a');
         a.href = dataUrl; a.download = (data.title || '书签') + '-书签.jpg';
         document.body.appendChild(a); a.click(); a.remove();
       };
       // v5.87 存书签（云同步，匿名落本地）：登录读者 POST 云端，401 回落 localStorage
-      var keep = btn(EN0 ? 'Keep bookmark' : '存入书签', false);
+      var keep = btn(ui('存入书签', 'Keep bookmark'), false);
       keep.onclick = function () {
         var row = { bookId: data.bookId || '', bookTitle: data.title || '', chapter: Number(data.chapter) || 0, para: savedPara, quote: savedQuote, style: bmStyle.id };
         function localFallback() {
@@ -386,16 +389,16 @@
             row.createdAt = new Date().toISOString();
             all.push(row);
             localStorage.setItem('historyai.bookmarks', JSON.stringify(all.slice(-200)));
-            keep.textContent = EN0 ? '✓ Saved on this device' : '✓ 已存本机（登录可云同步）';
-          } catch (e7) { keep.textContent = EN0 ? 'Save failed' : '保存失败'; }
+            keep.textContent = ui('✓ 已存本机（登录可云同步）', '✓ Saved on this device');
+          } catch (e7) { keep.textContent = ui('保存失败', 'Save failed'); }
           keep.disabled = true;
         }
         fetch('/api/reader/bookmarks', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(row) })
           .then(function (r) { if (r.status === 401) { localFallback(); return null; } return r.json(); })
-          .then(function (d) { if (d && d.ok) { keep.textContent = EN0 ? '✓ Bookmarked' : '✓ 已存入书签'; keep.disabled = true; } else if (d) { localFallback(); } })
+          .then(function (d) { if (d && d.ok) { keep.textContent = ui('✓ 已存入书签', '✓ Bookmarked'); keep.disabled = true; } else if (d) { localFallback(); } })
           .catch(localFallback);
       };
-      var share = btn(String(data.lang || '').indexOf('en') === 0 ? 'Share' : '分享', false);
+      var share = btn(ui('分享', 'Share'), false);
       if (navigator.share && navigator.canShare) {
         share.onclick = function () {
           canvas.toBlob(function (blob) {
@@ -405,7 +408,7 @@
           }, 'image/jpeg', 0.9);
         };
       } else { share.style.display = 'none'; }
-      var close = btn(String(data.lang || '').indexOf('en') === 0 ? 'Close' : '关闭', false);
+      var close = btn(ui('关闭', 'Close'), false);
       close.onclick = function () { wrap.remove(); };
       wrap.addEventListener('click', function (e) { if (e.target === wrap) wrap.remove(); });
       row.appendChild(save); row.appendChild(keep); row.appendChild(share); row.appendChild(close);
@@ -420,7 +423,7 @@
   fab.addEventListener('click', function () {
     ensureQr().then(function (ok) {
       if (ok) openOverlay();
-      else alert(SOCIAL_EN ? 'Network error' : '网络异常，稍后再试');
+      else alert(ui('网络异常，稍后再试', 'Network error'));
     });
   });
 })();

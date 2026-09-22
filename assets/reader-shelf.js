@@ -32,8 +32,8 @@
       : dir + 'index.html';
   }
   function installDetail(win, book) {
-    const doc = win.document, en = doc.documentElement.lang.startsWith('en');
-    const T = (zh, english) => en ? english : zh;
+    const doc = win.document;
+    const T = (zh, english) => language(win) === 'en' ? english : zh;
     const buttons = [...doc.querySelectorAll('[data-shelf-status]')];
     const box = doc.querySelector('[data-shelf-acts]');
     if (!box) return;
@@ -42,7 +42,7 @@
     const retry = doc.createElement('button'); retry.type = 'button'; retry.textContent = T('重试', 'Retry'); retry.hidden = true;
     notice.after(retry);
     const login = doc.createElement('a'); login.textContent = T('登录后加入书架', 'Sign in to add to shelf');
-    login.href = (en ? '/index-en.html' : '/index.html') + '?login=1&returnTo=' + encodeURIComponent(win.location.pathname + win.location.search + win.location.hash);
+    login.href = '/index.html?login=1&returnTo=' + encodeURIComponent(win.location.pathname + win.location.search + win.location.hash);
     login.hidden = true; retry.after(login);
     let current = '', busy = false, last = null, syncUserId;
     function paint() { buttons.forEach(b => { b.classList.toggle('on', b.dataset.shelfStatus === current); b.setAttribute('aria-pressed', String(b.dataset.shelfStatus === current)); b.disabled = busy; }); }

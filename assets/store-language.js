@@ -2,7 +2,22 @@ window.EvoronStoreLanguagePairs=[["设置","Settings"],["全部分类","All cate
 'use strict';
 /* global window, document, MutationObserver */
 (function () {
+  if (window.__evoronStoreLanguageInstalled) return;
+  window.__evoronStoreLanguageInstalled = true;
   const pairs = [...window.EvoronStoreLanguagePairs, ...Object.entries({
+    'EVORON AI电子书城': 'EVORON AI Library',
+    '内容简介': 'About this book', '展开简介': 'Read more', '收起简介': 'Show less',
+    '收起目录': 'Show fewer chapters', '热门划线': 'Popular highlights',
+    '精彩点评': 'Top reviews', 'AI 编辑点评': 'AI editorial review',
+    '读完这本书，写下你的点评 →': 'Finish the book to add yours →',
+    '+ 想读': '+ Want to read', '这本书怎么样？': 'Rate this book:',
+    '👍 推荐': '👍 Recommend', '😐 一般': '😐 So-so', '👎 不行': '👎 Not for me',
+    '已记录 ✓': 'Saved ✓', '阅读无需登录。': 'You can read without signing in.',
+    '登录后加入书架': 'Sign in to add to shelf', '重试': 'Retry',
+    '正在保存…': 'Saving…', '已保存': 'Saved',
+    '书架暂时不可用，未更改原状态。': 'Shelf unavailable. Your previous state is unchanged.',
+    '时间线': 'Timeline', '人物与地名表': 'People & places',
+    '还没有读者评分——读完这本书的人可以在末章打分。': 'No reader ratings yet — finish the book to be the first.',
     '设置': 'Settings', '通用设置': 'General settings', '我的主页': 'My page',
     '账号与邮箱': 'Account & email', '账号安全': 'Security', '积分与购买记录': 'Credits & orders',
     '联系支持': 'Contact support', '退出登录': 'Sign out', '登录 / 注册': 'Sign in / Register',
@@ -22,15 +37,31 @@ window.EvoronStoreLanguagePairs=[["设置","Settings"],["全部分类","All cate
   const forward = new Map(pairs.map(([a, b]) => [a.trim(), b.trim()]));
   const reverse = new Map(pairs.map(([a, b]) => [b.trim(), a.trim()]));
   const originals = new WeakMap();
-  const surfaces = '.topbar,.m-tabbar,.sec-head,.search-head,.home-tabs,.toolbar,.discovery-filters,.sortseg,.board header,.theme-group h4,.shelf-more,.reco-line,.readers-badge,.cover-hover .start-btn,.shelf-tabs,.shelf-filters,.card .acts,.page-head,.account-overview nav,.book-controls,.stat-cell span,.catalog-head,.store-account-entry,.category-cloud,.catbar,.hot,.foot-brand,.footer [data-store-about],.store-welcome-reopen,[data-continue-label],[data-continue-progress]';
+  const detailSurfaces = ',.book-main .meta,.reader-rating-empty,.rr-count,.rr-notes,.hl-item small';
+  const surfaces = '.sitebar,.description h2,.editor-review h2,.hot-lines h2,.hot-reviews h2,.rv-more,.disclosure-toggle,.book-topics,.chapter-row>span:first-child,.social-stats,.topbar,.m-tabbar,.sec-head,.search-head,.home-tabs,.toolbar,.discovery-filters,.sortseg,.board header,.theme-group h4,.shelf-more,.reco-line,.readers-badge,.cover-hover .start-btn,.shelf-tabs,.shelf-filters,.card .acts,.page-head,.account-overview nav,.book-controls,.stat-cell span,.catalog-head,.store-account-entry,.category-cloud,.catbar,.hot,.foot-brand,.footer [data-store-about],.store-welcome-reopen,[data-continue-label],[data-continue-progress]';
   const excluded = '[translate="no"],textarea,[contenteditable],.book-card h2,.card-author,.cover-art,.book-main h1,.subtitle,.quote-text,.nb-quote,.nb-text';
   let language = window.EvoronLanguage.state().language;
   function translate(node, key, value) {
+    if (!value.trim()) return value;
     const record = originals.get(node) || {};
     const previous = record[key];
     const source = previous?.output === value ? previous.source : value;
     const chinese = (reverse.get(source.trim()) || source.trim()).replace(/^(?:At ch\.|Chapter) (\d+) · (\d+)%$/, '读到第 $1 章 · $2%').replace(/^Continue chapter (\d+)$/, '继续第 $1 章');
     let translated = language === 'en' ? forward.get(chinese) || chinese : chinese;
+    const patterns = [
+      [/^第 (\d+) 章$/, 'Chapter $1', /^Chapter (\d+)$/, '第 $1 章'],
+      [/^共 (\d+) 章$/, '$1 chapters', /^(\d+) chapters$/, '共 $1 章'],
+      [/^查看全部 (\d+) 章$/, 'View all $1 chapters', /^View all (\d+) chapters$/, '查看全部 $1 章'],
+      [/^第 (\d+) 章$/, 'Ch. $1', /^Ch\. (\d+)$/, '第 $1 章'],
+      [/^([\d,]+) 字$/, '$1 characters', /^([\d,]+) characters$/, '$1 字'],
+      [/^([\d,]+) 词$/, '$1 words', /^([\d,]+) words$/, '$1 词'],
+      [/^读者想法 (\d+) 条$/, 'Reader thoughts: $1', /^Reader thoughts: (\d+)$/, '读者想法 $1 条'],
+    ];
+    for (const [zh, enText, en, zhText] of patterns) translated = translated.replace(language === 'en' ? zh : en, language === 'en' ? enText : zhText);
+    if (language === 'en') translated = translated.replace(/(\d+) 人点评/g, '$1 ratings').replace('样本较少', 'few ratings so far').replace(/(\d+) 人划线/g, '$1 readers underlined').replace(/(\d+) 赞/g, '$1 likes');
+    else translated = translated.replace(/(\d+) ratings/g, '$1 人点评').replace('few ratings so far', '样本较少').replace(/(\d+) readers? underlined/g, '$1 人划线').replace(/(\d+) likes/g, '$1 赞');
+    if (chinese === '人在读' || chinese === 'reading now') translated = language === 'en' ? 'reading now' : '人在读';
+    if (chinese === '人想读' || chinese === 'want to read') translated = language === 'en' ? 'want to read' : '人想读';
     if (language === 'zh') translated = translated.replace(/^Showing (\d+) of (\d+) books$/, '共 $2 部作品 · 已显示 $1 部');
     if (language === 'en') translated = translated.replace(/^共 (\d+) 部作品 · 已显示 (\d+) 部$/, 'Showing $2 of $1 books');
     if (language === 'en') translated = translated.replace(/^读到第 (\d+) 章 · (\d+)%$/, 'Chapter $1 · $2%');
@@ -44,14 +75,14 @@ window.EvoronStoreLanguagePairs=[["设置","Settings"],["全部分类","All cate
     const parent = node.nodeType === 1 ? node : node.parentElement;
     if (!parent || parent.closest(excluded) || /^(SCRIPT|STYLE|TEXTAREA)$/.test(parent.tagName)) return;
     if (node.nodeType === 3) {
-      if (parent.closest(surfaces + ',.browse-controls')) {
+      if (parent.closest(surfaces + detailSurfaces + ',.browse-controls')) {
         const text = translate(node, 'text', node.nodeValue);
         if (text !== node.nodeValue) node.nodeValue = text;
       }
       return;
     }
     if (node.nodeType !== 1) return;
-    if (node.closest(surfaces + ',.browse-controls')) for (const key of ['title', 'aria-label', 'placeholder']) {
+    if (node.closest(surfaces + detailSurfaces + ',.browse-controls')) for (const key of ['title', 'aria-label', 'placeholder']) {
       const value = node.getAttribute(key);
       if (!value) continue;
       const text = translate(node, key, value);

@@ -1,3 +1,176 @@
+'use strict';
+
+(function (root) {
+  const valid = value => ['system', 'zh', 'en'].includes(value);
+  function resolve(preference, navigator) {
+    if (preference === 'zh' || preference === 'en') return preference;
+    return /^zh(?:-|$)/i.test(navigator?.languages?.[0] || navigator?.language || 'en') ? 'zh' : 'en';
+  }
+  function create(win) {
+    let preference = 'system', userId = null, revision = 0, sequence = 0, loaded = false, saving = false;
+    const cookieName = 'evoron_ui_language';
+    const channel = typeof win.BroadcastChannel === 'function' ? new win.BroadcastChannel('evoron-ui-language') : null;
+    function guestPreference() {
+      const match = win.document.cookie.split(';').map(item => item.trim()).find(item => item.startsWith(cookieName + '='));
+      const value = match?.slice(cookieName.length + 1);
+      return valid(value) ? value : 'system';
+    }
+    preference = guestPreference();
+    const state = () => ({ preference, language: resolve(preference, win.navigator), authenticated: Boolean(userId), loaded });
+    let lastAnnounced = JSON.stringify(state());
+    function announce() {
+      const next = JSON.stringify(state());
+      if (next === lastAnnounced) return;
+      lastAnnounced = next;
+      win.dispatchEvent(new win.CustomEvent('evoron:language', { detail: state() }));
+    }
+    async function refresh() {
+      if (saving) return state();
+      const request = ++sequence;
+      const controller = new win.AbortController();
+      const timeout = win.setTimeout(() => controller.abort(), 10000);
+      try {
+        const response = await win.fetch('/api/auth/me', { credentials: 'same-origin', cache: 'no-store', signal: controller.signal });
+        if (!response.ok) throw Error('Account unavailable');
+        const data = await response.json();
+        if (!data.ok) throw Error('Account unavailable');
+        if (request !== sequence) return state();
+        userId = data.user?.mode !== 'local-owner' ? data.user?.id || null : null;
+        revision = data.user?.uiLanguageRevision || 0;
+        preference = userId && valid(data.user.uiLanguage) ? data.user.uiLanguage : guestPreference();
+        loaded = true; announce(); return state();
+      } finally { win.clearTimeout(timeout); }
+    }
+    async function save(value) {
+      if (!valid(value) || saving) throw Error('Invalid preference');
+      // Re-read identity before writing: never persist an unknown account's preference as a guest.
+      await refresh();
+      if (saving) throw Error('Preference save in progress');
+      saving = true; sequence++;
+      try {
+        if (userId) {
+          const controller = new win.AbortController();
+          const timeout = win.setTimeout(() => controller.abort(), 10000);
+          try {
+            const response = await win.fetch('/api/auth/ui-language', {
+              method: 'POST', credentials: 'same-origin', cache: 'no-store', signal: controller.signal,
+              headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ language: value, revision }),
+            });
+            const data = await response.json();
+            if (!response.ok || !data.ok) throw Object.assign(Error(data.error || 'Preference not saved'), { code: data.code });
+            revision = data.revision;
+          } finally { win.clearTimeout(timeout); }
+        } else {
+          const shared = ['evoronai.com', 'write.evoronai.com'].includes(win.location.hostname);
+          win.document.cookie = cookieName + '=' + value + '; Path=/; Max-Age=31536000; SameSite=Lax' + (shared ? '; Domain=evoronai.com' : '') + (win.location.protocol === 'https:' ? '; Secure' : '');
+          if (guestPreference() !== value) throw Error('Browser preference storage unavailable');
+        }
+        preference = value; announce(); channel?.postMessage('changed'); return state();
+      } finally { saving = false; }
+    }
+    win.addEventListener('languagechange', announce);
+    if (channel) channel.onmessage = event => { if (event.data === 'changed') refresh().catch(() => {}); };
+    win.addEventListener('focus', () => refresh().catch(() => {}));
+    win.document.addEventListener('visibilitychange', () => {
+      if (win.document.visibilityState === 'visible') refresh().catch(() => {});
+    });
+    return { state, refresh, save };
+  }
+  if (typeof module !== 'undefined' && module.exports) module.exports = { resolve, create };
+  else {
+    if (root.EvoronLanguage) return;
+    root.EvoronLanguage = create(root);
+    root.EvoronLanguage.refresh().catch(() => {});
+  }
+})(typeof window === 'undefined' ? globalThis : window);
+
+'use strict';
+/* global window, document, MutationObserver */
+
+(function () {
+  if (window.EvoronReaderLanguage) return;
+  const pairs = new Map();
+  const originals = new WeakMap();
+  const surfaces = '.crumbs>:first-child,.crumbs>[aria-current],.chapter-no,[data-reader-ui],.reader-bar,.chapter-drawer,.settings,.reader-floating,.chapter-nav,.page-indicator,.big-next,.idea-sheet,.review-box,.reader-sync-status,.reader-edition';
+  const protectedContent = '.reader-book,.chapter-link span:last-child,.reader-location,.idea-item .txt,.idea-item .who,.idea-quote,.bm-quote,script,style';
+  const language = () => window.EvoronLanguage.state().language;
+  function text(zh, en) {
+    pairs.set(zh, [zh, en]); pairs.set(en, [zh, en]);
+    return language() === 'en' ? en : zh;
+  }
+  function translate(value) {
+    if (!value.trim()) return value;
+    const pair = pairs.get(value.trim());
+    if (pair) return value.replace(value.trim(), pair[language() === 'en' ? 1 : 0]);
+    if (value.includes(' · ')) return value.split(' · ').map(part => {
+      const entry = pairs.get(part.trim());
+      return entry ? part.replace(part.trim(), entry[language() === 'en' ? 1 : 0]) : part;
+    }).join(' · ');
+    return value;
+  }
+  function apply(node, key, value, write) {
+    const record = originals.get(node) || {};
+    const previous = record[key];
+    const source = previous?.output === value ? previous.source : value;
+    const output = translate(source);
+    record[key] = { source, output }; originals.set(node, record);
+    if (output !== value) write(output);
+  }
+  function walk(node, detached = false) {
+    const parent = node.nodeType === 1 ? node : node.parentElement;
+    if (!parent || parent.closest(protectedContent)) return;
+    if (!detached && !parent.closest(surfaces)) {
+      if (node.nodeType === 1) for (const child of node.childNodes) walk(child);
+      return;
+    }
+    if (node.nodeType === 3) {
+      if (!parent.closest('textarea,[contenteditable]')) apply(node, 'text', node.nodeValue, value => { node.nodeValue = value; });
+      return;
+    }
+    if (node.nodeType !== 1) return;
+    for (const key of ['title', 'aria-label', 'placeholder']) {
+      const value = node.getAttribute(key);
+      if (value) apply(node, key, value, output => node.setAttribute(key, output));
+    }
+    for (const child of node.childNodes) walk(child, detached);
+  }
+  function paint() {
+    walk(document.body);
+    document.querySelectorAll(surfaces).forEach(node => node.setAttribute('lang', language() === 'en' ? 'en' : 'zh-CN'));
+  }
+  window.EvoronReaderLanguage = {
+    text,
+    markup(html, translations) {
+      translations.forEach(pair => text(pair[0], pair[1]));
+      const container = document.createElement('div'); container.innerHTML = html;
+      walk(container, true);
+      return container.innerHTML;
+    },
+  };
+  [['关闭', 'Close'], ['封面', 'Cover'], ['书城', 'Bookstore'], ['书库', 'Library'], ['目录', 'Contents'],
+    ['阅读设置', 'Reading settings'], ['想法', 'Thoughts'], ['书籍版本', 'Book edition'],
+    ['已同步', 'Synced'], ['同步中', 'Syncing'], ['待同步', 'Pending sync'], ['同步离线', 'Sync offline'],
+    ['请重新登录', 'Sign in again'], ['刷新后同步', 'Refresh to sync'], ['同步已暂停', 'Sync paused'],
+    ['存储不可用', 'Storage unavailable'], ['选择阅读位置', 'Choose position'],
+    ['本机与云端阅读位置不同，请选择。', 'Your local and cloud positions differ.'],
+    ['使用本机位置', 'Use local position'], ['使用云端位置', 'Use cloud position'],
+    ['暂时无法读取原进度，不会自动覆盖。', 'Your saved position could not be read. It will not be overwritten.'],
+    ['书籍版本已变化，原阅读进度将单独保留。', 'This edition has changed. Your previous position is kept separately.'],
+    ['暂时无法备份原进度。请释放浏览器存储后重试；仍可阅读，原进度不会覆盖。', 'Could not save the previous position. Free some browser storage and try again; reading remains available.'],
+    ['接续原文位置', 'Resume at matching text'], ['继续旧版', 'Read previous edition'],
+    ['从本章开始', 'Start this chapter'], ['本书有新版本。', 'A newer edition is available.'],
+    ['查看新版', 'View new edition'], ['打开新版', 'Open new edition'], ['留在当前版本', 'Stay here']
+  ].forEach(pair => text(pair[0], pair[1]));
+  window.addEventListener('evoron:language', paint);
+  window.requestAnimationFrame?.(paint);
+  new MutationObserver(changes => {
+    for (const change of changes) {
+      if (change.type === 'childList') change.addedNodes.forEach(node => walk(node));
+      else walk(change.target);
+    }
+  }).observe(document.body, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['title', 'aria-label', 'placeholder'] });
+})();
+
 /* HistoryAI 公开站阅读器 —— 站点级共享资产（v4.60.0）
  *
  * 为什么是共享资产：此前阅读器外壳（顶栏、目录抽屉、设置面板、返回书库键）
@@ -93,6 +266,7 @@
   if (!el) return;
   var data = {};
   try { data = JSON.parse(el.textContent || '{}'); } catch (e) { return; }
+  var T = window.EvoronReaderLanguage.text;
   var L = data.links || {};
   var root = document.documentElement;
   var isChapter = data.kind === 'chapter';
@@ -110,23 +284,20 @@
 
   // ---- 外壳：进度条 / 顶栏 / 目录抽屉 / 设置面板 ----
   var titles = Array.isArray(data.chapterTitles) ? data.chapterTitles : [];
-  var chapterLabel = data.lang === 'en' ? 'Chapter ' + (Number(data.chapter) + 1) : '第 ' + (Number(data.chapter) + 1) + ' 章';
+  var chapterLabel = T('第 ' + (Number(data.chapter) + 1) + ' 章', 'Chapter ' + (Number(data.chapter) + 1));
   // v4.91 阅读器外壳英文（按书语言）：中文串零改动，EN 书渲染前过词表
   var SHELL_EN = [[' · 当前第 ',' · reading ch. '],['返回书库','Back to library'],['书库','Library'],['目录','Contents'],['阅读设置','Reading settings'],['翻页','Paging'],['滚动','Scroll'],['主题','Theme'],['纸色','Paper color'],['纸张','Paper'],['白色','White'],['羊皮纸','Sepia'],['护眼绿','Green'],['夜间','Night'],['字号','Font size'],['字体','Typeface'],['衬线','Serif'],['宋体','Serif'],['楷体','Kai'],['黑体','Sans'],['行距','Leading'],['紧凑','Tight'],['舒适','Cozy'],['宽松','Loose'],['版心','Width'],['窄','Narrow'],['中','Medium'],['宽','Wide'],['上一章','Previous'],['下一章','Next chapter'],[' 章',' chapters'],[' 页',' pages'],['设置','Settings']];
   function loc(html) {
-    if (data.lang !== 'en') return html;
-    var out = String(html);
-    for (var li = 0; li < SHELL_EN.length; li++) out = out.split(SHELL_EN[li][0]).join(SHELL_EN[li][1]);
-    return out;
+    return window.EvoronReaderLanguage.markup(html, SHELL_EN);
   }
   var homeHref = L.home || '';
   var detailHref = L.detail || '';
 
   var progress = h('div', 'read-progress', '<span></span>');
   var tools = ''
-    + '<button class="icon-button text" type="button" data-toggle-settings title="字体与排版">字体</button>'
-    + (detailHref ? '<a class="icon-button text reader-secondary" href="' + esc(detailHref) + '" title="回到本书封面">封面</a>' : '')
-    + loc('<a class="icon-button text" href="/shelf.html" title="我的书架">书架</a>')
+    + '<button class="icon-button text" type="button" data-toggle-settings title="' + T('字体与排版', 'Typography') + '">' + T('字体', 'Typeface') + '</button>'
+    + (detailHref ? '<a class="icon-button text reader-secondary" href="' + esc(detailHref) + '" title="' + T('回到本书封面', 'Book details') + '">' + T('封面', 'Cover') + '</a>' : '')
+    + '<a class="icon-button text" href="/shelf.html" title="' + T('我的书架', 'My shelf') + '">' + T('书架', 'Shelf') + '</a>'
     + (homeHref ? loc('<a class="icon-button text reader-secondary" href="' + esc(homeHref) + '" title="返回书库">书库</a>') : '');
   var bar = h('header', 'reader-bar', '<div class="reader-bar-inner">'
     + '<div class="reader-bar-left">'
@@ -143,9 +314,8 @@
       return '<a class="chapter-link' + (i === Number(data.chapter) ? ' active' : '') + '" href="' + esc(chapterHref(i)) + '">'
         + '<span>' + String(i + 1).padStart(2, '0') + '</span><span>' + esc(t) + '</span></a>';
     }).join('');
-    drawer = h('aside', 'chapter-drawer', loc('<div class="drawer-head"><strong>目录</strong><span>' + titles.length + ' 章'
-      + (isChapter ? ' · 当前第 ' + (Number(data.chapter) + 1) + ' 章' : '') + '</span></div><nav class="chapter-list">' + rows + '</nav>'
-      + '<div class="bm-head">' + (data.lang === 'en' ? 'BOOKMARKS' : '书签') + '</div><div class="bm-list" data-bm-list><p class="bm-empty">' + (data.lang === 'en' ? 'Select text and tap Bookmark to save one.' : '选中正文点「书签」即可保存。') + '</p></div>'));
+    drawer = h('aside', 'chapter-drawer', loc('<div class="drawer-head"><strong>目录</strong><span>' + T(titles.length + ' 章' + (isChapter ? ' · 当前第 ' + (Number(data.chapter) + 1) + ' 章' : ''), titles.length + ' chapters' + (isChapter ? ' · reading ch. ' + (Number(data.chapter) + 1) : '')) + '</span></div><nav class="chapter-list">' + rows + '</nav>'
+      + '<div class="bm-head">' + T('书签', 'BOOKMARKS') + '</div><div class="bm-list" data-bm-list><p class="bm-empty">' + T('选中正文点「书签」即可保存。', 'Select text and tap Bookmark to save one.') + '</p></div>'));
   }
 
   var settings = h('section', 'settings', loc('<strong>阅读设置</strong>'
@@ -462,7 +632,7 @@
         fetch('/api/reader/shelf', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ bookId: data.bookId, title: data.title || '', status: 'finished', syncUserId: readerSync.userId() }) }).then(function (r) { return r.json(); }).then(function (result) {
           if (!result.ok) { window.__haiMarkedFinished = false; return; }
           var mk = document.querySelector('[data-mark-finished]');
-          if (mk) { mk.textContent = data.lang === 'en' ? '✓ Finished' : '✓ 已读完'; mk.disabled = true; }
+          if (mk) { mk.textContent = T('✓ 已读完', '✓ Finished'); mk.disabled = true; }
         }).catch(function () {});
       }
     }
@@ -476,14 +646,22 @@
   })();
   function remainText(r) {
     var mins = Math.ceil(chapterChars.n * (1 - Math.max(0, Math.min(1, r))) / chapterChars.per);
-    if (mins <= 0) return chapterChars.en ? 'chapter end' : '本章读完';
-    return chapterChars.en ? ('~' + mins + ' min left') : ('本章剩约 ' + mins + ' 分钟');
+    if (mins <= 0) return T('本章读完', 'chapter end');
+    return T('本章剩约 ' + mins + ' 分钟', '~' + mins + ' min left');
   }
   function indicator() {
-    var el2 = document.querySelector('.page-indicator'); if (el2) el2.textContent = (page + 1) + ' / ' + total + (data.lang === 'en' ? ' pages · ' : ' 页 · ') + remainText(total > 1 ? page / (total - 1) : 1);
+    var el2 = document.querySelector('.page-indicator'); if (el2) el2.textContent = T((page + 1) + ' / ' + total + ' 页', (page + 1) + ' / ' + total + ' pages') + ' · ' + remainText(total > 1 ? page / (total - 1) : 1);
     var loc = document.querySelector('.reader-location');
-    if (loc && state.mode === 'page') loc.textContent = chapterLabel + ' · ' + (data.chapterTitle || '') + ' · ' + (page + 1) + '/' + total + (data.lang === 'en' ? ' pages' : ' 页');
+    if (loc && state.mode === 'page') loc.textContent = chapterLabel + ' · ' + (data.chapterTitle || '') + ' · ' + T((page + 1) + '/' + total + ' 页', (page + 1) + '/' + total + ' pages');
   }
+  window.addEventListener('evoron:language', function () {
+    chapterLabel = T('第 ' + (Number(data.chapter) + 1) + ' 章', 'Chapter ' + (Number(data.chapter) + 1));
+    if (state.mode === 'page') indicator();
+    else {
+      var label = document.querySelector('.reader-location');
+      if (label) label.textContent = chapterLabel + ' · ' + (data.chapterTitle || '') + ' · ' + remainText(scrollY / Math.max(1, document.documentElement.scrollHeight - innerHeight));
+    }
+  });
   function layout(keepRatio) {
     var anchor = keepRatio ? state.anchor : null;
     root.dataset.rmode = state.mode;
@@ -529,9 +707,9 @@
     go(n);
   }
   (function floatingReaderDock() {
-    var prevText = data.lang === 'en' ? 'Prev' : '上一页';
-    var nextText = data.lang === 'en' ? 'Next' : '下一页';
-    var dock = h('div', 'reader-floating', '<button type="button" data-reader-prev>' + prevText + '</button><input type="range" data-reader-slider min="0" max="0" step="1" value="0" aria-label="' + (data.lang === 'en' ? 'Chapter progress' : '章内进度') + '"><span data-reader-pct>0%</span><button type="button" data-reader-next>' + nextText + '</button>');
+    var prevText = T('上一页', 'Prev');
+    var nextText = T('下一页', 'Next');
+    var dock = h('div', 'reader-floating', '<button type="button" data-reader-prev>' + prevText + '</button><input type="range" data-reader-slider min="0" max="0" step="1" value="0" aria-label="' + T('章内进度', 'Chapter progress') + '"><span data-reader-pct>0%</span><button type="button" data-reader-next>' + nextText + '</button>');
     document.body.appendChild(dock);
     dock.querySelector('[data-reader-prev]').addEventListener('click', function (e) { e.stopPropagation(); flip(-1); });
     dock.querySelector('[data-reader-next]').addEventListener('click', function (e) { e.stopPropagation(); flip(1); });
@@ -763,7 +941,7 @@
   };
 })({
     document: document, window: window, settings: settings, drawer: drawer, mask: mask,
-    english: data.lang === 'en',
+    english: window.EvoronLanguage.state().language === 'en',
     onOpenDrawer: function () { defer(restoreTocScroll); defer(loadBookmarkList); },
     onCloseDrawer: saveTocScroll
   });
@@ -785,7 +963,7 @@
         rows2.slice(0, 30).forEach(function (r) {
           var b = document.createElement('button');
           b.type = 'button'; b.className = 'bm-row';
-          b.innerHTML = '<b>' + (data.lang === 'en' ? 'Ch.' : '第') + (Number(r.chapter) + 1) + (data.lang === 'en' ? '' : '章') + '</b>' + String(r.quote || '').slice(0, 42).replace(/[<>&]/g, '');
+          b.innerHTML = '<b>' + T('第' + (Number(r.chapter) + 1) + '章', 'Ch.' + (Number(r.chapter) + 1)) + '</b><span class="bm-quote">' + String(r.quote || '').slice(0, 42).replace(/[<>&]/g, '') + '</span>';
           b.addEventListener('click', function () {
             if (Number(r.chapter) === Number(data.chapter)) { readerPanels.close(function () { jumpToPara(Number(r.para) || 0); }); return; }
             try { sessionStorage.setItem('historyai.reader.bmjump', JSON.stringify({ bookId: data.bookId, chapter: Number(r.chapter), para: Number(r.para) || 0 })); } catch (eJ) {}
@@ -901,14 +1079,13 @@
     if (!content) return;
     var a = document.createElement('a');
     a.className = 'big-next';
-    if (nextHref) { a.href = nextHref; a.textContent = (titles[Number(data.chapter) + 1] ? '下一章 · ' + titles[Number(data.chapter) + 1] : '下一章') + ' →'; }
-    else { a.href = (L.home || '../../../../index.html'); a.textContent = data.lang === 'en' ? '🎉 The end · Back to library' : '🎉 全书完 · 返回书库'; }
+    if (nextHref) { a.href = nextHref; var nextTitle = titles[Number(data.chapter) + 1] ? ' · ' + titles[Number(data.chapter) + 1] : ''; a.textContent = T('下一章' + nextTitle + ' →', 'Next chapter' + nextTitle + ' →'); }
+    else { a.href = (L.home || '../../../../index.html'); a.textContent = T('🎉 全书完 · 返回书库', '🎉 The end · Back to library'); }
     content.appendChild(a);
   })();
   // ── v4.97 书的社交层（对标微信读书）：想法气泡/底部面板/末章打分书评 ──
   (function socialLayer() {
-    var EN2 = data.lang === 'en';
-    function T(zh, en) { return EN2 ? en : zh; }
+    function T(zh, en) { return window.EvoronReaderLanguage.text(zh, en); }
     var myUid = null, loggedIn2 = false;
     fetch('/api/auth/me', { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (d) {
       if (d && d.ok && d.user) {
@@ -1290,7 +1467,7 @@
       var secs = Number(localStorage.getItem(tk)) || 0;
       if (secs >= 60 && drawer) {
         var headSpan = drawer.querySelector('.drawer-head span');
-        if (headSpan) headSpan.textContent += (data.lang === 'en' ? ' · read ' + Math.round(secs / 60) + ' min' : ' · 已读 ' + Math.round(secs / 60) + ' 分钟');
+        if (headSpan) headSpan.textContent += ' · ' + T('已读 ' + Math.round(secs / 60) + ' 分钟', 'read ' + Math.round(secs / 60) + ' min');
       }
     } catch (e2) { /* 隐私模式 */ }
   })();
@@ -1309,7 +1486,7 @@
   }
   (function installReaderEditionNotice({ document, window, data, policy, edition, location, releaseId, onAccept, onResize }) {
   var bookBase = (data && data.links && data.links.bookBase != null) ? data.links.bookBase : '../../'; // v6.64.0 稳定页在 books/<id>/ 下
-  const en = data.lang === 'en';
+  const en = window.EvoronLanguage ? window.EvoronLanguage.state().language === 'en' : data.lang === 'en';
   const paper = document.querySelector('.reader-paper');
   let notice;
   function show(text) {
@@ -1383,7 +1560,7 @@
     }
   });
   readerSync = (function installReaderSync({ window, document, data, initialPosition, canSync, getPosition, onRemote, onResize, createSync }) {
-  const en = data.lang === 'en';
+  const en = window.EvoronLanguage ? window.EvoronLanguage.state().language === 'en' : data.lang === 'en';
   let banner = null, status = null, controller;
   const indicator = document.createElement('span'); indicator.className = 'reader-sync-status';
   indicator.setAttribute('aria-live', 'polite');
