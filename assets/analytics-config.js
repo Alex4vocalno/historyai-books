@@ -1,1 +1,1 @@
-window.EvoronAnalyticsConfig={"enabled":false,"measurementId":"G-T9PGH7DZFV"};
+window.EvoronAnalyticsConfig={"enabled":true,"measurementId":"G-T9PGH7DZFV"};
