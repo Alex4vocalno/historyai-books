@@ -1,0 +1,15 @@
+.detail-reading-bar{display:none}
+@media(max-width:720px){
+  body:has(.detail-reading-bar){padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+  .detail-reading-bar:not([hidden]){position:fixed;inset:auto 0 0;z-index:50;display:grid;grid-template-columns:minmax(72px,1fr) minmax(0,2fr);gap:12px;padding:12px 20px calc(12px + env(safe-area-inset-bottom));border-top:1px solid var(--line);background:#fff}
+  .detail-reading-bar a{display:flex;align-items:center;justify-content:center;min-height:48px;min-width:0;padding:10px 12px;border-radius:6px;color:var(--ink);font:600 .9375rem/1.5 var(--sans);text-align:center;overflow-wrap:anywhere}
+  .detail-reading-bar .detail-reading-action{background:var(--green-dark);color:#fff}
+  .detail-reading-bar a:focus-visible{outline:2px solid var(--green-dark);outline-offset:3px}
+  .cover-dialog-open .detail-reading-bar{display:none}
+  .catalog{scroll-margin-top:20px}
+}
+@media(max-width:380px){
+  .book-hero{grid-template-columns:88px minmax(0,1fr);column-gap:16px}
+  .book-main h1{font-size:1.25rem}
+  .detail-reading-bar:not([hidden]){padding-inline:12px;gap:8px}
+}

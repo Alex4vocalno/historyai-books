@@ -113,6 +113,7 @@
     '对话': 'Conversation', '质量结果': 'Quality results',
     '查看质量结果': 'View quality results', '查看发布历史': 'View publication history', '刷新结果': 'Refresh results',
     '正在读取结果…': 'Loading results…', '读取失败，请重试；现有书稿和发布记录未改变。': 'Could not load results. Retry; your manuscript and releases are unchanged.',
+    '刷新失败，仍显示上次读取的结果。请重试。': 'Refresh failed. The previously loaded results are still shown. Please retry.',
     '编辑评分': 'Editorial score', '规则评分': 'Rule score', '暂无评分': 'No score available',
     '评测进行中': 'Evaluation in progress', '上次评测未完成': 'Last evaluation did not complete', '已有评测记录': 'Evaluation on record', '尚无评测结果': 'No evaluation results yet',
     '报告就绪判定': 'Report readiness', '尚未就绪': 'Not ready', '暂无判定': 'No verdict yet', '记录时间': 'Recorded at',

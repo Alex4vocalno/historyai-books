@@ -5,6 +5,35 @@
   const doc = window.document;
   const coverLink = doc.querySelector('[data-cover-zoom]');
   const T = (zh, en) => (window.EvoronLanguage?.state().language || doc.documentElement.lang).startsWith('en') ? en : zh;
+  const primary = doc.querySelector('[data-continue-reading]');
+  const contents = doc.querySelector('[data-catalog]');
+  if (primary && contents && window.IntersectionObserver) {
+    const style = doc.createElement('link'); style.rel = 'stylesheet';
+    const script = new URL(doc.currentScript.src);
+    style.href = new URL('book-detail-navigation.css' + script.search, script).href;
+    doc.head.append(style);
+    const bar = doc.createElement('nav'); bar.className = 'detail-reading-bar'; bar.hidden = true;
+    const toc = doc.createElement('a'), read = doc.createElement('a');
+    contents.id = contents.id || 'book-catalog'; toc.href = '#' + contents.id;
+    read.className = 'detail-reading-action';
+    function sync() {
+      bar.setAttribute('aria-label', T('阅读导航', 'Reading navigation'));
+      toc.textContent = T('目录', 'Contents');
+      read.href = primary.href; read.textContent = primary.textContent;
+    }
+    toc.addEventListener('click', event => {
+      event.preventDefault();
+      const heading = contents.querySelector('h2');
+      if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
+      contents.scrollIntoView({ block: 'start' });
+    });
+    new window.MutationObserver(sync).observe(primary, { childList: true, characterData: true, subtree: true, attributes: true, attributeFilter: ['href'] });
+    window.addEventListener('evoron:language', sync);
+    bar.append(toc, read); doc.body.append(bar); sync();
+    new window.IntersectionObserver(entries => {
+      bar.hidden = entries[0].isIntersecting || entries[0].boundingClientRect.bottom > 0;
+    }).observe(primary);
+  }
   if (coverLink) {
     const thumbnail = coverLink.querySelector('img');
     const notice = doc.createElement('p');

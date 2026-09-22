@@ -91,8 +91,22 @@ function drawRail(){
 var reroll=document.querySelector('[data-reroll]');if(reroll)reroll.addEventListener('click',drawRail);
 collectLocalSignals();
 buildRecs();drawRail();
+function localProgress(){
+  var rows=[];
+  try{for(var i=0;i<localStorage.length;i++){
+    var key=localStorage.key(i);if(!key||key.indexOf('historyai.reader.')!==0)continue;
+    try{var row=JSON.parse(localStorage.getItem(key)||'null');if(row&&typeof row==='object')rows.push(Object.assign({},row,{bookId:key.slice('historyai.reader.'.length)}))}catch(e){}
+  }}catch(e){}
+  return rows;
+}
+function drawContinue(cloud,userId){
+  var box=document.querySelector('.continue-box');if(!box)return;
+  var recent=EvoronDiscovery.recentBooks(POOL,localProgress(),cloud||[],userId||'');
+  box.hidden=!recent.length;box.querySelector('.continue-strip').innerHTML=recent.map(continueCard).join('');
+}
+drawContinue();
 fetch('/api/reader/shelf',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){
-  if(d&&d.ok){var cloud=(d.rows||[]).filter(function(row){return row.status==='reading'&&BOOKS[row.bookId]&&row.releaseId===BOOKS[row.bookId].release}).slice(0,4);if(cloud.length){var box=document.querySelector('.continue-box');box.hidden=false;box.querySelector('.continue-strip').innerHTML=cloud.map(function(row){var b=BOOKS[row.bookId];return continueCard({b:b,ch:row.chapter,href:EvoronDiscovery.continueHref(b,row)})}).join('')}}
+  if(d&&d.ok)drawContinue(d.rows||[],d.syncUserId);
   if(d&&d.ok)(d.rows||[]).forEach(function(row){KNOWN[row.bookId]=1;
     for(var j=0;j<POOL.length;j++)if(POOL[j].p===row.bookId){FAVCAT[POOL[j].g]=(FAVCAT[POOL[j].g]||0)+2;break}});
 }).catch(function(){}).then(function(){buildRecs();drawRail()});
@@ -102,11 +116,4 @@ if(location.hash.indexOf('#myshelf')===0){
   location.replace('shelf.html?lang='+(document.documentElement.lang.indexOf('en')===0?'en':'zh')+(status?'&status='+status:''));
 }
 
-try{
-  var recent=[];
-  for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!k||k.indexOf('historyai.reader.')!==0)continue;var pid=k.slice('historyai.reader.'.length);var b=BOOKS[pid];if(!b)continue;var st={};try{st=JSON.parse(localStorage.getItem(k)||'{}')}catch(e){}var ch=Number(st.chapter);if(!isFinite(ch))continue;recent.push({pid:pid,b:b,ch:ch,at:Date.parse(st.updatedAt||0)||0,href:EvoronDiscovery.continueHref(b,st)})}
-  recent.sort(function(a,b){return b.at-a.at});recent=recent.slice(0,6);
-  if(recent.length){var box=document.querySelector('.continue-box');box.hidden=false;var strip=box.querySelector('.continue-strip');
-    strip.innerHTML=recent.slice(0,4).map(continueCard).join('')}
-}catch(e){}
 })();

@@ -38,6 +38,24 @@
     if (progress.releaseId && progress.releaseId !== book.release) return base;
     return base.replace(/(?:read|ch-\d+)\.html(?:[?#].*)?$/, 'ch-' + (chapter + 1) + '.html');
   }
+  function recentBooks(pool, local, cloud = [], userId = '') {
+    const books = new Map(pool.map(book => [book.p, book]));
+    const rows = new Map();
+    const time = row => Date.parse(row.updatedAt || '') || 0;
+    function add(row) {
+      const book = row && books.get(row.bookId);
+      if (!book || !Number.isInteger(row.chapter) || row.chapter < 0 || row.chapter >= book.n
+        || (row.releaseId && row.releaseId !== book.release)) return;
+      const previous = rows.get(row.bookId);
+      if (!previous || time(row) >= time(previous)) rows.set(row.bookId, row);
+    }
+    // Local progress belongs to its reader, not everyone using the same browser.
+    local.filter(row => row && (row.readerUserId || '') === userId).forEach(add);
+    cloud.forEach(row => { if (row?.status === 'reading') add(row); });
+    cloud.forEach(row => { if (row && row.status !== 'reading') rows.delete(row.bookId); });
+    return [...rows.values()].sort((a, b) => time(b) - time(a) || a.bookId.localeCompare(b.bookId)).slice(0, 4)
+      .map(row => ({ b: books.get(row.bookId), ch: row.chapter, href: continueHref(books.get(row.bookId), row) }));
+  }
   function install(win, pool, paint) {
     const doc = win.document;
     const input = doc.querySelector('[data-shelf-search]');
@@ -133,5 +151,5 @@
     restore();
     return { remember };
   }
-  return { normalized, searchBooks, parseState, continueHref, install };
+  return { normalized, searchBooks, parseState, continueHref, recentBooks, install };
 });
