@@ -55,6 +55,7 @@
         if (!body) syncUserId = data.syncUserId;
         const row = body ? null : (data.rows || []).find(r => r.bookId === book.projectId);
         current = body ? data.status || '' : row?.status || '';
+        if (body) win.EvoronAnalytics?.track('shelf_saved');
         notice.textContent = body ? T('已保存', 'Saved') : '';
         if (row && row.releaseId === book.releaseId && row.status !== 'wishlist') {
           const button = doc.querySelector('[data-continue-reading]');

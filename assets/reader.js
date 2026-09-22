@@ -446,6 +446,7 @@
   function trackOnce(ev) { if (!trackSent[ev]) { trackSent[ev] = 1; track(ev); } }
   function setBar(r) {
     var s = document.querySelector('.read-progress span'); if (s) s.style.width = (Math.max(0, Math.min(1, r)) * 100) + '%';
+    if (r >= 0.99) window.EvoronAnalytics?.once('chapter_end_reached');
     var pctNode = document.querySelector('[data-reader-pct]');
     if (pctNode) pctNode.textContent = Math.round(Math.max(0, Math.min(1, r)) * 100) + '%';
     if (r >= 0.5) trackOnce('half');
