@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260922200019745_5e754a5613",
+  "projectId": "proj-mucolf37dr1",
+  "manuscriptVersionId": "mv_aed2e4bb963c7841",
+  "contentHash": "aed2e4bb963c7841cf133743ace650d0ffed777dbb66411cb68953f41506260b",
+  "title": "大清邮政：驿站如何让位于邮筒（1878–1911）",
+  "subtitle": "晚清通信体系的更迭与日常",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1878年，一枚大龙邮票在天津、上海等五处口岸悄然流通，开启了晚清通信体系的剧变。此后三十余年，新式邮政沿着海关、铁路与轮船铺设网络，以统一的邮资和汇兑规则，逐步蚕食古老驿站与民信局的生存空间。这不仅是制度的替换，更是无数人饭碗与习惯的重塑：驿马停蹄，信局改换门庭，穿制服的邮差走上街角。从总税务司的一纸通令到邮传部接管印信，本书透过账本、告示与邮路细节，还原一个庞大帝国通信权转移的具象过程，呈现近代化如何落入具体的邮局、邮件与人的命运之中。",
+  "category": "中国史",
+  "tags": [
+    "晚清邮政",
+    "制度史",
+    "大龙邮票",
+    "驿站",
+    "民信局",
+    "近代化"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 40,
+    "units": 340085,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-22T19:55:32.273Z"
+  },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-22T20:00:19.758Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_ff05c142df29ceba",
+      "createdAt": "2026-09-22T19:55:20.970Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_checked",
+        "articleDensity": "not_applicable",
+        "judged": 0
+      },
+      "hardDefects": 0
+    }
+  },
+  "editorReview": {
+    "text": "本书以1878至1911年大清邮政的建立为脉络，着力呈现近代通信体系替换的具象过程。其扎实处，在于对制度替代复杂性的把握——驿站裁撤中被遗忘的站丁、民信局从抵制到收编的渐进过程，皆非线性叙事所能涵盖。尤见功力的是，作者将‘邮路沿着海关、轮船、铁路三条既有基础设施生长’这一中层机制，有效支撑起宏观判断，使档案故事化的写法不致空泛。叙事中邮票、账本等物象的运用亦颇具深度。然作为一部以硬档案为立身之本的著作，文中存在数处‘地方官府的案卷留下了痕迹’等模糊出处，在实证层面构成明显缺憾；此外，部分关键史实在不同章节中近乎原文复述，削弱了全书叙事递进的张力。整体而言，这是一项制度史研究的扎实探索，若能在史料溯源与文本精炼上再作锤炼，当更为完善。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-22T19:59:41.962Z",
+    "textless": false,
+    "profileId": "chronicle-panorama",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "chronicle-panorama"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "总税务司署的一纸通令",
+      "units": 8140
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "五处试办的抉择",
+      "units": 7735
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "一枚邮票的诞生",
+      "units": 8810
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "邮路沿着什么铺开",
+      "units": 7836
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "驿站体系的门槛",
+      "units": 8988
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "民信局的联合与分化",
+      "units": 9799
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "邮资表上的算术",
+      "units": 8425
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "穿制服的邮差",
+      "units": 7897
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "电报与信函的分工",
+      "units": 8144
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "汇兑单上的银两",
+      "units": 8423
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "邮局门口的告示",
+      "units": 7484
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "账本里的邮政",
+      "units": 9921
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "从五处到一张网",
+      "units": 9686
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "邮差的招募与训练",
+      "units": 9964
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "客邮局的门槛",
+      "units": 8284
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "邮路伸向内河",
+      "units": 7091
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "铁路带来的新班期",
+      "units": 9773
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "邮权归属的伏笔",
+      "units": 8894
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "督抚衙门里的邮件事",
+      "units": 10049
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "商号账房的新习惯",
+      "units": 7388
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "穿制服的人从哪来",
+      "units": 7323
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "报纸走邮路",
+      "units": 8123
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "关外邮差的路",
+      "units": 8565
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "一张网的模样",
+      "units": 8831
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "一纸奏准之后",
+      "units": 7849
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "乱局中的一只邮袋",
+      "units": 7130
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "最后一班驿马",
+      "units": 9413
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "信局改换门庭",
+      "units": 7192
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "邮传部接过印信",
+      "units": 8670
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "邮差名册的最后一页",
+      "units": 7930
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "邮路尽头的空白",
+      "units": 8935
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "铁轨与邮袋之间",
+      "units": 9548
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "印信换了主人",
+      "units": 9965
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "邮路伸向县城",
+      "units": 7804
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "最后一家信局",
+      "units": 7065
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "邮筒立起来之后",
+      "units": 8478
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "邮筒站上街角之后",
+      "units": 7839
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "驿站地名还在",
+      "units": 7197
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "通信权归谁所有",
+      "units": 9575
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "一枚邮票的余波",
+      "units": 9922
+    }
+  ],
+  "topics": {
+    "entities": [
+      "大清邮政",
+      "驿站",
+      "北京",
+      "烟台",
+      "牛庄",
+      "邮路"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "总税务司署的一纸通令",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "五处试办的抉择",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "一枚邮票的诞生",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "邮路沿着什么铺开",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "驿站体系的门槛",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "民信局的联合与分化",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "邮资表上的算术",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "穿制服的邮差",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "电报与信函的分工",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "汇兑单上的银两",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "邮局门口的告示",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "账本里的邮政",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "从五处到一张网",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "邮差的招募与训练",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "客邮局的门槛",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "邮路伸向内河",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "铁路带来的新班期",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "邮权归属的伏笔",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "督抚衙门里的邮件事",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "商号账房的新习惯",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "穿制服的人从哪来",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "报纸走邮路",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "关外邮差的路",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "一张网的模样",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "一纸奏准之后",
+        "asOfYear": null
+      },
+      {
+        "n": 26,
+        "title": "乱局中的一只邮袋",
+        "asOfYear": null
+      },
+      {
+        "n": 27,
+        "title": "最后一班驿马",
+        "asOfYear": null
+      },
+      {
+        "n": 28,
+        "title": "信局改换门庭",
+        "asOfYear": null
+      },
+      {
+        "n": 29,
+        "title": "邮传部接过印信",
+        "asOfYear": null
+      },
+      {
+        "n": 30,
+        "title": "邮差名册的最后一页",
+        "asOfYear": null
+      },
+      {
+        "n": 31,
+        "title": "邮路尽头的空白",
+        "asOfYear": null
+      },
+      {
+        "n": 32,
+        "title": "铁轨与邮袋之间",
+        "asOfYear": null
+      },
+      {
+        "n": 33,
+        "title": "印信换了主人",
+        "asOfYear": null
+      },
+      {
+        "n": 34,
+        "title": "邮路伸向县城",
+        "asOfYear": null
+      },
+      {
+        "n": 35,
+        "title": "最后一家信局",
+        "asOfYear": null
+      },
+      {
+        "n": 36,
+        "title": "邮筒立起来之后",
+        "asOfYear": null
+      },
+      {
+        "n": 37,
+        "title": "邮筒站上街角之后",
+        "asOfYear": null
+      },
+      {
+        "n": 38,
+        "title": "驿站地名还在",
+        "asOfYear": null
+      },
+      {
+        "n": 39,
+        "title": "通信权归谁所有",
+        "asOfYear": null
+      },
+      {
+        "n": 40,
+        "title": "一枚邮票的余波",
+        "asOfYear": null
+      }
+    ]
+  },
+  "illustrations": 2,
+  "publishedAt": "2026-09-22T20:00:19.760Z"
+}
