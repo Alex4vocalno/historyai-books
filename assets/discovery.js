@@ -106,6 +106,7 @@
       });
     }
     function results() { doc.querySelector('[data-all-books]')?.scrollIntoView({ block: 'start' }); }
+    doc.querySelector('a[href="#all-books"]')?.addEventListener('click', e => { e.preventDefault(); results(); });
     input?.addEventListener('compositionstart', () => { composing = true; });
     input?.addEventListener('compositionend', () => { composing = false; change({ q: input.value }); });
     input?.addEventListener('input', () => { if (!composing) change({ q: input.value }); });

@@ -23,7 +23,7 @@ function bookCard(b){
 window.EvoronDiscovery.install(window,POOL,function(visible,total,state){
   var EN=document.documentElement.lang.indexOf('en')===0;
   grid.innerHTML=visible.length?visible.map(bookCard).join(''):'<p class="empty">'+(EN?'No matching books. Try fewer keywords or clear the filters.':'没有匹配的作品，可以减少关键词或清除筛选。')+'</p>';
-  var meta=document.querySelector('[data-result-meta]');if(meta)meta.textContent=visible.length+' / '+total+(EN?' books':' 部作品');
+  var meta=document.querySelector('[data-result-meta]');if(meta)meta.textContent=EN?'Showing '+visible.length+' of '+total+' books':'共 '+total+' 部作品 · 已显示 '+visible.length+' 部';
   if(moreBox){moreBox.hidden=visible.length>=total;var remain=moreBox.querySelector('[data-shelf-remaining]');if(remain)remain.textContent=Math.max(0,total-visible.length)}
   var searching=Boolean(state.q||state.category||state.kind||state.language);
   document.body.classList.toggle('searching',searching);

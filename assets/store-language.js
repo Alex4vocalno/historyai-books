@@ -17,6 +17,7 @@ window.EvoronStoreLanguagePairs=[["设置","Settings"],["全部分类","All cate
     '编辑评分': 'Editorial score', '编辑评分，满分 10 分': 'Editorial score, out of 10',
     '正在读取书架…': 'Loading shelf…', '重新读取账号': 'Retry account',
     '认识 EvoronAI': 'Meet EvoronAI', '继续阅读': 'Continue reading',
+    '发现下一本好书': 'Discover your next read', '浏览书库': 'Browse books',
   })];
   const forward = new Map(pairs.map(([a, b]) => [a.trim(), b.trim()]));
   const reverse = new Map(pairs.map(([a, b]) => [b.trim(), a.trim()]));
@@ -30,6 +31,8 @@ window.EvoronStoreLanguagePairs=[["设置","Settings"],["全部分类","All cate
     const source = previous?.output === value ? previous.source : value;
     const chinese = (reverse.get(source.trim()) || source.trim()).replace(/^(?:At ch\.|Chapter) (\d+) · (\d+)%$/, '读到第 $1 章 · $2%').replace(/^Continue chapter (\d+)$/, '继续第 $1 章');
     let translated = language === 'en' ? forward.get(chinese) || chinese : chinese;
+    if (language === 'zh') translated = translated.replace(/^Showing (\d+) of (\d+) books$/, '共 $2 部作品 · 已显示 $1 部');
+    if (language === 'en') translated = translated.replace(/^共 (\d+) 部作品 · 已显示 (\d+) 部$/, 'Showing $2 of $1 books');
     if (language === 'en') translated = translated.replace(/^读到第 (\d+) 章 · (\d+)%$/, 'Chapter $1 · $2%');
     if (language === 'en') translated = translated.replace(/^继续第 (\d+) 章$/, 'Continue chapter $1');
     if (language === 'en') translated = translated.replace(/^([\d,]+\s*\/\s*[\d,]+) 部作品$/, '$1 books').replace(/^([\d,]+) 本书籍$/, '$1 books').replace(/^([\d,]+) 人在读$/, '$1 reading now').replace(/^([\d,]+) 人读过$/, '$1 readers').replace(/^查看全部 · ([\d,]+) 个分类$/, 'View all · $1 categories');
@@ -41,14 +44,14 @@ window.EvoronStoreLanguagePairs=[["设置","Settings"],["全部分类","All cate
     const parent = node.nodeType === 1 ? node : node.parentElement;
     if (!parent || parent.closest(excluded) || /^(SCRIPT|STYLE|TEXTAREA)$/.test(parent.tagName)) return;
     if (node.nodeType === 3) {
-      if (parent.closest(surfaces)) {
+      if (parent.closest(surfaces + ',.browse-controls')) {
         const text = translate(node, 'text', node.nodeValue);
         if (text !== node.nodeValue) node.nodeValue = text;
       }
       return;
     }
     if (node.nodeType !== 1) return;
-    if (node.closest(surfaces)) for (const key of ['title', 'aria-label', 'placeholder']) {
+    if (node.closest(surfaces + ',.browse-controls')) for (const key of ['title', 'aria-label', 'placeholder']) {
       const value = node.getAttribute(key);
       if (!value) continue;
       const text = translate(node, key, value);
