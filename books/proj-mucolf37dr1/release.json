@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "rel_20260922200019745_5e754a5613",
+  "releaseId": "rel_20260923073316082_d4ed6f15de",
   "projectId": "proj-mucolf37dr1",
   "manuscriptVersionId": "mv_aed2e4bb963c7841",
   "contentHash": "aed2e4bb963c7841cf133743ace650d0ffed777dbb66411cb68953f41506260b",
@@ -35,7 +35,7 @@
   },
   "integrity": {
     "schemaVersion": 1,
-    "checkedAt": "2026-09-22T20:00:19.758Z",
+    "checkedAt": "2026-09-23T07:33:16.180Z",
     "structure": "pass",
     "structureChecks": [
       "duplicate_chapter_title",
@@ -66,12 +66,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-c1fe51ef8e99.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-23T01:57:43.240Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -530,7 +530,6 @@
     ]
   },
   "illustrations": 2,
-  "publishedAt": "2026-09-22T20:00:19.760Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-23T07:32:54.611Z"
+  "publishedAt": "2026-09-23T07:33:16.183Z",
+  "formFamily": "narrative"
 }
