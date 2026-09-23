@@ -6,18 +6,43 @@
   else root.EvoronDiscovery = factory();
 })(typeof window === 'undefined' ? globalThis : window, function () {
   function normalized(value) { return String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/\s+/gu, ' ').trim(); }
+  const aliases = [
+    ['女神异闻录', 'persona'], ['人工智能', 'artificial intelligence', 'ai'],
+    ['心理学', 'psychology'], ['荣格', 'carl jung', 'jung'],
+    ['电子游戏', 'video games', 'videogames'], ['科幻', 'science fiction', 'sci-fi'],
+    ['第二次世界大战', '二战', 'world war ii', 'wwii'],
+  ];
+  const aliasPattern = new RegExp(aliases.flat().sort((a, b) => b.length - a.length).join('|'), 'gu');
+  function searchText(value) {
+    return normalized(value).replace(aliasPattern, (match, offset, text) => {
+      if (/^[a-z]/.test(match) && (/[a-z0-9]/.test(text[offset - 1] || '') || /[a-z0-9]/.test(text[offset + match.length] || ''))) return match;
+      return aliases.find(group => group.includes(match))[0];
+    });
+  }
+  function relevance(book, query, terms) {
+    const title = normalized(book.t), author = normalized(book.a);
+    if (title === query) return 600;
+    if (title.includes(query)) return 500;
+    if (terms.every(term => searchText(title).includes(term))) return 400;
+    if (author === query) return 350;
+    if (author.includes(query)) return 300;
+    if (terms.every(term => searchText(author).includes(term))) return 250;
+    if (terms.every(term => searchText([book.g, book.categoryEn].join(' ')).includes(term))) return 200;
+    return 0;
+  }
   function categoryKey(value, pool) {
     if (!value || value === 'all') return '';
     const book = pool.find(b => [b.categoryKey, b.categoryEn, b.g].includes(value));
     return book ? book.categoryKey || book.g : '';
   }
   function searchBooks(pool, state) {
-    const terms = normalized(state.q).split(' ').filter(Boolean);
-    return pool.filter(b => terms.every(term => normalized(b.h).includes(term))
+    const query = normalized(state.q);
+    const terms = searchText(query).split(' ').filter(Boolean);
+    return pool.filter(b => terms.every(term => searchText([b.t, b.a, b.g, b.categoryEn, b.h].join(' ')).includes(term))
       && (!state.category || (b.categoryKey || b.g) === state.category)
       && (!state.kind || b.kind === state.kind)
       && (!state.language || b.lang === state.language))
-      .sort((a, b) => (state.sort === 'score' ? b.s - a.s : state.sort === 'chapters' ? b.n - a.n : 0)
+      .sort((a, b) => (state.sort === 'score' ? b.s - a.s : state.sort === 'chapters' ? b.n - a.n : query ? relevance(b, query, terms) - relevance(a, query, terms) : 0)
         || b.at - a.at || a.i - b.i);
   }
   function parseState(search, pool) {
@@ -86,6 +111,13 @@
           ? Array.from(b.options).find(option => categoryKey(option.value, pool) === state.category)?.value || ''
           : state[b.dataset.discoveryFilter];
       });
+      const filterSummary = doc.querySelector('[data-filter-summary]');
+      if (filterSummary) filterSummary.replaceChildren(...Array.from(doc.querySelectorAll('[data-discovery-filter]'))
+        .filter(select => select.value).map(select => {
+          const label = doc.createElement('span');
+          label.textContent = select.selectedOptions[0]?.textContent || '';
+          return label;
+        }));
       doc.querySelectorAll('[data-sort]').forEach(b => {
         b.classList.toggle('on', b.dataset.sort === state.sort); b.setAttribute('aria-pressed', String(b.dataset.sort === state.sort));
       });
@@ -138,6 +170,10 @@
     doc.querySelector('[data-search-clear]')?.addEventListener('click', () => {
       change({ q: '', category: '', kind: '', language: '' }); input?.focus({ preventScroll: true });
     });
+    doc.addEventListener('click', e => {
+      if (e.target.closest('[data-search-relax]')) change({ category: '', kind: '', language: '' });
+      if (e.target.closest('[data-search-edit]')) input?.focus({ preventScroll: true });
+    });
     const more = doc.querySelector('[data-shelf-more]');
     function loadMore() { if (restoring || more?.hidden) return; visible += 24; render(); }
     more?.addEventListener('click', loadMore);
@@ -147,6 +183,7 @@
     win.addEventListener('pagehide', () => remember());
     doc.addEventListener('click', e => { const link = e.target.closest('a'); if (link) remember(link); });
     win.addEventListener('popstate', restore);
+    win.addEventListener('evoron:language', () => win.queueMicrotask(render));
     win.addEventListener('pageshow', e => { if (e.persisted) restore(); });
     restore();
     return { remember };

@@ -111,7 +111,7 @@
     const doc = win.document;
     const panel = doc.createElement('section');
     panel.className = 'analytics-consent'; panel.setAttribute('role', 'region'); panel.setAttribute('aria-labelledby', 'analytics-heading');
-    panel.innerHTML = '<h2 id="analytics-heading"></h2><p></p><a data-policy></a><div class="analytics-actions"><button type="button" data-deny></button><button type="button" data-accept></button></div>';
+    panel.innerHTML = '<h2 id="analytics-heading"></h2><p></p><details><summary data-more></summary><p data-details></p><a data-policy></a></details><div class="analytics-actions"><button type="button" data-deny></button><button type="button" data-accept></button></div>';
     const entry = doc.createElement('button');
     entry.type = 'button'; entry.className = 'analytics-settings';
     const footer = doc.querySelector('#rail,.settings,footer,.footer,.commerce-links');
@@ -120,8 +120,10 @@
     let returnFocus = null;
     function paint() {
       const en = api.language() === 'en';
-      panel.querySelector('h2').textContent = en ? 'Your privacy, your choice' : '由你决定是否分享使用统计';
-      panel.querySelector('p').textContent = en ? 'With your permission, Google Analytics helps us understand how people use our library and studio. We do not send your manuscripts, conversations or email. Declining will not affect reading or writing. You can withdraw at any time in Analytics settings.' : '经你同意，我们才使用 Google Analytics 了解书城与工作台的使用情况。不会发送你的书稿、对话或邮箱。拒绝不影响阅读和写作，可随时在“统计设置”中撤回。';
+      panel.querySelector('h2').textContent = en ? 'Your privacy, your choice' : '使用统计，由你决定';
+      panel.querySelector('p').textContent = en ? 'May we use Google Analytics to improve the library and studio? You can decline and use both as usual.' : '是否允许使用 Google Analytics 改善书城与工作台？拒绝不影响阅读和写作。';
+      panel.querySelector('[data-more]').textContent = en ? 'Data & privacy details' : '数据与隐私详情';
+      panel.querySelector('[data-details]').textContent = en ? 'We do not send your manuscripts, conversations or email. You can withdraw at any time in Analytics settings.' : '不会发送你的书稿、对话或邮箱。可随时在“统计设置”中撤回同意。';
       panel.querySelector('[data-policy]').textContent = en ? 'Analytics & privacy' : '统计与隐私说明';
       panel.querySelector('[data-policy]').href = '/analytics-privacy' + (en ? '-en' : '') + '.html';
       panel.querySelector('[data-deny]').textContent = en ? 'Essential only' : '仅必要功能';

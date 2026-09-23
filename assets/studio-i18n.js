@@ -109,6 +109,8 @@
     '评分概览读取失败，仍可查看已保存的编辑建议。': 'Could not load the score overview. Saved editorial suggestions are still available.',
     '书稿': 'Manuscript', '尚无章节': 'No chapters yet', '章节目录': 'Chapter contents',
     '成书信息': 'Book details', '查看书稿': 'View manuscript',
+    '阅读工作稿': 'Read working manuscript', '下载与导出': 'Download & export',
+    '发布前预览': 'Preview publication', '更新前预览': 'Preview update',
     '可阅读': 'Ready to read', '尚未保存': 'Not saved yet',
     '对话': 'Conversation', '质量结果': 'Quality results',
     '查看质量结果': 'View quality results', '查看发布历史': 'View publication history', '刷新结果': 'Refresh results',
@@ -173,6 +175,7 @@
     '未收到确认，请先核对结果，勿立即重复提交。': 'No confirmation received. Check the result before submitting again.',
     // ── 中栏 / 对话 ──
     '设定 Agent': 'Setup Agent', '书稿规划模式': 'Book planning', '项目控制台': 'Project console', '虚构作品控制台': 'Fiction console', '非虚构作品控制台': 'Nonfiction console',
+    '写作助手': 'Writing partner', '创作设定': 'Book planning',
     '写作任务与状态': 'Tasks & status', '你': 'You', '项目助手': 'Assistant', '系统': 'System', '流水线': 'Pipeline', '引擎': 'Engine', '发布': 'Publish',
     'Enter 发送 · Shift + Enter 换行': 'Enter to send · Shift+Enter for newline', '发送': 'Send',
     '在下方输入你想写的书，剩下的交给写作引擎': 'Describe the book you want below — the engine does the rest',

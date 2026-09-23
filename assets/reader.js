@@ -1559,12 +1559,25 @@
       if (readerSync) readerSync.connect();
     }
   });
-  readerSync = (function installReaderSync({ window, document, data, initialPosition, canSync, getPosition, onRemote, onResize, createSync }) {
+  readerSync = (function installReaderSync({ window, document, data, initialPosition, canSync, getPosition, onRemote, onResize, createSync, loginUrl }) {
   const en = window.EvoronLanguage ? window.EvoronLanguage.state().language === 'en' : data.lang === 'en';
   let banner = null, status = null, controller;
   const indicator = document.createElement('span'); indicator.className = 'reader-sync-status';
   indicator.setAttribute('aria-live', 'polite');
-  document.querySelector('.reader-tools')?.prepend(indicator);
+  const recovery = document.createElement('button'); recovery.type = 'button';
+  recovery.className = 'reader-sync-recover'; recovery.hidden = true;
+  recovery.dataset.syncRecovery = '';
+  let recoveryStatus = '', recovering = false;
+  recovery.addEventListener('click', async event => {
+    event.stopPropagation();
+    if (recovering) return;
+    if (recoveryStatus === 'account') { window.location.assign(loginUrl()); return; }
+    if (recoveryStatus === 'upgrade') { window.location.reload(); return; }
+    recovering = true; recovery.disabled = true;
+    try { await controller.connect(); }
+    finally { recovering = false; recovery.disabled = false; }
+  });
+  document.querySelector('.reader-tools')?.prepend(indicator, recovery);
   function request(url, options = {}) {
     const abort = new window.AbortController();
     const timeout = window.setTimeout(() => abort.abort(), 10000);
@@ -1599,6 +1612,13 @@
         : { saved: '已同步', syncing: '同步中', pending: '待同步', offline: '同步离线', ready: '', anonymous: '', account: '请重新登录',
           upgrade: '刷新后同步', error: '同步已暂停', storage: '存储不可用', conflict: '选择阅读位置' };
       indicator.textContent = labels[value.status] || '';
+      recoveryStatus = value.status;
+      const recoveryLabels = en ? { offline: 'Retry sync', account: 'Sign in', upgrade: 'Refresh', error: 'Retry sync', storage: 'Retry sync' }
+        : { offline: '重试同步', account: '重新登录', upgrade: '刷新', error: '重试同步', storage: '重试同步' };
+      recovery.hidden = !recoveryLabels[value.status];
+      recovery.textContent = recoveryLabels[value.status] || '';
+      recovery.setAttribute('aria-label', [labels[value.status], recoveryLabels[value.status]].filter(Boolean).join(' · '));
+      indicator.hidden = !recovery.hidden;
       const signature = JSON.stringify([value.status, value.local, value.remote]);
       if (status === signature) return;
       status = signature;
@@ -1639,6 +1659,7 @@
   let uid = '', revision = null, ready = false, busy = false, conflict = null;
   let pending = null, desired = null, timer, epoch = 0, retry = 2000, stopped = false, applying = false;
   let connectedPosition = initialPosition, connectedOwner = initialOwner;
+  let hadAccount = Boolean(initialOwner);
   const prefix = () => 'historyai.reader-sync.' + uid + '.' + bookId + '.';
   const same = (a, b) => {
     if (!a || !b || a.releaseId !== b.releaseId || a.chapter !== b.chapter) return false;
@@ -1744,8 +1765,9 @@
       const account = await transport.account();
       if (token !== epoch) return;
       const nextUid = account?.id || '';
+      if (nextUid) hadAccount = true;
       if (nextUid !== uid) { uid = nextUid; pending = null; desired = null; conflict = null; }
-      if (!uid) { emit('anonymous'); return; }
+      if (!uid) { emit(hadAccount ? 'account' : 'anonymous'); return; }
       const response = await transport.get(bookId);
       if (token !== epoch) return;
       const data = response.body || {};
@@ -1801,6 +1823,21 @@
     isReady: () => Boolean(uid && ready && !conflict && !stopped),
     stop() { ++epoch; cancel(timer); ready = false; } };
 }),
+    loginUrl: function () {
+      var safeReturn = (function safeReturn(value, origin) {
+    try {
+      const url = new URL(value || '/', origin);
+      const trusted = url.origin === origin || ['https://evoronai.com', 'https://write.evoronai.com'].includes(url.origin);
+      if (!trusted || url.username || url.password || !['http:', 'https:'].includes(url.protocol)) return '/';
+      if (/\/login\.html$/.test(url.pathname)) return '/';
+      return url.origin === origin ? url.pathname + url.search + url.hash : url.href;
+    } catch { return '/'; }
+  });
+      return (function loginUrl(returnTo, origin) {
+    const base = origin === 'https://evoronai.com' ? 'https://write.evoronai.com' : origin;
+    return base + '/login.html?returnTo=' + encodeURIComponent(new URL(safeReturn(returnTo, origin), origin).href);
+  })(window.location.href, window.location.origin);
+    },
     onResize: function () {
       var wasApplying = applyingSync; applyingSync = true;
       try { layout(true); } finally { applyingSync = wasApplying; }

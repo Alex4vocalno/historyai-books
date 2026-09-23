@@ -92,7 +92,12 @@ html body.store-home,html body.store-shelf{background:#fff;font-family:var(--san
 .store-home .hot{gap:8px;font:.8125rem/1.5 var(--sans)}
 .store-home .hot button{min-height:44px;border:0;border-radius:6px;background:#f5f7f6;box-shadow:none;font:inherit;padding:8px 12px}
 .store-home .page{padding-top:32px}
-.store-home .browse-controls{padding-bottom:20px;margin-bottom:28px;border-bottom:1px solid var(--line)}
+.store-home .browse-controls{padding-bottom:12px;margin-bottom:20px;border-bottom:1px solid var(--line)}
+.store-home .browse-filters summary{min-height:44px;cursor:pointer;font:.875rem/1.6 var(--sans);padding:10px 0;overflow-wrap:anywhere}
+.store-home .browse-filters summary:focus-visible{outline:2px solid var(--green-dark);outline-offset:3px}
+.store-home [data-filter-summary]{color:var(--muted);margin-left:12px}
+.store-home [data-filter-summary]>span+span::before{content:' · ';white-space:pre}
+.store-home .browse-filters[open] .discovery-filters{padding:12px 0}
 .store-home .browse-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
 .store-home .browse-heading h1{font:650 1.25rem/1.5 var(--sans);letter-spacing:0;margin:0;overflow-wrap:anywhere}
 .store-home .browse-heading a{display:inline-flex;align-items:center;gap:8px;min-height:44px;font:.875rem/1.5 var(--sans);color:var(--green-dark)}
@@ -169,17 +174,34 @@ html .store-home .book-card h2{font:600 1rem/1.5 var(--sans);letter-spacing:0;mi
 .store-shelf .nb-meta{flex-wrap:wrap;align-items:center;font:.8125rem/1.5 var(--sans)}
 .store-shelf .nb-meta button{min-height:44px;padding:8px;font:inherit}
 .store-shelf .nb-stars{letter-spacing:0}
+.store-home .search-empty{grid-column:1/-1;padding:32px 0 16px;min-width:0}
+.store-home .search-empty h4,.store-home .reading-intent h4{font:600 1.125rem/1.5 var(--sans);margin:0 0 8px}
+.store-home .search-empty p,.store-home .reading-intent p{font:400 .9375rem/1.7 var(--sans);color:var(--muted);margin:0}
+.store-home .search-empty-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.store-home .search-empty-actions button{min-height:44px;padding:8px 16px;border:1px solid var(--line);border-radius:6px;background:white;color:var(--ink);font:500 .9375rem/1.5 var(--sans);cursor:pointer}
+.store-home .reading-intent{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;border-top:1px solid var(--line);margin-top:28px;padding:24px 0;overflow-wrap:anywhere}
+.store-home .reading-intent a{display:inline-flex;gap:12px;align-items:center;min-height:44px;color:var(--green-dark);font:600 .9375rem/1.5 var(--sans);text-underline-offset:5px}
 .store-home [hidden],.store-shelf [hidden]{display:none!important}
 .store-home :is(a,button,select):focus-visible,.store-shelf :is(a,button,select):focus-visible{outline:2px solid var(--green-dark);outline-offset:3px}
 .store-shelf button:disabled{opacity:.55;cursor:wait}
 @media(max-width:1000px){.store-home .theme-list{grid-template-columns:1fr}.store-home .theme-group{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 20px}.store-home .theme-group h4{grid-column:1/-1}.store-shelf .grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:720px){
-  .store-home .page,.store-shelf .wrap{padding:24px 20px 60px}
+  .store-home .page,.store-shelf .wrap{padding:16px 20px 60px}
   .store-home .topbar-inner,.store-shelf .topbar-inner{padding:12px 20px}
-  .store-home .hero{padding:20px}
+  .store-home .hero{padding:12px 20px}
+  .store-home .hero-row{flex-wrap:nowrap;gap:8px}
+  .store-home .hero-search{flex:1 1 auto}
+  .store-home .hero-search input{height:44px;padding-left:38px;font-size:.9375rem}
+  .store-home .hero-search .ico-search{left:10px;top:12px;width:20px;height:20px}
+  .store-home .cta-write{flex:0 0 auto;padding:8px 12px;font-size:.8125rem;max-width:36%;white-space:normal}
+  .store-home .cta-write .ico{display:none}
+  .store-home .hot{margin-top:8px}
+  .store-home .hot-label{display:none}
+  .store-home .browse-heading{margin-bottom:0}
   .store-home .cta-write{min-height:44px}
   .store-home .sec{margin-bottom:32px}
-  .store-home .theme-group{display:block}
+  .store-home .theme-list,.store-home .boards{display:grid;grid-auto-flow:column;grid-auto-columns:88%;grid-template-columns:none;overflow-x:auto;gap:20px;scroll-snap-type:x proximity;padding-bottom:12px}
+  .store-home .theme-group,.store-home .board{display:block;scroll-snap-align:start;min-width:0}
   .store-home .theme-list .rk-row{grid-template-columns:56px minmax(0,1fr)}
   .store-home .discovery-filters{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
   .store-home .discovery-filters label:first-child{grid-column:1/-1}
@@ -193,7 +215,7 @@ html .store-home .book-card h2{font:600 1rem/1.5 var(--sans);letter-spacing:0;mi
 @media(prefers-reduced-motion:reduce){.store-home *,.store-shelf *{scroll-behavior:auto!important;transition:none!important}}
 
 </style></head><body class="store-shelf">
-<link rel="stylesheet" href="/assets/store-account.css?v=6.71.10"><script src="/assets/account-language.js?v=6.71.10"></script><script src="/assets/store-language.js?v=6.71.10" defer></script><link rel="stylesheet" href="/assets/analytics-consent.css?v=6.71.10"><script src="/assets/analytics-config.js" defer></script><script src="/assets/analytics-consent.js?v=6.71.10" defer></script><link rel="stylesheet" href="/assets/store-covers.css?v=6.71.10"><script src="/assets/store-covers.js?v=6.71.10" defer></script><script src="/assets/account-links.js?v=6.71.10" defer></script><script src="/assets/store-account.js?v=6.71.10" defer></script><header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html" aria-current="page">我的书架</a><a class="topbar-link" href="/about.html" data-store-about>关于我们</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a><span class="store-account-entry"><a class="store-write" href="https://write.evoronai.com/" data-account-label="write">开始写作</a><a class="store-pricing" href="/pricing.html" data-account-label="pricing">积分方案</a><a href="/account.html?tab=general" data-guest-settings>设置</a><a class="store-login" href="https://write.evoronai.com/login.html" data-store-account>登录 / 注册</a></span></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a class="on" href="/shelf.html" aria-current="page"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script src="/assets/store-tabbar.js?v=6.71.10"></script>
+<link rel="stylesheet" href="/assets/store-account.css?v=6.72.0"><script src="/assets/account-language.js?v=6.72.0"></script><script src="/assets/store-language.js?v=6.72.0" defer></script><link rel="stylesheet" href="/assets/analytics-consent.css?v=6.72.0"><script src="/assets/analytics-config.js" defer></script><script src="/assets/analytics-consent.js?v=6.72.0" defer></script><link rel="stylesheet" href="/assets/store-covers.css?v=6.72.0"><script src="/assets/store-covers.js?v=6.72.0" defer></script><script src="/assets/account-links.js?v=6.72.0" defer></script><script src="/assets/store-account.js?v=6.72.0" defer></script><header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html" aria-current="page">我的书架</a><a class="topbar-link" href="/about.html" data-store-about>关于我们</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a><span class="store-account-entry"><a class="store-write" href="https://write.evoronai.com/" data-account-label="write">开始写作</a><a class="store-pricing" href="/pricing.html" data-account-label="pricing">积分方案</a><a href="/account.html?tab=general" data-guest-settings>设置</a><a class="store-login" href="https://write.evoronai.com/login.html" data-store-account>登录 / 注册</a></span></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a class="on" href="/shelf.html" aria-current="page"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script src="/assets/store-tabbar.js?v=6.72.0"></script>
 <div class="page-head"><h1>我的书架</h1><p class="lede me" id="me"></p></div>
 <div class="wrap">
   <nav class="shelf-tabs" role="tablist" aria-label="书架视图"><button type="button" class="on" id="shelf-books-tab" data-stab="books" role="tab" aria-controls="shelf-books" aria-selected="true">书架</button><button type="button" id="notebook-tab" data-stab="notes" role="tab" aria-controls="notebook" aria-selected="false" tabindex="-1">笔记本</button></nav>
@@ -201,7 +223,7 @@ html .store-home .book-card h2{font:600 1rem/1.5 var(--sans);letter-spacing:0;mi
   <div id="main"><div class="empty">正在打开书架…</div></div></section>
   <section id="notebook" role="tabpanel" aria-labelledby="notebook-tab" hidden></section>
 </div>
-<script src="/assets/reader-shelf.js?v=6.71.10"></script>
+<script src="/assets/reader-shelf.js?v=6.72.0"></script>
 
-<script src="/assets/shelf-page.js?v=6.71.10"></script>
-<script src="/assets/reader-notebook.js?v=6.71.10"></script></body></html>
+<script src="/assets/shelf-page.js?v=6.72.0"></script>
+<script src="/assets/reader-notebook.js?v=6.72.0"></script></body></html>
