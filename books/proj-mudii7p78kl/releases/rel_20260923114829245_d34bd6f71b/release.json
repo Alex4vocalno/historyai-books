@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260923114829245_d34bd6f71b",
+  "projectId": "proj-mudii7p78kl",
+  "manuscriptVersionId": "mv_432b7ad2c25d1a4a",
+  "contentHash": "432b7ad2c25d1a4a8090d712f25100a50a2f36acd7e9a6f8973539387fcc187a",
+  "title": "海原大地震：1920 年冬西北的十二天",
+  "subtitle": "1920年冬西北的十二天",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1920年12月16日夜，甘肃海原8.5级地震撕裂黄土高原，二十余万人殒命。灾难降临后的十二天里，北京政府的加急电报与震区窑洞的坍塌声同时响起。从兰州城里的赈灾账本到教会医院的染血医案，从驿道上艰难跋涉的护赈队到冻土下挣扎求生的农家，三条线索在极寒中交织。没有宏大的悲情渲染，只有电文、收据、口述与查灾册上冰冷的数字。当余震与寒潮合围，旧秩序在废墟上摇晃，生者在绝望中重建栖身之所。这是一部关于灾难、救援与生存的微观实录，在裂度之外，打捞被黄土掩埋的具体的人。",
+  "category": "中国史",
+  "tags": [
+    "海原大地震",
+    "民国史",
+    "灾难纪实",
+    "微观史",
+    "西北社会史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 40,
+    "units": 367848,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-23T11:40:47.363Z"
+  },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-23T11:48:29.256Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_23b77e0085dfd374",
+      "createdAt": "2026-09-23T11:37:27.066Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_checked",
+        "articleDensity": "not_applicable",
+        "judged": 0
+      },
+      "hardDefects": 0
+    }
+  },
+  "editorReview": {
+    "text": "本书以1920年海原大地震为题，通过档案编年实录体，在克制声口中呈现灾难从物质条件到制度惯性的完整因果链。其突出之处在于档案细节的力度：如第十一章对‘衙署半倾’公文的勘辨，编者仅作语境点明，让原始记录自行承载叙事，冷峻中见震撼。但需留意，书中部分高拟真来源如‘马德福页边批注’未绑定可核出处，在实录体中易动摇可信度；跨章人物身份错绑亦系统性存在，或影响阅读连贯。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.svg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-23T11:46:51.166Z",
+    "textless": false,
+    "profileId": "archival-deep",
+    "sourceTextless": true,
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "archival-deep"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "六盘山下的裂缝",
+      "units": 7485
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "电报线上的北洋",
+      "units": 8457
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "窑洞里的十二天",
+      "units": 11316
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "驿道上的消息",
+      "units": 9385
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "兰州城里的账本",
+      "units": 10591
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "传教士的医案",
+      "units": 7154
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "冻土之上的冬夜",
+      "units": 7707
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "县城里的旧秩序",
+      "units": 8870
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "地动从海原起",
+      "units": 10245
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "驿路与电线同断",
+      "units": 8042
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "官署在黑暗里点灯",
+      "units": 7536
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "余震与寒潮合围",
+      "units": 8391
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "查灾册上的村庄",
+      "units": 9497
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "粮窖见底之后",
+      "units": 8915
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "护赈队走夜路",
+      "units": 9422
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "电报房里的数字",
+      "units": 7848
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "赈款出京以后",
+      "units": 7583
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "赈济队抵达塬上",
+      "units": 8449
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "两套账上的粮",
+      "units": 10361
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "粥厂前的长队",
+      "units": 8027
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "掩埋不及的冬天",
+      "units": 8657
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "登记册上的孤儿",
+      "units": 10484
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "冻土上另起窑院",
+      "units": 10282
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "一张收据的归途",
+      "units": 10301
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "粥厂熄火之后",
+      "units": 11964
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "地动解释的谱系",
+      "units": 15860
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "不再挖窑的人家",
+      "units": 8489
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "地权簿上的空白",
+      "units": 8939
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "教堂钟声远去",
+      "units": 11766
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "刻在碑上的地动",
+      "units": 8394
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "从震区到国图",
+      "units": 8193
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "余震未了",
+      "units": 8416
+    },
+    {
+      "idx": 32,
+      "sourceIdx": 32,
+      "title": "震波里的学问",
+      "units": 8387
+    },
+    {
+      "idx": 33,
+      "sourceIdx": 33,
+      "title": "记住与准备",
+      "units": 8396
+    },
+    {
+      "idx": 34,
+      "sourceIdx": 34,
+      "title": "塬上的后来人",
+      "units": 10080
+    },
+    {
+      "idx": 35,
+      "sourceIdx": 35,
+      "title": "十二天之后",
+      "units": 9335
+    },
+    {
+      "idx": 36,
+      "sourceIdx": 36,
+      "title": "底稿上的余烬",
+      "units": 9304
+    },
+    {
+      "idx": 37,
+      "sourceIdx": 37,
+      "title": "裂度之外",
+      "units": 8916
+    },
+    {
+      "idx": 38,
+      "sourceIdx": 38,
+      "title": "十二天之后的事",
+      "units": 8091
+    },
+    {
+      "idx": 39,
+      "sourceIdx": 39,
+      "title": "合上查灾册",
+      "units": 8313
+    }
+  ],
+  "topics": {
+    "entities": [
+      "海原大地震",
+      "1920年冬西北的十二天",
+      "震区县城",
+      "固原",
+      "海原",
+      "账目",
+      "北京政府"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "六盘山下的裂缝",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "电报线上的北洋",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "窑洞里的十二天",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "驿道上的消息",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "兰州城里的账本",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "传教士的医案",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "冻土之上的冬夜",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "县城里的旧秩序",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "地动从海原起",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "驿路与电线同断",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "官署在黑暗里点灯",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "余震与寒潮合围",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "查灾册上的村庄",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "粮窖见底之后",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "护赈队走夜路",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "电报房里的数字",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "赈款出京以后",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "赈济队抵达塬上",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "两套账上的粮",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "粥厂前的长队",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "掩埋不及的冬天",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "登记册上的孤儿",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "冻土上另起窑院",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "一张收据的归途",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "粥厂熄火之后",
+        "asOfYear": null
+      },
+      {
+        "n": 26,
+        "title": "地动解释的谱系",
+        "asOfYear": null
+      },
+      {
+        "n": 27,
+        "title": "不再挖窑的人家",
+        "asOfYear": null
+      },
+      {
+        "n": 28,
+        "title": "地权簿上的空白",
+        "asOfYear": null
+      },
+      {
+        "n": 29,
+        "title": "教堂钟声远去",
+        "asOfYear": null
+      },
+      {
+        "n": 30,
+        "title": "刻在碑上的地动",
+        "asOfYear": null
+      },
+      {
+        "n": 31,
+        "title": "从震区到国图",
+        "asOfYear": null
+      },
+      {
+        "n": 32,
+        "title": "余震未了",
+        "asOfYear": null
+      },
+      {
+        "n": 33,
+        "title": "震波里的学问",
+        "asOfYear": null
+      },
+      {
+        "n": 34,
+        "title": "记住与准备",
+        "asOfYear": null
+      },
+      {
+        "n": 35,
+        "title": "塬上的后来人",
+        "asOfYear": null
+      },
+      {
+        "n": 36,
+        "title": "十二天之后",
+        "asOfYear": null
+      },
+      {
+        "n": 37,
+        "title": "底稿上的余烬",
+        "asOfYear": null
+      },
+      {
+        "n": 38,
+        "title": "裂度之外",
+        "asOfYear": null
+      },
+      {
+        "n": 39,
+        "title": "十二天之后的事",
+        "asOfYear": null
+      },
+      {
+        "n": 40,
+        "title": "合上查灾册",
+        "asOfYear": null
+      }
+    ]
+  },
+  "publishedAt": "2026-09-23T11:48:29.261Z"
+}
