@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260923083510880_ae18d88cad",
+  "projectId": "proj-mtpdshkfle6",
+  "manuscriptVersionId": "mv_df71f91a8a387bc1",
+  "contentHash": "df71f91a8a387bc1dccdd6a2fdd6492213e645943a9e03218b4f7637858ee97b",
+  "title": "咬合",
+  "subtitle": "",
+  "authorDisplayName": "磨墨无文",
+  "description": "两个被时代与亲密关系反复碾磨的中年人，在2025年的酒局后相遇。吴文，从辍学青年到亿万身家的义齿厂创始人，事业的成功并未治愈婚姻的创伤，反而滋生出对情感的贪婪索取。程默，带着寄人篱下与被弃的创伤，在将就的婚姻里以“被需要”填补内心的不稳。他们的关系始于一次合作，燃烧于一场激情，却迅速布满现实利益的尖刺：公司的股权、各自的家庭、道德的羞耻、中年的虚无。这不是救赎，而是暗面共振。当野心与虚荣、贪婪与恐惧紧紧咬合，他们能否挣脱自己亲手复制的痛苦模式？",
+  "category": "小说",
+  "tags": [
+    "中年情感",
+    "现实主义",
+    "商业与人情",
+    "人性暗面",
+    "婚姻困局",
+    "时代切片"
+  ],
+  "language": "zh",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 32,
+    "units": 395914,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-21T01:49:50.833Z"
+  },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-23T08:35:10.887Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_6878a94b53491d1b",
+      "createdAt": "2026-09-22T06:11:13.842Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "checked",
+        "articleDensity": "not_applicable",
+        "judged": 32
+      },
+      "hardDefects": 0
+    }
+  },
+  "editorReview": {
+    "text": "《咬合》在那些完整的章节里，展现了令人印象深刻的现实主义质感。开篇对家庭账单的触感与深夜办公室声场的捕捉，将中年生活的疲惫与压力具象化，营造出强烈的在场感；而股东逼宫时对话的潜台词博弈，精准地传递了人物间的权力关系与各自盘算，声口分明，张力十足。然而，阅读体验被文本质量的严重不稳定所割裂，部分关键章节存在逻辑断裂、段落重复甚至混入非正文指令的硬伤，这直接打断了叙事的节奏与连贯性，让好不容易建立起来的人物弧线与悬念累积频频中断，实在可惜。",
+    "penName": "疏影",
+    "title": "文学编辑",
+    "rating": "编辑意见"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-08T03:23:01.627Z",
+    "textless": false,
+    "profileId": "literary-fiction-premium"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "齿轮的锈迹",
+      "units": 7626
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "首次产出",
+      "units": 13565
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "沉默药瓶",
+      "units": 10447
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "技术升级会议",
+      "units": 11236
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "深夜咖啡馆",
+      "units": 13237
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "深夜协议",
+      "units": 17346
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "深夜的评估与选择",
+      "units": 10917
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "暗流涌动",
+      "units": 15640
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "债务引爆",
+      "units": 15877
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "深夜谈判",
+      "units": 6173
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "收购完成",
+      "units": 11631
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "交割余震",
+      "units": 15357
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "沉默的车间",
+      "units": 13867
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "面对承接",
+      "units": 10310
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "质检报告",
+      "units": 10798
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "深夜抉择",
+      "units": 14038
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "未签字的报告",
+      "units": 14472
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "数据误差的阴影",
+      "units": 14121
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "咬合真相",
+      "units": 12673
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "股东逼宫",
+      "units": 23842
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "扩张受阻",
+      "units": 14237
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "制度升级",
+      "units": 8167
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "删除酌情考虑",
+      "units": 7982
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "制度之重",
+      "units": 10411
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "真相浮现",
+      "units": 12291
+    },
+    {
+      "idx": 25,
+      "sourceIdx": 25,
+      "title": "债务真相",
+      "units": 11630
+    },
+    {
+      "idx": 26,
+      "sourceIdx": 26,
+      "title": "共同体选择",
+      "units": 16827
+    },
+    {
+      "idx": 27,
+      "sourceIdx": 27,
+      "title": "真相的重量",
+      "units": 11240
+    },
+    {
+      "idx": 28,
+      "sourceIdx": 28,
+      "title": "真相与代价",
+      "units": 7762
+    },
+    {
+      "idx": 29,
+      "sourceIdx": 29,
+      "title": "定型的代价",
+      "units": 6018
+    },
+    {
+      "idx": 30,
+      "sourceIdx": 30,
+      "title": "余波未平",
+      "units": 12352
+    },
+    {
+      "idx": 31,
+      "sourceIdx": 31,
+      "title": "定局新生",
+      "units": 13824
+    }
+  ],
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "齿轮的锈迹",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "首次产出",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "沉默药瓶",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "技术升级会议",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "深夜咖啡馆",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "深夜协议",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "深夜的评估与选择",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "暗流涌动",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "债务引爆",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "深夜谈判",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "收购完成",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "交割余震",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "沉默的车间",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "面对承接",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "质检报告",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "深夜抉择",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "未签字的报告",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "数据误差的阴影",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "咬合真相",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "股东逼宫",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "扩张受阻",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "制度升级",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "删除酌情考虑",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "制度之重",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "真相浮现",
+        "asOfYear": null
+      },
+      {
+        "n": 26,
+        "title": "债务真相",
+        "asOfYear": null
+      },
+      {
+        "n": 27,
+        "title": "共同体选择",
+        "asOfYear": null
+      },
+      {
+        "n": 28,
+        "title": "真相的重量",
+        "asOfYear": null
+      },
+      {
+        "n": 29,
+        "title": "真相与代价",
+        "asOfYear": null
+      },
+      {
+        "n": 30,
+        "title": "定型的代价",
+        "asOfYear": null
+      },
+      {
+        "n": 31,
+        "title": "余波未平",
+        "asOfYear": null
+      },
+      {
+        "n": 32,
+        "title": "定局新生",
+        "asOfYear": null
+      }
+    ]
+  },
+  "publishedAt": "2026-09-23T08:35:10.897Z"
+}

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "releaseId": "rel_20260921014957016_55bcfbcc8e",
+  "releaseId": "rel_20260923083510880_ae18d88cad",
   "projectId": "proj-mtpdshkfle6",
-  "manuscriptVersionId": "mv_fe097075514f3175",
-  "contentHash": "fe097075514f3175e7e31b4f5a5d2c9792326fa4efb5f89dd134c0e98a555ca5",
+  "manuscriptVersionId": "mv_df71f91a8a387bc1",
+  "contentHash": "df71f91a8a387bc1dccdd6a2fdd6492213e645943a9e03218b4f7637858ee97b",
   "title": "咬合",
   "subtitle": "",
   "authorDisplayName": "磨墨无文",
@@ -23,7 +23,7 @@
   "visibility": "public",
   "stats": {
     "chapterCount": 32,
-    "units": 396824,
+    "units": 395914,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -33,20 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-21T01:49:50.833Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-23T08:35:10.887Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_6878a94b53491d1b",
+      "createdAt": "2026-09-22T06:11:13.842Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "checked",
+        "articleDensity": "not_applicable",
+        "judged": 32
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "《咬合》最打动人的，是那份扎进工业肌理的在场感：车间里金属粉尘与冷却液的气味、纸张边缘卷起的毛边、橡皮筋老化发粘的触感——这些细节堆叠出一个不容置疑的现实空间，让人物在其中的挣扎显得格外刺痛。程默对公差数据那句“差这0.02毫米，义齿戴上去就会磨出血泡”的执念，精准刻画出技术尊严与生存压力间的撕扯，她的每一次抉择都因这具体的职业身份而有了沉甸甸的逻辑。不过，阅读中偶会遇到文风上的小疙瘩：部分章节省略号密度过高，甚至出现段落重复，这些非自然的文本痕迹会短暂地打断沉浸感；章节之间的接缝也有些松动，上一章留下的钩子有时在下一章开头被悬置，让叙事流在关键处稍有顿挫。但整体而言，这是一部底色厚重、人物扎实的作品，两个中年人在野心与恐惧间的“咬合”关系，被作者以惊人的现实质感托住，读来如目睹一场缓慢而确凿的崩解。",
+    "text": "《咬合》在那些完整的章节里，展现了令人印象深刻的现实主义质感。开篇对家庭账单的触感与深夜办公室声场的捕捉，将中年生活的疲惫与压力具象化，营造出强烈的在场感；而股东逼宫时对话的潜台词博弈，精准地传递了人物间的权力关系与各自盘算，声口分明，张力十足。然而，阅读体验被文本质量的严重不稳定所割裂，部分关键章节存在逻辑断裂、段落重复甚至混入非正文指令的硬伤，这直接打断了叙事的节奏与连贯性，让好不容易建立起来的人物弧线与悬念累积频频中断，实在可惜。",
     "penName": "疏影",
     "title": "文学编辑",
-    "rating": "值得一读"
+    "rating": "编辑意见"
   },
   "cover": {
-    "file": "cover-0241dbc894bd.svg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T06:45:01.659Z",
+    "generatedAt": "2026-09-08T03:23:01.627Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "profileId": "literary-fiction-premium"
   },
   "chapters": [
     {
@@ -143,7 +168,7 @@
       "idx": 15,
       "sourceIdx": 15,
       "title": "深夜抉择",
-      "units": 14948
+      "units": 14038
     },
     {
       "idx": 16,
@@ -409,7 +434,6 @@
       }
     ]
   },
-  "publishedAt": "2026-09-21T01:49:57.019Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-21T06:45:01.674Z"
+  "publishedAt": "2026-09-23T08:35:10.897Z",
+  "formFamily": "narrative"
 }
