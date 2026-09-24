@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919194531261_2ffd28c17a",
   "projectId": "proj-mu8lk0u1b0d",
-  "manuscriptVersionId": "mv_7d0add826f0b751d",
-  "contentHash": "7d0add826f0b751df3c7b22dea9aeaa35747fee3fa4c678dad2460dcd5977a77",
+  "manuscriptVersionId": "mv_24f779b98d221c29",
+  "contentHash": "24f779b98d221c2943f74550132cf8300f6a5f43a90b215e1706b93b8faacd9b",
   "title": "Eleven Miles Out",
   "subtitle": "Robert Stevenson, John Rennie, and the Building of the Bell Rock Lighthouse",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-19T19:43:49.393Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:54:33.060Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_c19e6c7f9eab0144",
+      "createdAt": "2026-09-19T19:41:36.548Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This is a biography that treats engineering as a game of institutional power, and its core argument—that authority is built through narrative control as much as technical skill—is exceptionally well-supported, particularly in its dissection of the professional credit dispute. The book excels at embedding the human cost of power within cold operational details, avoiding sentimentality. However, the reading experience is occasionally disrupted by unmarked chronological jumps between chapters and some repetitive, mechanical phrasing that can momentarily pull the reader out of the immersive histor",
+    "text": "This is a biography that treats engineering as institutional politics with remarkable analytical rigor. Its central argument—that professional authority is constructed through narrative control as much as technical genius—is sustained with formidable documentary evidence, particularly in its precise anatomy of the Stevenson-Rennie credit dispute. The human cost of power is embedded in operational detail, never sentimentalized. However, the reading experience is occasionally disrupted by unmarked chronological jumps between chapters and by prose artifacts—verbatim repeats and a high density of",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-a3d0693c44ea.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:32:33.965Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "portrait-biography"
   },
   "chapters": [
     {
@@ -378,6 +401,6 @@
     ]
   },
   "publishedAt": "2026-09-19T19:45:31.269Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-21T01:32:33.975Z"
+  "rerenderedAt": "2026-09-24T00:54:33.061Z",
+  "formFamily": "narrative"
 }

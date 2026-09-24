@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu8lk0u1b0d",
+    "projectId": "proj-mu8lk0u1b0d",
+    "releaseId": "rel_20260919194531261_2ffd28c17a",
+    "title": "Eleven Miles Out",
+    "subtitle": "Robert Stevenson, John Rennie, and the Building of the Bell Rock Lighthouse",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "lighthouse history",
+      "Scottish engineering",
+      "Robert Stevenson",
+      "maritime history",
+      "Bell Rock",
+      "世界史"
+    ],
+    "description": "Eleven miles off the Scottish coast, a reef lies submerged for twenty hours a day. In the early nineteenth century, raising a granite tower on this treacherous foundation seemed impossible. Robert Stevenson had only brief summer tides to set interlocking stones cut without mortar in an Arbroath workyard. His men lived first on a moored ship, then in a precarious wooden beacon perched above the waves. When storms broke their boats loose in September 1807, thirty-two workers faced disaster on the exposed rock. Drawing on Stevenson’s 1824 narrative, Board minutes, and workmen’s records, this history reconstructs four grueling seasons of construction culminating in the lamp’s lighting in 1811. Beyond the engineering feat lies a bitter contest over credit between Stevenson and consulting engineer John Rennie, preserved here in their own correspondence. A story of human endurance against the North Sea, where precision masonry met professional rivalry to create a landmark that still stands.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-19T19:43:49.393Z"
+    },
+    "coverUrl": "books/proj-mu8lk0u1b0d/releases/rel_20260919194531261_2ffd28c17a/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu8lk0u1b0d/index.html",
+    "publishedAt": "2026-09-19T19:45:31.269Z",
+    "firstPublishedAt": "2026-09-19T19:45:31.269Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu84cgvwbax",
     "projectId": "proj-mu84cgvwbax",
     "releaseId": "rel_20260919112448050_a7dac6b941",
@@ -1222,41 +1257,6 @@
     "url": "books/proj-mu8ll1ltieb/index.html",
     "publishedAt": "2026-09-19T20:43:39.570Z",
     "firstPublishedAt": "2026-09-19T20:43:39.570Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu8lk0u1b0d",
-    "projectId": "proj-mu8lk0u1b0d",
-    "releaseId": "rel_20260919194531261_2ffd28c17a",
-    "title": "Eleven Miles Out",
-    "subtitle": "Robert Stevenson, John Rennie, and the Building of the Bell Rock Lighthouse",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "lighthouse history",
-      "Scottish engineering",
-      "Robert Stevenson",
-      "maritime history",
-      "Bell Rock",
-      "世界史"
-    ],
-    "description": "Eleven miles off the Scottish coast, a reef lies submerged for twenty hours a day. In the early nineteenth century, raising a granite tower on this treacherous foundation seemed impossible. Robert Stevenson had only brief summer tides to set interlocking stones cut without mortar in an Arbroath workyard. His men lived first on a moored ship, then in a precarious wooden beacon perched above the waves. When storms broke their boats loose in September 1807, thirty-two workers faced disaster on the exposed rock. Drawing on Stevenson’s 1824 narrative, Board minutes, and workmen’s records, this history reconstructs four grueling seasons of construction culminating in the lamp’s lighting in 1811. Beyond the engineering feat lies a bitter contest over credit between Stevenson and consulting engineer John Rennie, preserved here in their own correspondence. A story of human endurance against the North Sea, where precision masonry met professional rivalry to create a landmark that still stands.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-19T19:43:49.393Z"
-    },
-    "coverUrl": "books/proj-mu8lk0u1b0d/releases/rel_20260919194531261_2ffd28c17a/cover-a3d0693c44ea.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu8lk0u1b0d/index.html",
-    "publishedAt": "2026-09-19T19:45:31.269Z",
-    "firstPublishedAt": "2026-09-19T19:45:31.269Z",
     "visibility": "public"
   },
   {
