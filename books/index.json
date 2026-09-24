@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6e9rwoize",
+    "projectId": "proj-mu6e9rwoize",
+    "releaseId": "rel_20260918131958119_bf465e0a4b",
+    "title": "Eleven Miles from One Ton",
+    "subtitle": "Scott, Amundsen, and the Fatal Margin on the Antarctic Barrier",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Antarctic exploration",
+      "Robert Falcon Scott",
+      "polar history",
+      "Terra Nova expedition",
+      "survival narrative",
+      "世界史"
+    ],
+    "description": "On January 17, 1912, Robert Falcon Scott reached the South Pole only to find Roald Amundsen’s Norwegian flag already planted. The return journey became a catastrophe of exhaustion and cold, ending with five men dead just eleven miles from One Ton Depot. This narrative history reconstructs the Terra Nova expedition through the raw evidence of journals, meteorological logs, and sledging records. From the motor sledge failures and pony slaughter to the harrowing winter journey for emperor penguin eggs, every decision is weighed against primary sources. Where diaries conflict or historians dispute leadership choices, the record speaks plainly. Beyond the fatal march, the story follows the search party that discovered the tent and the inquiry that assessed the tragedy. Stripped of myth, this account presents the British Antarctic Expedition as a sequence of verifiable moments—temperatures, rations, distances, and names—that defined both scientific achievement and ultimate loss.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T13:16:59.696Z"
+    },
+    "coverUrl": "books/proj-mu6e9rwoize/releases/rel_20260918131958119_bf465e0a4b/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6e9rwoize/index.html",
+    "publishedAt": "2026-09-18T13:19:58.123Z",
+    "firstPublishedAt": "2026-09-18T13:19:58.123Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6e97ki99z",
     "projectId": "proj-mu6e97ki99z",
     "releaseId": "rel_20260918102452505_6f05e1710c",
@@ -1362,41 +1397,6 @@
     "url": "books/proj-mu6ezvip0ds/index.html",
     "publishedAt": "2026-09-18T10:09:20.538Z",
     "firstPublishedAt": "2026-09-18T10:09:20.538Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu6e9rwoize",
-    "projectId": "proj-mu6e9rwoize",
-    "releaseId": "rel_20260918131958119_bf465e0a4b",
-    "title": "Eleven Miles from One Ton",
-    "subtitle": "Scott, Amundsen, and the Fatal Margin on the Antarctic Barrier",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Antarctic exploration",
-      "Robert Falcon Scott",
-      "polar history",
-      "Terra Nova expedition",
-      "survival narrative",
-      "世界史"
-    ],
-    "description": "On January 17, 1912, Robert Falcon Scott reached the South Pole only to find Roald Amundsen’s Norwegian flag already planted. The return journey became a catastrophe of exhaustion and cold, ending with five men dead just eleven miles from One Ton Depot. This narrative history reconstructs the Terra Nova expedition through the raw evidence of journals, meteorological logs, and sledging records. From the motor sledge failures and pony slaughter to the harrowing winter journey for emperor penguin eggs, every decision is weighed against primary sources. Where diaries conflict or historians dispute leadership choices, the record speaks plainly. Beyond the fatal march, the story follows the search party that discovered the tent and the inquiry that assessed the tragedy. Stripped of myth, this account presents the British Antarctic Expedition as a sequence of verifiable moments—temperatures, rations, distances, and names—that defined both scientific achievement and ultimate loss.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T13:16:59.696Z"
-    },
-    "coverUrl": "books/proj-mu6e9rwoize/releases/rel_20260918131958119_bf465e0a4b/cover-b1be795f6521.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu6e9rwoize/index.html",
-    "publishedAt": "2026-09-18T13:19:58.123Z",
-    "firstPublishedAt": "2026-09-18T13:19:58.123Z",
     "visibility": "public"
   },
   {

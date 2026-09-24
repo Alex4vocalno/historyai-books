@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918131958119_bf465e0a4b",
   "projectId": "proj-mu6e9rwoize",
-  "manuscriptVersionId": "mv_5d01d4b52b5267ca",
-  "contentHash": "5d01d4b52b5267caca3656b4223f8e1abe5306e956e29444abc703a0f681f7c0",
+  "manuscriptVersionId": "mv_aa10a3d5ddecc142",
+  "contentHash": "aa10a3d5ddecc1423140d69204ffffaedbc832843cd7a773234e3fd9e1f58ba9",
   "title": "Eleven Miles from One Ton",
   "subtitle": "Scott, Amundsen, and the Fatal Margin on the Antarctic Barrier",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T13:16:59.696Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:51:40.851Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_503e6b1c00cd05b7",
+      "createdAt": "2026-09-18T13:16:55.880Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This reconstruction of Scott's fatal polar journey excels in its disciplined, multi-track structure and its ability to build a compelling causal argument from stark material realities—like the weight of coal or a man's hand swelling inside a mitten. The narrative's physical detail generates a powerful sense of presence. However, the immersive effect is occasionally broken by textbook-like intrusions that explain rather than show, and some transitions rely on an overly aerial, summarizing voice where grounded scene-setting would serve the tragedy better. Once these stylistic elements are honed,",
+    "text": "This reconstruction of Scott's fatal Antarctic journey excels in its disciplined structure and tangible physical detail—Chapter 15's description of Evans's hand 'swelled inside his woolen mitten' is a prime example of how it builds presence without melodrama. The causal argument, built from juxtaposed material constraints like coal tonnage and ship freeboard, is particularly strong. However, the immersive effect is occasionally undermined by textbook-style intrusions that break the narrative voice, and some key transitions rely on an aerial, summarizing perspective rather than grounded scene-s",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-b1be795f6521.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:35:41.696Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "archival-deep"
   },
   "chapters": [
     {
@@ -217,9 +240,6 @@
       "units": 3404
     }
   ],
-  "illustrations": 6,
-  "publishedAt": "2026-09-18T13:19:58.123Z",
-  "rerenderedAt": "2026-09-21T02:35:41.703Z",
   "topics": {
     "entities": [
       "Robert Falcon Scott",
@@ -378,5 +398,8 @@
         "asOfYear": 1914
       }
     ]
-  }
+  },
+  "illustrations": 6,
+  "publishedAt": "2026-09-18T13:19:58.123Z",
+  "rerenderedAt": "2026-09-24T00:51:40.853Z"
 }
