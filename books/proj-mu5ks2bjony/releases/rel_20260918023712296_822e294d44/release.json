@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918023712296_822e294d44",
   "projectId": "proj-mu5ks2bjony",
-  "manuscriptVersionId": "mv_78e2bc0697a881d7",
-  "contentHash": "78e2bc0697a881d744d58df8b8ea6a08cd46e63d50082312729730740fd6987e",
+  "manuscriptVersionId": "mv_f0eaf20d5f120c0d",
+  "contentHash": "f0eaf20d5f120c0d530c7ac06c70ad6490c4ca1fbc4a2debb2075af0ac94104e",
   "title": "The Narrows: Halifax, Two Ships and the Morning of 6 December 1917",
   "subtitle": "Halifax, Two Ships and the Morning of 6 December 1917",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T02:34:36.568Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:51:07.872Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_7e51fb636f06b4b1",
+      "createdAt": "2026-09-18T02:34:33.585Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This reconstruction of the Halifax Explosion is anchored by disciplined archival work, turning logbooks and manifests into a genuine narrative engine. The early chapters are particularly strong, building tension with precise physical detail and a masterful, time-stamped cross-cutting of perspectives on the harbor. However, the procedural rigor of its countdown structure wanes in the middle sections covering the inquiry and relief efforts, where the narrative retreats into summary and loses its concrete, multi-track immediacy. While it properly distributes causation among various actors, the in",
+    "text": "This minute-by-minute reconstruction of the 1917 Halifax explosion is at its best when its disciplined, archival-driven narrative is locked on the immediate disaster. The early chapters masterfully build tension through stark physical detail—the foghorn, the barrel count—and precise, time-stamped cross-cutting between ships, harbour officials, and civilians. The author wisely distributes causation across multiple factors, avoiding simplistic blame. However, the procedural rigor of its form falters in the lengthy middle sections covering the inquiry and relief efforts, where the narrative retre",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-2f1970b499f1.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:16:25.678Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "woodblock-print"
   },
   "chapters": [
     {
@@ -217,9 +240,6 @@
       "units": 3267
     }
   ],
-  "illustrations": 4,
-  "publishedAt": "2026-09-18T02:37:12.301Z",
-  "rerenderedAt": "2026-09-21T02:16:25.686Z",
   "topics": {
     "entities": [
       "The Narrows",
@@ -369,5 +389,8 @@
         "asOfYear": 1919
       }
     ]
-  }
+  },
+  "illustrations": 4,
+  "publishedAt": "2026-09-18T02:37:12.301Z",
+  "rerenderedAt": "2026-09-24T00:51:07.874Z"
 }

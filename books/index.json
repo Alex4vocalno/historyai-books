@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu5ks2bjony",
+    "projectId": "proj-mu5ks2bjony",
+    "releaseId": "rel_20260918023712296_822e294d44",
+    "title": "The Narrows: Halifax, Two Ships and the Morning of 6 December 1917",
+    "subtitle": "Halifax, Two Ships and the Morning of 6 December 1917",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Halifax Explosion",
+      "Maritime History",
+      "World War I",
+      "Disaster Narrative",
+      "Canadian History",
+      "世界史"
+    ],
+    "description": "At 9:04:35 a.m. on December 6, 1917, the French munitions ship Mont-Blanc detonated in Halifax Harbour, leveling the Richmond district and killing nearly two thousand people. This narrative history reconstructs the catastrophe minute by minute, from the fatal collision with the Norwegian relief vessel Imo to the blizzard that buried the ruins. Drawing on harbour master logs, inquiry transcripts, and Relief Commission ledgers, the account traces the twenty minutes of fire that drew spectators to the waterfront, telegraph operator Vince Coleman’s final warning, and the relief trains from Boston. Beyond the blast wave, it examines the decades-long legal battle that divided blame between two captains and transformed maritime safety regulations. A chronicle of devastation and bureaucratic reckoning, this book grounds every detail in primary records to reveal how a wartime port disaster reshaped international rules for moving explosives and defined a city’s century of remembrance.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T02:34:36.568Z"
+    },
+    "coverUrl": "books/proj-mu5ks2bjony/releases/rel_20260918023712296_822e294d44/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu5ks2bjony/index.html",
+    "publishedAt": "2026-09-18T02:37:12.301Z",
+    "firstPublishedAt": "2026-09-18T02:37:12.301Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu4ynbc501p",
     "projectId": "proj-mu4ynbc501p",
     "releaseId": "rel_20260919035416065_2ccc4f67e1",
@@ -1047,41 +1082,6 @@
     "url": "books/proj-mu6f1b85dxo/index.html",
     "publishedAt": "2026-09-18T15:53:52.148Z",
     "firstPublishedAt": "2026-09-18T15:53:52.148Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu5ks2bjony",
-    "projectId": "proj-mu5ks2bjony",
-    "releaseId": "rel_20260918023712296_822e294d44",
-    "title": "The Narrows: Halifax, Two Ships and the Morning of 6 December 1917",
-    "subtitle": "Halifax, Two Ships and the Morning of 6 December 1917",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Halifax Explosion",
-      "Maritime History",
-      "World War I",
-      "Disaster Narrative",
-      "Canadian History",
-      "世界史"
-    ],
-    "description": "At 9:04:35 a.m. on December 6, 1917, the French munitions ship Mont-Blanc detonated in Halifax Harbour, leveling the Richmond district and killing nearly two thousand people. This narrative history reconstructs the catastrophe minute by minute, from the fatal collision with the Norwegian relief vessel Imo to the blizzard that buried the ruins. Drawing on harbour master logs, inquiry transcripts, and Relief Commission ledgers, the account traces the twenty minutes of fire that drew spectators to the waterfront, telegraph operator Vince Coleman’s final warning, and the relief trains from Boston. Beyond the blast wave, it examines the decades-long legal battle that divided blame between two captains and transformed maritime safety regulations. A chronicle of devastation and bureaucratic reckoning, this book grounds every detail in primary records to reveal how a wartime port disaster reshaped international rules for moving explosives and defined a city’s century of remembrance.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T02:34:36.568Z"
-    },
-    "coverUrl": "books/proj-mu5ks2bjony/releases/rel_20260918023712296_822e294d44/cover-2f1970b499f1.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu5ks2bjony/index.html",
-    "publishedAt": "2026-09-18T02:37:12.301Z",
-    "firstPublishedAt": "2026-09-18T02:37:12.301Z",
     "visibility": "public"
   },
   {
