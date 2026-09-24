@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu84cgvwbax",
+    "projectId": "proj-mu84cgvwbax",
+    "releaseId": "rel_20260919112448050_a7dac6b941",
+    "title": "Ninety-Nine Days",
+    "subtitle": "The Great Tea Race of 1866 and the End of the Clipper Era",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Maritime History",
+      "Tea Trade",
+      "Clipper Ships",
+      "British Empire",
+      "Victorian Commerce",
+      "世界史"
+    ],
+    "description": "In May 1866, five clippers departed Foochow within three days, chasing a lucrative premium for the first new-season tea to reach London. What followed was a grueling sprint against the monsoon through the Sunda Strait and across the Indian Ocean, culminating in a finish so close that Ariel and Taeping docked on the same tide to split the prize. Drawing on ship logs, captains’ letters, and Lloyd’s List, this narrative reconstructs the race from the wharves of China to the auction rooms of Limehouse. Beyond the maritime drama lies a story of global commerce, where sailors, tea chests, and speculative capital converged in a final test of sail before the telegraph and steamship rendered such contests obsolete. A vivid chronicle of ambition and seamanship at the twilight of an age.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-19T11:23:03.568Z"
+    },
+    "coverUrl": "books/proj-mu84cgvwbax/releases/rel_20260919112448050_a7dac6b941/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu84cgvwbax/index.html",
+    "publishedAt": "2026-09-19T11:24:48.054Z",
+    "firstPublishedAt": "2026-09-19T11:24:48.054Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu84bjjg9q2",
     "projectId": "proj-mu84bjjg9q2",
     "releaseId": "rel_20260919160438486_b1e29c06f4",
@@ -1257,41 +1292,6 @@
     "url": "books/proj-mu82v8oow97/index.html",
     "publishedAt": "2026-09-19T16:41:38.188Z",
     "firstPublishedAt": "2026-09-19T09:08:48.428Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu84cgvwbax",
-    "projectId": "proj-mu84cgvwbax",
-    "releaseId": "rel_20260919112448050_a7dac6b941",
-    "title": "Ninety-Nine Days",
-    "subtitle": "The Great Tea Race of 1866 and the End of the Clipper Era",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Maritime History",
-      "Tea Trade",
-      "Clipper Ships",
-      "British Empire",
-      "Victorian Commerce",
-      "世界史"
-    ],
-    "description": "In May 1866, five clippers departed Foochow within three days, chasing a lucrative premium for the first new-season tea to reach London. What followed was a grueling sprint against the monsoon through the Sunda Strait and across the Indian Ocean, culminating in a finish so close that Ariel and Taeping docked on the same tide to split the prize. Drawing on ship logs, captains’ letters, and Lloyd’s List, this narrative reconstructs the race from the wharves of China to the auction rooms of Limehouse. Beyond the maritime drama lies a story of global commerce, where sailors, tea chests, and speculative capital converged in a final test of sail before the telegraph and steamship rendered such contests obsolete. A vivid chronicle of ambition and seamanship at the twilight of an age.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-19T11:23:03.568Z"
-    },
-    "coverUrl": "books/proj-mu84cgvwbax/releases/rel_20260919112448050_a7dac6b941/cover-9f8ad5400d0c.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu84cgvwbax/index.html",
-    "publishedAt": "2026-09-19T11:24:48.054Z",
-    "firstPublishedAt": "2026-09-19T11:24:48.054Z",
     "visibility": "public"
   },
   {

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919112448050_a7dac6b941",
   "projectId": "proj-mu84cgvwbax",
-  "manuscriptVersionId": "mv_ec1032bf27f971b3",
-  "contentHash": "ec1032bf27f971b31242f45da84e20c72e824be393acc766bb511f9985dfb869",
+  "manuscriptVersionId": "mv_2353d113dfd24b07",
+  "contentHash": "2353d113dfd24b0700a8c8a1073a83f721321082c87e3cfffe988a0e11432e61",
   "title": "Ninety-Nine Days",
   "subtitle": "The Great Tea Race of 1866 and the End of the Clipper Era",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-19T11:23:03.568Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:54:22.012Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_8f848290d3449136",
+      "createdAt": "2026-09-19T11:22:57.866Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This maritime history excels in its rigorous treatment of financial mechanisms, most notably how a specific premium clause is analyzed not as mere anecdote but as a driver of global competition. The causal chain linking technological change to the collapse of an entire shipping model is particularly well-documented and convincing. However, the narrative's immersive power is occasionally undercut by a repetitive prose cadence and a reliance on a single, overused descriptive device ('seen from above'), which can distance the reader from the human drama on deck. It is a work of strong structural",
+    "text": "This maritime history excels in its rigorous treatment of financial mechanisms, most notably in how it traces the causal chain from a specific premium clause to the broader obsolescence of an entire shipping model, grounding abstract shifts in concrete administrative acts. The narrative maintains a clear-eyed view of risk and cost, refusing to romanticize the era. However, the prose rhythm can occasionally falter, with certain narrative devices and sentence structures becoming repetitive rather than serving their intended purpose of pacing, which may momentarily pull the attentive reader out o",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-9f8ad5400d0c.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:57:22.245Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "corporate-saga"
   },
   "chapters": [
     {
@@ -217,7 +240,6 @@
       "units": 3943
     }
   ],
-  "publishedAt": "2026-09-19T11:24:48.054Z",
   "topics": {
     "entities": [
       "Ariel",
@@ -378,5 +400,6 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T01:57:22.254Z"
+  "publishedAt": "2026-09-19T11:24:48.054Z",
+  "rerenderedAt": "2026-09-24T00:54:22.014Z"
 }
