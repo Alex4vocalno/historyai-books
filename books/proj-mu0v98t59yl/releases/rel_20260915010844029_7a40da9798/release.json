@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260915010844029_7a40da9798",
   "projectId": "proj-mu0v98t59yl",
-  "manuscriptVersionId": "mv_0ea28d80a6de69f9",
-  "contentHash": "0ea28d80a6de69f92c895ba8d4aa247433a68d085011b23a8e6e4080d5005b3a",
+  "manuscriptVersionId": "mv_e78bbc04cb463fba",
+  "contentHash": "e78bbc04cb463fbae980cdd576f3c6ac3d575dd5a5b6f73f195b592f892cb2f2",
   "title": "The Harbour Ledger",
   "subtitle": "A Novel",
   "authorDisplayName": "绝对值",
@@ -19,6 +19,7 @@
   ],
   "language": "en",
   "workType": "fiction",
+  "lengthTier": "novella",
   "visibility": "public",
   "stats": {
     "chapterCount": 9,
@@ -32,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-15T01:05:19.515Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:50:19.598Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_c8f2c4847b6e5e32",
+      "createdAt": "2026-09-22T06:23:16.740Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "checked",
+        "articleDensity": "not_applicable",
+        "judged": 9
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "The Harbour Ledger earns its atmosphere honestly. That single drop of condensation falling onto a leather logbook cover in the opening pages tells you exactly what kind of story you're in for—methodical, tactile, patient. Iona Kerr's handwriting analysis across the 1986 entries gives readers the same clues she works with, and the tidal station's 02:14 low-tide impossibility grounds archival detective work in genuine physical stakes. The setting does real narrative labor here. Where the book falters is the finish: the truth arrives via Rossiter's signed confession rather than through Iona's own",
+    "text": "The Scottish tidal station offers a masterclass in atmospheric pressure, with Iona’s methodical cataloging—circling tide tables, counting paces—creating a distinctive investigative rhythm that feels genuinely lived-in. The clues are fair and cumulative, earning their revelations honestly through precise sensory details, like the intake channel walls rising \"like the sides of a tomb.\" However, the prose occasionally suffers from mechanical repetition, and the urge to over-explain—explicitly stating that a murder was disguised as an accident—undermines the reader’s own deductive pleasure. While",
     "penName": "疏影",
     "title": "Fiction Editor",
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-f4fd4610faea.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:49:42.335Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "ledger-tape-archive"
   },
   "chapters": [
     {
@@ -102,7 +129,6 @@
       "units": 2077
     }
   ],
-  "publishedAt": "2026-09-15T01:08:44.033Z",
   "topics": {
     "entities": [],
     "geo": [],
@@ -155,5 +181,6 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T02:49:42.343Z"
+  "publishedAt": "2026-09-15T01:08:44.033Z",
+  "rerenderedAt": "2026-09-24T00:50:19.599Z"
 }
