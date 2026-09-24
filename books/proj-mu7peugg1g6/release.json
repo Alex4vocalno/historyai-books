@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919031541413_6dd09c1969",
   "projectId": "proj-mu7peugg1g6",
-  "manuscriptVersionId": "mv_639497ceafadfd7f",
-  "contentHash": "639497ceafadfd7ffee2995f299173a9016e8c6ed75e1eadbb8fe2bf0ee07224",
+  "manuscriptVersionId": "mv_364f63cf8d18db54",
+  "contentHash": "364f63cf8d18db54fdfa096c8785e88e813775a2a75362593678a9880c8430b4",
   "title": "Left on the Ice",
   "subtitle": "The Karluk Disaster and the Canadian Arctic Expedition's Fight for Survival",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-19T03:14:13.356Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:53:39.088Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_42aa07e5bd2f793f",
+      "createdAt": "2026-09-22T05:58:15.080Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_applicable",
+        "articleDensity": "checked",
+        "judged": 0
+      },
+      "hardDefects": 4
+    }
+  },
   "editorReview": {
-    "text": "This reconstruction of the Karluk disaster meets the form's core demands with a sound multi-track timeline and disciplined post-event chapters that maintain a gripping countdown. The work particularly succeeds in integrating indigenous expertise as structural causation, not exotic color, and grounds its argument in precise physical details—like the hull sounding 'dull' to an inspector's hammer. However, the prose sometimes substitutes analytical summary for scene-level immediacy, and meta-textual phrases can break the documentary illusion, requiring a more sensory presence to fully immerse the",
+    "text": "This account of the Karluk disaster demonstrates a keen analytical eye, particularly in its compelling argument linking institutional failure to physical mismanagement, grounded in vivid sensory detail from primary sources. The psychological insights, especially in the later chapters, are derived from the texture of the historical record itself. However, the reading experience is severely compromised by foundational errors that erode trust. A jarring anachronism places a major historical event years out of sequence, and significant sections of prose are broken and telegraphic, failing to susta",
     "penName": "砚北",
     "title": "History & Social Science Editor",
-    "rating": "Worth reading"
+    "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-ebf26e05b139.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:21:03.154Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -217,8 +243,6 @@
       "units": 2924
     }
   ],
-  "publishedAt": "2026-09-19T03:15:41.418Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "Karluk",
@@ -379,5 +403,7 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T02:21:03.163Z"
+  "publishedAt": "2026-09-19T03:15:41.418Z",
+  "rerenderedAt": "2026-09-24T00:53:39.090Z",
+  "formFamily": "narrative"
 }
