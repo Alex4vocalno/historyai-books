@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260924033827562_bf004fc2e4",
+  "projectId": "proj-mueve8gagxp",
+  "manuscriptVersionId": "mv_4ec5163eaecdc956",
+  "contentHash": "4ec5163eaecdc956044d00b83c7e43e7763c749c21333b97f92fc1ed74b9ff2b",
+  "title": "武昌七十二小时：1911 年 10 月 10 日至 12 日的一座城",
+  "subtitle": "1911年10月10日至12日的一座城",
+  "authorDisplayName": "哈里·谢顿",
+  "description": "1911年10月10日夜，工程第八营的一声枪响划破武昌夜空。此后七十二小时，楚望台军械库的争夺、督署的陷落、汉阳铁厂的易帜、江面兵舰的观望与租界内的惊惶交织并进。本书以小时为刻度，重返新军营房、电报局、谘议局与江汉关等历史现场，在士兵、军官、总督、士绅、外国领事及普通市民的多元视角中，逐分逐秒还原一座城市在剧变中的真实呼吸。所有时间、人数、地名与电文均经多重史料互证，歧义之处并列出处，以可核查的细节重建那场改变中国命运的三天三夜。",
+  "category": "中国史",
+  "tags": [
+    "辛亥革命",
+    "武昌起义",
+    "微观史",
+    "晚清民国",
+    "城市史",
+    "中国史"
+  ],
+  "language": "zh",
+  "workType": "nonfiction",
+  "lengthTier": null,
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 18,
+    "units": 133221,
+    "unitLabel": "字"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 82,
+    "method": "median-of-3",
+    "createdAt": "2026-09-24T03:37:08.340Z"
+  },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T03:38:27.568Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_eac2230f9f4b7aa9",
+      "createdAt": "2026-09-24T03:37:01.354Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_checked",
+        "articleDensity": "not_applicable",
+        "judged": 0
+      },
+      "hardDefects": 0
+    }
+  },
+  "editorReview": {
+    "text": "本书在史学骨架上堪称扎实，最可贵处在于对物质空间的精确认证——如汉阳铁厂的日产数据与楚望台军械库的物理争夺逻辑，这些基于多重互证的细节，真实地“兜住”了七十二小时内各权力的流动与真空状态。多线并进的结构亦显出清晰的全景叙事野心，士兵、领事、总督的声口切换自然，避免了教科书腔。但坦率说，行文中确有需要打磨的机械感：诸如破折号的密集使用和部分章节中近乎罗列的推进方式，偶尔会削弱历史叙事应有的呼吸与张力，若能经过一轮细致的语感精修，其沉浸感应可更上一层。",
+    "penName": "砚北",
+    "title": "历史社科编辑",
+    "rating": "值得一读"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-24T03:38:23.412Z",
+    "textless": false,
+    "profileId": "serious-history-editorial"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "江城的铁与火",
+      "units": 6576
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "军营里的暗流",
+      "units": 6012
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "名册上的名字",
+      "units": 6524
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "总督府的黄昏",
+      "units": 6273
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "枪响之前",
+      "units": 6725
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "楚望台的枪声",
+      "units": 9463
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "各标营的钟点",
+      "units": 8363
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "督署的最后时刻",
+      "units": 7758
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "都督府的第一天",
+      "units": 8112
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "汉阳铁厂的旗帜",
+      "units": 5841
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "江面上的外国眼睛",
+      "units": 7656
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "安民告示之后",
+      "units": 5909
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "都督印信的分量",
+      "units": 13416
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "京汉线上的兵车",
+      "units": 9156
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "军政府的钱袋子",
+      "units": 7324
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "各省的钟点",
+      "units": 5806
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "江汉关的钟声",
+      "units": 6054
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "枪声的回响",
+      "units": 6253
+    }
+  ],
+  "topics": {
+    "entities": [
+      "武昌七十二小时",
+      "日的一座城"
+    ],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "江城的铁与火",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "军营里的暗流",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "名册上的名字",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "总督府的黄昏",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "枪响之前",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "楚望台的枪声",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "各标营的钟点",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "督署的最后时刻",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "都督府的第一天",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "汉阳铁厂的旗帜",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "江面上的外国眼睛",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "安民告示之后",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "都督印信的分量",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "京汉线上的兵车",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "军政府的钱袋子",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "各省的钟点",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "江汉关的钟声",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "枪声的回响",
+        "asOfYear": null
+      }
+    ]
+  },
+  "publishedAt": "2026-09-24T03:38:27.571Z",
+  "formFamily": "narrative"
+}

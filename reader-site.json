@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "contractVersion": "reader-site.v1",
-  "generatedAt": "2026-09-24T01:44:23.802Z",
+  "generatedAt": "2026-09-24T03:38:27.739Z",
   "catalog": {
     "path": "books/index.json",
-    "bytes": 460680,
-    "sha256": "8d57383788ecba2f9526ac0960ec599f3d91a58218cd13c50196062fb27b050b"
+    "bytes": 462492,
+    "sha256": "4f8e47c7753cb8ddea05e308db128a9beea2d00517b8d6bdb6bd877f00c2f03b"
   },
   "books": [
     {
-      "projectId": "proj-mudin0ssl1f",
-      "releaseId": "rel_20260924014423482_d683fec654",
-      "language": "en",
+      "projectId": "proj-mueve8gagxp",
+      "releaseId": "rel_20260924033827562_bf004fc2e4",
+      "language": "zh",
       "visibility": "public",
-      "currentPointer": "books/proj-mudin0ssl1f/current.json",
-      "releaseRoot": "books/proj-mudin0ssl1f/releases/rel_20260924014423482_d683fec654/",
-      "manifest": "books/proj-mudin0ssl1f/releases/rel_20260924014423482_d683fec654/release-manifest.json",
+      "currentPointer": "books/proj-mueve8gagxp/current.json",
+      "releaseRoot": "books/proj-mueve8gagxp/releases/rel_20260924033827562_bf004fc2e4/",
+      "manifest": "books/proj-mueve8gagxp/releases/rel_20260924033827562_bf004fc2e4/release-manifest.json",
       "integrity": "sha256"
     },
     {
