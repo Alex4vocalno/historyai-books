@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu9m9yl9do2",
+    "projectId": "proj-mu9m9yl9do2",
+    "releaseId": "rel_20260920155515485_3d886af9ed",
+    "title": "灰度婚约",
+    "subtitle": "两代人的婚姻样本，三十年的人性实验",
+    "language": "zh",
+    "workType": "fiction",
+    "lengthTier": "novel",
+    "authorDisplayName": "磨墨无文",
+    "category": "小说",
+    "tags": [
+      "婚姻",
+      "社会变迁",
+      "算法伦理",
+      "代际",
+      "现实",
+      "灰度思维"
+    ],
+    "description": "1995年，铁岭婚姻登记窗口，陈禾每天盖章三百次，看尽搭伙过日子的悲欢。同一时刻，社会学研究者林砚在田野笔记里写下第一个问号：婚姻究竟靠什么维系？从下岗潮到奥运婚潮，从移动互联网到AI婚恋算法，两人用三十年追踪六段婚姻的成败。当算法开始匹配姻缘，当情感唯一论撞上现实刚需，一份名为「灰度婚约」的协议浮出水面——它不承诺永恒，只计算互助、自由与稳定的配比。但人心，从来不是一道可以精确求解的题。",
+    "chapterCount": 32,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-20T15:41:02.883Z"
+    },
+    "coverUrl": "books/proj-mu9m9yl9do2/releases/rel_20260920155515485_3d886af9ed/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mu9m9yl9do2/index.html",
+    "publishedAt": "2026-09-20T15:55:15.491Z",
+    "firstPublishedAt": "2026-09-20T15:44:48.722Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mtpdshkfle6",
     "projectId": "proj-mtpdshkfle6",
     "releaseId": "rel_20260923083510880_ae18d88cad",
@@ -1222,41 +1257,6 @@
     "url": "books/proj-mucolf37dr1/index.html",
     "publishedAt": "2026-09-23T07:33:16.183Z",
     "firstPublishedAt": "2026-09-22T20:00:13.488Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu9m9yl9do2",
-    "projectId": "proj-mu9m9yl9do2",
-    "releaseId": "rel_20260920155515485_3d886af9ed",
-    "title": "灰度婚约",
-    "subtitle": "两代人的婚姻样本，三十年的人性实验",
-    "language": "zh",
-    "workType": "fiction",
-    "lengthTier": "novel",
-    "authorDisplayName": "磨墨无文",
-    "category": "小说",
-    "tags": [
-      "婚姻",
-      "社会变迁",
-      "算法伦理",
-      "代际",
-      "现实",
-      "灰度思维"
-    ],
-    "description": "1995年，铁岭婚姻登记窗口，陈禾每天盖章三百次，看尽搭伙过日子的悲欢。同一时刻，社会学研究者林砚在田野笔记里写下第一个问号：婚姻究竟靠什么维系？从下岗潮到奥运婚潮，从移动互联网到AI婚恋算法，两人用三十年追踪六段婚姻的成败。当算法开始匹配姻缘，当情感唯一论撞上现实刚需，一份名为「灰度婚约」的协议浮出水面——它不承诺永恒，只计算互助、自由与稳定的配比。但人心，从来不是一道可以精确求解的题。",
-    "chapterCount": 32,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 88,
-      "method": "median-of-3",
-      "createdAt": "2026-09-20T15:41:02.883Z"
-    },
-    "coverUrl": "books/proj-mu9m9yl9do2/releases/rel_20260920155515485_3d886af9ed/cover-6974dfbc0779.svg",
-    "coverTextless": false,
-    "url": "books/proj-mu9m9yl9do2/index.html",
-    "publishedAt": "2026-09-20T15:55:15.491Z",
-    "firstPublishedAt": "2026-09-20T15:44:48.722Z",
     "visibility": "public"
   },
   {

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260920155515485_3d886af9ed",
   "projectId": "proj-mu9m9yl9do2",
-  "manuscriptVersionId": "mv_81ddda971b0de57e",
-  "contentHash": "81ddda971b0de57ee6a5f962b3994a639fa89cf66488b419f46058b1bca38658",
+  "manuscriptVersionId": "mv_7b19e980d27ec616",
+  "contentHash": "7b19e980d27ec6167008faa7add9d000c90ad249a5d709220328008aea25b718",
   "title": "灰度婚约",
   "subtitle": "两代人的婚姻样本，三十年的人性实验",
   "authorDisplayName": "磨墨无文",
@@ -23,7 +23,7 @@
   "visibility": "public",
   "stats": {
     "chapterCount": 32,
-    "units": 395718,
+    "units": 395706,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -33,20 +33,48 @@
     "method": "median-of-3",
     "createdAt": "2026-09-20T15:41:02.883Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T01:28:38.908Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_a883ed401c22985c",
+      "createdAt": "2026-09-22T06:11:42.896Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "checked",
+        "articleDensity": "not_applicable",
+        "judged": 32
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "铁岭冬天的泥浆和烟囱，火车上那张被咖啡渍泡成旧地图的桌布——这本书的在场感是真好，冷得能钻进骨头里。陈禾食指敲桌面那半秒，比一整章心理描写都管用，一个在窗口看了三十年哭声的人，她的倦怠和心软全在那半秒里了。林砚那条线也不虚，母亲缝纫机的肌肉记忆扎得很深。但读到中段我得说实话：有些句子反复出现，像同一块砖被搬来搬去砌了六次墙，主题是强调住了，读者的耐心却磨掉了。章节之间偶尔也接不上气，上一章的人名到下一章忽然没了着落，读着像换了个频道。骨架和血肉都在，缺的是一遍把气韵捋顺的精修。",
+    "text": "读《灰度婚约》最难忘的是那股铁岭登记窗口的煤灰味——陈禾每天盖章三百次，手指起落间，婚姻被压成一行行铅字。这种基层生态的在场感，近年小说里少见，人物声口冷峻，不煽情，却让人信。可惜好细节被反复使用：咖啡渍、搪瓷杯磕桌，一而再地出现，像舍不得扔的道具；心理描写也常把已经演过的戏再复述一遍，拖慢了本可以更利落的节奏。三十年的跨度里，有些章节像被拉长的档案，而非被剪裁的叙事。它值得读，尤其前半部；但若精修时能删掉那些回环的重复，把空间留给人物真正的转折，这本书会从“扎实”再往上走一格。",
     "penName": "疏影",
     "title": "文学编辑",
-    "rating": "推荐"
+    "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-6974dfbc0779.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:43:32.016Z",
     "textless": false,
+    "profileId": "fiction-romance-intimate",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "fiction-romance-intimate"
   },
   "chapters": [
     {
@@ -113,7 +141,7 @@
       "idx": 10,
       "sourceIdx": 10,
       "title": "铁岭站告别",
-      "units": 8756
+      "units": 8744
     },
     {
       "idx": 11,
@@ -410,5 +438,5 @@
     ]
   },
   "publishedAt": "2026-09-20T15:55:15.491Z",
-  "rerenderedAt": "2026-09-21T01:43:32.031Z"
+  "rerenderedAt": "2026-09-24T01:28:38.910Z"
 }
