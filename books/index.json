@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu84bjjg9q2",
+    "projectId": "proj-mu84bjjg9q2",
+    "releaseId": "rel_20260919160438486_b1e29c06f4",
+    "title": "Two Bombs at Bikini",
+    "subtitle": "Operation Crossroads and the Birth of the Nuclear Age",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Operation Crossroads",
+      "Nuclear Testing",
+      "Naval History",
+      "Bikini Atoll",
+      "Cold War",
+      "世界史"
+    ],
+    "description": "In July 1946, the U.S. Navy assembled ninety target ships and forty-two thousand men at Bikini Atoll to test atomic weapons against a fleet. What followed was a collision of military ambition and invisible peril. After the air drop missed its mark, the underwater Test Baker unleashed a radioactive base surge that coated vessels in contamination no hose could remove. Radiological safety officers battled command schedules as sailors scrubbed decks in vain and animals perished on board. Drawing on task force reports, ship logs, and Bikinian testimony, this narrative reconstructs the operation’s human and environmental toll. From the forced exile of islanders to Rongerik to the scuttling of irradiated hulls, the story reveals what the Navy learned about nuclear warfare—and what it chose to ignore. A definitive account of the moment when atomic testing outpaced safety, leaving a legacy written in fission products and silenced warnings.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 82,
+      "method": "median-of-3",
+      "createdAt": "2026-09-19T16:03:12.866Z"
+    },
+    "coverUrl": "books/proj-mu84bjjg9q2/releases/rel_20260919160438486_b1e29c06f4/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu84bjjg9q2/index.html",
+    "publishedAt": "2026-09-19T16:04:38.490Z",
+    "firstPublishedAt": "2026-09-19T16:04:38.490Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu7pmy1pani",
     "projectId": "proj-mu7pmy1pani",
     "releaseId": "rel_20260919091856245_2b9763a4b6",
@@ -1222,41 +1257,6 @@
     "url": "books/proj-mu82v8oow97/index.html",
     "publishedAt": "2026-09-19T16:41:38.188Z",
     "firstPublishedAt": "2026-09-19T09:08:48.428Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu84bjjg9q2",
-    "projectId": "proj-mu84bjjg9q2",
-    "releaseId": "rel_20260919160438486_b1e29c06f4",
-    "title": "Two Bombs at Bikini",
-    "subtitle": "Operation Crossroads and the Birth of the Nuclear Age",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Operation Crossroads",
-      "Nuclear Testing",
-      "Naval History",
-      "Bikini Atoll",
-      "Cold War",
-      "世界史"
-    ],
-    "description": "In July 1946, the U.S. Navy assembled ninety target ships and forty-two thousand men at Bikini Atoll to test atomic weapons against a fleet. What followed was a collision of military ambition and invisible peril. After the air drop missed its mark, the underwater Test Baker unleashed a radioactive base surge that coated vessels in contamination no hose could remove. Radiological safety officers battled command schedules as sailors scrubbed decks in vain and animals perished on board. Drawing on task force reports, ship logs, and Bikinian testimony, this narrative reconstructs the operation’s human and environmental toll. From the forced exile of islanders to Rongerik to the scuttling of irradiated hulls, the story reveals what the Navy learned about nuclear warfare—and what it chose to ignore. A definitive account of the moment when atomic testing outpaced safety, leaving a legacy written in fission products and silenced warnings.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 82,
-      "method": "median-of-3",
-      "createdAt": "2026-09-19T16:03:12.866Z"
-    },
-    "coverUrl": "books/proj-mu84bjjg9q2/releases/rel_20260919160438486_b1e29c06f4/cover-c6076debfc2b.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu84bjjg9q2/index.html",
-    "publishedAt": "2026-09-19T16:04:38.490Z",
-    "firstPublishedAt": "2026-09-19T16:04:38.490Z",
     "visibility": "public"
   },
   {

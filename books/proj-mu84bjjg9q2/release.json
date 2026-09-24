@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919160438486_b1e29c06f4",
   "projectId": "proj-mu84bjjg9q2",
-  "manuscriptVersionId": "mv_dc330fbf840602f0",
-  "contentHash": "dc330fbf840602f0f9e3fb860c726d8d8845992292b7a2227c4701f23054fdf6",
+  "manuscriptVersionId": "mv_180e608e866ee852",
+  "contentHash": "180e608e866ee852ba01a8a946e9c96c9a2ed1bcd7e8e983179fdef39d239645",
   "title": "Two Bombs at Bikini",
   "subtitle": "Operation Crossroads and the Birth of the Nuclear Age",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-19T16:03:12.866Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:54:10.787Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_d15993db7a25d643",
+      "createdAt": "2026-09-22T05:54:50.919Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_applicable",
+        "articleDensity": "checked",
+        "judged": 0
+      },
+      "hardDefects": 2
+    }
+  },
   "editorReview": {
-    "text": "This panoramic reconstruction of the 1946 atomic tests at Bikini Atoll is a competent work of history, grounded in checkable detail and a credible timeline. Its strength lies in its multi-track structure, which effectively converges military, scientific, and civilian narratives at key operational climaxes; the cross-cutting tension in chapters like 'Stafford Warren’s Ultimatum' is particularly compelling. However, the reader's immersion is periodically broken by mechanical prose, including verbatim repetitions and, most damagingly, a corrupted passage in a pivotal underwater detonation scene.",
+    "text": "This is a work of formidable archival reach and structural ambition, tracking the military, scientific, and human threads of the 1946 atomic tests with a panoramic rigor. Its power lies in specific, devastating juxtapositions—like the confident press release placed against the grim radiological log—and in grounded sensory details that make history tangible. However, the reading experience is periodically fractured by a jarring mechanical repetition of key phrases and paragraphs, which stalls the narrative momentum it seeks to build. The argument about institutional denial is compelling, but th",
     "penName": "砚北",
     "title": "History & Social Science Editor",
-    "rating": "Worth reading"
+    "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-c6076debfc2b.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:54:00.413Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "epigraphy-rubbing"
   },
   "chapters": [
     {
@@ -217,8 +243,6 @@
       "units": 3423
     }
   ],
-  "publishedAt": "2026-09-19T16:04:38.490Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "Operation Crossroads",
@@ -379,5 +403,7 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T01:54:00.421Z"
+  "publishedAt": "2026-09-19T16:04:38.490Z",
+  "rerenderedAt": "2026-09-24T00:54:10.788Z",
+  "formFamily": "narrative"
 }
