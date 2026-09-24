@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919204339565_fd883d6500",
   "projectId": "proj-mu8ll1ltieb",
-  "manuscriptVersionId": "mv_6ac1f0d09ad1919f",
-  "contentHash": "6ac1f0d09ad1919f1804cdad0d8f0422abd3fd320b738e45103a4e1bcf9a6bbb",
+  "manuscriptVersionId": "mv_3b233b115663080c",
+  "contentHash": "3b233b115663080c75fd5a38f596f54ad31437d4920a058131847937743c5cf6",
   "title": "Breathing by Hand",
   "subtitle": "The Copenhagen Polio Epidemic and the Birth of Intensive Care",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-19T20:42:21.126Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:54:43.552Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_ec5c6886b01d9881",
+      "createdAt": "2026-09-22T06:01:57.383Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_applicable",
+        "articleDensity": "checked",
+        "judged": 0
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This is a work of formidable narrative architecture. The book's power lies in its commitment to grounding the 1952 polio crisis in the precise, dated material reality of the hospital—the weight of an iron lung, the specific timestamp of a turning point—which builds an unshakable sense of immediacy. Its multi-track structure honors the event's logistical and physiological complexity without resorting to simplistic heroism, a discipline maintained even in the aftermath. However, this impressive control can, at times, feel overly procedural. A subtle but persistent mechanical rhythm in its senten",
+    "text": "This gripping medical history excels in its visceral, scene-by-scene reconstruction of the 1952 polio crisis. The book's great strength lies in chapters like 'The Girl on the Table,' which masterfully translates a complex physiological breakthrough into tangible, high-stakes drama, making the reader feel the desperate rhythm of manual ventilation. The cross-cutting narrative between doctor, student, and machine is brilliantly executed, building relentless tension. However, the momentum falters in later sections, where the immersive, time-stamped discipline gives way to a more conventional, sum",
     "penName": "砚北",
     "title": "History & Social Science Editor",
-    "rating": "Recommended"
+    "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-2e82d7b52d3d.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:48:36.102Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "chronicle-panorama"
   },
   "chapters": [
     {
@@ -378,6 +404,6 @@
     ]
   },
   "publishedAt": "2026-09-19T20:43:39.570Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-21T01:48:36.109Z"
+  "rerenderedAt": "2026-09-24T00:54:43.553Z",
+  "formFamily": "narrative"
 }
