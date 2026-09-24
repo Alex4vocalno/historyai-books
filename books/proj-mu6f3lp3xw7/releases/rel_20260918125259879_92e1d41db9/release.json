@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918125259879_92e1d41db9",
   "projectId": "proj-mu6f3lp3xw7",
-  "manuscriptVersionId": "mv_01c0622830e1bba1",
-  "contentHash": "01c0622830e1bba1994f77190fb756041fafa7345265567ac2f3dedfe281abed",
+  "manuscriptVersionId": "mv_12309f815c24df4c",
+  "contentHash": "12309f815c24df4cc501190f704c3fa2d28d3272537a7d8ec1e9dcb564c952fe",
   "title": "Eighteen Minutes",
   "subtitle": "The Sinking of the Lusitania and the Eighteen Minutes That Changed the World",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T12:48:59.141Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:52:55.563Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_a9fc6fb43ba28ec4",
+      "createdAt": "2026-09-18T12:46:54.362Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This meticulous reconstruction of the Lusitania disaster excels in its physical immediacy, particularly in Chapter 14's chilling use of hydrographic data and mechanical detail to ground the horror. The narrative's strength lies in such concrete juxtapositions, like the Cunard ad beside the German warning, which powerfully embodies the era's fatal contradictions. However, the otherwise gripping countdown structure occasionally falters after the sinking, slipping into retrospective summary where the scene-by-scene urgency is most needed. While the timeline is rigorously stamped throughout, some",
+    "text": "This meticulous reconstruction achieves its most powerful moments when the physical world—a quarter-inch of newsprint, fifty-five-degree water, a blue-covered report—bears the full weight of history, grounding the catastrophe in tangible, chilling detail. The rigorous, time-stamped narrative successfully delivers the relentless immediacy the subject demands. However, the momentum falters slightly in the later chapters, where the tight, cross-cut structure occasionally gives way to retrospective summary, and some repetitive phrasing briefly interrupts the immersion. A final polish would sharpen",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-9eac1a9134a0.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:32:03.918Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "epigraphy-rubbing"
   },
   "chapters": [
     {
@@ -217,9 +240,6 @@
       "units": 3424
     }
   ],
-  "illustrations": 7,
-  "publishedAt": "2026-09-18T12:52:59.884Z",
-  "rerenderedAt": "2026-09-21T02:32:03.926Z",
   "topics": {
     "entities": [
       "Lusitania",
@@ -378,5 +398,8 @@
         "asOfYear": 1918
       }
     ]
-  }
+  },
+  "illustrations": 7,
+  "publishedAt": "2026-09-18T12:52:59.884Z",
+  "rerenderedAt": "2026-09-24T00:52:55.564Z"
 }
