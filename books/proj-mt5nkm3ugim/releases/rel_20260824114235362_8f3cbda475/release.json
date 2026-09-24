@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260824114235362_8f3cbda475",
   "projectId": "proj-mt5nkm3ugim",
-  "manuscriptVersionId": "mv_5bde86cf91c06ef5",
-  "contentHash": "5bde86cf91c06ef54de082a88d6d7ece682ba1bb0d75155eda32608c7508625c",
+  "manuscriptVersionId": "mv_5b498c77c46a1f2d",
+  "contentHash": "5b498c77c46a1f2d2d477e747f9fd150c878912cfa47979cf8c110b34cb944b5",
   "title": "补天裂",
   "subtitle": "",
   "authorDisplayName": "哈里·谢顿",
@@ -19,10 +19,11 @@
   ],
   "language": "zh",
   "workType": "fiction",
+  "lengthTier": "novel",
   "visibility": "public",
   "stats": {
     "chapterCount": 100,
-    "units": 819564,
+    "units": 819540,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -32,19 +33,42 @@
     "method": "median-of-1",
     "createdAt": "2026-08-24T10:21:40.770Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T01:27:19.093Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "ce9bcc6eba96",
+      "createdAt": "2026-08-24T10:19:40.241Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "这本书最动人的地方在于，它把一门冷僻的手艺变成了一个滚烫的悬疑内核。开篇对宣德炉修复的描写，从指尖触感到舌尖试味，技艺的细节本身就充满了张力。‘沉默签名’与‘活体档案’这两个核心概念的碰撞也极具巧思，让修补器物这个动作，变成了与历史、与权力无声的角力。李九变与沈青梧的几场对话，表面谈古论今，实则机锋暗藏，写得克制又有力。不过，阅读中也确实能感觉到一些节奏上的滞涩，中段连续几个‘夜探前夕’的章节，信息增量有限，稍显拖沓，部分章节间的悬念钩子也未能完全接上，让阅读的流畅感打了折扣。瑕不掩瑜，结尾李九变匿名捐赠后汇入人潮的留白，沈青梧选择‘守着自己这一小片清净地’的弧光，都让这个关于真伪、技艺与传承的故事，有了沉静而悠长的余韵。",
+    "text": "这本书最迷人的是开篇——李九变修复宣德炉时，指尖触到内壁凹陷、侧光下细线显现、舌尖尝出金属味差异，专业技艺瞬间化为悬疑张力，奠定了全书独特的叙事语调。'沉默签名'与'活体档案'两个核心概念也设计得精巧，将匠人技艺变成历史证词，又揭示权力对传承的异化，让'真与假'的探讨有了多层肌理。人物对话的克制张力同样出色，比如李九变与沈青梧围绕'补天裂'典故的交锋，表面谈铜器，实则互相试探底线。不过，阅读中能感觉到节奏上的断裂感，多处章末截断（如第14章以省略号收尾无终端标点）削弱了悬念的连贯传递，中段连续出现'夜探前夕'等重复标题章节，情节推进也显冗余。终章收束得有余韵——李九变匿名捐赠后汇入人潮，沈青梧选择'守着自己这一小片清净地'，标签上无名氏的留白恰到好处，但若章节间的钩子能更紧密，整体体验会更流畅。",
     "penName": "疏影",
     "title": "文学编辑",
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-fe633dba3356.png",
+    "file": "cover.jpg",
     "provider": "openrouter",
-    "model": "qwen/qwen-image-3",
-    "generatedAt": "2026-08-28T03:56:39.239Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-08-27T08:24:22.672Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "mythic-fissure"
   },
   "chapters": [
     {
@@ -63,7 +87,7 @@
       "idx": 2,
       "sourceIdx": 2,
       "title": "夜访听桐斋",
-      "units": 11180
+      "units": 11174
     },
     {
       "idx": 3,
@@ -105,7 +129,7 @@
       "idx": 9,
       "sourceIdx": 9,
       "title": "技艺即罪证",
-      "units": 9781
+      "units": 9775
     },
     {
       "idx": 10,
@@ -303,7 +327,7 @@
       "idx": 42,
       "sourceIdx": 42,
       "title": "血夜抉择",
-      "units": 8060
+      "units": 8054
     },
     {
       "idx": 43,
@@ -453,7 +477,7 @@
       "idx": 67,
       "sourceIdx": 67,
       "title": "赝品重现",
-      "units": 6586
+      "units": 6580
     },
     {
       "idx": 68,
@@ -648,8 +672,6 @@
       "units": 5108
     }
   ],
-  "publishedAt": "2026-08-24T11:42:35.364Z",
-  "rerenderedAt": "2026-08-28T03:56:39.259Z",
   "topics": {
     "entities": [],
     "geo": [],
@@ -1156,5 +1178,7 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "publishedAt": "2026-08-24T11:42:35.364Z",
+  "rerenderedAt": "2026-09-24T01:27:19.098Z"
 }
