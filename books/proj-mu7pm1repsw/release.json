@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919092644287_2d9e632f98",
   "projectId": "proj-mu7pm1repsw",
-  "manuscriptVersionId": "mv_b1331b9b58e3d05e",
-  "contentHash": "b1331b9b58e3d05eda9850a3993e7040220f1f5923299d441815361b887942af",
+  "manuscriptVersionId": "mv_75e4b643d26f0b14",
+  "contentHash": "75e4b643d26f0b141416c83ebe75d93f66e43b77e6ecfc2fc777e50e78801fd9",
   "title": "Diamonds in the Sand",
   "subtitle": "The Great Diamond Hoax of 1872 and the Men Who Fooled America",
   "authorDisplayName": "Liszt Think",
@@ -33,20 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-19T07:08:37.957Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:53:49.973Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_08be761653593e6a",
+      "createdAt": "2026-09-19T07:08:35.190Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This panoramic reconstruction of the 1872 diamond hoax grounds its power in dated physical particulars—the weight of Ralston's silver, the texture of a salted mesa—rather than adjectives, creating a consistently immediate reading experience. Its multi-track structure successfully converges distinct timelines at the climax, delivering genuine narrative force. However, the prose carries mechanical artifacts, such as duplicate passages and repetitive sentence openings, which disrupt the reading rhythm and signal a need for tighter line-editing. The post-climax chapters, while maintaining better s",
+    "text": "This panoramic reconstruction earns its authority by grounding every scene in dated physical particulars—from the weight of silver bars to the texture of telegraph paper—which builds a tangible, immediate world. The multi-track structure converges with satisfying precision at the climax, making the fraud’s unraveling both intellectually and narratively compelling. However, the prose occasionally shows its seams: some chapters suffer from repetitive sentence openings that dull the pacing, and after the climax, the narrative voice occasionally drifts into retrospective summary, softening the ten",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-827b1bea6544.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-22T08:27:28.667Z",
     "textless": false,
+    "profileId": "woodblock-print",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "woodblock-print"
   },
   "chapters": [
     {
@@ -218,8 +243,6 @@
       "units": 2866
     }
   ],
-  "publishedAt": "2026-09-19T09:26:44.290Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "Diamond hoax of 1872",
@@ -380,5 +403,7 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-22T08:27:28.684Z"
+  "publishedAt": "2026-09-19T09:26:44.290Z",
+  "rerenderedAt": "2026-09-24T00:53:49.974Z",
+  "formFamily": "narrative"
 }
