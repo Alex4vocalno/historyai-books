@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260830082441138_f1771ec716",
   "projectId": "proj-mt8lucf9z8i",
-  "manuscriptVersionId": "mv_62eaa45066682fa6",
-  "contentHash": "62eaa45066682fa66c6a11e1f6968fd60a06723f5be143eb3625b95a1122a8b6",
+  "manuscriptVersionId": "mv_f56f0981cbbb0620",
+  "contentHash": "f56f0981cbbb062046f24e33e1f5e9ec3e6d96730b186a5bfcb0b0464a89565e",
   "title": "无声世界",
   "subtitle": "",
   "authorDisplayName": "绝对值",
@@ -19,10 +19,11 @@
   ],
   "language": "zh",
   "workType": "fiction",
+  "lengthTier": "novel",
   "visibility": "public",
   "stats": {
     "chapterCount": 32,
-    "units": 360317,
+    "units": 360311,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -32,19 +33,42 @@
     "method": "median-of-1",
     "createdAt": "2026-08-30T08:11:29.745Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T01:27:35.898Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "2795e27d407f",
+      "createdAt": "2026-08-30T08:09:59.519Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "翻开这本书，你首先会被作者构建的那个‘无声世界’所捕获——尘土的气味、铁锈的触感、光影的明暗，所有感官被重新调配，共同编织出一种令人屏息的末世在场感。失聪的主角伊莱亚斯，他的成长弧线清晰有力，从被过度保护的少年，到在猜忌与背叛的暗流中逐步觉醒，最终成为‘导师’的过程，充满了可信的挣扎与力量。作者对非语言沟通（手势、身体语言）的创意描绘，也为这个世界的生存逻辑提供了独特的解法。不过，阅读中也能感觉到章节间的衔接有时略显生硬，影响了叙事的丝滑流动，部分章节的节奏和信息密度也稍有不均，让那股紧绷的悬念感偶有松驰。但瑕不掩瑜，这依然是一个用眼睛去‘倾听’的、充满细节与张力的故事。",
+    "text": "《无声世界》最动人的，是作者用触觉、视觉、嗅觉等感官，细腻地为你重构了一个声音即死亡的静默废墟——那种尘土与铁锈的气息，光影的颤动，都让这个独特的世界有了在场感。主角伊莱亚斯从被过度保护的少年到废墟导师的成长弧线，也清晰有力，让人信服。不过，阅读中偶尔能感觉到章节之间的衔接有些生硬，叙事流畅度被打断；部分章节（比如中段插入技术日志的地方）节奏会突然放缓，信息密度过大，需要一点耐心。但整体上，这是一个用眼睛去‘倾听’的、充满悬念的成长故事，那些沉默中的手势与眼神，比许多喧哗的对白更有力量。",
     "penName": "疏影",
     "title": "文学编辑",
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-a11e24e451a5.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-04T06:43:02.214Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "fiction-dark-survival"
   },
   "chapters": [
     {
@@ -183,7 +207,7 @@
       "idx": 22,
       "sourceIdx": 22,
       "title": "幸存者",
-      "units": 11056
+      "units": 11050
     },
     {
       "idx": 23,
@@ -240,8 +264,6 @@
       "units": 10381
     }
   ],
-  "publishedAt": "2026-08-30T08:24:41.261Z",
-  "rerenderedAt": "2026-09-04T06:43:02.220Z",
   "topics": {
     "entities": [],
     "geo": [],
@@ -408,5 +430,7 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "publishedAt": "2026-08-30T08:24:41.261Z",
+  "rerenderedAt": "2026-09-24T01:27:35.899Z"
 }
