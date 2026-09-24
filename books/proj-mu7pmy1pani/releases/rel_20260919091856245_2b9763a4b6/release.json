@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919091856245_2b9763a4b6",
   "projectId": "proj-mu7pmy1pani",
-  "manuscriptVersionId": "mv_c59dbda1d19c1c7f",
-  "contentHash": "c59dbda1d19c1c7f0e0a08981764ce43d2459f669968074e33f7f1737afda905",
+  "manuscriptVersionId": "mv_a7e737d630365f84",
+  "contentHash": "a7e737d630365f8453a754e90e4a34b6cca828d12cc66d62d500cd0b2a03edd7",
   "title": "Five Days Without Sky",
   "subtitle": "London, 1952, and the Fog That Changed the World",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-19T08:27:36.796Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:54:00.591Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_cd7ad231ee8f4b8b",
+      "createdAt": "2026-09-19T08:27:32.239Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This meticulously researched account of the Great Smog of 1952 achieves its power through disciplined, concrete detail—the reader is there, feeling the bus conductor’s flare gutter out in the soupy air. The narrative masterfully weaves distinct institutional and human perspectives, building causation from physical facts rather than abstract claims. However, a jarring chronological jump in the book’s middle section momentarily fractures the immersive, day-by-day countdown structure that is otherwise so compelling. This is a vivid and authoritative reconstruction, its minor structural seam the o",
+    "text": "The book excels in its immersive, detail-driven reconstruction of the Great Smog, rendering causation through concrete administrative and physical specifics rather than assertion. Its multi-track structure maintains distinct voices, and the immediacy achieved through dated physical details—like a bus conductor extinguishing his flare—is masterful. However, a jarring structural seam between two key chapters disrupts the narrative's core chronological contract, momentarily breaking the immersive countdown that otherwise drives the story with such discipline.",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-57c06f572cad.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:04:00.689Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "chronicle-panorama"
   },
   "chapters": [
     {
@@ -217,7 +240,6 @@
       "units": 3025
     }
   ],
-  "publishedAt": "2026-09-19T09:18:56.248Z",
   "topics": {
     "entities": [
       "Great Smog of London",
@@ -378,5 +400,6 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T02:04:00.699Z"
+  "publishedAt": "2026-09-19T09:18:56.248Z",
+  "rerenderedAt": "2026-09-24T00:54:00.592Z"
 }

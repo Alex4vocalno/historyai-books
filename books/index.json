@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu7pmy1pani",
+    "projectId": "proj-mu7pmy1pani",
+    "releaseId": "rel_20260919091856245_2b9763a4b6",
+    "title": "Five Days Without Sky",
+    "subtitle": "London, 1952, and the Fog That Changed the World",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "London history",
+      "environmental disaster",
+      "1950s Britain",
+      "public health",
+      "narrative nonfiction",
+      "世界史"
+    ],
+    "description": "On December 5, 1952, an anticyclone trapped the smoke of a million coal fires over London. For five days, visibility fell to mere feet. Buses were guided by conductors wielding flares; prize cattle at the Smithfield Show choked to death; hospitals and undertakers exhausted their supplies. While the Ministry of Health initially reported four thousand deaths, the true toll reached twelve thousand. Drawing on Met Office records, government papers, and survivor memories, this narrative reconstructs the catastrophe hour by hour. It exposes a government reluctant to blame the low-grade ‘nutty slack’ coal it profited from, even as Parliament debated in blindness and coffin makers worked overtime. From the silence of operating theatres to the eventual Clean Air Act of 1956, this is the definitive account of a city suffocating under its own fuel—and the painful reckoning that finally cleared the air.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-19T08:27:36.796Z"
+    },
+    "coverUrl": "books/proj-mu7pmy1pani/releases/rel_20260919091856245_2b9763a4b6/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu7pmy1pani/index.html",
+    "publishedAt": "2026-09-19T09:18:56.248Z",
+    "firstPublishedAt": "2026-09-19T08:28:58.304Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu7pm1repsw",
     "projectId": "proj-mu7pm1repsw",
     "releaseId": "rel_20260919092644287_2d9e632f98",
@@ -1292,41 +1327,6 @@
     "url": "books/proj-mu84aupge0t/index.html",
     "publishedAt": "2026-09-19T10:46:31.468Z",
     "firstPublishedAt": "2026-09-19T10:46:31.468Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu7pmy1pani",
-    "projectId": "proj-mu7pmy1pani",
-    "releaseId": "rel_20260919091856245_2b9763a4b6",
-    "title": "Five Days Without Sky",
-    "subtitle": "London, 1952, and the Fog That Changed the World",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "London history",
-      "environmental disaster",
-      "1950s Britain",
-      "public health",
-      "narrative nonfiction",
-      "世界史"
-    ],
-    "description": "On December 5, 1952, an anticyclone trapped the smoke of a million coal fires over London. For five days, visibility fell to mere feet. Buses were guided by conductors wielding flares; prize cattle at the Smithfield Show choked to death; hospitals and undertakers exhausted their supplies. While the Ministry of Health initially reported four thousand deaths, the true toll reached twelve thousand. Drawing on Met Office records, government papers, and survivor memories, this narrative reconstructs the catastrophe hour by hour. It exposes a government reluctant to blame the low-grade ‘nutty slack’ coal it profited from, even as Parliament debated in blindness and coffin makers worked overtime. From the silence of operating theatres to the eventual Clean Air Act of 1956, this is the definitive account of a city suffocating under its own fuel—and the painful reckoning that finally cleared the air.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 88,
-      "method": "median-of-3",
-      "createdAt": "2026-09-19T08:27:36.796Z"
-    },
-    "coverUrl": "books/proj-mu7pmy1pani/releases/rel_20260919091856245_2b9763a4b6/cover-57c06f572cad.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu7pmy1pani/index.html",
-    "publishedAt": "2026-09-19T09:18:56.248Z",
-    "firstPublishedAt": "2026-09-19T08:28:58.304Z",
     "visibility": "public"
   },
   {
