@@ -44,7 +44,9 @@ window.EvoronDiscovery.install(window,POOL,function(visible,total,state){
   var clear=document.querySelector('[data-search-clear]');if(clear)clear.hidden=!searching;
   try{document.dispatchEvent(new CustomEvent('bookshelf:cards',{detail:{ids:visible.map(function(b){return b.p})}}))}catch(e){}
 });
-if(grid)grid.addEventListener('click',function(e){var author=e.target.closest('[data-author-link]');if(author){e.preventDefault();e.stopPropagation();location.href=author.dataset.authorLink;return}var read=e.target.closest('[data-read-link]');if(read){e.preventDefault();e.stopPropagation();var target=read.dataset.readLink;var card=e.target.closest('[data-book-card]');try{var st=JSON.parse(localStorage.getItem('historyai.reader.'+(card&&card.dataset.pid))||'{}');if(st&&st.href&&(!st.releaseId||st.releaseId===(BOOKS[card&&card.dataset.pid]||{}).release)&&/^ch-\d+\.html$/.test(st.href))target=target.replace(/(?:read|ch-1)\.html$/,st.href)}catch(e2){}location.href=target}});
+if(grid)grid.addEventListener('click',function(e){var author=e.target.closest('[data-author-link]');if(author){e.preventDefault();e.stopPropagation();location.href=author.dataset.authorLink;return}var read=e.target.closest('[data-read-link]');if(read){e.preventDefault();e.stopPropagation();var target=read.dataset.readLink;var card=e.target.closest('[data-book-card]');var book=BOOKS[card&&card.dataset.pid];
+  if(book&&readerId!==null){var recent=EvoronDiscovery.recentBooks([book],localProgress(),cloudRows,readerId);if(recent.length)target=recent[0].href}
+  location.href=target}});
 var railBox=document.querySelector('[data-rail]');
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 function coverThemeName(b){
@@ -73,37 +75,27 @@ function recArt(b){
       :'<div class="rec-cover"><div class="cover-copy"><h2>'+esc(b.t)+'</h2></div></div>');
   return art;
 }
-function recCard(b){
+function recCard(item){
+  var b=item.book, en=document.documentElement.lang.indexOf('en')===0;
   var art=recArt(b);
-  return '<a class="rec-card" href="'+esc(b.u)+'">'+art+'<span class="rec-body"><em class="rec-cat">'+esc(b.g)+'</em><strong>'+esc(b.t)+'</strong><small>'+esc(b.a)+'</small></span></a>';
+  var reason=item.related?(en?'Related to your library':'与你收藏或阅读的题材相关'):(en?'Explore the library':'发现不同的书');
+  return '<a class="rec-card" href="'+esc(b.u)+'">'+art+'<span class="rec-body"><em class="rec-cat">'+esc(en?b.categoryEn||b.g:b.g)+'</em><strong>'+esc(b.t)+'</strong><small>'+esc(b.a)+'</small><small data-rec-reason>'+reason+'</small></span></a>';
 }
 function continueCard(r){
   var pct=r.b.n?Math.min(100,Math.round((r.ch+1)/r.b.n*100)):0;
   return '<a class="rec-card cont-card" title="'+esc(r.b.t)+'" href="'+esc(r.href||r.b.r)+'">'+recArt(r.b)+'<span class="rec-body"><em class="rec-cat" data-continue-label>继续阅读</em><strong>'+esc(r.b.t)+'</strong><small data-continue-progress>读到第 '+(r.ch+1)+' 章 · '+pct+'%</small><span class="cont-bar"><i style="width:'+pct+'%"></i></span></span></a>';
 }
-// v5.12 For-you picks: signals = local reading traces + signed-in shelf;
-// category affinity x3 + editorial score + jitter; read/shelved books excluded.
-var KNOWN={},FAVCAT={},recPool=[];
-function collectLocalSignals(){
-  try{for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!k||k.indexOf('historyai.reader.')!==0)continue;var pid=k.slice('historyai.reader.'.length);KNOWN[pid]=1;
-    for(var j=0;j<POOL.length;j++)if(POOL[j].p===pid){FAVCAT[POOL[j].g]=(FAVCAT[POOL[j].g]||0)+1;break}}}catch(e){}
-}
-function buildRecs(){
-  recPool=POOL.filter(function(b){return !KNOWN[b.p]}).map(function(b){
-    return {b:b,w:(FAVCAT[b.g]||0)*3+(b.s||0)/25+Math.max(0,1-(Date.now()-b.at)/(30*86400000))};
-  }).sort(function(a,c){return c.w-a.w}).slice(0,12).map(function(x){return x.b});
-  var note=document.querySelector('[data-rec-note]');
-  if(note&&Object.keys(FAVCAT).length)note.textContent='按你的阅读口味挑选';
-}
+var readerId=null,cloudRows=[],recOffset=0,identityRequest=0;
 function drawRail(){
   if(!railBox)return;
-  var pool=recPool.length?recPool.slice():POOL.slice();
-  for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=pool[i];pool[i]=pool[j];pool[j]=t}
-  railBox.innerHTML=pool.slice(0,4).map(recCard).join('');
+  var picks=EvoronDiscovery.recommendations(POOL,localProgress(),cloudRows,readerId,recOffset);
+  railBox.innerHTML=picks.map(recCard).join('');
+  var note=document.querySelector('[data-rec-note]'),en=document.documentElement.lang.indexOf('en')===0;
+  if(note)note.textContent=picks.length?(en?'Explore authors, subjects and languages':'发现不同作者、题材与语言的作品'):(en?'You have explored this selection':'这些作品已在你的阅读记录中');
+  if(reroll)reroll.hidden=picks.length===0;
 }
-var reroll=document.querySelector('[data-reroll]');if(reroll)reroll.addEventListener('click',drawRail);
-collectLocalSignals();
-buildRecs();drawRail();
+var reroll=document.querySelector('[data-reroll]');if(reroll)reroll.addEventListener('click',function(){recOffset+=4;drawRail()});
+drawRail();
 function localProgress(){
   var rows=[];
   try{for(var i=0;i<localStorage.length;i++){
@@ -114,15 +106,29 @@ function localProgress(){
 }
 function drawContinue(cloud,userId){
   var box=document.querySelector('.continue-box');if(!box)return;
+  if(readerId===null){box.hidden=true;box.querySelector('.continue-strip').innerHTML='';return}
   var recent=EvoronDiscovery.recentBooks(POOL,localProgress(),cloud||[],userId||'');
   box.hidden=!recent.length;box.querySelector('.continue-strip').innerHTML=recent.map(continueCard).join('');
 }
-drawContinue();
-fetch('/api/reader/shelf',{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){
-  if(d&&d.ok)drawContinue(d.rows||[],d.syncUserId);
-  if(d&&d.ok)(d.rows||[]).forEach(function(row){KNOWN[row.bookId]=1;
-    for(var j=0;j<POOL.length;j++)if(POOL[j].p===row.bookId){FAVCAT[POOL[j].g]=(FAVCAT[POOL[j].g]||0)+2;break}});
-}).catch(function(){}).then(function(){buildRecs();drawRail()});
+function refreshReader(){
+  var ticket=++identityRequest;
+  readerId=null;cloudRows=[];recOffset=0;drawContinue();drawRail();
+  fetch('/api/reader/shelf',{credentials:'same-origin',cache:'no-store'}).then(function(r){
+    if(r.status===401)return {guest:true};
+    if(!r.ok)throw Error('Reader unavailable');
+    return r.json();
+  }).then(function(d){
+    if(ticket!==identityRequest)return;
+    if(d.guest)readerId='';
+    else if(d.ok&&typeof d.syncUserId==='string'&&d.syncUserId&&Array.isArray(d.rows)){readerId=d.syncUserId;cloudRows=d.rows}
+    drawContinue(cloudRows,readerId);drawRail();
+  }).catch(function(){});
+}
+refreshReader();
+window.addEventListener('focus',refreshReader);
+window.addEventListener('pageshow',function(e){if(e.persisted)refreshReader()});
+window.addEventListener('storage',function(e){if(!e.key||e.key.indexOf('historyai.reader.')===0)refreshReader()});
+window.addEventListener('evoron:language',function(){window.queueMicrotask(drawRail)});
 // Legacy home shelf links open the same shelf page as every other entry.
 if(location.hash.indexOf('#myshelf')===0){
   var status=(location.hash.match(/^#myshelf-(reading|wishlist|finished)$/)||[])[1]||'';

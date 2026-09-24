@@ -81,6 +81,42 @@
     return [...rows.values()].sort((a, b) => time(b) - time(a) || a.bookId.localeCompare(b.bookId)).slice(0, 4)
       .map(row => ({ b: books.get(row.bookId), ch: row.chapter, href: continueHref(books.get(row.bookId), row) }));
   }
+  function recommendations(pool, local = [], cloud = [], userId = null, offset = 0) {
+    const known = new Set(), categories = new Set();
+    const books = new Map(pool.map(book => [book.p, book]));
+    const category = book => book.categoryKey || book.g || '';
+    function add(row) {
+      const book = books.get(row?.bookId);
+      if (!book || known.has(book.p)) return;
+      known.add(book.p); categories.add(category(book));
+    }
+    if (userId !== null) {
+      local.filter(row => row && (row.readerUserId || '') === userId && Number.isInteger(row.chapter) && row.chapter >= 0).forEach(add);
+      cloud.forEach(add);
+    }
+    const candidates = pool.filter(book => !known.has(book.p)).map(book => ({
+      book, related: categories.has(category(book)),
+      weight: (categories.has(category(book)) ? 3 : 0) + (Number(book.s) || 0) / 25
+        + Math.max(0, Math.min(1, 1 - (Date.now() - (Number(book.at) || 0)) / (30 * 86400000))),
+    })).sort((a, b) => b.weight - a.weight || a.book.p.localeCompare(b.book.p));
+    if (!candidates.length) return [];
+    const start = offset % candidates.length;
+    const remaining = candidates.slice(start).concat(candidates.slice(0, start));
+    const selected = [], authors = new Set(), topics = new Set(), languages = new Set();
+    // Prefer variety within a batch; sparse catalogs still show the available books.
+    while (remaining.length && selected.length < 4) {
+      let best = 0, bestScore = -Infinity;
+      remaining.forEach((item, index) => {
+        const book = item.book;
+        const score = -index / remaining.length - (book.a && authors.has(normalized(book.a)) ? 4 : 0)
+          - (topics.has(category(book)) ? 2 : 0) - (book.lang && languages.has(book.lang) ? 1 : 0);
+        if (score > bestScore) { bestScore = score; best = index; }
+      });
+      const item = remaining.splice(best, 1)[0]; selected.push(item);
+      authors.add(normalized(item.book.a)); topics.add(category(item.book)); languages.add(item.book.lang);
+    }
+    return selected;
+  }
   function install(win, pool, paint) {
     const doc = win.document;
     const input = doc.querySelector('[data-shelf-search]');
@@ -188,5 +224,5 @@
     restore();
     return { remember };
   }
-  return { normalized, searchBooks, parseState, continueHref, recentBooks, install };
+  return { normalized, searchBooks, parseState, continueHref, recentBooks, recommendations, install };
 });

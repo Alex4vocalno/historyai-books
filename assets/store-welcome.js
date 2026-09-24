@@ -1,8 +1,54 @@
-/* global document, localStorage */
+/* global document, localStorage, window */
 (function () {
   'use strict';
   const key = 'evoron.welcome.dismissed';
   let en = document.documentElement.lang.toLowerCase().startsWith('en');
+  function firstVisit() {
+    if (!document.body?.classList.contains('store-home')) return;
+    const visitKey = 'evoron.firstVisit.dismissed';
+    try { if (localStorage.getItem(visitKey) || localStorage.getItem(key)) return; }
+    catch { return; }
+    const host = document.querySelector('.hero-inner');
+    const writeEntry = document.querySelector('[data-write-entry]');
+    if (!host || !writeEntry) return;
+    const section = document.createElement('section');
+    section.className = 'store-first-visit';
+    section.setAttribute('aria-labelledby', 'first-visit-title');
+    section.innerHTML = '<div><h2 id="first-visit-title"></h2><p data-visit-copy></p><nav data-visit-actions><a data-visit-read href="#all-books"></a><a data-visit-write></a><a data-visit-pricing></a></nav></div><button type="button" data-visit-close>&times;</button>';
+    const read = section.querySelector('[data-visit-read]');
+    const write = section.querySelector('[data-visit-write]');
+    const pricing = section.querySelector('[data-visit-pricing]');
+    const close = section.querySelector('[data-visit-close]');
+    write.href = writeEntry.href;
+    function translate() {
+      const english = document.documentElement.lang.toLowerCase().startsWith('en');
+      section.querySelector('h2').textContent = english ? 'Read freely. Create something new.' : '免费阅读，按需创作';
+      section.querySelector('[data-visit-copy]').textContent = english
+        ? 'Books are free to read. AI writing and revision use paid credits, not a reading subscription. Publishing is optional.'
+        : '书城作品免费阅读。AI 写作与编修按积分付费，不是阅读会员；作品由你选择是否公开。';
+      read.textContent = english ? 'Find a book' : '找书读';
+      write.textContent = english ? 'Start creating' : '开始创作';
+      pricing.textContent = english ? 'Writing credit prices' : '了解积分价格';
+      pricing.href = english ? '/pricing-en.html' : '/pricing.html';
+      close.title = english ? 'Dismiss introduction' : '关闭介绍';
+      close.setAttribute('aria-label', close.title);
+      section.querySelector('nav').setAttribute('aria-label', english ? 'Get started' : '开始探索');
+    }
+    function remember() { try { localStorage.setItem(visitKey, '1'); } catch { /* No account changes. */ } }
+    function dismiss() {
+      remember(); section.remove(); window.removeEventListener('evoron:language', translate);
+    }
+    close.onclick = () => { dismiss(); document.querySelector('[data-shelf-search]')?.focus({ preventScroll: true }); };
+    read.onclick = () => {
+      dismiss();
+      const catalog = document.querySelector('#all-books');
+      if (catalog) { catalog.tabIndex = -1; catalog.focus({ preventScroll: true }); }
+    };
+    write.onclick = remember;
+    translate(); host.prepend(section);
+    window.addEventListener('evoron:language', translate);
+  }
+  firstVisit();
   const pagesFor = en => en ? [
     { label: 'Welcome to EvoronAI', title: 'A global generative library.', copy: 'Anyone can bring the book they want to read into being, and share it with the world.', detail: 'You do not have to limit your curiosity to books that already exist. Read what others have created, or create the book you have been looking for.' },
     { label: 'Your interests. Your perspective. Your language.', title: 'Your curiosity deserves a book.', copy: 'Even if your interest is niche, your perspective is different, or no book is available in your language, what you want to read can be the starting point.', detail: 'No subject has just one story. Your language, perspective and curiosity can open up another way to explore it.' },

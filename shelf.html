@@ -78,14 +78,14 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 @media(max-width:620px){.wrap{padding:18px 14px 60px}.grid{grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:20px 14px}.card .acts button{min-height:30px}.shelf-tabs button{padding:0 16px}}
 .wrap .card .s{font-size:13px;line-height:1.5;white-space:normal;overflow:visible}.wrap .card .acts button{min-height:44px;font-size:13px}.wrap .card .acts{flex-wrap:wrap}.wrap .card .t{font-size:14px}
 html body.store-home,html body.store-shelf{background:#fff;font-family:var(--sans);letter-spacing:0}
-.store-home .page,.store-home .hero-inner,.store-home .topbar-inner,.store-shelf .wrap,.store-shelf .page-head,.store-shelf .topbar-inner{max-width:1080px}
+.store-home .page,.store-home .hero-inner,.store-home .topbar-inner,.store-shelf .wrap,.store-shelf .page-head,.store-shelf .topbar-inner{max-width:1120px}
 .store-home .topbar-inner,.store-shelf .topbar-inner{height:auto;min-height:68px;gap:16px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}
 .store-home .brand,.store-shelf .brand{min-width:0;flex-wrap:wrap}
-.store-home .brand-word,.store-shelf .brand-word{font-family:var(--sans);font-size:1.125rem;letter-spacing:0}
+.store-home .brand-word,.store-shelf .brand-word{font-family:var(--sans);font-size:1.125rem;letter-spacing:0;background:none;color:var(--ink);-webkit-text-fill-color:currentColor}
 .store-home .brand-cn,.store-shelf .brand-cn{font-family:var(--sans);font-size:1rem;letter-spacing:0}
 .store-home .topbar-right,.store-shelf .topbar-right{flex-wrap:wrap;justify-content:flex-end;margin-left:auto;min-width:0}
 .store-home .topbar-link,.store-home .lang-switch,.store-shelf .topbar-link{min-height:44px;border-radius:6px;font:.875rem/1.5 var(--sans)}
-.store-home .hero{background:#fff;border-bottom:1px solid var(--line);padding-top:26px;padding-bottom:24px}
+.store-home .hero{background:#f6f8f7;border-bottom:1px solid var(--line);padding-top:28px;padding-bottom:24px}
 .store-home .hero-search input{border:1px solid var(--line);border-radius:8px;box-shadow:none;font:1rem/1.5 var(--sans)}
 .store-home .cta-write{min-height:52px;border-radius:6px;background:#1667c9;box-shadow:none;font:.9375rem/1.5 var(--sans);font-weight:650;justify-content:center}
 .store-home .cta-write:hover{background:#1058b0;transform:none;box-shadow:none}
@@ -107,7 +107,8 @@ html body.store-home,html body.store-shelf{background:#fff;font-family:var(--san
 .store-home .search-head{flex-wrap:wrap;justify-content:space-between}
 .store-home .continue-strip{grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/4);grid-template-columns:none;overflow-x:auto;scroll-snap-type:x proximity;padding:4px 0 12px}
 .store-home .cont-card{scroll-snap-align:start;min-width:0}
-.store-home .sec{margin-bottom:40px}
+.store-home .sec{margin-bottom:44px}
+.store-home .sec+.sec{padding-top:28px;border-top:1px solid var(--line)}
 .store-home .sec-head h3,.store-home .search-head h3,.store-shelf .page-head h1{font:650 1.25rem/1.5 var(--sans)}
 .store-home .sec-head .note,.store-home .theme-group h4 small{font:.8125rem/1.5 var(--sans)}
 .store-home .sec-head .act button,.store-home .board-more{min-height:44px;display:inline-flex;align-items:center;font:.875rem/1.5 var(--sans)}
@@ -126,11 +127,15 @@ html body.store-home,html body.store-shelf{background:#fff;font-family:var(--san
 .store-home .rk-body strong{font:.875rem/1.5 var(--sans)}
 .store-home .rk-reco{letter-spacing:0}
 .store-home .rail-card,.store-home .rec-card,.store-home .quote-card{border-radius:6px;box-shadow:none}
-.store-home .rail-card,.store-home .rec-card{background:#f7f9f8;border:0}
+.store-home .rail-card,.store-home .rec-card{background:transparent;border:0}
 .store-home .rec-card:hover,.store-home .rail-card:hover,.store-home .quote-card:hover{transform:none;box-shadow:none;background:#f0f5f2}
-.store-home .rec-body strong,.store-home .rail-card strong{font:600 .9375rem/1.5 var(--sans);overflow-wrap:anywhere}
+.store-home .rec-body strong,.store-home .rail-card strong{font:600 1rem/1.5 var(--serif);overflow-wrap:anywhere}
+.store-home .continue-strip{grid-auto-columns:calc((100% - 32px)/3)}
+.store-home .cont-card small{color:var(--muted);font-weight:400}
+.store-home .rail{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 40px}
+.store-home .rec-card{padding:12px 0;gap:18px}
 .store-home .rec-cat{border-radius:4px;font:.75rem/1.5 var(--sans);padding:3px 7px}
-.store-home .rec-cover{width:76px;border-radius:3px;align-self:flex-start}
+.store-home .rec-cover{width:88px;border-radius:3px;align-self:flex-start}
 .store-home .category-tile{border-radius:6px;box-shadow:none;background:#fff;padding:14px 12px}
 .store-home .category-tile:hover{transform:none;box-shadow:none;background:#f7f9f8}
 .store-home .category-tile strong{font:600 .9375rem/1.5 var(--sans);overflow-wrap:anywhere}
@@ -144,8 +149,12 @@ html body.store-home,html body.store-shelf{background:#fff;font-family:var(--san
 .store-home .sortseg{padding:3px;border-radius:6px;background:#f2f4f3;flex-wrap:wrap;max-width:100%}
 .store-home .sortseg button{min-height:44px;border-radius:4px;font:.8125rem/1.5 var(--sans);padding:8px 12px;flex:1;white-space:normal}
 .store-home .shelf{gap:32px 24px}
-html .store-home .book-card h2{font:600 1rem/1.5 var(--sans);letter-spacing:0;min-height:3em;overflow-wrap:anywhere}
+html .store-home .book-card h2{font:600 1rem/1.5 var(--serif);letter-spacing:0;min-height:3em;overflow-wrap:anywhere}
 .store-home .book-card>p,.store-home .book-card .card-meta{font:.8125rem/1.5 var(--sans)}
+.store-home .book-card .card-meta{display:flex;flex-wrap:wrap;justify-content:flex-start;align-items:baseline;gap:6px 12px}
+.store-home .reco-line{color:#707875;font-size:.75rem}
+.store-home .reco-line b{color:#896424;font-size:.9375rem;font-weight:650}
+.store-home .readers-badge{margin:0;padding:0;border:0;background:none;color:#626b68;font:.75rem/1.5 var(--sans)}
 .store-home .book-card:hover .cover-art{transform:none;box-shadow:0 6px 18px rgba(27,36,33,.16)}
 .store-home .shelf-more button{min-height:44px;border:1px solid var(--line);border-radius:6px;font:.875rem/1.5 var(--sans);color:var(--green-dark)}
 .store-home .foot-brand{letter-spacing:0;text-indent:0}
@@ -210,12 +219,14 @@ html .store-home .book-card h2{font:600 1rem/1.5 var(--sans);letter-spacing:0;mi
   html .store-home .book-card h2,.store-shelf .card .t{font-size:.9375rem}
   .store-home .hot{scrollbar-width:thin}
   .store-home .continue-strip{grid-auto-columns:minmax(238px,78%);gap:12px}
+  .store-home .rail{grid-template-columns:none;grid-auto-columns:minmax(250px,85%);gap:20px}
+  .store-home .book-card .card-meta{display:flex}
 }
 @media(max-width:440px){.store-home .shelf,.store-shelf .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(prefers-reduced-motion:reduce){.store-home *,.store-shelf *{scroll-behavior:auto!important;transition:none!important}}
 
 </style></head><body class="store-shelf">
-<link rel="stylesheet" href="/assets/store-account.css?v=6.73.5"><script src="/assets/account-language.js?v=6.73.5"></script><script src="/assets/store-language.js?v=6.73.5" defer></script><link rel="stylesheet" href="/assets/analytics-consent.css?v=6.73.5"><script src="/assets/analytics-config.js" defer></script><script src="/assets/analytics-consent.js?v=6.73.5" defer></script><link rel="stylesheet" href="/assets/store-covers.css?v=6.73.5"><script src="/assets/store-covers.js?v=6.73.5" defer></script><script src="/assets/account-links.js?v=6.73.5" defer></script><script src="/assets/store-account.js?v=6.73.5" defer></script><header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html" aria-current="page">我的书架</a><a class="topbar-link" href="/about.html" data-store-about>关于我们</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a><span class="store-account-entry"><a class="store-write" href="https://write.evoronai.com/" data-account-label="write">开始写作</a><a class="store-pricing" href="/pricing.html" data-account-label="pricing">积分方案</a><a href="/account.html?tab=general" data-guest-settings>设置</a><a class="store-login" href="https://write.evoronai.com/login.html" data-store-account>登录 / 注册</a></span></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a class="on" href="/shelf.html" aria-current="page"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script src="/assets/store-tabbar.js?v=6.73.5"></script>
+<link rel="stylesheet" href="/assets/store-account.css?v=6.73.7"><script src="/assets/account-language.js?v=6.73.7"></script><script src="/assets/store-language.js?v=6.73.7" defer></script><link rel="stylesheet" href="/assets/analytics-consent.css?v=6.73.7"><script src="/assets/analytics-config.js" defer></script><script src="/assets/analytics-consent.js?v=6.73.7" defer></script><link rel="stylesheet" href="/assets/store-covers.css?v=6.73.7"><script src="/assets/store-covers.js?v=6.73.7" defer></script><script src="/assets/account-links.js?v=6.73.7" defer></script><script src="/assets/store-account.js?v=6.73.7" defer></script><header class="topbar"><div class="topbar-inner"><a class="brand" href="/index.html"><img class="brand-mark" src="/brand/evoron-mark.png" alt="EVORON AI"><span class="brand-word">EVORON AI</span><span class="brand-cn">书城</span></a><span class="topbar-right"><a class="topbar-link" href="/index.html">书城首页</a><a class="topbar-link active" href="/shelf.html" aria-current="page">我的书架</a><a class="topbar-link" href="/about.html" data-store-about>关于我们</a><a class="topbar-link" href="/feed.html">社区动态</a><a class="topbar-link" href="/me.html">我的主页</a><span class="store-account-entry"><a class="store-write" href="https://write.evoronai.com/" data-account-label="write">开始写作</a><a class="store-pricing" href="/pricing.html" data-account-label="pricing">积分方案</a><a href="/account.html?tab=general" data-guest-settings>设置</a><a class="store-login" href="https://write.evoronai.com/login.html" data-store-account>登录 / 注册</a></span></span></div></header><nav class="m-tabbar" aria-label="站内导航"><a href="/index.html"><img src="/assets/icons/books.png" alt=""><span class="mtb-t">书城</span></a><a class="on" href="/shelf.html" aria-current="page"><img src="/assets/icons/bookmark.png" alt=""><span class="mtb-t">书架</span></a><a href="/feed.html"><img src="/assets/icons/speech.png" alt=""><span class="mtb-t">动态</span></a><a href="/me.html"><img src="/assets/icons/person.png" alt=""><span class="mtb-t">我的</span></a></nav><script src="/assets/store-tabbar.js?v=6.73.7"></script>
 <div class="page-head"><h1>我的书架</h1><p class="lede me" id="me"></p></div>
 <div class="wrap">
   <nav class="shelf-tabs" role="tablist" aria-label="书架视图"><button type="button" class="on" id="shelf-books-tab" data-stab="books" role="tab" aria-controls="shelf-books" aria-selected="true">书架</button><button type="button" id="notebook-tab" data-stab="notes" role="tab" aria-controls="notebook" aria-selected="false" tabindex="-1">笔记本</button></nav>
@@ -223,7 +234,7 @@ html .store-home .book-card h2{font:600 1rem/1.5 var(--sans);letter-spacing:0;mi
   <div id="main"><div class="empty">正在打开书架…</div></div></section>
   <section id="notebook" role="tabpanel" aria-labelledby="notebook-tab" hidden></section>
 </div>
-<script src="/assets/reader-shelf.js?v=6.73.5"></script>
+<script src="/assets/reader-shelf.js?v=6.73.7"></script>
 
-<script src="/assets/shelf-page.js?v=6.73.5"></script>
-<script src="/assets/reader-notebook.js?v=6.73.5"></script></body></html>
+<script src="/assets/shelf-page.js?v=6.73.7"></script>
+<script src="/assets/reader-notebook.js?v=6.73.7"></script></body></html>

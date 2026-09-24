@@ -16,6 +16,7 @@
   var lang = isBrowser && window.EvoronLanguage ? window.EvoronLanguage.state().language : (String(nav.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en');
 
   var MAP = {
+    '封面候选': 'Cover candidates', '点开看大图，满意的点「使用这张封面」（已发布的书会同步换封）': 'Open a cover to see it full size, then choose “Use this cover” (published books update too)', '使用这张封面': 'Use this cover',
     '通用设置': 'General', '界面语言': 'Interface language', '跟随系统': 'System default',
     '保存设置': 'Save settings', '设置已保存': 'Settings saved', '设置未保存，请重试。': 'Settings were not saved. Please retry.',
     '购买写作积分须年满 18 岁，请确认后继续。': 'You must be at least 18 to buy writing credits. Please confirm to continue.',
@@ -221,7 +222,7 @@
     '书稿已完稿': 'Your manuscript is complete',
     '成书总结 · 已发布': 'Book summary · published', '章节': 'Chapters', '成书规模': 'Manuscript length',
     '项目历时（含等待）': 'Project elapsed time (including waiting)',
-    '阅读正式正文': 'Read manuscript', '讨论修改': 'Discuss revisions', '下载 Word 文档': 'Download Word document',
+    '阅读正式正文': 'Read manuscript', '讨论修改': 'Discuss revisions', '评测与发布': 'Evaluate & publish', '下载 Word 文档': 'Download Word document',
     '阅读成书': 'Read your book', '作品评测': 'Book evaluation',
     '先通读正式正文，确认作品整体感受。': 'Read the manuscript and see how the book feels as a whole.',
     '编辑评测正在运行，完成后自动更新。': 'Evaluation is running. Results will update when it finishes.',
