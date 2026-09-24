@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918103912676_0559bea0be",
   "projectId": "proj-mu6dbyzi08s",
-  "manuscriptVersionId": "mv_f52fe9c655d33d24",
-  "contentHash": "f52fe9c655d33d242c939846197b47464b7423dd97662fef17c7ed3364fa07dd",
+  "manuscriptVersionId": "mv_55ee3d74d5a74058",
+  "contentHash": "55ee3d74d5a74058110a99cb2bee84abbb81ff8c28ffccb815ea6e51a9ea51a5",
   "title": "The Ice Held Them",
   "subtitle": "Endurance, the Ross Sea Party, and the Imperial Trans-Antarctic Expedition",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T10:35:56.261Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:51:18.343Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_a38e75fa4f91e70e",
+      "createdAt": "2026-09-22T05:54:51.641Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_applicable",
+        "articleDensity": "checked",
+        "judged": 0
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This reconstruction of the Endurance ordeal delivers a structurally sound and commendably clear chronicle of the expedition's causal chain—particularly in grounding Shackleton’s ambition in the hard financial ledgers of Chapter 2. Its multi-track structure during the crisis phase effectively conveys the simultaneous struggles of different groups. However, the narrative texture can feel abstract where it should be concrete, with some later chapters drifting into retrospective summary rather than maintaining the gripping, scene-level immediacy established earlier. A more disciplined handling of",
+    "text": "This book's great strength lies in its insightful reframing of survival as a feat of social engineering and routine, a thesis convincingly supported throughout. The sensory details, particularly the harrowing sounds of the ship's destruction, achieve a powerful immediacy. However, the narrative's immersive promise is too often broken by jarring shifts into academic commentary and by continuity errors that strain the timeline's credibility. The later sections, while ambitious in scope, lose the disciplined, scene-by-scene reconstruction that gives the core ordeal its force.",
     "penName": "砚北",
     "title": "History & Social Science Editor",
-    "rating": "Worth reading"
+    "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-8d06d9908a9a.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:28:54.930Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "chronicle-panorama"
   },
   "chapters": [
     {
@@ -217,9 +243,6 @@
       "units": 3929
     }
   ],
-  "illustrations": 10,
-  "publishedAt": "2026-09-18T10:39:12.679Z",
-  "rerenderedAt": "2026-09-21T02:28:54.938Z",
   "topics": {
     "entities": [
       "The Ice Held Them",
@@ -369,5 +392,8 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "illustrations": 10,
+  "publishedAt": "2026-09-18T10:39:12.679Z",
+  "rerenderedAt": "2026-09-24T00:51:18.344Z"
 }
