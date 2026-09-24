@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919035416065_2ccc4f67e1",
   "projectId": "proj-mu4ynbc501p",
-  "manuscriptVersionId": "mv_cbc2d2f3b327f48c",
-  "contentHash": "cbc2d2f3b327f48c1859b02a81688791c48f36847b2ca9ecf9716e32d9aea733",
+  "manuscriptVersionId": "mv_cfc92fd33dd50ce4",
+  "contentHash": "cfc92fd33dd50ce473cbf13fdb3705f70bc55dcd202559831804ce1debee2e49",
   "title": "The Ledger of Small Hours",
   "subtitle": "A Mystery of the Manchester Exchange",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-17T05:43:27.551Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:50:55.217Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_34c3cf598fe0fd19",
+      "createdAt": "2026-09-22T06:25:38.063Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "checked",
+        "articleDensity": "not_applicable",
+        "judged": 25
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "In the fluorescent hush of the 1962 Manchester telephone exchange, this procedural achieves a rare tactile immersion. Ruth Calloway is a triumph of moral complexity; her journey from rigid ledger-keeper to guardian of complicit silence is deeply felt, while the fair-play clueing—specifically the unclosed 'C' loop and the cancelled bus timetable—rewards the sharpest readers. However, the mid-section suffers from rhythmic fatigue, where repetitive sentence structures and an over-reliance on em-dashes stall the tension. Though the emotional resolution lands with weight, the deflation of Alec Dunb",
+    "text": "Tracy O’Neill’s novel shines brightest in the fluorescent hush of the Manchester telephone exchange, where the click of relay racks feels like a secret language. The fair-play mystery is meticulously constructed, and Ruth Calloway’s moral descent offers genuine grit. However, the prose suffers from repetitive tics—the mantra 'The ledger doesn't lie' loses its punch after the seventh recitation—and the middle chapters stall with rhythmic monotony. While the sensory precision of Chapter 9’s theft sequence is immersive, the manuscript too often tells us the tension rather than showing it. A rigor",
     "penName": "疏影",
     "title": "Fiction Editor",
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-f76adac1d88f.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:13:55.230Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "method-clean-grid"
   },
   "chapters": [
     {
@@ -199,8 +225,6 @@
       "units": 2218
     }
   ],
-  "publishedAt": "2026-09-19T03:54:16.069Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [],
     "geo": [],
@@ -333,5 +357,7 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T02:13:55.238Z"
+  "publishedAt": "2026-09-19T03:54:16.069Z",
+  "rerenderedAt": "2026-09-24T00:50:55.219Z",
+  "formFamily": "narrative"
 }
