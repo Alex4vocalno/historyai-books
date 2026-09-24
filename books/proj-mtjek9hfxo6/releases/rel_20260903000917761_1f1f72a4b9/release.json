@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260903000917761_1f1f72a4b9",
   "projectId": "proj-mtjek9hfxo6",
-  "manuscriptVersionId": "mv_c1cb7779d17546e5",
-  "contentHash": "c1cb7779d17546e5713ab5dbd615e4b2a798e6d50a00e9084ca6f2e9231e77ac",
+  "manuscriptVersionId": "mv_e0abc06cc7f3bee5",
+  "contentHash": "e0abc06cc7f3bee5d36e91fb5bbb9eb4e82ec41d14fea69d9aa0a28cb39a9fc0",
   "title": "青芜纪",
   "subtitle": "",
   "authorDisplayName": "李思特Think",
@@ -19,10 +19,11 @@
   ],
   "language": "zh",
   "workType": "fiction",
+  "lengthTier": "novel",
   "visibility": "public",
   "stats": {
     "chapterCount": 32,
-    "units": 315550,
+    "units": 315544,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -32,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-02T16:41:40.456Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T01:28:11.351Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_9206a2c78d4a6eb0",
+      "createdAt": "2026-09-02T16:40:37.680Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "《青芜纪》最动人的是它扎实的在场感：开篇药田里泥土的腥气、灵植的触感，立刻将人拉入那个资源枯竭的修真世界。主角陈芜的“记账式生存”被刻画得入木三分，他与赵雨在绝境中相互依存的关系演变，尤其是劫后余生的誓言场景，情感张力饱满，是书中真正闪光的时刻。不过，当情节推进到人物遭遇重大打击（如修为暴跌）时，后续的行动驱动力有时会迅速滑向生存算计，使得那份内心冲击的情感余韵未能充分延展，略显可惜。部分技术细节的详尽描写（如阵法优化）虽增强了世界真实感，但也偶有拖慢叙事节奏之感。总体而言，这是一部靠细腻场景与真实挣扎站稳脚跟的作品，若人物在命运转折时的情感链条能更绵密连贯，将更为出色。",
+    "text": "《青芜纪》最动人的是那份扎进泥土里的在场感——药田的湿气、草叶的涩味、指尖的触感，灵气衰微的世界在感官细节中变得可触可闻。主角陈芜那种记账式的挣扎，在资源匮乏中一分一厘算计的生存实感，刻画得尤为真切。他与赵雨在绝境中相互依存的关系演变，更是书中情感张力的高光时刻。不过，部分技术过程的描写略显繁复，偶尔拖慢了叙事的呼吸；而主角在遭遇重大打击后，从内心崩溃到迅速转入下一轮生存算计的转变，情感链条若能更绵密些，人物的弧光会更为完整。这是一部靠笨功夫与细腻场景构建起来的扎实之作，但人物声口与情感延续的打磨，尚可更精进。",
     "penName": "疏影",
     "title": "文学编辑",
     "rating": "编辑意见"
   },
   "cover": {
-    "file": "cover-26fc0284ac8c.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-04T12:31:43.882Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "fiction-eastern-fantasy"
   },
   "chapters": [
     {
@@ -81,7 +105,7 @@
       "idx": 5,
       "sourceIdx": 5,
       "title": "同门遇险",
-      "units": 10708
+      "units": 10702
     },
     {
       "idx": 6,
@@ -240,8 +264,6 @@
       "units": 7267
     }
   ],
-  "publishedAt": "2026-09-03T00:09:17.767Z",
-  "rerenderedAt": "2026-09-04T12:31:43.887Z",
   "topics": {
     "entities": [],
     "geo": [],
@@ -408,5 +430,7 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "publishedAt": "2026-09-03T00:09:17.767Z",
+  "rerenderedAt": "2026-09-24T01:28:11.353Z"
 }
