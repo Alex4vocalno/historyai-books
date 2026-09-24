@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260923083510880_ae18d88cad",
   "projectId": "proj-mtpdshkfle6",
-  "manuscriptVersionId": "mv_df71f91a8a387bc1",
-  "contentHash": "df71f91a8a387bc1dccdd6a2fdd6492213e645943a9e03218b4f7637858ee97b",
+  "manuscriptVersionId": "mv_b0446b8a83249927",
+  "contentHash": "b0446b8a83249927142cfaaa68b48b07a90e0f873d6144fc2822c4a0b55ae850",
   "title": "咬合",
   "subtitle": "",
   "authorDisplayName": "磨墨无文",
@@ -23,7 +23,7 @@
   "visibility": "public",
   "stats": {
     "chapterCount": 32,
-    "units": 395914,
+    "units": 395902,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -35,7 +35,7 @@
   },
   "integrity": {
     "schemaVersion": 1,
-    "checkedAt": "2026-09-23T08:35:10.887Z",
+    "checkedAt": "2026-09-24T01:28:28.812Z",
     "structure": "pass",
     "structureChecks": [
       "duplicate_chapter_title",
@@ -60,7 +60,7 @@
     }
   },
   "editorReview": {
-    "text": "《咬合》在那些完整的章节里，展现了令人印象深刻的现实主义质感。开篇对家庭账单的触感与深夜办公室声场的捕捉，将中年生活的疲惫与压力具象化，营造出强烈的在场感；而股东逼宫时对话的潜台词博弈，精准地传递了人物间的权力关系与各自盘算，声口分明，张力十足。然而，阅读体验被文本质量的严重不稳定所割裂，部分关键章节存在逻辑断裂、段落重复甚至混入非正文指令的硬伤，这直接打断了叙事的节奏与连贯性，让好不容易建立起来的人物弧线与悬念累积频频中断，实在可惜。",
+    "text": "《咬合》在描绘中年人的野心与虚无时，展现了一种粗粝的现实主义质感。它最动人的地方在于那些扎实的“在场感”——深夜办公室里设备折旧的声场、老技工对“技术入股”吐出的那口鄙夷的烟，都让阶层与职业的肌理触手可及。人物对白也张力十足，股东逼宫时的潜台词博弈，声口分明。然而，阅读体验被严重的文本硬伤反复割裂，部分关键章节逻辑断裂、段落重复，甚至混入非正文指令，如同精美的瓷器上布满裂痕，让精心构建的人物弧线与叙事节奏频频失焦。这是一部质地与瑕疵同样鲜明的作品，它的好与坏，都真实得令人扼腕。",
     "penName": "疏影",
     "title": "文学编辑",
     "rating": "编辑意见"
@@ -102,7 +102,7 @@
       "idx": 4,
       "sourceIdx": 4,
       "title": "深夜咖啡馆",
-      "units": 13237
+      "units": 13231
     },
     {
       "idx": 5,
@@ -114,7 +114,7 @@
       "idx": 6,
       "sourceIdx": 6,
       "title": "深夜的评估与选择",
-      "units": 10917
+      "units": 10911
     },
     {
       "idx": 7,
@@ -434,5 +434,6 @@
       }
     ]
   },
-  "publishedAt": "2026-09-23T08:35:10.897Z"
+  "publishedAt": "2026-09-23T08:35:10.897Z",
+  "rerenderedAt": "2026-09-24T01:28:28.814Z"
 }
