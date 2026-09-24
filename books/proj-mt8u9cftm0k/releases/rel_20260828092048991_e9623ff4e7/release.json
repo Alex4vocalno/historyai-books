@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260828092048991_e9623ff4e7",
   "projectId": "proj-mt8u9cftm0k",
-  "manuscriptVersionId": "mv_67d60737817d1239",
-  "contentHash": "67d60737817d12392bd8ab9a7a6eee94711f01b15d8910f7e098439b643f974c",
+  "manuscriptVersionId": "mv_d0637b2babfe74f4",
+  "contentHash": "d0637b2babfe74f4471abd00486248fd13fe139a74ff9a438f00924a50295354",
   "title": "灵山局：取经办差实录",
   "subtitle": "",
   "authorDisplayName": "芝芝为荔枝",
@@ -19,10 +19,11 @@
   ],
   "language": "zh",
   "workType": "fiction",
+  "lengthTier": "novel",
   "visibility": "public",
   "stats": {
     "chapterCount": 32,
-    "units": 377415,
+    "units": 377403,
     "unitLabel": "字"
   },
   "editorialScore": {
@@ -32,19 +33,42 @@
     "method": "median-of-1",
     "createdAt": "2026-08-28T09:12:53.379Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T01:27:54.769Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "2708a70406a8",
+      "createdAt": "2026-08-28T09:12:24.523Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "这本书最迷人的地方在于，它将神话彻底‘翻译’成了我们熟悉的现实肌理：紧箍咒是绩效文书，编制是终极追求，而取经路上的每一步，都成了体制内精妙的权力舞蹈。作者构建的这个官僚化西游世界极具说服力，唐三藏那套滴水不漏的官腔对白（‘按规程，我们需要先核对你的路引’）和白骨精对编制的卑微渴望（‘我只想不再当野妖了’），构成了全书最坚实、也最动人的声口。尤其是白骨精这条副线，从枯骨求道到面试被拒，情感真挚，细节扎实。不过，阅读中也确实能感觉到一些节奏上的滞涩，比如白骨精劝降的关键情节，从两个视角近乎重复地演绎了一遍，不免让中段的叙事效率打了折扣。瑕不掩瑜，这仍是一场别开生面、讽刺入骨的‘体制内’西行，灵山脚下，每一步都是人情世故的修罗场。",
+    "text": "这是一部将西游神话巧妙转译为体制生存手册的佳作，官场讽喻的锋芒与神话原型的筋骨结合得相当扎实。最出色的莫过于那些浸透官僚气息的感官细节：南天门的金辉冰冷刺眼，述职殿的檀香呛人喉鼻，连太白金星递来的紫毫笔都带着墨汁的焦油气——权力无处不在的压抑感，就这样从字缝里渗出来。人物声口更是稳当，唐三藏那句“按规程，我们需要先核对你的路引”，活脱脱一个谨小慎微的基层文吏；而白骨精渴求编制时的独白“我只想不再当野妖了”，其悲怆真切得令人动容。不过，中段叙事效率确有拖沓之处，白骨精劝降的关键情节从两个视角近乎重复地演绎，难免让节奏打了折扣；部分章节间的衔接也稍显生硬，上一章悬着的钩子，下一章有时未能妥帖接住。但瑕不掩瑜，当故事最终落到“三方共签”那“更精巧的枷锁”时，这场取经办的差役之旅，其现代寓言的力道已然十足。",
     "penName": "疏影",
     "title": "文学编辑",
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-571631874b8f.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-04T07:03:00.281Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "fiction-historical-court"
   },
   "chapters": [
     {
@@ -57,7 +81,7 @@
       "idx": 1,
       "sourceIdx": 1,
       "title": "案牍如山",
-      "units": 10820
+      "units": 10814
     },
     {
       "idx": 2,
@@ -87,7 +111,7 @@
       "idx": 6,
       "sourceIdx": 6,
       "title": "强闯龙宫",
-      "units": 14273
+      "units": 14267
     },
     {
       "idx": 7,
@@ -240,8 +264,6 @@
       "units": 9757
     }
   ],
-  "publishedAt": "2026-08-28T09:20:48.997Z",
-  "rerenderedAt": "2026-09-04T07:03:00.286Z",
   "topics": {
     "entities": [],
     "geo": [],
@@ -408,5 +430,7 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "publishedAt": "2026-08-28T09:20:48.997Z",
+  "rerenderedAt": "2026-09-24T01:27:54.770Z"
 }
