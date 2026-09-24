@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919164128916_fbbd09af93",
   "projectId": "proj-mu7443eb2t6",
-  "manuscriptVersionId": "mv_50f42005b7754bc7",
-  "contentHash": "50f42005b7754bc7241ce1697f47b5f5f4b6a67862e7a9e72fa6b01266c7f18e",
+  "manuscriptVersionId": "mv_e9260231e8664988",
+  "contentHash": "e9260231e8664988d87bb52671ec809093a69318f7d137d7bfe1f007e5a6174a",
   "title": "Nine Doors Down",
   "subtitle": "A Novella of the 1926 General Strike",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T17:36:43.213Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:53:16.945Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_e6078cf9f1a43b66",
+      "createdAt": "2026-09-22T06:27:58.400Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "checked",
+        "articleDensity": "not_applicable",
+        "judged": 19
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This novel captures the weight of a life lived in restraint with exceptional sensory precision—the air in Ada Penrose's house, thick with lemon polish and sealed envelopes, establishes a lived-in reality that lingers. Her transformation from isolation to connection feels earned, unfolding through the accumulating symbol of a halted metronome rather than dramatic incident. However, the book demands significant patience; the narrative stasis during the strike's second week mirrors the characters' stagnation too closely, testing the reader's endurance. While the prose is clean, it occasionally le",
+    "text": "This is a quietly accomplished novel of manners where the silence of the 1926 General Strike becomes a palpable presence. The writing excels in social exactitude—Frank polishing his brass buttons as 'his word' or the coal scuttle's passage serving as a negotiation of dignity reveals character through physical ritual rather than exposition. However, the prose occasionally suffers from mechanical repetition. Certain parallel syntactic structures thin the narrative's authority, and a density of similes sometimes distracts from the emotional weight. While the architectural coherence of motifs like",
     "penName": "疏影",
     "title": "Fiction Editor",
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-f8962251e333.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:50:57.936Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "fiction-romance-intimate"
   },
   "chapters": [
     {
@@ -163,7 +189,109 @@
       "units": 2163
     }
   ],
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Halted Metronome",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "The Empty Coal Scuttle",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "The Silent Piano",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "Neighbourhood Calculus",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "The Unpaid Request",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "Inside a Still and Quiet Room",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "Wound, Waiting",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "The First Note",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "Hollis Raises His Hand",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "Scales and Silence",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "Sparks over Coals",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "Delivering Kindness, Expecting Nothing",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "Unspoken Accounts",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "The Mother's Absence",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "The Broken Rule",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "The Distant Bell",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "Strike Called Off",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "Harmony Before the Return",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "The Open Shutter",
+        "asOfYear": null
+      }
+    ]
+  },
   "publishedAt": "2026-09-19T16:41:28.919Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-21T01:50:57.943Z"
+  "rerenderedAt": "2026-09-24T00:53:16.947Z",
+  "formFamily": "narrative"
 }
