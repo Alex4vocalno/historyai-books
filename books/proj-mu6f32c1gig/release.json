@@ -33,6 +33,32 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T14:17:13.392Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:52:42.569Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_758b30b9db0d601b",
+      "createdAt": "2026-09-22T05:59:37.616Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_applicable",
+        "articleDensity": "checked",
+        "judged": 0
+      },
+      "hardDefects": 1
+    }
+  },
   "editorReview": {
     "text": "This panoramic reconstruction of the Great Fire excels in its disciplined structure and visceral detail. The countdown framework holds firm, and the physical inventory of combustibles in Pudding Lane grounds the disaster with stark immediacy. The narrative's greatest strength lies in how it layers causation—juxtaposing political paralysis, financial liability, and failed machinery without collapsing into simple blame. However, the immersive promise is periodically broken by moments that feel like textbook exposition and by vague archival gestures that create friction for the reader. The climax",
     "penName": "砚北",
@@ -40,12 +66,12 @@
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-8191a74e5cdb.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:18:01.085Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "epigraphy-rubbing"
   },
   "chapters": [
     {
@@ -217,10 +243,6 @@
       "units": 2906
     }
   ],
-  "illustrations": 7,
-  "publishedAt": "2026-09-18T14:18:38.461Z",
-  "rerenderedAt": "2026-09-21T02:18:01.093Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "Pudding Lane",
@@ -379,5 +401,9 @@
         "asOfYear": 1669
       }
     ]
-  }
+  },
+  "illustrations": 7,
+  "publishedAt": "2026-09-18T14:18:38.461Z",
+  "rerenderedAt": "2026-09-24T00:52:42.571Z",
+  "formFamily": "narrative"
 }
