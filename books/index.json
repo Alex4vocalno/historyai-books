@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu4w58ivzdi",
+    "projectId": "proj-mu4w58ivzdi",
+    "releaseId": "rel_20260917044828576_c604b576b5",
+    "title": "The Dam Above Johnstown: The South Fork Club, the Flood of 1889 and the Price of Neglect",
+    "subtitle": "The South Fork Club, the Flood of 1889, and the Price of Neglect",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Johnstown Flood",
+      "Gilded Age",
+      "Disaster History",
+      "Legal History",
+      "Pennsylvania",
+      "Engineering"
+    ],
+    "description": "On May 31, 1889, twenty million tons of water released from a patched earthen dam obliterated Johnstown, Pennsylvania, in fifty-seven minutes. The catastrophe began not with rain, but with privilege: Pittsburgh industrialists had lowered the South Fork Dam to suit their private fishing club, ignoring engineers’ warnings until the structure failed. This narrative reconstructs the disaster through club minutes, railroad telegrams, and survivor testimony, tracing the wave from breach to the fiery wreckage at the stone bridge. Beyond the immediate horror and Clara Barton’s relief efforts lies a deeper failure of justice. Despite thousands dead, lawsuits collapsed and liability vanished. Drawing on coroner’s inquests and ASCE reports, this history exposes how Gilded Age power evaded accountability and how that legal void eventually forced a transformation in American dam safety. It is a definitive account of negligence without a defendant and the long reckoning that followed.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-3",
+      "createdAt": "2026-09-17T04:39:58.290Z"
+    },
+    "coverUrl": "books/proj-mu4w58ivzdi/releases/rel_20260917044828576_c604b576b5/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu4w58ivzdi/index.html",
+    "publishedAt": "2026-09-17T04:48:28.645Z",
+    "firstPublishedAt": "2026-09-17T04:48:28.645Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu4rau3xedb",
     "projectId": "proj-mu4rau3xedb",
     "releaseId": "rel_20260917045518350_fa547f4f97",
@@ -1432,41 +1467,6 @@
     "url": "books/proj-mtkvcof76i4/index.html",
     "publishedAt": "2026-09-17T08:11:14.118Z",
     "firstPublishedAt": "2026-09-17T08:11:14.118Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu4w58ivzdi",
-    "projectId": "proj-mu4w58ivzdi",
-    "releaseId": "rel_20260917044828576_c604b576b5",
-    "title": "The Dam Above Johnstown: The South Fork Club, the Flood of 1889 and the Price of Neglect",
-    "subtitle": "The South Fork Club, the Flood of 1889, and the Price of Neglect",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Johnstown Flood",
-      "Gilded Age",
-      "Disaster History",
-      "Legal History",
-      "Pennsylvania",
-      "Engineering"
-    ],
-    "description": "On May 31, 1889, twenty million tons of water released from a patched earthen dam obliterated Johnstown, Pennsylvania, in fifty-seven minutes. The catastrophe began not with rain, but with privilege: Pittsburgh industrialists had lowered the South Fork Dam to suit their private fishing club, ignoring engineers’ warnings until the structure failed. This narrative reconstructs the disaster through club minutes, railroad telegrams, and survivor testimony, tracing the wave from breach to the fiery wreckage at the stone bridge. Beyond the immediate horror and Clara Barton’s relief efforts lies a deeper failure of justice. Despite thousands dead, lawsuits collapsed and liability vanished. Drawing on coroner’s inquests and ASCE reports, this history exposes how Gilded Age power evaded accountability and how that legal void eventually forced a transformation in American dam safety. It is a definitive account of negligence without a defendant and the long reckoning that followed.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 84,
-      "method": "median-of-3",
-      "createdAt": "2026-09-17T04:39:58.290Z"
-    },
-    "coverUrl": "books/proj-mu4w58ivzdi/releases/rel_20260917044828576_c604b576b5/cover-159fd7e25e28.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu4w58ivzdi/index.html",
-    "publishedAt": "2026-09-17T04:48:28.645Z",
-    "firstPublishedAt": "2026-09-17T04:48:28.645Z",
     "visibility": "public"
   },
   {

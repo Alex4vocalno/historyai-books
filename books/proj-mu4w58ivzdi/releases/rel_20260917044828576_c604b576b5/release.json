@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260917044828576_c604b576b5",
   "projectId": "proj-mu4w58ivzdi",
-  "manuscriptVersionId": "mv_97126849739c5c32",
-  "contentHash": "97126849739c5c3219117771322b0a1ce264c9646917fd5040a998dc39503d16",
+  "manuscriptVersionId": "mv_34e040bfababf55b",
+  "contentHash": "34e040bfababf55b684285ccb808ce99100d7a903478927c08ac95940f28fd07",
   "title": "The Dam Above Johnstown: The South Fork Club, the Flood of 1889 and the Price of Neglect",
   "subtitle": "The South Fork Club, the Flood of 1889, and the Price of Neglect",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-17T04:39:58.290Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:50:44.135Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_bb0c2cbb2d9d8024",
+      "createdAt": "2026-09-17T04:39:50.495Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "A solid, archive-driven reconstruction of the Johnstown Flood. The book is at its best in the early chapters, which build genuine momentum through concrete scenes—like the 1853 surveyor's chain and field book that ground the dam's reality—and a disciplined cross-cutting of three narrative tracks with precise time-stamps. However, the immersive present-tense urgency promised by this structure gradually dissipates. The final chapters achieve thematic coherence, tracing how administrative law emerged to fill the void left by failed liability suits, but they retreat into retrospective summary ('Se",
+    "text": "This is a meticulous, archive-driven reconstruction of the Johnstown disaster, strongest in its early chapters. The book excels at grounding its narrative in tangible, physical detail—the opening chapter's use of a surveyor's 1853 leather field book to build the dam's reality is a standout example of evocative historical writing. It also delivers sharp institutional insight, particularly in its analysis of how corporate forms shielded the wealthy club members from legal liability. However, the narrative momentum established through a disciplined, cross-cutting countdown structure in the first",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-159fd7e25e28.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:44:18.189Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "warm-humanist"
   },
   "chapters": [
     {
@@ -217,8 +240,6 @@
       "units": 4121
     }
   ],
-  "illustrations": 8,
-  "publishedAt": "2026-09-17T04:48:28.645Z",
   "topics": {
     "entities": [],
     "geo": [],
@@ -366,5 +387,7 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T02:44:18.198Z"
+  "illustrations": 8,
+  "publishedAt": "2026-09-17T04:48:28.645Z",
+  "rerenderedAt": "2026-09-24T00:50:44.136Z"
 }
