@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260906095705204_9b93827897",
   "projectId": "proj-mtpcyp9zfi0",
-  "manuscriptVersionId": "mv_6e9d6a4914dbd200",
-  "contentHash": "6e9d6a4914dbd2001554f9dcb2198251507f6b8f73c8d7252c89603288a37499",
+  "manuscriptVersionId": "mv_1c0cdb93b8aaeaea",
+  "contentHash": "1c0cdb93b8aaeaeabeba3e2101769b497f7f7a7f60cda1e23e6c8646db14708a",
   "title": "The Lisbon Drop",
   "subtitle": "A Novel of Wartime Lisbon",
   "authorDisplayName": "Liszt Think",
@@ -19,6 +19,7 @@
   ],
   "language": "en",
   "workType": "fiction",
+  "lengthTier": "novel",
   "visibility": "public",
   "stats": {
     "chapterCount": 25,
@@ -32,8 +33,31 @@
     "method": "median-of-3",
     "createdAt": "2026-09-06T09:45:23.457Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:50:08.769Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_b8d302a18d11a3fa",
+      "createdAt": "2026-09-06T09:44:29.536Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "The Lisbon Drop excels in moral geometry, using a dual-handler structure where Ana’s lies to one handler become leverage for the other, creating a genuinely taut thriller. Her arc is visceral—moments like the release order 'pressed against her ribs' or the 'faint blue ghost' of fresh ink on her thumb ground the suspense in tangible, desperate humanity. However, the prose suffers from mechanical hiccups; repeated sentence openings and chapter-seam continuity gaps break the immersion, making the narrative feel occasionally unpolished. While the fair-play clueing and structural payoff are impecca",
+    "text": "The Lisbon Drop excels in its moral geometry, specifically how Ana’s lies to one handler become leverage for another, creating a genuinely taut pressure cooker. The sensory details are equally sharp—the 'faint blue ghost' of fresh ink on a thumb anchors the tension beautifully. However, the structural polish occasionally slips. I noticed jarring continuity gaps between chapters where named entities simply vanish, and the prose suffers from mechanical repetition that distracts from the narrative flow. While the fair-play clueing and Ana’s hollowed-out character arc deliver a satisfying punch, t",
     "penName": "疏影",
     "title": "Fiction Editor",
     "rating": "Worth reading"
@@ -198,8 +222,6 @@
       "units": 2088
     }
   ],
-  "publishedAt": "2026-09-06T09:57:05.208Z",
-  "rerenderedAt": "2026-09-06T13:12:41.575Z",
   "topics": {
     "entities": [],
     "geo": [],
@@ -331,5 +353,7 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "publishedAt": "2026-09-06T09:57:05.208Z",
+  "rerenderedAt": "2026-09-24T00:50:08.770Z"
 }
