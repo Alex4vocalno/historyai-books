@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6f0l263q2",
+    "projectId": "proj-mu6f0l263q2",
+    "releaseId": "rel_20260918100852738_71d372bc86",
+    "title": "Where Is Booth?",
+    "subtitle": "The Twelve-Day Manhunt for John Wilkes Booth",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Lincoln assassination",
+      "John Wilkes Booth",
+      "American Civil War",
+      "manhunt",
+      "historical true crime",
+      "世界史"
+    ],
+    "description": "On April 14, 1865, John Wilkes Booth fled Ford’s Theatre into the Maryland night. What followed were twelve days of desperate evasion and relentless pursuit across the Potomac tidewater. This narrative reconstructs the escape hour by hour, from the Navy Yard Bridge to the burning tobacco barn at the Garrett farm. Drawn exclusively from War Department telegrams, reward notices, conspiracy trial testimony, and Booth’s own diary, the account tracks every movement through verifiable records. Where witnesses contradict or evidence gaps exist, the historical record speaks plainly rather than speculating. Beyond the chase lies the aftermath: the cavalry patrol’s lost day, the siege of the Surratt boardinghouse, and Edwin Stanton’s final judgment. This is not a retelling of legend but a forensic examination of the most famous manhunt in American history, grounded entirely in the documents that defined it.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T10:06:55.128Z"
+    },
+    "coverUrl": "books/proj-mu6f0l263q2/releases/rel_20260918100852738_71d372bc86/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6f0l263q2/index.html",
+    "publishedAt": "2026-09-18T10:08:52.745Z",
+    "firstPublishedAt": "2026-09-18T10:08:52.745Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6ezvip0ds",
     "projectId": "proj-mu6ezvip0ds",
     "releaseId": "rel_20260918100920533_f3d73c7c73",
@@ -1397,41 +1432,6 @@
     "url": "books/proj-mu6efdyq9wl/index.html",
     "publishedAt": "2026-09-18T10:48:55.655Z",
     "firstPublishedAt": "2026-09-18T10:48:55.655Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu6f0l263q2",
-    "projectId": "proj-mu6f0l263q2",
-    "releaseId": "rel_20260918100852738_71d372bc86",
-    "title": "Where Is Booth?",
-    "subtitle": "The Twelve-Day Manhunt for John Wilkes Booth",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Lincoln assassination",
-      "John Wilkes Booth",
-      "American Civil War",
-      "manhunt",
-      "historical true crime",
-      "世界史"
-    ],
-    "description": "On April 14, 1865, John Wilkes Booth fled Ford’s Theatre into the Maryland night. What followed were twelve days of desperate evasion and relentless pursuit across the Potomac tidewater. This narrative reconstructs the escape hour by hour, from the Navy Yard Bridge to the burning tobacco barn at the Garrett farm. Drawn exclusively from War Department telegrams, reward notices, conspiracy trial testimony, and Booth’s own diary, the account tracks every movement through verifiable records. Where witnesses contradict or evidence gaps exist, the historical record speaks plainly rather than speculating. Beyond the chase lies the aftermath: the cavalry patrol’s lost day, the siege of the Surratt boardinghouse, and Edwin Stanton’s final judgment. This is not a retelling of legend but a forensic examination of the most famous manhunt in American history, grounded entirely in the documents that defined it.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T10:06:55.128Z"
-    },
-    "coverUrl": "books/proj-mu6f0l263q2/releases/rel_20260918100852738_71d372bc86/cover-21f6e64cc3b2.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu6f0l263q2/index.html",
-    "publishedAt": "2026-09-18T10:08:52.745Z",
-    "firstPublishedAt": "2026-09-18T10:08:52.745Z",
     "visibility": "public"
   },
   {

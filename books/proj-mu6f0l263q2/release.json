@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918100852738_71d372bc86",
   "projectId": "proj-mu6f0l263q2",
-  "manuscriptVersionId": "mv_dc7a9914f63d8549",
-  "contentHash": "dc7a9914f63d854919b60f3314f21578bee441e58de4de83f407b4ff533f5082",
+  "manuscriptVersionId": "mv_d6f5595f2c4422a4",
+  "contentHash": "d6f5595f2c4422a438e390131835ec4202dc946d46a0ab855d3782f2ccdb2b66",
   "title": "Where Is Booth?",
   "subtitle": "The Twelve-Day Manhunt for John Wilkes Booth",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T10:06:55.128Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:52:02.004Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_8017b86bca758837",
+      "createdAt": "2026-09-18T10:06:48.662Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This reconstruction of Booth's twelve-day flight achieves a rare physical immediacy, grounding each hour in sensory detail—like the gas lamps lit along Tenth Street—rather than atmospheric adjectives. Its multi-track structure converges with precision, cross-cutting escape, attack, and pursuit at key climaxes. While the post-event analysis maintains concrete anchors, such as the windowless storage room holding Booth's body, some passages drift toward textbook summary, momentarily loosening the narrative's countdown discipline. The overall effect is a panoramic pursuit that meets the form's hig",
+    "text": "Where Is Booth? delivers a gripping hour-by-hour reconstruction of Lincoln's assassin's flight, meeting the high bar for physical immediacy set by narrative histories in its genre. The strength lies in its sensory precision—gas lamps lit at precise times, the texture of witness accounts presented with evidentiary care—and a multi-track structure that converges with taut control. However, the analytical voice in the later chapters occasionally drifts toward a more generic summary, loosening the scene-stamped discipline that makes the pursuit so compelling earlier on. It is a work of formidable",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-21f6e64cc3b2.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:39:09.996Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -217,10 +240,6 @@
       "units": 2539
     }
   ],
-  "illustrations": 8,
-  "publishedAt": "2026-09-18T10:08:52.745Z",
-  "rerenderedAt": "2026-09-21T02:39:10.003Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "John Wilkes Booth",
@@ -379,5 +398,9 @@
         "asOfYear": 1869
       }
     ]
-  }
+  },
+  "illustrations": 8,
+  "publishedAt": "2026-09-18T10:08:52.745Z",
+  "rerenderedAt": "2026-09-24T00:52:02.006Z",
+  "formFamily": "narrative"
 }
