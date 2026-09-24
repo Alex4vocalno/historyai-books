@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919212714422_66fa05eb94",
   "projectId": "proj-mu8llhyhyve",
-  "manuscriptVersionId": "mv_cbf976c5f56e3852",
-  "contentHash": "cbf976c5f56e385249f16af45124cb255f60517a7a3fb6a3f987d5abb5db2ecd",
+  "manuscriptVersionId": "mv_b5c0b7b39265e94e",
+  "contentHash": "b5c0b7b39265e94e7fdb114a1062d1ef7c7c3df83533209052c0d45e1818abd1",
   "title": "The Officers at Newburgh",
   "subtitle": "George Washington, the Newburgh Conspiracy, and the Crisis That Forged the American Republic",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-2",
     "createdAt": "2026-09-19T20:44:21.708Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:54:54.063Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_c7d2298d07bd8170",
+      "createdAt": "2026-09-22T05:23:45.030Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_applicable",
+        "articleDensity": "checked",
+        "judged": 0
+      },
+      "hardDefects": 1
+    }
+  },
   "editorReview": {
-    "text": "This biography of the Newburgh Conspiracy excels by treating the event as a crucial fiscal lever for the nascent U.S. government, not just a military mutiny. The argument is consistently structural, grounded in granular evidence like the quartermaster's ledger, and it preserves contradictions, such as portraying Robert Morris as both architect and victim of the financial system. However, the prose can feel mechanical at times, with repetitive phrasing that occasionally breaks immersion and a narrative voice that sometimes flattens into summary in later chapters, shifting focus from human cost",
+    "text": "This study reframes the Newburgh crisis as a calculated act of 'crisis engineering' and 'debt theater,' a genuinely insightful thesis made tangible through powerful archival details, like the ledger in Chapter 17. However, the argument's intellectual force is undercut by a recursive structure that restates its key points rather than developing them, creating a frustratingly circular reading experience. Furthermore, localized prose issues, particularly the grammatical stumbles in Chapter 8, disrupt the narrative's authority. The book offers a sharp conceptual framework but lacks the clean, prop",
     "penName": "砚北",
     "title": "History & Social Science Editor",
-    "rating": "Worth reading"
+    "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-9e625980891f.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:47:11.259Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "warm-humanist"
   },
   "chapters": [
     {
@@ -378,6 +404,6 @@
     ]
   },
   "publishedAt": "2026-09-19T21:27:14.454Z",
-  "formFamily": "narrative",
-  "rerenderedAt": "2026-09-21T01:47:11.266Z"
+  "rerenderedAt": "2026-09-24T00:54:54.065Z",
+  "formFamily": "narrative"
 }
