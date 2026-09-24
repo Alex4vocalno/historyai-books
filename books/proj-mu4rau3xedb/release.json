@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260917045518350_fa547f4f97",
   "projectId": "proj-mu4rau3xedb",
-  "manuscriptVersionId": "mv_9d36213d7277e4dc",
-  "contentHash": "9d36213d7277e4dc817d667ece843d9babfa740a2ea1967fa875796970d295e2",
+  "manuscriptVersionId": "mv_a789b261aed886ac",
+  "contentHash": "a789b261aed886ac50c1ee5b95a282e820b920413e882ec5c7b314d84d0c40bb",
   "title": "The Sound Between Us",
   "subtitle": "A Novel of Suspense",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-17T04:53:48.050Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:50:31.334Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_321bf37f737bc6b1",
+      "createdAt": "2026-09-22T06:24:39.031Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "checked",
+        "articleDensity": "not_applicable",
+        "judged": 25
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "The Arctic setting operates as a brilliant pressure system here; the sensory presence of cold creeping through walls effectively isolates the cast, while the forensic specificity of the eleven-minute tape gap and the tide-table alibi offers deeply satisfying, fair-play detection. The emotional core strikes hard in Chapter 12, where a crayon-cipher reveal repurposes childhood intimacy into a genuine investigative breakthrough. However, the prose occasionally suffers from rhythmic monotony, with an over-reliance on em-dashes and repetitive sentence openings that flatten the voice. The final act",
+    "text": "Ingrid Solheim’s arrival at a frozen Norwegian outpost offers a masterclass in atmospheric pressure. The acoustic motif—tape hiss blending with real waves—creates a sensory signature that makes the climax genuinely haunting, while the forensic detail regarding spectrograms and tide-table impossibilities rewards the careful reader with fair-play satisfaction. However, the immersion fractures under the weight of repetitive prose tics and over-explained emotional beats; Ingrid’s transformation from grief to resolve is often stated rather than felt, and the middle chapters sag with mechanical corr",
     "penName": "疏影",
     "title": "Fiction Editor",
-    "rating": "Worth reading"
+    "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-7b81de5365cb.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:42:25.873Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "method-clean-grid"
   },
   "chapters": [
     {
@@ -199,8 +225,6 @@
       "units": 2680
     }
   ],
-  "publishedAt": "2026-09-17T04:55:18.354Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [],
     "geo": [],
@@ -333,5 +357,7 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T02:42:25.882Z"
+  "publishedAt": "2026-09-17T04:55:18.354Z",
+  "rerenderedAt": "2026-09-24T00:50:31.336Z",
+  "formFamily": "narrative"
 }
