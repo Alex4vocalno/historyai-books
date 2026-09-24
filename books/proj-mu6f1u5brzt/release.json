@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918165950691_4ba7e4c12b",
   "projectId": "proj-mu6f1u5brzt",
-  "manuscriptVersionId": "mv_06d70e7a543fb523",
-  "contentHash": "06d70e7a543fb523625cfe5a1bcc5cdb5a6d48d88d9e8e52347ee0647b251212",
+  "manuscriptVersionId": "mv_e64b936f293ae7e1",
+  "contentHash": "e64b936f293ae7e16e2ec881fdf584e01f031f8e1ab468030853095348080115",
   "title": "Three Days of Fire",
   "subtitle": "Earthquake, Fire, and the Forging of Modern San Francisco",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T16:58:50.082Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:52:23.968Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_d777c05d08468029",
+      "createdAt": "2026-09-22T06:03:08.462Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_applicable",
+        "articleDensity": "checked",
+        "judged": 0
+      },
+      "hardDefects": 1
+    }
+  },
   "editorReview": {
-    "text": "This panoramic reconstruction of the 1906 San Francisco disaster meets the demanding standard of its form, achieving a gripping physical immediacy through verifiable sensory and logistical detail, as seen in the precise mechanics of a fire barrier's failure. Its greatest strength lies in how insight emerges from the friction between official records and material evidence, treating the subsequent legal reckoning with the same scene-based discipline as the event itself. However, the narrative's otherwise rigorous timeline stumbles in a key transition between chapters, creating a momentary regres",
+    "text": "Three Days of Fire offers a sophisticated, materialist analysis of systemic failure, meticulously linking ruptured water mains to social collapse. The post-disaster chapters maintain admirable narrative discipline, building tension toward a verdict rather than retreating into summary. However, the immersion promised by its ambitious structure is repeatedly broken. Severe continuity errors regarding key figures undermine the timeline's credibility, and jarring verbatim paragraph repetitions create an unrevised reading experience. The exceptional sensory grounding of technical details—like mud-f",
     "penName": "砚北",
     "title": "History & Social Science Editor",
-    "rating": "Recommended"
+    "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-99cb7b5c94ba.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T07:33:37.743Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "chronicle-panorama"
   },
   "chapters": [
     {
@@ -217,8 +243,6 @@
       "units": 3196
     }
   ],
-  "publishedAt": "2026-09-18T16:59:50.696Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "San Francisco",
@@ -376,5 +400,7 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T07:33:37.761Z"
+  "publishedAt": "2026-09-18T16:59:50.696Z",
+  "rerenderedAt": "2026-09-24T00:52:23.969Z",
+  "formFamily": "narrative"
 }
