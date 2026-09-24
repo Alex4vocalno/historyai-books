@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919125345528_1ec67dce57",
   "projectId": "proj-mu6f2l07t6x",
-  "manuscriptVersionId": "mv_2b4bc145e5cdb19d",
-  "contentHash": "2b4bc145e5cdb19d13b51a8d7edaf1004edb38e74f12cbd3da12630bf50c845b",
+  "manuscriptVersionId": "mv_4a76569052a1a57b",
+  "contentHash": "4a76569052a1a57befffd00ca519e3a4b3f331aa0bd3b83099f1b3a97efac997",
   "title": "A Ton of Goods",
   "subtitle": "Ledgers, Law, and the Klondike Gold Rush",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T14:21:19.084Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:52:35.335Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_4efd2074918eb9cd",
+      "createdAt": "2026-09-18T14:21:03.165Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This narrative history of the Klondike gold rush achieves a remarkable feat: it makes ledgers and logistics the engine of a gripping story. The book's great strength is its panoramic, three-track reconstruction, which grounds the immense drama in dated, verifiable detail—the price of an egg, the temperature of ink—to show how the rush was less a free-for-all and more a state-managed extraction machine. However, the otherwise disciplined countdown structure suffers a jarring timeline break in the final act, and some middle chapters lapse into repetitive prose rhythms that can dull the narrative",
+    "text": "This panoramic reconstruction of the Klondike gold rush is a formidable achievement in narrative history. Its strength lies in its methodical, three-track structure, which masterfully weaves together the administrative decisions of the Mounted Police, the brutal physical reality for stampeders (captured in vivid, dated details like the price of a single egg), and the displacement of the Hän people. The central argument—that this was a state-managed extraction engine—is carried entirely by this layered storytelling. However, the book is not without its structural flaws. A jarring timeline regre",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-113175cc7e90.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:55:39.268Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "woodblock-print"
   },
   "chapters": [
     {
@@ -217,9 +240,6 @@
       "units": 3444
     }
   ],
-  "illustrations": 4,
-  "publishedAt": "2026-09-19T12:53:45.538Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "Klondike",
@@ -380,5 +400,8 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T01:55:39.278Z"
+  "illustrations": 4,
+  "publishedAt": "2026-09-19T12:53:45.538Z",
+  "rerenderedAt": "2026-09-24T00:52:35.338Z",
+  "formFamily": "narrative"
 }

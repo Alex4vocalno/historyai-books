@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6f2l07t6x",
+    "projectId": "proj-mu6f2l07t6x",
+    "releaseId": "rel_20260919125345528_1ec67dce57",
+    "title": "A Ton of Goods",
+    "subtitle": "Ledgers, Law, and the Klondike Gold Rush",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Klondike Gold Rush",
+      "North-West Mounted Police",
+      "Canadian History",
+      "Yukon Territory",
+      "Narrative Nonfiction",
+      "世界史"
+    ],
+    "description": "In July 1897, the steamers Excelsior and Portland docked with a ton of gold, igniting a stampede that would test the limits of human endurance and bureaucratic order. This narrative history reconstructs the Klondike rush not through myth, but through the meticulous records of the North-West Mounted Police, customs manifests, and stampeders’ diaries. From Sam Steele’s uncompromising mandate that every prospector carry a ton of goods to Soapy Smith’s violent reign in Skagway, the story unfolds via checkable evidence. Witness the Palm Sunday avalanche, the boat-building frenzy at Lake Bennett, and the merchants who profited without panning. Where witnesses contradict, the record speaks plainly. This is the gold rush stripped of legend and restored to its documented reality: a saga of fortune, lawlessness, and survival measured in ledgers, claim records, and the final tally of those who stayed and those who fled to Nome.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 86,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T14:21:19.084Z"
+    },
+    "coverUrl": "books/proj-mu6f2l07t6x/releases/rel_20260919125345528_1ec67dce57/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6f2l07t6x/index.html",
+    "publishedAt": "2026-09-19T12:53:45.538Z",
+    "firstPublishedAt": "2026-09-18T14:23:01.885Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6f1u5brzt",
     "projectId": "proj-mu6f1u5brzt",
     "releaseId": "rel_20260918165950691_4ba7e4c12b",
@@ -1012,41 +1047,6 @@
     "url": "books/proj-mu84bjjg9q2/index.html",
     "publishedAt": "2026-09-19T16:04:38.490Z",
     "firstPublishedAt": "2026-09-19T16:04:38.490Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu6f2l07t6x",
-    "projectId": "proj-mu6f2l07t6x",
-    "releaseId": "rel_20260919125345528_1ec67dce57",
-    "title": "A Ton of Goods",
-    "subtitle": "Ledgers, Law, and the Klondike Gold Rush",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Klondike Gold Rush",
-      "North-West Mounted Police",
-      "Canadian History",
-      "Yukon Territory",
-      "Narrative Nonfiction",
-      "世界史"
-    ],
-    "description": "In July 1897, the steamers Excelsior and Portland docked with a ton of gold, igniting a stampede that would test the limits of human endurance and bureaucratic order. This narrative history reconstructs the Klondike rush not through myth, but through the meticulous records of the North-West Mounted Police, customs manifests, and stampeders’ diaries. From Sam Steele’s uncompromising mandate that every prospector carry a ton of goods to Soapy Smith’s violent reign in Skagway, the story unfolds via checkable evidence. Witness the Palm Sunday avalanche, the boat-building frenzy at Lake Bennett, and the merchants who profited without panning. Where witnesses contradict, the record speaks plainly. This is the gold rush stripped of legend and restored to its documented reality: a saga of fortune, lawlessness, and survival measured in ledgers, claim records, and the final tally of those who stayed and those who fled to Nome.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 86,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T14:21:19.084Z"
-    },
-    "coverUrl": "books/proj-mu6f2l07t6x/releases/rel_20260919125345528_1ec67dce57/cover-113175cc7e90.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu6f2l07t6x/index.html",
-    "publishedAt": "2026-09-19T12:53:45.538Z",
-    "firstPublishedAt": "2026-09-18T14:23:01.885Z",
     "visibility": "public"
   },
   {
