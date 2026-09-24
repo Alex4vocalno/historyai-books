@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918102452505_6f05e1710c",
   "projectId": "proj-mu6e97ki99z",
-  "manuscriptVersionId": "mv_b8e164b81a71ff9d",
-  "contentHash": "b8e164b81a71ff9dfc245dd072907cbc2f9629832a9305e95f2854d201a83023",
+  "manuscriptVersionId": "mv_907e42fe7256e00d",
+  "contentHash": "907e42fe7256e00dde0dac9dd422cc74bd3bb4e809756f048c9e3812d9154f94",
   "title": "Twenty Lifeboats",
   "subtitle": "Titanic, the Inquiries, and the Remaking of Maritime Law",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T10:23:37.865Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:51:29.883Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_6d8796760d5a0a7d",
+      "createdAt": "2026-09-18T10:23:34.130Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This panoramic reconstruction of the Titanic disaster and its twin inquiries is anchored by a secure timeline and a responsibly layered account of causation. The author honors the narrative form's discipline, particularly in the post-disaster chapters where the countdown tension is maintained, and key scenes—like the failure of the distress rockets—are grounded in sharp, specific sensory detail. The three-track structure, intercutting between port, starboard, and the bridge, holds firm. However, the reading experience is intermittently flattened by a mechanical prose rhythm and occasional expl",
+    "text": "Twenty Lifeboats delivers a solid, multi-track reconstruction of the Titanic disaster and its aftermath, anchored by a secure timeline and a responsibly layered analysis of causation. The book excels in its disciplined handling of the post-disaster inquiry chapters, particularly in scenes like the cross-cutting in 'A Constant Wireless Watch,' which grounds complex events in physical immediacy. However, the reading experience is intermittently flattened by a mechanical prose rhythm—evident in repetitive sentence structures—and occasional lapses into explanatory abstraction that summarize instit",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-13343b871f3c.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:37:49.723Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -217,9 +240,6 @@
       "units": 3687
     }
   ],
-  "illustrations": 2,
-  "publishedAt": "2026-09-18T10:24:52.509Z",
-  "rerenderedAt": "2026-09-21T02:37:49.731Z",
   "topics": {
     "entities": [
       "Titanic",
@@ -377,5 +397,8 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "illustrations": 2,
+  "publishedAt": "2026-09-18T10:24:52.509Z",
+  "rerenderedAt": "2026-09-24T00:51:29.884Z"
 }

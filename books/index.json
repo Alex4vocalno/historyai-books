@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu6e97ki99z",
+    "projectId": "proj-mu6e97ki99z",
+    "releaseId": "rel_20260918102452505_6f05e1710c",
+    "title": "Twenty Lifeboats",
+    "subtitle": "Titanic, the Inquiries, and the Remaking of Maritime Law",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Titanic",
+      "maritime history",
+      "disaster investigation",
+      "maritime law",
+      "Edwardian era",
+      "世界史"
+    ],
+    "description": "On the night of April 14, 1912, the RMS Titanic struck an iceberg and sank with lifeboats lowered half full. The disaster triggered two parallel investigations that exposed fatal contradictions in testimony, wireless logs, and Board of Trade regulations. This narrative history reconstructs the sinking and its aftermath through the official records of the U.S. Senate and British Wreck Commissioner inquiries. From the Marconi room to the Carpathia’s dawn rescue, every moment is anchored in verified evidence: survivor accounts, ship logs, and legal transcripts. Where witnesses disagree, the record speaks for itself. Beyond the tragedy lies a story of bureaucratic reckoning that transformed maritime safety. The verdicts did not merely assign blame; they mandated constant wireless watches, adequate lifeboat capacity, and international ice patrols. Twenty Lifeboats traces how catastrophe became codified reform, turning grief into the arithmetic of survival that still governs the North Atlantic today.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 84,
+      "method": "median-of-3",
+      "createdAt": "2026-09-18T10:23:37.865Z"
+    },
+    "coverUrl": "books/proj-mu6e97ki99z/releases/rel_20260918102452505_6f05e1710c/cover.jpg",
+    "coverTextless": false,
+    "url": "books/proj-mu6e97ki99z/index.html",
+    "publishedAt": "2026-09-18T10:24:52.509Z",
+    "firstPublishedAt": "2026-09-18T10:24:52.509Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu6dbyzi08s",
     "projectId": "proj-mu6dbyzi08s",
     "releaseId": "rel_20260918103912676_0559bea0be",
@@ -1362,41 +1397,6 @@
     "url": "books/proj-mu6e9rwoize/index.html",
     "publishedAt": "2026-09-18T13:19:58.123Z",
     "firstPublishedAt": "2026-09-18T13:19:58.123Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu6e97ki99z",
-    "projectId": "proj-mu6e97ki99z",
-    "releaseId": "rel_20260918102452505_6f05e1710c",
-    "title": "Twenty Lifeboats",
-    "subtitle": "Titanic, the Inquiries, and the Remaking of Maritime Law",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Titanic",
-      "maritime history",
-      "disaster investigation",
-      "maritime law",
-      "Edwardian era",
-      "世界史"
-    ],
-    "description": "On the night of April 14, 1912, the RMS Titanic struck an iceberg and sank with lifeboats lowered half full. The disaster triggered two parallel investigations that exposed fatal contradictions in testimony, wireless logs, and Board of Trade regulations. This narrative history reconstructs the sinking and its aftermath through the official records of the U.S. Senate and British Wreck Commissioner inquiries. From the Marconi room to the Carpathia’s dawn rescue, every moment is anchored in verified evidence: survivor accounts, ship logs, and legal transcripts. Where witnesses disagree, the record speaks for itself. Beyond the tragedy lies a story of bureaucratic reckoning that transformed maritime safety. The verdicts did not merely assign blame; they mandated constant wireless watches, adequate lifeboat capacity, and international ice patrols. Twenty Lifeboats traces how catastrophe became codified reform, turning grief into the arithmetic of survival that still governs the North Atlantic today.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 84,
-      "method": "median-of-3",
-      "createdAt": "2026-09-18T10:23:37.865Z"
-    },
-    "coverUrl": "books/proj-mu6e97ki99z/releases/rel_20260918102452505_6f05e1710c/cover-13343b871f3c.jpg",
-    "coverTextless": false,
-    "url": "books/proj-mu6e97ki99z/index.html",
-    "publishedAt": "2026-09-18T10:24:52.509Z",
-    "firstPublishedAt": "2026-09-18T10:24:52.509Z",
     "visibility": "public"
   },
   {
