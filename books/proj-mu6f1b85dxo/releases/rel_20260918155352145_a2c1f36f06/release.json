@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918155352145_a2c1f36f06",
   "projectId": "proj-mu6f1b85dxo",
-  "manuscriptVersionId": "mv_a981e057b9be0006",
-  "contentHash": "a981e057b9be0006e395bbadc83e7783d5e7956c7e2c8a39e3f4f43a66225963",
+  "manuscriptVersionId": "mv_b5f0041d79b3d3e9",
+  "contentHash": "b5f0041d79b3d3e96dd2a4f12896cdc754fd3b99d726c6d390bb4c2352c5785d",
   "title": "Erebus and Terror",
   "subtitle": "The Search for Franklin and the Evidence of the Ice",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T15:52:17.267Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:52:13.510Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_29ca5d378729b7dc",
+      "createdAt": "2026-09-18T15:52:12.714Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This is a formidable reconstruction of the Franklin search, distinguished by its incisive argument and grounding in tangible detail. The narrative is most compelling when it anchors its institutional critique in the physical world—the kerosene-tainted pemmican, the canvas-wrapped bones—creating a powerful sense of immediacy. However, the book's structural discipline falters in its final act. The promised, urgent chronology gives way to a more retrospective, essayistic mode, shifting from a scene-driven reckoning to a static, museum-like perspective that distances the reader from the event's ra",
+    "text": "This reconstruction of the Franklin search excels by grounding its argument in the physical world—the kerosene-tainted pemmican, the canvas-wrapped bones. Its sharpest insight lies in treating the expedition as a clash between imperial bureaucracy and Arctic reality, a critique vividly carried by such material details. However, the narrative's disciplined, time-stamped drive, so strong in the mid-century chapters, slackens toward the end. The final section drifts into retrospective, essayistic summary, abandoning the scene-based immediacy that made the earlier reckoning so compelling. While it",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-28c8153f2e62.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:15:18.569Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "archival-deep"
   },
   "chapters": [
     {
@@ -217,8 +240,6 @@
       "units": 3699
     }
   ],
-  "publishedAt": "2026-09-18T15:53:52.148Z",
-  "rerenderedAt": "2026-09-21T02:15:18.577Z",
   "topics": {
     "entities": [
       "John Franklin",
@@ -377,5 +398,7 @@
         "asOfYear": 2026
       }
     ]
-  }
+  },
+  "publishedAt": "2026-09-18T15:53:52.148Z",
+  "rerenderedAt": "2026-09-24T00:52:13.511Z"
 }
