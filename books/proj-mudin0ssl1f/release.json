@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "rel_20260924014423482_d683fec654",
+  "projectId": "proj-mudin0ssl1f",
+  "manuscriptVersionId": "mv_d33ea0f5b88d9bbc",
+  "contentHash": "d33ea0f5b88d9bbc3817e8d0ddea468cc797871779d875f7cdbbd01d06162298",
+  "title": "The Lamplighter's Ledger",
+  "subtitle": "A Mystery of Gas and Shadows",
+  "authorDisplayName": "Liszt Think",
+  "description": "London, November 1887. Three gas lamps on Commercial Road were logged as lit on a night the lamplighter swore he never walked. A week later, he is found dead in the Regent's Canal. The only witness is the ledger itself. Ada Quill, a clerk at the Gas Light and Coke Company, keeps the lamplighters' rounds ledger—and she notices what the police would rather overlook. Every entry tells a story; the discrepancy points to murder. As Ada traces the routes through company offices, the Beckton gasworks, and the fog-shrouded streets, she discovers the clues were always there in the meter readings. Someone profited from a lamp that burned all night, and someone is willing to kill to keep the books closed. A fair-play mystery where the reader sees every entry Ada sees, the solution turns on the mechanics of Victorian gas lighting, and a quiet clerk must decide whether to bring the truth into the light.",
+  "category": "小说",
+  "tags": [
+    "Victorian mystery",
+    "fair-play puzzle",
+    "historical fiction",
+    "gaslight era",
+    "London 1880s",
+    "clerk protagonist"
+  ],
+  "language": "en",
+  "workType": "fiction",
+  "lengthTier": "novel",
+  "visibility": "public",
+  "stats": {
+    "chapterCount": 25,
+    "units": 67846,
+    "unitLabel": "words"
+  },
+  "editorialScore": {
+    "current": false,
+    "source": "editorial-hub",
+    "score": 84,
+    "method": "median-of-3",
+    "createdAt": "2026-09-24T01:41:43.747Z"
+  },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T01:44:23.487Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_1a578b3127de9a6b",
+      "createdAt": "2026-09-24T01:38:59.164Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "not_checked",
+        "articleDensity": "not_applicable",
+        "judged": 0
+      },
+      "hardDefects": 0
+    }
+  },
+  "editorReview": {
+    "text": "The Victorian gasworks are rendered with such atmospheric precision—you can practically hear the mantle hum and feel the coal-dust—that the setting becomes a character in itself. Ada Quill is a compelling protagonist, her deductive process grounded in satisfying fair-play clues and a unique numerical mindset. However, the prose occasionally slips into mechanical patterns, with repetitive sentence openings and overwrought gas-lamp imagery that distract from the tension. While the institutional obstruction creates superb pressure, the climax in Chapter 22 feels slightly compressed, resolving a m",
+    "penName": "疏影",
+    "title": "Fiction Editor",
+    "rating": "Worth reading"
+  },
+  "cover": {
+    "file": "cover.jpg",
+    "provider": "openrouter",
+    "model": "bytedance-seed/seedream-4.5",
+    "generatedAt": "2026-09-23T08:26:47.153Z",
+    "textless": false,
+    "profileId": "eco-panorama-wash"
+  },
+  "chapters": [
+    {
+      "idx": 0,
+      "sourceIdx": 0,
+      "title": "The Impossible Entry",
+      "units": 3097
+    },
+    {
+      "idx": 1,
+      "sourceIdx": 1,
+      "title": "A Visit from the Police",
+      "units": 2135
+    },
+    {
+      "idx": 2,
+      "sourceIdx": 2,
+      "title": "Ledgers and Lamplighters",
+      "units": 2890
+    },
+    {
+      "idx": 3,
+      "sourceIdx": 3,
+      "title": "Griggs's Last Round",
+      "units": 3287
+    },
+    {
+      "idx": 4,
+      "sourceIdx": 4,
+      "title": "Finch's Fidgeting Pen",
+      "units": 2612
+    },
+    {
+      "idx": 5,
+      "sourceIdx": 5,
+      "title": "The Meter Room",
+      "units": 2716
+    },
+    {
+      "idx": 6,
+      "sourceIdx": 6,
+      "title": "Varney's Stone Wall",
+      "units": 2075
+    },
+    {
+      "idx": 7,
+      "sourceIdx": 7,
+      "title": "Rook's Proposition",
+      "units": 2322
+    },
+    {
+      "idx": 8,
+      "sourceIdx": 8,
+      "title": "A Body in the Canal",
+      "units": 2873
+    },
+    {
+      "idx": 9,
+      "sourceIdx": 9,
+      "title": "Ink, Ghosts, and a Choice",
+      "units": 2119
+    },
+    {
+      "idx": 10,
+      "sourceIdx": 10,
+      "title": "Whispers at the Gasworks",
+      "units": 2726
+    },
+    {
+      "idx": 11,
+      "sourceIdx": 11,
+      "title": "Varney's Ultimatum",
+      "units": 2688
+    },
+    {
+      "idx": 12,
+      "sourceIdx": 12,
+      "title": "A Pattern Emerges",
+      "units": 2630
+    },
+    {
+      "idx": 13,
+      "sourceIdx": 13,
+      "title": "The Inquest Announcement",
+      "units": 2942
+    },
+    {
+      "idx": 14,
+      "sourceIdx": 14,
+      "title": "Beckton at Night",
+      "units": 2781
+    },
+    {
+      "idx": 15,
+      "sourceIdx": 15,
+      "title": "The Stoker's Silence",
+      "units": 2413
+    },
+    {
+      "idx": 16,
+      "sourceIdx": 16,
+      "title": "Confronting Finch",
+      "units": 3093
+    },
+    {
+      "idx": 17,
+      "sourceIdx": 17,
+      "title": "The Secret Ledger",
+      "units": 3435
+    },
+    {
+      "idx": 18,
+      "sourceIdx": 18,
+      "title": "Preparing the Testimony",
+      "units": 2315
+    },
+    {
+      "idx": 19,
+      "sourceIdx": 19,
+      "title": "The Night Before",
+      "units": 2487
+    },
+    {
+      "idx": 20,
+      "sourceIdx": 20,
+      "title": "Ledgers in the Light",
+      "units": 3153
+    },
+    {
+      "idx": 21,
+      "sourceIdx": 21,
+      "title": "Varney's Reckoning",
+      "units": 2434
+    },
+    {
+      "idx": 22,
+      "sourceIdx": 22,
+      "title": "Arrests at the Company",
+      "units": 4225
+    },
+    {
+      "idx": 23,
+      "sourceIdx": 23,
+      "title": "The Ledger's Verdict",
+      "units": 2288
+    },
+    {
+      "idx": 24,
+      "sourceIdx": 24,
+      "title": "A New Page",
+      "units": 2110
+    }
+  ],
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Impossible Entry",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "A Visit from the Police",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "Ledgers and Lamplighters",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "Griggs's Last Round",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "Finch's Fidgeting Pen",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "The Meter Room",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "Varney's Stone Wall",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "Rook's Proposition",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "A Body in the Canal",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "Ink, Ghosts, and a Choice",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "Whispers at the Gasworks",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "Varney's Ultimatum",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "A Pattern Emerges",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "The Inquest Announcement",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "Beckton at Night",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "The Stoker's Silence",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "Confronting Finch",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "The Secret Ledger",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "Preparing the Testimony",
+        "asOfYear": null
+      },
+      {
+        "n": 20,
+        "title": "The Night Before",
+        "asOfYear": null
+      },
+      {
+        "n": 21,
+        "title": "Ledgers in the Light",
+        "asOfYear": null
+      },
+      {
+        "n": 22,
+        "title": "Varney's Reckoning",
+        "asOfYear": null
+      },
+      {
+        "n": 23,
+        "title": "Arrests at the Company",
+        "asOfYear": null
+      },
+      {
+        "n": 24,
+        "title": "The Ledger's Verdict",
+        "asOfYear": null
+      },
+      {
+        "n": 25,
+        "title": "A New Page",
+        "asOfYear": null
+      }
+    ]
+  },
+  "publishedAt": "2026-09-24T01:44:23.491Z",
+  "formFamily": "narrative"
+}
