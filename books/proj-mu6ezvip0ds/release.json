@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260918100920533_f3d73c7c73",
   "projectId": "proj-mu6ezvip0ds",
-  "manuscriptVersionId": "mv_78c982b62fa9eab8",
-  "contentHash": "78c982b62fa9eab8aab9be956a2cf3cc8d6e9aa27299feeae4d440e55f8bc42f",
+  "manuscriptVersionId": "mv_ded0566653af86b8",
+  "contentHash": "ded0566653af86b8104d3eb4ec0fcac4135da3c3dbe7125c2157581797bbf89b",
   "title": "The Parade",
   "subtitle": "Philadelphia, the Liberty Loan Parade, and the Deadliest Week in American History",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T10:06:27.992Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:51:51.100Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_fbe1852f357997c7",
+      "createdAt": "2026-09-18T10:06:18.658Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This is a masterfully constructed chronicle of institutional failure, achieving its impact through a disciplined, multi-track narrative. The author builds a damning case not by editorializing, but by precisely juxtaposing administrative procedure with physical consequence—as in the chilling cross-cut between a sealed mortality report and the reality of overflowing morgues. The civilian perspective, rendered through dated, unadorned actions like a volunteer's soup delivery, provides crucial immediacy. While the prose occasionally suffers from repetitive sentence rhythms, and the post-crisis cha",
+    "text": "This disciplined reconstruction of the 1918 Philadelphia epidemic achieves its power through forensic attention to detail rather than grand assertion. The narrative’s strength lies in its precise multi-track structure, where the juxtaposition of bureaucratic taxonomy—like the chilling International List of Causes of Death—against the dated, unadorned physical actions of civilians creates a devastating causal chain. Chapter 15, for instance, grounds the catastrophe in the simple image of a volunteer with a child’s wagon delivering soup. However, the immersion is occasionally broken by explanato",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-34039ca1f18b.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:34:46.441Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "epigraphy-rubbing"
   },
   "chapters": [
     {
@@ -217,10 +240,6 @@
       "units": 3705
     }
   ],
-  "illustrations": 3,
-  "publishedAt": "2026-09-18T10:09:20.538Z",
-  "rerenderedAt": "2026-09-21T02:34:46.449Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "Philadelphia",
@@ -376,5 +395,9 @@
         "asOfYear": 1921
       }
     ]
-  }
+  },
+  "illustrations": 3,
+  "publishedAt": "2026-09-18T10:09:20.538Z",
+  "rerenderedAt": "2026-09-24T00:51:51.101Z",
+  "formFamily": "narrative"
 }
