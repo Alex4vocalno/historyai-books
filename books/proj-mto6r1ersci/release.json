@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260905130126817_290325da18",
   "projectId": "proj-mto6r1ersci",
-  "manuscriptVersionId": "mv_53a0271adac4584c",
-  "contentHash": "53a0271adac4584cc422672c1846ba83e66611b15ec3832ab5d2dbad29ea7224",
+  "manuscriptVersionId": "mv_6d2d637d809ead03",
+  "contentHash": "6d2d637d809ead038d218adba5d326d2b6da6d7f3842e769575703fd3ac0757e",
   "title": "What Nora Knew",
   "subtitle": "A Novella of Memory, Fire, and the Stories We Tell to Survive",
   "authorDisplayName": "Liszt Think",
@@ -19,6 +19,7 @@
   ],
   "language": "en",
   "workType": "fiction",
+  "lengthTier": "novella",
   "visibility": "public",
   "stats": {
     "chapterCount": 19,
@@ -32,19 +33,42 @@
     "method": "median-of-3",
     "createdAt": "2026-09-05T12:46:33.097Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:49:56.726Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_691c8fcde00e3ccd",
+      "createdAt": "2026-09-05T12:45:49.414Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This is a psychological thriller that earns its devastating twist. The structural reframe—where every clue Nora finds was designed to be found—is impeccable, and the sensory precision in the fire's aftermath gives the prose a tactile authority that lingers. Nora’s descent from crusader to an unwitting instrument of vengeance is a compelling, humbling arc. However, the middle chapters sag slightly under the weight of procedural repetition that stalls the tension, and Daniel’s voice remains too uniformly polished; his lack of texture early on blunts the impact of later revelations. Still, for re",
+    "text": "What Nora Knew lures you in with the tactile authority of its fire-aftermath scenes—\"shadows still smelled of fire,\" \"the ash pattern was wrong\"—and Nora's obsessive forensic gaze gives the opening an electric, hands-on tension. The central reframe is structurally impeccable: the realization that every clue she chased was designed to be found retroactively validates her mania, and the emotional payoff lands with genuine devastation. Where the book falters is Daniel, whose voice stays uniformly polished from first chapter to final confrontation; his \"genuine confusion\" needed earlier texture to",
     "penName": "疏影",
     "title": "Fiction Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-1aef9f3105b0.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T02:51:03.901Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "serious-history-editorial"
   },
   "chapters": [
     {
@@ -162,10 +186,6 @@
       "units": 2190
     }
   ],
-  "publishedAt": "2026-09-05T13:01:26.821Z",
-  "rerenderedAt": "2026-09-21T02:51:03.908Z",
-  "formFamily": "narrative",
-  "lengthTier": "novella",
   "topics": {
     "entities": [],
     "geo": [],
@@ -267,5 +287,8 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "publishedAt": "2026-09-05T13:01:26.821Z",
+  "rerenderedAt": "2026-09-24T00:49:56.730Z",
+  "formFamily": "narrative"
 }
