@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919164116938_64ad2f35f1",
   "projectId": "proj-mu6yz2ngrr4",
-  "manuscriptVersionId": "mv_0967545f31e0a066",
-  "contentHash": "0967545f31e0a0667c41945ebaf019fa4517f744a01672173fa9fe2239289c55",
+  "manuscriptVersionId": "mv_f0dd0c4fe0f6cc62",
+  "contentHash": "f0dd0c4fe0f6cc624473a7d675276c107d469907e4317e69c1bc8aaf99a8b6ce",
   "title": "The Tide Clerk",
   "subtitle": "A Mystery of the Cornish Harbour, 1923",
   "authorDisplayName": "Liszt Think",
@@ -33,19 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-18T15:07:00.033Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:53:06.558Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_2f432b81fd27a44b",
+      "createdAt": "2026-09-22T06:27:05.631Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "checked",
+        "tailCoherence": "checked",
+        "articleDensity": "not_applicable",
+        "judged": 19
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "The Tide Clerk offers a meticulously crafted historical procedural where the tidal rhythms become a detective in their own right. The sensory precision is undeniable; the smell of tarred rope is so thick you taste it, grounding the mystery in a vivid maritime atmosphere. The fair-play clues and the silent confession of a needle stopping mid-stitch showcase a masterful command of physical detail. However, the emotional stakes peak too early, settling into competence rather than urgency. Evelyn’s interiority remains frustratingly opaque, rendering her grief functional rather than visceral, while",
+    "text": "The Tide Clerk offers a refreshing twist on the procedural, using the unforgiving logic of the tides as a detective tool; the forensic deductions are genuinely clever and fairly clued. Evelyn Marsh is a compelling protagonist, and the harbour atmosphere is vividly rendered—you can almost taste the bitter tea and smell the damp wool. However, the book occasionally undermines its own rigor. A jarring continuity lapse in Chapter 12 disrupts the tension, and the middle chapters suffer from redundancy, retracing steps rather than advancing. While the prose leans on mechanical patterns and overused",
     "penName": "疏影",
     "title": "Fiction Editor",
     "rating": "Worth reading"
   },
   "cover": {
-    "file": "cover-ce9dfca47e13.jpg",
+    "file": "cover.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T01:52:28.522Z",
     "textless": false,
-    "sourceTextless": false
+    "profileId": "literary-fiction-premium"
   },
   "chapters": [
     {
@@ -163,6 +189,108 @@
       "units": 1859
     }
   ],
+  "topics": {
+    "entities": [],
+    "geo": [],
+    "timeRange": "",
+    "timeline": [
+      {
+        "n": 1,
+        "title": "The Lock Steps at Dawn",
+        "asOfYear": null
+      },
+      {
+        "n": 2,
+        "title": "The Coroner's Convenient Lie",
+        "asOfYear": null
+      },
+      {
+        "n": 3,
+        "title": "The Discrepancy in the Ledger",
+        "asOfYear": null
+      },
+      {
+        "n": 4,
+        "title": "Questions for the Lock-Keeper",
+        "asOfYear": null
+      },
+      {
+        "n": 5,
+        "title": "The Nephew's Debt",
+        "asOfYear": null
+      },
+      {
+        "n": 6,
+        "title": "Pengelly's Berthing Grudge",
+        "asOfYear": null
+      },
+      {
+        "n": 7,
+        "title": "Tide Tables and Tampered Evidence",
+        "asOfYear": null
+      },
+      {
+        "n": 8,
+        "title": "Alderman Rowes Summons",
+        "asOfYear": null
+      },
+      {
+        "n": 9,
+        "title": "Ink-Stained Fingers, One Truth",
+        "asOfYear": null
+      },
+      {
+        "n": 10,
+        "title": "Nora at Dawn",
+        "asOfYear": null
+      },
+      {
+        "n": 11,
+        "title": "The Tide Table's Promise",
+        "asOfYear": null
+      },
+      {
+        "n": 12,
+        "title": "Rowe's Ultimatum",
+        "asOfYear": null
+      },
+      {
+        "n": 13,
+        "title": "The Tide's Testimony",
+        "asOfYear": null
+      },
+      {
+        "n": 14,
+        "title": "Keasts Confession, the Rivers Secret",
+        "asOfYear": null
+      },
+      {
+        "n": 15,
+        "title": "The Calculated Window",
+        "asOfYear": null
+      },
+      {
+        "n": 16,
+        "title": "Scattered Evidence, Undeniable Sequence",
+        "asOfYear": null
+      },
+      {
+        "n": 17,
+        "title": "Proof Before the Board",
+        "asOfYear": null
+      },
+      {
+        "n": 18,
+        "title": "The Constable's Arrest",
+        "asOfYear": null
+      },
+      {
+        "n": 19,
+        "title": "The New Tide Ledger",
+        "asOfYear": null
+      }
+    ]
+  },
   "publishedAt": "2026-09-19T16:41:16.941Z",
-  "rerenderedAt": "2026-09-21T01:52:28.529Z"
+  "rerenderedAt": "2026-09-24T00:53:06.559Z"
 }
