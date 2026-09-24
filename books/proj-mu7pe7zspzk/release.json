@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "releaseId": "rel_20260919092054795_bf6f20d8a5",
   "projectId": "proj-mu7pe7zspzk",
-  "manuscriptVersionId": "mv_c893bd3ba25353b0",
-  "contentHash": "c893bd3ba25353b008cc52a772e1fa93993497f5dc0d7b39fea3804275781868",
+  "manuscriptVersionId": "mv_b1fc515a5bf2ae3c",
+  "contentHash": "b1fc515a5bf2ae3c025092da73dd84db29430eaa55702df99eefc82cf20bb4da",
   "title": "Fifty Percent in Ninety Days",
   "subtitle": "Charles Ponzi, the Boston Post, and the Scheme That Named a Fraud",
   "authorDisplayName": "Liszt Think",
@@ -33,20 +33,45 @@
     "method": "median-of-3",
     "createdAt": "2026-09-19T02:58:18.964Z"
   },
+  "integrity": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-09-24T00:53:28.100Z",
+    "structure": "pass",
+    "structureChecks": [
+      "duplicate_chapter_title",
+      "defective_chapter_title",
+      "embedded_chapter_heading",
+      "process_text_in_chapter",
+      "chapter_below_word_floor",
+      "language_leak",
+      "period_stamped_chapter_titles"
+    ],
+    "report": {
+      "reportId": "br_b1f8926f8097df6f",
+      "createdAt": "2026-09-19T02:58:14.118Z",
+      "contentHashMatch": false,
+      "collapse": {
+        "status": "not_checked"
+      },
+      "hardDefects": 0
+    }
+  },
   "editorReview": {
-    "text": "This is a business narrative that knows how to make numbers talk. The precise financial figures—a staggering overdraft here, a decisive cash purchase there—are deployed not as decoration but as the very engine of the plot, driving the story forward with tangible force. The author’s commitment to sourcing is equally impressive, grounding pivotal moments like the Hanover Trust run in specific documents and dates, which builds a formidable chain of evidence. However, this rigorous framework is occasionally disrupted by a few mechanical sentence patterns that can momentarily stall the narrative’s",
+    "text": "This is a business narrative that understands its craft: numbers become narrative weapons, not decoration, with specific figures like the '$441,000 overdraft' driving the plot of institutional collapse. Its greatest strength is a rigorously sourced causal chain, explaining pivotal events like the bank run through concrete evidence like a specific ledger sheet. This yields genuinely actionable insight into the mechanics of financial panic. However, the narrative drive is occasionally disrupted by repetitive sentence structures in several chapters, and a few unsupported causal claims momentarily",
     "penName": "砚北",
     "title": "History & Social Science Editor",
     "rating": "Recommended"
   },
   "cover": {
-    "file": "cover-27c4770b8408.svg",
+    "file": "cover.svg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
     "generatedAt": "2026-09-21T06:52:31.872Z",
     "textless": false,
+    "profileId": "woodblock-print",
     "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "composerVersion": "cover-composer.v3",
+    "composerTheme": "woodblock-print"
   },
   "chapters": [
     {
@@ -218,8 +243,6 @@
       "units": 3098
     }
   ],
-  "publishedAt": "2026-09-19T09:20:54.801Z",
-  "formFamily": "narrative",
   "topics": {
     "entities": [
       "Charles Ponzi",
@@ -379,5 +402,7 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-21T06:52:31.882Z"
+  "publishedAt": "2026-09-19T09:20:54.801Z",
+  "rerenderedAt": "2026-09-24T00:53:28.102Z",
+  "formFamily": "narrative"
 }

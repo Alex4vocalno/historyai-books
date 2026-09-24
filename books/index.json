@@ -1,5 +1,40 @@
 [
   {
+    "id": "proj-mu7pe7zspzk",
+    "projectId": "proj-mu7pe7zspzk",
+    "releaseId": "rel_20260919092054795_bf6f20d8a5",
+    "title": "Fifty Percent in Ninety Days",
+    "subtitle": "Charles Ponzi, the Boston Post, and the Scheme That Named a Fraud",
+    "language": "en",
+    "workType": "nonfiction",
+    "lengthTier": null,
+    "authorDisplayName": "Liszt Think",
+    "category": "世界史",
+    "tags": [
+      "Ponzi scheme",
+      "Boston history",
+      "financial fraud",
+      "1920s America",
+      "investigative journalism",
+      "世界史"
+    ],
+    "description": "In 1920, an Italian immigrant clerk in Boston promised to double investments in ninety days through postal reply coupons. Within eight months, Charles Ponzi collected fifteen million dollars from tens of thousands of believers, bought a controlling stake in Hanover Trust Company, and ignited a financial mania that consumed the city. Then the ledger cracked. Drawing on Boston Post reporting, federal indictments, bankruptcy accounts, and Ponzi’s own memoir, this narrative reconstructs the scheme’s dizzying ascent and devastating collapse. From the chaotic runs on School Street to the auditor’s damning tally and the reforms that followed, it captures the depositors who reinvested their winnings, the bankers who looked away, and the journalists who exposed an illusion. More than a biography of fraud, this is a portrait of a city seduced by impossible returns and forced to reckon with the cost of belief.",
+    "chapterCount": 28,
+    "editorialScore": {
+      "current": false,
+      "source": "editorial-hub",
+      "score": 88,
+      "method": "median-of-3",
+      "createdAt": "2026-09-19T02:58:18.964Z"
+    },
+    "coverUrl": "books/proj-mu7pe7zspzk/releases/rel_20260919092054795_bf6f20d8a5/cover.svg",
+    "coverTextless": false,
+    "url": "books/proj-mu7pe7zspzk/index.html",
+    "publishedAt": "2026-09-19T09:20:54.801Z",
+    "firstPublishedAt": "2026-09-19T09:20:54.801Z",
+    "visibility": "public"
+  },
+  {
     "id": "proj-mu7443eb2t6",
     "projectId": "proj-mu7443eb2t6",
     "releaseId": "rel_20260919164128916_fbbd09af93",
@@ -1222,41 +1257,6 @@
     "url": "books/proj-mu7pm1repsw/index.html",
     "publishedAt": "2026-09-19T09:26:44.290Z",
     "firstPublishedAt": "2026-09-19T09:26:44.290Z",
-    "visibility": "public"
-  },
-  {
-    "id": "proj-mu7pe7zspzk",
-    "projectId": "proj-mu7pe7zspzk",
-    "releaseId": "rel_20260919092054795_bf6f20d8a5",
-    "title": "Fifty Percent in Ninety Days",
-    "subtitle": "Charles Ponzi, the Boston Post, and the Scheme That Named a Fraud",
-    "language": "en",
-    "workType": "nonfiction",
-    "lengthTier": null,
-    "authorDisplayName": "Liszt Think",
-    "category": "世界史",
-    "tags": [
-      "Ponzi scheme",
-      "Boston history",
-      "financial fraud",
-      "1920s America",
-      "investigative journalism",
-      "世界史"
-    ],
-    "description": "In 1920, an Italian immigrant clerk in Boston promised to double investments in ninety days through postal reply coupons. Within eight months, Charles Ponzi collected fifteen million dollars from tens of thousands of believers, bought a controlling stake in Hanover Trust Company, and ignited a financial mania that consumed the city. Then the ledger cracked. Drawing on Boston Post reporting, federal indictments, bankruptcy accounts, and Ponzi’s own memoir, this narrative reconstructs the scheme’s dizzying ascent and devastating collapse. From the chaotic runs on School Street to the auditor’s damning tally and the reforms that followed, it captures the depositors who reinvested their winnings, the bankers who looked away, and the journalists who exposed an illusion. More than a biography of fraud, this is a portrait of a city seduced by impossible returns and forced to reckon with the cost of belief.",
-    "chapterCount": 28,
-    "editorialScore": {
-      "current": false,
-      "source": "editorial-hub",
-      "score": 88,
-      "method": "median-of-3",
-      "createdAt": "2026-09-19T02:58:18.964Z"
-    },
-    "coverUrl": "books/proj-mu7pe7zspzk/releases/rel_20260919092054795_bf6f20d8a5/cover-27c4770b8408.svg",
-    "coverTextless": false,
-    "url": "books/proj-mu7pe7zspzk/index.html",
-    "publishedAt": "2026-09-19T09:20:54.801Z",
-    "firstPublishedAt": "2026-09-19T09:20:54.801Z",
     "visibility": "public"
   },
   {
