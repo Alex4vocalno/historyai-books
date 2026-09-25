@@ -39,13 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-e03a2cc5c3b1.svg",
+    "file": "cover-c717ee63ff5d.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T06:58:51.064Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T05:52:02.627Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -254,7 +253,7 @@
     }
   ],
   "publishedAt": "2026-08-30T07:29:02.208Z",
-  "rerenderedAt": "2026-09-21T06:58:51.075Z",
+  "rerenderedAt": "2026-09-25T08:01:03.549Z",
   "topics": {
     "entities": [
       "the30"

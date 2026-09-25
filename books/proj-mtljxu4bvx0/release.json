@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-66f0aefb4863.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-04T00:39:05.904Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T06:11:43.818Z",
     "textless": false,
-    "profileId": "fiction-romance-intimate",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "fiction-romance-intimate"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -324,5 +321,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-25T08:01:11.540Z"
 }

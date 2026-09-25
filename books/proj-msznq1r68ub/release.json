@@ -29,13 +29,12 @@
     "createdAt": "2026-08-19T09:14:41.429Z"
   },
   "cover": {
-    "file": "cover-25cd6c37a09a.svg",
+    "file": "cover-3d090b723d02.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-28T08:24:47.707Z",
+    "model": "bytedance-seed/seedream-5-0-lite",
+    "generatedAt": "2026-09-25T05:53:55.306Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -130,7 +129,7 @@
     }
   ],
   "publishedAt": "2026-08-20T00:36:18.837Z",
-  "rerenderedAt": "2026-08-28T08:24:47.736Z",
+  "rerenderedAt": "2026-09-25T08:00:16.982Z",
   "topics": {
     "entities": [
       "西施秘史",

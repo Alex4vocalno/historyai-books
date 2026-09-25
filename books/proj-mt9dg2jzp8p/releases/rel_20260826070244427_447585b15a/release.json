@@ -39,13 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-b323d5054c32.svg",
+    "file": "cover-a348005b1f56.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T08:44:07.555Z",
+    "model": "bytedance-seed/seedream-5-0-lite",
+    "generatedAt": "2026-09-25T06:13:28.423Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -230,7 +229,7 @@
     }
   ],
   "publishedAt": "2026-08-26T07:02:44.437Z",
-  "rerenderedAt": "2026-09-21T08:44:07.570Z",
+  "rerenderedAt": "2026-09-25T08:00:27.386Z",
   "topics": {
     "entities": [
       "养身千年",

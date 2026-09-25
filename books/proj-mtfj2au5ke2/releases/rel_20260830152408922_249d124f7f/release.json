@@ -39,13 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-4ef5f783b294.svg",
+    "file": "cover-cc54796e198a.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T01:54:17.552Z",
+    "model": "bytedance-seed/seedream-5-0-lite",
+    "generatedAt": "2026-09-25T05:46:28.535Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -242,7 +241,7 @@
     }
   ],
   "publishedAt": "2026-08-30T15:24:08.931Z",
-  "rerenderedAt": "2026-09-21T01:54:17.571Z",
+  "rerenderedAt": "2026-09-25T08:01:26.989Z",
   "topics": {
     "entities": [],
     "geo": [],

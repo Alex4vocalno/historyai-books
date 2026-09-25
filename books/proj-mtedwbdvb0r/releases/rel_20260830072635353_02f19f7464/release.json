@@ -39,13 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-d6da56394c50.svg",
+    "file": "cover-c8699db4a018.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-23T08:46:50.524Z",
+    "generatedAt": "2026-09-25T05:53:40.405Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -260,7 +259,7 @@
     }
   ],
   "publishedAt": "2026-08-30T07:26:36.090Z",
-  "rerenderedAt": "2026-09-23T08:46:50.543Z",
+  "rerenderedAt": "2026-09-25T08:01:00.984Z",
   "topics": {
     "entities": [
       "copies"

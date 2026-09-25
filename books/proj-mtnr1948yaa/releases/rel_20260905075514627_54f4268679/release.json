@@ -39,12 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-c7eb3098426d.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-5-0-pro",
-    "generatedAt": "2026-09-05T07:27:26.957Z",
+    "generatedAt": "2026-09-25T06:01:10.538Z",
     "textless": false,
-    "profileId": "portrait-biography"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -310,5 +310,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-25T08:01:21.952Z"
 }

@@ -40,13 +40,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-6b494f0a70f7.svg",
+    "file": "cover-7a077b7259c6.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-22T08:11:27.712Z",
+    "generatedAt": "2026-09-25T05:42:47.665Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -367,5 +366,5 @@
       }
     ]
   },
-  "rerenderedAt": "2026-09-22T08:11:27.735Z"
+  "rerenderedAt": "2026-09-25T08:01:42.415Z"
 }

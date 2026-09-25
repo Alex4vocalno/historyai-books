@@ -39,15 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.svg",
+    "file": "cover-9052dad66f3c.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-04T03:55:15.316Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T06:08:24.044Z",
     "textless": false,
-    "profileId": "epigraphy-rubbing",
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3",
-    "composerTheme": "epigraphy-rubbing"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -215,5 +212,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-25T08:01:08.840Z"
 }

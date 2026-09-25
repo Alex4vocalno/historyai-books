@@ -39,13 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-e61032d6efc8.svg",
+    "file": "cover-ce0ce8159590.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T07:15:09.177Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T05:41:34.893Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -170,7 +169,7 @@
     }
   ],
   "publishedAt": "2026-09-02T12:17:18.119Z",
-  "rerenderedAt": "2026-09-21T07:15:09.190Z",
+  "rerenderedAt": "2026-09-25T08:00:35.181Z",
   "topics": {
     "entities": [
       "电池里的战争",

@@ -39,13 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-21151dbbe716.svg",
+    "file": "cover-5e0fcdbeafeb.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-23T09:13:41.767Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T06:02:56.283Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -231,7 +230,7 @@
   ],
   "publishedAt": "2026-08-27T00:27:42.215Z",
   "formFamily": "narrative",
-  "rerenderedAt": "2026-09-23T09:13:41.797Z",
+  "rerenderedAt": "2026-09-25T08:00:53.403Z",
   "topics": {
     "entities": [
       "龙袍之下",

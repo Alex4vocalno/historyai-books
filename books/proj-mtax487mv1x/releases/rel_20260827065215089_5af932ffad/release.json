@@ -39,13 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-fb5919a10ff5.svg",
+    "file": "cover-2aec730bfc90.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T08:37:12.996Z",
+    "model": "bytedance-seed/seedream-5-0-lite",
+    "generatedAt": "2026-09-25T06:01:14.124Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -231,7 +230,7 @@
   ],
   "illustrations": 13,
   "publishedAt": "2026-08-27T06:52:15.307Z",
-  "rerenderedAt": "2026-09-21T08:37:13.009Z",
+  "rerenderedAt": "2026-09-25T08:00:55.899Z",
   "topics": {
     "entities": [
       "破局",

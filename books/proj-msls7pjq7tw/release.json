@@ -34,13 +34,12 @@
     "manuscriptVersionId": ""
   },
   "cover": {
-    "file": "cover-88f8ae86f217.svg",
+    "file": "cover-a828618c9275.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T02:41:18.129Z",
+    "model": "bytedance-seed/seedream-5-0-lite",
+    "generatedAt": "2026-09-25T06:19:03.247Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -165,5 +164,5 @@
     }
   ],
   "publishedAt": "2026-08-17T10:01:16.073Z",
-  "rerenderedAt": "2026-09-21T02:41:18.143Z"
+  "rerenderedAt": "2026-09-25T07:59:29.920Z"
 }

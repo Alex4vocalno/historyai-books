@@ -39,12 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover.jpg",
+    "file": "cover-d2b208302ecc.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-08-30T06:31:58.306Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T05:48:22.707Z",
     "textless": false,
-    "profileId": "zen-literary-minimal"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -226,5 +226,6 @@
         "asOfYear": null
       }
     ]
-  }
+  },
+  "rerenderedAt": "2026-09-25T08:01:29.573Z"
 }
