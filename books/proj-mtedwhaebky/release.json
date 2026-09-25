@@ -39,10 +39,10 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-6aceb51bece0.jpg",
+    "file": "cover-5cf41e0b5005.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-23T08:42:53.355Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T03:17:09.970Z",
     "textless": false,
     "sourceTextless": false
   },
@@ -271,7 +271,7 @@
     }
   ],
   "publishedAt": "2026-09-02T12:16:25.748Z",
-  "rerenderedAt": "2026-09-23T08:42:53.374Z",
+  "rerenderedAt": "2026-09-25T03:35:29.178Z",
   "formFamily": "narrative",
   "topics": {
     "entities": [

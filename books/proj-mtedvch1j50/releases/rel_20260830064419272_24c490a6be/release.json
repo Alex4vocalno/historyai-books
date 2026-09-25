@@ -39,13 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-444031ffe8b2.svg",
+    "file": "cover-cf113cf60ed1.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T09:07:38.258Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T03:06:32.880Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -266,7 +265,7 @@
     }
   ],
   "publishedAt": "2026-08-30T06:44:19.286Z",
-  "rerenderedAt": "2026-09-21T09:07:38.271Z",
+  "rerenderedAt": "2026-09-25T03:35:15.915Z",
   "topics": {
     "entities": [],
     "geo": [],

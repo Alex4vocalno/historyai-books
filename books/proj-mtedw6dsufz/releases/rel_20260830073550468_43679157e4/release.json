@@ -39,13 +39,12 @@
     "rating": "Editor's notes"
   },
   "cover": {
-    "file": "cover-97421925a7f0.svg",
+    "file": "cover-b664661b182c.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T07:00:26.598Z",
+    "generatedAt": "2026-09-25T03:13:45.830Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -254,7 +253,7 @@
     }
   ],
   "publishedAt": "2026-08-30T07:35:51.534Z",
-  "rerenderedAt": "2026-09-21T07:00:26.609Z",
+  "rerenderedAt": "2026-09-25T03:35:24.052Z",
   "topics": {
     "entities": [
       "TheColdTruth"
