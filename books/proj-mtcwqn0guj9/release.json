@@ -39,13 +39,12 @@
     "rating": "推荐"
   },
   "cover": {
-    "file": "cover-a7d692cdaf5f.svg",
+    "file": "cover-ded87bfa2228.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-22T08:28:16.104Z",
+    "model": "bytedance-seed/seedream-5-0-lite",
+    "generatedAt": "2026-09-25T08:27:07.327Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -243,7 +242,7 @@
   ],
   "publishedAt": "2026-08-29T00:47:13.274Z",
   "formFamily": "narrative",
-  "rerenderedAt": "2026-09-22T08:28:16.121Z",
+  "rerenderedAt": "2026-09-25T08:45:06.092Z",
   "lengthTier": "novel",
   "topics": {
     "entities": [],

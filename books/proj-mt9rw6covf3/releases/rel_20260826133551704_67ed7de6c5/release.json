@@ -39,13 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-9495805a96f4.svg",
+    "file": "cover-f15926fac64b.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-23T09:11:25.912Z",
+    "model": "bytedance-seed/seedream-5-0-pro",
+    "generatedAt": "2026-09-25T08:04:39.252Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -170,7 +169,7 @@
     }
   ],
   "publishedAt": "2026-08-26T13:35:51.712Z",
-  "rerenderedAt": "2026-09-23T09:11:25.933Z",
+  "rerenderedAt": "2026-09-25T08:44:37.182Z",
   "topics": {
     "entities": [
       "养育的算法",

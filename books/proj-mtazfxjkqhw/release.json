@@ -39,13 +39,12 @@
     "rating": "值得一读"
   },
   "cover": {
-    "file": "cover-7e7a2081dabe.svg",
+    "file": "cover-930007e3989a.jpg",
     "provider": "openrouter",
-    "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-23T09:10:21.675Z",
+    "model": "bytedance-seed/seedream-5-0-lite",
+    "generatedAt": "2026-09-25T08:30:58.479Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -171,7 +170,7 @@
   ],
   "publishedAt": "2026-08-27T11:49:48.558Z",
   "formFamily": "explainer",
-  "rerenderedAt": "2026-09-23T09:10:21.696Z",
+  "rerenderedAt": "2026-09-25T08:44:47.523Z",
   "topics": {
     "entities": [
       "算力",

@@ -29,13 +29,12 @@
     "createdAt": "2026-08-20T12:45:48.749Z"
   },
   "cover": {
-    "file": "cover-abefad33c0fb.svg",
+    "file": "cover-9915becb793a.jpg",
     "provider": "openrouter",
     "model": "bytedance-seed/seedream-4.5",
-    "generatedAt": "2026-09-21T08:14:18.239Z",
+    "generatedAt": "2026-09-25T08:18:23.809Z",
     "textless": false,
-    "sourceTextless": true,
-    "composerVersion": "cover-composer.v3"
+    "sourceTextless": false
   },
   "chapters": [
     {
@@ -190,7 +189,7 @@
     }
   ],
   "publishedAt": "2026-08-21T00:24:38.280Z",
-  "rerenderedAt": "2026-09-21T08:14:18.252Z",
+  "rerenderedAt": "2026-09-25T08:44:29.258Z",
   "topics": {
     "entities": [
       "哔哩哔哩",
