@@ -8,35 +8,36 @@
     const visitKey = 'evoron.firstVisit.dismissed';
     try { if (localStorage.getItem(visitKey) || localStorage.getItem(key)) return; }
     catch { return; }
-    const host = document.querySelector('.hero-inner');
-    const writeEntry = document.querySelector('[data-write-entry]');
-    if (!host || !writeEntry) return;
-    const section = document.createElement('section');
+    const section = document.createElement('dialog');
+    if (typeof section.showModal !== 'function') return;
     section.className = 'store-first-visit';
     section.setAttribute('aria-labelledby', 'first-visit-title');
-    section.innerHTML = '<div><h2 id="first-visit-title"></h2><p data-visit-copy></p><nav data-visit-actions><a data-visit-read href="#all-books"></a><a data-visit-write></a><a data-visit-pricing></a></nav></div><button type="button" data-visit-close>&times;</button>';
+    section.setAttribute('aria-describedby', 'first-visit-copy');
+    section.innerHTML = '<header><img src="brand/evoron-mark.png" alt="" width="28" height="28"><span>EVORON AI</span><button type="button" data-visit-close>&times;</button></header><h2 id="first-visit-title"></h2><p id="first-visit-copy" data-visit-copy></p><nav data-visit-actions><a data-visit-read href="#all-books" autofocus></a><a data-visit-write></a></nav>';
     const read = section.querySelector('[data-visit-read]');
     const write = section.querySelector('[data-visit-write]');
-    const pricing = section.querySelector('[data-visit-pricing]');
     const close = section.querySelector('[data-visit-close]');
-    write.href = writeEntry.href;
+    let stopMotion = () => {};
     function translate() {
       const english = document.documentElement.lang.toLowerCase().startsWith('en');
-      section.querySelector('h2').textContent = english ? 'Read freely. Create something new.' : '免费阅读，按需创作';
+      section.querySelector('h2').textContent = english ? 'A world of books. Open to you.' : '让好奇心，自由翻开一本书。';
       section.querySelector('[data-visit-copy]').textContent = english
-        ? 'Books are free to read. AI writing and revision use paid credits, not a reading subscription. Publishing is optional.'
-        : '书城作品免费阅读。AI 写作与编修按积分付费，不是阅读会员；作品由你选择是否公开。';
-      read.textContent = english ? 'Find a book' : '找书读';
-      write.textContent = english ? 'Start creating' : '开始创作';
-      pricing.textContent = english ? 'Writing credit prices' : '了解积分价格';
-      pricing.href = english ? '/pricing-en.html' : '/pricing.html';
+        ? 'Books are free to read. Have a book in mind? Explore AI-assisted creation with paid writing credits.'
+        : '这里的书，免费阅读。也可以从你的一个想法出发，用 AI 创作想读的书；写作服务按积分付费。';
+      read.textContent = english ? 'Start reading' : '开始阅读';
+      write.textContent = english ? 'Explore creating' : '了解创作';
+      write.href = english ? '/about-en.html' : '/about.html';
       close.title = english ? 'Dismiss introduction' : '关闭介绍';
       close.setAttribute('aria-label', close.title);
       section.querySelector('nav').setAttribute('aria-label', english ? 'Get started' : '开始探索');
+      stopMotion();
+      stopMotion = window.EvoronWelcomeMotion?.(section, english) || (() => {});
     }
     function remember() { try { localStorage.setItem(visitKey, '1'); } catch { /* No account changes. */ } }
     function dismiss() {
-      remember(); section.remove(); window.removeEventListener('evoron:language', translate);
+      stopMotion();
+      remember(); section.close(); section.remove(); document.documentElement.classList.remove('store-welcome-open');
+      window.removeEventListener('evoron:language', translate);
     }
     close.onclick = () => { dismiss(); document.querySelector('[data-shelf-search]')?.focus({ preventScroll: true }); };
     read.onclick = () => {
@@ -44,8 +45,14 @@
       const catalog = document.querySelector('#all-books');
       if (catalog) { catalog.tabIndex = -1; catalog.focus({ preventScroll: true }); }
     };
-    write.onclick = remember;
-    translate(); host.prepend(section);
+    write.onclick = dismiss;
+    section.addEventListener('cancel', event => { event.preventDefault(); close.click(); });
+    section.addEventListener('click', event => {
+      const rect = section.getBoundingClientRect();
+      if (event.target === section && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) close.click();
+    });
+    document.body.appendChild(section); section.showModal(); translate();
+    document.documentElement.classList.add('store-welcome-open');
     window.addEventListener('evoron:language', translate);
   }
   firstVisit();

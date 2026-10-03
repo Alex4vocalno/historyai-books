@@ -33,11 +33,12 @@ window.EvoronStoreLanguagePairs=[["设置","Settings"],["全部分类","All cate
     '正在读取书架…': 'Loading shelf…', '重新读取账号': 'Retry account',
     '认识 EvoronAI': 'Meet EvoronAI', '继续阅读': 'Continue reading',
     '发现下一本好书': 'Discover your next read', '浏览书库': 'Browse books', '筛选': 'Filters',
+    '公开作品': 'Published books', '暂无公开作品。': 'No published books yet.',
   })];
   const forward = new Map(pairs.map(([a, b]) => [a.trim(), b.trim()]));
   const reverse = new Map(pairs.map(([a, b]) => [b.trim(), a.trim()]));
   const originals = new WeakMap();
-  const detailSurfaces = ',.book-main .meta,.reader-rating-empty,.rr-count,.rr-notes,.hl-item small,.browse-filters summary';
+  const detailSurfaces = ',.book-main .meta,.reader-rating-empty,.rr-count,.rr-notes,.hl-item small,.browse-filters summary,[data-author-ui]';
   const surfaces = '.sitebar,.description h2,.editor-review h2,.hot-lines h2,.hot-reviews h2,.rv-more,.disclosure-toggle,.book-topics,.chapter-row>span:first-child,.social-stats,.topbar,.m-tabbar,.sec-head,.search-head,.home-tabs,.toolbar,.discovery-filters,.sortseg,.board header,.theme-group h4,.shelf-more,.reco-line,.readers-badge,.cover-hover .start-btn,.shelf-tabs,.shelf-filters,.card .acts,.page-head,.account-overview nav,.book-controls,.stat-cell span,.catalog-head,.store-account-entry,.category-cloud,.catbar,.hot,.foot-brand,.footer [data-store-about],.store-welcome-reopen,[data-continue-label],[data-continue-progress]';
   const excluded = '[translate="no"],textarea,[contenteditable],.book-card h2,.card-author,.cover-art,.book-main h1,.subtitle,.quote-text,.nb-quote,.nb-text';
   let language = window.EvoronLanguage.state().language;

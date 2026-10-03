@@ -124,7 +124,7 @@ html[data-rmode="page"] .flow-inner{height:100%;column-fill:auto;transition:tran
 html[data-rmode="page"] .flow-inner h1{margin-bottom:30px;font-size:26px}
 html[data-rmode="page"] .chapter-nav{display:none}
 .page-indicator{display:none}
-html[data-rmode="page"] .page-indicator{display:block;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:13px;text-align:center}
+html[data-rmode="page"] .page-indicator{display:block;min-height:18px;line-height:18px;margin-top:10px;color:var(--reader-muted);font-family:var(--sans);font-size:13px;text-align:center}
 html[data-rmode="page"] .chapter-drawer{max-height:100%}
 /* v5.73 手机端专项：刘海屏顶栏安全区，翻页视口同步扣除 */
 .reader-bar{padding-top:env(safe-area-inset-top,0px)}
